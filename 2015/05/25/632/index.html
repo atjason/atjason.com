@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>优化Quartz Composer (Origami)的性能 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="StartFragment使用过Quartz Composer(Origami)的朋友会有感觉，这家伙是个耗性能的大户。如果你还不打算切换工具、或者离不开QC强大的交互设计功能，就试试下面介绍的优化建议吧。主要的调整是在系统偏好设置中进行：Viewer (Preferences &amp;gt; Viewer)降低帧率*   这应该是最有效的方式。可以在开发过程中设置低的帧率，在演示过程中再将其调高 具体">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="优化Quartz Composer (Origami)的性能">
+<meta property="og:url" content="http://yoursite.com/2015/05/25/632/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="StartFragment使用过Quartz Composer(Origami)的朋友会有感觉，这家伙是个耗性能的大户。如果你还不打算切换工具、或者离不开QC强大的交互设计功能，就试试下面介绍的优化建议吧。主要的调整是在系统偏好设置中进行：Viewer (Preferences &amp;gt; Viewer)降低帧率*   这应该是最有效的方式。可以在开发过程中设置低的帧率，在演示过程中再将其调高 具体">
+<meta property="og:image" content="https://p.ilib.io/cn/rk9mj.jpg">
+<meta property="og:updated_time" content="2016-12-06T04:43:09.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="优化Quartz Composer (Origami)的性能">
+<meta name="twitter:description" content="StartFragment使用过Quartz Composer(Origami)的朋友会有感觉，这家伙是个耗性能的大户。如果你还不打算切换工具、或者离不开QC强大的交互设计功能，就试试下面介绍的优化建议吧。主要的调整是在系统偏好设置中进行：Viewer (Preferences &amp;gt; Viewer)降低帧率*   这应该是最有效的方式。可以在开发过程中设置低的帧率，在演示过程中再将其调高 具体">
+<meta name="twitter:image" content="https://p.ilib.io/cn/rk9mj.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-632" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/05/25/632/" class="article-date">
+  <time datetime="2015-05-25T09:04:10.000Z" itemprop="datePublished">2015-05-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/PM/">PM</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      优化Quartz Composer (Origami)的性能
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>StartFragment使用过Quartz Composer(Origami)的朋友会有感觉，这家伙是个耗性能的大户。如果你还不打算切换工具、或者离不开QC强大的交互设计功能，就试试下面介绍的优化建议吧。</p><p>主要的调整是在系统偏好设置中进行：</p><p><a href="https://p.ilib.io/cn/6zxqv.jpg" target="_blank" rel="external"><img src="https://p.ilib.io/cn/rk9mj.jpg" alt="Quartz Composer设置"></a></p><p>Viewer (Preferences &gt; Viewer)</p><ul><li><p>降低帧率</p><pre><code>*   这应该是最有效的方式。可以在开发过程中设置低的帧率，在演示过程中再将其调高
+</code></pre><ul><li>具体的，可将&quot;Maximum rendering frame rate&quot;调低至10，演示时可调至&quot;Unlimited&quot;</li></ul></li><li><p>降低Viewer窗口的尺寸</p><pre><code>*   这个没有严格的依据，只是根据心理上的理解，窗体小、执行动画时需要重绘的面积小，需要消耗的性能也少
+</code></pre></li></ul><p>Editor</p><ul><li><p>取消阴影</p><pre><code>*   猜想可以降低绘制阴影的消
+</code></pre></li><li><p>取消网络线</p><pre><code>*   虽然网络线可以帮助在视觉上对齐，但实际上吸附的操作还是通过&amp;quot;Align Nodes&amp;quot;实现的，所以可以取消网络
+</code></pre></li><li><p>关闭Patch的Render</p><pre><code>*   也即，在不需要展示某些Patch时，暂时关闭这些Patch的Render，等需要时再打开
+</code></pre></li></ul><p>注意：在调整过程中，可以同时打开Activity Monitor，观察调整前后，在Viewer中操作时CPU使用率的变化。</p><p>终极方案：关闭Viewer</p><pre><code>熟练使用快捷键，在需要查看时使用⌘+R支持Viewer，不需要进使用⌘+.关闭Viewer
+</code></pre><p>EndFragment</p>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/05/25/632/" data-id="cjmo6t1pt003m3aje6gvbin28" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2014/09/05/603/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          照片管理调查结果分析
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/05/25/629/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Origami之于滴答清单—添加任务的交互</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

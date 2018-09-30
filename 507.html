@@ -1,0 +1,1012 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next mist" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<link href="https://cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Jason,博客" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jason" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="不知不觉间，这两天网站已经搬了再次家了，可谓飘洋过海、翻山越岭，这里小记下 AWS之前网站是搭建上AWS上。提起Amazon AWS这个占据一半以上服务器市场的老大，圈内人士应该无人不知。当时选择AWS的原因很简单：免费。财大气粗的Amazon为了吸引更多的人使用AWS，允许新用户免费使用一年。目前这个活动依然继续：http://aws.amazon.com/free/ 就我的使用体验来说，AWS">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="网站搬家小记">
+<meta property="og:url" content="https://atjason.com/507.html">
+<meta property="og:site_name" content="Jason">
+<meta property="og:description" content="不知不觉间，这两天网站已经搬了再次家了，可谓飘洋过海、翻山越岭，这里小记下 AWS之前网站是搭建上AWS上。提起Amazon AWS这个占据一半以上服务器市场的老大，圈内人士应该无人不知。当时选择AWS的原因很简单：免费。财大气粗的Amazon为了吸引更多的人使用AWS，允许新用户免费使用一年。目前这个活动依然继续：http://aws.amazon.com/free/ 就我的使用体验来说，AWS">
+<meta property="og:updated_time" content="2016-12-06T04:43:10.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="网站搬家小记">
+<meta name="twitter:description" content="不知不觉间，这两天网站已经搬了再次家了，可谓飘洋过海、翻山越岭，这里小记下 AWS之前网站是搭建上AWS上。提起Amazon AWS这个占据一半以上服务器市场的老大，圈内人士应该无人不知。当时选择AWS的原因很简单：免费。财大气粗的Amazon为了吸引更多的人使用AWS，允许新用户免费使用一年。目前这个活动依然继续：http://aws.amazon.com/free/ 就我的使用体验来说，AWS">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: false,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://atjason.com/507.html"/>
+
+
+
+
+
+  <title>网站搬家小记 | Jason</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-26569268-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jason</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">独立开发，自由职业</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/507.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                网站搬家小记
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-05T09:35:15+08:00">
+                2014-07-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>不知不觉间，这两天网站已经搬了再次家了，可谓飘洋过海、翻山越岭，这里小记下</p>
+<h1 id="AWS"><a href="#AWS" class="headerlink" title="AWS"></a>AWS</h1><p>之前网站是搭建上AWS上。提起Amazon AWS这个占据一半以上服务器市场的老大，圈内人士应该无人不知。当时选择AWS的原因很简单：免费。财大气粗的Amazon为了吸引更多的人使用AWS，允许新用户免费使用一年。目前这个活动依然继续：<a href="http://aws.amazon.com/free/" target="_blank" rel="external">http://aws.amazon.com/free/</a></p>
+<p>就我的使用体验来说，AWS最大的好处就是稳定，没有碰到过网站不能访问的时候。最大的问题就是慢，一是后台管理页面打开比较慢，基本要翻墙速度才快；二是网站在国内访问速度一般（我的是在日本，据说新加坡的节点会快些），每次进入后台写点什么都要等上半天，可能不同地区的国内用户打开时速度也不见得快</p>
+<p>这不，免费的AWS要到期了，是时候考虑换一个快点的主机</p>
+<p>more</p>
+<h1 id="国内云主机"><a href="#国内云主机" class="headerlink" title="国内云主机"></a>国内云主机</h1><p>为了速度，首先把目光移到国内云主机。经过简单的比较，选择了阿里云主机。我承认，一定程度上是被“阿里”这个牌子给吸引过去的，虽然这是一家什么业务都涉足、经常不务正业的公司</p>
+<h1 id="阿里云"><a href="#阿里云" class="headerlink" title="阿里云"></a>阿里云</h1><p>阿里云为了吸引用户，也有5天的试用机会，不过还要申请，真是小家子气。申请也就罢了，竟然默认是在青岛、而不给用户选择机会；估计是为了给青岛的节点增加人气、降低成本。可是，这也太粗暴了，他也不想想，一旦用得爽了、在服务器上花了大把时间配置后，又需要在杭州等其他节点创建服务器时怎么办？</p>
+<p>在一边骂这个脑残、或者说为了商业利益不惜伤害用户利益的做法，一边花钱买了一个月的杭州主机，省得以后真的使用时浪费之前的时间。这里有个插曲，阿里云为了吸引用户，新注册用户在回答几个白痴问题后就可以得到20元代金券。好吧，为了这点钱，我还是屁颠屁颠得回答了问题，35元买了一个月乞丐版。创建主机后第一次访问、配置什么的没什么可说的，一切顺利</p>
+<h1 id="备案"><a href="#备案" class="headerlink" title="备案"></a>备案</h1><p>接下来便是万恶的备案。什么是备案？简单得说，政府默认你开网站一定是要干坏事的，那么要开网站首先你要到政府那登记，把你的包括身份证在内的一切信息登记在册，之后一旦你干坏事，很容易就可以把你抓走。什么？执政为民？为人民服务？为人民谋福利？我绝逼不信备案这事给站长带来了什么福利</p>
+<p>备案之烦琐简直令人发指，即使是阿里云这种可以代备案的，依然有超过18页的帮助文档：<a href="http://help.aliyun.com/view/13445871.html" target="_blank" rel="external">http://help.aliyun.com/view/13445871.html</a>。好吧，硬着头皮我就上了。其间复杂就不提了，就提个网站名称这一点，其中一条规则是“网站名称不能以纯数字或纯英文命名”。首先不说这句话的漏洞，我纯外星语行吗？好吧，既然咱生活在汉语国家，这条我认。想了半天给自己原来叫“Jason”的名称改为“Jason的果园”，带上其他亲笔签名等信息我就提交了</p>
+<p>一天后，阿里云初审没过，理由如下：</p>
+<p>“您好，备案信息中网站名称“IT顾问 Jason的果园”填写不正确，个人性质的网站名称不能涉及企业、行业信息，不能以域名命名，不能涉及地名，请您修改。 2：根据工信部规定未备案成功的网站域名禁止进行绑定访问，网站域名：“atjason.com”未备案成功，现却能访问网站，请您在未备案成功暂停域名解析绑定，以方便为您处理，谢谢您的配合。”</p>
+<p>看完气不打一处来。经过深深的忧虑之后我毅然决定不再继续献媚政府，凭什么我自己的东西取名还要你同意？我自己的网站能不能访问还要你批准？批你妹，哥不跟你玩了</p>
+<h1 id="国外云主机"><a href="#国外云主机" class="headerlink" title="国外云主机"></a>国外云主机</h1><p>接下来自然转回不需要备案的国外云主机。期间阿里云的客服提过，他们在香港也有主机，而且强调不需要备案哦，可惜价格有些高。我之前一直有印象的就是Linode，在网上一番搜索、比较后，还是决定用Linode</p>
+<h1 id="Linode"><a href="#Linode" class="headerlink" title="Linode"></a>Linode</h1><p>乞丐版价格比阿里云稍贵，不过配置要比其强很多：内存是其一倍、网速是其N倍、硬盘速度是其N倍。有个插曲是，Linode促销搞充5美元送50美元的活动，就在我注册的前一天结束，心中为50美元默哀5分钟……</p>
+<p>Linode一直是主机类中的高大上，价格高、服务好。这次能把价格降到$10每月、还搞大力度的促销，着实不易。除了性能，Linode在主机后台服务上做得也很好。具体不多说，只说一点：备份。Linode可以很容易得给主机备份、不需要关机，简直是无痛。而在阿里云上我压根就没看到备份这俩字。当然，AWS也是支持镜像</p>
+<h1 id="AMH"><a href="#AMH" class="headerlink" title="AMH"></a>AMH</h1><p>在网站搬家中，其实功劳最大的是AMH。什么是AMH？简单得说，“国内首个免费开源虚拟主机面板。”更多的，到其官网去了解吧：<a href="http://www.amysql.com/AMH.htm" target="_blank" rel="external">http://www.amysql.com/AMH.htm</a></p>
+<p>之前在AWS上的多个网站是通过AWS搭建的，这次搬到Linode后，安装好AMH，只需要一个命令，之前所有的东西就全回来了，注意，是全回来了，包括数据库、虚拟网站、各种配置……太方便了，我忍不住去给他们捐点小钱，却发现现在通道关闭了，以后还是会捐的</p>
+<p>据说现在在开发更好用的新版本，期待中</p>
+<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>好了，说了这么多，其实最想说的是，做网站最重要的是内容。站长大多在后台技术上不那么专业，花在这些外围事情上的时间应当越少越好（花点钱也是应该的），这样才能更专注得做好内容。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/512.html" rel="next" title="路由器折腾小记">
+                <i class="fa fa-chevron-left"></i> 路由器折腾小记
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/501.html" rel="prev" title="尝试、沉淀、思考">
+                尝试、沉淀、思考 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="https://ohpsctde4.qnssl.com/ezw8l.jpg"
+               alt="Jason" />
+          <p class="site-author-name" itemprop="name">Jason</p>
+           
+              <p class="site-description motion-element" itemprop="description">独立开发，自由职业</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">1128</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/atjason" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/hereisjason" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/atjasonzone" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://toolinbox.net/" title="Toolinbox" target="_blank">Toolinbox</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#AWS"><span class="nav-number">1.</span> <span class="nav-text">AWS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#国内云主机"><span class="nav-number">2.</span> <span class="nav-text">国内云主机</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#阿里云"><span class="nav-number">3.</span> <span class="nav-text">阿里云</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#备案"><span class="nav-number">4.</span> <span class="nav-text">备案</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#国外云主机"><span class="nav-number">5.</span> <span class="nav-text">国外云主机</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Linode"><span class="nav-number">6.</span> <span class="nav-text">Linode</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#AMH"><span class="nav-number">7.</span> <span class="nav-text">AMH</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#小结"><span class="nav-number">8.</span> <span class="nav-text">小结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2011 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jason</span>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://atjason.com/507.html';
+          this.page.identifier = '507.html';
+          this.page.title = '网站搬家小记';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://atjason.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      $('#local-search-input').focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            var resultItems = [];
+            if (this.value.trim().length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCountInArticle = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCountInArticle = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  var resultItem = '';
+
+                  function highlightKeyword(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+
+                    var matchText = text.substring(start, end);
+                    var matchResult = [];
+                    var prevEnd = 0;
+                    while (position + word.length <= end && index.length != 0) {
+
+                      // highlight keyword
+
+                      var wordBegin = position - start;
+                      var wordEnd = position - start + word.length;
+                      matchResult.push(matchText.substring(prevEnd, wordBegin));
+                      matchResult.push("<b class=\"search-keyword\">" + matchText.substring(wordBegin, wordEnd) + "</b>");
+
+                      // move to next position of hit
+
+                      index.pop();
+                      prevEnd = wordEnd;
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (prevEnd > position - start) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    matchResult.push(matchText.substring(prevEnd));
+                    return matchResult.join('');
+                  }
+
+                  // sort index by position of keyword
+
+                  indexOfTitle.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  indexOfContent.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  // highlight title
+
+                  if (indexOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, 0, title.length, indexOfTitle) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  // highlight content
+
+                  var resultUpperBound = parseInt(1);
+                  var withoutUpperBound = false;
+                  if (resultUpperBound === -1) {
+                    withoutUpperBound = true;
+                  }
+                  var currentResultNum = 0;
+                  while (indexOfContent.length != 0 && (withoutUpperBound || (currentResultNum < resultUpperBound))) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                    "<p class=\"search-result\">" + highlightKeyword(content, start, end, indexOfContent) +
+                    "...</p>" + "</a>";
+                    currentResultNum++;
+                  }
+                  resultItem += "</li>";
+                  resultItems.push({item: resultItem, hitCount: hitCountInArticle, id: resultItems.length});
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.hitCount != resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultLeft.id - resultRight.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result, i) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              $resultContent.innerHTML = searchResultList;
+            }
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

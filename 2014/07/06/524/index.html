@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Netgear WNDR3800 WPS按钮切换LED灯 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Netgear WNDR3800前面板的灯看起来还是挺上档次的，不过放在客厅一直闪，总觉得晃眼，故而准备使用前面板的WPS按钮来控制LED灯的亮灭。Shell脚本创建/root/led.sh脚本，内容如下：1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Netgear WNDR3800 WPS按钮切换LED灯">
+<meta property="og:url" content="http://yoursite.com/2014/07/06/524/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="Netgear WNDR3800前面板的灯看起来还是挺上档次的，不过放在客厅一直闪，总觉得晃眼，故而准备使用前面板的WPS按钮来控制LED灯的亮灭。Shell脚本创建/root/led.sh脚本，内容如下：1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253">
+<meta property="og:updated_time" content="2016-12-06T04:43:09.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Netgear WNDR3800 WPS按钮切换LED灯">
+<meta name="twitter:description" content="Netgear WNDR3800前面板的灯看起来还是挺上档次的，不过放在客厅一直闪，总觉得晃眼，故而准备使用前面板的WPS按钮来控制LED灯的亮灭。Shell脚本创建/root/led.sh脚本，内容如下：1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-524" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/07/06/524/" class="article-date">
+  <time datetime="2014-07-06T07:44:46.000Z" itemprop="datePublished">2014-07-06</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/IT/">IT</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Netgear WNDR3800 WPS按钮切换LED灯
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Netgear WNDR3800前面板的灯看起来还是挺上档次的，不过放在客厅一直闪，总觉得晃眼，故而准备使用前面板的WPS按钮来控制LED灯的亮灭。</p><h1 id="Shell脚本"><a href="#Shell脚本" class="headerlink" title="Shell脚本"></a>Shell脚本</h1><p>创建/root/led.sh脚本，内容如下：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="comment"># const</span></div><div class="line">ENABLE=<span class="string">"enable"</span></div><div class="line">DISABLE=<span class="string">"disable"</span></div><div class="line">TOGGLE=<span class="string">"toggle"</span></div><div class="line"></div><div class="line"><span class="comment"># read parameter</span></div><div class="line">ope=</div><div class="line"><span class="keyword">while</span> <span class="built_in">getopts</span> <span class="string">"edt"</span> arg</div><div class="line"><span class="keyword">do</span></div><div class="line">        <span class="keyword">case</span> <span class="variable">$arg</span> <span class="keyword">in</span></div><div class="line">             e)</div><div class="line">                ope=<span class="variable">$ENABLE</span></div><div class="line">		;;</div><div class="line">             d)</div><div class="line">                ope=<span class="variable">$DISABLE</span></div><div class="line">                ;;</div><div class="line">             t)</div><div class="line">                ope=<span class="variable">$TOGGLE</span></div><div class="line">		;;</div><div class="line">             ?)</div><div class="line">            	<span class="built_in">echo</span> <span class="string">"unknown argument"</span></div><div class="line">        	<span class="built_in">exit</span> 1</div><div class="line">        	;;</div><div class="line">        <span class="keyword">esac</span></div><div class="line"><span class="keyword">done</span></div><div class="line"></div><div class="line"><span class="comment"># check operator</span></div><div class="line"><span class="keyword">if</span> [[ -z <span class="variable">$ope</span> ]]; <span class="keyword">then</span></div><div class="line">        <span class="built_in">echo</span> <span class="string">"Miss operator!"</span></div><div class="line">	<span class="built_in">exit</span> 1</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$TOGGLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># read current led status</span></div><div class="line">        cur_state=`swconfig dev rtl8366s port 1 get led`</div><div class="line">	</div><div class="line">	<span class="keyword">if</span> [ <span class="string">"<span class="variable">$cur_state</span>"</span> == <span class="string">"0"</span> ]; <span class="keyword">then</span></div><div class="line">		ope=<span class="variable">$ENABLE</span></div><div class="line">	<span class="keyword">else</span></div><div class="line">		ope=<span class="variable">$DISABLE</span></div><div class="line">	<span class="keyword">fi</span></div><div class="line"><span class="keyword">fi</span> </div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># check command</span></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$DISABLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># turn on power green led                                           </span></div><div class="line">        <span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:green\:power/brightness         </div><div class="line">        <span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:orange\:power/brightness	</div><div class="line"></div><div class="line">	<span class="comment"># turn off all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	swconfig dev rtl8366s port 1 <span class="built_in">set</span> led 0</div><div class="line">	swconfig dev rtl8366s port 2 <span class="built_in">set</span> led 0</div><div class="line">	</div><div class="line">	<span class="comment"># USB</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:green\:usb/brightness</div><div class="line"></div><div class="line">	<span class="comment"># 2.4GHz</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/ath9k-phy0/brightness</div><div class="line">	<span class="comment"># 5GHz</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/ath9k-phy1/brightness</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$ENABLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># turn on power green led</span></div><div class="line">	<span class="built_in">echo</span> 128 &gt; /sys/class/leds/netgear\:green\:power/brightness</div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:orange\:power/brightness</div><div class="line"></div><div class="line">	<span class="comment"># turn off all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	<span class="comment"># turn on all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	swconfig dev rtl8366s port 1 <span class="built_in">set</span> led 6</div><div class="line">	swconfig dev rtl8366s port 2 <span class="built_in">set</span> led 9</div><div class="line">                      </div><div class="line">        <span class="comment"># USB                                            </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/netgear\:green\:usb/brightness  </div><div class="line">                                 </div><div class="line">        <span class="comment"># 2.4GHz                                                   </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/ath9k-phy0/brightness             </div><div class="line">        <span class="comment"># 5GHz                                                    </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/ath9k-phy1/brightness </div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure><p>目前这一脚本中控制全部LED灯：电源、2.4GHz、5GHz、USB、WAN、LAN</p><p>测试脚本是否正常工作</p><ul><li>点亮LED灯 <code>/root/led.sh -e</code></li><li>熄灭LED灯 <code>/root/led.sh -d</code></li><li>切换LED灯 <code>/root/led.sh -t</code></li></ul><h1 id="接入按钮事件"><a href="#接入按钮事件" class="headerlink" title="接入按钮事件"></a>接入按钮事件</h1><p>在/etc/hotplug.d位置创建一个目录，名为button，然后在/etc/hotplug.d/button下创建名为01-radio-toggle的文件</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$BUTTON</span>"</span> = <span class="string">"wps"</span> ] &amp;&amp; [ <span class="string">"<span class="variable">$ACTION</span>"</span> = <span class="string">"pressed"</span> ]; <span class="keyword">then</span></div><div class="line">        ( sleep 1; /root/led.sh -t ) &amp;</div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure><p>测试：按下WPS按钮就可以切换前面板中的部分LED灯了</p><h1 id="开机设置默认值"><a href="#开机设置默认值" class="headerlink" title="开机设置默认值"></a>开机设置默认值</h1><p>如果开机就希望LED灯熄灭，可以使用crontab：#crontab -e</p><p>添加如下命令</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># turn off led</span></div><div class="line">@reboot /root/led.sh <span class="_">-d</span></div></pre></td></tr></table></figure><p>参考</p><ul><li><a href="http://wiki.openwrt.org/toh/netgear/wndr3700" target="_blank" rel="external">http://wiki.openwrt.org/toh/netgear/wndr3700</a></li><li><a href="http://wiki.openwrt.org/doc/uci/system" target="_blank" rel="external">http://wiki.openwrt.org/doc/uci/system</a></li><li><a href="http://blog.xieyc.com/how-to-setup-after-upgrading-netgear-wndr3700-to-openwrt/" target="_blank" rel="external">http://blog.xieyc.com/how-to-setup-after-upgrading-netgear-wndr3700-to-openwrt/</a></li></ul>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2014/07/06/524/" data-id="cjmo6t1i8000u3ajex2ylfbuy" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2014/07/05/519/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Radxa折腾小记
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/07/07/545/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">在Linode Ubuntu 14.04 64位系统中安装AMH碰到的问题及解决办法</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

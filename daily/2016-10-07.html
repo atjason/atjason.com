@@ -1,0 +1,1026 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next mist" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<link href="https://cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Jason,博客" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jason" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…  macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪… 就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1007 - iPic + Swift 3">
+<meta property="og:url" content="https://atjason.com/daily/2016-10-07.html">
+<meta property="og:site_name" content="Jason">
+<meta property="og:description" content="我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…  macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪… 就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。">
+<meta property="og:image" content="https://ohpsctde4.qnssl.com/n473i.jpg">
+<meta property="og:image" content="https://ohpsctde4.qnssl.com/hmngf.jpg">
+<meta property="og:image" content="https://ohpsctde4.qnssl.com/gdwow.png">
+<meta property="og:updated_time" content="2017-04-23T14:39:17.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="1007 - iPic + Swift 3">
+<meta name="twitter:description" content="我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…  macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪… 就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。">
+<meta name="twitter:image" content="https://ohpsctde4.qnssl.com/n473i.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: false,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://atjason.com/daily/2016-10-07.html"/>
+
+
+
+
+
+  <title>1007 - iPic + Swift 3 | Jason</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-26569268-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jason</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">独立开发，自由职业</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-07.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                1007 - iPic + Swift 3
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-07T19:52:25+08:00">
+                2016-10-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…</p>
+<p><img src="https://ohpsctde4.qnssl.com/n473i.jpg" alt=""></p>
+<p>macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪…</p>
+<p>就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。</p>
+<a id="more"></a>
+<h1 id="Swift-3-0-Language-Changes"><a href="#Swift-3-0-Language-Changes" class="headerlink" title="Swift 3.0 Language Changes"></a>Swift 3.0 Language Changes</h1><p>Swift 官网有 <a href="https://swift.org/blog/swift-3-0-released/" target="_blank" rel="external">关于 Swift 3.0 变化的介绍</a>，其中列举了 100 多项变化。壮着胆子看了一遍，实在是水平有限，只是其中几项算是彻底搞懂，其他也就有个感觉。</p>
+<p>此路不通。</p>
+<h1 id="XCode-转换工程"><a href="#XCode-转换工程" class="headerlink" title="XCode 转换工程"></a>XCode 转换工程</h1><p>于是，撸起袖子上，直接让 XCode 转换工程，升到 Swift 3</p>
+<p>这一下，代码是炸了锅了。没有一个文件不修改，简直惨不忍睹；直接编译通过就更别想了。本来还想仔细看看所有变动，借机理解下 Swift 3 的变化。结果，看着看着，看着那似乎永远看不完的变化，放弃了。努力编译通过，提交了。</p>
+<p><em>苦难就是从这里开始的。</em></p>
+<p><strong>忠告</strong>：后来的朋友，如果有时间的话，还是建议一个个变化看过去。不懂、或者需要较多时间消化的，建议先打个标记。等一遍快速看完后，再来一遍、一遍又一遍。总之，这是你理解 Swift 3 变化的最好时机，切记。</p>
+<p>说回来，由于没有仔细看每一处变化，导致心里很慌：不知道哪有雷啊。虽然单元测试也努力跑通了，但就是跑通的太快了，反而更慌了。</p>
+<h1 id="深坑在细节"><a href="#深坑在细节" class="headerlink" title="深坑在细节"></a>深坑在细节</h1><p>『大体能跑通』，这其实是很不靠谱的。需要花费大量时间搞定的，可能是其中某一个细节问题。</p>
+<p>我遇到的一个是：base64 编码。现象是 iPic 怎么都不能上传图片至 Flickr，错误原因是生成的 Token 错误。可之前就是这么干的呀？最痛的地方在于， Flickr 生成 Token 是个巨复杂的过程（下图稍微感受下），其中每个步骤都可能出错，这就意味着每个步骤都要仔细过；偏偏之前偷懒这部分单元测试不全（哎…）于是，开始了漫长的调试。</p>
+<p><img src="https://ohpsctde4.qnssl.com/hmngf.jpg" alt=""></p>
+<p>最后的原因是，之前的 base64 相关的编码结果中，<code>:</code> 是被转义的，而新的代码（即被 XCode 转换、而我没仔细看的代码），貌似 <code>:</code> 没有被转义，导致 Token 无效（未严格验证原因，总之解决问题了…）</p>
+<p><strong>忠告</strong>：单元测试、自动化测试不能偷懒。99.99% 的情况下，我们做不到测试驱动开发，但还是要在开发每个功能后、在对这个功能最熟悉的时候，补全单元测试、测试用例。</p>
+<p><strong>小技巧</strong>：在功能完成后，写单元测试其实还算简单。先把单元测试的架子搭好，正确值留白；然后直接运行，肯定会出错。关键，XCode 会给出正确值。这时，只要把 XCode 的值复制到正确值即可，相对还算轻松。</p>
+<h1 id="简单最好"><a href="#简单最好" class="headerlink" title="简单最好"></a>简单最好</h1><p>代码逻辑、架构什么的，越简单越好。</p>
+<p>一方面，逻辑越简单，漏洞越少。进而，测试用例什么的都少。现在完整测试一遍 iPic 要吐半升血…</p>
+<p>另一方面，简单容易理解啊。等过几个月再看当初的代码，理解上一定是吃力的。</p>
+<p><strong>感受</strong>：为了简单，可以放弃一个边缘 Case；有些错误，就算知道也不一定改，因为改了会让整体变复杂、用户却不一定能得到好处，其实并不划算。</p>
+<h1 id="稳定大于效率"><a href="#稳定大于效率" class="headerlink" title="稳定大于效率"></a>稳定大于效率</h1><p>如果一种方案开发效率、运行效率高，但维护成本也高；另一种方案刚好相反，现在的我会选择后一种。宁愿低效也不愿背上沉重的维护成本。</p>
+<p>这话说出去可能脸红，但总好过程序发布几个月后发现问题，而自己那时却没时间修复、或者已经看不懂以前的代码，要好。</p>
+<h1 id="说了这么多，还是怂了"><a href="#说了这么多，还是怂了" class="headerlink" title="说了这么多，还是怂了"></a>说了这么多，还是怂了</h1><p>虽然仔细的测试了、虽然没发现什么严重的问题，但还是不敢上架 macOS App Store，还是自己多用几天，也扔出来让大伙拍拍砖：</p>
+<p><a href="http://toolinbox.net/html/DownloadiPic.html" target="_blank" rel="external">下载适配 Swift 3 的图床神器 iPic</a></p>
+<h1 id="那个啥，啥是-iPic？"><a href="#那个啥，啥是-iPic？" class="headerlink" title="那个啥，啥是 iPic？"></a>那个啥，啥是 iPic？</h1><p>哦，这事啊；</p>
+<p>iPic 可以自动上传图片、保存 Markdown 链接，给你前所未有的插入体验（图片）；支持微博、七牛、又拍、阿里云、S3、Imgur、Flickr 等一票图床。总之各种爽，谁用谁知道。</p>
+<p>具体看 <a href="http://toolinbox.net/iPic/" target="_blank" rel="external">图床神器 iPic 操作动画</a></p>
+<p><img src="https://ohpsctde4.qnssl.com/gdwow.png" alt=""></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/daily/2016-10-08.html" rel="next" title="1008 - 喜欢打磨产品的感觉">
+                <i class="fa fa-chevron-left"></i> 1008 - 喜欢打磨产品的感觉
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/daily/2016-10-06.html" rel="prev" title="1006 - 云里雾里写代码">
+                1006 - 云里雾里写代码 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="https://ohpsctde4.qnssl.com/ezw8l.jpg"
+               alt="Jason" />
+          <p class="site-author-name" itemprop="name">Jason</p>
+           
+              <p class="site-description motion-element" itemprop="description">独立开发，自由职业</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">1128</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/atjason" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/hereisjason" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/atjasonzone" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://toolinbox.net/" title="Toolinbox" target="_blank">Toolinbox</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Swift-3-0-Language-Changes"><span class="nav-number">1.</span> <span class="nav-text">Swift 3.0 Language Changes</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#XCode-转换工程"><span class="nav-number">2.</span> <span class="nav-text">XCode 转换工程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#深坑在细节"><span class="nav-number">3.</span> <span class="nav-text">深坑在细节</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#简单最好"><span class="nav-number">4.</span> <span class="nav-text">简单最好</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#稳定大于效率"><span class="nav-number">5.</span> <span class="nav-text">稳定大于效率</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#说了这么多，还是怂了"><span class="nav-number">6.</span> <span class="nav-text">说了这么多，还是怂了</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#那个啥，啥是-iPic？"><span class="nav-number">7.</span> <span class="nav-text">那个啥，啥是 iPic？</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2011 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jason</span>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://atjason.com/daily/2016-10-07.html';
+          this.page.identifier = 'daily/2016-10-07.html';
+          this.page.title = '1007 - iPic + Swift 3';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://atjason.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      $('#local-search-input').focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            var resultItems = [];
+            if (this.value.trim().length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCountInArticle = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCountInArticle = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  var resultItem = '';
+
+                  function highlightKeyword(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+
+                    var matchText = text.substring(start, end);
+                    var matchResult = [];
+                    var prevEnd = 0;
+                    while (position + word.length <= end && index.length != 0) {
+
+                      // highlight keyword
+
+                      var wordBegin = position - start;
+                      var wordEnd = position - start + word.length;
+                      matchResult.push(matchText.substring(prevEnd, wordBegin));
+                      matchResult.push("<b class=\"search-keyword\">" + matchText.substring(wordBegin, wordEnd) + "</b>");
+
+                      // move to next position of hit
+
+                      index.pop();
+                      prevEnd = wordEnd;
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (prevEnd > position - start) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    matchResult.push(matchText.substring(prevEnd));
+                    return matchResult.join('');
+                  }
+
+                  // sort index by position of keyword
+
+                  indexOfTitle.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  indexOfContent.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  // highlight title
+
+                  if (indexOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, 0, title.length, indexOfTitle) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  // highlight content
+
+                  var resultUpperBound = parseInt(1);
+                  var withoutUpperBound = false;
+                  if (resultUpperBound === -1) {
+                    withoutUpperBound = true;
+                  }
+                  var currentResultNum = 0;
+                  while (indexOfContent.length != 0 && (withoutUpperBound || (currentResultNum < resultUpperBound))) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                    "<p class=\"search-result\">" + highlightKeyword(content, start, end, indexOfContent) +
+                    "...</p>" + "</a>";
+                    currentResultNum++;
+                  }
+                  resultItem += "</li>";
+                  resultItems.push({item: resultItem, hitCount: hitCountInArticle, id: resultItems.length});
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.hitCount != resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultLeft.id - resultRight.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result, i) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              $resultContent.innerHTML = searchResultList;
+            }
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>在Radxa上安装Seafile | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="#什么是Seafile?  Seafile是下一代的开源云存储，可以更好的文件同步，隐私保护和团队协作功能。要了解更多信息，请访问其[官网](http://seafile.com) #安装前置条件 sudo apt-get updatesudo apt-get install python2.7 python-setuptools python-simplejson python-imaging">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="在Radxa上安装Seafile">
+<meta property="og:url" content="http://yoursite.com/2014/07/20/586/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="#什么是Seafile?  Seafile是下一代的开源云存储，可以更好的文件同步，隐私保护和团队协作功能。要了解更多信息，请访问其[官网](http://seafile.com) #安装前置条件 sudo apt-get updatesudo apt-get install python2.7 python-setuptools python-simplejson python-imaging">
+<meta property="og:updated_time" content="2016-12-06T04:43:10.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="在Radxa上安装Seafile">
+<meta name="twitter:description" content="#什么是Seafile?  Seafile是下一代的开源云存储，可以更好的文件同步，隐私保护和团队协作功能。要了解更多信息，请访问其[官网](http://seafile.com) #安装前置条件 sudo apt-get updatesudo apt-get install python2.7 python-setuptools python-simplejson python-imaging">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-586" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/07/20/586/" class="article-date">
+  <time datetime="2014-07-20T11:07:16.000Z" itemprop="datePublished">2014-07-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/IT/">IT</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      在Radxa上安装Seafile
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>#</p><pre><code>什么是Seafile?
+
+Seafile是下一代的开源云存储，可以更好的文件同步，隐私保护和团队协作功能。要了解更多信息，请访问其[官网](http://seafile.com)
+</code></pre><p>#</p><pre><code>安装前置条件
+</code></pre><p>sudo apt-get update</p><p>sudo apt-get install python2.7 python-setuptools python-simplejson python-imaging sqlite3</p><p>more</p><p>#</p><pre><code>下载Seafile
+
+假定Seafile根目录为&amp;quot;/mnt/sd/cloud/seafile&amp;quot;
+
+从Seafile官网（http://seafile.com/en/download/）下载最新版的&amp;ldquo;Server for Raspberry Pi&amp;rdquo;（为什么下载这个版本？因为Radxa是ARM板，而这个版本正是为了同为ARM板的Raspberry Pi而开发，所以是适配的。PS：Radxa这是粘了Raspberry Pi的光）
+</code></pre><p>cd /mnt/sd/cloud/seafile</p><p>mkdir installed</p><p>cd installed</p><p>wget <a href="https://bitbucket.org/haiwen/seafile/downloads/seafile-server_3.0.4_pi.tar.gz" target="_blank" rel="external">https://bitbucket.org/haiwen/seafile/downloads/seafile-server_3.0.4_pi.tar.gz</a></p><p>tar xvzf seafile-server_3.0.4_pi.tar.gz -C ../</p><p>cd ../seafile-server-3.0.4</p><p>#</p><pre><code>安装Seafile
+</code></pre><p>./setup-seafile.sh</p><hr><p>This script will guide you to config and setup your seafile server.</p><p>Make sure you have read seafile server manual at</p><p><a href="https://github.com/haiwen/seafile/wiki" target="_blank" rel="external">https://github.com/haiwen/seafile/wiki</a></p><p>Note: This script will guide your to setup seafile server using sqlite3,</p><p>which may have problems if your disk is on a NFS/CIFS/USB.</p><p>In these cases, we sugguest you setup seafile server using MySQL.</p><p>Press [ENTER] to continue</p><hr><p>Checking packages needed by seafile …</p><p>Checking python on this machine …</p><p>Find python: python2.7</p><p>Checking python module: setuptools … Done.</p><p>Checking python module: python-simplejson … Done.</p><p>Checking python module: python-imaging … Done.</p><p>Checking python module: python-sqlite3 … Done.</p><p>Checking for sqlite3 …Done.</p><p>Checking Done.</p><p>What would you like to use as the name of this seafile server?</p><p>Your seafile users will be able to see the name in their seafile client.</p><p>You can use a-z, A-Z, 0-9, _ and -, and the length should be 3 ~ 15</p><p>What is the ip or domain of this server?</p><p>For example, www.mycompany.com, or, 192.168.1.101</p><p>What tcp port do you want to use for ccnet server?</p><p>10001 is the recommended port.</p><p>[default: 10001 ]</p><p>Where would you like to store your seafile data?</p><p>Note: Please use a volume with enough free space.</p><p>[default: /mnt/sd/cloud/seafile/seafile-data ]</p><p>What tcp port would you like to use for seafile server?</p><p>12001 is the recommended port.</p><p>[default: 12001 ]</p><p>What tcp port do you want to use for seafile httpserver?</p><p>8082 is the recommended port.</p><p>[default: 8082 ]</p><p>This is your config information:</p><p>server name: seafile</p><p>server ip/domain: 192.168.1.22</p><p>server port: 10001</p><p>seafile data dir: /mnt/sd/cloud/seafile/seafile-data</p><p>seafile port: 12001</p><p>httpserver port: 8082</p><p>If you are OK with the configuration, press [ENTER] to continue.</p><p>Generating ccnet configuration in /mnt/sd/cloud/seafile/ccnet…</p><p>done</p><p>Successly create configuration dir /mnt/sd/cloud/seafile/ccnet.</p><p>Generating seafile configuration in /mnt/sd/cloud/seafile/seafile-data …</p><p>Done.</p><hr><p>Seahub is the web interface for seafile server.</p><p>Now let&#39;s setup seahub configuration. Press [ENTER] to continue</p><hr><p>Creating seahub database now…</p><p>Done.</p><p>creating seafile-server-latest symbolic link … done</p><hr><p>Your seafile server configuration has been completed successfully.</p><hr><p>run seafile server: ./seafile.sh { start | stop | restart }</p><p>run seahub server: ./seahub.sh { start &lt;port&gt; | stop | restart &lt;port&gt; }</p><hr><p>If the server is behind a firewall, remember to open these tcp ports:</p><hr><p>port of ccnet server: 10001</p><p>port of seafile server: 12001</p><p>port of seafile httpserver: 8082</p><p>port of seahub: 8000</p><p>#</p><pre><code>启动Seafile
+</code></pre><p>./seafile.sh start</p><p>./seahub.sh start</p><p>Starting seahub at port 8000 …</p><hr><p>It&#39;s the first time you start the seafile server. Now let&#39;s create the admin account</p><hr><p>What is the email for the admin account?</p><p>[ admin email ] your email</p><p>What is the password for the admin account?</p><p>[ admin password ]</p><p>Enter the password again:</p><p>[ admin password again ]</p><hr><p>Successfully created seafile admin</p><hr><p>Loading ccnet config from /mnt/sd/cloud/seafile/ccnet</p><p>Loading seafile config from /mnt/sd/cloud/seafile/seafile-data</p><p>Seahub is started</p><p>Done.</p><p>#</p><pre><code>测试
+
+打开http://IP:8000/，使用刚才创建的管理员账户登陆即可。更进一步，可以结合Seafile的免费Windows/Mac/Android/iOS客户端进行测试
+
+EndFragment
+</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2014/07/20/586/" data-id="cjmo6t1kt001q3ajeiol04vkt" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2014/07/20/579/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          在Radxa上安装AMH
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/08/29/598/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Flash Android L Preview on Nexus 5</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

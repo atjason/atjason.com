@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>0620 - 关于 Klib 分享，各种纠结之后，我选了如下方案 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="技术方案选型是件很有意思的事，各个环节都有各种选择，可以组合出各种可能。在这些可能性中，挑选出最佳方案，是我很喜欢做的事。最近刚刚完成 Klib 的标注分享，趁着热乎劲，小结一下：过程中纠结了哪些方案，以后最后选择了什么。0) 先来看看最终效果这就是 Klib 分享标注的操作流程：点击分享，立即得到可以全球访问的网页。操作不能更简单，背后的技术逻辑却很复杂：实际的开发是混在一起的、思路也是交叉的，">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="0620 - 关于 Klib 分享，各种纠结之后，我选了如下方案">
+<meta property="og:url" content="http://yoursite.com/2017/06/20/daily/2017-06-20/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="技术方案选型是件很有意思的事，各个环节都有各种选择，可以组合出各种可能。在这些可能性中，挑选出最佳方案，是我很喜欢做的事。最近刚刚完成 Klib 的标注分享，趁着热乎劲，小结一下：过程中纠结了哪些方案，以后最后选择了什么。0) 先来看看最终效果这就是 Klib 分享标注的操作流程：点击分享，立即得到可以全球访问的网页。操作不能更简单，背后的技术逻辑却很复杂：实际的开发是混在一起的、思路也是交叉的，">
+<meta property="og:image" content="https://ws3.sinaimg.cn/large/006tNc79gy1fgpoqklmhzg30eg0ec4gf.gif">
+<meta property="og:image" content="https://ps.toolinbox.net/fw1yv.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/f7o33.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/xz3ok.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/f6s9d.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/5264v.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/5s7ex.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/x4t4b.jpg">
+<meta property="og:image" content="https://ohpsctde4.qnssl.com/nckv0.jpg">
+<meta property="og:updated_time" content="2017-06-21T14:18:22.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="0620 - 关于 Klib 分享，各种纠结之后，我选了如下方案">
+<meta name="twitter:description" content="技术方案选型是件很有意思的事，各个环节都有各种选择，可以组合出各种可能。在这些可能性中，挑选出最佳方案，是我很喜欢做的事。最近刚刚完成 Klib 的标注分享，趁着热乎劲，小结一下：过程中纠结了哪些方案，以后最后选择了什么。0) 先来看看最终效果这就是 Klib 分享标注的操作流程：点击分享，立即得到可以全球访问的网页。操作不能更简单，背后的技术逻辑却很复杂：实际的开发是混在一起的、思路也是交叉的，">
+<meta name="twitter:image" content="https://ws3.sinaimg.cn/large/006tNc79gy1fgpoqklmhzg30eg0ec4gf.gif">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-daily/2017-06-20" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/06/20/daily/2017-06-20/" class="article-date">
+  <time datetime="2017-06-20T14:00:00.000Z" itemprop="datePublished">2017-06-20</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/每天写一点/">每天写一点</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      0620 - 关于 Klib 分享，各种纠结之后，我选了如下方案
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>技术方案选型是件很有意思的事</strong>，各个环节都有各种选择，可以组合出各种可能。在这些可能性中，挑选出最佳方案，<strong>是我很喜欢做的事</strong>。</p><p>最近刚刚完成 <strong>Klib 的标注分享</strong>，趁着热乎劲，小结一下：过程中纠结了哪些方案，以后最后选择了什么。</p><h2 id="0-先来看看最终效果"><a href="#0-先来看看最终效果" class="headerlink" title="0) 先来看看最终效果"></a>0) 先来看看最终效果</h2><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fgpoqklmhzg30eg0ec4gf.gif" alt=""></p><p>这就是 Klib 分享标注的操作流程：点击分享，立即得到可以全球访问的网页。<strong>操作不能更简单，背后的技术逻辑却很复杂：</strong></p><p>实际的开发是混在一起的、思路也是交叉的，不过，为了介绍方便，我大致按照数据流来推演。</p><p><img src="https://ps.toolinbox.net/fw1yv.jpg" alt=""></p><h2 id="1-Klib-与接口服务器"><a href="#1-Klib-与接口服务器" class="headerlink" title="1) Klib 与接口服务器"></a>1) Klib 与接口服务器</h2><p>这部分的功能比较直接：<strong>Klib 将标注内容发送给接口服务器，服务器处理完后返回结果。</strong></p><p>需要介绍的，倒是功能之外的东西：</p><ul><li>如何防止接口被攻击</li><li>如何做身份识别</li></ul><p>这部分内容其实是很复杂的，我最终采用了和 Klib 安全性相称的方案。</p><a id="more"></a><h3 id="1-0-防止接口被攻击"><a href="#1-0-防止接口被攻击" class="headerlink" title="1.0) 防止接口被攻击"></a>1.0) 防止接口被攻击</h3><h4 id="1-0-0-接口服务器使用-https"><a href="#1-0-0-接口服务器使用-https" class="headerlink" title="1.0.0) 接口服务器使用 https"></a>1.0.0) 接口服务器使用 https</h4><p>这是最基础、但非常有效的方式，全程使用 https 加密，已经可以大大提高安全性。</p><h4 id="1-0-1-防止接口被非法使用"><a href="#1-0-1-防止接口被非法使用" class="headerlink" title="1.0.1) 防止接口被非法使用"></a>1.0.1) 防止接口被非法使用</h4><p>如果接口是公开的、所有人都可以任意访问，就可以随意地向服务器丢垃圾数据，迅速将服务器挤爆。</p><p>比如好的做法是 <strong>使用非对称加密</strong>，即使用一对私钥、公钥，使用 <strong>私钥加密</strong> 的数据，只能使用 <strong>公钥解密</strong>；反之，使用 <strong>公钥加密</strong> 的数据，只能使用 <strong>私钥解密</strong>。整体流程大致如下：</p><p><img src="https://ps.toolinbox.net/f7o33.jpg" alt=""></p><ul><li>接口服务器开放 <code>公钥 A</code></li><li>每个 Klib 客户端生成新的 <code>私钥 B</code> 和 <code>公钥 B</code></li><li>Klib 客户端使用 <code>公钥 A</code> 加密 <code>公钥 B</code>，并将其发送给接口服务器</li><li>接口服务器使用 <code>私钥 A</code> 解密后，存储该客户端对应的 <code>公钥 B</code></li><li>之后，Klib 客户端发送数据时，使用 <code>私钥 B</code> 加密，接口服务器收到后使用 <code>公钥 B</code> 解密，并用 <code>公钥 B</code> 加密后返回数据</li></ul><p><strong>听起来有点像绕口令？</strong></p><p>开发上也有点麻烦，毕竟服务器还要保存每个 Klib 客户端对应的公钥。如果有多个服务器，则需要在不同服务器间同步公钥，更加麻烦。对于我这个小产品 + 实验功能来说，暂时不需要这么高的安全级别。</p><p>于是，<strong>我采用了更简单、但够用的 AES 对称加密</strong>。即 Klib 客户端和接口服务器使用相同的 AES 加密方法、同一个密码，加密请求和响应的数据；如果不能提供正确的加密，就无法使用服务器接口。</p><p>这一方案主要的风险是：黑客可以反编译 Klib 得到密码。除了 Klib 本身会编译并签名，我还在代码里加密存储密码。基本上除了跟我有八辈子解不开的愁，<strong>99.9999%</strong> 的人是不会花精力来破解这个密码的。</p><h4 id="1-0-2-使用时间戳-MD5"><a href="#1-0-2-使用时间戳-MD5" class="headerlink" title="1.0.2) 使用时间戳 + MD5"></a>1.0.2) 使用时间戳 + MD5</h4><p>即使加密过的数据，最终也只是表现为一个 http 请求，而这个请求是可能被本地拦截，进而用于模拟正常用户请求。</p><p>对应的防护是，在 http 请求中加入时间戳，并对 http 头的内容部分计算 MD5（或 CRC 等），服务器端进行验证，就可保证 http 头不被滥用。</p><p>其实，这是 OAuth 的范畴。好在，我在开发 <a href="https://toolinbox.net/iPic/" target="_blank" rel="external">图床神器 iPic</a> 时，先后从客户端的角度实现了七牛、又拍、阿里云、Imgur、Flickr、Amazon S3 的 OAuth，这次实现一个简单的服务器端部分，也不算麻烦。</p><h3 id="1-1-如何做身份识别"><a href="#1-1-如何做身份识别" class="headerlink" title="1.1) 如何做身份识别"></a>1.1) 如何做身份识别</h3><p>上面说的是在面对黑客时的防护，听着有点晕是吧？下面来说说正常情况下的身份识别。</p><p>比如：<strong>如果用户尝试停止一个分享，如何判断该用户是否有权限？</strong></p><p><strong>如果有账户系统，这点比较容易解决</strong>。而 Klib 尚未引用账户系统，怎么办呢？比较高级的是使用区块链（咳咳），我目前的做法是：<strong>用户使用 Klib 分享一本书的标注时，服务器会返回一个随机数。下次用户在停止分享时，只要能提供这个随机数，即判定为有效请求</strong>。在上述各种防护的前提下，可以有效地防止被恶意停止分享。</p><h2 id="2-接口服务器"><a href="#2-接口服务器" class="headerlink" title="2) 接口服务器"></a>2) 接口服务器</h2><p>接口服务器是整个系统中最复杂的部分，它的职责比较多：</p><ul><li>验证请求，并接收数据</li><li>存储数据</li><li>根据数据生成静态网页</li><li>将静态网页输送给静态服务器</li><li>更新、删除分享时，更新数据存储和静态服务器</li></ul><p>验证请求和前面的介绍是对应的，这里略过不表。</p><h3 id="2-0-使用-Python-Flask-实现功能部分"><a href="#2-0-使用-Python-Flask-实现功能部分" class="headerlink" title="2.0) 使用 Python + Flask 实现功能部分"></a>2.0) 使用 Python + Flask 实现功能部分</h3><p>所谓接口服务器，首先就是要开放接口（开门接客）具体的，就是 http 请求的路由表。比如，当 Klib 客户端向 <a href="https://api.klib.me/share" target="_blank" rel="external">https://api.klib.me/share</a> 发送数据时，要有相应的代码来接收处理这个请求。</p><p>在之前的文章 <a href="https://atjason.com/daily/2017-06-12.html" target="_blank" rel="external">我入门 Python 后总结的基础教程</a> 中，我已经介绍了使用 Flask 框架，这里不再重复。</p><h3 id="2-1-使用-Nginx-Gunicorn-搭建服务器"><a href="#2-1-使用-Nginx-Gunicorn-搭建服务器" class="headerlink" title="2.1) 使用 Nginx + Gunicorn 搭建服务器"></a>2.1) 使用 Nginx + Gunicorn 搭建服务器</h3><p>同上，请参考 <a href="https://atjason.com/daily/2017-06-12.html" target="_blank" rel="external">我入门 Python 后总结的基础教程</a>。</p><p>另外，使用 Supervisorctl 保证服务可靠运行。</p><h3 id="2-2-使用-MySQL-SQLAlchemy-存储数据"><a href="#2-2-使用-MySQL-SQLAlchemy-存储数据" class="headerlink" title="2.2) 使用 MySQL + SQLAlchemy 存储数据"></a>2.2) 使用 MySQL + SQLAlchemy 存储数据</h3><p>从数据存储的角度看，书的标注都是很规整的，无非是书名、作者、笔记内容等等。于是我选择了最常用的关系型数据库：MySQL</p><p>如果直接使用 SQL 语句操作数据库，既繁琐又不安全，这里我使用可称为 ORM (Object Relational Mapping) 界事实标准的 <strong>SQLAlchemy</strong> 构建 Model、操作数据库。</p><p>我本来想说「这没什么好介绍的」，但实际上，<strong>MySQL 的坑很多</strong>。比如，如果要支持 Emoji 表情，就要全程使用 <strong>utf8mb4</strong> 编码。还有很多其他的坑，此处略去一万字…</p><h3 id="2-3-使用-Jinja-模板生成静态网页"><a href="#2-3-使用-Jinja-模板生成静态网页" class="headerlink" title="2.3) 使用 Jinja 模板生成静态网页"></a>2.3) 使用 Jinja 模板生成静态网页</h3><p>关于标注部分，Klib 发送的是 Markdown 格式，如：</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="section"># 简单思考</span></div><div class="line"></div><div class="line"><span class="section">## 卷首语</span></div><div class="line"></div><div class="line"><span class="bullet">- </span>商业的本质就是“持续提供用户真正想要的东西”，除此无他。</div><div class="line"></div><div class="line"><span class="bullet">- </span>召集具备回应用户需求的热情与能力的员工，并为他们营造出无拘无束可最大限度地发挥其才能的环境，除此无他。</div><div class="line"></div><div class="line"><span class="section">## 第一章　经商不是“打仗”</span></div><div class="line"></div><div class="line"><span class="bullet">- </span>重要的是不断磨炼对“大众真实需求”的感知能力和使之实体化的技术。</div><div class="line"></div><div class="line"><span class="bullet">- </span>音乐和体育不同，不用与任何人战斗。</div></pre></td></tr></table></figure><p>需要使用 markdown 模式将其转换成 html 格式，如：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">h1</span>&gt;</span>简单思考<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>卷首语<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></div><div class="line">   <span class="tag">&lt;<span class="name">li</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>商业的本质就是“持续提供用户真正想要的东西”，除此无他。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">   <span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">   <span class="tag">&lt;<span class="name">li</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>召集具备回应用户需求的热情与能力的员工，并为他们营造出无拘无束可最大限度地发挥其才能的环境，除此无他。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">   <span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">h2</span>&gt;</span>第一章　经商不是“打仗”<span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></div><div class="line">   <span class="tag">&lt;<span class="name">li</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>重要的是不断磨炼对“大众真实需求”的感知能力和使之实体化的技术。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">   <span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">   <span class="tag">&lt;<span class="name">li</span>&gt;</span></div><div class="line">      <span class="tag">&lt;<span class="name">p</span>&gt;</span>音乐和体育不同，不用与任何人战斗。<span class="tag">&lt;/<span class="name">p</span>&gt;</span></div><div class="line">   <span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div></pre></td></tr></table></figure><p>这里赞叹一下：<strong>Python 轮子就是多</strong>。只需轻轻地导入 markdown 模块，即可优雅地将 Markdown 转换为 html 格式，舒爽。</p><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">import</span> markdown</div><div class="line">html_str = markdown.markdown(markdown_str)</div></pre></td></tr></table></figure><p>对于最终生成的静态网站，像 css/js 等部分都是一样的，只是页面标题、正文等内容性的东西不同。于是，使用 Jiaja 模式表示这些通用部分，并 0620 - 关于 Klib 分享，各种纠结之后，我选了如下方案 这样的标注符表示各个分享所不同的内容部分；再用 render_template 方法替换模板中的内容，即可生成对应的静态文件。</p><p>感叹：<strong>这样简洁直接的操作、无需各种复杂的配置，就能得到最后想要的东西，真真是编程中最可爱的环节</strong>。</p><h2 id="3-静态服务器与-CDN"><a href="#3-静态服务器与-CDN" class="headerlink" title="3) 静态服务器与 CDN"></a>3) 静态服务器与 CDN</h2><p>有了静态服务器，就像是有了宝贝，不能只是自己藏着，得拿出来让大家瞧瞧，这就是静态 (Web) 服务器要干的事。</p><p>当然，静态服务器和接口服务器，在物理上可以是同一台服务器，这里只是从角色上进行区分。</p><p>在展示静态网页方面，技术选型上主要有 2 方面的需求：</p><ul><li>网页内容能实时更新</li><li>用户访问速度快</li></ul><p>其中，内容的更新对应用户分享时的 3 种操作：</p><ul><li>创建分享<ul><li>对应创建静态 html 文件</li></ul></li><li>更新分享的内容<ul><li>对应更新 html 文件内容</li></ul></li><li>停止分享<ul><li>对应删除 html 文件</li></ul></li></ul><p>好，<strong>带着「实时」创建、更新、删除 html 文件这 3 个需求，我们来看看如何提高访问速度</strong>。</p><h3 id="3-0-😔-仅使用单一服务器"><a href="#3-0-😔-仅使用单一服务器" class="headerlink" title="3.0) 😔 仅使用单一服务器"></a>3.0) 😔 仅使用单一服务器</h3><p>首先，如何什么都不做，意味全球的用户（<strong>Klib 必须是国际性产品，得考虑全球用户，嗯</strong>）都要连接这台服务器。</p><p>且不说并发数等限制，单从网速上看，如果将服务器放在国内，国外用户势必慢；反之亦然。更何况国内还是电信、网通、以及神奇的长宽，国外也有 N 多国家。</p><p>如果确实要这么做，比较好的方案是使用 <strong>阿里云香港服务器</strong>，可以兼顾国内国外用户。暂时，不采用这一方案，每月省下 $19…</p><h3 id="3-1-😔-CDN"><a href="#3-1-😔-CDN" class="headerlink" title="3.1) 😔 CDN"></a>3.1) 😔 CDN</h3><p>进而，通常的做法是使用 CDN.</p><p>CDN 确实可以有效提高不同地区、不同网络环境下的访问速度，且极大地降低对静态服务器的压力。不过，<strong>CDN 有个致命的局限：内容更新慢</strong>。尤其在更新、删除内容时，<strong>这种慢会带来业务上的问题</strong>。</p><p>比如，用户在 Klib 中分享标注后又停止，却发现之前产生的网页依然可以访问，用户会觉得这是 Bug，进而会带来很大的客服压力。于是，跳过这一方案。</p><h3 id="3-2-😔-国内、国外多台服务器"><a href="#3-2-😔-国内、国外多台服务器" class="headerlink" title="3.2) 😔 国内、国外多台服务器"></a>3.2) 😔 国内、国外多台服务器</h3><p>下一方案是：国内、国外各一台（或多台）服务器，通过 DNS 服务器进行分流，相当于自建 CDN。</p><p>不料，却遇到一个坑：<strong>国内服务器的外网速度普遍较慢</strong>。比如我试了阿里云上海节点，从国外服务器使用 scp 或 rsync 传输一个 10 KB 的文件需要 4s，跌破了我的眼镜。并且，阿里云我也只买了 1 MB 带宽的小水管，并发时速度会很慢。于是，这一方案也被放弃。</p><h3 id="3-3-😃-最终方案"><a href="#3-3-😃-最终方案" class="headerlink" title="3.3) 😃 最终方案"></a>3.3) 😃 最终方案</h3><p><strong>最终采用的方案时：国内使用阿里云 OSS、国外使用 Amazon S3</strong>（注：因为测速显示，我的国外服务器在全球的访问速度尚可，暂未实施，不过原理是一样的）</p><ul><li><strong>速度</strong> 方面，测试软件显示，阿里云 OSS，在国内的访问速度是不错的。</li><li><strong>可靠性</strong> 方面，阿里云 OSS 本身肯定值得依赖的（至少比我自己搭静态服务器靠谱的多）<ul><li>另外，阿里云 OSS 可以从我的国外静态服务器回源，意味着用户通过阿里云 OSS 访问网站时，肯定可以得到内容，<strong>这已经满足了 90% 的场景</strong></li></ul></li><li><strong>实时更新</strong> 方面，服务器端使用 <strong>pyinotify</strong> 监控 html 文件所在目录，一旦发现有文件更新、删除，立即同步至阿里云 OSS 上。同步速度也不错（比阿里云 ECS 强太多），用户的响应几乎是实时的</li></ul><p>比如，你访问这篇分享试试速度如何：<br><a href="http://s.klib.me/share.html" target="_blank" rel="external">http://s.klib.me/share.html</a></p><p>以及 <a href="http://www.17ce.com/site/http/201706_10f07a6144debca77bb831cb18c0ae00.html" target="_blank" rel="external">全国测速结果</a>，打开时间基本在 1s 内，满意。</p><p><img src="https://ps.toolinbox.net/xz3ok.jpg" alt=""></p><p>注：我另外也考虑了七牛云，不过 <strong>七牛不支持为存储空间绑定域名</strong>、而只支持 CDN 的方式绑定域名，而 CDN 的方案已经被放弃，所以只能放弃七牛（以及七牛的免费 http 流量…）</p><h3 id="3-4-搜索引擎优化"><a href="#3-4-搜索引擎优化" class="headerlink" title="3.4) 搜索引擎优化"></a>3.4) 搜索引擎优化</h3><p>这是个全方面的话题，这里只提几点：</p><ul><li><strong>搜索引擎直接访问静态服务器</strong>，因为 CDN 等因素对搜索引擎是种干扰。这一点，可以通过 DNS 服务器来解决。</li></ul><p><img src="https://ps.toolinbox.net/f6s9d.jpg" alt=""></p><ul><li><strong>向搜索引擎提供 sitemap 文件，包含静态网页的网址列表</strong>。虽然搜索引擎不一定真的使用这个文件，但必要的基本功还是要做的，万一被用了呢？</li></ul><h2 id="4-网页的适配"><a href="#4-网页的适配" class="headerlink" title="4) 网页的适配"></a>4) 网页的适配</h2><p>好，经过千辛万苦，用户终于可以打开网址、看到分享内容了，是不是大功告成了？</p><p>错，还有很大一个坑：<strong>网页布局及适配</strong></p><p>比如：</p><ul><li>作为文字类的网页，字体、字号、配色、行间距、留白得看得过去吧？</li><li>用户可能在 24 寸显示器、iPad、手机等不同设备上打开网页，总得能正确显示吧？</li><li>总得方便用户分享到不同 SNS 吧？</li><li>用户分享到微信、朋友圈，总得显示个缩略图吧？</li><li>用户分享到 Facebook、Twitter，总得以卡片形式显示、摘要总要有吧？</li><li>…</li></ul><p>这方面我不是专家，Klib 的分享也只是做个入门。</p><p>在 Klib 中阅读效果类似：</p><p><img src="https://ps.toolinbox.net/5264v.jpg" alt=""></p><p>PC 端最终效果类似：</p><p><img src="https://ps.toolinbox.net/5s7ex.jpg" alt=""></p><p>手机端类似：</p><p><img src="https://ps.toolinbox.net/x4t4b.jpg" alt=""></p><h2 id="5-其他"><a href="#5-其他" class="headerlink" title="5) 其他"></a>5) 其他</h2><p><strong>表一漏万</strong>，除了看得见的、说得出的，还有很多看不见的东西，挑几个来说。</p><h3 id="5-0-区分开发、测试、线上环境"><a href="#5-0-区分开发、测试、线上环境" class="headerlink" title="5.0) 区分开发、测试、线上环境"></a>5.0) 区分开发、测试、线上环境</h3><p><strong>如何在同一代码仓库下</strong>，区分开发、测试、线上环境？</p><p>我目前的做法是，<strong>创建排除在 Git 外的 .env 文件</strong>，其中存储了开发、测试、线上环境所对应的配置。程序启动时，先读取配置文件，然后根据配置文件启动对应的参数，如数据库地址、服务端口、日志级别及文件位置等等。</p><h3 id="5-1-服务监控"><a href="#5-1-服务监控" class="headerlink" title="5.1) 服务监控"></a>5.1) 服务监控</h3><p>从上面的介绍可以看到，整体的框架涉及多个模式，并且互为备份的环节并不多，有一个模块出问题，就可以导致整个流程出问题。<strong>最好有个机器人一直盯着，一旦出问题，立即通知我（总比用户跑过来报 Bug 强）</strong></p><p><strong>如何能有效监控呢？</strong>几个供参考：</p><ul><li>接口服务器方面，一旦发现严重错误，立即发告警邮件（目前还没做）</li><li>在接口服务器创建测试脚本，包含创建、更新、删除分享功能，并定期工作。一旦出问题，立即发告警邮件</li><li>使用 360 监控等服务，监控某分享链接是否可访问</li><li>以及，一些基础的服务器监控工具</li></ul><h3 id="5-2-一定要有日志"><a href="#5-2-一定要有日志" class="headerlink" title="5.2) 一定要有日志"></a>5.2) 一定要有日志</h3><p><strong>日志可以说是线上服务的生命线</strong>，一旦出问题，第一件要做的事：查日志。那首先得有日志呀？恩，代码里要输出。</p><p>另外，日志文件要 <strong>定期切割</strong>，避免过大。</p><h3 id="5-3-一定要有备份"><a href="#5-3-一定要有备份" class="headerlink" title="5.3) 一定要有备份"></a>5.3) 一定要有备份</h3><p><strong>万一服务器被黑了、被人 <code>rm / -rf</code> 了，万一数据库被删了…作为独立开发者，我总不能申请破产保护吧？</strong></p><p>备份一定要有（虽然最好不要用），比如：</p><ul><li>服务器级别的定期制作镜像，一般云服务器都有此功能</li><li>制作脚本，定期将数据库、日志等关键数据，备份至 Dropbox、Amazon S3 等可靠的网络存储中，当然要加密保存</li><li>使用 GitHub/GitLab 等私有 Git 仓库备份代码。什么都没了，只要有代码，就能东山再起</li></ul><h2 id="6-事务诸葛亮"><a href="#6-事务诸葛亮" class="headerlink" title="6) 事务诸葛亮"></a>6) 事务诸葛亮</h2><p>以上就是 Klib 分享大体的技术选型、以及期间的纠结。虽然已经能干活，现在回过头来看，主要的问题是：</p><p><strong>涉及模块多，维护成本高</strong></p><p>想象一下这个场景：</p><ul><li>在吃年夜饭时，收到不能创建分享的报警邮件</li><li>一边后悔没有给服务器上香，一边放下筷子、打开 MBP</li><li>查了半天，发现是 MySQL 的问题</li><li>又查了半天，发现竟然是因为 VPS 硬盘空间不够了</li><li>于是，添加新数据盘，小心翼翼地迁移数据，胆战心惊地重启数据库</li><li>手动测试，持续观测日志一段时间，好在没有问题</li><li>刚巧，新年的钟声敲响，完美…</li></ul><p>相比之下，如果使用 AWS 这种能托管 MySQL 的服务，上述问题都不会发生，还不会错过微信红包里的几个亿。</p><p>再比如，使用 Heroku 之类的服务，就可以免去大部分需要自建服务器部分。没选 Heroku 主要的原因是：国内访问速度太慢。不过现在想想，可以通过国内、或香港服务器回调的方式加速。于是，Heroku 又成为很有优势的选择。</p><p>听完之后，你会怎么选？</p><hr><p><strong>我所说的，都是错的。</strong></p><p>那么，我的公众号「<strong>自在开发</strong>」，你还关注吗？每周二早 8 点，技术长文、准时推送。</p><p><img src="https://ohpsctde4.qnssl.com/nckv0.jpg" alt="自在开发"></p>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/06/20/daily/2017-06-20/" data-id="cjmo6t3ep011z3aje2mkcxtsk" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/06/19/daily/2017-06-19/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          0619 - 越做越熟
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/06/21/daily/2017-06-21/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">0621 - 选择余地盈余、选择能力不足？</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

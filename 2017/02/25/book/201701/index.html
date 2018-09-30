@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>201701 - 《编程珠玑》 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="编程珠玑笔记：时间与空间时间换空间。对于可能被重用的中间计算结果，不存储、下次需要时重新计算。空间换时间。对于可能被重用的中间计算结果，存储、下次需要时不重新计算。应用与底层举两个例子：应用型：学会使用 JSON 解析库；底层型：优化 JSON 解析库的效率；以目前我的状态，更适合向应用型发展。可以说是堆业务，这可以快速解决实际问题，由此带来的成就感，大于把搜索效率提高一倍这样的成果。当然，如果效">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="201701 - 《编程珠玑》">
+<meta property="og:url" content="http://yoursite.com/2017/02/25/book/201701/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="编程珠玑笔记：时间与空间时间换空间。对于可能被重用的中间计算结果，不存储、下次需要时重新计算。空间换时间。对于可能被重用的中间计算结果，存储、下次需要时不重新计算。应用与底层举两个例子：应用型：学会使用 JSON 解析库；底层型：优化 JSON 解析库的效率；以目前我的状态，更适合向应用型发展。可以说是堆业务，这可以快速解决实际问题，由此带来的成就感，大于把搜索效率提高一倍这样的成果。当然，如果效">
+<meta property="og:image" content="https://ohpsctde4.qnssl.com/kgyvg.jpg">
+<meta property="og:updated_time" content="2017-04-23T14:15:29.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="201701 - 《编程珠玑》">
+<meta name="twitter:description" content="编程珠玑笔记：时间与空间时间换空间。对于可能被重用的中间计算结果，不存储、下次需要时重新计算。空间换时间。对于可能被重用的中间计算结果，存储、下次需要时不重新计算。应用与底层举两个例子：应用型：学会使用 JSON 解析库；底层型：优化 JSON 解析库的效率；以目前我的状态，更适合向应用型发展。可以说是堆业务，这可以快速解决实际问题，由此带来的成就感，大于把搜索效率提高一倍这样的成果。当然，如果效">
+<meta name="twitter:image" content="https://ohpsctde4.qnssl.com/kgyvg.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-book/201701" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/25/book/201701/" class="article-date">
+  <time datetime="2017-02-25T00:01:08.000Z" itemprop="datePublished">2017-02-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/读书笔记/">读书笔记</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      201701 - 《编程珠玑》
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="https://ohpsctde4.qnssl.com/kgyvg.jpg" alt=""></p><p><a href="https://www.amazon.cn/gp/product/B00SFZH0DC/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00SFZH0DC&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">编程珠玑</a></p><p>笔记：</p><ul><li>时间与空间<ul><li>时间换空间。对于可能被重用的中间计算结果，不存储、下次需要时重新计算。</li><li>空间换时间。对于可能被重用的中间计算结果，存储、下次需要时不重新计算。</li></ul></li><li>应用与底层<ul><li>举两个例子：<ul><li>应用型：学会使用 JSON 解析库；</li><li>底层型：优化 JSON 解析库的效率；</li></ul></li><li>以目前我的状态，更适合向应用型发展。可以说是堆业务，这可以快速解决实际问题，由此带来的成就感，大于把搜索效率提高一倍这样的成果。</li><li>当然，如果效率优化成为业务的核心时，还是会用户去优化底层。</li><li>另外，感觉目前大多数产品、大多数开发者都处于应用型、堆业务的状态。这没什么不好，虽然应用型是建立在底层的基础上，但如果没有应用的失去，底层也不会自动发展的。</li></ul></li></ul><a id="more"></a><p>书摘</p><ul><li>在节省空间方面无计可施时，将自己从代码中解脱出来，退回起点并集中心力研究数据，常常能有奇效。（数据的）表示形式是程序设计的根本。</li><li>使用数组重新编写重复代码。</li><li>封装复杂结构。当需要非常复杂的数据结构时，使用抽象术语进行定义，并将操作表示为类。</li><li>尽可能使用高级工具。超文本、名字—值对、电子表格、数据库、编程语言等都是特定问题领域中的强大的工具。</li><li>编码。对于比较难写的函数，我发现最容易的方法是使用方便的高级伪代码来构建程序框架，然后将伪代码翻译成要实现的语言。</li><li>代码调优<ul><li>首先确定程序中开销较大的部分，然后进行少量的修改，以提高其运行速度。“代码调优”并不总是恰当的方法，也不太有趣，但是有时候它确实可以使程序的性能大为改观。</li><li>代码调优的最重要原理就是尽量少用它。</li><li>不成熟的优化是大量编程灾害的根源，它会危及程序的正确性、功能性以及可维护性。当可能的危害影响较大时，请考虑适当将效率放一放。</li><li>软件的其他许多性质和效率一样重要，甚至更重要。</li></ul></li><li>性能<ul><li>对程序进行性能监视的结果通常类似：多数的时间都消耗在少量的热点代码上，而余下的代码则很少执行。</li><li>性能监视可以帮助我们找到程序中的关键区域；对于其他区域，我们遵循有名的格言“没有坏的话就不要修”。</li><li>效率问题可以由多种方法来解决。只有在确信没有更好的解决方案时才考虑进行代码调优。</li></ul></li><li>正确理解所遇到的问题。与用户讨论问题产生的背景。问题的陈述通常就包含了与解决方案有关的想法；</li><li>提炼出抽象问题。简洁、明确的问题陈述不仅可以帮助我们解决当前遇到的问题，还有助于我们把解决方案应用到其他问题中。</li><li>考虑尽可能多的解法。很多程序员很快就发现了问题的“解决方案”，他们只愿意花1分钟的时间思考，然后花一天的时间来写代码，而不是先花1个小时来思考，再用一个小时来写代码。</li><li>对程序员的10条建议：<ul><li>解决正确的问题</li><li>探索所有可能的解决方案</li><li>观察数据</li><li>使用粗略估算</li><li>利用对称性</li><li>利用组件做设计</li><li>建立原型</li><li>必要时进行权衡</li><li>保持简单</li><li>追求优美</li></ul></li></ul>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/02/25/book/201701/" data-id="cjmo6t1wt007m3aje77r8ccng" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/02/24/daily/2017-02-24/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          0224 - 遇到难啃的骨头
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/02/25/daily/2017-02-25/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">0225 - 大公司与小需求</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

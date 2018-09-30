@@ -1,0 +1,1186 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next mist" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<link href="https://cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Jason,博客" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jason" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 iPaste，是我独立开发的第一款 macOS 产品。 1.7 年过去了，在发布新版 iPaste 时，说说这款让我不再青涩的作品。 —– 长文开始警戒线；不喜请绕行 —–">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="说说我出道后的处女作：剪贴板神器 iPaste">
+<meta property="og:url" content="https://atjason.com/IndieDev/2017-07-25_iPaste_Review.html">
+<meta property="og:site_name" content="Jason">
+<meta property="og:description" content="2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 iPaste，是我独立开发的第一款 macOS 产品。 1.7 年过去了，在发布新版 iPaste 时，说说这款让我不再青涩的作品。 —– 长文开始警戒线；不喜请绕行 —–">
+<meta property="og:image" content="https://ps.toolinbox.net/ekpjo.jpg">
+<meta property="og:image" content="https://ww2.sinaimg.cn/large/006tNc79gw1fah02yiagmg30j60askjl.gif">
+<meta property="og:image" content="https://ps.toolinbox.net/87e4v.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/evp5j.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/j627o.png">
+<meta property="og:image" content="https://ps.toolinbox.net/n5w2q.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/hg7si.jpg">
+<meta property="og:image" content="https://ws4.sinaimg.cn/large/006tKfTcgy1fhq6euq84qg30fg0de1kx.gif">
+<meta property="og:image" content="https://ps.toolinbox.net/e8yw0.png">
+<meta property="og:image" content="https://ps.toolinbox.net/8q47h.png">
+<meta property="og:image" content="https://ps.toolinbox.net/neefn.png">
+<meta property="og:image" content="https://ps.toolinbox.net/z997y.jpg">
+<meta property="og:updated_time" content="2017-07-25T00:29:30.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="说说我出道后的处女作：剪贴板神器 iPaste">
+<meta name="twitter:description" content="2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 iPaste，是我独立开发的第一款 macOS 产品。 1.7 年过去了，在发布新版 iPaste 时，说说这款让我不再青涩的作品。 —– 长文开始警戒线；不喜请绕行 —–">
+<meta name="twitter:image" content="https://ps.toolinbox.net/ekpjo.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: false,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://atjason.com/IndieDev/2017-07-25_iPaste_Review.html"/>
+
+
+
+
+
+  <title>说说我出道后的处女作：剪贴板神器 iPaste | Jason</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-26569268-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jason</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">独立开发，自由职业</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/IndieDev/2017-07-25_iPaste_Review.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                说说我出道后的处女作：剪贴板神器 iPaste
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-25T22:00:00+08:00">
+                2017-07-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IndieDev/" itemprop="url" rel="index">
+                    <span itemprop="name">IndieDev</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 <strong><a href="https://toolinbox.net/iPaste/" target="_blank" rel="external">iPaste</a>，是我独立开发的第一款 macOS 产品。</strong></p>
+<p>1.7 年过去了，在发布新版 iPaste 时，说说这款让我不再青涩的作品。</p>
+<p>—– 长文开始警戒线；不喜请绕行 —–</p>
+<p><img src="https://ps.toolinbox.net/ekpjo.jpg" alt=""></p>
+<a id="more"></a>
+<h2 id="0-起初，「贴贴板」并不算产品"><a href="#0-起初，「贴贴板」并不算产品" class="headerlink" title="0) 起初，「贴贴板」并不算产品"></a>0) 起初，「贴贴板」并不算产品</h2><p>如果现在做个新产品，事先一定会有充分的调研，比如用户需求是否真实存在、市场容量、竞品分析、技术可行性分析等等，然后才会立项。</p>
+<p><strong>之所以说不算产品，是因为当初做「贴贴板」时，完全跳过了这些环节，直接开始码</strong>；更像是个练手的项目。怎么回事？主要是当时刚刚出来自己单干，已经至少 3 年没写代码了，做什么领域的产品，都行，也都不行。在脑子一热决定先做 macOS 时，脑子里第一个冒出来的就是贴贴板这个点子，因为自己平时太需要剪贴板增加工具这类产品了。</p>
+<p>咦，你可能好奇，说好的是 iPaste，怎么变出个贴贴板？其实，<strong>这个产品就是以「贴贴板」这个名字问世的</strong>，并保持了最开始的大半年时间。<strong>2016 年 9 月底才更名为 iPaste</strong>；这是后话，后面再提。</p>
+<p>这里衍伸出一个话题：<strong>做产品，是做自己需要的产品，还是做大众需要的产品？</strong>当然，如果这两者重合，最好。如果不，<strong>建议起步时选择自己需要的产品</strong>。最直接的好处是，你自己就知道产品应该做成什么样子，跳过了用户调研的环节，也不至于跑偏。</p>
+<p>不过，这个方式有个很大的局限：通常，自己的需求有限，并且会是个小点子，不利于产品做大。而且，产品做大后，就不再是当初自己想要的东西了，又变成了做大众需求的产品。所以，根本上是 <strong>在做自己需求的产品的时候，摸过出做产品的路子，进而推演到大众需求。</strong></p>
+<p>这里引用在 <a href="https://www.indiehackers.com/businesses/cronometer" target="_blank" rel="external">IndieHacker</a> 上看到的一段话。</p>
+<blockquote>
+<p>If you build a product for yourself…, there’s probably a million others like you out there. Maybe not a billion, but unless you’re a freak, there’s a million.</p>
+</blockquote>
+<p>精准的翻译是：<strong>通常你需要的，别人也需要的</strong>；这些「别人」，没有千万、也有百万，除非你是朵奇葩。</p>
+<h2 id="1-iPaste-夺走我的第-1-次，一次又一次"><a href="#1-iPaste-夺走我的第-1-次，一次又一次" class="headerlink" title="1) iPaste 夺走我的第 1 次，一次又一次"></a>1) iPaste 夺走我的第 1 次，一次又一次</h2><p>就是这么一个不算产品的产品，却 <strong>让我经历了无数的从 0 到 1</strong>：</p>
+<ul>
+<li>第一次学习 Swift</li>
+<li>第一次学习 macOS 开发</li>
+<li>第一次给产品起名</li>
+<li>第一次设计 Logo</li>
+<li>第一次独立完成一个产品</li>
+<li>第一次审核被拒（以及 N 次）</li>
+<li>第一次收到用户付费</li>
+<li>第一次收到用户反馈</li>
+<li>第一次收到海外用户反馈</li>
+<li>第一次推广</li>
+<li>第一次付费推广</li>
+<li>第一次开源代码给别人用</li>
+<li>第一次…</li>
+<li>…</li>
+</ul>
+<h3 id="1-0-Swift-与-macOS-开发"><a href="#1-0-Swift-与-macOS-开发" class="headerlink" title="1.0) Swift 与 macOS 开发"></a>1.0) Swift 与 macOS 开发</h3><p>这部分在 <a href="https://atjason.com/IndieDev/2017-07-18.html">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍，这里仅简单的提及。</p>
+<p>对于 iPaste 而言，核心的部分是系统剪贴板。也即，<strong>能够记录用户曾经复制的内容，并且能 100% 准确地还原</strong>。难就难在这 100%，因为用户可能会在任意程序中、复制任意格式的数据，如纯文本、格式化文本、图片、文件等等。</p>
+<p>其实，我试了当时的一些竞品，包含非常知名的，并没有做到这一点。比如，在复制并粘贴到 Numbers 时，会有一个单元格的错位。产品深处这样的问题，你在他们高大上的宣传中自然是看不到的。而 <strong>贴贴板</strong> 就做到了这一点，所以当时我还打出了「<strong>支持任意格式，不服来战</strong>」的口号。核心的，就是将 <code>NSPasteboardItem</code> 中的数据，存储为 <code>Data</code>；在粘贴时，再将其写回系统剪贴板。</p>
+<p><img src="https://ww2.sinaimg.cn/large/006tNc79gw1fah02yiagmg30j60askjl.gif" alt=""></p>
+<p>不过，后来发现，某些格式还是有问题的。比如，在 Sketch 中复制 svg 格式的图片时，系统剪贴板中会产生 <code>com.facebook.semaphore</code> 这种类型。而对于这种类型 <code>NSPasteboardItem.data(forType type: String)</code> 这个函数会卡死 10 几秒。我试了几款知名的竞品，也有两样的问题，看来确实是 macOS 系统有 Bug。不过，这种情况还是相当少见，在我自己用 iPaste 的一年多时间里，仅遇到过这种情况（别试 iPaste 了，因为已经改掉了；但是可以试试你手上的工具😂）</p>
+<p>再有，就是 <strong>macOS 沙盒的限制</strong>。具体到贴贴板，就是 <strong>如何将系统剪贴板中的内容粘贴到当前应用</strong>。要做到这一点，有多种方式，速度最快的，是发送 <code>Command + V</code> 键盘指令，模拟用户按下粘贴快捷键。不过，在沙盒模式下，这一方式直接不干活。</p>
+<p><img src="https://ps.toolinbox.net/87e4v.jpg" alt=""></p>
+<p>能在沙盒模式下干活的，就使用 Apple Script 来发送 <code>Command + V</code>。可是，在上架 Mac App Store 时被拒。反观所有已经上架 Mac App Store 的同类应用，都是让用户再从其官方下载一个所谓的插件、助手，基本都是安装  Apple Script 来实现自动粘贴。最后，我也从了，用了类似的方式。</p>
+<p>这里再 <strong>吐槽一下 macOS 沙盒模式，已经裹足不前好几年了</strong>。对于自动粘贴这样的需求，不支持的理由无外乎是安全。可是，这样的不作为，直接导致用户下载安装一个自己不可能验证安全的助手。在我看来，只是将安全的皮球踢给了用户，撇清了自己的责任而已。</p>
+<h3 id="1-1-独立完成一个产品"><a href="#1-1-独立完成一个产品" class="headerlink" title="1.1) 独立完成一个产品"></a>1.1) 独立完成一个产品</h3><p><strong>一个产品完整的生命周期，所涉及的点是非常多的</strong>：产品定义、市场研究、竞品分析、设计、开发、测试、上架、运营、推广、客服等等。<strong>要独自做好这些事，确实是很大的挑战。</strong></p>
+<p>当然，由于精力和能力有限，我也不可能做好所有的方面，目前主要的精力是开发和推广。<strong>对于做不好的地方</strong>，可以：</p>
+<ul>
+<li>简单做一下，将就着；</li>
+<li>花时间学习，做好；</li>
+<li>请人帮忙做。</li>
+</ul>
+<p>不同的事，处理的方式不同。</p>
+<ul>
+<li>比如 Logo 的设计，我目前倾向于请人做。比如 <a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a> 的图标，是由 <a href="https://dribbble.com/openallen" target="_blank" rel="external">Allen</a> 帮忙设计的。</li>
+<li>比如程序里的图标，我基本上是在网上免费图标的基础上，简单修改下。</li>
+<li>比如推广，很难外包给别人，只能自己硬着头皮上。</li>
+</ul>
+<p>其实，我还是挺愿意花时间折腾自己目前不擅长的事。不过，毕竟时间有限，还是要 <strong>把时间用在自己的长处，把短处外包给更专业的人完成</strong>。</p>
+<p>另外，<strong>自己一个人做也是有好处的</strong>。比如，不需要与人商量，就减少了很多沟通成本。尤其是各方意见不一致时，要达到最终结论，通常需要消耗大量的时间，甚至是返工并带来额外开发成本。而一个人，则没有这样的问题。</p>
+<p><strong>在实际做事的过程中，也养成了自己的习惯</strong>，比如：</p>
+<ul>
+<li>使用 Omni Focus 管理项目要做的事、测试用例</li>
+<li>在开发功能时，就完善所有单元测试、测试用例</li>
+<li>数据结构、UI、业务逻辑的开发步骤</li>
+<li>使用虚拟机来测试操作系统的不同版本、不同语言</li>
+</ul>
+<p><img src="https://ps.toolinbox.net/evp5j.jpg" alt=""></p>
+<p><strong>建立这些习惯的过程是痛苦的</strong>，因为要摸索所有的可能性，摒弃不适合的，最终形成适合自己的方式。<strong>而一旦建立，会有很大的收益</strong>。在下次做类似的事情时，好的习惯会大大提高效率，避免走大的弯路。</p>
+<h3 id="1-2-第一次出门吆喝"><a href="#1-2-第一次出门吆喝" class="headerlink" title="1.2) 第一次出门吆喝"></a>1.2) 第一次出门吆喝</h3><p>自己辛苦做出来的产品，自然是希望更多人用；能赚更多钱，当然更好。可是，<strong>酒香也怕巷子深</strong>，尤其现在大家的注意力被各种事情分散着，要在这样的前提下，让更多需要的朋友知道自己的产品，是个很大的挑战。</p>
+<p><strong>要增加产品的爆光，最直接的就是在媒体上报道</strong>。回过头来看，从时间和效果上看，当时这几个媒体还是不错的：</p>
+<ul>
+<li><a href="https://www.v2ex.com/t/243352" target="_blank" rel="external">V2EX</a><ul>
+<li>这里聚集了很多愿意尝鲜的极客，他们愿意尝试那些新鲜出炉的粉嫩产品，并予以自己的肯定和鼓励。</li>
+</ul>
+</li>
+<li><a href="http://next.36kr.com/posts/27192" target="_blank" rel="external">36kr Next</a><ul>
+<li>现在，这个产品基于处于半死不活状态，我感觉。</li>
+<li>当年，在 Next 发布贴贴板，还是带来了不少的流量。</li>
+</ul>
+</li>
+<li><a href="https://www.waerfa.com/tietieban-review" target="_blank" rel="external">Mac 玩儿法</a><ul>
+<li>自己认真接触的第一个自媒体，是 Frank 一个人做的，佩服。</li>
+</ul>
+</li>
+</ul>
+<p>而这些，全部是国内的媒体。如何在海外推广？很是头大。其中，我尝试了 <strong>平生第 1 次付费推广</strong>，是在 <a href="http://twodollartues.com/deals/daily-clipboard/" target="_blank" rel="external">Two Dollar Tuesday</a>，当时，其官方的规则是：</p>
+<blockquote>
+<p>You discount your app to $1.99 in the App Store for 48 hour promo (Tuesday &amp; Wednesday). </p>
+<p>We will promote your deal via e-mail, our website, Facebook &amp; Twitter.</p>
+<p>We then do a revenue split after Apple’s cut. On a $1.99 app, you get $1.40. So we get $0.70 to us per sale on Tuesday only. Wednesday you keep 100% of proceeds.</p>
+<p>We have you pay us for the first 100 sales ahead of time ($70).</p>
+<p>Finally, we have a $1,000 MAX on the amount due to us. Meaning, no matter how many copies we sell on Tuesday, you can never owe us more than $1,000.</p>
+</blockquote>
+<p>精准翻译过来，就是：</p>
+<ul>
+<li>我将应用降价为 $1.99</li>
+<li>周二的收入，对方提成 30%</li>
+<li>对方至少收 100 份的费用，即 $70，最多收 $1000</li>
+</ul>
+<p>实际的效果，在这两天仅售出 92 份、$126，除去先前支付的 $70，还剩 $56，相当于每份 $56 / 92 = $0.6，白菜价。</p>
+<p><strong>于是，我之后再没试过付费推广…</strong></p>
+<p>需要注意的是，<strong>媒体的效果主要有 2 方面</strong>：</p>
+<ul>
+<li><strong>突击爆光</strong><ul>
+<li>尤其在产品发布的时候，多家媒体同时爆光，甚至会有 <strong>霸屏</strong> 的效果。</li>
+<li>比如，当用户在微博上看到 iPaste 的报道，可能跳过了。可如果接着又在少数派看到、在即刻订阅上看到，就肯定会加深印象。或许会生出兴趣，尝试一番。</li>
+</ul>
+</li>
+<li><strong>为之后的搜索做铺垫</strong><ul>
+<li>我们在需要某类产品时，除了向周围的高手求教，也可能自己去互联网搜索。而这些媒体的报道，则会成为被搜索到的基础。尤其是 <strong>权威媒体的报道，会有更高的搜索权重</strong>。</li>
+<li>这里说一个小技巧：自己在写文章时，要「<strong>面向搜索引擎</strong>」，而不仅仅是标题党。比如，「夜深了，熄灯了，老公竟然不理我，还在玩这款游戏？！」这样的标题，其实对于搜索引擎并不友好。对于标题这样重要的因素，不包含产品的名字，是不能接受的。</li>
+</ul>
+</li>
+</ul>
+<p>不过，媒体资源毕竟是有限的，你总不可能天天被报道吧？在更长的时间范围内，都要靠用户的自发传播，和自己的影响力。</p>
+<p><strong>对于口碑传播，当然首先要靠产品的硬实力</strong>，毕竟首先产品要好，用户才愿意消耗自己品牌价值，去推荐你的产品。当然，这其中也存在一定程度的可操作性，比如在程序角度诱导用户分享，以及分享送 Pro 之类的活动。</p>
+<p>而 <strong>对于自己的影响力，就需要长期建设了</strong>。比如，我最近强迫自己每周二早 8 点在自己的「<strong><a href="https://ps.toolinbox.net/z997y.jpg" target="_blank" rel="external">自在开发</a></strong>」公众号中写篇技术长文（包括本篇），也在自己的博客、少数派、掘金、简书等全媒体发布。这些文章的受众，有可能就是我自己产品的用户。并且，有了文章的背书，当用户对我有更多了解和信任后，也就更愿意尝试我的产品。</p>
+<h2 id="2-贴贴板到-iPaste-的蜕变"><a href="#2-贴贴板到-iPaste-的蜕变" class="headerlink" title="2) 贴贴板到 iPaste 的蜕变"></a>2) 贴贴板到 iPaste 的蜕变</h2><h3 id="2-0-那些年，我也曾青涩"><a href="#2-0-那些年，我也曾青涩" class="headerlink" title="2.0) 那些年，我也曾青涩"></a>2.0) 那些年，我也曾青涩</h3><p>对于名字，当初也是纠结了很久才定的「贴贴板」（英文 Daily Clipboard）现在来看，中文名还好，英文名就太差了些，且和中文名没有关联。当时，我已经开发了 <a href="https://toolinbox.net/iPic/" target="_blank" rel="external">iPic</a>，想维持一个「i」系列，就直接改为「iPaste」了。</p>
+<p>再来看看当年贴贴板的 Logo（左侧）:</p>
+<p><img src="https://ps.toolinbox.net/j627o.png" alt=""></p>
+<p>真有种不忍直视的感觉 😅</p>
+<p>目前的 Logo（右侧），是自己设计的。基本是参考系统圆形 Logo，如 iBooks、App Store；其中的 P，和 <a href="https://toolinbox.net/iPic/" target="_blank" rel="external">iPic</a> Logo 中的 P 一样；背景的深绿色，是参考系统 Time Machine，想借其稳定的意味。</p>
+<p>其实，<strong>改名、改 Logo 的影响还是非常大的</strong>。比如，之前所有在媒体沉淀的报道，全都无效了，需要从 0 开始积累影响力。所以，大家在给产品起名、设计 Logo 时，一定要慎重。定好了，就要坚持。</p>
+<p>对于独立开发者朋友，我有个小建议：<strong>保留自己程序的历史版本</strong>。当然，我知道你肯定已经用了 Git；我是说，保留可以直接运行的版本（你确定，20 年后，你还有能力将代码编译为程序 😂）就像老照片一样，多年以后，<strong>重新运行一下自己当年还懵懂时写下程序</strong>，看那交互、那颜色、那不经意的跳转，<strong>就像看老照片一样，会有别样的情愫</strong>。</p>
+<p><img src="https://ps.toolinbox.net/n5w2q.jpg" alt=""></p>
+<h3 id="2-1-付费下载-gt-内购"><a href="#2-1-付费下载-gt-内购" class="headerlink" title="2.1) 付费下载 -&gt; 内购"></a>2.1) 付费下载 -&gt; 内购</h3><p>最开始，iPaste 的模式是付费以后才能下载使用。</p>
+<p>采用这一方式的唯一原因：<strong>实现简单</strong>。或者说，代码上什么都不用做，无需区分免费版和付费后的功能限制，无需处理复杂的 In-App Purchase 集成。</p>
+<p>不过，这一方式的缺点也很明确：<strong>限制潜在用户尝试 iPaste</strong>. 这部分可以在 <a href="https://atjason.com/IndieDev/2017-07-18.html">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍详细的介绍。</p>
+<p>后来，<strong>iPaste 将付费模式调整为免费 + 内购</strong>。从效果上看，确实明显增加了用户数量，用户付费也有所增加。所以，如果你打算开发个产品，个人建议采用免费 + 内购的方式。其中，可以试试我开源的 <a href="https://github.com/atjason/IAPHelper" target="_blank" rel="external">IAPHelper</a>，可以很方便地集成 In-App Purchase. 另外，内购也可以试试订阅。虽说很多朋友对于订阅还很抗拒，不过，还是有用户能接受，不妨考虑一下。</p>
+<p><strong>换付费模式，其实是挺麻烦的事</strong>。比如，最开始已经付费购买的用户，总不能让其再购买一次、或者不能更新吧？要做到这一点，就要识别出之前上架 MAS 的版本，以及用户是否从 MAS 下载的 iPaste，对于条件都满足，则自动开通高级功能。如何识别？主要是从 MAS 更新 Receipt 并解析其中的内容。</p>
+<h2 id="3-iPaste-的现在与将来"><a href="#3-iPaste-的现在与将来" class="headerlink" title="3) iPaste 的现在与将来"></a>3) iPaste 的现在与将来</h2><h3 id="3-0-工具型产品的困境"><a href="#3-0-工具型产品的困境" class="headerlink" title="3.0) 工具型产品的困境"></a>3.0) 工具型产品的困境</h3><p>我查了下，上个版本的是 iPaste，是在去掉 9 月 26 日发布的，几乎都快一年了。</p>
+<p><strong>为什么这么久都不出新版？</strong></p>
+<p>一方面，是我在忙 <a href="https://toolinbox.net/iPic/" target="_blank" rel="external">iPic</a>、<a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a> 等其他产品。另一方面，更重要的，是我 <strong>没想好该怎么改进</strong>。</p>
+<p><strong>工具型产品很容易陷入这样的困境</strong>：一方面，会遇到用户增长迟缓的情况；另一方面，会有用户表达「加了这个功能，我就买」这样的意愿。于是，很容易抗不住压力，加了某个功能。且不说当初的用户是否真的购买，长此以往，产品的功能越来越多，很容易变得越来越复杂、越来越不好用。用户增长变得更缓慢，甚至流失，陷入 <strong>死循环</strong>。</p>
+<p>Word 就是个典型的例子，就像我们熟悉的那句话：99% 的人用了 Word 不到 1% 的功能。当然，Word 依然是现在的工业标准。但与此同时，以 Markdown 为代表的文本轻量型编辑工具，蚕食了大量原本属于 Word 的份额。</p>
+<p><img src="https://ps.toolinbox.net/hg7si.jpg" alt=""></p>
+<p>其实，<strong>很多工具型产品变坏、变难用，很大程度是因为营收的压力</strong>。因为工具型产品本身是极难赢利的，而不赢利又无法养活团队，不现实。于是，为了赢利，产品团队不得不加些社交、内容等元素，想办法增加用户粘性和互动，进而希望带来更多转化和商业可能性；但通常，事与愿违。</p>
+<p><strong>怎么破呢？</strong>简单：<strong>别指望用工具赚大钱</strong>。不要让团队过于膨胀，以减少成本。出于这一点，<strong>独立开发者、小团队，很适合做工具型产品</strong>，因为营收压力小，一人吃饱、全公司不饿，不至于因此让产品畸变。</p>
+<h3 id="3-1-iPaste-该如何突围"><a href="#3-1-iPaste-该如何突围" class="headerlink" title="3.1) iPaste 该如何突围"></a>3.1) iPaste 该如何突围</h3><p>说回 <strong>iPaste</strong>，它的 <strong>核心功能就是一句话：记住用户曾经复制的内容，然后粘贴</strong>。对于核心功能，iPaste 已经实现的很好了，甚至可以钉住剪贴板历史，进而使用固定的快捷键粘贴，大大提高效率。</p>
+<p><strong>那在此基础上，还能如何改进呢？</strong>经过一年的潜意识思考和自己的实际需求，我加了 2 个功能：</p>
+<ul>
+<li><strong>编辑及管理剪贴板历史</strong></li>
+<li><strong>增加 Pin 历史分组</strong></li>
+</ul>
+<p>看个操作视频就明白了：</p>
+<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fhq6euq84qg30fg0de1kx.gif" alt=""></p>
+<p>主要对应于我自己的几个使用场景：</p>
+<p><strong>快速插入 Emoji 表情</strong></p>
+<p><img src="https://ps.toolinbox.net/e8yw0.png" alt=""></p>
+<ul>
+<li><strong>macOS 系统自带的</strong> 是 <code>Ctrl + Command + Space</code> 呼出 <strong>Emoji</strong> 和符号键盘，问题在于：<strong>效率不高</strong>：系统列出了无数的表情，而我自己常用的就那么几个。虽说有历史、收藏夹分组，但每次都要手动切换，还要移动鼠标，麻烦。</li>
+<li>macOS 中运行的其它程序，如微信、Telegram、Skype 等等，每家 Emoji 表情的 <strong>排列不一致、长得不一样、交互也不一样</strong>。每次要在不同的排列中找，有点痛苦。</li>
+<li>在 iPaste 增加了此功能后，我可以按依次按 <code>Shift + Command + V</code>、<code>Command + A</code>、<code>A/B/C</code>，快速输入指定的 Emoji 表情。<strong>全程使用固定的快捷键、无需鼠标，高效、舒服</strong>。</li>
+</ul>
+<p><strong>快速插入一些特殊字符</strong></p>
+<p><img src="https://ps.toolinbox.net/8q47h.png" alt=""></p>
+<ul>
+<li>比如，macOS 快捷键中常用的 <code>⌘</code>、<code>⌥</code>、<code>⇧</code>、<code>⌃</code> 等特殊字符，在回复用户邮件时，时不时会用到，几乎每次都要到 Google 搜索，然后再粘贴过去。</li>
+<li>现在，我会创建一个专业的 Pin 分组，用于输入这些特殊字符。</li>
+</ul>
+<p><strong>添加客服常用语</strong></p>
+<ul>
+<li>比如，我经常我回复用户的问题。而这些问题中，很多是重复的，回复也是类似的。有了 Pin 分组功能，我可以为每个产品添加常用的回复语，用于在邮件中快速添加。</li>
+</ul>
+<p><strong>添加常用命令</strong></p>
+<ul>
+<li>比如 <code>gc master; git merge dev; gc dev;</code> 用于切至 Git 主分支、合并、切回 dev 分支。</li>
+<li>有时，需要对命令做简单调整，在之前的版本中，就有点痛苦。因为我需要多次 Pin/Unpin，才能让新 Pin 住的历史，并使用原来的快捷键。说起来有点绕，用过 iPaste 之前版本的朋友，应该明白我在说什么。</li>
+</ul>
+<p>可以看出，做出这个更新，主要还是满足我自己的实际需求。如果恰好你也有这种痒点，欢迎试试新版 iPaste. 顺便做个硬广：含此功能的 <strong><a href="https://itunes.apple.com/app/id1056935452?ls=1&amp;mt=12&amp;at=1000lv4R&amp;ct=iPaste_me" target="_blank" rel="external">新版 iPaste 今天刚刚上架，高级版内购限时半价</a></strong>，需要的朋友不要错过。</p>
+<h3 id="3-2-iPaste-还能玩出什么花"><a href="#3-2-iPaste-还能玩出什么花" class="headerlink" title="3.2) iPaste 还能玩出什么花"></a>3.2) iPaste 还能玩出什么花</h3><p>在 App Store 搜索「剪贴板」，会得到一堆应用，这是个充分竞争的领域。那么，iPaste 该如何定位、又能玩出什么花样？</p>
+<p>首先，<strong>iPaste 的定位一直没变：简洁高效的剪贴板应用。</strong></p>
+<p>我知道，你肯定觉得「简洁高效」这话实在是被用滥了，说了跟没说一样。但我真的是这么做的。</p>
+<ul>
+<li>iPaste 的交互基于菜单，已经不可能更简洁了。</li>
+<li>iPaste 所有关键操作都支持快捷键，全程不需要使用鼠标或触摸板。</li>
+</ul>
+<p><img src="https://ps.toolinbox.net/neefn.png" alt=""></p>
+<p><strong>在坚守 「简洁高效」 这个定位和底线后，iPaste 会在继续在易用性和效率上改进。</strong>比如，很多朋友希望能记录更多的剪贴板历史（虽然我目前依然觉得意义不大），而要在众多历史中找到需要的，搜索便成为必然。于是，入口就是个问题，我打算 <strong>在 Spotlight 搜索中集成 iPaste 的搜索</strong>。据我所知，目前同类应用中尚未出现此功能，<strong>iPaste 算是首创吧</strong>。恩，有了点子公布出来，省得后来者反而说我模仿抄袭。</p>
+<p>另外，打算支持 CloudKit，并开发 <strong>iPaste for iOS</strong>. 恩，我知道，在 iOS 领域，剪贴板应用同样竞争非常充分，且有 Pin 这样的明星产品。不过，还是有事情可做的。比如，目前我在 macOS 上设计图片后，要发到朋友圈，需要先通过微信等方式先将图片及文字中转到手机，然后再发，很是麻烦。要是 iPaste for iOS 能做到 macOS 端复制、iOS 端一键发送，多好。</p>
+<p>再有，基于 <a href="https://itunes.apple.com/app/id1056935452?ls=1&amp;mt=12&amp;at=1000lv4R&amp;ct=iPaste_me" target="_blank" rel="external">iPaste</a> 还有个衍生产品：iTips，主要是 <strong>个人碎片化信息的管理</strong>，如公司发票抬头，追了哪些美剧、分别看到第几集，等等。目前还没想到具体的形态，暂不展开介绍。</p>
+<h2 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h2><p>连续写了几篇长文，感觉要被掏空了。下周都不知道要写什么了，总不能继续写回忆录吧？😂</p>
+<p>没办法，只能继续逼自己多输入，保证每周都有干货，晾晒在「<a href="https://ps.toolinbox.net/z997y.jpg" target="_blank" rel="external">自在开发</a>」公众号。</p>
+<p><img src="https://ps.toolinbox.net/z997y.jpg" alt=""></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/daily/2017-07-25.html" rel="next" title="0725 - 移民，好像变得不那么陌生">
+                <i class="fa fa-chevron-left"></i> 0725 - 移民，好像变得不那么陌生
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/daily/2017-07-24.html" rel="prev" title="0724 - 写文章真的是挺花时间">
+                0724 - 写文章真的是挺花时间 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="https://ohpsctde4.qnssl.com/ezw8l.jpg"
+               alt="Jason" />
+          <p class="site-author-name" itemprop="name">Jason</p>
+           
+              <p class="site-description motion-element" itemprop="description">独立开发，自由职业</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">1128</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/atjason" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/hereisjason" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/atjasonzone" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://toolinbox.net/" title="Toolinbox" target="_blank">Toolinbox</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0-起初，「贴贴板」并不算产品"><span class="nav-number">1.</span> <span class="nav-text">0) 起初，「贴贴板」并不算产品</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-iPaste-夺走我的第-1-次，一次又一次"><span class="nav-number">2.</span> <span class="nav-text">1) iPaste 夺走我的第 1 次，一次又一次</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-0-Swift-与-macOS-开发"><span class="nav-number">2.1.</span> <span class="nav-text">1.0) Swift 与 macOS 开发</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-独立完成一个产品"><span class="nav-number">2.2.</span> <span class="nav-text">1.1) 独立完成一个产品</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-第一次出门吆喝"><span class="nav-number">2.3.</span> <span class="nav-text">1.2) 第一次出门吆喝</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-贴贴板到-iPaste-的蜕变"><span class="nav-number">3.</span> <span class="nav-text">2) 贴贴板到 iPaste 的蜕变</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-0-那些年，我也曾青涩"><span class="nav-number">3.1.</span> <span class="nav-text">2.0) 那些年，我也曾青涩</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-付费下载-gt-内购"><span class="nav-number">3.2.</span> <span class="nav-text">2.1) 付费下载 -> 内购</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-iPaste-的现在与将来"><span class="nav-number">4.</span> <span class="nav-text">3) iPaste 的现在与将来</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-0-工具型产品的困境"><span class="nav-number">4.1.</span> <span class="nav-text">3.0) 工具型产品的困境</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-iPaste-该如何突围"><span class="nav-number">4.2.</span> <span class="nav-text">3.1) iPaste 该如何突围</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-iPaste-还能玩出什么花"><span class="nav-number">4.3.</span> <span class="nav-text">3.2) iPaste 还能玩出什么花</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#尾巴"><span class="nav-number">5.</span> <span class="nav-text">尾巴</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2011 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jason</span>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://atjason.com/IndieDev/2017-07-25_iPaste_Review.html';
+          this.page.identifier = 'IndieDev/2017-07-25_iPaste_Review.html';
+          this.page.title = '说说我出道后的处女作：剪贴板神器 iPaste';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://atjason.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      $('#local-search-input').focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            var resultItems = [];
+            if (this.value.trim().length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCountInArticle = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCountInArticle = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  var resultItem = '';
+
+                  function highlightKeyword(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+
+                    var matchText = text.substring(start, end);
+                    var matchResult = [];
+                    var prevEnd = 0;
+                    while (position + word.length <= end && index.length != 0) {
+
+                      // highlight keyword
+
+                      var wordBegin = position - start;
+                      var wordEnd = position - start + word.length;
+                      matchResult.push(matchText.substring(prevEnd, wordBegin));
+                      matchResult.push("<b class=\"search-keyword\">" + matchText.substring(wordBegin, wordEnd) + "</b>");
+
+                      // move to next position of hit
+
+                      index.pop();
+                      prevEnd = wordEnd;
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (prevEnd > position - start) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    matchResult.push(matchText.substring(prevEnd));
+                    return matchResult.join('');
+                  }
+
+                  // sort index by position of keyword
+
+                  indexOfTitle.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  indexOfContent.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  // highlight title
+
+                  if (indexOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, 0, title.length, indexOfTitle) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  // highlight content
+
+                  var resultUpperBound = parseInt(1);
+                  var withoutUpperBound = false;
+                  if (resultUpperBound === -1) {
+                    withoutUpperBound = true;
+                  }
+                  var currentResultNum = 0;
+                  while (indexOfContent.length != 0 && (withoutUpperBound || (currentResultNum < resultUpperBound))) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                    "<p class=\"search-result\">" + highlightKeyword(content, start, end, indexOfContent) +
+                    "...</p>" + "</a>";
+                    currentResultNum++;
+                  }
+                  resultItem += "</li>";
+                  resultItems.push({item: resultItem, hitCount: hitCountInArticle, id: resultItems.length});
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.hitCount != resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultLeft.id - resultRight.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result, i) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              $resultContent.innerHTML = searchResultList;
+            }
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>0122 - EOS 编程学习日志（1） | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="EOS 编程到底是什么呢、学什么呢？抱歉，我现在也不无法回答。不过，我可以告诉你我做了哪些尝试、目前的理解，以及下一步还要做什么。首先，EOS 开发最重要的文档自然是在 GitHub: https://github.com/EOSIO/eos，比如：介绍了如何在本机编译、运行 EOS其中的 contracts 目录，提供了一些智能合约的范例。其中 一些基础概念：eosd - server-side">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="0122 - EOS 编程学习日志（1）">
+<meta property="og:url" content="http://yoursite.com/2018/01/22/daily/2018-01-22/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="EOS 编程到底是什么呢、学什么呢？抱歉，我现在也不无法回答。不过，我可以告诉你我做了哪些尝试、目前的理解，以及下一步还要做什么。首先，EOS 开发最重要的文档自然是在 GitHub: https://github.com/EOSIO/eos，比如：介绍了如何在本机编译、运行 EOS其中的 contracts 目录，提供了一些智能合约的范例。其中 一些基础概念：eosd - server-side">
+<meta property="og:updated_time" content="2018-01-22T16:09:42.343Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="0122 - EOS 编程学习日志（1）">
+<meta name="twitter:description" content="EOS 编程到底是什么呢、学什么呢？抱歉，我现在也不无法回答。不过，我可以告诉你我做了哪些尝试、目前的理解，以及下一步还要做什么。首先，EOS 开发最重要的文档自然是在 GitHub: https://github.com/EOSIO/eos，比如：介绍了如何在本机编译、运行 EOS其中的 contracts 目录，提供了一些智能合约的范例。其中 一些基础概念：eosd - server-side">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-daily/2018-01-22" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/01/22/daily/2018-01-22/" class="article-date">
+  <time datetime="2018-01-22T14:00:00.000Z" itemprop="datePublished">2018-01-22</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/每天写一点/">每天写一点</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      0122 - EOS 编程学习日志（1）
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>EOS 编程到底是什么呢、学什么呢？</strong></p><p>抱歉，我现在也不无法回答。不过，我可以告诉你我做了哪些尝试、目前的理解，以及下一步还要做什么。</p><p>首先，<strong>EOS 开发最重要的文档自然是在 GitHub</strong>: <a href="https://github.com/EOSIO/eos" target="_blank" rel="external">https://github.com/EOSIO/eos</a>，比如：</p><ul><li>介绍了如何在本机编译、运行 EOS</li><li>其中的 contracts 目录，提供了一些智能合约的范例。</li></ul><p>其中 <strong>一些基础概念</strong>：</p><ul><li><code>eosd</code> - server-side blockchain node component<ul><li>可理解为运行在本机的 EOS Daemon/服务器</li></ul></li><li><code>eosc</code> - command line interface to interact with the blockchain<ul><li>可理解为方便与 EOS 服务器进行交互的命令行工具，不用写代码就可以通过这个工具执行命令，进行一些测试</li></ul></li><li><code>eos-walletd</code> - EOS wallet<ul><li>可以理解为 EOS 钱包的命令行工具</li></ul></li></ul><p>然后，<strong>主要开发文档在此</strong>：<a href="https://eosio.github.io/eos/" target="_blank" rel="external">https://eosio.github.io/eos/</a>，主要分为 2 种形式的接口及文档：</p><ol><li><strong>REST RPC 接口</strong><ul><li>也即，不是直接使用 C/C++/WebAssembly 编写代码，而且封装为 REST RPC 接口。<strong>有了这个接口，对编程语言就没有限制了，你可以用任何你喜欢的语言</strong>，比如 Swift/Python/etc</li><li>不过，<strong>可惜的是，目前已经封装的接口并不多，你并不能通过 REST RPC 干所有事情</strong>。希望 EOS 能尽快完善 REST RPC 接口，这是目前我最期待的</li><li>我把其中的接口都测试了一遍，可惜就是太少了</li></ul></li><li><strong>C/C++/WebAssembly 源码</strong><ul><li><strong>EOS 本身就是基于 C/C++/WebAssembly 编写的</strong>，基于这些语言的文档自然最全。</li><li>自然的，<strong>目前如果你想充分基于 EOS 开发，只能使用 C/C++/WebAssembly</strong>；如果不会，要么学习，要么等 REST RPC 接口早日完善</li></ul></li></ol><p>你可能知道，EOS 在 17 年 12 月 4 日发布了 pre-release 2.0，同时也发布了 <strong>公测版的 EOS 区块链网络</strong>（不是主链，主链预计 18 年 6 月发布），以下是这部分的介绍：</p><ul><li><a href="https://github.com/EOSIO/eos/wiki/Testnet:-Public#public-testnet-endpoints" target="_blank" rel="external">Testnet: Public</a><ul><li>这个就是关于此次公测链的根文档</li></ul></li><li>你需要先在 <a href="https://docs.google.com/forms/d/e/1FAIpQLSel3HVFb22zYaAJfUtu_IzFgIJ4OATb0jQ3H2FV-HbwnJ090g/viewform" target="_blank" rel="external">这里</a> 申请测试账户</li><li>测试链的 <a href="https://t1api.eos.io/v1/docs/" target="_blank" rel="external">REST API 接口文档</a><ul><li>包含了认证、区块、交易(Transaction)、账户等部分的介绍</li><li>我简单试了一遍，貌似 <code>v1/blocks</code> 接口有问题，其它正常</li></ul></li></ul><p><strong>下一步怎么学呢？</strong>其实我也还不清楚，有这么几个可选项：</p><ul><li><strong>学习 Docker</strong><ul><li>为什么呢？因为我暂时不想在 macOS 主系统中编译 EOS 项目，目前是在虚拟机中编译的，但多少有些方便</li><li>EOS 支持在 Docker 中运行，这样既不会把我的主系统搞乱，也不必忍受虚拟机的性能和麻烦</li></ul></li><li><strong>学习 C/C++/WebAssembly</strong><ul><li>只有这样，才能在 EOS 目前的状态下，深入的测试、学习</li><li>这其实是成本、风险非常高的选择，我非常犹豫；我会再去了解下 EOS 团队有没有关于 REST 接口开发计划</li></ul></li><li><strong>学习区块链通用开发技术</strong><ul><li>EOS 只是区块链的一种形态，而区块链本身还有很多通用型的开发技术，这个也要先行了解</li></ul></li></ul><p>你也对 EOS 感兴趣吗？希望这篇文章能帮你揭开 EOS 开发的神秘面纱，也欢迎一起啃这块骨头。</p>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/01/22/daily/2018-01-22/" data-id="cjmo6t49k01e13ajebyvhrcwj" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2018/01/21/daily/2018-01-21/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          0121 - 开始学习 EOS 编程
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2018/01/23/daily/2018-01-23/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">0123 - 抓住青春的尾巴，享受技术的快乐</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Origami之于滴答清单—添加任务的交互 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="滴答清单是已经存在的产品，其中延期也包含了添加任务的交互。这里并不是使用Origami去设计，而是使用Origami去模仿，达到学习Origami的目的。关于滴答清单，本文模仿的是iOS1.9.4版本的滴答清单，可以在滴答清单官网去下载：http://www.dida365.com好，以下就开始整个模仿的过程，大致分为三步。一，想清楚交互的具体过程也就是说，实际操作滴答清单，了解添加任务的过程，然">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Origami之于滴答清单—添加任务的交互">
+<meta property="og:url" content="http://yoursite.com/2015/05/25/629/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="滴答清单是已经存在的产品，其中延期也包含了添加任务的交互。这里并不是使用Origami去设计，而是使用Origami去模仿，达到学习Origami的目的。关于滴答清单，本文模仿的是iOS1.9.4版本的滴答清单，可以在滴答清单官网去下载：http://www.dida365.com好，以下就开始整个模仿的过程，大致分为三步。一，想清楚交互的具体过程也就是说，实际操作滴答清单，了解添加任务的过程，然">
+<meta property="og:image" content="https://p.ilib.io/cn/cswp7.png">
+<meta property="og:image" content="https://p.ilib.io/cn/v679h.jpg">
+<meta property="og:image" content="https://p.ilib.io/cn/f09x4.jpg">
+<meta property="og:image" content="https://p.ilib.io/cn/lpztp.png">
+<meta property="og:image" content="https://p.ilib.io/cn/h48py.jpg">
+<meta property="og:updated_time" content="2016-12-06T04:52:33.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Origami之于滴答清单—添加任务的交互">
+<meta name="twitter:description" content="滴答清单是已经存在的产品，其中延期也包含了添加任务的交互。这里并不是使用Origami去设计，而是使用Origami去模仿，达到学习Origami的目的。关于滴答清单，本文模仿的是iOS1.9.4版本的滴答清单，可以在滴答清单官网去下载：http://www.dida365.com好，以下就开始整个模仿的过程，大致分为三步。一，想清楚交互的具体过程也就是说，实际操作滴答清单，了解添加任务的过程，然">
+<meta name="twitter:image" content="https://p.ilib.io/cn/cswp7.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-629" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2015/05/25/629/" class="article-date">
+  <time datetime="2015-05-25T10:32:16.000Z" itemprop="datePublished">2015-05-25</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/PM/">PM</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Origami之于滴答清单—添加任务的交互
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>滴答清单是已经存在的产品，其中延期也包含了添加任务的交互。这里并不是使用Origami去设计，而是使用Origami去模仿，达到学习Origami的目的。</p><p>关于滴答清单，本文模仿的是iOS1.9.4版本的滴答清单，可以在滴答清单官网去下载：<a href="http://www.dida365.com" target="_blank" rel="external">http://www.dida365.com</a></p><p>好，以下就开始整个模仿的过程，大致分为三步。</p><h1 id="一，想清楚交互的具体过程"><a href="#一，想清楚交互的具体过程" class="headerlink" title="一，想清楚交互的具体过程"></a>一，想清楚交互的具体过程</h1><p>也就是说，实际操作滴答清单，了解添加任务的过程，然后逐渐对整个交互进行拆解。过程中，可以使用高速录像后慢放的方式，了解动画的细节。</p><p>拆分结束后，大致可分为以下的交互、或者说动画：</p><ul><li><p>正向（即添加任务）</p><pre><code>*   加号键逐渐放大、消
+</code></pre><ul><li><p>同时完成以下交</p></li><li><p>标题栏文字和图标切</p></li><li><p>主页面切</p></li><li><p>键盘升</p></li></ul></li><li><p>反向（即从添加任务状态返回）</p><pre><code>*   两种方式触发返
+</code></pre><ul><li><p>点击返回</p></li><li><p>屏幕右滑（本期暂时不包含这一功能</p></li><li><p>同时完成以下交</p></li><li><p>标题栏文字和图标切</p></li><li><p>主页面切换</p><pre><code>*   注：加号键和页面同时出现，没有动
+</code></pre></li><li><p>键盘下降</p></li></ul></li></ul><h1 id="二，准备素材"><a href="#二，准备素材" class="headerlink" title="二，准备素材"></a>二，准备素材</h1><p>其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：</p><ul><li><p>图标：抽屉、菜单、返</p></li><li><p>图片：状态栏及标题栏、任务列表界面、新任务页面、键盘页面、加号键</p></li></ul><p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/Assets.zip" target="_blank" rel="external">下载素材</a>：</p><h1 id="三，逐步实现交互"><a href="#三，逐步实现交互" class="headerlink" title="三，逐步实现交互"></a>三，逐步实现交互</h1><p>以下是主要的部分，放在一个步骤里，显示有些大了。不过不用担心，还是一步步完成的。</p><h2 id="布置静态的任务列表界面"><a href="#布置静态的任务列表界面" class="headerlink" title="布置静态的任务列表界面"></a>布置静态的任务列表界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。具体的内容和素材包括：</p><ul><li><p>标题栏：背影、图标、文</p></li><li><p>内容界</p></li><li><p>加号键</p></li></ul><p>小技巧：可将截图放在最上方，并使其半透明，这样就可以使用截图来校对元素在界面上的位置</p><p>布置好后是这样的：</p><p><img src="https://p.ilib.io/cn/cswp7.png" alt="任务列表界面"></p><h2 id="依次实现以下任务列表界面的交互"><a href="#依次实现以下任务列表界面的交互" class="headerlink" title="依次实现以下任务列表界面的交互"></a>依次实现以下任务列表界面的交互</h2><ul><li><p>消息的触发</p><pre><code>*   以点击加号键任务交互的触发点。可以将按下加号键的消息以Wireless的方式广播出去，这样可以方便得在其它LayerGroup中使用
+</code></pre></li><li><p>点击加号键后，加号键逐渐放大、消失</p><pre><code>*   也即修改Scale、Opacity属性，使得加号键在放大的过程中同时消失
+</code></pre></li><li><p>标题栏图标的切换</p><pre><code>*   也即修改Opacity属性，使得图标在过渡过程中消
+</code></pre></li><li><p>标题栏文字的切换</p><pre><code>*   也即修改XPosition、Opacity属性，使得图标在左移过程中消
+</code></pre></li><li><p>主页面切换</p><pre><code>*   也即修改Opacity属性，使得内容在左移过程中消失
+</code></pre></li></ul><p>QC中的界面大致是这样的：</p><p><img src="https://p.ilib.io/cn/v679h.jpg" alt=""></p><h2 id="创建Layer-Group"><a href="#创建Layer-Group" class="headerlink" title="创建Layer Group"></a>创建Layer Group</h2><p>将任务列表的所有内容放置在一个LayerGroup中，同时创建另一个LayerGroup，用于放置新任务的内容。暂时关闭任务列表界面，进行接下来新任务界面的设计。</p><p><img src="https://p.ilib.io/cn/f09x4.jpg" alt="Layer Group"></p><h2 id="布置静态的新任务界面"><a href="#布置静态的新任务界面" class="headerlink" title="布置静态的新任务界面"></a>布置静态的新任务界面</h2><p>这一点和上面介绍的布置静态任务列表界面类似，这里就不多做介绍。布置好后是这样的：</p><p><img src="https://p.ilib.io/cn/lpztp.png" alt="新任务界面"></p><h2 id="依次实现以下新任务界面的交互"><a href="#依次实现以下新任务界面的交互" class="headerlink" title="依次实现以下新任务界面的交互"></a>依次实现以下新任务界面的交互</h2><ul><li><p>消息的触发</p><pre><code>*   以点击返回键任务交互的触发点、暂时不处理滑动返回操作。同时的，可以将该消息以Wireless的方式广播出去
+</code></pre></li><li><p>标题栏图标的切换</p><pre><code>*   也即修改Opacity属性，使得图标在过渡过程中消
+</code></pre></li><li><p>标题栏文字的切换</p><pre><code>*   也即修改XPosition、Opacity属性，使得图标在右移过程中消
+</code></pre></li><li><p>主页面切换</p><pre><code>*   也即修改Opacity属性，使得内容在左移过程中消
+</code></pre></li><li><p>键盘下降</p><pre><code>*   也即修改YPosition、Opacity属性，使得图标在下移过程中消失
+</code></pre></li></ul><p>​QC中的界面大致是这样的：</p><p><img src="https://p.ilib.io/cn/h48py.jpg" alt="新任务界面"></p><h2 id="重新打开任务列表的LayerGroup，并进行调整"><a href="#重新打开任务列表的LayerGroup，并进行调整" class="headerlink" title="重新打开任务列表的LayerGroup，并进行调整"></a>重新打开任务列表的LayerGroup，并进行调整</h2><p>将任务列表的LayerGroup放在底层，将新任务的LayerGroup放在上层</p><p>使用添加任务、返回两个消息，控制上述两个层的状态切换。需要注意的是，除了状态切换，还需要在显示底层时隐藏上层，也即在显示任务列表的LayerGroup时隐藏新任务的LayerGroup，这样才能响应任务列表的点击操作。</p><p>进行其它一些调整，主要是针对动画的过渡，修正其中处理不好的地方。注意，这里有一点要说，不要刻意追求动画的完美。有时，花了2个小时做好了90%的交互、已经可以表达出意图，却又要花1小时、甚至更多的时间去调整不完美的地方，这就有些钻牛角尖了，浪费精力、没有必要。除非是开发同学能100%实现你设计的交互，不然这样的交互只是用来表达意图，做得太完美反而是浪费时间。</p><p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/AddTask_OK.zip" target="_blank" rel="external">下载Origami工程文件</a>。</p>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2015/05/25/629/" data-id="cjmo6t1nu002u3ajehj6igdj7" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2015/05/25/632/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          优化Quartz Composer (Origami)的性能
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/05/26/654/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Origami之于滴答清单—侧边栏的交互</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

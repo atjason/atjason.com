@@ -1,0 +1,1323 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next mist" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<link href="https://cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Jason,博客" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jason" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="0) iText 点子的由来开始时，我打算在 Klib 中支持从 PDF 导入标注，发现很难；在这个过程中，一些用户提出（发现需求）：在看 PDF 文档时，有些扫描版不支持复制文字，不方便。于是，就从双 11 晚上开始，我花了一天，做了 iText 第一版（最小原型），可以截图并从中识别文字。  之后，在微博等渠道做了简单推广，并限制 封闭内测（即，用户需要发邮件给我，才能收到 iText 的下">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我是如何把 iText 带到这个世界的">
+<meta property="og:url" content="https://atjason.com/IndieDev/iText.html">
+<meta property="og:site_name" content="Jason">
+<meta property="og:description" content="0) iText 点子的由来开始时，我打算在 Klib 中支持从 PDF 导入标注，发现很难；在这个过程中，一些用户提出（发现需求）：在看 PDF 文档时，有些扫描版不支持复制文字，不方便。于是，就从双 11 晚上开始，我花了一天，做了 iText 第一版（最小原型），可以截图并从中识别文字。  之后，在微博等渠道做了简单推广，并限制 封闭内测（即，用户需要发邮件给我，才能收到 iText 的下">
+<meta property="og:image" content="https://ps.toolinbox.net/9iygs.png">
+<meta property="og:image" content="https://ps.toolinbox.net/hciqq.png">
+<meta property="og:image" content="https://ps.toolinbox.net/rc32n.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/csewh.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/b976s.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/ufw73.png">
+<meta property="og:image" content="https://ps.toolinbox.net/3r1ki.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/dj3jr.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/70zq2.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/auqza.png">
+<meta property="og:image" content="https://ps.toolinbox.net/40oya.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/006tKfTcgy1flx120m504g30la09qkin.gif">
+<meta property="og:image" content="https://ps.toolinbox.net/auuxw.png">
+<meta property="og:updated_time" content="2017-12-12T01:57:29.649Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="我是如何把 iText 带到这个世界的">
+<meta name="twitter:description" content="0) iText 点子的由来开始时，我打算在 Klib 中支持从 PDF 导入标注，发现很难；在这个过程中，一些用户提出（发现需求）：在看 PDF 文档时，有些扫描版不支持复制文字，不方便。于是，就从双 11 晚上开始，我花了一天，做了 iText 第一版（最小原型），可以截图并从中识别文字。  之后，在微博等渠道做了简单推广，并限制 封闭内测（即，用户需要发邮件给我，才能收到 iText 的下">
+<meta name="twitter:image" content="https://ps.toolinbox.net/9iygs.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: false,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://atjason.com/IndieDev/iText.html"/>
+
+
+
+
+
+  <title>我是如何把 iText 带到这个世界的 | Jason</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-26569268-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jason</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">独立开发，自由职业</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/IndieDev/iText.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                我是如何把 iText 带到这个世界的
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-12T08:00:00+08:00">
+                2017-12-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IndieDev/" itemprop="url" rel="index">
+                    <span itemprop="name">IndieDev</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><img src="https://ps.toolinbox.net/9iygs.png" alt=""></p>
+<h2 id="0-iText-点子的由来"><a href="#0-iText-点子的由来" class="headerlink" title="0) iText 点子的由来"></a>0) iText 点子的由来</h2><p>开始时，我打算在 <a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib</a> 中支持从 PDF 导入标注，发现很难；在这个过程中，一些用户提出（<strong>发现需求</strong>）：在看 PDF 文档时，有些扫描版不支持复制文字，不方便。于是，就从双 11 晚上开始，<a href="https://atjason.com/daily/2017-11-13.html">我花了一天，做了 iText 第一版</a>（<strong>最小原型</strong>），可以截图并从中识别文字。</p>
+<p><img src="https://ps.toolinbox.net/hciqq.png" alt=""></p>
+<p>之后，在微博等渠道做了简单推广，并限制 <strong>封闭内测</strong>（即，用户需要发邮件给我，才能收到 iText 的下载链接），发现还是有不少人对这个工具感兴趣。这也算是 <strong>验证了这个需求的真实性</strong>，于是就决定好好做成一款产品。</p>
+<p>其实，在开发 iText 时，我已经有包括 <a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a> 、<a href="https://toolinbox.net/iPic/" target="_blank" rel="external">iPic</a>  在内的 7 款产品。要开一个新坑，还是很慎重的。毕竟，<strong>麻雀虽小、五脏俱全</strong>；再小的产品，也需要 Logo、产品首页、提交上架、运维等一系列事情。很容易分散精力，做出一款自己都不满意的产品。不过，感觉 iText 应该是可以做的，虽然我当然压根就没做所谓的竞品分析、市场容量分析等等。</p>
+<h2 id="1-我主要做了什么事"><a href="#1-我主要做了什么事" class="headerlink" title="1) 我主要做了什么事"></a>1) 我主要做了什么事</h2><p>2017 年双 11 写下第一行代码，时月 29 号正式上架 Mac App Store，第一版花费将近 20 天的时间。</p>
+<a id="more"></a>
+<h3 id="1-0-开发最小原型，用了-1-天"><a href="#1-0-开发最小原型，用了-1-天" class="headerlink" title="1.0) 开发最小原型，用了 1 天"></a>1.0) 开发最小原型，用了 1 天</h3><p>虽说第一版最小原型，也已经包含了很多因素，主要是开发相关：</p>
+<ul>
+<li>Logo、图标</li>
+<li>菜单栏图标基本程序</li>
+<li>集成百度 OCR 服务</li>
+<li>剪贴板操作</li>
+<li>截图功能</li>
+<li>拖拽</li>
+<li>界面</li>
+<li>日志</li>
+<li>收集反馈</li>
+<li>试用机制</li>
+<li>检测更新</li>
+<li>本地化</li>
+<li>测试用例、测试</li>
+<li>…</li>
+</ul>
+<h3 id="1-1-完成产品并发布，却用了-20-天"><a href="#1-1-完成产品并发布，却用了-20-天" class="headerlink" title="1.1) 完成产品并发布，却用了 20 天"></a>1.1) 完成产品并发布，却用了 20 天</h3><p><strong>最小原型距离成熟的产品，还有很远的距离</strong>，尤其有非常多开发之外的工作：</p>
+<ul>
+<li><strong>Logo 设计</strong></li>
+<li><strong>集成多家 OCR 服务</strong><ul>
+<li>目前，技术上实现了对接百度、腾讯、Google 的 OCR 服务，最终使用的是后两种。</li>
+<li>其中，还要压缩图片以满足 OCR 服务对图片尺寸的限制。</li>
+</ul>
+</li>
+<li><strong>优化识别结果</strong><ul>
+<li>第一版只是把 OCR 服务返回的结果直接呈现给用户，但识别后的优化，还有大量的工作要做。</li>
+</ul>
+</li>
+<li><strong>优化交互</strong><ul>
+<li>第一版只是用 Popover 的方式呈现结果。但通常用户对识别结果有进一步的要求，比如拖拽至原始图片附近、显示原图方便校对等等。这就需要对识别窗口进行优化。</li>
+<li>另外，用户识别的内容有多有少，固定的窗口大小就显得不合适，这就需要根据内容多少来调整窗口大小。</li>
+</ul>
+</li>
+<li><strong>新用户引导</strong></li>
+<li><strong>实现免费 + 内购（订阅）模式</strong><ul>
+<li>单单是选择哪种付费模式，我就纠结了很久。</li>
+<li>在限制免费版功能时，还要防止被破解，哎…</li>
+</ul>
+</li>
+<li><strong>程序本地化</strong><ul>
+<li>目前支持英文和简体中文。</li>
+</ul>
+</li>
+<li><strong>错误处理和日志系统</strong></li>
+<li><strong>适配不同操作系统</strong><ul>
+<li>目前支持 macOS 10.10+；其中，10.10 的支持有些麻烦，因为有些 API 仅在 10.11 及更新的系统上都有。</li>
+<li>还要适配 Dark 模式、菜单栏隐藏模式。</li>
+</ul>
+</li>
+<li><strong>沙盒模式</strong><ul>
+<li>这里提一点，我是调用系统 <code>/usr/sbin/screencapture</code> 进行截图的，而 Mac App Store 默认是不允许的。这时，需要在沙盒配置文件中加 <code>com.apple.security.temporary-exception.mach-register.global-name: com.apple.screencapture.interactive</code> 的规则。</li>
+</ul>
+</li>
+<li><strong>上架 Mac App Store</strong><ul>
+<li>应用描述、关键字、截图等。其中，截图的制作很花时间，既需要设计、又需要具体实现。</li>
+<li>尤其是，与审核员斗智斗勇…</li>
+</ul>
+</li>
+<li><strong>各种文案</strong><ul>
+<li>尤其是设计教程中的操作动画，非常耗时。</li>
+</ul>
+</li>
+</ul>
+<p>下面，在这些环节中，<strong>我挑些重要的环节，掰开了、揉碎了说说</strong>。</p>
+<h2 id="2-文字识别的核心：OCR"><a href="#2-文字识别的核心：OCR" class="headerlink" title="2) 文字识别的核心：OCR"></a>2) 文字识别的核心：OCR</h2><h3 id="2-0-OCR-是项活化石技术"><a href="#2-0-OCR-是项活化石技术" class="headerlink" title="2.0) OCR 是项活化石技术"></a>2.0) OCR 是项活化石技术</h3><p><strong>OCR</strong> (<strong>O</strong>ptical <strong>C</strong>haracter <strong>R</strong>ecognition) 其实是非常「久远」历史的话题。说久远，是相对于软件的发展速度，OCR 已经存在了好多年。而且，由于一直也都有这样的需求，对应的方案也在不断变化。</p>
+<ul>
+<li>没几年之前，基本都是 SDK、离线库，卖高昂的售价，通常都是卖给大企业。</li>
+<li>后来，License 也变也了订阅式的。</li>
+<li>直至今日，又变成了云端服务化，按使用量收费。</li>
+<li>甚至，云端这个词都要过时了，慢慢套上了「深度学习」、「AI」这些闪耀的词汇。</li>
+</ul>
+<p>随着这些形态的演进，站在台前引领风骚的主，也在不断更迭。比如，之前一直被「百度更懂中文」「微软这种外企肯定更懂英文」这种思想紧紧套住。可后来一试腾讯的 OCR，发现某些图片的识别，中文比百度强、英文比微软强。以及，在技术方面生猛突进的 Google，都让 <strong>OCR这个领域不断发生变化</strong>。</p>
+<h3 id="2-1-腾讯、Google-双引擎"><a href="#2-1-腾讯、Google-双引擎" class="headerlink" title="2.1) 腾讯、Google 双引擎"></a>2.1) 腾讯、Google 双引擎</h3><p>如何选择 OCR 的技术方案呢？</p>
+<p><strong>首先，我排除了离线的识别库</strong>，因为离线注定了这些库的识别能力是死的，不会自己增强。</p>
+<p>接下来，在一票在线 OCR 服务中，我对比了百度、腾讯、微软、Google 这些四家大厂的产品。最后，在少量测试和主观感受下（比如，Google 信仰的加持，使得即使不测试，我就相信 Google 的 OCR 是很牛的），<strong>我最终选择了腾讯、Google 的服务。</strong>简单的说，如果你在国内使用 iText，默认使用的是腾讯的服务；国外则使用 Google.</p>
+<p>那么，到底识别准不准呢？这么说吧：</p>
+<ul>
+<li><strong>对于一般的自然语言</strong>，比如书中的一段话、新闻稿，<strong>识别效果是惊人的准确，甚至可以达到 100%</strong></li>
+<li><strong>对于排版复杂、尤其有特殊字符的文字</strong>，比如程序代码、选择题，识别效果就不太理想，<strong>需要手动对识别后的结果进行修正</strong><ul>
+<li>比如，单纯地给一个竖线，机器是无法区分到底是小写的 l、还是大写的 I（<strong>顺便问一下，你看出二者的区别了吗？</strong>）；相反，机器是需要根据上下文进行判断和优化的。而像程序代码这种非自然语言，目前机器是很难进行语义识别的。</li>
+</ul>
+</li>
+<li><strong>手写识别？还很遥远</strong><ul>
+<li>期间，还有件有意味的事：<strong>有个朋友拍了一张医院病历上的神仙字体，问 iText 能不能识别。</strong>看到那歪歪扭扭的线条，能称为是字吗？无奈，现在中文手写的 OCR 基本还处于不可用的状态。少量测试过微软英文的手写识别，够强可用，但也得看潦草的程度。</li>
+</ul>
+</li>
+</ul>
+<p>到底准不准？欢迎你来试试。</p>
+<p>顺便说一句，在接入各大服务的 REST API 接口后，明显感觉 Google 的接口最合理：不限制图片分辨率、仅限制原图大小。百度则相对差一些：限制图片分辨率且有 Bug、根据 base64 编码来限定图片大小。</p>
+<h3 id="2-2-永无止境的段落识别"><a href="#2-2-永无止境的段落识别" class="headerlink" title="2.2) 永无止境的段落识别"></a>2.2) 永无止境的段落识别</h3><p>OCR 服务识别后，可以得到这样的结果：<strong>各文字片断及其位置。</strong></p>
+<p><img src="https://ps.toolinbox.net/rc32n.jpg" alt=""></p>
+<p>但，<strong>如果根据这些信息还原出自然语境下的段落？这是很难的。</strong>我自己试着列出常见的段落分布，分析其中的位置规律，实现相应的识别段落的算法。并且，根据自己和用户测试的图片，根据识别结果对算法进行优化，还是有些效果的。</p>
+<p><img src="https://ps.toolinbox.net/csewh.jpg" alt=""></p>
+<p>不过，并不完美。主要是，一些场景下，除非结合语义识别，否则是无法仅根据位置信息来划分段落的。</p>
+<p>期间，我还花了 1 天左右的时间 <strong>识别多栏</strong>。</p>
+<p><img src="https://ps.toolinbox.net/b976s.jpg" alt=""></p>
+<p>虽说最后也差不多实现了，但却增加了程序的复杂度，让其它一些原本很简单的问题，变得难以解决。<strong>经过一番思考后，我还是删除了这部分代码，仅保留了普通段落的识别。</strong>回过头来看，之前决定做多栏识别的决定并不正确。因为这明显优先级低，又需花费大量时间。毕竟，还有很多其他更基础、更重要的事要做。</p>
+<h3 id="2-3-更加永无止境的文本优化"><a href="#2-3-更加永无止境的文本优化" class="headerlink" title="2.3) 更加永无止境的文本优化"></a>2.3) 更加永无止境的文本优化</h3><p>首先要知道 <strong>文本优化正确的规则</strong> 是什么，比如：</p>
+<ul>
+<li>空格<ul>
+<li>中英文之间需要增加空格</li>
+<li>中文与数字之间需要增加空格</li>
+<li>数字与单位之间需要增加空格</li>
+<li>全角标点与其他字符之间不加空格</li>
+</ul>
+</li>
+<li>标点符号<ul>
+<li>不重复使用标点符号</li>
+<li>破折号前后需要增加一个空格</li>
+</ul>
+</li>
+<li>全角和半角<ul>
+<li>使用全角中文标点</li>
+<li>数字使用半角字符</li>
+<li>遇到完整的英文整句、特殊名词，其內容使用半角标点</li>
+</ul>
+</li>
+</ul>
+<p>这里主要参考的是 <a href="https://github.com/xitu/gold-miner/wiki/%E8%AF%91%E6%96%87%E6%8E%92%E7%89%88%E8%A7%84%E5%88%99%E6%8C%87%E5%8C%97" target="_blank" rel="external">稀土所翻译的文章排版的规则</a>，在此致谢。</p>
+<p><strong>如果说段落识别很麻烦，文本优化则更多麻烦</strong>，根本的原因在于：<strong>需要对内容进行识别</strong>。比如：</p>
+<ul>
+<li>英文段落首字母大写，这规则没错吧，但对于 “iPhone is a good phone.” 这样的情况，iPhone 是特定词汇，i 不应该大写。</li>
+<li>中文文字后的 ‘.’ 应该使用全角的 “。”，这规则也没错吧，但对于『今天天气真热啊…』，明显又不应该替换；亦或是 JSON 数据『”name”: “张飞”』中的 “ 也不应该被替换。</li>
+<li>以及其他无数多的例子。</li>
+</ul>
+<p>没办法，只能有所取舍。目前，iText 主要完成了这些部分的优化：</p>
+<ul>
+<li><strong>自动识别段落</strong></li>
+<li>中文环境使用全角标点符号</li>
+<li>中文与英文字母、数字间增加空格</li>
+<li>删除中文字符间、英文字符与标点符号间的多余空格</li>
+<li>英文首字母大写</li>
+</ul>
+<p>技术方面，主要是使用 <strong>正则表达式</strong> 来识别并替换。不过，规则越多，正则表达式也越复杂，稍微改动下某条表达式，可能会破坏其他的。甚至，正则表达式之间的顺序，对优化结果也有影响。且表达式多了，也会降低执行效率。还得再想想如何优化。</p>
+<p>这里要提一句 <strong>单元测试</strong> 了。我每实现一条规则的优化，就会补全对应的测试用例。接着再实现下一条则，这些单元测试可以忠实地保证新的规则没有破坏旧的规律，很是有用。</p>
+<h2 id="3-开发过程中的一些感想"><a href="#3-开发过程中的一些感想" class="headerlink" title="3) 开发过程中的一些感想"></a>3) 开发过程中的一些感想</h2><p>下面是一些零散的、我觉得值得拿出来跟大家分享的一些点。</p>
+<h3 id="3-0-名字与-Logo"><a href="#3-0-名字与-Logo" class="headerlink" title="3.0) 名字与 Logo"></a>3.0) 名字与 Logo</h3><p>一提 Logo 就扎心…</p>
+<p>在我已发布的产品中，只有 Klib 的 Logo 是朋友 Allen 设计的，也只是这个没被骂过丑。其它均是我自己用设计，都被吐槽过…</p>
+<p>这次，我找了位设计师帮忙，前后也设计了好几版：</p>
+<p><img src="https://ps.toolinbox.net/ufw73.png" alt=""></p>
+<p>不过，可能时间有限，没找到打动自己的那款，只能沿用 i 系列的风格。开始时，是这样的：</p>
+<p><img src="https://ps.toolinbox.net/3r1ki.jpg" alt=""></p>
+<p>后来，「精心」设计了颜色，便是文章开头的样子。先这样吧，之后会考虑 i 系列家族统一更新。</p>
+<p>至于名字，你一看我之前的产品，应该也会很自然地想到：iText（顺便说一句：Klib 之前其实是叫 iKindle，可惜苹果不允许名字中包含 Kindle 这个商标，只能被迫改名 Klib）</p>
+<h3 id="3-1-新用户引导"><a href="#3-1-新用户引导" class="headerlink" title="3.1) 新用户引导"></a>3.1) 新用户引导</h3><p>这事的矛盾之处在于：<strong>新用户和老用户的矛盾</strong>。</p>
+<p>进一步说，我追求程序的简洁。尤其是在用户对 iText 熟悉之后，并不需要程序有过多的描述。比如，文字按钮可以被图标按钮取代，用界面上根本看不到的快捷键进行操作，等等。可问题是，<strong>熟悉是需要一个过程</strong>，新用户需要多次操作后，才能掌握这些甚至有些晦涩的技巧。<strong>没有新用户，又何来老用户？</strong></p>
+<p>这二者的矛盾，怎么解决呢？</p>
+<p>我能想到的办法是：<strong>保持界面的简洁（照顾老用户），同时在首次运行时增加提示（照顾新用户）</strong>。提示包括：</p>
+<ul>
+<li>首次通过菜单截图时，提示可以通过快捷键截图。</li>
+<li>首次展示识别结果时，提示识别内容已复制到剪贴板。</li>
+<li>首次通过菜单展示识别结果时，提示可通过快捷键展示。</li>
+</ul>
+<p>比如：</p>
+<p><img src="https://ps.toolinbox.net/dj3jr.jpg" alt=""></p>
+<h3 id="3-2-用户越多，公约数越少"><a href="#3-2-用户越多，公约数越少" class="headerlink" title="3.2) 用户越多，公约数越少"></a>3.2) 用户越多，公约数越少</h3><p>比如，对于工具型软件，<strong>有人偏好效率，有人喜欢美观</strong>。想要二者兼得，怕是很难的事，我自认为没有这样的能力。</p>
+<p>可是，转念一想，<strong>何必二者兼得？</strong>如果我只找到偏好效率的用户，全心全意为他们服务，把他们伺候爽了，不就可以了？至于喜欢美观的用户，简单，让他们选择美观的同类产品不就可以了。<strong>弱水三千，只取一瓢饮。</strong></p>
+<h3 id="3-3-要解决的，不是问题本身"><a href="#3-3-要解决的，不是问题本身" class="headerlink" title="3.3) 要解决的，不是问题本身"></a>3.3) 要解决的，不是问题本身</h3><p>在处理 macOS 兼容性时，遇到过一个头痛的问题。</p>
+<p>目前，iText 支持 macOS 10.10+，我日常自然是在最新的 10.13 中开发的。发布前，在 10.10 环境下测试时，发现了识别结果窗口布局有严重的问题。定睛一看，原来 Xocde 中早有警告：我使用了只在 10.11+ 平台才支持的布局方式，在 10.10 中自然会有问题。</p>
+<p>怎么解决呢？</p>
+<p><strong>这个问题本身，是指界面布局有问题。</strong>OK，那我就解决布局问题呗。问题是，既然 10.11 引入了新的布局方式，自然是这种方式很有用、很方便。而我要在 10.10 模拟出这么布局，相当于开发了 10.11 的部分新功能，这并不是件容易的事。尤其，事实上 10.10 的支持在我这边优先级很低，只是希望顺带支持，并不希望就此花费大量时间。在已经有些复杂的布局基础上继续加补丁，不是好的办法。</p>
+<p><strong>跳出问题本身一想，问题的本质是：为 10.10 的用户展现布局良好的窗口。</strong>那，为什么一定要在 10.11+ 已有的窗口基础上解决问题呢，为什么不新做一个窗口呢？既然 10.10 的优先级低，那我就做个简化版的窗口，仅保留最重要的展示结果、复制内容等功能，放弃展示图片预览、钉住窗口等高级功能。界面元素少了，布局就是件很简单的事了。</p>
+<p>这就是我的感想：<strong>要解决的不是问题本身</strong>（布局的问题），<strong>而是问题的本质</strong>（为 10.10 的用户提供布局良好的界面）。<strong>跳出问题本身，往往能发现解决问题本质的更简便的方法。</strong></p>
+<h2 id="4-iText-是要赚钱的"><a href="#4-iText-是要赚钱的" class="headerlink" title="4) iText 是要赚钱的"></a>4) iText 是要赚钱的</h2><p>iText 一定是款需要付费才能完全使用的产品：</p>
+<ul>
+<li><strong>在线 OCR 服务是需要付费的</strong>，通常是按次收费<ul>
+<li>注：腾讯 OCR 服务目前在内测期，免费；不过收费只是时间问题。</li>
+</ul>
+</li>
+<li><strong>iText 是商业产品</strong>，不是业余爱好<ul>
+<li>作为独立开发者，开发 iText 使用的并不是业余时间，而是我全部的工作时间；不是业余爱好，而是想要养活自己的产品。我需要为花费的时间买单，并支撑自己继续做独立开发者。</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-0-上架-Mac-App-Store-时遇到的坑"><a href="#4-0-上架-Mac-App-Store-时遇到的坑" class="headerlink" title="4.0) 上架 Mac App Store 时遇到的坑"></a>4.0) 上架 Mac App Store 时遇到的坑</h3><p>由于开发和推广方面的考虑，我并未构建自己的序列号及付费机制，目前的产品均未在 Mac App Store 外销售；iText 亦如此。</p>
+<p>提交 iText 上架 Mac App Store 被拒了多次，最开始上架时的版本号是 1.0.1，最后成功上架的是 1.1.0…</p>
+<p>下面是被拒的一些原因及解决方式：</p>
+<ul>
+<li><p><strong>没有在上传用户数据前提示用户</strong></p>
+<ul>
+<li>其实是这样的，iText 需要上传图片至腾讯、Google 服务器进行识别。而苹果认识这是在上传用户个人数据，需要充分告知用户</li>
+<li><strong>解决方式</strong>：在用户首次上传图片前，简单粗暴地弹个对话框提示：<br><img src="https://ps.toolinbox.net/70zq2.jpg" alt=""></li>
+</ul>
+</li>
+<li><p><strong>订阅后没有展示剩余有限期</strong></p>
+<ul>
+<li>恩，这听着也很有道理。可问题是，我之前 Klib、iPic 中的订阅，也并未提示，为什么审核就能过呢？并且，用户其实是可以在 Mac App Store 中查看这一信息的。哎，这道理没法讲，审核是大爷，想起一出是一出</li>
+<li><strong>解决方式</strong>：显示剩余时间呗<br><img src="https://ps.toolinbox.net/auqza.png" alt=""></li>
+</ul>
+</li>
+<li><p><strong>产品不适合「自动」续订的订阅</strong></p>
+<ul>
+<li>审核员说，「自动」续订的订阅适用于杂志等类型的应用，不适用于 iText 这种功能型的应用。可，同理，为什么之前 Klib、iPic 就可以？依然同理，不可说。</li>
+<li><strong>解决方式</strong>：有点搞笑，我啥都没改。再次提交相同模式的订阅，通过了。也许是换了个审核员、或者审核员的心情变好了。</li>
+</ul>
+</li>
+</ul>
+<p>其实，审核前我还一直担心的一个问题，反而没有被卡：在程序描述及截图中，出现「Google」的字眼。印象中，之前因为出现「Android」被拒，这次倒是侥幸过关了。</p>
+<p><img src="https://ps.toolinbox.net/40oya.jpg" alt=""></p>
+<p>最郁闷的是，审核员不会一次告诉我所有问题，而是分批…</p>
+<ul>
+<li>先用问题 1 把我拒掉</li>
+<li>OK，我改；然后提交新版</li>
+<li>再用问题 2 把我拒掉</li>
+<li>如此循环…</li>
+</ul>
+<p>另外就是，如果你说：<strong>别人家的 App 就是这么干的</strong>。没用，在审核员眼里，这并不是你也可以这么干的理由。</p>
+<p>上架过程还 <strong>吃了几次暗亏</strong>，也说出来大伙听听：</p>
+<ul>
+<li><strong>程序和内购需要分别提交</strong><ul>
+<li>也即，在首次上架时，在提交二进制应用进行审核的同时，也需要「手动」提交所包含的内购项目进行审核。而我遗漏了这一点，导致被拒一次。</li>
+<li>虽然，我在道理上理解这一逻辑，可苹果明显在提示等方面做得不够好。想我之前也提交过，可这次依然忘了，说明这并没有很强的因果关系，确实是需要提示的。</li>
+</ul>
+</li>
+<li><strong>订阅模式改价格，需要提交一天</strong><ul>
+<li>本来，我在 29 号凌晨就审核通过、并自动上架了。可在我将价格改为 6 折时，却发现要到 30 号才能生效。这迫使我不能在 29 号开始宣传，而只能等到 30 号新的价格生效后才行（因为宣传中要提到「首发限时 6 折」这样的字眼），白白浪费了一天，也让首发时间从周三推迟到周四，效果上打了折扣。</li>
+</ul>
+</li>
+</ul>
+<p>另外有一点，大家可能要注意下：<strong>新上架、或新版发布、或价格变更时，App Store 的更新需要时间</strong>。如果一发布就立马开始推广，用户可能会遇到搜索不到、无法下载、价格未更新、无法升级等奇怪的问题。建议过段时间再推广，比如头天晚上发布，第二天早上开始推广。</p>
+<h3 id="4-1-免费功能到底该如何限制"><a href="#4-1-免费功能到底该如何限制" class="headerlink" title="4.1) 免费功能到底该如何限制"></a>4.1) 免费功能到底该如何限制</h3><p>这是个艰难的决定。</p>
+<p>简单的说，<strong>如果免费的功能多了，用户就没有付费的必要；如果免费的功能少了，用户可能就要开骂，甚至直接离开</strong>，也就谈不上付费了。要把握其中的平衡，着实不易。</p>
+<p>另外，除了考虑到收入本身，还要考虑产品的影响力。比如，<strong>产品刚发布时，知名度比较小</strong>。这时候，用户数量相对更重要些，比较适合 <strong>放水养鱼</strong>：适当放弃些收入，通过放宽免费功能的限制，来增加用户数量、留住用户。等产品有足够的影响力，就有定价话语权了。</p>
+<p>比如，微软对于盗版 Windows、Office 的做法就是典型案例。开始时睁只眼、闭只眼，等大家已经离不开时，就开始向政府、上市企业寄律师函了。</p>
+<p>说回 iText，<strong>目前免费版未对功能有任何限制，仅限制识别次数</strong>。且，每月都有一定的免费额度，使得用户不会刚开始没用几次、一遇到付费就卸载的情况。之后看运行的情况再调整，比如可以调整为每天都有免费次数。</p>
+<h3 id="4-2-说说付费模式"><a href="#4-2-说说付费模式" class="headerlink" title="4.2) 说说付费模式"></a>4.2) 说说付费模式</h3><p>接下来的问题，便是如何确定收费模式。有这几种方式可考虑：</p>
+<ul>
+<li><strong>买断式</strong><ul>
+<li>也即，你付一次钱，就可终身使用。</li>
+<li>考虑到 OCR 服务的按次收费，个人觉得这并不科学，至少不具可持续性。</li>
+</ul>
+</li>
+<li><strong>流量包式</strong><ul>
+<li>比如，￥12 元买 250 次识别次数。</li>
+<li>对用户而言，这种方式 <strong>对低频使用的用户友好，但对于高频使用的用户，并不太划算。</strong></li>
+<li>另外，最关键的是，<strong>这种方式会给使用上带来很大的心理压力</strong>。比如，我在截图时不小心区域没选对，结果白白浪费了一次识别次数，这会让我在每次截图时都会有不小的心理压力，生怕截错了。虽然，从理性的角度，一次真没多少钱。但没办法，这种心里上的事情是很难用理性压住的。</li>
+</ul>
+</li>
+<li><strong>包月式</strong><ul>
+<li><strong>也即订阅式</strong>，即一个月出固定费用，即可不限次识别。</li>
+<li>对用户而言，优缺点几乎和流量包式相反：<strong>对低频用户不友好、对高频用户友好</strong></li>
+<li><strong>最终，我选择的是这种模式</strong>：每月可免费识别 20 次，充分体验 iText 的功能；订阅高级版即可不限次识别；这样，可以 <strong>同时照顾到低频用户和高频用户</strong>。首发时 6 折优惠：￥3 每月、或￥30 每年，续费时恢复原价。</li>
+</ul>
+</li>
+</ul>
+<p>其实，这跟手机流量非常像：</p>
+<ul>
+<li>如果你用量很少，1 MB 流量 0.1 元的方式就很适合你。</li>
+<li>如果你用是很大、或者就想用得爽，包月得到固定流量、甚至是不限量的套餐，更适合你。</li>
+<li>不过，我还没见过付一次钱，就可终身不限量使用的套餐。</li>
+</ul>
+<h2 id="5-iText-上架后的宣传"><a href="#5-iText-上架后的宣传" class="headerlink" title="5) iText 上架后的宣传"></a>5) iText 上架后的宣传</h2><p>其实，这方面我也一直在学习，这里谈不上经验，只是把自己做的事罗列出来。</p>
+<h3 id="5-0-宣传时涉及的渠道"><a href="#5-0-宣传时涉及的渠道" class="headerlink" title="5.0) 宣传时涉及的渠道"></a>5.0) 宣传时涉及的渠道</h3><p>从渠道的角度，大致有这样：</p>
+<ul>
+<li>用户群<ul>
+<li>微信群</li>
+<li><a href="https://telegram.me/toolinbox" target="_blank" rel="external">Telegram 群</a></li>
+<li>内测用户邮件列表</li>
+</ul>
+</li>
+<li>自己的渠道<ul>
+<li><a href="https://atjason.com/">博客</a></li>
+<li>朋友圈</li>
+<li><a href="https://weibo.com/atjasonzone/" target="_blank" rel="external">微博</a></li>
+<li><a href="https://ohpsctde4.qnssl.com/nckv0.jpg" target="_blank" rel="external">公众号「自在开发」</a></li>
+<li><a href="https://twitter.com/hereisjason" target="_blank" rel="external">Twitter</a></li>
+<li><a href="https://www.facebook.com/jason.zheng.7773" target="_blank" rel="external">Facebook</a></li>
+</ul>
+</li>
+<li>媒体及第三方<ul>
+<li><a href="https://sspai.com/post/42059" target="_blank" rel="external">少数派</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/31546865" target="_blank" rel="external">知乎</a></li>
+<li><a href="https://juejin.im/post/5a1f4f6551882555cc419fd6" target="_blank" rel="external">掘金</a></li>
+<li><a href="https://www.v2ex.com/t/410689" target="_blank" rel="external">V2EX</a></li>
+<li>Price Tag</li>
+<li><a href="https://www.producthunt.com/posts/itext/" target="_blank" rel="external">Product Hunt</a></li>
+</ul>
+</li>
+</ul>
+<p>时间有限，我基本上是写通稿，然后针对各个渠道做简单的调整。上面有各渠道对应的文章链接，感兴趣可以点进去看看。其中可见，我做的海外推广很少，这方面求帮带。</p>
+<p>其中有个玩法就是：<strong>送码</strong>。通过这种方式，增加与用户的互动，如留言区的评论、微博的转发等等。</p>
+<p>另外，如果你的应用有自己的序列号体系，也可以上「数码荔枝」这样的平台分销，据说效果也不错。可惜我没有序列号，无法触及这些平台。</p>
+<h3 id="5-1-写文案是体力活，也是技术活"><a href="#5-1-写文案是体力活，也是技术活" class="headerlink" title="5.1) 写文案是体力活，也是技术活"></a>5.1) 写文案是体力活，也是技术活</h3><p>上面的每个平台，都需要针对性地写文案。</p>
+<p>虽说，<strong>好的产品自己会说话、简洁的程序不应该有说明书</strong>。可无奈，<strong>酒香也怕巷子深</strong>，大家在真正使用产品之前，总需要一些方式来了解到产品。而在目前的传播方式中，文案则是必须的了。</p>
+<p>这里说的文案，包括：</p>
+<ul>
+<li>产品本身的说明书、教程</li>
+<li>发布在媒体上的文章</li>
+<li>发布在朋友圈等 SNS 上的信息</li>
+<li>以及其他所有对外爆光的东西</li>
+<li>除了中文，还有英文…</li>
+</ul>
+<p>当然，<strong>除了文字，也包括配图、甚至是视频</strong>。而这两者，通常比文字更花时间。</p>
+<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1flx120m504g30la09qkin.gif" alt=""></p>
+<p>比如，在做上面的图时，首先要明确表达什么、构思如何表达、确定涉及到的素材、录屏、制作 GIF，整个过程流程很多，非常耗时。且一旦需要修改，几乎是全部重来的成本。顺便说一句，如果你想知道上面的 Gif 如何制作，<a href="https://atjason.com/daily/2017-08-21.html">看这里</a></p>
+<p>比如 <strong>标题</strong>，如果纯粹是反映文章内容，很可能不够吸引人；如果起个抓眼球的标题，又极容易被骂标题党。另外，<strong>除了考虑一时一地的点击量，还得从长线上考虑搜索引擎的收录</strong>。绝对是技术活。</p>
+<h3 id="5-2-如何量化追踪每个渠道的推广效果"><a href="#5-2-如何量化追踪每个渠道的推广效果" class="headerlink" title="5.2) 如何量化追踪每个渠道的推广效果"></a>5.2) 如何量化追踪每个渠道的推广效果</h3><p>比如，发了一条微博，有多少用户因为这条微博下载安装 iText；进而，这些用户中有多少人付费购买。有了这些量化数据，才能反推出每个渠道的获客成本，进而决定是否要在一个渠道推广、制定推广预算。</p>
+<p>可见，量化追踪每个渠道的推广效果，非常重要，因为直接跟钱相关。这里，<strong>推广效果最直接的考量是转化率</strong>，但又不仅于此。比如品牌的露出、品牌形象的建立，都是要考虑的因素。那么，如何量化转化率呢？可考虑使用 <strong>iTunes 联盟</strong>。</p>
+<p>和其他淘宝客、亚马逊联盟等联盟一样，iTunes 联盟也是苹果为了推动第三方来替自己推广音乐、App 的下载付费，而推出的奖励机制。简单的说，就是你帮苹果销售其音乐、App，苹果会给你一定的的提成。具体到 App，提成比例大约是 0.4%</p>
+<p>当然，如此低的提成比例，自然不是我们关心的；我们关心的是渠道转化。比如，在下面的链接中：</p>
+<p><a href="https://itunes.apple.com/app/id1314980676?ls=1&amp;mt=12&amp;at=1000lv11&amp;ct=iText_Weibo" target="_blank" rel="external">https://itunes.apple.com/app/id1314980676?ls=1&amp;mt=12&amp;at=1000lv11&amp;ct=iText_Weibo</a></p>
+<p>其中，1000lv11 是 <strong>iTunes 联盟 ID</strong>，iText_Weibo 是 <strong>需要追踪的事件</strong>，也即 iText 在微博上的推广；类似的，也可以有 iText_Twitter，iPic_Facebook 之类的事件。</p>
+<p>如果用户通过这个链接安装付费，就可以得到类似这样的数据：<strong>1000 人点击微博中的链接、600 人真正安装、20 人付费内购</strong>。</p>
+<p>授之以渔，我就不在这列 iText 具体的数据了。大家如果需要，可以到 <a href="https://itunes.phgconsole.performancehorizon.com/login/itunes/zh_cn?" target="_blank" rel="external">这里</a> 申请 iTunes 联盟。</p>
+<h2 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h2><p>终于，iText 还是顽强上架了（<a href="https://itunes.apple.com/cn/app/id1314980676?ls=1&amp;mt=12&amp;at=1000lv4R&amp;ct=iText_me" target="_blank" rel="external">点此下载</a>）。至此，我已集齐七颗龙珠：</p>
+<p><img src="https://ps.toolinbox.net/auuxw.png" alt=""></p>
+<p><strong>iText 接下来会怎样？</strong>估计我会根据上架后用户的反馈，在短期内再出个版本。之后，会按住一段时间，直到对更远些的发展想清楚后，再出新版。</p>
+<p><strong>我本人接下来会怎样？</strong>估计还是会坚持做独立开发者，开发自己的产品，开发世上本没有的产品，用自己的能力，改进大家的效率，哪怕只是一点点。</p>
+<p>计划跟不上变化。<strong>你明天看到的我，已是不一样的我。</strong></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/daily/2017-12-12.html" rel="next" title="深圳行：1212-Day 6 - 见网友">
+                <i class="fa fa-chevron-left"></i> 深圳行：1212-Day 6 - 见网友
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/daily/2017-12-11.html" rel="prev" title="深圳行：1211-Day 5 - 华兴寺 & 海边栈道">
+                深圳行：1211-Day 5 - 华兴寺 & 海边栈道 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="https://ohpsctde4.qnssl.com/ezw8l.jpg"
+               alt="Jason" />
+          <p class="site-author-name" itemprop="name">Jason</p>
+           
+              <p class="site-description motion-element" itemprop="description">独立开发，自由职业</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">1128</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/atjason" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/hereisjason" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/atjasonzone" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://toolinbox.net/" title="Toolinbox" target="_blank">Toolinbox</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#0-iText-点子的由来"><span class="nav-number">1.</span> <span class="nav-text">0) iText 点子的由来</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-我主要做了什么事"><span class="nav-number">2.</span> <span class="nav-text">1) 我主要做了什么事</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-0-开发最小原型，用了-1-天"><span class="nav-number">2.1.</span> <span class="nav-text">1.0) 开发最小原型，用了 1 天</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-完成产品并发布，却用了-20-天"><span class="nav-number">2.2.</span> <span class="nav-text">1.1) 完成产品并发布，却用了 20 天</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-文字识别的核心：OCR"><span class="nav-number">3.</span> <span class="nav-text">2) 文字识别的核心：OCR</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-0-OCR-是项活化石技术"><span class="nav-number">3.1.</span> <span class="nav-text">2.0) OCR 是项活化石技术</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1-腾讯、Google-双引擎"><span class="nav-number">3.2.</span> <span class="nav-text">2.1) 腾讯、Google 双引擎</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-永无止境的段落识别"><span class="nav-number">3.3.</span> <span class="nav-text">2.2) 永无止境的段落识别</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-更加永无止境的文本优化"><span class="nav-number">3.4.</span> <span class="nav-text">2.3) 更加永无止境的文本优化</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-开发过程中的一些感想"><span class="nav-number">4.</span> <span class="nav-text">3) 开发过程中的一些感想</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3-0-名字与-Logo"><span class="nav-number">4.1.</span> <span class="nav-text">3.0) 名字与 Logo</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-1-新用户引导"><span class="nav-number">4.2.</span> <span class="nav-text">3.1) 新用户引导</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-2-用户越多，公约数越少"><span class="nav-number">4.3.</span> <span class="nav-text">3.2) 用户越多，公约数越少</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-3-要解决的，不是问题本身"><span class="nav-number">4.4.</span> <span class="nav-text">3.3) 要解决的，不是问题本身</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-iText-是要赚钱的"><span class="nav-number">5.</span> <span class="nav-text">4) iText 是要赚钱的</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#4-0-上架-Mac-App-Store-时遇到的坑"><span class="nav-number">5.1.</span> <span class="nav-text">4.0) 上架 Mac App Store 时遇到的坑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-1-免费功能到底该如何限制"><span class="nav-number">5.2.</span> <span class="nav-text">4.1) 免费功能到底该如何限制</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-2-说说付费模式"><span class="nav-number">5.3.</span> <span class="nav-text">4.2) 说说付费模式</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-iText-上架后的宣传"><span class="nav-number">6.</span> <span class="nav-text">5) iText 上架后的宣传</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#5-0-宣传时涉及的渠道"><span class="nav-number">6.1.</span> <span class="nav-text">5.0) 宣传时涉及的渠道</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-1-写文案是体力活，也是技术活"><span class="nav-number">6.2.</span> <span class="nav-text">5.1) 写文案是体力活，也是技术活</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-2-如何量化追踪每个渠道的推广效果"><span class="nav-number">6.3.</span> <span class="nav-text">5.2) 如何量化追踪每个渠道的推广效果</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#尾巴"><span class="nav-number">7.</span> <span class="nav-text">尾巴</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2011 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jason</span>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://atjason.com/IndieDev/iText.html';
+          this.page.identifier = 'IndieDev/iText.html';
+          this.page.title = '我是如何把 iText 带到这个世界的';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://atjason.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      $('#local-search-input').focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            var resultItems = [];
+            if (this.value.trim().length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCountInArticle = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCountInArticle = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  var resultItem = '';
+
+                  function highlightKeyword(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+
+                    var matchText = text.substring(start, end);
+                    var matchResult = [];
+                    var prevEnd = 0;
+                    while (position + word.length <= end && index.length != 0) {
+
+                      // highlight keyword
+
+                      var wordBegin = position - start;
+                      var wordEnd = position - start + word.length;
+                      matchResult.push(matchText.substring(prevEnd, wordBegin));
+                      matchResult.push("<b class=\"search-keyword\">" + matchText.substring(wordBegin, wordEnd) + "</b>");
+
+                      // move to next position of hit
+
+                      index.pop();
+                      prevEnd = wordEnd;
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (prevEnd > position - start) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    matchResult.push(matchText.substring(prevEnd));
+                    return matchResult.join('');
+                  }
+
+                  // sort index by position of keyword
+
+                  indexOfTitle.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  indexOfContent.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  // highlight title
+
+                  if (indexOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, 0, title.length, indexOfTitle) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  // highlight content
+
+                  var resultUpperBound = parseInt(1);
+                  var withoutUpperBound = false;
+                  if (resultUpperBound === -1) {
+                    withoutUpperBound = true;
+                  }
+                  var currentResultNum = 0;
+                  while (indexOfContent.length != 0 && (withoutUpperBound || (currentResultNum < resultUpperBound))) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                    "<p class=\"search-result\">" + highlightKeyword(content, start, end, indexOfContent) +
+                    "...</p>" + "</a>";
+                    currentResultNum++;
+                  }
+                  resultItem += "</li>";
+                  resultItems.push({item: resultItem, hitCount: hitCountInArticle, id: resultItems.length});
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.hitCount != resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultLeft.id - resultRight.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result, i) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              $resultContent.innerHTML = searchResultList;
+            }
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>1203 - 搞定 Sparkle | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="程序中自动升级是个挺麻烦的事。还好，有了 Sparkle，事情变得简单了。根据 Sparkle 官方教程一步步走下来，还挺顺利的。有 2 个需要注意的地方：sparkle:shortVersionString 对应 XCode 中的 Build, sparkle:shortVersionString 对应 XCode 中的 Version本地化更新日志：官方说是在 xml:lang 中使用 2 个">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1203 - 搞定 Sparkle">
+<meta property="og:url" content="http://yoursite.com/2016/12/03/daily/2016-12-03/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="程序中自动升级是个挺麻烦的事。还好，有了 Sparkle，事情变得简单了。根据 Sparkle 官方教程一步步走下来，还挺顺利的。有 2 个需要注意的地方：sparkle:shortVersionString 对应 XCode 中的 Build, sparkle:shortVersionString 对应 XCode 中的 Version本地化更新日志：官方说是在 xml:lang 中使用 2 个">
+<meta property="og:image" content="https://ohpsctde4.qnssl.com/lxavy.jpg">
+<meta property="og:updated_time" content="2017-04-23T14:39:18.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="1203 - 搞定 Sparkle">
+<meta name="twitter:description" content="程序中自动升级是个挺麻烦的事。还好，有了 Sparkle，事情变得简单了。根据 Sparkle 官方教程一步步走下来，还挺顺利的。有 2 个需要注意的地方：sparkle:shortVersionString 对应 XCode 中的 Build, sparkle:shortVersionString 对应 XCode 中的 Version本地化更新日志：官方说是在 xml:lang 中使用 2 个">
+<meta name="twitter:image" content="https://ohpsctde4.qnssl.com/lxavy.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-daily/2016-12-03" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/12/03/daily/2016-12-03/" class="article-date">
+  <time datetime="2016-12-03T11:52:25.000Z" itemprop="datePublished">2016-12-03</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/每天写一点/">每天写一点</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      1203 - 搞定 Sparkle
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="https://ohpsctde4.qnssl.com/lxavy.jpg" alt=""></p><p>程序中自动升级是个挺麻烦的事。还好，有了 Sparkle，事情变得简单了。</p><p>根据 Sparkle 官方教程一步步走下来，还挺顺利的。有 2 个需要注意的地方：</p><ul><li><code>sparkle:shortVersionString</code> 对应 XCode 中的 <code>Build</code>, <code>sparkle:shortVersionString</code> 对应 XCode 中的 <code>Version</code></li><li>本地化更新日志：官方说是在 <code>xml:lang</code> 中使用 2 个字母表示的国家，但实际是 <code>zh-Hans</code> 这样的完整标识符。试了好多遍，终于试出来了，感叹我的坚持和机智。</li></ul><p>以下是 Sparkle 中的 AppCase 示例，供参考。</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div></pre></td><td class="code"><pre><div class="line">&lt;?xml version="1.0" encoding="utf-8"?&gt;</div><div class="line"><span class="tag">&lt;<span class="name">rss</span> <span class="attr">version</span>=<span class="string">"2.0"</span> <span class="attr">xmlns:sparkle</span>=<span class="string">"http://www.andymatuschak.org/xml-namespaces/sparkle"</span> <span class="attr">xmlns:dc</span>=<span class="string">"http://purl.org/dc/elements/1.1/"</span>&gt;</span></div><div class="line">    <span class="tag">&lt;<span class="name">channel</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">title</span>&gt;</span>iPic Mover's Changelog<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">description</span>&gt;</span>Most recent changes with links to updates.<span class="tag">&lt;/<span class="name">description</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">language</span>&gt;</span>en<span class="tag">&lt;/<span class="name">language</span>&gt;</span></div><div class="line">        <span class="tag">&lt;<span class="name">item</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">title</span>&gt;</span>Version 0.1.0<span class="tag">&lt;/<span class="name">title</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">description</span> <span class="attr">xml:lang</span>=<span class="string">"en"</span>&gt;</span></div><div class="line">                &lt;![CDATA[</div><div class="line">                &lt;ul&gt;</div><div class="line">                    &lt;li&gt;Feature 1&lt;/li&gt;</div><div class="line">                    &lt;li&gt;Feature 2&lt;/li&gt;</div><div class="line">                &lt;/ul&gt;</div><div class="line">                ]]&gt;</div><div class="line">            <span class="tag">&lt;/<span class="name">description</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">description</span> <span class="attr">xml:lang</span>=<span class="string">"zh-Hans"</span>&gt;</span></div><div class="line">                &lt;![CDATA[</div><div class="line">                &lt;h3&gt;新功能&lt;/h3&gt;</div><div class="line">                &lt;ul&gt;</div><div class="line">                    &lt;li&gt;功能 1&lt;/li&gt;</div><div class="line">                    &lt;li&gt;功能 2&lt;/li&gt;</div><div class="line">                &lt;/ul&gt;</div><div class="line"></div><div class="line">                &lt;a href="https://toolinbox.net"&gt;了解更多&lt;/a&gt;</div><div class="line">                ]]&gt;</div><div class="line">            <span class="tag">&lt;/<span class="name">description</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">pubDate</span>&gt;</span>Sat, 03 Dec 2016 19:20:11 +0000<span class="tag">&lt;/<span class="name">pubDate</span>&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">enclosure</span> <span class="attr">url</span>=<span class="string">"http://localhost/~jason/iPicMover/iPicMover_v0.1.0.dmg"</span> <span class="attr">sparkle:version</span>=<span class="string">"10"</span> <span class="attr">sparkle:shortVersionString</span>=<span class="string">"0.1.0"</span> <span class="attr">type</span>=<span class="string">"application/octet-stream"</span> /&gt;</span></div><div class="line">            <span class="tag">&lt;<span class="name">sparkle:minimumSystemVersion</span>&gt;</span>10.11<span class="tag">&lt;/<span class="name">sparkle:minimumSystemVersion</span>&gt;</span></div><div class="line">        <span class="tag">&lt;/<span class="name">item</span>&gt;</span></div><div class="line">    <span class="tag">&lt;/<span class="name">channel</span>&gt;</span></div><div class="line"><span class="tag">&lt;/<span class="name">rss</span>&gt;</span></div></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/12/03/daily/2016-12-03/" data-id="cjmo6t2xr00rn3ajeamq2rmkz" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/11/26/daily/2016-11-26/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          1126 - 网站升级至 https
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/12/04/daily/2016-12-04/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">1204 - 图床搬家神器 iPic Mover 首秀</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

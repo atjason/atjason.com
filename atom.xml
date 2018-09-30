@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Jason</title>
+  <subtitle>独立开发，自由职业</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://atjason.com/"/>
+  <updated>2018-09-29T14:46:08.334Z</updated>
+  <id>https://atjason.com/</id>
+  
+  <author>
+    <name>Jason</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0929 - 不能失去主动权</title>
+    <link href="https://atjason.com/daily/2018-09-29.html"/>
+    <id>https://atjason.com/daily/2018-09-29.html</id>
+    <published>2018-09-29T14:00:00.000Z</published>
+    <updated>2018-09-29T14:46:08.334Z</updated>
+    
+    <content type="html"><![CDATA[<p>但凡有机会，想办法增加自己做事的主动权。哪怕只有一点点，也能让自己在做事时多一些弹性，也多一份主动性（而不是觉得是在给别人做事）。</p>
+<p>就算是输，也是自己主动要输；或者说，自己做事前已经预见到在某些情况下会输，不巧这样的情况发生了。总之，不能是稀里糊涂、毫无准备的输。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;但凡有机会，想办法增加自己做事的主动权。哪怕只有一点点，也能让自己在做事时多一些弹性，也多一份主动性（而不是觉得是在给别人做事）。&lt;/p&gt;
+&lt;p&gt;就算是输，也是自己主动要输；或者说，自己做事前已经预见到在某些情况下会输，不巧这样的情况发生了。总之，不能是稀里糊涂、毫无准备的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0928 - 赌成长，不赌运气</title>
+    <link href="https://atjason.com/daily/2018-09-28.html"/>
+    <id>https://atjason.com/daily/2018-09-28.html</id>
+    <published>2018-09-28T14:00:00.000Z</published>
+    <updated>2018-09-28T14:09:32.621Z</updated>
+    
+    <content type="html"><![CDATA[<p>能让自己不断成长的东西，才是真材实料的东西。</p>
+<p>运气、投机、赌这样的东西，或许会有一时之利，但终难长久。又或者说，回报风险比太低。</p>
+<p>相反，成长这种东西，通常在前期时进展很慢，甚至有投入无回报。但通常过了一定的临界点，就可以指数上扬，回报可观。或者没有赌博收益来得大，但毕竟稳定可期。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;能让自己不断成长的东西，才是真材实料的东西。&lt;/p&gt;
+&lt;p&gt;运气、投机、赌这样的东西，或许会有一时之利，但终难长久。又或者说，回报风险比太低。&lt;/p&gt;
+&lt;p&gt;相反，成长这种东西，通常在前期时进展很慢，甚至有投入无回报。但通常过了一定的临界点，就可以指数上扬，回报可观。或者没
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0927 - 做了个查询公交实时到站信息的小工具</title>
+    <link href="https://atjason.com/daily/2018-09-27.html"/>
+    <id>https://atjason.com/daily/2018-09-27.html</id>
+    <published>2018-09-27T14:00:00.000Z</published>
+    <updated>2018-09-27T14:14:40.871Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天又用 JSBox 创建了个小工具：查询公交到站情况。比如，出门前，看一眼就知道所有能到家的公交车，离这个站还有多远。如果比较远，就再呆一会再出门。</p>
+<p>做这个工具，其实最麻烦的在于数据源。也即，到哪去找实时公交查询。关于这一点，各个城市并不相同。不过，基本上都没有公开数据。我这次有点不好意思地抓了另一个程序的数据。</p>
+<p>果然，数据才是最重要的；其次，就是 <strong>使用数据的能力</strong>。其中之一，就是 <strong>编程的能力</strong>。像我今天做的这个工具，你在市面上是不可能找到的。如果是要定制，找到有能力、又愿意开发、自己又付得起定制费的程序员，并不容易（这里另一个话题，就是我一直想做的一个：<strong>软件定制平台</strong>）。在这样的情况下，如果自己有一定的编程能力，可以极大地提高自己的效率，以及生活品质、幸福感。</p>
+<p>所以，<strong>你想学习下编程吗？</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天又用 JSBox 创建了个小工具：查询公交到站情况。比如，出门前，看一眼就知道所有能到家的公交车，离这个站还有多远。如果比较远，就再呆一会再出门。&lt;/p&gt;
+&lt;p&gt;做这个工具，其实最麻烦的在于数据源。也即，到哪去找实时公交查询。关于这一点，各个城市并不相同。不过，基本上都
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0926 - 新技能：Chrome 插件</title>
+    <link href="https://atjason.com/daily/2018-09-26.html"/>
+    <id>https://atjason.com/daily/2018-09-26.html</id>
+    <published>2018-09-26T14:00:00.000Z</published>
+    <updated>2018-09-26T15:05:03.135Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天又花了 1 个多小时，终于搞定了 Chrome Extension 环境中的 AES 加密解密。恩，还是一篇博文上说的，AES 加密后的格式是一致的，不同平台的解密失败，主要还是参数设置不同，尤其是每个平台的默认参数不同引起的。</p>
+<p>这个问题搞定后，后续的工作就容易多了，只是时间的堆积。终于，今天在服务器上部署成功了一个 Chrome 插件，可以默默地在后台干活。主要这个活必须依赖于完整的浏览器运行环境，故而不能直接使用 python/node 等环境。如果使用 headless browser，也会有各种奇怪的问题。</p>
+<p>还是要多学习新东西。<strong>开始时很难，因为学习没有支点</strong>。而一旦开头就好办了，因为可以不断在已有的支点上累加东西，新学的东西又可以成为新的支点，这样慢慢就可以点线面地积累了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天又花了 1 个多小时，终于搞定了 Chrome Extension 环境中的 AES 加密解密。恩，还是一篇博文上说的，AES 加密后的格式是一致的，不同平台的解密失败，主要还是参数设置不同，尤其是每个平台的默认参数不同引起的。&lt;/p&gt;
+&lt;p&gt;这个问题搞定后，后续的工作
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0925 - 开搞 Chrome 插件</title>
+    <link href="https://atjason.com/daily/2018-09-25.html"/>
+    <id>https://atjason.com/daily/2018-09-25.html</id>
+    <published>2018-09-25T14:00:00.000Z</published>
+    <updated>2018-09-25T14:27:01.790Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天有时间，开始学习 Chrome 插件。</p>
+<p>学习新东西，挑战还是很多的，比如：</p>
+<ul>
+<li>Chrome 插件的文件结构、运行原理；</li>
+<li>Chrome 插件中的 js 库管理；</li>
+</ul>
+<p>只要了解了 Chrome 插件通用性的东西，进一步的开发，和 node 应该没有实质区别。</p>
+<p>不过，今天比较郁闷地卡在了加密库。之前 node 是使用 crypto 库，这是 node 专用的；挪到 Chrome 插件环境，只能找替代的。找了通用的 CryptoJS，却发现加密结果无法与 crypto 互通。主要是之前发布出现的版本无法修改，所以不能全新来搞，必须要能适配之前加密的结果。花费了 N 个小时，还是没搞定，郁闷… </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天有时间，开始学习 Chrome 插件。&lt;/p&gt;
+&lt;p&gt;学习新东西，挑战还是很多的，比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Chrome 插件的文件结构、运行原理；&lt;/li&gt;
+&lt;li&gt;Chrome 插件中的 js 库管理；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;只要了解了 Chrome 
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0924 - 亲近大自然？</title>
+    <link href="https://atjason.com/daily/2018-09-24.html"/>
+    <id>https://atjason.com/daily/2018-09-24.html</id>
+    <published>2018-09-24T14:00:00.000Z</published>
+    <updated>2018-09-25T14:34:59.163Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们常说，亲近大自然。</p>
+<p>但，如果把你一人扔到荒岛上，没吃没喝，什么都要自己去「亲近」大自然，你喜欢吗？或者说，你能活下来吗？</p>
+<p>厌倦了都市生活，想回归田园。可真的面对网络信号差、时而停水停电、苍蝇虫子满天、到处灰尘泥巴，你还喜欢吗？</p>
+<p>没有改造过的大自然，比你厌烦的城市，更可怕。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们常说，亲近大自然。&lt;/p&gt;
+&lt;p&gt;但，如果把你一人扔到荒岛上，没吃没喝，什么都要自己去「亲近」大自然，你喜欢吗？或者说，你能活下来吗？&lt;/p&gt;
+&lt;p&gt;厌倦了都市生活，想回归田园。可真的面对网络信号差、时而停水停电、苍蝇虫子满天、到处灰尘泥巴，你还喜欢吗？&lt;/p&gt;
+&lt;p&gt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0923 - 与世无争不存在</title>
+    <link href="https://atjason.com/daily/2018-09-23.html"/>
+    <id>https://atjason.com/daily/2018-09-23.html</id>
+    <published>2018-09-23T14:00:00.000Z</published>
+    <updated>2018-09-25T14:31:00.813Z</updated>
+    
+    <content type="html"><![CDATA[<p>争，是一定存在的。</p>
+<p>和谐相处，基本是屁话。一个东西的存在，势必要消耗资源。同类之间消耗相同的资源就不用说了，即使是不同类的物种，也会消耗类似的资源，比如空间。</p>
+<p>除了实质性的东西，人这种物种还在争心理这种不实质的东西。比如，可以不如别人，但不能不如自己看不上的人、或者是所有周边的人。</p>
+<p>博弈与平衡。争到自己的能力边界，也即停止争的时刻。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;争，是一定存在的。&lt;/p&gt;
+&lt;p&gt;和谐相处，基本是屁话。一个东西的存在，势必要消耗资源。同类之间消耗相同的资源就不用说了，即使是不同类的物种，也会消耗类似的资源，比如空间。&lt;/p&gt;
+&lt;p&gt;除了实质性的东西，人这种物种还在争心理这种不实质的东西。比如，可以不如别人，但不能不如
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0922 - 快乐的心态</title>
+    <link href="https://atjason.com/daily/2018-09-22.html"/>
+    <id>https://atjason.com/daily/2018-09-22.html</id>
+    <published>2018-09-22T14:00:00.000Z</published>
+    <updated>2018-09-22T14:20:06.824Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天遇上一位出租车性格内向，他言谈举止那种快乐的心态，让人很是触动。</p>
+<p>比如，主动帮我将大的行李箱放车上；<br>比如，我给他 50，他找我 2 张 20（恩，小城市），说：恩，你给我一张，我还给你两张。这种小小的幽默，让人很放松。</p>
+<p>用这样的心态开出租，不管赚钱多少，总是感觉很舒服的。而感觉舒服，不是很重要的吗？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天遇上一位出租车性格内向，他言谈举止那种快乐的心态，让人很是触动。&lt;/p&gt;
+&lt;p&gt;比如，主动帮我将大的行李箱放车上；&lt;br&gt;比如，我给他 50，他找我 2 张 20（恩，小城市），说：恩，你给我一张，我还给你两张。这种小小的幽默，让人很放松。&lt;/p&gt;
+&lt;p&gt;用这样的心态开
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0921 - 假期前生病</title>
+    <link href="https://atjason.com/daily/2018-09-21.html"/>
+    <id>https://atjason.com/daily/2018-09-21.html</id>
+    <published>2018-09-21T14:00:00.000Z</published>
+    <updated>2018-09-22T14:16:51.118Z</updated>
+    
+    <content type="html"><![CDATA[<p>哎，我也是郁闷，玩过好几次了：即将开始长假时，生病了…</p>
+<p>假期说是休息，但在假期开始时是很忙碌了。尤其是长途旅行 + 带娃，要准备的东西很多。偏偏这个时候不舒服，真郁闷。</p>
+<p>真的是上年纪了，饮食（已经不喝酒了）、睡觉、锻炼，一个都不能疏忽。中年危机，不能轻易倒下啊。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;哎，我也是郁闷，玩过好几次了：即将开始长假时，生病了…&lt;/p&gt;
+&lt;p&gt;假期说是休息，但在假期开始时是很忙碌了。尤其是长途旅行 + 带娃，要准备的东西很多。偏偏这个时候不舒服，真郁闷。&lt;/p&gt;
+&lt;p&gt;真的是上年纪了，饮食（已经不喝酒了）、睡觉、锻炼，一个都不能疏忽。中年危机，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0920 - 给生活多点耐心</title>
+    <link href="https://atjason.com/daily/2018-09-20.html"/>
+    <id>https://atjason.com/daily/2018-09-20.html</id>
+    <published>2018-09-20T14:00:00.000Z</published>
+    <updated>2018-09-20T14:48:41.184Z</updated>
+    
+    <content type="html"><![CDATA[<p>在工作时，除非是打算离职，否则在领导、团队等压力下，即使是不顺心的事，也能压下心里的火，面子上过得去，耐着性子做下去。</p>
+<p>而在生活中，如果遇到不顺心的事，通常没有像工作一样的压力压着，很容易就爆发，说些不该说的话，做些马上就后悔的事。</p>
+<p>而，我们口口声声说，工作是为了赚钱，为了更好的生活。<br>而，钱还没赚钱、或者即便已经赚够了，生活却已经一团糟，亏不？</p>
+<p><strong>像对工作的忍耐力一样，对待家人和生活。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在工作时，除非是打算离职，否则在领导、团队等压力下，即使是不顺心的事，也能压下心里的火，面子上过得去，耐着性子做下去。&lt;/p&gt;
+&lt;p&gt;而在生活中，如果遇到不顺心的事，通常没有像工作一样的压力压着，很容易就爆发，说些不该说的话，做些马上就后悔的事。&lt;/p&gt;
+&lt;p&gt;而，我们口口
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0919 - 我们永远也无法知道事情的真相</title>
+    <link href="https://atjason.com/daily/2018-09-19.html"/>
+    <id>https://atjason.com/daily/2018-09-19.html</id>
+    <published>2018-09-19T14:00:00.000Z</published>
+    <updated>2018-09-19T12:29:37.412Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们没有时间去了解真相；<br>我们偏向于相信自己看到听到的；<br>我们通常先有结论，然后挑选事实往上靠；<br>我们通常通过看到自己想看到的，来强化自己已有的认知；<br>…</p>
+<p>我们永远也无法知道事情的真相；能做的，只是让自己原本的立场不那么极端。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们没有时间去了解真相；&lt;br&gt;我们偏向于相信自己看到听到的；&lt;br&gt;我们通常先有结论，然后挑选事实往上靠；&lt;br&gt;我们通常通过看到自己想看到的，来强化自己已有的认知；&lt;br&gt;…&lt;/p&gt;
+&lt;p&gt;我们永远也无法知道事情的真相；能做的，只是让自己原本的立场不那么极端。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0918 - 切换思路，很难</title>
+    <link href="https://atjason.com/daily/2018-09-18.html"/>
+    <id>https://atjason.com/daily/2018-09-18.html</id>
+    <published>2018-09-18T14:00:00.000Z</published>
+    <updated>2018-09-18T15:21:08.882Z</updated>
+    
+    <content type="html"><![CDATA[<p>当要放弃一个旧东西时，总会不断念念它的好；<br>当要开始一个新东西时，总会不断惴惴它的坏。</p>
+<p>要想切换思路，反着来。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;当要放弃一个旧东西时，总会不断念念它的好；&lt;br&gt;当要开始一个新东西时，总会不断惴惴它的坏。&lt;/p&gt;
+&lt;p&gt;要想切换思路，反着来。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0917 - 逃避不如面对</title>
+    <link href="https://atjason.com/daily/2018-09-17.html"/>
+    <id>https://atjason.com/daily/2018-09-17.html</id>
+    <published>2018-09-17T14:00:00.000Z</published>
+    <updated>2018-09-18T15:19:56.013Z</updated>
+    
+    <content type="html"><![CDATA[<p>逃避，只会让已有的问题不断发酵；<br>面对，至少可以慢慢卸下心里的负担。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;逃避，只会让已有的问题不断发酵；&lt;br&gt;面对，至少可以慢慢卸下心里的负担。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0916 - 什么也不选，也是种选择</title>
+    <link href="https://atjason.com/daily/2018-09-16.html"/>
+    <id>https://atjason.com/daily/2018-09-16.html</id>
+    <published>2018-09-16T14:00:00.000Z</published>
+    <updated>2018-09-16T13:45:45.157Z</updated>
+    
+    <content type="html"><![CDATA[<p>逃避，会暂时麻痹神经，却会累积心理压力。</p>
+<p>什么也不选，也是种选择；而且，可能是最差的选择。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;逃避，会暂时麻痹神经，却会累积心理压力。&lt;/p&gt;
+&lt;p&gt;什么也不选，也是种选择；而且，可能是最差的选择。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0915 - 设置门槛，过滤用户</title>
+    <link href="https://atjason.com/daily/2018-09-15.html"/>
+    <id>https://atjason.com/daily/2018-09-15.html</id>
+    <published>2018-09-15T14:00:00.000Z</published>
+    <updated>2018-09-15T14:19:24.538Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天去龙井深处的一个酒店吃饭。恩，真的是在深处，开车绕啊绕才到。</p>
+<p>问题是，酒店开在交通这么不便的地方，生意能好吗？</p>
+<p>确实，我感觉他们生意一般，看不到太多人。</p>
+<p>不过，有利有弊。有人喜欢热闹，有人喜欢僻静，喜欢在晚上能听到虫鸣的地方睡觉。同时，偏僻也可以说是门槛，比如，至少你得有车才会来这里；比如，你不会嫌周围没有成熟的商业配套。</p>
+<p>只伺候某一类用户，虽然获客成本高，但也降低了伺候不好不是自己目标用户的成本。举个不太恰当的例子，中国移动的主要利润来源肯定不是大爷大妈，但营业厅里来的最多的就是大爷大妈，比如来充话费。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天去龙井深处的一个酒店吃饭。恩，真的是在深处，开车绕啊绕才到。&lt;/p&gt;
+&lt;p&gt;问题是，酒店开在交通这么不便的地方，生意能好吗？&lt;/p&gt;
+&lt;p&gt;确实，我感觉他们生意一般，看不到太多人。&lt;/p&gt;
+&lt;p&gt;不过，有利有弊。有人喜欢热闹，有人喜欢僻静，喜欢在晚上能听到虫鸣的地方睡觉
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0914 - 状态不好时，多睡觉</title>
+    <link href="https://atjason.com/daily/2018-09-14.html"/>
+    <id>https://atjason.com/daily/2018-09-14.html</id>
+    <published>2018-09-14T14:00:00.000Z</published>
+    <updated>2018-09-15T14:03:10.163Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天看了 3 部电影，但状态并没有变好。</p>
+<p>状态不好时，多睡觉</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天看了 3 部电影，但状态并没有变好。&lt;/p&gt;
+&lt;p&gt;状态不好时，多睡觉&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0913 - iPhone Xs 发布</title>
+    <link href="https://atjason.com/daily/2018-09-13.html"/>
+    <id>https://atjason.com/daily/2018-09-13.html</id>
+    <published>2018-09-13T14:00:00.000Z</published>
+    <updated>2018-09-13T14:13:51.112Z</updated>
+    
+    <content type="html"><![CDATA[<p>又一次，苹果发布新品，股价下跌。</p>
+<p>怎么说呢，外观不变，确实很难吸引人。尤其高昂的价格，更打击普通消费者的积极性。尤其是国内普遍「消费降级」的背景下，不是个好消息（当然，我知道，有钱人多的是）</p>
+<p>本打算发布就入手了，现在纠结下。立个 Flag: 再努力一个月，如果赚到钱了，就入 Xs；否则入 Xr.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;又一次，苹果发布新品，股价下跌。&lt;/p&gt;
+&lt;p&gt;怎么说呢，外观不变，确实很难吸引人。尤其高昂的价格，更打击普通消费者的积极性。尤其是国内普遍「消费降级」的背景下，不是个好消息（当然，我知道，有钱人多的是）&lt;/p&gt;
+&lt;p&gt;本打算发布就入手了，现在纠结下。立个 Flag: 再努
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0912 - 戒贪</title>
+    <link href="https://atjason.com/daily/2018-09-12.html"/>
+    <id>https://atjason.com/daily/2018-09-12.html</id>
+    <published>2018-09-12T14:00:00.000Z</published>
+    <updated>2018-09-12T14:15:35.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天手动下单做期货短线交易，本可以有所收益，结果因为贪多没及时平仓，反而亏损。</p>
+<p>虽是投机，但投机也是长期的事。赌一把大的，并不是投机，而是赌博。</p>
+<p>期货投机，是用概率上的优势（如 51% 的赢面），去赢得负和游戏。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天手动下单做期货短线交易，本可以有所收益，结果因为贪多没及时平仓，反而亏损。&lt;/p&gt;
+&lt;p&gt;虽是投机，但投机也是长期的事。赌一把大的，并不是投机，而是赌博。&lt;/p&gt;
+&lt;p&gt;期货投机，是用概率上的优势（如 51% 的赢面），去赢得负和游戏。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0911 - 专注与放弃</title>
+    <link href="https://atjason.com/daily/2018-09-11.html"/>
+    <id>https://atjason.com/daily/2018-09-11.html</id>
+    <published>2018-09-11T14:00:00.000Z</published>
+    <updated>2018-09-11T13:49:33.097Z</updated>
+    
+    <content type="html"><![CDATA[<p>时不时会听到这样的消息：</p>
+<ul>
+<li>谁谁谁最近做了个騒操作，一下子赚了好多；</li>
+<li>最近某个项目比较火，可以关注下；</li>
+<li>要不我们一起搞这个吧，肯定有的赚；</li>
+</ul>
+<p>我肯定相信，如果把时间精力投入到这些事情上，肯定有收益。问题在于，继续坚持自己目前正在做的事，可能收益更大。</p>
+<p>不要轻易受外界刺激影响，不要轻易动摇之前下的决心。坚守并专注，才是成功的捷径。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;时不时会听到这样的消息：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;谁谁谁最近做了个騒操作，一下子赚了好多；&lt;/li&gt;
+&lt;li&gt;最近某个项目比较火，可以关注下；&lt;/li&gt;
+&lt;li&gt;要不我们一起搞这个吧，肯定有的赚；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我肯定相信，如果把时间精力投入到这些事情上，肯
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0910 - 医院啊医院</title>
+    <link href="https://atjason.com/daily/2018-09-10.html"/>
+    <id>https://atjason.com/daily/2018-09-10.html</id>
+    <published>2018-09-10T14:00:00.000Z</published>
+    <updated>2018-09-10T14:26:35.132Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天去儿童医院给娃看病，就是晚上睡觉时鼻子会有点堵。结果，80 元挂了专家号，看了 3 分钟，开了瓶 288 元的「盐水」医院的毛病还真不少：</p>
+<ul>
+<li>不论是大病小病，都要去挤医院，这点不合理：有大病的患者，时间被病患者耽误了；只是病的患者，也花了很多不必要的时间。甚至，有可能在医院被传染大病。</li>
+<li>药开的明显太狠了。只是清理鼻腔的生理盐水、海盐水，为什么医院的药房里没有，而必须去社会性、却又和医院「合作」的药房？无法用医保，全额自费。</li>
+<li>医生服务（如果他们真的认为自己是在服务的话）态度差，有什么可以监督举报的渠道？有效吗？会被滥用吗？</li>
+<li>作为患者，如何才能知道医生的治疗、开药是否合理？除了不得不相信，还有别的选择吗？</li>
+<li>新建的院区，建筑设计在我这个外行看起来，都挺差：采光差、通风差、导引差、院区没有一把供患者休息的椅子。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天去儿童医院给娃看病，就是晚上睡觉时鼻子会有点堵。结果，80 元挂了专家号，看了 3 分钟，开了瓶 288 元的「盐水」医院的毛病还真不少：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不论是大病小病，都要去挤医院，这点不合理：有大病的患者，时间被病患者耽误了；只是病的患者，也花了很多不必
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+</feed>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Shell 流程控制 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="if elseif else-if else 语法格式：123456789if condition1then    command1elif condition2 then     command2else    commandNfi注意：sh的流程控制不可为空。如果else分支没有语句执行，就不要写这个else。写成一行（适用于终端命令提示符）：1if [ $(ps -ef | grep -c">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shell 流程控制">
+<meta property="og:url" content="http://yoursite.com/2016/08/13/Shell/workflow/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="if elseif else-if else 语法格式：123456789if condition1then    command1elif condition2 then     command2else    commandNfi注意：sh的流程控制不可为空。如果else分支没有语句执行，就不要写这个else。写成一行（适用于终端命令提示符）：1if [ $(ps -ef | grep -c">
+<meta property="og:updated_time" content="2016-12-06T04:43:09.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Shell 流程控制">
+<meta name="twitter:description" content="if elseif else-if else 语法格式：123456789if condition1then    command1elif condition2 then     command2else    commandNfi注意：sh的流程控制不可为空。如果else分支没有语句执行，就不要写这个else。写成一行（适用于终端命令提示符）：1if [ $(ps -ef | grep -c">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Shell/workflow" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/08/13/Shell/workflow/" class="article-date">
+  <time datetime="2016-08-13T01:36:56.000Z" itemprop="datePublished">2016-08-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Shell/">Shell</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Shell 流程控制
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="if-else"><a href="#if-else" class="headerlink" title="if else"></a>if else</h1><p>if else-if else 语法格式：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> condition1</div><div class="line"><span class="keyword">then</span></div><div class="line">    <span class="built_in">command</span>1</div><div class="line"><span class="keyword">elif</span> condition2 </div><div class="line"><span class="keyword">then</span> </div><div class="line">    <span class="built_in">command</span>2</div><div class="line"><span class="keyword">else</span></div><div class="line">    <span class="built_in">command</span>N</div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure><p>注意：sh的流程控制不可为空。如果else分支没有语句执行，就不要写这个else。</p><p>写成一行（适用于终端命令提示符）：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span> [ $(ps -ef | grep -c <span class="string">"ssh"</span>) <span class="_">-gt</span> 1 ]; <span class="keyword">then</span> <span class="built_in">echo</span> <span class="string">"true"</span>; <span class="keyword">fi</span></div></pre></td></tr></table></figure><p>甚至可以忽略 if 等结构，更加简写：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"></div><div class="line">a=1</div><div class="line">b=1</div><div class="line"></div><div class="line">[ <span class="variable">$a</span> == <span class="variable">$b</span> ] &amp;&amp; <span class="built_in">echo</span> <span class="string">"<span class="variable">$a</span> equals <span class="variable">$b</span>"</span></div></pre></td></tr></table></figure><a id="more"></a><p>以下实例判断两个变量是否相等：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">a=10</div><div class="line">b=20</div><div class="line"><span class="keyword">if</span> [ <span class="variable">$a</span> == <span class="variable">$b</span> ]</div><div class="line"><span class="keyword">then</span></div><div class="line">   <span class="built_in">echo</span> <span class="string">"a 等于 b"</span></div><div class="line"><span class="keyword">elif</span> [ <span class="variable">$a</span> <span class="_">-gt</span> <span class="variable">$b</span> ]</div><div class="line"><span class="keyword">then</span></div><div class="line">   <span class="built_in">echo</span> <span class="string">"a 大于 b"</span></div><div class="line"><span class="keyword">elif</span> [ <span class="variable">$a</span> <span class="_">-lt</span> <span class="variable">$b</span> ]</div><div class="line"><span class="keyword">then</span></div><div class="line">   <span class="built_in">echo</span> <span class="string">"a 小于 b"</span></div><div class="line"><span class="keyword">else</span></div><div class="line">   <span class="built_in">echo</span> <span class="string">"没有符合的条件"</span></div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure><h1 id="for-循环"><a href="#for-循环" class="headerlink" title="for 循环"></a>for 循环</h1><p>for循环一般格式为：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> var <span class="keyword">in</span> item1 item2 ... itemN</div><div class="line"><span class="keyword">do</span></div><div class="line">    <span class="built_in">command</span>1</div><div class="line">    <span class="built_in">command</span>2</div><div class="line">    ...</div><div class="line">    <span class="built_in">command</span>N</div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure><p>写成一行：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> var <span class="keyword">in</span> item1 item2 ... itemN; <span class="keyword">do</span> <span class="built_in">command</span>1; <span class="built_in">command</span>2… <span class="keyword">done</span>;</div></pre></td></tr></table></figure><p>例如，顺序输出当前列表中的数字：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span> loop <span class="keyword">in</span> 1 2 3 4 5</div><div class="line"><span class="keyword">do</span></div><div class="line">    <span class="built_in">echo</span> <span class="string">"The value is: <span class="variable">$loop</span>"</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure><p>遍历数组：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"></div><div class="line">files_list=(</div><div class="line">a.txt</div><div class="line">b.txt</div><div class="line">)</div><div class="line"></div><div class="line"><span class="keyword">for</span> file <span class="keyword">in</span> <span class="string">"<span class="variable">$&#123;files_list[@]&#125;</span>"</span></div><div class="line"><span class="keyword">do</span></div><div class="line">        <span class="built_in">echo</span> <span class="variable">$file</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure><p>使用 C 语言风格的循环：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"></div><div class="line"><span class="keyword">for</span> (( i = 0; i &lt; 3; i++ )) &#123;</div><div class="line">	<span class="built_in">echo</span> <span class="variable">$i</span></div><div class="line">&#125;</div></pre></td></tr></table></figure><h1 id="while-语句"><a href="#while-语句" class="headerlink" title="while 语句"></a>while 语句</h1><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">while</span> condition</div><div class="line"><span class="keyword">do</span></div><div class="line">    <span class="built_in">command</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure><p>以下是一个基本的while循环：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/bash</span></div><div class="line"></div><div class="line">index=1</div><div class="line"><span class="keyword">while</span> ((<span class="variable">$index</span>&lt;=3)); <span class="keyword">do</span></div><div class="line">        <span class="built_in">echo</span> <span class="variable">$index</span></div><div class="line">        </div><div class="line">        <span class="built_in">let</span> <span class="string">"index++"</span></div><div class="line"><span class="keyword">done</span></div><div class="line"></div><div class="line">index=1</div><div class="line"><span class="keyword">while</span> [ <span class="variable">$index</span> -le 3 ]; <span class="keyword">do</span></div><div class="line">        <span class="built_in">echo</span> <span class="variable">$index</span></div><div class="line">                </div><div class="line">        index=$((<span class="variable">$index</span>+1))    </div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure><h2 id="无限循环"><a href="#无限循环" class="headerlink" title="无限循环"></a>无限循环</h2><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">while</span> <span class="literal">true</span></div><div class="line"><span class="keyword">do</span></div><div class="line">    <span class="built_in">command</span></div><div class="line"><span class="keyword">done</span></div></pre></td></tr></table></figure><h1 id="case"><a href="#case" class="headerlink" title="case"></a>case</h1><p>下面的脚本提示输入1到4，与每一种模式进行匹配：</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">echo</span> <span class="string">'输入 1 到 4 之间的数字:'</span></div><div class="line"><span class="built_in">echo</span> <span class="string">'你输入的数字为:'</span></div><div class="line"><span class="built_in">read</span> aNum</div><div class="line"><span class="keyword">case</span> <span class="variable">$aNum</span> <span class="keyword">in</span></div><div class="line">    1)  <span class="built_in">echo</span> <span class="string">'你选择了 1'</span></div><div class="line">    ;;</div><div class="line">    2)  </div><div class="line">    <span class="built_in">echo</span> <span class="string">'你选择了 2'</span></div><div class="line">    ;;</div><div class="line">    3)  </div><div class="line">    	<span class="built_in">echo</span> <span class="string">'你选择了 3'</span></div><div class="line">    ;;</div><div class="line">    4)  <span class="built_in">echo</span> <span class="string">'你选择了 4'</span> ;;</div><div class="line">    *)  <span class="built_in">echo</span> <span class="string">'你没有输入 1 到 4 之间的数字'</span></div><div class="line">    ;;</div><div class="line"><span class="keyword">esac</span></div></pre></td></tr></table></figure><h1 id="跳出循环"><a href="#跳出循环" class="headerlink" title="跳出循环"></a>跳出循环</h1><h2 id="break命令"><a href="#break命令" class="headerlink" title="break命令"></a>break命令</h2><p>break 跳出循环；如果是多重循环，仅跳出 break 所在的循环。</p><h2 id="continue"><a href="#continue" class="headerlink" title="continue"></a>continue</h2><p>continue 仅跳出当次循环。</p>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/08/13/Shell/workflow/" data-id="cjmo6t1tm005o3ajes4796fiu" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/08/13/Shell/printf/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Shell printf 命令
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/08/13/Shell/func/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Shell 函数</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,1057 @@
+<!doctype html>
+
+
+
+
+<html class="theme-next mist" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+<link href="https://cdn.bootcss.com/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Jason,博客" />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="Jason" type="application/atom+xml" />
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.1" />
+
+
+
+
+
+
+<meta name="description" content="如果大家在自己的 VPS 上搭 ShadowSocks，总会有贱人来扫描、破解。使用 fail2ban，可以有效地屏蔽这些贱人的 IP，提高安全性。 前提 本文不是 ShadowSocks 或 fail2ban 的科普贴，假定大家已经安装，并对二者有基本的了解 本文使用 ShadowSocks 是多用户版、不是单用户版  本文服务器端为 Ubuntu 16.04 LTS  ShadowSocks">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用 fail2ban 保护 ShadowSocks">
+<meta property="og:url" content="https://atjason.com/IT/ss_fail2ban.html">
+<meta property="og:site_name" content="Jason">
+<meta property="og:description" content="如果大家在自己的 VPS 上搭 ShadowSocks，总会有贱人来扫描、破解。使用 fail2ban，可以有效地屏蔽这些贱人的 IP，提高安全性。 前提 本文不是 ShadowSocks 或 fail2ban 的科普贴，假定大家已经安装，并对二者有基本的了解 本文使用 ShadowSocks 是多用户版、不是单用户版  本文服务器端为 Ubuntu 16.04 LTS  ShadowSocks">
+<meta property="og:updated_time" content="2016-12-06T04:43:09.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="使用 fail2ban 保护 ShadowSocks">
+<meta name="twitter:description" content="如果大家在自己的 VPS 上搭 ShadowSocks，总会有贱人来扫描、破解。使用 fail2ban，可以有效地屏蔽这些贱人的 IP，提高安全性。 前提 本文不是 ShadowSocks 或 fail2ban 的科普贴，假定大家已经安装，并对二者有基本的了解 本文使用 ShadowSocks 是多用户版、不是单用户版  本文服务器端为 Ubuntu 16.04 LTS  ShadowSocks">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: false,
+    motion: false,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://atjason.com/IT/ss_fail2ban.html"/>
+
+
+
+
+
+  <title>使用 fail2ban 保护 ShadowSocks | Jason</title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-26569268-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Jason</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">独立开发，自由职业</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocapitalize="off" autocomplete="off" autocorrect="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/IT/ss_fail2ban.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                使用 fail2ban 保护 ShadowSocks
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-17T17:40:13+08:00">
+                2016-07-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>如果大家在自己的 VPS 上搭 ShadowSocks，总会有贱人来扫描、破解。使用 fail2ban，可以有效地屏蔽这些贱人的 IP，提高安全性。</p>
+<h1 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h1><ul>
+<li>本文不是 ShadowSocks 或 fail2ban 的科普贴，假定大家已经安装，并对二者有基本的了解</li>
+<li>本文使用 ShadowSocks 是多用户版、不是单用户版 </li>
+<li>本文服务器端为 Ubuntu 16.04 LTS</li>
+</ul>
+<h1 id="ShadowSocks-端设置"><a href="#ShadowSocks-端设置" class="headerlink" title="ShadowSocks 端设置"></a>ShadowSocks 端设置</h1><p>注：我这里 ShadowSocks 是安装在 <code>/usr/local/shadowsocks</code> 中，下面的文件是和此路径相关的，大家需要根据自己的情况调整路径。</p>
+<a id="more"></a>
+<h2 id="配置-ShadowSocks-的日志"><a href="#配置-ShadowSocks-的日志" class="headerlink" title="配置 ShadowSocks 的日志"></a>配置 ShadowSocks 的日志</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo vi /usr/local/shadowsocks/config.py</div></pre></td></tr></table></figure>
+<p>更新日志相关的部分：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="comment">#LOG CONFIG</span></div><div class="line">LOG_ENABLE = <span class="keyword">True</span></div><div class="line">LOG_LEVEL = logging.ERROR</div><div class="line">LOG_FILE = <span class="string">'/var/log/shadowsocks.log'</span></div></pre></td></tr></table></figure>
+<p>注意：需要手动创建 <code>/var/log/shadowsocks.log</code>，并保证运行 ShadowSocks 的账户有写权限。</p>
+<h2 id="调整-ShadowSocks-输出的日志"><a href="#调整-ShadowSocks-输出的日志" class="headerlink" title="调整 ShadowSocks 输出的日志"></a>调整 ShadowSocks 输出的日志</h2><p>为什么要调整？这和下文介绍的 fail2ban 有关。fail2ban 要求日志以日期开头，但并不能智能识别所有的日期格式、也不支持为其配置日期格式。所以，需要配置 ShadowSocks 输出的日志格式能被 fail2ban 支持。更多 fail2ban 自定义 filter 中正则表达式的介绍，请 <a href="http://www.fail2ban.org/wiki/index.php/MANUAL_0_8" target="_blank" rel="external">参考这里</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo cp /usr/local/shadowsocks/servers.py /usr/local/shadowsocks/servers.py.bak</div><div class="line">vi /usr/local/shadowsocks/servers.py</div></pre></td></tr></table></figure>
+<p>注意：</p>
+<ul>
+<li>修改自己不熟悉的配置文件前，先备份，始终是好习惯。</li>
+<li>这里是 <code>servers.py</code>（即多用户版），不是 <code>server.py</code></li>
+</ul>
+<p>将以下输出日志的代码：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">logging.basicConfig(format=<span class="string">'%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s'</span>,datefmt=<span class="string">'%Y, %b %d %a %H:%M:%S'</span>,filename=config.LOG_FILE,level=config.LOG_LEVEL)</div></pre></td></tr></table></figure>
+<p>改为：</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">logging.basicConfig(format=<span class="string">'%(asctime)s %(levelname)s %(message)s'</span>,datefmt=<span class="string">'%Y-%m-%d %H:%M:%S'</span>,filename=config.LOG_FILE,level=config.LOG_LEVEL)</div></pre></td></tr></table></figure>
+<p>改动并不大：</p>
+<ul>
+<li>将 <code>%Y, %b %d %a</code> 改为 <code>%Y-%m-%d</code>，以实际日期示例：将 <code>2016, Jul 17 Sun</code> 改为 <code>2016-07-17</code></li>
+<li>去掉代码行的输出：<code>%(filename)s[line:%(lineno)d]</code></li>
+</ul>
+<h2 id="重启-ShadowSocks"><a href="#重启-ShadowSocks" class="headerlink" title="重启 ShadowSocks"></a>重启 ShadowSocks</h2><p>因为这和你启动 ShadowSocks 的方式有关，这里就不提供示例代码了。</p>
+<h2 id="创建-ShadowSocks-错误日志"><a href="#创建-ShadowSocks-错误日志" class="headerlink" title="创建 ShadowSocks 错误日志"></a>创建 ShadowSocks 错误日志</h2><p>比如，你可以故意在 ShadowSocks 客户端设置错误的密码，然后尝试使用 ShadowSocks 代理访问，应该就会在 VPS 端产生错误日志。</p>
+<p>然后，检查 ShadowSocks 日志 <code>/var/log/shadowsocks.log</code> 是否有类似下面的错误信息：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">2016-07-17 18:05:03 ERROR can not parse header when handling connection from 112.10.137.6:20463</div></pre></td></tr></table></figure>
+<p>至此，ShadowSocks 端的设置就结束了。</p>
+<h1 id="fail2ban-端设置"><a href="#fail2ban-端设置" class="headerlink" title="fail2ban 端设置"></a>fail2ban 端设置</h1><h2 id="创建-ShadowSocks-过滤器"><a href="#创建-ShadowSocks-过滤器" class="headerlink" title="创建 ShadowSocks 过滤器"></a>创建 ShadowSocks 过滤器</h2><p>fail2ban 默认并没有设置 ShadowSocks 过滤器（当然了，只有天朝才需要梯子；而 fail2ban 并不是国人开发的，自然没有这种多余的东西），需要我们按照 fail2ban 的规则来创建。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo vi /etc/fail2ban/filter.d/shadowsocks.conf</div></pre></td></tr></table></figure>
+<p>添加如下内容：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">[INCLUDES]</div><div class="line">before = common.conf</div><div class="line"></div><div class="line">[Definition]</div><div class="line">_daemon = shadowsocks</div><div class="line">failregex = ^\s+ERROR\s+can not parse header when handling connection from &lt;HOST&gt;:\d+$</div><div class="line">ignoreregex =</div></pre></td></tr></table></figure>
+<p>其中，<code>failregex</code> 就是用来过滤日志中尝试破解 ShadowSocks 的正则表达式。另外，你可以在命令行中测试正式表达式是否正确。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">fail2ban-regex &apos;2016-07-17 17:27:37 ERROR can not parse header when handling connection from 112.10.137.6:20238&apos;     &apos;^\s+ERROR\s+can not parse header when handling connection from &lt;HOST&gt;:\d+$&apos;</div></pre></td></tr></table></figure>
+<p>输出如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div></pre></td><td class="code"><pre><div class="line">Running tests</div><div class="line">=============</div><div class="line"></div><div class="line">Use   failregex line : ^\s+ERROR\s+can not parse header when handling con...</div><div class="line">Use      single line : 2016-07-17 17:27:37 ERROR can not parse header whe...</div><div class="line"></div><div class="line"></div><div class="line">Results</div><div class="line">=======</div><div class="line"></div><div class="line">Failregex: 1 total</div><div class="line">|-  #) [# of hits] regular expression</div><div class="line">|   1) [1] ^\s+ERROR\s+can not parse header when handling connection from &lt;HOST&gt;:\d+$</div><div class="line">`-</div><div class="line"></div><div class="line">Ignoreregex: 0 total</div><div class="line"></div><div class="line">Date template hits:</div><div class="line">|- [# of hits] date format</div><div class="line">|  [1] Year(?P&lt;_sep&gt;[-/.])Month(?P=_sep)Day 24hour:Minute:Second(?:,Microseconds)?</div><div class="line">`-</div><div class="line"></div><div class="line">Lines: 1 lines, 0 ignored, 1 matched, 0 missed [processed in 0.00 sec]</div></pre></td></tr></table></figure>
+<p>其中：</p>
+<ul>
+<li><code>Date template hits:</code> 是指该日志中有满足格式的日期，这也是为什么之前要更新 ShadowSocks 输出的日志格式。</li>
+<li><code>Failregex: 1 total</code> 是指有一条满足条件的日志被找到。</li>
+</ul>
+<h2 id="更新-fail2ban-配置"><a href="#更新-fail2ban-配置" class="headerlink" title="更新 fail2ban 配置"></a>更新 fail2ban 配置</h2><p>接下来，需要告诉 fail2ban 来检查 ShadowSocks 日志、并更新 iptables.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo vi /etc/fail2ban/jail.local</div></pre></td></tr></table></figure>
+<p>添加如下内容：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">[shadowsocks]</div><div class="line">enabled = true</div><div class="line">filter = shadowsocks</div><div class="line">port = 10000:20000</div><div class="line">logpath = /var/log/shadowsocks.log</div><div class="line">maxretry = 5</div><div class="line">bantime = 43200</div></pre></td></tr></table></figure>
+<p>其中：</p>
+<ul>
+<li><code>port</code> 为端口范围，设定为 ShadowSocks 所监听的端口范围</li>
+</ul>
+<h2 id="重启-fail2ban"><a href="#重启-fail2ban" class="headerlink" title="重启 fail2ban"></a>重启 fail2ban</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo service fail2ban restart</div></pre></td></tr></table></figure>
+<p>查看 fail2ban 中 ShadowSocks 监控的状态：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo fail2ban-client status shadowsocks</div></pre></td></tr></table></figure>
+<p>会有类似下面的输出：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">Status for the jail: shadowsocks</div><div class="line">|- Filter</div><div class="line">|  |- Currently failed:	0</div><div class="line">|  |- Total failed:	949</div><div class="line">|  `- File list:	/var/log/shadowsocks.log</div><div class="line">`- Actions</div><div class="line">   |- Currently banned:	1</div><div class="line">   |- Total banned:	1</div><div class="line">   `- Banned IP list:	112.10.137.6</div></pre></td></tr></table></figure>
+<p>可以看出，上面日志中的 IP <code>112.10.137.6</code> 已经被屏蔽。</p>
+<p>或者，也可以通过 iptables 来查看：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo iptables -S</div></pre></td></tr></table></figure>
+<p>其中，会有类似下面的记录：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">-A f2b-shadowsocks -s 112.10.137.6/32 -j REJECT --reject-with icmp-port-unreachable</div></pre></td></tr></table></figure>
+<p>至此，全文结束。</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/daily/2016-07-17.html" rel="next" title="0717 - 搞定 ShadowSocks & fail2ban">
+                <i class="fa fa-chevron-left"></i> 0717 - 搞定 ShadowSocks & fail2ban
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/daily/2016-07-16.html" rel="prev" title="0716 - 搞定 iptables">
+                0716 - 搞定 iptables <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      <div id="disqus_thread">
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="https://ohpsctde4.qnssl.com/ezw8l.jpg"
+               alt="Jason" />
+          <p class="site-author-name" itemprop="name">Jason</p>
+           
+              <p class="site-description motion-element" itemprop="description">独立开发，自由职业</p>
+          
+        </div>
+        <nav class="site-state motion-element">
+
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/">
+                <span class="site-state-item-count">1128</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-categories">
+              <a href="/categories/index.html">
+                <span class="site-state-item-count">9</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              <a href="/tags/index.html">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/atjason" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://twitter.com/hereisjason" target="_blank" title="Twitter">
+                  
+                    <i class="fa fa-fw fa-twitter"></i>
+                  
+                  Twitter
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/atjasonzone" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+          <div class="links-of-blogroll motion-element links-of-blogroll-inline">
+            <div class="links-of-blogroll-title">
+              <i class="fa  fa-fw fa-globe"></i>
+              Links
+            </div>
+            <ul class="links-of-blogroll-list">
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://toolinbox.net/" title="Toolinbox" target="_blank">Toolinbox</a>
+                </li>
+              
+            </ul>
+          </div>
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#前提"><span class="nav-number">1.</span> <span class="nav-text">前提</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ShadowSocks-端设置"><span class="nav-number">2.</span> <span class="nav-text">ShadowSocks 端设置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#配置-ShadowSocks-的日志"><span class="nav-number">2.1.</span> <span class="nav-text">配置 ShadowSocks 的日志</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调整-ShadowSocks-输出的日志"><span class="nav-number">2.2.</span> <span class="nav-text">调整 ShadowSocks 输出的日志</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#重启-ShadowSocks"><span class="nav-number">2.3.</span> <span class="nav-text">重启 ShadowSocks</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#创建-ShadowSocks-错误日志"><span class="nav-number">2.4.</span> <span class="nav-text">创建 ShadowSocks 错误日志</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#fail2ban-端设置"><span class="nav-number">3.</span> <span class="nav-text">fail2ban 端设置</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#创建-ShadowSocks-过滤器"><span class="nav-number">3.1.</span> <span class="nav-text">创建 ShadowSocks 过滤器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更新-fail2ban-配置"><span class="nav-number">3.2.</span> <span class="nav-text">更新 fail2ban 配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#重启-fail2ban"><span class="nav-number">3.3.</span> <span class="nav-text">重启 fail2ban</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy;  2011 - 
+  <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Jason</span>
+</div>
+
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.min.js"></script>
+
+  
+  <script type="text/javascript" src="https://cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.1"></script>
+
+
+
+  
+
+
+  
+
+    
+
+    
+      <script type="text/javascript">
+        var disqus_config = function () {
+          this.page.url = 'https://atjason.com/IT/ss_fail2ban.html';
+          this.page.identifier = 'IT/ss_fail2ban.html';
+          this.page.title = '使用 fail2ban 保护 ShadowSocks';
+        };
+        var d = document, s = d.createElement('script');
+        s.src = 'https://atjason.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', '' + +new Date());
+        (d.head || d.body).appendChild(s);
+      </script>
+    
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      $('#local-search-input').focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+      $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = $( "entry", xmlResponse ).map(function() {
+            return {
+              title: $( "title", this ).text(),
+              content: $("content",this).text(),
+              url: $( "url" , this).text()
+            };
+          }).get();
+          var $input = document.getElementById(search_id);
+          var $resultContent = document.getElementById(content_id);
+          $input.addEventListener('input', function(){
+            var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+            var resultItems = [];
+            if (this.value.trim().length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCountInArticle = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword, i) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCountInArticle = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  var resultItem = '';
+
+                  function highlightKeyword(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+
+                    var matchText = text.substring(start, end);
+                    var matchResult = [];
+                    var prevEnd = 0;
+                    while (position + word.length <= end && index.length != 0) {
+
+                      // highlight keyword
+
+                      var wordBegin = position - start;
+                      var wordEnd = position - start + word.length;
+                      matchResult.push(matchText.substring(prevEnd, wordBegin));
+                      matchResult.push("<b class=\"search-keyword\">" + matchText.substring(wordBegin, wordEnd) + "</b>");
+
+                      // move to next position of hit
+
+                      index.pop();
+                      prevEnd = wordEnd;
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (prevEnd > position - start) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    matchResult.push(matchText.substring(prevEnd));
+                    return matchResult.join('');
+                  }
+
+                  // sort index by position of keyword
+
+                  indexOfTitle.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  indexOfContent.sort(function (itemLeft, itemRight) {
+                    return itemRight.position - itemLeft.position;
+                  });
+
+                  // highlight title
+
+                  if (indexOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, 0, title.length, indexOfTitle) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  // highlight content
+
+                  var resultUpperBound = parseInt(1);
+                  var withoutUpperBound = false;
+                  if (resultUpperBound === -1) {
+                    withoutUpperBound = true;
+                  }
+                  var currentResultNum = 0;
+                  while (indexOfContent.length != 0 && (withoutUpperBound || (currentResultNum < resultUpperBound))) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                    "<p class=\"search-result\">" + highlightKeyword(content, start, end, indexOfContent) +
+                    "...</p>" + "</a>";
+                    currentResultNum++;
+                  }
+                  resultItem += "</li>";
+                  resultItems.push({item: resultItem, hitCount: hitCountInArticle, id: resultItems.length});
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              $resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.hitCount != resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultLeft.id - resultRight.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result, i) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              $resultContent.innerHTML = searchResultList;
+            }
+          });
+          proceedsearch();
+        }
+      });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Shell 基本运算符 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="条件运算符Tutorial: Conditions in bash scripting数学运算原生bash不支持简单的数学运算，但是可以通过其他命令来实现，例如 awk 和 expr，expr 最常用。expr 是一款表达式计算工具，使用它能完成表达式的求值操作。12345val=`expr 1 + 2`n1=1n2=2echo `expr $n1 + $n2`注意：表达式和运算符之间要有空格，例">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Shell 基本运算符">
+<meta property="og:url" content="http://yoursite.com/2016/08/13/Shell/operator/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="条件运算符Tutorial: Conditions in bash scripting数学运算原生bash不支持简单的数学运算，但是可以通过其他命令来实现，例如 awk 和 expr，expr 最常用。expr 是一款表达式计算工具，使用它能完成表达式的求值操作。12345val=`expr 1 + 2`n1=1n2=2echo `expr $n1 + $n2`注意：表达式和运算符之间要有空格，例">
+<meta property="og:updated_time" content="2016-12-06T04:43:09.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Shell 基本运算符">
+<meta name="twitter:description" content="条件运算符Tutorial: Conditions in bash scripting数学运算原生bash不支持简单的数学运算，但是可以通过其他命令来实现，例如 awk 和 expr，expr 最常用。expr 是一款表达式计算工具，使用它能完成表达式的求值操作。12345val=`expr 1 + 2`n1=1n2=2echo `expr $n1 + $n2`注意：表达式和运算符之间要有空格，例">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-Shell/operator" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/08/13/Shell/operator/" class="article-date">
+  <time datetime="2016-08-13T00:29:32.000Z" itemprop="datePublished">2016-08-13</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/Shell/">Shell</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Shell 基本运算符
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="条件运算符"><a href="#条件运算符" class="headerlink" title="条件运算符"></a>条件运算符</h1><p>Tutorial: <a href="https://linuxacademy.com/blog/linux/conditions-in-bash-scripting-if-statements/" target="_blank" rel="external">Conditions in bash scripting</a></p><h1 id="数学运算"><a href="#数学运算" class="headerlink" title="数学运算"></a>数学运算</h1><p>原生bash不支持简单的数学运算，但是可以通过其他命令来实现，例如 awk 和 expr，expr 最常用。<br>expr 是一款表达式计算工具，使用它能完成表达式的求值操作。</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">val=`expr 1 + 2`</div><div class="line"></div><div class="line">n1=1</div><div class="line">n2=2</div><div class="line"><span class="built_in">echo</span> `expr <span class="variable">$n1</span> + <span class="variable">$n2</span>`</div></pre></td></tr></table></figure><p>注意：</p><ul><li>表达式和运算符之间要有空格，例如 1+2 是不对的，必须写成 1 + 2</li><li>完整的表达式要被 ` ` 包含。</li></ul><p>另外，使用 $(()) 可对表达式进行简单计算</p><figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">echo</span> $((5+4))                   <span class="comment">#返回9</span></div></pre></td></tr></table></figure><p>另外，还可使用 <a href="./let.html">let 命令</a></p><a id="more"></a><h1 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h1><p>下表列出了常用的算术运算符，假定变量 a 为 10，变量 b 为 20：</p><ul><li><code>+</code> 加法 <code>expr $a + $b</code> 结果为 30。</li><li><code>-</code> 减法 <code>expr $a - $b</code> 结果为 10。</li><li><code>*</code> 乘法 <code>expr $a \* $b</code> 结果为 200。</li><li><code>/</code> 除法 <code>expr $b / $a</code> 结果为 2。</li><li><code>%</code> 取余 <code>expr $b % $a</code> 结果为 0。</li><li><code>=</code> 赋值 a=$b 将把变量 b 的值赋给 a。</li><li><code>==</code> 相等。用于比较两个数字，相同则返回 true。 <code>[ $a == $b ]</code> 返回 false。</li><li><code>!=</code> 不相等。用于比较两个数字，不相同则返回 true。 <code>[ $a != $b ]</code> 返回 true。</li></ul><p>注意：</p><ul><li>乘号 <code>*</code> 前边必须加反斜杠 <code>\</code>才能实现乘法运算；</li><li>条件表达式要放在方括号之间，并且要有空格，例如: <code>[$a==$b]</code> 是错误的，必须写成 <code>[ $a == $b ]</code></li></ul><h1 id="关系运算符"><a href="#关系运算符" class="headerlink" title="关系运算符"></a>关系运算符</h1><p>关系运算符只支持数字，不支持字符串，<strong>除非字符串的值是数字</strong>。<br>下表列出了常用的关系运算符，假定变量 a 为 10，变量 b 为 20：</p><p>使用 [] <strong>注意</strong>：[] 与操作符之间要有空格，使用变量需使用 $</p><ul><li><code>-eq</code> 检测两个数是否相等; <code>[ $a -eq $b ]</code> 返回 false。</li><li><code>-ne</code> 检测两个数是否相等; <code>[ $a -ne $b ]</code> 返回 true。</li><li><code>-gt</code> 检测左边的数是否大于右边的；<code>[ $a -gt $b ]</code> 返回 false。</li><li><code>-lt</code> 检测左边的数是否小于右边的；<code>[ $a -lt $b ]</code> 返回 true。</li><li><code>-ge</code> 检测左边的数是否大等于右边的；<code>[ $a -ge $b ]</code> 返回 false。</li><li><code>-le</code> 检测左边的数是否小于等于右边的；<code>[ $a -le $b ]</code> 返回 true。</li><li><code>==</code>、<code>!=</code> 也是可用的</li></ul><p>使用 (()) <strong>注意</strong>：(()) 与操作符之间可以没有空格，使用变量可以不使用 $</p><ul><li><code>==</code> 等于，如：<code>(( a == b ))</code></li><li><code>!=</code> 不等于，如：<code>(( a != b ))</code></li><li><code>&lt;</code> 小于，如：<code>(( a &lt; b ))</code></li><li><code>&lt;=</code> 小于等于，如：<code>(( a &lt;= b ))</code></li><li><code>&gt;</code> 大于，如：<code>(( a &gt; b ))</code></li><li><code>&gt;=</code> 大于等于，如：<code>(( a &gt;= b ))</code></li></ul><h1 id="布尔运算符"><a href="#布尔运算符" class="headerlink" title="布尔运算符"></a>布尔运算符</h1><p>下表列出了常用的布尔运算符，假定变量 a 为 10，变量 b 为 20：</p><ul><li><code>!</code> 非运算，表达式为 true 则返回 false，否则返回 true。 <code>[ ! false ]</code> 返回 true。</li><li><code>-a</code> 与运算，两个表达式都为 true 才返回 true。 <code>[ $a -lt 20 -a $b -gt 100 ]</code> 返回 false。</li><li><code>-o</code> 或运算，有一个表达式为 true 则返回 true。 <code>[ $a -lt 20 -o $b -gt 100 ]</code> 返回 true。</li></ul><h1 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h1><p>以下介绍 Shell 的逻辑运算符，假定变量 a 为 10，变量 b 为 20:</p><ul><li><code>&amp;&amp;</code> 逻辑的 AND <code>[[ $a -lt 100 &amp;&amp; $b -gt 100 ]]</code> 或 <code>[ $a -lt 100 ] &amp;&amp; [ $b -gt 100 ]</code> 返回 false<ul><li>注意与布尔运算符 <code>-a</code> 的区别：需要使用双 [[]]</li><li><strong>推荐使用</strong> <code>[ $a -lt 100 ] &amp;&amp; [ $b -gt 100 ]</code>，因为结构更清晰</li></ul></li><li><code>||</code> 逻辑的 OR <code>[[ $a -lt 100 || $b -gt 100 ]]</code> 或 <code>[ $a -lt 100 ] || [ $b -gt 100 ]</code> 返回 true<ul><li>注意与布尔运算符 <code>-o</code> 的区别：需要使用双 [[]]</li></ul></li></ul><h1 id="字符串运算符"><a href="#字符串运算符" class="headerlink" title="字符串运算符"></a>字符串运算符</h1><p>下表列出了常用的字符串运算符，假定变量 a 为 “abc”，变量 b 为 “efg”：</p><ul><li><code>=</code>、或 <code>==</code> 检测两个字符串是否相等，<code>[ $a = $b ]</code> 返回 false</li><li><code>!=</code> 检测两个字符串是否不相等，<code>[ $a != $b ]</code> 返回 true</li><li><code>-z</code> 检测字符串长度是否为0，<code>[ -z $a ]</code> 返回 false</li><li><code>-n</code> 检测字符串长度是否不为0，<code>[ -n $a ]</code> 返回 true</li><li><code>str</code> 检测字符串是否不为空，<code>[ $a ]</code> 返回 true</li></ul><h1 id="文件测试运算符"><a href="#文件测试运算符" class="headerlink" title="文件测试运算符"></a>文件测试运算符</h1><p>文件测试运算符用于检测 Unix 文件的各种属性。常见属性检测描述如下：</p><ul><li><code>-d file</code> 检测文件是否是目录，如果是，则返回 true。<code>[ -d $file ]</code> 返回 false。</li><li><code>-f file</code> 检测文件是否是普通文件（既不是目录，也不是设备文件），如果是，则返回 true。<code>[ -f $file ]</code> 返回 true。</li><li><code>-r file</code> 检测文件是否可读，如果是，则返回 true。<code>[ -r $file ]</code> 返回 true。</li><li><code>-w file</code> 检测文件是否可写，如果是，则返回 true。<code>[ -w $file ]</code> 返回 true。</li><li><code>-x file</code> 检测文件是否可执行，如果是，则返回 true。<code>[ -x $file ]</code> 返回 true。</li><li><code>-s file</code> 检测文件是否为空（文件大小是否大于0），不为空返回 true。<code>[ -s $file ]</code> 返回 true。</li><li><code>-e file</code> 检测文件（包括目录）是否存在，如果是，则返回 true。<code>[ -e $file ]</code> 返回 true。</li></ul>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/08/13/Shell/operator/" data-id="cjmo6t1ss005a3aje5rjltss9" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/08/13/Shell/param/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Shell 传递参数
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/08/13/Shell/echo/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Shell echo命令</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

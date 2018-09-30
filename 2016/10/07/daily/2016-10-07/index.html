@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>1007 - iPic + Swift 3 | Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪…就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。">
+<meta name="keywords">
+<meta property="og:type" content="article">
+<meta property="og:title" content="1007 - iPic + Swift 3">
+<meta property="og:url" content="http://yoursite.com/2016/10/07/daily/2016-10-07/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪…就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。">
+<meta property="og:image" content="https://ohpsctde4.qnssl.com/n473i.jpg">
+<meta property="og:image" content="https://ohpsctde4.qnssl.com/hmngf.jpg">
+<meta property="og:image" content="https://ohpsctde4.qnssl.com/gdwow.png">
+<meta property="og:updated_time" content="2017-04-23T14:39:17.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="1007 - iPic + Swift 3">
+<meta name="twitter:description" content="我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪…就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。">
+<meta name="twitter:image" content="https://ohpsctde4.qnssl.com/n473i.jpg">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-daily/2016-10-07" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2016/10/07/daily/2016-10-07/" class="article-date">
+  <time datetime="2016-10-07T11:52:25.000Z" itemprop="datePublished">2016-10-07</time>
+</a>
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/每天写一点/">每天写一点</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      1007 - iPic + Swift 3
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…</p><p><img src="https://ohpsctde4.qnssl.com/n473i.jpg" alt=""></p><p>macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪…</p><p>就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。</p><a id="more"></a><h1 id="Swift-3-0-Language-Changes"><a href="#Swift-3-0-Language-Changes" class="headerlink" title="Swift 3.0 Language Changes"></a>Swift 3.0 Language Changes</h1><p>Swift 官网有 <a href="https://swift.org/blog/swift-3-0-released/" target="_blank" rel="external">关于 Swift 3.0 变化的介绍</a>，其中列举了 100 多项变化。壮着胆子看了一遍，实在是水平有限，只是其中几项算是彻底搞懂，其他也就有个感觉。</p><p>此路不通。</p><h1 id="XCode-转换工程"><a href="#XCode-转换工程" class="headerlink" title="XCode 转换工程"></a>XCode 转换工程</h1><p>于是，撸起袖子上，直接让 XCode 转换工程，升到 Swift 3</p><p>这一下，代码是炸了锅了。没有一个文件不修改，简直惨不忍睹；直接编译通过就更别想了。本来还想仔细看看所有变动，借机理解下 Swift 3 的变化。结果，看着看着，看着那似乎永远看不完的变化，放弃了。努力编译通过，提交了。</p><p><em>苦难就是从这里开始的。</em></p><p><strong>忠告</strong>：后来的朋友，如果有时间的话，还是建议一个个变化看过去。不懂、或者需要较多时间消化的，建议先打个标记。等一遍快速看完后，再来一遍、一遍又一遍。总之，这是你理解 Swift 3 变化的最好时机，切记。</p><p>说回来，由于没有仔细看每一处变化，导致心里很慌：不知道哪有雷啊。虽然单元测试也努力跑通了，但就是跑通的太快了，反而更慌了。</p><h1 id="深坑在细节"><a href="#深坑在细节" class="headerlink" title="深坑在细节"></a>深坑在细节</h1><p>『大体能跑通』，这其实是很不靠谱的。需要花费大量时间搞定的，可能是其中某一个细节问题。</p><p>我遇到的一个是：base64 编码。现象是 iPic 怎么都不能上传图片至 Flickr，错误原因是生成的 Token 错误。可之前就是这么干的呀？最痛的地方在于， Flickr 生成 Token 是个巨复杂的过程（下图稍微感受下），其中每个步骤都可能出错，这就意味着每个步骤都要仔细过；偏偏之前偷懒这部分单元测试不全（哎…）于是，开始了漫长的调试。</p><p><img src="https://ohpsctde4.qnssl.com/hmngf.jpg" alt=""></p><p>最后的原因是，之前的 base64 相关的编码结果中，<code>:</code> 是被转义的，而新的代码（即被 XCode 转换、而我没仔细看的代码），貌似 <code>:</code> 没有被转义，导致 Token 无效（未严格验证原因，总之解决问题了…）</p><p><strong>忠告</strong>：单元测试、自动化测试不能偷懒。99.99% 的情况下，我们做不到测试驱动开发，但还是要在开发每个功能后、在对这个功能最熟悉的时候，补全单元测试、测试用例。</p><p><strong>小技巧</strong>：在功能完成后，写单元测试其实还算简单。先把单元测试的架子搭好，正确值留白；然后直接运行，肯定会出错。关键，XCode 会给出正确值。这时，只要把 XCode 的值复制到正确值即可，相对还算轻松。</p><h1 id="简单最好"><a href="#简单最好" class="headerlink" title="简单最好"></a>简单最好</h1><p>代码逻辑、架构什么的，越简单越好。</p><p>一方面，逻辑越简单，漏洞越少。进而，测试用例什么的都少。现在完整测试一遍 iPic 要吐半升血…</p><p>另一方面，简单容易理解啊。等过几个月再看当初的代码，理解上一定是吃力的。</p><p><strong>感受</strong>：为了简单，可以放弃一个边缘 Case；有些错误，就算知道也不一定改，因为改了会让整体变复杂、用户却不一定能得到好处，其实并不划算。</p><h1 id="稳定大于效率"><a href="#稳定大于效率" class="headerlink" title="稳定大于效率"></a>稳定大于效率</h1><p>如果一种方案开发效率、运行效率高，但维护成本也高；另一种方案刚好相反，现在的我会选择后一种。宁愿低效也不愿背上沉重的维护成本。</p><p>这话说出去可能脸红，但总好过程序发布几个月后发现问题，而自己那时却没时间修复、或者已经看不懂以前的代码，要好。</p><h1 id="说了这么多，还是怂了"><a href="#说了这么多，还是怂了" class="headerlink" title="说了这么多，还是怂了"></a>说了这么多，还是怂了</h1><p>虽然仔细的测试了、虽然没发现什么严重的问题，但还是不敢上架 macOS App Store，还是自己多用几天，也扔出来让大伙拍拍砖：</p><p><a href="http://toolinbox.net/html/DownloadiPic.html" target="_blank" rel="external">下载适配 Swift 3 的图床神器 iPic</a></p><h1 id="那个啥，啥是-iPic？"><a href="#那个啥，啥是-iPic？" class="headerlink" title="那个啥，啥是 iPic？"></a>那个啥，啥是 iPic？</h1><p>哦，这事啊；</p><p>iPic 可以自动上传图片、保存 Markdown 链接，给你前所未有的插入体验（图片）；支持微博、七牛、又拍、阿里云、S3、Imgur、Flickr 等一票图床。总之各种爽，谁用谁知道。</p><p>具体看 <a href="http://toolinbox.net/iPic/" target="_blank" rel="external">图床神器 iPic 操作动画</a></p><p><img src="https://ohpsctde4.qnssl.com/gdwow.png" alt=""></p>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2016/10/07/daily/2016-10-07/" data-id="cjmo6t2uy00pb3ajelwapy4yf" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/10/06/daily/2016-10-06/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          1006 - 云里雾里写代码
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/10/08/daily/2016-10-08/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">1008 - 喜欢打磨产品的感觉</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Git/">Git</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IT/">IT</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/IndieDev/">IndieDev</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/PM/">PM</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/Shell/">Shell</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/北冥/">北冥</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/旅行/">旅行</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/每天写一点/">每天写一点</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/2012移动互联网大会/">2012移动互联网大会</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/PM/">PM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/瞬间之美/">瞬间之美</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/结网/">结网</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/读书笔记/">读书笔记</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/2012移动互联网大会/" style="font-size: 10px;">2012移动互联网大会</a> <a href="/tags/PM/" style="font-size: 15px;">PM</a> <a href="/tags/瞬间之美/" style="font-size: 10px;">瞬间之美</a> <a href="/tags/结网/" style="font-size: 10px;">结网</a> <a href="/tags/读书笔记/" style="font-size: 20px;">读书笔记</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/06/">June 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/04/">April 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">February 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/01/">January 2018</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/12/">December 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/11/">November 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/10/">October 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/08/">August 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/07/">July 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/06/">June 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">March 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/12/">December 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/11/">November 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/10/">October 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">September 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/08/">August 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/07/">July 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/06/">June 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/05/">May 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/04/">April 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/03/">March 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/02/">February 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/01/">January 2016</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/12/">December 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/11/">November 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/09/">September 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/08/">August 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/07/">July 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/06/">June 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2015/05/">May 2015</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/09/">September 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/08/">August 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/07/">July 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/06/">June 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/05/">May 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/04/">April 2014</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/11/">November 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2013/02/">February 2013</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/11/">November 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/10/">October 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/06/">June 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/05/">May 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/02/">February 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2012/01/">January 2012</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/12/">December 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/11/">November 2011</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2011/10/">October 2011</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2018/09/29/daily/2018-09-29/">0929 - 不能失去主动权</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/28/daily/2018-09-28/">0928 - 赌成长，不赌运气</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/27/daily/2018-09-27/">0927 - 做了个查询公交实时到站信息的小工具</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/26/daily/2018-09-26/">0926 - 新技能：Chrome 插件</a>
+          </li>
+        
+          <li>
+            <a href="/2018/09/25/daily/2018-09-25/">0925 - 开搞 Chrome 插件</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2018 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
