@@ -396,7 +396,7 @@
 <li>第一次…</li>
 <li>…</li>
 </ul>
-<h3 id="1-0-Swift-与-macOS-开发"><a href="#1-0-Swift-与-macOS-开发" class="headerlink" title="1.0) Swift 与 macOS 开发"></a>1.0) Swift 与 macOS 开发</h3><p>这部分在 <a href="https://atjason.com/IndieDev/2017-07-18.html">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍，这里仅简单的提及。</p>
+<h3 id="1-0-Swift-与-macOS-开发"><a href="#1-0-Swift-与-macOS-开发" class="headerlink" title="1.0) Swift 与 macOS 开发"></a>1.0) Swift 与 macOS 开发</h3><p>这部分在 <a href="https://atjason.com/IndieDev/2017-07-18.html" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍，这里仅简单的提及。</p>
 <p>对于 iPaste 而言，核心的部分是系统剪贴板。也即，<strong>能够记录用户曾经复制的内容，并且能 100% 准确地还原</strong>。难就难在这 100%，因为用户可能会在任意程序中、复制任意格式的数据，如纯文本、格式化文本、图片、文件等等。</p>
 <p>其实，我试了当时的一些竞品，包含非常知名的，并没有做到这一点。比如，在复制并粘贴到 Numbers 时，会有一个单元格的错位。产品深处这样的问题，你在他们高大上的宣传中自然是看不到的。而 <strong>贴贴板</strong> 就做到了这一点，所以当时我还打出了「<strong>支持任意格式，不服来战</strong>」的口号。核心的，就是将 <code>NSPasteboardItem</code> 中的数据，存储为 <code>Data</code>；在粘贴时，再将其写回系统剪贴板。</p>
 <p><img src="https://ww2.sinaimg.cn/large/006tNc79gw1fah02yiagmg30j60askjl.gif" alt=""></p>
@@ -488,7 +488,7 @@
 <p><img src="https://ps.toolinbox.net/n5w2q.jpg" alt=""></p>
 <h3 id="2-1-付费下载-gt-内购"><a href="#2-1-付费下载-gt-内购" class="headerlink" title="2.1) 付费下载 -&gt; 内购"></a>2.1) 付费下载 -&gt; 内购</h3><p>最开始，iPaste 的模式是付费以后才能下载使用。</p>
 <p>采用这一方式的唯一原因：<strong>实现简单</strong>。或者说，代码上什么都不用做，无需区分免费版和付费后的功能限制，无需处理复杂的 In-App Purchase 集成。</p>
-<p>不过，这一方式的缺点也很明确：<strong>限制潜在用户尝试 iPaste</strong>. 这部分可以在 <a href="https://atjason.com/IndieDev/2017-07-18.html">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍详细的介绍。</p>
+<p>不过，这一方式的缺点也很明确：<strong>限制潜在用户尝试 iPaste</strong>. 这部分可以在 <a href="https://atjason.com/IndieDev/2017-07-18.html" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍详细的介绍。</p>
 <p>后来，<strong>iPaste 将付费模式调整为免费 + 内购</strong>。从效果上看，确实明显增加了用户数量，用户付费也有所增加。所以，如果你打算开发个产品，个人建议采用免费 + 内购的方式。其中，可以试试我开源的 <a href="https://github.com/atjason/IAPHelper" target="_blank" rel="external">IAPHelper</a>，可以很方便地集成 In-App Purchase. 另外，内购也可以试试订阅。虽说很多朋友对于订阅还很抗拒，不过，还是有用户能接受，不妨考虑一下。</p>
 <p><strong>换付费模式，其实是挺麻烦的事</strong>。比如，最开始已经付费购买的用户，总不能让其再购买一次、或者不能更新吧？要做到这一点，就要识别出之前上架 MAS 的版本，以及用户是否从 MAS 下载的 iPaste，对于条件都满足，则自动开通高级功能。如何识别？主要是从 MAS 更新 Receipt 并解析其中的内容。</p>
 <h2 id="3-iPaste-的现在与将来"><a href="#3-iPaste-的现在与将来" class="headerlink" title="3) iPaste 的现在与将来"></a>3) iPaste 的现在与将来</h2><h3 id="3-0-工具型产品的困境"><a href="#3-0-工具型产品的困境" class="headerlink" title="3.0) 工具型产品的困境"></a>3.0) 工具型产品的困境</h3><p>我查了下，上个版本的是 iPaste，是在去掉 9 月 26 日发布的，几乎都快一年了。</p>
@@ -672,7 +672,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1128</span>
+                <span class="site-state-item-count">1130</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

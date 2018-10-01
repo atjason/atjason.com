@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-09-29T14:46:08.334Z</updated>
+  <updated>2018-09-30T15:09:24.812Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0930 - 学会风险控制</title>
+    <link href="https://atjason.com/daily/2018-09-30.html"/>
+    <id>https://atjason.com/daily/2018-09-30.html</id>
+    <published>2018-09-30T14:00:00.000Z</published>
+    <updated>2018-09-30T15:09:24.812Z</updated>
+    
+    <content type="html"><![CDATA[<p>实质上，是学会使用概率、博弈。</p>
+<p>比如，对于程序员这个职业，人身意外险还是必须的（君不见动不动就是同行猝死的新闻，别觉得离自己很远）；花一点小钱，可以在小概率意外发生时，不至于让身边人的生活陷入困境。</p>
+<p>另外，对冲也是控制风险的一种方式。要了解对冲，最好去了解下期货的由来。比如，</p>
+<ul>
+<li>你确定人民币对美元会贬值，想办法抢先把<strong>全部</strong>人民币资产换成美元，这叫投资。<ul>
+<li>如果一切都是确定的，就没有风险，而全是机会。</li>
+</ul>
+</li>
+<li>你不确定人民币对美元是涨还是跌，但又不想手上的人民币贬值，就把一部分（比如一半）人民币换成美元，这叫对冲。<ul>
+<li>比如人民币跌了，你可以把之前美元换回更多的人民币，弥补人民币贬值带来的损失。</li>
+</ul>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;实质上，是学会使用概率、博弈。&lt;/p&gt;
+&lt;p&gt;比如，对于程序员这个职业，人身意外险还是必须的（君不见动不动就是同行猝死的新闻，别觉得离自己很远）；花一点小钱，可以在小概率意外发生时，不至于让身边人的生活陷入困境。&lt;/p&gt;
+&lt;p&gt;另外，对冲也是控制风险的一种方式。要了解对冲，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0929 - 不能失去主动权</title>
@@ -498,36 +533,6 @@
 &lt;li&gt;要不我们一起搞这个吧，肯定有的赚；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;我肯定相信，如果把时间精力投入到这些事情上，肯
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0910 - 医院啊医院</title>
-    <link href="https://atjason.com/daily/2018-09-10.html"/>
-    <id>https://atjason.com/daily/2018-09-10.html</id>
-    <published>2018-09-10T14:00:00.000Z</published>
-    <updated>2018-09-10T14:26:35.132Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天去儿童医院给娃看病，就是晚上睡觉时鼻子会有点堵。结果，80 元挂了专家号，看了 3 分钟，开了瓶 288 元的「盐水」医院的毛病还真不少：</p>
-<ul>
-<li>不论是大病小病，都要去挤医院，这点不合理：有大病的患者，时间被病患者耽误了；只是病的患者，也花了很多不必要的时间。甚至，有可能在医院被传染大病。</li>
-<li>药开的明显太狠了。只是清理鼻腔的生理盐水、海盐水，为什么医院的药房里没有，而必须去社会性、却又和医院「合作」的药房？无法用医保，全额自费。</li>
-<li>医生服务（如果他们真的认为自己是在服务的话）态度差，有什么可以监督举报的渠道？有效吗？会被滥用吗？</li>
-<li>作为患者，如何才能知道医生的治疗、开药是否合理？除了不得不相信，还有别的选择吗？</li>
-<li>新建的院区，建筑设计在我这个外行看起来，都挺差：采光差、通风差、导引差、院区没有一把供患者休息的椅子。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天去儿童医院给娃看病，就是晚上睡觉时鼻子会有点堵。结果，80 元挂了专家号，看了 3 分钟，开了瓶 288 元的「盐水」医院的毛病还真不少：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不论是大病小病，都要去挤医院，这点不合理：有大病的患者，时间被病患者耽误了；只是病的患者，也花了很多不必
     
     </summary>
     
