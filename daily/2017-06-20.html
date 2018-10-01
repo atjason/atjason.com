@@ -406,8 +406,8 @@
 </ul>
 <p>验证请求和前面的介绍是对应的，这里略过不表。</p>
 <h3 id="2-0-使用-Python-Flask-实现功能部分"><a href="#2-0-使用-Python-Flask-实现功能部分" class="headerlink" title="2.0) 使用 Python + Flask 实现功能部分"></a>2.0) 使用 Python + Flask 实现功能部分</h3><p>所谓接口服务器，首先就是要开放接口（开门接客）具体的，就是 http 请求的路由表。比如，当 Klib 客户端向 <a href="https://api.klib.me/share" target="_blank" rel="external">https://api.klib.me/share</a> 发送数据时，要有相应的代码来接收处理这个请求。</p>
-<p>在之前的文章 <a href="https://atjason.com/daily/2017-06-12.html" target="_blank" rel="external">我入门 Python 后总结的基础教程</a> 中，我已经介绍了使用 Flask 框架，这里不再重复。</p>
-<h3 id="2-1-使用-Nginx-Gunicorn-搭建服务器"><a href="#2-1-使用-Nginx-Gunicorn-搭建服务器" class="headerlink" title="2.1) 使用 Nginx + Gunicorn 搭建服务器"></a>2.1) 使用 Nginx + Gunicorn 搭建服务器</h3><p>同上，请参考 <a href="https://atjason.com/daily/2017-06-12.html" target="_blank" rel="external">我入门 Python 后总结的基础教程</a>。</p>
+<p>在之前的文章 <a href="https://atjason.com/daily/2017-06-12.html">我入门 Python 后总结的基础教程</a> 中，我已经介绍了使用 Flask 框架，这里不再重复。</p>
+<h3 id="2-1-使用-Nginx-Gunicorn-搭建服务器"><a href="#2-1-使用-Nginx-Gunicorn-搭建服务器" class="headerlink" title="2.1) 使用 Nginx + Gunicorn 搭建服务器"></a>2.1) 使用 Nginx + Gunicorn 搭建服务器</h3><p>同上，请参考 <a href="https://atjason.com/daily/2017-06-12.html">我入门 Python 后总结的基础教程</a>。</p>
 <p>另外，使用 Supervisorctl 保证服务可靠运行。</p>
 <h3 id="2-2-使用-MySQL-SQLAlchemy-存储数据"><a href="#2-2-使用-MySQL-SQLAlchemy-存储数据" class="headerlink" title="2.2) 使用 MySQL + SQLAlchemy 存储数据"></a>2.2) 使用 MySQL + SQLAlchemy 存储数据</h3><p>从数据存储的角度看，书的标注都是很规整的，无非是书名、作者、笔记内容等等。于是我选择了最常用的关系型数据库：MySQL</p>
 <p>如果直接使用 SQL 语句操作数据库，既繁琐又不安全，这里我使用可称为 ORM (Object Relational Mapping) 界事实标准的 <strong>SQLAlchemy</strong> 构建 Model、操作数据库。</p>
