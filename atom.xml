@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-01T15:06:51.260Z</updated>
+  <updated>2018-10-02T14:18:32.793Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1002 - 面向需求学习</title>
+    <link href="https://atjason.com/daily/2018-10-02.html"/>
+    <id>https://atjason.com/daily/2018-10-02.html</id>
+    <published>2018-10-02T14:00:00.000Z</published>
+    <updated>2018-10-02T14:18:32.793Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近明显感觉，单纯为了学习而学习，很容易失去兴趣，效率也不高。</p>
+<p>而如果事先已经有了需求，是为了解决问题而去学习的，效果就会好很多。</p>
+<p>啥？没问题、没需求？这就是另外的问题了…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近明显感觉，单纯为了学习而学习，很容易失去兴趣，效率也不高。&lt;/p&gt;
+&lt;p&gt;而如果事先已经有了需求，是为了解决问题而去学习的，效果就会好很多。&lt;/p&gt;
+&lt;p&gt;啥？没问题、没需求？这就是另外的问题了…&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1001 - 忍住迫不及待</title>
@@ -497,32 +523,6 @@
       &lt;p&gt;又一次，苹果发布新品，股价下跌。&lt;/p&gt;
 &lt;p&gt;怎么说呢，外观不变，确实很难吸引人。尤其高昂的价格，更打击普通消费者的积极性。尤其是国内普遍「消费降级」的背景下，不是个好消息（当然，我知道，有钱人多的是）&lt;/p&gt;
 &lt;p&gt;本打算发布就入手了，现在纠结下。立个 Flag: 再努
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0912 - 戒贪</title>
-    <link href="https://atjason.com/daily/2018-09-12.html"/>
-    <id>https://atjason.com/daily/2018-09-12.html</id>
-    <published>2018-09-12T14:00:00.000Z</published>
-    <updated>2018-09-12T14:15:35.458Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天手动下单做期货短线交易，本可以有所收益，结果因为贪多没及时平仓，反而亏损。</p>
-<p>虽是投机，但投机也是长期的事。赌一把大的，并不是投机，而是赌博。</p>
-<p>期货投机，是用概率上的优势（如 51% 的赢面），去赢得负和游戏。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天手动下单做期货短线交易，本可以有所收益，结果因为贪多没及时平仓，反而亏损。&lt;/p&gt;
-&lt;p&gt;虽是投机，但投机也是长期的事。赌一把大的，并不是投机，而是赌博。&lt;/p&gt;
-&lt;p&gt;期货投机，是用概率上的优势（如 51% 的赢面），去赢得负和游戏。&lt;/p&gt;
-
     
     </summary>
     
