@@ -4,15 +4,39 @@
   
     
     <entry>
+      <title><![CDATA[1004 - 好像我还是不适合在手机上看书]]></title>
+      <url>https://atjason.com/daily/2018-10-04.html</url>
+      <content type="html"><![CDATA[<p>最近微信读书搞活动，送了几天无限读书卡，我就试着在手机上看书。不想，2 星期都没看完一本书…</p>
+<p>在手机上看书，缺点比较明显：</p>
+<ul>
+<li>手机屏幕上，一次看的内容少，需要频繁翻页，会影响思维的连续性。</li>
+<li>手机给人的心理暗示就是个零碎的东西，很难保持长时间的专注，很容易看着看着思维就跳出来了。</li>
+<li>缺少仪式感。比如翻开纸质书，气场就切换到读书的状态了，比较容易沉浸其中。而手机则不同，很难跟「玩手机」区分开来。</li>
+</ul>
+<p>当然，上面说的听起来比较矫情，但读书有时候差的就是那点 feeling…</p>
+<p>自然，手机上看书也是有好处的，最大的自然是可以随时读，不用携带额外的设备。读书社交这种东西，我是不感冒的。读书是私人的事，并不想跟别人掺和在一起。让别人知道我在读什么书、在哪做了标注，就像是给别人看我穿了什么衣服、内裤是什么颜色一样。</p>
+<p>实际经验来看，还是纸质书看的最快、效果最好，比较适合好书、需要精读的书。一般的，目前还是用 Kindle PaperWhite 吧。如果苹果出了 iPad mini 全面屏版，可以考虑入个用来看书。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[1003 - 知道自己不喜欢什么]]></title>
       <url>https://atjason.com/daily/2018-10-03.html</url>
       <content type="html"><![CDATA[<p>最近跟朋友在讨论，要不要搞儿童编程教育。</p>
-<p>恩，从「事业」「赚钱」的角度，我觉得这是个好方向。刚起步，又过了草莽时代，不太需要和家长介绍基础概念，又还没到红海竞争的时期。再加上 AI、人工智能这样概念做有背景，使得这个领域处于起步及上升期。</p>
-<p>不过，从我个人感觉，这事除了赚钱，没别的吸引我的地方。主要有几点：</p>
+<p>从「事业」「赚钱」的角度，我觉得这是个好方向。刚起步，又过了草莽时代，不太需要和家长介绍基础概念，又还没到红海竞争的时期。再加上 AI、人工智能这样概念做背景，使得这个领域处于起步及上升期。</p>
+<p>不过，对我我个人而言，这事除了赚钱，没别的吸引我的地方。主要有几点：</p>
 <ul>
-<li>时间可复制性差。比如 1 对 1 教学，就相当于时间只复制了一份。而如果开发出一款 App，则可以给无数人用、复制无数份。</li>
-<li>时间灵活性差。比如到了给学员上课时间，我就必须去上课。而如果是自由职业，则可以自由支配时间，在自己效率最高的时候干活，临时有时就不干活。</li>
-<li>成就感。教书育人貌似总不能给我带来成就感，我好像更喜欢创造出世上本没有的东西。</li>
+<li><strong>时间可复制性差</strong>。比如 1 对 1 教学，就相当于时间只复制了一份。而如果开发出一款 App，则可以给无数人用、复制无数份。</li>
+<li><strong>时间灵活性差</strong>。比如到了给学员上课时间，我就必须去上课。而如果是自由职业，则可以自由支配时间，在自己效率最高的时候干活，临时有事就不干活。</li>
+<li><strong>缺少成就感</strong>。教书育人貌似并不能给我带来成就感，我好像更喜欢创造出世上本没有的东西。</li>
 </ul>
 <p>恩，通过分析自己不喜欢的东西，会发现、明确自己喜欢的东西：<strong>感觉需求、思考解决方案、促成产品；创造出世上本没有的东西。</strong></p>
 ]]></content>
@@ -5145,22 +5169,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -5202,6 +5210,22 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -9313,6 +9337,24 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
+      <url>https://atjason.com/daily/2017-07-25.html</url>
+      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
+<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
+<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
+<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[说说我出道后的处女作：剪贴板神器 iPaste]]></title>
       <url>https://atjason.com/IndieDev/2017-07-25_iPaste_Review.html</url>
       <content type="html"><![CDATA[<p>2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 <strong><a href="https://toolinbox.net/iPaste/" target="_blank" rel="external">iPaste</a>，是我独立开发的第一款 macOS 产品。</strong></p>
@@ -9508,24 +9550,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
-      <url>https://atjason.com/daily/2017-07-25.html</url>
-      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
-<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
-<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
-<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0724 - 写文章真的是挺花时间]]></title>
       <url>https://atjason.com/daily/2017-07-24.html</url>
       <content type="html"><![CDATA[<p>又到了周一，又到了要写长文的时候了。</p>
@@ -9638,38 +9662,6 @@
 <p>等的时间长了，还遇到 2 次 storeuid.app 闪退的情况：</p>
 <p><img src="https://ps.toolinbox.net/iolr9.jpg" alt=""></p>
 <p>严重怀疑是 macOS 10.13 的 Bug，目前打算暂时搁置了，等 macOS 10.13 快发布了再适配，说不定自己就好了。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0718 - 为何要写作]]></title>
-      <url>https://atjason.com/daily/2017-07-18.html</url>
-      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
-<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
-<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
-<ul>
-<li><strong>输出倒逼输入</strong><ul>
-<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
-</ul>
-</li>
-<li><strong>个人品牌建设</strong><ul>
-<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
-</ul>
-</li>
-<li><strong>跨界寻找可能性</strong><ul>
-<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
-<li><strong>多一个维度，多一种可能性</strong></li>
-</ul>
-</li>
-</ul>
 ]]></content>
       
         <categories>
@@ -9870,6 +9862,38 @@
         <categories>
             
             <category> IndieDev </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0718 - 为何要写作]]></title>
+      <url>https://atjason.com/daily/2017-07-18.html</url>
+      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
+<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
+<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
+<ul>
+<li><strong>输出倒逼输入</strong><ul>
+<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
+</ul>
+</li>
+<li><strong>个人品牌建设</strong><ul>
+<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
+</ul>
+</li>
+<li><strong>跨界寻找可能性</strong><ul>
+<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
+<li><strong>多一个维度，多一种可能性</strong></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -10646,6 +10670,35 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
+      <url>https://atjason.com/daily/2017-06-27.html</url>
+      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
+<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
+<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
+<ul>
+<li><strong>基于数据</strong><ul>
+<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
+</ul>
+</li>
+<li><strong>基于内容</strong><ul>
+<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
+</ul>
+</li>
+</ul>
+<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
+<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Klib 第四版：纯粹，只为悦读]]></title>
       <url>https://atjason.com/PM/2017-06-27_Klib.html</url>
       <content type="html"><![CDATA[<p>在 Kindle 上读书，可以避免纸质书的收纳问题，还能方便地标注，挺好的。不过，标注虽然方便，标注的回顾整理却并不方便。好在，<strong><a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a></strong> 解决了这个问题（如何解决？请看 <a href="https://sspai.com/post/37581" target="_blank" rel="external">这里</a>、以及 <a href="https://sspai.com/post/38688" target="_blank" rel="external">这里</a>）</p>
@@ -10672,35 +10725,6 @@
         <categories>
             
             <category> PM </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
-      <url>https://atjason.com/daily/2017-06-27.html</url>
-      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
-<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
-<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
-<ul>
-<li><strong>基于数据</strong><ul>
-<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
-</ul>
-</li>
-<li><strong>基于内容</strong><ul>
-<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
-</ul>
-</li>
-</ul>
-<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
-<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -29396,9 +29420,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
@@ -29458,9 +29482,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
