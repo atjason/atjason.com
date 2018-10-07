@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-06T15:38:42.262Z</updated>
+  <updated>2018-10-07T14:16:44.395Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1007 - 干时不想，想时不干</title>
+    <link href="https://atjason.com/Git/2018-10-07.html"/>
+    <id>https://atjason.com/Git/2018-10-07.html</id>
+    <published>2018-10-07T14:00:00.000Z</published>
+    <updated>2018-10-07T14:16:44.395Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果已经开始做了，就不要再去想这件事值不值得做、应不应该这样做，干了再说；不然，秀才造反，三年不成。</p>
+<p>如果当前正在思考，就不要花太多时间做具体的事情。这样会打断思路，可以先记下来，具体执行时再操作。</p>
+<p>思考和执行，很多时候思考的方式并不相同，甚至是相反的，不要互相影响了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果已经开始做了，就不要再去想这件事值不值得做、应不应该这样做，干了再说；不然，秀才造反，三年不成。&lt;/p&gt;
+&lt;p&gt;如果当前正在思考，就不要花太多时间做具体的事情。这样会打断思路，可以先记下来，具体执行时再操作。&lt;/p&gt;
+&lt;p&gt;思考和执行，很多时候思考的方式并不相同，甚至是
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1006 - 占便宜 PK 不给别人添麻烦</title>
@@ -512,28 +537,6 @@
     
       &lt;p&gt;当要放弃一个旧东西时，总会不断念念它的好；&lt;br&gt;当要开始一个新东西时，总会不断惴惴它的坏。&lt;/p&gt;
 &lt;p&gt;要想切换思路，反着来。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0917 - 逃避不如面对</title>
-    <link href="https://atjason.com/daily/2018-09-17.html"/>
-    <id>https://atjason.com/daily/2018-09-17.html</id>
-    <published>2018-09-17T14:00:00.000Z</published>
-    <updated>2018-09-18T15:19:56.013Z</updated>
-    
-    <content type="html"><![CDATA[<p>逃避，只会让已有的问题不断发酵；<br>面对，至少可以慢慢卸下心里的负担。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;逃避，只会让已有的问题不断发酵；&lt;br&gt;面对，至少可以慢慢卸下心里的负担。&lt;/p&gt;
 
     
     </summary>
