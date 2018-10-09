@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-07T14:16:44.395Z</updated>
+  <updated>2018-10-09T02:32:19.693Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,69 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1009 - 高效时干活、低效时积累</title>
+    <link href="https://atjason.com/Git/2018-10-09.html"/>
+    <id>https://atjason.com/Git/2018-10-09.html</id>
+    <published>2018-10-09T14:00:00.000Z</published>
+    <updated>2018-10-09T02:32:19.693Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果你在币圈，估计听过这句话：<strong>牛市赚钱、熊市赚币</strong>。</p>
+<p>对应到我想说的，就是：<strong>高效时干活、低效时积累</strong>。</p>
+<p>人的状态有起伏。</p>
+<ul>
+<li>状态好时，埋头苦干，多出成果。</li>
+<li>状态不好时，就磨刀霍霍，为之后状态好时做准备。</li>
+</ul>
+<p>比如，我今天就干些杂事：</p>
+<ul>
+<li>隐藏 macOS 菜单栏，最大化利用屏幕（我是 13 寸的）</li>
+<li>使用 Box 同步 macOS &amp; iOS 端的 OmniFocus，速度飞起</li>
+<li>使用 Manico，快速切换程序</li>
+<li>研究 Anki 记录在看英文文章时的单词，并尝试建立背单词习惯</li>
+<li>联系 Apple 更换电脑屏幕（涂层脱落）</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果你在币圈，估计听过这句话：&lt;strong&gt;牛市赚钱、熊市赚币&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;对应到我想说的，就是：&lt;strong&gt;高效时干活、低效时积累&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;人的状态有起伏。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;状态好时，埋头苦干，多出成果。&lt;/
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1008 - 拥有核心技能</title>
+    <link href="https://atjason.com/Git/2018-10-08.html"/>
+    <id>https://atjason.com/Git/2018-10-08.html</id>
+    <published>2018-10-08T14:00:00.000Z</published>
+    <updated>2018-10-08T15:22:41.906Z</updated>
+    
+    <content type="html"><![CDATA[<p>你最擅长的是什么？<br>你真的擅长吗？</p>
+<p>如果你能顺利地回答这 2 个问题、而不觉得尴尬，恭喜你。<br>如果不能，不妨停下来思考下；以及，怎么做才能顺利地回答这 2 个问题。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;你最擅长的是什么？&lt;br&gt;你真的擅长吗？&lt;/p&gt;
+&lt;p&gt;如果你能顺利地回答这 2 个问题、而不觉得尴尬，恭喜你。&lt;br&gt;如果不能，不妨停下来思考下；以及，怎么做才能顺利地回答这 2 个问题。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1007 - 干时不想，想时不干</title>
@@ -490,54 +553,6 @@
       &lt;p&gt;在工作时，除非是打算离职，否则在领导、团队等压力下，即使是不顺心的事，也能压下心里的火，面子上过得去，耐着性子做下去。&lt;/p&gt;
 &lt;p&gt;而在生活中，如果遇到不顺心的事，通常没有像工作一样的压力压着，很容易就爆发，说些不该说的话，做些马上就后悔的事。&lt;/p&gt;
 &lt;p&gt;而，我们口口
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0919 - 我们永远也无法知道事情的真相</title>
-    <link href="https://atjason.com/daily/2018-09-19.html"/>
-    <id>https://atjason.com/daily/2018-09-19.html</id>
-    <published>2018-09-19T14:00:00.000Z</published>
-    <updated>2018-09-19T12:29:37.412Z</updated>
-    
-    <content type="html"><![CDATA[<p>我们没有时间去了解真相；<br>我们偏向于相信自己看到听到的；<br>我们通常先有结论，然后挑选事实往上靠；<br>我们通常通过看到自己想看到的，来强化自己已有的认知；<br>…</p>
-<p>我们永远也无法知道事情的真相；能做的，只是让自己原本的立场不那么极端。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们没有时间去了解真相；&lt;br&gt;我们偏向于相信自己看到听到的；&lt;br&gt;我们通常先有结论，然后挑选事实往上靠；&lt;br&gt;我们通常通过看到自己想看到的，来强化自己已有的认知；&lt;br&gt;…&lt;/p&gt;
-&lt;p&gt;我们永远也无法知道事情的真相；能做的，只是让自己原本的立场不那么极端。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0918 - 切换思路，很难</title>
-    <link href="https://atjason.com/daily/2018-09-18.html"/>
-    <id>https://atjason.com/daily/2018-09-18.html</id>
-    <published>2018-09-18T14:00:00.000Z</published>
-    <updated>2018-09-18T15:21:08.882Z</updated>
-    
-    <content type="html"><![CDATA[<p>当要放弃一个旧东西时，总会不断念念它的好；<br>当要开始一个新东西时，总会不断惴惴它的坏。</p>
-<p>要想切换思路，反着来。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;当要放弃一个旧东西时，总会不断念念它的好；&lt;br&gt;当要开始一个新东西时，总会不断惴惴它的坏。&lt;/p&gt;
-&lt;p&gt;要想切换思路，反着来。&lt;/p&gt;
-
     
     </summary>
     
