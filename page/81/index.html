@@ -258,6 +258,178 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-10.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-09-10.html" itemprop="url">
+                  0910 - iPaste 搞定数据压缩
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-10T22:00:00+08:00">
+                2017-09-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>在 iPaste 数据结构中，有个很重要的环节：<strong>压缩数据</strong>（即剪贴板内容）；鬼使神差的，竟然一直没有做。在准备发 Beta 2 时，做吧。</p>
+<p>简单了解下后，发现Apple 内置了 <a href="https://developer.apple.com/documentation/compression/data_compression" target="_blank" rel="external">libcompression library</a> 压缩库。而且，也有一些使用 Swift 的封装，比如 <a href="https://github.com/leemorgan/NSData-Compression" target="_blank" rel="external">NSData-Compression</a> 和 <a href="https://github.com/mw99/DataCompression" target="_blank" rel="external">DataCompression</a>；我使用了后者，不过应该差不多。</p>
+<p>进一步，这个库中包含了 <strong>4 种压缩算法：</strong></p>
+<ul>
+<li>LZFSE</li>
+<li>LZ4</li>
+<li>LZMA</li>
+<li>ZLIB</li>
+</ul>
+<p><strong>如何选择呢？</strong>苹果也给出了官方建议：</p>
+<blockquote>
+<p>Choice of Compression Algorithm:</p>
+<ul>
+<li>Use LZ4 if speed is critical, and you are willing to sacrifice compression ratio to achieve it.</li>
+<li>Use LZMA if compression ratio is critical, and you are willing to sacrifice speed to achieve it. Note that - LZMA is an order of magnitude slower for both compression and decompression than other choices.</li>
+<li>Otherwise, if speed and compression are more or less equally important, use LZFSE unless you require interoperability with non-Apple devices. If you do require interoperability with non-Apple devices, use ZLIB.</li>
+<li>LZFSE is faster than ZLIB, and generally achieves a better compression ratio. However, it is slower than LZ4 and does not compress as well as LZMA, so you will still want to use LZ4 if speed is critical or LZMA if compression ratio is critical.</li>
+</ul>
+</blockquote>
+<p>简单的说：</p>
+<p>**- LZMA 压缩效果最好</p>
+<ul>
+<li>LZ4 压缩速度最快</li>
+<li>LZFSE 是苹果自己开发的、综合表现好</li>
+<li>ZLIB 应该被 LZFSE 取代**</li>
+</ul>
+<p>当然，不能道听途说，我也拿自己的实践数据测试了一把：</p>
+<p><img src="https://ps.toolinbox.net/u15ed.jpg" alt=""></p>
+<p>最后，我选择了苹果自己的 <strong>LZFSE</strong> 压缩算法。</p>
+<p>除了压缩本身，还有件很重要的事：<strong>兼容已有的、未压缩的数据</strong>。事实上也还算好做，关键是有一点：如果数据未压缩，解压是无法得到有效数据。这一点可以用于区分数据是否压缩，而暂时不用添加 v1/v2 这样的数据结构版本号。</p>
+<p>再次得到教训：<strong>优先做数据结构相关的事情</strong>。等数据结构做完善、做稳定了，UI、业务逻辑等内容，随意换。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-09.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -834,168 +1006,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-05.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-09-05.html" itemprop="url">
-                  0905 - iPaste for iOS 面世
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-05T22:00:00+08:00">
-                2017-09-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="https://ps.toolinbox.net/wvley.png" alt=""></p>
-<p><strong>iPaste for iOS</strong> 低调发布于 Test Flight：</p>
-<ul>
-<li>自动记录剪贴板历史</li>
-<li>可手动添加、编辑历史，方便之后粘贴</li>
-<li>支持纯文本、图片、图文混排、文件（暂不支持文件夹）</li>
-<li>可使用分组管理历史</li>
-<li>…</li>
-</ul>
-<p><strong>【重磅 1】支持拖拽</strong></p>
-<p>场景：比如你在 iPad 上写作，左侧分栏是你心爱的 Markdown 编辑器，右侧分栏是待命的 iPaste，可随时将 iPaste 中记录的常用片断拖拽至左侧编辑器，如联系方式、微信中的打赏二维码、等等。示意如下：</p>
-<p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1fiqkr3132vg30jg0ekb2f.gif" alt=""></p>
-<p>注：由于我这个是 iPad min 2，不支持左右两栏同时存在，故而操作看起来有些麻烦。如果你的 iPad 较新、支持两栏并存，会更舒爽。</p>
-<p>前提：较新的 iPad + iOS 11.</p>
-<p><strong>【重磅 2】在不同设备间同步</strong></p>
-<p>场景：由于我有多款产品，每个产品经常收到用户重复性的问题，如为什么使用 iPic 上传 png 图片后变为 jpg 格式（因为微博不支持 png 格式）、Klib 是否会支持导入生词本并导出至 Anki（会）、等等。</p>
-<p>要在微信上码字回答很麻烦，我会在 Mac 上将常用的回复分组添加到 iPaste 中（毕竟电脑上操作效率高），在 iPaste for iOS 中复制后粘贴至微信等聊天工具中。用户看到我码这么多字、还回复这么快，会觉得我很诚恳…</p>
-<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1fj8hdw0ynsj30b40jr74f.jpg" alt=""></p>
-<hr>
-<p>感兴趣 <a href="https://wj.qq.com/s/1540447/7100/" target="_blank" rel="external">在此留下邮箱</a>，即可加入 Test Flight 测试。</p>
-<p>倾心打磨，只为你用着舒爽。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1045,7 +1055,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1141</span>
+                <span class="site-state-item-count">1142</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
