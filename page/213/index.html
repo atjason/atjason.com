@@ -258,6 +258,169 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/671.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/671.html" itemprop="url">
+                  Origami之于滴答清单—选择语言
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-29T21:56:28+08:00">
+                2015-05-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PM/" itemprop="url" rel="index">
+                    <span itemprop="name">PM</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>以下就开始整个模仿的过程，大致分为三步。</p>
+<h1 id="1，想清楚交互的具体过程"><a href="#1，想清楚交互的具体过程" class="headerlink" title="1，想清楚交互的具体过程"></a>1，想清楚交互的具体过程</h1><p>拆分后包含：</p>
+<ul>
+<li><p>点击某一项后，使用在该行显示灰色半透明蒙</p>
+</li>
+<li><p>松手后，蒙板消失，表示选中的图标移至该行</p>
+</li>
+</ul>
+<h1 id="2，准备素材"><a href="#2，准备素材" class="headerlink" title="2，准备素材"></a>2，准备素材</h1><p>其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：</p>
+<ul>
+<li><p>背景</p>
+</li>
+<li><p>选中图标</p>
+</li>
+</ul>
+<h1 id="3，逐步实现交互"><a href="#3，逐步实现交互" class="headerlink" title="3，逐步实现交互"></a>3，逐步实现交互</h1><h2 id="布置静态界面"><a href="#布置静态界面" class="headerlink" title="布置静态界面"></a>布置静态界面</h2><p>将选中图标放在背景图中即可，默认隐藏灰色蒙板</p>
+<h2 id="实现点击交互"><a href="#实现点击交互" class="headerlink" title="实现点击交互"></a>实现点击交互</h2><p>先实现点击松开时，选中图标移至相应的位置。</p>
+<p>根据截图，计算中选中图标在各行时对应的坐标。第0行Y坐标为1110，第5行为630，可推出相应的计算公式：Y = 1110- 96 * i。这样，使用Index就可以实现点击与移动的对应关系。因为选中图标仅在Y方向移动，X坐标保持不变。</p>
+<p>对于点击后的灰色蒙板，也可以使用类似的方式来移动。隐藏与否则可以通过控制Scale来实现，而Opacity则设置为0.3。</p>
+<p>实现后的QC界面大概是：</p>
+<p><a href="https://p.ilib.io/cn/d72aa.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/y7wsk.png" alt=""></a></p>
+<p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/SelectLanguage.zip">下载Origami工程文件</a>。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/666.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1002,283 +1165,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/603.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/603.html" itemprop="url">
-                  照片管理调查结果分析
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-09-05T14:20:54+08:00">
-                2014-09-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>之前，朋友圈内发起调查，看大家都是如何管理自己的照片的，现在将收集上来的数据整理如下。</p>
-<p>想看完整结果，完成此问卷即可：StartFragment<a href="http://www.wenjuan.com/s/JRbAVv" target="_blank" rel="external">http://www.wenjuan.com/s/JRbAVv</a>EndFragment</p>
-<p>StartFragment</p>
-<p>关于受众</p>
-<p>本次调查主要推广方式为：IT公司同事、朋友圈。可推测比较大的比例来自于IT圈、或对电脑手机较熟悉的人、或其家属，相对于所有可能的用户来说，其结果更偏向于上述人群</p>
-<p>截止2014年9月5日，共收集到149份有效数</p>
-<p>more</p>
-<p>Q1:你用的是什么手机？(多选题)</p>
-<p>Q2:哇，你用的是什么神机？(填空题)</p>
-<p><a href="https://p.ilib.io/cn/xpnsr.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/xpnsr.png" alt=""></a></p>
-<p>iPhone手机多于Android手机</p>
-<p>iPhone和Android手机占据绝大多数，WinPhone手机依然是小众，塞班用户可以忽略，没有黑莓用户</p>
-<p>有11个&ldquo;其他手机&rdquo;，不排除有人不了解自己使用的手机是Android手机，这也说明这些人是真正的小白</p>
-<p>Q3:你主要用什么设备来拍照、拍视频？(单选题)</p>
-<p><a href="https://p.ilib.io/cn/9vim3.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/9vim3.png" alt=""></a></p>
-<p>84.56%的人使用手机拍照</p>
-<p>14.77%的人使用数码相机、单反、微单等拍照</p>
-<p>0.67%（仅1人）主要使用平板拍照</p>
-<p>大部分情况下，自动备份手机上的照片就可以满足绝大部分的用户，而对于使用数码相机的人，则需要考虑SD卡的照片如何备份，当然</p>
-<p>部分相机开始引用WiFi功能</p>
-<p>使用相机、尤其是单反的人，可以理解为高端用户，通常对电脑比较了解，有自己的一套照片管理办法，会使用较复杂、较专业的修图工具、管理软件</p>
-<p>Q4:你的照片、视频主要是保存在什么地方？(多选题)</p>
-<p><a href="https://p.ilib.io/cn/h4nv8.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/h4nv8.png" alt=""></a></p>
-<p>这一问题的答案比较分散</p>
-<p>电脑上的硬盘和移动硬盘实际使用场景比较类似，可归为一类；</p>
-<p>绝大多数用户都会使用这种方式来保存照片，或者说沿用 了这种比较传统的、保存一般性数据文件的方式保存照片</p>
-<p>绝大多数用户依然觉得放在电脑硬盘里是最安全、最方便的</p>
-<p>比较多的人使用云来备份，猜想受益于</p>
-<p>备份方便：几乎所有云都覆盖了所有的移动终端，可以使用自家的App自动备份至云</p>
-<p>空间够大、且免费：尤其是13年网盘大战后，几乎都达到了TB级别的免费空间</p>
-<p>云本身的特性：如共享方便</p>
-<p>当然，使用云的毕竟还是少数（略多于1/4），猜想原因有</p>
-<p>不知道世界上还有云、能把照片自动备份到云上</p>
-<p>不会使用：尤其是对电脑不太懂的人，可能都没有云账户</p>
-<p>担心数据安全：放在云上，万一没了怎么办？还是放在自己看得见、摸得着的地方安全</p>
-<p>担心隐私安全：即怕自己成为艳照门主角</p>
-<p>NAS依然是小众（仅5人），不仅在国内，哪怕是在全球，NAS都是小众产品，尤其是相比于移动硬盘。NAS的好处主要在于</p>
-<p>数据安全：比如使用RAID 1备份。并且，即使是相同的硬盘，由于NAS通常处于静止状态，其硬盘的寿命要比移动硬盘长很多。没坏过移动硬盘、没丢过数据的人，体会不到这种增强硬盘可靠性、数据安全性的重要性，可能会觉得放在移动硬盘里就永远不会丢</p>
-<p>局域网共享方便：得益于Samba、DLNA等技术，可以方便得在Pad、电视等其他终端消费照片</p>
-<p>广域网共享方便：越来越多的NAS提供所有私有云的功能，即在家以外的地方也可以通过Internet来访问家里NAS上的数据</p>
-<p>很多人（43人）是不备份、不移动照片的，在哪拍的就放哪，估计直到手机、相机存储空间满了之后，才会想起将其移出来、腾出空间</p>
-<p>这一部分用户应该是潜在客户，他们没有及时整理照片，不是因为不需要（因为毕竟手机、相机的存储空间是有限的），而是因为没有趁手的方案、懒、不想花时间折腾</p>
-<p>还有3人选择了其他，猜想可能是光盘、电视盒子、等等</p>
-<p>Q5:你用的是哪朵云？(多选题)</p>
-<p>Q6:好吧，你到底用的是啥云？(填空题)</p>
-<p><a href="https://p.ilib.io/cn/s0qxt.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/s0qxt.png" alt=""></a></p>
-<p>此题是后来加上去的，答题人数过少，参考意义不大</p>
-<p>不过，从实际感受和收上来的数据来看，百度云确实是比较流行的</p>
-<p>Q7:你多长时间保存一次呢？(单选题)</p>
-<p><a href="https://p.ilib.io/cn/o7pry.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/o7pry.png" alt=""></a></p>
-<p>&ldquo;手机撑满了才想起来&rdquo;和&ldquo;偶尔想起来就拷一把&rdquo;可看作同一类人，几乎没有备份意识，移动照片应该主要是为了给手机、相机腾出空间。占绝大多数，约68%</p>
-<p>&ldquo;定期保存&rdquo;和&ldquo;自动备份&rdquo;可看作同一类人，有较好的备份意识，并且应该有自己的一套照片管理办法。约占25%</p>
-<p>也有6.71%的人从来不备份。猜想这类人</p>
-<p>照片不多</p>
-<p>没丢过照片，或者觉得丢了也无所谓</p>
-<p>怕麻烦</p>
-<p>不会弄</p>
-<p>Q8:你是怎么管理自己那么多照片的？(单选题)</p>
-<p><a href="https://p.ilib.io/cn/bpcxz.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/bpcxz.png" alt=""></a></p>
-<p>本题的目的是想看看大家管理意识有多强、目前没有自己一套成型的管理办法，选项的设置是逐渐深入</p>
-<p>从结果上看，各种选项比如分散，或者说，什么样的人都有</p>
-<p>从大面上看，愿意管理、并且已经在管理的人还是占绝大多数（超过3/4），只是管理的程度不同</p>
-<p>有10%的人愿意管理，但是觉得&ldquo;不好弄&rdquo;就放弃了。这应该是非常优质的潜在客户</p>
-<p>还有约13%的人并不愿意管理</p>
-<p>从交叉图表上来看，</p>
-<p>定期备份的人，整理欲最强</p>
-<p>自动备份的人，只要将照片放在一起就可以了</p>
-<p>偶尔想起来要备份的人，还是愿意对照片进行很好的整理</p>
-<p>手机撑满才想起来备份的人，只要将照片放在一起就可以了</p>
-<p>不保存的人，自然绝大多数都不会去整理</p>
-<p>Q9:你有找以前照片的经历吗？(单选题)</p>
-<p><a href="https://p.ilib.io/cn/8zg7f.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/8zg7f.png" alt=""></a></p>
-<p>需要找照片，其实是对照片进行管理的主要驱动力</p>
-<p>本题少了一个选项：从不找照片</p>
-<p>绝大多数人还是有找照片的经历的，约68%。其中21%的人在找照片时遇到了不小的困难，这应该是可以改进的地方</p>
-<p>Q10:你怕照片丢吗？(单选题)</p>
-<p><a href="https://p.ilib.io/cn/t5jz8.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/t5jz8.png" alt=""></a></p>
-<p>怕丢照片，其实是对照片进行备份的主要驱动力</p>
-<p>可以看到，超过87%的人都怕丢照片，其实这也意味着，超过87%的人需要备份照片</p>
-<p>Q11:你会看以前的照片、视频吗？(单选题)</p>
-<p><a href="https://p.ilib.io/cn/j0kr9.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/j0kr9.png" alt=""></a></p>
-<p>回看照片，其实和找照片是关联的，也是对照片进行管理的驱动力</p>
-<p>从结果上看，几乎所有的人都有看照片的需求（不然照片拍了用来干嘛？），只是看的频率不同，或者说，看不到照片时带来的痛感不同。约92%的人是很少看、或者只是给别人看</p>
-<p>Q12:你一般在哪看照片呢？(多选题)</p>
-<p><a href="https://p.ilib.io/cn/cgiiw.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/cgiiw.png" alt=""></a></p>
-<p>本题是延续上一题</p>
-<p>绝大多数人都会在电脑上看照片，这和之前绝大多数人把照片备份到电脑上的硬盘、移动硬盘是一致的。并且，大部分人对照片的管理应该也是在电脑上完成的，因为找起来方便</p>
-<p>在手机上看照片的人也非常多。虽然手机屏幕小，看起来不那么舒服，但很大的优势是，可以随时随地看，并且可以看到大部分最近的照片</p>
-<p>从交叉图表可以看出</p>
-<p>在平板上看照片的人，除了把照片保存在电脑上的硬盘和移动硬盘，10人将其保存在云中，8人在哪拍的就放在哪，没有人将其放在NAS中</p>
-<p>在电视上看照片的人，和在平板上看照片的人，有类似的保存习惯</p>
-<p>Q13:其他？如果不是脑海中，那是哪呢？(填空题)</p>
-<p>无数据</p>
-<p>Q14:你需要修改照片吗？(单选题)</p>
-<p><a href="https://p.ilib.io/cn/vcqd5.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/vcqd5.png" alt=""></a></p>
-<p>绝大多数人对修改照片的需求很弱，不修改、很少修改、或者有时分享前会修改</p>
-<p>这可能意味着，在软件开发过程中花了大力气做出来的图片修改功能，可能是大部分用户、大多时候都不会使用的功能，或者在真正需要修图的人眼里是鸡肋</p>
-<p>Q15:你以前修改照片是在哪做的呢？(多选题)</p>
-<p><a href="https://p.ilib.io/cn/ym13n.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/ym13n.png" alt=""></a></p>
-<p>既然修改照片的需求很弱，本题的意义也就不大</p>
-<p>不过，不出意外，修改照片大多还是在手机上（猜想是在分享前）和电脑上（猜想是进行复杂的修图）</p>
-<p>Q16:其他？那是哪呢？(填空题)</p>
-<p>无数据</p>
-<p>Q17:你以前的主要修改过哪些？(多选题)</p>
-<p><a href="https://p.ilib.io/cn/c38i9.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/c38i9.png" alt=""></a></p>
-<p>本题的结果比较分散，不过大多数都是需要较少操作的修改，如裁剪、翻转、滤镜之类的</p>
-<p>15人选择了其他，包括&ldquo;调色 后期&rdquo;、&ldquo;色阶&rdquo;，这明显是高阶的修图</p>
-<p>Q18:你刚才选的其他修改是什么呢？(填空题)</p>
-<p>见上题分析</p>
-<p>Q19:你和朋友一起出去玩，都拍了照片，怎么互相分享？(多选题)</p>
-<p><a href="https://p.ilib.io/cn/t2nic.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/t2nic.png" alt=""></a></p>
-<p>这是一个很实用的话题、较复杂的情景，其实是综合照片管理能力的考验</p>
-<p>结果也比较分散，最多的是使用微信、QQ等工具直接发送，这对于手机拍的照片是很方便的</p>
-<p>当成文件发送的有55人，使用U盘、移动硬盘传递的有22人，这应该是以前PC时代遗留下来的操作习惯</p>
-<p>在使用当面传的17人中，有9人使用iPhone，估计是使用AirDrop；有8人使用Android，估计是使用类似百度云当面传之类的功能，这点其实对手机操作能力要求挺高的；有1人使用WinPhone。当然，不排除有人同时拥有不同的手机</p>
-<p>有19人使用云分享的功能来分享照片，这对于大量照片同时需要分享给多人时比较有用，对云的操作能力要求较高</p>
-<p>当然，现在越来越流行直接发朋友圈等地方（29人），既可以分享照片，也可以秀自己</p>
-<p>Q20:你觉得你现在的照片管理方式完美吗？(多选题)</p>
-<p><a href="https://p.ilib.io/cn/k59bq.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/k59bq.png" alt=""></a></p>
-<p>这是一个较模糊的题目，希望得到从情感意义上大家对于照片管理的需求</p>
-<p>较为意外的是，超过1/3的人觉得目前的方法挺好的，26人觉得现在的方法不好，不过也无所谓</p>
-<p>更多的人是想管，但遇到各种各样的问题，比较典型的是不会弄、怕麻烦不想花时间弄、不想重复照片浪费空间</p>
-<p>Q21:还有哪些槽点？（比如，拍照时担心拍不好，就拍了很…(填空题)</p>
-<p>有效回答如下</p>
-<p>有没有自动按地点分类的，又按时间、朋友圈分类，却只有一份</p>
-<p>太帅了，怕传出去被人利用</p>
-<p>不知道要不要留着，删了可惜，留着无用</p>
-<p>家里有个单细胞的老婆在，总会有整理不好的</p>
-<p>最纠结的是不知道删哪一张留哪一张</p>
-<p>不能按日期排列</p>
-<p>拍完照片想要分享到社交网站，结果不知道该发布在哪里、发布哪张、说点什么而纠结一番后没有发送，后来这些这片就没用了</p>
-<p>命名问题</p>
-<p>怕不美</p>
-<p>很乱 不知道怎么整理</p>
-<p>拍时光线没把握好，在电脑上看看就不舒服</p>
-<p>EndFragment</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1328,7 +1214,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1143</span>
+                <span class="site-state-item-count">1144</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

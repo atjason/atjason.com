@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-14T15:03:57.569Z</updated>
+  <updated>2018-10-15T15:05:44.996Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1015 - 积累与收获</title>
+    <link href="https://atjason.com/daily/2018-10-15.html"/>
+    <id>https://atjason.com/daily/2018-10-15.html</id>
+    <published>2018-10-15T14:00:00.000Z</published>
+    <updated>2018-10-15T15:05:44.996Z</updated>
+    
+    <content type="html"><![CDATA[<p>积累与收获，时间不同、心态也不同。</p>
+<p>积累，过程长，且缺少结果激励，很容易耐不住性子，也会对正在做的事心生怀疑。</p>
+<p>收获，很刺激。要把握时机，扩大战果。但也要避免花过多时间忙着摘果子；要知道，现在的果子，是之前积累的结果。拼命地摘，只能竭泽而渔。应适可而止，转向积累的过程。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;积累与收获，时间不同、心态也不同。&lt;/p&gt;
+&lt;p&gt;积累，过程长，且缺少结果激励，很容易耐不住性子，也会对正在做的事心生怀疑。&lt;/p&gt;
+&lt;p&gt;收获，很刺激。要把握时机，扩大战果。但也要避免花过多时间忙着摘果子；要知道，现在的果子，是之前积累的结果。拼命地摘，只能竭泽而渔。应适
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1014 - 谨慎说话</title>
@@ -530,40 +555,6 @@
     
       &lt;p&gt;今天又花了 1 个多小时，终于搞定了 Chrome Extension 环境中的 AES 加密解密。恩，还是一篇博文上说的，AES 加密后的格式是一致的，不同平台的解密失败，主要还是参数设置不同，尤其是每个平台的默认参数不同引起的。&lt;/p&gt;
 &lt;p&gt;这个问题搞定后，后续的工作
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0925 - 开搞 Chrome 插件</title>
-    <link href="https://atjason.com/daily/2018-09-25.html"/>
-    <id>https://atjason.com/daily/2018-09-25.html</id>
-    <published>2018-09-25T14:00:00.000Z</published>
-    <updated>2018-09-25T14:27:01.790Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天有时间，开始学习 Chrome 插件。</p>
-<p>学习新东西，挑战还是很多的，比如：</p>
-<ul>
-<li>Chrome 插件的文件结构、运行原理；</li>
-<li>Chrome 插件中的 js 库管理；</li>
-</ul>
-<p>只要了解了 Chrome 插件通用性的东西，进一步的开发，和 node 应该没有实质区别。</p>
-<p>不过，今天比较郁闷地卡在了加密库。之前 node 是使用 crypto 库，这是 node 专用的；挪到 Chrome 插件环境，只能找替代的。找了通用的 CryptoJS，却发现加密结果无法与 crypto 互通。主要是之前发布出现的版本无法修改，所以不能全新来搞，必须要能适配之前加密的结果。花费了 N 个小时，还是没搞定，郁闷… </p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天有时间，开始学习 Chrome 插件。&lt;/p&gt;
-&lt;p&gt;学习新东西，挑战还是很多的，比如：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Chrome 插件的文件结构、运行原理；&lt;/li&gt;
-&lt;li&gt;Chrome 插件中的 js 库管理；&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;只要了解了 Chrome 
     
     </summary>
     
