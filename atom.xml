@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-15T15:05:44.996Z</updated>
+  <updated>2018-10-16T14:40:56.648Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1016 - 约定大于配置</title>
+    <link href="https://atjason.com/daily/2018-10-16.html"/>
+    <id>https://atjason.com/daily/2018-10-16.html</id>
+    <published>2018-10-16T14:00:00.000Z</published>
+    <updated>2018-10-16T14:40:56.648Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，在团队里，大家共同约定，什么文档放在哪个文件夹中。这样，大家就可以形成统一的认识，直接去那个文件夹中寻找，而不是先看配置文件、或者问别人。</p>
+<p>比如，在代码里，大家共同约定，用什么文件组织形式来管理源文件。这样，就不会出现每个人都各自创建一套规则，避免不必要的协作损耗。</p>
+<p>比如，如果大家共同认识一个列表仅需要降序排列，就不需要增加切换排序的入口，也不需要记录上次排序是什么顺序。既简化了交互，也精简了配置项。</p>
+<p><strong>约定大于配置</strong>，本质上在于：<strong>用最优解，取代不必要的多样性</strong>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，在团队里，大家共同约定，什么文档放在哪个文件夹中。这样，大家就可以形成统一的认识，直接去那个文件夹中寻找，而不是先看配置文件、或者问别人。&lt;/p&gt;
+&lt;p&gt;比如，在代码里，大家共同约定，用什么文件组织形式来管理源文件。这样，就不会出现每个人都各自创建一套规则，避免不必要
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1015 - 积累与收获</title>
@@ -531,30 +556,6 @@
     
       &lt;p&gt;今天又用 JSBox 创建了个小工具：查询公交到站情况。比如，出门前，看一眼就知道所有能到家的公交车，离这个站还有多远。如果比较远，就再呆一会再出门。&lt;/p&gt;
 &lt;p&gt;做这个工具，其实最麻烦的在于数据源。也即，到哪去找实时公交查询。关于这一点，各个城市并不相同。不过，基本上都
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0926 - 新技能：Chrome 插件</title>
-    <link href="https://atjason.com/daily/2018-09-26.html"/>
-    <id>https://atjason.com/daily/2018-09-26.html</id>
-    <published>2018-09-26T14:00:00.000Z</published>
-    <updated>2018-09-26T15:05:03.135Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天又花了 1 个多小时，终于搞定了 Chrome Extension 环境中的 AES 加密解密。恩，还是一篇博文上说的，AES 加密后的格式是一致的，不同平台的解密失败，主要还是参数设置不同，尤其是每个平台的默认参数不同引起的。</p>
-<p>这个问题搞定后，后续的工作就容易多了，只是时间的堆积。终于，今天在服务器上部署成功了一个 Chrome 插件，可以默默地在后台干活。主要这个活必须依赖于完整的浏览器运行环境，故而不能直接使用 python/node 等环境。如果使用 headless browser，也会有各种奇怪的问题。</p>
-<p>还是要多学习新东西。<strong>开始时很难，因为学习没有支点</strong>。而一旦开头就好办了，因为可以不断在已有的支点上累加东西，新学的东西又可以成为新的支点，这样慢慢就可以点线面地积累了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天又花了 1 个多小时，终于搞定了 Chrome Extension 环境中的 AES 加密解密。恩，还是一篇博文上说的，AES 加密后的格式是一致的，不同平台的解密失败，主要还是参数设置不同，尤其是每个平台的默认参数不同引起的。&lt;/p&gt;
-&lt;p&gt;这个问题搞定后，后续的工作
     
     </summary>
     
