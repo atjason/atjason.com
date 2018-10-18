@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-16T14:40:56.648Z</updated>
+  <updated>2018-10-17T14:59:13.477Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1017 - 与机器相伴相生</title>
+    <link href="https://atjason.com/daily/2018-10-17.html"/>
+    <id>https://atjason.com/daily/2018-10-17.html</id>
+    <published>2018-10-17T14:00:00.000Z</published>
+    <updated>2018-10-17T14:59:13.477Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里说的机器，也可以理解为 AI、人工智能、软件、工具。</p>
+<p>我制作机器，机器替我赚钱；<br>赚到钱后，我就有更多时间、精力来改进机器；<br>进而，机器可以赚更多钱。</p>
+<p>如果跨过某个临界点，我就可以和机器相伴相生。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这里说的机器，也可以理解为 AI、人工智能、软件、工具。&lt;/p&gt;
+&lt;p&gt;我制作机器，机器替我赚钱；&lt;br&gt;赚到钱后，我就有更多时间、精力来改进机器；&lt;br&gt;进而，机器可以赚更多钱。&lt;/p&gt;
+&lt;p&gt;如果跨过某个临界点，我就可以和机器相伴相生。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1016 - 约定大于配置</title>
@@ -531,31 +557,6 @@
       &lt;p&gt;能让自己不断成长的东西，才是真材实料的东西。&lt;/p&gt;
 &lt;p&gt;运气、投机、赌这样的东西，或许会有一时之利，但终难长久。又或者说，回报风险比太低。&lt;/p&gt;
 &lt;p&gt;相反，成长这种东西，通常在前期时进展很慢，甚至有投入无回报。但通常过了一定的临界点，就可以指数上扬，回报可观。或者没
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0927 - 做了个查询公交实时到站信息的小工具</title>
-    <link href="https://atjason.com/daily/2018-09-27.html"/>
-    <id>https://atjason.com/daily/2018-09-27.html</id>
-    <published>2018-09-27T14:00:00.000Z</published>
-    <updated>2018-09-27T14:14:40.871Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天又用 JSBox 创建了个小工具：查询公交到站情况。比如，出门前，看一眼就知道所有能到家的公交车，离这个站还有多远。如果比较远，就再呆一会再出门。</p>
-<p>做这个工具，其实最麻烦的在于数据源。也即，到哪去找实时公交查询。关于这一点，各个城市并不相同。不过，基本上都没有公开数据。我这次有点不好意思地抓了另一个程序的数据。</p>
-<p>果然，数据才是最重要的；其次，就是 <strong>使用数据的能力</strong>。其中之一，就是 <strong>编程的能力</strong>。像我今天做的这个工具，你在市面上是不可能找到的。如果是要定制，找到有能力、又愿意开发、自己又付得起定制费的程序员，并不容易（这里另一个话题，就是我一直想做的一个：<strong>软件定制平台</strong>）。在这样的情况下，如果自己有一定的编程能力，可以极大地提高自己的效率，以及生活品质、幸福感。</p>
-<p>所以，<strong>你想学习下编程吗？</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天又用 JSBox 创建了个小工具：查询公交到站情况。比如，出门前，看一眼就知道所有能到家的公交车，离这个站还有多远。如果比较远，就再呆一会再出门。&lt;/p&gt;
-&lt;p&gt;做这个工具，其实最麻烦的在于数据源。也即，到哪去找实时公交查询。关于这一点，各个城市并不相同。不过，基本上都
     
     </summary>
     
