@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-17T14:59:13.477Z</updated>
+  <updated>2018-10-18T14:40:23.194Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1018 - 不在疲惫时写代码</title>
+    <link href="https://atjason.com/daily/2018-10-18.html"/>
+    <id>https://atjason.com/daily/2018-10-18.html</id>
+    <published>2018-10-18T14:00:00.000Z</published>
+    <updated>2018-10-18T14:40:23.194Z</updated>
+    
+    <content type="html"><![CDATA[<p>写代码，既是完成功能，也是学习、熟练的过程。</p>
+<p>疲惫时，既可能写出有 Bug 的代码，也几乎学不到什么东西。</p>
+<p>如果不是泰山压顶，只在高效时干活。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写代码，既是完成功能，也是学习、熟练的过程。&lt;/p&gt;
+&lt;p&gt;疲惫时，既可能写出有 Bug 的代码，也几乎学不到什么东西。&lt;/p&gt;
+&lt;p&gt;如果不是泰山压顶，只在高效时干活。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1017 - 与机器相伴相生</title>
@@ -532,31 +558,6 @@
     
       &lt;p&gt;但凡有机会，想办法增加自己做事的主动权。哪怕只有一点点，也能让自己在做事时多一些弹性，也多一份主动性（而不是觉得是在给别人做事）。&lt;/p&gt;
 &lt;p&gt;就算是输，也是自己主动要输；或者说，自己做事前已经预见到在某些情况下会输，不巧这样的情况发生了。总之，不能是稀里糊涂、毫无准备的
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0928 - 赌成长，不赌运气</title>
-    <link href="https://atjason.com/daily/2018-09-28.html"/>
-    <id>https://atjason.com/daily/2018-09-28.html</id>
-    <published>2018-09-28T14:00:00.000Z</published>
-    <updated>2018-09-28T14:09:32.621Z</updated>
-    
-    <content type="html"><![CDATA[<p>能让自己不断成长的东西，才是真材实料的东西。</p>
-<p>运气、投机、赌这样的东西，或许会有一时之利，但终难长久。又或者说，回报风险比太低。</p>
-<p>相反，成长这种东西，通常在前期时进展很慢，甚至有投入无回报。但通常过了一定的临界点，就可以指数上扬，回报可观。或者没有赌博收益来得大，但毕竟稳定可期。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;能让自己不断成长的东西，才是真材实料的东西。&lt;/p&gt;
-&lt;p&gt;运气、投机、赌这样的东西，或许会有一时之利，但终难长久。又或者说，回报风险比太低。&lt;/p&gt;
-&lt;p&gt;相反，成长这种东西，通常在前期时进展很慢，甚至有投入无回报。但通常过了一定的临界点，就可以指数上扬，回报可观。或者没
     
     </summary>
     
