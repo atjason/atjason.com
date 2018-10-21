@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-19T15:50:01.854Z</updated>
+  <updated>2018-10-20T15:39:46.892Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1020 - 进展来自小确定</title>
+    <link href="https://atjason.com/daily/2018-10-20.html"/>
+    <id>https://atjason.com/daily/2018-10-20.html</id>
+    <published>2018-10-20T14:00:00.000Z</published>
+    <updated>2018-10-20T15:39:46.892Z</updated>
+    
+    <content type="html"><![CDATA[<p>项目的进展，除了关键节点，更多的时间，来自一点点具体事情的完成。</p>
+<p>顶层设计 &amp; 底层驱动，在实际项目中是穿插进行的。</p>
+<p>当想法比较多时，就多想，想各种可能性，想各种实现方案；<br>当想法比较匮乏、状态一般时，就多干。而这前提是，要能把一件件可执行的事列出来。</p>
+<p>对自己来说，有个可实施的方案，就是「链式工作」：<strong>每做完一件事，在休息之前，先列出下一步可以做的事</strong>。虽然，经过休息后，真正撸起袖子干的不一定是这件事，但至少这样可以保持思路的连续性。特别是两步的碎片时间多，如果在不同碎片时间之前顺畅地切换，是避免低效的关键；换句话说，一有时间，哪怕只是碎片，也能知道自己该做什么。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;项目的进展，除了关键节点，更多的时间，来自一点点具体事情的完成。&lt;/p&gt;
+&lt;p&gt;顶层设计 &amp;amp; 底层驱动，在实际项目中是穿插进行的。&lt;/p&gt;
+&lt;p&gt;当想法比较多时，就多想，想各种可能性，想各种实现方案；&lt;br&gt;当想法比较匮乏、状态一般时，就多干。而这前提是，要能把一件
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1019 - 适时放纵自己的兴趣</title>
@@ -525,41 +551,6 @@
     
       &lt;p&gt;当迫不及待要做某事，感觉像是天上掉馅饼、再不捡就要被别人捡走时，做还是要做这件事，但还是要反过来想想，这会不会是陷阱呢？或者，就算真的是好事、好的方案，又可能会有哪些坑、或者有潜在的成本或损失？&lt;/p&gt;
 &lt;p&gt;因为，通常没有绝对的有利方案、放在地方等着被捡的钱，我们在特别兴
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0930 - 学会风险控制</title>
-    <link href="https://atjason.com/daily/2018-09-30.html"/>
-    <id>https://atjason.com/daily/2018-09-30.html</id>
-    <published>2018-09-30T14:00:00.000Z</published>
-    <updated>2018-09-30T15:09:24.812Z</updated>
-    
-    <content type="html"><![CDATA[<p>实质上，是学会使用概率、博弈。</p>
-<p>比如，对于程序员这个职业，人身意外险还是必须的（君不见动不动就是同行猝死的新闻，别觉得离自己很远）；花一点小钱，可以在小概率意外发生时，不至于让身边人的生活陷入困境。</p>
-<p>另外，对冲也是控制风险的一种方式。要了解对冲，最好去了解下期货的由来。比如，</p>
-<ul>
-<li>你确定人民币对美元会贬值，想办法抢先把<strong>全部</strong>人民币资产换成美元，这叫投资。<ul>
-<li>如果一切都是确定的，就没有风险，而全是机会。</li>
-</ul>
-</li>
-<li>你不确定人民币对美元是涨还是跌，但又不想手上的人民币贬值，就把一部分（比如一半）人民币换成美元，这叫对冲。<ul>
-<li>比如人民币跌了，你可以把之前美元换回更多的人民币，弥补人民币贬值带来的损失。</li>
-</ul>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;实质上，是学会使用概率、博弈。&lt;/p&gt;
-&lt;p&gt;比如，对于程序员这个职业，人身意外险还是必须的（君不见动不动就是同行猝死的新闻，别觉得离自己很远）；花一点小钱，可以在小概率意外发生时，不至于让身边人的生活陷入困境。&lt;/p&gt;
-&lt;p&gt;另外，对冲也是控制风险的一种方式。要了解对冲，
     
     </summary>
     
