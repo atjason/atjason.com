@@ -258,6 +258,568 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/564.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/564.html" itemprop="url">
+                  使用UnixBench为Linux跑分
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-13T12:46:35+08:00">
+                2014-07-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>跑分软件感觉是被Android玩烂了，突然也想测试下手上的Radxa和Linode VPS的性能怎样</p>
+<p># </p>
+<pre><code>UnixBench介绍
+
+简单搜索了下，找到了Linux下较常用的UnixBench，是linux、unix测试系统基准性能的经典工具，UnixBench测试包含了系统调用、读写、进程、2D、3D、管道、运算、C库等系统基准性能，它的优点在于提供了对系统性能的一种评价体系，为系统评分，如此方便对系统作对比测试；但UnixBench在网络性能测试欠缺
+
+UnixBench的使用方法如下：
+</code></pre><h1 id="Download-the-latest-version"><a href="#Download-the-latest-version" class="headerlink" title="Download the latest version"></a>Download the latest version</h1><p>wget <a href="https://byte-unixbench.googlecode.com/files/UnixBench5.1.3.tgz" target="_blank" rel="external">https://byte-unixbench.googlecode.com/files/UnixBench5.1.3.tgz</a>;</p>
+<p>tar xzf UnixBench-5.1.3.tar.gz;</p>
+<p>cd UnixBench;</p>
+<h1 id="Disable-graphic-test-as-no-desktop-for-Linux-installed"><a href="#Disable-graphic-test-as-no-desktop-for-Linux-installed" class="headerlink" title="Disable graphic test as no desktop for Linux installed"></a>Disable graphic test as no desktop for Linux installed</h1><p>sed -i &quot;s/GRAPHIC_TESTS = defined/#GRAPHIC_TESTS = defined/g&quot; ./Makefile</p>
+<p>make;</p>
+<p>./Run;</p>
+<pre><code>执行后就耐心等待结果就行，依据机器性能不同，大概需要10分钟
+</code></pre><p># </p>
+<pre><code>UnixBench测试结果
+
+Radxa的执行结果：
+
+more
+
+========================================================================
+
+ BYTE UNIX Benchmarks (Version 5.1.3)
+
+ System: radxa: GNU/Linux
+
+ OS: GNU/Linux -- 3.0.36+ -- #2 SMP PREEMPT Sat Mar 15 11:18:05 CST 2014
+
+ Machine: armv7l (armv7l)
+
+ Language: en_US.utf8 (charmap=&amp;quot;ANSI_X3.4-1968&amp;quot;, collate=&amp;quot;ANSI_X3.4-1968&amp;quot;)
+
+ 11:50:03 up 12 days, 14:42, 4 users, load average: 0.54, 0.31, 0.58; runlevel 2
+
+------------------------------------------------------------------------
+
+Benchmark Run: Sun Jul 13 2014 11:50:03 - 12:18:17
+
+0 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables    6077940.3 lps  (10.0 s, 7 samples)
+
+Double-Precision Whetstone           995.3 MWIPS (9.9 s, 7 samples)
+
+Execl Throughput                294.0 lps  (29.5 s, 2 samples)
+
+File Copy 1024 bufsize 2000 maxblocks    129538.0 KBps (30.0 s, 2 samples)
+
+File Copy 256 bufsize 500 maxblocks      40792.2 KBps (30.0 s, 2 samples)
+
+File Copy 4096 bufsize 8000 maxblocks    325214.2 KBps (30.0 s, 2 samples)
+
+Pipe Throughput               271265.0 lps  (10.0 s, 7 samples)
+
+Pipe-based Context Switching         64658.0 lps  (10.0 s, 7 samples)
+
+Process Creation                831.6 lps  (30.0 s, 2 samples)
+
+Shell Scripts (1 concurrent)          1785.6 lpm  (60.0 s, 2 samples)
+
+Shell Scripts (8 concurrent)          370.0 lpm  (60.1 s, 2 samples)
+
+System Call Overhead            1007757.5 lps  (10.0 s, 7 samples)
+
+System Benchmarks Index Values        BASELINE    RESULT  INDEX
+
+Dhrystone 2 using register variables     116700.0  6077940.3  520.8
+
+Double-Precision Whetstone            55.0    995.3  181.0
+
+Execl Throughput                 43.0    294.0   68.4
+
+File Copy 1024 bufsize 2000 maxblocks     3960.0   129538.0  327.1
+
+File Copy 256 bufsize 500 maxblocks      1655.0   40792.2  246.5
+
+File Copy 4096 bufsize 8000 maxblocks     5800.0   325214.2  560.7
+
+Pipe Throughput                12440.0   271265.0  218.1
+
+Pipe-based Context Switching          4000.0   64658.0  161.6
+
+Process Creation                126.0    831.6   66.0
+
+Shell Scripts (1 concurrent)           42.4    1785.6  421.1
+
+Shell Scripts (8 concurrent)           6.0    370.0  616.6
+
+System Call Overhead             15000.0  1007757.5  671.8
+
+                                 ========
+
+System Benchmarks Index Score                     264.7
+
+Linode 1GB的执行结果：
+
+========================================================================
+
+ BYTE UNIX Benchmarks (Version 5.1.3)
+
+ System: li715-76: GNU/Linux
+
+ OS: GNU/Linux -- 3.15.3-x86_64-linode44 -- #1 SMP Tue Jul 1 15:51:04 EDT 2014
+
+ Machine: x86_64 (x86_64)
+
+ Language: en_US.utf8 (charmap=&amp;quot;UTF-8&amp;quot;, collate=&amp;quot;UTF-8&amp;quot;)
+
+ CPU 0: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz (5602.5 bogomips)
+
+     Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+
+ 11:50:02 up 8 days, 19:34, 1 user, load average: 0.08, 0.09, 0.51; runlevel 2
+
+------------------------------------------------------------------------
+
+Benchmark Run: Sun Jul 13 2014 11:50:02 - 12:18:09
+
+1 CPU in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables    29753198.8 lps  (10.0 s, 7 samples)
+
+Double-Precision Whetstone           3944.6 MWIPS (9.9 s, 7 samples)
+
+Execl Throughput                1619.4 lps  (30.0 s, 2 samples)
+
+File Copy 1024 bufsize 2000 maxblocks    319724.7 KBps (30.0 s, 2 samples)
+
+File Copy 256 bufsize 500 maxblocks      82858.8 KBps (30.0 s, 2 samples)
+
+File Copy 4096 bufsize 8000 maxblocks    957790.3 KBps (30.0 s, 2 samples)
+
+Pipe Throughput               458770.0 lps  (10.0 s, 7 samples)
+
+Pipe-based Context Switching         74230.2 lps  (10.0 s, 7 samples)
+
+Process Creation                2963.8 lps  (30.0 s, 2 samples)
+
+Shell Scripts (1 concurrent)          3719.2 lpm  (60.0 s, 2 samples)
+
+Shell Scripts (8 concurrent)          494.0 lpm  (60.1 s, 2 samples)
+
+System Call Overhead             474360.8 lps  (10.0 s, 7 samples)
+
+System Benchmarks Index Values        BASELINE    RESULT  INDEX
+
+Dhrystone 2 using register variables     116700.0  29753198.8  2549.5
+
+Double-Precision Whetstone            55.0    3944.6  717.2
+
+Execl Throughput                 43.0    1619.4  376.6
+
+File Copy 1024 bufsize 2000 maxblocks     3960.0   319724.7  807.4
+
+File Copy 256 bufsize 500 maxblocks      1655.0   82858.8  500.7
+
+File Copy 4096 bufsize 8000 maxblocks     5800.0   957790.3  1651.4
+
+Pipe Throughput                12440.0   458770.0  368.8
+
+Pipe-based Context Switching          4000.0   74230.2  185.6
+
+Process Creation                126.0    2963.8  235.2
+
+Shell Scripts (1 concurrent)           42.4    3719.2  877.2
+
+Shell Scripts (8 concurrent)           6.0    494.0  823.3
+
+System Call Overhead             15000.0   474360.8  316.2
+
+                                 ========
+
+System Benchmarks Index Score                     587.5
+
+Radxa基本参数：
+
+
+
+
+
+
+
+
+
+
+
+                    System
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    CPU
+
+
+
+
+
+                    ARM Cortex-A9 quad core @ 1.6Ghz
+
+
+
+
+
+
+
+
+
+                    Memory
+
+
+
+
+
+                    2GB DDR3 @ 800Mhz
+
+
+
+
+
+
+
+
+
+                    Storage
+
+
+
+
+
+                    8GB Nand Flash
+
+
+
+
+
+
+
+
+
+
+
+Linode 1GB基本参数：
+
+
+
+
+
+
+
+
+
+                System
+
+
+
+
+
+
+
+
+
+
+
+
+
+                CPU
+
+
+
+
+
+                单核Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz
+
+
+
+
+
+
+
+
+
+                Memory
+
+
+
+
+
+                1GB
+
+
+
+
+
+
+
+
+
+                Storage
+
+
+
+
+
+                24GB SSD Storage
+
+
+
+
+
+
+
+
+
+可以看出，表面参数占优的ARM板子Radxa还是输给了Linode的VPS。不过，需要说明的是，VPS都是多个共用一个服务器资源，所以，测试结果并不代表可以使用到这么多资源
+</code></pre><p># </p>
+<pre><code>UnixBench测试结果的解释
+
+1. ***********************
+
+Dhrystone 2 using register variables 1 2 3 4 5 6 7 8 9 10
+
+此项产生于 1984，测试 string handling，因为没有浮点操作，所以深受软件和硬件设计（hardware and software design）、编译和链接（compiler and linker options）、代码优化（code optimazaton）、对内存的cache（cache memory）、等待状态（wait states）、整数数据类型（integer data types）的影响
+
+2. ********************
+
+Double-Precision Whetstone 1 2 3 4 5 6 7 8 9 10
+
+这一项测试浮点数操作的速度和效率。这一测试包括几个模块，每个模块都包括一组用于科学计算的操作。覆盖面很广的一系列 c 函数：sin，cos，sqrt，exp，log 被用于整数和浮点数的数学运算、数组访问、条件分支（conditional branch）和程序调用。此测试同时测试了整数和浮点数算术运算。
+
+3. **************
+
+System Call Overhead 1 2 3 4 5 6 7 8 9 10
+
+测试进入和离开操作系统内核的代价，即一次系统调用的代价。它利用一个反复地调用 getpid 函数的小程序达到此目的。
+
+4. ***************
+
+Pipe Throughput 1 2 3 4 5 6 7 8 9 10
+
+管道（pipe）是进程间交流的最简单方式，这里的 Pipe throughtput 指的是一秒钟内一个进程可以向一个管道写 512 字节数据然后再读回的次数。需要注意的是，pipe throughtput 在实际编程中没有对应的真实存在。
+
+5. *************
+
+Pipe-based Context Switching 1 2 3 4 5 6 7 8 9 10
+
+这个测试两个进程（每秒钟）通过一个管道交换一个不断增长的整数的次数。这一点很向现实编程中的一些应用，这个测试程序首先创建一个子进程，再和这个子进程进行双向的管道传输。
+
+6. ************
+
+Process Creation 1 2 3
+
+测试每秒钟一个进程可以创建子进程然后收回子进程的次数（子进程一定立即退出）。process creation 的关注点是新进程进程控制块（process control block）的创建和内存分配，即一针见血地关注内存带宽。一般说来，这个测试被用于对操作系统进程创建这一系统调用的不同实现的比较。
+
+7. ***********
+
+Execl Throughput 1 2 3
+
+此测试考察每秒钟可以执行的 execl 系统调用的次数。 execl 系统调用是 exec 函数族的一员。它和其他一些与之相似的命令一样是 execve（） 函数的前端。
+
+8. ***********
+
+File copy
+
+测试从一个文件向另外一个文件传输数据的速率。每次测试使用不同大小的缓冲区。这一针对文件 read、write、copy 操作的测试统计规定时间（默认是 10s）内的文件 read、write、copy 操作次数。
+
+9. **********
+
+Shell Scripts
+
+测试一秒钟内一个进程可以并发地开始一个 shell 脚本的 n 个拷贝的次数，n 一般取值 1，2，4，8.（我的系统上取 1， 8， 16）。这个脚本对一个数据文件进行一系列的变形操作（transformation）
+
+10. *********
+
+Arithmetic Test
+
+11. *************
+
+Arithoh 1 2 3
+
+12. *************
+
+C Compiler Throughput 1 2 3
+
+13. *************
+
+Dc: sqrt(2) to 99 decimal places 1 2 3
+
+sqrt（2） 到 99 位小数
+
+14. *************
+
+Recursion Test--Tower of Hanoi 1 2 3
+
+15. *************
+
+join: file 2 is not in sorted order
+
+join: file 1 is not in sorted order
+</code></pre><p>### </p>
+<pre><code>参考
+</code></pre><ul>
+<li><p><a href="https://code.google.com/p/byte-unixbench/" target="_blank" rel="external">https://code.google.com/p/byte-unixbench/</a></p>
+</li>
+<li><p><a href="http://www.ddhow.com/blog/unixbench.html" target="_blank" rel="external">http://www.ddhow.com/blog/unixbench.html</a></p>
+</li>
+<li><p><a href="http://www.cnblogs.com/share-everything-i-do/articles/3179213.html" target="_blank" rel="external">http://www.cnblogs.com/share-everything-i-do/articles/3179213.html</a></p>
+</li>
+<li><p><a href="http://lbs.sourceforge.net/" target="_blank" rel="external">http://lbs.sourceforge.net/</a></p>
+<p>EndFragment</p>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/559.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1028,175 +1590,6 @@ fi
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/512.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/512.html" itemprop="url">
-                  路由器折腾小记
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-05T13:39:36+08:00">
-                2014-07-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>近段时间折腾路由器，小记一下</p>
-<h1 id="为什么要折腾路由器？"><a href="#为什么要折腾路由器？" class="headerlink" title="为什么要折腾路由器？"></a>为什么要折腾路由器？</h1><pre><code>之所以要折腾，自然是现在的路由器不能满足需求。之前用的是TP LINK 54M的无线路由器，4年前买的，想想也知道淘汰得差不多了。话说路由器确实是个耐用的东西，在电子产品中能用超过4年，绝对是老年级的，也说明这是个小众市场，毕竟淘汰速度慢
-
-到底哪些方面不给力呢？
-</code></pre><ul>
-<li><p>不稳定。尤其是无线方面，经常莫名其妙得连接不上，拔电源重启后就一切正常。估计是持续运行时间过长导致内部软件出问题</p>
-</li>
-<li><p>信号覆盖不强。主要指的就是穿墙能力了，路由器放客厅，在卧室信号就很弱，竟然还没有隔壁家无线信号强，这个太无语了，忍着别人家的辐射却上不了自家的网，想想就郁闷</p>
-</li>
-<li><p>翻墙不方便。这其实是最主要的原因。随着本界政府对大陆局域网建设步伐的加速，其行径越来越令人发指，越来越多的网站无法访问，实在忍无可忍</p>
-</li>
-</ul>
-<h1 id="软件：路由器之魂"><a href="#软件：路由器之魂" class="headerlink" title="软件：路由器之魂"></a>软件：路由器之魂</h1><pre><code>所谓折腾，其实主要是指折腾软件，毕竟折腾硬件现在还没经验。而软件，在路由器这一领域更多的称之为固件、ROM。在可折腾的固件榜单中，靠前的自然是Open WRT, DD WRT, tomato等等，其外还有华硕ROM之类的。经过简单比较后，选择了自己相对较熟悉的Open WRT 什么是Open WRT？这一点我就不再拾人牙慧，大家可以到网上简单一搜便可得知。比如[这一篇](http://baike.baidu.com/view/1671581.htm)和[这一篇](http://www.dz3w.com/mcu/linux/0075344.html)，Open WRT的由来还有一段趣闻哦，不妨一看 more
-</code></pre><h1 id="硬件：软件之基础"><a href="#硬件：软件之基础" class="headerlink" title="硬件：软件之基础"></a>硬件：软件之基础</h1><pre><code>要根据软件来选硬件（也即根据固件来选择路由器），而不是反过来，不然就是路由器折腾你、而非你折腾路由器了。Open WRT官方支持哪些路由器呢？简单，到这个网址上一看便知：[http://wiki.openwrt.org/toh/start](http://wiki.openwrt.org/toh/start)
-
-不过，打开网页你会发现，上面的列表长得吓人。怎么选呢？几个方面
-</code></pre><ul>
-<li><p>选能买得到的。因为一些已经不卖了，一些不在国内卖。说到这时忍不住要吐槽一些国内路由器厂商，比如TP LINK，一些性价比高的、配置说得过去的路由器竟然都不在自己母国卖，在国外的Amazon上倒是卖得挺欢。不知道原因，也不方便开骂，希望不是因为觉得国内的用户人傻钱多好骗，所以就卖些低端货</p>
-</li>
-<li><p>选配置高的。主要是ROM（也即闪存）高，这个是用来存放软件的地方。然后是RAM（也即内存）高，这个是软件运行时需要的空间。然后是CPU好（频率高、多核）。然后是一些最好支持的功能：千兆网卡、支持无线ac、支持5G无线、支持USB接口等等</p>
-</li>
-<li><p>选买得起的。或者说买预算内的，因为要烧硬件，几千元的路由器也不少</p>
-<pre><code>我选了哪款？Netgear WNDR3800，配置如下：芯片Atheros AR7161、CPU 680Mhz、闪存16M、内存128M、千兆网卡、无线支持802.11 a/b/g/n、支持5G、支持USB接口，唯一遗憾是不支持802.11 ac。之所以选这款是lifetyper君推荐的，自己也觉得不错。关于购买渠道，因为不在国内销售，只能从淘宝买国外的洋垃圾。注：Amazon原价$139.95，淘宝约200+。拿到手后就直接刷了Open WRT官方固件，目前用起来还算顺手
-</code></pre></li>
-</ul>
-<h1 id="翻墙"><a href="#翻墙" class="headerlink" title="翻墙"></a>翻墙</h1><pre><code>接下来就来到折腾的重点：翻墙。所谓墙，有很多种形式，比如DNS污染、屏蔽IP等等。相对应的，翻墙也有很多种方法。经过比较后，笔者选用的是lifetyper君所给出的[方案](https://github.com/lifetyper/FreeRouter_V2) 该方案核心思路是：在路由器使用VPN括号生成新的网关，利用Dnsmasq的ipset功能，配置哪些域名需要国外DNS服务器解析、哪些使用国内运营商的DNS服务器，哪些域名所对应的IP使用VPN网关访问、哪些使用国内的。这样的方案维护成本低，不需要客户端修改，确实很好用 这里要重点感谢下lifetyper君，他花了大量时间来解决我在折腾过程中碰到的奇奇怪怪的问题，谢谢
-</code></pre><h1 id="国内-ldquo-智能-rdquo-路由器"><a href="#国内-ldquo-智能-rdquo-路由器" class="headerlink" title="国内&ldquo;智能&rdquo;路由器"></a>国内&ldquo;智能&rdquo;路由器</h1><pre><code>这里忍不住要818国内所谓的&amp;ldquo;智能&amp;rdquo;路由器。殊不知，你经常听到的极路由、小米路由器等等，其实他们的固件都是基于Open WRT，而一般用户却可能压根不知道，为什么？因为他们从来不会在发布会、官网、广告等场合中提到这一点，反而讳莫如深，甚至威胁用户你如果刷成Open WRT官方固件，路由器就不保修（没错，说的是极路由，买了，不爽；但为了测试，忍住没退货）。明明深深依赖着开源代码，却不尊重开源、不回馈开源、甚至都不宣传开源，这样的行径实在让人不齿
-</code></pre><h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><pre><code>到目前为止，路由器的折腾告一段落。毕竟我不是这一领域的，不可能花大把的时间来折腾，满足自己的需求即可。不过，还是希望路由器的从业者，在谋求应得商业利益时，能减少用户所需要折腾的时间、精力，做出对用户来说好用、易用的产品。同时，如果你使用开源代码，一定要回馈开源社区
-</code></pre>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1246,7 +1639,7 @@ fi
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1153</span>
+                <span class="site-state-item-count">1154</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
