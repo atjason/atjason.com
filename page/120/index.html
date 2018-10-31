@@ -258,6 +258,185 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/IT/evernote-sdk-mac.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/IT/evernote-sdk-mac.html" itemprop="url">
+                  Improve evernote-sdk-mac
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-25T17:17:37+08:00">
+                2017-03-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Tips: official <a href="https://github.com/evernote/evernote-sdk-mac" target="_blank" rel="external"><em>evernote-sdk-mac</em></a> hasn’t been updated <strong>over around 4 years</strong>. You can image how many possible issues inside.</p>
+<p><img src="https://p.ilib.io/cn/y83qr.jpg" alt=""></p>
+<p>When add feature of export to Evernote from <a href="https://itunes.apple.com/cn/app/id1196268448?mt=12&amp;at=1000lv4R&amp;ct=klib_me" target="_blank" rel="external">Klib</a>, I fixed the issues in the SDK and improve it. Check what problems I ever met, and how you can safely walk around them.</p>
+<h1 id="What’s-changed-in-this-fork"><a href="#What’s-changed-in-this-fork" class="headerlink" title="What’s changed in this fork?"></a>What’s changed in this fork?</h1><p><a href="https://github.com/atjason/evernote-sdk-mac" target="_blank" rel="external">My fork</a></p>
+<ul>
+<li><p>Change <code>Dynamic Library Install Name Base</code> (i.e., <code>DYLIB_INSTALL_NAME_BASE</code>) from <code>/Library/Frameworks</code> to <code>@rpath</code>. </p>
+<ul>
+<li>If not, even you include <code>EvernoteSDK-Mac.framework</code> in your App, your App will still crash with error <em>dyld: Library not loaded: … Reason: image not found</em>. As <code>EvernoteSDK-Mac.framework</code> will definitely not be copied to <code>/Library/Frameworks</code>.</li>
+</ul>
+</li>
+<li><p>Could manually set Evernote token.</p>
+<ul>
+<li>This change isn’t necessary, as the SDK itself will save the token in system Keychain.</li>
+<li>But it will be flexiable if so, i.e., save token after authorization, and set it after app restarts.</li>
+</ul>
+</li>
+<li><p>Choose Evernote host based on parameter of host.</p>
+<ul>
+<li>The SDK will still choose host (i.e., ‘Evernote’, or ‘Evernote-China’) based on <code>getBootstrapInfoWithLocale</code>, even you set the host as <code>BootstrapServerBaseURLStringCN</code> (i.e., “app.yinxiang.com”) in <code>setSharedSessionHost</code> and <code>authenticate</code>.</li>
+<li>But this logic seems has issue (always chhose the first host from the list returned from Evernote sever).</li>
+<li>And sometimes, user want to manually choose host.</li>
+<li>For the reasons above, I modify the API to use Evernote host based on parameter of host.</li>
+</ul>
+</li>
+</ul>
+<h1 id="About-Evernote-API"><a href="#About-Evernote-API" class="headerlink" title="About Evernote API"></a>About Evernote API</h1><p>Beside the SDK itself above, you also need to pay attention on Evernote API.</p>
+<ul>
+<li>Try to activate Evernote API as early as possible. No one guarantee how much time you need to wait before Evernote really activate it.<ul>
+<li>Tips: you will not get any confirm email after request to activate API.</li>
+<li>If you thought Evernote ignore your request, you can try to reach them in Twitter <a href="https://twitter.com/evernotehelps" target="_blank" rel="external">@evernotehelpst</a></li>
+</ul>
+</li>
+<li>By default, Evernote only activate API for Evernote international rage. If you want to provide service in ‘Evernote-China’ (i.e., Yinxiang Biji), you need to manually request Evernote team to do so. Just reply the confirm email about activation.</li>
+</ul>
+<h1 id="About-NoteStore-findNotesMetadata"><a href="#About-NoteStore-findNotesMetadata" class="headerlink" title="About NoteStore.findNotesMetadata"></a>About <code>NoteStore.findNotesMetadata</code></h1><ul>
+<li>@param  maxNotes The maximum notes to return in this query. The service will return a set of notes that is no larger than this number, but may return fewer notes if needed. The NoteList.totalNotes field in the return value will indicate whether there are more values available after the returned set. Currently, the service will not return more than <strong>250</strong> notes in a single request, but this number may change in the future.</li>
+<li>The <strong>250</strong> means, if you have more than 250 notes in the query, you need to query for times.</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/book/201704.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -832,156 +1011,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-21.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-03-21.html" itemprop="url">
-                  0321 - 用「好」工具 &「用好」工具
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-21T19:52:25+08:00">
-                2017-03-21
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><strong>用「好」工具</strong></p>
-<p>时间宝贵、过有品质的生活，就不要再忍受蹩脚的工具了。</p>
-<p>比如，同样是微博客户端，官方的版本有漫长的启动广告，还有作为男士并不喜闻乐见的生理期用品广告；另一方面是很多优秀的第三方微博客户端（如我用的「奇点」），既没有广告、交互还更简洁。</p>
-<p>那为什么不用更好的工具呢？</p>
-<p><strong>「用好」工具</strong></p>
-<p>通常，工具的创造者想的比较用户更多，考虑了各种场景的适配。如果发现正在用的工具无法达到某个目的，在骂娘和寻找替代品之前，最好先花点时间研究下，是不是有自己未发现的点。毕竟，时间宝贵，更换工具也是有成本的。</p>
-<hr>
-<p><strong>用「好」工具，避免在蹩脚的工具上浪费时间；</strong></p>
-<p><strong>「用好」工具，提高效率、节约时间。</strong></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1031,7 +1060,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1158</span>
+                <span class="site-state-item-count">1159</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

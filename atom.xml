@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-29T13:29:53.688Z</updated>
+  <updated>2018-10-30T13:17:17.509Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1030 - 坚决收窄技术面</title>
+    <link href="https://atjason.com/daily/2018-10-30.html"/>
+    <id>https://atjason.com/daily/2018-10-30.html</id>
+    <published>2018-10-30T14:00:00.000Z</published>
+    <updated>2018-10-30T13:17:17.509Z</updated>
+    
+    <content type="html"><![CDATA[<p>搞了很久的 js/node 开发后，现在开始更新基于 Swift 的项目，感觉很吃力；尤其 Swift 版本间差别很大。</p>
+<p>很不喜欢这样的感觉。坚决收窄技术面，目前暂定为基于 js/node 的后端，并稍微涵盖前端。</p>
+<p>最重要的是解决问题的能力。而解决问题，需要趁手的工具。工具无论好坏，重要的是趁手、效率高，拿起来就能干活，而不是边干活、边搜索工具怎么用，这太 Low 了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;搞了很久的 js/node 开发后，现在开始更新基于 Swift 的项目，感觉很吃力；尤其 Swift 版本间差别很大。&lt;/p&gt;
+&lt;p&gt;很不喜欢这样的感觉。坚决收窄技术面，目前暂定为基于 js/node 的后端，并稍微涵盖前端。&lt;/p&gt;
+&lt;p&gt;最重要的是解决问题的能力。而解
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1029 - 拒绝舒适</title>
@@ -524,30 +549,6 @@
       &lt;p&gt;错过一个机会，感觉再也没有这么好的机会了，捶胸顿足？&lt;br&gt;失败了，灰心丧气了，觉得再有没有翻身的机会了？&lt;/p&gt;
 &lt;p&gt;其实，投资、或者获得幸福的生活、或者任何事，最重要的是什么？&lt;strong&gt;不要早死&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;只要不下牌桌，就有机会。&lt;br&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1010 - 不要总在原地打转</title>
-    <link href="https://atjason.com/daily/2018-10-10.html"/>
-    <id>https://atjason.com/daily/2018-10-10.html</id>
-    <published>2018-10-10T14:00:00.000Z</published>
-    <updated>2018-10-10T01:54:35.103Z</updated>
-    
-    <content type="html"><![CDATA[<p>你现在纠结的问题，是否昨天也纠结过？如果是，既然今天还在纠结，昨天不是白纠结了？所花的时间和心力也都浪费了。</p>
-<p>我们总是低估了纠结的成本。比如，你纠结买 A 还是买 B、是否「斥巨资」换最新款 iPhone，甚至，你纠结的机会成本，都够 2 个都买了。如果不纠结，释放的时间，够你做一些事。举个夸张的例子：这点时间，你可以买个彩票并中大奖。</p>
-<p>如果想不通、或者已经想过了，那么，要么扔掉不要再想了，要么随便选个、撸起袖子就是干。人生苦短，莫纠结，不要总在原地打转。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;你现在纠结的问题，是否昨天也纠结过？如果是，既然今天还在纠结，昨天不是白纠结了？所花的时间和心力也都浪费了。&lt;/p&gt;
-&lt;p&gt;我们总是低估了纠结的成本。比如，你纠结买 A 还是买 B、是否「斥巨资」换最新款 iPhone，甚至，你纠结的机会成本，都够 2 个都买了。如果不纠结
     
     </summary>
     
