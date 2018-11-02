@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-10-31T14:10:21.518Z</updated>
+  <updated>2018-11-02T14:40:31.461Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1102 - 做事，选择简单还是难？</title>
+    <link href="https://atjason.com/daily/2018-11-02.html"/>
+    <id>https://atjason.com/daily/2018-11-02.html</id>
+    <published>2018-11-02T14:00:00.000Z</published>
+    <updated>2018-11-02T14:40:31.461Z</updated>
+    
+    <content type="html"><![CDATA[<p>Klib 中有个「分享」功能，就是把自己某本书的标注分享成网页，比如 <a href="http://s.klib.me/7Z9gj9.html" target="_blank" rel="external">这篇</a></p>
+<p>从开发的角度，这个功能很复杂，有单独维护一个服务器，接收来自 Klib 的分享、取消分享、更新分享内容、权限管理，还要考虑 CDN 分发、分发内容的及时更新，等等。</p>
+<p>截止目前，从性价比来看，这个功能并不高。收益一般，维护成本很高；只要有 1 位用户在使用，就要保持这个服务 100% 在线。时间长了，当对服务端的代码不熟悉时，一旦有问题，就要花很多时间来修复。</p>
+<p>当初，自己是为了学习 Python 后端开发，并尝试下分享，才上的这个功能。从学习的角度，这是好的。而从产品的角度，则很难说。</p>
+<p>不过，反过来，如果总是做很简单的功能，且不说长期对自己的成长不利，即便从产品、从商业角度，也缺乏必要的护城河，很容易「被致敬」。而如果分享功能正巧很多人在用、带来很多收益，这个相对复杂的功能，就一定程度充当护城河，不那么容易被抄袭。</p>
+<p><strong>初期，可以「取巧」，用最小的代价，换取最大的收益。<br>而随着自己的成长，需要考虑壁垒，需要「守正」；用不断提高的门槛，保护自己的领地。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Klib 中有个「分享」功能，就是把自己某本书的标注分享成网页，比如 &lt;a href=&quot;http://s.klib.me/7Z9gj9.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这篇&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;从开发的角度，这个功能很复杂，有单独
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1101 - 给自己挖了个大坑</title>
+    <link href="https://atjason.com/daily/2018-11-01.html"/>
+    <id>https://atjason.com/daily/2018-11-01.html</id>
+    <published>2018-11-01T14:00:00.000Z</published>
+    <updated>2018-11-01T15:18:40.396Z</updated>
+    
+    <content type="html"><![CDATA[<p>本来，今天挺好的：新版 iText 审核通过，Klib 的暗色模式也实现完毕。可，无意间发现之前填下的一个大坑，心情顿时跌入谷底。</p>
+<p>之前的代码中，用哈希值作为 key 值…</p>
+<p>哎，我怎么会写出这样的代码…</p>
+<p>哈希，主要是确定不同，而不是确定唯一性。换句话说，哈希主要是为了毕竟 2 个值是否不同（当然，极低概率下，哈希相同的 2 个值，可能也是不同的）；而同一个原始值的哈希值，是很有可能变动的。比如，操作系统升级、Swift 运行环境升级等等因素，都有可能让基于 Swift 编写的哈希值变更。</p>
+<p>主要的麻烦是，产品已经发出去了。要升级，必须保证已有用户的已有数据不受影响，这个挑战是非常大的。还好当时自己在数据库中冗余保留了原始数据，还有机会根据原始数据重新生成有唯一性的值，比如 MD5 值。</p>
+<p>哎，再骂一次当年的自己，怎么那么年轻…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本来，今天挺好的：新版 iText 审核通过，Klib 的暗色模式也实现完毕。可，无意间发现之前填下的一个大坑，心情顿时跌入谷底。&lt;/p&gt;
+&lt;p&gt;之前的代码中，用哈希值作为 key 值…&lt;/p&gt;
+&lt;p&gt;哎，我怎么会写出这样的代码…&lt;/p&gt;
+&lt;p&gt;哈希，主要是确定不同，而不是
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1031 - 苹果什么时候开新产品线呢？</title>
@@ -488,71 +544,6 @@
       &lt;p&gt;年纪越大，越觉得要谨慎说话。&lt;/p&gt;
 &lt;p&gt;话说，通常是在表达观点，尤其可能是对人的指点。而要说的对，前提是自己确实认识清楚，观点是对的。做到这一点，太难了。&lt;/p&gt;
 &lt;p&gt;世事那么复杂，岂是自己惊鸿一瞥就能洞悉的。自己看到的那一面，可能只是事情很不真眼的一面。且，事情、人
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1013 - 不要停留在过去的美好</title>
-    <link href="https://atjason.com/daily/2018-10-13.html"/>
-    <id>https://atjason.com/daily/2018-10-13.html</id>
-    <published>2018-10-13T14:00:00.000Z</published>
-    <updated>2018-10-13T13:41:27.193Z</updated>
-    
-    <content type="html"><![CDATA[<p>娃周岁的时候，没有去照相馆照相，为此妈唠叨了好多次。我想了想，这里面还是有些可以说道的东西。</p>
-<ul>
-<li>老人生活的那个年代，照相都是很少见的。在重要的日子里照相，几乎是自然而然外加必然的事。结果，轮到自己孙辈的周岁，竟然不照相，简直难以理解。<ul>
-<li>事实上，现在大家都习惯用手机拍照、每天拍很多张。</li>
-</ul>
-</li>
-<li>老人觉得照片可以保存得久，而手机丢了，就什么都没有了。<ul>
-<li>是，手机可能会丢，但如果保存至 Google Photos 等云上，丢的概率就小很多（姑且这么认为吧），外加有硬盘之类的备份，其实不用担心。</li>
-</ul>
-</li>
-<li>还有一些细节的原因，比如我觉得照相馆照相麻烦，照片显得假，等等。</li>
-</ul>
-<p>其实，对我来说，更深层次的原因是：<strong>既然娃每天都鲜活地在身边，为什么要花时间去看过去照片呢？</strong>想象这样的场景：娃在身边玩耍，自己却捧着他周岁时的照片看，不觉得很奇怪吗？买椟还珠的感觉。</p>
-<p>再往下说，是，过去可能很美好，可未来可能更美好。<strong>相同的时间，与其沉浸在过去，不如享受当下、或者追求未来的美好。</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;娃周岁的时候，没有去照相馆照相，为此妈唠叨了好多次。我想了想，这里面还是有些可以说道的东西。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;老人生活的那个年代，照相都是很少见的。在重要的日子里照相，几乎是自然而然外加必然的事。结果，轮到自己孙辈的周岁，竟然不照相，简直难以理解。&lt;ul&gt;
-&lt;li
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1012 - 奇怪的量子效应</title>
-    <link href="https://atjason.com/daily/2018-10-12.html"/>
-    <id>https://atjason.com/daily/2018-10-12.html</id>
-    <published>2018-10-12T14:00:00.000Z</published>
-    <updated>2018-10-12T15:06:00.060Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天拿到一台电脑，登录时密码提示为「3-2」，我试了好一会，什么 123/321/222；最后，才试出来密码是：1</p>
-<p>一旦知道了密码，是不是觉得很直接、很简单？对。但，在知道密码之前，或者说在知道确定解之前，有无数可能。思维，就在这无数可能间跳跃。突然，灵光一闪，想到某种可能。一试，果然正确。</p>
-<p>这种感觉，让我想到量子效应。比如说电子，一个原子中的某个电子，是以光速在运动的。且，并不是在一个圆、或者球的轨迹中运动，而像一团缭绕的云。换句话说，<strong>电子可能出现在云中任何地方</strong>。那么，到底在云中的哪个地方呢？不确定，有万千可能。</p>
-<p>可，<strong>一旦你通过某种方式观察到了它，电子就一下子从万千可能中，坍缩到某一个具体的点</strong>。</p>
-<p>知道之前，万千可能；<br>知道之后，结果确定。</p>
-<p><strong>你觉得你知道了？你可能只是扼杀了万千可能</strong>。薛定谔的猫，是被你杀死的。</p>
-<p>习得，就是有这个性质。你觉得你学到了 1+1=2，可能你只是扼杀了 2 之外的所有可能。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天拿到一台电脑，登录时密码提示为「3-2」，我试了好一会，什么 123/321/222；最后，才试出来密码是：1&lt;/p&gt;
-&lt;p&gt;一旦知道了密码，是不是觉得很直接、很简单？对。但，在知道密码之前，或者说在知道确定解之前，有无数可能。思维，就在这无数可能间跳跃。突然，灵光一闪
     
     </summary>
     
