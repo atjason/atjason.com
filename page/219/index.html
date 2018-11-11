@@ -258,6 +258,178 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/632.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/632.html" itemprop="url">
+                  优化Quartz Composer (Origami)的性能
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-25T17:04:10+08:00">
+                2015-05-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PM/" itemprop="url" rel="index">
+                    <span itemprop="name">PM</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>StartFragment使用过Quartz Composer(Origami)的朋友会有感觉，这家伙是个耗性能的大户。如果你还不打算切换工具、或者离不开QC强大的交互设计功能，就试试下面介绍的优化建议吧。</p>
+<p>主要的调整是在系统偏好设置中进行：</p>
+<p><a href="https://p.ilib.io/cn/6zxqv.jpg" target="_blank" rel="external"><img src="https://p.ilib.io/cn/rk9mj.jpg" alt="Quartz Composer设置"></a></p>
+<p>Viewer (Preferences &gt; Viewer)</p>
+<ul>
+<li><p>降低帧率</p>
+<pre><code>*   这应该是最有效的方式。可以在开发过程中设置低的帧率，在演示过程中再将其调高
+</code></pre><ul>
+<li>具体的，可将&quot;Maximum rendering frame rate&quot;调低至10，演示时可调至&quot;Unlimited&quot;</li>
+</ul>
+</li>
+<li><p>降低Viewer窗口的尺寸</p>
+<pre><code>*   这个没有严格的依据，只是根据心理上的理解，窗体小、执行动画时需要重绘的面积小，需要消耗的性能也少
+</code></pre></li>
+</ul>
+<p>Editor</p>
+<ul>
+<li><p>取消阴影</p>
+<pre><code>*   猜想可以降低绘制阴影的消
+</code></pre></li>
+<li><p>取消网络线</p>
+<pre><code>*   虽然网络线可以帮助在视觉上对齐，但实际上吸附的操作还是通过&amp;quot;Align Nodes&amp;quot;实现的，所以可以取消网络
+</code></pre></li>
+<li><p>关闭Patch的Render</p>
+<pre><code>*   也即，在不需要展示某些Patch时，暂时关闭这些Patch的Render，等需要时再打开
+</code></pre></li>
+</ul>
+<p>注意：在调整过程中，可以同时打开Activity Monitor，观察调整前后，在Viewer中操作时CPU使用率的变化。</p>
+<p>终极方案：关闭Viewer</p>
+<pre><code>熟练使用快捷键，在需要查看时使用⌘+R支持Viewer，不需要进使用⌘+.关闭Viewer
+</code></pre><p>EndFragment</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/603.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1188,191 +1360,6 @@ EndFragment
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/569.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/569.html" itemprop="url">
-                  在手机上运行Axure设计的原型
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-14T16:18:40+08:00">
-                2014-07-14
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/PM/" itemprop="url" rel="index">
-                    <span itemprop="name">PM</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>对于移动App的原型，如果能在手机上运行，像本地程度一样运行，会带来更真实的体验。本文简要记录使Axure原型能在iPhone 5s上运行</p>
-<p># </p>
-<pre><code>使用Axure设计原型并导出
-
-Axure设计时，和普通原型设计要比，要注意的地方有几点：
-
-**原型尺寸的选择**
-
-iOS的屏幕尺寸目前是有限的几种，原型尺寸要和其一致。比如320*640。不过，由于Axure导出的原型在iOS上处理status bar时有问题，需要在高度上减去status bar的高度，比如使用320*548
-
-**导出原型时的选项**
-
-在&amp;quot;Public &amp;gt; Generate HTML files &amp;gt; Mobile/Device&amp;quot;中，使用如下选项：
-
-more
-
-[![](https://p.ilib.io/cn/jii4g.png)​](https://p.ilib.io/cn/lrq4b.png)
-
-注意，为了使原型更加逼真，可以使用实际App会采用的真实图标
-</code></pre><p># </p>
-<pre><code>在iPhone 5s上测试
-
-将导出的html放在web服务器中，使其可以在其他环境中访问。比如Mac自带的Apache、自己的小网站，等等。比如，本文对应的原型可以在这访问：[http://atjason.com/Axure/iPhone_Framework/home.html](http://atjason.com/Axure/iPhone_Framework/home.html)
-
-在iPhone上使用Safari打开，然后添加至桌面：&amp;quot;Share &amp;gt; Add to Home Screen &amp;gt; Add&amp;quot;
-
-从手机桌面打开此原型，即可得到类似于原生App的使用体验
-
-注，本文以iOS、iPhone 5s为例，其实对于其他Android手机、其他分辨率，原理是相同的
-</code></pre><p>## </p>
-<pre><code>下载
-
-[iPhone Framework.rp](http://atjason.com/Axure/iPhone_Framework.rp)
-</code></pre><p>### </p>
-<pre><code>参考
-</code></pre><ul>
-<li><p><a href="http://www.axure.com/forum/mobile-prototyping/7886-viewport-sizing-problems.html" target="_blank" rel="external">http://www.axure.com/forum/mobile-prototyping/7886-viewport-sizing-problems.html</a></p>
-</li>
-<li><p><a href="http://www.smashingmagazine.com/2012/08/17/mobile-prototyping-axure-rp/" target="_blank" rel="external">http://www.smashingmagazine.com/2012/08/17/mobile-prototyping-axure-rp/</a></p>
-</li>
-<li><p><a href="http://cdc.tencent.com/?p=7246" target="_blank" rel="external">http://cdc.tencent.com/?p=7246</a></p>
-<p>EndFragment</p>
-</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1422,7 +1409,7 @@ more
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1169</span>
+                <span class="site-state-item-count">1170</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
