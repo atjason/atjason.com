@@ -69,14 +69,14 @@
 <meta property="og:url" content="https://atjason.com/daily/2016-10-07.html">
 <meta property="og:site_name" content="Jason">
 <meta property="og:description" content="我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…  macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪… 就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。">
-<meta property="og:image" content="https://ohpsctde4.qnssl.com/n473i.jpg">
-<meta property="og:image" content="https://ohpsctde4.qnssl.com/hmngf.jpg">
-<meta property="og:image" content="https://ohpsctde4.qnssl.com/gdwow.png">
-<meta property="og:updated_time" content="2017-04-23T14:39:17.000Z">
+<meta property="og:image" content="https://ps.toolinbox.net/n473i.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/hmngf.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/gdwow.png">
+<meta property="og:updated_time" content="2018-11-12T01:38:39.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="1007 - iPic + Swift 3">
 <meta name="twitter:description" content="我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…  macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪… 就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。">
-<meta name="twitter:image" content="https://ohpsctde4.qnssl.com/n473i.jpg">
+<meta name="twitter:image" content="https://ps.toolinbox.net/n473i.jpg">
 
 
 
@@ -356,7 +356,7 @@
 
       
         <p>我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…</p>
-<p><img src="https://ohpsctde4.qnssl.com/n473i.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/n473i.jpg" alt=""></p>
 <p>macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪…</p>
 <p>就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。</p>
 <a id="more"></a>
@@ -369,7 +369,7 @@
 <p>说回来，由于没有仔细看每一处变化，导致心里很慌：不知道哪有雷啊。虽然单元测试也努力跑通了，但就是跑通的太快了，反而更慌了。</p>
 <h1 id="深坑在细节"><a href="#深坑在细节" class="headerlink" title="深坑在细节"></a>深坑在细节</h1><p>『大体能跑通』，这其实是很不靠谱的。需要花费大量时间搞定的，可能是其中某一个细节问题。</p>
 <p>我遇到的一个是：base64 编码。现象是 iPic 怎么都不能上传图片至 Flickr，错误原因是生成的 Token 错误。可之前就是这么干的呀？最痛的地方在于， Flickr 生成 Token 是个巨复杂的过程（下图稍微感受下），其中每个步骤都可能出错，这就意味着每个步骤都要仔细过；偏偏之前偷懒这部分单元测试不全（哎…）于是，开始了漫长的调试。</p>
-<p><img src="https://ohpsctde4.qnssl.com/hmngf.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/hmngf.jpg" alt=""></p>
 <p>最后的原因是，之前的 base64 相关的编码结果中，<code>:</code> 是被转义的，而新的代码（即被 XCode 转换、而我没仔细看的代码），貌似 <code>:</code> 没有被转义，导致 Token 无效（未严格验证原因，总之解决问题了…）</p>
 <p><strong>忠告</strong>：单元测试、自动化测试不能偷懒。99.99% 的情况下，我们做不到测试驱动开发，但还是要在开发每个功能后、在对这个功能最熟悉的时候，补全单元测试、测试用例。</p>
 <p><strong>小技巧</strong>：在功能完成后，写单元测试其实还算简单。先把单元测试的架子搭好，正确值留白；然后直接运行，肯定会出错。关键，XCode 会给出正确值。这时，只要把 XCode 的值复制到正确值即可，相对还算轻松。</p>
@@ -384,7 +384,7 @@
 <h1 id="那个啥，啥是-iPic？"><a href="#那个啥，啥是-iPic？" class="headerlink" title="那个啥，啥是 iPic？"></a>那个啥，啥是 iPic？</h1><p>哦，这事啊；</p>
 <p>iPic 可以自动上传图片、保存 Markdown 链接，给你前所未有的插入体验（图片）；支持微博、七牛、又拍、阿里云、S3、Imgur、Flickr 等一票图床。总之各种爽，谁用谁知道。</p>
 <p>具体看 <a href="http://toolinbox.net/iPic/" target="_blank" rel="external">图床神器 iPic 操作动画</a></p>
-<p><img src="https://ohpsctde4.qnssl.com/gdwow.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/gdwow.png" alt=""></p>
 
       
     </div>
@@ -512,7 +512,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1170</span>
+                <span class="site-state-item-count">1171</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

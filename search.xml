@@ -4,6 +4,23 @@
   
     
     <entry>
+      <title><![CDATA[1111 - 适应变化]]></title>
+      <url>https://atjason.com/daily/2018-11-11.html</url>
+      <content type="html"><![CDATA[<p>这两天，突然家人有件紧急的事，我必须花大量时间来处理，完全打乱了自己原来的节奏。</p>
+<p>遇到变化时，首先在判断，这事有多紧急、多重要，是否必须要做、能否延迟，是否要中断原来的计划。如果中断，那么这件事做到什么程度即可降低优先级，恢复中断前的计划，等等。</p>
+<p>像程序调度一样，中断是不可避免的，所以必须要能够适应做事时被打断。但要有就对中断的步骤，而且心态要调整好。重要的是把事做完，做出成果。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[1110 - 注释释放自己的情绪]]></title>
       <url>https://atjason.com/daily/2018-11-10.html</url>
       <content type="html"><![CDATA[<p>人总是会积压各种负面情绪，这些情绪总是需要释放的。</p>
@@ -5443,7 +5460,7 @@
 </ul>
 </li>
 <li>将剩下的标注导出为 html 文件，操作示意：<ul>
-<li><img src="https://ohpsctde4.qnssl.com/vo0ua.jpg" alt=""></li>
+<li><img src="https://ps.toolinbox.net/vo0ua.jpg" alt=""></li>
 </ul>
 </li>
 <li>使用 Klib 导入 html 文件<ul>
@@ -5881,6 +5898,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -5922,22 +5955,6 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -6627,7 +6644,7 @@
 <li><a href="https://atjason.com/">博客</a></li>
 <li>朋友圈</li>
 <li><a href="https://weibo.com/atjasonzone/" target="_blank" rel="external">微博</a></li>
-<li><a href="https://ohpsctde4.qnssl.com/nckv0.jpg" target="_blank" rel="external">公众号「自在开发」</a></li>
+<li><a href="https://ps.toolinbox.net/nckv0.jpg" target="_blank" rel="external">公众号「自在开发」</a></li>
 <li><a href="https://twitter.com/hereisjason" target="_blank" rel="external">Twitter</a></li>
 <li><a href="https://www.facebook.com/jason.zheng.7773" target="_blank" rel="external">Facebook</a></li>
 </ul>
@@ -9973,13 +9990,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
-      <url>https://atjason.com/daily/2017-07-29.html</url>
-      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
-<p>至此，理论部分算是学完了。</p>
-<p>下一步，开始实战。</p>
-<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
-<p>明天，先从产品角度考虑，确定交互。</p>
+      <title><![CDATA[0728 - Core 了一天 Data]]></title>
+      <url>https://atjason.com/daily/2017-07-28.html</url>
+      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
+<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
+<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
+<hr>
+<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
+<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
+<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
 ]]></content>
       
         <categories>
@@ -9992,15 +10011,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0728 - Core 了一天 Data]]></title>
-      <url>https://atjason.com/daily/2017-07-28.html</url>
-      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
-<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
-<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
-<hr>
-<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
-<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
-<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
+      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
+      <url>https://atjason.com/daily/2017-07-29.html</url>
+      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
+<p>至此，理论部分算是学完了。</p>
+<p>下一步，开始实战。</p>
+<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
+<p>明天，先从产品角度考虑，确定交互。</p>
 ]]></content>
       
         <categories>
@@ -10037,24 +10054,6 @@
 <p>虽然，我们这个层次的人，通常会为了性能、性价比，去追捧小米这些品牌。但是，对于「老板」这种极具消费能力的群体，性价比俨然是他们鄙视的东西。相反，他们会有自己的需求，比如，在与客户第一次见面时，能想办法彰显自己的财富、地位、权力等等信息，手机这种出镜率如此之高的物品，自然是核心部件之一。8848 的定位，我感觉非常契合这个群体的需求。再加上王石等大牌的代言，相信会击中这些土壕们心中的软肉。</p>
 <hr>
 <p>深刻理解用户的消费心理，能在深层次满足这些心理的东西，才是好东西。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
-      <url>https://atjason.com/daily/2017-07-25.html</url>
-      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
-<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
-<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
-<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
 ]]></content>
       
         <categories>
@@ -10255,6 +10254,24 @@
         <categories>
             
             <category> IndieDev </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
+      <url>https://atjason.com/daily/2017-07-25.html</url>
+      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
+<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
+<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
+<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -10533,7 +10550,7 @@
 <p>也就是说，<strong>Cocoa 是这样一个中间环节：负责衔接你的应用与窗口系统，同时也可直接操作系统底层。</strong></p>
 <p><strong>界面的开发，是个无底洞</strong>；可以是个简单的单窗口应用，也可以是 Pages、iMovie 这样复杂的应用。</p>
 <p><strong>对于初学者，建议从菜单栏程序入手</strong>。可以暂时绕开窗口、控件这些复杂的话题，又可以创建出能解决实际问题的一些应用。比如，iPic 主交互即位于菜单栏：</p>
-<p><img src="https://ohpsctde4.qnssl.com/th82z.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/th82z.png" alt=""></p>
 <p>这部分，可参见我之前写的教程：<a href="https://en.atjason.com/Cocoa/Status%20Bar%20App.html" target="_blank" rel="external">Status Bar App</a> 教程是 16 年 4 月写的，现在来看有些可能已经过时，比如当时是基于 Swift 2.2；不过整体还是可以参考的。</p>
 <p>回到界面的开发。首先，<strong>要理解 App 的整体生命周期。</strong>尤其是 App 启动时，都做了哪些事、先后顺序及依赖是什么。</p>
 <p>然后，<strong>实际的工作，就是搞定界面布局，以及熟悉一个个控件的用法</strong>，如 NSButton、NSTextField、NSTableView 等等。<strong>建议的学习步骤：</strong></p>
@@ -10736,7 +10753,7 @@
 <p><strong>我实在不想增加这一设置项</strong>，所以实际上我是这么做的：<strong>用户不需要指定地区，iPic 自动尝试所有地区</strong>。如果图床的其他信息如 Key 是正确的，则可以找到正确的地区。这一方案，唯一问题是：一旦七牛又新开了区域，iPic 就得多尝试一个地区。至少，iPic 需要从服务器端获取七牛所有的区域列表，多了一点点维持工作量。不过，为了减少界面上一个设置项，这些都是值得的。</p>
 <p>其实，不止七牛，别的图床也有类似的问题。不过，要好一些。比如，Amazon S3 如果选择错误的地区上传，返回结果中会包含正确的地区，选用即可。</p>
 <p>这样以后，<strong>七牛、又拍、阿里云 OSS、Amazon S3 的图床配置界面一模一样，这降低了用户的使用成本，也让我很满意。</strong></p>
-<p><img src="https://ohpsctde4.qnssl.com/sk70s.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/sk70s.png" alt=""></p>
 <h2 id="开放图片上传能力的-iPicUploader"><a href="#开放图片上传能力的-iPicUploader" class="headerlink" title="开放图片上传能力的 iPicUploader"></a>开放图片上传能力的 iPicUploader</h2><p>iPic 一个比较重要的场景：<strong>在使用 Markdown 写文章时，插入图片</strong>。那与其单独使用 iPic 这样一个额外的 App，直接使用 Markdown 编辑器来插图，岂不更好？不过事实上，仅有少量的 Markdown 编辑器支持图床功能（如我在用的 MWeb），大部分并不支持。</p>
 <p>正巧，Typora 作者联系上我，希望与 iPic 集成，可谓一拍即合。</p>
 <p>于是，我好好研究了在 macOS 沙盒限制下，各个 App 间通信的方式。最后，我选择了<strong>「私有剪贴板」这种方式</strong>（这个名字是我自己取的），<strong>既可以安全地上架 Mac App Store，也不会对用户的通用剪贴板造成干扰</strong>。事实上，在我向 Bear（对，就是前段时间大红大紫的 Markdown 编辑器 Bear）介绍时，他们也夸赞这种方式。只可惜，他们没接入 iPic…</p>
@@ -10771,7 +10788,7 @@
 <li>默认的（微博）图床免费，所有 iPic 的功能免费</li>
 <li>自定义图床收费，图床包括：七牛云 、又拍云、阿里云 OSS 、Imgur 、Flickr 、Amazon S3 共 6 款，包含了目前主流的图床，收费模式为 ￥58 每年</li>
 </ul>
-<p><img src="https://ohpsctde4.qnssl.com/th82z.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/th82z.png" alt=""></p>
 <p>其实，默认的微博图床还是挺好的：免费、不限流量、CDN 加速、稳定可靠、支持 https 等等，主要的局限是：</p>
 <ul>
 <li>不支持 png 格式</li>
@@ -11400,7 +11417,7 @@
 <p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fgpoqklmhzg30eg0ec4gf.gif" alt=""></p>
 <p>附上文中：<a href="http://s.klib.me/share.html" target="_blank" rel="external">《简单思考》的读书笔记</a></p>
 <h2 id="新版限时优惠"><a href="#新版限时优惠" class="headerlink" title="新版限时优惠"></a>新版限时优惠</h2><p>新版上架，高级版内购限时 <strong>半价</strong> 优惠，手握 Kindle 的朋友，可考虑入手。</p>
-<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1000lv4R&amp;ct=klib_sspai" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/0vsw5.jpg" alt="Mac App Store"></a></p>
+<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1000lv4R&amp;ct=klib_sspai" target="_blank" rel="external"><img src="https://ps.toolinbox.net/0vsw5.jpg" alt="Mac App Store"></a></p>
 <hr>
 <p>如何让阅读这件事更愉悦，欢迎各位 Kindler 留言交流。</p>
 ]]></content>
@@ -11762,7 +11779,7 @@
 <hr>
 <p><strong>我所说的，都是错的。</strong></p>
 <p>那么，我的公众号「<strong>自在开发</strong>」，你还关注吗？每周二早 8 点，技术长文、准时推送。</p>
-<p><img src="https://ohpsctde4.qnssl.com/nckv0.jpg" alt="自在开发"></p>
+<p><img src="https://ps.toolinbox.net/nckv0.jpg" alt="自在开发"></p>
 ]]></content>
       
         <categories>
@@ -11901,7 +11918,7 @@
       <url>https://atjason.com/daily/2017-06-14.html</url>
       <content type="html"><![CDATA[<p>严重拖堂之后，终于完成了 Klib 笔记分享的后端部分。目前的方案了实现，基本满意。也想好下周公众号要发的文章了：描述 Klib 笔记分享的技术造型与关键点。</p>
 <p>关注我的公众号「自在开发」，下周二、下下周二、下下下周二早 8 点…准时分享技术长文。</p>
-<p><img src="https://ohpsctde4.qnssl.com/nckv0.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/nckv0.jpg" alt=""></p>
 ]]></content>
       
         <categories>
@@ -12059,7 +12076,7 @@
 <p>于是，使用 <a href="http://supervisord.org/" target="_blank" rel="external">Supervisor</a>，监控程序运行，挂了就立即重新运行。</p>
 <h2 id="5-尾巴"><a href="#5-尾巴" class="headerlink" title="5) 尾巴"></a>5) 尾巴</h2><p>这么枯燥、这么长的文章你都能看完？牛！</p>
 <p>关注我的公众号「自在开发」，下周二、下下周二、下下下周二早 8 点…准时分享技术长文。</p>
-<p><img src="https://ohpsctde4.qnssl.com/nckv0.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/nckv0.jpg" alt=""></p>
 <p>Python 我只是入门，要学的东西还很多，以后还会有小结、分享。</p>
 <p>未完待续…</p>
 ]]></content>
@@ -12150,7 +12167,7 @@
 </ul>
 <p>已发文章：「<strong>坚果 Pro 的红与黑</strong>」</p>
 <p>下周一主题：「<strong>实用主义者的 Python 入门</strong>」如果感兴趣，不然先扫码占坑、坐等下周一推送。</p>
-<p><img src="https://ohpsctde4.qnssl.com/nckv0.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/nckv0.jpg" alt=""></p>
 ]]></content>
       
         <categories>
@@ -12192,7 +12209,7 @@
     <entry>
       <title><![CDATA[0607 - 坚果 Pro 使用体验]]></title>
       <url>https://atjason.com/daily/2017-06-07.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/rtod1.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/rtod1.jpg" alt=""></p>
 <p>锤子的坚果 Pro 用了一周了，来说说使用感受吧。</p>
 <p>购买经历：</p>
 <ul>
@@ -12433,7 +12450,7 @@
     <entry>
       <title><![CDATA[0530 - Radxa 又复活了]]></title>
       <url>https://atjason.com/daily/2017-05-30.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/xp8v3.JPG" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/xp8v3.JPG" alt=""></p>
 <p>最近，项目上需要一个能 24 小时运行的桌面版操作系统，像 Raspberry Pi、Radxa 这样的板子，简单是太适合了。于是，拿出吃灰已久的 Radxa，重新刷新了 Ubuntu Desktop，配置了一下环境，完美运行所需要的小程序，爽！</p>
 <hr>
 <p>平时积累的素材、能力，总会有需要的时候。当然，如果能和大方向关联，就更实在了。比如，Facebook 创始人扎克伯格每年的习惯：学中文、每天写代码、每天打领带、每天认识一个公司以外的人…都是和公司战略想契合的：连接地球上每一个人。</p>
@@ -12498,7 +12515,7 @@
       <title><![CDATA[0528 - 「小电」的 MVP]]></title>
       <url>https://atjason.com/daily/2017-05-28.html</url>
       <content type="html"><![CDATA[<p>今天参加「第７届 BAT 精英巅峰会」，印象最深的就是「小电」负责人介绍其最小原型的故事，感觉挺有意思，写出来跟大家分享下。</p>
-<p><img src="https://ohpsctde4.qnssl.com/34pct.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/34pct.jpg" alt=""></p>
 <p>「小电」提供的是桌面共享充电宝，最开始构建最小原型时，一个很大的困难是：市面上找不到合适的硬件。如果单单为了原型而找工厂定制，其成本明显高昂、周期长。并且，出于商业保密的原因，他们并不想完整地向工厂介绍他们为什么要做、做成什么样子。</p>
 <p>怎么办呢？</p>
 <p>共享充电宝机制，最核心的操作是：<strong>用户扫码付钱，机器「自动」开始放电、手机开始充电</strong>。问题就在于「<strong>自动</strong>」，这需要硬件基础、打通软件，是较复杂的系统。而当时，市面上的智能插座已经可以实现远程控制通、断电。于是，整体的流程是这样的：</p>
@@ -12818,7 +12835,7 @@
       <title><![CDATA[0515 - DNSPod 解析变得不给力了]]></title>
       <url>https://atjason.com/daily/2017-05-15.html</url>
       <content type="html"><![CDATA[<p>这几天出现了网站打开速度比较慢的情况，还以为是服务器的问题，结果一排查，<a href="http://www.17ce.com/site/http/201705_f7d9114ee43b645de21c33e3b300fb65.html" target="_blank" rel="external">域名解析竟然要 10s</a>，太吓人了。</p>
-<p><img src="https://ohpsctde4.qnssl.com/fd53y.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/fd53y.jpg" alt=""></p>
 <p>一直使用的是 DNSPod 来解析域名，看来要换了。初步使用了 CloudXNS，初步效果满意，至少比 DNSPod 要好。不过，这要过一段时间再测比较准确。</p>
 ]]></content>
       
@@ -12852,13 +12869,13 @@
       <title><![CDATA[0513 - 可编程机器人：HEXA]]></title>
       <url>https://atjason.com/daily/2017-05-13.html</url>
       <content type="html"><![CDATA[<p>今天知道的信息中，最有意思的就是 HEXA 机器人了。</p>
-<p><img src="https://ohpsctde4.qnssl.com/190d6.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/190d6.jpg" alt=""></p>
 <blockquote>
 <p>六足全地形机器人，可以装进双肩包。配有丰富的传感器，开放的操作系统，可以轻松编程。</p>
 </blockquote>
 <p>看起来像是程序员的机器人玩具嘛，没事编个程，让机器人跳个舞，也是不错的事。</p>
 <p>先长个小草，之后再了解。最近，倒是想写个算法了排列下面的小球：</p>
-<p><img src="https://ohpsctde4.qnssl.com/te5u1.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/te5u1.jpg" alt=""></p>
 ]]></content>
       
         <categories>
@@ -12997,7 +13014,7 @@
     <entry>
       <title><![CDATA[201708 -《简单思考》]]></title>
       <url>https://atjason.com/book/201708.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/yaegn.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/yaegn.jpg" alt=""></p>
 <p><a href="https://www.amazon.cn/gp/product/B01IBR2GRI/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B01IBR2GRI&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">简单思考</a> ，这是我第一次用 2 口气看完的书。</p>
 <p>书的内容和结构，就像作者想表达的观点一样：简单。我也很认同作者的观点，书看起来就很顺畅、舒服。越是简单的东西，越有说服力、穿透力。</p>
 <p>这本书也不需要总结，因为全书很简洁，大家可以自己花时间看完。</p>
@@ -13097,7 +13114,7 @@
       <title><![CDATA[0506 - Klib 有了自己的实验室]]></title>
       <url>https://atjason.com/daily/2017-05-06.html</url>
       <content type="html"><![CDATA[<p>没错，<a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a> 有了自己的「实验室」：</p>
-<p><img src="https://ohpsctde4.qnssl.com/6fdac.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/6fdac.jpg" alt=""></p>
 <p>主要是放置新开发的功能：</p>
 <ul>
 <li>如果反馈不好，改；</li>
@@ -13139,7 +13156,7 @@
     <entry>
       <title><![CDATA[201707 -《疯传：让你的产品、思想、行为像病毒一样入侵》]]></title>
       <url>https://atjason.com/book/201707.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/lr0z2.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/lr0z2.jpg" alt=""></p>
 <p><a href="https://www.amazon.cn/gp/product/B00HALILL2/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00HALILL2&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">疯传</a> 这本书主要讲了：<strong>人们愿意分享哪些内容、为什么愿意分享</strong>。并结合一些案例，介绍应该如何根据这些原则，创造人们愿意分享的内容；并像特洛伊木马一样，将自己的产品推广隐藏在分享的内容中，达到让人们不自觉地帮忙疯传的效果。</p>
 <a id="more"></a>
 <hr>
@@ -13330,7 +13347,7 @@
 <h1 id="Note-Fields-amp-Cards-Template"><a href="#Note-Fields-amp-Cards-Template" class="headerlink" title="Note Fields &amp; Cards Template"></a>Note Fields &amp; Cards Template</h1><p>目前我主要是用 Anki 来学习英文（单词），这里介绍下我所使用的 Note Note Fields &amp; Cards Template.</p>
 <a id="more"></a>
 <p>Note Field:</p>
-<p><img src="https://ohpsctde4.qnssl.com/r1wwq.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/r1wwq.png" alt=""></p>
 <ul>
 <li>Word<ul>
 <li>单词</li>
@@ -13354,7 +13371,7 @@
 </li>
 </ul>
 <p>Card 模板是从别人分享的 VOA 资源，我简单修改了下。</p>
-<p><img src="https://ohpsctde4.qnssl.com/ztm70.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/ztm70.png" alt=""></p>
 <p>Card Front Template:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;div class=Words_Front&gt;</div><div class="line">&lt;span class=sound&gt;&#123;&#123;Sound&#125;&#125;&lt;/span&gt;&amp;nbsp; &#123;&#123;Word&#125;&#125;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure>
 <p>Card Back Template</p>
@@ -13364,7 +13381,7 @@
 <h1 id="添加卡片"><a href="#添加卡片" class="headerlink" title="添加卡片"></a>添加卡片</h1><p>这应该是最繁琐、最不愿意花时间的地方，这里梳理下我从几个源中添加卡片的方式，供大家参考。</p>
 <h2 id="从-Chrome-添加卡片"><a href="#从-Chrome-添加卡片" class="headerlink" title="从 Chrome 添加卡片"></a>从 Chrome 添加卡片</h2><p>这里我使用的是 Chrome 插件「Anki 划词制卡助手」，具体可见 <a href="https://ninja33.github.io/20160817/anki-dict-helper-chrome-extension/" target="_blank" rel="external">作者博客的介绍</a></p>
 <p>简单贴出我的配置：</p>
-<p><img src="https://ohpsctde4.qnssl.com/udo6f.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/udo6f.jpg" alt=""></p>
 <p>注意：</p>
 <ul>
 <li>这一插件是依赖 <a href="https://ankiweb.net/shared/info/2055492159" target="_blank" rel="external">AnkiConnect</a> 插件，而这个插件是有些娇气的：仅当 Anki 仅使用主程序、未打开 Browse 等窗口时有效。</li>
@@ -13375,7 +13392,7 @@
 <li>除了 Dropbox，还支持 iCloud、Box. 我本来是想用 iCloud 的，因为无需安装额外的程序。无奈，iCloud 在国内的同步速度实在是浪费生命。当然，如果你是在一天结束时批量导入，倒是可以考虑，毕竟无缝集成体验还是不错的。</li>
 <li>在「保存到 Dropbox」中，我在最后添加了一列 iPhone，以作为最后导入时的标签，方便在导入后使用标签来筛选出卡片并更新。</li>
 </ul>
-<p><img src="https://ohpsctde4.qnssl.com/x47ws.jpeg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/x47ws.jpeg" alt=""></p>
 <p>这一方案的不足：</p>
 <ul>
 <li>首先，你需要安装 Workflow</li>
@@ -13494,7 +13511,7 @@
     <entry>
       <title><![CDATA[0425 - 第一次与 Google AdWords 亲密接触]]></title>
       <url>https://atjason.com/daily/2017-04-25.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/061gy.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/061gy.png" alt=""></p>
 <p>Klib 上线时，象征性地在 Google AdWords 投放了广告。不过，当时提示所有的关键字无效，因为包含「Kindle」这个「商标」，也就一直没管。</p>
 <p>今天又登录一看，发现已经有 2 次点击，1.46 美元的费用；不知道为什么关键字又生效了。于是，接着又更新了关键字。不想，立马就有点击。结果是：<strong>8.52 美元广告费，付费 0 转化…</strong></p>
 <p>Google AdWords 是个很大的坑，要做的事还有很多，比如：</p>
@@ -13552,7 +13569,7 @@
     <entry>
       <title><![CDATA[201706 -《SEO实战密码》]]></title>
       <url>https://atjason.com/book/201706.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/xmg92.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/xmg92.jpg" alt=""></p>
 <p><a href="https://www.amazon.cn/gp/product/B011LQHH66/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B011LQHH66&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">SEO实战密码</a> 这本书，非常系统、完整地介绍了网站 SEO 所需要做的方方面面，对于 SEO 入门是极好的。接下来，准备以此为依据，系统性地优化自己的这几个网站：</p>
 <ul>
 <li><a href="https://toolinbox.net/" target="_blank" rel="external">https://toolinbox.net/</a></li>
@@ -13930,7 +13947,7 @@
       <url>https://atjason.com/daily/2017-04-10.html</url>
       <content type="html"><![CDATA[<p>最近，看到 Google 出了新的 jpg 压缩库。正好，这几天在出新版 iPic，就顺手来试试效果如何。</p>
 <p>结果，不试不知道、一试吓一跳，这压缩库的表现真差：</p>
-<p><img src="https://ohpsctde4.qnssl.com/n35le.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/n35le.jpg" alt=""></p>
 <ul>
 <li>狂占 CPU</li>
 <li>狂占内存</li>
@@ -14122,7 +14139,7 @@
     <entry>
       <title><![CDATA[201705 -《增长黑客》]]></title>
       <url>https://atjason.com/book/201705.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/qlek6.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/qlek6.jpg" alt=""></p>
 <p><a href="https://www.amazon.cn/gp/product/B011BHQSV0/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B011BHQSV0&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">增长黑客（Growth Hacker）</a></p>
 <p>为了做 <a href="http://klib.me/cn/?utm_source=atjason.com" target="_blank" rel="external">Klib</a> 海外推广，特意看了这本书。</p>
 <p><strong>用黑客式的方式带来用户增长，既酷炫、又实用；而且，非常适合独立开发者</strong>，因为自己有开发能力，还能全面掌控自己的产品。比如，像 SEO 优化带来更多流量，则是性价比非常高的事。</p>
@@ -14397,7 +14414,7 @@
     <entry>
       <title><![CDATA[0327 - Klib.me 国外秒开]]></title>
       <url>https://atjason.com/daily/2017-03-27.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/0t1co.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/0t1co.jpg" alt=""></p>
 <p>折腾了两天，终于差不多把 <a href="http://Klib.me" target="_blank" rel="external">Klib.me</a> 页面做好了，基本可以达到在国外秒开。</p>
 <p>虽然如此，可做的事情还很多。并且，尤其是对网速优化部分，只是了解皮毛的皮毛，离真正了解还差的很远。不管了，暂先这样吧，能干活就行，之后遇到实际问题，再较系统地学习吧。</p>
 <p>现在来回看，应该可以把时间压缩半天，而且也不应该这么累。今天没有按时睡觉，批评自己。明天半休息~</p>
@@ -14509,7 +14526,7 @@
     <entry>
       <title><![CDATA[201704 -《自律型创业》]]></title>
       <url>https://atjason.com/book/201704.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/xxnlt.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/xxnlt.jpg" alt=""></p>
 <p><a href="https://www.amazon.cn/gp/product/B00U3NDIJE/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00U3NDIJE&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">自律型创业</a></p>
 <p>这应该是我做标注最多的书了。</p>
 <p>这是讲创业如何启动、如何从 0 到 1 的。比较系统的分析了这一过程中各个方面，并且列出了各方面重点要注意的事项。感觉可以作为一本工具书，每当启动新项目时，就拿来读一遍。</p>
@@ -14932,9 +14949,44 @@
     </entry>
     
     <entry>
+      <title><![CDATA[《女孩老板》]]></title>
+      <url>https://atjason.com/book/Girlboss.html</url>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
+<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
+<ul>
+<li>一头是成名前如何放荡不羁，然后快速成长；</li>
+<li>另一头是成名后的一个想法、状态。</li>
+</ul>
+<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
+<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
+<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
+<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
+<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
+<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
+<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
+<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
+<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
+<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
+<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
+<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
+<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
+<li>生活得自由并不意味着生活得好。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 读书笔记 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[201703 - 《从零开始做运营》]]></title>
       <url>https://atjason.com/book/201703.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/z1s34.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/z1s34.jpg" alt=""></p>
 <p><a href="https://www.amazon.cn/gp/product/B01914JGGY/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B01914JGGY&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">从零开始做运营</a></p>
 <p>这本书断断续续读了很久，主要是期间 Klib 的研发、推广花了大量时间。</p>
 <p>虽说是入门书，但感觉还是需要一定运营经验，才能真正有所收获。对我而言，主要的收获如下：</p>
@@ -15003,41 +15055,6 @@
 <li>然后，你需要衡量微信群和QQ群的优劣。微信群现在非常倾向于熟人之间的交流，同时微信群非常不便于管理。QQ群便于管理，但QQ群的活跃度是个极大的问题。群组的差异会导致运营的不同结果，在我看来，除非到了一定阶段，否则根本没有必要建立群组。 因为群组一旦组织，群主就要对群负责。同时群组会耗费很多时间精力，因此，请慎重考虑建立群组。</li>
 <li>我一直坚持案例的意义在于如何避免失败，而非如何成功。</li>
 <li>我们看到的大多是成功者的案例，其中成功的精髓无法通过表面现象和简单的方法论获得。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 读书笔记 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[《女孩老板》]]></title>
-      <url>https://atjason.com/book/Girlboss.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/gq0am.jpg" alt=""></p>
-<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
-<ul>
-<li>一头是成名前如何放荡不羁，然后快速成长；</li>
-<li>另一头是成名后的一个想法、状态。</li>
-</ul>
-<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
-<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
-<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
-<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
-<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
-<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
-<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
-<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
-<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
-<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
-<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
-<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
-<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
-<li>生活得自由并不意味着生活得好。</li>
 </ul>
 ]]></content>
       
@@ -15173,7 +15190,7 @@
     <entry>
       <title><![CDATA[201702 - 《松本行弘的程序世界》]]></title>
       <url>https://atjason.com/book/201702.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/dnta5.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/dnta5.jpg" alt=""></p>
 <p><a href="https://www.amazon.cn/gp/product/B00M2DKYYA/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00M2DKYYA&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">松本行弘的程序世界</a></p>
 <p>这本书如果是基于 Swift 就太好了。不过，即使如此，书中讲的很多编程的思想、原理还是很通用的。比如对正则表达式、字符编码、等部分的介绍，非常值得深入研究时回头再看。</p>
 <p>不过，毕竟作者是 Ruby 的作者，是底层思维的牛人；对于我这种肤浅的应用型选手，可能还是更愿意接受相关的思想，比如同样是独立开发者的经历，如何构建一个市场需要、但目前尚属空白的产品，如果提交产品的知名度，等等。</p>
@@ -15418,7 +15435,7 @@
 </ul>
 <p>听起来很奇怪？</p>
 <p>看看下面这两款遥控器，如果你的电视可选这两种，左边免费、右边收费，你选哪个？</p>
-<p><img src="https://ohpsctde4.qnssl.com/0cq1p.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/0cq1p.jpg" alt=""></p>
 <p>健身房也有类似的反向思维策略：先充值，如果能保证健身的次数，退钱。否则，不退。虽然健身房用这种方式刺激用户，但实际上还是有很多用户因为各种原因无法保证健身次数。</p>
 ]]></content>
       
@@ -15639,7 +15656,7 @@
     <entry>
       <title><![CDATA[201701 - 《编程珠玑》]]></title>
       <url>https://atjason.com/book/201701.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/kgyvg.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/kgyvg.jpg" alt=""></p>
 <p><a href="https://www.amazon.cn/gp/product/B00SFZH0DC/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00SFZH0DC&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">编程珠玑</a></p>
 <p>笔记：</p>
 <ul>
@@ -15787,13 +15804,13 @@
     <entry>
       <title><![CDATA[0221 - 我是如何把 Klib 带到这个世界的]]></title>
       <url>https://atjason.com/daily/2017-02-21.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/zyvsd.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/zyvsd.png" alt=""></p>
 <p>这里不但有<strong>「Klib 的诞生过程」</strong>，</p>
 <p>还有<strong>「独立开发者」</strong>的真实写照，</p>
 <p>万字长文，深度干货，请谨慎继续…</p>
 <hr>
 <p>历时 50 天、横跨 2 年、经过 258 小时的纯手工打造，Klib 终于来到了这个世界。</p>
-<p><img src="https://ohpsctde4.qnssl.com/5n91p.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/5n91p.jpg" alt=""></p>
 <p>这两天 Klib 刚刚发布，收到很多用户的好评。赶着手热，记录下 Klib 的诞生历程吧。</p>
 <p>Klib 是全新的 Kindle 标注、笔记/书摘管理工具，macOS 平台。</p>
 <ul>
@@ -15816,18 +15833,18 @@
 </ul>
 <h2 id="名字、Logo"><a href="#名字、Logo" class="headerlink" title="名字、Logo"></a>名字、Logo</h2><p>名字好定，因为我开发的工具都是 i 开头的（<a href="https://itunes.apple.com/cn/app/id1101244278?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external">iPic</a>、<a href="https://itunes.apple.com/cn/app/id1062139745?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external">iTimer</a>、<a href="https://itunes.apple.com/cn/app/id1056935452?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external">iPaste</a>、<a href="https://itunes.apple.com/cn/app/id1102004240?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external">iHosts</a>），这个自然也是。再加上是 Kindle 相关的，于是就叫：<strong>iKindle</strong>. 当然，你知道最后不是这个名字；这个坑，以后再填。</p>
 <p>Logo 也很容易呀，你看我之前产品的 Logo 就知道了：</p>
-<p><img src="https://ohpsctde4.qnssl.com/ag32m.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/ag32m.jpg" alt=""></p>
 <p>iKindle 的 Logo 一定是类似下面这个样子的：</p>
-<p><img src="https://ohpsctde4.qnssl.com/mja9k.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/mja9k.jpg" alt=""></p>
 <p>当然，你知道，后来也改了。这是后话。</p>
 <h2 id="交互"><a href="#交互" class="headerlink" title="交互"></a>交互</h2><p>有了前面的铺垫，就可以考虑具体的交互。</p>
 <p>交互一定要直观、符合直觉。开始时，大致的想法是这样的（幸亏我还保留了当时的截图）：</p>
-<p><img src="https://ohpsctde4.qnssl.com/8szmd.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/8szmd.jpg" alt=""></p>
 <p>左侧是书列表、右上角是书中笔记列表、右下角是选中笔记的内容、方便编辑。后来当然是不断演变了。</p>
 <p><strong>先是书</strong></p>
 <p>我一开始就没打开按作者来区分，因为我本人并没有追作者的习惯；并且，即使追，也没必要非得按作者分类，搜索不就可以了。</p>
 <p>但是，太多书放在一起，就有了排序的问题。按书名、最后阅读时间、还是别的？其实你会发现，<strong>如果书多，再怎么排序都没用</strong>。那干嘛不让书少点呢？有了，如果只看最近的几本书，比如 3 本，还需要考虑排序吗？那些更早的书，归档起来不就好了，之后能搜索到就行。</p>
-<p><img src="https://ohpsctde4.qnssl.com/r4m76.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/r4m76.jpg" alt=""></p>
 <p>于是，这就诞生了 <strong>iKindle 独有的创意：区分当下正在阅读的书、和之前已经阅读的书</strong>。形式上就是把已读的书放在一起，可以折叠隐藏。<strong>恩，挺棒的！</strong></p>
 <p><strong>然后是笔记列表</strong></p>
 <p>程序员的思考，很直观的就是把所有属性都列出来，比如笔记内容、类型（是标注、还是笔记）、位置、添加日期。这用列表很容易实现。</p>
@@ -15835,14 +15852,14 @@
 <p>于是，那就把它们都隐藏起来好了，隐藏到简介里，这样笔记列表就只显示纯粹的笔记内容。<strong>恩，挺棒的！</strong></p>
 <p><strong>再然后就是阅读、编辑当前笔记</strong></p>
 <p>你会发现，在最原始的设计中，这部分也占据了大量屏幕、却不得已有大量空白。并且，对于我实际的笔记来看，很多都是一句话的，在列表中就几乎可以展示了，不再需要额外的这个区域。再并且，真正编辑的需求并不大（最多的就是在标注时，前后有不需要的内容、符号），大部分时间只要看就行了。</p>
-<p><img src="https://ohpsctde4.qnssl.com/ngztt.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/ngztt.jpg" alt=""></p>
 <p>于是，这部分也被我干掉了。那如果笔记确实很长怎么办呢？我自然想到了 Finder 的快速预览。OK，那就搬过来吧。<strong>恩，挺棒的！</strong></p>
-<p><img src="https://ohpsctde4.qnssl.com/kab6b.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/kab6b.jpg" alt=""></p>
 <p><strong>下一个就是搜索</strong></p>
 <p>这个并不需要特别设计，跟系统的保持一致好了，不一致反而不好。<strong>恩，挺棒的！</strong></p>
 <p><strong>最后，就是整体的交互</strong></p>
 <p>我一看，经过上面的改进，这不就是个系统「提醒事项」的样子吗？好吧，那就做成「提醒事项」的样子。<strong>恩，挺棒的！</strong></p>
-<p><img src="https://ohpsctde4.qnssl.com/3ii7h.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/3ii7h.jpg" alt=""></p>
 <h1 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h1><p>设计差不多了，就可以码了。<strong>我开发的顺序一般是三步走：数据结构、堆 UI、完成业务逻辑。</strong></p>
 <h2 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h2><p>数据结构又主要为三块：Kindle 本身数据结构、内存中数据结构、持久化数据结构。</p>
 <h3 id="Kindle-本身数据结构"><a href="#Kindle-本身数据结构" class="headerlink" title="Kindle 本身数据结构"></a>Kindle 本身数据结构</h3><p>好吧，先吐槽一句：<strong>Kindle 的数据结构真垃圾</strong>！至少是开放出来的数据结构真增加，就是一个纯文本，类似于以下的内容：</p>
@@ -15850,12 +15867,12 @@
 <p>看起来还行是吗？那再来一些多语言版本的：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">- Your Highlight on Location 1-6 | Added on Thursday, January 5, 2017 4:20:05 PM</div><div class="line">- Ihre Markierung bei Position 6-7 | Hinzugefügt am Mittwoch, 1. Februar 2017 12:21:36</div><div class="line">- Votre surlignement à lʼemplacement 9-12 | Ajouté le mercredi 1 février 2017 12:51:12</div><div class="line">- Tu subrayado en la posición 33-35 | Añadido el miércoles, 1 de febrero de 2017 12:42:10</div><div class="line">- 位置No. 39-42のハイライト |作成日: 2017年2月1日水曜日 13:00:33</div><div class="line">– Ваш выделенный отрывок в месте 45–49 | Добавлено: среда, 1 февраля 2017 г. в 13:12:38</div><div class="line">- 您在位置 #38-39的标注 | 添加于 2017年1月5日星期四 下午4:07:22</div></pre></td></tr></table></figure>
 <p>单单是识别其中的日期，就有种想 shi 的冲动：要获取日期文本、识别格式、确定 Locale；另外，还不知道日期所在时区。</p>
-<p><img src="https://ohpsctde4.qnssl.com/58ar8.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/58ar8.jpg" alt=""></p>
 <p>这里我做一个小机巧：<strong>数据结构的解析能力可以动态更新。</strong>也即，在二进制程序不变的情况下，可以从云端获取数据的最新解析方式。这样，当用户反馈给我不支持的格式时，我只要更新云端的解析能力，客户端就都可以无痛、后台式更新了。<strong>为自己这个设计点赞！</strong></p>
 <h3 id="内存中数据结构"><a href="#内存中数据结构" class="headerlink" title="内存中数据结构"></a>内存中数据结构</h3><p>这个没太多好说的，定义书、笔记的各个属性即可。</p>
 <p>一个主要的机巧在于：<strong>如何识别笔记的唯一性？</strong>前面的文本中可以看到，笔记并没有所谓唯一 ID 之类的东西。既然没有，那就把笔记整体、或整体的 Hash 值作为唯一 ID 好了，反正笔记的数据量并不大，<strong>一个人一生的笔记，可能也没有 iPhone 拍的一张图片体积大。</strong></p>
 <h3 id="持久化数据结构"><a href="#持久化数据结构" class="headerlink" title="持久化数据结构"></a>持久化数据结构</h3><p>这一步，主要<strong>在结构化存储、和非结构化存储中纠结。</strong>前者数据规整，适合笔记存储，但扩展性差。后者优缺点大致和前者相反。</p>
-<p><img src="https://ohpsctde4.qnssl.com/xdz0b.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/xdz0b.jpg" alt=""></p>
 <p>最后，我还是选择了结构化存储。具体的，就是 <strong>SQLite</strong>. 一方面笔记类数据实在是太规整了；另一方面，抱着学习的态度，反正我哪种都不熟悉，随便拉一种出来练手吧。</p>
 <p>还有一个考量就是：<strong>数据结构的公开性。</strong>数据是用户的、宝贵的，如果使用私有的二进制数据结构，万一哪天要停止维护了，用户就没有任何办法可以解析这些数据。而使用公开的 SQLite 则不怕，任意一款 SQLite 工具都可以查看用户自己生成的数据。<strong>这样做，对用户是负责任的。</strong></p>
 <h2 id="堆-UI"><a href="#堆-UI" class="headerlink" title="堆 UI"></a>堆 UI</h2><p>这部分倒没有太多可说的。</p>
@@ -15868,15 +15885,15 @@
 <p><strong>外围的一些功能</strong></p>
 <p>比如，账户系统、日志及反馈系统、等等。这里就不再铺开了。</p>
 <h2 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h2><h3 id="单元测试"><a href="#单元测试" class="headerlink" title="单元测试"></a>单元测试</h3><p>其实，<strong>单元测试是在开发一开始就进行的</strong>。尤其是对数据结构部分，要充分测试。如果这部分没问题，只要程序能跑起来，基本就没有大问题。如果这部分有问题，改 Bug 够喝一壶的。</p>
-<p><img src="https://ohpsctde4.qnssl.com/ehgey.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/ehgey.jpg" alt=""></p>
 <p>并且，<strong>要在定义数据结构、完成新功能那一刻，立即完善单元测试。</strong>因为这时候是对代码最熟悉、最清楚、也最愿意写单元测试的时候。错过这一刻，实在是太可惜了。</p>
 <h3 id="完善测试用例"><a href="#完善测试用例" class="headerlink" title="完善测试用例"></a>完善测试用例</h3><p>和单元测试一样，<strong>测试用例不是在产品开发结果后补齐，而是在每开发完一个功能逻辑后，立即完善测试用例。</strong>道理一样，因为这个时候是对逻辑理解最透彻、清晰的时候，千万不能错过。</p>
-<p><img src="https://ohpsctde4.qnssl.com/mp615.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/mp615.jpg" alt=""></p>
 <h3 id="版本测试"><a href="#版本测试" class="headerlink" title="版本测试"></a>版本测试</h3><p>单元测试跑一遍，心里就有底了。再加上前面完善的测试用例，版本测试无非就是照着用例跑一遍。</p>
 <p>我并没有做自动化测试、持续集成，主要是涉及 UI 的自动化测试并不好做，而且投入很大。对于我这种小项目、独立开发者而言，手动跑跑测试用例，可能是性价比最高的。</p>
 <p>值得介绍的一点是，<strong>推荐使用虚拟机进行版本测试</strong>。事先建立好干净的系统、生成镜像。每次测试时，只要将虚拟机恢复到指定的镜像即可。再者，就是可以在当前系统（如 macOS 10.12）中，测试其它版本的系统（如 macOS 10.11）</p>
 <h1 id="上架"><a href="#上架" class="headerlink" title="上架"></a>上架</h1><p>自己辛苦做出来的东西，当然是希望越多人用户越好。要触到更多的用户，最直接有效的办法就是 <strong>上架 Mac App Store (MAS)</strong> 了。</p>
-<p><img src="https://ohpsctde4.qnssl.com/rce4v.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/rce4v.jpg" alt=""></p>
 <h2 id="内测、公测"><a href="#内测、公测" class="headerlink" title="内测、公测"></a>内测、公测</h2><p>在上架前，要保证自己的产品的可用、好用的，最好的办法就是，先让一部分用户用起来，也就是内测、公测（以下统一称公测）。</p>
 <p>特别要强调的是，<strong>公测的目的并不是发现 Bug，这是你自己要做好的事。</strong>公测主要有以下目的：</p>
 <ul>
@@ -15893,7 +15910,7 @@
 <p>但是，<strong>苹果不允许在 App 名字中出现 Kindle 这个字样</strong>。于是，只能改名了。这真是个痛苦的过程。一方面，想出一个好名字并不容易，我纠结了 N 久（<a href="https://atjason.com/daily/2017-02-15.html">具体可见我的博客</a>），最终写了 <strong>Klib</strong> (<strong>K</strong>indle <strong>lib</strong>rary) 这个名字。</p>
 <p>另一方面，所有的东西都是跟名字相关的，比如代码、App 名称、文案、截图、等等。一旦名字改了，所有这些都要改。这是极其繁琐的事，我再也不想做第 2 次。</p>
 <p>比如 Logo，变成了下面的样子：</p>
-<p><img src="https://ohpsctde4.qnssl.com/zyvsd.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/zyvsd.png" alt=""></p>
 <h1 id="发布、推广"><a href="#发布、推广" class="headerlink" title="发布、推广"></a>发布、推广</h1><p>终于，在被拒了 2 次后，Klib 终于顽强上架 Mac App Store.</p>
 <p>接下来的问题就是，<strong>怎么让更多人知道 Klib</strong>，也即，如何发布、推广？</p>
 <h2 id="Product-Hunt"><a href="#Product-Hunt" class="headerlink" title="Product Hunt"></a>Product Hunt</h2><p>在这一环节，我最没有办法的，就是 <strong>如何在海外推广</strong>。毕竟咱们是中国人，很难打入敌人内部，更别说在外国产生影响力。</p>
@@ -15922,7 +15939,7 @@
 <li><strong>及时回复留言</strong> 。用户的留言，要立即回复（恩，晚上基本可以不睡了，盯着）。并且，可以将用户的回复转发到 Twitter 上，并表示感谢。</li>
 </ul>
 <p>最终，<a href="https://www.producthunt.com/posts/klib" target="_blank" rel="external">Klib 在 Product Hunt 上获取 200+ 点赞，10 几位国际用户参与讨论</a>，并 <strong>入选当日 Top 10</strong>，基本满意。</p>
-<p><img src="https://ohpsctde4.qnssl.com/bhl6a.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/bhl6a.jpg" alt=""></p>
 <h2 id="用户群"><a href="#用户群" class="headerlink" title="用户群"></a>用户群</h2><p>Mac App Store 上的好评、留言，自然是非常重要的。而 <strong>最有可能给你好评的，就是你之前产品的用户</strong>。我一开始没有经营自己的用户群，现在回想起来深觉可惜。好在，现在慢慢有了 <a href="https://toolinbox.net/html/iPic/iPicGroup.jpg" target="_blank" rel="external">微信群</a>、<a href="https://t.me/Toolinbox" target="_blank" rel="external">Telegram 群</a>，<strong>也有了一些非常友善的用户，感谢你们！</strong></p>
 <h2 id="媒体"><a href="#媒体" class="headerlink" title="媒体"></a>媒体</h2><p>媒体的爆光自然必不可少，他们的影响力是个人无法比拟的。最好是：</p>
 <ul>
@@ -15939,7 +15956,7 @@
 <p>对用户而言，首发更容易使产品在这一品类中形成定位，后来者要想抢走在用户心智中的定位，就不容易了。</p>
 <h3 id="单日销量的意义"><a href="#单日销量的意义" class="headerlink" title="单日销量的意义"></a>单日销量的意义</h3><p>如果单日销量可以使 App 出现在排行榜的前面，会带来一些附加的流量，因为别的用户可能因为榜单的原因多看两眼。</p>
 <p>首发第 2 天（第 1 天 App Store 更新太慢，没有数据），<strong>Klib 在中国区、Utilities 这一品类中，Free 排名 22、Grossing 排名 14</strong>，算是不错的成绩了。</p>
-<p><img src="https://ohpsctde4.qnssl.com/qvhtr.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/qvhtr.jpg" alt=""></p>
 <h1 id="之后"><a href="#之后" class="headerlink" title="之后"></a>之后</h1><p>目前，Klib 算是成功上架 Mac App Store，也收到了很多用户的反馈。接下来，我会继续改进 Klib，如增加多看支持、与 Amazon 中的笔记同步、与 Kindle 其他平台的笔记同步、导出至 Evernote、等等。当然，<strong>我会非常谨慎地加功能，保持 Klib 的精简。</strong></p>
 <h1 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h1><p>真的有很多人需要感谢…</p>
 <ul>
@@ -15967,7 +15984,7 @@
     <entry>
       <title><![CDATA[0220 - Klib 正式上架 Mac App Store]]></title>
       <url>https://atjason.com/daily/2017-02-20.html</url>
-      <content type="html"><![CDATA[<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_home" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/zyvsd.png" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_home" target="_blank" rel="external"><img src="https://ps.toolinbox.net/zyvsd.png" alt=""></a></p>
 <p>历时 50 天、横跨 2 年，Klib 终于上架 Mac App Store!</p>
 <p>最初，只是想做一个自己用的小工具。</p>
 <p>后来，发现有点意思，就想做的好一点。</p>
@@ -15980,7 +15997,7 @@
 </blockquote>
 <p>感觉挺满足的。</p>
 <p>继续推荐给更多需要 Klib 的人，继续改进 Klib…</p>
-<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_home" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/evqdg.jpg" alt="Mac App Store"></a></p>
+<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_home" target="_blank" rel="external"><img src="https://ps.toolinbox.net/evqdg.jpg" alt="Mac App Store"></a></p>
 ]]></content>
       
         <categories>
@@ -16155,7 +16172,7 @@
     <entry>
       <title><![CDATA[0211 - 中国独立开发者首次面基]]></title>
       <url>https://atjason.com/daily/2017-02-11.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/dpfoh.JPG" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/dpfoh.JPG" alt=""></p>
 <p>今天，杭州的几位独立开发小伙伴，一起聚了下；发现，大家都是伪独立啊 :(</p>
 <p>比较遗憾的是，可能大家还不太熟悉的缘故，相互介绍、认识的时间比较多，深度碰撞了少了点。不过，还是感觉挺好的，了解了大家的背景、经历、做过的产品、踩过的坑，还是挺有启发的。比如国外推广的难，苹果编辑推荐的玄，用户留存的痛，等等。</p>
 <p>感觉还是要丰富自己，多些点子、经验，这样才有拿得出手的东西、大家才愿意与自己交流。</p>
@@ -16173,7 +16190,7 @@
     <entry>
       <title><![CDATA[0210 - iKindle 已提交 Mac App Store]]></title>
       <url>https://atjason.com/daily/2017-02-10.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ikhtm.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ikhtm.jpg" alt=""></p>
 <p>在脖痛、眼花、大半夜的时候，iKindle 终于提交 Mac App Store，期待顺利审核。</p>
 <p><strong>iKindle，重塑 Kindle 笔记管理</strong></p>
 <p>感兴趣，欢迎 <a href="https://toolinbox.net/html/iKindle/DownloadiKindle.html" target="_blank" rel="external">抢先体验</a></p>
@@ -16226,7 +16243,7 @@
     <entry>
       <title><![CDATA[0207 - 将个体价值，叠加为群体价值]]></title>
       <url>https://atjason.com/daily/2017-02-07.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/7b3b3.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/7b3b3.jpg" alt=""></p>
 <p>最近 61 发布的 <a href="https://itunes.apple.com/cn/app/price-tag-ba-ni-xiang-yao/id1166819590?mt=8" target="_blank" rel="external">Price Tag</a> 挺火的，我觉得他的产品思路挺巧的。</p>
 <p>Price Tag 最直接的用法是：查询一个 App 的历史价格，更进一步是收到 App 的降价通知。这些都是个体价值。</p>
 <p>然而，当用的人多了，就会「涌现」出群体价值。比如，将所有用户的查询聚集在一起，就可以找出大家最近热搜的 Top X 的 App，这就让这个 App 更好玩、有更多的想象空间。</p>
@@ -16342,7 +16359,7 @@
 <p>说下今天作为用户的一点体验吧。</p>
 <p><strong>需求</strong>：我目前使用 <strong>Omni Focus</strong> 管理产品的开发，一个产品为一个 Project，其中记录了产品所有要做的事。而在做下个版本时，我需要从中挑选中需要做的事。</p>
 <p><strong>方案</strong>：经过尝试，我发现搜索虽然只是一个普通的搜索框，但还是很强大的。可以把版本号加在任务的备注、Context 等任意区域，都可以搜索出来。最后选择的方案是：</p>
-<p><img src="https://ohpsctde4.qnssl.com/xvc0s.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/xvc0s.png" alt=""></p>
 <ul>
 <li>树状、系统性整理一个产品所有要做的事</li>
 <li>当需要进行下个版本开发时，以版本号创建 Context，这样<ul>
@@ -16720,7 +16737,7 @@
     <entry>
       <title><![CDATA[0118 - iKindle 要出来见人啦]]></title>
       <url>https://atjason.com/daily/2017-01-18.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/7dtfg.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/7dtfg.png" alt=""></p>
 <p>历时 <strong>18 天</strong>、<strong>105.6 小时</strong>，iKindle 终于要出来见人啦！</p>
 <p>其实，本来只是想随意整整，没想到做着做着觉得还挺有意思，就越来越想把这个小工具做好了。</p>
 <p>为什么我知道 105.6 小时这么「精确」的时间？因为我有<strong>记录时间</strong>的习惯啦，这样就可以对自己在各个项目上投入的时间更清楚。<strong>对于自由职业者，时间就是最宝贵的资源</strong>，当然要好好把握了。</p>
@@ -17102,9 +17119,9 @@
     <entry>
       <title><![CDATA[1231 - 2016 报告]]></title>
       <url>https://atjason.com/daily/2016-12-31.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/2ylvy.jpg" alt=""><br>分别上架了 iPic、iPic Mover、iPaste、iTimer、iHosts 这 5 个 macOS App.</p>
-<p><img src="https://ohpsctde4.qnssl.com/re93e.jpg" alt=""><br>实现了某路由器的产品化尝试。</p>
-<p><img src="https://ohpsctde4.qnssl.com/twpjt.jpg" alt=""><br>有了一个可爱的宝宝。</p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/2ylvy.jpg" alt=""><br>分别上架了 iPic、iPic Mover、iPaste、iTimer、iHosts 这 5 个 macOS App.</p>
+<p><img src="https://ps.toolinbox.net/re93e.jpg" alt=""><br>实现了某路由器的产品化尝试。</p>
+<p><img src="https://ps.toolinbox.net/twpjt.jpg" alt=""><br>有了一个可爱的宝宝。</p>
 ]]></content>
       
         <categories>
@@ -17188,7 +17205,7 @@
     <entry>
       <title><![CDATA[1227 - iPic 意外入选少数派年度榜单]]></title>
       <url>https://atjason.com/daily/2016-12-27.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/9m5d6.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/9m5d6.jpg" alt=""></p>
 <p><a href="http://sspai.com/topic/2016/" target="_blank" rel="external">2016 少数派年度盘点</a>，iPic 意外入选「值得关注的国内独立应用」</p>
 ]]></content>
       
@@ -17335,7 +17352,7 @@
     <entry>
       <title><![CDATA[1209 - 切身感受到 https 和加密的重要性]]></title>
       <url>https://atjason.com/daily/2016-12-09.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/2f0lh.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/2f0lh.jpg" alt=""></p>
 <p>今天发现，iPic 中某个网络接口被人盗用。由于这个接口在正式产品中使用而无法关闭，感觉真难受。</p>
 <p>有了这次教训，切身感受到 https 和加密的重要性。数据不加密，就像是在互联网上裸奔，对用户是非常不负责任的做法。</p>
 <p>明天争取给 iPic 加上非对称加密，现在看来主要的困难在于 Ubuntu 环境中的 Swift 的代码库比较少，和 macOS 下的兼容性也比较差，这会给实在开发带来很多额外的麻烦。如果实在不行，就只能改用简单的对称加密了。</p>
@@ -17353,7 +17370,7 @@
     <entry>
       <title><![CDATA[1208 - iPic Mover 上架 Mac App Store]]></title>
       <url>https://atjason.com/daily/2016-12-08.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/c86dx.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/c86dx.png" alt=""></p>
 <p><a href="https://itunes.apple.com/cn/app/id1183822957?ls=1&amp;mt=12" target="_blank" rel="external">iPic Mover</a>，一个超小众的图床搬家工具，希望需要迁移图片的朋友喜欢。</p>
 ]]></content>
       
@@ -17369,7 +17386,7 @@
     <entry>
       <title><![CDATA[1206 - 图床迁移至 https]]></title>
       <url>https://atjason.com/daily/2016-12-06.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/1iag3.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/1iag3.jpg" alt=""></p>
 <p>前几天已经把网站升级至 https，不过，其中的图片并未迁移。</p>
 <p>今天，使用自己开发的小工具 iPic Mover 将图片迁移至支持 https 的图床。</p>
 <ul>
@@ -17394,7 +17411,7 @@
       <content type="html"><![CDATA[<p>在 Markdown 中插图很麻烦；还好，<a href="https://toolinbox.net/iPic/" target="_blank" rel="external">iPic</a> 解决了这个问题。</p>
 <p>可是，已有 Markdown 文件中的图片该如何迁移呢？</p>
 <p>不怕，现在有了 iPic Mover :)</p>
-<p><img src="https://ohpsctde4.qnssl.com/ly9cx.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/ly9cx.png" alt=""></p>
 <h1 id="iPic-Mover-是什么？我需要吗？"><a href="#iPic-Mover-是什么？我需要吗？" class="headerlink" title="iPic Mover 是什么？我需要吗？"></a>iPic Mover 是什么？我需要吗？</h1><p>先来看看这几个场景，你有没有遇到过？</p>
 <p>１. <strong>批量将本地图片上传至图床，并更新链接、删除本地图片</strong></p>
 <ul>
@@ -17418,7 +17435,7 @@
 <p>如果你遇到过上面的麻烦，恭喜，iPic Mover 就是为你准备的。</p>
 <a id="more"></a>
 <h1 id="如何使用-iPic-Mover"><a href="#如何使用-iPic-Mover" class="headerlink" title="如何使用 iPic Mover ?"></a>如何使用 iPic Mover ?</h1><p>二话不说先上图：</p>
-<p><img src="https://ohpsctde4.qnssl.com/71a25.gif" alt=""></p>
+<p><img src="https://ps.toolinbox.net/71a25.gif" alt=""></p>
 <p>可以看出，只要选择 Markdown 的根目录即可，iPic Mover 自动帮你：</p>
 <ul>
 <li>找到所有 Markdown 文件</li>
@@ -17461,7 +17478,7 @@
     <entry>
       <title><![CDATA[1203 - 搞定 Sparkle]]></title>
       <url>https://atjason.com/daily/2016-12-03.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/lxavy.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/lxavy.jpg" alt=""></p>
 <p>程序中自动升级是个挺麻烦的事。还好，有了 Sparkle，事情变得简单了。</p>
 <p>根据 Sparkle 官方教程一步步走下来，还挺顺利的。有 2 个需要注意的地方：</p>
 <ul>
@@ -17484,7 +17501,7 @@
     <entry>
       <title><![CDATA[1126 - 网站升级至 https]]></title>
       <url>https://atjason.com/daily/2016-11-26.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/fv1yv.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/fv1yv.jpg" alt=""></p>
 <p>一口气升级 4 个网站：</p>
 <ul>
 <li><a href="https://atjason.com">atjason.com</a></li>
@@ -17529,7 +17546,7 @@
     <entry>
       <title><![CDATA[1124 - 升级至 https]]></title>
       <url>https://atjason.com/daily/2016-11-24.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/s9zhz.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/s9zhz.jpg" alt=""></p>
 <p>https 比 http 安全，这是大家都知道的；<br>https 比 http 麻烦，这也是大家都知道的。</p>
 <p>于是，http 迟迟不能升级至 https.</p>
 <p>可是，像苹果这种有调性的公司，强制在 2017 年提交的 App 中，必须使用 https.于是，我的几个 macOS App、包含相关的网站，都要进行 https 迁移了。</p>
@@ -17549,7 +17566,7 @@
     <entry>
       <title><![CDATA[1123 - 该从哪突破呢？]]></title>
       <url>https://atjason.com/daily/2016-11-23.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/lv0ff.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/lv0ff.jpg" alt=""></p>
 <p>目前的状况比较困顿，不知道该从哪个方向突破，做事情也不是太集中注意力、效率不高。这个状态不能持久啊。</p>
 <p>其实，可选的事情也不少：</p>
 <ul>
@@ -17596,7 +17613,7 @@
     <entry>
       <title><![CDATA[1121 - 小家伙生病好可怕]]></title>
       <url>https://atjason.com/daily/2016-11-21.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/pa4jt.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/pa4jt.jpg" alt=""></p>
 <p>今天小家伙貌似有些低烧，一直哭，怎么哄都没用，几乎束手无措了，好可怕。</p>
 <p>还好睡了一大觉后正常了，第一次生病就这么有惊无险的度过了。</p>
 ]]></content>
@@ -17613,7 +17630,7 @@
     <entry>
       <title><![CDATA[1120 - 抱粗腿]]></title>
       <url>https://atjason.com/daily/2016-11-20.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/bl1jv.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/bl1jv.png" alt=""></p>
 <p>集成 iPic 的新版 Typora 今天上线了，抱了第 1 个粗腿。</p>
 <p>接下来，以此为基础，继续抱别的粗腿，并开始在国外支持 iPic，发扬光大 😂</p>
 ]]></content>
@@ -17630,7 +17647,7 @@
     <entry>
       <title><![CDATA[1119 - 太封闭了]]></title>
       <url>https://atjason.com/daily/2016-11-19.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/1m248.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/1m248.jpg" alt=""></p>
 <p>点子，是想不出来的；产品，一定是在解决现实问题的同时产生的。</p>
 <p>多走出去，多接触不同的人和事，激发灵感。</p>
 ]]></content>
@@ -17647,7 +17664,7 @@
     <entry>
       <title><![CDATA[1118 - 单干一周年]]></title>
       <url>https://atjason.com/daily/2016-11-18.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/sfmaq.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/sfmaq.jpg" alt=""></p>
 <p>不知不觉，已经从上家公司离职一年了。在这一年中，尝试了几个项目：</p>
 <ul>
 <li><a href="http://appsites.io" target="_blank" rel="external">AppSites.io</a>，目前处于搁置状态</li>
@@ -17669,7 +17686,7 @@
     <entry>
       <title><![CDATA[1117 - 小处着手]]></title>
       <url>https://atjason.com/daily/2016-11-17.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/5j0ke.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/5j0ke.jpg" alt=""></p>
 <p>目前的打算是，找到一个中型的 macOS 项目。</p>
 <p>可是，项目越大，越需要时间去寻找、调研、评估。而在此之前，不能停下来等。更好的做法是，找些小的项目练练手，保持手感、对程序的感觉，边练边找。</p>
 ]]></content>
@@ -17686,7 +17703,7 @@
     <entry>
       <title><![CDATA[1107 - 不怕慢，就怕站]]></title>
       <url>https://atjason.com/daily/2016-11-07.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/hu8c1.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/hu8c1.jpg" alt=""></p>
 <p>再忙也要每天写代码</p>
 ]]></content>
       
@@ -17702,7 +17719,7 @@
     <entry>
       <title><![CDATA[1106 - 责任]]></title>
       <url>https://atjason.com/daily/2016-11-06.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/zenpj.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/zenpj.jpg" alt=""></p>
 <p>不止是自己一个人的事。</p>
 ]]></content>
       
@@ -17718,7 +17735,7 @@
     <entry>
       <title><![CDATA[1105 - 漏掉的，可能是更重要的]]></title>
       <url>https://atjason.com/daily/2016-11-05.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/lf291.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/lf291.jpg" alt=""></p>
 <p>影响事情有很多因素、同时会有很多节点需要考虑，我们通常会关注自己认为的重要因素、节点。但其实上，过份关注这部分，可能会让我们减少对其他部分的关注、减少精力。而最后，很可能这些未被关注的东西，反而是影响更大的。</p>
 <p>换个角度：不必纠结；你所纠结的，未必值得纠结；与其纠结，不如决断、放下、继续赶路。</p>
 ]]></content>
@@ -17735,7 +17752,7 @@
     <entry>
       <title><![CDATA[1104 - 做大事，都不容易]]></title>
       <url>https://atjason.com/daily/2016-11-04.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ecyex.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ecyex.jpg" alt=""></p>
 <p>做项目，不易；<br>带团队，不易；<br>开公司，不易；</p>
 <p>要做点大事，都不易。</p>
 <p>老老实实做我的小事吧…</p>
@@ -17753,7 +17770,7 @@
     <entry>
       <title><![CDATA[1103 - 撸好微博后端]]></title>
       <url>https://atjason.com/daily/2016-11-03.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ubyoa.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ubyoa.jpg" alt=""></p>
 <p>终于，还是改进了微博后端，iPic 应该可以安生一段时间了。</p>
 <p>发现，Vapor 终究还是不成熟。同样的代码，有时运行正常、有时有问题，找不到什么规律，连给官方报 Bug 都不知道该怎么描述。哎，有些伤心，毕竟已经选择了 Vapor 这个坑。</p>
 ]]></content>
@@ -17770,7 +17787,7 @@
     <entry>
       <title><![CDATA[1102 - 做家务真花时间]]></title>
       <url>https://atjason.com/daily/2016-11-02.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/lhdry.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/lhdry.jpg" alt=""></p>
 <p>今天打扫了厨房，发现真是个工程，不知觉用了大半天，做家务真是花时间啊。</p>
 <p>楼上提前一周剖了，我们也快了，开始紧张了…</p>
 ]]></content>
@@ -17794,8 +17811,8 @@
 <li><a href="https://www.lcdf.org/gifsicle/" target="_blank" rel="external">gifsicle</a></li>
 </ul>
 <p>采用有损压缩，压缩后肉眼几乎无法看出区别，却可明显降低图片尺寸。使用压缩后的图片，既可以节省图片的存储空间，还可以加快图片加载速度、节省流量。</p>
-<p>原始图片：<br>384,171 bytes<br><img src="https://ohpsctde4.qnssl.com/cn03g.png" alt=""></p>
-<p>压缩后图片：<br>113,159 bytes，压缩至原尺寸的 <strong>29.5%</strong><br><img src="https://ohpsctde4.qnssl.com/j9it3.png" alt=""></p>
+<p>原始图片：<br>384,171 bytes<br><img src="https://ps.toolinbox.net/cn03g.png" alt=""></p>
+<p>压缩后图片：<br>113,159 bytes，压缩至原尺寸的 <strong>29.5%</strong><br><img src="https://ps.toolinbox.net/j9it3.png" alt=""></p>
 <p>如果我不说，你能看出上面哪张图片是压缩过的吗？</p>
 ]]></content>
       
@@ -17811,7 +17828,7 @@
     <entry>
       <title><![CDATA[1031 - 又生疏了]]></title>
       <url>https://atjason.com/daily/2016-10-31.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/0u7v6.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/0u7v6.jpg" alt=""></p>
 <p>久不写代码；本打算今天搞定 iPic 上传前压缩，却发现一个小问题都能卡住很久。这感觉，真难受。</p>
 ]]></content>
       
@@ -17827,7 +17844,7 @@
     <entry>
       <title><![CDATA[1030 - iPic 新需求：上传前压缩]]></title>
       <url>https://atjason.com/daily/2016-10-30.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/jgox1.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/jgox1.jpg" alt=""></p>
 <p>恩，至少我是有需求的。现在每天的博客中都是有图的，虽然图本身已经很小了，但能更小，当然是更好的。</p>
 ]]></content>
       
@@ -17843,7 +17860,7 @@
     <entry>
       <title><![CDATA[1029 - 感谢困难]]></title>
       <url>https://atjason.com/daily/2016-10-29.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/klboh.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/klboh.jpg" alt=""></p>
 <p>困难才能激发我们自己都无法相信的创造力，感谢困难。</p>
 ]]></content>
       
@@ -17859,7 +17876,7 @@
     <entry>
       <title><![CDATA[1028 - 淡定]]></title>
       <url>https://atjason.com/daily/2016-10-28.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/33x8b.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/33x8b.jpg" alt=""></p>
 <p>今天在写代码时，碰到一个极其诡异的问题。明明应该是对的，却怎么都不对。前后折腾了几个小时，都没有搞定。既浪费了时间，也消耗了精力。</p>
 <p>结果，向高手求助时，对方分分钟就解决了。</p>
 <p>问题奇不奇怪，跟自己的能力有很大关系。所以，遇到奇怪的问题，淡定一点，别急着骂问题，先反思是不是自己能力的问题。</p>
@@ -17877,7 +17894,7 @@
     <entry>
       <title><![CDATA[1027 - 哎，忘了给服务器烧香]]></title>
       <url>https://atjason.com/daily/2016-10-27.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/cg2jp.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/cg2jp.jpg" alt=""></p>
 <p>之前有个产品的服务器端由朋友做的，然而：</p>
 <ol>
 <li>今天服务器挂了</li>
@@ -17899,7 +17916,7 @@
     <entry>
       <title><![CDATA[1025 - 木工活]]></title>
       <url>https://atjason.com/daily/2016-10-26.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/0osqr.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/0osqr.jpg" alt=""></p>
 <p>今儿个又做了点木工，给家里的厨柜、抽屉做了隔板，做刨的时候，还把手磨破了。</p>
 <p>喜欢这种动手的感觉，尤其是纯定制的，绝对 100% 满足个性化需求，比在淘宝上搜到的东西称心很多。</p>
 ]]></content>
@@ -17916,7 +17933,7 @@
     <entry>
       <title><![CDATA[1025 - 煲汤新武器：砂锅]]></title>
       <url>https://atjason.com/daily/2016-10-25.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/wm6oz.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/wm6oz.jpg" alt=""></p>
 <p>最近厨房入了个新家伙：砂锅。做排骨汤、鱼汤、鸡汤啥的，很适合 :)</p>
 ]]></content>
       
@@ -17932,7 +17949,7 @@
     <entry>
       <title><![CDATA[1023 - 路由器进入 V8 时代]]></title>
       <url>https://atjason.com/daily/2016-10-24.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/rhdjf.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/rhdjf.jpg" alt=""></p>
 <p>自此，</p>
 <ul>
 <li>支持独立 IP</li>
@@ -17953,7 +17970,7 @@
     <entry>
       <title><![CDATA[1023 - 一个 ! 多花了一个多小时]]></title>
       <url>https://atjason.com/daily/2016-10-23.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/vczvr.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/vczvr.jpg" alt=""></p>
 <p>在 bash 中对字符串进行拼接、进而验证 sha256sum 时，就是因为字符串中有个 <code>!</code> 有问题、没有就好了。折腾了很久都没搞定，最后还是想办法去掉了这个 <code>!</code>.</p>
 <p>哎，这就是程序员中经典的 <code>明明应该是对的，怎么就不对呢？</code></p>
 ]]></content>
@@ -17970,7 +17987,7 @@
     <entry>
       <title><![CDATA[1022 - 后端初见成效]]></title>
       <url>https://atjason.com/daily/2016-10-22.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/hxhac.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/hxhac.jpg" alt=""></p>
 <p>Swift + Vapor 真是个好东西啊。</p>
 <p>今天花了一天的时间，就搞定了：</p>
 <ul>
@@ -18005,7 +18022,7 @@
     <entry>
       <title><![CDATA[1021 - 起步后端]]></title>
       <url>https://atjason.com/daily/2016-10-21.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/54b3v.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/54b3v.jpg" alt=""></p>
 <p>仔细想想，还真没做过后端的事；翻墙路由器需要后端支持，算是个练手的机会吧，开撸。</p>
 ]]></content>
       
@@ -18021,7 +18038,7 @@
     <entry>
       <title><![CDATA[1020 - 不知道干什么的时候，先干点什么]]></title>
       <url>https://atjason.com/daily/2016-10-20.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/uci1z.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/uci1z.jpg" alt=""></p>
 <p>大脑这东西，不怕忙，就怕不忙。让大脑忙起来，它就会更高效地处理事情。反而，如果一直闲着上，大脑效率就越低，越不想做什么。</p>
 <p>不知道干什么的时候，先忙起来。</p>
 ]]></content>
@@ -18039,22 +18056,22 @@
       <title><![CDATA[1019 - iPic 换『芯』上架]]></title>
       <url>https://atjason.com/daily/2016-10-19.html</url>
       <content type="html"><![CDATA[<p>如果你 <a href="https://itunes.apple.com/cn/app/id1101244278?ls=1&amp;mt=12" target="_blank" rel="external">在 macOS App Store 下载 iPic</a>，可能会觉得和之前 iPic 并无太大不同。但其实，iPic 内在已经有了很大变化。</p>
-<h1 id="iPic-Swift-3-0"><a href="#iPic-Swift-3-0" class="headerlink" title="iPic + Swift 3.0"></a>iPic + Swift 3.0</h1><p><img src="https://ohpsctde4.qnssl.com/lvl9n.jpg" alt=""></p>
+<h1 id="iPic-Swift-3-0"><a href="#iPic-Swift-3-0" class="headerlink" title="iPic + Swift 3.0"></a>iPic + Swift 3.0</h1><p><img src="https://ps.toolinbox.net/lvl9n.jpg" alt=""></p>
 <p>是的，第 1 个主要的变化就是，iPic 已经适配了 Swift 3.0. 说实话，这对于普通用户确实是透明、无感的。但了解 Swift 3.0 的朋友会知道，这样的适配代码会有大量的调整，<a href="https://www.v2ex.com/t/311048" target="_blank" rel="external">还有很多隐藏的坑</a>。并且，由于代码的变化，App 每个犄角旮旯的功能都需要进行仔细的测试。</p>
 <a id="more"></a>
-<h1 id="iPicUploader-Inside"><a href="#iPicUploader-Inside" class="headerlink" title="iPicUploader Inside"></a>iPicUploader Inside</h1><p><img src="https://ohpsctde4.qnssl.com/0gquc.jpg" alt=""></p>
+<h1 id="iPicUploader-Inside"><a href="#iPicUploader-Inside" class="headerlink" title="iPicUploader Inside"></a>iPicUploader Inside</h1><p><img src="https://ps.toolinbox.net/0gquc.jpg" alt=""></p>
 <p>第 2 个主要的变化是，集成了 <a href="https://github.com/toolinbox/iPicUploader" target="_blank" rel="external">iPicUploader</a>. 同样，对于 iPic 的普通用户来说，这是透明、无感的。不过，集成 iPicUploader 的意义在于：别的 App 也可以通过调用 iPic 来上传图片、并保存 Markdown 链接。</p>
 <p>比如，你偏爱某款 Markdown 编辑器、而它又不支持上传图片。你可以邀请编辑器的作者来集成 iPicUploader. 这样，你在使用 Markdown 编辑器写作时，只要将图片拖拽至编辑器，编辑器自动调用 iPic 上传图片、保存 Markdown 格式链接、插入图片，一切就像将图片拖入 Word / Pages 中自然。</p>
 <p>目前，已经在和某款 Markdown 编辑器（暂不提名字）合作，等这个产品新版上线了，再来告诉大家。如果你有想支持的 App，也欢迎和我、或者和 App 的作者联系。</p>
 <h1 id="功能上的变化"><a href="#功能上的变化" class="headerlink" title="功能上的变化"></a>功能上的变化</h1><h2 id="支持七牛华南、北美节点"><a href="#支持七牛华南、北美节点" class="headerlink" title="支持七牛华南、北美节点"></a>支持七牛华南、北美节点</h2><p>同样，对大家是透明、无感的，只要在配置七牛图床时，填写 Bucket 即可。对于如何区分 Bucket 所在地区，交给 iPic 来做好了。</p>
 <h2 id="支持复制图床"><a href="#支持复制图床" class="headerlink" title="支持复制图床"></a>支持复制图床</h2><p>为了安全，图床的 Secret Key 信息是使用 * 隐藏显示的。而对于 S3 这种一旦生成 Secret Key、就不能再次查看的服务，就会有些不便：除非在某个地方记录 Secret Key，不然就无法使用其添加多个图片。</p>
-<p><img src="https://ohpsctde4.qnssl.com/tqcnv.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/tqcnv.jpg" alt=""></p>
 <p>现在，有了图床的「复制」功能，只要复制已有的图床、然后再编辑 Bucket 名称即可。安全与便利兼得。</p>
 <h1 id="马上升级"><a href="#马上升级" class="headerlink" title="马上升级"></a>马上升级</h1><p><a href="https://itunes.apple.com/cn/app/id1101244278?ls=1&amp;mt=12" target="_blank" rel="external">下载图床神器 iPic</a></p>
 <p>如果你觉得 iPic 还不错，麻烦下载后顺手 <code>给个好评</code> 之前好评过的朋友，也麻烦更新下评论内容（这样评论才会出现在最新版中）你知道这对 iPic 很有帮助，也能让更多的朋友发现 iPic；谢谢你的帮忙。</p>
 <p>当然，如果你想要反馈或者吐槽，都欢迎 <a href="http://toolinbox.net/html/feedback.html?lang=cn&amp;app=iPic" target="_blank" rel="external">跟我聊聊</a></p>
 <p>希望 iPic 能成为你使用 Markdown 写作时的插图好帮手。</p>
-<p><img src="https://ohpsctde4.qnssl.com/hbiv4.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/hbiv4.jpg" alt=""></p>
 ]]></content>
       
         <categories>
@@ -18069,7 +18086,7 @@
     <entry>
       <title><![CDATA[1018 - 运营入门]]></title>
       <url>https://atjason.com/daily/2016-10-18.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/uzv52.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/uzv52.jpg" alt=""></p>
 <p>自己累计也做了好几款产品了，其中有几个自己还觉得拿得出手，但销量上总没什么起色，搞得自己都不知道到底是产品本身有问题、还是运营推广有问题。</p>
 <p>准备花点时间学习下产品的运营推广。正好接下来的时间中，可能很难有大块的时间来写代码、研究大的问题，那就正好用零散的时间来做运营推广吧。</p>
 ]]></content>
@@ -18086,7 +18103,7 @@
     <entry>
       <title><![CDATA[1017 - 义乌行]]></title>
       <url>https://atjason.com/daily/2016-10-17.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/l9orl.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/l9orl.jpg" alt=""></p>
 <p>今天去义乌推广路由器，可耻得一台都没有推销出去…</p>
 <p>惆怅了，该怎么继续呢？</p>
 <p>先搁着，明天改进并提交 iPic</p>
@@ -18104,7 +18121,7 @@
     <entry>
       <title><![CDATA[1016 - 6.6 元包邮]]></title>
       <url>https://atjason.com/daily/2016-10-16.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/arsr8.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/arsr8.jpg" alt=""></p>
 <p>今天在淘宝买点了小东西，6.6 元包邮。是电商不好做，还是我太嫩看不懂？</p>
 ]]></content>
       
@@ -18120,7 +18137,7 @@
     <entry>
       <title><![CDATA[1015 - 灰色产业好难受]]></title>
       <url>https://atjason.com/daily/2016-10-15.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ekkfl.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ekkfl.jpg" alt=""></p>
 <p>今天开始在公开渠道推广，可是，好郁闷。因为是灰色地带，政府管制很严，像 58、赶集、淘宝这些地方，帖子都发不了。哎，难受…</p>
 ]]></content>
       
@@ -18136,7 +18153,7 @@
     <entry>
       <title><![CDATA[1014 - 淘宝的门道好多]]></title>
       <url>https://atjason.com/daily/2016-10-14.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/1d1iw.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/1d1iw.jpg" alt=""></p>
 <p>今天把翻墙路由器发布到淘宝，结果过了很久一直是已过期或下架状态。开始以为是上架要点时间，可后来等了几个小时还是没上架，就联系了客服（晚上 10 点，居然还有客服在线，牛）被告知是因为商品涉嫌违规，需要人工审核。</p>
 <p>哎，审核就审核，为什么没有通知呢？</p>
 <p>在与客服妹子聊天的过程中，居然审核通过、变正常了，奇怪，毫无道理可言。</p>
@@ -18157,7 +18174,7 @@
     <entry>
       <title><![CDATA[1013 - 好久没有惊喜]]></title>
       <url>https://atjason.com/daily/2016-10-13.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/x565s.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/x565s.jpg" alt=""></p>
 <p>没碰到什么意外，没什么意想不到的惊喜，有些没劲。</p>
 ]]></content>
       
@@ -18173,7 +18190,7 @@
     <entry>
       <title><![CDATA[1012 - 高效干活的感觉真爽]]></title>
       <url>https://atjason.com/daily/2016-10-12.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/iy997.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/iy997.jpg" alt=""></p>
 <p>话说，昨天给自己挖了个坑，可一直没时间好好搞定。今天，终于有了不被打扰的大块时间，很高效、放心地搞定了这个问题。</p>
 <p>不被打扰、认真干活、还出成果，这感觉，真爽。</p>
 ]]></content>
@@ -18190,7 +18207,7 @@
     <entry>
       <title><![CDATA[1011 - 给自己挖了个坑]]></title>
       <url>https://atjason.com/daily/2016-10-11.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/i5jif.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/i5jif.jpg" alt=""></p>
 <p>翻墙服务器是可以自动升级的，主要是为了应对不断增高的墙。昨晚，我很高兴地放了个升级版本；结果，今天早上发现：完了，升级包有问题，而用户已经自动升级到有问题的版本了。</p>
 <p>哎，一声叹息…</p>
 <p>今天一整天都在补救，还没完全搞定，明天还得继续。关键的，做不到完全恢复原状，有些情况只能忍了。</p>
@@ -18209,7 +18226,7 @@
     <entry>
       <title><![CDATA[1010 - 时间太容易溜走]]></title>
       <url>https://atjason.com/daily/2016-10-10.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/q1d1h.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/q1d1h.jpg" alt=""></p>
 <p>今天出去寄快递、买点东西，1 个多小时就过去了。</p>
 <p>哎，时间啊，太容易溜走了。</p>
 ]]></content>
@@ -18226,7 +18243,7 @@
     <entry>
       <title><![CDATA[1009 - 闲鱼是个好地方]]></title>
       <url>https://atjason.com/daily/2016-10-09.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/j7zxx.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/j7zxx.jpg" alt=""></p>
 <p>最近家里收拾东西，找到几个不用的东西，都是好好的，扔了可惜，可偏偏已经用不到了。</p>
 <p>后来，竟然在闲鱼上卖掉了几件，感觉不错。即不浪费东西，又能收点小钱，挺好的。</p>
 ]]></content>
@@ -18243,7 +18260,7 @@
     <entry>
       <title><![CDATA[1008 - 喜欢打磨产品的感觉]]></title>
       <url>https://atjason.com/daily/2016-10-08.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/sgga0.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/sgga0.jpg" alt=""></p>
 <p>越打磨，对产品越熟悉、技能越强、越知道该怎么改进；<br>越打磨，产品越好、感觉越爽、回报越高、越想继续打磨。</p>
 <p>喜欢这种正向循环。</p>
 ]]></content>
@@ -18261,7 +18278,7 @@
       <title><![CDATA[1007 - iPic + Swift 3]]></title>
       <url>https://atjason.com/daily/2016-10-07.html</url>
       <content type="html"><![CDATA[<p>我怂了，花了半个国庆假期为图床神器 iPic 适配 Swift 3，却不敢上架 macOS App Store…</p>
-<p><img src="https://ohpsctde4.qnssl.com/n473i.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/n473i.jpg" alt=""></p>
 <p>macOS Sierra 发布有些天了，Swift 3 也是同期发布的。这几天手痒把 XCode 升级了，同时也将 iPic 适配 Swift 3；本打算 1 天搞完的，结果…哎，说多都是泪…</p>
 <p>就是因为之前没觉得是多大的事，也就没好好的总结，随意写点感受，供大家娱乐。</p>
 <a id="more"></a>
@@ -18274,7 +18291,7 @@
 <p>说回来，由于没有仔细看每一处变化，导致心里很慌：不知道哪有雷啊。虽然单元测试也努力跑通了，但就是跑通的太快了，反而更慌了。</p>
 <h1 id="深坑在细节"><a href="#深坑在细节" class="headerlink" title="深坑在细节"></a>深坑在细节</h1><p>『大体能跑通』，这其实是很不靠谱的。需要花费大量时间搞定的，可能是其中某一个细节问题。</p>
 <p>我遇到的一个是：base64 编码。现象是 iPic 怎么都不能上传图片至 Flickr，错误原因是生成的 Token 错误。可之前就是这么干的呀？最痛的地方在于， Flickr 生成 Token 是个巨复杂的过程（下图稍微感受下），其中每个步骤都可能出错，这就意味着每个步骤都要仔细过；偏偏之前偷懒这部分单元测试不全（哎…）于是，开始了漫长的调试。</p>
-<p><img src="https://ohpsctde4.qnssl.com/hmngf.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/hmngf.jpg" alt=""></p>
 <p>最后的原因是，之前的 base64 相关的编码结果中，<code>:</code> 是被转义的，而新的代码（即被 XCode 转换、而我没仔细看的代码），貌似 <code>:</code> 没有被转义，导致 Token 无效（未严格验证原因，总之解决问题了…）</p>
 <p><strong>忠告</strong>：单元测试、自动化测试不能偷懒。99.99% 的情况下，我们做不到测试驱动开发，但还是要在开发每个功能后、在对这个功能最熟悉的时候，补全单元测试、测试用例。</p>
 <p><strong>小技巧</strong>：在功能完成后，写单元测试其实还算简单。先把单元测试的架子搭好，正确值留白；然后直接运行，肯定会出错。关键，XCode 会给出正确值。这时，只要把 XCode 的值复制到正确值即可，相对还算轻松。</p>
@@ -18289,7 +18306,7 @@
 <h1 id="那个啥，啥是-iPic？"><a href="#那个啥，啥是-iPic？" class="headerlink" title="那个啥，啥是 iPic？"></a>那个啥，啥是 iPic？</h1><p>哦，这事啊；</p>
 <p>iPic 可以自动上传图片、保存 Markdown 链接，给你前所未有的插入体验（图片）；支持微博、七牛、又拍、阿里云、S3、Imgur、Flickr 等一票图床。总之各种爽，谁用谁知道。</p>
 <p>具体看 <a href="http://toolinbox.net/iPic/" target="_blank" rel="external">图床神器 iPic 操作动画</a></p>
-<p><img src="https://ohpsctde4.qnssl.com/gdwow.png" alt=""></p>
+<p><img src="https://ps.toolinbox.net/gdwow.png" alt=""></p>
 ]]></content>
       
         <categories>
@@ -18304,7 +18321,7 @@
     <entry>
       <title><![CDATA[1006 - 云里雾里写代码]]></title>
       <url>https://atjason.com/daily/2016-10-06.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/r56x7.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/r56x7.jpg" alt=""></p>
 <p>今天写代码，总感觉云里雾里的。出去玩了下，坐着写代码时，感觉背痛、胳膊痛。</p>
 <p>哎，这是老了吗？</p>
 ]]></content>
@@ -18321,7 +18338,7 @@
     <entry>
       <title><![CDATA[1005 - 项目切换成本很高]]></title>
       <url>https://atjason.com/daily/2016-10-05.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/tus2s.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/tus2s.jpg" alt=""></p>
 <p>前几天在改进 EAWiFi，这几天因为 Swift 3 和七牛新开华南节点的原因，重新开始写代码，却发现非常没有感觉，也很低效。</p>
 <p>如果一直在做一件事，自己就对其比较熟悉，手比较热，做起事来也比较快。而如果搁置了一段时间，对这件事生疏了，再拿起来就需要时间重新进入角色，这中间的转换成本是很高的 ，也是很大的浪费。</p>
 <p>看来，还是要确定一个相对较大的项目，持续的做，这样累积优势、保持高效、做出精品。</p>
@@ -18339,7 +18356,7 @@
     <entry>
       <title><![CDATA[1004 - 一个冒号引发的故事]]></title>
       <url>https://atjason.com/daily/2016-10-04.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/dlguo.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/dlguo.jpg" alt=""></p>
 <p>迁移至 Swift 3 时，iPic 始终无法上传至 Flickr，可之前都是好好的呀？</p>
 <p>重复了无数遍：不可能呀 之后，终于在很仔细的对比输出后，发现 Swift 3 在网址编码时，不再对冒号（：）进行编码，而 Flickr 服务器端肯定是编码的，导致双方不一致，验证失败。</p>
 <p>看来 Swift 3 升级后应该提供详细的说明书；不过可能即使有说明书，大家也不会看。也许程序员注定就是要爬这些坑的吧。</p>
@@ -18357,7 +18374,7 @@
     <entry>
       <title><![CDATA[1003 - Swift 3]]></title>
       <url>https://atjason.com/daily/2016-10-03.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/e5ujz.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/e5ujz.jpg" alt=""></p>
 <p>今天开始适配 Swift 3，哎，够强把 iPic 跑起来了，可还没仔细看 Swift 3 的所有新特性。</p>
 <p>还有一个『坏消息』，七牛新增了华南节点，使用新的上传地址。为此，iPic 不得不出新版本了，目标是假期结束前上架。</p>
 ]]></content>
@@ -18374,7 +18391,7 @@
     <entry>
       <title><![CDATA[1002 - 保持学习]]></title>
       <url>https://atjason.com/daily/2016-10-02.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/tjcbe.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/tjcbe.jpg" alt=""></p>
 <p>这几天开始忙 EAWiFi 的事，结果核心业务：macOS 开发倒是耽误了。</p>
 <p>明天开始，要保证每天写代码。可能做不了需要大块时间的项目，但可以做些零碎的事，比如学习 Swift 3.0、基于 Swift 的后端编程、XCode 效率提升、等等。</p>
 <p>另外，今天装上了移动宽带的电视盒子，看了许久没看的《新闻联播》，并看了 CCTV 9 的超级工程，感觉中国的铺路建桥技术很震撼。关键是，这些是自己不会主动寻找的信息。之前都是用 iPad 搜索视频、投放到电视上看，这样总能看自己喜欢看的东西。但问题是，这样手触到的信息都是在自己兴趣范围内的，而对于更广阔的其他信息，被自己自动屏蔽了。有了这样的随机信息接收窗口，可以扩大信息接收的种类。</p>
@@ -18392,7 +18409,7 @@
     <entry>
       <title><![CDATA[1001 - 搞定老大难问题]]></title>
       <url>https://atjason.com/daily/2016-10-01.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/0tpgv.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/0tpgv.jpg" alt=""></p>
 <p>今天搞定了两个老大难问题：</p>
 <ul>
 <li>SS 服务器统计流量、在线用户</li>
@@ -18415,7 +18432,7 @@
     <entry>
       <title><![CDATA[0930 - 核心竞争力]]></title>
       <url>https://atjason.com/daily/2016-09-30.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/i1paj.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/i1paj.jpg" alt=""></p>
 <p>让创业的人去找工作，让工作的人去创业。换个环境、换个考核标准，是拷问核心竞争力的有效方式。</p>
 ]]></content>
       
@@ -18431,7 +18448,7 @@
     <entry>
       <title><![CDATA[0929 - 只做最少的事]]></title>
       <url>https://atjason.com/daily/2016-09-29.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/y274p.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/y274p.jpg" alt=""></p>
 <p>在改进 EAWiFi 时，其实有很多事情可以做、可以做很久。</p>
 <p>但其实，并不是所有事情都需要做。或者说，至少现在并不需要。只要做眼下最需要做的部分，能把事情向前推进即可。</p>
 <p>关键是拿到最终的结果，也即销售。如果没有销售出去，做再多改进也是无用功。</p>
@@ -18449,7 +18466,7 @@
     <entry>
       <title><![CDATA[0928 - 要么尽兴、要么不干]]></title>
       <url>https://atjason.com/daily/2016-09-28.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/syhj6.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/syhj6.jpg" alt=""></p>
 <p>喜欢做，就去做；做，就做得尽兴。</p>
 <p>不喜欢，做不好；做不好，不喜欢。</p>
 <p>你选哪个？</p>
@@ -18467,7 +18484,7 @@
     <entry>
       <title><![CDATA[0927 - 完美与可靠]]></title>
       <url>https://atjason.com/daily/2016-09-27.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/9ms0p.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/9ms0p.jpg" alt=""></p>
 <p>技术造型时，尽量选择完美的方案。高效、稳定、适应各种情况、等等。</p>
 <p>但实际上，很难有完美的方案，不同方案都有其缺点、不适应的情况。于是，怎么在不同文案中组合、选择呢？</p>
 <p>答案是：<strong>工程可选性</strong></p>
@@ -18486,7 +18503,7 @@
     <entry>
       <title><![CDATA[0926 - 低效 -> 沮丧]]></title>
       <url>https://atjason.com/daily/2016-09-26.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/lmt56.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/lmt56.jpg" alt=""></p>
 <p>这两天在研究 EAWiFi 中的 DNS 优化，因为各种事情打断，效率有些低，关键一直没有产出。</p>
 <p>在这种状态下，在处理 iPaste &amp; iTimer 发布的事时、在处理日常的一些琐事时，很容易发脾气，稍有不顺就感觉沮丧。</p>
 <p>果然还是发展能解决问题。如果一直势如破竹地在前进，在前进路上就算碰到点挫折，也会很有信心、耐心地干掉它。</p>
@@ -18505,7 +18522,7 @@
     <entry>
       <title><![CDATA[0925 - 重新提交 iPaste & iTimer]]></title>
       <url>https://atjason.com/daily/2016-09-25.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/lunab.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/lunab.jpg" alt=""></p>
 <p>本打算今天同时上线 iPaste &amp; iTimer、并开始运营，结果出了问题。</p>
 <p>还好小心先发了 iTimer，然后立即测试，发现了问题：已有付费用户在升级至免费+内购的新版本后，无法自动升级为高级账户。</p>
 <p>修复代码后，今天又重新提交了 iPaste &amp; iTimer，期待明晚顺利上线。</p>
@@ -18523,7 +18540,7 @@
     <entry>
       <title><![CDATA[0924 - 重启 EAWiFi]]></title>
       <url>https://atjason.com/daily/2016-09-24.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ccl9w.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ccl9w.jpg" alt=""></p>
 <p>改进 EAWiFi 多个环节，比如 DNS 速度、SS 稳定性、等等。</p>
 ]]></content>
       
@@ -18539,7 +18556,7 @@
     <entry>
       <title><![CDATA[0923 - 精算时间]]></title>
       <url>https://atjason.com/daily/2016-09-23.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/f69dq.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/f69dq.jpg" alt=""></p>
 <p>以前一起觉得记录时间太麻烦、记录本身花的时间太多。</p>
 <p>现在观念变了，一定要记录时间，尤其是对自由职业者。只有记录时间，才能精算时间成本，才能明确某件事的时间投入成本是多少、是否值得投入、是否应该继续投入。</p>
 <p>不过，目前并没有发现完全趁手的时间记录方案。准备先用 Excel 来记录，等软件方案确定了，再转移。总之，不能以没找到方案为理由不记录时间。</p>
@@ -18560,7 +18577,7 @@
     <entry>
       <title><![CDATA[0922 - iPaste & iTimer]]></title>
       <url>https://atjason.com/daily/2016-09-22.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/jd3rf.jpg" alt=""><br>今天高压工作一天，终于提交了 iPaste &amp; iTimer，下周发布！</p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/jd3rf.jpg" alt=""><br>今天高压工作一天，终于提交了 iPaste &amp; iTimer，下周发布！</p>
 ]]></content>
       
         <categories>
@@ -18575,7 +18592,7 @@
     <entry>
       <title><![CDATA[0921 - 斜杠青年]]></title>
       <url>https://atjason.com/daily/2016-09-21.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/tcq57.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/tcq57.jpg" alt=""></p>
 <p>斜杠青年，指的是这样一个人群：他们不满足单一职业和身份的束缚，而是选择一种能够拥有多重职业和多重身份的多元生活。这些人在自我介绍中会用斜杠来区分，例如，“XX，产品经理/设计师/开发/测试/运营”，故称斜杠青年。</p>
 <p>这句话说的好：<strong>在认知盈余的时代，人人都可以成为斜杠青年</strong>。</p>
 <p>成为一个领域的专家，并不意味着在别的领域是白痴；换句话说，既可以是一个领域的专家，也可以在另一个领域花 20% 的时间、掌握 80% 的i知识。</p>
@@ -18593,7 +18610,7 @@
     <entry>
       <title><![CDATA[0920 - 先搭框架、再补细节]]></title>
       <url>https://atjason.com/daily/2016-09-20.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/bmu1y.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/bmu1y.jpg" alt=""></p>
 <p>今天改版 iTimer，总是感觉进度很慢，自己不满意、没有成熟感。</p>
 <p>仔细想想，其中有这么一点教训：因为陷在某个细节中，而细节的不确定性、反复，又消耗了很多时间和精力。而把其他可以做的事像堆栈一样压在心里，时间长了，心会很累，堆栈也会溢出。</p>
 <p>更好的做法是，先把总体的框架搭出来，然后按部就班一个个完成。在做的过程中，如果碰到大的问题，可能要重新调整节奏；而如果只是小问题，则可以先记下来，回头再来搞定。这样，可以保证总体的节奏是顺畅的。</p>
@@ -18612,7 +18629,7 @@
     <entry>
       <title><![CDATA[0919 - 答案在心里]]></title>
       <url>https://atjason.com/daily/2016-09-19.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/cjwke.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/cjwke.jpg" alt=""></p>
 <p>今天去博库书城，虽然书城很大、书很多，但自己感兴趣的，还是自己感兴趣的书；这可能就是所谓的路径依赖吧。</p>
 <p>本来是想通过获取新鲜信息来寻找灵感，但发现答案其实还是在内心深处。不过，外在的刺激还是有用的。比如，包装精美的书、个中观点，还是能刺激自己梳理内心杂乱、或者被掩盖的想法。在这样的刺激下，内心变得平静，开始安静地思考，梳理焦躁的情绪，找到最能让自己满足的想法、思路。</p>
 <p>周期性的接受外在新鲜的刺激，可以更加看清内心。</p>
@@ -18630,7 +18647,7 @@
     <entry>
       <title><![CDATA[0918 - 怡情]]></title>
       <url>https://atjason.com/daily/2016-09-18.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/eiswi.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/eiswi.jpg" alt=""></p>
 <p>比如，买个喜欢的东西，做点喜欢的事，换个地方呆着…</p>
 <p>简单调节下状态，别让心情一直是直线。</p>
 ]]></content>
@@ -18647,7 +18664,7 @@
     <entry>
       <title><![CDATA[0917 - 干瘪]]></title>
       <url>https://atjason.com/daily/2016-09-17.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/yegru.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/yegru.jpg" alt=""></p>
 <p>今天都不知道能写点什么，生活和思想都太干瘪了。</p>
 ]]></content>
       
@@ -18663,7 +18680,7 @@
     <entry>
       <title><![CDATA[0915 - 最重要的，反倒最容易忽视]]></title>
       <url>https://atjason.com/daily/2016-09-16.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/3td8f.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/3td8f.jpg" alt=""></p>
 <p>呼吸很重要，却很容易被忽视。</p>
 <p>工作、生活中的很多事也是这样。总会有各种边缘的事发生、总会有各种状况与状态，你到底如何选择、放弃哪个，很容易被眼下的、耳朵里听到的东西所影响。可最重要的，却可能是最沉默的，因而很容易被忽略。</p>
 <p>没事多想想初心，决策前多想想最重要的、最不能放弃的。</p>
@@ -18681,7 +18698,7 @@
     <entry>
       <title><![CDATA[0915 - 中秋佳节、团团圆圆]]></title>
       <url>https://atjason.com/daily/2016-09-15.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/hhllb.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/hhllb.jpg" alt=""></p>
 <p>今天敲定了 2 个产品名及其 Logo:</p>
 <ul>
 <li>Daily Clipboard | 贴贴板 &gt; iPaste</li>
@@ -18702,7 +18719,7 @@
     <entry>
       <title><![CDATA[0914 - 时间是多还是少]]></title>
       <url>https://atjason.com/daily/2016-09-14.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/1b9wt.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/1b9wt.jpg" alt=""></p>
 <p>美国人一年花在看电视上的时间大约2 000亿个小时，而这几乎是2 000个维基百科项目一年所需要的时间。</p>
 <p>我们着急的时候，一刻也不想耽搁，却会花大把大把的时间做无谓的消遣。早知如此，当时还着急个毛线？</p>
 <p>既然知道我们还会浪费更多的时间，着急的时候，不必那么着急；<br>如果已经在后悔之前浪费的时间，不妨少一些消遣，做点什么。</p>
@@ -18720,7 +18737,7 @@
     <entry>
       <title><![CDATA[0913 - 限定条件]]></title>
       <url>https://atjason.com/daily/2016-09-13.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/lsvai.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/lsvai.jpg" alt=""></p>
 <p>做题长大的我们，问题是习惯于命题作文：你出题、我来解题。</p>
 <p>而现实则是开放的。有很多问题，可就是没人给你出题。当然了，还是有人出题的。比如，你在一家公司工作，老板交待的任务，就是命题。</p>
 <p>但终究，还是要自己出题；而这，更需要能力，也就是常说的：一个好问题，比回答更重要。</p>
@@ -18738,7 +18755,7 @@
     <entry>
       <title><![CDATA[0912 - 经济学中的比较优势]]></title>
       <url>https://atjason.com/daily/2016-09-12.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/2vq8m.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/2vq8m.jpg" alt=""></p>
 <p>如果一个绝对强国，啥啥的生产效率都比别国强，那他还需和别国贸易吗？</p>
 <p>可能并不好回答。不急，再看一个更直白的类比：</p>
 <p>如果一个老板，啥啥的干活效率都比较别人强，那他还需要花钱雇人吗？</p>
@@ -18758,7 +18775,7 @@
     <entry>
       <title><![CDATA[0911 - 实干倒逼愿景]]></title>
       <url>https://atjason.com/daily/2016-09-11.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/3m6sz.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/3m6sz.jpg" alt=""></p>
 <p>有长期的目标、愿景，细分为行动，并驱动前行；这是逆向。</p>
 <p>开始时，并未想清楚未来，但撸起袖子先干起来。在干的过程中，慢慢摸索，找到感觉，并开始思考稍远一点、远一点、再远一点的方向；这是正向。</p>
 <p>如果还没有愿景、或者目标尚未清晰，不妨先干起来，边干边想。</p>
@@ -18776,7 +18793,7 @@
     <entry>
       <title><![CDATA[0910 - 开放]]></title>
       <url>https://atjason.com/daily/2016-09-10.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/5lneb.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/5lneb.jpg" alt=""></p>
 ]]></content>
       
         <categories>
@@ -18791,7 +18808,7 @@
     <entry>
       <title><![CDATA[0909 - 不管可以不管的事]]></title>
       <url>https://atjason.com/daily/2016-09-09.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/2oc2w.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/2oc2w.jpg" alt=""></p>
 <p>我们要操心的事已经够多了。</p>
 <p>一件事，如果可以不用自己管，就不管好了。</p>
 <p>把 腾出的精力，管好自己该管的事。这样做，是对自己该管的、可以不管的事，最负责作的做法。</p>
@@ -18809,7 +18826,7 @@
     <entry>
       <title><![CDATA[0908 - 苹果没发新 Mac]]></title>
       <url>https://atjason.com/daily/2016-09-08.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/xs8io.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/xs8io.jpg" alt=""></p>
 <p>今天早上看了苹果今年的秋季发布会。哎，没发布新 Mac；本来还指望着发新 Mac 会带来更多销量、带动 iPic 的销量，结果却没有。</p>
 <p>今天本打算上午重构完贴贴板、下午开始做新功能。结果一天都没重构完。哎，这节奏，太慢了。要加油、加油、加油！</p>
 ]]></content>
@@ -18826,7 +18843,7 @@
     <entry>
       <title><![CDATA[0907 - 螺旋式上升]]></title>
       <url>https://atjason.com/daily/2016-09-07.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/v0tsq.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/v0tsq.jpg" alt=""></p>
 <p>今天正式开始改进贴贴板。</p>
 <p>可是，发现很难在以前代码的基础上修改、或加新功能；毕竟是大半年前的代码了，现在感觉之前写的代码太差了。无奈，改进的第一步：重构。</p>
 <p>不过，回过头来看，这代码已经是当时自己的最佳水平了。而经过了这大半年的练习、实践，自己的代码水平也有所提高，自然就觉得之前的代码差了。换句话说，我已经不再是之前的我、已经有所提升了。</p>
@@ -18846,7 +18863,7 @@
     <entry>
       <title><![CDATA[0906 - 信息需要交流，资源需要互换]]></title>
       <url>https://atjason.com/daily/2016-09-06.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/dos9t.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/dos9t.jpg" alt=""></p>
 <p>今天和 Mac 玩儿法的 Frank 聊，他无意间提到了在使用腾讯企业邮箱免费版。这个信息对他来说是廉价、甚至免费的，而对我来说就很有用，我立马也使用腾讯企业邮箱搭建了自有域名的邮箱。</p>
 <p>另外，我也帮 Bear 联系了国内的少数派、Mac 玩儿法、爱范儿等国内媒体。对我来讲，这成本并不高；而对于意大利的 Bear 来说，是很困难、很有价值的事。同样的，他们也为我提供了一个在国外宣传的网站列表。虽然没有直接帮我宣传，但也是帮助很大了。</p>
 <p>信息需要交流，资源需要互换。这样我们可以互通有无，利用对方的优势、弥补自己的劣势；在不影响对方利益的前提下，增加自己的利益；也就是，共赢。</p>
@@ -18864,7 +18881,7 @@
     <entry>
       <title><![CDATA[0905 - iPic 开始抱大腿啦]]></title>
       <url>https://atjason.com/daily/2016-09-05.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/zu2x7.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/zu2x7.jpg" alt=""></p>
 <p>好吧，是这样的，iPic 完善了上传服务：iPicUploader；今天，开始和一些 Markdown 编辑器作者联系。其中有几个已经勾搭上了，之后应该就会有 <strong>Powered by iPic</strong> 的 Markdown 编辑器问世啦。</p>
 <p>期间，Bear 的负责人问我：<em>We usually struggle to get noticed by Chinese websites or blogs, do you have any hint or website to recommend ?</em></p>
 <p>看来，国际 App 对于如何在中国推广，就像我们对于如何在国际推广一样：惆怅。感觉这会是一个机会：帮助国内 App 在国际推广、尤其是帮助国际 App 在国内推广。</p>
@@ -18882,7 +18899,7 @@
     <entry>
       <title><![CDATA[0903 - iPic 上传服务出炉：iPicUploader]]></title>
       <url>https://atjason.com/daily/2016-09-04.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/6kmj6.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/6kmj6.jpg" alt=""></p>
 <p>iPic 做的是比较基础的事：把图片上传至云存储。之所以说基础，是因为一些别的 App 也会需要这样的功能，比较 Markdown 编辑器。所以，一起想着能开放 iPic 的上传能力，让别的 App 也能调用 iPic 上传图片。</p>
 <p>经常各种试错，终于出炉了上传服务：iPicUploader；同时，也是生平第一个 <a href="https://cocoapods.org/?q=ipicuploader" target="_blank" rel="external">CocoaPod 项目</a>。并且，提供了完整的示例代码，包括拖动上传、选择图片文件上传、复制粘贴上传等示例。</p>
 <p>最后，整个项目开源、并托管在 GitHub 中：<a href="https://github.com/toolinbox/iPicUploader" target="_blank" rel="external">iPicUploader</a>。明天开始宣传，希望更多的人来用 iPicUploader，大家一起做更有趣的应用。</p>
@@ -18900,7 +18917,7 @@
     <entry>
       <title><![CDATA[0902 - 信息的缺失]]></title>
       <url>https://atjason.com/daily/2016-09-03.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/wmonq.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/wmonq.jpg" alt=""></p>
 <p>杭州这几天在举办 G20，不过，貌似我对 G20 本身好像还真没什么了解。仔细想了下，可能是我获取信息的渠道主要是 IT 相关的，还真没有社会、经济之类的，所以对 G20 知之甚少。</p>
 <p>不过，这样是不对的。在主要获取 IT 类信息的同时，也要做主能获取其他各行业的重要新闻。暂时又下载了今日头条、网易新闻等客户端，回头再过滤下信息的渠道，集中到 Feedly 的 RSS 订阅中，争取保持在一个入口获取所有信息的习惯。</p>
 ]]></content>
@@ -18917,7 +18934,7 @@
     <entry>
       <title><![CDATA[0902 - 以服务的标准做产品]]></title>
       <url>https://atjason.com/daily/2016-09-02.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/7knxy.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/7knxy.jpg" alt=""></p>
 <p>这里说的是技术产品和技术服务。</p>
 <p>iPic 可以上传图片，这是一个层次。<br>iPic 可以开放上传服务，别的 App 可以通过调用 iPic 来上传图片，这是另一个层次。</p>
 <p>自己用的代码，可以龌龊一些。而一旦要开放出去给别人用，标准自然要高很多。</p>
@@ -18937,7 +18954,7 @@
     <entry>
       <title><![CDATA[0901 - 无压下的自我调节]]></title>
       <url>https://atjason.com/daily/2016-09-01.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/u2815.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/u2815.jpg" alt=""></p>
 <p>首先，这里的无压并不是完全没有压力，主要是指没有外部压力，尤其是没有项目直接相关的外部压力。</p>
 <p>尤其是指自由职业者开发自己的产品，这样的状态；也和创业初期比较像。</p>
 <p>这种无压的自由状态，会带来很多的不确定。比如，什么时候发布、发布的频繁、做到什么程度、某个 Bug 是否可以不改、Logo 是否好看、等等。这些人多的不确定性累加起来，会让事情变得漂移不定、难以把握。</p>
@@ -18958,7 +18975,7 @@
     <entry>
       <title><![CDATA[0831 - iPic 1.2.0 上架]]></title>
       <url>https://atjason.com/daily/2016-08-31.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/w27g2.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/w27g2.jpg" alt=""></p>
 <blockquote>
 <p>使用了三分钟之后决定马上订阅，太好用了。<br>平时很少给应用好评的；但是这次不但要给、还要发个邮件赞一下。你做的这些个东西 吼哇！</p>
 </blockquote>
@@ -18982,7 +18999,7 @@
     <entry>
       <title><![CDATA[0830 - 做有潜力的事]]></title>
       <url>https://atjason.com/daily/2016-08-30.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/u9ov2.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/u9ov2.jpg" alt=""></p>
 <p>如果有一件事：</p>
 <ul>
 <li>一件比较成熟、甚至有些夕阳的味道，但能很快赚到钱；</li>
@@ -19004,7 +19021,7 @@
     <entry>
       <title><![CDATA[0829 - iPic 1.2.0 提交 Mac App Store]]></title>
       <url>https://atjason.com/daily/2016-08-29.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/fuo9q.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/fuo9q.jpg" alt=""></p>
 <p>持续奋斗了 2 天，终于把 iPic 1.2.0 提交 Mac App Store 了，希望能顺利通过。</p>
 <p>发现测试真的很花时间。比如，测试一个版本，发现了问题，修复了再测试，那之前测过的问题还要再测吗？理论上是要测试的，因为修复可能会破坏已有的功能；可这实在是太花时间了。还有就是，测试用例真的很多。尤其 iPic 现在支持的图床多想来了，完整的测试一遍要花好几个小时。</p>
 <p>看来要好好完善下单元测试，并考虑可能的功能测试。这样可以自动测试大部分可重复的测试，人工仅测试一些很难自动化、或者需要思考判断的部分。</p>
@@ -19022,7 +19039,7 @@
     <entry>
       <title><![CDATA[0828 - 节奏没搞好]]></title>
       <url>https://atjason.com/daily/2016-08-28.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/y999w.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/y999w.jpg" alt=""></p>
 <p>最近明确苹果发布会日期，临时决定下周发布、今天提交。于是，今天忙了一天，干掉了几个大问题，也砍掉了几个不太重要的功能和 Bug。遗憾的是，在晚上测试的时候，发现了几个较为严重的问题，心虚了，只好推迟一天发布。</p>
 <p>这次是个比较重要的发布，之前一直打算在苹果发布会当天发布的。后来想想，这样做的意义也不是很大。并且，那时大家的精力都被发布会所占用，自然会影响 iPic 的宣传。另一方面，现有的用户不满意体验版的方式，希望线上版也早点更新。想想，还是提前发布吧。</p>
 <p>于是，就打乱了原生的节奏。而新的节奏，明显太赶了。搞得又累、风险又高。下次不能这样了，公测版、发布节点要规划好，有节奏、低风险。</p>
@@ -19040,12 +19057,12 @@
     <entry>
       <title><![CDATA[0827 - 干了一天 Amazon S3]]></title>
       <url>https://atjason.com/daily/2016-08-27.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/q1ge4.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/q1ge4.jpg" alt=""></p>
 <p>Amazon S3 的 Authorisation 算法 真 是 复 杂！</p>
 <p>基本上，有一半的时间都在在和验证算法战斗。不过 S3 比较成熟、开放，网上有很多关于 S3 的代码实现。但没有一个是可以拿来就用的。于是，结合官方文档、多个开源代码，终于组合出适合 iPic 的 S3 代码库。</p>
 <p>Amazon S3 真是鼻祖啊，国内比如阿里云 OSS、美团云，基本是接口级模仿 Amazon S3. 我的 iPic 先是实现了阿里云 OSS，然后在实现 Amazon S3 时，简直把代码复制一份都能用。不过，好在验证算法没 S3 那么变态。</p>
 <p>可惜的是，S3 在国内基本是不靠谱的状态。使用测试软件，可以发现在国内有一大半都无法访问，真是悲催。</p>
-<p><img src="https://ohpsctde4.qnssl.com/qrq0v.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/qrq0v.jpg" alt=""></p>
 ]]></content>
       
         <categories>
@@ -19060,7 +19077,7 @@
     <entry>
       <title><![CDATA[0826 - 解决问题与寻找机会]]></title>
       <url>https://atjason.com/daily/2016-08-26.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/n4rkg.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/n4rkg.jpg" alt=""></p>
 <p>把现有产品的所有问题都解决掉，也只是让现有产品更完美。</p>
 <p>可是，这样就够了吗？</p>
 <p>很可能，还需要更多。比如，当完美的现有产品赚的钱还不够时，就需要想办法赚更多的钱。这时，更重要的就是寻找新的机会。</p>
@@ -19080,7 +19097,7 @@
     <entry>
       <title><![CDATA[0825 - 组合技能]]></title>
       <url>https://atjason.com/daily/2016-08-25.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/x333j.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/x333j.jpg" alt=""></p>
 <p>一种是在单一领域成为专家；另一种是在两个领域成为半专家，然后在这两个领域间跨界、融合。这两种方式，哪种更具可能性？我看好后一种。</p>
 ]]></content>
       
@@ -19096,7 +19113,7 @@
     <entry>
       <title><![CDATA[0824 - 目标的力量]]></title>
       <url>https://atjason.com/daily/2016-08-24.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/v6n2n.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/v6n2n.jpg" alt=""></p>
 <p>目标可以激励自己<br>比如爬山，如果只是漫无目的在爬，很容易累。而如果有了目标，比如山顶，在爬的过程中会更有动力。</p>
 <p>目标可以帮自己聚集<br>一直在忙，可一直忙并不见得是好事。战术上的勤奋，可能只是战略上的懒惰。有了目标，可以帮自己聚集：只做达到目标的必要事情、剔除掉不重要的事。</p>
 ]]></content>
@@ -19113,7 +19130,7 @@
     <entry>
       <title><![CDATA[0823 - 爽，还是得来自成就感]]></title>
       <url>https://atjason.com/daily/2016-08-23.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/vzjpm.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/vzjpm.jpg" alt=""></p>
 <p>今天看了《谍影重重 5》，不知道是不是期望值太高的原因，并没有预期中的爽。</p>
 <p>但我觉得，还是跟最近项目的状态有关。iPic 出了一点状态，一直没彻底搞定，心一直放不下来。再加上下一个“大项目”还没有着落，也一直感觉不踏实。</p>
 <p>看来，要真正的爽，还是得来自成就感。</p>
@@ -19131,7 +19148,7 @@
     <entry>
       <title><![CDATA[0822 - 用户是朋友]]></title>
       <url>https://atjason.com/daily/2016-08-22.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/r8xot.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/r8xot.jpg" alt=""></p>
 <p>用户不是上帝、也不是小白鼠，用户是朋友。</p>
 <p>开发者和用户之间是平等的，这也是为什么我在跟用户沟通时，一直使用 <code>你</code> 而不是 <code>您</code>。大家需要互相尊重、互相信任。</p>
 ]]></content>
@@ -19148,7 +19165,7 @@
     <entry>
       <title><![CDATA[0821 - 搞定 WeiboDaemon]]></title>
       <url>https://atjason.com/daily/2016-08-21.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/9dgb0.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/9dgb0.jpg" alt=""></p>
 <p>差不多 2 天的时间，搞定了 WeiboDaemon；一些特性：</p>
 <ul>
 <li>后台每 1 小时刷新、并上传 Cookie</li>
@@ -19171,7 +19188,7 @@
     <entry>
       <title><![CDATA[0820 - 工具控]]></title>
       <url>https://atjason.com/daily/2016-08-20.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/5wi6s.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/5wi6s.jpg" alt=""></p>
 <p>iPic 需要使用微博 Cookie，而微博又使用验证码的方式禁止机器模拟登录，没办法只能用人工的方式登录了。</p>
 <p>可是，天长日久，这样的维护成本实在是接受不了。于是，自己折腾了个小工具：手工登录后，定期在后台更新页面，保持 Cookie 有效。</p>
 <p>其实，这样的事情价值并不大，更多的是在钻空子，所以事情本身没什么好总结的。不过，做一个工具，自动化地替自己做事情，这种感觉还是很不错的。</p>
@@ -19189,7 +19206,7 @@
     <entry>
       <title><![CDATA[0819 - 国外的 SaaS 服务都好贵]]></title>
       <url>https://atjason.com/daily/2016-08-19.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/qvk1r.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/qvk1r.jpg" alt=""></p>
 <p>今天发现被 GrooveHD 这个产品给坑了：</p>
 <ul>
 <li>之前没注意到使用其 API 也是高级功能</li>
@@ -19213,7 +19230,7 @@
     <entry>
       <title><![CDATA[0818 - 正确做事的感觉]]></title>
       <url>https://atjason.com/daily/2016-08-18.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ke5zn.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ke5zn.jpg" alt=""></p>
 <ul>
 <li>拥抱新技术，不死守旧技术、尤其是本身有缺陷的技术</li>
 <li>适度优化，但不过度优化</li>
@@ -19238,7 +19255,7 @@
     <entry>
       <title><![CDATA[0817 - 网络的问题，真头大]]></title>
       <url>https://atjason.com/daily/2016-08-17.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/xfivy.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/xfivy.jpg" alt=""></p>
 <p>EAWiFi 这边，不同的宽带情况差异很大。</p>
 <p>iPic 这边，上传至七牛时，移动宽带慢得要死，走国外代理反而更快。</p>
 <p>哎，一旦跟网络环境扯上关系，真是头大。</p>
@@ -19256,7 +19273,7 @@
     <entry>
       <title><![CDATA[0816 - 万事开头难，开头就不难]]></title>
       <url>https://atjason.com/daily/2016-08-16.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/z2wai.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/z2wai.jpg" alt=""></p>
 <p>据说，拖延症的一个原因是，因为怕事情太难、或做不好，而不愿意开始。</p>
 <p>这时候，解决的办法是，立即开始。别管什么效率、别管什么方法、别管能不能做完，随手抓起一件具体的事，做就可以了。</p>
 <p>做着做着，自己就会慢慢有感觉，知道接下来要做什么、知道先做什么、知道怎么做。</p>
@@ -19275,7 +19292,7 @@
     <entry>
       <title><![CDATA[0815 - 一松泻千里]]></title>
       <url>https://atjason.com/daily/2016-08-15.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ukf3b.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ukf3b.jpg" alt=""></p>
 <p>本来打算今天搞定阿里 OSS 集成的；结果，一松懈，一天就过去了。</p>
 ]]></content>
       
@@ -19291,7 +19308,7 @@
     <entry>
       <title><![CDATA[0814 - 少出错]]></title>
       <url>https://atjason.com/daily/2016-08-14.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/zvdpd.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/zvdpd.jpg" alt=""></p>
 <p>今天看了奥运会乒乓球男单决赛，很明显的感觉是，张继科输在失误上。当然，说是失误，也可能是能力上的问题。不过，也确实是有不太应该的失误。</p>
 <p>做事、做产品也是一样，机会总是有的，关键是能不能抓住。错过一些机会也不是太大的的问题，但不能一直错过，尤其是到手的机会一定要转化成实际的东西。</p>
 <p>努力做好眼前的事，也才有资格考虑更长远的事。</p>
@@ -19309,7 +19326,7 @@
     <entry>
       <title><![CDATA[0813 - 使用靠谱的服务]]></title>
       <url>https://atjason.com/daily/2016-08-13.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/geu4o.jpg" alt=""><br>今天收到大量用户的反馈：iPic 无法上传至默认的图床。</p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/geu4o.jpg" alt=""><br>今天收到大量用户的反馈：iPic 无法上传至默认的图床。</p>
 <p>这是个雷，还是炸了。</p>
 <p>iPic 默认使用微博图床，而微博并没有完全开放这一点。所以 iPic 是使用了类似 Hack 的技术实现这一点。而微博最近调整了其 API，导致这一 Hack 失效，最终导致了 iPic 功能上的失败。</p>
 <p>暂时使用别的办法绕过去了，但毕竟不是长久之计。看来以后还是要选择靠谱的服务，不然就是在给自己挖坑。</p>
@@ -19723,7 +19740,7 @@
     <entry>
       <title><![CDATA[0812 - 学会外包]]></title>
       <url>https://atjason.com/daily/2016-08-12.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/3ulwj.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/3ulwj.jpg" alt=""></p>
 <p>学会外包，只是形式。真正要学会的是，只做核心业务。</p>
 <p>今天心里简单核算了下 EAWiFi 的投入，发现比之前预想的要多很多。而且，很多精力都花在了服务器的搭建和维护上。而这部分并不是整个项目的核心部分，而且也很容易外包出去，即使用现有的服务。如果当初这么做的话，明显可以降低前期投入、加快进度。</p>
 <p>一个人的精力有限，能做的事也非常有限。所以，一定要只做最核心的部分，做精、做专。其他的，外包出去。</p>
@@ -19741,7 +19758,7 @@
     <entry>
       <title><![CDATA[0811 - 要做精，钻进去]]></title>
       <url>https://atjason.com/daily/2016-08-11.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/g4m0z.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/g4m0z.jpg" alt=""></p>
 <p>本来以为 EAWiFi 已经比较完善了，结果遇到了几个用户的实际问题，发现之前一些明显的漏洞需要改进。解决问题后，又觉得更好了。但我知道，当碰到新的实际问题后，就又会发现现在觉得完美的东西，有明显的错误。</p>
 <p>没有长时间的的浸淫，是不可能成为专家、也不可能做出精品的。只有亲自经历了用户遇到的各种实际问题，并不断地想满足用户需求的新方法、改进已有的设计，才能让产品越来越好。</p>
 <p>要做精品，沉下心、钻进去。</p>
@@ -19759,7 +19776,7 @@
     <entry>
       <title><![CDATA[0810 - 有问题是好事]]></title>
       <url>https://atjason.com/daily/2016-08-10.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/gwtrn.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gwtrn.jpg" alt=""></p>
 <p>今天发现了 EAWiFi 中的一个问题，并不好解决，花了挺长时间。</p>
 <p>不过，后来想想，出现问题是好事，至少让我知道之前一些奇怪的现象是为什么。而解决这些问题后，让我对产品逻辑、内存机理有了更深的理解，也对产品的正常运行更有信心。</p>
 <p>恩，出现问题并不可怕；它恰恰是让我们了解事物本质、改进产品的好机会。</p>
@@ -19777,7 +19794,7 @@
     <entry>
       <title><![CDATA[0809 - 状态来了要抓住]]></title>
       <url>https://atjason.com/daily/2016-08-09.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/hrlu8.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/hrlu8.jpg" alt=""></p>
 <p>不是所有时间效率都很高。尤其是软件开发，有时状态就很差、什么都不不想干，而有时就很有激情，熬夜都不叫事。</p>
 <p>状态来了要抓住，努力向前冲。状态不好就休息，干点别的事。</p>
 ]]></content>
@@ -19794,7 +19811,7 @@
     <entry>
       <title><![CDATA[0808 - 专注]]></title>
       <url>https://atjason.com/daily/2016-08-08.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/mphgo.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/mphgo.jpg" alt=""></p>
 <p>放弃非核心业务</p>
 ]]></content>
       
@@ -19810,7 +19827,7 @@
     <entry>
       <title><![CDATA[0807 - 用金钱换时间]]></title>
       <url>https://atjason.com/daily/2016-08-07.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/xsmoa.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/xsmoa.jpg" alt=""></p>
 <p>如果重新买 MBP，一定买高配的。确实会贵些，但节约的时间绝对值得。</p>
 <p>今天在 VMWare 中安装 macOS Sierra Beta 3，真是慢啊。不管是从网络下载，还是从硬盘中复制，都慢到无法忍受的时间。最后，花了近 2 个小时才将环境搭好；本来可以正常休息的，结果要熬夜，真不划算。</p>
 ]]></content>
@@ -19903,7 +19920,7 @@
     <entry>
       <title><![CDATA[0806 - 量化时间]]></title>
       <url>https://atjason.com/daily/2016-08-06.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/wxx6v.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/wxx6v.jpg" alt=""></p>
 <p>最近又重新有了这个想法：统计、量化自己的时间。</p>
 <p>触发是《奇特的一生》这本书，虽然我并不想像主人公那样详尽的记录时间，但也想大概记录下，看自己在不同项目、事情上所花费的时间。</p>
 <p>有了这些数据，就可以有更进一步的思考，比如项目的投入回报比，在哪些领域投入的时间还不够多，等等。</p>
@@ -20148,7 +20165,7 @@
     <entry>
       <title><![CDATA[0805 - 买椟还珠]]></title>
       <url>https://atjason.com/daily/2016-08-05.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/e4c6g.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/e4c6g.jpg" alt=""></p>
 <p>事情是这样的：</p>
 <blockquote>
 <p>准备学 Git<br>使用 Markdown 做笔记<br>发布到 GitBook 上<br>集成到 GitHub 中</p>
@@ -20168,7 +20185,7 @@
     <entry>
       <title><![CDATA[0804 - 空]]></title>
       <url>https://atjason.com/daily/2016-08-04.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/pmg23.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/pmg23.jpg" alt=""></p>
 ]]></content>
       
         <categories>
@@ -20183,7 +20200,7 @@
     <entry>
       <title><![CDATA[0803 - 试试就知道]]></title>
       <url>https://atjason.com/daily/2016-08-03.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/h5kbk.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/h5kbk.jpg" alt=""></p>
 <p>很多时候我们在网上查，这个怎么样、哪个好？通常是得不到答案。</p>
 <p>通常，更靠谱的是：自己试一试。而且，试的成本，很多时候比我们想象的要低。</p>
 ]]></content>
@@ -20200,7 +20217,7 @@
     <entry>
       <title><![CDATA[0802 - 用户就是责任]]></title>
       <url>https://atjason.com/daily/2016-08-02.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/svh62.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/svh62.jpg" alt=""></p>
 <ul>
 <li>从一个点子、到技术可行性研究，不一样；</li>
 <li>从技术可选性研究通过、到最小原型，不一样；</li>
@@ -20227,7 +20244,7 @@
     <entry>
       <title><![CDATA[0801 - 寻找原力]]></title>
       <url>https://atjason.com/daily/2016-08-01.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/1slqn.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/1slqn.jpg" alt=""></p>
 <p>产品推广不力、状态不佳，寻找原力中…</p>
 ]]></content>
       
@@ -20243,7 +20260,7 @@
     <entry>
       <title><![CDATA[0731 - 转眼就到 7 月底]]></title>
       <url>https://atjason.com/daily/2016-07-31.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/b95gc.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/b95gc.jpg" alt=""></p>
 <p>只刻 7 月初上架了 iPic ，还没做什么，转眼就到月底了。</p>
 <p>期间，做的最大的事也就是 EAWiFi 了。不过，也只是做了比最小原型多一点的程度。而且，也并没有完全推出去。</p>
 <p>感觉时间过得太快了，有压力了。早上，定出了 8 月份要做的 6 件事。远的也不想、想了也是徒增焦虑。关注眼下、做好 8 月份这 6 件事。</p>
@@ -20261,7 +20278,7 @@
     <entry>
       <title><![CDATA[0730 - 历史包袱]]></title>
       <url>https://atjason.com/daily/2016-07-30.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/sseoo.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/sseoo.jpg" alt=""></p>
 <p>新版 macOS Sierra 已经开始公测，一些朋友已经开始使用新版了。而之前开发的几款 MacApp，出现不同程度的不兼容的问题。于是，要一个个再撸一遍了。</p>
 <p>看来是，是时候考虑开发一个中型的 App 了。不然总是这些小的，维护成本也不低，开发的性价比就显得太低了。</p>
 ]]></content>
@@ -20278,7 +20295,7 @@
     <entry>
       <title><![CDATA[0729 - 几件事同时做]]></title>
       <url>https://atjason.com/daily/2016-07-29.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/peqnp.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/peqnp.jpg" alt=""></p>
 <p>几件事同时做，感觉也不错。</p>
 <p>今天上午本打算做 iPic 改进，可实际上效率很低，可能和这几天持续做 iPic 开发有关。</p>
 <p>无奈，下午切换到 EAWiFi，没想到效率还不错，也没犯什么低级错误。于是，到了晚上，EAWiFi 基本又上了个台阶，达到稳定的 v3 版本。挺开心。</p>
@@ -20297,7 +20314,7 @@
     <entry>
       <title><![CDATA[0728 - 要被拍死的感觉]]></title>
       <url>https://atjason.com/daily/2016-07-28.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/grnyg.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/grnyg.jpg" alt=""></p>
 <p>今天看到别人分享的一个 App: <a href="http://www.v2ex.com/t/295433" target="_blank" rel="external">Snipaste</a>，明显有一种长江后浪拍前浪、要被拍死的感觉。</p>
 <p>人家可是一名在校大学生啊。</p>
 <p>在 V2EX 上分享一天内就有几百个回复，。软件本身异常强大，虽说已经强大到复杂的程度，但对于截图软件来说，一些少量的高级操作，还是有很强的使用场景和吸引力的。</p>
@@ -20316,7 +20333,7 @@
     <entry>
       <title><![CDATA[0727 - 提前完成任务了怎么办？]]></title>
       <url>https://atjason.com/daily/2016-07-27.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/fm1wm.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/fm1wm.jpg" alt=""></p>
 <p>今天早上计划了今天要搞定的 iPic 的几件事，结果不到傍晚就搞定了。之后，就感觉没有动力、不想干活了；休息吧。</p>
 <p>今天，小米发布了笔记本。从消费者的角度，感觉是很舒服的，至少多了个选择。外观确实很精致（且不论像谁、抄谁的疸），在一堆黑塑料的笔记本们中，确实比较出众。</p>
 <p>像笔记本这么成熟、成熟到已经微利的行业，只要用心做，还是能做出精品、还是有机会的。同样，在软件领域，多的是粗糙的软件、也多的是机会，就看自己是否用心。</p>
@@ -20334,7 +20351,7 @@
     <entry>
       <title><![CDATA[0726 - 不能写一天代码]]></title>
       <url>https://atjason.com/daily/2016-07-26.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/20pui.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/20pui.jpg" alt=""></p>
 <p>今天集中精力改进 iPic 中七牛、又拍等图床的支持。上午、下午持续代码，效率还不错。等到了晚上，明显感觉不行了。主要了是感觉到累，脑子转不动，效率自然就降低了。虽然最后通过延长时间的方式（即熬夜）把事情做完了，但感觉并不爽。</p>
 <p>以后要注意调节了。一天可分为上午、下午、晚上三大块。最好是选择其中 2 块来持续工作，另一块时间用来做别的事情，调节大脑不同区域工作，更有效率。</p>
 ]]></content>
@@ -20351,7 +20368,7 @@
     <entry>
       <title><![CDATA[0725 - 几个星期没写代码，手生了]]></title>
       <url>https://atjason.com/daily/2016-07-25.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/gr2ei.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gr2ei.jpg" alt=""></p>
 <p>iPic 上架后，花了几个星期折腾 EAWiFi. 今天重新开始改进 iPic，发现写代码时明显手生了。</p>
 <p>还是要专注，做一件事、一直做，才能成为这个领域的专家，高效地干活，做出精品。</p>
 <p>赚钱的渠道有很多，也会有很多的诱惑。要能抵制这些诱惑，坚持做自己擅长的，做出精品 Mac App</p>
@@ -20369,7 +20386,7 @@
     <entry>
       <title><![CDATA[0724 - Bong 3 手环初体验]]></title>
       <url>https://atjason.com/daily/2016-07-24.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/bm5iu.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/bm5iu.jpg" alt=""></p>
 <p>周四下单，周日终于寄到了，这速度，真不算快。</p>
 <p>从功能上讲，我对手环主要有两个需求：看时间、记录频数。</p>
 <ul>
@@ -20396,7 +20413,7 @@
     <entry>
       <title><![CDATA[0723 - 别太在意]]></title>
       <url>https://atjason.com/daily/2016-07-23.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/bkytt.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/bkytt.jpg" alt=""></p>
 <p>周四的时候抢了 Bong 3 手环，直到今天才寄出来。在此期间，查了我好几次快递状态，希望能早点发货、早点收到。但我相信，负责 Bong 3 发货的、忙碌的官方人员，一定不会感受到我的感受。</p>
 <p>今天，有个 iPic 用户提了一个需求，是去掉上传至七牛云时去掉日期前缀。感情也很强烈，说是很需要这个功能、没有就会很难受。但其实，我并不觉得这是个很难受的地方，甚至可以是自己太纠结而自找难受。</p>
 <p>其实，我们在意的东西，在别人看来，通常并没什么。另外，即使是现在在意的东西，等得到后、或过段时间至回头来看，也没当初那么在意了，甚至会为当初那么在意而觉得可笑。</p>
@@ -20415,7 +20432,7 @@
     <entry>
       <title><![CDATA[0722 - 微信公众号 + iPic]]></title>
       <url>https://atjason.com/daily/2016-07-22.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/nidhp.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/nidhp.jpg" alt=""></p>
 <p>今天看了下微信公众号后台，是开放 API 的，也即可以使用 iPic 上传图片至微信公众号的图片素材中。恩，不错， 很不错。</p>
 <p>不过，由于微信公众号发文章的限制，使用流程还不是很顺畅，能起到的作用也不是很大。需要再好好研究下，找到最佳使用流程。</p>
 ]]></content>
@@ -20432,7 +20449,7 @@
     <entry>
       <title><![CDATA[0721 - 浪费时间好心疼]]></title>
       <url>https://atjason.com/daily/2016-07-21.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/86w7g.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/86w7g.jpg" alt=""></p>
 <p>今天有去医院，不注意丢了病历，到家才发现。于是又返回医院去找，结果还没找到。</p>
 <p>最关键的是，上午已经坐在电脑前开始干活了，又不得不离开，浪费了几个小时，也浪费了很好的状态，实在是太心疼了。</p>
 ]]></content>
@@ -20449,7 +20466,7 @@
     <entry>
       <title><![CDATA[0720 - 一不小心成“公众人物”了]]></title>
       <url>https://atjason.com/daily/2016-07-20.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/r4s4h.jpg" alt=""><br>今天，上了爱范儿的 Mind 访谈节目，算是在公众面前小露了个脸：<a href="http://www.ifanr.com/688040" target="_blank" rel="external">这个独立开发者，开发出 4 款产品，1 款被苹果推荐</a> 感谢介绍。</p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/r4s4h.jpg" alt=""><br>今天，上了爱范儿的 Mind 访谈节目，算是在公众面前小露了个脸：<a href="http://www.ifanr.com/688040" target="_blank" rel="external">这个独立开发者，开发出 4 款产品，1 款被苹果推荐</a> 感谢介绍。</p>
 <p>而且，一不小心发现了一个模仿 iPic 的 App 上架 Mac App Store. 图床神器 iPic 这么快就被致敬，有些不适应。简看了下，目前做的还比较一般。不过，也能明显感受到压力，我也要加紧了，不然很容易被模仿、被超越。</p>
 <p>另外，一不小心主看了 MWeb 最近的排名，哇噻，火得不行，直接出现在分类的图标中。别忘了，售价 ￥50 呢。有动力、有目标了，先榜样看齐，iPic 也要做到分类图标、编辑推荐！</p>
 ]]></content>
@@ -20466,7 +20483,7 @@
     <entry>
       <title><![CDATA[0719 - 花点时间打磨自己的工具]]></title>
       <url>https://atjason.com/daily/2016-07-19.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ge422.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ge422.jpg" alt=""></p>
 <p>如果你去菜场买肉，你会发现他们的刀非常锋利，你也会经常发现他们在磨刀。</p>
 <p>程序员也是一样，每过一段时间，我们就要花点时间打磨自己的工具。在之前的开发过程中，可能会有一些用得不顺手的地方。但因为项目进度的原因，都忍了。当项目不是很紧张的时候，回头看看那些之前用得不顺手、效率不不高的地方，花点时间打磨一下，对自己接下来的工作非常有帮助。</p>
 ]]></content>
@@ -20483,7 +20500,7 @@
     <entry>
       <title><![CDATA[0718 - 搞定另外两台翻墙路由器]]></title>
       <url>https://atjason.com/daily/2016-07-18.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/u5y3g.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/u5y3g.png" alt=""></p>
 ]]></content>
       
         <categories>
@@ -20498,7 +20515,7 @@
     <entry>
       <title><![CDATA[0717 - 搞定 ShadowSocks & fail2ban]]></title>
       <url>https://atjason.com/daily/2016-07-17.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/jaaub.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/jaaub.jpg" alt=""></p>
 <p>今天主要搞定：<a href="http://atjason.com/IT/ss_fail2ban.html">使用 fail2ban 保护 ShadowSocks</a></p>
 ]]></content>
       
@@ -20609,7 +20626,7 @@
     <entry>
       <title><![CDATA[0715 - 被 Vultr 搞郁闷了]]></title>
       <url>https://atjason.com/daily/2016-07-15.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/xzn5v.jpg" alt="2016-07-15_21:09:04.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/xzn5v.jpg" alt="2016-07-15_21:09:04.jpg"></p>
 <p>本来这几天搞服务器效率就不是很高，结果下午突然发现服务器连不上了。进去一看：被 Vultr 给挂了！</p>
 <p>之前，Vultr 确实给我发邮件了。不过，由于一直在忙着配置服务器，给忽略了。关键是，关服务器的理由让我难以接受：对方需要我添加新的支付方式，还要提供银行卡的拍照信息、证件照等信息。可我明明已经使用 Paypal 支付了，为什么还要验证这些信息？谁难保证我的这些敏感信息不被泄漏。</p>
 <p>被 Vultr 恶心到了，等里面的钱用完了，迁移至 DigitialOcean 或其他云服务。</p>
@@ -20627,7 +20644,7 @@
     <entry>
       <title><![CDATA[0714 - EAWiFi 手册]]></title>
       <url>https://atjason.com/daily/2016-07-14.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/sjcj9.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/sjcj9.jpg" alt=""></p>
 <p>今天效率不高，主要就是完成了 <a href="https://eawifi.net/" target="_blank" rel="external">EAWiFi 手册</a></p>
 <ul>
 <li>使用了 https，避免内容被审查</li>
@@ -20651,7 +20668,7 @@
     <entry>
       <title><![CDATA[0713 - 愉悦的一天]]></title>
       <url>https://atjason.com/daily/2016-07-13.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/zkebv.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/zkebv.jpg" alt=""></p>
 <p>早上，明确了今天的目标、要做的事、午后顺序。</p>
 <p>然后，按照这个节奏，实现了目标：做好一个 EAWiFi 路由器、基本搭好 SS 后台。</p>
 <p>制定计划、实现目标，愉悦，就是这么简单。</p>
@@ -20669,7 +20686,7 @@
     <entry>
       <title><![CDATA[0712 - 服务器是个大坑]]></title>
       <url>https://atjason.com/daily/2016-07-12.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/wjkgc.jpg" alt=""><br>今天折腾了一在的 SS 服务器， 可耻的还没搞定。</p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/wjkgc.jpg" alt=""><br>今天折腾了一在的 SS 服务器， 可耻的还没搞定。</p>
 <p>服务器真是个大坑。各种软件、各种配置，尤其很多还混在一起，脑子都成糊了。</p>
 <p>是坚持、还是放弃，是个问题。</p>
 <p>已经做到这里了，明天再给一天，必须告一段落。注意是告一段落，不一定是全部做完。先把所有要做的事列出来，然后按优先级排序，先做重要的事。最后，不重要的做不完，只能放弃了。</p>
@@ -20687,7 +20704,7 @@
     <entry>
       <title><![CDATA[0711 - 不要抱残守缺]]></title>
       <url>https://atjason.com/daily/2016-07-11.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/kccrd.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/kccrd.jpg" alt=""></p>
 <p>今天开始折腾 SS 服务器，其中有个任务是建立面板。三轮摩托车之前用过 AMH，自然就继续用。但由于最新版是每月 6 元的价格，觉得这是一次性的投入，想省下这笔钱，就试着继续使用免费的旧版本。</p>
 <p>结果，却花了大量时间。先是这个版本在最新的 Ubuntu 16.04 上不支持，碰到安装问题，一个个搜索、解决。终于搞定安装问题了，在安装其它软件时，又遇到问题：默认安装的 PHP 版本太低了，其它软件不支持。实在不想在这事上再浪费时间，果断放弃。</p>
 <p>依然还不想在这事上花钱，就找了另一个面板：LNMP.org 尤其是看到最新版是今年 6 月刚出的，果断上手。现在还在安装，但最新版总是更可靠些。而且，即使有问题，作者、或者别的用户也更可能提供解决方案，不用自己一个个去搜索。恩，这感觉不错。</p>
@@ -20706,7 +20723,7 @@
     <entry>
       <title><![CDATA[0710 - 自动翻墙路由器搞定一半]]></title>
       <url>https://atjason.com/daily/2016-07-10.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/iicol.png" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/iicol.png" alt=""></p>
 <p>今天，基本把路由器部分搞定了，只剩下自动生成不同用户的配置文件、并根据配置文件生成路由器固件。可以预见，也就是一个小时的事。</p>
 <p>明天，可以全力开搞服务器部分。要注意边想、边研究，边研究、边记录。</p>
 <ul>
@@ -20744,7 +20761,7 @@
     <entry>
       <title><![CDATA[0708 - 放空]]></title>
       <url>https://atjason.com/daily/2016-07-08.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/2d48g.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/2d48g.jpg" alt=""></p>
 <p>今天放空，没做什么事。</p>
 <p>晚上看了《第 2 情书》，挺好看的。不好意思的是，是从网上下载的、没去影院付费支持。</p>
 ]]></content>
@@ -20761,7 +20778,7 @@
     <entry>
       <title><![CDATA[0707 - 腰突然痛了]]></title>
       <url>https://atjason.com/daily/2016-07-07.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/h97vb.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/h97vb.jpg" alt=""></p>
 <p>早上起床，突然发现一侧的腰很痛。也不能说很痛，就是总感觉不舒服，尤其动到某种姿势时，很痛。</p>
 <p>不知道是不是睡觉姿势不对？但很可能是最终坐的时间太长了，尤其天气热，并没有靠在棒子上，导致腰部没有支撑，长期处于紧张的状态，就出现了问题。</p>
 <p>最简单的办法，要舍得开空调，这样才可能把背靠在棒子上、减轻腰部压力。再有，就是要多运动了，不能太长时间坐着不动。</p>
@@ -20780,7 +20797,7 @@
     <entry>
       <title><![CDATA[0706 - 从一个山峰，到另一个山峰]]></title>
       <url>https://atjason.com/daily/2016-07-06.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/zn814.jpg" alt="2016-07-06_23:13:17.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/zn814.jpg" alt="2016-07-06_23:13:17.jpg"></p>
 <p>爬到山顶，感觉是很好的：山风拂面、俯看全城。</p>
 <p>可这种感觉并不持久，你也不能总呆在山顶。接下来要做的事是：下山、爬另一座山峰。</p>
 <p>iPic 1.1.0 上线，反响很好，这是一座山峰。回顾之前所有经历的艰难，已经看不见；要看见的，是爬到另一座山峰的路。</p>
@@ -20798,7 +20815,7 @@
     <entry>
       <title><![CDATA[0705 - 做一个好产品，感觉真好]]></title>
       <url>https://atjason.com/daily/2016-07-05.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/yhcny.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/yhcny.jpg" alt=""></p>
 <p>iPic 上架后，收到一边倒的好评。周围的朋友也表示：真心喜欢。</p>
 <p>这种感觉，真好！</p>
 <p>回顾起来，感觉这几点算是经验吧：</p>
@@ -20824,7 +20841,7 @@
     <entry>
       <title><![CDATA[0704 - iPic 正式上架]]></title>
       <url>https://atjason.com/daily/2016-07-04.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/kmspu.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/kmspu.jpg" alt=""></p>
 <p>经过 2 个月的努力，iPic 终于上架 Mac App Store！</p>
 <p>在 V2EX 等平台做推广，还比较受欢迎。对 App 本身，用过的人评价都还不错。</p>
 <p>对于收费模式，就有些问题。App 采用的是 免费 + 订阅模式。而订阅模式在国内还不是很能被接受，大家总感觉自己会被一直收钱，却不会意识到这会让首次支付降低、等等好处。最后，没办法，为了让销量好些，不得不五折销售。虽然销量好些了，但明显收被腰斩，算是赔本赚吆喝吧。</p>
@@ -20843,7 +20860,7 @@
     <entry>
       <title><![CDATA[0703 - 即将上架 iPic]]></title>
       <url>https://atjason.com/daily/2016-07-03.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/d0ivg.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/d0ivg.jpg" alt=""></p>
 <p>忙了整整 2 个月，终于要上架 iPic 了，有点小激动。</p>
 <p>虽然上架过程中出了点小意外，导致并不完美。但既然已经发生，也就接受了。</p>
 <p>现在，唯一期待的是上架后一切顺利，不要有严重的问题，比如无法上传图片。然后就是期待大家能喜欢，要是能选择订阅就更好啦，嘿嘿。</p>
@@ -20861,7 +20878,7 @@
     <entry>
       <title><![CDATA[0702 - 感觉线下消费不景气啊]]></title>
       <url>https://atjason.com/daily/2016-07-02.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/2hkax.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/2hkax.jpg" alt=""></p>
 <p>今天去逛街，感觉 1 楼、2 楼这种定位高的楼层，人很少。而像负 1 楼这种定价便宜的楼层，人还算可以。</p>
 <p>感觉大家消费受价格的影响还是很大的。虽然好的东西，有牌子、品质好，但是没办法，现实中大家受价格的影响还是很大。</p>
 <p>不经常出门，坐了公交车，感觉有些晕车；不是老老实实呆家里舒服。</p>
@@ -20879,7 +20896,7 @@
     <entry>
       <title><![CDATA[0701 - 不作死就不会死]]></title>
       <url>https://atjason.com/daily/2016-07-01.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/nrc2f.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/nrc2f.jpg" alt=""></p>
 <p>今天干了件很晕的事：不小心发布了还没做好的 iPic. 当时那个郁闷啊，科想把手续剁了。</p>
 <p>终于，还是找到了补救的办法，不至于让事情太糟。</p>
 <p>其实，也没什么大不了的，天不会塌，即使出了问题也总有补救的办法。</p>
@@ -20898,7 +20915,7 @@
     <entry>
       <title><![CDATA[0630 - 优雅的代码]]></title>
       <url>https://atjason.com/daily/2016-06-30.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/k7t78.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/k7t78.jpg" alt=""></p>
 <p>今天整整写了一天代码。虽然还想写，无奈眼睛和脖子受不了了。可惜的是，Imgur 还是没有全部搞完，虽然主体已经好了。</p>
 <p>早上的时候想的挺好，计划上午搞完，后来推迟到下午，结果晚上也没搞定。又一次认识到：从通过技术可行性研究，到写出优雅的代码、尤其是在复杂业务情况下的优雅代码，差得远。</p>
 <p>回顾今天做的事，整体的节奏、方法还是对的，虽然也多走了一些弯路。可能还是经验和能力的问题的，感觉只需要一半的时间就应该能完成今天干的事。</p>
@@ -20917,7 +20934,7 @@
     <entry>
       <title><![CDATA[0629 - 拳不离手]]></title>
       <url>https://atjason.com/daily/2016-06-29.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/tmw1a.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/tmw1a.jpg" alt=""></p>
 <p>这几天一直忙测试、写文案、推广，好几天都没写代码了。</p>
 <p>这个状态是不对的。毕竟我本质上是开发者，最核心的能力还是写代码。首先要把东西做出来，这都是一切的根本，是 1000… 前面的 1 。有了这个 1，后面的运营、推广这些 0 才能意义。</p>
 <p>另外，总感觉 Imgur 的实现是半成品，都不好意思去推广。明天，充分实现 imgur 的集成，后天晚上重新提交。</p>
@@ -20935,7 +20952,7 @@
     <entry>
       <title><![CDATA[0628 - 最难的时刻：推广]]></title>
       <url>https://atjason.com/daily/2016-06-28.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/qyb7b.jpg" alt="2016-06-28_22:35:54.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/qyb7b.jpg" alt="2016-06-28_22:35:54.jpg"></p>
 <p>iPic 昨天提交上架 Mac App Store、今天被拒。不过不是很担心，已经改好又提交了，应该问题不大。</p>
 <p>问题大的是，如何推广。毕竟开发都在自己的设计和掌握中，出不了太大的问题。而运营、推广，则完全在自己控制范围外了。虽然国内有少数败家媒体可以帮忙宣传，但在国外就几乎是一片空白。只能像无头苍蝇一样到处去找 Mac 论坛、网站，然后发帖、发邮件，完全不知道对方会不会回复。</p>
 <p>看来自己之前在运营上下的功夫太少了，现在到了补课的时候了。今天就这样吧，期待明天醒来看到审核通过的好消息，然后继续研究如何做海外推广。</p>
@@ -20953,7 +20970,7 @@
     <entry>
       <title><![CDATA[0627 - 提交上架总是有些慌乱]]></title>
       <url>https://atjason.com/daily/2016-06-27.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/iesjs.jpg" alt="2016-06-27_23:46:41.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/iesjs.jpg" alt="2016-06-27_23:46:41.jpg"></p>
 <p>今天提交 iPic 上架 Mac App Store.</p>
 <p>虽然之前已经上架了 3 款 Mac App，但在上架前后，问题有些慌乱。毕竟事情太多太杂，比如 App 名称、关键字、描述、截图、测试、运营文案、等等。相比而言，在开发的时候，虽然难度大些，但一次只需要处理一件事，更专注、也不慌乱。</p>
 <p>也许这也是难以避免的，甜蜜的麻烦吧，毕竟看着自己辛苦做的 App 终于要面世了，心里还是很开心的 ^_^</p>
@@ -20971,7 +20988,7 @@
     <entry>
       <title><![CDATA[0626 - 信自己]]></title>
       <url>https://atjason.com/daily/2016-06-26.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/17pul.jpg" alt="2016-06-26_22:03:55.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/17pul.jpg" alt="2016-06-26_22:03:55.jpg"></p>
 <p>有些事情，并没有道理；<br>很多东西，也并没有标准。</p>
 <p>到底谁好谁坏，可能根本说不清楚。怎么选？选自己认同的。</p>
 <p>尤其是自已做的东西，既然说不清楚，干嘛不用自己看着舒服、自己喜欢的方案。如果你不喜欢，出门右转，再见。</p>
@@ -20991,7 +21008,7 @@
     <entry>
       <title><![CDATA[0625 - 不可知]]></title>
       <url>https://atjason.com/daily/2016-06-25.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/eg0xb.jpg" alt="2016-06-25_22:52:14.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/eg0xb.jpg" alt="2016-06-25_22:52:14.jpg"></p>
 <p>今天折腾 Mac App 内购的事，内购真是个大坑。还没开始，就被坑在一个地方：Invalid Product.</p>
 <p>网上查有一堆资料，也有一堆原因导致这个错误。关键的是，出错后没有任何提示信息，导致均价查起，只能正向一个个检查错误。更关键的，还是“等待 24 小时后再试”、“重启电脑” 这样的方案，真的是没有办法的办法。</p>
 <p>软件是如此复杂，我们不可能知道其中所有的细节；但其实也没必要知道，只要能想办法绕过坑，解决当下的问题，也是可以的。暂且留下已知的问题，将来某一天，可能答案自己就会浮现出来。</p>
@@ -21010,7 +21027,7 @@
     <entry>
       <title><![CDATA[0624 - 开放自己的资源]]></title>
       <url>https://atjason.com/daily/2016-06-24.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ln9li.jpg" alt="2016-06-24_21:30:51.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ln9li.jpg" alt="2016-06-24_21:30:51.jpg"></p>
 <p>总是太把自己的资源当回事。帮人转发个东西，就觉得帮了别人多大的忙似的。</p>
 <p>另一方面，我们又特别想使用别人的资源，比如让别人转发个东西；尤其想免费使用。</p>
 <p>别太小气了，开放自己的资源。只有自己有足够有价值的资源可以给别人转换时，才有人愿意来转换我们的资源。</p>
@@ -21028,7 +21045,7 @@
     <entry>
       <title><![CDATA[0623 - 思想要碰撞]]></title>
       <url>https://atjason.com/daily/2016-06-23.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/zxi6o.jpg" alt="2016-06-23_22:43:04.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/zxi6o.jpg" alt="2016-06-23_22:43:04.jpg"></p>
 <p>今天和几个朋友一起吹牛，最后吹出一个我们都比较看好的项目：房屋测量工具。</p>
 <p>也就是可以快速测量房屋的尺寸，并生成 CAD 文件，包含房屋的基本框架。这样可以节约设计师大量重复性的测绘工作，节约绘制基础框架的时间。</p>
 <p>思想还是要碰撞的，这样才能想出新的东西。如果单单是我自己，可能永远也想不到这个市场。另外，软件和传统行业结合，也是很好的思考方向。</p>
@@ -21046,7 +21063,7 @@
     <entry>
       <title><![CDATA[0622 - 不欠今天的债]]></title>
       <url>https://atjason.com/daily/2016-06-22.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/xzq5e.jpg" alt="2016-06-23_22:43:35.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/xzq5e.jpg" alt="2016-06-23_22:43:35.jpg"></p>
 <p>昨天晚上发布搞得比较晚，没有写每天的文章。结果今天又有突发性事件，导致又到很晚才回家。昨天的任务变成的今天的负担。</p>
 <p>不轻易把今天的事拖到明天，这样可以给明天一个轻松的开始。</p>
 ]]></content>
@@ -21063,7 +21080,7 @@
     <entry>
       <title><![CDATA[0621 - 高手不是懂得多]]></title>
       <url>https://atjason.com/daily/2016-06-21.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ld415.jpg" alt="2016-06-21_23:12:28.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ld415.jpg" alt="2016-06-21_23:12:28.jpg"></p>
 <p>高手不是懂得多，而是学得快。</p>
 <p>技术迭代那么快，市场需求变化那么快 … 之前会什么，可能不再像以前那么重要；重要的是，能快速学习、跟上变化、适应新环境。</p>
 <p>“你是做什么的”，这个问题将越来越难以界定，也会更少被问起。</p>
@@ -21081,7 +21098,7 @@
     <entry>
       <title><![CDATA[0620 - 把难题放一放]]></title>
       <url>https://atjason.com/daily/2016-06-20.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/1nqgn.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/1nqgn.jpg" alt=""></p>
 <p>前几天解决一个难题，折腾了很久都没搞定。没办法，只能放一放。</p>
 <p>今天又来搞，比较顺利就解决了。</p>
 <p>之后，碰到难题，如果折腾了很久都没搞定、又不是立即要解决了，就先放一放。】等过些时间，换了脑子后，再来解决，说不定就有新的办法、就能顺利解决了。</p>
@@ -21099,7 +21116,7 @@
     <entry>
       <title><![CDATA[0619 - 别迷失在非必要条件中]]></title>
       <url>https://atjason.com/daily/2016-06-19.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/hxpr3.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/hxpr3.jpg" alt=""></p>
 <p>今天注册微信公众号，想用一个独立的邮件注册，就去注册 Gmail 账户。结果 Gmail 注册不顺利，花了 1 个多小时都没搞定，还让心情很差。最后还是随便用个邮箱注册了。</p>
 <p>其实，现在想想，一个恰当的邮件并不是注册微信公众号的必要条件，更重要的是微信号、是注册本身。不管什么邮箱，先注册了再说。</p>
 <p>事情上，这种事情经常发生。这种所谓的完美主义，却让我们远离目标，在不重要的分支上越走越远，消耗精力、心情。</p>
@@ -21118,7 +21135,7 @@
     <entry>
       <title><![CDATA[0618 - 对不起眼睛]]></title>
       <url>https://atjason.com/daily/2016-06-18.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/9fis0.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/9fis0.jpg" alt=""></p>
 <p>再搞不出点什么，都对不起自己的眼睛。</p>
 <p>最近又感觉视力下降。哎，这个职业啊，整天对头电脑，视力下降是必然的。</p>
 <p>拿这么宝贵的资本，如何都不换点什么，真是太不值了。</p>
@@ -21136,7 +21153,7 @@
     <entry>
       <title><![CDATA[0617 - 远方的宁静]]></title>
       <url>https://atjason.com/daily/2016-06-17.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/q3xu4.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/q3xu4.jpg" alt=""></p>
 <p>追梦路上，<br>是否因别的诱惑而心猿意马？<br>是否被困难阻挠而心生退意？</p>
 <p>心有远方的宁静，就不会在意路途的喧嚣</p>
 <p>即使目标变得模糊，至少还有光荣与梦想</p>
@@ -21154,7 +21171,7 @@
     <entry>
       <title><![CDATA[0616 - 不能做到哪算哪]]></title>
       <url>https://atjason.com/daily/2016-06-16.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/63m9j.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/63m9j.jpg" alt=""></p>
 <p>做事，还是需要目标感、方向感。</p>
 <p>做到哪算哪，在不出问题时还好，一出问题就比较麻烦。比如，目标一拖在拖、持续工作导致低效率、等等。</p>
 <p>更严重的，一直在忙碌的状态，还会掩盖上面的问题。</p>
@@ -21173,7 +21190,7 @@
     <entry>
       <title><![CDATA[0615 - 先搭框架、再填充]]></title>
       <url>https://atjason.com/daily/2016-06-15.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/hby0s.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/hby0s.jpg" alt=""></p>
 <p>先搭框架、再填充。要先考虑总体的设计，然后：</p>
 <ul>
 <li>根据大的设计，逐步向下推进、细化。</li>
@@ -21196,7 +21213,7 @@
     <entry>
       <title><![CDATA[0614 - 大气一点]]></title>
       <url>https://atjason.com/daily/2016-06-14.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/f605v.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/f605v.jpg" alt=""></p>
 <p>批评容易，建设很难。做人，大气一点。</p>
 <p>不管是生活、还是工作，总会有很多让我们不满意的地方。找出其中不合理的地方、并骂之，容易。但要真的把你放到那个位置上、思考问题的解决办法，并不容易。</p>
 <p>所以，给在那些位置上的人们多些宽容。多考虑如何解决问题、如何改进，和挖空心思考虑如何吐槽更刻薄比之，更有意义。</p>
@@ -21214,7 +21231,7 @@
     <entry>
       <title><![CDATA[0613 - 在一个地方摔倒，换个地方爬起来]]></title>
       <url>https://atjason.com/daily/2016-06-13.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/3l3wf.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/3l3wf.jpg" alt=""></p>
 <p>程序员总会碰到这样的情况：明明是对的，怎么就是不对？</p>
 <p>这时候，通常已陷入一种困境。如果继续研究，会效率很低、浪费时间；更关键的，会让心情变得很糟糕，变得很烦燥、厌恶编程。</p>
 <p>出现这种情况，可能是是思维陷入某种陷阱中，可能因为忽略了某个关键因素导致的，可能是由于知识盲区而没考虑到某一点，也可能是所依赖的环境的 Bug 导致的。</p>
@@ -21236,7 +21253,7 @@
     <entry>
       <title><![CDATA[0612 - 在大的世界里，有小的天地]]></title>
       <url>https://atjason.com/daily/2016-06-12.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/ivk0m.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/ivk0m.jpg" alt=""></p>
 <p>相信大多数人都认同，未来是在向更大、更复杂、更网络化的方向发展。即使如此，依然会有小的天地。</p>
 <ul>
 <li><p>比如刘慈欣的小说《微观世界》，就讲述了这样一个故事：一次地球灾难之后，正常人类死绝了、仅存一人。而演化出小到需要放大镜才能看到的新人类。这样的人类对资源的消耗极小，也就更容易生存。一瓶罐头，就可以够他们的一个城市吃一个月；他们的宇宙飞船也只有小木棍那么大。</p>
@@ -21264,7 +21281,7 @@
     <entry>
       <title><![CDATA[0611 - 被认可]]></title>
       <url>https://atjason.com/daily/2016-06-11.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/3plmn.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/3plmn.jpg" alt=""></p>
 <p>从小的教育，使得我们追求被认可：做某某事，就可以得到小红花。</p>
 <p>一旦没有了小红花，我们该做什么呢？做得对不对呢？</p>
 <p>没有人一直能给我们判断，总归要自己判断。我们不能一直为别人做事，总要为自己做。</p>
@@ -21284,7 +21301,7 @@
     <entry>
       <title><![CDATA[0610 - 回归正常生活]]></title>
       <url>https://atjason.com/daily/2016-06-10.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/l0ip6.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/l0ip6.jpg" alt=""></p>
 <p>马上要结束度假式探亲，要回归正常生活了。</p>
 <p>什么是正常生活呢？</p>
 <p>生活本是多彩、多变的，可我们对变化的恐惧、对效率的追求，使得我们自己给自己圈了个圈，生活在圈内，稳定、安全、相对高效。不轻易跳出这个圈子、不轻易改变自己的生活。</p>
@@ -21303,7 +21320,7 @@
     <entry>
       <title><![CDATA[0609 - 多试试新东西]]></title>
       <url>https://atjason.com/daily/2016-06-09.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/yp09x.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/yp09x.jpg" alt=""></p>
 <p>想当初 Android 手机刚流行时，自己却觉得这玩意又贵又不好用，还不如把钱花在更好的笔记本上。结果 …</p>
 <p>众筹流行时，自己并未否认其价值，却没有及时抓住机会，试试几个众筹项目。结果，现在去众筹时没有经验，而且众筹也没有之前人气高。</p>
 <p>现在在流行直播，自己还是沉浸在网红秀下线的陈旧理解中，殊不知已经有小米直播无人机发布会、罗振宇直播卖书这些高大上的东东。</p>
@@ -21323,7 +21340,7 @@
     <entry>
       <title><![CDATA[0608 - 只要坚持，就不会落很远]]></title>
       <url>https://atjason.com/daily/2016-06-08.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/1oljt.jpg" alt="2016-06-08_07:58:12.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/1oljt.jpg" alt="2016-06-08_07:58:12.jpg"></p>
 <p>即便是与高手竞争，只要坚持，就不会落很远。</p>
 <p>只要不下牌桌，就总还有机会。</p>
 <p>当然，要按照自己的节奏来。生活不是竞赛，生活就是生活，按照自己的节奏过日子。</p>
@@ -21341,7 +21358,7 @@
     <entry>
       <title><![CDATA[0607 - iPic 在 Indiegogo 上开始众筹]]></title>
       <url>https://atjason.com/daily/2016-06-07.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/w62qt.jpg" alt="2016-06-07_22:07:03.jpg"><br><a href="https://igg.me/at/ipic/" target="_blank" rel="external">iPic 终于上架 Indiegogo 了！</a></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/w62qt.jpg" alt="2016-06-07_22:07:03.jpg"><br><a href="https://igg.me/at/ipic/" target="_blank" rel="external">iPic 终于上架 Indiegogo 了！</a></p>
 <p>没有做很多功课，只要按照官网的要求提交材料，包括文案、截图、视频等素材。也没有很好地考虑怎么预热、营销、首日推广、等等，算是一次盲试，也当是积累经验教训吧。</p>
 <p>不过，立马就遇到了在国内的问题：网站打开慢、支持不方便、英文网站、等等。看来还是要在国内上众筹。淘宝竟然不达标，只能在京东上众筹了。这次要更慎重些，考虑得更全面些，争取有个不错的成绩。</p>
 ]]></content>
@@ -21358,7 +21375,7 @@
     <entry>
       <title><![CDATA[0606 - 几乎搞定 Indiegogo 众筹]]></title>
       <url>https://atjason.com/daily/2016-06-06.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/z397b.jpg" alt="2016-06-07_08:21:54.jpg"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/z397b.jpg" alt="2016-06-07_08:21:54.jpg"></p>
 <p>本来打算 iPic 在 KickStarter 上众筹的，无奈它必须是指定的国家才能参与。于是转向 Indiegogo.</p>
 <p>折腾了 2 天，终于差不多了。期间包括制作视频、写英文文案等，虽然视频依然是凑活的。本打算在 MacBook Pro 仅剩下 5% 的电量时提交的，无奈 PayPal 的验证还没有通过，故而不能在今天提交，遗憾啊。</p>
 <p>希望上线后能顺利筹到启动资金吧。</p>
@@ -21376,7 +21393,7 @@
     <entry>
       <title><![CDATA[0605 - 闲着没事，去浪、也别去加功能]]></title>
       <url>https://atjason.com/daily/2016-06-05.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/qnanq.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/qnanq.jpg" alt=""></p>
 <p>一个产品的核心功能，通常在其最小原型阶段已经实现了。</p>
 <p>后续堆积的功能，会随着边际效应价值递减。</p>
 <p>更糟糕的，反而会削弱核心功能。比如，交互上的复杂会让核心功能更难用。</p>
@@ -21884,6 +21901,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
+      <url>https://atjason.com/daily/2016-05-08.html</url>
+      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
+<p>不见得。</p>
+<p>也许是劲使错地方了。</p>
+<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
+<ul>
+<li>做自己擅长的、坚持做、更擅长。</li>
+<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
+<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0509 - 选择开源软件，还是付费软件？]]></title>
       <url>https://atjason.com/daily/2016-05-09.html</url>
       <content type="html"><![CDATA[<p>各有好坏。</p>
@@ -21898,29 +21938,6 @@
 <li>选择用户多的。这通常意味着网上会有充足的教程，也会有人把自己踩过的坑记录下来。有了这些资料，会让自己遇到问题时更容易解决。</li>
 </ul>
 <p>当然，开发者也是人、也需要生存、也需要收入。鼓励大家为软件付费（不论是直接购买付费软件，还是赞助开源软件），这样才能可持续发展：开发者做出越来精品的软件、消费者为软件付费、开发者继续改进、消费者享受更加精良的软件。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
-      <url>https://atjason.com/daily/2016-05-08.html</url>
-      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
-<p>不见得。</p>
-<p>也许是劲使错地方了。</p>
-<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
-<ul>
-<li>做自己擅长的、坚持做、更擅长。</li>
-<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
-<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
-</ul>
 ]]></content>
       
         <categories>
@@ -24508,7 +24525,7 @@
     <entry>
       <title><![CDATA[2015年第18本书《乔布斯传》]]></title>
       <url>https://atjason.com/772.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00IM4IFL2/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00IM4IFL2&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/vmvev.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00IM4IFL2/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00IM4IFL2&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/vmvev.jpg" alt=""></a></p>
 <p>断断续续看完了这部大块头，记住了2点：乔布斯独特的性格、以及因为独特的性格而带来的独特的产品。</p>
 ]]></content>
       
@@ -24524,7 +24541,7 @@
     <entry>
       <title><![CDATA[2015年第17本书《用户体验要素》]]></title>
       <url>https://atjason.com/769.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B0056E8VDS/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B0056E8VDS&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/3gz97.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B0056E8VDS/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B0056E8VDS&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/3gz97.jpg" alt=""></a></p>
 <p>如同作者是开始时所说，这本书主要告诉你用户体验从大的方面有哪些要素；进而，如果想在某方面进一步研究，应该看什么书、如何深入</p>
 <p>一些书摘</p>
 <ul>
@@ -24604,7 +24621,7 @@
     <entry>
       <title><![CDATA[2015年第17本书《简约至上：交互式设计四策略》]]></title>
       <url>https://atjason.com/766.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B004I91HCY/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B004I91HCY&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/kpfg5.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B004I91HCY/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B004I91HCY&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/kpfg5.jpg" alt=""></a></p>
 <p>StartFragment这本书不错。</p>
 <p>首先介绍了什么是简单、以及为什么要简单。后面依次介绍了四个策略：删除、组织、隐藏、转移。主要是以遥控器为例子，当中也穿插了很多其它具体的例子，再加上配图，很容易理解。</p>
 <pre><code>而本书的组织也是简单的，每一小节都可以在几分钟内读完，最后看张配图，读书的压力瞬间小了很多。
@@ -24650,7 +24667,7 @@
     <entry>
       <title><![CDATA[2015年第16本书《创业维艰》]]></title>
       <url>https://atjason.com/760.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00SMB8ZVU/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00SMB8ZVU&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/dno52.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00SMB8ZVU/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00SMB8ZVU&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/dno52.jpg" alt=""></a></p>
 <p>前几章描写作者自己前期工作、创业的全过程，期间经历各种挣扎、困境，做出各种妥协、决断，最终将公司以高价售出；而作者自己在经历这一切后，表示再也不想再来一遍了，于是选择去做投资。整个看下来真的是惊心动魄、临场感很强，很像国内描写销售的商战类的书。</p>
 <p>后面章节则是按话题介绍了创业者们在公司起步、成长过期中所面临的问题，以及如何佑，比如招聘、解雇、制定公司制度、减少办公室政治、在困境中挣扎、决策、等等，都比较中肯、实用，只是自己目前用不到，汗~</p>
 <p>一些值得回顾的观点、做事的方式</p>
@@ -24782,7 +24799,7 @@
     <entry>
       <title><![CDATA[2015年第15本书《美的沉思》]]></title>
       <url>https://atjason.com/740.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/rkt2x.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/o37zg.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/rkt2x.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/o37zg.jpg" alt=""></a></p>
 <p>这是一本中国美术简史的书。不同之处在于，以不同朝代为线，勾勒出中国美术变迁的轮廓。</p>
 <p>从石器、陶器、青铜器，到石雕、壁画、山水画，每个朝代有属于自己的生产力、政治环境，也有不同的前人积累，也就造就出特有的艺术形式。比如，为什么《广陵散》会出现在魏晋时期，为何元代会有唐寅这么风流倜傥、开发卖画的名士，等等。</p>
 <p>确实是修养的局限，很多地方并不太理解；不过全书看完，确实有种朦朦胧胧的印象，相当于有了框架。以后再接触到某个具体的点，也就有地方可以放了。值得一看。</p>
@@ -24801,7 +24818,7 @@
     <entry>
       <title><![CDATA[2015年第14本书《从0到1》]]></title>
       <url>https://atjason.com/736.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00RWP6BOU/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00RWP6BOU&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/i7o0k.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00RWP6BOU/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00RWP6BOU&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/i7o0k.jpg" alt=""></a></p>
 <p>StartFragment这本书是比较典型的畅销书的路子：全书反复说一个观点：要创新，然后辅以佐证和关联的观点。</p>
 <p>最受用的一个观点：一个初创企业完美的用户市场是一小群人，而且几乎没有其他竞争者竞争。</p>
 <p>书中多次强调的一个问题，值得大家都想一想：</p>
@@ -24847,7 +24864,7 @@
     <entry>
       <title><![CDATA[2015年第13本书《淘宝十年产品事》]]></title>
       <url>https://atjason.com/732.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00FPHXPLY/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00FPHXPLY&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/hkj1a.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00FPHXPLY/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00FPHXPLY&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/hkj1a.jpg" alt=""></a></p>
 <p>StartFragment也许确实不是电商这个行业的，前面读起来还是比较吃力。之前也知道淘宝里的东西比较复杂，但真是没想到有这么复杂，尤其是把十年的产品放在一起来看，真是有点望而却步的感觉。</p>
 <p>也确实是作者所言，书中所写也是局限在阿里系的产品中。但能将一个这么公司、甚至说集团里的产品梳理出来，确实不容易。虽然条理没那么清晰，有一些比较勉强的地方，但能有这样的书系统性的介绍这么复杂的产品系列，非常值得肯定。</p>
 <p>谈产品，通常是比较窄、比较纯粹的东西，比如说交互、用户行为分析、等等。但现实中，一旦跟利益结合，就没有这么纯粹的东西。尤其淘宝做的生意、电商，本身就是和买家、卖家打交道，说的就是商品、钱的事，很多功能、交互，就不仅仅是一般产品意义上的东西，而是切切实实和金钱挂勾，事情就会复杂很多。再进一步，设计产品，也不再是纯粹意义上的产品设计，更高层面是商业上的构建，有商业模式的循环。</p>
@@ -24872,7 +24889,7 @@
     <entry>
       <title><![CDATA[2015年第12本书《要事第一》]]></title>
       <url>https://atjason.com/729.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B01K1V6LJ6/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B01K1V6LJ6&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/n4iiy.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B01K1V6LJ6/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B01K1V6LJ6&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/n4iiy.jpg" alt=""></a></p>
 <p>StartFragment比较有名的一本关于时间管理的书。先快速读一遍，了解大致的思想；然后再详细阅读，并根据书中介绍的方法进行实践。</p>
 <p>读完后，印象比较深的几点：</p>
 <ul>
@@ -24927,7 +24944,7 @@
     <entry>
       <title><![CDATA[2015年第11本书《别跟我说你懂日本》]]></title>
       <url>https://atjason.com/724.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/3f6wh.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/8ulg7.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/3f6wh.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/8ulg7.jpg" alt=""></a></p>
 <p>这本书的名字比较机巧，其实就是罗列了大概70个关于日本的现象，比如刺身、拉面、相扑、樱花、自杀、性、武士、地震、等等。</p>
 <p>读完之后，整体印象不是很深。记得住的有几条：</p>
 <p>矛盾</p>
@@ -25183,7 +25200,7 @@
     <entry>
       <title><![CDATA[2015年第10本书《当我们说起日本时》]]></title>
       <url>https://atjason.com/698.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/s72dg.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/91023.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/s72dg.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/91023.jpg" alt=""></a></p>
 <p>最近打算了解下日本，就上网找了些关于日本的书，这是其中一本《当我们说起日本时》</p>
 <p>作者是中日混血，主要讲得是自己在日本留学的经历，以此为主线穿插了一些日本的趣闻、话题，比如前辈习俗、打零工、日本留学政策、等等。讲得并不深入、全面，但好在读起来也比较轻松，总共加起来3、4个小时就可以读完了</p>
 <p>又是一本在Kindle上读完的书；感觉受累的又是眼睛和脖子，生理结构决定了人们不适合长时间阅读，囧</p>
@@ -25249,7 +25266,7 @@
     <entry>
       <title><![CDATA[2015年第9本书《远程工作》]]></title>
       <url>https://atjason.com/685.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00JA4U0JS/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00JA4U0JS&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/o1vme.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00JA4U0JS/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00JA4U0JS&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/o1vme.jpg" alt=""></a></p>
 <p>看过这本书，都不想去公司上班了。</p>
 <p>远程工作，也就是说大家不用专门去一个叫&ldquo;办公室&rdquo;的地方上班；相反，可以选择在家、咖啡馆、图书馆等地方办公。毕竟，对于大部分智力工作者，一台电脑、无线网络就够了。</p>
 <p>远程工作，有诸多好处，比如不受打扰、可以专心工作，比呆在一个地方更容易产生灵感，更容易聚集优秀的人才，不用浪费通勤的时间，可以更好得平衡工作和生活，等等。</p>
@@ -25272,7 +25289,7 @@
     <entry>
       <title><![CDATA[2015年第8本书《商战：电商时代》]]></title>
       <url>https://atjason.com/683.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/bqjzv.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/822tw.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/bqjzv.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/822tw.jpg" alt=""></a></p>
 <p>这是一本典型的快餐类的书，基本只看看目录就可以了。</p>
 <p>电商是个热门话题，书中主要涉及了电商的几个主要点：用户量、价格、物流、资本、大数据、等，再堆出一个行业内的热闹企业、事件、人，基本就凑出一本书了，可以作为门外汉的课外读物。</p>
 <p>话说，这种书怎么处理呢？卖废纸？</p>
@@ -25290,7 +25307,7 @@
     <entry>
       <title><![CDATA[2015年第7本书《小强升职记》]]></title>
       <url>https://atjason.com/680.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00J3G8892/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00J3G8892&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/x1yuq.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B00J3G8892/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00J3G8892&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/x1yuq.jpg" alt=""></a></p>
 <p>这本书在书架上有段时间了，这两天快速读完。总体感觉：值得实践、值得推荐。</p>
 <p>作者用一个故事，串联起多个时间管理、习惯养成的方法，并在故事的叙述中简单介绍了各方法的关键。因为力求精简，书中并没有展开介绍各方法的细节，但还是扼要得点出其核心。如果读者对某个方法感兴趣，或者在实践过程中想深入了解，可以再去具体研究。</p>
 <p>方法论的东西，如果不去实践，它就一直只是方法论。接下来就开始实践，期待一段时间后不一样的自己。</p>
@@ -25344,7 +25361,7 @@
     <entry>
       <title><![CDATA[2015年第6本书《重来》]]></title>
       <url>https://atjason.com/666.html</url>
-      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B0048EKQS0/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B0048EKQS0&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/os9ql.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://www.amazon.cn/gp/product/B0048EKQS0/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B0048EKQS0&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/os9ql.jpg" alt=""></a></p>
 <p>今年计划看50本书，过了快一半，才看了5本。</p>
 <p>无意间翻到这本《重来》，翻了几页就发现特别对胃口，书中的观点非常认同，看着看着就想一直看下来。虽没有一次读完，也差不多四次就读完了。书不厚，每个小主题都有插图，看起来也不觉得累。</p>
 <p>这本书主要讲的是大名鼎鼎的37signals介绍小团队创业相关的事，包括要保持小团队、做自己喜欢并使用的产品、以产品为主、万不得已再招人、保持精简、等等。总之是涉及到了产品到公司的很多层面。非常喜欢，应该会再认真读一遍。</p>
@@ -28470,9 +28487,9 @@ fi
     <entry>
       <title><![CDATA[《Don’t Make Me Think》读书笔记——思维导图终级版]]></title>
       <url>https://atjason.com/222.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/kkoje.jpg" alt="Don"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/kkoje.jpg" alt="Don"></p>
 <p>more点击图片查看超大图片：</p>
-<p><a href="https://ohpsctde4.qnssl.com/h8lfc.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/fnygg.jpg" alt="Don"></a></p>
+<p><a href="https://ps.toolinbox.net/h8lfc.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/fnygg.jpg" alt="Don"></a></p>
 <p>文字版：</p>
 <ol>
 <li>第2章 我们实际上是如何使用Web的</li>
@@ -29159,11 +29176,11 @@ fi
     <entry>
       <title><![CDATA[《Do not Make Me Think》读书笔记]]></title>
       <url>https://atjason.com/202.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/0zme1.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/54i9j.jpg" alt=""></a>more</p>
-<p><a href="https://ohpsctde4.qnssl.com/8douu.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/uy8p4.jpg" alt=""></a></p>
-<p><a href="https://ohpsctde4.qnssl.com/9ej2u.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/digmo.jpg" alt=""></a></p>
-<p><a href="https://ohpsctde4.qnssl.com/d7q8g.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/1c8yx.jpg" alt=""></a></p>
-<p><a href="https://ohpsctde4.qnssl.com/7oyys.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/l0cl1.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/0zme1.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/54i9j.jpg" alt=""></a>more</p>
+<p><a href="https://ps.toolinbox.net/8douu.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/uy8p4.jpg" alt=""></a></p>
+<p><a href="https://ps.toolinbox.net/9ej2u.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/digmo.jpg" alt=""></a></p>
+<p><a href="https://ps.toolinbox.net/d7q8g.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/1c8yx.jpg" alt=""></a></p>
+<p><a href="https://ps.toolinbox.net/7oyys.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/l0cl1.jpg" alt=""></a></p>
 <ol>
 <li>第2章 我们实际上是如何使用Web的</li>
 </ol>
@@ -29250,10 +29267,10 @@ fi
     <entry>
       <title><![CDATA[《瞬间之美》读书笔记 ~ 思维导图终结版]]></title>
       <url>https://atjason.com/188.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ohpsctde4.qnssl.com/trkla.jpg" alt="瞬间之美 ~ 读书笔记 ~ 思维导图"></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/trkla.jpg" alt="瞬间之美 ~ 读书笔记 ~ 思维导图"></p>
 <p>使用思维导图完整记录《瞬间之美》读书笔记，以后有这张图，书就不用再看了！more</p>
-<p>完整大图：<a href="https://ohpsctde4.qnssl.com/64tyk.jpg" target="_blank" rel="external">猛击此处</a></p>
-<p><a href="https://ohpsctde4.qnssl.com/64tyk.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/s4oxx.jpg" alt="完整大图"></a></p>
+<p>完整大图：<a href="https://ps.toolinbox.net/64tyk.jpg" target="_blank" rel="external">猛击此处</a></p>
+<p><a href="https://ps.toolinbox.net/64tyk.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/s4oxx.jpg" alt="完整大图"></a></p>
 <p>文字版内容：</p>
 <ol>
 <li>前言</li>
@@ -29693,7 +29710,7 @@ fi
     <entry>
       <title><![CDATA[《瞬间之美》读书笔记（3）]]></title>
       <url>https://atjason.com/162.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/qatfl.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/vyh25.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/qatfl.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/vyh25.jpg" alt=""></a></p>
 <p>在填写表单时，不仅要提醒用户做错的地方，也要表扬其做对的地方。</p>
 <p>在填写表单时，如果用户事先不知道总共有多少内容，而是没有希望的在表单海洋中努力填写、甚至越填选项越多时，会严重增加其内心的沮丧感、沉重感；</p>
 <p>更好的做法是，事先让他知道总共有多少事情要做（当然是简化后的内容），并且每做一步就告诉他当前的位置、还有多少，让他有全局在握的感觉。more</p>
@@ -29745,7 +29762,7 @@ fi
     <entry>
       <title><![CDATA[《瞬间之美》读书笔记（2）]]></title>
       <url>https://atjason.com/151.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/d3cj5.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/b0nr4.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/d3cj5.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/b0nr4.jpg" alt=""></a></p>
 <p>设计，不能只是基于我们一厢情愿的假设。相反，我们要假设用户毫不了解我们的软件，随后给他们足够多的信息以便帮助他们理解。</p>
 <p>说明性文本、What’s this链接、表意清楚的标记都可以达到这一目的。more</p>
 <p>CommonCraft.com</p>
@@ -29778,7 +29795,7 @@ fi
     <entry>
       <title><![CDATA[《瞬间之美》读书笔记（1）]]></title>
       <url>https://atjason.com/142.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/vdmx7.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/e9gx1.jpg" alt=""></a></p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/vdmx7.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/e9gx1.jpg" alt=""></a></p>
 <p>网页：为扫描而设计，让用户赶快行动！</p>
 <p>用户浏览网页通常是想“做”点什么，而不是“读”点什么。他们通常首先“快速扫描”网站，找到自己能做点什么，并且快速过滤掉那些自己不感兴趣的内容。如果在这个瞬间你没有让他们找到，很显然，他们会马上关闭标签，或者Ctrl+W。</p>
 <p>软件（网页等）并不是为了我们能单击那些按钮而存在的，它是为了我们能完成任务而存在的。例如，导航栏不应该是陈列在一排按钮上的一串名词，而可以是动宾词组，帮助我们感觉自己正在做一些事情，让我们找到当司机的感觉；例如“格式”，不如“自定义格式”。</p>
@@ -30070,7 +30087,7 @@ fi
     <entry>
       <title><![CDATA[《软件随想录》读书笔记（2）]]></title>
       <url>https://atjason.com/94.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/kxfdq.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/o51z9.jpg" alt=""></a>创办软件公司的真正乐趣就是，创造一些东西，自己参与整个过程，悉心培育，不间断地劳作，不断地投入，看着它成长，看着自己一步步得到报酬。这是世界上最带劲的旅程，充满着难以言表的兴奋、激动、幸福；无论如何，我都不想错过它。</p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/kxfdq.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/o51z9.jpg" alt=""></a>创办软件公司的真正乐趣就是，创造一些东西，自己参与整个过程，悉心培育，不间断地劳作，不断地投入，看着它成长，看着自己一步步得到报酬。这是世界上最带劲的旅程，充满着难以言表的兴奋、激动、幸福；无论如何，我都不想错过它。</p>
 <p>控制的感觉让人们感到开心。</p>
 <p>最好的工作条件 -&gt; 最好的程序员 -&gt; 最好的软件 -&gt; 利润</p>
 <p>优秀的程序员和普通的程序员，其差别不是20%、30%，而是10倍、100倍、及至天壤之别。</p>
@@ -30132,9 +30149,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
@@ -30143,7 +30160,7 @@ fi
     <entry>
       <title><![CDATA[《结网》读书笔记（1）]]></title>
       <url>https://atjason.com/78.html</url>
-      <content type="html"><![CDATA[<p><a href="https://ohpsctde4.qnssl.com/a9arv.jpg" target="_blank" rel="external"><img src="https://ohpsctde4.qnssl.com/ax1pi.jpg" alt=""></a>0.2.0 从概念开始</p>
+      <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/a9arv.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/ax1pi.jpg" alt=""></a>0.2.0 从概念开始</p>
 <p>如何创造新概念？把线下搬到线下、把一个领域的概念模仿到另一领域、根据自己的实际需求、等等。</p>
 <p>0.2.1 概念2.0</p>
 <p>Web 2.0公司的七项核心能力</p>
@@ -30194,9 +30211,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
