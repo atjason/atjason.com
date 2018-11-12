@@ -69,15 +69,15 @@
 <meta property="og:url" content="https://atjason.com/654.html">
 <meta property="og:site_name" content="Jason">
 <meta property="og:description" content="以下就开始整个模仿的过程，大致分为三步。 1，想清楚交互的具体过程侧边栏的交互并不复杂，拆分结束后，大致可分为以下的交互、或者说动画：  任务列表左移、右  侧边栏保持不动，被任务列表盖  两种方式触发页面的切换 *   点击抽屉图  滑动任务列表界面    2，准备素材其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：  手机状态栏 *   注意：状">
-<meta property="og:image" content="https://p.ilib.io/cn/t7dwd.jpg">
-<meta property="og:image" content="https://p.ilib.io/cn/agxom.jpg">
-<meta property="og:image" content="https://p.ilib.io/cn/qyd1u.jpg">
-<meta property="og:image" content="https://p.ilib.io/cn/1j0dk.jpg">
-<meta property="og:updated_time" content="2016-12-06T04:54:48.000Z">
+<meta property="og:image" content="https://ps.toolinbox.net/t7dwd.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/agxom.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/qyd1u.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/1j0dk.jpg">
+<meta property="og:updated_time" content="2018-11-12T02:23:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Origami之于滴答清单—侧边栏的交互">
 <meta name="twitter:description" content="以下就开始整个模仿的过程，大致分为三步。 1，想清楚交互的具体过程侧边栏的交互并不复杂，拆分结束后，大致可分为以下的交互、或者说动画：  任务列表左移、右  侧边栏保持不动，被任务列表盖  两种方式触发页面的切换 *   点击抽屉图  滑动任务列表界面    2，准备素材其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：  手机状态栏 *   注意：状">
-<meta name="twitter:image" content="https://p.ilib.io/cn/t7dwd.jpg">
+<meta name="twitter:image" content="https://ps.toolinbox.net/t7dwd.jpg">
 
 
 
@@ -384,12 +384,12 @@
 <h1 id="3，逐步实现交互"><a href="#3，逐步实现交互" class="headerlink" title="3，逐步实现交互"></a>3，逐步实现交互</h1><h2 id="布置静态界面"><a href="#布置静态界面" class="headerlink" title="布置静态界面"></a>布置静态界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。</p>
 <p>注意Layer的上下层次，从上到下依次是：状态栏、任务列表、侧边栏</p>
 <p>实现后的QC界面大概是：</p>
-<p><img src="https://p.ilib.io/cn/t7dwd.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/t7dwd.jpg" alt=""></p>
 <h2 id="确认交互的触发方式"><a href="#确认交互的触发方式" class="headerlink" title="确认交互的触发方式"></a>确认交互的触发方式</h2><p>由于点击抽屉图标和滑动任务列表界面都可以触发交互，所以考虑先实现一种触发方式，然后用另一种方式来调用第一种方式。</p>
 <p>技巧：优先实现滑动的触发方式，然后使用点击来设置滑动的起始状态即可。</p>
 <h2 id="实现滑动交互"><a href="#实现滑动交互" class="headerlink" title="实现滑动交互"></a>实现滑动交互</h2><p>这点并不复杂，使用简单的Swipe Patch，明确起始位置即可。</p>
 <p>实现后的QC界面大概是：</p>
-<p><img src="https://p.ilib.io/cn/agxom.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/agxom.jpg" alt=""></p>
 <h2 id="实现点击交互"><a href="#实现点击交互" class="headerlink" title="实现点击交互"></a>实现点击交互</h2><p>这里要处理的是，在不同的情况，点击所触发的行为是不一致的。也就是说</p>
 <ul>
 <li><p>在侧边栏隐藏时，点击抽屉图标应该显示侧边</p>
@@ -399,10 +399,10 @@
 </ul>
 <p>这就意味着要做条件判断。条件判断可以使用Condition来实现，简单的判断任务列表界面的X位置即可。然后，将不同状态下点击的行为，用于设置滑动操作切换到起始、或终止的位置即可。</p>
 <p>实现后的QC界面大概是：</p>
-<p><img src="https://p.ilib.io/cn/qyd1u.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/qyd1u.jpg" alt=""></p>
 <p>另一种更巧妙的办法是，点击切换滑动的起始状态即可。</p>
 <p>实现后的QC界面大概是：</p>
-<p><img src="https://p.ilib.io/cn/1j0dk.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/1j0dk.jpg" alt=""></p>
 <p>好，这样就完成了整个交互设计，大家可以到这里下载<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel.zip">Origami工程文件</a>。</p>
 
       

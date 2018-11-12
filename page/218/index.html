@@ -666,7 +666,7 @@
 <p>根据截图，计算中选中图标在各行时对应的坐标。第0行Y坐标为1110，第5行为630，可推出相应的计算公式：Y = 1110- 96 * i。这样，使用Index就可以实现点击与移动的对应关系。因为选中图标仅在Y方向移动，X坐标保持不变。</p>
 <p>对于点击后的灰色蒙板，也可以使用类似的方式来移动。隐藏与否则可以通过控制Scale来实现，而Opacity则设置为0.3。</p>
 <p>实现后的QC界面大概是：</p>
-<p><a href="https://p.ilib.io/cn/d72aa.png" target="_blank" rel="external"><img src="https://p.ilib.io/cn/y7wsk.png" alt=""></a></p>
+<p><a href="https://ps.toolinbox.net/d72aa.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/y7wsk.png" alt=""></a></p>
 <p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/SelectLanguage.zip">下载Origami工程文件</a>。</p>
 
           
@@ -983,12 +983,12 @@
 <h1 id="3，逐步实现交互"><a href="#3，逐步实现交互" class="headerlink" title="3，逐步实现交互"></a>3，逐步实现交互</h1><h2 id="布置静态界面"><a href="#布置静态界面" class="headerlink" title="布置静态界面"></a>布置静态界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。</p>
 <p>注意Layer的上下层次，从上到下依次是：状态栏、任务列表、侧边栏</p>
 <p>实现后的QC界面大概是：</p>
-<p><img src="https://p.ilib.io/cn/t7dwd.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/t7dwd.jpg" alt=""></p>
 <h2 id="确认交互的触发方式"><a href="#确认交互的触发方式" class="headerlink" title="确认交互的触发方式"></a>确认交互的触发方式</h2><p>由于点击抽屉图标和滑动任务列表界面都可以触发交互，所以考虑先实现一种触发方式，然后用另一种方式来调用第一种方式。</p>
 <p>技巧：优先实现滑动的触发方式，然后使用点击来设置滑动的起始状态即可。</p>
 <h2 id="实现滑动交互"><a href="#实现滑动交互" class="headerlink" title="实现滑动交互"></a>实现滑动交互</h2><p>这点并不复杂，使用简单的Swipe Patch，明确起始位置即可。</p>
 <p>实现后的QC界面大概是：</p>
-<p><img src="https://p.ilib.io/cn/agxom.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/agxom.jpg" alt=""></p>
 <h2 id="实现点击交互"><a href="#实现点击交互" class="headerlink" title="实现点击交互"></a>实现点击交互</h2><p>这里要处理的是，在不同的情况，点击所触发的行为是不一致的。也就是说</p>
 <ul>
 <li><p>在侧边栏隐藏时，点击抽屉图标应该显示侧边</p>
@@ -998,10 +998,10 @@
 </ul>
 <p>这就意味着要做条件判断。条件判断可以使用Condition来实现，简单的判断任务列表界面的X位置即可。然后，将不同状态下点击的行为，用于设置滑动操作切换到起始、或终止的位置即可。</p>
 <p>实现后的QC界面大概是：</p>
-<p><img src="https://p.ilib.io/cn/qyd1u.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/qyd1u.jpg" alt=""></p>
 <p>另一种更巧妙的办法是，点击切换滑动的起始状态即可。</p>
 <p>实现后的QC界面大概是：</p>
-<p><img src="https://p.ilib.io/cn/1j0dk.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/1j0dk.jpg" alt=""></p>
 <p>好，这样就完成了整个交互设计，大家可以到这里下载<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel.zip">Origami工程文件</a>。</p>
 
           

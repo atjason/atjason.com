@@ -69,16 +69,16 @@
 <meta property="og:url" content="https://atjason.com/629.html">
 <meta property="og:site_name" content="Jason">
 <meta property="og:description" content="滴答清单是已经存在的产品，其中延期也包含了添加任务的交互。这里并不是使用Origami去设计，而是使用Origami去模仿，达到学习Origami的目的。 关于滴答清单，本文模仿的是iOS1.9.4版本的滴答清单，可以在滴答清单官网去下载：http://www.dida365.com 好，以下就开始整个模仿的过程，大致分为三步。 一，想清楚交互的具体过程也就是说，实际操作滴答清单，了解添加任务的过">
-<meta property="og:image" content="https://p.ilib.io/cn/cswp7.png">
-<meta property="og:image" content="https://p.ilib.io/cn/v679h.jpg">
-<meta property="og:image" content="https://p.ilib.io/cn/f09x4.jpg">
-<meta property="og:image" content="https://p.ilib.io/cn/lpztp.png">
-<meta property="og:image" content="https://p.ilib.io/cn/h48py.jpg">
-<meta property="og:updated_time" content="2016-12-06T04:52:33.000Z">
+<meta property="og:image" content="https://ps.toolinbox.net/cswp7.png">
+<meta property="og:image" content="https://ps.toolinbox.net/v679h.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/f09x4.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/lpztp.png">
+<meta property="og:image" content="https://ps.toolinbox.net/h48py.jpg">
+<meta property="og:updated_time" content="2018-11-12T02:23:35.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Origami之于滴答清单—添加任务的交互">
 <meta name="twitter:description" content="滴答清单是已经存在的产品，其中延期也包含了添加任务的交互。这里并不是使用Origami去设计，而是使用Origami去模仿，达到学习Origami的目的。 关于滴答清单，本文模仿的是iOS1.9.4版本的滴答清单，可以在滴答清单官网去下载：http://www.dida365.com 好，以下就开始整个模仿的过程，大致分为三步。 一，想清楚交互的具体过程也就是说，实际操作滴答清单，了解添加任务的过">
-<meta name="twitter:image" content="https://p.ilib.io/cn/cswp7.png">
+<meta name="twitter:image" content="https://ps.toolinbox.net/cswp7.png">
 
 
 
@@ -415,7 +415,7 @@
 </ul>
 <p>小技巧：可将截图放在最上方，并使其半透明，这样就可以使用截图来校对元素在界面上的位置</p>
 <p>布置好后是这样的：</p>
-<p><img src="https://p.ilib.io/cn/cswp7.png" alt="任务列表界面"></p>
+<p><img src="https://ps.toolinbox.net/cswp7.png" alt="任务列表界面"></p>
 <h2 id="依次实现以下任务列表界面的交互"><a href="#依次实现以下任务列表界面的交互" class="headerlink" title="依次实现以下任务列表界面的交互"></a>依次实现以下任务列表界面的交互</h2><ul>
 <li><p>消息的触发</p>
 <pre><code>*   以点击加号键任务交互的触发点。可以将按下加号键的消息以Wireless的方式广播出去，这样可以方便得在其它LayerGroup中使用
@@ -434,11 +434,11 @@
 </code></pre></li>
 </ul>
 <p>QC中的界面大致是这样的：</p>
-<p><img src="https://p.ilib.io/cn/v679h.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/v679h.jpg" alt=""></p>
 <h2 id="创建Layer-Group"><a href="#创建Layer-Group" class="headerlink" title="创建Layer Group"></a>创建Layer Group</h2><p>将任务列表的所有内容放置在一个LayerGroup中，同时创建另一个LayerGroup，用于放置新任务的内容。暂时关闭任务列表界面，进行接下来新任务界面的设计。</p>
-<p><img src="https://p.ilib.io/cn/f09x4.jpg" alt="Layer Group"></p>
+<p><img src="https://ps.toolinbox.net/f09x4.jpg" alt="Layer Group"></p>
 <h2 id="布置静态的新任务界面"><a href="#布置静态的新任务界面" class="headerlink" title="布置静态的新任务界面"></a>布置静态的新任务界面</h2><p>这一点和上面介绍的布置静态任务列表界面类似，这里就不多做介绍。布置好后是这样的：</p>
-<p><img src="https://p.ilib.io/cn/lpztp.png" alt="新任务界面"></p>
+<p><img src="https://ps.toolinbox.net/lpztp.png" alt="新任务界面"></p>
 <h2 id="依次实现以下新任务界面的交互"><a href="#依次实现以下新任务界面的交互" class="headerlink" title="依次实现以下新任务界面的交互"></a>依次实现以下新任务界面的交互</h2><ul>
 <li><p>消息的触发</p>
 <pre><code>*   以点击返回键任务交互的触发点、暂时不处理滑动返回操作。同时的，可以将该消息以Wireless的方式广播出去
@@ -457,7 +457,7 @@
 </code></pre></li>
 </ul>
 <p>​QC中的界面大致是这样的：</p>
-<p><img src="https://p.ilib.io/cn/h48py.jpg" alt="新任务界面"></p>
+<p><img src="https://ps.toolinbox.net/h48py.jpg" alt="新任务界面"></p>
 <h2 id="重新打开任务列表的LayerGroup，并进行调整"><a href="#重新打开任务列表的LayerGroup，并进行调整" class="headerlink" title="重新打开任务列表的LayerGroup，并进行调整"></a>重新打开任务列表的LayerGroup，并进行调整</h2><p>将任务列表的LayerGroup放在底层，将新任务的LayerGroup放在上层</p>
 <p>使用添加任务、返回两个消息，控制上述两个层的状态切换。需要注意的是，除了状态切换，还需要在显示底层时隐藏上层，也即在显示任务列表的LayerGroup时隐藏新任务的LayerGroup，这样才能响应任务列表的点击操作。</p>
 <p>进行其它一些调整，主要是针对动画的过渡，修正其中处理不好的地方。注意，这里有一点要说，不要刻意追求动画的完美。有时，花了2个小时做好了90%的交互、已经可以表达出意图，却又要花1小时、甚至更多的时间去调整不完美的地方，这就有些钻牛角尖了，浪费精力、没有必要。除非是开发同学能100%实现你设计的交互，不然这样的交互只是用来表达意图，做得太完美反而是浪费时间。</p>

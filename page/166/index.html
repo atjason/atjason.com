@@ -952,7 +952,7 @@
           
             <h1 id="提交区间"><a href="#提交区间" class="headerlink" title="提交区间"></a>提交区间</h1><p>当你有很多分支时，这对管理你的分支时十分有用，你可以用提交区间来解决 “这个分支还有哪些提交尚未合并到主分支？” 的问题。</p>
 <h2 id="双点"><a href="#双点" class="headerlink" title="双点"></a>双点</h2><p>最常用的指明提交区间语法是双点。 这种语法可以让 Git 选出在一个分支中而不在另一个分支中的提交。 例如，你有如下的提交历史：</p>
-<p><img src="https://p.ilib.io/cn/hfxpt.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/hfxpt.jpg" alt=""></p>
 <p>你想要查看 experiment 分支中还有哪些提交尚未被合并入 master 分支。 你可以使用 <code>git log master..experiment</code> 来让 Git 显示这些提交。反过来，如果你想查看在 master 分支中而不在 experiment 分支中的提交，你只要交换分支名即可。 </p>
 <p>另一个常用的场景是查看你即将推送到远端的内容：<code>$ git log origin/master..HEAD</code><br>这个命令会输出在你当前分支中而不在远程 origin 中的提交。 </p>
 
