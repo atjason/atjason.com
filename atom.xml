@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-11-13T14:40:22.262Z</updated>
+  <updated>2018-11-14T13:39:19.662Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1114 - 仪式感</title>
+    <link href="https://atjason.com/daily/2018-11-14.html"/>
+    <id>https://atjason.com/daily/2018-11-14.html</id>
+    <published>2018-11-14T14:00:00.000Z</published>
+    <updated>2018-11-14T13:39:19.662Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近几天，接连把自己的 App 升级了一遍；今天，更是提交了 3 款 App…</p>
+<p>等正式下架并做简单运营推广后，正式切换到另一个项目中。</p>
+<p>不只是做事，需要一点仪式感，需要在不同事情间有明确的切割、转换，这样能更好地投入到新的事中。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近几天，接连把自己的 App 升级了一遍；今天，更是提交了 3 款 App…&lt;/p&gt;
+&lt;p&gt;等正式下架并做简单运营推广后，正式切换到另一个项目中。&lt;/p&gt;
+&lt;p&gt;不只是做事，需要一点仪式感，需要在不同事情间有明确的切割、转换，这样能更好地投入到新的事中。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1113 - 有的聊</title>
@@ -533,39 +559,6 @@
 &lt;p&gt;最好的，还是在一个坑里一直挖。若是像现在这种打一枪换一个地方，切换成本也太高了些。&lt;/p&gt;
 &lt;p&gt;先挑些简单的活干，找找感觉；然后再啃硬骨头。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1025 - 未到极致</title>
-    <link href="https://atjason.com/daily/2018-10-25.html"/>
-    <id>https://atjason.com/daily/2018-10-25.html</id>
-    <published>2018-10-25T14:00:00.000Z</published>
-    <updated>2018-10-25T15:43:12.260Z</updated>
-    
-    <content type="html"><![CDATA[<p>由于家里的事，现在的时间很零碎，也很少能学习或做的事情不多，感觉很难受。</p>
-<p>不过，不也正是时间零碎也少，才更应该专注、高效？</p>
-<p>专注，核心就是放弃。放弃不应该做的、可做可不做的；只剩下必须要做的、不做会死人的事。</p>
-<p>高效，就是利用一切可利用的时间、精力。比如，在抱娃睡觉时，就想问题的解决方案。把娃放下后，奔向电脑实现之。</p>
-<p>今天对于昨天的改变：</p>
-<ul>
-<li>61 新做的「<a href="https://sharecuts.cn/" target="_blank" rel="external">捷径社区</a>」基于 Vue/Nuxt/Egg.js 实现，而这个技术栈正好是我想学的。恩，有了样板，学起来更有方向了。</li>
-<li>继续看吴军的《见识》、薛兆丰的《经济学讲义》</li>
-<li>开始计划升级 iText 等 App</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;由于家里的事，现在的时间很零碎，也很少能学习或做的事情不多，感觉很难受。&lt;/p&gt;
-&lt;p&gt;不过，不也正是时间零碎也少，才更应该专注、高效？&lt;/p&gt;
-&lt;p&gt;专注，核心就是放弃。放弃不应该做的、可做可不做的；只剩下必须要做的、不做会死人的事。&lt;/p&gt;
-&lt;p&gt;高效，就是利用一切可利
     
     </summary>
     
