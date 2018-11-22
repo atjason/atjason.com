@@ -258,6 +258,229 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/330.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/330.html" itemprop="url">
+                  Kindle 4 原生系统替换中文字体
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-02-03T20:40:04+08:00">
+                2013-02-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>更换字体后的效果：</p>
+<p><a href="https://ps.toolinbox.net/5us2b.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/jgzgr.jpg" alt=""></a></p>
+<p>以下是根据网络上的教程+自己刷机步骤整理，自己不会忘，也供诸君参考。more</p>
+<hr>
+<p>准备字体</p>
+<ul>
+<li><p>中文字体建议：</p>
+<ul>
+<li><p>主字体选择“方正准雅宋 ”；</p>
+<ul>
+<li><p>粗体是“方正特雅宋 ”；</p>
+</li>
+<li><p>斜体是“华文中宋斜”</p>
+</li>
+<li><p>粗斜体是“华文中宋粗斜”</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>英文字体优化建议：</p>
+<ul>
+<li><p>Serif（衬线）字体由 PMN Caecilia 换成了 Droid Serif，</p>
+<ul>
+<li>Sans Serif（无衬线）字体则由经典的 Helvetica换成了 Droid Sans。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>复制字体，进入调试模式 </strong></p>
+<p>将Kindle通过usb连接至PC，要目录创建fonts文件夹，将CJK.ttf 和CJK_Bold.ttf(前者是普通字体，后者是粗体)。</p>
+<p>然后，为了进入调试模式，需要在kindle根目录下创建一个名为“ENABLE_DIAGS”的空文件。重启设备(Settings -&gt; Menu -&gt; Restart)</p>
+<p><strong>调试模式下开启USBnet </strong></p>
+<p>重启后，设备会自动进入调试模式，将Kindle连上USB线，在菜单中依次选择 Misc individual diagnostics -&gt; Utilities -&gt; Enable USBnet，记录IP地址，一般为192.168.15.244；最后并根据提示按方向键右键确认(FW RIGHT)</p>
+<p><strong>设置网络连接</strong></p>
+<p>Mac下连接新创建的网络节点（Window需要安装驱动），设置该连接IP为：192.168.15.1，子网掩码为：255.255.255.0 ，其它保持默认。</p>
+<p><strong>SSH登录</strong></p>
+<p>现在就可以通过SSH登录了，在Putty中连接到192.168.15.244(这是Kindle的默认地址) ，输入用户名为 root ，密码很有可能为mario；不然看文后链接 。</p>
+<p>ssh root@192.168.15.244</p>
+<p><strong>替换中文字体 </strong></p>
+<p>输入以下命令挂载驱动器：</p>
+<p>mount /dev/mmcblk0p1 /mnt/base-mmc</p>
+<p>复制字体</p>
+<p>cp /mnt/base-us/documents/fonts/CJK.ttf /mnt/base-mmc/usr/java/lib/fonts/</p>
+<p>cp /mnt/base-us/documents/fonts/CJK_Bold.ttf /mnt/base-mmc/usr/java/lib/fonts/</p>
+<p>修改系统默认字体设置</p>
+<p>在修改前，先对系统文件进行备份，有备无患：</p>
+<p>cp /mnt/base-mmc/usr/java/lib/font.properties /mnt/base-mmc/usr/java/lib/font.properties.bak</p>
+<p>然后，执行：</p>
+<p>vi /mnt/base-mmc/usr/java/lib/font.properties</p>
+<p>找到如下行：</p>
+<p>hans.0=MHeiM18030_E.ttf</p>
+<p>hans.plain=MHeiM18030_E.ttf</p>
+<p>hans.1=MHeiM18030_E_Bold.ttf</p>
+<p>hans.bold=MHeiM18030_E_Bold.ttf</p>
+<p>将其修改为（按 i 键进入编辑模式）：</p>
+<p>hans.0=CJK.ttf</p>
+<p>hans.plain=CJK.ttf</p>
+<p>hans.1=CJK_Bold.ttf</p>
+<p>hans.bold=CJK_Bold.ttf</p>
+<p>保存退出(按ESC，输入 :wq)。</p>
+<p>Update：</p>
+<p>经过以上步骤的修改后，语言为中文的书籍就能够正常显示了，但对于未设置语言的书籍，可以用PC上的calibre进行设置。</p>
+<p><strong>退出调试模式 </strong></p>
+<p>在Kindle上退回到调试模式主菜单，并选择”’Exit, Reboot or Disable Diags’”-&gt;”’Disable Diagnostics”,，并按照提示按左键确认（FW Left ）退出。稍等片刻，设备将重启并回到正常模式。</p>
+<p>退出调试模式很慢，按部就班就行 ，k4的系统重启一样需要一些耐心。</p>
+<p>如果再次使用USB进入调试模式，需要建立”enable_diags”文件夹…….</p>
+<p>**到退出调试时提示：pcbid does not match with DSN</p>
+<p>**K4 Black刷砖后的确会有这个问题， 只有这个菜单有问题，其他菜单正常。</p>
+<p>在 USBNETWORK 下 敲：</p>
+<p>idme -d –bootmode main</p>
+<p>reboot</p>
+<p>切换到main，下次就不会自动进入diags模式了。</p>
+<p><strong>链接 </strong></p>
+<p><a href="http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=50925&amp;highlight=kindle%2B4%2B%E5%AD%97%E4%BD%93" target="_blank" rel="external">http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=50925&amp;highlight=kindle%2B4%2B字体</a></p>
+<p><a href="http://bbs.zoopda.com/thread-117055-1-1.html" target="_blank" rel="external">http://bbs.zoopda.com/thread-117055-1-1.html</a></p>
+<p><a href="http://axiu.me/trial/change_font_for_kindle4/" target="_blank" rel="external">http://axiu.me/trial/change_font_for_kindle4/</a></p>
+<p><a href="http://miaoo.in/kindle4-modify-font.html" target="_blank" rel="external">http://miaoo.in/kindle4-modify-font.html</a></p>
+<p><a href="http://bbs.duokan.com/forum/thread-73792-1-1.html" target="_blank" rel="external">http://bbs.duokan.com/forum/thread-73792-1-1.html</a></p>
+<p><a href="http://irising.me/2011/12/12574/" target="_blank" rel="external">http://irising.me/2011/12/12574/</a></p>
+<p><a href="http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=64538&amp;highlight=kindle%2B4%2B%E5%AD%97%E4%BD%93" target="_blank" rel="external">http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=64538&amp;highlight=kindle%2B4%2B字体</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/324.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -887,160 +1110,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/296.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/296.html" itemprop="url">
-                  不要让自己离不开工作
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-06-04T19:48:03+08:00">
-                2012-06-04
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/北冥/" itemprop="url" rel="index">
-                    <span itemprop="name">北冥</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>如果今天不上班，你最想做什么？如果回答不出来，说明你已经过于沉溺于工作了more</p>
-<p>以为工作离不开自己，其实是自己离不开工</p>
-<p>我们通常以为自己在公司、项目中比较重要，离开自己工作就没办法运转；但其实往往不是这样。即便真是这样，也是因为工作中角色定义不明、不够放权、流程有问题、人力资源过于匮乏、任务分配不合理、等等</p>
-<p>过于沉溺于工作，其实对工作并不</p>
-<p>表面上看起来这样的员工、态度对工作是有利，但物极必反；因为如果长期从事于相同、或类似的事情，人总是会审美疲劳、厌倦、控制不了自己的情绪、积极性不高，在这种状态下工作，不仅效率不高，而且还可能出错，进而给公司带来更大的损失</p>
-<p>工作之外，一定要有自己另外的兴</p>
-<p>而且，最好是和工作性质不同的兴趣。这样可以换换脑子、减轻疲劳，也可以趁机培养自己另外的特长，为以后铺垫更多的机会</p>
-<p>平衡工作与生活，是一门艺术</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/226/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/226/">226</a><span class="page-number current">227</span><a class="page-number" href="/page/228/">228</a><span class="space">&hellip;</span><a class="page-number" href="/page/236/">236</a><a class="extend next" rel="next" href="/page/228/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/226/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/226/">226</a><span class="page-number current">227</span><a class="page-number" href="/page/228/">228</a><span class="space">&hellip;</span><a class="page-number" href="/page/237/">237</a><a class="extend next" rel="next" href="/page/228/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1085,7 +1159,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1180</span>
+                <span class="site-state-item-count">1181</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-11-21T03:48:20.462Z</updated>
+  <updated>2018-11-21T13:31:31.320Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1121 - 为时已晚？</title>
+    <link href="https://atjason.com/daily/2018-11-21.html"/>
+    <id>https://atjason.com/daily/2018-11-21.html</id>
+    <published>2018-11-21T14:00:00.000Z</published>
+    <updated>2018-11-21T13:31:31.320Z</updated>
+    
+    <content type="html"><![CDATA[<p>时不时会有这样的顾虑：现在才开始学这个，是不是太晚了？</p>
+<p>晚不晚，是相对的。相对于什么呢？通常是相对于年轻人，相对于已经很牛的人。确实，跟这样的人存在竞争。但实际上，真正竞争的，还是自己。自己是否真的喜欢、有兴趣，能否坚持，能否做的好。这些因素，比自己假想的对手，更重要。</p>
+<p>晚不晚，其实还是该不该的问题。该不该，其实就是：除此之外，是否有更好的选择。如果有，就做更好的；如果没有，就做现在的。如果不清楚，抱歉，问你自己吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;时不时会有这样的顾虑：现在才开始学这个，是不是太晚了？&lt;/p&gt;
+&lt;p&gt;晚不晚，是相对的。相对于什么呢？通常是相对于年轻人，相对于已经很牛的人。确实，跟这样的人存在竞争。但实际上，真正竞争的，还是自己。自己是否真的喜欢、有兴趣，能否坚持，能否做的好。这些因素，比自己假想的对手
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1120 - 心依旧</title>
@@ -528,35 +552,6 @@
     
       &lt;p&gt;Klib 中有个「分享」功能，就是把自己某本书的标注分享成网页，比如 &lt;a href=&quot;http://s.klib.me/7Z9gj9.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这篇&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;从开发的角度，这个功能很复杂，有单独
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1101 - 给自己挖了个大坑</title>
-    <link href="https://atjason.com/daily/2018-11-01.html"/>
-    <id>https://atjason.com/daily/2018-11-01.html</id>
-    <published>2018-11-01T14:00:00.000Z</published>
-    <updated>2018-11-01T15:18:40.396Z</updated>
-    
-    <content type="html"><![CDATA[<p>本来，今天挺好的：新版 iText 审核通过，Klib 的暗色模式也实现完毕。可，无意间发现之前填下的一个大坑，心情顿时跌入谷底。</p>
-<p>之前的代码中，用哈希值作为 key 值…</p>
-<p>哎，我怎么会写出这样的代码…</p>
-<p>哈希，主要是确定不同，而不是确定唯一性。换句话说，哈希主要是为了毕竟 2 个值是否不同（当然，极低概率下，哈希相同的 2 个值，可能也是不同的）；而同一个原始值的哈希值，是很有可能变动的。比如，操作系统升级、Swift 运行环境升级等等因素，都有可能让基于 Swift 编写的哈希值变更。</p>
-<p>主要的麻烦是，产品已经发出去了。要升级，必须保证已有用户的已有数据不受影响，这个挑战是非常大的。还好当时自己在数据库中冗余保留了原始数据，还有机会根据原始数据重新生成有唯一性的值，比如 MD5 值。</p>
-<p>哎，再骂一次当年的自己，怎么那么年轻…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本来，今天挺好的：新版 iText 审核通过，Klib 的暗色模式也实现完毕。可，无意间发现之前填下的一个大坑，心情顿时跌入谷底。&lt;/p&gt;
-&lt;p&gt;之前的代码中，用哈希值作为 key 值…&lt;/p&gt;
-&lt;p&gt;哎，我怎么会写出这样的代码…&lt;/p&gt;
-&lt;p&gt;哈希，主要是确定不同，而不是
     
     </summary>
     
