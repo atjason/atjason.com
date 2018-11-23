@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-11-21T13:31:31.320Z</updated>
+  <updated>2018-11-22T15:03:53.018Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1122 - 开始小程序开发</title>
+    <link href="https://atjason.com/daily/2018-11-22.html"/>
+    <id>https://atjason.com/daily/2018-11-22.html</id>
+    <published>2018-11-22T14:00:00.000Z</published>
+    <updated>2018-11-22T15:03:53.018Z</updated>
+    
+    <content type="html"><![CDATA[<p>看了几天官方文档后，今天开始写小程序的代码了。</p>
+<p>作为练手项目，打算做个杭州公交查询的工具。核心功能是：一眼看到上下班的公交车还有几站到站。</p>
+<p>之前收窄技术面至 js 相关，而小程序主体正是 js，刚好。不过，我对前端开发不太了解，这部分进展估计会比较慢。</p>
+<p>另外一个比较坑的是，实时公交信息基本是没有 API 的，暂时打算逆向一个 App 的接口，这个做法商业上不太合适，我得再考虑考虑。</p>
+<p>对了，小程序叫什么呢？<strong>杭州公交车</strong>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;看了几天官方文档后，今天开始写小程序的代码了。&lt;/p&gt;
+&lt;p&gt;作为练手项目，打算做个杭州公交查询的工具。核心功能是：一眼看到上下班的公交车还有几站到站。&lt;/p&gt;
+&lt;p&gt;之前收窄技术面至 js 相关，而小程序主体正是 js，刚好。不过，我对前端开发不太了解，这部分进展估计会比
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1121 - 为时已晚？</title>
@@ -525,33 +552,6 @@
       &lt;p&gt;为家人做选择时，在能力范围内，选择最好的。&lt;/p&gt;
 &lt;p&gt;不然，各种努力，又为了啥呢？把钱花在这个地方，不是最有价值的吗？&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1102 - 做事，选择简单还是难？</title>
-    <link href="https://atjason.com/daily/2018-11-02.html"/>
-    <id>https://atjason.com/daily/2018-11-02.html</id>
-    <published>2018-11-02T14:00:00.000Z</published>
-    <updated>2018-11-02T14:40:31.461Z</updated>
-    
-    <content type="html"><![CDATA[<p>Klib 中有个「分享」功能，就是把自己某本书的标注分享成网页，比如 <a href="http://s.klib.me/7Z9gj9.html" target="_blank" rel="external">这篇</a></p>
-<p>从开发的角度，这个功能很复杂，有单独维护一个服务器，接收来自 Klib 的分享、取消分享、更新分享内容、权限管理，还要考虑 CDN 分发、分发内容的及时更新，等等。</p>
-<p>截止目前，从性价比来看，这个功能并不高。收益一般，维护成本很高；只要有 1 位用户在使用，就要保持这个服务 100% 在线。时间长了，当对服务端的代码不熟悉时，一旦有问题，就要花很多时间来修复。</p>
-<p>当初，自己是为了学习 Python 后端开发，并尝试下分享，才上的这个功能。从学习的角度，这是好的。而从产品的角度，则很难说。</p>
-<p>不过，反过来，如果总是做很简单的功能，且不说长期对自己的成长不利，即便从产品、从商业角度，也缺乏必要的护城河，很容易「被致敬」。而如果分享功能正巧很多人在用、带来很多收益，这个相对复杂的功能，就一定程度充当护城河，不那么容易被抄袭。</p>
-<p><strong>初期，可以「取巧」，用最小的代价，换取最大的收益。<br>而随着自己的成长，需要考虑壁垒，需要「守正」；用不断提高的门槛，保护自己的领地。</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Klib 中有个「分享」功能，就是把自己某本书的标注分享成网页，比如 &lt;a href=&quot;http://s.klib.me/7Z9gj9.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;这篇&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;从开发的角度，这个功能很复杂，有单独
     
     </summary>
     
