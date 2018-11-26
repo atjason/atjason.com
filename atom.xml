@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-11-23T14:20:21.616Z</updated>
+  <updated>2018-11-25T15:35:52.656Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1125 - 被 18 届毕业生碾压</title>
+    <link href="https://atjason.com/daily/2018-11-25.html"/>
+    <id>https://atjason.com/daily/2018-11-25.html</id>
+    <published>2018-11-25T14:00:00.000Z</published>
+    <updated>2018-11-25T15:35:52.656Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天去参加一个小程序线下沙龙，其中一位演讲嘉宾，是 18 年毕业的，小妹子。</p>
+<p>哎，完全有种被碾压的感觉；<br>生活，何必如此艰难…</p>
+<p>找准一个方向，积累、死磕；<br>找到一个机会，放大自己的价值。</p>
+<p>无他。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天去参加一个小程序线下沙龙，其中一位演讲嘉宾，是 18 年毕业的，小妹子。&lt;/p&gt;
+&lt;p&gt;哎，完全有种被碾压的感觉；&lt;br&gt;生活，何必如此艰难…&lt;/p&gt;
+&lt;p&gt;找准一个方向，积累、死磕；&lt;br&gt;找到一个机会，放大自己的价值。&lt;/p&gt;
+&lt;p&gt;无他。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1124 - 多和不同的人接触</title>
+    <link href="https://atjason.com/daily/2018-11-24.html"/>
+    <id>https://atjason.com/daily/2018-11-24.html</id>
+    <published>2018-11-24T14:00:00.000Z</published>
+    <updated>2018-11-25T15:38:04.885Z</updated>
+    
+    <content type="html"><![CDATA[<p>自己一个人想，效果并不好。</p>
+<p>和别人聊，可能有种奇妙的效果，就是能触发自己思维里的某些东西；甚至，空来的灵感，和聊天的内容可能根本没有关系。</p>
+<p>尤其，和高人聊，收获更多；尤其，能了解到不同的、全新的看问题的视角，这就是很可观的收益了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自己一个人想，效果并不好。&lt;/p&gt;
+&lt;p&gt;和别人聊，可能有种奇妙的效果，就是能触发自己思维里的某些东西；甚至，空来的灵感，和聊天的内容可能根本没有关系。&lt;/p&gt;
+&lt;p&gt;尤其，和高人聊，收获更多；尤其，能了解到不同的、全新的看问题的视角，这就是很可观的收益了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1123 - 就怕流氓有文化</title>
@@ -523,57 +577,6 @@
 &lt;li&gt;可自动隐藏识别结果&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;关于自动隐藏识别
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1105 - 单元测试真是好东西</title>
-    <link href="https://atjason.com/daily/2018-11-05.html"/>
-    <id>https://atjason.com/daily/2018-11-05.html</id>
-    <published>2018-11-05T14:00:00.000Z</published>
-    <updated>2018-11-05T13:41:40.414Z</updated>
-    
-    <content type="html"><![CDATA[<p>这两天在出 Klib 新版，其中改了一个较底层的数据结构。如果要详细地测试 Klib，至少要跑完 700 条测试用例。放在我目前的心态和时间，绝对要疯。</p>
-<p>幸好当时写了充分的单元测试，跑一把，修复暴露的问题，基本我就有信心发布了。</p>
-<p>单元测试真是好东西，可以自下而上保证每个模块的正确性。再加上其它的测试手段，基本就可以保证程序的可靠性。</p>
-<p>可能很多人觉得写测试很烦。其实，在开发新功能时，写测试用例和单元测试，也是分析、完善思路的过程；可以从不同维度思考问题，避免遗漏。即使是花了些时间，也好过花很长时间调试问题，或者做重复的人工测试。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这两天在出 Klib 新版，其中改了一个较底层的数据结构。如果要详细地测试 Klib，至少要跑完 700 条测试用例。放在我目前的心态和时间，绝对要疯。&lt;/p&gt;
-&lt;p&gt;幸好当时写了充分的单元测试，跑一把，修复暴露的问题，基本我就有信心发布了。&lt;/p&gt;
-&lt;p&gt;单元测试真是好东
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1104 - 针对结果教育，无意义</title>
-    <link href="https://atjason.com/daily/2018-11-04.html"/>
-    <id>https://atjason.com/daily/2018-11-04.html</id>
-    <published>2018-11-04T14:00:00.000Z</published>
-    <updated>2018-11-04T14:18:24.840Z</updated>
-    
-    <content type="html"><![CDATA[<p>当小孩已经形成并发生不好的行为，当场教育、批评甚至打骂，其实收效甚微。</p>
-<p>批评结果没有用，而是要知道他为什么这么做，这样的做法是从哪里学来的，他是情绪失控时的发泄、还是有意识地做坏事。多向前面想一想，才知道为什么，才知道怎么教育比较好。</p>
-<p>打骂，只是发泄了自己当时的情绪，对教育无用。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;当小孩已经形成并发生不好的行为，当场教育、批评甚至打骂，其实收效甚微。&lt;/p&gt;
-&lt;p&gt;批评结果没有用，而是要知道他为什么这么做，这样的做法是从哪里学来的，他是情绪失控时的发泄、还是有意识地做坏事。多向前面想一想，才知道为什么，才知道怎么教育比较好。&lt;/p&gt;
-&lt;p&gt;打骂，只是
     
     </summary>
     
