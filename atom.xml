@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-11-27T14:33:51.567Z</updated>
+  <updated>2018-11-28T13:39:02.630Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1128 - 小程序已提交审核</title>
+    <link href="https://atjason.com/daily/2018-11-28.html"/>
+    <id>https://atjason.com/daily/2018-11-28.html</id>
+    <published>2018-11-28T14:00:00.000Z</published>
+    <updated>2018-11-28T13:39:02.630Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天下午 5 点，正式提交了自己的第一个小程序：杭州公交实时查询。</p>
+<p>期待能早日审核通过。</p>
+<p>其实，提交后，给一些朋友体验，还加了不少功能。当不同的需求来了，就需要在各种设计间取舍，就到了考验功力的时候了。</p>
+<p>现在的问题是：下一个小程序做什么呢？</p>
+<p>要抓到合适的需求，并不容易。首当其冲，是做自己需要的、想要的东西。然后，才是和不同的人接触，了解他们的需求，做满足他们的产品。</p>
+<p>生活还是得再丰富点啊，现在太干瘪了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天下午 5 点，正式提交了自己的第一个小程序：杭州公交实时查询。&lt;/p&gt;
+&lt;p&gt;期待能早日审核通过。&lt;/p&gt;
+&lt;p&gt;其实，提交后，给一些朋友体验，还加了不少功能。当不同的需求来了，就需要在各种设计间取舍，就到了考验功力的时候了。&lt;/p&gt;
+&lt;p&gt;现在的问题是：下一个小程序做
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1127 - 小程序开发的差不多了</title>
@@ -534,43 +563,6 @@
     
       &lt;p&gt;如果只是常规方式，即使非常努力，绝大多数人，不可能跨越自己所属阶层。最多是在自己阶层的前面或后面，稍稍调整下位置。&lt;/p&gt;
 &lt;p&gt;不同阶层的人，在竞争时，根本就不在一个赛道。即使在一个赛道，对手也可能早就抢跑、或者卡位了。当你努力追上对手原来的位置，对手可能早就不见踪迹。或
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Klib 新版：全新黑色主题，阅读器体验更佳</title>
-    <link href="https://atjason.com/daily/2018-11-08.html"/>
-    <id>https://atjason.com/daily/2018-11-08.html</id>
-    <published>2018-11-08T14:00:00.000Z</published>
-    <updated>2018-11-08T03:54:11.757Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/jxi12.png" alt=""></p>
-<p><strong>Klib</strong> 是一款 <strong>读书笔记管理工具</strong>，目前已支持 <strong>Kindle</strong>、<strong>Apple Books</strong>、<strong>多看</strong>。</p>
-<p>最近发布的新版 Klib，支持 Mojave 黑色模式，回顾笔记更加酷炫。</p>
-<p><img src="http://p.toolinbox.net/2k9v9.png" alt=""></p>
-<p>特别是优化后的 <strong>阅读器模式</strong>，可以更沉浸地阅读笔记。</p>
-<p><img src="http://p.toolinbox.net/7eg6r.png" alt=""></p>
-<p>咦？感觉我的 Klib 和你的不一样？简单：</p>
-<ul>
-<li>按下 <code>⇧⌘S</code> 即可隐藏书籍</li>
-<li>按下 <code>⌘R</code> 即可切换为阅读器模式</li>
-</ul>
-<p>对 Klib 新版感兴趣？欢迎：</p>
-<ul>
-<li><a href="https://toolinbox.net/Klib/" target="_blank" rel="external">了解更多</a></li>
-<li><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12" target="_blank" rel="external">去 Mac App Store 下载 Klib</a></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/jxi12.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Klib&lt;/strong&gt; 是一款 &lt;strong&gt;读书笔记管理工具&lt;/strong&gt;，目前已支持 &lt;strong&gt;Kindle&lt;/st
     
     </summary>
     
