@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-11-28T13:39:02.630Z</updated>
+  <updated>2018-11-30T14:19:56.866Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,68 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1130 - 答案，还在自己身上</title>
+    <link href="https://atjason.com/daily/2018-11-30.html"/>
+    <id>https://atjason.com/daily/2018-11-30.html</id>
+    <published>2018-11-30T14:00:00.000Z</published>
+    <updated>2018-11-30T14:19:56.866Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近一直有些迷茫，不知道接下来的路该怎么选。这两天跟几位朋友聊，得出一个结论：在别人身上，是无法得到自己想要的答案的。</p>
+<p>不过，可以从别人身上得到很宝贵的信息。这些信息，不是从业者，是很难知道的。而一旦知道，就可以成为决策的基础，也可能会打开一扇窗，从新的角度看世界、思考问题。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近一直有些迷茫，不知道接下来的路该怎么选。这两天跟几位朋友聊，得出一个结论：在别人身上，是无法得到自己想要的答案的。&lt;/p&gt;
+&lt;p&gt;不过，可以从别人身上得到很宝贵的信息。这些信息，不是从业者，是很难知道的。而一旦知道，就可以成为决策的基础，也可能会打开一扇窗，从新的角度看
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1129 - 「杭州公交实时查询」小程序：看看你的公交还有几站到</title>
+    <link href="https://atjason.com/daily/2018-11-29.html"/>
+    <id>https://atjason.com/daily/2018-11-29.html</id>
+    <published>2018-11-29T14:00:00.000Z</published>
+    <updated>2018-11-30T14:20:02.965Z</updated>
+    
+    <content type="html"><![CDATA[<p>我的第一个小程序上架啦。</p>
+<p>功能简洁明确：看看你的公交还有几站到</p>
+<p><img src="https://ws2.sinaimg.cn/large/006tNbRwgy1fxovbb1ub4j309q0czwf0.jpg" alt=""></p>
+<p>更多细节：</p>
+<ul>
+<li>除也下辆车，也能看到 下下辆车还有几站到。<ul>
+<li>如果 2 辆车同时来，可以选择坐后面的，通常不挤。</li>
+</ul>
+</li>
+<li>除了当前站点，也可以查看中间换乘车还有几站。</li>
+<li>可以按上班、回家等方式分组。</li>
+<li>点击页底的「编辑」，可以进行编辑分组、添加车次等操作。</li>
+<li>主打简洁，一眼看到你想要的信息。</li>
+</ul>
+<p>欢迎扫码试试，期待你的反馈。</p>
+<p>注：由于数据源限制，现在仅支持杭州，见谅。如果你希望开通哪个城市，留言说下，我去研究下可行性。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我的第一个小程序上架啦。&lt;/p&gt;
+&lt;p&gt;功能简洁明确：看看你的公交还有几站到&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNbRwgy1fxovbb1ub4j309q0czwf0.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1128 - 小程序已提交审核</title>
@@ -510,59 +572,6 @@
       &lt;p&gt;这两天，突然家人有件紧急的事，我必须花大量时间来处理，完全打乱了自己原来的节奏。&lt;/p&gt;
 &lt;p&gt;遇到变化时，首先在判断，这事有多紧急、多重要，是否必须要做、能否延迟，是否要中断原来的计划。如果中断，那么这件事做到什么程度即可降低优先级，恢复中断前的计划，等等。&lt;/p&gt;
 &lt;p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1110 - 注释释放自己的情绪</title>
-    <link href="https://atjason.com/daily/2018-11-10.html"/>
-    <id>https://atjason.com/daily/2018-11-10.html</id>
-    <published>2018-11-10T14:00:00.000Z</published>
-    <updated>2018-11-10T15:32:35.504Z</updated>
-    
-    <content type="html"><![CDATA[<p>人总是会积压各种负面情绪，这些情绪总是需要释放的。</p>
-<p>要有适合自己释放情绪的方式，不然会郁结。</p>
-<p>要注意自己释放情绪的方式，尤其不能影响甚至伤害身边的人。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;人总是会积压各种负面情绪，这些情绪总是需要释放的。&lt;/p&gt;
-&lt;p&gt;要有适合自己释放情绪的方式，不然会郁结。&lt;/p&gt;
-&lt;p&gt;要注意自己释放情绪的方式，尤其不能影响甚至伤害身边的人。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1109 - 人，真的很难跨越自己的阶层</title>
-    <link href="https://atjason.com/daily/2018-11-09.html"/>
-    <id>https://atjason.com/daily/2018-11-09.html</id>
-    <published>2018-11-09T14:00:00.000Z</published>
-    <updated>2018-11-09T15:58:43.066Z</updated>
-    
-    <content type="html"><![CDATA[<p>如果只是常规方式，即使非常努力，绝大多数人，不可能跨越自己所属阶层。最多是在自己阶层的前面或后面，稍稍调整下位置。</p>
-<p>不同阶层的人，在竞争时，根本就不在一个赛道。即使在一个赛道，对手也可能早就抢跑、或者卡位了。当你努力追上对手原来的位置，对手可能早就不见踪迹。或者，对方用胳膊肘卡位，你根本就过不去。</p>
-<p>随手举个例子，别人在几年前买了套房，你现在要数倍于别人的价格买相同的房，这根本就不是公平的竞争。你背上的沉重的包袱，而别人已经在用钱生钱。</p>
-<p>要想跨越阶层，比努力更重要的，是极罕见的机遇，是放手一搏的勇气，是用尽一生的运气，是反人性的牺牲。</p>
-<p>且不说自己的无数牵牵绊绊、各种包袱。虽前行已不易，何谈跨越。</p>
-<p>虽悲观，但乐观能改变自己，却难撼动现实。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;如果只是常规方式，即使非常努力，绝大多数人，不可能跨越自己所属阶层。最多是在自己阶层的前面或后面，稍稍调整下位置。&lt;/p&gt;
-&lt;p&gt;不同阶层的人，在竞争时，根本就不在一个赛道。即使在一个赛道，对手也可能早就抢跑、或者卡位了。当你努力追上对手原来的位置，对手可能早就不见踪迹。或
     
     </summary>
     
