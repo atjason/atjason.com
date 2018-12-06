@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-12-04T14:28:35.643Z</updated>
+  <updated>2018-12-05T14:16:03.230Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1205 - 全国公交查询小程序</title>
+    <link href="https://atjason.com/daily/2018-12-05.html"/>
+    <id>https://atjason.com/daily/2018-12-05.html</id>
+    <published>2018-12-05T14:00:00.000Z</published>
+    <updated>2018-12-05T14:16:03.230Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近刚撸了个「杭州公交实时查询」小程序，只有杭州用户才能用，感觉不过瘾。干脆，搞个全国版吧。</p>
+<p>多了一个维度，要做的事立马多了很多。要开个小程序新坑，要考虑小程序间跳转，要考虑一个城市一个还是做成统一的，等等。</p>
+<p>Anyway，计划下周上线。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近刚撸了个「杭州公交实时查询」小程序，只有杭州用户才能用，感觉不过瘾。干脆，搞个全国版吧。&lt;/p&gt;
+&lt;p&gt;多了一个维度，要做的事立马多了很多。要开个小程序新坑，要考虑小程序间跳转，要考虑一个城市一个还是做成统一的，等等。&lt;/p&gt;
+&lt;p&gt;Anyway，计划下周上线。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1204 - Tumblr 别有洞天</title>
@@ -544,31 +569,6 @@
       &lt;p&gt;尤其，见识过、甚至经历过一夜暴富的人，要放弃这种心态、重回慢慢苦逼积累的心态，很难。&lt;/p&gt;
 &lt;p&gt;可，又有几人是一夜暴富？更多的人是一夜回到解放前。更靠谱的，不正是慢慢积累。这一过程必然是漫长的，只是期间会有些让人激动的小成果，激励着我们继续前行。&lt;/p&gt;
 &lt;p&gt;简单的话
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1115 - 带着问题睡觉</title>
-    <link href="https://atjason.com/daily/2018-11-15.html"/>
-    <id>https://atjason.com/daily/2018-11-15.html</id>
-    <published>2018-11-15T14:00:00.000Z</published>
-    <updated>2018-11-16T14:32:23.985Z</updated>
-    
-    <content type="html"><![CDATA[<p>睡觉前，脑子里想一个近期一直在想、却一直还没有满意答案的问题。</p>
-<p>睡觉时，潜意识也会继续运转，说不定会有意想不到的点子。</p>
-<p>据说，一些大人物们小憩时，手里会拿个球之类的物事。一旦球跌落、自己就惊醒，便记录下半睡半醒那一刻的想法。<br>据说，这种方法诞生了很多天才想法。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;睡觉前，脑子里想一个近期一直在想、却一直还没有满意答案的问题。&lt;/p&gt;
-&lt;p&gt;睡觉时，潜意识也会继续运转，说不定会有意想不到的点子。&lt;/p&gt;
-&lt;p&gt;据说，一些大人物们小憩时，手里会拿个球之类的物事。一旦球跌落、自己就惊醒，便记录下半睡半醒那一刻的想法。&lt;br&gt;据说，这种方法
     
     </summary>
     
