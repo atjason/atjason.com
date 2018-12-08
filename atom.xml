@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-12-06T15:23:02.987Z</updated>
+  <updated>2018-12-07T15:33:33.468Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1207 - 闭关状态</title>
+    <link href="https://atjason.com/daily/2018-12-07.html"/>
+    <id>https://atjason.com/daily/2018-12-07.html</id>
+    <published>2018-12-07T14:00:00.000Z</published>
+    <updated>2018-12-07T15:33:33.468Z</updated>
+    
+    <content type="html"><![CDATA[<p>这两天能调用的时间，全部投到公交查询的小程序了。主要的工作，就是支持除了杭州之外的、全国 100 个城市的公交查询。多了一个维度，事情就多了很多。</p>
+<p>问题在于状态。由于长时间只做这一件事，且由于能投入的时间不多、且很琐碎，导致大脑总是处于一种模式，项目进展也不是特别从，人就容易感到疲惫，效率和成就感也会下降。</p>
+<p>目前的情况，好像也没什么特别的办法；争取周末能提交首个版本，下周一提交差不多成熟的版本。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这两天能调用的时间，全部投到公交查询的小程序了。主要的工作，就是支持除了杭州之外的、全国 100 个城市的公交查询。多了一个维度，事情就多了很多。&lt;/p&gt;
+&lt;p&gt;问题在于状态。由于长时间只做这一件事，且由于能投入的时间不多、且很琐碎，导致大脑总是处于一种模式，项目进展也不是
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1206 - 不要广度，要深度</title>
@@ -533,42 +557,6 @@
     <summary type="html">
     
       &lt;p&gt;我父母那一辈，有相对较多的兄弟姐妹。而随着时代的变迁，地理上离得越来越远，所做的事差别越来越大。随时年纪越来越大，生活上的牵绊也越来越多，见一面都起来越难。而见面后的共同话题，也越来越少，最多的还是追忆；最亲的，还是见面时的一声招呼。曾经兄弟手足，现在想亲近，却不知该如何表
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1117 - 没人喜欢被胁迫的感觉</title>
-    <link href="https://atjason.com/daily/2018-11-17.html"/>
-    <id>https://atjason.com/daily/2018-11-17.html</id>
-    <published>2018-11-17T14:00:00.000Z</published>
-    <updated>2018-11-17T14:28:32.189Z</updated>
-    
-    <content type="html"><![CDATA[<ul>
-<li>加这个功能我就付费</li>
-<li>没这个功能我就去用 XXX 了</li>
-<li>…</li>
-</ul>
-<p>其实，作为开发者，第一眼看到这样的要求，其实是不爽的。</p>
-<p>其实，任何人，第一眼看到别人这种明里暗里的要挟，都不是爽的。</p>
-<p>没人喜欢被胁迫。</p>
-<p>只需坦诚地表达，等待对方的反应即可。过多的威胁加持，并不会让得到自己想要的结果的概率提高，而只是让人感觉幼稚。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;加这个功能我就付费&lt;/li&gt;
-&lt;li&gt;没这个功能我就去用 XXX 了&lt;/li&gt;
-&lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;其实，作为开发者，第一眼看到这样的要求，其实是不爽的。&lt;/p&gt;
-&lt;p&gt;其实，任何人，第一眼看到别人这种明里暗里的要挟，都不是爽的。&lt;/p&gt;
-&lt;
     
     </summary>
     
