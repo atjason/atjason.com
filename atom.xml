@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-12-13T00:54:44.339Z</updated>
+  <updated>2018-12-13T00:58:41.228Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,14 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>我做了个实时公交查询小程序，支持全国 100 个城市</title>
     <link href="https://atjason.com/daily/2018-12-13.html"/>
     <id>https://atjason.com/daily/2018-12-13.html</id>
-    <published>2018-12-13T00:54:18.185Z</published>
-    <updated>2018-12-13T00:54:44.339Z</updated>
+    <published>2018-12-13T14:00:00.000Z</published>
+    <updated>2018-12-13T00:58:41.228Z</updated>
     
-    <content type="html"><![CDATA[<p>title: ‘我做了个实时公交查询小程序，支持全国 100 个城市’<br>categories: 每天写一点</p>
-<h2 id="date-2018-12-10-22-00-00"><a href="#date-2018-12-10-22-00-00" class="headerlink" title="date: 2018-12-10 22:00:00"></a>date: 2018-12-10 22:00:00</h2><p>老婆坐公交上下班，有时早早出门，却在公交站等半天。眼看着天气越来越冷，不落忍，就用 JSBox 做了个查询公交车还有几站到的小工具。别说，实用又讨喜；出门前先看看公交到哪了，如果还远、或刚走，就等等再出门；<strong>小确幸</strong>。</p>
+    <content type="html"><![CDATA[<p>老婆坐公交上下班，有时早早出门，却在公交站等半天。眼看着天气越来越冷，不落忍，就用 JSBox 做了个查询公交车还有几站到的小工具。别说，实用又讨喜；出门前先看看公交到哪了，如果还远、或刚走，就等等再出门；<strong>小确幸</strong>。</p>
 <p>她的同事见了也想用，可又不一定是 iPhone，用不了 JSBox；于是，我就做了这个「<strong>实时公交精准查询</strong>」的小程序，一口气 <strong>支持全国 100 个城市</strong>。</p>
 <h1 id="查看附近的公交车"><a href="#查看附近的公交车" class="headerlink" title="查看附近的公交车"></a>查看附近的公交车</h1><p>打开小程序，默认就会显示附近的公交车。</p>
 <p><img src="https://ws4.sinaimg.cn/large/006tNbRwgy1fy4cooai6xj310o0jsq7l.jpg" alt=""></p>
@@ -54,10 +53,12 @@
     
     <summary type="html">
     
-      &lt;p&gt;title: ‘我做了个实时公交查询小程序，支持全国 100 个城市’&lt;br&gt;categories: 每天写一点&lt;/p&gt;
-&lt;h2 id=&quot;date-2018-12-10-22-00-00&quot;&gt;&lt;a href=&quot;#date-2018-12-10-22-00-00&quot; class=
+      &lt;p&gt;老婆坐公交上下班，有时早早出门，却在公交站等半天。眼看着天气越来越冷，不落忍，就用 JSBox 做了个查询公交车还有几站到的小工具。别说，实用又讨喜；出门前先看看公交到哪了，如果还远、或刚走，就等等再出门；&lt;strong&gt;小确幸&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;她的同事见
     
     </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
     
     
   </entry>
