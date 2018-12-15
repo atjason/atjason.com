@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-12-13T00:58:41.228Z</updated>
+  <updated>2018-12-14T14:24:03.765Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1214 - 大变环境</title>
+    <link href="https://atjason.com/daily/2018-12-14.html"/>
+    <id>https://atjason.com/daily/2018-12-14.html</id>
+    <published>2018-12-14T14:00:00.000Z</published>
+    <updated>2018-12-14T14:24:03.765Z</updated>
+    
+    <content type="html"><![CDATA[<p>当人的环境大变时，比如到不同的城市、甚至不同的国家生活，人的思想会有非常大的变化。如果这时侯，依然知道自己要做什么、觉得自己做的事情是有意义的，那就真的是有意义的。</p>
+<p>反过来，如果因为而感觉迷茫困惑，那很可能，之前不感到迷茫困惑，只是因为被环境裹胁，被簇拥着向前走，被习惯带着走；而不是，跟着心在走。</p>
+<p>大变环境，是验证已有思想、启发新思想的好办法。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;当人的环境大变时，比如到不同的城市、甚至不同的国家生活，人的思想会有非常大的变化。如果这时侯，依然知道自己要做什么、觉得自己做的事情是有意义的，那就真的是有意义的。&lt;/p&gt;
+&lt;p&gt;反过来，如果因为而感觉迷茫困惑，那很可能，之前不感到迷茫困惑，只是因为被环境裹胁，被簇拥着向前
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>我做了个实时公交查询小程序，支持全国 100 个城市</title>
@@ -55,6 +79,59 @@
     
       &lt;p&gt;老婆坐公交上下班，有时早早出门，却在公交站等半天。眼看着天气越来越冷，不落忍，就用 JSBox 做了个查询公交车还有几站到的小工具。别说，实用又讨喜；出门前先看看公交到哪了，如果还远、或刚走，就等等再出门；&lt;strong&gt;小确幸&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;她的同事见
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1212 - 数据 &amp; 流量</title>
+    <link href="https://atjason.com/daily/2018-12-12.html"/>
+    <id>https://atjason.com/daily/2018-12-12.html</id>
+    <published>2018-12-12T14:00:00.000Z</published>
+    <updated>2018-12-14T14:31:36.383Z</updated>
+    
+    <content type="html"><![CDATA[<p>互联网产品，不同是什么形态，走着走着，都会发现，数据和流量，越来越重要、越来越基础。</p>
+<p>第一手的数据，可以让自己有绝对的壁垒。</p>
+<p>足够的流量，可以让自己有足够的机会试错，足够的时间改进，干掉目前暂比自己优秀的对手。</p>
+<p>其它的因素，比如定位、品牌、运营等环节，都可以往数据 &amp; 流量上套。</p>
+<p><strong>数据是盾，流量是矛</strong>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;互联网产品，不同是什么形态，走着走着，都会发现，数据和流量，越来越重要、越来越基础。&lt;/p&gt;
+&lt;p&gt;第一手的数据，可以让自己有绝对的壁垒。&lt;/p&gt;
+&lt;p&gt;足够的流量，可以让自己有足够的机会试错，足够的时间改进，干掉目前暂比自己优秀的对手。&lt;/p&gt;
+&lt;p&gt;其它的因素，比如定位
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1211 - 对家人，总有歉意</title>
+    <link href="https://atjason.com/daily/2018-12-11.html"/>
+    <id>https://atjason.com/daily/2018-12-11.html</id>
+    <published>2018-12-11T14:00:00.000Z</published>
+    <updated>2018-12-14T14:26:55.631Z</updated>
+    
+    <content type="html"><![CDATA[<p>生活工作难两全。</p>
+<p>尤其工作尚未有业绩、成就不大、财富不多时，更有可能牺牲对家人的时间、耐心、态度，去换取所谓的财富。虽说有类似「我这么做还不是为了家人」为挡箭牌，但确确实实，会时不时让身边人寒心。</p>
+<p>希望能早日跳出这个怪圈，在新的层次上找到平衡。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;生活工作难两全。&lt;/p&gt;
+&lt;p&gt;尤其工作尚未有业绩、成就不大、财富不多时，更有可能牺牲对家人的时间、耐心、态度，去换取所谓的财富。虽说有类似「我这么做还不是为了家人」为挡箭牌，但确确实实，会时不时让身边人寒心。&lt;/p&gt;
+&lt;p&gt;希望能早日跳出这个怪圈，在新的层次上找到平衡。&lt;
     
     </summary>
     
@@ -486,105 +563,6 @@
 &lt;p&gt;找准一个方向，积累、死磕；&lt;br&gt;找到一个机会，放大自己的价值。&lt;/p&gt;
 &lt;p&gt;无他。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1124 - 多和不同的人接触</title>
-    <link href="https://atjason.com/daily/2018-11-24.html"/>
-    <id>https://atjason.com/daily/2018-11-24.html</id>
-    <published>2018-11-24T14:00:00.000Z</published>
-    <updated>2018-11-25T15:38:04.885Z</updated>
-    
-    <content type="html"><![CDATA[<p>自己一个人想，效果并不好。</p>
-<p>和别人聊，可能有种奇妙的效果，就是能触发自己思维里的某些东西；甚至，空来的灵感，和聊天的内容可能根本没有关系。</p>
-<p>尤其，和高人聊，收获更多；尤其，能了解到不同的、全新的看问题的视角，这就是很可观的收益了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;自己一个人想，效果并不好。&lt;/p&gt;
-&lt;p&gt;和别人聊，可能有种奇妙的效果，就是能触发自己思维里的某些东西；甚至，空来的灵感，和聊天的内容可能根本没有关系。&lt;/p&gt;
-&lt;p&gt;尤其，和高人聊，收获更多；尤其，能了解到不同的、全新的看问题的视角，这就是很可观的收益了。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1123 - 就怕流氓有文化</title>
-    <link href="https://atjason.com/daily/2018-11-23.html"/>
-    <id>https://atjason.com/daily/2018-11-23.html</id>
-    <published>2018-11-23T14:00:00.000Z</published>
-    <updated>2018-11-23T14:20:21.616Z</updated>
-    
-    <content type="html"><![CDATA[<p>做产品，「被致敬」是很常见的。可总会碰到很恶劣的行径，让人很恶心。</p>
-<p>怎么办呢？</p>
-<p>我现在能想到的办法有这么几个：</p>
-<ul>
-<li>法律手段<ul>
-<li>如通过著作权、版权、商标等方式保护自己。</li>
-<li>但实际上，对于小的产品，这点基本没用。</li>
-</ul>
-</li>
-<li>技术门槛<ul>
-<li>简单的说，就是做的东西有一定的技术难度，别人不容易模仿。</li>
-<li>对于个人、小团队，这点也很难。而且，像网站这样的产品，代码几乎是半公开的，很难防护。</li>
-</ul>
-</li>
-<li>品牌 &amp; 口碑<ul>
-<li>这个就需要长期积累了。</li>
-<li>比如，已经开发了一款深受用户好评的产品，再推出另外一款，大家就更容易接受。</li>
-</ul>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;做产品，「被致敬」是很常见的。可总会碰到很恶劣的行径，让人很恶心。&lt;/p&gt;
-&lt;p&gt;怎么办呢？&lt;/p&gt;
-&lt;p&gt;我现在能想到的办法有这么几个：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;法律手段&lt;ul&gt;
-&lt;li&gt;如通过著作权、版权、商标等方式保护自己。&lt;/li&gt;
-&lt;li&gt;但实际上，对于小的产品
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1122 - 开始小程序开发</title>
-    <link href="https://atjason.com/daily/2018-11-22.html"/>
-    <id>https://atjason.com/daily/2018-11-22.html</id>
-    <published>2018-11-22T14:00:00.000Z</published>
-    <updated>2018-11-22T15:03:53.018Z</updated>
-    
-    <content type="html"><![CDATA[<p>看了几天官方文档后，今天开始写小程序的代码了。</p>
-<p>作为练手项目，打算做个杭州公交查询的工具。核心功能是：一眼看到上下班的公交车还有几站到站。</p>
-<p>之前收窄技术面至 js 相关，而小程序主体正是 js，刚好。不过，我对前端开发不太了解，这部分进展估计会比较慢。</p>
-<p>另外一个比较坑的是，实时公交信息基本是没有 API 的，暂时打算逆向一个 App 的接口，这个做法商业上不太合适，我得再考虑考虑。</p>
-<p>对了，小程序叫什么呢？<strong>杭州公交车</strong>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看了几天官方文档后，今天开始写小程序的代码了。&lt;/p&gt;
-&lt;p&gt;作为练手项目，打算做个杭州公交查询的工具。核心功能是：一眼看到上下班的公交车还有几站到站。&lt;/p&gt;
-&lt;p&gt;之前收窄技术面至 js 相关，而小程序主体正是 js，刚好。不过，我对前端开发不太了解，这部分进展估计会比
     
     </summary>
     
