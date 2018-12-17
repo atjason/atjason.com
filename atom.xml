@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-12-14T14:24:03.765Z</updated>
+  <updated>2018-12-16T15:55:04.294Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,48 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1216 - </title>
+    <link href="https://atjason.com/daily/2018-12-16.html"/>
+    <id>https://atjason.com/daily/2018-12-16.html</id>
+    <published>2018-12-16T14:00:00.000Z</published>
+    <updated>2018-12-16T15:55:04.294Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1215 - 谁是 App 界的拼多多？</title>
+    <link href="https://atjason.com/daily/2018-12-15.html"/>
+    <id>https://atjason.com/daily/2018-12-15.html</id>
+    <published>2018-12-15T14:00:00.000Z</published>
+    <updated>2018-12-15T14:36:31.972Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果说 App Store 是 App 领域的京东，Google Play 是天猫，国内各种市场是淘宝。</p>
+<p>那么，谁是 App 领域的拼多多？</p>
+<p>小程序？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果说 App Store 是 App 领域的京东，Google Play 是天猫，国内各种市场是淘宝。&lt;/p&gt;
+&lt;p&gt;那么，谁是 App 领域的拼多多？&lt;/p&gt;
+&lt;p&gt;小程序？&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1214 - 大变环境</title>
@@ -510,59 +552,6 @@
 &lt;p&gt;作为自己的首个小程序，需要学的东西挺多的。其实，作为程序员，很核心的能力就是学习新东西：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;快速熟悉整体脉络、体系
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1126 - 无规则下的逐利</title>
-    <link href="https://atjason.com/daily/2018-11-26.html"/>
-    <id>https://atjason.com/daily/2018-11-26.html</id>
-    <published>2018-11-26T14:00:00.000Z</published>
-    <updated>2018-11-26T13:56:17.739Z</updated>
-    
-    <content type="html"><![CDATA[<p>一个繁忙路口，交通灯坏了，却没有出现拥堵或事故，要么是规则深入人心，要么是各显神通、辗转腾挪。只是，后者的成本和风险更高。</p>
-<p>理解这样一个路口，就可以理解很多国内现象：<strong>无规则下的逐利，各显神通、各秀下限</strong>。</p>
-<p>我们习惯于钻规则的空子，却没有能力制定规则；或者说，<strong>有能力的人正忙于钻空子</strong>，最大化投机。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一个繁忙路口，交通灯坏了，却没有出现拥堵或事故，要么是规则深入人心，要么是各显神通、辗转腾挪。只是，后者的成本和风险更高。&lt;/p&gt;
-&lt;p&gt;理解这样一个路口，就可以理解很多国内现象：&lt;strong&gt;无规则下的逐利，各显神通、各秀下限&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;我们习惯
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1125 - 被 18 届毕业生碾压</title>
-    <link href="https://atjason.com/daily/2018-11-25.html"/>
-    <id>https://atjason.com/daily/2018-11-25.html</id>
-    <published>2018-11-25T14:00:00.000Z</published>
-    <updated>2018-11-25T15:35:52.656Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天去参加一个小程序线下沙龙，其中一位演讲嘉宾，是 18 年毕业的，小妹子。</p>
-<p>哎，完全有种被碾压的感觉；<br>生活，何必如此艰难…</p>
-<p>找准一个方向，积累、死磕；<br>找到一个机会，放大自己的价值。</p>
-<p>无他。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天去参加一个小程序线下沙龙，其中一位演讲嘉宾，是 18 年毕业的，小妹子。&lt;/p&gt;
-&lt;p&gt;哎，完全有种被碾压的感觉；&lt;br&gt;生活，何必如此艰难…&lt;/p&gt;
-&lt;p&gt;找准一个方向，积累、死磕；&lt;br&gt;找到一个机会，放大自己的价值。&lt;/p&gt;
-&lt;p&gt;无他。&lt;/p&gt;
-
     
     </summary>
     
