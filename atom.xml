@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-12-16T15:55:04.294Z</updated>
+  <updated>2018-12-17T15:45:32.101Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,13 +16,47 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>1216 - </title>
+    <title>1217 - 小店物价高</title>
+    <link href="https://atjason.com/daily/2018-12-17.html"/>
+    <id>https://atjason.com/daily/2018-12-17.html</id>
+    <published>2018-12-17T14:00:00.000Z</published>
+    <updated>2018-12-17T15:45:32.101Z</updated>
+    
+    <content type="html"><![CDATA[<p>在小地方的五金店买东西，还是挺贵的。一个灯泡 12 元；更好品质的，网购 6 元包邮。这么算下来，毛利率好高。</p>
+<p>当然，账不能只这么算。除了价格，小店提供了其他隐性服务，比如近，无需物流、瞬间到货。比如方便退货，买多了随时退。</p>
+<p>总的来说，互联网抹平了信息差，也顺带抹平了价格差。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在小地方的五金店买东西，还是挺贵的。一个灯泡 12 元；更好品质的，网购 6 元包邮。这么算下来，毛利率好高。&lt;/p&gt;
+&lt;p&gt;当然，账不能只这么算。除了价格，小店提供了其他隐性服务，比如近，无需物流、瞬间到货。比如方便退货，买多了随时退。&lt;/p&gt;
+&lt;p&gt;总的来说，互联网抹平
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1216 - 静心，莫急躁</title>
     <link href="https://atjason.com/daily/2018-12-16.html"/>
     <id>https://atjason.com/daily/2018-12-16.html</id>
     <published>2018-12-16T14:00:00.000Z</published>
-    <updated>2018-12-16T15:55:04.294Z</updated>
+    <updated>2018-12-17T15:50:11.230Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天用 js 实现 rc4 加解密，找了好多库、代码，就是无法成功解决。最后，还是仔细看实现代码，分析数据结构及数据演进，才找到原因，成功破局。</p>
+<p>复盘来看，大部分时间花在了「找」上：总想找到成型的方案直接用。结果，可能因为相关的现成代码并不多，介绍的也不详细，结果因为用法不对而不能直接成功。于是，继续找…时间就这么过去了。</p>
+<p>而如果找到第 1 个实现、却没有成功调用时，如果当时就开始分析实现代码，或许很快就能解决问题。由于浮躁，想「更快」地找到现成的东西，结果却花费了更多的时间。</p>
+<p>有时候，越急越慢，越稳越快。</p>
+]]></content>
     
     <summary type="html">
+    
+      &lt;p&gt;今天用 js 实现 rc4 加解密，找了好多库、代码，就是无法成功解决。最后，还是仔细看实现代码，分析数据结构及数据演进，才找到原因，成功破局。&lt;/p&gt;
+&lt;p&gt;复盘来看，大部分时间花在了「找」上：总想找到成型的方案直接用。结果，可能因为相关的现成代码并不多，介绍的也不详细，
     
     </summary>
     
@@ -516,42 +550,6 @@
 &lt;p&gt;期待能早日审核通过。&lt;/p&gt;
 &lt;p&gt;其实，提交后，给一些朋友体验，还加了不少功能。当不同的需求来了，就需要在各种设计间取舍，就到了考验功力的时候了。&lt;/p&gt;
 &lt;p&gt;现在的问题是：下一个小程序做
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1127 - 小程序开发的差不多了</title>
-    <link href="https://atjason.com/daily/2018-11-27.html"/>
-    <id>https://atjason.com/daily/2018-11-27.html</id>
-    <published>2018-11-27T14:00:00.000Z</published>
-    <updated>2018-11-27T14:33:51.567Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天码了一天，把小程序剩下的大部分代码完成了。</p>
-<p>明天主要是完成一些设计，优化文案，提交审核，思考首发推广。</p>
-<p>作为自己的首个小程序，需要学的东西挺多的。其实，作为程序员，很核心的能力就是学习新东西：</p>
-<ul>
-<li>快速熟悉整体脉络、体系</li>
-<li>问题及结果驱动，在推进项目的同时，不断学习掌握新的知识点<ul>
-<li>能分清楚先学什么、再学什么</li>
-</ul>
-</li>
-<li>到一定程度，系统化学习，将掌握的知识点串联起来</li>
-<li>沉淀、固化，将新东西变成旧东西</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天码了一天，把小程序剩下的大部分代码完成了。&lt;/p&gt;
-&lt;p&gt;明天主要是完成一些设计，优化文案，提交审核，思考首发推广。&lt;/p&gt;
-&lt;p&gt;作为自己的首个小程序，需要学的东西挺多的。其实，作为程序员，很核心的能力就是学习新东西：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;快速熟悉整体脉络、体系
     
     </summary>
     
