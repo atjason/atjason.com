@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-12-17T15:45:32.101Z</updated>
+  <updated>2018-12-19T15:36:10.650Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1219 - 处处皆牛人</title>
+    <link href="https://atjason.com/daily/2018-12-19.html"/>
+    <id>https://atjason.com/daily/2018-12-19.html</id>
+    <published>2018-12-19T14:00:00.000Z</published>
+    <updated>2018-12-19T15:36:10.650Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天了解到一位学长的经历：</p>
+<blockquote>
+<p>他老传奇了，博士毕业后他来北京进了一家私企，买了原始股，然后公司上市，身价两千万…</p>
+<p>两千万！我们问他咋花啊？他说，买了一套学区房，还有一套自住房，又贷款五百万[捂脸]</p>
+<p>但是公司一直没有给他办成北京户口，然后他卖掉股份后，辞职去了中科院，落了户口，现在自己注册的公司卖自己开发的软件</p>
+</blockquote>
+<p>身边人啊；看来我只能自动过滤牛人带来的震惊，不然自己的日子怎么过啊…😂</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天了解到一位学长的经历：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;他老传奇了，博士毕业后他来北京进了一家私企，买了原始股，然后公司上市，身价两千万…&lt;/p&gt;
+&lt;p&gt;两千万！我们问他咋花啊？他说，买了一套学区房，还有一套自住房，又贷款五百万[捂脸]&lt;/p&gt;
+&lt;p&gt;但是公司一
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1218 - 接入北京公交实时数据</title>
+    <link href="https://atjason.com/daily/2018-12-18.html"/>
+    <id>https://atjason.com/daily/2018-12-18.html</id>
+    <published>2018-12-18T14:00:00.000Z</published>
+    <updated>2018-12-18T14:32:11.553Z</updated>
+    
+    <content type="html"><![CDATA[<p>搞了几天，今天无缝接入了北京公交实时数据，基本覆盖了所有路线，实时显示车次信息。</p>
+<p>做了才知道，北京，有 1000 多条公交线路…</p>
+<p><img src="https://ps.toolinbox.net/7dlb0.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;搞了几天，今天无缝接入了北京公交实时数据，基本覆盖了所有路线，实时显示车次信息。&lt;/p&gt;
+&lt;p&gt;做了才知道，北京，有 1000 多条公交线路…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/7dlb0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1217 - 小店物价高</title>
@@ -482,74 +539,6 @@
     
       &lt;p&gt;最近一直有些迷茫，不知道接下来的路该怎么选。这两天跟几位朋友聊，得出一个结论：在别人身上，是无法得到自己想要的答案的。&lt;/p&gt;
 &lt;p&gt;不过，可以从别人身上得到很宝贵的信息。这些信息，不是从业者，是很难知道的。而一旦知道，就可以成为决策的基础，也可能会打开一扇窗，从新的角度看
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1129 - 「杭州公交实时查询」小程序：看看你的公交还有几站到</title>
-    <link href="https://atjason.com/daily/2018-11-29.html"/>
-    <id>https://atjason.com/daily/2018-11-29.html</id>
-    <published>2018-11-29T14:00:00.000Z</published>
-    <updated>2018-11-30T14:20:02.965Z</updated>
-    
-    <content type="html"><![CDATA[<p>我的第一个小程序上架啦。</p>
-<p>功能简洁明确：看看你的公交还有几站到</p>
-<p><img src="https://ws2.sinaimg.cn/large/006tNbRwgy1fxovbb1ub4j309q0czwf0.jpg" alt=""></p>
-<p>更多细节：</p>
-<ul>
-<li>除也下辆车，也能看到 下下辆车还有几站到。<ul>
-<li>如果 2 辆车同时来，可以选择坐后面的，通常不挤。</li>
-</ul>
-</li>
-<li>除了当前站点，也可以查看中间换乘车还有几站。</li>
-<li>可以按上班、回家等方式分组。</li>
-<li>点击页底的「编辑」，可以进行编辑分组、添加车次等操作。</li>
-<li>主打简洁，一眼看到你想要的信息。</li>
-</ul>
-<p>欢迎扫码试试，期待你的反馈。</p>
-<p>注：由于数据源限制，现在仅支持杭州，见谅。如果你希望开通哪个城市，留言说下，我去研究下可行性。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我的第一个小程序上架啦。&lt;/p&gt;
-&lt;p&gt;功能简洁明确：看看你的公交还有几站到&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNbRwgy1fxovbb1ub4j309q0czwf0.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1128 - 小程序已提交审核</title>
-    <link href="https://atjason.com/daily/2018-11-28.html"/>
-    <id>https://atjason.com/daily/2018-11-28.html</id>
-    <published>2018-11-28T14:00:00.000Z</published>
-    <updated>2018-11-28T13:39:02.630Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天下午 5 点，正式提交了自己的第一个小程序：杭州公交实时查询。</p>
-<p>期待能早日审核通过。</p>
-<p>其实，提交后，给一些朋友体验，还加了不少功能。当不同的需求来了，就需要在各种设计间取舍，就到了考验功力的时候了。</p>
-<p>现在的问题是：下一个小程序做什么呢？</p>
-<p>要抓到合适的需求，并不容易。首当其冲，是做自己需要的、想要的东西。然后，才是和不同的人接触，了解他们的需求，做满足他们的产品。</p>
-<p>生活还是得再丰富点啊，现在太干瘪了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天下午 5 点，正式提交了自己的第一个小程序：杭州公交实时查询。&lt;/p&gt;
-&lt;p&gt;期待能早日审核通过。&lt;/p&gt;
-&lt;p&gt;其实，提交后，给一些朋友体验，还加了不少功能。当不同的需求来了，就需要在各种设计间取舍，就到了考验功力的时候了。&lt;/p&gt;
-&lt;p&gt;现在的问题是：下一个小程序做
     
     </summary>
     
