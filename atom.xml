@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2018-12-19T15:36:10.650Z</updated>
+  <updated>2018-12-20T15:04:24.920Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1220 - 接入北京公交实时数据</title>
+    <link href="https://atjason.com/daily/2018-12-20.html"/>
+    <id>https://atjason.com/daily/2018-12-20.html</id>
+    <published>2018-12-20T14:00:00.000Z</published>
+    <updated>2018-12-20T15:04:24.920Z</updated>
+    
+    <content type="html"><![CDATA[<p>搞了几天，今天无缝接入了上海公交实时数据，基本覆盖了所有路线，实时显示车次信息。</p>
+<p>做了才知道，上海，有 1200 多条公交线路…</p>
+<p><img src="https://ps.toolinbox.net/7dlb0.png" alt=""></p>
+<p>不好意思，重复前天的博客了😂</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;搞了几天，今天无缝接入了上海公交实时数据，基本覆盖了所有路线，实时显示车次信息。&lt;/p&gt;
+&lt;p&gt;做了才知道，上海，有 1200 多条公交线路…&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/7dlb0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1219 - 处处皆牛人</title>
@@ -516,29 +543,6 @@
       &lt;p&gt;休息的理由有无数，也可能有无数正当理由打断正在做的事。而事情，总是要做的。&lt;/p&gt;
 &lt;p&gt;有了习惯、有了坚持，就不会因为借口而搁置、放弃。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1130 - 答案，还在自己身上</title>
-    <link href="https://atjason.com/daily/2018-11-30.html"/>
-    <id>https://atjason.com/daily/2018-11-30.html</id>
-    <published>2018-11-30T14:00:00.000Z</published>
-    <updated>2018-11-30T14:19:56.866Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近一直有些迷茫，不知道接下来的路该怎么选。这两天跟几位朋友聊，得出一个结论：在别人身上，是无法得到自己想要的答案的。</p>
-<p>不过，可以从别人身上得到很宝贵的信息。这些信息，不是从业者，是很难知道的。而一旦知道，就可以成为决策的基础，也可能会打开一扇窗，从新的角度看世界、思考问题。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近一直有些迷茫，不知道接下来的路该怎么选。这两天跟几位朋友聊，得出一个结论：在别人身上，是无法得到自己想要的答案的。&lt;/p&gt;
-&lt;p&gt;不过，可以从别人身上得到很宝贵的信息。这些信息，不是从业者，是很难知道的。而一旦知道，就可以成为决策的基础，也可能会打开一扇窗，从新的角度看
     
     </summary>
     
