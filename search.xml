@@ -4,6 +4,166 @@
   
     
     <entry>
+      <title><![CDATA[1228 - ]]></title>
+      <url>https://atjason.com/daily/2018-12-28.html</url>
+      <content type="html"></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1227 - 事前设好期望结果]]></title>
+      <url>https://atjason.com/daily/2018-12-27.html</url>
+      <content type="html"><![CDATA[<p>跟目标很像，但味道又不一样。</p>
+<p>产品、事情能做好到什么程度，是永无止境的。而我们的时间精力能力又都是有限的。如果事先不大致想好这事做到什么程度我就满意，那就永远无法满意。</p>
+<p>没有目标就没有效率，没有期望就不会满意。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1226 - 不过份自责]]></title>
+      <url>https://atjason.com/daily/2018-12-26.html</url>
+      <content type="html"><![CDATA[<p>如果一件事没有好的结果，一定是有自己的因素。但，也一定不全是自己的因素。</p>
+<p>想清楚自己做的不好的地方、下次如何改进，然后原谅自己。</p>
+<p>注意：原谅自己很重要。不然，自己会一直陷入自责，让过去的错误持续伤害现在的自己。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1225 - 选择环境]]></title>
+      <url>https://atjason.com/daily/2018-12-25.html</url>
+      <content type="html"><![CDATA[<p>和原来生活的城市相比，最近一直在一个相对内陆、更多线的城市生活，能明显感到很多差异；比如，快递不能隔天到。</p>
+<p>环境，是远大于个人能力所能控制的。</p>
+<ul>
+<li>比如，你可以不随地吐痰，但你管不住路人在你不远处吐痰。</li>
+<li>比如，早餐你想吃得健康，但即使有钱你也无法忍受每天跑很远的地方去买所谓的健康早餐。</li>
+<li>比如，医疗、教育、等等</li>
+</ul>
+<p>选择好的环境，能拔高起点，节约很多隐性成本。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1224 - 吐槽支付宝小程序]]></title>
+      <url>https://atjason.com/daily/2018-12-24.html</url>
+      <content type="html"><![CDATA[<p>最近在搞支付宝小程序，有很多不爽的地方，吐槽一下：</p>
+<ul>
+<li>支付宝的会话过期时间真短。扫码登录，上个厕所回来，对不起，登出了，又得扫码。<ul>
+<li>这也是定位含糊引起的。支付宝本身是个支付工具，安全性要求高，会话很快过期没问题。可它又同时承载了小程序及其开发工具，就很难受了。</li>
+</ul>
+</li>
+<li>授权机制不合理。如果用户拒绝了授权，并不能通过某个机制查到这个状态；且，还是「有可能」再次弹出授权对话框。这个「有可能」，则由所谓的疲劳机制确定的。这种不确定的机制，给逻辑带来挑战。</li>
+<li>IDE<ul>
+<li>预览小程序时，需要将小程序上传至阿里的某服务器。这一过程，很慢。甚至能达到 30s 之久，无法忍受。对比隔壁家的微信小程序，可以使用快捷键推送至手机、无需扫码，方便不要太多。</li>
+<li>只有黑色主题，不喜欢也没办法，白天看不清楚。调试器又是白色的；为了看清楚黑色部分，把亮度提高，打开调试器，瞬间亮瞎眼。</li>
+<li>快捷键不完善，比如没有呼出提交 Git 代码界面、输入 comment 后直接提交的快捷键。</li>
+<li>调试器不能查看 PageData</li>
+<li>不能将预览界面放在左侧，和微信 IDE 相反，难受。好吧，也怪微信不能放右边。</li>
+</ul>
+</li>
+<li>只能添加 5 个域名，不太够。</li>
+<li>不对个人开放支付宝小程序。</li>
+<li>审核机制很奇葩。<ul>
+<li>我的小程序名字是「实时公交查询」，被拒，说是名字太宽泛，我去。一个叫「实时公交」的小程序都已经上架了。</li>
+<li>我选的分类是「公共交通」，说不合适，要选「生活服务」，我去，公交查询不算公共交通分类的？！</li>
+</ul>
+</li>
+<li>想和用户建立联系，只有用所谓「智能客服」，收费不说，开通过程各种出错。且极复杂，是企业级的，跟小程序不搭。<ul>
+<li>隔壁家的微信，免费快速，还能在微信里直接回复，体验佳。</li>
+</ul>
+</li>
+<li>性能明显不能微信。相同的手机、相同的代码，支付宝明显界面卡顿、刷新慢。</li>
+<li>删除小程序，小程序的数据不会删除；至少在可见的一段时间，并没有删除。</li>
+<li>跟微信小程序很像，又有很多地方不一样。对于想要同时开发微信和支付宝小程序的人，很折腾。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1223 - 聚焦，聚焦]]></title>
+      <url>https://atjason.com/daily/2018-12-23.html</url>
+      <content type="html"><![CDATA[<p>时间有限，只做最应该做的事。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1222 - 苏州公交实时查询强力上线]]></title>
+      <url>https://atjason.com/daily/2018-12-22.html</url>
+      <content type="html"><![CDATA[<p>接昨天的活，通过自己的服务器中转了请求，强力上线了苏州公交实时查询。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1221 - 又被阴了一次]]></title>
+      <url>https://atjason.com/daily/2018-12-21.html</url>
+      <content type="html"><![CDATA[<p>今天搞了一天的苏州公交实时查询，基本搞完了，结果，最后发现，关键接口的 https 证书过期了，无法在小程序中直接使用。</p>
+<p>除了找新的接口，现在的办法也只有通过服务器中转了。就是不知道我的小服务器，能不能搞得住这许多请求。不管了，硬上。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[1220 - 接入北京公交实时数据]]></title>
       <url>https://atjason.com/daily/2018-12-20.html</url>
       <content type="html"><![CDATA[<p>搞了几天，今天无缝接入了上海公交实时数据，基本覆盖了所有路线，实时显示车次信息。</p>
@@ -10810,6 +10970,24 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
+      <url>https://atjason.com/daily/2017-07-25.html</url>
+      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
+<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
+<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
+<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[说说我出道后的处女作：剪贴板神器 iPaste]]></title>
       <url>https://atjason.com/IndieDev/2017-07-25_iPaste_Review.html</url>
       <content type="html"><![CDATA[<p>2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 <strong><a href="https://toolinbox.net/iPaste/" target="_blank" rel="external">iPaste</a>，是我独立开发的第一款 macOS 产品。</strong></p>
@@ -11005,24 +11183,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
-      <url>https://atjason.com/daily/2017-07-25.html</url>
-      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
-<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
-<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
-<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0724 - 写文章真的是挺花时间]]></title>
       <url>https://atjason.com/daily/2017-07-24.html</url>
       <content type="html"><![CDATA[<p>又到了周一，又到了要写长文的时候了。</p>
@@ -11135,6 +11295,38 @@
 <p>等的时间长了，还遇到 2 次 storeuid.app 闪退的情况：</p>
 <p><img src="https://ps.toolinbox.net/iolr9.jpg" alt=""></p>
 <p>严重怀疑是 macOS 10.13 的 Bug，目前打算暂时搁置了，等 macOS 10.13 快发布了再适配，说不定自己就好了。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0718 - 为何要写作]]></title>
+      <url>https://atjason.com/daily/2017-07-18.html</url>
+      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
+<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
+<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
+<ul>
+<li><strong>输出倒逼输入</strong><ul>
+<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
+</ul>
+</li>
+<li><strong>个人品牌建设</strong><ul>
+<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
+</ul>
+</li>
+<li><strong>跨界寻找可能性</strong><ul>
+<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
+<li><strong>多一个维度，多一种可能性</strong></li>
+</ul>
+</li>
+</ul>
 ]]></content>
       
         <categories>
@@ -11335,38 +11527,6 @@
         <categories>
             
             <category> IndieDev </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0718 - 为何要写作]]></title>
-      <url>https://atjason.com/daily/2017-07-18.html</url>
-      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
-<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
-<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
-<ul>
-<li><strong>输出倒逼输入</strong><ul>
-<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
-</ul>
-</li>
-<li><strong>个人品牌建设</strong><ul>
-<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
-</ul>
-</li>
-<li><strong>跨界寻找可能性</strong><ul>
-<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
-<li><strong>多一个维度，多一种可能性</strong></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -12143,6 +12303,35 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
+      <url>https://atjason.com/daily/2017-06-27.html</url>
+      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
+<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
+<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
+<ul>
+<li><strong>基于数据</strong><ul>
+<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
+</ul>
+</li>
+<li><strong>基于内容</strong><ul>
+<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
+</ul>
+</li>
+</ul>
+<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
+<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Klib 第四版：纯粹，只为悦读]]></title>
       <url>https://atjason.com/PM/2017-06-27_Klib.html</url>
       <content type="html"><![CDATA[<p>在 Kindle 上读书，可以避免纸质书的收纳问题，还能方便地标注，挺好的。不过，标注虽然方便，标注的回顾整理却并不方便。好在，<strong><a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a></strong> 解决了这个问题（如何解决？请看 <a href="https://sspai.com/post/37581" target="_blank" rel="external">这里</a>、以及 <a href="https://sspai.com/post/38688" target="_blank" rel="external">这里</a>）</p>
@@ -12169,35 +12358,6 @@
         <categories>
             
             <category> PM </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
-      <url>https://atjason.com/daily/2017-06-27.html</url>
-      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
-<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
-<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
-<ul>
-<li><strong>基于数据</strong><ul>
-<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
-</ul>
-</li>
-<li><strong>基于内容</strong><ul>
-<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
-</ul>
-</li>
-</ul>
-<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
-<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -14084,22 +14244,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -14184,6 +14328,22 @@
         <categories>
             
             <category> IT </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -30893,9 +31053,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
@@ -30955,9 +31115,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
