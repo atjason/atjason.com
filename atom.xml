@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-01-03T04:13:13.242Z</updated>
+  <updated>2019-01-11T16:11:01.804Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,101 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0111 - 程序员的中年危机</title>
+    <link href="https://atjason.com/daily/2019-01-11.html"/>
+    <id>https://atjason.com/daily/2019-01-11.html</id>
+    <published>2019-01-11T14:00:00.000Z</published>
+    <updated>2019-01-11T16:11:01.804Z</updated>
+    
+    <content type="html"><![CDATA[<p>一个 10 年经验的 iOS/macOS 开发，在网易部门裁撤时，又面临写简历、找工作的境遇，和一堆便宜的年轻人竞争，几多唏嘘。</p>
+<p>程序员的职业危机还是挺大的；年纪越大，风险也越大。</p>
+<p>这里面又有专注与分散的问题。10 年只做 iOS/macOS 开发，够专注吧。可技术是不断演进的，比如现在小程序出来后，不会 iOS 开发，也可以在手机/微信中运行，iOS 开发则一下子被架空了。</p>
+<p>既要专注、专业，又不能一条路走到黑，这中间的平衡，并不是那么容易把握。至少在一个领域独挡一面，在多个领域是把好手、且随时有可能独挡一面。估计也只有此，才能更好地面对程序员的中年危机。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个 10 年经验的 iOS/macOS 开发，在网易部门裁撤时，又面临写简历、找工作的境遇，和一堆便宜的年轻人竞争，几多唏嘘。&lt;/p&gt;
+&lt;p&gt;程序员的职业危机还是挺大的；年纪越大，风险也越大。&lt;/p&gt;
+&lt;p&gt;这里面又有专注与分散的问题。10 年只做 iOS/macOS 开
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0110 - 不在娃面前吵架</title>
+    <link href="https://atjason.com/daily/2019-01-10.html"/>
+    <id>https://atjason.com/daily/2019-01-10.html</id>
+    <published>2019-01-10T14:00:00.000Z</published>
+    <updated>2019-01-10T16:09:21.142Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天娃干了点坏事，跟娃妈拌了几句嘴。结果，娃情绪异常低落，晚上睡觉不睡也不闹。</p>
+<p>以后，不能在娃面前吵架了。父母是娃的榜样，父母是什么样，娃就会变成什么样。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天娃干了点坏事，跟娃妈拌了几句嘴。结果，娃情绪异常低落，晚上睡觉不睡也不闹。&lt;/p&gt;
+&lt;p&gt;以后，不能在娃面前吵架了。父母是娃的榜样，父母是什么样，娃就会变成什么样。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0109 - Kindle 除了压泡面，还能当表</title>
+    <link href="https://atjason.com/daily/2019-01-09.html"/>
+    <id>https://atjason.com/daily/2019-01-09.html</id>
+    <published>2019-01-09T14:00:00.000Z</published>
+    <updated>2019-01-10T16:07:31.337Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://www.v2ex.com/t/524980" target="_blank" rel="external">昨天发了个帖子</a>，问有没有 <strong>面向个人的信息显示屏</strong>，有朋友提用 Kindle，是不错的建议。于是，我试了下，把 Kindle 当表，效果如下：</p>
+<p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1fz1d9lx697j308c0b43yi.jpg" alt=""></p>
+<p>缺点：</p>
+<ul>
+<li>由于是使用浏览器，无法隐藏顶部的控制栏等区域，且不能横屏<ul>
+<li>一些老款的 Kindle 可能支持横屏</li>
+</ul>
+</li>
+<li>需要关闭 Kindle 的屏保才能常亮<ul>
+<li>如果心疼 Kindle，可收个别人吃灰的</li>
+</ul>
+</li>
+<li>Kindle 需要充电，大概半个月充一次的样子<ul>
+<li>有些功能可能需要 WiFi，就费电些</li>
+</ul>
+</li>
+</ul>
+<p>优点：</p>
+<ul>
+<li>Kindle 不再吃灰</li>
+<li>放在桌上，略酷</li>
+<li>时钟只是个示例，也可以放别的东西，比如「过年还有 25 天」、「我们认识 1 年 5 天了」等等吧</li>
+</ul>
+<p>你也想试？打开这个网址即可：<a href="http://k.ilib.io/u/clock.html" target="_blank" rel="external">http://k.ilib.io/u/clock.html</a></p>
+<p>排版略渣，我只在 Kindle PaperWhite 上测试了，你可以试试是否支持你的设备。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.v2ex.com/t/524980&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;昨天发了个帖子&lt;/a&gt;，问有没有 &lt;strong&gt;面向个人的信息显示屏&lt;/strong&gt;，有朋友提用 Kindle，是不错的建议。于
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0103 - 图床神器 iPic，这次是个小程序</title>
@@ -500,82 +595,6 @@
       &lt;p&gt;搞了几天，今天无缝接入了北京公交实时数据，基本覆盖了所有路线，实时显示车次信息。&lt;/p&gt;
 &lt;p&gt;做了才知道，北京，有 1000 多条公交线路…&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/7dlb0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1217 - 小店物价高</title>
-    <link href="https://atjason.com/daily/2018-12-17.html"/>
-    <id>https://atjason.com/daily/2018-12-17.html</id>
-    <published>2018-12-17T14:00:00.000Z</published>
-    <updated>2018-12-17T15:45:32.101Z</updated>
-    
-    <content type="html"><![CDATA[<p>在小地方的五金店买东西，还是挺贵的。一个灯泡 12 元；更好品质的，网购 6 元包邮。这么算下来，毛利率好高。</p>
-<p>当然，账不能只这么算。除了价格，小店提供了其他隐性服务，比如近，无需物流、瞬间到货。比如方便退货，买多了随时退。</p>
-<p>总的来说，互联网抹平了信息差，也顺带抹平了价格差。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在小地方的五金店买东西，还是挺贵的。一个灯泡 12 元；更好品质的，网购 6 元包邮。这么算下来，毛利率好高。&lt;/p&gt;
-&lt;p&gt;当然，账不能只这么算。除了价格，小店提供了其他隐性服务，比如近，无需物流、瞬间到货。比如方便退货，买多了随时退。&lt;/p&gt;
-&lt;p&gt;总的来说，互联网抹平
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1216 - 静心，莫急躁</title>
-    <link href="https://atjason.com/daily/2018-12-16.html"/>
-    <id>https://atjason.com/daily/2018-12-16.html</id>
-    <published>2018-12-16T14:00:00.000Z</published>
-    <updated>2018-12-17T15:50:11.230Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天用 js 实现 rc4 加解密，找了好多库、代码，就是无法成功解决。最后，还是仔细看实现代码，分析数据结构及数据演进，才找到原因，成功破局。</p>
-<p>复盘来看，大部分时间花在了「找」上：总想找到成型的方案直接用。结果，可能因为相关的现成代码并不多，介绍的也不详细，结果因为用法不对而不能直接成功。于是，继续找…时间就这么过去了。</p>
-<p>而如果找到第 1 个实现、却没有成功调用时，如果当时就开始分析实现代码，或许很快就能解决问题。由于浮躁，想「更快」地找到现成的东西，结果却花费了更多的时间。</p>
-<p>有时候，越急越慢，越稳越快。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天用 js 实现 rc4 加解密，找了好多库、代码，就是无法成功解决。最后，还是仔细看实现代码，分析数据结构及数据演进，才找到原因，成功破局。&lt;/p&gt;
-&lt;p&gt;复盘来看，大部分时间花在了「找」上：总想找到成型的方案直接用。结果，可能因为相关的现成代码并不多，介绍的也不详细，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1215 - 谁是 App 界的拼多多？</title>
-    <link href="https://atjason.com/daily/2018-12-15.html"/>
-    <id>https://atjason.com/daily/2018-12-15.html</id>
-    <published>2018-12-15T14:00:00.000Z</published>
-    <updated>2018-12-15T14:36:31.972Z</updated>
-    
-    <content type="html"><![CDATA[<p>如果说 App Store 是 App 领域的京东，Google Play 是天猫，国内各种市场是淘宝。</p>
-<p>那么，谁是 App 领域的拼多多？</p>
-<p>小程序？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;如果说 App Store 是 App 领域的京东，Google Play 是天猫，国内各种市场是淘宝。&lt;/p&gt;
-&lt;p&gt;那么，谁是 App 领域的拼多多？&lt;/p&gt;
-&lt;p&gt;小程序？&lt;/p&gt;
 
     
     </summary>
