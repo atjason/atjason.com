@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-01-11T16:11:01.804Z</updated>
+  <updated>2019-01-16T16:11:31.708Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,133 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0116 - 「最右神回复」新增投稿功能</title>
+    <link href="https://atjason.com/daily/2019-01-16.html"/>
+    <id>https://atjason.com/daily/2019-01-16.html</id>
+    <published>2019-01-16T14:00:00.000Z</published>
+    <updated>2019-01-16T16:11:31.708Z</updated>
+    
+    <content type="html"><![CDATA[<p>经历昨天被小程序坑了一把后，今天终于把投稿功能上线了。</p>
+<p>之前，小程序是事先收集好内容，然后一条条供用户赏析。现在，用户遇到好的段子，也可以投稿到小程序中，并借由小程序分享给好友、朋友圈，让众人会心一笑。</p>
+<p><img src="https://ps.toolinbox.net/qh6fg.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;经历昨天被小程序坑了一把后，今天终于把投稿功能上线了。&lt;/p&gt;
+&lt;p&gt;之前，小程序是事先收集好内容，然后一条条供用户赏析。现在，用户遇到好的段子，也可以投稿到小程序中，并借由小程序分享给好友、朋友圈，让众人会心一笑。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ps.
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0115 - 被小程序坑了一下</title>
+    <link href="https://atjason.com/daily/2019-01-15.html"/>
+    <id>https://atjason.com/daily/2019-01-15.html</id>
+    <published>2019-01-15T14:00:00.000Z</published>
+    <updated>2019-01-15T16:22:40.752Z</updated>
+    
+    <content type="html"><![CDATA[<p>夜深人静、很想睡觉时，依然被一个问题绊着。各种试，最后才发现，小程序云函数中，服务器端的 collection.where 和客户端不能，必须使用 await/promise 机制调用，而不能使用普通的回调机制。</p>
+<ul>
+<li><a href="https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-client-api/database/collection.where.html" target="_blank" rel="external">客户端文档</a></li>
+<li><a href="https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-server-api/database/collection.where.html" target="_blank" rel="external">服务器文档</a></li>
+</ul>
+<p>丫竟然不一致，还如此隐蔽。大喊一声：苍天啊、你妹啊。然后睡觉。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;夜深人静、很想睡觉时，依然被一个问题绊着。各种试，最后才发现，小程序云函数中，服务器端的 collection.where 和客户端不能，必须使用 await/promise 机制调用，而不能使用普通的回调机制。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0114 - 通过满足人们的低级趣味来赚钱</title>
+    <link href="https://atjason.com/daily/2019-01-14.html"/>
+    <id>https://atjason.com/daily/2019-01-14.html</id>
+    <published>2019-01-14T14:00:00.000Z</published>
+    <updated>2019-01-14T15:05:07.903Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天俞敏洪在演讲中表达了类似的意思：国内科技企业都是通过满足人们的「低级趣味」来赚钱，却鲜有做出改变世界的产品。</p>
+<p>改变世界，要求可能高了些。至少，如果没有了生存压力，就不应该只做为了生存而不得不做的事。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天俞敏洪在演讲中表达了类似的意思：国内科技企业都是通过满足人们的「低级趣味」来赚钱，却鲜有做出改变世界的产品。&lt;/p&gt;
+&lt;p&gt;改变世界，要求可能高了些。至少，如果没有了生存压力，就不应该只做为了生存而不得不做的事。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0113 - 用百万富翁的思维做事</title>
+    <link href="https://atjason.com/daily/2019-01-13.html"/>
+    <id>https://atjason.com/daily/2019-01-13.html</id>
+    <published>2019-01-13T14:00:00.000Z</published>
+    <updated>2019-01-14T14:57:53.153Z</updated>
+    
+    <content type="html"><![CDATA[<p>结果我破产了…</p>
+<p>这还真不是段子，一个朋友说的。</p>
+<p>尤其，创业伊始，到底是应该大开大合、高举高打，还是精益创业、一分钱掰两瓣花？到底是大开大合死得更快，还是精益创业没大前途？也许，都能找开成功案例。</p>
+<p>当然，这些都是抽象的说法，也可以说是没有意义的，要具体问题具体分析，也要结合每个人的实际情况。具体到我，估计还是居家经济适用男形象。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;结果我破产了…&lt;/p&gt;
+&lt;p&gt;这还真不是段子，一个朋友说的。&lt;/p&gt;
+&lt;p&gt;尤其，创业伊始，到底是应该大开大合、高举高打，还是精益创业、一分钱掰两瓣花？到底是大开大合死得更快，还是精益创业没大前途？也许，都能找开成功案例。&lt;/p&gt;
+&lt;p&gt;当然，这些都是抽象的说法，也可以说是
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0112 - 不能一直低效重复</title>
+    <link href="https://atjason.com/daily/2019-01-12.html"/>
+    <id>https://atjason.com/daily/2019-01-12.html</id>
+    <published>2019-01-12T14:00:00.000Z</published>
+    <updated>2019-01-12T15:51:03.253Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天在改进「最右神回复」小程序，其中需要对界面进行改动；而我本身对前端不擅长，改起来就很累，很依赖 Google。虽然堆砌时间之后，还是差不多把产品做出来了，但这明显太低效了。</p>
+<p>今年有计划较系统地学习下前端基础知识，这样再做类似前端任务时，就可以在已有基础上不断增加，而不只是孤零零地、重复地解决一些初级问题。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天在改进「最右神回复」小程序，其中需要对界面进行改动；而我本身对前端不擅长，改起来就很累，很依赖 Google。虽然堆砌时间之后，还是差不多把产品做出来了，但这明显太低效了。&lt;/p&gt;
+&lt;p&gt;今年有计划较系统地学习下前端基础知识，这样再做类似前端任务时，就可以在已有基础上不
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0111 - 程序员的中年危机</title>
@@ -102,6 +229,32 @@
     <summary type="html">
     
       &lt;p&gt;&lt;a href=&quot;https://www.v2ex.com/t/524980&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;昨天发了个帖子&lt;/a&gt;，问有没有 &lt;strong&gt;面向个人的信息显示屏&lt;/strong&gt;，有朋友提用 Kindle，是不错的建议。于
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0104 - 产品成年多变坏</title>
+    <link href="https://atjason.com/daily/2019-01-04.html"/>
+    <id>https://atjason.com/daily/2019-01-04.html</id>
+    <published>2019-01-04T14:00:00.000Z</published>
+    <updated>2019-01-14T15:02:09.359Z</updated>
+    
+    <content type="html"><![CDATA[<p>成年后的产品，大多会变成我们讨厌的样子。</p>
+<p>产品开始时，多好，充满了创意新意，没有包袱，有无限可能。</p>
+<p>随着时间的推移，产品成熟了，功能越来越多，用户也越来越多。同时，商业诉求越来越高，积累的包袱也越来越重。在最好不变的时侯，也不得不变。变来变去之后，变得复杂难用，用户开始迁移至新的产品。</p>
+<p>一个产品做到恰好，然后放着，去做下一个恰好的产品。也许我没有驾驭复杂产品的能力，却愿意做一个个恰好的产品。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;成年后的产品，大多会变成我们讨厌的样子。&lt;/p&gt;
+&lt;p&gt;产品开始时，多好，充满了创意新意，没有包袱，有无限可能。&lt;/p&gt;
+&lt;p&gt;随着时间的推移，产品成熟了，功能越来越多，用户也越来越多。同时，商业诉求越来越高，积累的包袱也越来越重。在最好不变的时侯，也不得不变。变来变去之后
     
     </summary>
     
@@ -444,158 +597,6 @@
 &lt;ul&gt;
 &lt;li&gt;支付宝的会话过期时间真短。扫码登录，上个厕所回来，对不起，登出了，又得扫码。&lt;ul&gt;
 &lt;li&gt;这也是定位含糊引起的。支付宝本身是个支付工具，安全性要求高，会话很快过期没问题。可它又同时承载了小程序
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1223 - 聚焦，聚焦</title>
-    <link href="https://atjason.com/daily/2018-12-23.html"/>
-    <id>https://atjason.com/daily/2018-12-23.html</id>
-    <published>2018-12-23T14:00:00.000Z</published>
-    <updated>2018-12-23T15:03:00.576Z</updated>
-    
-    <content type="html"><![CDATA[<p>时间有限，只做最应该做的事。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;时间有限，只做最应该做的事。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1222 - 苏州公交实时查询强力上线</title>
-    <link href="https://atjason.com/daily/2018-12-22.html"/>
-    <id>https://atjason.com/daily/2018-12-22.html</id>
-    <published>2018-12-22T14:00:00.000Z</published>
-    <updated>2018-12-23T14:59:35.628Z</updated>
-    
-    <content type="html"><![CDATA[<p>接昨天的活，通过自己的服务器中转了请求，强力上线了苏州公交实时查询。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;接昨天的活，通过自己的服务器中转了请求，强力上线了苏州公交实时查询。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1221 - 又被阴了一次</title>
-    <link href="https://atjason.com/daily/2018-12-21.html"/>
-    <id>https://atjason.com/daily/2018-12-21.html</id>
-    <published>2018-12-21T14:00:00.000Z</published>
-    <updated>2018-12-21T14:42:42.541Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天搞了一天的苏州公交实时查询，基本搞完了，结果，最后发现，关键接口的 https 证书过期了，无法在小程序中直接使用。</p>
-<p>除了找新的接口，现在的办法也只有通过服务器中转了。就是不知道我的小服务器，能不能搞得住这许多请求。不管了，硬上。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天搞了一天的苏州公交实时查询，基本搞完了，结果，最后发现，关键接口的 https 证书过期了，无法在小程序中直接使用。&lt;/p&gt;
-&lt;p&gt;除了找新的接口，现在的办法也只有通过服务器中转了。就是不知道我的小服务器，能不能搞得住这许多请求。不管了，硬上。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1220 - 接入北京公交实时数据</title>
-    <link href="https://atjason.com/daily/2018-12-20.html"/>
-    <id>https://atjason.com/daily/2018-12-20.html</id>
-    <published>2018-12-20T14:00:00.000Z</published>
-    <updated>2018-12-20T15:04:24.920Z</updated>
-    
-    <content type="html"><![CDATA[<p>搞了几天，今天无缝接入了上海公交实时数据，基本覆盖了所有路线，实时显示车次信息。</p>
-<p>做了才知道，上海，有 1200 多条公交线路…</p>
-<p><img src="https://ps.toolinbox.net/7dlb0.png" alt=""></p>
-<p>不好意思，重复前天的博客了😂</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;搞了几天，今天无缝接入了上海公交实时数据，基本覆盖了所有路线，实时显示车次信息。&lt;/p&gt;
-&lt;p&gt;做了才知道，上海，有 1200 多条公交线路…&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/7dlb0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1219 - 处处皆牛人</title>
-    <link href="https://atjason.com/daily/2018-12-19.html"/>
-    <id>https://atjason.com/daily/2018-12-19.html</id>
-    <published>2018-12-19T14:00:00.000Z</published>
-    <updated>2018-12-19T15:36:10.650Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天了解到一位学长的经历：</p>
-<blockquote>
-<p>他老传奇了，博士毕业后他来北京进了一家私企，买了原始股，然后公司上市，身价两千万…</p>
-<p>两千万！我们问他咋花啊？他说，买了一套学区房，还有一套自住房，又贷款五百万[捂脸]</p>
-<p>但是公司一直没有给他办成北京户口，然后他卖掉股份后，辞职去了中科院，落了户口，现在自己注册的公司卖自己开发的软件</p>
-</blockquote>
-<p>身边人啊；看来我只能自动过滤牛人带来的震惊，不然自己的日子怎么过啊…😂</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天了解到一位学长的经历：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;他老传奇了，博士毕业后他来北京进了一家私企，买了原始股，然后公司上市，身价两千万…&lt;/p&gt;
-&lt;p&gt;两千万！我们问他咋花啊？他说，买了一套学区房，还有一套自住房，又贷款五百万[捂脸]&lt;/p&gt;
-&lt;p&gt;但是公司一
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1218 - 接入北京公交实时数据</title>
-    <link href="https://atjason.com/daily/2018-12-18.html"/>
-    <id>https://atjason.com/daily/2018-12-18.html</id>
-    <published>2018-12-18T14:00:00.000Z</published>
-    <updated>2018-12-18T14:32:11.553Z</updated>
-    
-    <content type="html"><![CDATA[<p>搞了几天，今天无缝接入了北京公交实时数据，基本覆盖了所有路线，实时显示车次信息。</p>
-<p>做了才知道，北京，有 1000 多条公交线路…</p>
-<p><img src="https://ps.toolinbox.net/7dlb0.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;搞了几天，今天无缝接入了北京公交实时数据，基本覆盖了所有路线，实时显示车次信息。&lt;/p&gt;
-&lt;p&gt;做了才知道，北京，有 1000 多条公交线路…&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/7dlb0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-
     
     </summary>
     
