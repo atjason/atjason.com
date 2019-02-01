@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-01-18T16:22:42.246Z</updated>
+  <updated>2019-01-30T17:10:21.051Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,186 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0125 - 让工具成为你的左膀右臂</title>
+    <link href="https://atjason.com/daily/2019-01-25.html"/>
+    <id>https://atjason.com/daily/2019-01-25.html</id>
+    <published>2019-01-25T14:00:00.000Z</published>
+    <updated>2019-01-30T17:10:21.051Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天找了一通实时预览 html/css 的工具，最后还是落脚在 VSCode 上。</p>
+<p>找到一个工具，深入使用、熟练使用，能做到信手拈来、做到像手一样感知不到，才能成为自己的左膀右臂，大大提高自己的效率。</p>
+<p>而这个工具，最好具有开放性、可扩展性。这样，才能有更多的用户，从不同角度来改进它。而自己遇到特殊的人性化需求时，也能上手自定义。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天找了一通实时预览 html/css 的工具，最后还是落脚在 VSCode 上。&lt;/p&gt;
+&lt;p&gt;找到一个工具，深入使用、熟练使用，能做到信手拈来、做到像手一样感知不到，才能成为自己的左膀右臂，大大提高自己的效率。&lt;/p&gt;
+&lt;p&gt;而这个工具，最好具有开放性、可扩展性。这样，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0124 - 最大化存量价值</title>
+    <link href="https://atjason.com/daily/2019-01-24.html"/>
+    <id>https://atjason.com/daily/2019-01-24.html</id>
+    <published>2019-01-24T14:00:00.000Z</published>
+    <updated>2019-01-29T16:47:53.457Z</updated>
+    
+    <content type="html"><![CDATA[<p>存量可能是包袱。经济学里的沉默成本，讲的也是在决策时，不应该被已经发生的成本所束缚，而应该仅关注当下做决定。</p>
+<p>而从另一个角度，我们都是存量的结果，我们的肉体、思想、之前所经历的一切，共同构成了此刻的我们。完全抛弃存量，只考虑当下，是不现实的。</p>
+<p>应该抛弃的，不是存量，而是存量思维，或者说避免被存量绑架。比如，之前我们一直在做一件事，突然发现了另一个天大的机会，是固执地做之前的那件事，还是全身心投入到新的机会？</p>
+<p>应该利用的，是存量的价值。存量也是变量，就像是围棋，之前下的一子，可能是为了攻。而因为局势的变化，这个子再用作攻已不现实，却可能是守的关键一环。已经下的子，就像是存量，不能改变或抛弃，而它的作用却可以是不同的。我们每下一子，都要最大化利用之前下的子，最大化存量价值。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;存量可能是包袱。经济学里的沉默成本，讲的也是在决策时，不应该被已经发生的成本所束缚，而应该仅关注当下做决定。&lt;/p&gt;
+&lt;p&gt;而从另一个角度，我们都是存量的结果，我们的肉体、思想、之前所经历的一切，共同构成了此刻的我们。完全抛弃存量，只考虑当下，是不现实的。&lt;/p&gt;
+&lt;p&gt;应
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0123 - 用户系统是核心资产</title>
+    <link href="https://atjason.com/daily/2019-01-23.html"/>
+    <id>https://atjason.com/daily/2019-01-23.html</id>
+    <published>2019-01-23T14:00:00.000Z</published>
+    <updated>2019-01-23T16:15:20.022Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天出个事：之前，用户可以使用微信登录头条；今天，突然不行了。</p>
+<p>我自己测试，是新用户无法通过微信登录；之前已经用过微信登录头条的老用户，依然是可以登录了。可以说，微信还不至于那么黑。</p>
+<p>万一微信连老用户也禁止了，对头条意味着什么呢？很简单：之前通过微信登录的用户，全部没有了；用户根本没有机会找回自己的账户。虽然，这些账户和数据都在头条数据库中，但头条根本没有办法将海量账户与真实用户对应起来。</p>
+<p>对于微信，这绝对是有失商业道德的做法。今后，还有谁敢用微信作为登录账户呢？</p>
+<p>对于头条及其他平台，敲响了严重的警钟：用户系统是核心资产，绝对承担不起风险，绝对不能纯粹依赖第三方，哪怕这个第三方声称自己多么可依赖。</p>
+<p>我也开始真正理解，为什么几乎所有网站在使用微信、微博等第三方账户登录后，还是要绑定手机、邮箱。除了留下钩子方便日后骚扰用户，原来更怕的是被第三方掐断喉咙。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天出个事：之前，用户可以使用微信登录头条；今天，突然不行了。&lt;/p&gt;
+&lt;p&gt;我自己测试，是新用户无法通过微信登录；之前已经用过微信登录头条的老用户，依然是可以登录了。可以说，微信还不至于那么黑。&lt;/p&gt;
+&lt;p&gt;万一微信连老用户也禁止了，对头条意味着什么呢？很简单：之前通过
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0122 - 纯学习还是不行</title>
+    <link href="https://atjason.com/daily/2019-01-22.html"/>
+    <id>https://atjason.com/daily/2019-01-22.html</id>
+    <published>2019-01-22T14:00:00.000Z</published>
+    <updated>2019-01-22T15:51:55.217Z</updated>
+    
+    <content type="html"><![CDATA[<p>这两天在纯学习 ES6，教材是阮一峰写的<a href="http://es6.ruanyifeng.com" target="_blank" rel="external">《ECMAScript 6 入门》</a></p>
+<p>收获自然是有的，只是感觉纯学习的时间长了，效率自然低，经常书看的头昏脑胀，有些艰涩的部分有意无意就跳过了。明天把剩下的看完，还是再来一波实战吧。</p>
+<p>实践和学习，还是得交替进行。做项目时，可以不管用什么方法，能出结果就行。而项目告一段落，就要正规化项目中非正规化的实现。这样，在实践中刻意练习，在学习时思考之前的实现是否可以优化，不断的在学习和实践中交替，更容易精进。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这两天在纯学习 ES6，教材是阮一峰写的&lt;a href=&quot;http://es6.ruanyifeng.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《ECMAScript 6 入门》&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;收获自然是有的，只是感觉纯学习的时间长了，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0121 - 每天听本书</title>
+    <link href="https://atjason.com/daily/2019-01-21.html"/>
+    <id>https://atjason.com/daily/2019-01-21.html</id>
+    <published>2019-01-21T14:00:00.000Z</published>
+    <updated>2019-01-21T16:16:24.609Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近，在得到听了好多本书。为什么？因为要喂娃喂奶，喂完后还要拍嗝，这期间没法看书、操作电脑，手持手机也不方便。时间上，差不多 20 分钟。于是，非常适合听书：不用碰手机，时间也差不多刚刚好。</p>
+<p>虽然，直接看干货，会消化不良。可以，消化不良总比营养不良好吧；没深入理解，也比不知道的好。而且，如果确实对某本书比较感兴趣，在听完后，也可以再找书来看。</p>
+<p>记得有人问薛兆丰，在听完你的《北大经济学》课后，是不是要找曼昆之类的经济学书，完整系统地学习一遍。薛兆丰就问：曼昆的书，你看完了吗？那人挠了挠头，说只看了前几章，就没再坚持下去。这就很明显了，不管书再如何成体系、再如何完整，看不完，也是白搭。看书和听书也是一样道理，看书再好，没时间看，也是白搭。</p>
+<p>小插曲：目前是手机 + 有线耳机在听。也有想买个无线耳机，可 AirPods 据说很快就要出二代，于是买个便宜的华为荣耀 FlyPods 青春版过渡一下。结果，这耳机在配合 iPhone 时，即使手机交易量调最小，耳机音量也依然巨大；配合 Android 手机则没有问题。算了，先有线耳机吧，毕竟自带的耳机戴着还舒服。不过度纠结外在，不买椟还珠；把主要的心思和精力，花在主要的事上。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近，在得到听了好多本书。为什么？因为要喂娃喂奶，喂完后还要拍嗝，这期间没法看书、操作电脑，手持手机也不方便。时间上，差不多 20 分钟。于是，非常适合听书：不用碰手机，时间也差不多刚刚好。&lt;/p&gt;
+&lt;p&gt;虽然，直接看干货，会消化不良。可以，消化不良总比营养不良好吧；没深入
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0120 - 卖课</title>
+    <link href="https://atjason.com/daily/2019-01-20.html"/>
+    <id>https://atjason.com/daily/2019-01-20.html</id>
+    <published>2019-01-20T14:00:00.000Z</published>
+    <updated>2019-01-21T16:06:55.531Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近看朋友圈，有人买了极客时间的一门前端课程：重学前端，正好最近想学下前端，于是就习了。买完后，App 会生成一张分享图片，我也就分享到朋友圈了。</p>
+<p>其实，我也知道如果别人通过我的分享买课，我会有提成。可我没想到，提成着实不低。原价 98，活动期间我是 68 买的。分成是 24，按原价算也是 20%，着实不低，这是让我吃惊的。号外：通过我的分享买的朋友，我也一一发了红包。</p>
+<p>舍不得孩子套不着狼。只有舍得让利，别人才愿意牺牲或者说消耗自己的信誉，去帮你推广。确实，有位朋友就说，就是看我推荐才买的。虽然我根本谈不上推荐，只是说了下我买了。</p>
+<p>最后，我也顺便在这里也放个码吧：</p>
+<p><img src="https://ps.toolinbox.net/8jym2.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近看朋友圈，有人买了极客时间的一门前端课程：重学前端，正好最近想学下前端，于是就习了。买完后，App 会生成一张分享图片，我也就分享到朋友圈了。&lt;/p&gt;
+&lt;p&gt;其实，我也知道如果别人通过我的分享买课，我会有提成。可我没想到，提成着实不低。原价 98，活动期间我是 68 买
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0119 - 不要过于期待某件事情、某样东西</title>
+    <link href="https://atjason.com/daily/2019-01-19.html"/>
+    <id>https://atjason.com/daily/2019-01-19.html</id>
+    <published>2019-01-19T14:00:00.000Z</published>
+    <updated>2019-01-19T16:32:06.259Z</updated>
+    
+    <content type="html"><![CDATA[<p>当即将得到一个好的东西，就会不自觉地期待。这个期待的过程，会使得我们不自觉地夸大它的好处、压抑它的坏处。一旦得到之后，却可能因为期望值与现实间的差距而心生不满，至少是满足感降低。</p>
+<p>除了东西，事情也是一样。</p>
+<p>从另一个角度，我们期待新的东西，是因为已有的东西有些地方让我们不满意，我们迫切希望好的东西来改变这一局面。不过，事实上，任何事都有两面，好的东西也是有隐性的坏处，或者至少是有代价的。d而目前的东西，可能也没那么不堪。稍加优化，还是能有很大改善，幸福指数大增。</p>
+<p>再跳出来，我们总是需要不断地通过新的、好的东西来帮助我们改善生活。不过，要清楚，这些外在的东西，只是「帮助」我们。真正是好是坏，还是要看我们自己的内心。不要因为这些具体的东西，模糊了虚无的内在。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;当即将得到一个好的东西，就会不自觉地期待。这个期待的过程，会使得我们不自觉地夸大它的好处、压抑它的坏处。一旦得到之后，却可能因为期望值与现实间的差距而心生不满，至少是满足感降低。&lt;/p&gt;
+&lt;p&gt;除了东西，事情也是一样。&lt;/p&gt;
+&lt;p&gt;从另一个角度，我们期待新的东西，是因为已
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0118 - 系统性学习</title>
@@ -368,200 +548,6 @@
       &lt;p&gt;以我目前的认知，产品之间的竞争，是全方面、多维度的，包含产品本身好坏、推广、运营等多方面。&lt;/p&gt;
 &lt;p&gt;而越往深处，还是赢利能力的竞争。能更快、更好地变现，就能有更多弹药储备，进而活得更久，有更多可能性。&lt;/p&gt;
 &lt;p&gt;以终为始，产品一开始就要考虑赢利能力，然后倒推最应该
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0101 - 2019，红红火火</title>
-    <link href="https://atjason.com/daily/2019-01-01.html"/>
-    <id>https://atjason.com/daily/2019-01-01.html</id>
-    <published>2019-01-01T14:00:00.000Z</published>
-    <updated>2019-01-02T14:23:17.618Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天元旦，去了乡下，放了野火，感觉很爽。小时候就特别想烧枯干的草，可胆子小，怕烧成火灾，又被大人管着。现在自己是大人了，不仅没人管，还带着自己的娃去放火，哈哈，爽。</p>
-<p>不过，大人确实是小孩的榜样。大人做什么，小孩都会模仿。不止是好的，坏的也会。得严格要求自己，特别是保持一致，这样才能给娃当榜样，不让他迷惑。</p>
-<p>今年也简单立个 Flag: 每天晚上 11 点前睡觉。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天元旦，去了乡下，放了野火，感觉很爽。小时候就特别想烧枯干的草，可胆子小，怕烧成火灾，又被大人管着。现在自己是大人了，不仅没人管，还带着自己的娃去放火，哈哈，爽。&lt;/p&gt;
-&lt;p&gt;不过，大人确实是小孩的榜样。大人做什么，小孩都会模仿。不止是好的，坏的也会。得严格要求自己，特
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1231 - 最右神回复，幽默有深度</title>
-    <link href="https://atjason.com/daily/2018-12-31.html"/>
-    <id>https://atjason.com/daily/2018-12-31.html</id>
-    <published>2018-12-31T14:00:00.000Z</published>
-    <updated>2019-01-02T14:26:39.012Z</updated>
-    
-    <content type="html"><![CDATA[<p>二话不说先上图：</p>
-<p><img src="https://ws2.sinaimg.cn/large/006tNbRwgy1fyrzbh1j17j311s0kw46k.jpg" alt=""></p>
-<p>在网上逛，时不时会碰到神回复：初觉捧腹；细思量，又颇有深意。</p>
-<p>感觉很有意思，就收集了一些，有了这个「<strong>最右神回复</strong>」小程序，欢迎来撩：</p>
-<p><img src="https://ws2.sinaimg.cn/large/006tNbRwgy1fyrzcpht0xj307s07sac3.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;二话不说先上图：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ws2.sinaimg.cn/large/006tNbRwgy1fyrzbh1j17j311s0kw46k.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;在网上逛，时不时会碰到神回复：初觉捧腹；细思量，又颇有深意
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1230 - 分享 = 利益 + 有趣</title>
-    <link href="https://atjason.com/daily/2018-12-30.html"/>
-    <id>https://atjason.com/daily/2018-12-30.html</id>
-    <published>2018-12-30T14:00:00.000Z</published>
-    <updated>2019-01-02T14:35:31.678Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近在忙小程序，一个明显的感知：</p>
-<ul>
-<li>流量 = 分享<ul>
-<li>没有分享，就没有流量</li>
-</ul>
-</li>
-<li>分享 = 利益 + 有趣<ul>
-<li>「帮我砍一刀」这种拼多多式的促分享，虽流氓，但有效</li>
-<li>觉得有趣，觉得分享出去能抬高自己的形象，人们也可能分享；但这种动力就比利益弱得多了</li>
-</ul>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近在忙小程序，一个明显的感知：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;流量 = 分享&lt;ul&gt;
-&lt;li&gt;没有分享，就没有流量&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;分享 = 利益 + 有趣&lt;ul&gt;
-&lt;li&gt;「帮我砍一刀」这种拼多多式的促分享，虽流氓，但有效&lt;/li&gt;
-&lt;li&gt;觉得有
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1229 - 感谢为你付出的人</title>
-    <link href="https://atjason.com/daily/2018-12-29.html"/>
-    <id>https://atjason.com/daily/2018-12-29.html</id>
-    <published>2018-12-29T14:00:00.000Z</published>
-    <updated>2019-01-02T14:32:44.860Z</updated>
-    
-    <content type="html"><![CDATA[<p>尤其是家人、亲近的人，越是亲人，他们的付出越像空气、像水，恰当到你觉得很自然，越发感知不到。朋友帮忙，你还请吃顿饭，而爸妈每天为你操心、给你做饭，你我又做了什么呢？</p>
-<p>体贴入微地关注他们，让他们感知到，你心里一直在想着他们，他们不孤独。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;尤其是家人、亲近的人，越是亲人，他们的付出越像空气、像水，恰当到你觉得很自然，越发感知不到。朋友帮忙，你还请吃顿饭，而爸妈每天为你操心、给你做饭，你我又做了什么呢？&lt;/p&gt;
-&lt;p&gt;体贴入微地关注他们，让他们感知到，你心里一直在想着他们，他们不孤独。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1228 - 控制自己的情绪</title>
-    <link href="https://atjason.com/daily/2018-12-28.html"/>
-    <id>https://atjason.com/daily/2018-12-28.html</id>
-    <published>2018-12-28T14:00:00.000Z</published>
-    <updated>2019-01-02T14:30:13.901Z</updated>
-    
-    <content type="html"><![CDATA[<p>良性循环与恶性循环，可能会互相转换的。情绪，可能是转换的一个标志点。</p>
-<p>做事有成绩，心情好、效率高，然后继续保持高效、继续有成绩。</p>
-<p>而一旦做事遇阻、不明朗，人就会消极，就会觉得诸事不顺，开始发脾气，效率也下降，做很多无用功，然后做事继续受阻。</p>
-<p>一旦觉得情绪变糟，就要警醒。要担心的不是做事受阻，而是坠入恶性循环。</p>
-<p>与通胀相比，滞胀更可怕。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;良性循环与恶性循环，可能会互相转换的。情绪，可能是转换的一个标志点。&lt;/p&gt;
-&lt;p&gt;做事有成绩，心情好、效率高，然后继续保持高效、继续有成绩。&lt;/p&gt;
-&lt;p&gt;而一旦做事遇阻、不明朗，人就会消极，就会觉得诸事不顺，开始发脾气，效率也下降，做很多无用功，然后做事继续受阻。&lt;/p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1227 - 事前设好期望结果</title>
-    <link href="https://atjason.com/daily/2018-12-27.html"/>
-    <id>https://atjason.com/daily/2018-12-27.html</id>
-    <published>2018-12-27T14:00:00.000Z</published>
-    <updated>2018-12-29T15:35:22.307Z</updated>
-    
-    <content type="html"><![CDATA[<p>跟目标很像，但味道又不一样。</p>
-<p>产品、事情能做好到什么程度，是永无止境的。而我们的时间精力能力又都是有限的。如果事先不大致想好这事做到什么程度我就满意，那就永远无法满意。</p>
-<p>没有目标就没有效率，没有期望就不会满意。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;跟目标很像，但味道又不一样。&lt;/p&gt;
-&lt;p&gt;产品、事情能做好到什么程度，是永无止境的。而我们的时间精力能力又都是有限的。如果事先不大致想好这事做到什么程度我就满意，那就永远无法满意。&lt;/p&gt;
-&lt;p&gt;没有目标就没有效率，没有期望就不会满意。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1226 - 不过份自责</title>
-    <link href="https://atjason.com/daily/2018-12-26.html"/>
-    <id>https://atjason.com/daily/2018-12-26.html</id>
-    <published>2018-12-26T14:00:00.000Z</published>
-    <updated>2018-12-29T15:32:06.235Z</updated>
-    
-    <content type="html"><![CDATA[<p>如果一件事没有好的结果，一定是有自己的因素。但，也一定不全是自己的因素。</p>
-<p>想清楚自己做的不好的地方、下次如何改进，然后原谅自己。</p>
-<p>注意：原谅自己很重要。不然，自己会一直陷入自责，让过去的错误持续伤害现在的自己。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;如果一件事没有好的结果，一定是有自己的因素。但，也一定不全是自己的因素。&lt;/p&gt;
-&lt;p&gt;想清楚自己做的不好的地方、下次如何改进，然后原谅自己。&lt;/p&gt;
-&lt;p&gt;注意：原谅自己很重要。不然，自己会一直陷入自责，让过去的错误持续伤害现在的自己。&lt;/p&gt;
-
     
     </summary>
     
