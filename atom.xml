@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-01T15:53:26.307Z</updated>
+  <updated>2019-02-02T16:05:08.606Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,11 +16,45 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0202 - 把问题表述清楚的能力</title>
+    <link href="https://atjason.com/daily/2019-02-02.html"/>
+    <id>https://atjason.com/daily/2019-02-02.html</id>
+    <published>2019-02-02T14:00:00.000Z</published>
+    <updated>2019-02-02T16:05:08.606Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近跟一位朋友聊，他想用软件实现某个功能。可聊了很长时间，我才够强理解了他的意图，就是因为他表述问题的能力欠缺，很难把问题说清楚。</p>
+<p>拆开来看，把问题描述清楚，有这么些方面：</p>
+<ul>
+<li>你现在遇到的麻烦是什么？</li>
+<li>你期望的、好的结果是什么？</li>
+<li>要实现的你想要的，你考虑过哪些方案？遇到了哪些问题？</li>
+<li>有没有时间要求？</li>
+<li>你愿意承担的成本是多少？</li>
+</ul>
+<p>其实，把问题描述清楚的能力，是可以抽象的、和具体问题无关的。这抽象的能力，应该可以理解为思维模型、认知模型。这些能力模型还是挺重要的；有了自洽的认知模型，可以快速准确地进入自己目前陌生的领域，不断拓展认知边界。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近跟一位朋友聊，他想用软件实现某个功能。可聊了很长时间，我才够强理解了他的意图，就是因为他表述问题的能力欠缺，很难把问题说清楚。&lt;/p&gt;
+&lt;p&gt;拆开来看，把问题描述清楚，有这么些方面：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;你现在遇到的麻烦是什么？&lt;/li&gt;
+&lt;li&gt;你期望的、好的结
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0201 - 小程序支付第三方解决方案</title>
     <link href="https://atjason.com/daily/2019-02-01.html"/>
     <id>https://atjason.com/daily/2019-02-01.html</id>
     <published>2019-02-01T14:00:00.000Z</published>
-    <updated>2019-02-01T15:53:26.307Z</updated>
+    <updated>2019-02-01T15:53:52.325Z</updated>
     
     <content type="html"><![CDATA[<p>Apple 对虚拟支持管得严，要抽 30% 的分成，是以 iOS 版微信小程序，不能包含支付。没有支付，必然会很大地限制小程序的想象空间和体验。另外，据说苹果也开始搞支付宝小程序中的支付了。</p>
 <p>我就在想，对于小程序开发者，有没有别的方式呢？当然，自己做个支付，肯定是可以的，就是麻烦些，且要想办法规避被下架风险。</p>
@@ -81,7 +115,7 @@
     <link href="https://atjason.com/daily/2019-01-30.html"/>
     <id>https://atjason.com/daily/2019-01-30.html</id>
     <published>2019-01-30T14:00:00.000Z</published>
-    <updated>2019-02-01T15:40:23.157Z</updated>
+    <updated>2019-02-01T15:53:58.136Z</updated>
     
     <content type="html"><![CDATA[<p>你网上一搜，「菜鸟教程」有很多（个李逵），我说的是这个：<a href="http://www.runoob.com/" target="_blank" rel="external">http://www.runoob.com/</a></p>
 <p>最近在学 CSS，就是照着这个学的，有一些感想：这个站做的实在太好了，尤其是定位：<strong>基础教程</strong></p>
@@ -511,33 +545,6 @@
       &lt;p&gt;今天俞敏洪在演讲中表达了类似的意思：国内科技企业都是通过满足人们的「低级趣味」来赚钱，却鲜有做出改变世界的产品。&lt;/p&gt;
 &lt;p&gt;改变世界，要求可能高了些。至少，如果没有了生存压力，就不应该只做为了生存而不得不做的事。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0113 - 用百万富翁的思维做事</title>
-    <link href="https://atjason.com/daily/2019-01-13.html"/>
-    <id>https://atjason.com/daily/2019-01-13.html</id>
-    <published>2019-01-13T14:00:00.000Z</published>
-    <updated>2019-01-14T14:57:53.153Z</updated>
-    
-    <content type="html"><![CDATA[<p>结果我破产了…</p>
-<p>这还真不是段子，一个朋友说的。</p>
-<p>尤其，创业伊始，到底是应该大开大合、高举高打，还是精益创业、一分钱掰两瓣花？到底是大开大合死得更快，还是精益创业没大前途？也许，都能找开成功案例。</p>
-<p>当然，这些都是抽象的说法，也可以说是没有意义的，要具体问题具体分析，也要结合每个人的实际情况。具体到我，估计还是居家经济适用男形象。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;结果我破产了…&lt;/p&gt;
-&lt;p&gt;这还真不是段子，一个朋友说的。&lt;/p&gt;
-&lt;p&gt;尤其，创业伊始，到底是应该大开大合、高举高打，还是精益创业、一分钱掰两瓣花？到底是大开大合死得更快，还是精益创业没大前途？也许，都能找开成功案例。&lt;/p&gt;
-&lt;p&gt;当然，这些都是抽象的说法，也可以说是
     
     </summary>
     
