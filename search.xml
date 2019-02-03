@@ -12940,6 +12940,35 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
+      <url>https://atjason.com/daily/2017-06-27.html</url>
+      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
+<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
+<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
+<ul>
+<li><strong>基于数据</strong><ul>
+<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
+</ul>
+</li>
+<li><strong>基于内容</strong><ul>
+<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
+</ul>
+</li>
+</ul>
+<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
+<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Klib 第四版：纯粹，只为悦读]]></title>
       <url>https://atjason.com/PM/2017-06-27_Klib.html</url>
       <content type="html"><![CDATA[<p>在 Kindle 上读书，可以避免纸质书的收纳问题，还能方便地标注，挺好的。不过，标注虽然方便，标注的回顾整理却并不方便。好在，<strong><a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a></strong> 解决了这个问题（如何解决？请看 <a href="https://sspai.com/post/37581" target="_blank" rel="external">这里</a>、以及 <a href="https://sspai.com/post/38688" target="_blank" rel="external">这里</a>）</p>
@@ -12966,35 +12995,6 @@
         <categories>
             
             <category> PM </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
-      <url>https://atjason.com/daily/2017-06-27.html</url>
-      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
-<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
-<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
-<ul>
-<li><strong>基于数据</strong><ul>
-<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
-</ul>
-</li>
-<li><strong>基于内容</strong><ul>
-<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
-</ul>
-</li>
-</ul>
-<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
-<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -31690,9 +31690,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
@@ -31752,9 +31752,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
