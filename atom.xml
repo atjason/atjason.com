@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-02T16:05:08.606Z</updated>
+  <updated>2019-02-03T13:37:08.952Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0203 - 无固化，不学习</title>
+    <link href="https://atjason.com/daily/2019-02-03.html"/>
+    <id>https://atjason.com/daily/2019-02-03.html</id>
+    <published>2019-02-03T14:00:00.000Z</published>
+    <updated>2019-02-03T13:37:08.952Z</updated>
+    
+    <content type="html"><![CDATA[<p>学习，自然是要学会。只看一遍，很容易有「会了」的感觉，可真动起手来，还是会傻眼。</p>
+<p>怎么才算学会呢？自己能用起来。</p>
+<p>在用起来之前、纯学习时，也需要有「固化」、板结，有输出。比如编程，其固化的典型形式，就是代码，如示例工程、代码片断。这样，将来使用时，可以直接从自己的知识库中，拾取之前已经习得的片断，应用之。</p>
+<p>这不，我最近在学习 CSS，固化的结果就是发布在 GitHub 上的代码：</p>
+<p><a href="https://github.com/atjason/css_usage" target="_blank" rel="external">https://github.com/atjason/css_usage</a></p>
+<p>另外，「幕布」挺适合做逻辑摘要，比如这是我梳理的 flex 布局的用法：</p>
+<p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fztjlnoquzj30u00vs7df.jpg" width="800px"></p>
+<p>你也可以 <a href="https://mubu.com/doc/10JEXmBIAZ" target="_blank" rel="external">在幕布中查看原文档</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习，自然是要学会。只看一遍，很容易有「会了」的感觉，可真动起手来，还是会傻眼。&lt;/p&gt;
+&lt;p&gt;怎么才算学会呢？自己能用起来。&lt;/p&gt;
+&lt;p&gt;在用起来之前、纯学习时，也需要有「固化」、板结，有输出。比如编程，其固化的典型形式，就是代码，如示例工程、代码片断。这样，将来使用时
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0202 - 把问题表述清楚的能力</title>
@@ -79,10 +109,10 @@
     <link href="https://atjason.com/daily/2019-01-31.html"/>
     <id>https://atjason.com/daily/2019-01-31.html</id>
     <published>2019-01-31T14:00:00.000Z</published>
-    <updated>2019-02-01T15:47:27.481Z</updated>
+    <updated>2019-02-03T13:39:54.253Z</updated>
     
     <content type="html"><![CDATA[<p>博客，基本上天天在写，目前也有 1000 多篇了。只是最近，很少输出到其他平台了。一方面是手动操作，觉得太花时间了了。另一方面有时觉得自己写的太水，没好意思放别的平台。</p>
-<p>还是要支持输出。其好处是很多的，主要还是：倒逼自己输入。</p>
+<p>还是要坚持输出。其好处是很多的，主要还是：倒逼自己输入。</p>
 <p>坚持学习，坚持思考，坚持进步，坚持输出。</p>
 <p>另外，最近准备复活「自在开发」公众号，定位是：一位独立开发者的精进之路。目前计划有 2 个单元：</p>
 <ul>
@@ -100,7 +130,7 @@
     <summary type="html">
     
       &lt;p&gt;博客，基本上天天在写，目前也有 1000 多篇了。只是最近，很少输出到其他平台了。一方面是手动操作，觉得太花时间了了。另一方面有时觉得自己写的太水，没好意思放别的平台。&lt;/p&gt;
-&lt;p&gt;还是要支持输出。其好处是很多的，主要还是：倒逼自己输入。&lt;/p&gt;
+&lt;p&gt;还是要坚持输出。其好处是很多的，主要还是：倒逼自己输入。&lt;/p&gt;
 &lt;p&gt;坚持学习，坚持思考
     
     </summary>
@@ -521,30 +551,6 @@
       &lt;p&gt;夜深人静、很想睡觉时，依然被一个问题绊着。各种试，最后才发现，小程序云函数中，服务器端的 collection.where 和客户端不能，必须使用 await/promise 机制调用，而不能使用普通的回调机制。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0114 - 通过满足人们的低级趣味来赚钱</title>
-    <link href="https://atjason.com/daily/2019-01-14.html"/>
-    <id>https://atjason.com/daily/2019-01-14.html</id>
-    <published>2019-01-14T14:00:00.000Z</published>
-    <updated>2019-01-14T15:05:07.903Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天俞敏洪在演讲中表达了类似的意思：国内科技企业都是通过满足人们的「低级趣味」来赚钱，却鲜有做出改变世界的产品。</p>
-<p>改变世界，要求可能高了些。至少，如果没有了生存压力，就不应该只做为了生存而不得不做的事。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天俞敏洪在演讲中表达了类似的意思：国内科技企业都是通过满足人们的「低级趣味」来赚钱，却鲜有做出改变世界的产品。&lt;/p&gt;
-&lt;p&gt;改变世界，要求可能高了些。至少，如果没有了生存压力，就不应该只做为了生存而不得不做的事。&lt;/p&gt;
-
     
     </summary>
     
