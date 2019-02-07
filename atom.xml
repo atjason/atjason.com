@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-03T13:37:08.952Z</updated>
+  <updated>2019-02-07T15:16:48.683Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,11 +16,116 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0207 - 幕布的分享</title>
+    <link href="https://atjason.com/daily/2019-02-07.html"/>
+    <id>https://atjason.com/daily/2019-02-07.html</id>
+    <published>2019-02-07T14:00:00.000Z</published>
+    <updated>2019-02-07T15:16:48.683Z</updated>
+    
+    <content type="html"><![CDATA[<p>是这么个事：幕布支持将文档以链接的方式分享出去；如果有用户通过链接进入幕布并注册账户，分享者将得到一段时间高级版的奖励。</p>
+<p>之所以觉得有意思，是这个机制很巧妙。一般的做法，都是生成一个带尾巴的分享链接。而慢慢的，大家对这样的链接有反感，甚至会手动去掉链接重新打开；分享者也会有一定的掉粉压力。而通过有内容的链接分享，这个过程就温柔得多、隐蔽的多，接收者基本是无感的。</p>
+<p>做产品，就是要多些这种细腻微秒的设计。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;是这么个事：幕布支持将文档以链接的方式分享出去；如果有用户通过链接进入幕布并注册账户，分享者将得到一段时间高级版的奖励。&lt;/p&gt;
+&lt;p&gt;之所以觉得有意思，是这个机制很巧妙。一般的做法，都是生成一个带尾巴的分享链接。而慢慢的，大家对这样的链接有反感，甚至会手动去掉链接重新打开
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0206 - 感知与真实</title>
+    <link href="https://atjason.com/daily/2019-02-06.html"/>
+    <id>https://atjason.com/daily/2019-02-06.html</id>
+    <published>2019-02-06T14:00:00.000Z</published>
+    <updated>2019-02-06T16:04:33.089Z</updated>
+    
+    <content type="html"><![CDATA[<p>前几天吃甘蔗，把嘴巴里的肉咬破了。之后，就一直觉得最里面的智齿很尖锐，一直在磨着肉，不舒服，特别想把智齿拔了。</p>
+<p>这两天，肉长好了，就不觉得智齿磨肉了。</p>
+<p>同样的智齿，却因为肉的不同状态，有了不同的感知，进而有拔或不拔的冲动。</p>
+<p>所感知的，便是真实。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前几天吃甘蔗，把嘴巴里的肉咬破了。之后，就一直觉得最里面的智齿很尖锐，一直在磨着肉，不舒服，特别想把智齿拔了。&lt;/p&gt;
+&lt;p&gt;这两天，肉长好了，就不觉得智齿磨肉了。&lt;/p&gt;
+&lt;p&gt;同样的智齿，却因为肉的不同状态，有了不同的感知，进而有拔或不拔的冲动。&lt;/p&gt;
+&lt;p&gt;所感知的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0205 - 新年</title>
+    <link href="https://atjason.com/daily/2019-02-05.html"/>
+    <id>https://atjason.com/daily/2019-02-05.html</id>
+    <published>2019-02-05T14:00:00.000Z</published>
+    <updated>2019-02-05T14:37:36.525Z</updated>
+    
+    <content type="html"><![CDATA[<p>走亲戚、大批家人聚会、吃团圆饭、放野火、放飞气球…新年好！</p>
+<p>年轻的人，昨晚去通宵 K 歌喝酒；<br>不再年轻的人，只是聚在一起吃饭，边上放着春晚…<br>什么季节做什么事。</p>
+<p>自己的年纪，只是努力、尽力前行。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;走亲戚、大批家人聚会、吃团圆饭、放野火、放飞气球…新年好！&lt;/p&gt;
+&lt;p&gt;年轻的人，昨晚去通宵 K 歌喝酒；&lt;br&gt;不再年轻的人，只是聚在一起吃饭，边上放着春晚…&lt;br&gt;什么季节做什么事。&lt;/p&gt;
+&lt;p&gt;自己的年纪，只是努力、尽力前行。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0204 - 除夕</title>
+    <link href="https://atjason.com/daily/2019-02-04.html"/>
+    <id>https://atjason.com/daily/2019-02-04.html</id>
+    <published>2019-02-04T14:00:00.000Z</published>
+    <updated>2019-02-04T17:11:14.469Z</updated>
+    
+    <content type="html"><![CDATA[<p>2018：心急气燥，动作变形</p>
+<p>2019：拨乱反正，学习准备</p>
+<p>2020：开花结果，放大价值</p>
+<p>不论过年是否有年味，都要让自己的生活有滋有味。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2018：心急气燥，动作变形&lt;/p&gt;
+&lt;p&gt;2019：拨乱反正，学习准备&lt;/p&gt;
+&lt;p&gt;2020：开花结果，放大价值&lt;/p&gt;
+&lt;p&gt;不论过年是否有年味，都要让自己的生活有滋有味。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0203 - 无固化，不学习</title>
     <link href="https://atjason.com/daily/2019-02-03.html"/>
     <id>https://atjason.com/daily/2019-02-03.html</id>
     <published>2019-02-03T14:00:00.000Z</published>
-    <updated>2019-02-03T13:37:08.952Z</updated>
+    <updated>2019-02-04T17:11:27.888Z</updated>
     
     <content type="html"><![CDATA[<p>学习，自然是要学会。只看一遍，很容易有「会了」的感觉，可真动起手来，还是会傻眼。</p>
 <p>怎么才算学会呢？自己能用起来。</p>
@@ -448,109 +553,6 @@
       &lt;p&gt;当即将得到一个好的东西，就会不自觉地期待。这个期待的过程，会使得我们不自觉地夸大它的好处、压抑它的坏处。一旦得到之后，却可能因为期望值与现实间的差距而心生不满，至少是满足感降低。&lt;/p&gt;
 &lt;p&gt;除了东西，事情也是一样。&lt;/p&gt;
 &lt;p&gt;从另一个角度，我们期待新的东西，是因为已
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0118 - 系统性学习</title>
-    <link href="https://atjason.com/daily/2019-01-18.html"/>
-    <id>https://atjason.com/daily/2019-01-18.html</id>
-    <published>2019-01-18T14:00:00.000Z</published>
-    <updated>2019-01-18T16:22:42.246Z</updated>
-    
-    <content type="html"><![CDATA[<p>面向 Google 的编程，总是遇到什么问题，就想办法解决什么问题。好处是快，坏处是长期来看效益低。</p>
-<p>一方面，可能在遇到相同的问题时，由于没有积累，需要重复地去搜索解决。另一方面，由于缺乏系统性，不能深入地掌握技术，只能在浅层划水，也解决不了什么深刻的、复杂的问题。</p>
-<p>系统性学习，就是在掌握一部分知识后，就试图为知识建树、建网，对于自己已经掌握的知识，想办法固化；同时，标记自己尚未掌握的盲区。随着学习的推进，不断固化更多的知识，也标记更多的未知。在这样重复的过程中，不断地螺旋式上升，扩大自己的知识版图。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;面向 Google 的编程，总是遇到什么问题，就想办法解决什么问题。好处是快，坏处是长期来看效益低。&lt;/p&gt;
-&lt;p&gt;一方面，可能在遇到相同的问题时，由于没有积累，需要重复地去搜索解决。另一方面，由于缺乏系统性，不能深入地掌握技术，只能在浅层划水，也解决不了什么深刻的、复杂的
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0117 - 立志高远</title>
-    <link href="https://atjason.com/daily/2019-01-17.html"/>
-    <id>https://atjason.com/daily/2019-01-17.html</id>
-    <published>2019-01-17T14:00:00.000Z</published>
-    <updated>2019-01-18T16:18:10.049Z</updated>
-    
-    <content type="html"><![CDATA[<p>这两天在看张宏杰写的《曾国藩传》，其中介绍，曾国藩在很早的时候，就立下了做圣人的人生目标。有了这个目标，他可以更明晰自己将来要走的路；在遇到困难时，有毅力坚持下去；在需要做选择时，也不会被眼下的、短期的东西也蒙蔽，可以从更长远的角度，来反推出目前应该做的事。</p>
-<p>就像是学开车时教练说的：要把车开直，不是要关注手和方向盘，而是要目光看远处，这样都会下意识地调整左右方向，保证车走直线。</p>
-<p>反观自己，感觉最近很盲目，东一榔头西一棒子，逮什么搞什么，没有计划性和目的性。几年后回看自己现在做的事，会觉得很可惜，就像现在回望几年前的自己一样。</p>
-<p>当然，现在马上定下人生目标，可能还写不好。不过也要把这个问题放心里，时不时拿出来问一问自己。</p>
-<p>今年的目标：技术补课；夯实基础，为之后的持续前进打下基础。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这两天在看张宏杰写的《曾国藩传》，其中介绍，曾国藩在很早的时候，就立下了做圣人的人生目标。有了这个目标，他可以更明晰自己将来要走的路；在遇到困难时，有毅力坚持下去；在需要做选择时，也不会被眼下的、短期的东西也蒙蔽，可以从更长远的角度，来反推出目前应该做的事。&lt;/p&gt;
-&lt;p&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0116 - 「最右神回复」新增投稿功能</title>
-    <link href="https://atjason.com/daily/2019-01-16.html"/>
-    <id>https://atjason.com/daily/2019-01-16.html</id>
-    <published>2019-01-16T14:00:00.000Z</published>
-    <updated>2019-01-16T16:11:31.708Z</updated>
-    
-    <content type="html"><![CDATA[<p>经历昨天被小程序坑了一把后，今天终于把投稿功能上线了。</p>
-<p>之前，小程序是事先收集好内容，然后一条条供用户赏析。现在，用户遇到好的段子，也可以投稿到小程序中，并借由小程序分享给好友、朋友圈，让众人会心一笑。</p>
-<p><img src="https://ps.toolinbox.net/qh6fg.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;经历昨天被小程序坑了一把后，今天终于把投稿功能上线了。&lt;/p&gt;
-&lt;p&gt;之前，小程序是事先收集好内容，然后一条条供用户赏析。现在，用户遇到好的段子，也可以投稿到小程序中，并借由小程序分享给好友、朋友圈，让众人会心一笑。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ps.
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0115 - 被小程序坑了一下</title>
-    <link href="https://atjason.com/daily/2019-01-15.html"/>
-    <id>https://atjason.com/daily/2019-01-15.html</id>
-    <published>2019-01-15T14:00:00.000Z</published>
-    <updated>2019-01-15T16:22:40.752Z</updated>
-    
-    <content type="html"><![CDATA[<p>夜深人静、很想睡觉时，依然被一个问题绊着。各种试，最后才发现，小程序云函数中，服务器端的 collection.where 和客户端不能，必须使用 await/promise 机制调用，而不能使用普通的回调机制。</p>
-<ul>
-<li><a href="https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-client-api/database/collection.where.html" target="_blank" rel="external">客户端文档</a></li>
-<li><a href="https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-server-api/database/collection.where.html" target="_blank" rel="external">服务器文档</a></li>
-</ul>
-<p>丫竟然不一致，还如此隐蔽。大喊一声：苍天啊、你妹啊。然后睡觉。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;夜深人静、很想睡觉时，依然被一个问题绊着。各种试，最后才发现，小程序云函数中，服务器端的 collection.where 和客户端不能，必须使用 await/promise 机制调用，而不能使用普通的回调机制。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://
     
     </summary>
     
