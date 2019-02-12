@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-11T16:08:07.788Z</updated>
+  <updated>2019-02-12T15:43:39.207Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0212 - 事业，指什么？</title>
+    <link href="https://atjason.com/daily/2019-02-12.html"/>
+    <id>https://atjason.com/daily/2019-02-12.html</id>
+    <published>2019-02-12T14:00:00.000Z</published>
+    <updated>2019-02-12T15:43:39.207Z</updated>
+    
+    <content type="html"><![CDATA[<p>我想，人们所说的事业，多半是指能持续赚钱的东西。这东西多半是指公司，而关键的还是持续赚钱的能力。</p>
+<p>可，有钱之后做什么、为了什么？更多的钱？用繁忙的工作来掩盖内心的空虚？</p>
+<p>赚钱，最好是内心满足后的副产品。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我想，人们所说的事业，多半是指能持续赚钱的东西。这东西多半是指公司，而关键的还是持续赚钱的能力。&lt;/p&gt;
+&lt;p&gt;可，有钱之后做什么、为了什么？更多的钱？用繁忙的工作来掩盖内心的空虚？&lt;/p&gt;
+&lt;p&gt;赚钱，最好是内心满足后的副产品。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0211 - 原力觉醒</title>
@@ -525,34 +551,6 @@
       &lt;p&gt;存量可能是包袱。经济学里的沉默成本，讲的也是在决策时，不应该被已经发生的成本所束缚，而应该仅关注当下做决定。&lt;/p&gt;
 &lt;p&gt;而从另一个角度，我们都是存量的结果，我们的肉体、思想、之前所经历的一切，共同构成了此刻的我们。完全抛弃存量，只考虑当下，是不现实的。&lt;/p&gt;
 &lt;p&gt;应
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0123 - 用户系统是核心资产</title>
-    <link href="https://atjason.com/daily/2019-01-23.html"/>
-    <id>https://atjason.com/daily/2019-01-23.html</id>
-    <published>2019-01-23T14:00:00.000Z</published>
-    <updated>2019-01-23T16:15:20.022Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天出个事：之前，用户可以使用微信登录头条；今天，突然不行了。</p>
-<p>我自己测试，是新用户无法通过微信登录；之前已经用过微信登录头条的老用户，依然是可以登录了。可以说，微信还不至于那么黑。</p>
-<p>万一微信连老用户也禁止了，对头条意味着什么呢？很简单：之前通过微信登录的用户，全部没有了；用户根本没有机会找回自己的账户。虽然，这些账户和数据都在头条数据库中，但头条根本没有办法将海量账户与真实用户对应起来。</p>
-<p>对于微信，这绝对是有失商业道德的做法。今后，还有谁敢用微信作为登录账户呢？</p>
-<p>对于头条及其他平台，敲响了严重的警钟：用户系统是核心资产，绝对承担不起风险，绝对不能纯粹依赖第三方，哪怕这个第三方声称自己多么可依赖。</p>
-<p>我也开始真正理解，为什么几乎所有网站在使用微信、微博等第三方账户登录后，还是要绑定手机、邮箱。除了留下钩子方便日后骚扰用户，原来更怕的是被第三方掐断喉咙。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天出个事：之前，用户可以使用微信登录头条；今天，突然不行了。&lt;/p&gt;
-&lt;p&gt;我自己测试，是新用户无法通过微信登录；之前已经用过微信登录头条的老用户，依然是可以登录了。可以说，微信还不至于那么黑。&lt;/p&gt;
-&lt;p&gt;万一微信连老用户也禁止了，对头条意味着什么呢？很简单：之前通过
     
     </summary>
     
