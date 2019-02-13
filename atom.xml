@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-12T15:43:39.207Z</updated>
+  <updated>2019-02-13T16:06:26.639Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,23 +16,48 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0213 - 可交互的视频教学：Scrimba</title>
+    <link href="https://atjason.com/daily/2019-02-13.html"/>
+    <id>https://atjason.com/daily/2019-02-13.html</id>
+    <published>2019-02-13T14:00:00.000Z</published>
+    <updated>2019-02-13T16:06:26.639Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天发现一个好玩的网站：Scrimba</p>
+<p>比如，你可以打开这个介绍视频：<a href="https://scrimba.com/c/cKp6LhL" target="_blank" rel="external">https://scrimba.com/c/cKp6LhL</a></p>
+<p>在视频播放过程中，你可以随时编辑正在演示的代码；一旦编辑，视频即暂停，进入 ‘playground mode’；等编辑结果，还可以恢复视频播放。</p>
+<p>这在实际学习中还是挺有用的，比如碰到一个相对难的概念，自己可以通过实际动手的方式，帮助理解。</p>
+<p>好奇这个网站是如何实现的，大体应该是记录了屏幕操作、文件变化、声音，然后用时间轴同步。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天发现一个好玩的网站：Scrimba&lt;/p&gt;
+&lt;p&gt;比如，你可以打开这个介绍视频：&lt;a href=&quot;https://scrimba.com/c/cKp6LhL&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://scrimba.com/c/cK
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0212 - 事业，指什么？</title>
     <link href="https://atjason.com/daily/2019-02-12.html"/>
     <id>https://atjason.com/daily/2019-02-12.html</id>
     <published>2019-02-12T14:00:00.000Z</published>
-    <updated>2019-02-12T15:43:39.207Z</updated>
+    <updated>2019-02-12T15:50:49.492Z</updated>
     
     <content type="html"><![CDATA[<p>我想，人们所说的事业，多半是指能持续赚钱的东西。这东西多半是指公司，而关键的还是持续赚钱的能力。</p>
-<p>可，有钱之后做什么、为了什么？更多的钱？用繁忙的工作来掩盖内心的空虚？</p>
+<p>可，有钱之后做什么、为了什么？更多的钱？用繁忙的工作来掩盖内心的空虚？如果迟迟赚不到钱，又该用什么来支撑疲惫迷茫的心？</p>
 <p>赚钱，最好是内心满足后的副产品。</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;我想，人们所说的事业，多半是指能持续赚钱的东西。这东西多半是指公司，而关键的还是持续赚钱的能力。&lt;/p&gt;
-&lt;p&gt;可，有钱之后做什么、为了什么？更多的钱？用繁忙的工作来掩盖内心的空虚？&lt;/p&gt;
-&lt;p&gt;赚钱，最好是内心满足后的副产品。&lt;/p&gt;
-
+&lt;p&gt;可，有钱之后做什么、为了什么？更多的钱？用繁忙的工作来掩盖内心的空虚？如果迟迟赚不到钱，又该用什么来支撑疲惫迷茫的心？&lt;/p&gt;
+&lt;p&gt;赚钱，最好是内心满足后的副产
     
     </summary>
     
@@ -525,32 +550,6 @@
       &lt;p&gt;今天找了一通实时预览 html/css 的工具，最后还是落脚在 VSCode 上。&lt;/p&gt;
 &lt;p&gt;找到一个工具，深入使用、熟练使用，能做到信手拈来、做到像手一样感知不到，才能成为自己的左膀右臂，大大提高自己的效率。&lt;/p&gt;
 &lt;p&gt;而这个工具，最好具有开放性、可扩展性。这样，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0124 - 最大化存量价值</title>
-    <link href="https://atjason.com/daily/2019-01-24.html"/>
-    <id>https://atjason.com/daily/2019-01-24.html</id>
-    <published>2019-01-24T14:00:00.000Z</published>
-    <updated>2019-01-29T16:47:53.457Z</updated>
-    
-    <content type="html"><![CDATA[<p>存量可能是包袱。经济学里的沉默成本，讲的也是在决策时，不应该被已经发生的成本所束缚，而应该仅关注当下做决定。</p>
-<p>而从另一个角度，我们都是存量的结果，我们的肉体、思想、之前所经历的一切，共同构成了此刻的我们。完全抛弃存量，只考虑当下，是不现实的。</p>
-<p>应该抛弃的，不是存量，而是存量思维，或者说避免被存量绑架。比如，之前我们一直在做一件事，突然发现了另一个天大的机会，是固执地做之前的那件事，还是全身心投入到新的机会？</p>
-<p>应该利用的，是存量的价值。存量也是变量，就像是围棋，之前下的一子，可能是为了攻。而因为局势的变化，这个子再用作攻已不现实，却可能是守的关键一环。已经下的子，就像是存量，不能改变或抛弃，而它的作用却可以是不同的。我们每下一子，都要最大化利用之前下的子，最大化存量价值。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;存量可能是包袱。经济学里的沉默成本，讲的也是在决策时，不应该被已经发生的成本所束缚，而应该仅关注当下做决定。&lt;/p&gt;
-&lt;p&gt;而从另一个角度，我们都是存量的结果，我们的肉体、思想、之前所经历的一切，共同构成了此刻的我们。完全抛弃存量，只考虑当下，是不现实的。&lt;/p&gt;
-&lt;p&gt;应
     
     </summary>
     
