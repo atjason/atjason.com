@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-16T17:00:54.759Z</updated>
+  <updated>2019-02-17T14:49:47.590Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0217 - 恢复背单词的习惯</title>
+    <link href="https://atjason.com/daily/2019-02-17.html"/>
+    <id>https://atjason.com/daily/2019-02-17.html</id>
+    <published>2019-02-17T14:00:00.000Z</published>
+    <updated>2019-02-17T14:49:47.590Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在学习 Vue，看的是英文的官方文档，也是为了英语不丢下。期间，遇到一些不认识的单词，自然会去查。可查了之下，只是当时明白了，之后自然是忘记了。</p>
+<p>对开发者而言，英语是非常重要的。比如获取国外最新的技术，比如伺候国外用户，等等。具体的说，主要的是阅读和书写的能力，听力和口语相对要求不高。而阻碍阅读和书写的，主要还是单词。</p>
+<p>于是，问题就变成了 <strong>如何掌握更多的英文单词</strong>。</p>
+<p>我并没有打算背托福、雅思之类成型的词典，而只是记自己日常遇到了（已经够多了…），所以就需要自己构建生词本。工具上，我还是选用的自己之前用的 Anki；Chrome 浏览器结合 <a href="https://chrome.google.com/webstore/detail/online-dictionary-helper/lppjdajkacanlmpbbcdkccjkdbpllajb" target="_blank" rel="external">Online Dictionary Helper</a> 插件，划词时就可以将重启加入生词本。</p>
+<p>Anki 上每个单词的信息和布局，大致是这样的（包含发音的音频文件）：</p>
+<p><img src="https://ws3.sinaimg.cn/large/006tKfTcgy1g09t08y8daj30q60iwjwm.jpg" alt=""></p>
+<p>复习时，主要使用的是 Android 上的 AnkiDroid App，免费；iOS 端是付费版的，￥163，如果这个习惯坚持一段时间，应该是会购买以支持的。</p>
+<p>目前的计划是：<strong>每天学习 10+ 新单词</strong>，一年就是 3000+；如果计划能充分执行，一年后应该可以无障碍阅读大部分技术文档了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近在学习 Vue，看的是英文的官方文档，也是为了英语不丢下。期间，遇到一些不认识的单词，自然会去查。可查了之下，只是当时明白了，之后自然是忘记了。&lt;/p&gt;
+&lt;p&gt;对开发者而言，英语是非常重要的。比如获取国外最新的技术，比如伺候国外用户，等等。具体的说，主要的是阅读和书写的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0216 - 财不外露，才要露</title>
@@ -47,10 +76,10 @@
     <link href="https://atjason.com/daily/2019-02-15.html"/>
     <id>https://atjason.com/daily/2019-02-15.html</id>
     <published>2019-02-15T14:00:00.000Z</published>
-    <updated>2019-02-15T15:58:05.796Z</updated>
+    <updated>2019-02-17T15:56:37.629Z</updated>
     
     <content type="html"><![CDATA[<p>最近什么火？什么最能赚快钱？接下来什么可能会火？</p>
-<p>能回答这些问题，就是商业嗅觉很灵感了。</p>
+<p>能回答这些问题，就是商业嗅觉很敏感了。</p>
 <p>这其中，一个是对流量的敏感，什么东西突然出镜率变高了，讨论的人多了。不是等量上来后的后知后觉，而是能感觉到趋势的微妙变化。</p>
 <p>再有一个，就是对人性的洞查，尤其是贪嗔痴。太阳底下无新事，很多东西其实是已有东西的翻版。比如，之前线上娃娃机很火，而最近火的是线上玩游戏免费得口红，其实本质上路子差不多，只是多了些变种，引入一些新的玩法。</p>
 <p>我在这方面就比较迟钝了，常常是看到什么火了，只有一拍大腿的份。感觉这本事有点玄学，不是按什么套路就能精进的。</p>
@@ -59,7 +88,7 @@
     <summary type="html">
     
       &lt;p&gt;最近什么火？什么最能赚快钱？接下来什么可能会火？&lt;/p&gt;
-&lt;p&gt;能回答这些问题，就是商业嗅觉很灵感了。&lt;/p&gt;
+&lt;p&gt;能回答这些问题，就是商业嗅觉很敏感了。&lt;/p&gt;
 &lt;p&gt;这其中，一个是对流量的敏感，什么东西突然出镜率变高了，讨论的人多了。不是等量上来后的后知后觉，而是能感觉到趋势的微妙变化。&lt;/p&gt;
 &lt;p&gt;再有一个，就是对人
     
@@ -518,42 +547,6 @@
       &lt;p&gt;时不时，就会后悔：如果我当初一直坚持做某某事，现在早成了。&lt;/p&gt;
 &lt;p&gt;机会很多、诱惑很多，保持开放性，什么都碰一碰，甚至不断切换主战场。看似很灵活，却很可能是主动放弃主场，总是客场作战，在他人的主场交学费。&lt;/p&gt;
 &lt;p&gt;一定要有自己的主场，有拿得出手的东西。之后，才有
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0128 - 外行让内行惭愧</title>
-    <link href="https://atjason.com/daily/2019-01-28.html"/>
-    <id>https://atjason.com/daily/2019-01-28.html</id>
-    <published>2019-01-28T14:00:00.000Z</published>
-    <updated>2019-02-01T15:23:40.362Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，我会写代码，有时就会被问：</p>
-<ul>
-<li>你这么厉害，开发个 App 是不是很简单啊？帮我搞个呗。</li>
-<li>能不能帮我黑这个招标网站，让我直接中标？</li>
-<li>我开了个店，帮我做个介绍视频吧，劲爆的，就像这个。</li>
-<li>…</li>
-</ul>
-<p>惭愧，我搞不定…</p>
-<p>一方面，只有内行的人，才知道这些事里的弯弯绕，知道其中的难度，更多的是从「输入」的角度考虑问题。而从外行的角度，则更多是「输出」，也即结果。</p>
-<p>另一方面，内行的人，甚至是专业人士，也很容易陷入思维惯性、思维怪圈，就是因为太知道其中的难度，所以不敢去做，甚至不敢去想。而外行的人，则可能撸起袖子、一头扎进去，先干了再说，反而有可能把事情做成。内行的人，被外行的跨界秒杀，总是在上演。</p>
-<p>至少，如果有人在你面前说了外行话，先别急着嘲笑他人的无知和外行。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，我会写代码，有时就会被问：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;你这么厉害，开发个 App 是不是很简单啊？帮我搞个呗。&lt;/li&gt;
-&lt;li&gt;能不能帮我黑这个招标网站，让我直接中标？&lt;/li&gt;
-&lt;li&gt;我开了个店，帮我做个介绍视频吧，劲爆的，就像这个。&lt;/li&gt;
-&lt;li&gt;…&lt;/l
     
     </summary>
     
