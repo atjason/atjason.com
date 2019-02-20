@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-19T16:18:09.553Z</updated>
+  <updated>2019-02-20T15:59:22.106Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,17 +16,46 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0220 - 别用赶路的心态学习</title>
+    <link href="https://atjason.com/daily/2019-02-20.html"/>
+    <id>https://atjason.com/daily/2019-02-20.html</id>
+    <published>2019-02-20T14:00:00.000Z</published>
+    <updated>2019-02-20T15:59:22.106Z</updated>
+    
+    <content type="html"><![CDATA[<p>学习和旅游，其实挺像的。</p>
+<p>比较现代人的旅游，基本是下车拍照、上车睡觉。炫耀的是去过哪哪哪，有朋友圈为证。可如果你问些旅游地稍微有深度的问题，基本就 GG 了。</p>
+<p>学习也是类似，「我会 XXX」「我学过 XXX」，很多也都是朋友圈晒照级别的。真要用 XXX 解决某个问题、做出一个产品，基本就 GG 了。</p>
+<p>花一年时间走遍世界，可能不如在一个地方生活几个月。<br>A/B/C/D/E/F/G 都知道一些，可能不如好好琢磨其中一个。</p>
+<p>当然，浮光掠影未尝不可，只是一定要和深度游结合。就像是先把地图看一遍，做完攻略，然后重点体验某些地方。</p>
+<p>学习也是一样，应该保持开放的心态，什么都接触、什么都知道一些，培养全局观；但一定要在某些领域，有自己擅长的、拿得出手的东西。</p>
+<p><strong>学习的目的，是提高解决问题的能力。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习和旅游，其实挺像的。&lt;/p&gt;
+&lt;p&gt;比较现代人的旅游，基本是下车拍照、上车睡觉。炫耀的是去过哪哪哪，有朋友圈为证。可如果你问些旅游地稍微有深度的问题，基本就 GG 了。&lt;/p&gt;
+&lt;p&gt;学习也是类似，「我会 XXX」「我学过 XXX」，很多也都是朋友圈晒照级别的。真要用 
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0219 - 怎么才能成为独立开发者？</title>
     <link href="https://atjason.com/daily/2019-02-19.html"/>
     <id>https://atjason.com/daily/2019-02-19.html</id>
     <published>2019-02-19T14:00:00.000Z</published>
-    <updated>2019-02-19T16:18:09.553Z</updated>
+    <updated>2019-02-19T16:20:42.465Z</updated>
     
     <content type="html"><![CDATA[<p>时不时会被问类似的问题：怎么才能成为独立开发者？这条路有哪些坑？要注意什么？等等。</p>
 <p>我目前的理解，最主要的是：</p>
 <ul>
-<li>对内：知道自己想要什么，并有足够的自制力去学习、去实现</li>
-<li>对外：很长时间不成功，生活也不至于受很大的影响</li>
+<li><strong>对内：知道自己想要什么，并有足够的自制力去学习、去实现</strong></li>
+<li><strong>对外：很长时间不成功，生活也不至于受很大的影响</strong></li>
 </ul>
 <p>当然，还有很多外围的因素：</p>
 <ul>
@@ -42,8 +71,8 @@
       &lt;p&gt;时不时会被问类似的问题：怎么才能成为独立开发者？这条路有哪些坑？要注意什么？等等。&lt;/p&gt;
 &lt;p&gt;我目前的理解，最主要的是：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;对内：知道自己想要什么，并有足够的自制力去学习、去实现&lt;/li&gt;
-&lt;li&gt;对外：很长时间不成功，生活也不至于受很大的影响&lt;
+&lt;li&gt;&lt;strong&gt;对内：知道自己想要什么，并有足够的自制力去学习、去实现&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong
     
     </summary>
     
@@ -521,42 +550,6 @@
     
       &lt;p&gt;Apple 对虚拟支持管得严，要抽 30% 的分成，是以 iOS 版微信小程序，不能包含支付。没有支付，必然会很大地限制小程序的想象空间和体验。另外，据说苹果也开始搞支付宝小程序中的支付了。&lt;/p&gt;
 &lt;p&gt;我就在想，对于小程序开发者，有没有别的方式呢？当然，自己做个支付，肯
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0131 - 坚持输出</title>
-    <link href="https://atjason.com/daily/2019-01-31.html"/>
-    <id>https://atjason.com/daily/2019-01-31.html</id>
-    <published>2019-01-31T14:00:00.000Z</published>
-    <updated>2019-02-03T13:39:54.253Z</updated>
-    
-    <content type="html"><![CDATA[<p>博客，基本上天天在写，目前也有 1000 多篇了。只是最近，很少输出到其他平台了。一方面是手动操作，觉得太花时间了了。另一方面有时觉得自己写的太水，没好意思放别的平台。</p>
-<p>还是要坚持输出。其好处是很多的，主要还是：倒逼自己输入。</p>
-<p>坚持学习，坚持思考，坚持进步，坚持输出。</p>
-<p>另外，最近准备复活「自在开发」公众号，定位是：一位独立开发者的精进之路。目前计划有 2 个单元：</p>
-<ul>
-<li>每周碎碎念<ul>
-<li>大体的内容是上周计划及完成情况，本周计划，上周一些值得说的想法、见的东西。</li>
-</ul>
-</li>
-<li>案例剖析<ul>
-<li>主要是深入分析一些软件项目，从商业、产品、技术等多个层面，分析一个项目，思考如果是自己做，能在哪些地方做的更好、哪些地方还不行，等等。</li>
-</ul>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;博客，基本上天天在写，目前也有 1000 多篇了。只是最近，很少输出到其他平台了。一方面是手动操作，觉得太花时间了了。另一方面有时觉得自己写的太水，没好意思放别的平台。&lt;/p&gt;
-&lt;p&gt;还是要坚持输出。其好处是很多的，主要还是：倒逼自己输入。&lt;/p&gt;
-&lt;p&gt;坚持学习，坚持思考
     
     </summary>
     
