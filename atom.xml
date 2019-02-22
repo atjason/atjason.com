@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-21T02:28:36.288Z</updated>
+  <updated>2019-02-21T16:14:45.703Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0221 - 光学不练假把式</title>
+    <link href="https://atjason.com/daily/2019-02-21.html"/>
+    <id>https://atjason.com/daily/2019-02-21.html</id>
+    <published>2019-02-21T14:00:00.000Z</published>
+    <updated>2019-02-21T16:14:45.703Z</updated>
+    
+    <content type="html"><![CDATA[<p>纯学习有一个多星期了，虽说最近几天也是以实现 example 为主，但总归不是做实际的产品，很容易「出戏」</p>
+<p>实在憋不住，今天没再纯学习，而是做一个小小项目：在线 html/css/js 代码编辑器。对，世上有很多这种产品，比如 jsfiddle/codepen；我也就是练手，毕竟最近接连学了 css/vue，这个小项目刚好这几方面都能锻练，还是挺适合的。</p>
+<p>今天大概做出样子了，明天拿出来给大家见面。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;纯学习有一个多星期了，虽说最近几天也是以实现 example 为主，但总归不是做实际的产品，很容易「出戏」&lt;/p&gt;
+&lt;p&gt;实在憋不住，今天没再纯学习，而是做一个小小项目：在线 html/css/js 代码编辑器。对，世上有很多这种产品，比如 jsfiddle/codepen
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0220 - 别用赶路的心态学习</title>
@@ -525,31 +549,6 @@
 &lt;ul&gt;
 &lt;li&gt;你现在遇到的麻烦是什么？&lt;/li&gt;
 &lt;li&gt;你期望的、好的结
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0201 - 小程序支付第三方解决方案</title>
-    <link href="https://atjason.com/daily/2019-02-01.html"/>
-    <id>https://atjason.com/daily/2019-02-01.html</id>
-    <published>2019-02-01T14:00:00.000Z</published>
-    <updated>2019-02-01T15:53:52.325Z</updated>
-    
-    <content type="html"><![CDATA[<p>Apple 对虚拟支持管得严，要抽 30% 的分成，是以 iOS 版微信小程序，不能包含支付。没有支付，必然会很大地限制小程序的想象空间和体验。另外，据说苹果也开始搞支付宝小程序中的支付了。</p>
-<p>我就在想，对于小程序开发者，有没有别的方式呢？当然，自己做个支付，肯定是可以的，就是麻烦些，且要想办法规避被下架风险。</p>
-<p>比如，在有赞等商城开个店，销售序列号。用户购买后，可以在应用内兑换。其实这些东西本质上没什么区别，主要就是开发成本和用户体验的事，以及还是规避风险。</p>
-<p>苹果和微信，真是神仙打架。微软是越来越开放，苹果是越来越贵…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Apple 对虚拟支持管得严，要抽 30% 的分成，是以 iOS 版微信小程序，不能包含支付。没有支付，必然会很大地限制小程序的想象空间和体验。另外，据说苹果也开始搞支付宝小程序中的支付了。&lt;/p&gt;
-&lt;p&gt;我就在想，对于小程序开发者，有没有别的方式呢？当然，自己做个支付，肯
     
     </summary>
     
