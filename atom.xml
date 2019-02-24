@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-23T16:28:37.466Z</updated>
+  <updated>2019-02-24T15:29:47.086Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,11 +16,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0224 - 技术的道与术</title>
+    <link href="https://atjason.com/daily/2019-02-24.html"/>
+    <id>https://atjason.com/daily/2019-02-24.html</id>
+    <published>2019-02-24T14:00:00.000Z</published>
+    <updated>2019-02-24T15:29:47.086Z</updated>
+    
+    <content type="html"><![CDATA[<p>一直以为，我都很遗憾没能参与大型复杂软件项目的开发。毕竟，对于开发人员来说，这是很好的历练和经验，也是能力的证明。</p>
+<p>慢慢的，我开始释怀，因为我 <strong>判断价值的标准变了</strong>。技术能力，是对开发者在「术」层面的要求。而更高的「道」的层面，是 <strong>为多少用户解决多少问题、解决的怎么样</strong>，这才是应该考量的标准。</p>
+<p>在这个标准下，技术的可扩展性、实时性、高并发性、可靠性等能力，都变成第二位的、非必要的。<strong>如果对于解决问题没有帮助，就没必要在意它们。</strong></p>
+<p>另外，<strong>大型软件自有其弊端</strong>，比如成本高昂，维护困难等。显然，并不是所有实际产品都需要上这样的技术。对于更广大的中小产品，精简的技术足以胜任，且因为小而带来很多好处，尤其是实际用户所负担得起。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一直以为，我都很遗憾没能参与大型复杂软件项目的开发。毕竟，对于开发人员来说，这是很好的历练和经验，也是能力的证明。&lt;/p&gt;
+&lt;p&gt;慢慢的，我开始释怀，因为我 &lt;strong&gt;判断价值的标准变了&lt;/strong&gt;。技术能力，是对开发者在「术」层面的要求。而更高的「道」的层面，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0223 - 碎片化学习</title>
     <link href="https://atjason.com/daily/2019-02-23.html"/>
     <id>https://atjason.com/daily/2019-02-23.html</id>
     <published>2019-02-23T14:00:00.000Z</published>
-    <updated>2019-02-23T16:28:37.466Z</updated>
+    <updated>2019-02-24T02:08:06.106Z</updated>
     
     <content type="html"><![CDATA[<p>此言不虚啊。</p>
 <p>遥想当年，在学校的时候，可以在图书馆一呆就是半天一天的。</p>
@@ -30,7 +55,7 @@
 <li>拿手机的机会都没有时（比如抱娃），反刍刚才看的东西，思考为什么要那样做、如何用于实际生产、等等；</li>
 <li>终于有时间坐在电脑前时，复习文档，并开始代码练习，并固化出惯用法。</li>
 </ul>
-<p>这其实要求更高，比如精力管理，比如随时进入专注状态，比如视力腰椎颈椎的保护…</p>
+<p>这其实要求更高，比如随时进入专注状态，比如精力管理，比如视力腰椎颈椎的保护…</p>
 <p><strong>碎片时间学习、理解，大块时间练习、固化。</strong></p>
 ]]></content>
     
@@ -530,34 +555,6 @@
       &lt;p&gt;走亲戚、大批家人聚会、吃团圆饭、放野火、放飞气球…新年好！&lt;/p&gt;
 &lt;p&gt;年轻的人，昨晚去通宵 K 歌喝酒；&lt;br&gt;不再年轻的人，只是聚在一起吃饭，边上放着春晚…&lt;br&gt;什么季节做什么事。&lt;/p&gt;
 &lt;p&gt;自己的年纪，只是努力、尽力前行。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0204 - 除夕</title>
-    <link href="https://atjason.com/daily/2019-02-04.html"/>
-    <id>https://atjason.com/daily/2019-02-04.html</id>
-    <published>2019-02-04T14:00:00.000Z</published>
-    <updated>2019-02-04T17:11:14.469Z</updated>
-    
-    <content type="html"><![CDATA[<p>2018：心急气燥，动作变形</p>
-<p>2019：拨乱反正，学习准备</p>
-<p>2020：开花结果，放大价值</p>
-<p>不论过年是否有年味，都要让自己的生活有滋有味。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;2018：心急气燥，动作变形&lt;/p&gt;
-&lt;p&gt;2019：拨乱反正，学习准备&lt;/p&gt;
-&lt;p&gt;2020：开花结果，放大价值&lt;/p&gt;
-&lt;p&gt;不论过年是否有年味，都要让自己的生活有滋有味。&lt;/p&gt;
 
     
     </summary>

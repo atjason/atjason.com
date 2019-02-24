@@ -4,6 +4,24 @@
   
     
     <entry>
+      <title><![CDATA[0224 - 技术的道与术]]></title>
+      <url>https://atjason.com/daily/2019-02-24.html</url>
+      <content type="html"><![CDATA[<p>一直以为，我都很遗憾没能参与大型复杂软件项目的开发。毕竟，对于开发人员来说，这是很好的历练和经验，也是能力的证明。</p>
+<p>慢慢的，我开始释怀，因为我 <strong>判断价值的标准变了</strong>。技术能力，是对开发者在「术」层面的要求。而更高的「道」的层面，是 <strong>为多少用户解决多少问题、解决的怎么样</strong>，这才是应该考量的标准。</p>
+<p>在这个标准下，技术的可扩展性、实时性、高并发性、可靠性等能力，都变成第二位的、非必要的。<strong>如果对于解决问题没有帮助，就没必要在意它们。</strong></p>
+<p>另外，<strong>大型软件自有其弊端</strong>，比如成本高昂，维护困难等。显然，并不是所有实际产品都需要上这样的技术。对于更广大的中小产品，精简的技术足以胜任，且因为小而带来很多好处，尤其是实际用户所负担得起。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0223 - 碎片化学习]]></title>
       <url>https://atjason.com/daily/2019-02-23.html</url>
       <content type="html"><![CDATA[<p>此言不虚啊。</p>
@@ -14,7 +32,7 @@
 <li>拿手机的机会都没有时（比如抱娃），反刍刚才看的东西，思考为什么要那样做、如何用于实际生产、等等；</li>
 <li>终于有时间坐在电脑前时，复习文档，并开始代码练习，并固化出惯用法。</li>
 </ul>
-<p>这其实要求更高，比如精力管理，比如随时进入专注状态，比如视力腰椎颈椎的保护…</p>
+<p>这其实要求更高，比如随时进入专注状态，比如精力管理，比如视力腰椎颈椎的保护…</p>
 <p><strong>碎片时间学习、理解，大块时间练习、固化。</strong></p>
 ]]></content>
       
@@ -7849,22 +7867,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -7906,6 +7908,22 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
