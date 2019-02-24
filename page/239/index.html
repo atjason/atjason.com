@@ -258,6 +258,252 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/629.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/629.html" itemprop="url">
+                  Origami之于滴答清单—添加任务的交互
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-25T18:32:16+08:00">
+                2015-05-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PM/" itemprop="url" rel="index">
+                    <span itemprop="name">PM</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>滴答清单是已经存在的产品，其中延期也包含了添加任务的交互。这里并不是使用Origami去设计，而是使用Origami去模仿，达到学习Origami的目的。</p>
+<p>关于滴答清单，本文模仿的是iOS1.9.4版本的滴答清单，可以在滴答清单官网去下载：<a href="http://www.dida365.com" target="_blank" rel="external">http://www.dida365.com</a></p>
+<p>好，以下就开始整个模仿的过程，大致分为三步。</p>
+<h1 id="一，想清楚交互的具体过程"><a href="#一，想清楚交互的具体过程" class="headerlink" title="一，想清楚交互的具体过程"></a>一，想清楚交互的具体过程</h1><p>也就是说，实际操作滴答清单，了解添加任务的过程，然后逐渐对整个交互进行拆解。过程中，可以使用高速录像后慢放的方式，了解动画的细节。</p>
+<p>拆分结束后，大致可分为以下的交互、或者说动画：</p>
+<ul>
+<li><p>正向（即添加任务）</p>
+<pre><code>*   加号键逐渐放大、消
+</code></pre><ul>
+<li><p>同时完成以下交</p>
+</li>
+<li><p>标题栏文字和图标切</p>
+</li>
+<li><p>主页面切</p>
+</li>
+<li><p>键盘升</p>
+</li>
+</ul>
+</li>
+<li><p>反向（即从添加任务状态返回）</p>
+<pre><code>*   两种方式触发返
+</code></pre><ul>
+<li><p>点击返回</p>
+</li>
+<li><p>屏幕右滑（本期暂时不包含这一功能</p>
+</li>
+<li><p>同时完成以下交</p>
+</li>
+<li><p>标题栏文字和图标切</p>
+</li>
+<li><p>主页面切换</p>
+<pre><code>*   注：加号键和页面同时出现，没有动
+</code></pre></li>
+<li><p>键盘下降</p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="二，准备素材"><a href="#二，准备素材" class="headerlink" title="二，准备素材"></a>二，准备素材</h1><p>其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：</p>
+<ul>
+<li><p>图标：抽屉、菜单、返</p>
+</li>
+<li><p>图片：状态栏及标题栏、任务列表界面、新任务页面、键盘页面、加号键</p>
+</li>
+</ul>
+<p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/Assets.zip">下载素材</a>：</p>
+<h1 id="三，逐步实现交互"><a href="#三，逐步实现交互" class="headerlink" title="三，逐步实现交互"></a>三，逐步实现交互</h1><p>以下是主要的部分，放在一个步骤里，显示有些大了。不过不用担心，还是一步步完成的。</p>
+<h2 id="布置静态的任务列表界面"><a href="#布置静态的任务列表界面" class="headerlink" title="布置静态的任务列表界面"></a>布置静态的任务列表界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。具体的内容和素材包括：</p>
+<ul>
+<li><p>标题栏：背影、图标、文</p>
+</li>
+<li><p>内容界</p>
+</li>
+<li><p>加号键</p>
+</li>
+</ul>
+<p>小技巧：可将截图放在最上方，并使其半透明，这样就可以使用截图来校对元素在界面上的位置</p>
+<p>布置好后是这样的：</p>
+<p><img src="https://ps.toolinbox.net/cswp7.png" alt="任务列表界面"></p>
+<h2 id="依次实现以下任务列表界面的交互"><a href="#依次实现以下任务列表界面的交互" class="headerlink" title="依次实现以下任务列表界面的交互"></a>依次实现以下任务列表界面的交互</h2><ul>
+<li><p>消息的触发</p>
+<pre><code>*   以点击加号键任务交互的触发点。可以将按下加号键的消息以Wireless的方式广播出去，这样可以方便得在其它LayerGroup中使用
+</code></pre></li>
+<li><p>点击加号键后，加号键逐渐放大、消失</p>
+<pre><code>*   也即修改Scale、Opacity属性，使得加号键在放大的过程中同时消失
+</code></pre></li>
+<li><p>标题栏图标的切换</p>
+<pre><code>*   也即修改Opacity属性，使得图标在过渡过程中消
+</code></pre></li>
+<li><p>标题栏文字的切换</p>
+<pre><code>*   也即修改XPosition、Opacity属性，使得图标在左移过程中消
+</code></pre></li>
+<li><p>主页面切换</p>
+<pre><code>*   也即修改Opacity属性，使得内容在左移过程中消失
+</code></pre></li>
+</ul>
+<p>QC中的界面大致是这样的：</p>
+<p><img src="https://ps.toolinbox.net/v679h.jpg" alt=""></p>
+<h2 id="创建Layer-Group"><a href="#创建Layer-Group" class="headerlink" title="创建Layer Group"></a>创建Layer Group</h2><p>将任务列表的所有内容放置在一个LayerGroup中，同时创建另一个LayerGroup，用于放置新任务的内容。暂时关闭任务列表界面，进行接下来新任务界面的设计。</p>
+<p><img src="https://ps.toolinbox.net/f09x4.jpg" alt="Layer Group"></p>
+<h2 id="布置静态的新任务界面"><a href="#布置静态的新任务界面" class="headerlink" title="布置静态的新任务界面"></a>布置静态的新任务界面</h2><p>这一点和上面介绍的布置静态任务列表界面类似，这里就不多做介绍。布置好后是这样的：</p>
+<p><img src="https://ps.toolinbox.net/lpztp.png" alt="新任务界面"></p>
+<h2 id="依次实现以下新任务界面的交互"><a href="#依次实现以下新任务界面的交互" class="headerlink" title="依次实现以下新任务界面的交互"></a>依次实现以下新任务界面的交互</h2><ul>
+<li><p>消息的触发</p>
+<pre><code>*   以点击返回键任务交互的触发点、暂时不处理滑动返回操作。同时的，可以将该消息以Wireless的方式广播出去
+</code></pre></li>
+<li><p>标题栏图标的切换</p>
+<pre><code>*   也即修改Opacity属性，使得图标在过渡过程中消
+</code></pre></li>
+<li><p>标题栏文字的切换</p>
+<pre><code>*   也即修改XPosition、Opacity属性，使得图标在右移过程中消
+</code></pre></li>
+<li><p>主页面切换</p>
+<pre><code>*   也即修改Opacity属性，使得内容在左移过程中消
+</code></pre></li>
+<li><p>键盘下降</p>
+<pre><code>*   也即修改YPosition、Opacity属性，使得图标在下移过程中消失
+</code></pre></li>
+</ul>
+<p>​QC中的界面大致是这样的：</p>
+<p><img src="https://ps.toolinbox.net/h48py.jpg" alt="新任务界面"></p>
+<h2 id="重新打开任务列表的LayerGroup，并进行调整"><a href="#重新打开任务列表的LayerGroup，并进行调整" class="headerlink" title="重新打开任务列表的LayerGroup，并进行调整"></a>重新打开任务列表的LayerGroup，并进行调整</h2><p>将任务列表的LayerGroup放在底层，将新任务的LayerGroup放在上层</p>
+<p>使用添加任务、返回两个消息，控制上述两个层的状态切换。需要注意的是，除了状态切换，还需要在显示底层时隐藏上层，也即在显示任务列表的LayerGroup时隐藏新任务的LayerGroup，这样才能响应任务列表的点击操作。</p>
+<p>进行其它一些调整，主要是针对动画的过渡，修正其中处理不好的地方。注意，这里有一点要说，不要刻意追求动画的完美。有时，花了2个小时做好了90%的交互、已经可以表达出意图，却又要花1小时、甚至更多的时间去调整不完美的地方，这就有些钻牛角尖了，浪费精力、没有必要。除非是开发同学能100%实现你设计的交互，不然这样的交互只是用来表达意图，做得太完美反而是浪费时间。</p>
+<p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/AddTask_OK.zip">下载Origami工程文件</a>。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/632.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1138,233 +1384,11 @@ EndFragment
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/579.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/579.html" itemprop="url">
-                  在Radxa上安装AMH
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-20T15:37:56+08:00">
-                2014-07-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p># </p>
-<pre><code>写在前面
-
-什么是Radxa？
-
-它是一块ARM开发板，可以运行基于Ubuntu的Linux系统，功率低（一般状态不到3W），可以放在家里做个常开的Linux服务器。更多信息，可以看看这篇[Radxa折腾小记](http://atjason.com/519.html)，或者到其[官网](http://radxa.com/)了解
-
-什么是AMH？
-
-国内首个免费开源虚拟主机面板。更多信息，可以到其[官网](http://amysql.com/AMH.htm)了解
-</code></pre><p># </p>
-<pre><code>安装过程遇到的问题及解决办法
-
-正常运行amh.sh，得到如下错误：
-</code></pre><p>[Error] Your system is not supported install AMH</p>
-<p>more</p>
-<pre><code>编辑amh.sh，找到&amp;ldquo;Your system is not supported install AMH&amp;rdquo;，在上面添加&amp;ldquo;SysName=&amp;#39;ubuntu&amp;#39;;&amp;rdquo;（因为Radxa事实上运行的就是Linaro 13.09（基于Ubuntu 13.04），不过是ARM版的）
-</code></pre><p>egrep -i &quot;ubuntu&quot; /etc/issue &amp;&amp; SysName=&#39;ubuntu&#39;;</p>
-<p>SysName=&#39;ubuntu&#39;;</p>
-<p>[ “$SysName” == ‘’  ] &amp;&amp; echo ‘[Error] Your system is not supported install AMH&#39; &amp;&amp; exit;</p>
-<pre><code>此时amh.sh可以运行，按正常模式安装，结束后得到如下错误：
-</code></pre><p>Sorry, Failed to install AMH</p>
-<p>Please contact us: <a href="http://amysql.com" target="_blank" rel="external">http://amysql.com</a></p>
-<pre><code>查看amh.log，发现有如下关于&amp;quot;libiconv&amp;quot;的错误内容：
-</code></pre><p>./stdio.h:1010:1: error: &lsquo;gets&rsquo; undeclared here (not in a function)</p>
-<p>make[2]: <em>*</em> [progname.o] Error 1</p>
-<p>make[2]: Leaving directory `/home/amh_install/packages/untar/libiconv-1.14/srclib&#39;</p>
-<pre><code>对于这个问题，参照[这个解决方案](http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610)
-
-另外的关于&amp;quot;mysql&amp;quot;的错误：
-</code></pre><p>[ 72%] Building C object libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o</p>
-<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c: In function &lsquo;mysql_client_plugin_init&rsquo;:</p>
-<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c:252:5: error: incompatible type for argument 5 of &lsquo;add_plugin&rsquo;</p>
-<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c:120:1: note: expected &lsquo;va_list&rsquo; but argument is of type &lsquo;int&rsquo;</p>
-<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c: In function &lsquo;mysql_client_register_plugin&rsquo;:</p>
-<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c:310:5: error: incompatible type for argument 5 of &lsquo;add_plugin&rsquo;</p>
-<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c:120:1: note: expected &lsquo;va_list&rsquo; but argument is of type &lsquo;int&rsquo;</p>
-<p>make[2]: <em>*</em> [libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o] Error 1</p>
-<p>make[1]: <em>*</em> [libmysql/CMakeFiles/clientlib.dir/all] Error 2</p>
-<p>make: <em>*</em> [all] Error 2</p>
-<pre><code>原因：其实是变量类型的问题，具体不多解释。解决办法：
-
-编辑&amp;ldquo;/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c&amp;rdquo;，搜索&amp;ldquo;mysql_client_plugin_init()&amp;rdquo;，在｛下面添加一行：
-
-va_list dummy;
-
-向下搜索&amp;ldquo;add_plugin(&amp;amp;mysql, *builtin, 0, 0, 0)&amp;rdquo;，将其替换为&amp;ldquo;add_plugin(&amp;amp;mysql, *builtin, 0, 0, dummy)&amp;rdquo;
-
-搜索&amp;ldquo;mysql_client_register_plugin(MYSQL&amp;rdquo;，在｛下面添加一行：
-
-va_list dummy;
-
-向下搜索&amp;ldquo;plugin= add_plugin(mysql, plugin, 0, 0, 0)&amp;rdquo;，将其替换为&amp;ldquo;plugin= add_plugin(mysql, plugin, 0, 0, dummy)&amp;rdquo;
-
-完成以上的手动打补丁，修改amh.sh，注释掉mysql的下载、解压步骤：
-
-
-
-    #Downloadfile &amp;quot;${MysqlVersion}.tar.gz&amp;quot; &amp;quot;http://code.amysql.com/files/${MysqlVersion}.tar.gz&amp;quot;;
-
-    #rm -rf $AMHDir/packages/untar/$MysqlVersion;
-
-    #echo &amp;quot;tar -zxf ${MysqlVersion}.tar.gz ing...&amp;quot;;
-
-    #tar -zxf $AMHDir/packages/$MysqlVersion.tar.gz -C $AMHDir/packages/untar;
-
-另外，对于已经能成功安装的组件，可用上面类似的办法注释掉下载、解压步骤，这样下次运行安装脚本时就不需要重新下载、解压、编译，节约时间。如注释掉php相关的：
-
-
-
-    #Downloadfile &amp;quot;${PhpVersion}.tar.gz&amp;quot; &amp;quot;http://code.amysql.com/files/${PhpVersion}.tar.gz&amp;quot;;
-
-    #rm -rf $AMHDir/packages/untar/$PhpVersion;
-
-    #echo &amp;quot;tar -zxf ${PhpVersion}.tar.gz ing...&amp;quot;;
-
-    #tar -zxf $AMHDir/packages/$PhpVersion.tar.gz -C $AMHDir/packages/untar;
-
-重新运行amh.sh，一切正常。访问http://IP:8888并登陆，一切正常
-
-EndFragment
-</code></pre>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/238/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/238/">238</a><span class="page-number current">239</span><a class="page-number" href="/page/240/">240</a><span class="space">&hellip;</span><a class="page-number" href="/page/254/">254</a><a class="extend next" rel="next" href="/page/240/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/238/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/238/">238</a><span class="page-number current">239</span><a class="page-number" href="/page/240/">240</a><span class="space">&hellip;</span><a class="page-number" href="/page/255/">255</a><a class="extend next" rel="next" href="/page/240/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1409,7 +1433,7 @@ EndFragment
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1270</span>
+                <span class="site-state-item-count">1271</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

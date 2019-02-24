@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-23T03:09:45.200Z</updated>
+  <updated>2019-02-23T16:28:37.466Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,14 +16,49 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0223 - 碎片化学习</title>
+    <link href="https://atjason.com/daily/2019-02-23.html"/>
+    <id>https://atjason.com/daily/2019-02-23.html</id>
+    <published>2019-02-23T14:00:00.000Z</published>
+    <updated>2019-02-23T16:28:37.466Z</updated>
+    
+    <content type="html"><![CDATA[<p>此言不虚啊。</p>
+<p>遥想当年，在学校的时候，可以在图书馆一呆就是半天一天的。</p>
+<p>如今，这种好日子一去不复返。对于现在的我，最佳的学习模式是：</p>
+<ul>
+<li>有机会拿起手机时，看几眼技术文档；</li>
+<li>拿手机的机会都没有时（比如抱娃），反刍刚才看的东西，思考为什么要那样做、如何用于实际生产、等等；</li>
+<li>终于有时间坐在电脑前时，复习文档，并开始代码练习，并固化出惯用法。</li>
+</ul>
+<p>这其实要求更高，比如精力管理，比如随时进入专注状态，比如视力腰椎颈椎的保护…</p>
+<p><strong>碎片时间学习、理解，大块时间练习、固化。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;此言不虚啊。&lt;/p&gt;
+&lt;p&gt;遥想当年，在学校的时候，可以在图书馆一呆就是半天一天的。&lt;/p&gt;
+&lt;p&gt;如今，这种好日子一去不复返。对于现在的我，最佳的学习模式是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;有机会拿起手机时，看几眼技术文档；&lt;/li&gt;
+&lt;li&gt;拿手机的机会都没有时（比如抱娃）
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0222 - 官方文档与第三方教程</title>
     <link href="https://atjason.com/daily/2019-02-22.html"/>
     <id>https://atjason.com/daily/2019-02-22.html</id>
     <published>2019-02-22T14:00:00.000Z</published>
-    <updated>2019-02-23T03:09:45.200Z</updated>
+    <updated>2019-02-23T03:38:54.060Z</updated>
     
     <content type="html"><![CDATA[<p><strong>技术的官方文档通常有个特点</strong>，或者说问题，就是太长太冗余。为了保持权威性和完整性，就像 RFC 一样，必需事无巨细地交待所有内容。这就使得 <strong>主要和次要的内容混杂在一起</strong>，既淹没了重点，也极大地增加了学习成本。</p>
-<p>而与之相对的，是 <strong>现代人</strong> 的急躁；并 <strong>不想真正地学习某东西，而只是想尽快解决眼下的问题</strong>。尤其是，老板怪不得员工在瞬间用新技术实现新业务。</p>
+<p>而与之相对的，是 <strong>现代人</strong> 的急躁；<strong>并不想真正地学习某东西，而只是想尽快解决眼下的问题</strong>。尤其是，老板怪不得员工在瞬间用新技术实现新业务。</p>
 <p>两者对比如此强烈，<strong>怎么办呢？找捷径</strong>。</p>
 <p>这种状况和思路，是没有国别和文化差异的。体现在国内就是各种速成班（演化到现在就是网上课程、知识付费），XXX 简明教程，30 天 XXX 实战，给大忙人写的 XXX 入门教程，等等。在国外就是 Head First 系列等等。翻开这些书，绝大多数都是 LJ，通常是官方文档的整段整篇搬抄或翻译，都是在人们焦虑急迫之下的知识快销品。</p>
 <p>当然，也不能一棒子打死，有些第三方教程或书籍，确实是很好的。比如，《Cocoa Programming for Mac OS X》，比如阮一峰老师的文章。在我看来，<strong>好的教程主要提供两方面的帮助：</strong></p>
@@ -524,36 +559,6 @@
 &lt;p&gt;2020：开花结果，放大价值&lt;/p&gt;
 &lt;p&gt;不论过年是否有年味，都要让自己的生活有滋有味。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0203 - 无固化，不学习</title>
-    <link href="https://atjason.com/daily/2019-02-03.html"/>
-    <id>https://atjason.com/daily/2019-02-03.html</id>
-    <published>2019-02-03T14:00:00.000Z</published>
-    <updated>2019-02-04T17:11:27.888Z</updated>
-    
-    <content type="html"><![CDATA[<p>学习，自然是要学会。只看一遍，很容易有「会了」的感觉，可真动起手来，还是会傻眼。</p>
-<p>怎么才算学会呢？自己能用起来。</p>
-<p>在用起来之前、纯学习时，也需要有「固化」、板结，有输出。比如编程，其固化的典型形式，就是代码，如示例工程、代码片断。这样，将来使用时，可以直接从自己的知识库中，拾取之前已经习得的片断，应用之。</p>
-<p>这不，我最近在学习 CSS，固化的结果就是发布在 GitHub 上的代码：</p>
-<p><a href="https://github.com/atjason/css_usage" target="_blank" rel="external">https://github.com/atjason/css_usage</a></p>
-<p>另外，「幕布」挺适合做逻辑摘要，比如这是我梳理的 flex 布局的用法：</p>
-<p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1fztjlnoquzj30u00vs7df.jpg" width="800px"></p>
-<p>你也可以 <a href="https://mubu.com/doc/10JEXmBIAZ" target="_blank" rel="external">在幕布中查看原文档</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;学习，自然是要学会。只看一遍，很容易有「会了」的感觉，可真动起手来，还是会傻眼。&lt;/p&gt;
-&lt;p&gt;怎么才算学会呢？自己能用起来。&lt;/p&gt;
-&lt;p&gt;在用起来之前、纯学习时，也需要有「固化」、板结，有输出。比如编程，其固化的典型形式，就是代码，如示例工程、代码片断。这样，将来使用时
     
     </summary>
     
