@@ -258,6 +258,336 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/512.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/512.html" itemprop="url">
+                  路由器折腾小记
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-05T13:39:36+08:00">
+                2014-07-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>近段时间折腾路由器，小记一下</p>
+<h1 id="为什么要折腾路由器？"><a href="#为什么要折腾路由器？" class="headerlink" title="为什么要折腾路由器？"></a>为什么要折腾路由器？</h1><pre><code>之所以要折腾，自然是现在的路由器不能满足需求。之前用的是TP LINK 54M的无线路由器，4年前买的，想想也知道淘汰得差不多了。话说路由器确实是个耐用的东西，在电子产品中能用超过4年，绝对是老年级的，也说明这是个小众市场，毕竟淘汰速度慢
+
+到底哪些方面不给力呢？
+</code></pre><ul>
+<li><p>不稳定。尤其是无线方面，经常莫名其妙得连接不上，拔电源重启后就一切正常。估计是持续运行时间过长导致内部软件出问题</p>
+</li>
+<li><p>信号覆盖不强。主要指的就是穿墙能力了，路由器放客厅，在卧室信号就很弱，竟然还没有隔壁家无线信号强，这个太无语了，忍着别人家的辐射却上不了自家的网，想想就郁闷</p>
+</li>
+<li><p>翻墙不方便。这其实是最主要的原因。随着本界政府对大陆局域网建设步伐的加速，其行径越来越令人发指，越来越多的网站无法访问，实在忍无可忍</p>
+</li>
+</ul>
+<h1 id="软件：路由器之魂"><a href="#软件：路由器之魂" class="headerlink" title="软件：路由器之魂"></a>软件：路由器之魂</h1><pre><code>所谓折腾，其实主要是指折腾软件，毕竟折腾硬件现在还没经验。而软件，在路由器这一领域更多的称之为固件、ROM。在可折腾的固件榜单中，靠前的自然是Open WRT, DD WRT, tomato等等，其外还有华硕ROM之类的。经过简单比较后，选择了自己相对较熟悉的Open WRT 什么是Open WRT？这一点我就不再拾人牙慧，大家可以到网上简单一搜便可得知。比如[这一篇](http://baike.baidu.com/view/1671581.htm)和[这一篇](http://www.dz3w.com/mcu/linux/0075344.html)，Open WRT的由来还有一段趣闻哦，不妨一看 more
+</code></pre><h1 id="硬件：软件之基础"><a href="#硬件：软件之基础" class="headerlink" title="硬件：软件之基础"></a>硬件：软件之基础</h1><pre><code>要根据软件来选硬件（也即根据固件来选择路由器），而不是反过来，不然就是路由器折腾你、而非你折腾路由器了。Open WRT官方支持哪些路由器呢？简单，到这个网址上一看便知：[http://wiki.openwrt.org/toh/start](http://wiki.openwrt.org/toh/start)
+
+不过，打开网页你会发现，上面的列表长得吓人。怎么选呢？几个方面
+</code></pre><ul>
+<li><p>选能买得到的。因为一些已经不卖了，一些不在国内卖。说到这时忍不住要吐槽一些国内路由器厂商，比如TP LINK，一些性价比高的、配置说得过去的路由器竟然都不在自己母国卖，在国外的Amazon上倒是卖得挺欢。不知道原因，也不方便开骂，希望不是因为觉得国内的用户人傻钱多好骗，所以就卖些低端货</p>
+</li>
+<li><p>选配置高的。主要是ROM（也即闪存）高，这个是用来存放软件的地方。然后是RAM（也即内存）高，这个是软件运行时需要的空间。然后是CPU好（频率高、多核）。然后是一些最好支持的功能：千兆网卡、支持无线ac、支持5G无线、支持USB接口等等</p>
+</li>
+<li><p>选买得起的。或者说买预算内的，因为要烧硬件，几千元的路由器也不少</p>
+<pre><code>我选了哪款？Netgear WNDR3800，配置如下：芯片Atheros AR7161、CPU 680Mhz、闪存16M、内存128M、千兆网卡、无线支持802.11 a/b/g/n、支持5G、支持USB接口，唯一遗憾是不支持802.11 ac。之所以选这款是lifetyper君推荐的，自己也觉得不错。关于购买渠道，因为不在国内销售，只能从淘宝买国外的洋垃圾。注：Amazon原价$139.95，淘宝约200+。拿到手后就直接刷了Open WRT官方固件，目前用起来还算顺手
+</code></pre></li>
+</ul>
+<h1 id="翻墙"><a href="#翻墙" class="headerlink" title="翻墙"></a>翻墙</h1><pre><code>接下来就来到折腾的重点：翻墙。所谓墙，有很多种形式，比如DNS污染、屏蔽IP等等。相对应的，翻墙也有很多种方法。经过比较后，笔者选用的是lifetyper君所给出的[方案](https://github.com/lifetyper/FreeRouter_V2) 该方案核心思路是：在路由器使用VPN括号生成新的网关，利用Dnsmasq的ipset功能，配置哪些域名需要国外DNS服务器解析、哪些使用国内运营商的DNS服务器，哪些域名所对应的IP使用VPN网关访问、哪些使用国内的。这样的方案维护成本低，不需要客户端修改，确实很好用 这里要重点感谢下lifetyper君，他花了大量时间来解决我在折腾过程中碰到的奇奇怪怪的问题，谢谢
+</code></pre><h1 id="国内-ldquo-智能-rdquo-路由器"><a href="#国内-ldquo-智能-rdquo-路由器" class="headerlink" title="国内&ldquo;智能&rdquo;路由器"></a>国内&ldquo;智能&rdquo;路由器</h1><pre><code>这里忍不住要818国内所谓的&amp;ldquo;智能&amp;rdquo;路由器。殊不知，你经常听到的极路由、小米路由器等等，其实他们的固件都是基于Open WRT，而一般用户却可能压根不知道，为什么？因为他们从来不会在发布会、官网、广告等场合中提到这一点，反而讳莫如深，甚至威胁用户你如果刷成Open WRT官方固件，路由器就不保修（没错，说的是极路由，买了，不爽；但为了测试，忍住没退货）。明明深深依赖着开源代码，却不尊重开源、不回馈开源、甚至都不宣传开源，这样的行径实在让人不齿
+</code></pre><h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><pre><code>到目前为止，路由器的折腾告一段落。毕竟我不是这一领域的，不可能花大把的时间来折腾，满足自己的需求即可。不过，还是希望路由器的从业者，在谋求应得商业利益时，能减少用户所需要折腾的时间、精力，做出对用户来说好用、易用的产品。同时，如果你使用开源代码，一定要回馈开源社区
+</code></pre>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/507.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/507.html" itemprop="url">
+                  网站搬家小记
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-05T09:35:15+08:00">
+                2014-07-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>不知不觉间，这两天网站已经搬了再次家了，可谓飘洋过海、翻山越岭，这里小记下</p>
+<h1 id="AWS"><a href="#AWS" class="headerlink" title="AWS"></a>AWS</h1><p>之前网站是搭建上AWS上。提起Amazon AWS这个占据一半以上服务器市场的老大，圈内人士应该无人不知。当时选择AWS的原因很简单：免费。财大气粗的Amazon为了吸引更多的人使用AWS，允许新用户免费使用一年。目前这个活动依然继续：<a href="http://aws.amazon.com/free/" target="_blank" rel="external">http://aws.amazon.com/free/</a></p>
+<p>就我的使用体验来说，AWS最大的好处就是稳定，没有碰到过网站不能访问的时候。最大的问题就是慢，一是后台管理页面打开比较慢，基本要翻墙速度才快；二是网站在国内访问速度一般（我的是在日本，据说新加坡的节点会快些），每次进入后台写点什么都要等上半天，可能不同地区的国内用户打开时速度也不见得快</p>
+<p>这不，免费的AWS要到期了，是时候考虑换一个快点的主机</p>
+<p>more</p>
+<h1 id="国内云主机"><a href="#国内云主机" class="headerlink" title="国内云主机"></a>国内云主机</h1><p>为了速度，首先把目光移到国内云主机。经过简单的比较，选择了阿里云主机。我承认，一定程度上是被“阿里”这个牌子给吸引过去的，虽然这是一家什么业务都涉足、经常不务正业的公司</p>
+<h1 id="阿里云"><a href="#阿里云" class="headerlink" title="阿里云"></a>阿里云</h1><p>阿里云为了吸引用户，也有5天的试用机会，不过还要申请，真是小家子气。申请也就罢了，竟然默认是在青岛、而不给用户选择机会；估计是为了给青岛的节点增加人气、降低成本。可是，这也太粗暴了，他也不想想，一旦用得爽了、在服务器上花了大把时间配置后，又需要在杭州等其他节点创建服务器时怎么办？</p>
+<p>在一边骂这个脑残、或者说为了商业利益不惜伤害用户利益的做法，一边花钱买了一个月的杭州主机，省得以后真的使用时浪费之前的时间。这里有个插曲，阿里云为了吸引用户，新注册用户在回答几个白痴问题后就可以得到20元代金券。好吧，为了这点钱，我还是屁颠屁颠得回答了问题，35元买了一个月乞丐版。创建主机后第一次访问、配置什么的没什么可说的，一切顺利</p>
+<h1 id="备案"><a href="#备案" class="headerlink" title="备案"></a>备案</h1><p>接下来便是万恶的备案。什么是备案？简单得说，政府默认你开网站一定是要干坏事的，那么要开网站首先你要到政府那登记，把你的包括身份证在内的一切信息登记在册，之后一旦你干坏事，很容易就可以把你抓走。什么？执政为民？为人民服务？为人民谋福利？我绝逼不信备案这事给站长带来了什么福利</p>
+<p>备案之烦琐简直令人发指，即使是阿里云这种可以代备案的，依然有超过18页的帮助文档：<a href="http://help.aliyun.com/view/13445871.html" target="_blank" rel="external">http://help.aliyun.com/view/13445871.html</a>。好吧，硬着头皮我就上了。其间复杂就不提了，就提个网站名称这一点，其中一条规则是“网站名称不能以纯数字或纯英文命名”。首先不说这句话的漏洞，我纯外星语行吗？好吧，既然咱生活在汉语国家，这条我认。想了半天给自己原来叫“Jason”的名称改为“Jason的果园”，带上其他亲笔签名等信息我就提交了</p>
+<p>一天后，阿里云初审没过，理由如下：</p>
+<p>“您好，备案信息中网站名称“IT顾问 Jason的果园”填写不正确，个人性质的网站名称不能涉及企业、行业信息，不能以域名命名，不能涉及地名，请您修改。 2：根据工信部规定未备案成功的网站域名禁止进行绑定访问，网站域名：“atjason.com”未备案成功，现却能访问网站，请您在未备案成功暂停域名解析绑定，以方便为您处理，谢谢您的配合。”</p>
+<p>看完气不打一处来。经过深深的忧虑之后我毅然决定不再继续献媚政府，凭什么我自己的东西取名还要你同意？我自己的网站能不能访问还要你批准？批你妹，哥不跟你玩了</p>
+<h1 id="国外云主机"><a href="#国外云主机" class="headerlink" title="国外云主机"></a>国外云主机</h1><p>接下来自然转回不需要备案的国外云主机。期间阿里云的客服提过，他们在香港也有主机，而且强调不需要备案哦，可惜价格有些高。我之前一直有印象的就是Linode，在网上一番搜索、比较后，还是决定用Linode</p>
+<h1 id="Linode"><a href="#Linode" class="headerlink" title="Linode"></a>Linode</h1><p>乞丐版价格比阿里云稍贵，不过配置要比其强很多：内存是其一倍、网速是其N倍、硬盘速度是其N倍。有个插曲是，Linode促销搞充5美元送50美元的活动，就在我注册的前一天结束，心中为50美元默哀5分钟……</p>
+<p>Linode一直是主机类中的高大上，价格高、服务好。这次能把价格降到$10每月、还搞大力度的促销，着实不易。除了性能，Linode在主机后台服务上做得也很好。具体不多说，只说一点：备份。Linode可以很容易得给主机备份、不需要关机，简直是无痛。而在阿里云上我压根就没看到备份这俩字。当然，AWS也是支持镜像</p>
+<h1 id="AMH"><a href="#AMH" class="headerlink" title="AMH"></a>AMH</h1><p>在网站搬家中，其实功劳最大的是AMH。什么是AMH？简单得说，“国内首个免费开源虚拟主机面板。”更多的，到其官网去了解吧：<a href="http://www.amysql.com/AMH.htm" target="_blank" rel="external">http://www.amysql.com/AMH.htm</a></p>
+<p>之前在AWS上的多个网站是通过AWS搭建的，这次搬到Linode后，安装好AMH，只需要一个命令，之前所有的东西就全回来了，注意，是全回来了，包括数据库、虚拟网站、各种配置……太方便了，我忍不住去给他们捐点小钱，却发现现在通道关闭了，以后还是会捐的</p>
+<p>据说现在在开发更好用的新版本，期待中</p>
+<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>好了，说了这么多，其实最想说的是，做网站最重要的是内容。站长大多在后台技术上不那么专业，花在这些外围事情上的时间应当越少越好（花点钱也是应该的），这样才能更专注得做好内容。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/501.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -851,316 +1181,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/474.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/474.html" itemprop="url">
-                  需求相对论（以快的打车为例）
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-06-20T07:30:51+08:00">
-                2014-06-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/PM/" itemprop="url" rel="index">
-                    <span itemprop="name">PM</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>StartFragment</p>
-<p>产品发展到一定阶段，用户基数变大，各色合作伙伴变多，不同的需求也就纷至沓来，产品经理该如何抉择呢？</p>
-<h1 id="以用户核心需求为卡尺"><a href="#以用户核心需求为卡尺" class="headerlink" title="以用户核心需求为卡尺"></a>以用户核心需求为卡尺</h1><p>举个需求的例子：乘客打车时希望不抽烟的司机接单</p>
-<p>来看核心需求，快的服务的用户有部分组成：司机和乘客；各自的核心需求是：收益最大化、快速打到车。对乘客来讲，拆开来看，关键是“快速”、“打到车”。而举例的需求抽象来看是：打到更合适的车。这显然和快速打到车有偏差，并且是在其基础上的进阶需求</p>
-<p>比如，乘客有几个选择：1，等不抽烟的司机要等15分钟；2，等抽烟的司机要2分钟。也许乘客就会为了“快速打到车”这一核心需求而放弃进阶需求</p>
-<h1 id="结合当时具体的竞争环境"><a href="#结合当时具体的竞争环境" class="headerlink" title="结合当时具体的竞争环境"></a>结合当时具体的竞争环境</h1><p>眼下的态势依然是快的和滴滴等其他同类产品野蛮生长、快速收割用户的阶段。相对于所有人都可能打车的14亿乘客来说，司机是非常有限的。因此，如何获取更多的司机是眼下竞争的重中之重</p>
-<p>而举例需求其实是对司机做减法，这显然和目前的竞争环境不符</p>
-<p>more</p>
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>万能的其他…</p>
-<h2 id="技术限制"><a href="#技术限制" class="headerlink" title="技术限制"></a>技术限制</h2><p>这个容易理解，假设乘客和司机希望通过脑电波沟通、通过意念支付（多方便啊！），恐怕快的目前的技术实力还做不到</p>
-<h2 id="政策限制"><a href="#政策限制" class="headerlink" title="政策限制"></a>政策限制</h2><p>私家车下班途中拉个同路的人，收个20块钱，还能解决公共交通压力……看起来多赢的事，却（受限于政府的执政能力）有非法营运的政策风险，而且会触碰到的士公司、司机的利益，因此，像在现有的快的中加入私家车也可以接单这样的需求，还是算了吧（等到某些团体的智商增加后再说）</p>
-<h1 id="核心需求与其他条件是会演化的"><a href="#核心需求与其他条件是会演化的" class="headerlink" title="核心需求与其他条件是会演化的"></a>核心需求与其他条件是会演化的</h1><p>这一点很关键，不能死守着教条不放</p>
-<p>例如，刚才推理现在对司机的争夺是核心，可司机的数量毕竟是有限的，假设过段时间，快的和滴滴都已经各自抢占了80%的司机（当然有重叠），还有必要把争取剩余的20%当重心吗？要知道这些司机可能死都不会用智能手机，或者不在乎多赚钱、只想轻轻松松开车，或者有固定的机场客源，或者当地根本就是不打表的玩法，等等。</p>
-<p>这时，竞争的重心可能就会演化成对乘客关注、或者说更好得为乘客服务。此时，开头提到的对司机筛选的功能就变得非常合时宜，能不能找到不抽烟的司机（或者对司机其他类似的筛选，比如开车技术、车辆新旧、服务态度等），可能就会成为用户选择快的还是滴滴的关键</p>
-<p>再者，拔高些层面来看，N年前出行靠步行、自行车，绝少有人打车，那时候肯定做不起打车平台。N年后，如果主要的出行方式变成拼车、租车、公共交通（甚至是开直升飞机），还有必要死守着打车这一小众需求吗？</p>
-<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>实际操作过程中，不同的条件可能不会像文中举例那样典型，判断依据也不充分，抉择起来会更困难。这就需要在把握这些大原则的情况下，多加实践，在摸索中增加经验和敏感度</p>
-<p>EndFragment</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/466.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/466.html" itemprop="url">
-                  在WordPress中禁用Google字体
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-06-19T14:04:05+08:00">
-                2014-06-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>StartFragment</p>
-<p>有没有感觉你的WordPress莫名其妙得慢？说不定这和Google有关系</p>
-<h2 id="为什么WordPress很慢和Google有关？"><a href="#为什么WordPress很慢和Google有关？" class="headerlink" title="为什么WordPress很慢和Google有关？"></a>为什么WordPress很慢和Google有关？</h2><p>因为你知道的原因，Google在国内的服务非常不稳定，或者可以简单理解为不可用。而WordPress后台、某些默认的主题（如Twenty Twelve, Twenty Thirteen, Twenty Fourteen）会使用Google的字体，这就会导致网页上打开时卡在从Google服务器加载字体的环节，进而非常得慢</p>
-<h2 id="如何检验网站是否使用了Google的字体？"><a href="#如何检验网站是否使用了Google的字体？" class="headerlink" title="如何检验网站是否使用了Google的字体？"></a>如何检验网站是否使用了Google的字体？</h2><p>一种办法，以使用Chrome为例，在打开网站时，如果浏览器左下角出现类似“Waiting for fonts.googleapis.com…”，就说明网页在加载Google的字体</p>
-<p>另一种办法，网页（终于）打开后，查看见面源代码。如果能找到类似“&lt;link href=’<a href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600&amp;subset=latin,cyrillic-ext,greek-ext,greek,vietnamese,latin-ext,cyrillic" target="_blank" rel="external">//fonts.googleapis.com/</a> ”的代码，则说明中招</p>
-<h2 id="如何禁用Google的字体？"><a href="#如何禁用Google的字体？" class="headerlink" title="如何禁用Google的字体？"></a>如何禁用Google的字体？</h2><p>一种办法，搜索安装“Disable Google Font”插件，启用即可；如果使用缓存的话，注意要重新生成缓存</p>
-<p>如果不想安装插件，还有其他一些办法，比如直接修改WordPress和主题文件、使用国内字体服务器等等。更多细节，可自行搜索</p>
-<p>more</p>
-<p>参考</p>
-<p><a href="http://wordpress.org/plugins/disable-google-fonts/" target="_blank" rel="external">http://wordpress.org/plugins/disable-google-fonts/</a></p>
-<p>EndFragment</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1210,7 +1230,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1272</span>
+                <span class="site-state-item-count">1274</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
