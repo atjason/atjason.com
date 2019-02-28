@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-26T12:40:08.170Z</updated>
+  <updated>2019-02-28T05:03:59.413Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0228 - 时间差</title>
+    <link href="https://atjason.com/daily/2019-02-28.html"/>
+    <id>https://atjason.com/daily/2019-02-28.html</id>
+    <published>2019-02-28T14:00:00.000Z</published>
+    <updated>2019-02-28T05:03:59.413Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在赚不到钱，是之前的积累不够；<br>现在努力了却还赚不到钱，是因为现在的努力应得的钱，未来才会给你。</p>
+<p>赚钱是能力提高后的副产品。</p>
+<p>你只管努力、只管提高自己，会有人双手捧着钱来找你。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;现在赚不到钱，是之前的积累不够；&lt;br&gt;现在努力了却还赚不到钱，是因为现在的努力应得的钱，未来才会给你。&lt;/p&gt;
+&lt;p&gt;赚钱是能力提高后的副产品。&lt;/p&gt;
+&lt;p&gt;你只管努力、只管提高自己，会有人双手捧着钱来找你。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0227 - 需求驱动产品</title>
+    <link href="https://atjason.com/daily/2019-02-27.html"/>
+    <id>https://atjason.com/daily/2019-02-27.html</id>
+    <published>2019-02-27T14:00:00.000Z</published>
+    <updated>2019-02-27T16:13:15.737Z</updated>
+    
+    <content type="html"><![CDATA[<p>截止到今天，Vue 相关的技术，大体上过了一遍。</p>
+<p>接下来怎么办呢？再纯学习、深入学习，已没太大的动力；最好是结合实际需求，做出实际产品。</p>
+<p>于是，我在自己的群里收集了下，方便做成小网站的需求。最终，有 2 个比较适合的需求。一个相对较小，是做产品比价；不需要后台，纯前端就可以满足需求。另一个相对较大，是 SEO 辅助工具，这就是个无底洞了。</p>
+<p>明天争取把小的实现掉，大的开个头；后天把大的也出个 MVP 版本。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;截止到今天，Vue 相关的技术，大体上过了一遍。&lt;/p&gt;
+&lt;p&gt;接下来怎么办呢？再纯学习、深入学习，已没太大的动力；最好是结合实际需求，做出实际产品。&lt;/p&gt;
+&lt;p&gt;于是，我在自己的群里收集了下，方便做成小网站的需求。最终，有 2 个比较适合的需求。一个相对较小，是做产品比
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0226 - 开源了自己折腾的 Vue 多页面框架</title>
@@ -516,55 +568,6 @@
 &lt;p&gt;不得不接受新事物时，很快就能适应。&lt;br&gt;而一旦适应了，惰性便开始显现：不喜欢改变、不愿接受新事物。&lt;/p&gt;
 &lt;p&gt;适应性是一时的，惰性是更长期的。&lt;/p&gt;
 &lt;p&gt;惰性让人停滞、老化。优秀的人，克服适应过程的痛苦，不断自我革新，延续自我。&lt;/p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0208 - 一点点便利</title>
-    <link href="https://atjason.com/daily/2019-02-08.html"/>
-    <id>https://atjason.com/daily/2019-02-08.html</id>
-    <published>2019-02-08T14:00:00.000Z</published>
-    <updated>2019-02-10T11:29:10.032Z</updated>
-    
-    <content type="html"><![CDATA[<p>有线耳机和无线耳机，单次使用时，差别并不大，无线的只是方便一点点。可如果多次使用、长年使用，这一点点便利，就会一直积累、放大。</p>
-<p>好产品和差产品相比，可能也只是好了一点点。可如果假以时日，便是巨大的差异了。</p>
-<p>另外，精简的东西，才能穿越时间。繁复的东西，短期内看起来很强大，秒天秒地。可随着时间的推移，很多强大变成了累赘，负重难行，甚至整个被淘汰。而精简的东西，则可以像积木一样，存活在不同的系统中。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有线耳机和无线耳机，单次使用时，差别并不大，无线的只是方便一点点。可如果多次使用、长年使用，这一点点便利，就会一直积累、放大。&lt;/p&gt;
-&lt;p&gt;好产品和差产品相比，可能也只是好了一点点。可如果假以时日，便是巨大的差异了。&lt;/p&gt;
-&lt;p&gt;另外，精简的东西，才能穿越时间。繁复的东
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0207 - 幕布的分享</title>
-    <link href="https://atjason.com/daily/2019-02-07.html"/>
-    <id>https://atjason.com/daily/2019-02-07.html</id>
-    <published>2019-02-07T14:00:00.000Z</published>
-    <updated>2019-02-07T15:16:48.683Z</updated>
-    
-    <content type="html"><![CDATA[<p>是这么个事：幕布支持将文档以链接的方式分享出去；如果有用户通过链接进入幕布并注册账户，分享者将得到一段时间高级版的奖励。</p>
-<p>之所以觉得有意思，是这个机制很巧妙。一般的做法，都是生成一个带尾巴的分享链接。而慢慢的，大家对这样的链接有反感，甚至会手动去掉链接重新打开；分享者也会有一定的掉粉压力。而通过有内容的链接分享，这个过程就温柔得多、隐蔽的多，接收者基本是无感的。</p>
-<p>做产品，就是要多些这种细腻微秒的设计。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;是这么个事：幕布支持将文档以链接的方式分享出去；如果有用户通过链接进入幕布并注册账户，分享者将得到一段时间高级版的奖励。&lt;/p&gt;
-&lt;p&gt;之所以觉得有意思，是这个机制很巧妙。一般的做法，都是生成一个带尾巴的分享链接。而慢慢的，大家对这样的链接有反感，甚至会手动去掉链接重新打开
     
     </summary>
     
