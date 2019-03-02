@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-02-28T05:46:53.947Z</updated>
+  <updated>2019-03-02T17:07:43.183Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,89 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0302 - 春风拂面瘫</title>
+    <link href="https://atjason.com/daily/2019-03-02.html"/>
+    <id>https://atjason.com/daily/2019-03-02.html</id>
+    <published>2019-03-02T14:00:00.000Z</published>
+    <updated>2019-03-02T17:07:43.183Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天看到「春风拂面瘫」下联如何接，感觉好玩。</p>
+<p><strong>前 4 个字阳春白雪；再加 1 字，则峰回路转。</strong></p>
+<p>怎么接呢？我看到的一个好玩的是：「春风拂面瘫，百度很快关」，关字好玩，言语上搞了百度一把，还和瘫押韵。</p>
+<p>另外想起一个相关的东西：</p>
+<ul>
+<li>问：你见过最高明的「<strong>一句话毁掉小清新</strong>」是哪个？”</li>
+<li>答：<strong>长发及腰</strong> 拉屎要撩</li>
+</ul>
+<p>PS：我在朋友圈发了百度那个，就有朋友问我是不是被百度搞了、有感而发。哎，只是个纯文字游戏，<strong>不必每件事都有得「有用」，「有趣」也很重要不是</strong>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天看到「春风拂面瘫」下联如何接，感觉好玩。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;前 4 个字阳春白雪；再加 1 字，则峰回路转。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;怎么接呢？我看到的一个好玩的是：「春风拂面瘫，百度很快关」，关字好玩，言语上搞了百度一把，还和瘫押韵。&lt;/p&gt;
+&lt;p
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0301 - 一个比价的小项目</title>
+    <link href="https://atjason.com/daily/2019-03-01.html"/>
+    <id>https://atjason.com/daily/2019-03-01.html</id>
+    <published>2019-03-01T14:00:00.000Z</published>
+    <updated>2019-03-02T17:00:56.735Z</updated>
+    
+    <content type="html"><![CDATA[<p>这两天帮朋友做了个 <strong>比价</strong> 的小项目，主要是为了练手 Vue 及相关网站开发。</p>
+<p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1g0oxnimk7cj30nw09yq6n.jpg" alt=""></p>
+<p><strong>主要功能</strong>：</p>
+<ul>
+<li>批量查询产品对应的京东价格</li>
+<li>手动根据京东价格调整批发价格</li>
+<li>将产品及价格信息，以网页形式分享出去</li>
+</ul>
+<p>由于是私人项目，链接什么的就不放了，主要记录一些技术上的点吧。</p>
+<h2 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h2><p><strong>前端</strong> 方面，自然是 Vue，毕竟最近在学这个。</p>
+<p><strong>样式</strong> 方面，没有用 CSS 库，纯手工 CSS 代码，毕竟也没什么样式，也是为了练习。</p>
+<p><strong>数据</strong> 方面，用二层数组实现了品牌（即分组）与产品这二层数据，利用数组的特征支持品牌及分组的排序。另外，支持数据的查改增删。</p>
+<p>前期数据纯粹是在浏览器本地存储中。后来，为了实现分享，将数据远程存储在服务器。不过，依然没有引入账户系统，只是本地随机生成一个 ID 作为伪账户，对不同地方上传的数据进行区分（事实上，基本也只是一个人使用）</p>
+<p>分享时，会随机生成 ShareID，并与 ID 匹配。通过 ShareID 查看共享页面的用户，并不能直接猜测出 ID，一定程度起到安全（主要是避免有人恶意修改数据，毕竟没有账户系统）</p>
+<p>目前，只支持在固定电脑编辑固定伪账户 ID 的数据，可通过备份与导入的方式，在不同电脑间切换。毕竟，对个人使用，这也足够了。</p>
+<p><strong>交互</strong> 方面，没什么可说的，都是很基础的东西。其中，对于频繁操作的修改价格，支持双击修改、回车确定等提高效率的操作，毕竟我是做工具软件出身的，有这个习惯。</p>
+<h2 id="后端"><a href="#后端" class="headerlink" title="后端"></a>后端</h2><p>有 2 个原因，使得这个小小的项目，需要后端支持：</p>
+<ul>
+<li>由于跨域的问题，前端无法直接查询京东价格，只能借助后端查询</li>
+<li>由于需要共享，必须云端存储数据，前端获取并展示</li>
+</ul>
+<p>说起查询京东价格，主要是通过网上找到的 <code>p.3.cn</code> 这个第三方 API 实现。这种类似黑盒的 API，个人用用还好，作为商业使用可能就不合适了。期间，还了解了 <strong>慢慢买</strong> 的 API，他们并不公开价格，邮件销售提到的价格是 1000 每月，显然并不适合。</p>
+<p>为什么不使用京东官方 API？因为好像个人无法申请到「<strong>所谓开放</strong>」的服务，也就无法使用。毕竟，价<strong>格是电商核心的东西</strong>，没有平台会这么轻易地开放。</p>
+<p>另外，点击京东价格，可以跳转至京东官网查看对应产品的详情。这里又有个坑：<strong>京东联盟</strong>。我本以为，可以根据京东联盟 ID，轻易地拼出对应的链接，没想到有个 utm_term 好像是根据算法生成的 md5，无法直接伪造（不知道出发点是什么，提高转链难度？）没办法，只能通过抓包官方平台创建链接的操作，逆向出接口，用于代码生成链接。</p>
+<h2 id="Chrome-插件"><a href="#Chrome-插件" class="headerlink" title="Chrome 插件"></a>Chrome 插件</h2><p>前面提到的京东联盟链接，其中核心是 <strong>获取 Cookie</strong>，这方面是 Chrome 插件，24 * 7 运行在服务器端，通过定期刷新页面保持 Cookie 有效，并将 Cookie 上传至后端服务器，用以生成京东联盟链接。</p>
+<h2 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h2><p>刚开始以为只是个纯前端的小项目，没想到拔出萝卜带出泥，整这么大动静。从维护的角度，这个项目最大的不确定性有两个：</p>
+<ul>
+<li><code>p.3.cn</code> 这个第三方价格获取接口</li>
+<li>Chrome 插件能否长期稳定地工作</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这两天帮朋友做了个 &lt;strong&gt;比价&lt;/strong&gt; 的小项目，主要是为了练手 Vue 及相关网站开发。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ws4.sinaimg.cn/large/006tKfTcgy1g0oxnimk7cj30nw09yq6n.jp
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0228 - 时间差</title>
@@ -518,56 +601,6 @@
 &lt;p&gt;疲惫、惰性、对困难的惧怕、对现实的无奈、资源的掣肘、无力感…各种负面的东西，层出不穷，死死抱住一个人的双脚，该怎样才能在各种恶劣的情况下，保持前进的动力呢？&lt;/p&gt;
 &lt;p&gt;我希望有清明的心境，尚无法回答自己的原力是什么。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0210 - 癌症与永生</title>
-    <link href="https://atjason.com/daily/2019-02-10.html"/>
-    <id>https://atjason.com/daily/2019-02-10.html</id>
-    <published>2019-02-10T14:00:00.000Z</published>
-    <updated>2019-02-11T16:08:09.792Z</updated>
-    
-    <content type="html"><![CDATA[<p>永生是人类永远的追求。制约人类寿命的，其中一个分析的角度是细胞的分裂次数，约 50~60 次，这限制了人类寿命的上限是 约 110~120 岁。</p>
-<p>而癌细胞则可以不受控制地自我复制，也即无限分裂。当然，这样的分裂有各种各样的问题，比如复制出错（变异）后也不管不顾；比如毫不顾及机体整体的利益，只顾自己的分裂；等等。可问题总有解决的可能，一旦解决了，人类在这个角度不就可以永生了？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;永生是人类永远的追求。制约人类寿命的，其中一个分析的角度是细胞的分裂次数，约 50~60 次，这限制了人类寿命的上限是 约 110~120 岁。&lt;/p&gt;
-&lt;p&gt;而癌细胞则可以不受控制地自我复制，也即无限分裂。当然，这样的分裂有各种各样的问题，比如复制出错（变异）后也不管不顾
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0209 - 适应性与惰性</title>
-    <link href="https://atjason.com/daily/2019-02-09.html"/>
-    <id>https://atjason.com/daily/2019-02-09.html</id>
-    <published>2019-02-09T14:00:00.000Z</published>
-    <updated>2019-02-11T16:08:11.008Z</updated>
-    
-    <content type="html"><![CDATA[<p>人是很奇怪的。</p>
-<p>不得不接受新事物时，很快就能适应。<br>而一旦适应了，惰性便开始显现：不喜欢改变、不愿接受新事物。</p>
-<p>适应性是一时的，惰性是更长期的。</p>
-<p>惰性让人停滞、老化。优秀的人，克服适应过程的痛苦，不断自我革新，延续自我。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;人是很奇怪的。&lt;/p&gt;
-&lt;p&gt;不得不接受新事物时，很快就能适应。&lt;br&gt;而一旦适应了，惰性便开始显现：不喜欢改变、不愿接受新事物。&lt;/p&gt;
-&lt;p&gt;适应性是一时的，惰性是更长期的。&lt;/p&gt;
-&lt;p&gt;惰性让人停滞、老化。优秀的人，克服适应过程的痛苦，不断自我革新，延续自我。&lt;/p
     
     </summary>
     
