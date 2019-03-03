@@ -70,7 +70,7 @@
 <meta property="og:site_name" content="Jason">
 <meta property="og:description" content="这两天帮朋友做了个 比价 的小项目，主要是为了练手 Vue 及相关网站开发。  主要功能：  批量查询产品对应的京东价格 手动根据京东价格调整批发价格 将产品及价格信息，以网页形式分享出去  由于是私人项目，链接什么的就不放了，主要记录一些技术上的点吧。 前端前端 方面，自然是 Vue，毕竟最近在学这个。 样式 方面，没有用 CSS 库，纯手工 CSS 代码，毕竟也没什么样式，也是为了练习。 数据">
 <meta property="og:image" content="https://ws4.sinaimg.cn/large/006tKfTcgy1g0oxnimk7cj30nw09yq6n.jpg">
-<meta property="og:updated_time" content="2019-03-02T17:00:56.735Z">
+<meta property="og:updated_time" content="2019-03-03T02:19:21.600Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="0301 - 一个比价的小项目">
 <meta name="twitter:description" content="这两天帮朋友做了个 比价 的小项目，主要是为了练手 Vue 及相关网站开发。  主要功能：  批量查询产品对应的京东价格 手动根据京东价格调整批发价格 将产品及价格信息，以网页形式分享出去  由于是私人项目，链接什么的就不放了，主要记录一些技术上的点吧。 前端前端 方面，自然是 Vue，毕竟最近在学这个。 样式 方面，没有用 CSS 库，纯手工 CSS 代码，毕竟也没什么样式，也是为了练习。 数据">
@@ -378,7 +378,7 @@
 <p>为什么不使用京东官方 API？因为好像个人无法申请到「<strong>所谓开放</strong>」的服务，也就无法使用。毕竟，价<strong>格是电商核心的东西</strong>，没有平台会这么轻易地开放。</p>
 <p>另外，点击京东价格，可以跳转至京东官网查看对应产品的详情。这里又有个坑：<strong>京东联盟</strong>。我本以为，可以根据京东联盟 ID，轻易地拼出对应的链接，没想到有个 utm_term 好像是根据算法生成的 md5，无法直接伪造（不知道出发点是什么，提高转链难度？）没办法，只能通过抓包官方平台创建链接的操作，逆向出接口，用于代码生成链接。</p>
 <h2 id="Chrome-插件"><a href="#Chrome-插件" class="headerlink" title="Chrome 插件"></a>Chrome 插件</h2><p>前面提到的京东联盟链接，其中核心是 <strong>获取 Cookie</strong>，这方面是 Chrome 插件，24 * 7 运行在服务器端，通过定期刷新页面保持 Cookie 有效，并将 Cookie 上传至后端服务器，用以生成京东联盟链接。</p>
-<h2 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h2><p>刚开始以为只是个纯前端的小项目，没想到拔出萝卜带出泥，整这么大动静。从维护的角度，这个项目最大的不确定性有两个：</p>
+<h2 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h2><p>刚开始以为只是个纯前端的小项目，没想到拔出萝卜带出泥，整这么大动静。从维护的角度，涉及的内容越少越好；这个项目最大的不确定性有两个：</p>
 <ul>
 <li><code>p.3.cn</code> 这个第三方价格获取接口</li>
 <li>Chrome 插件能否长期稳定地工作</li>
