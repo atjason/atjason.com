@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-02T17:07:43.183Z</updated>
+  <updated>2019-03-03T02:10:59.852Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0303 - 交替学习法</title>
+    <link href="https://atjason.com/daily/2019-03-03.html"/>
+    <id>https://atjason.com/daily/2019-03-03.html</id>
+    <published>2019-03-03T14:00:00.000Z</published>
+    <updated>2019-03-03T02:10:59.852Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，我现在在学习 Vue 及前端开发，此时：</p>
+<ul>
+<li><strong>专注学习法</strong>，是我不断投入时间深入学习，做更多的练习。</li>
+<li><strong>交替学习法</strong>，是我再找件相关但不相同的事，比如微信小程序开发，做一段时间后，再返回来继续学习前端。</li>
+</ul>
+<p>先说个理念：<strong>大脑的能力可分为「存储」和「提取」</strong></p>
+<p><strong>专注学习，可以理解为不断地向大脑中存储</strong>。好处很明显，可以对一个事物有更多的理解。可也有些不好的东西，比如同一样东西学得多了、做了多了，新鲜感会降低，会有一定的厌烦心理，这就会影响效率。</p>
+<p><strong>交替学习，可以提高大脑的提取能力</strong>。比如，从前端切到小程序开发后，其实大脑在深层还是会继续保有对前端的思考。同时，如果前端学到的东西不经意间用到了小程序开发，这种对相同知识不同维度的使用，会大大增加对其的理解和掌握深度。也即，大脑对这部分知识再次提取的能力，大大加强了。也可以说，更「真正」地掌握了它。</p>
+<p>自然，这两种之法并不是绝对对立的。比如，你总不能学 10 分钟 A，就切换到 B，这就会引入新的切换成本。肯定是 A 学到、做到一定程度、一定阶段，再去切换更合适。</p>
+<p>既然我们不断被打断，不得不在不同的事情之间切换，与其抱怨，不如更加积极地面对，降低负面影响，在负面中寻找积极的因子。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，我现在在学习 Vue 及前端开发，此时：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;专注学习法&lt;/strong&gt;，是我不断投入时间深入学习，做更多的练习。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;交替学习法&lt;/strong&gt;，是我再找件相关但不相同的事，比如微信小程序开发，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0302 - 春风拂面瘫</title>
@@ -575,32 +608,6 @@
       &lt;p&gt;我想，人们所说的事业，多半是指能持续赚钱的东西。这东西多半是指公司，而关键的还是持续赚钱的能力。&lt;/p&gt;
 &lt;p&gt;可，有钱之后做什么、为了什么？更多的钱？用繁忙的工作来掩盖内心的空虚？如果迟迟赚不到钱，又该用什么来支撑疲惫迷茫的心？&lt;/p&gt;
 &lt;p&gt;赚钱，最好是内心满足后的副产
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0211 - 原力觉醒</title>
-    <link href="https://atjason.com/daily/2019-02-11.html"/>
-    <id>https://atjason.com/daily/2019-02-11.html</id>
-    <published>2019-02-11T14:00:00.000Z</published>
-    <updated>2019-02-11T16:08:07.788Z</updated>
-    
-    <content type="html"><![CDATA[<p>自己的原动力是什么？</p>
-<p>疲惫、惰性、对困难的惧怕、对现实的无奈、资源的掣肘、无力感…各种负面的东西，层出不穷，死死抱住一个人的双脚，该怎样才能在各种恶劣的情况下，保持前进的动力呢？</p>
-<p>我希望有清明的心境，尚无法回答自己的原力是什么。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;自己的原动力是什么？&lt;/p&gt;
-&lt;p&gt;疲惫、惰性、对困难的惧怕、对现实的无奈、资源的掣肘、无力感…各种负面的东西，层出不穷，死死抱住一个人的双脚，该怎样才能在各种恶劣的情况下，保持前进的动力呢？&lt;/p&gt;
-&lt;p&gt;我希望有清明的心境，尚无法回答自己的原力是什么。&lt;/p&gt;
-
     
     </summary>
     
