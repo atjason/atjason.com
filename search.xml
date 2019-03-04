@@ -38,7 +38,7 @@
 <li>问：你见过最高明的「<strong>一句话毁掉小清新</strong>」是哪个？</li>
 <li>答：<strong>长发及腰</strong> 拉屎要撩</li>
 </ul>
-<p>PS：我在朋友圈发了百度那个，就有朋友问我是不是被百度搞了、有感而发。哎，只是个纯文字游戏，<strong>不必每件事都有得「有用」，「有趣」也很重要不是</strong>。</p>
+<p>PS：我在朋友圈发了百度那个，就有朋友问我是不是被百度搞了、有感而发。哎，只是个纯文字游戏，<strong>不必每件事都得「有用」，「有趣」也很重要不是</strong>。</p>
 ]]></content>
       
         <categories>
@@ -57,14 +57,14 @@
 <p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1g0oxnimk7cj30nw09yq6n.jpg" alt=""></p>
 <p><strong>主要功能</strong>：</p>
 <ul>
-<li>批量查询产品对应的京东价格</li>
+<li>批量查询商品对应的京东价格</li>
 <li>手动根据京东价格调整批发价格</li>
-<li>将产品及价格信息，以网页形式分享出去</li>
+<li>将商品及价格信息，以网页形式分享出去</li>
 </ul>
 <p>由于是私人项目，链接什么的就不放了，主要记录一些技术上的点吧。</p>
 <h2 id="前端"><a href="#前端" class="headerlink" title="前端"></a>前端</h2><p><strong>前端</strong> 方面，自然是 Vue，毕竟最近在学这个。</p>
 <p><strong>样式</strong> 方面，没有用 CSS 库，纯手工 CSS 代码，毕竟也没什么样式，也是为了练习。</p>
-<p><strong>数据</strong> 方面，用二层数组实现了品牌（即分组）与产品这二层数据，利用数组的特征支持品牌及分组的排序。另外，支持数据的查改增删。</p>
+<p><strong>数据</strong> 方面，用二层数组实现了品牌（即分组）与商品这二层数据，利用数组的特征支持品牌及分组的排序。另外，支持数据的查改增删。</p>
 <p>前期数据纯粹是在浏览器本地存储中。后来，为了实现分享，将数据远程存储在服务器。不过，依然没有引入账户系统，只是本地随机生成一个 ID 作为伪账户，对不同地方上传的数据进行区分（事实上，基本也只是一个人使用）</p>
 <p>分享时，会随机生成 ShareID，并与 ID 匹配。通过 ShareID 查看共享页面的用户，并不能直接猜测出 ID，一定程度起到安全（主要是避免有人恶意修改数据，毕竟没有账户系统）</p>
 <p>目前，只支持在固定电脑编辑固定伪账户 ID 的数据，可通过备份与导入的方式，在不同电脑间切换。毕竟，对个人使用，这也足够了。</p>
@@ -76,7 +76,7 @@
 </ul>
 <p>说起查询京东价格，主要是通过网上找到的 <code>p.3.cn</code> 这个第三方 API 实现。这种类似黑盒的 API，个人用用还好，作为商业使用可能就不合适了。期间，还了解了 <strong>慢慢买</strong> 的 API，他们并不公开价格，邮件销售提到的价格是 1000 每月，显然并不适合。</p>
 <p>为什么不使用京东官方 API？因为好像个人无法申请到「<strong>所谓开放</strong>」的服务，也就无法使用。毕竟，价<strong>格是电商核心的东西</strong>，没有平台会这么轻易地开放。</p>
-<p>另外，点击京东价格，可以跳转至京东官网查看对应产品的详情。这里又有个坑：<strong>京东联盟</strong>。我本以为，可以根据京东联盟 ID，轻易地拼出对应的链接，没想到有个 utm_term 好像是根据算法生成的 md5，无法直接伪造（不知道出发点是什么，提高转链难度？）没办法，只能通过抓包官方平台创建链接的操作，逆向出接口，用于代码生成链接。</p>
+<p>另外，点击京东价格，可以跳转至京东官网查看对应商品的详情。这里又有个坑：<strong>京东联盟</strong>。我本以为，可以根据京东联盟 ID，轻易地拼出对应的链接，没想到有个 utm_term 好像是根据算法生成的 md5，无法直接伪造（不知道出发点是什么，提高转链难度？）没办法，只能通过抓包官方平台创建链接的操作，逆向出接口，用于代码生成链接。</p>
 <h2 id="Chrome-插件"><a href="#Chrome-插件" class="headerlink" title="Chrome 插件"></a>Chrome 插件</h2><p>前面提到的京东联盟链接，其中核心是 <strong>获取 Cookie</strong>，这方面是 Chrome 插件，24 * 7 运行在服务器端，通过定期刷新页面保持 Cookie 有效，并将 Cookie 上传至后端服务器，用以生成京东联盟链接。</p>
 <h2 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h2><p>刚开始以为只是个纯前端的小项目，没想到拔出萝卜带出泥，整这么大动静。从维护的角度，涉及的内容越少越好；这个项目最大的不确定性有两个：</p>
 <ul>
@@ -180,7 +180,7 @@
     <entry>
       <title><![CDATA[0224 - 技术的道与术]]></title>
       <url>https://atjason.com/daily/2019-02-24.html</url>
-      <content type="html"><![CDATA[<p>一直以为，我都很遗憾没能参与大型复杂软件项目的开发。毕竟，对于开发人员来说，这是很好的历练和经验，也是能力的证明。</p>
+      <content type="html"><![CDATA[<p>一直以来，我都很遗憾没能参与大型复杂软件项目的开发。毕竟，对于开发人员来说，这是很好的历练和经验，也是能力的证明。</p>
 <p>慢慢的，我开始释怀，因为我 <strong>判断价值的标准变了</strong>。技术能力，是对开发者在「术」层面的要求。而更高的「道」的层面，是 <strong>为多少用户解决多少问题、解决的怎么样</strong>，这才是应该考量的标准。</p>
 <p>在这个标准下，技术的可扩展性、实时性、高并发性、可靠性等能力，都变成第二位的、非必要的。<strong>如果对于解决问题没有帮助，就没必要在意它们。</strong></p>
 <p>另外，<strong>大型软件自有其弊端</strong>，比如成本高昂，维护困难等。显然，并不是所有实际产品都需要上这样的技术。对于更广大的中小产品，精简的技术足以胜任，且因为小而带来很多好处，尤其是实际用户所负担得起。</p>
@@ -8041,6 +8041,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -8082,22 +8098,6 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -13542,6 +13542,35 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
+      <url>https://atjason.com/daily/2017-06-27.html</url>
+      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
+<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
+<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
+<ul>
+<li><strong>基于数据</strong><ul>
+<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
+</ul>
+</li>
+<li><strong>基于内容</strong><ul>
+<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
+</ul>
+</li>
+</ul>
+<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
+<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Klib 第四版：纯粹，只为悦读]]></title>
       <url>https://atjason.com/PM/2017-06-27_Klib.html</url>
       <content type="html"><![CDATA[<p>在 Kindle 上读书，可以避免纸质书的收纳问题，还能方便地标注，挺好的。不过，标注虽然方便，标注的回顾整理却并不方便。好在，<strong><a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a></strong> 解决了这个问题（如何解决？请看 <a href="https://sspai.com/post/37581" target="_blank" rel="external">这里</a>、以及 <a href="https://sspai.com/post/38688" target="_blank" rel="external">这里</a>）</p>
@@ -13568,35 +13597,6 @@
         <categories>
             
             <category> PM </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
-      <url>https://atjason.com/daily/2017-06-27.html</url>
-      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
-<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
-<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
-<ul>
-<li><strong>基于数据</strong><ul>
-<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
-</ul>
-</li>
-<li><strong>基于内容</strong><ul>
-<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
-</ul>
-</li>
-</ul>
-<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
-<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -15483,6 +15483,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -15567,22 +15583,6 @@
         <categories>
             
             <category> IT </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -24044,29 +24044,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
-      <url>https://atjason.com/daily/2016-05-08.html</url>
-      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
-<p>不见得。</p>
-<p>也许是劲使错地方了。</p>
-<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
-<ul>
-<li>做自己擅长的、坚持做、更擅长。</li>
-<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
-<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0509 - 选择开源软件，还是付费软件？]]></title>
       <url>https://atjason.com/daily/2016-05-09.html</url>
       <content type="html"><![CDATA[<p>各有好坏。</p>
@@ -24081,6 +24058,29 @@
 <li>选择用户多的。这通常意味着网上会有充足的教程，也会有人把自己踩过的坑记录下来。有了这些资料，会让自己遇到问题时更容易解决。</li>
 </ul>
 <p>当然，开发者也是人、也需要生存、也需要收入。鼓励大家为软件付费（不论是直接购买付费软件，还是赞助开源软件），这样才能可持续发展：开发者做出越来精品的软件、消费者为软件付费、开发者继续改进、消费者享受更加精良的软件。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
+      <url>https://atjason.com/daily/2016-05-08.html</url>
+      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
+<p>不见得。</p>
+<p>也许是劲使错地方了。</p>
+<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
+<ul>
+<li>做自己擅长的、坚持做、更擅长。</li>
+<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
+<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
+</ul>
 ]]></content>
       
         <categories>
@@ -24214,7 +24214,7 @@
 <h1 id="配置-ssh-的-config"><a href="#配置-ssh-的-config" class="headerlink" title="配置 ssh 的 config"></a>配置 ssh 的 config</h1><p>编辑 ~/.ssh/config，添加类似下面的内容：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># user1</div><div class="line">Host github.com</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa</div><div class="line"></div><div class="line"># user2</div><div class="line">Host github.cn</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa2</div></pre></td></tr></table></figure>
 <p>编辑后，测试连接是否成功。如果成功，会有类似下面的提示：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> ssh -T git@github.com</div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$ ssh -T git@github.cn</div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh -T git@github.com</span></div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$<span class="bash"> ssh -T git@github.cn</span></div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
 <p>核心原理就是，当 ssh 尝试访问某域名时，会尝试和 config 中 <code>Host</code> 对应的记录匹配。如果匹配成功，就会使用该记录中 <code>HostName</code> 的值作为真正的域名、以及使用 <code>IdentityFile</code> 对应的私钥进行配对。这样，既可以实现把 <code>github.cn</code> 当作 <code>github.com</code> 访问、又可以匹配到正常的私钥。 </p>
 <p>这里，<code>github.cn</code> 只是个代号，你可以使用任何其它你喜欢的域名。</p>
 <h1 id="对-git-项目使用适当的-ssh-连接"><a href="#对-git-项目使用适当的-ssh-连接" class="headerlink" title="对 git 项目使用适当的 ssh 连接"></a>对 git 项目使用适当的 ssh 连接</h1><p>前面提到，假定 user1@gmail.com 是更经常使用的账户，这样我们可以设置该账户为全局默认的 git 账户。通常，你已经这么设置了。不过，如果可以通过下面的命令再次设置以确认。</p>
