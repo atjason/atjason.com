@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-04T15:57:59.243Z</updated>
+  <updated>2019-03-05T15:29:35.965Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0305 - 不要期待被表扬</title>
+    <link href="https://atjason.com/daily/2019-03-05.html"/>
+    <id>https://atjason.com/daily/2019-03-05.html</id>
+    <published>2019-03-05T14:00:00.000Z</published>
+    <updated>2019-03-05T15:29:35.965Z</updated>
+    
+    <content type="html"><![CDATA[<p>很自然的，做好事情后，我们都希望得到别人的肯定，甚至是称赞。就像小学生把字写好后，老师会表扬，TA 会很开心。</p>
+<p>可，我们已经不是小学生了，不是吗？</p>
+<p><strong>人应该自我驱动</strong>；是自己内心的追求，驱动自己克服困难，做好事情。<strong>既然是自己的事，为什么要别人来表扬？</strong></p>
+<p>当然，我们不是机器人，别人的肯定，确实能提高自己的信心和成就感。可，关键是，<strong>别依赖</strong>，别像个小学生一样，巴巴地等着表扬，然后才继续做下面的事。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很自然的，做好事情后，我们都希望得到别人的肯定，甚至是称赞。就像小学生把字写好后，老师会表扬，TA 会很开心。&lt;/p&gt;
+&lt;p&gt;可，我们已经不是小学生了，不是吗？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;人应该自我驱动&lt;/strong&gt;；是自己内心的追求，驱动自己克服困难，做好事情。&lt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0304 - 利基市场</title>
@@ -587,32 +613,6 @@
     
       &lt;p&gt;前阵子学习了 CSS，这几天正在学 Vue，今天临时帮朋友做点东西，正好同时用到了刚学的这两门手艺，感觉真好。&lt;/p&gt;
 &lt;p&gt;投资自己，确实是性价比最高、收益最高的投资。只是，回报周期可能会比较长；且，有时看起来是比较奢侈的（比如有时间不去干活赚钱，而是学习，啧啧…）&lt;/p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0213 - 可交互的视频教学：Scrimba</title>
-    <link href="https://atjason.com/daily/2019-02-13.html"/>
-    <id>https://atjason.com/daily/2019-02-13.html</id>
-    <published>2019-02-13T14:00:00.000Z</published>
-    <updated>2019-02-13T16:06:26.639Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天发现一个好玩的网站：Scrimba</p>
-<p>比如，你可以打开这个介绍视频：<a href="https://scrimba.com/c/cKp6LhL" target="_blank" rel="external">https://scrimba.com/c/cKp6LhL</a></p>
-<p>在视频播放过程中，你可以随时编辑正在演示的代码；一旦编辑，视频即暂停，进入 ‘playground mode’；等编辑结果，还可以恢复视频播放。</p>
-<p>这在实际学习中还是挺有用的，比如碰到一个相对难的概念，自己可以通过实际动手的方式，帮助理解。</p>
-<p>好奇这个网站是如何实现的，大体应该是记录了屏幕操作、文件变化、声音，然后用时间轴同步。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天发现一个好玩的网站：Scrimba&lt;/p&gt;
-&lt;p&gt;比如，你可以打开这个介绍视频：&lt;a href=&quot;https://scrimba.com/c/cKp6LhL&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://scrimba.com/c/cK
     
     </summary>
     
