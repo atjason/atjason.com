@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-05T15:29:35.965Z</updated>
+  <updated>2019-03-07T15:44:50.077Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,11 +16,70 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0307 - 爬虫与反爬虫</title>
+    <link href="https://atjason.com/daily/2019-03-07.html"/>
+    <id>https://atjason.com/daily/2019-03-07.html</id>
+    <published>2019-03-07T14:00:00.000Z</published>
+    <updated>2019-03-07T15:44:50.077Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先，<strong>爬虫是灰色的</strong>；其合理利用，取决于爬虫方的心态和能力，也取决于反爬虫的技术。爬虫用的好，可以成就 Google、百度这样的公司；用得不好，可能对别人的利益，造成严重的伤害。</p>
+<p>不管怎样，爬虫极其广泛地存在。最近我也接触了一点，简单说说。</p>
+<p><strong>先说反爬虫方</strong></p>
+<p>保护自己的财产，怎么做都不为过（可能吧）。说一个例子，你在百度搜索页面所做的 <strong>任何操作</strong>，包括鼠标移动、页面滚动、点击、甚至什么都不做的等待时间，所有这些信息，都会 <strong>被百度收集</strong>（细思极恐）。其作用可能很多，很重要的一点，就是识别你是人而不是虫子。而你如果是上来就用工具发网络请求，实在太容易被识别了，封不封，也只是看百度心情了。</p>
+<p><strong>再来看看爬虫方</strong></p>
+<p>关键的一点，是怎么防止被屏蔽。比较简单的，包含控制访问的频率、模拟用户的 Cookie/Refer/Header；进一步的，模拟用户真实行为，等等。</p>
+<p>其中很重要一个策略，就是用 <strong>大量 IP</strong>，频繁更换。怎么得到这许多 IP 呢？</p>
+<ul>
+<li>免费、付费的 <strong>代理池</strong>（听说及自己实测，可靠性并不怎么样）</li>
+<li>像 <strong>ADSL</strong> 一样可以通过拨号动态切换 IP 的服务器（哎，知道 ADSL 的人是真的老了，我也是才知道有这样的服务器…）</li>
+<li>也可以结合 <strong>家用宽带</strong> 自己搭建动态 IP（通过断线重拨的方式切换 IP）</li>
+<li>你是土豪，有很多服务器及动态 IP</li>
+</ul>
+<p>技术方案的选择，首先要知道有哪些可能的方案，然后在成本等众多限制条件下，寻找最优的；也是件挺有意思的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;首先，&lt;strong&gt;爬虫是灰色的&lt;/strong&gt;；其合理利用，取决于爬虫方的心态和能力，也取决于反爬虫的技术。爬虫用的好，可以成就 Google、百度这样的公司；用得不好，可能对别人的利益，造成严重的伤害。&lt;/p&gt;
+&lt;p&gt;不管怎样，爬虫极其广泛地存在。最近我也接触了一点
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0306 - 没有选择自由的依赖，是痛苦的源泉</title>
+    <link href="https://atjason.com/daily/2019-03-06.html"/>
+    <id>https://atjason.com/daily/2019-03-06.html</id>
+    <published>2019-03-06T14:00:00.000Z</published>
+    <updated>2019-03-07T15:12:49.078Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们自然会依赖一些人或事。而当这种依赖不稳定、甚至对我们造成伤害时，如果我们无法反向影响或替换这种依赖，痛苦便无休止。</p>
+<p>比较好的，就是我们 <strong>有多个支点</strong>，可以依赖多个不同的东西。这样，当其中一个支点破坏时，可以简单地丢弃之，生活或心情不至于受影响。</p>
+<p>说明了还是自由度的问题。<strong>因为有多个可以依赖，所以变得没有依赖</strong>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们自然会依赖一些人或事。而当这种依赖不稳定、甚至对我们造成伤害时，如果我们无法反向影响或替换这种依赖，痛苦便无休止。&lt;/p&gt;
+&lt;p&gt;比较好的，就是我们 &lt;strong&gt;有多个支点&lt;/strong&gt;，可以依赖多个不同的东西。这样，当其中一个支点破坏时，可以简单地丢弃之，生活
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0305 - 不要期待被表扬</title>
     <link href="https://atjason.com/daily/2019-03-05.html"/>
     <id>https://atjason.com/daily/2019-03-05.html</id>
     <published>2019-03-05T14:00:00.000Z</published>
-    <updated>2019-03-05T15:29:35.965Z</updated>
+    <updated>2019-03-05T15:31:06.564Z</updated>
     
     <content type="html"><![CDATA[<p>很自然的，做好事情后，我们都希望得到别人的肯定，甚至是称赞。就像小学生把字写好后，老师会表扬，TA 会很开心。</p>
 <p>可，我们已经不是小学生了，不是吗？</p>
@@ -562,57 +621,6 @@
 &lt;p&gt;除了绝对隐私，其他的东西，基本越多人知道越好。甚至，有时为了效果，可以牺牲隐私，比如明星的各种八卦。&lt;/p&gt;
 &lt;p&gt;多了些露出，就多一些合作的机会。虽然并不是每个机会都需要把握，但总归是有比没有好。&lt;/p&gt;
 &lt;p&gt;现在自己的露出方式还太少，要
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0215 - 商业嗅觉</title>
-    <link href="https://atjason.com/daily/2019-02-15.html"/>
-    <id>https://atjason.com/daily/2019-02-15.html</id>
-    <published>2019-02-15T14:00:00.000Z</published>
-    <updated>2019-02-17T15:56:37.629Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近什么火？什么最能赚快钱？接下来什么可能会火？</p>
-<p>能回答这些问题，就是商业嗅觉很敏感了。</p>
-<p>这其中，一个是对流量的敏感，什么东西突然出镜率变高了，讨论的人多了。不是等量上来后的后知后觉，而是能感觉到趋势的微妙变化。</p>
-<p>再有一个，就是对人性的洞查，尤其是贪嗔痴。太阳底下无新事，很多东西其实是已有东西的翻版。比如，之前线上娃娃机很火，而最近火的是线上玩游戏免费得口红，其实本质上路子差不多，只是多了些变种，引入一些新的玩法。</p>
-<p>我在这方面就比较迟钝了，常常是看到什么火了，只有一拍大腿的份。感觉这本事有点玄学，不是按什么套路就能精进的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近什么火？什么最能赚快钱？接下来什么可能会火？&lt;/p&gt;
-&lt;p&gt;能回答这些问题，就是商业嗅觉很敏感了。&lt;/p&gt;
-&lt;p&gt;这其中，一个是对流量的敏感，什么东西突然出镜率变高了，讨论的人多了。不是等量上来后的后知后觉，而是能感觉到趋势的微妙变化。&lt;/p&gt;
-&lt;p&gt;再有一个，就是对人
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0214 - 边学边用的感觉，真好</title>
-    <link href="https://atjason.com/daily/2019-02-14.html"/>
-    <id>https://atjason.com/daily/2019-02-14.html</id>
-    <published>2019-02-14T14:00:00.000Z</published>
-    <updated>2019-02-14T16:18:16.254Z</updated>
-    
-    <content type="html"><![CDATA[<p>前阵子学习了 CSS，这几天正在学 Vue，今天临时帮朋友做点东西，正好同时用到了刚学的这两门手艺，感觉真好。</p>
-<p>投资自己，确实是性价比最高、收益最高的投资。只是，回报周期可能会比较长；且，有时看起来是比较奢侈的（比如有时间不去干活赚钱，而是学习，啧啧…）</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;前阵子学习了 CSS，这几天正在学 Vue，今天临时帮朋友做点东西，正好同时用到了刚学的这两门手艺，感觉真好。&lt;/p&gt;
-&lt;p&gt;投资自己，确实是性价比最高、收益最高的投资。只是，回报周期可能会比较长；且，有时看起来是比较奢侈的（比如有时间不去干活赚钱，而是学习，啧啧…）&lt;/p
     
     </summary>
     
