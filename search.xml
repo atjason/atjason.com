@@ -4,6 +4,64 @@
   
     
     <entry>
+      <title><![CDATA[0310 - 这周有点太忙了]]></title>
+      <url>https://atjason.com/daily/2019-03-10.html</url>
+      <content type="html"><![CDATA[<p>这周一直在写代码，在开发关键词排名监控的业务，每天都干到很晚，确实很忙。</p>
+<p>注意：<strong>说太忙，这话并不是褒义，而是预示着有很大的问题。</strong></p>
+<p>如果忙到没有足够的时间思考，没有在业务之外的范畴中有学习和进步，那么 <strong>这种忙，是螺丝钉级别的，是值得羞耻的。</strong></p>
+<p><strong>换个角度，之所以忙，很大原因还是能力不足</strong>，导致开发过程有各种问题，比如接口的反复修改而浪费了不少时间，比如一些基础的问题还得去 Google，等等。<strong>而这些导致忙的问题，恰恰不是忙能解决的</strong>。必须在不忙的情况下，潜心地学习进步，才能在之后的工作中提高效率，变得不忙。</p>
+<p>下周一定调整这个问题，切记。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0309 - 专业的犯错者]]></title>
+      <url>https://atjason.com/daily/2019-03-09.html</url>
+      <content type="html"><![CDATA[<p>今天听到这个词，感觉有意思。</p>
+<p>都说，失败是成功之母。可，如果任由失败接连发生，却不做什么，自然是不可能成功的。要做的，是在犯错后，对整个过程复盘，思考为什么；如果今后遇到同样的问题，怎么做会更好；等等。</p>
+<p>做专业的失败者，才能在失败的基础上进步。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0308 - 前后端开发的坑]]></title>
+      <url>https://atjason.com/daily/2019-03-08.html</url>
+      <content type="html"><![CDATA[<p>这两天在开发关键词排名监控应用，同时开发前端和后端，遇到一个严重的问题：后端 <strong>接口频繁变动</strong>，导致前端也要相应调整；同时，联调又要花费大量时间。</p>
+<p>怎么避免这种情况呢？我想了想：</p>
+<ul>
+<li><strong>充分理解需求（业务）</strong>。如果开始时只是一知半解，之后随着对业务理解的深入，必然需要调整，接口也必然会变动。</li>
+<li><strong>接口留一定弹性</strong>。小的变化时，可以在冗余接口中先走通逻辑。等积累到一定程度、这种蹩脚的实现太多时，再变动接口，用更合理的方式实现。</li>
+</ul>
+<p>感叹后端也是大坑，其中很重要的一点是 <strong>高并发与有限资源的冲突</strong>。毕竟，服务器的性能和资源都有限，甚至不如个人电脑，却要承载很多人的使用，对程序的挑战很大。比如我这两天的工作，在量小时一切正确；可量大后，直接内存不够给崩了…</p>
+<p>怎么说呢？继续苦练内功吧。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0307 - 爬虫与反爬虫]]></title>
       <url>https://atjason.com/daily/2019-03-07.html</url>
       <content type="html"><![CDATA[<p>首先，<strong>爬虫是灰色的</strong>；其合理利用，取决于爬虫方的心态和能力，也取决于反爬虫的技术。爬虫用的好，可以成就 Google、百度这样的公司；用得不好，可能对别人的利益，造成严重的伤害。</p>
@@ -8127,6 +8185,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -8168,22 +8242,6 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -12295,6 +12353,24 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
+      <url>https://atjason.com/daily/2017-07-25.html</url>
+      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
+<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
+<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
+<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[说说我出道后的处女作：剪贴板神器 iPaste]]></title>
       <url>https://atjason.com/IndieDev/2017-07-25_iPaste_Review.html</url>
       <content type="html"><![CDATA[<p>2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 <strong><a href="https://toolinbox.net/iPaste/" target="_blank" rel="external">iPaste</a>，是我独立开发的第一款 macOS 产品。</strong></p>
@@ -12483,24 +12559,6 @@
         <categories>
             
             <category> IndieDev </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
-      <url>https://atjason.com/daily/2017-07-25.html</url>
-      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
-<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
-<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
-<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -32378,9 +32436,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 结网 </tag>
-            
             <tag> 读书笔记 </tag>
+            
+            <tag> 结网 </tag>
             
         </tags>
         
@@ -32440,9 +32498,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 结网 </tag>
-            
             <tag> 读书笔记 </tag>
+            
+            <tag> 结网 </tag>
             
         </tags>
         
