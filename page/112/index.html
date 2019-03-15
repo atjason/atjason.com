@@ -258,6 +258,332 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-03.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-09-03.html" itemprop="url">
+                  0903 - Firebase Analytics PK Google Analytics
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-03T22:00:00+08:00">
+                2017-09-03
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>之前一直是使用 Google Analytics，无奈 Google 已经禁止移动版的 Google Analytics，全面让位于 Firebase Analytics；于是，在 iPaste for iOS 中，只能选择后者了。</p>
+<p>万万没想到，作为继任者的 Firebase Analytics，在 Event 方面远不如其父辈：</p>
+<ul>
+<li>数据更新慢，目测要 4+ 个小时。在这开始时很要命，因为第一次接触 Firebase，总要多试试才能摸清楚。可试一把就要 4+ 个小时，怒火中烧~</li>
+<li>不支持没有实时事件。虽说有开发者模式，但明显差很多。</li>
+<li>不支持 Category/Event/Label 分类，这个应该是最不方便的。<ul>
+<li>最终，我是使用 <code>AnalyticsEventSelectContent</code> 中的 <code>AnalyticsParameterContentType</code> 和 <code>AnalyticsParameterItemID</code>，够强实现了二级分类的 Event.</li>
+</ul>
+</li>
+<li>不支持页面跳转流。</li>
+<li>报表简陋。<ul>
+<li>比如不支持自定义 Dashboard.</li>
+<li>即使是内置的 Parameter，都无法完全显示在报表中；而自定义的 Parameter，则想当别想了。目测导入 BigQuery 是可以看到的，但目测麻烦、且要钱。</li>
+</ul>
+</li>
+<li>会带来网络请求。这是废话，关键的是，我想延迟网络请求直到用户手动操作，这样 iOS 弹出网络授权时，用户更不可能拒绝。稍后再想想怎么优化。</li>
+</ul>
+<p>当然，还有有些好处的：</p>
+<ul>
+<li>可以自定义用户属性。<ul>
+<li>比如，可以用于区分开发环境和生产环境、是否曾参加 TestFlight 测试。</li>
+</ul>
+</li>
+<li>生成漏斗报表更方便。比如付费转化率。</li>
+<li>Firebase 内置 Crash Report，这个有用。</li>
+<li>如果集成了 Ad 模块，可以识别出更多用户画像，比如年龄段、爱好、等等。不过，会让 AppStore 审核更严格。</li>
+</ul>
+<p>才刚刚接触 Firebase，后续还有很多要学习研究的。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-02.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-09-02.html" itemprop="url">
+                  0902 - Preferences & Permission
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-02T22:00:00+08:00">
+                2017-09-02
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>在 iPaste 的外围功能中，今天主要搞定了 Preferences &amp; Permission.</p>
+<p>Preferences 方面，由于目前主要是静态的功能，于是采用了 UITableViewController，基于 UITableView 使用 Static Cells 模式，手动添加一个个选项。其它一些细节：</p>
+<ul>
+<li>使用 <code>SFSafariViewController</code> 在应用内打开网页，不至于跳出应用。</li>
+<li>使用 <code>MFMailComposeViewController</code> 发送反馈邮件。</li>
+<li>当系统未配置邮箱时，打开网页进行反馈。</li>
+</ul>
+<p>Permission 方面，目前 iPaste 仅使用了网络权限。主要要注意的点：</p>
+<ul>
+<li>在应用启动时，避免一切网络请求。仅当用户有手动操作时，才请求网络。主要的好处是：不至于首次打开应用，就被提示要授权网络连接。</li>
+<li>封装检测当前应用是否可以访问的方法。对于重要的网络请求，先检测网络是否通畅。</li>
+<li>实际测试有些麻烦。因为 iOS 仅在用户首次运行时才弹出授权申请，要重置就要重置所有应用的权限，卸载程序都不行。感觉真的很不友好。</li>
+</ul>
+<hr>
+<p>另外，我一直觉得应用应该尽量减少配置项，今天碰到法理依据了：</p>
+<p><img src="https://ps.toolinbox.net/py5z4.jpg" alt=""></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-01.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -740,296 +1066,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-29.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-08-29.html" itemprop="url">
-                  0829 - macOS 与 iOS，从此在一起
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-29T22:00:00+08:00">
-                2017-08-29
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="https://ws4.sinaimg.cn/large/006tKfTcgy1fj0znz17mcg30js092n6l.gif" alt=""></p>
-<p>今天进展挺顺序，既实现了 macOS 数据结构升级为 Core Data，还基本实现了 CloudKit 同步，进而可以在多台 Mac、iPhone 等设备间同步。</p>
-<p>不过，剩下的事还有很多，单单是增强同步的可靠性，就要做很多工作，明天争取把这部分搞定。</p>
-<p>另外，一个有点麻烦的是，iOS 与 macOS 的库管理，以及如何共享代码。目前使用的是 Pod 来管理库，但总觉得对代码的侵入太强。了解下多个同类的方案，选个清爽点的吧。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-28.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-08-28.html" itemprop="url">
-                  0828 - 软件的技术支持成本
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-28T22:00:00+08:00">
-                2017-08-28
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>如果我宣布：我的某款应用，永远不会再更新，你还会买吗？</p>
-<p>正常情况下，潜在用户肯定是会犹豫的。如果不会，说明你是需要、希望应用有维护的。接下来的问题是：你觉得服务该如何定价？如何收费呢？别告诉你觉得开发者有义务免费更新，就是跟公司觉得你有义务免费加班是一个逻辑。</p>
-<p>有朋友说，对于不太需要更新的应用，有没有技术支持问题不大。是这样没错，但也不是绝对。就拿工具型应用来说，即使在 iOS 10 能完美运行，也不能保证在 iOS 11 依然正常。</p>
-<p>即使身处 App 的世界，我们还是不太适应 App 的生命周期，还是习惯性像理解一件 T 恤这种简单商品一样，理解 App 以及 App 的维护成本。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1079,7 +1115,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1288</span>
+                <span class="site-state-item-count">1290</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

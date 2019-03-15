@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-12T16:05:34.039Z</updated>
+  <updated>2019-03-14T16:15:05.146Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0314 - 所有好的，都值得大力称赞</title>
+    <link href="https://atjason.com/daily/2019-03-14.html"/>
+    <id>https://atjason.com/daily/2019-03-14.html</id>
+    <published>2019-03-14T14:00:00.000Z</published>
+    <updated>2019-03-14T16:15:05.146Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如机动车在斑马线上让行人。我们先不考虑效率等因素，先假定这是好的行为。那么，不论让行人的动机，是司机主动礼让，还是不想被拍照扣分，都应该大力称赞这种行为。</p>
+<p>核心的一点是，不能因为动机是怕被拍照扣分，就认为这么行为不值得表扬，更不能觉得「本该如此」人们本该善良、本该助人这样的人设，并不出现在现实中，可能童话或动画片里会有。</p>
+<p>如果愿意用一分来唾弃不好的，就要用十分来称赞好的；别因动机而吝啬你的表扬。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如机动车在斑马线上让行人。我们先不考虑效率等因素，先假定这是好的行为。那么，不论让行人的动机，是司机主动礼让，还是不想被拍照扣分，都应该大力称赞这种行为。&lt;/p&gt;
+&lt;p&gt;核心的一点是，不能因为动机是怕被拍照扣分，就认为这么行为不值得表扬，更不能觉得「本该如此」人们本该善良
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0313 - 不能复制时间的事，少做</title>
+    <link href="https://atjason.com/daily/2019-03-13.html"/>
+    <id>https://atjason.com/daily/2019-03-13.html</id>
+    <published>2019-03-13T14:00:00.000Z</published>
+    <updated>2019-03-13T15:19:14.742Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，开发自己的产品，可以给无数人用，相当于把自己的时间复制了无数份。</p>
+<p>比如，做外包开发给别人开发产品，只能取得一次性的报酬；自己的时间并不能复制，只是简单的出卖。</p>
+<p><strong>不能复制时间的事，少做，这不利于自己价值的最大化。</strong></p>
+<p>不过，凡事无绝对。比如外包，如果钱实在多的诱人，或者正好自己感兴趣，或者可以锻炼自己正在学的技术，等等；对于这些情况，自然是可以做的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，开发自己的产品，可以给无数人用，相当于把自己的时间复制了无数份。&lt;/p&gt;
+&lt;p&gt;比如，做外包开发给别人开发产品，只能取得一次性的报酬；自己的时间并不能复制，只是简单的出卖。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;不能复制时间的事，少做，这不利于自己价值的最大化。&lt;/stron
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0312 - 选择多：甜蜜的烦恼</title>
@@ -544,69 +594,6 @@
 &lt;ul&gt;
 &lt;li&gt;有机会拿起手机时，看几眼技术文档；&lt;/li&gt;
 &lt;li&gt;拿手机的机会都没有时（比如抱娃）
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0222 - 官方文档与第三方教程</title>
-    <link href="https://atjason.com/daily/2019-02-22.html"/>
-    <id>https://atjason.com/daily/2019-02-22.html</id>
-    <published>2019-02-22T14:00:00.000Z</published>
-    <updated>2019-02-23T03:38:54.060Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>技术的官方文档通常有个特点</strong>，或者说问题，就是太长太冗余。为了保持权威性和完整性，就像 RFC 一样，必需事无巨细地交待所有内容。这就使得 <strong>主要和次要的内容混杂在一起</strong>，既淹没了重点，也极大地增加了学习成本。</p>
-<p>而与之相对的，是 <strong>现代人</strong> 的急躁；<strong>并不想真正地学习某东西，而只是想尽快解决眼下的问题</strong>。尤其是，老板怪不得员工在瞬间用新技术实现新业务。</p>
-<p>两者对比如此强烈，<strong>怎么办呢？找捷径</strong>。</p>
-<p>这种状况和思路，是没有国别和文化差异的。体现在国内就是各种速成班（演化到现在就是网上课程、知识付费），XXX 简明教程，30 天 XXX 实战，给大忙人写的 XXX 入门教程，等等。在国外就是 Head First 系列等等。翻开这些书，绝大多数都是 LJ，通常是官方文档的整段整篇搬抄或翻译，都是在人们焦虑急迫之下的知识快销品。</p>
-<p>当然，也不能一棒子打死，有些第三方教程或书籍，确实是很好的。比如，《Cocoa Programming for Mac OS X》，比如阮一峰老师的文章。在我看来，<strong>好的教程主要提供两方面的帮助：</strong></p>
-<ul>
-<li><strong>突出重点</strong><ul>
-<li>暂时隐藏不太需要知道的东西，降低学习成本</li>
-</ul>
-</li>
-<li><strong>提供视角</strong><ul>
-<li>从经验及实战的视角，重新组织知识</li>
-</ul>
-</li>
-</ul>
-<p><strong>打个比方</strong>，官方文档平铺直叙，像个平面，像散落在地上的珍珠。好的教程，可以从中挑选中好的珍珠（重点部分），并用一根线（经验及实践的视角），把它们串起来、从地上拎起来，成为立体的东西。</p>
-<p>只是，这样 <strong>好的教程，可遇不可求</strong>，尤其是知识快销品容易获利，而这样的教程既难制作、又极易被抄袭的时代。于是，更重要的，还是要 <strong>增强自己学习的能力</strong>。</p>
-<p>其实，现在 <strong>很多官方文档也提供了不同维度的介绍</strong>。既包含平铺化的 API 列表，也有 Excample 提供小而完整的示例，还有 Cookbook 对某些知识点进行深入讲解。善用这些内容，在不同阶段学习对应的东西，再辅以必要的练习，基本就可以很好地入门一些技术。</p>
-<p><strong>学习，没有捷径</strong>。即便现在貌似抄了近路，将来也是要还的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;技术的官方文档通常有个特点&lt;/strong&gt;，或者说问题，就是太长太冗余。为了保持权威性和完整性，就像 RFC 一样，必需事无巨细地交待所有内容。这就使得 &lt;strong&gt;主要和次要的内容混杂在一起&lt;/strong&gt;，既淹没了重点，也极大地增加了学习成本。&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0221 - 光学不练假把式</title>
-    <link href="https://atjason.com/daily/2019-02-21.html"/>
-    <id>https://atjason.com/daily/2019-02-21.html</id>
-    <published>2019-02-21T14:00:00.000Z</published>
-    <updated>2019-02-21T16:14:45.703Z</updated>
-    
-    <content type="html"><![CDATA[<p>纯学习有一个多星期了，虽说最近几天也是以实现 example 为主，但总归不是做实际的产品，很容易「出戏」</p>
-<p>实在憋不住，今天没再纯学习，而是做一个小小项目：在线 html/css/js 代码编辑器。对，世上有很多这种产品，比如 jsfiddle/codepen；我也就是练手，毕竟最近接连学了 css/vue，这个小项目刚好这几方面都能锻练，还是挺适合的。</p>
-<p>今天大概做出样子了，明天拿出来给大家见面。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;纯学习有一个多星期了，虽说最近几天也是以实现 example 为主，但总归不是做实际的产品，很容易「出戏」&lt;/p&gt;
-&lt;p&gt;实在憋不住，今天没再纯学习，而是做一个小小项目：在线 html/css/js 代码编辑器。对，世上有很多这种产品，比如 jsfiddle/codepen
     
     </summary>
     
