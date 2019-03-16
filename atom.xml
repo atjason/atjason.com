@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-14T16:15:05.146Z</updated>
+  <updated>2019-03-15T16:01:57.385Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0315 - 每天预留自由时间</title>
+    <link href="https://atjason.com/daily/2019-03-15.html"/>
+    <id>https://atjason.com/daily/2019-03-15.html</id>
+    <published>2019-03-15T14:00:00.000Z</published>
+    <updated>2019-03-15T16:01:57.385Z</updated>
+    
+    <content type="html"><![CDATA[<p>结论：每天晚上 11 点之后，不再做业务相关的事情，只用来思考、学习、或发呆。</p>
+<p>忙了一天，需要一个调整切换的时期：</p>
+<ul>
+<li>比如，在赶业务时暂时搁置的不熟悉的部分，学习之；</li>
+<li>比如，思考今天的技术方案，有没有更好的实现方式；</li>
+<li>比如，跳出具体的事情，从更多的角度审视项目所处的状态，确定明天最应该做什么；</li>
+<li>比如，就是休息一下，放空大脑；</li>
+</ul>
+<p>做完这一切，正好是新的一天的形女以；从睡觉回血开始，开启美妙的一天。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;结论：每天晚上 11 点之后，不再做业务相关的事情，只用来思考、学习、或发呆。&lt;/p&gt;
+&lt;p&gt;忙了一天，需要一个调整切换的时期：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;比如，在赶业务时暂时搁置的不熟悉的部分，学习之；&lt;/li&gt;
+&lt;li&gt;比如，思考今天的技术方案，有没有更好的实现方式；&lt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0314 - 所有好的，都值得大力称赞</title>
@@ -559,41 +592,6 @@
     
       &lt;p&gt;一直以来，我都很遗憾没能参与大型复杂软件项目的开发。毕竟，对于开发人员来说，这是很好的历练和经验，也是能力的证明。&lt;/p&gt;
 &lt;p&gt;慢慢的，我开始释怀，因为我 &lt;strong&gt;判断价值的标准变了&lt;/strong&gt;。技术能力，是对开发者在「术」层面的要求。而更高的「道」的层面，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0223 - 碎片化学习</title>
-    <link href="https://atjason.com/daily/2019-02-23.html"/>
-    <id>https://atjason.com/daily/2019-02-23.html</id>
-    <published>2019-02-23T14:00:00.000Z</published>
-    <updated>2019-02-24T02:08:06.106Z</updated>
-    
-    <content type="html"><![CDATA[<p>此言不虚啊。</p>
-<p>遥想当年，在学校的时候，可以在图书馆一呆就是半天一天的。</p>
-<p>如今，这种好日子一去不复返。对于现在的我，最佳的学习模式是：</p>
-<ul>
-<li>有机会拿起手机时，看几眼技术文档；</li>
-<li>拿手机的机会都没有时（比如抱娃），反刍刚才看的东西，思考为什么要那样做、如何用于实际生产、等等；</li>
-<li>终于有时间坐在电脑前时，复习文档，并开始代码练习，并固化出惯用法。</li>
-</ul>
-<p>这其实要求更高，比如随时进入专注状态，比如精力管理，比如视力腰椎颈椎的保护…</p>
-<p><strong>碎片时间学习、理解，大块时间练习、固化。</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;此言不虚啊。&lt;/p&gt;
-&lt;p&gt;遥想当年，在学校的时候，可以在图书馆一呆就是半天一天的。&lt;/p&gt;
-&lt;p&gt;如今，这种好日子一去不复返。对于现在的我，最佳的学习模式是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;有机会拿起手机时，看几眼技术文档；&lt;/li&gt;
-&lt;li&gt;拿手机的机会都没有时（比如抱娃）
     
     </summary>
     
