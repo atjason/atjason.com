@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-15T16:01:57.385Z</updated>
+  <updated>2019-03-17T14:06:55.108Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0317 - 与头部合作</title>
+    <link href="https://atjason.com/daily/2019-03-17.html"/>
+    <id>https://atjason.com/daily/2019-03-17.html</id>
+    <published>2019-03-17T14:00:00.000Z</published>
+    <updated>2019-03-17T14:06:55.108Z</updated>
+    
+    <content type="html"><![CDATA[<p>「<strong>关键词排名监控</strong>」这个项目，需要引入 <strong>账户系统</strong>，用于在不同设备间同步数据，以及将来可能的付费账户体系。</p>
+<p>首先，<strong>放弃使用邮箱、手机号等方式自建账户体系</strong>。因为坑太多、成本太高。比如什么被批量注册、修改密码、复杂的找回密码机制、甚至是貌似简单的登出机制、发短信要钱、等等，都是额外的工作量和成本。</p>
+<p><strong>对于小项目，还是使用微信、QQ、微博等平台开放的账户体系比较快捷</strong>，省去上面说的诸多麻烦。<strong>对用户也方便</strong>，不用再记一个密码。但有一点一定要注意：<strong>更改账户麻烦</strong>。比如是给公司用的账户，如果用的是员工个人的微信，那员工离职时账户的交接，就是比较麻烦的事。</p>
+<p>说个插曲，<strong>如果你业务比较大，大到威胁到这个平台本身的利益，那就一定要自建账户体系了</strong>；比如刚刚发生不久的微信停止支持登录抖音。<strong>一旦涉及到商业利益，什么开放、合作、诚信、包容，统统扯淡</strong>。</p>
+<p>绕了一圈，说回标题（不是标题党）；在这些平台提供的账户体系中，<strong>最好是使用微信</strong>，因为用户使用方便，比如在微信中几乎可以无缝登录。<strong>但</strong>，这有个很麻烦的前提：<strong>需要认证微信开放平台</strong>。而这个「开放」平台，<strong>并不对个人开放</strong>，需要用到企业资质，同时网站也必须备案。我觉得麻烦，但想退而求其次，使用 QQ 登录，结果发现也是个坑。</p>
+<p>「QQ 登录」，只是我们的说法，真实的情况是，分了「腾讯开放平台」和「QQ 互联」2 个东西。以我目前的理解，其内部账户又是半互通。这也就算了，关键官网各种低级问题，开发者资料根本无法提交，更别说审核通过了；其文档也极其陈旧，官方的 js sdk 「最新版」是 2012 年的，可谓史前级了。客服入口很隐蔽，找到了也根本联系不上。</p>
+<p>总之，各种难受之后，本着珍惜生命的原则，我还是 <strong>弃坑 QQ 登录了</strong>。目光重新移回微信登录，意外发现，<strong>个体户也可以认证微信开放平台</strong>。于是屁颠屁颠地填表、签字并上传、交 300 元认证费用。第三方认证倒是很快，10 分钟就打电话，几小时便认证成功了。</p>
+<p>当然，后续还是有坑的，比如创建应用又要审核…（微信应该是是靠审核发家致富的无疑…）Anyway，和 QQ 登录相比，也是云泥有别了。至少，遇到问题相信找官方支持，也更容易些。</p>
+<p>经过这次，我更加感觉，<strong>在选择合作伙伴时，一定要选好的、最好是最好的</strong>。表面上前期成本会高些，但长期看，绝对能值回票价。不要在这点上将就，切记。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;「&lt;strong&gt;关键词排名监控&lt;/strong&gt;」这个项目，需要引入 &lt;strong&gt;账户系统&lt;/strong&gt;，用于在不同设备间同步数据，以及将来可能的付费账户体系。&lt;/p&gt;
+&lt;p&gt;首先，&lt;strong&gt;放弃使用邮箱、手机号等方式自建账户体系&lt;/strong&gt;。因为坑太
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0316 - 不负春光</title>
+    <link href="https://atjason.com/daily/2019-03-16.html"/>
+    <id>https://atjason.com/daily/2019-03-16.html</id>
+    <published>2019-03-16T14:00:00.000Z</published>
+    <updated>2019-03-16T15:47:17.213Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近这天气真是舒服啊，暖阳轻风，不冷不热，惬意~</p>
+<p>这两天又看到一些优秀还比自己年轻的经历，各种角度受打击。通常，这种时候我都会想，如果当初我怎样怎样，结果肯定要比现在好很多。</p>
+<p>努力，最好的时间是昨天，其次是现在；不负春光。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近这天气真是舒服啊，暖阳轻风，不冷不热，惬意~&lt;/p&gt;
+&lt;p&gt;这两天又看到一些优秀还比自己年轻的经历，各种角度受打击。通常，这种时候我都会想，如果当初我怎样怎样，结果肯定要比现在好很多。&lt;/p&gt;
+&lt;p&gt;努力，最好的时间是昨天，其次是现在；不负春光。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0315 - 每天预留自由时间</title>
@@ -540,58 +596,6 @@
     <summary type="html">
     
       &lt;p&gt;今天花了挺多时间研究 Vue 多页面，感觉还比较通用，自己之后也可能重复用到，就稍微整理下，放到 GitHub 上了：&lt;a href=&quot;https://github.com/atjason/vue-multi-pages&quot; target=&quot;_blank&quot; rel=&quot;exte
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0225 - 折叠屏元年</title>
-    <link href="https://atjason.com/daily/2019-02-25.html"/>
-    <id>https://atjason.com/daily/2019-02-25.html</id>
-    <published>2019-02-25T14:00:00.000Z</published>
-    <updated>2019-02-25T16:24:09.753Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近，三星、华为接连发布折叠屏手机，小米、OPPO 等厂商也或早或晚放出折叠屏工程机视频。今天是折叠屏元年无疑了。</p>
-<p>可，折叠屏手机，除了屏幕大，还有什么用处呢？感觉，连官方都不给出什么让人雀跃的使用场景。</p>
-<p>另一个类似的技术，是 5G；5G 除了快，到底有什么使用场景呢？即使厂商给出像样的解释，我们依然会听起来云里雾里。</p>
-<p>感觉这两样都是典型的 <strong>技术驱动需求</strong>。管你有没有用，我有技术，就算炫技，也先放出来了再说。只是放出来了，并不担心无用武之地。就像在 4G 普及之前，没人能长远地预见到后来才发生的诸如打车大战、百团大战、微视频大战等，现在也没人能拍胸脯告诉你 5G 会带来什么。</p>
-<p>即使如此，我们还是应该密切关注这些新技术的普及及大众的反应，纵使不领先潮流，也别被甩开太远。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近，三星、华为接连发布折叠屏手机，小米、OPPO 等厂商也或早或晚放出折叠屏工程机视频。今天是折叠屏元年无疑了。&lt;/p&gt;
-&lt;p&gt;可，折叠屏手机，除了屏幕大，还有什么用处呢？感觉，连官方都不给出什么让人雀跃的使用场景。&lt;/p&gt;
-&lt;p&gt;另一个类似的技术，是 5G；5G 除了快
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0224 - 技术的道与术</title>
-    <link href="https://atjason.com/daily/2019-02-24.html"/>
-    <id>https://atjason.com/daily/2019-02-24.html</id>
-    <published>2019-02-24T14:00:00.000Z</published>
-    <updated>2019-03-04T03:39:01.685Z</updated>
-    
-    <content type="html"><![CDATA[<p>一直以来，我都很遗憾没能参与大型复杂软件项目的开发。毕竟，对于开发人员来说，这是很好的历练和经验，也是能力的证明。</p>
-<p>慢慢的，我开始释怀，因为我 <strong>判断价值的标准变了</strong>。技术能力，是对开发者在「术」层面的要求。而更高的「道」的层面，是 <strong>为多少用户解决多少问题、解决的怎么样</strong>，这才是应该考量的标准。</p>
-<p>在这个标准下，技术的可扩展性、实时性、高并发性、可靠性等能力，都变成第二位的、非必要的。<strong>如果对于解决问题没有帮助，就没必要在意它们。</strong></p>
-<p>另外，<strong>大型软件自有其弊端</strong>，比如成本高昂，维护困难等。显然，并不是所有实际产品都需要上这样的技术。对于更广大的中小产品，精简的技术足以胜任，且因为小而带来很多好处，尤其是实际用户所负担得起。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一直以来，我都很遗憾没能参与大型复杂软件项目的开发。毕竟，对于开发人员来说，这是很好的历练和经验，也是能力的证明。&lt;/p&gt;
-&lt;p&gt;慢慢的，我开始释怀，因为我 &lt;strong&gt;判断价值的标准变了&lt;/strong&gt;。技术能力，是对开发者在「术」层面的要求。而更高的「道」的层面，
     
     </summary>
     

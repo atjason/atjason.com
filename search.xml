@@ -4,6 +4,46 @@
   
     
     <entry>
+      <title><![CDATA[0317 - 与头部合作]]></title>
+      <url>https://atjason.com/daily/2019-03-17.html</url>
+      <content type="html"><![CDATA[<p>「<strong>关键词排名监控</strong>」这个项目，需要引入 <strong>账户系统</strong>，用于在不同设备间同步数据，以及将来可能的付费账户体系。</p>
+<p>首先，<strong>放弃使用邮箱、手机号等方式自建账户体系</strong>。因为坑太多、成本太高。比如什么被批量注册、修改密码、复杂的找回密码机制、甚至是貌似简单的登出机制、发短信要钱、等等，都是额外的工作量和成本。</p>
+<p><strong>对于小项目，还是使用微信、QQ、微博等平台开放的账户体系比较快捷</strong>，省去上面说的诸多麻烦。<strong>对用户也方便</strong>，不用再记一个密码。但有一点一定要注意：<strong>更改账户麻烦</strong>。比如是给公司用的账户，如果用的是员工个人的微信，那员工离职时账户的交接，就是比较麻烦的事。</p>
+<p>说个插曲，<strong>如果你业务比较大，大到威胁到这个平台本身的利益，那就一定要自建账户体系了</strong>；比如刚刚发生不久的微信停止支持登录抖音。<strong>一旦涉及到商业利益，什么开放、合作、诚信、包容，统统扯淡</strong>。</p>
+<p>绕了一圈，说回标题（不是标题党）；在这些平台提供的账户体系中，<strong>最好是使用微信</strong>，因为用户使用方便，比如在微信中几乎可以无缝登录。<strong>但</strong>，这有个很麻烦的前提：<strong>需要认证微信开放平台</strong>。而这个「开放」平台，<strong>并不对个人开放</strong>，需要用到企业资质，同时网站也必须备案。我觉得麻烦，但想退而求其次，使用 QQ 登录，结果发现也是个坑。</p>
+<p>「QQ 登录」，只是我们的说法，真实的情况是，分了「腾讯开放平台」和「QQ 互联」2 个东西。以我目前的理解，其内部账户又是半互通。这也就算了，关键官网各种低级问题，开发者资料根本无法提交，更别说审核通过了；其文档也极其陈旧，官方的 js sdk 「最新版」是 2012 年的，可谓史前级了。客服入口很隐蔽，找到了也根本联系不上。</p>
+<p>总之，各种难受之后，本着珍惜生命的原则，我还是 <strong>弃坑 QQ 登录了</strong>。目光重新移回微信登录，意外发现，<strong>个体户也可以认证微信开放平台</strong>。于是屁颠屁颠地填表、签字并上传、交 300 元认证费用。第三方认证倒是很快，10 分钟就打电话，几小时便认证成功了。</p>
+<p>当然，后续还是有坑的，比如创建应用又要审核…（微信应该是是靠审核发家致富的无疑…）Anyway，和 QQ 登录相比，也是云泥有别了。至少，遇到问题相信找官方支持，也更容易些。</p>
+<p>经过这次，我更加感觉，<strong>在选择合作伙伴时，一定要选好的、最好是最好的</strong>。表面上前期成本会高些，但长期看，绝对能值回票价。不要在这点上将就，切记。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0316 - 不负春光]]></title>
+      <url>https://atjason.com/daily/2019-03-16.html</url>
+      <content type="html"><![CDATA[<p>最近这天气真是舒服啊，暖阳轻风，不冷不热，惬意~</p>
+<p>这两天又看到一些优秀还比自己年轻的经历，各种角度受打击。通常，这种时候我都会想，如果当初我怎样怎样，结果肯定要比现在好很多。</p>
+<p>努力，最好的时间是昨天，其次是现在；不负春光。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0315 - 每天预留自由时间]]></title>
       <url>https://atjason.com/daily/2019-03-15.html</url>
       <content type="html"><![CDATA[<p>结论：每天晚上 11 点之后，不再做业务相关的事情，只用来思考、学习、或发呆。</p>
@@ -15720,6 +15760,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -15804,22 +15860,6 @@
         <categories>
             
             <category> IT </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -17329,41 +17369,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[《女孩老板》]]></title>
-      <url>https://atjason.com/book/Girlboss.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
-<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
-<ul>
-<li>一头是成名前如何放荡不羁，然后快速成长；</li>
-<li>另一头是成名后的一个想法、状态。</li>
-</ul>
-<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
-<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
-<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
-<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
-<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
-<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
-<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
-<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
-<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
-<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
-<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
-<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
-<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
-<li>生活得自由并不意味着生活得好。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 读书笔记 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[201703 - 《从零开始做运营》]]></title>
       <url>https://atjason.com/book/201703.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/z1s34.jpg" alt=""></p>
@@ -17435,6 +17440,41 @@
 <li>然后，你需要衡量微信群和QQ群的优劣。微信群现在非常倾向于熟人之间的交流，同时微信群非常不便于管理。QQ群便于管理，但QQ群的活跃度是个极大的问题。群组的差异会导致运营的不同结果，在我看来，除非到了一定阶段，否则根本没有必要建立群组。 因为群组一旦组织，群主就要对群负责。同时群组会耗费很多时间精力，因此，请慎重考虑建立群组。</li>
 <li>我一直坚持案例的意义在于如何避免失败，而非如何成功。</li>
 <li>我们看到的大多是成功者的案例，其中成功的精髓无法通过表面现象和简单的方法论获得。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 读书笔记 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[《女孩老板》]]></title>
+      <url>https://atjason.com/book/Girlboss.html</url>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
+<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
+<ul>
+<li>一头是成名前如何放荡不羁，然后快速成长；</li>
+<li>另一头是成名后的一个想法、状态。</li>
+</ul>
+<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
+<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
+<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
+<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
+<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
+<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
+<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
+<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
+<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
+<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
+<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
+<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
+<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
+<li>生活得自由并不意味着生活得好。</li>
 </ul>
 ]]></content>
       
@@ -24281,29 +24321,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
-      <url>https://atjason.com/daily/2016-05-08.html</url>
-      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
-<p>不见得。</p>
-<p>也许是劲使错地方了。</p>
-<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
-<ul>
-<li>做自己擅长的、坚持做、更擅长。</li>
-<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
-<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0509 - 选择开源软件，还是付费软件？]]></title>
       <url>https://atjason.com/daily/2016-05-09.html</url>
       <content type="html"><![CDATA[<p>各有好坏。</p>
@@ -24318,6 +24335,29 @@
 <li>选择用户多的。这通常意味着网上会有充足的教程，也会有人把自己踩过的坑记录下来。有了这些资料，会让自己遇到问题时更容易解决。</li>
 </ul>
 <p>当然，开发者也是人、也需要生存、也需要收入。鼓励大家为软件付费（不论是直接购买付费软件，还是赞助开源软件），这样才能可持续发展：开发者做出越来精品的软件、消费者为软件付费、开发者继续改进、消费者享受更加精良的软件。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
+      <url>https://atjason.com/daily/2016-05-08.html</url>
+      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
+<p>不见得。</p>
+<p>也许是劲使错地方了。</p>
+<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
+<ul>
+<li>做自己擅长的、坚持做、更擅长。</li>
+<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
+<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
+</ul>
 ]]></content>
       
         <categories>
@@ -32529,9 +32569,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 结网 </tag>
-            
             <tag> 读书笔记 </tag>
+            
+            <tag> 结网 </tag>
             
         </tags>
         
@@ -32591,9 +32631,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 结网 </tag>
-            
             <tag> 读书笔记 </tag>
+            
+            <tag> 结网 </tag>
             
         </tags>
         
