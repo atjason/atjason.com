@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-22T11:40:25.111Z</updated>
+  <updated>2019-03-22T11:59:18.915Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://atjason.com/daily/2019-03-22.html"/>
     <id>https://atjason.com/daily/2019-03-22.html</id>
     <published>2019-03-22T14:00:00.000Z</published>
-    <updated>2019-03-22T11:40:25.111Z</updated>
+    <updated>2019-03-22T11:59:18.915Z</updated>
     
     <content type="html"><![CDATA[<p>今天研究并实现一个响应 GitHub Webhooks 实现自动部署的 Web 服务。简单收拾了下代码和文档，<a href="https://github.com/atjason/deploy" target="_blank" rel="external">开源至此</a></p>
 <h2 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h2><p>这并不是一个 Hello Word 教学示例，而是我自己在用的实际项目。假设你已经知道下列技术或满足其条件：</p>
