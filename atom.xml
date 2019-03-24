@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-22T11:59:18.915Z</updated>
+  <updated>2019-03-24T00:41:13.706Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0323 - 多做业务，少造轮子</title>
+    <link href="https://atjason.com/daily/2019-03-23.html"/>
+    <id>https://atjason.com/daily/2019-03-23.html</id>
+    <published>2019-03-23T14:00:00.000Z</published>
+    <updated>2019-03-24T00:41:13.706Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天折腾了下提交代码后的自动部署，将代码开源到 GitHub 上，也在 V2EX 等渠道介绍。在一些网友评论和我自己思考后，感觉这个事情不太妥：造轮子的味道太重。</p>
+<p><strong>决定产品核心竞争力和赢利能力的，在于对业务的把握和实现。</strong>除此之外，其他的都是末端。尤其，在时间精力有限的前提下，<strong>应尽可能把时间精力投入到核心业务上</strong>。任何其他的东西，应尽可能「外包」给成熟的第三方服务。如果投入太多精力去重复造轮子，这就是本末倒置。</p>
+<p>PS：<strong>多暴露自己，多和别人交流，是件非常好的事</strong>。别人不经意间的一句话，可能就会为自己提供全新的视角，揭示被自己习惯或忽视的东西。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨天折腾了下提交代码后的自动部署，将代码开源到 GitHub 上，也在 V2EX 等渠道介绍。在一些网友评论和我自己思考后，感觉这个事情不太妥：造轮子的味道太重。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;决定产品核心竞争力和赢利能力的，在于对业务的把握和实现。&lt;/strong&gt;除此之
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0322 - 响应 GitHub Webhooks 实现自动部署的 Web 服务</title>
@@ -540,39 +564,6 @@
     
       &lt;p&gt;以下来自 &lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%88%A9%E5%9F%BA%E5%B8%82%E5%9C%BA&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;维基百科&lt;/a&gt;：&lt;/p&gt;
 &lt;blockquot
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0303 - 交替学习法</title>
-    <link href="https://atjason.com/daily/2019-03-03.html"/>
-    <id>https://atjason.com/daily/2019-03-03.html</id>
-    <published>2019-03-03T14:00:00.000Z</published>
-    <updated>2019-03-03T02:10:59.852Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，我现在在学习 Vue 及前端开发，此时：</p>
-<ul>
-<li><strong>专注学习法</strong>，是我不断投入时间深入学习，做更多的练习。</li>
-<li><strong>交替学习法</strong>，是我再找件相关但不相同的事，比如微信小程序开发，做一段时间后，再返回来继续学习前端。</li>
-</ul>
-<p>先说个理念：<strong>大脑的能力可分为「存储」和「提取」</strong></p>
-<p><strong>专注学习，可以理解为不断地向大脑中存储</strong>。好处很明显，可以对一个事物有更多的理解。可也有些不好的东西，比如同一样东西学得多了、做了多了，新鲜感会降低，会有一定的厌烦心理，这就会影响效率。</p>
-<p><strong>交替学习，可以提高大脑的提取能力</strong>。比如，从前端切到小程序开发后，其实大脑在深层还是会继续保有对前端的思考。同时，如果前端学到的东西不经意间用到了小程序开发，这种对相同知识不同维度的使用，会大大增加对其的理解和掌握深度。也即，大脑对这部分知识再次提取的能力，大大加强了。也可以说，更「真正」地掌握了它。</p>
-<p>自然，这两种之法并不是绝对对立的。比如，你总不能学 10 分钟 A，就切换到 B，这就会引入新的切换成本。肯定是 A 学到、做到一定程度、一定阶段，再去切换更合适。</p>
-<p>既然我们不断被打断，不得不在不同的事情之间切换，与其抱怨，不如更加积极地面对，降低负面影响，在负面中寻找积极的因子。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，我现在在学习 Vue 及前端开发，此时：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;专注学习法&lt;/strong&gt;，是我不断投入时间深入学习，做更多的练习。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;交替学习法&lt;/strong&gt;，是我再找件相关但不相同的事，比如微信小程序开发，
     
     </summary>
     
