@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-24T14:41:04.955Z</updated>
+  <updated>2019-03-26T01:22:20.962Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0326 - 圈留割</title>
+    <link href="https://atjason.com/daily/2019-03-26.html"/>
+    <id>https://atjason.com/daily/2019-03-26.html</id>
+    <published>2019-03-26T14:00:00.000Z</published>
+    <updated>2019-03-26T01:22:20.962Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>圈留割：把用户圈进来，想办法把用户留住，然后从用户身上获利。</strong></p>
+<p>当然，这是一套比较刻薄的说法，更多是站点商家和商业的角度来看，暂时忽略了给用户提供了更高价值的事实。比如，给用户带来了十分的好处，从中获取一分的利润。这样的利润，再多也不过分。</p>
+<p>好了，我们试着把这个逻辑套在苹果身上。没错，就是那个散发光辉的苹果。</p>
+<p><strong>先说硬件</strong>。苹果应该是硬件起家、即使现在也是硬件利润最大、却极力撇清给外界这个印象。为什么？因为硬件设计制造周期长、风险大、增长有明显的天花板。硬件增加收入也就两种方式：<strong>提价和销量</strong>。提价就不说了，最近苹果被迫降价销售，说明此路不通。销量方面，总不能人手一部吧？好，就算今年人手一部，明年呢？卖给外星人？单纯的硬件，无法撑起苹果股份不断上涨的期望。</p>
+<p><strong>再说 iOS 及 App 生态</strong>。很多人想换 Android 手机却没换，很大的原因就是对 iOS App 的依赖；这是我感觉苹果最有价值的部分。可，这部分也有问题。比如，大家安装新 App 的次数越来越少了，Top 1000 甚至 Top 100 的 App，占据了绝大多数用户的绝大多数时间。还有个问题，就是微信小程序为代表的各种轻应用，事实上扼杀了很多长尾 App，给 App 生态带来直接的威胁。不爽的是，App 带来的收入，开发者竟然拿走大部分、自己只能得到 30%；更可恶的是，微信小程序竟然想绕过自己搞支付，直接攫取这可能的 30% 收入。是可忍，股价不能忍。</p>
+<p><strong>再说怎么割</strong>，也就是增加收入。前面说了，硬件是主要的收入来源，却有明显的问题。那怎么办呢？苹果的选择明显是服务。服务主要是指订阅，比如 iCloud、Apple Music、Apple TV 等。既不用给别人分成 30%，又是持续、稳定、可增长的，还能给用户带来价值，怎能不诱人？比如今天的苹果发布会，有媒体标题为：<strong>苹果发布会一款硬件没发：All in服务摆脱「硬件依赖」</strong></p>
+<p>最后，看下 <a href="https://www.apple.com/cn/newsroom/2019/01/apple-reports-first-quarter-results/" target="_blank" rel="external">Apple 第一季度业绩</a></p>
+<blockquote>
+<p>iPhone® 的收入相比去年下降 15%，而其他所有产品和服务的收入则增长了 19%。服务收入…达创纪录的 109 亿美元。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;圈留割：把用户圈进来，想办法把用户留住，然后从用户身上获利。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;当然，这是一套比较刻薄的说法，更多是站点商家和商业的角度来看，暂时忽略了给用户提供了更高价值的事实。比如，给用户带来了十分的好处，从中获取一分的利润。这样的利润，再
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0325 - 收敛与简化</title>
+    <link href="https://atjason.com/daily/2019-03-25.html"/>
+    <id>https://atjason.com/daily/2019-03-25.html</id>
+    <published>2019-03-25T14:00:00.000Z</published>
+    <updated>2019-03-25T15:45:21.362Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天花了点时间研究下 Google 关键词排名监控的产品，感觉有好多。如果把他们的功能点取并集，感觉有好多。</p>
+<p>而事实上，用户肯定不需要所有功能，我也没时间做那么多。这就需要取舍、简化，只做最必要的功能、用最简洁的形式。开放容易收敛难，这是产品初期不确定性最大、最烧脑的阶段。</p>
+<p>而这个问题如果不想清楚，就直接上代码、边实现边改，就会出现做百度时的问题：因为对需求的理解有变动，数据结构和接口变动，这些变动湮没了很多时间。</p>
+<p>明天再深度体验几款产品，找出最小功能集（没办法，我不是这个产品的直接用户，只能这样找灵感了…）。同时，初期的数据结构，尽量做的能支撑大部分功能，保留扩展性。争取明晚能正式开始代码。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天花了点时间研究下 Google 关键词排名监控的产品，感觉有好多。如果把他们的功能点取并集，感觉有好多。&lt;/p&gt;
+&lt;p&gt;而事实上，用户肯定不需要所有功能，我也没时间做那么多。这就需要取舍、简化，只做最必要的功能、用最简洁的形式。开放容易收敛难，这是产品初期不确定性最大、
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0324 - 「我竟然忘了这件事」</title>
@@ -508,56 +564,6 @@
     
       &lt;p&gt;首先，&lt;strong&gt;爬虫是灰色的&lt;/strong&gt;；其合理利用，取决于爬虫方的心态和能力，也取决于反爬虫的技术。爬虫用的好，可以成就 Google、百度这样的公司；用得不好，可能对别人的利益，造成严重的伤害。&lt;/p&gt;
 &lt;p&gt;不管怎样，爬虫极其广泛地存在。最近我也接触了一点
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0306 - 没有选择自由的依赖，是痛苦的源泉</title>
-    <link href="https://atjason.com/daily/2019-03-06.html"/>
-    <id>https://atjason.com/daily/2019-03-06.html</id>
-    <published>2019-03-06T14:00:00.000Z</published>
-    <updated>2019-03-07T15:12:49.078Z</updated>
-    
-    <content type="html"><![CDATA[<p>我们自然会依赖一些人或事。而当这种依赖不稳定、甚至对我们造成伤害时，如果我们无法反向影响或替换这种依赖，痛苦便无休止。</p>
-<p>比较好的，就是我们 <strong>有多个支点</strong>，可以依赖多个不同的东西。这样，当其中一个支点破坏时，可以简单地丢弃之，生活或心情不至于受影响。</p>
-<p>说明了还是自由度的问题。<strong>因为有多个可以依赖，所以变得没有依赖</strong>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们自然会依赖一些人或事。而当这种依赖不稳定、甚至对我们造成伤害时，如果我们无法反向影响或替换这种依赖，痛苦便无休止。&lt;/p&gt;
-&lt;p&gt;比较好的，就是我们 &lt;strong&gt;有多个支点&lt;/strong&gt;，可以依赖多个不同的东西。这样，当其中一个支点破坏时，可以简单地丢弃之，生活
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0305 - 不要期待被表扬</title>
-    <link href="https://atjason.com/daily/2019-03-05.html"/>
-    <id>https://atjason.com/daily/2019-03-05.html</id>
-    <published>2019-03-05T14:00:00.000Z</published>
-    <updated>2019-03-05T15:31:06.564Z</updated>
-    
-    <content type="html"><![CDATA[<p>很自然的，做好事情后，我们都希望得到别人的肯定，甚至是称赞。就像小学生把字写好后，老师会表扬，TA 会很开心。</p>
-<p>可，我们已经不是小学生了，不是吗？</p>
-<p><strong>人应该自我驱动</strong>；是自己内心的追求，驱动自己克服困难，做好事情。<strong>既然是自己的事，为什么要别人来表扬？</strong></p>
-<p>当然，我们不是机器人，别人的肯定，确实能提高自己的信心和成就感。可，关键是，<strong>别依赖</strong>，别像个小学生一样，巴巴地等着表扬，然后才继续做下面的事。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;很自然的，做好事情后，我们都希望得到别人的肯定，甚至是称赞。就像小学生把字写好后，老师会表扬，TA 会很开心。&lt;/p&gt;
-&lt;p&gt;可，我们已经不是小学生了，不是吗？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;人应该自我驱动&lt;/strong&gt;；是自己内心的追求，驱动自己克服困难，做好事情。&lt;
     
     </summary>
     
