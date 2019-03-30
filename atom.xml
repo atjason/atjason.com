@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-26T01:33:10.399Z</updated>
+  <updated>2019-03-29T15:02:35.510Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,84 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0329 - 境界要高、格局要大</title>
+    <link href="https://atjason.com/daily/2019-03-29.html"/>
+    <id>https://atjason.com/daily/2019-03-29.html</id>
+    <published>2019-03-29T14:00:00.000Z</published>
+    <updated>2019-03-29T15:02:35.510Z</updated>
+    
+    <content type="html"><![CDATA[<p>这并不是很空洞的东西，是很具体的。</p>
+<p>比如，在支付得起正版的前提下，还要费尽心思和时间去钻免费的空子，甚至是盗版，这就是反面例子。且不说这样的做法是否上得了台面，这样的人，难成大事。</p>
+<p>对我而言，尽量不去做别人做过的事，要做也做的比别人好；最好是出新，同时也确实能解决用户的问题。目的是成事，不在具体的细节过多纠缠，</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这并不是很空洞的东西，是很具体的。&lt;/p&gt;
+&lt;p&gt;比如，在支付得起正版的前提下，还要费尽心思和时间去钻免费的空子，甚至是盗版，这就是反面例子。且不说这样的做法是否上得了台面，这样的人，难成大事。&lt;/p&gt;
+&lt;p&gt;对我而言，尽量不去做别人做过的事，要做也做的比别人好；最好是出新
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0328 - AWS 的大腿就是粗</title>
+    <link href="https://atjason.com/daily/2019-03-28.html"/>
+    <id>https://atjason.com/daily/2019-03-28.html</id>
+    <published>2019-03-28T14:00:00.000Z</published>
+    <updated>2019-03-28T15:19:54.450Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，Amazon 邮件服务 (Amazon SES)，在绑定域名后，可以发给任意该域名下邮箱的邮件，比如 xxx@domain.com，这就意味着有无数邮箱了。</p>
+<p>更好玩的事，在 SES 收到邮件时，可以触发不同的事件，比如转发到指定邮件。更更好玩的是，可以触发 Lambda 云函数，做指定的事情，比如解析邮件内容，然后根据内容来响应。</p>
+<p>无数邮箱 + 解析邮件内容，这二者结合，想象空间太大了。</p>
+<p>AWS 的大腿就是粗，以后得多抱抱。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，Amazon 邮件服务 (Amazon SES)，在绑定域名后，可以发给任意该域名下邮箱的邮件，比如 xxx@domain.com，这就意味着有无数邮箱了。&lt;/p&gt;
+&lt;p&gt;更好玩的事，在 SES 收到邮件时，可以触发不同的事件，比如转发到指定邮件。更更好玩的是，可以触
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0327 - 时间很快与该不该</title>
+    <link href="https://atjason.com/daily/2019-03-27.html"/>
+    <id>https://atjason.com/daily/2019-03-27.html</id>
+    <published>2019-03-27T14:00:00.000Z</published>
+    <updated>2019-03-28T01:13:58.928Z</updated>
+    
+    <content type="html"><![CDATA[<p>跟我妈聊，她总是说：这一周一周过的真快啊，这就又到周末了。</p>
+<p>是啊，时间很快；又比任何人都勤奋，永远在往前走。</p>
+<p>与之形成反差的，是现在正在做的事，回报周期那么长、有多少又不确定，还要不要继续做呢？本来就没多少时间了，还要在目前的事情上继续投入吗？时间越快、回报越慢、现实压力越大，这种痛苦与纠结就愈发强烈。</p>
+<p>只是，时间的紧张感确实明显加深我们的焦虑，却不应该是影响决策的因素。如果时间的紧张感明显影响到的你的决策，暂时忘记时间这个因素，然后再做决策。</p>
+<p><strong>压力，并不是真正的动力；动力在心。</strong></p>
+<p>真正做事的时侯，最好能忘记时间的存在，全情投入。事情做的好不好，更多在于自己的努力；深度优秀的人或事，甚至能穿越时间，成为经典。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;跟我妈聊，她总是说：这一周一周过的真快啊，这就又到周末了。&lt;/p&gt;
+&lt;p&gt;是啊，时间很快；又比任何人都勤奋，永远在往前走。&lt;/p&gt;
+&lt;p&gt;与之形成反差的，是现在正在做的事，回报周期那么长、有多少又不确定，还要不要继续做呢？本来就没多少时间了，还要在目前的事情上继续投入吗？时
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0326 - 苹果的「圈留割」</title>
@@ -473,97 +551,6 @@
       &lt;p&gt;这周一直在写代码，在开发关键词排名监控的业务，每天都干到很晚，确实很忙。&lt;/p&gt;
 &lt;p&gt;注意：&lt;strong&gt;说太忙，这话并不是褒义，而是预示着有很大的问题。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;如果忙到没有足够的时间思考，没有在业务之外的范畴中有学习和进步，那么 &lt;stron
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0309 - 专业的犯错者</title>
-    <link href="https://atjason.com/daily/2019-03-09.html"/>
-    <id>https://atjason.com/daily/2019-03-09.html</id>
-    <published>2019-03-09T14:00:00.000Z</published>
-    <updated>2019-03-09T16:01:39.108Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天听到这个词，感觉有意思。</p>
-<p>都说，失败是成功之母。可，如果任由失败接连发生，却不做什么，自然是不可能成功的。要做的，是在犯错后，对整个过程复盘，思考为什么；如果今后遇到同样的问题，怎么做会更好；等等。</p>
-<p>做专业的失败者，才能在失败的基础上进步。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天听到这个词，感觉有意思。&lt;/p&gt;
-&lt;p&gt;都说，失败是成功之母。可，如果任由失败接连发生，却不做什么，自然是不可能成功的。要做的，是在犯错后，对整个过程复盘，思考为什么；如果今后遇到同样的问题，怎么做会更好；等等。&lt;/p&gt;
-&lt;p&gt;做专业的失败者，才能在失败的基础上进步。&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0308 - 前后端开发的坑</title>
-    <link href="https://atjason.com/daily/2019-03-08.html"/>
-    <id>https://atjason.com/daily/2019-03-08.html</id>
-    <published>2019-03-08T14:00:00.000Z</published>
-    <updated>2019-03-09T15:57:45.240Z</updated>
-    
-    <content type="html"><![CDATA[<p>这两天在开发关键词排名监控应用，同时开发前端和后端，遇到一个严重的问题：后端 <strong>接口频繁变动</strong>，导致前端也要相应调整；同时，联调又要花费大量时间。</p>
-<p>怎么避免这种情况呢？我想了想：</p>
-<ul>
-<li><strong>充分理解需求（业务）</strong>。如果开始时只是一知半解，之后随着对业务理解的深入，必然需要调整，接口也必然会变动。</li>
-<li><strong>接口留一定弹性</strong>。小的变化时，可以在冗余接口中先走通逻辑。等积累到一定程度、这种蹩脚的实现太多时，再变动接口，用更合理的方式实现。</li>
-</ul>
-<p>感叹后端也是大坑，其中很重要的一点是 <strong>高并发与有限资源的冲突</strong>。毕竟，服务器的性能和资源都有限，甚至不如个人电脑，却要承载很多人的使用，对程序的挑战很大。比如我这两天的工作，在量小时一切正确；可量大后，直接内存不够给崩了…</p>
-<p>怎么说呢？继续苦练内功吧。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这两天在开发关键词排名监控应用，同时开发前端和后端，遇到一个严重的问题：后端 &lt;strong&gt;接口频繁变动&lt;/strong&gt;，导致前端也要相应调整；同时，联调又要花费大量时间。&lt;/p&gt;
-&lt;p&gt;怎么避免这种情况呢？我想了想：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;充分理解
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0307 - 爬虫与反爬虫</title>
-    <link href="https://atjason.com/daily/2019-03-07.html"/>
-    <id>https://atjason.com/daily/2019-03-07.html</id>
-    <published>2019-03-07T14:00:00.000Z</published>
-    <updated>2019-03-07T15:44:50.077Z</updated>
-    
-    <content type="html"><![CDATA[<p>首先，<strong>爬虫是灰色的</strong>；其合理利用，取决于爬虫方的心态和能力，也取决于反爬虫的技术。爬虫用的好，可以成就 Google、百度这样的公司；用得不好，可能对别人的利益，造成严重的伤害。</p>
-<p>不管怎样，爬虫极其广泛地存在。最近我也接触了一点，简单说说。</p>
-<p><strong>先说反爬虫方</strong></p>
-<p>保护自己的财产，怎么做都不为过（可能吧）。说一个例子，你在百度搜索页面所做的 <strong>任何操作</strong>，包括鼠标移动、页面滚动、点击、甚至什么都不做的等待时间，所有这些信息，都会 <strong>被百度收集</strong>（细思极恐）。其作用可能很多，很重要的一点，就是识别你是人而不是虫子。而你如果是上来就用工具发网络请求，实在太容易被识别了，封不封，也只是看百度心情了。</p>
-<p><strong>再来看看爬虫方</strong></p>
-<p>关键的一点，是怎么防止被屏蔽。比较简单的，包含控制访问的频率、模拟用户的 Cookie/Refer/Header；进一步的，模拟用户真实行为，等等。</p>
-<p>其中很重要一个策略，就是用 <strong>大量 IP</strong>，频繁更换。怎么得到这许多 IP 呢？</p>
-<ul>
-<li>免费、付费的 <strong>代理池</strong>（听说及自己实测，可靠性并不怎么样）</li>
-<li>像 <strong>ADSL</strong> 一样可以通过拨号动态切换 IP 的服务器（哎，知道 ADSL 的人是真的老了，我也是才知道有这样的服务器…）</li>
-<li>也可以结合 <strong>家用宽带</strong> 自己搭建动态 IP（通过断线重拨的方式切换 IP）</li>
-<li>你是土豪，有很多服务器及动态 IP</li>
-</ul>
-<p>技术方案的选择，首先要知道有哪些可能的方案，然后在成本等众多限制条件下，寻找最优的；也是件挺有意思的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;首先，&lt;strong&gt;爬虫是灰色的&lt;/strong&gt;；其合理利用，取决于爬虫方的心态和能力，也取决于反爬虫的技术。爬虫用的好，可以成就 Google、百度这样的公司；用得不好，可能对别人的利益，造成严重的伤害。&lt;/p&gt;
-&lt;p&gt;不管怎样，爬虫极其广泛地存在。最近我也接触了一点
     
     </summary>
     
