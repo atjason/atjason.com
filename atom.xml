@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-03-30T23:46:47.587Z</updated>
+  <updated>2019-04-01T15:35:40.041Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0401 - 文档的命运，就是没人看</title>
+    <link href="https://atjason.com/daily/2019-04-01.html"/>
+    <id>https://atjason.com/daily/2019-04-01.html</id>
+    <published>2019-04-01T14:00:00.000Z</published>
+    <updated>2019-04-01T15:35:40.041Z</updated>
+    
+    <content type="html"><![CDATA[<ol>
+<li>从用户的角度，应该有看文档的自觉。</li>
+<li>从设计者的角度，用户应该开箱即用，无需看文档或少看文档。</li>
+</ol>
+<p>文档，就像公共场所的消防栓，最好的命运是没人用；退一步，在真要用时，凭直觉和常识就能使用。最差的，才是得严格按照操作说明才能正常使用。</p>
+<blockquote>
+<p>路透社方面获悉，2018年10月29日坠海的印度尼西亚狮航JT610航班黑匣子录音内容首次公开：在飞机坠毁前，机组人员还在翻操作手册，但最终没有找到解决方案。</p>
+</blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;从用户的角度，应该有看文档的自觉。&lt;/li&gt;
+&lt;li&gt;从设计者的角度，用户应该开箱即用，无需看文档或少看文档。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;文档，就像公共场所的消防栓，最好的命运是没人用；退一步，在真要用时，凭直觉和常识就能使用。最差的，才是得严格按照操作说明才
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0331 - 有钱之后做什么</title>
@@ -541,31 +573,6 @@
       &lt;p&gt;比如，开发自己的产品，可以给无数人用，相当于把自己的时间复制了无数份。&lt;/p&gt;
 &lt;p&gt;比如，做外包开发给别人开发产品，只能取得一次性的报酬；自己的时间并不能复制，只是简单的出卖。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;不能复制时间的事，少做，这不利于自己价值的最大化。&lt;/stron
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0312 - 选择多：甜蜜的烦恼</title>
-    <link href="https://atjason.com/daily/2019-03-12.html"/>
-    <id>https://atjason.com/daily/2019-03-12.html</id>
-    <published>2019-03-12T14:00:00.000Z</published>
-    <updated>2019-03-12T16:05:34.039Z</updated>
-    
-    <content type="html"><![CDATA[<p>关键词项目前端的功能差不多了，今天挑前端框架优化之，真的挑花眼了…</p>
-<p>前后了解了 Bootstrap、Bulma、Ant Design、Element、iView 等，最后选择了 <strong>Element</strong>；其中，一个重要的原因是，鉴于我的 Vue 基础还不牢，而 Element 文档里包含了大量 Vue 实例代码，简直可以拿来就用，抵挡不了诱惑。</p>
-<p>另外，对 Ant Design 也挺有好感的。一方面它的「面向中后端」的定位，其实挺符合我的需求；另一方面，它的生态相对更丰富，比如对设计原则的介绍、设计资源、文档等等。不过，未选择它的原因是，Ant Design 是 React 基因，Vue 版本貌似去年下半年才推出来，且未应用到 Ant Design Pro 中，是明显的二等公民。且文档中没有 Vue 示例源码 😂</p>
-<p>挑完后，看了一遍 Element 官方文档，大概了解了它怎么用、包含哪些组件，也写了测试代码进行可行性研究，基本心里有数。原本计划 3 天的后端 UI 改进，看来可以加快到 2 天了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;关键词项目前端的功能差不多了，今天挑前端框架优化之，真的挑花眼了…&lt;/p&gt;
-&lt;p&gt;前后了解了 Bootstrap、Bulma、Ant Design、Element、iView 等，最后选择了 &lt;strong&gt;Element&lt;/strong&gt;；其中，一个重要的原因是，鉴于我的
     
     </summary>
     
