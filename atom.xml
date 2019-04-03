@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-04-01T15:35:40.041Z</updated>
+  <updated>2019-04-02T14:31:24.343Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0402 - 不确定性的魅力</title>
+    <link href="https://atjason.com/daily/2019-04-02.html"/>
+    <id>https://atjason.com/daily/2019-04-02.html</id>
+    <published>2019-04-02T14:00:00.000Z</published>
+    <updated>2019-04-02T14:31:24.343Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们做的很多事，都可以算作在追求确定性。比如，怎么做才能 XXX</p>
+<p>而另一方面，不是所有事都有确定性，也不只是确定性才有意义。</p>
+<p>比如，出去旅游，如果攻略做的太详细，未免乏味。且如果因为变动而无法照着攻略行动，人会变得焦虑。</p>
+<p>比如，看一本不知道结尾的小说，更引人入胜。</p>
+<p>比如，一眼望穿的人生，没有吸引力。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们做的很多事，都可以算作在追求确定性。比如，怎么做才能 XXX&lt;/p&gt;
+&lt;p&gt;而另一方面，不是所有事都有确定性，也不只是确定性才有意义。&lt;/p&gt;
+&lt;p&gt;比如，出去旅游，如果攻略做的太详细，未免乏味。且如果因为变动而无法照着攻略行动，人会变得焦虑。&lt;/p&gt;
+&lt;p&gt;比如，看一
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0401 - 文档的命运，就是没人看</title>
@@ -547,32 +575,6 @@
     
       &lt;p&gt;比如机动车在斑马线上让行人。我们先不考虑效率等因素，先假定这是好的行为。那么，不论让行人的动机，是司机主动礼让，还是不想被拍照扣分，都应该大力称赞这种行为。&lt;/p&gt;
 &lt;p&gt;核心的一点是，不能因为动机是怕被拍照扣分，就认为这么行为不值得表扬，更不能觉得「本该如此」人们本该善良
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0313 - 不能复制时间的事，少做</title>
-    <link href="https://atjason.com/daily/2019-03-13.html"/>
-    <id>https://atjason.com/daily/2019-03-13.html</id>
-    <published>2019-03-13T14:00:00.000Z</published>
-    <updated>2019-03-13T15:19:14.742Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，开发自己的产品，可以给无数人用，相当于把自己的时间复制了无数份。</p>
-<p>比如，做外包开发给别人开发产品，只能取得一次性的报酬；自己的时间并不能复制，只是简单的出卖。</p>
-<p><strong>不能复制时间的事，少做，这不利于自己价值的最大化。</strong></p>
-<p>不过，凡事无绝对。比如外包，如果钱实在多的诱人，或者正好自己感兴趣，或者可以锻炼自己正在学的技术，等等；对于这些情况，自然是可以做的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，开发自己的产品，可以给无数人用，相当于把自己的时间复制了无数份。&lt;/p&gt;
-&lt;p&gt;比如，做外包开发给别人开发产品，只能取得一次性的报酬；自己的时间并不能复制，只是简单的出卖。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;不能复制时间的事，少做，这不利于自己价值的最大化。&lt;/stron
     
     </summary>
     
