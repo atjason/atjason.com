@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-04-08T15:52:58.097Z</updated>
+  <updated>2019-04-09T14:26:35.259Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0409 - 项目开始时的不确定性阶段</title>
+    <link href="https://atjason.com/daily/2019-04-09.html"/>
+    <id>https://atjason.com/daily/2019-04-09.html</id>
+    <published>2019-04-09T14:00:00.000Z</published>
+    <updated>2019-04-09T14:26:35.259Z</updated>
+    
+    <content type="html"><![CDATA[<p>项目初期，什么都不确定，什么都要做，却又被各种东西卡着，不知从何做起，这种感觉真难受。怎么办呢？有几点感受。</p>
+<p>状态要好<br>这是最重要的。在大量不确定性前提下，不管是什么思考还是行动，都是很费脑很累的。一旦状态不好，很容易感到疲惫，想放弃。</p>
+<p>真奔核心业务<br>不绕弯子，不在外围的事情上浪费太多精力，直接把注意力集中在产品最核心的业务部分。业务实现了，才是产品；否则，只是各种已有轮子的堆叠。</p>
+<p>擅长单元测试<br>这是为了保证一步一个脚印。前期变动大，很容易出现做好了 A，在做 B 时又把 A 破坏的情况。有了单元测试、持续集成，可以早点发现、早修复。</p>
+<p>擅用 Mock<br>尤其是前后端配合时，脑子在前后端切换，是很费脑子的。在做前端时，擅用 Mock 提供带数据的接口，既不防碍前端进展，又能在做真实业务时，思考和调整后端应提供的接口。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;项目初期，什么都不确定，什么都要做，却又被各种东西卡着，不知从何做起，这种感觉真难受。怎么办呢？有几点感受。&lt;/p&gt;
+&lt;p&gt;状态要好&lt;br&gt;这是最重要的。在大量不确定性前提下，不管是什么思考还是行动，都是很费脑很累的。一旦状态不好，很容易感到疲惫，想放弃。&lt;/p&gt;
+&lt;p&gt;真
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0408 - 从开源项目中学习</title>
@@ -562,32 +589,6 @@
     
       &lt;p&gt;本来要做微信登录，一直被微信审核给卡着，烦；就折腾了 Docker.&lt;/p&gt;
 &lt;p&gt;目前来看，我对 Docker 的使用还在 Container 级别。比如，需要使用 mongodb；本来是全局安装，测试和生产环境使用相同的 mongo、不同的 db. 有了 Docker 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0320 - 学习的两个阶段</title>
-    <link href="https://atjason.com/daily/2019-03-20.html"/>
-    <id>https://atjason.com/daily/2019-03-20.html</id>
-    <published>2019-03-20T14:00:00.000Z</published>
-    <updated>2019-03-20T02:29:06.176Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="一、野蛮学习阶段"><a href="#一、野蛮学习阶段" class="headerlink" title="一、野蛮学习阶段"></a>一、野蛮学习阶段</h2><p>学新东西时，先不要太过在意能否应用到生产中、怎么用。<strong>先把自己完全沉浸到新东西中，用新东西的视角和思维模式来理解一切。</strong><br>打个比方，自己之前擅长用螺丝刀解决一切问题。现在开始学锤子，先不着急和螺丝刀比较，而是认真学习锤子的使用方式，把全世界看成钉子。</p>
-<h2 id="二、为我所用阶段"><a href="#二、为我所用阶段" class="headerlink" title="二、为我所用阶段"></a>二、为我所用阶段</h2><p>等到了一定程度，再跳出来，和已有的东西交融。</p>
-<p>比如，和螺丝刀相比，锤子在哪些方面更好使；又有哪些局限，还是有螺丝刀更顺手；<br>比如，我目前正在使用的技术和方式，有哪些不足；和新东西相比，互相有哪些优缺点。</p>
-<p>既不盲目崇拜新东西、把已有的拍死，也不要过早因为新东西的局限而下结论。</p>
-<p><strong>更关键的</strong>，是已经会的、和新学的东西之间，如何交融，如何发挥双方的特长，<strong>如何更新自己的技术树</strong>。该用锤子用锤子，该用螺丝刀则继续使用螺丝刀。</p>
-<p><strong>吸星大法</strong>，你怕不怕？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;一、野蛮学习阶段&quot;&gt;&lt;a href=&quot;#一、野蛮学习阶段&quot; class=&quot;headerlink&quot; title=&quot;一、野蛮学习阶段&quot;&gt;&lt;/a&gt;一、野蛮学习阶段&lt;/h2&gt;&lt;p&gt;学新东西时，先不要太过在意能否应用到生产中、怎么用。&lt;strong&gt;先把自己完全沉浸到新东西
     
     </summary>
     
