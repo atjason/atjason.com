@@ -5,6 +5,20 @@
     
     <entry>
       <title></title>
+      <url>https://atjason.com/daily/2019-04-14.html</url>
+      <content type="html"><![CDATA[<p>title: ‘0414 - 数据驱动型产品’<br>categories: 每天写一点</p>
+<h2 id="date-2019-04-14-22-00-00"><a href="#date-2019-04-14-22-00-00" class="headerlink" title="date: 2019-04-14 22:00:00"></a>date: 2019-04-14 22:00:00</h2><p>对一款软件，如果从用户操作角度去看，可能会感觉状态很多、线索很多、七零八碎。换个角度，<strong>如果以数据为中心去看待外围的部分，事情可能就会明朗很多</strong>。</p>
+<p>比如，对于 Vue，可以把 <code>store</code> 作为数据中心、发动机，以此来关联和驱动状态变更，如连接网络请求、本地缓存、界面呈现、响应用户操作等。思想上有了中心，就不容易乱，更可能一步步去实现和丰富整体。</p>
+<p>还有一个好处，就是前后端对接的时，大家说的是相同的话：都以数据为中心，进行交流就会顺畅很多。</p>
+<p>当然，这个思路并不是万能的；目前感觉，对中小型的工具型产品，比较适合。</p>
+<p>且，这个方法自然也有问题，就是不可避免会把一些业务从 View/Control 层下沉到 Data 层，或者是纠缠不清，或者是把这个数据中心搞得很复杂，进而带来维护、测试复杂等问题。</p>
+]]></content>
+      
+        
+    </entry>
+    
+    <entry>
+      <title></title>
       <url>https://atjason.com/daily/2019-04-13.html</url>
       <content type="html"><![CDATA[<p>title: ‘0413 - 996 是必经阶段’<br>categories: 每天写一点</p>
 <h2 id="date-2019-04-13-22-00-00"><a href="#date-2019-04-13-22-00-00" class="headerlink" title="date: 2019-04-13 22:00:00"></a>date: 2019-04-13 22:00:00</h2><p>昨天，马云也发表了关于 996 的观点；本来被视觉中国抢走的话题，好像又要复燃起来。恩，我也来插一句：</p>
@@ -106,7 +120,7 @@
 <p>与之相比，另一种学习及使用新技术的方法是：<strong>基于开源库学习</strong>。这些开源库，是对技术的完整及实际使用；并不是 Hello World 级别，而是真实可用于生产的使用。</p>
 <p>比如，在学习 Ant Design 时，前一种使用是自己看完文档及各组件用法后，自己堆代码以实现业务逻辑。后一种是，继续学习 Ant Design Pro，然后在其基础上修改，或借鉴其整体代码并实现业务。Ant Design Pro 并不是对 Ant Design 简单的示例性应用，而是开箱即用、可用于生产环境的项目。</p>
 <p>这样的学习方式，好坏几乎是与第一种方式反过来的。好处是，可以学到更专业的用法；坏处是，由于一下子要接触大量新的、和自己风格不同的代码，学习起来比较吃力；在没有大块时间或充分的心理准备时，很可能会进行不下去；这也是上周我拖延的原因。</p>
-<p>不过，我今天硬着头皮看代码，确实是有些收获。需要指出的一点是，和在开源项目基础上修改的做法相比，个人三汤五割更好的是新起一个项目，把开源项目中好的、自己用得到的部分搬过来，并适配自己的代码风格和惯用法。通过这么一搬和适配，才能更好地理解、更有可能成为自己真正的积累。</p>
+<p>不过，我今天硬着头皮看代码，确实是有些收获。需要指出的一点是，和在开源项目基础上修改的做法相比，个人感觉更好的是新起一个项目，把开源项目中好的、自己用得到的部分搬过来，并适配自己的代码风格和惯用法。通过这么一搬和适配，才能更好地理解、更有可能成为自己真正的积累。</p>
 ]]></content>
       
         <categories>
@@ -12959,15 +12973,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0728 - Core 了一天 Data]]></title>
-      <url>https://atjason.com/daily/2017-07-28.html</url>
-      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
-<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
-<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
-<hr>
-<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
-<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
-<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
+      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
+      <url>https://atjason.com/daily/2017-07-29.html</url>
+      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
+<p>至此，理论部分算是学完了。</p>
+<p>下一步，开始实战。</p>
+<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
+<p>明天，先从产品角度考虑，确定交互。</p>
 ]]></content>
       
         <categories>
@@ -12980,13 +12992,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
-      <url>https://atjason.com/daily/2017-07-29.html</url>
-      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
-<p>至此，理论部分算是学完了。</p>
-<p>下一步，开始实战。</p>
-<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
-<p>明天，先从产品角度考虑，确定交互。</p>
+      <title><![CDATA[0728 - Core 了一天 Data]]></title>
+      <url>https://atjason.com/daily/2017-07-28.html</url>
+      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
+<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
+<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
+<hr>
+<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
+<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
+<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
 ]]></content>
       
         <categories>
@@ -13372,38 +13386,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0718 - 为何要写作]]></title>
-      <url>https://atjason.com/daily/2017-07-18.html</url>
-      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
-<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
-<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
-<ul>
-<li><strong>输出倒逼输入</strong><ul>
-<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
-</ul>
-</li>
-<li><strong>个人品牌建设</strong><ul>
-<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
-</ul>
-</li>
-<li><strong>跨界寻找可能性</strong><ul>
-<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
-<li><strong>多一个维度，多一种可能性</strong></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Mac 开发的神秘面纱：后娘养的嫡长子]]></title>
       <url>https://atjason.com/IndieDev/2017-07-18.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/bx86a.png" alt=""></p>
@@ -13592,6 +13574,38 @@
         <categories>
             
             <category> IndieDev </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0718 - 为何要写作]]></title>
+      <url>https://atjason.com/daily/2017-07-18.html</url>
+      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
+<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
+<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
+<ul>
+<li><strong>输出倒逼输入</strong><ul>
+<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
+</ul>
+</li>
+<li><strong>个人品牌建设</strong><ul>
+<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
+</ul>
+</li>
+<li><strong>跨界寻找可能性</strong><ul>
+<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
+<li><strong>多一个维度，多一种可能性</strong></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -16309,6 +16323,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -16393,22 +16423,6 @@
         <categories>
             
             <category> IT </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -24870,29 +24884,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
-      <url>https://atjason.com/daily/2016-05-08.html</url>
-      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
-<p>不见得。</p>
-<p>也许是劲使错地方了。</p>
-<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
-<ul>
-<li>做自己擅长的、坚持做、更擅长。</li>
-<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
-<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0509 - 选择开源软件，还是付费软件？]]></title>
       <url>https://atjason.com/daily/2016-05-09.html</url>
       <content type="html"><![CDATA[<p>各有好坏。</p>
@@ -24907,6 +24898,29 @@
 <li>选择用户多的。这通常意味着网上会有充足的教程，也会有人把自己踩过的坑记录下来。有了这些资料，会让自己遇到问题时更容易解决。</li>
 </ul>
 <p>当然，开发者也是人、也需要生存、也需要收入。鼓励大家为软件付费（不论是直接购买付费软件，还是赞助开源软件），这样才能可持续发展：开发者做出越来精品的软件、消费者为软件付费、开发者继续改进、消费者享受更加精良的软件。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
+      <url>https://atjason.com/daily/2016-05-08.html</url>
+      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
+<p>不见得。</p>
+<p>也许是劲使错地方了。</p>
+<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
+<ul>
+<li>做自己擅长的、坚持做、更擅长。</li>
+<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
+<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
+</ul>
 ]]></content>
       
         <categories>
@@ -32787,9 +32801,9 @@ fi
         
         <tags>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 瞬间之美 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
