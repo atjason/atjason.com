@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-04-19T15:47:58.865Z</updated>
+  <updated>2019-04-21T15:35:13.111Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,55 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0421 - 花钱买时间</title>
+    <link href="https://atjason.com/daily/2019-04-21.html"/>
+    <id>https://atjason.com/daily/2019-04-21.html</id>
+    <published>2019-04-21T14:00:00.000Z</published>
+    <updated>2019-04-21T15:35:13.111Z</updated>
+    
+    <content type="html"><![CDATA[<p>花钱买时间；<br>花钱买时间；<br>花钱买时间。</p>
+<p>说说很容易，现实中，很难割舍哪怕是小钱；宁愿自己多干点，以省点小钱。可，很多时间，就花在了那些明明可以用钱购买服务来解决的事上，非自己做不可的事，也就做的少了。</p>
+<p>只做必须、也只能自己做的事；其他的，能外包则外包、能用钱解决就用钱解决。<strong>节约下来的时间，用来赚钱</strong>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;花钱买时间；&lt;br&gt;花钱买时间；&lt;br&gt;花钱买时间。&lt;/p&gt;
+&lt;p&gt;说说很容易，现实中，很难割舍哪怕是小钱；宁愿自己多干点，以省点小钱。可，很多时间，就花在了那些明明可以用钱购买服务来解决的事上，非自己做不可的事，也就做的少了。&lt;/p&gt;
+&lt;p&gt;只做必须、也只能自己做的事；其
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0420 - 你眼中天大的事</title>
+    <link href="https://atjason.com/daily/2019-04-20.html"/>
+    <id>https://atjason.com/daily/2019-04-20.html</id>
+    <published>2019-04-20T14:00:00.000Z</published>
+    <updated>2019-04-20T16:54:15.026Z</updated>
+    
+    <content type="html"><![CDATA[<p>你眼中天大的事，在别人那里，可能只是别人的事。</p>
+<p>最近接触了几件事，都有明显的这种感觉。我们习惯性地能自己为本位，把自己的得失、感受看得很重。但其实，对于别人而言，只是很多事务中的一件，可能并不重要。甚至，对方在接收到信息的同时，可能正在忙于处理别的事。对于这种情况，很多人并不很好地驾驭，可能过会就忘了、忽略了。于是，你的玻璃心碎了一地。</p>
+<p>可能得有点概率思维。比如你让别人做件事，对方做或不做，是个概率，不是非黑即白、非 1 即 0 那样确定。有这种弹性、并预先想好对策（当然，主要是对于重要的事），不论发生什么结果，你就不容易惊慌失措、怅然若失、愤愤不平、难以接受。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;你眼中天大的事，在别人那里，可能只是别人的事。&lt;/p&gt;
+&lt;p&gt;最近接触了几件事，都有明显的这种感觉。我们习惯性地能自己为本位，把自己的得失、感受看得很重。但其实，对于别人而言，只是很多事务中的一件，可能并不重要。甚至，对方在接收到信息的同时，可能正在忙于处理别的事。对于这种
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0419 - 品牌的力量</title>
@@ -496,78 +545,6 @@
 &lt;p&gt;而另一方面，不是所有事都有确定性，也不只是确定性才有意义。&lt;/p&gt;
 &lt;p&gt;比如，出去旅游，如果攻略做的太详细，未免乏味。且如果因为变动而无法照着攻略行动，人会变得焦虑。&lt;/p&gt;
 &lt;p&gt;比如，看一
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0401 - 文档的命运，就是没人看</title>
-    <link href="https://atjason.com/daily/2019-04-01.html"/>
-    <id>https://atjason.com/daily/2019-04-01.html</id>
-    <published>2019-04-01T14:00:00.000Z</published>
-    <updated>2019-04-01T15:35:40.041Z</updated>
-    
-    <content type="html"><![CDATA[<ol>
-<li>从用户的角度，应该有看文档的自觉。</li>
-<li>从设计者的角度，用户应该开箱即用，无需看文档或少看文档。</li>
-</ol>
-<p>文档，就像公共场所的消防栓，最好的命运是没人用；退一步，在真要用时，凭直觉和常识就能使用。最差的，才是得严格按照操作说明才能正常使用。</p>
-<blockquote>
-<p>路透社方面获悉，2018年10月29日坠海的印度尼西亚狮航JT610航班黑匣子录音内容首次公开：在飞机坠毁前，机组人员还在翻操作手册，但最终没有找到解决方案。</p>
-</blockquote>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ol&gt;
-&lt;li&gt;从用户的角度，应该有看文档的自觉。&lt;/li&gt;
-&lt;li&gt;从设计者的角度，用户应该开箱即用，无需看文档或少看文档。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;文档，就像公共场所的消防栓，最好的命运是没人用；退一步，在真要用时，凭直觉和常识就能使用。最差的，才是得严格按照操作说明才
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0331 - 有钱之后做什么</title>
-    <link href="https://atjason.com/daily/2019-03-31.html"/>
-    <id>https://atjason.com/daily/2019-03-31.html</id>
-    <published>2019-03-31T14:00:00.000Z</published>
-    <updated>2019-03-30T23:46:47.587Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是一个似简实难的问题，不亚于我最想做什么、价值观及存在的意义等这样的神问，只是更具体些。</p>
-<p>试着回答这个问题：如果我口袋里「多出」了这么多钱、甚至必需要花掉，我会用来做什么？</p>
-<ul>
-<li>10 万</li>
-<li>100 万</li>
-<li>1000 万</li>
-<li>1 亿</li>
-<li>10 亿</li>
-<li>…</li>
-</ul>
-<p>且不说答案的好坏，当到某个数字，你的回答变得困难、变慢时，这基本上就是你能驾驭的钱了。</p>
-<p>说起答案，我想很多人的答案包含这个：<strong>有钱了，自然什么都不干，去周游世界啊</strong>。只是有这么个问题：你周游世界后，除了对当时旅游经济有点贡献，<strong>这个世界有什么改变？如果有我没我一个样，活着也未免无趣了些。</strong></p>
-<p>同样是游历，就说人家徐霞客，一生志在四方，历经 30 余年，足迹遍及今 21 个省市自治区，记录观察到的各种现象、人文、地理、动植物等状况，撰成的60万字地理名著《徐霞客游记》</p>
-<p>巴菲特说过，<strong>钱是为了让你做想做的事，而不是为了让你无所事事</strong>。</p>
-<p>至少，能回答好有钱之后做什么，才更有动力赚钱。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这是一个似简实难的问题，不亚于我最想做什么、价值观及存在的意义等这样的神问，只是更具体些。&lt;/p&gt;
-&lt;p&gt;试着回答这个问题：如果我口袋里「多出」了这么多钱、甚至必需要花掉，我会用来做什么？&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;10 万&lt;/li&gt;
-&lt;li&gt;100 万&lt;/li&gt;
-&lt;li&gt;
     
     </summary>
     
