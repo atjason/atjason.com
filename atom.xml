@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-04-21T15:35:13.111Z</updated>
+  <updated>2019-04-22T15:09:18.309Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0422 - 花钱为自己买一扇了解世界的窗</title>
+    <link href="https://atjason.com/daily/2019-04-22.html"/>
+    <id>https://atjason.com/daily/2019-04-22.html</id>
+    <published>2019-04-22T14:00:00.000Z</published>
+    <updated>2019-04-22T15:09:18.309Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，我买了 AirPods（还没发货😂），就会去找一些比较优质的音频内容，这就给我打开了一扇了解世界的窗。如果没有 AirPods，我就不会有这个冲动，就不会去找这些内容，就不会遇到潜在的优秀思想。</p>
+<p>比如，iPhone 刚问世的时候，如果你觉得贵就不买，或者等等再买性能更好的型号，你确实会得偿所愿，但也错过了最早接触 iPhone 的机会。事实上，对于一个程序员，哪怕早一个月接触 iPhone、早一个月转型 iOS 开发，在那移动开发炙手可热的年代，所收获的东西，远远超过买一部 iPhone 的钱。</p>
+<p>比如，特斯拉电动车，印象最深的是「小特叔叔」，我见证了他从买车，到围绕特斯拉做了一系列东西，比如网站、小程序、公众号等。我相信，他从特斯拉身上赚的钱，已经远远超过了当初买特斯拉的钱。如果当初不买、不是特斯拉用户，就不可能了解真实用户的需求，也不可能挖掘出后来的机会。</p>
+<p>所以，当我们看到一个好的东西要付费，如果单纯想省钱而放弃，我们确实可以把钱省下来，却也错失了一个认识世界的机会，以及错过潜在的更多。</p>
+<p>换个角度，我们除了有消费意识，还要有一定的投资意识。如果消费的同时也是投资，对价格就不那么敏感。放在银行的钱，除了给你一点点安全感，还能给你带来什么呢？花出去的钱，才是自己的钱。用钱来提高自己、用钱生钱，才是更明智的做法。</p>
+<p>顺便，你有什么优秀的音频内容，欢迎留言推荐，先谢~</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，我买了 AirPods（还没发货😂），就会去找一些比较优质的音频内容，这就给我打开了一扇了解世界的窗。如果没有 AirPods，我就不会有这个冲动，就不会去找这些内容，就不会遇到潜在的优秀思想。&lt;/p&gt;
+&lt;p&gt;比如，iPhone 刚问世的时候，如果你觉得贵就不买，或
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0421 - 花钱买时间</title>
@@ -517,34 +544,6 @@
     
       &lt;p&gt;今天迁移服务器，花了比较多时间在一个处于维护状态中的一个功能&amp;amp;服务。现在看来，这就是一种技术债务了。&lt;/p&gt;
 &lt;p&gt;怎么来的呢？最开始时，这个后端功能是用 Swift 实现的；你没看错，几年前用 Swift 实现后端功能；估计放现在，也没几个人这么干。后来，学 Py
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0402 - 不确定性的魅力</title>
-    <link href="https://atjason.com/daily/2019-04-02.html"/>
-    <id>https://atjason.com/daily/2019-04-02.html</id>
-    <published>2019-04-02T14:00:00.000Z</published>
-    <updated>2019-04-02T14:31:24.343Z</updated>
-    
-    <content type="html"><![CDATA[<p>我们做的很多事，都可以算作在追求确定性。比如，怎么做才能 XXX</p>
-<p>而另一方面，不是所有事都有确定性，也不只是确定性才有意义。</p>
-<p>比如，出去旅游，如果攻略做的太详细，未免乏味。且如果因为变动而无法照着攻略行动，人会变得焦虑。</p>
-<p>比如，看一本不知道结尾的小说，更引人入胜。</p>
-<p>比如，一眼望穿的人生，没有吸引力。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们做的很多事，都可以算作在追求确定性。比如，怎么做才能 XXX&lt;/p&gt;
-&lt;p&gt;而另一方面，不是所有事都有确定性，也不只是确定性才有意义。&lt;/p&gt;
-&lt;p&gt;比如，出去旅游，如果攻略做的太详细，未免乏味。且如果因为变动而无法照着攻略行动，人会变得焦虑。&lt;/p&gt;
-&lt;p&gt;比如，看一
     
     </summary>
     
