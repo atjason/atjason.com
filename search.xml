@@ -9021,22 +9021,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -9078,6 +9062,22 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -9493,10 +9493,93 @@
     </entry>
     
     <entry>
+      <title><![CDATA[分享一个监控 Google 关键词搜索排名的必备工具：seogrows.com]]></title>
+      <url>https://atjason.com/IndieDev/2019-04-24.html</url>
+      <content type="html"><![CDATA[<p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1g2d2riq7zkj30ok08c0ta.jpg" width="250px"></p>
+<h2 id="核心功能"><a href="#核心功能" class="headerlink" title="核心功能"></a>核心功能</h2><p>一句话：<strong>监控 Google 关键词搜索排名，记录排名历史。</strong></p>
+<p><strong><em>有什么用呢？</em></strong></p>
+<p>主要是为网站 SEO 服务的，是关键词优化的量化助手。</p>
+<p>事实上，SEOer 的日常工作，就包含在 Goolge 等搜索引擎查询不同关键词、并记录排名，比如记录在 Excel 中。如果关键词很多，这是很花时间的重复性劳动。<a href="https://seogrows.com" target="_blank" rel="external">seogrows.com</a> 可以完全自动化这项工作，几乎是 SEO 必备工具。</p>
+<p>进而，在优化关键词期间，<a href="https://seogrows.com" target="_blank" rel="external">seogrows.com</a> 所记录的精准排名历史，可以作为量化参考。<strong>当关键词异常变动时，及时邮件提醒</strong>（待实现）</p>
+<p>另外，对外贸独立站等类型的商业，网站是主要客源，关键词的排名更加重要且敏感，几乎直接等同于成交量，需要实时监控。</p>
+<h2 id="基本用法"><a href="#基本用法" class="headerlink" title="基本用法"></a>基本用法</h2><p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1g2d2ovoi8zg30im0b47wh.gif" alt=""></p>
+<p>基本上，只要一次性地添加域名和关键词，就可以随意摆弄搜索结果了。</p>
+<h3 id="添加域名和关键词"><a href="#添加域名和关键词" class="headerlink" title="添加域名和关键词"></a>添加域名和关键词</h3><p><img src="https://ws3.sinaimg.cn/large/006tNc79gy1g2d2ozarkdj30m80fm40e.jpg" alt=""></p>
+<p>简单介绍下各项：</p>
+<ul>
+<li><code>Title</code>: 相当于域名的别名，界面显示更友好。</li>
+<li><code>Domain</code>: 就是域名，注意无需 <code>http</code>，当然程序会自动过滤。</li>
+<li><code>Path</code>: 比如，你想监控子目录 <code>http://example.com/blog</code>，就在这里输入 <code>/blog</code></li>
+<li><code>Search Engine</code>: 目前实现了 Google(谷歌)</li>
+<li><code>Country</code>: 不同国家的搜索结果差异很大，选择你的目标市场，重点优化。</li>
+<li><code>Keyword</code>: 以 ，区分</li>
+</ul>
+<p>注意：刚添加的关键词需要一点时间才能查询完毕，这和服务器繁忙程度有关；通常需要几分钟，请耐心等待。之后，服务器便会每天自动查询收录和排名情况。</p>
+<h3 id="摆弄搜索结果"><a href="#摆弄搜索结果" class="headerlink" title="摆弄搜索结果"></a>摆弄搜索结果</h3><p>先来看看 <strong>过滤器</strong>：</p>
+<p><img src="https://ws1.sinaimg.cn/large/006tNc79gy1g2d2protrkj31bo030q3d.jpg" alt=""></p>
+<ul>
+<li><code>Device</code>: 桌面端和移动端的搜索结果差异很大，还是要注意你的目标用户的习惯。</li>
+<li><code>Date Range</code>: 查询的日期范围。注：添加关键词之前的数据，自然是没有的。</li>
+<li><code>Country</code>: 在这里可以切换创建域名时设置的国家列表。</li>
+<li><code>Position</code>: 查看排名落在某区间的关键词。</li>
+<li><code>Keyword</code>: 筛选关键词。</li>
+</ul>
+<p>另外，所有的列都可以点击排序。比如，你可以将所有关键词按排名排序。</p>
+<p>再来看看 <strong>排名历史</strong>：</p>
+<p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1g2d2py0wsoj30xc0hgjuc.jpg" alt=""></p>
+<ul>
+<li>点击 <code>Position</code> 列左侧的图标，则可显示该关键词的排名历史。</li>
+<li><code>y</code> 坐标是小的、好的排名在上方，和搜索结果视觉一致。</li>
+</ul>
+<p>还有 <strong>SERP</strong>(Search Engine Results Page):</p>
+<p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1g2d2q0yb86j30xc0jy7fu.jpg" alt=""></p>
+<ul>
+<li>点击 <code>URL</code> 列左侧的 <code>SERP</code> 按钮，则可显示该关键词的 <code>SERP</code></li>
+<li>比如，你的关键词排名第 2，你自然想知道谁他丫的敢排第 1；</li>
+<li><code>SERP</code> 会完整显示 Google 的前 100 条结果。其实 100+ 之后的意义不大。</li>
+</ul>
+<h3 id="分享域名及关键词"><a href="#分享域名及关键词" class="headerlink" title="分享域名及关键词"></a>分享域名及关键词</h3><p>如果你想将查询结果分享给同样做 SEO 的同事或老板，可以点击域名右侧的<code>分享</code>图标，然后点击 <code>Start Share</code>，将链接发给对方即可；不需要登录便可打开分享链接。</p>
+<p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1g2d2q79ppnj30dw0ap0ty.jpg" alt=""></p>
+<h2 id="之后"><a href="#之后" class="headerlink" title="之后"></a>之后</h2><p>其实还是很多想做的功能还没做，比如：</p>
+<ul>
+<li><strong>设置关键词排名大幅变化时，邮件提醒</strong></li>
+<li><strong>和竞争对手的关键词排名放在一起比较</strong></li>
+<li>关键词搜索量趋势</li>
+<li>导出查询结果</li>
+<li>…</li>
+</ul>
+<p>之后慢慢加上。</p>
+<h2 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h2><p>回答一些可能的问题吧。</p>
+<p><strong><em>为什么会做 Seo Grows?</em></strong><br>起先是一位做 SEO 的朋友提的需求，我正好在学习 Vue，就拿来练手。</p>
+<p><strong><em>为什么是全英文？</em></strong><br>想推海外市场。</p>
+<p><strong><em>有没有百度版的？</em></strong><br>有，这是 <a href="https://seo.toolinbox.net/" target="_blank" rel="external">百度版关键词搜索排名监控</a>，由于微信登录、排名历史等功能还没做，就没单独拿出来介绍；未来也会考虑做百度竞价排名监控。感兴趣的朋友可以打开试试。</p>
+<p>一些细节：</p>
+<ul>
+<li>Google 登录需要特殊上网</li>
+<li>微信内嵌浏览器不支持 Google 登录，可使用手机系统浏览器</li>
+<li>不登录，也可以查看首页的 <code>Demo</code></li>
+<li>手机端优化不充分。建议使用方式：电脑端创建、手机端查看</li>
+</ul>
+<h2 id="公测"><a href="#公测" class="headerlink" title="公测"></a>公测</h2><p>目前 Seo Grows 还在公测期，可免费使用。对 SEO/SEM 感兴趣的朋友，欢迎试试。</p>
+<p>链接在此：<a href="https://seogrows.com" target="_blank" rel="external">SeoGrows.com</a></p>
+<p><strong>期待你的反馈和建议。</strong>对 SEO 及关键词优化感兴趣的，也欢迎加小号拉群：<code>it_guwen</code></p>
+<p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> IndieDev </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[我是如何把 iText 带到这个世界的]]></title>
       <url>https://atjason.com/IndieDev/iText.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/9iygs.png" alt=""></p>
-<h2 id="0-iText-点子的由来"><a href="#0-iText-点子的由来" class="headerlink" title="0) iText 点子的由来"></a>0) iText 点子的由来</h2><p>开始时，我打算在 <a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib</a> 中支持从 PDF 导入标注，发现很难；在这个过程中，一些用户提出（<strong>发现需求</strong>）：在看 PDF 文档时，有些扫描版不支持复制文字，不方便。于是，就从双 11 晚上开始，<a href="https://atjason.com/daily/2017-11-13.html" target="_blank" rel="external">我花了一天，做了 iText 第一版</a>（<strong>最小原型</strong>），可以截图并从中识别文字。</p>
+<h2 id="0-iText-点子的由来"><a href="#0-iText-点子的由来" class="headerlink" title="0) iText 点子的由来"></a>0) iText 点子的由来</h2><p>开始时，我打算在 <a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib</a> 中支持从 PDF 导入标注，发现很难；在这个过程中，一些用户提出（<strong>发现需求</strong>）：在看 PDF 文档时，有些扫描版不支持复制文字，不方便。于是，就从双 11 晚上开始，<a href="https://atjason.com/daily/2017-11-13.html">我花了一天，做了 iText 第一版</a>（<strong>最小原型</strong>），可以截图并从中识别文字。</p>
 <p><img src="https://ps.toolinbox.net/hciqq.png" alt=""></p>
 <p>之后，在微博等渠道做了简单推广，并限制 <strong>封闭内测</strong>（即，用户需要发邮件给我，才能收到 iText 的下载链接），发现还是有不少人对这个工具感兴趣。这也算是 <strong>验证了这个需求的真实性</strong>，于是就决定好好做成一款产品。</p>
 <p>其实，在开发 iText 时，我已经有包括 <a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a> 、<a href="https://toolinbox.net/iPic/" target="_blank" rel="external">iPic</a>  在内的 7 款产品。要开一个新坑，还是很慎重的。毕竟，<strong>麻雀虽小、五脏俱全</strong>；再小的产品，也需要 Logo、产品首页、提交上架、运维等一系列事情。很容易分散精力，做出一款自己都不满意的产品。不过，感觉 iText 应该是可以做的，虽然我当然压根就没做所谓的竞品分析、市场容量分析等等。</p>
@@ -9764,7 +9847,7 @@
 </ul>
 </li>
 <li>自己的渠道<ul>
-<li><a href="https://atjason.com/" target="_blank" rel="external">博客</a></li>
+<li><a href="https://atjason.com/">博客</a></li>
 <li>朋友圈</li>
 <li><a href="https://weibo.com/atjasonzone/" target="_blank" rel="external">微博</a></li>
 <li><a href="https://ps.toolinbox.net/nckv0.jpg" target="_blank" rel="external">公众号「自在开发」</a></li>
@@ -9797,7 +9880,7 @@
 </ul>
 <p>当然，<strong>除了文字，也包括配图、甚至是视频</strong>。而这两者，通常比文字更花时间。</p>
 <p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1flx120m504g30la09qkin.gif" alt=""></p>
-<p>比如，在做上面的图时，首先要明确表达什么、构思如何表达、确定涉及到的素材、录屏、制作 GIF，整个过程流程很多，非常耗时。且一旦需要修改，几乎是全部重来的成本。顺便说一句，如果你想知道上面的 Gif 如何制作，<a href="https://atjason.com/daily/2017-08-21.html" target="_blank" rel="external">看这里</a></p>
+<p>比如，在做上面的图时，首先要明确表达什么、构思如何表达、确定涉及到的素材、录屏、制作 GIF，整个过程流程很多，非常耗时。且一旦需要修改，几乎是全部重来的成本。顺便说一句，如果你想知道上面的 Gif 如何制作，<a href="https://atjason.com/daily/2017-08-21.html">看这里</a></p>
 <p>比如 <strong>标题</strong>，如果纯粹是反映文章内容，很可能不够吸引人；如果起个抓眼球的标题，又极容易被骂标题党。另外，<strong>除了考虑一时一地的点击量，还得从长线上考虑搜索引擎的收录</strong>。绝对是技术活。</p>
 <h3 id="5-2-如何量化追踪每个渠道的推广效果"><a href="#5-2-如何量化追踪每个渠道的推广效果" class="headerlink" title="5.2) 如何量化追踪每个渠道的推广效果"></a>5.2) 如何量化追踪每个渠道的推广效果</h3><p>比如，发了一条微博，有多少用户因为这条微博下载安装 iText；进而，这些用户中有多少人付费购买。有了这些量化数据，才能反推出每个渠道的获客成本，进而决定是否要在一个渠道推广、制定推广预算。</p>
 <p>可见，量化追踪每个渠道的推广效果，非常重要，因为直接跟钱相关。这里，<strong>推广效果最直接的考量是转化率</strong>，但又不仅于此。比如品牌的露出、品牌形象的建立，都是要考虑的因素。那么，如何量化转化率呢？可考虑使用 <strong>iTunes 联盟</strong>。</p>
@@ -10146,7 +10229,7 @@
 <p>这样，就可以很方便地对照原图进行手动优化识别后的文字。</p>
 <h2 id="下载与付费"><a href="#下载与付费" class="headerlink" title="下载与付费"></a>下载与付费</h2><p>其实，很多场景都会用到 iText，比如 <strong>识别快递单上的号码、图片中的联系人信息、需要登录才能复制的网页</strong> 等等，欢迎下载 iText 试试。</p>
 <p><a href="https://itunes.apple.com/cn/app/id1314980676?ls=1&amp;mt=12&amp;at=1000lv4R&amp;ct=iText_me" target="_blank" rel="external"><img src="https://ps.toolinbox.net/mg17j.png" alt=""></a></p>
-<p>每月可免费识别 20 次，订阅 iText 高级版即可无限次识别。<strong>首发期间，高级版限时 6 折优惠：</strong>￥3/月、￥30/年。关于收费模式，我很是纠结了一番。如果你准备吐槽，<strong>请先看下这篇文章</strong>：<a href="https://atjason.com/daily/2017-11-28.html" target="_blank" rel="external">再次纠结付费模式，这次是 iText</a></p>
+<p>每月可免费识别 20 次，订阅 iText 高级版即可无限次识别。<strong>首发期间，高级版限时 6 折优惠：</strong>￥3/月、￥30/年。关于收费模式，我很是纠结了一番。如果你准备吐槽，<strong>请先看下这篇文章</strong>：<a href="https://atjason.com/daily/2017-11-28.html">再次纠结付费模式，这次是 iText</a></p>
 <p>如果你觉得 iText 还不错，还请帮忙 <a href="https://itunes.apple.com/cn/app/id1314980676?ls=1&amp;mt=12&amp;at=1000lv4R&amp;ct=iText_me" target="_blank" rel="external">在 App Store 评论</a>；如果你觉得 iText 还可以改进，欢迎：</p>
 <ul>
 <li><a href="https://toolinbox.net/html/feedback.html?lang=cn&amp;app=iText" target="_blank" rel="external">在这里留言</a></li>
@@ -10425,7 +10508,7 @@
 <ul>
 <li><a href="https://mp.weixin.qq.com/s/2XIjC_QWPgpxcmztLaYodw" target="_blank" rel="external">《Mac 开发的神秘面纱》</a></li>
 <li><a href="https://sspai.com/post/39855" target="_blank" rel="external">《Klib 到底赚了多少钱？》</a></li>
-<li><a href="https://atjason.com/daily/2017-07-11.html" target="_blank" rel="external">《在 iPic 周岁时，说说这款让我骄傲的产品》</a></li>
+<li><a href="https://atjason.com/daily/2017-07-11.html">《在 iPic 周岁时，说说这款让我骄傲的产品》</a></li>
 </ul>
 <p>这次，有朋友提：干嘛不在 GitChat 等类似的平台，开个 Live 或者文章付费阅读？我想想也是，既能带来点收入，还能增加点曝光，对自己的品牌建设也有一定的好处。</p>
 <p>于是，就有了<a href="http://gitbook.cn/gitchat/activity/5a119ad7c2d502358d73c009" target="_blank" rel="external">《如何独立开发一款 macOS 应用：从概念到上线》</a></p>
@@ -11733,7 +11816,7 @@
       <content type="html"><![CDATA[<p>iPaste，既是我的第一个 App，也是到目前为止最后一个；为什么呢？</p>
 <p>先前，iPaste 只活跃于 Mac 电脑中；<br>现在，我把它带到了 iPhone 手机上。</p>
 <p><img src="https://ps.toolinbox.net/iy17z.png" alt=""></p>
-<h2 id="0-缘起：我为什么要做-iPaste-for-iOS"><a href="#0-缘起：我为什么要做-iPaste-for-iOS" class="headerlink" title="0) 缘起：我为什么要做 iPaste for iOS?"></a>0) 缘起：我为什么要做 iPaste for iOS?</h2><p>2017 年 7 月 21 日，<a href="https://atjason.com/daily/2017-07-21.html" target="_blank" rel="external">我正式入坑 iOS 开发</a></p>
+<h2 id="0-缘起：我为什么要做-iPaste-for-iOS"><a href="#0-缘起：我为什么要做-iPaste-for-iOS" class="headerlink" title="0) 缘起：我为什么要做 iPaste for iOS?"></a>0) 缘起：我为什么要做 iPaste for iOS?</h2><p>2017 年 7 月 21 日，<a href="https://atjason.com/daily/2017-07-21.html">我正式入坑 iOS 开发</a></p>
 <p>要学一门新的编程语言，最好的方式是：边学边用。而纵观我当时已经做的产品（<a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib</a>、<a href="https://toolinbox.net/iPic/" target="_blank" rel="external">iPic</a>、<a href="https://toolinbox.net/iPic/iPicMover.html" target="_blank" rel="external">iPic Mover</a>、<a href="https://toolinbox.net/iPaste/" target="_blank" rel="external">iPaste</a>、<a href="https://toolinbox.net/iTimer/" target="_blank" rel="external">iTimer</a>、<a href="https://toolinbox.net/iHosts/" target="_blank" rel="external">iHosts</a>），<strong>iPaste 最适合练手 iOS 开发</strong>：产品本身边界清晰，已经有了 macOS 版、可以练习 iOS &amp; macOS 间的数据同步。总之，简直太适合了；于是，就有了你即将看到的产品。</p>
 <p>其实还有别的原因。虽说市面上已经有不少剪贴板应用，但还真没有我特别满意的。如果你了解我之前已经做的产品，就会发现 <strong>我特别偏好小巧、简洁的应用</strong>，不喜欢在小小的应用里塞很多功能；不需要的功能总在碍眼，还让交互变复杂，不爽。</p>
 <p>那么，<strong>到底我对剪贴板有什么需求，又会把这款应用做成什么样子呢？</strong>且往下看。</p>
@@ -11889,7 +11972,7 @@
 <p><a href="https://itunes.apple.com/cn/app/id1056935452?ls=1&amp;mt=12&amp;at=1000lv4R&amp;ct=iPaste_home" target="_blank" rel="external"><img src="https://ps.toolinbox.net/mg17j.png" alt=""></a></p>
 <p>（下载后，<strong>还请顺手评个分</strong>，同样期待你的使用体验）</p>
 <p>这只是开始。有了这个新技能，以后会有更多精彩的 iOS &amp; macOS 双平台应用，敬请期待。如果你有什么想法、需求，也欢迎联系我：iToolinbox#gmail.com 静候佳音。</p>
-<p>号外：我有每天写博客的习惯。如果你感兴趣，可以瞧瞧从 7 月 21 日开始的博客：<a href="https://atjason.com" target="_blank" rel="external">https://atjason.com</a> 这里，你可以了解 iPaste 从概念到诞生的全过程，最鲜活、最真实的过程；艰难与欣喜，尽在其中。</p>
+<p>号外：我有每天写博客的习惯。如果你感兴趣，可以瞧瞧从 7 月 21 日开始的博客：<a href="https://atjason.com">https://atjason.com</a> 这里，你可以了解 iPaste 从概念到诞生的全过程，最鲜活、最真实的过程；艰难与欣喜，尽在其中。</p>
 ]]></content>
       
         <categories>
@@ -12241,7 +12324,7 @@
 <p>另外，由于之前没料想到有这么多的要测试的朋友，之前只是留了邮箱、发邮件即可。这可苦了我了，手动复制 100 多年邮件地址。另外，真忙搞了个腾讯问卷。这样，大家可以在问卷中留下邮箱，我在后台导出来 csv 文件，进而导入 Test Flight 的后台，免去手动复制的麻烦。</p>
 <p>由于折腾这些事情，今天并没有做真正的开发。明天会停止这些运营活动，先修复发现的较严重的问题，然后开发 Today Widget. 至于发布日期，还没想好，可能得 9.12 苹果发布会之后的一两周吧。</p>
 <hr>
-<p>如果你刚刚了解到 iPaste for iOS，可以在 <a href="https://atjason.com/daily/2017-09-05.html" target="_blank" rel="external">这里</a> 了解，感兴趣可以在 <a href="https://wj.qq.com/s/1540447/7100/" target="_blank" rel="external">这里</a> 留下邮箱以参与 Test Flight 内测。</p>
+<p>如果你刚刚了解到 iPaste for iOS，可以在 <a href="https://atjason.com/daily/2017-09-05.html">这里</a> 了解，感兴趣可以在 <a href="https://wj.qq.com/s/1540447/7100/" target="_blank" rel="external">这里</a> 留下邮箱以参与 Test Flight 内测。</p>
 <p>最后，凡是参与内测的朋友，真诚地等待你们的使用体验，尤其是不满意的地方，让我们一起把这款产品做得简洁好用。</p>
 ]]></content>
       
@@ -13223,7 +13306,7 @@
 <li>第一次…</li>
 <li>…</li>
 </ul>
-<h3 id="1-0-Swift-与-macOS-开发"><a href="#1-0-Swift-与-macOS-开发" class="headerlink" title="1.0) Swift 与 macOS 开发"></a>1.0) Swift 与 macOS 开发</h3><p>这部分在 <a href="https://atjason.com/IndieDev/2017-07-18.html" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍，这里仅简单的提及。</p>
+<h3 id="1-0-Swift-与-macOS-开发"><a href="#1-0-Swift-与-macOS-开发" class="headerlink" title="1.0) Swift 与 macOS 开发"></a>1.0) Swift 与 macOS 开发</h3><p>这部分在 <a href="https://atjason.com/IndieDev/2017-07-18.html">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍，这里仅简单的提及。</p>
 <p>对于 iPaste 而言，核心的部分是系统剪贴板。也即，<strong>能够记录用户曾经复制的内容，并且能 100% 准确地还原</strong>。难就难在这 100%，因为用户可能会在任意程序中、复制任意格式的数据，如纯文本、格式化文本、图片、文件等等。</p>
 <p>其实，我试了当时的一些竞品，包含非常知名的，并没有做到这一点。比如，在复制并粘贴到 Numbers 时，会有一个单元格的错位。产品深处这样的问题，你在他们高大上的宣传中自然是看不到的。而 <strong>贴贴板</strong> 就做到了这一点，所以当时我还打出了「<strong>支持任意格式，不服来战</strong>」的口号。核心的，就是将 <code>NSPasteboardItem</code> 中的数据，存储为 <code>Data</code>；在粘贴时，再将其写回系统剪贴板。</p>
 <p><img src="https://ww2.sinaimg.cn/large/006tNc79gw1fah02yiagmg30j60askjl.gif" alt=""></p>
@@ -13315,7 +13398,7 @@
 <p><img src="https://ps.toolinbox.net/n5w2q.jpg" alt=""></p>
 <h3 id="2-1-付费下载-gt-内购"><a href="#2-1-付费下载-gt-内购" class="headerlink" title="2.1) 付费下载 -&gt; 内购"></a>2.1) 付费下载 -&gt; 内购</h3><p>最开始，iPaste 的模式是付费以后才能下载使用。</p>
 <p>采用这一方式的唯一原因：<strong>实现简单</strong>。或者说，代码上什么都不用做，无需区分免费版和付费后的功能限制，无需处理复杂的 In-App Purchase 集成。</p>
-<p>不过，这一方式的缺点也很明确：<strong>限制潜在用户尝试 iPaste</strong>. 这部分可以在 <a href="https://atjason.com/IndieDev/2017-07-18.html" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍详细的介绍。</p>
+<p>不过，这一方式的缺点也很明确：<strong>限制潜在用户尝试 iPaste</strong>. 这部分可以在 <a href="https://atjason.com/IndieDev/2017-07-18.html">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍详细的介绍。</p>
 <p>后来，<strong>iPaste 将付费模式调整为免费 + 内购</strong>。从效果上看，确实明显增加了用户数量，用户付费也有所增加。所以，如果你打算开发个产品，个人建议采用免费 + 内购的方式。其中，可以试试我开源的 <a href="https://github.com/atjason/IAPHelper" target="_blank" rel="external">IAPHelper</a>，可以很方便地集成 In-App Purchase. 另外，内购也可以试试订阅。虽说很多朋友对于订阅还很抗拒，不过，还是有用户能接受，不妨考虑一下。</p>
 <p><strong>换付费模式，其实是挺麻烦的事</strong>。比如，最开始已经付费购买的用户，总不能让其再购买一次、或者不能更新吧？要做到这一点，就要识别出之前上架 MAS 的版本，以及用户是否从 MAS 下载的 iPaste，对于条件都满足，则自动开通高级功能。如何识别？主要是从 MAS 更新 Receipt 并解析其中的内容。</p>
 <h2 id="3-iPaste-的现在与将来"><a href="#3-iPaste-的现在与将来" class="headerlink" title="3) iPaste 的现在与将来"></a>3) iPaste 的现在与将来</h2><h3 id="3-0-工具型产品的困境"><a href="#3-0-工具型产品的困境" class="headerlink" title="3.0) 工具型产品的困境"></a>3.0) 工具型产品的困境</h3><p>我查了下，上个版本的是 iPaste，是在去掉 9 月 26 日发布的，几乎都快一年了。</p>
@@ -13920,7 +14003,7 @@
 <li>无法查看或管理所有自己上传的图片</li>
 <li>毕竟是依赖第三方服务，多少有风险，比如新浪倒闭</li>
 </ul>
-<p>相反，如果不能接受微博图床的上述局限，可使用灵活度更高的自定义图床。比如，我自己使用的是七牛图床。起初是因为七牛提供一定额度的免费流量，后来才发现是个坑：免费流量不支持 https，而我的 <a href="https://atjason.com/" target="_blank" rel="external">博客</a> 和 <a href="">产品首页</a> 已经全面支持 https，虽说我每月也就给七牛交很少的流量费，不过多少有些受骗的感觉。早知如此，我就选择阿里云 OSS 了。</p>
+<p>相反，如果不能接受微博图床的上述局限，可使用灵活度更高的自定义图床。比如，我自己使用的是七牛图床。起初是因为七牛提供一定额度的免费流量，后来才发现是个坑：免费流量不支持 https，而我的 <a href="https://atjason.com/">博客</a> 和 <a href="">产品首页</a> 已经全面支持 https，虽说我每月也就给七牛交很少的流量费，不过多少有些受骗的感觉。早知如此，我就选择阿里云 OSS 了。</p>
 <p>这里顺便再说个七牛的一个坑：不支持 bucket 的自定义域名。也许你会说：支持的呀？但其实，只有「融合云」是支持的。但 CDN 毕竟有缓存问题，比如在做 Klib 分享时，我并不想因为速度的提升带来很大的缓存的问题（这会带来业务的问题，详见我当时的介绍），最后还是使用了支持自定义域名的阿里云 OSS. 比如，你在访问 <a href="http://s.klib.me/share.html" target="_blank" rel="external">http://s.klib.me/share.html</a> 时，其实是访问的阿里云 OSS 里的文件。</p>
 <h3 id="关于订阅模式"><a href="#关于订阅模式" class="headerlink" title="关于订阅模式"></a>关于订阅模式</h3><p>现在，订阅依然不为人所接受。而想想 1 年前，订阅更加被抗拒；但我还是依然坚持做吃螃蟹的人。一方面，我想有所尝试；另一方面，我觉得订阅制是对开发者友好的，进而对整个生态友好的。试想，如果开发者都坚持不下去了，也就不会再有好软件诞生。Windows 的生态就是很好的例子，我时不时听到有开发者放弃、或不愿开发 Windows 下的应用，很大的一个原因是：盗版太猖獗。很多人用盗版用得理所应当，觉得 Windows 操作系统收费是变态，OK，惹不起我还躲得起，<strong>最终吃亏的还是用户自己：没有好软件可用</strong>。</p>
 <p>Apple 的订阅制有个细节可以跟大家分享下。对于订阅的首年，Apple 会抽成 30%，即你付的 58 中，我只能得到 58 * 0.7 = 40.6，17.4 被 Apple 拔毛了。而在第 2 年及以后，Apple 抽成降低至 15%，即我可以多得 8.7 元。虽不多，但蚊子腿也是肉。更多的，是 Apple 对开发者的支持，用户对我的肯定。</p>
@@ -14081,8 +14164,8 @@
 <p><strong><a href="http://www.klib.me/cn/" target="_blank" rel="external">Klib</a></strong> 这款产品，从最初的想法，到目前第四版发布，已整整半年。而这个产品也走到了分叉路口，也是回顾的好时机。<strong>Klib 到底赚了多少钱？</strong>往下看。</p>
 <p>先前，已经写了 2 篇关于 Klib 的长文：</p>
 <ul>
-<li><a href="https://atjason.com/daily/2017-02-21.html" target="_blank" rel="external">0221 - 我是如何把 Klib 带到这个世界的</a></li>
-<li><a href="https://atjason.com/daily/2017-06-20.html" target="_blank" rel="external">0620 - 关于 Klib 分享，各种纠结之后，我选了如下方案</a></li>
+<li><a href="https://atjason.com/daily/2017-02-21.html">0221 - 我是如何把 Klib 带到这个世界的</a></li>
+<li><a href="https://atjason.com/daily/2017-06-20.html">0620 - 关于 Klib 分享，各种纠结之后，我选了如下方案</a></li>
 </ul>
 <p>感兴趣可以先看这两篇文章，相关的部分这里不再重复。</p>
 <h2 id="Klib-简要时间表"><a href="#Klib-简要时间表" class="headerlink" title="Klib 简要时间表"></a>Klib 简要时间表</h2><p>2017 这半年，便是 Klib 的全部。</p>
@@ -14780,8 +14863,8 @@
 </ul>
 <p>验证请求和前面的介绍是对应的，这里略过不表。</p>
 <h3 id="2-0-使用-Python-Flask-实现功能部分"><a href="#2-0-使用-Python-Flask-实现功能部分" class="headerlink" title="2.0) 使用 Python + Flask 实现功能部分"></a>2.0) 使用 Python + Flask 实现功能部分</h3><p>所谓接口服务器，首先就是要开放接口（开门接客）具体的，就是 http 请求的路由表。比如，当 Klib 客户端向 <a href="https://api.klib.me/share" target="_blank" rel="external">https://api.klib.me/share</a> 发送数据时，要有相应的代码来接收处理这个请求。</p>
-<p>在之前的文章 <a href="https://atjason.com/daily/2017-06-12.html" target="_blank" rel="external">我入门 Python 后总结的基础教程</a> 中，我已经介绍了使用 Flask 框架，这里不再重复。</p>
-<h3 id="2-1-使用-Nginx-Gunicorn-搭建服务器"><a href="#2-1-使用-Nginx-Gunicorn-搭建服务器" class="headerlink" title="2.1) 使用 Nginx + Gunicorn 搭建服务器"></a>2.1) 使用 Nginx + Gunicorn 搭建服务器</h3><p>同上，请参考 <a href="https://atjason.com/daily/2017-06-12.html" target="_blank" rel="external">我入门 Python 后总结的基础教程</a>。</p>
+<p>在之前的文章 <a href="https://atjason.com/daily/2017-06-12.html">我入门 Python 后总结的基础教程</a> 中，我已经介绍了使用 Flask 框架，这里不再重复。</p>
+<h3 id="2-1-使用-Nginx-Gunicorn-搭建服务器"><a href="#2-1-使用-Nginx-Gunicorn-搭建服务器" class="headerlink" title="2.1) 使用 Nginx + Gunicorn 搭建服务器"></a>2.1) 使用 Nginx + Gunicorn 搭建服务器</h3><p>同上，请参考 <a href="https://atjason.com/daily/2017-06-12.html">我入门 Python 后总结的基础教程</a>。</p>
 <p>另外，使用 Supervisorctl 保证服务可靠运行。</p>
 <h3 id="2-2-使用-MySQL-SQLAlchemy-存储数据"><a href="#2-2-使用-MySQL-SQLAlchemy-存储数据" class="headerlink" title="2.2) 使用 MySQL + SQLAlchemy 存储数据"></a>2.2) 使用 MySQL + SQLAlchemy 存储数据</h3><p>从数据存储的角度看，书的标注都是很规整的，无非是书名、作者、笔记内容等等。于是我选择了最常用的关系型数据库：MySQL</p>
 <p>如果直接使用 SQL 语句操作数据库，既繁琐又不安全，这里我使用可称为 ORM (Object Relational Mapping) 界事实标准的 <strong>SQLAlchemy</strong> 构建 Model、操作数据库。</p>
@@ -16463,6 +16546,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -16547,22 +16646,6 @@
         <categories>
             
             <category> IT </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html" target="_blank" rel="external">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -16696,7 +16779,7 @@
 <p><a href="https://www.amazon.cn/gp/product/B011LQHH66/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B011LQHH66&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">SEO实战密码</a> 这本书，非常系统、完整地介绍了网站 SEO 所需要做的方方面面，对于 SEO 入门是极好的。接下来，准备以此为依据，系统性地优化自己的这几个网站：</p>
 <ul>
 <li><a href="https://toolinbox.net/" target="_blank" rel="external">https://toolinbox.net/</a></li>
-<li><a href="https://atjason.com/" target="_blank" rel="external">https://atjason.com/</a></li>
+<li><a href="https://atjason.com/">https://atjason.com/</a></li>
 </ul>
 <a id="more"></a>
 <hr>
@@ -18197,7 +18280,7 @@
 <p>前情回顾</p>
 <ul>
 <li><a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib - 重塑 Kindle 笔记管理</a></li>
-<li><a href="https://atjason.com/daily/2017-02-21.html" target="_blank" rel="external">我是如何把 Klib 带到这个世界的</a></li>
+<li><a href="https://atjason.com/daily/2017-02-21.html">我是如何把 Klib 带到这个世界的</a></li>
 </ul>
 <h1 id="说说-Kindle-的笔记"><a href="#说说-Kindle-的笔记" class="headerlink" title="说说 Kindle 的笔记"></a>说说 Kindle 的笔记</h1><p>既然说 Klib 是这个蔚蓝的星球上导入 Kindle 笔记最强的工具，自然要先来说道说道 Kindle 笔记本身。二话不说先上图：</p>
 <p><img src="https://ww1.sinaimg.cn/large/006tNc79gy1fdlsjzbovkj30p00hfmyj.jpg" alt=""></p>
@@ -18944,7 +19027,7 @@
 <h1 id="缘起"><a href="#缘起" class="headerlink" title="缘起"></a>缘起</h1><p>2016 年底的时候，我在思考接下来做什么项目，并没有定下来，只是有个大概的方向：<strong>做个稍微大些的</strong>，以及技术上的需求，就是做一个<strong>有界面交互的</strong>。因为之前做的 i 系列工具（<a href="https://itunes.apple.com/cn/app/id1101244278?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external">iPic</a>、<a href="https://itunes.apple.com/cn/app/id1062139745?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external">iTimer</a>、<a href="https://itunes.apple.com/cn/app/id1056935452?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external">iPaste</a>、<a href="https://itunes.apple.com/cn/app/id1102004240?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external">iHosts</a>）都是非常垂直的，并且都是菜单栏工具，<strong>我想让自己有所突破</strong>。</p>
 <p>正巧，当时也给自己定了读书计划，就是<strong>要经常读书，并且读完后要在博客上写文章</strong>。主要自己是独立开发，获取信息的渠道本来就不多，就要<strong>用这种方式强迫自己不断更新</strong>。而要写文章，很重要的内容就是读书时的书摘。我习惯于用 Kindle 读电子书，于是，很直接的需求就是，把  Kindle 中的标注、笔记复制出来，用于写文章。</p>
 <p>而我大致搜索了下当时 macOS 平台下的标注管理工具，发现并没有趁手的。于是，就开始了程序员最喜欢做的事：<strong>造轮子</strong>。</p>
-<p>时间，正好是 2017 年元旦，详见 <a href="https://atjason.com/daily/2017-01-01.html" target="_blank" rel="external">当天日记</a>。顺便说一句，<a href="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/" target="_blank" rel="external">我有每天写日记的习惯，已经坚持几年了</a>，也是为了<strong>逼迫单打独斗的自己，能够保持思考、反省</strong>。</p>
+<p>时间，正好是 2017 年元旦，详见 <a href="https://atjason.com/daily/2017-01-01.html">当天日记</a>。顺便说一句，<a href="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/">我有每天写日记的习惯，已经坚持几年了</a>，也是为了<strong>逼迫单打独斗的自己，能够保持思考、反省</strong>。</p>
 <h1 id="设计"><a href="#设计" class="headerlink" title="设计"></a>设计</h1><p>这里借用设计这个名字，只是用以涵盖产品前期的各种思考。确实是有各种思考，如市场环境、商业模式、竞品分析、名字、Logo、做成什么样子、交互、如何发布、怎么运营、时间节点、等等。时间有些早了，这里简单回忆下几个比较重要的点。</p>
 <h2 id="定位"><a href="#定位" class="headerlink" title="定位"></a>定位</h2><p><strong>我一向倾向于做简洁的产品，这个工具也是如此</strong>。我最核心的需求就是导出 Kindle 中的笔记，最直观的衍伸就是能持久保存、定期回顾这些笔记。好了，就是这些吧，再多就难做的精简、好用了。重复+小结一下：</p>
 <p>定位：<strong>精简的、macOS 平台、Kindle 笔记管理工具</strong></p>
@@ -19030,7 +19113,7 @@
 <p>比如，除非用户手动操作（即用操作本身来授权）沙盒不允许产品访问用户的文件系统。这就使用 iKindle 无法在一开始时直接自动导入当前连接的 Kindle 设备，而必需由用户手动操作。这就需要很恰当的引导。而一旦使用过一次，后续就不再需要用户手动操作。这也是为什么 iKindle 后续可以自动导入。</p>
 <p>还有一个很关键的：<strong>即使在开发过程中打开了沙盒限制，苹果在审核时还是可能以沙盒为理由拒绝。</strong>虽说苹果准备了齐全的文档来说明这些限制，但一般开发者明显不能完全领会。就像你不可能读完所有法律以后再迈出家门第一步，一定碰到问题再解决问题更实际。好在，这次我没碰到这个问题。</p>
 <h2 id="名字"><a href="#名字" class="headerlink" title="名字"></a>名字</h2><p>好吧，来说前文的坑。也许你会奇怪，为什么直到「沙盒限制」用的还是「iKindle」这个名字？是不是打错了？没错，确实是叫 iKindle.</p>
-<p>但是，<strong>苹果不允许在 App 名字中出现 Kindle 这个字样</strong>。于是，只能改名了。这真是个痛苦的过程。一方面，想出一个好名字并不容易，我纠结了 N 久（<a href="https://atjason.com/daily/2017-02-15.html" target="_blank" rel="external">具体可见我的博客</a>），最终写了 <strong>Klib</strong> (<strong>K</strong>indle <strong>lib</strong>rary) 这个名字。</p>
+<p>但是，<strong>苹果不允许在 App 名字中出现 Kindle 这个字样</strong>。于是，只能改名了。这真是个痛苦的过程。一方面，想出一个好名字并不容易，我纠结了 N 久（<a href="https://atjason.com/daily/2017-02-15.html">具体可见我的博客</a>），最终写了 <strong>Klib</strong> (<strong>K</strong>indle <strong>lib</strong>rary) 这个名字。</p>
 <p>另一方面，所有的东西都是跟名字相关的，比如代码、App 名称、文案、截图、等等。一旦名字改了，所有这些都要改。这是极其繁琐的事，我再也不想做第 2 次。</p>
 <p>比如 Logo，变成了下面的样子：</p>
 <p><img src="https://ps.toolinbox.net/zyvsd.png" alt=""></p>
@@ -20627,7 +20710,7 @@
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/fv1yv.jpg" alt=""></p>
 <p>一口气升级 4 个网站：</p>
 <ul>
-<li><a href="https://atjason.com" target="_blank" rel="external">atjason.com</a></li>
+<li><a href="https://atjason.com">atjason.com</a></li>
 <li><a href="https://en.atjason.com" target="_blank" rel="external">en.atjason.com</a></li>
 <li><a href="https://toolinbox.net" target="_blank" rel="external">toolinbox.net</a></li>
 <li><a href="https://en.toolinbox.net" target="_blank" rel="external">en.toolinbox.net</a></li>
@@ -20649,7 +20732,7 @@
       <url>https://atjason.com/daily/2016-11-25.html</url>
       <content type="html"><![CDATA[<p>一口气升级 4 个网站：</p>
 <ul>
-<li><a href="http://atjason.com" target="_blank" rel="external">atjason.com</a></li>
+<li><a href="http://atjason.com">atjason.com</a></li>
 <li><a href="http://en.atjason.com" target="_blank" rel="external">en.atjason.com</a></li>
 <li><a href="http://toolinbox.net" target="_blank" rel="external">toolinbox.net</a></li>
 <li><a href="http://en.toolinbox.net" target="_blank" rel="external">en.toolinbox.net</a></li>
@@ -23639,7 +23722,7 @@
       <title><![CDATA[0717 - 搞定 ShadowSocks & fail2ban]]></title>
       <url>https://atjason.com/daily/2016-07-17.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/jaaub.jpg" alt=""></p>
-<p>今天主要搞定：<a href="http://atjason.com/IT/ss_fail2ban.html" target="_blank" rel="external">使用 fail2ban 保护 ShadowSocks</a></p>
+<p>今天主要搞定：<a href="http://atjason.com/IT/ss_fail2ban.html">使用 fail2ban 保护 ShadowSocks</a></p>
 ]]></content>
       
         <categories>
@@ -23733,7 +23816,7 @@
     <entry>
       <title><![CDATA[0716 - 搞定 iptables]]></title>
       <url>https://atjason.com/daily/2016-07-16.html</url>
-      <content type="html"><![CDATA[<p>今天最大的成绩就是，搞定了一直觉得很麻烦、很神秘的 itables: <a href="http://atjason.com/en/IT/iptables.html" target="_blank" rel="external">http://atjason.com/en/IT/iptables.html</a></p>
+      <content type="html"><![CDATA[<p>今天最大的成绩就是，搞定了一直觉得很麻烦、很神秘的 itables: <a href="http://atjason.com/en/IT/iptables.html">http://atjason.com/en/IT/iptables.html</a></p>
 <p>另外，DigitalOcean 的文档确实不错，都比较浅显易懂，顿时对 DO 的印象好了很多，以后 VPS 考虑在 DO 上建。</p>
 ]]></content>
       
@@ -24051,25 +24134,6 @@
             
         </categories>
         
-        
-    </entry>
-    
-    <entry>
-      <title></title>
-      <url>https://atjason.com/daily/index.html</url>
-      <content type="html"><![CDATA[<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-26569268-1', 'auto');
-  ga('send', 'pageview');
-
-  setTimeout(function(){window.location="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"},50);
-</script>
-
-]]></content>
-      
         
     </entry>
     
@@ -28488,7 +28552,7 @@
 <p>对于点击后的灰色蒙板，也可以使用类似的方式来移动。隐藏与否则可以通过控制Scale来实现，而Opacity则设置为0.3。</p>
 <p>实现后的QC界面大概是：</p>
 <p><a href="https://ps.toolinbox.net/d72aa.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/y7wsk.png" alt=""></a></p>
-<p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/SelectLanguage.zip" target="_blank" rel="external">下载Origami工程文件</a>。</p>
+<p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/SelectLanguage.zip">下载Origami工程文件</a>。</p>
 ]]></content>
       
         <categories>
@@ -28546,7 +28610,7 @@
 <li><p>任务列表界面</p>
 </li>
 </ul>
-<p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel_Asset.zip" target="_blank" rel="external">下载素材</a>。</p>
+<p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel_Asset.zip">下载素材</a>。</p>
 <h1 id="3，逐步实现交互"><a href="#3，逐步实现交互" class="headerlink" title="3，逐步实现交互"></a>3，逐步实现交互</h1><h2 id="布置静态界面"><a href="#布置静态界面" class="headerlink" title="布置静态界面"></a>布置静态界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。</p>
 <p>注意Layer的上下层次，从上到下依次是：状态栏、任务列表、侧边栏</p>
 <p>实现后的QC界面大概是：</p>
@@ -28569,7 +28633,7 @@
 <p>另一种更巧妙的办法是，点击切换滑动的起始状态即可。</p>
 <p>实现后的QC界面大概是：</p>
 <p><img src="https://ps.toolinbox.net/1j0dk.jpg" alt=""></p>
-<p>好，这样就完成了整个交互设计，大家可以到这里下载<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel.zip" target="_blank" rel="external">Origami工程文件</a>。</p>
+<p>好，这样就完成了整个交互设计，大家可以到这里下载<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel.zip">Origami工程文件</a>。</p>
 ]]></content>
       
         <categories>
@@ -28629,7 +28693,7 @@
 <li><p>图片：状态栏及标题栏、任务列表界面、新任务页面、键盘页面、加号键</p>
 </li>
 </ul>
-<p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/Assets.zip" target="_blank" rel="external">下载素材</a>：</p>
+<p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/Assets.zip">下载素材</a>：</p>
 <h1 id="三，逐步实现交互"><a href="#三，逐步实现交互" class="headerlink" title="三，逐步实现交互"></a>三，逐步实现交互</h1><p>以下是主要的部分，放在一个步骤里，显示有些大了。不过不用担心，还是一步步完成的。</p>
 <h2 id="布置静态的任务列表界面"><a href="#布置静态的任务列表界面" class="headerlink" title="布置静态的任务列表界面"></a>布置静态的任务列表界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。具体的内容和素材包括：</p>
 <ul>
@@ -28688,7 +28752,7 @@
 <h2 id="重新打开任务列表的LayerGroup，并进行调整"><a href="#重新打开任务列表的LayerGroup，并进行调整" class="headerlink" title="重新打开任务列表的LayerGroup，并进行调整"></a>重新打开任务列表的LayerGroup，并进行调整</h2><p>将任务列表的LayerGroup放在底层，将新任务的LayerGroup放在上层</p>
 <p>使用添加任务、返回两个消息，控制上述两个层的状态切换。需要注意的是，除了状态切换，还需要在显示底层时隐藏上层，也即在显示任务列表的LayerGroup时隐藏新任务的LayerGroup，这样才能响应任务列表的点击操作。</p>
 <p>进行其它一些调整，主要是针对动画的过渡，修正其中处理不好的地方。注意，这里有一点要说，不要刻意追求动画的完美。有时，花了2个小时做好了90%的交互、已经可以表达出意图，却又要花1小时、甚至更多的时间去调整不完美的地方，这就有些钻牛角尖了，浪费精力、没有必要。除非是开发同学能100%实现你设计的交互，不然这样的交互只是用来表达意图，做得太完美反而是浪费时间。</p>
-<p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/AddTask_OK.zip" target="_blank" rel="external">下载Origami工程文件</a>。</p>
+<p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/AddTask_OK.zip">下载Origami工程文件</a>。</p>
 ]]></content>
       
         <categories>
@@ -32819,8 +32883,8 @@ fi
       <title><![CDATA[需求管理介绍]]></title>
       <url>https://atjason.com/175.html</url>
       <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/s81lz.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/fh4mk.jpg" alt=""></a></p>
-<p>大图：<a href="http://atjason.com/blog/wp-content/uploads/2011/11/Requirement-Big.jpg" title="猛击此处" target="_blank" rel="external">猛击此处</a></p>
-<p>XMind文件：<a href="http://atjason.com/blog/wp-content/uploads/2011/11/%E9%9C%80%E6%B1%82%E7%AE%A1%E7%90%86.zip" target="_blank" rel="external">需求管理</a></p>
+<p>大图：<a href="http://atjason.com/blog/wp-content/uploads/2011/11/Requirement-Big.jpg" title="猛击此处">猛击此处</a></p>
+<p>XMind文件：<a href="http://atjason.com/blog/wp-content/uploads/2011/11/%E9%9C%80%E6%B1%82%E7%AE%A1%E7%90%86.zip">需求管理</a></p>
 ]]></content>
       
         <categories>
@@ -32837,7 +32901,7 @@ fi
       <url>https://atjason.com/170.html</url>
       <content type="html"><![CDATA[<p><a href="https://ps.toolinbox.net/atddv.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/kf0f8.jpg" alt=""></a></p>
 <p>用图介绍图，呵呵</p>
-<p>下载：XMind工程文件：<a href="http://atjason.com/blog/wp-content/uploads/2011/11/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.zip" target="_blank" rel="external">思维导图</a></p>
+<p>下载：XMind工程文件：<a href="http://atjason.com/blog/wp-content/uploads/2011/11/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE.zip">思维导图</a></p>
 ]]></content>
       
         <categories>
