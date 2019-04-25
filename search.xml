@@ -9021,6 +9021,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -9062,22 +9078,6 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -9496,7 +9496,7 @@
       <title><![CDATA[分享一个监控 Google 关键词搜索排名的必备工具：seogrows.com]]></title>
       <url>https://atjason.com/IndieDev/2019-04-24.html</url>
       <content type="html"><![CDATA[<p><img src="https://ws2.sinaimg.cn/large/006tNc79gy1g2d2riq7zkj30ok08c0ta.jpg" width="250px"></p>
-<h2 id="核心功能"><a href="#核心功能" class="headerlink" title="核心功能"></a>核心功能</h2><p>一句话：<strong>监控 Google 关键词搜索排名，记录排名历史。</strong></p>
+<h2 id="Seo-Grows-核心功能"><a href="#Seo-Grows-核心功能" class="headerlink" title="Seo Grows 核心功能"></a>Seo Grows 核心功能</h2><p>一句话：<strong>监控 Google 关键词搜索排名，记录排名历史。</strong></p>
 <p><strong><em>有什么用呢？</em></strong></p>
 <p>主要是为网站 SEO 服务的，是关键词优化的量化助手。</p>
 <p>事实上，SEOer 的日常工作，就包含在 Goolge 等搜索引擎查询不同关键词、并记录排名，比如记录在 Excel 中。如果关键词很多，这是很花时间的重复性劳动。<a href="https://seogrows.com" target="_blank" rel="external">seogrows.com</a> 可以完全自动化这项工作，几乎是 SEO 必备工具。</p>
@@ -9540,7 +9540,7 @@
 </ul>
 <h3 id="分享域名及关键词"><a href="#分享域名及关键词" class="headerlink" title="分享域名及关键词"></a>分享域名及关键词</h3><p>如果你想将查询结果分享给同样做 SEO 的同事或老板，可以点击域名右侧的<code>分享</code>图标，然后点击 <code>Start Share</code>，将链接发给对方即可；不需要登录便可打开分享链接。</p>
 <p><img src="https://ws4.sinaimg.cn/large/006tNc79gy1g2d2q79ppnj30dw0ap0ty.jpg" alt=""></p>
-<h2 id="之后"><a href="#之后" class="headerlink" title="之后"></a>之后</h2><p>其实还是很多想做的功能还没做，比如：</p>
+<h2 id="之后"><a href="#之后" class="headerlink" title="之后"></a>之后</h2><p>其实还是很多想做的功能，比如：</p>
 <ul>
 <li><strong>设置关键词排名大幅变化时，邮件提醒</strong></li>
 <li><strong>和竞争对手的关键词排名放在一起比较</strong></li>
@@ -9550,10 +9550,10 @@
 </ul>
 <p>之后慢慢加上。</p>
 <h2 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h2><p>回答一些可能的问题吧。</p>
-<p><strong><em>为什么会做 Seo Grows?</em></strong><br>起先是一位做 SEO 的朋友提的需求，我正好在学习 Vue，就拿来练手。</p>
+<p><strong><em>为什么会做 Seo Grows?</em></strong><br>起先是一位做 SEO 的朋友提的需求，我正好在学习 Vue；于是，一拍即合、说干就干。</p>
 <p><strong><em>为什么是全英文？</em></strong><br>想推海外市场。</p>
 <p><strong><em>有没有百度版的？</em></strong><br>有，这是 <a href="https://seo.toolinbox.net/" target="_blank" rel="external">百度版关键词搜索排名监控</a>，由于微信登录、排名历史等功能还没做，就没单独拿出来介绍；未来也会考虑做百度竞价排名监控。感兴趣的朋友可以打开试试。</p>
-<p>一些细节：</p>
+<p><strong><em>一些细节：</em></strong></p>
 <ul>
 <li>Google 登录需要特殊上网</li>
 <li>微信内嵌浏览器不支持 Google 登录，可使用手机系统浏览器</li>
@@ -13196,13 +13196,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
-      <url>https://atjason.com/daily/2017-07-29.html</url>
-      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
-<p>至此，理论部分算是学完了。</p>
-<p>下一步，开始实战。</p>
-<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
-<p>明天，先从产品角度考虑，确定交互。</p>
+      <title><![CDATA[0728 - Core 了一天 Data]]></title>
+      <url>https://atjason.com/daily/2017-07-28.html</url>
+      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
+<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
+<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
+<hr>
+<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
+<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
+<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
 ]]></content>
       
         <categories>
@@ -13215,15 +13217,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0728 - Core 了一天 Data]]></title>
-      <url>https://atjason.com/daily/2017-07-28.html</url>
-      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
-<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
-<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
-<hr>
-<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
-<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
-<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
+      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
+      <url>https://atjason.com/daily/2017-07-29.html</url>
+      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
+<p>至此，理论部分算是学完了。</p>
+<p>下一步，开始实战。</p>
+<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
+<p>明天，先从产品角度考虑，确定交互。</p>
 ]]></content>
       
         <categories>
@@ -13309,7 +13309,7 @@
 <h3 id="1-0-Swift-与-macOS-开发"><a href="#1-0-Swift-与-macOS-开发" class="headerlink" title="1.0) Swift 与 macOS 开发"></a>1.0) Swift 与 macOS 开发</h3><p>这部分在 <a href="https://atjason.com/IndieDev/2017-07-18.html">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍，这里仅简单的提及。</p>
 <p>对于 iPaste 而言，核心的部分是系统剪贴板。也即，<strong>能够记录用户曾经复制的内容，并且能 100% 准确地还原</strong>。难就难在这 100%，因为用户可能会在任意程序中、复制任意格式的数据，如纯文本、格式化文本、图片、文件等等。</p>
 <p>其实，我试了当时的一些竞品，包含非常知名的，并没有做到这一点。比如，在复制并粘贴到 Numbers 时，会有一个单元格的错位。产品深处这样的问题，你在他们高大上的宣传中自然是看不到的。而 <strong>贴贴板</strong> 就做到了这一点，所以当时我还打出了「<strong>支持任意格式，不服来战</strong>」的口号。核心的，就是将 <code>NSPasteboardItem</code> 中的数据，存储为 <code>Data</code>；在粘贴时，再将其写回系统剪贴板。</p>
-<p><img src="https://ww2.sinaimg.cn/large/006tNc79gw1fah02yiagmg30j60askjl.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tNc79gw1fah02yiagmg30j60askjl.gif" alt=""></p>
 <p>不过，后来发现，某些格式还是有问题的。比如，在 Sketch 中复制 svg 格式的图片时，系统剪贴板中会产生 <code>com.facebook.semaphore</code> 这种类型。而对于这种类型 <code>NSPasteboardItem.data(forType type: String)</code> 这个函数会卡死 10 几秒。我试了几款知名的竞品，也有两样的问题，看来确实是 macOS 系统有 Bug。不过，这种情况还是相当少见，在我自己用 iPaste 的一年多时间里，仅遇到过这种情况（别试 iPaste 了，因为已经改掉了；但是可以试试你手上的工具😂）</p>
 <p>再有，就是 <strong>macOS 沙盒的限制</strong>。具体到贴贴板，就是 <strong>如何将系统剪贴板中的内容粘贴到当前应用</strong>。要做到这一点，有多种方式，速度最快的，是发送 <code>Command + V</code> 键盘指令，模拟用户按下粘贴快捷键。不过，在沙盒模式下，这一方式直接不干活。</p>
 <p><img src="https://ps.toolinbox.net/87e4v.jpg" alt=""></p>
@@ -13609,6 +13609,38 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0718 - 为何要写作]]></title>
+      <url>https://atjason.com/daily/2017-07-18.html</url>
+      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
+<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
+<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
+<ul>
+<li><strong>输出倒逼输入</strong><ul>
+<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
+</ul>
+</li>
+<li><strong>个人品牌建设</strong><ul>
+<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
+</ul>
+</li>
+<li><strong>跨界寻找可能性</strong><ul>
+<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
+<li><strong>多一个维度，多一种可能性</strong></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Mac 开发的神秘面纱：后娘养的嫡长子]]></title>
       <url>https://atjason.com/IndieDev/2017-07-18.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/bx86a.png" alt=""></p>
@@ -13804,38 +13836,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0718 - 为何要写作]]></title>
-      <url>https://atjason.com/daily/2017-07-18.html</url>
-      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
-<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
-<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
-<ul>
-<li><strong>输出倒逼输入</strong><ul>
-<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
-</ul>
-</li>
-<li><strong>个人品牌建设</strong><ul>
-<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
-</ul>
-</li>
-<li><strong>跨界寻找可能性</strong><ul>
-<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
-<li><strong>多一个维度，多一种可能性</strong></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0717 - 畅想一下美好的事]]></title>
       <url>https://atjason.com/daily/2017-07-17.html</url>
       <content type="html"><![CDATA[<p>每年，能换个国家工作、生活一段时间，想想还是挺美好的。</p>
@@ -13963,7 +13963,7 @@
 <h2 id="开放图片上传能力的-iPicUploader"><a href="#开放图片上传能力的-iPicUploader" class="headerlink" title="开放图片上传能力的 iPicUploader"></a>开放图片上传能力的 iPicUploader</h2><p>iPic 一个比较重要的场景：<strong>在使用 Markdown 写文章时，插入图片</strong>。那与其单独使用 iPic 这样一个额外的 App，直接使用 Markdown 编辑器来插图，岂不更好？不过事实上，仅有少量的 Markdown 编辑器支持图床功能（如我在用的 MWeb），大部分并不支持。</p>
 <p>正巧，Typora 作者联系上我，希望与 iPic 集成，可谓一拍即合。</p>
 <p>于是，我好好研究了在 macOS 沙盒限制下，各个 App 间通信的方式。最后，我选择了<strong>「私有剪贴板」这种方式</strong>（这个名字是我自己取的），<strong>既可以安全地上架 Mac App Store，也不会对用户的通用剪贴板造成干扰</strong>。事实上，在我向 Bear（对，就是前段时间大红大紫的 Markdown 编辑器 Bear）介绍时，他们也夸赞这种方式。只可惜，他们没接入 iPic…</p>
-<p><img src="https://ww4.sinaimg.cn/large/006tNc79gw1fah02vc5sdg30hm0bsnbg.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tNc79gw1fah02vc5sdg30hm0bsnbg.gif" alt=""></p>
 <p>具体的步骤：</p>
 <ul>
 <li>Typora 集成 <a href="https://github.com/toolinbox/iPicUploader" target="_blank" rel="external">iPicUploader</a> 这个开源的 iPic 上传助手</li>
@@ -14240,7 +14240,7 @@
 <p><strong>「在 Kindle for macOS 中回顾笔记」</strong></p>
 <p>这是一个既酷炫、又实用的功能。</p>
 <p>我们在回顾笔记时，有时会觉得标注的内容太简洁了、需要回看书的上下文。怎么办呢？很巧妙地，Klib 可以打开 Kindle for macOS、并跳转到标注所在位置，够贴心吧？</p>
-<p><img src="https://ww2.sinaimg.cn/large/006tKfTcgy1fewrf4i8frg30g80cs47a.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tKfTcgy1fewrf4i8frg30g80cs47a.gif" alt=""></p>
 <p><strong>「自动合并不同来源的笔记」</strong></p>
 <p>如上所述，Klib 支持从 Kindle、Kindle 客户端、Amazon 等来源导入笔记，这也引入了书籍和笔记的合并问题。并且，用户有可能在 Klib 中修改笔记，这会让合并所需处理的逻辑更复杂。</p>
 <p>好在，<strong>Klib 结合书名、作者、笔记原文、笔记位置等信息，很好地解决了不同来源的合并问题</strong>，尽可能地避免重复。</p>
@@ -14261,7 +14261,7 @@
 <li>在 Klib 中复制为 Markdown 时，自动为章节添加二级标题</li>
 <li>在 Klib 的阅读器中回顾时，章节会让排版更优雅</li>
 </ul>
-<p><img src="https://ww1.sinaimg.cn/large/006tKfTcgy1ffixqimibcg30hi0bu4qp.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tKfTcgy1ffixqimibcg30hi0bu4qp.gif" alt=""></p>
 <p>虽然需要手工多做一些事情，但与其能达到的效果，是相当划算的。</p>
 <p><strong>「阅读器及分享」</strong></p>
 <p>之前的 Klib 使用列表来展示所有笔记，虽然可以按下空格显示笔记的预览，但总归没有整体的感觉。</p>
@@ -16002,7 +16002,7 @@
 <a id="more"></a>
 <p><img src="http://ww4.sinaimg.cn/large/006tNbRwgy1ffnjc4qk9tj30m80jsdix.jpg" alt=""></p>
 <h1 id="使用-macOS-Services-导入"><a href="#使用-macOS-Services-导入" class="headerlink" title="使用 macOS Services 导入"></a>使用 macOS Services 导入</h1><p>直接上操作演示：</p>
-<p><img src="https://ww4.sinaimg.cn/large/006tKfTcgy1ffixr3fh0zg30f00dswrd.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tKfTcgy1ffixr3fh0zg30f00dswrd.gif" alt=""></p>
 <p>聪明的你一定发现，这是书摘收集利器：<strong>在阅读时遇到心仪的句子，只需选择、按下「Command + K」快捷键，就立即收集到 Klib 中啦。</strong></p>
 <h1 id="使用系统-Share-分享笔记"><a href="#使用系统-Share-分享笔记" class="headerlink" title="使用系统 Share 分享笔记"></a>使用系统 Share 分享笔记</h1><p>看图说话：</p>
 <p><img src="http://ww3.sinaimg.cn/large/006tKfTcgy1ffnjgyun6uj30jg0eimyu.jpg" alt=""></p>
@@ -16013,11 +16013,11 @@
 <li>导入 Klib 后，选择全部章节对应的标注，将其「标记为章节」</li>
 <li>在 Klib 中复制为 Markdown 时，自动为章节添加二级标题</li>
 </ul>
-<p><img src="https://ww1.sinaimg.cn/large/006tKfTcgy1ffixqimibcg30hi0bu4qp.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tKfTcgy1ffixqimibcg30hi0bu4qp.gif" alt=""></p>
 <h1 id="新建书、笔记"><a href="#新建书、笔记" class="headerlink" title="新建书、笔记"></a>新建书、笔记</h1><p>这应该是此版最默默无闻的功能。</p>
 <p><img src="http://ww1.sinaimg.cn/large/006tNc79gy1ffesfb9a8yj30b408c3ym.jpg" alt=""></p>
 <h1 id="下载玩玩"><a href="#下载玩玩" class="headerlink" title="下载玩玩"></a>下载玩玩</h1><p><strong>新版限时五折优惠</strong></p>
-<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_blog" target="_blank" rel="external"><img src="https://ww4.sinaimg.cn/large/006tNc79gy1feajo1pv9hj306y01pt8n.jpg" alt="Mac App Store"></a></p>
+<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_blog" target="_blank" rel="external"><img src="https://ps.toolinbox.net/006tNc79gy1feajo1pv9hj306y01pt8n.jpg" alt="Mac App Store"></a></p>
 <p><a href="http://klib.me/cn/" target="_blank" rel="external">Klib 官网</a><br><a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib 使用教程</a></p>
 <p>各种建议、各种欢迎：</p>
 <ul>
@@ -16345,7 +16345,7 @@
       <title><![CDATA[0505 - 又烧脑了一天]]></title>
       <url>https://atjason.com/daily/2017-05-05.html</url>
       <content type="html"><![CDATA[<p>今天，搞完了使用服务来收集书摘：</p>
-<p><img src="https://ww1.sinaimg.cn/large/006tNbRwgy1ffauadqp1tg30fu0d4k71.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tNbRwgy1ffauadqp1tg30fu0d4k71.gif" alt=""></p>
 <p>其实，单单是做个服务是简单的，麻烦的是添加书、笔记后自动跳转，以及为了后续做 URL Scheme 支持，需要设计良好的代码框架。</p>
 <p>明天继续尝试一个还没做到的功能：Klib 接入 macOS Spotlight 搜索。</p>
 ]]></content>
@@ -16546,22 +16546,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -16646,6 +16630,22 @@
         <categories>
             
             <category> IT </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -17287,7 +17287,7 @@
 </ul>
 <p><strong>总体来看，Klib 是地表导入 Kindle 标注、笔记最强的 App，没有之一</strong></p>
 <p>新版上架，<strong>限时半价优惠</strong>，抢到就是赚到：</p>
-<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external"><img src="https://ww4.sinaimg.cn/large/006tNc79gy1feajo1pv9hj306y01pt8n.jpg" alt="Mac App Store"></a></p>
+<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_me" target="_blank" rel="external"><img src="https://ps.toolinbox.net/006tNc79gy1feajo1pv9hj306y01pt8n.jpg" alt="Mac App Store"></a></p>
 ]]></content>
       
         <categories>
@@ -18276,14 +18276,14 @@
     <entry>
       <title><![CDATA[0313 - Klib，一不小心又做到了地表最强]]></title>
       <url>https://atjason.com/daily/2017-03-13.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ww2.sinaimg.cn/large/006tKfTcgy1fcw57tb4ydj3074074jrg.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/006tKfTcgy1fcw57tb4ydj3074074jrg.jpg" alt=""></p>
 <p>前情回顾</p>
 <ul>
 <li><a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib - 重塑 Kindle 笔记管理</a></li>
 <li><a href="https://atjason.com/daily/2017-02-21.html">我是如何把 Klib 带到这个世界的</a></li>
 </ul>
 <h1 id="说说-Kindle-的笔记"><a href="#说说-Kindle-的笔记" class="headerlink" title="说说 Kindle 的笔记"></a>说说 Kindle 的笔记</h1><p>既然说 Klib 是这个蔚蓝的星球上导入 Kindle 笔记最强的工具，自然要先来说道说道 Kindle 笔记本身。二话不说先上图：</p>
-<p><img src="https://ww1.sinaimg.cn/large/006tNc79gy1fdlsjzbovkj30p00hfmyj.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/006tNc79gy1fdlsjzbovkj30p00hfmyj.jpg" alt=""></p>
 <a id="more"></a>
 <h2 id="1-My-Clippings-txt"><a href="#1-My-Clippings-txt" class="headerlink" title="1. My Clippings.txt"></a>1. My Clippings.txt</h2><p>首先，所有在 Kindle 设备本身所做的标注、笔记，均位于 <code>Kindle 根目录 &gt; documents &gt; My Clippings.txt</code> 文件中。</p>
 <p>支持的书籍：</p>
@@ -18302,7 +18302,7 @@
 <p>注：市面上仅有的一些 Kindle 标注管理工具，其实也就只管理了这一个文件。</p>
 <h2 id="2-Amazon"><a href="#2-Amazon" class="headerlink" title="2. Amazon"></a>2. Amazon</h2><p>针对 My Clippings.txt 的不足，怎么解决呢？</p>
 <p>既然亚马逊（Amazon）有所有的数据，为什么不从亚马逊导入呢？你太机智了，Klib 此版已经支持从亚马逊无线导入，棒！</p>
-<p><img src="https://ww4.sinaimg.cn/large/006tNc79gy1fdlsrjxsm6g30tc0r0b2b.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tNc79gy1fdlsrjxsm6g30tc0r0b2b.gif" alt=""></p>
 <p>好处是：</p>
 <ul>
 <li>支持在其他 Kindle App（如 Kindle for iPhone）所做的标注</li>
@@ -18340,20 +18340,20 @@
 <h2 id="在-Kindle-App-中查看上下文"><a href="#在-Kindle-App-中查看上下文" class="headerlink" title="在 Kindle App 中查看上下文"></a>在 Kindle App 中查看上下文</h2><p>这是一个既酷、又炫、还实用的功能。</p>
 <p><strong>我们在回顾笔记时，经常会觉得标注的内容太简洁了、需要查看书的原文</strong>。而解析电子书、做一个阅读器，又是一个不可能在短期内完成的任务，怎么办呢？</p>
 <p>很巧妙地，<strong>Klib 可以调用 Kindle for macOS 打开电子书、并跳转到标注所在位置</strong>，够贴心吧？</p>
-<p><img src="https://ww2.sinaimg.cn/large/006tNc79gy1fdju64ntalg30fo0d84pk.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tNc79gy1fdju64ntalg30fo0d84pk.gif" alt=""></p>
 <p>注：此功能仅支持在亚马逊购买的书。再次，请支持正版。</p>
 <h2 id="在亚马逊中查看更多信息"><a href="#在亚马逊中查看更多信息" class="headerlink" title="在亚马逊中查看更多信息"></a>在亚马逊中查看更多信息</h2><p>有时，我们在回看笔记时，希望重新看下书的目录、书评，亦或是作者写的其他书。怎么办呢？<strong>Klib 可以一键在亚马逊中打开这本书</strong>，立马找到所有信息。</p>
-<p><img src="https://ww4.sinaimg.cn/large/006tNc79gy1fdk5wydweeg30ey0dw7wh.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tNc79gy1fdk5wydweeg30ey0dw7wh.gif" alt=""></p>
 <h2 id="书籍支持多选、合并"><a href="#书籍支持多选、合并" class="headerlink" title="书籍支持多选、合并"></a>书籍支持多选、合并</h2><p>根据大伙的反馈，在这些时候需要合并多本书：</p>
 <ul>
 <li>一些网站定期推送的文章，数量多、标题类似</li>
 <li>有时重读了一本书，而重读的版本和当初读的不一定相同</li>
 </ul>
 <p>其实，还有一种情况，就是在导入上述不同来源的笔记时，虽然我尽可能排除重复，但还是有可能会出现书重复的情况，这时就需要合并了。</p>
-<p><img src="https://ww4.sinaimg.cn/large/006tNc79gy1fdlr6cg0lhg30ha0c0tvw.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tNc79gy1fdlr6cg0lhg30ha0c0tvw.gif" alt=""></p>
 <p>当然，如果是误操作将书合并了，简单，Command + Z 撤销即可。</p>
 <h2 id="使用-Emoji-表示笔记"><a href="#使用-Emoji-表示笔记" class="headerlink" title="使用 Emoji 表示笔记"></a>使用 Emoji 表示笔记</h2><p>如果一本书做了很多标注、笔记，都堆在一起分不清楚怎么办？我想了很多种办法，最后，出于轻量的考虑，使用了如下的办法：</p>
-<p><img src="https://ww1.sinaimg.cn/large/006tNc79gy1fdlr6sf99vj30hu0duac1.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/006tNc79gy1fdlr6sf99vj30hu0duac1.jpg" alt=""></p>
 <p>你看出什么了吗？</p>
 <h2 id="导出单本书"><a href="#导出单本书" class="headerlink" title="导出单本书"></a>导出单本书</h2><p>有了这个功能，我们就可以把自己看的一本觉得不错、也做了很多笔记的书，分享笔记给别的朋友。</p>
 <p>操作很简单：先选择要导出的书，然后按住 Option 键，在文件菜单中选择「导出所选书籍…」即可。</p>
@@ -19779,23 +19779,23 @@
     <entry>
       <title><![CDATA[0124 - iKindle: 用着很爽的 Kindle 笔记管理 App]]></title>
       <url>https://atjason.com/daily/2017-01-24.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ww1.sinaimg.cn/large/006tNc79gy1fc263fisr7j3074074aaq.jpg" alt=""></p>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/006tNc79gy1fc263fisr7j3074074aaq.jpg" alt=""></p>
 <h1 id="iKindle-是什么？"><a href="#iKindle-是什么？" class="headerlink" title="iKindle 是什么？"></a>iKindle 是什么？</h1><p>iKindle 是管理 Kindle 中标注、笔记的工具，macOS 平台。</p>
 <p>俗话说，「不动笔墨不读书」；在 Kindle 上看书时，也会积累很多笔记。如果任由这些笔记流失、或蒙灰，实在是太浪费精华了。怎么办呢？试试 iKindle 吧。</p>
 <h1 id="管理，从导入开始"><a href="#管理，从导入开始" class="headerlink" title="管理，从导入开始"></a>管理，从导入开始</h1><p>将你的 Kindle 连接到 Mac 电脑上，选择 Kindle 目录，「开始导入」即可一键导入。</p>
-<p><img src="https://ww3.sinaimg.cn/large/006tNc79gy1fc25fp18s7j30t20ihaam.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/006tNc79gy1fc25fp18s7j30t20ihaam.jpg" alt=""></p>
 <h1 id="原生交互，未打开、已熟练"><a href="#原生交互，未打开、已熟练" class="headerlink" title="原生交互，未打开、已熟练"></a>原生交互，未打开、已熟练</h1><p>考虑了好几版交互，最后参考了系统原生应用「提醒事项」。非常契合 Kindle 笔记管理，也方便大家快速上手、避免学习新交互所浪费的时间。</p>
-<p><img src="https://ww3.sinaimg.cn/large/006tNc79gy1fc25g2bp8tj30t80ij0uy.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/006tNc79gy1fc25g2bp8tj30t80ij0uy.jpg" alt=""></p>
 <a id="more"></a>
 <h1 id="体验在细节"><a href="#体验在细节" class="headerlink" title="体验在细节"></a>体验在细节</h1><p>仅仅实现功能，怎能让人满意？更贴心的在细节。</p>
 <h2 id="专注于当前正在阅读的书籍"><a href="#专注于当前正在阅读的书籍" class="headerlink" title="专注于当前正在阅读的书籍"></a>专注于当前正在阅读的书籍</h2><p>爱读书的朋友，已读列表会越来越长。如果将所有书混在一个列表中，会失去专注。</p>
-<p><img src="https://ww4.sinaimg.cn/large/006tNc79gy1fc25m8tum7j30t80ijtat.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/006tNc79gy1fc25m8tum7j30t80ijtat.jpg" alt=""></p>
 <p>将已读书籍放在专门的列表中、并折叠隐藏，一个小小的细节，重新找回注意力。</p>
 <h2 id="一条条回顾笔记"><a href="#一条条回顾笔记" class="headerlink" title="一条条回顾笔记"></a>一条条回顾笔记</h2><p>按下空格键，即可以快速查看当前笔记，给你熟悉的感觉。</p>
-<p><img src="https://ww2.sinaimg.cn/large/006tNc79gy1fc25mkg5cgj30t80ij3zy.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/006tNc79gy1fc25mkg5cgj30t80ij3zy.jpg" alt=""></p>
 <p>一条条地回顾笔记，帮你深刻掌握读过的书籍。</p>
 <h2 id="以-Markdown-格式复制笔记"><a href="#以-Markdown-格式复制笔记" class="headerlink" title="以 Markdown 格式复制笔记"></a>以 Markdown 格式复制笔记</h2><p>好东西要分享；以 Markdown 格式复制笔记，之后可以方便输出至博客等文章中。</p>
-<p><img src="https://ww3.sinaimg.cn/large/006tNc79gy1fc25mre5ojj30t80ijdi3.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/006tNc79gy1fc25mre5ojj30t80ijdi3.jpg" alt=""></p>
 <p>其实，开发 iKindle 的动机，就是我在读完一本书后，会在博客中写读后感，而在 Kindle 中的标注则是其中重要的部分。于是，就需要一个工具，快速以 Markdown 的格式将笔记复制出来；这就是 iKindle 的由来。</p>
 <h2 id="全屏，带来酷爽体验"><a href="#全屏，带来酷爽体验" class="headerlink" title="全屏，带来酷爽体验"></a>全屏，带来酷爽体验</h2><p>这感觉难以描述。</p>
 <p>尤其是当你有很多书、书中有很多笔记时，全屏下查看笔记的舒爽，只待你自己体验。</p>
@@ -25107,29 +25107,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
-      <url>https://atjason.com/daily/2016-05-08.html</url>
-      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
-<p>不见得。</p>
-<p>也许是劲使错地方了。</p>
-<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
-<ul>
-<li>做自己擅长的、坚持做、更擅长。</li>
-<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
-<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0509 - 选择开源软件，还是付费软件？]]></title>
       <url>https://atjason.com/daily/2016-05-09.html</url>
       <content type="html"><![CDATA[<p>各有好坏。</p>
@@ -25144,6 +25121,29 @@
 <li>选择用户多的。这通常意味着网上会有充足的教程，也会有人把自己踩过的坑记录下来。有了这些资料，会让自己遇到问题时更容易解决。</li>
 </ul>
 <p>当然，开发者也是人、也需要生存、也需要收入。鼓励大家为软件付费（不论是直接购买付费软件，还是赞助开源软件），这样才能可持续发展：开发者做出越来精品的软件、消费者为软件付费、开发者继续改进、消费者享受更加精良的软件。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
+      <url>https://atjason.com/daily/2016-05-08.html</url>
+      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
+<p>不见得。</p>
+<p>也许是劲使错地方了。</p>
+<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
+<ul>
+<li>做自己擅长的、坚持做、更擅长。</li>
+<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
+<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
+</ul>
 ]]></content>
       
         <categories>

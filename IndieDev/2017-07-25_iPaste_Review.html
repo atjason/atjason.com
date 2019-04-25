@@ -70,7 +70,7 @@
 <meta property="og:site_name" content="Jason">
 <meta property="og:description" content="2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 iPaste，是我独立开发的第一款 macOS 产品。 1.7 年过去了，在发布新版 iPaste 时，说说这款让我不再青涩的作品。 —– 长文开始警戒线；不喜请绕行 —–">
 <meta property="og:image" content="https://ps.toolinbox.net/ekpjo.jpg">
-<meta property="og:image" content="https://ww2.sinaimg.cn/large/006tNc79gw1fah02yiagmg30j60askjl.gif">
+<meta property="og:image" content="https://ps-hz.toolinbox.net/006tNc79gw1fah02yiagmg30j60askjl.gif">
 <meta property="og:image" content="https://ps.toolinbox.net/87e4v.jpg">
 <meta property="og:image" content="https://ps.toolinbox.net/evp5j.jpg">
 <meta property="og:image" content="https://ps.toolinbox.net/j627o.png">
@@ -81,7 +81,7 @@
 <meta property="og:image" content="https://ps.toolinbox.net/8q47h.png">
 <meta property="og:image" content="https://ps.toolinbox.net/neefn.png">
 <meta property="og:image" content="https://ps.toolinbox.net/z997y.jpg">
-<meta property="og:updated_time" content="2017-07-25T00:29:30.000Z">
+<meta property="og:updated_time" content="2019-04-25T03:49:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="说说我出道后的处女作：剪贴板神器 iPaste">
 <meta name="twitter:description" content="2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 iPaste，是我独立开发的第一款 macOS 产品。 1.7 年过去了，在发布新版 iPaste 时，说说这款让我不再青涩的作品。 —– 长文开始警戒线；不喜请绕行 —–">
@@ -409,7 +409,7 @@
 <h3 id="1-0-Swift-与-macOS-开发"><a href="#1-0-Swift-与-macOS-开发" class="headerlink" title="1.0) Swift 与 macOS 开发"></a>1.0) Swift 与 macOS 开发</h3><p>这部分在 <a href="https://atjason.com/IndieDev/2017-07-18.html">Mac 开发的神秘面纱：后娘养的嫡长子</a> 里有介绍，这里仅简单的提及。</p>
 <p>对于 iPaste 而言，核心的部分是系统剪贴板。也即，<strong>能够记录用户曾经复制的内容，并且能 100% 准确地还原</strong>。难就难在这 100%，因为用户可能会在任意程序中、复制任意格式的数据，如纯文本、格式化文本、图片、文件等等。</p>
 <p>其实，我试了当时的一些竞品，包含非常知名的，并没有做到这一点。比如，在复制并粘贴到 Numbers 时，会有一个单元格的错位。产品深处这样的问题，你在他们高大上的宣传中自然是看不到的。而 <strong>贴贴板</strong> 就做到了这一点，所以当时我还打出了「<strong>支持任意格式，不服来战</strong>」的口号。核心的，就是将 <code>NSPasteboardItem</code> 中的数据，存储为 <code>Data</code>；在粘贴时，再将其写回系统剪贴板。</p>
-<p><img src="https://ww2.sinaimg.cn/large/006tNc79gw1fah02yiagmg30j60askjl.gif" alt=""></p>
+<p><img src="https://ps-hz.toolinbox.net/006tNc79gw1fah02yiagmg30j60askjl.gif" alt=""></p>
 <p>不过，后来发现，某些格式还是有问题的。比如，在 Sketch 中复制 svg 格式的图片时，系统剪贴板中会产生 <code>com.facebook.semaphore</code> 这种类型。而对于这种类型 <code>NSPasteboardItem.data(forType type: String)</code> 这个函数会卡死 10 几秒。我试了几款知名的竞品，也有两样的问题，看来确实是 macOS 系统有 Bug。不过，这种情况还是相当少见，在我自己用 iPaste 的一年多时间里，仅遇到过这种情况（别试 iPaste 了，因为已经改掉了；但是可以试试你手上的工具😂）</p>
 <p>再有，就是 <strong>macOS 沙盒的限制</strong>。具体到贴贴板，就是 <strong>如何将系统剪贴板中的内容粘贴到当前应用</strong>。要做到这一点，有多种方式，速度最快的，是发送 <code>Command + V</code> 键盘指令，模拟用户按下粘贴快捷键。不过，在沙盒模式下，这一方式直接不干活。</p>
 <p><img src="https://ps.toolinbox.net/87e4v.jpg" alt=""></p>
