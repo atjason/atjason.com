@@ -71,11 +71,11 @@
 <meta property="og:description" content="在介绍新版前，稍稍解释下背景知识。 OCR 服务已经识别出文字了，iText 还要做什么？iText 发布后，受到很多朋友的欢迎和好评，解决了诸如扫描版 PDF 无法复制等问题。  不过，也有一些朋友有些误解，觉得 iText 仅仅是调用了 OCR 服务，是个壳而已。其实，并不尽然。 虽然，我觉得用户并不需要知道这些软件背后的故事，只要软件好用即可。不过看来，既然有误解、有好奇，我还是简单提及一些">
 <meta property="og:image" content="https://ps.toolinbox.net/1j0ga.jpg">
 <meta property="og:image" content="https://ps.toolinbox.net/rc32n.jpg">
-<meta property="og:image" content="https://ws1.sinaimg.cn/large/006tKfTcgy1fm6c9mt55zj30p007ltb1.jpg">
+<meta property="og:image" content="https://ps.toolinbox.net/006tKfTcgy1fm6c9mt55zj30p007ltb1.jpg">
 <meta property="og:image" content="https://ps.toolinbox.net/csewh.jpg">
 <meta property="og:image" content="https://ps.toolinbox.net/mg17j.png">
 <meta property="og:image" content="https://toolinbox.net/html/iPic/iPicGroup.jpg">
-<meta property="og:updated_time" content="2017-12-07T12:45:56.220Z">
+<meta property="og:updated_time" content="2019-04-25T04:12:33.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="iText - OCR 截图识字新版：重写算法，段落识别更精准">
 <meta name="twitter:description" content="在介绍新版前，稍稍解释下背景知识。 OCR 服务已经识别出文字了，iText 还要做什么？iText 发布后，受到很多朋友的欢迎和好评，解决了诸如扫描版 PDF 无法复制等问题。  不过，也有一些朋友有些误解，觉得 iText 仅仅是调用了 OCR 服务，是个壳而已。其实，并不尽然。 虽然，我觉得用户并不需要知道这些软件背后的故事，只要软件好用即可。不过看来，既然有误解、有好奇，我还是简单提及一些">
@@ -378,7 +378,7 @@
 <p>但，<strong>如果根据这些信息还原出自然语境下的段落？这是很难的。</strong></p>
 <a id="more"></a>
 <p>比如，对于下面这张图：</p>
-<p><img src="https://ws1.sinaimg.cn/large/006tKfTcgy1fm6c9mt55zj30p007ltb1.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/006tKfTcgy1fm6c9mt55zj30p007ltb1.jpg" alt=""></p>
 <p>OCR 识别出来的结果是类似这样的（为了方便示意，我在各行间额外加了空行）：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line">3.1新用户引导</div><div class="line"></div><div class="line">这事的矛盾之处在于:新用户和老用户的矛盾。</div><div class="line"></div><div class="line">进一步说,我追求程序的简洁。尤其是在用户对 itext熟悉之后,并不需要程序有过多的描述。比如,文字按</div><div class="line"></div><div class="line">钮可以被图标按钮取代,用界面上根本看不到的快捷键进行操作,等等。可问题是,熟悉是需要一个过程,新</div><div class="line"></div><div class="line">用户需要多次操作后,才能掌握这些甚至有些晦涩的技巧。没有新用户,又何来老用户?</div><div class="line"></div><div class="line">这二者的矛盾,怎么解决呢?</div></pre></td></tr></table></figure>
 <p>你可能觉得，这没什么呀，我自己手动把多余的换行符删掉不就可以了？你说的对。不过，这样的体验并不爽。</p>
@@ -390,8 +390,8 @@
 <p>iText 第一版发布后，收到用户反馈的一些图片，一些段落的识别有问题。于是，我花了不知道几个小时，重写了段落识别相关的算法。目前，<strong>对于中英文混排，在使用腾讯服务时，段落识别的效果已经很好了。</strong></p>
 <p>不过，并不完美。主要是在一些场景下，除非结合语义识别，否则是无法仅根据位置信息来划分段落的。如果你发现有问题的图，欢迎发给我，我来优化算法。</p>
 <p>下面给出一些典型的含段落的图，大家可以自己试试。</p>
-<p>图 1：<a href="https://ws4.sinaimg.cn/large/006tKfTcgy1fm6c8xxge5j30mw0q67i2.jpg" target="_blank" rel="external">https://ws4.sinaimg.cn/large/006tKfTcgy1fm6c8xxge5j30mw0q67i2.jpg</a></p>
-<p>图 2：<a href="https://ws1.sinaimg.cn/large/006tKfTcgy1fm6c99zhzij30te0wuahg.jpg" target="_blank" rel="external">https://ws1.sinaimg.cn/large/006tKfTcgy1fm6c99zhzij30te0wuahg.jpg</a></p>
+<p>图 1：<a href="https://ps.toolinbox.net/006tKfTcgy1fm6c8xxge5j30mw0q67i2.jpg" target="_blank" rel="external">https://ps.toolinbox.net/006tKfTcgy1fm6c8xxge5j30mw0q67i2.jpg</a></p>
+<p>图 2：<a href="https://ps.toolinbox.net/006tKfTcgy1fm6c99zhzij30te0wuahg.jpg" target="_blank" rel="external">https://ps.toolinbox.net/006tKfTcgy1fm6c99zhzij30te0wuahg.jpg</a></p>
 <h2 id="识别后的文本优化"><a href="#识别后的文本优化" class="headerlink" title="识别后的文本优化"></a>识别后的文本优化</h2><p>另外，段落识别只是对 OCR 服务优化的一部分，还有文本的优化，比如中英文之间需要增加空格等等。</p>
 <p><strong>如果说段落识别很麻烦，文本优化则更多麻烦</strong>，根本的原因在于：<strong>需要对内容进行识别</strong>。比如：</p>
 <ul>
@@ -456,8 +456,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/daily/2017-12-08.html" rel="next" title="深圳行：1208-Day 2 - 散淡的一天">
-                <i class="fa fa-chevron-left"></i> 深圳行：1208-Day 2 - 散淡的一天
+              <a href="/daily/2017-12-07.html" rel="next" title="深圳行：1207-Day 1 - 到达">
+                <i class="fa fa-chevron-left"></i> 深圳行：1207-Day 1 - 到达
               </a>
             
           </div>
@@ -466,8 +466,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/daily/2017-12-07.html" rel="prev" title="深圳行：1207-Day 1 - 到达">
-                深圳行：1207-Day 1 - 到达 <i class="fa fa-chevron-right"></i>
+              <a href="/daily/2017-12-06.html" rel="prev" title="1206 - 长假之旅，即将开启">
+                1206 - 长假之旅，即将开启 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
