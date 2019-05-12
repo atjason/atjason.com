@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-05-07T16:34:40.987Z</updated>
+  <updated>2019-05-11T16:25:02.020Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,108 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0511 - 省钱或者省事</title>
+    <link href="https://atjason.com/daily/2019-05-11.html"/>
+    <id>https://atjason.com/daily/2019-05-11.html</id>
+    <published>2019-05-11T14:00:00.000Z</published>
+    <updated>2019-05-11T16:25:02.020Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天在看怎么给 iText 增加序列号机制。</p>
+<p>在市场上找了下成型的服务，发现并不是很多。DevMate 是最合适的，但被 Paddle 收购了；而 Paddle 并不支持预先生成序列号。keygen 的服务起步每月 $19，对于我目前想先试试来说，贵了些。别的我就仔细看了。</p>
+<p>不想找了，于是自己动手干。这事其实并不复杂，主要问题在于会增加维护成本。比如，谁知道 3 年后我是否还在写代码、是否对这部分代码还熟悉；那时候出了问题怎么办？</p>
+<p><strong>省钱，或者省事，看来只能选一样。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天在看怎么给 iText 增加序列号机制。&lt;/p&gt;
+&lt;p&gt;在市场上找了下成型的服务，发现并不是很多。DevMate 是最合适的，但被 Paddle 收购了；而 Paddle 并不支持预先生成序列号。keygen 的服务起步每月 $19，对于我目前想先试试来说，贵了些。别的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0510 - 股票量化交易</title>
+    <link href="https://atjason.com/daily/2019-05-10.html"/>
+    <id>https://atjason.com/daily/2019-05-10.html</id>
+    <published>2019-05-10T14:00:00.000Z</published>
+    <updated>2019-05-10T16:34:35.158Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天大致了解了 Interactive Brokers (IB)，包括注册账户、入金、费用、API 类别等。</p>
+<p>为什么要搞这个呢？其实我目前只是想搞个自动化的机器人，取代人工盯盘，实现一些相对复杂的 Order 类型。而股票的交易费用是真贵，在富途一买一卖要 $5 的样子，对于日内小金额交易，实在是吃不消。简单了解了下，IB 几乎是费用最低的了。</p>
+<p>IB 的接口也很成熟，比如包含 FIX 协议，这几乎是非专业人士能使用的最快的协议了。当然，其他比如富途也是有接口的。其实，券商理论上对接口应该是非常欢迎的，因为大部分还是靠吃手续费赚钱的。有了接口，交易量会急剧增加，收入自然也会急剧增加。不过，开放接口，对技术的要求可不封闭高太多了。</p>
+<p>目前，也只是初步了解了下；是否要真的搞一个机器人，还得再想想。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天大致了解了 Interactive Brokers (IB)，包括注册账户、入金、费用、API 类别等。&lt;/p&gt;
+&lt;p&gt;为什么要搞这个呢？其实我目前只是想搞个自动化的机器人，取代人工盯盘，实现一些相对复杂的 Order 类型。而股票的交易费用是真贵，在富途一买一卖要 $
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0509 - 浅尝双拼</title>
+    <link href="https://atjason.com/daily/2019-05-09.html"/>
+    <id>https://atjason.com/daily/2019-05-09.html</id>
+    <published>2019-05-09T14:00:00.000Z</published>
+    <updated>2019-05-09T15:21:04.069Z</updated>
+    
+    <content type="html"><![CDATA[<p>电脑上我一直用五笔，手机上一直是全拼。全拼打字不快，用五笔感觉怪怪的，没有电脑上的肌肉记忆。于是干脆试试传说中的双拼。</p>
+<p>其实双拼一直是知道的，只是自己既然已经在小霸王学习机上学会了五笔（暴露年纪了），就没必要重复学这个。朋友圈里简单问了，小鹤是推荐最多的。从善如流，我也安装了搜狗输入法，选择小鹤编码，一切开始了。</p>
+<p>经常几个小时的死记硬背 + 训练，基本已经可以使用双拼盲打了。期间，我还把键盘图设置为手机壁纸，看到字就想着如何用双拼打出来，想不出来就点亮屏幕看看键位；如此反复，差不多就记住了。</p>
+<p>不过，最后我还是暂时搁置，转向手机上也用五笔输入了。毕竟五笔已经用了这么多年，虽说不上多快，但至少已经有了肌肉记忆。全然放弃，转投双拼，毕竟有点可惜。而且，在手机上学习双拼和适应五笔，其实也是差不多的成本。</p>
+<p>有个有意思的事，学了双拼才知道。落格输入法在 iOS 系统中比较知名，某不支持「某鹤」编码，原因大概是小鹤要从落格中收很高的授权费（好像是 50%+），<a href="https://v2mm.tech/topic/762" target="_blank" rel="external">双方没谈拢</a>。不止如此，还闹了矛盾。其实，落格和小鹤的作者，应该都独立开发或小团队性质的。只是，情怀大不过利益。好奇，iOS 内置小鹤编码，给了作者多少钱呢？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;电脑上我一直用五笔，手机上一直是全拼。全拼打字不快，用五笔感觉怪怪的，没有电脑上的肌肉记忆。于是干脆试试传说中的双拼。&lt;/p&gt;
+&lt;p&gt;其实双拼一直是知道的，只是自己既然已经在小霸王学习机上学会了五笔（暴露年纪了），就没必要重复学这个。朋友圈里简单问了，小鹤是推荐最多的。从善
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0508 - 拖延，在于缺乏动力</title>
+    <link href="https://atjason.com/daily/2019-05-08.html"/>
+    <id>https://atjason.com/daily/2019-05-08.html</id>
+    <published>2019-05-08T14:00:00.000Z</published>
+    <updated>2019-05-08T15:44:22.619Z</updated>
+    
+    <content type="html"><![CDATA[<p>想了下上周的 <strong>拖延，感觉在于对所做事情缺乏深层次认同，缺少激情。</strong></p>
+<p>比如，一件让你日进斗金的事，和一件无聊的事，你会拖延哪件事？</p>
+<p>反过来，最近在考虑 iText 支持序列号机制，这样就可以在 App Store 外分发。对于这件事，我很有兴趣，毕竟跟钱相关。进而，就比较积极地去思考，去做技术调研。</p>
+<p>目前看来，<strong>要战胜拖延，得找自己一听就很想做的事。</strong></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;想了下上周的 &lt;strong&gt;拖延，感觉在于对所做事情缺乏深层次认同，缺少激情。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;比如，一件让你日进斗金的事，和一件无聊的事，你会拖延哪件事？&lt;/p&gt;
+&lt;p&gt;反过来，最近在考虑 iText 支持序列号机制，这样就可以在 App Store 外
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0507 - 契约关系与信任</title>
@@ -514,106 +616,6 @@
       &lt;p&gt;比如，京东取消快递员底薪，理由也许足够的正确：公司状况不好，要么大家一起奋斗、共克时艰，要么一起玩完。&lt;/p&gt;
 &lt;p&gt;可，时机就不那么有利了。你东哥让我节衣缩食，自己却花公司的钱、漂洋过海去搞女人，还被女人搞了，这谁受得了？大家热血上涌，谁还跟你讲理？&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0422 - 花钱为自己买一扇了解世界的窗</title>
-    <link href="https://atjason.com/daily/2019-04-22.html"/>
-    <id>https://atjason.com/daily/2019-04-22.html</id>
-    <published>2019-04-22T14:00:00.000Z</published>
-    <updated>2019-04-22T15:09:18.309Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，我买了 AirPods（还没发货😂），就会去找一些比较优质的音频内容，这就给我打开了一扇了解世界的窗。如果没有 AirPods，我就不会有这个冲动，就不会去找这些内容，就不会遇到潜在的优秀思想。</p>
-<p>比如，iPhone 刚问世的时候，如果你觉得贵就不买，或者等等再买性能更好的型号，你确实会得偿所愿，但也错过了最早接触 iPhone 的机会。事实上，对于一个程序员，哪怕早一个月接触 iPhone、早一个月转型 iOS 开发，在那移动开发炙手可热的年代，所收获的东西，远远超过买一部 iPhone 的钱。</p>
-<p>比如，特斯拉电动车，印象最深的是「小特叔叔」，我见证了他从买车，到围绕特斯拉做了一系列东西，比如网站、小程序、公众号等。我相信，他从特斯拉身上赚的钱，已经远远超过了当初买特斯拉的钱。如果当初不买、不是特斯拉用户，就不可能了解真实用户的需求，也不可能挖掘出后来的机会。</p>
-<p>所以，当我们看到一个好的东西要付费，如果单纯想省钱而放弃，我们确实可以把钱省下来，却也错失了一个认识世界的机会，以及错过潜在的更多。</p>
-<p>换个角度，我们除了有消费意识，还要有一定的投资意识。如果消费的同时也是投资，对价格就不那么敏感。放在银行的钱，除了给你一点点安全感，还能给你带来什么呢？花出去的钱，才是自己的钱。用钱来提高自己、用钱生钱，才是更明智的做法。</p>
-<p>顺便，你有什么优秀的音频内容，欢迎留言推荐，先谢~</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，我买了 AirPods（还没发货😂），就会去找一些比较优质的音频内容，这就给我打开了一扇了解世界的窗。如果没有 AirPods，我就不会有这个冲动，就不会去找这些内容，就不会遇到潜在的优秀思想。&lt;/p&gt;
-&lt;p&gt;比如，iPhone 刚问世的时候，如果你觉得贵就不买，或
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0421 - 花钱买时间</title>
-    <link href="https://atjason.com/daily/2019-04-21.html"/>
-    <id>https://atjason.com/daily/2019-04-21.html</id>
-    <published>2019-04-21T14:00:00.000Z</published>
-    <updated>2019-04-21T15:35:13.111Z</updated>
-    
-    <content type="html"><![CDATA[<p>花钱买时间；<br>花钱买时间；<br>花钱买时间。</p>
-<p>说说很容易，现实中，很难割舍哪怕是小钱；宁愿自己多干点，以省点小钱。可，很多时间，就花在了那些明明可以用钱购买服务来解决的事上，非自己做不可的事，也就做的少了。</p>
-<p>只做必须、也只能自己做的事；其他的，能外包则外包、能用钱解决就用钱解决。<strong>节约下来的时间，用来赚钱</strong>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;花钱买时间；&lt;br&gt;花钱买时间；&lt;br&gt;花钱买时间。&lt;/p&gt;
-&lt;p&gt;说说很容易，现实中，很难割舍哪怕是小钱；宁愿自己多干点，以省点小钱。可，很多时间，就花在了那些明明可以用钱购买服务来解决的事上，非自己做不可的事，也就做的少了。&lt;/p&gt;
-&lt;p&gt;只做必须、也只能自己做的事；其
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0420 - 你眼中天大的事</title>
-    <link href="https://atjason.com/daily/2019-04-20.html"/>
-    <id>https://atjason.com/daily/2019-04-20.html</id>
-    <published>2019-04-20T14:00:00.000Z</published>
-    <updated>2019-04-20T16:54:15.026Z</updated>
-    
-    <content type="html"><![CDATA[<p>你眼中天大的事，在别人那里，可能只是别人的事。</p>
-<p>最近接触了几件事，都有明显的这种感觉。我们习惯性地能自己为本位，把自己的得失、感受看得很重。但其实，对于别人而言，只是很多事务中的一件，可能并不重要。甚至，对方在接收到信息的同时，可能正在忙于处理别的事。对于这种情况，很多人并不很好地驾驭，可能过会就忘了、忽略了。于是，你的玻璃心碎了一地。</p>
-<p>可能得有点概率思维。比如你让别人做件事，对方做或不做，是个概率，不是非黑即白、非 1 即 0 那样确定。有这种弹性、并预先想好对策（当然，主要是对于重要的事），不论发生什么结果，你就不容易惊慌失措、怅然若失、愤愤不平、难以接受。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;你眼中天大的事，在别人那里，可能只是别人的事。&lt;/p&gt;
-&lt;p&gt;最近接触了几件事，都有明显的这种感觉。我们习惯性地能自己为本位，把自己的得失、感受看得很重。但其实，对于别人而言，只是很多事务中的一件，可能并不重要。甚至，对方在接收到信息的同时，可能正在忙于处理别的事。对于这种
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0419 - 品牌的力量</title>
-    <link href="https://atjason.com/daily/2019-04-19.html"/>
-    <id>https://atjason.com/daily/2019-04-19.html</id>
-    <published>2019-04-19T14:00:00.000Z</published>
-    <updated>2019-04-19T15:47:58.865Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天，有人问我推荐买什么手机。结合对方的需求及价位，我几乎想都没想，就推荐了小米（红米）</p>
-<p>其实，我压根就没摸过这款手机，也不怎么了解，可怎么就敢推荐呢？这可能就是品牌的力量。根据过往我对其的各种接触，以及被广告及媒体的各种轰炸，我首先知道这个品牌，进而相信这个品牌有一定的可信度。</p>
-<p>做产品，功能交互体验等等这些部分，都是相对比较初级的部分。越往后走，品牌的重要性就更加凸现出来。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天，有人问我推荐买什么手机。结合对方的需求及价位，我几乎想都没想，就推荐了小米（红米）&lt;/p&gt;
-&lt;p&gt;其实，我压根就没摸过这款手机，也不怎么了解，可怎么就敢推荐呢？这可能就是品牌的力量。根据过往我对其的各种接触，以及被广告及媒体的各种轰炸，我首先知道这个品牌，进而相信这个
     
     </summary>
     
