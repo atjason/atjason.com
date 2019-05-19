@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-05-15T15:52:49.715Z</updated>
+  <updated>2019-05-19T15:59:38.333Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,23 +16,84 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>0515 - 解决网速慢的问题</title>
-    <link href="https://atjason.com/daily/2019-05-15.html"/>
-    <id>https://atjason.com/daily/2019-05-15.html</id>
-    <published>2019-05-15T14:00:00.000Z</published>
-    <updated>2019-05-15T15:52:49.715Z</updated>
+    <title>0519 - 打造自己的正向飞轮</title>
+    <link href="https://atjason.com/daily/2019-05-19.html"/>
+    <id>https://atjason.com/daily/2019-05-19.html</id>
+    <published>2019-05-19T14:00:00.000Z</published>
+    <updated>2019-05-19T15:59:38.333Z</updated>
     
-    <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
-<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
-<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
-<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
+    <content type="html"><![CDATA[<p>从控制论的角度，<strong>如果「果」能强化「因」，即是正向循环</strong>。</p>
+<p>比如，对于独立开发者：</p>
+<ul>
+<li>自己能力越强，就越能开发出好的产品；</li>
+<li>产品越好，用户越容易买单；</li>
+<li>用户越买单，自己越可能坚持更久、投入更多；</li>
+<li>投入越多，能力越强。</li>
+</ul>
+<p>所以，打造正向飞轮的第一步，便是提高自己的能力。</p>
+<p>从这个角度出发，看问题自然会更长远，对当下的问题更容易决择。比如，做外包对这个飞轮帮助不大。</p>
+<p>正向飞轮非常诱人，看起来像是有了生生不息的能力。的确，达到这种状态时，感觉人都进入了上升期，干什么都很顺利。只是，寻找飞轮不容易，前期打造更难。<strong>我们平时更多的，是在转动别人的飞轮，给别人的事业增砖添瓦</strong>。而一旦要启动自己的飞轮，考虑问题的方式完全不同，难度也不在一个层级。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;这次回来，明显感觉出国的网速慢了，影响到效率和心情了。&lt;/p&gt;
-&lt;p&gt;宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。&lt;/p&gt;
-&lt;p&gt;神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享
+      &lt;p&gt;从控制论的角度，&lt;strong&gt;如果「果」能强化「因」，即是正向循环&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;比如，对于独立开发者：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自己能力越强，就越能开发出好的产品；&lt;/li&gt;
+&lt;li&gt;产品越好，用户越容易买单；&lt;/li&gt;
+&lt;li&gt;用户越买单，自己越
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0518 - 量化交易是负和游戏</title>
+    <link href="https://atjason.com/daily/2019-05-18.html"/>
+    <id>https://atjason.com/daily/2019-05-18.html</id>
+    <published>2019-05-18T14:00:00.000Z</published>
+    <updated>2019-05-18T16:14:41.236Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天和朋友聊起量化交易，他说的一个观点，我挺认同的：<strong>量化交易是负和交易</strong></p>
+<p>所有交易的参与都想赚钱，赚谁的钱？有人赚钱，就有人赚钱，只是把钱从左口袋放到右口袋。考虑到有交易费用，那整体上就是负和游戏。</p>
+<p>而进来玩这个游戏的，都是些聪明人，以及有钱有消息的大机构。如果自己只是散兵游勇，断难从大机构嘴里抢肉；更靠谱的，是和机构一起，抢散户的钱。</p>
+<p>交易，表面上是操作程序，本质上还是和人、和人性在打交道。就像打牌，至少得了解牌桌上都是什么样的对手。与其和牛逼的人抢饭碗，不如去找人傻钱多的地方看看。</p>
+<p>听他说完，我也觉得不适合深入。不过，毕竟花了些时间研究，不想直接放弃，还是有始有终比较弱好；准备做到可运行的 Hello World，然后搁置一段时间再说。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天和朋友聊起量化交易，他说的一个观点，我挺认同的：&lt;strong&gt;量化交易是负和交易&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;所有交易的参与都想赚钱，赚谁的钱？有人赚钱，就有人赚钱，只是把钱从左口袋放到右口袋。考虑到有交易费用，那整体上就是负和游戏。&lt;/p&gt;
+&lt;p&gt;而进来玩这个游
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0517 - 不用排队的幸福感</title>
+    <link href="https://atjason.com/daily/2019-05-17.html"/>
+    <id>https://atjason.com/daily/2019-05-17.html</id>
+    <published>2019-05-17T14:00:00.000Z</published>
+    <updated>2019-05-17T16:27:15.488Z</updated>
+    
+    <content type="html"><![CDATA[<p>带小孩去体验的一家医院，之前抽血一直是人肉排队，这次增加了取号机，大家可以轻松地坐在椅子上等候。和站上半天、还担心别人插队相比，幸福感提升太多。</p>
+<p>我想，类似这样的效率提升，应该还有很多。放到整个社会上来看，即使科技没有大的突破，这样排列组合式的创新，也能带来巨大的进步。类似于三体里的地球人类，在被锁死量子技术后，依然依靠现有的技术存量，极大地推动了社会进步。</p>
+<p>当然，更本质有效的，依然是新科技的突破。只是，毕竟这样的突破周期较长，也有不确定性，有点可遇不可求的感觉。在更多的平时，还是得靠吃存量来进步。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;带小孩去体验的一家医院，之前抽血一直是人肉排队，这次增加了取号机，大家可以轻松地坐在椅子上等候。和站上半天、还担心别人插队相比，幸福感提升太多。&lt;/p&gt;
+&lt;p&gt;我想，类似这样的效率提升，应该还有很多。放到整个社会上来看，即使科技没有大的突破，这样排列组合式的创新，也能带来巨
     
     </summary>
     
@@ -57,6 +118,32 @@
       &lt;p&gt;今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。&lt;/p&gt;
 &lt;p&gt;多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。&lt;/p&gt;
 
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0515 - 解决网速慢的问题</title>
+    <link href="https://atjason.com/daily/2019-05-15.html"/>
+    <id>https://atjason.com/daily/2019-05-15.html</id>
+    <published>2019-05-15T14:00:00.000Z</published>
+    <updated>2019-05-15T15:52:49.715Z</updated>
+    
+    <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
+<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
+<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
+<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这次回来，明显感觉出国的网速慢了，影响到效率和心情了。&lt;/p&gt;
+&lt;p&gt;宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。&lt;/p&gt;
+&lt;p&gt;神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享
     
     </summary>
     
@@ -461,84 +548,6 @@
     
       &lt;p&gt;常听说，&lt;strong&gt;投资自己才是最好的投资&lt;/strong&gt;；尤其对于年轻人，有时间没资本，更是如此。可能很多人听了都觉得有道理；然后，就没有然后了。&lt;/p&gt;
 &lt;p&gt;先从投资本身来看。一般来说，每年有 10% 左右的回报率，已经是相当高了；再高，基本风险就不可控了。假如
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0429 - 如无必要，别太累</title>
-    <link href="https://atjason.com/daily/2019-04-29.html"/>
-    <id>https://atjason.com/daily/2019-04-29.html</id>
-    <published>2019-04-29T14:00:00.000Z</published>
-    <updated>2019-05-05T12:32:20.846Z</updated>
-    
-    <content type="html"><![CDATA[<p>好吧，这标题太像矫情的废话。</p>
-<p>主要是对于编程这种需要点创造性的工作，最好别在很累的时候干活。一方面效率低；更关键的是，干活容易出问题，修复问题花费的时间，更多。</p>
-<p>与其熬夜，不如早起。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;好吧，这标题太像矫情的废话。&lt;/p&gt;
-&lt;p&gt;主要是对于编程这种需要点创造性的工作，最好别在很累的时候干活。一方面效率低；更关键的是，干活容易出问题，修复问题花费的时间，更多。&lt;/p&gt;
-&lt;p&gt;与其熬夜，不如早起。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0428 - 回报在别处</title>
-    <link href="https://atjason.com/daily/2019-04-28.html"/>
-    <id>https://atjason.com/daily/2019-04-28.html</id>
-    <published>2019-04-28T14:00:00.000Z</published>
-    <updated>2019-04-28T15:46:19.406Z</updated>
-    
-    <content type="html"><![CDATA[<p>有个观点：<strong>做离钱近的事</strong>。我大体也是认同这个观点的。只是，凡事有两面。这样的思想，在帮我们抓住一些机会时，<strong>也会损失其他机会</strong>。</p>
-<p>通常，离钱近的机会，就像比较浅的煤矿一样。你看到了，别人也会看到。大家都要抢，于是红海、竞争激烈、利润稀薄、失败风险大。而赢钱远的机会，可能刚好相反。</p>
-<p>还有个方面，世界这么复杂且多变，谁又能看清楚未来。现在觉得不赚钱的东西，一段时间之后会怎样，谁知道呢？<strong>事情是演化的</strong>。马云最开始想切入电商领域的，是电子黄页。虽说这也是粘边，但和后来的淘宝差异还是很大。如果当初没有切入这个领域、又或者是进入的晚了，后面也就难说了。</p>
-<p>再有个方面，<strong>回报可能会以我们意想不到的方式出现</strong>。比如，做一个项目，没成功，却锻炼了技术、建立了信誉、积累用户、甚至结识了大 V。这些收获，都会在将来以某种神奇的方式，极大地帮到你。</p>
-<p>当然，并不是说一定要做目前看起来赚不到钱的事。只是，别把这个因素看得太重，别只因这个因素就放弃整个项目。</p>
-<p>谋定而后动，那当然好，所有的资源都用在刀刃上。可，如果没那能力，还是 <strong>干了再说</strong> 吧。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有个观点：&lt;strong&gt;做离钱近的事&lt;/strong&gt;。我大体也是认同这个观点的。只是，凡事有两面。这样的思想，在帮我们抓住一些机会时，&lt;strong&gt;也会损失其他机会&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;通常，离钱近的机会，就像比较浅的煤矿一样。你看到了，别人也会看到。大
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0427 - 学这个有用吗</title>
-    <link href="https://atjason.com/daily/2019-04-27.html"/>
-    <id>https://atjason.com/daily/2019-04-27.html</id>
-    <published>2019-04-27T14:00:00.000Z</published>
-    <updated>2019-04-27T05:20:07.268Z</updated>
-    
-    <content type="html"><![CDATA[<p>开始学一个东西之前，很自然会问：学这个有什么用？很有可能你无法回答这个问题，或者目前的答案是否定的，你很「明智」地放弃学习，转头刷抖音。</p>
-<p>然后，接下来的某一天，你遇到一个问题，开始后悔：要是当初学了那个东西该多好呀。又或者说，因为你根本不知道有这个东西，可以专杀眼下的问题，连后悔的机会都没有。</p>
-<p>很多时候，学就是了，别问有什么用。<br><strong>有用，是学习的结果，而不是原因</strong>。</p>
-<p>本文启发自：李笑来《<a href="https://github.com/selfteaching/the-craft-of-selfteaching" target="_blank" rel="external">学习是门手艺</a>》</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;开始学一个东西之前，很自然会问：学这个有什么用？很有可能你无法回答这个问题，或者目前的答案是否定的，你很「明智」地放弃学习，转头刷抖音。&lt;/p&gt;
-&lt;p&gt;然后，接下来的某一天，你遇到一个问题，开始后悔：要是当初学了那个东西该多好呀。又或者说，因为你根本不知道有这个东西，可以专
     
     </summary>
     
