@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-05-22T15:52:29.301Z</updated>
+  <updated>2019-05-23T15:45:46.797Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0523 - 闲庭信步</title>
+    <link href="https://atjason.com/daily/2019-05-23.html"/>
+    <id>https://atjason.com/daily/2019-05-23.html</id>
+    <published>2019-05-23T14:00:00.000Z</published>
+    <updated>2019-05-23T15:45:46.797Z</updated>
+    
+    <content type="html"><![CDATA[<p>真正的效率，不是马不停蹄，而是闲庭信步。</p>
+<p>形象的说，有点像 996 与 Google 号称员工有 20% 的自由时间。高强度工作，确实可能更快地完成既定的任务。可，问题在于，任务并不一定是既定的，把已知的事全部做完、做好，并不一定能带来最好的结果。因为，与已知相比，未知是更加不确定、影响更大的。过度关注已知，未知就被忽视了。</p>
+<p>至少，80% 精力用来处理已知事务，20% 用来思考可能性。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;真正的效率，不是马不停蹄，而是闲庭信步。&lt;/p&gt;
+&lt;p&gt;形象的说，有点像 996 与 Google 号称员工有 20% 的自由时间。高强度工作，确实可能更快地完成既定的任务。可，问题在于，任务并不一定是既定的，把已知的事全部做完、做好，并不一定能带来最好的结果。因为，与已知
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0522 - 新手讲自由，高手谈限制</title>
@@ -179,30 +203,6 @@
   </entry>
   
   <entry>
-    <title>0516 - 多做一点点</title>
-    <link href="https://atjason.com/daily/2019-05-16.html"/>
-    <id>https://atjason.com/daily/2019-05-16.html</id>
-    <published>2019-05-15T14:00:00.000Z</published>
-    <updated>2019-05-16T16:26:58.919Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
-<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。&lt;/p&gt;
-&lt;p&gt;多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>0515 - 解决网速慢的问题</title>
     <link href="https://atjason.com/daily/2019-05-15.html"/>
     <id>https://atjason.com/daily/2019-05-15.html</id>
@@ -220,6 +220,30 @@
       &lt;p&gt;这次回来，明显感觉出国的网速慢了，影响到效率和心情了。&lt;/p&gt;
 &lt;p&gt;宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。&lt;/p&gt;
 &lt;p&gt;神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0516 - 多做一点点</title>
+    <link href="https://atjason.com/daily/2019-05-16.html"/>
+    <id>https://atjason.com/daily/2019-05-16.html</id>
+    <published>2019-05-15T14:00:00.000Z</published>
+    <updated>2019-05-16T16:26:58.919Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
+<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。&lt;/p&gt;
+&lt;p&gt;多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。&lt;/p&gt;
+
     
     </summary>
     
@@ -507,41 +531,6 @@
     
       &lt;p&gt;晚上 10 点，本打算去看复联 4，没想到时长 3 小时，得凌晨 1 点才结束。吓了一跳，放弃了。说起来，&lt;strong&gt;看场电影的钱和时间，刚好够看一本书&lt;/strong&gt;，想来还是看书划算些。&lt;/p&gt;
 &lt;p&gt;还是不太想干活，就下楼简单运动下。楼下对面就是中学，比较好的是
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0503 - 反过来想</title>
-    <link href="https://atjason.com/daily/2019-05-03.html"/>
-    <id>https://atjason.com/daily/2019-05-03.html</id>
-    <published>2019-05-03T14:00:00.000Z</published>
-    <updated>2019-05-03T15:43:21.050Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近又陷入周期性迷茫的状态。<strong>不知道最应该干什么，于是什么都不想干…</strong></p>
-<p>很多时候，陷入沮丧，都是因为 <strong>最好性思维不被满足</strong>。比如，</p>
-<ul>
-<li>想到一个点子，发现已经有人做了；</li>
-<li>自己对某项技术很生疏，而高手好处比比皆是；</li>
-<li>自己的自由时间越来越少，而风华正茂、负担又轻的年轻人好像越来越多；</li>
-<li>…</li>
-</ul>
-<p>因为发现自己不是最好的，就丧失了继续争取的动力。</p>
-<p>其实，反过来想，<strong>自己可能不如 20% 的人优秀，但可以比 80% 的人强啊</strong>。就像那个经典的故事：熊来了，要做的不是跑的比熊快，而是比其他猎物快。跑赢其他猎物，就不会成为猎物。</p>
-<p>优秀的人确实很优秀，可能也很努力，他们创造了优秀的东西，获得了丰厚的回报。自己可能不如这些人，可这并不妨碍自己超过更大多数平庸的人。虽说有赢家通吃、头部效应，但也并不是没有长尾理论。</p>
-<p><strong>做不了头部，至少争取做柔软的腰部。</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近又陷入周期性迷茫的状态。&lt;strong&gt;不知道最应该干什么，于是什么都不想干…&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;很多时候，陷入沮丧，都是因为 &lt;strong&gt;最好性思维不被满足&lt;/strong&gt;。比如，&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;想到一个点子，发现已经有人做了；&lt;/li
     
     </summary>
     
