@@ -268,6 +268,265 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/586.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/586.html" itemprop="url">
+                  在Radxa上安装Seafile
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-20T19:07:16+08:00">
+                2014-07-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p># </p>
+<pre><code>什么是Seafile?
+
+Seafile是下一代的开源云存储，可以更好的文件同步，隐私保护和团队协作功能。要了解更多信息，请访问其[官网](http://seafile.com)
+</code></pre><p># </p>
+<pre><code>安装前置条件
+</code></pre><p>sudo apt-get update</p>
+<p>sudo apt-get install python2.7 python-setuptools python-simplejson python-imaging sqlite3</p>
+<p>more</p>
+<p># </p>
+<pre><code>下载Seafile
+
+假定Seafile根目录为&amp;quot;/mnt/sd/cloud/seafile&amp;quot;
+
+从Seafile官网（http://seafile.com/en/download/）下载最新版的&amp;ldquo;Server for Raspberry Pi&amp;rdquo;（为什么下载这个版本？因为Radxa是ARM板，而这个版本正是为了同为ARM板的Raspberry Pi而开发，所以是适配的。PS：Radxa这是粘了Raspberry Pi的光）
+</code></pre><p>cd /mnt/sd/cloud/seafile</p>
+<p>mkdir installed</p>
+<p>cd installed</p>
+<p>wget <a href="https://bitbucket.org/haiwen/seafile/downloads/seafile-server_3.0.4_pi.tar.gz" target="_blank" rel="external">https://bitbucket.org/haiwen/seafile/downloads/seafile-server_3.0.4_pi.tar.gz</a></p>
+<p>tar xvzf seafile-server_3.0.4_pi.tar.gz -C ../</p>
+<p>cd ../seafile-server-3.0.4</p>
+<p># </p>
+<pre><code>安装Seafile
+</code></pre><p>./setup-seafile.sh </p>
+<hr>
+<p>This script will guide you to config and setup your seafile server.</p>
+<p>Make sure you have read seafile server manual at </p>
+<p><a href="https://github.com/haiwen/seafile/wiki" target="_blank" rel="external">https://github.com/haiwen/seafile/wiki</a></p>
+<p>Note: This script will guide your to setup seafile server using sqlite3,</p>
+<p>which may have problems if your disk is on a NFS/CIFS/USB.</p>
+<p>In these cases, we sugguest you setup seafile server using MySQL.</p>
+<p>Press [ENTER] to continue</p>
+<hr>
+<p>Checking packages needed by seafile …</p>
+<p>Checking python on this machine …</p>
+<p>Find python: python2.7</p>
+<p>  Checking python module: setuptools … Done.</p>
+<p>  Checking python module: python-simplejson … Done.</p>
+<p>  Checking python module: python-imaging … Done.</p>
+<p>  Checking python module: python-sqlite3 … Done.</p>
+<p>Checking for sqlite3 …Done.</p>
+<p>Checking Done.</p>
+<p>What would you like to use as the name of this seafile server?</p>
+<p>Your seafile users will be able to see the name in their seafile client.</p>
+<p>You can use a-z, A-Z, 0-9, _ and -, and the length should be 3 ~ 15</p>
+<p>What is the ip or domain of this server?</p>
+<p>For example, www.mycompany.com, or, 192.168.1.101</p>
+<p>What tcp port do you want to use for ccnet server?</p>
+<p>10001 is the recommended port.</p>
+<p>[default: 10001 ] </p>
+<p>Where would you like to store your seafile data? </p>
+<p>Note: Please use a volume with enough free space.</p>
+<p>[default: /mnt/sd/cloud/seafile/seafile-data ] </p>
+<p>What tcp port would you like to use for seafile server?</p>
+<p>12001 is the recommended port.</p>
+<p>[default: 12001 ] </p>
+<p>What tcp port do you want to use for seafile httpserver?</p>
+<p>8082 is the recommended port.</p>
+<p>[default: 8082 ] </p>
+<p>This is your config information:</p>
+<p>server name:        seafile</p>
+<p>server ip/domain:   192.168.1.22</p>
+<p>server port:        10001</p>
+<p>seafile data dir:   /mnt/sd/cloud/seafile/seafile-data</p>
+<p>seafile port:       12001</p>
+<p>httpserver port:    8082</p>
+<p>If you are OK with the configuration, press [ENTER] to continue.</p>
+<p>Generating ccnet configuration in /mnt/sd/cloud/seafile/ccnet…</p>
+<p>done</p>
+<p>Successly create configuration dir /mnt/sd/cloud/seafile/ccnet.</p>
+<p>Generating seafile configuration in /mnt/sd/cloud/seafile/seafile-data …</p>
+<p>Done.</p>
+<hr>
+<p>Seahub is the web interface for seafile server.</p>
+<p>Now let&#39;s setup seahub configuration. Press [ENTER] to continue</p>
+<hr>
+<p>Creating seahub database now… </p>
+<p>Done.</p>
+<p>creating seafile-server-latest symbolic link … done</p>
+<hr>
+<p>Your seafile server configuration has been completed successfully.</p>
+<hr>
+<p>run seafile server:     ./seafile.sh { start | stop | restart }</p>
+<p>run seahub  server:     ./seahub.sh  { start &lt;port&gt; | stop | restart &lt;port&gt; }</p>
+<hr>
+<p>If the server is behind a firewall, remember to open these tcp ports:</p>
+<hr>
+<p>port of ccnet server:         10001</p>
+<p>port of seafile server:       12001</p>
+<p>port of seafile httpserver:   8082</p>
+<p>port of seahub:               8000</p>
+<p># </p>
+<pre><code>启动Seafile
+</code></pre><p>./seafile.sh start</p>
+<p>./seahub.sh  start</p>
+<p>Starting seahub at port 8000 …</p>
+<hr>
+<p>It&#39;s the first time you start the seafile server. Now let&#39;s create the admin account</p>
+<hr>
+<p>What is the email for the admin account?</p>
+<p>[ admin email ] your email</p>
+<p>What is the password for the admin account?</p>
+<p>[ admin password ] </p>
+<p>Enter the password again:</p>
+<p>[ admin password again ] </p>
+<hr>
+<p>Successfully created seafile admin</p>
+<hr>
+<p>Loading ccnet config from /mnt/sd/cloud/seafile/ccnet</p>
+<p>Loading seafile config from /mnt/sd/cloud/seafile/seafile-data</p>
+<p>Seahub is started</p>
+<p>Done.</p>
+<p># </p>
+<pre><code>测试
+
+打开http://IP:8000/，使用刚才创建的管理员账户登陆即可。更进一步，可以结合Seafile的免费Windows/Mac/Android/iOS客户端进行测试
+
+EndFragment
+</code></pre>
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/579.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1421,186 +1680,6 @@ more
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/545.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/545.html" itemprop="url">
-                  在Linode Ubuntu 14.04 64位系统中安装AMH碰到的问题及解决办法
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-07T08:44:16+08:00">
-                2014-07-07
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>刚买了个Linode的VPS，尝试安装AMH，碰到以下两个问题导致安装失败：</p>
-<pre><code>1，
-</code></pre><p>gcc -DHAVE_CONFIG_H -DEXEEXT=\&quot;\&quot; -I. -I.. -I../lib  -I../intl -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1   -g -O2 -c progname.c</p>
-<p>In file included from progname.c:26:0:</p>
-<p>./stdio.h:1010:1: error: &acirc;&euro;&tilde;gets&acirc;&euro;&trade; undeclared here (not in a function)</p>
-<p>_GL_WARN_ON_USE (gets, &quot;gets is a security hole - use fgets instead&quot;);</p>
-<p>^</p>
-<p>make[2]: <em>*</em> [progname.o] Error 1</p>
-<p>make[2]: Leaving directory `/home/amh_install/packages/untar/libiconv-1.14/srclib&#39;</p>
-<pre><code>这个问题已经有解决办法；[http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610](http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610)
-
-more
-
-2，
-</code></pre><p>checking for png_write_image in -lpng… yes</p>
-<p>If configure fails try –with-xpm-dir=&lt;DIR&gt;</p>
-<p>configure: error: freetype.h not found.</p>
-<p>make: <em>*</em> No targets specified and no makefile found.  Stop.</p>
-<p>make: <em>*</em> No rule to make target `install&#39;.  Stop.</p>
-<p>cp: cannot create regular file &acirc;&euro;&tilde;/usr/local/php/etc/php-fpm.conf&acirc;&euro;&trade;: No such file or directory</p>
-<p>cp: cannot create regular file &acirc;&euro;&tilde;/usr/local/php/etc/php-fpm-template.conf&acirc;&euro;&trade;: No such file or diorytt</p>
-<p>mkdir: cannot create directory &acirc;&euro;&tilde;/usr/local/php/etc/fpm&acirc;&euro;&trade;: No such file or directory</p>
-<p>mkdir: cannot create directory &acirc;&euro;&tilde;/usr/local/php/var/run/pid&acirc;&euro;&trade;: No such file or directory</p>
-<p>touch: cannot touch &acirc;&euro;&tilde;/usr/local/php/etc/fpm/amh.conf&acirc;&euro;&trade;: No such file or directory</p>
-<p>./amh.sh: line 371: /usr/local/php/sbin/php-fpm: No such file or directory</p>
-<p>[OK] php-5.3.27 install completed.</p>
-<pre><code>查看vi php-5.3.27/configure
-</code></pre><p>for i in $PHP_FREETYPE_DIR /usr/local /usr; do</p>
-<pre><code>if test -f &amp;quot;$i/include/freetype2/freetype/freetype.h&amp;quot;; then
-
-  FREETYPE2_DIR=$i
-
-  FREETYPE2_INC_DIR=$i/include/freetype2
-
-  break
-
-fi
-</code></pre><p>done</p>
-<pre><code>可以看到脚本假定freetype的相对路径为&amp;ldquo;/include/freetype2/freetype/freetype.h&amp;rdquo;，但实际上系统路径为&amp;ldquo;/include/freetype2/freetype.h&amp;rdquo;。可以相应的修改脚本，去除一层&amp;quot;freetype&amp;quot;，或者在系统路径下临时多生成一层路径，并将相应的文件复制过去
-</code></pre>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1650,7 +1729,7 @@ fi
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1361</span>
+                <span class="site-state-item-count">1362</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
