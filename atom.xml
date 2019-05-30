@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-05-28T22:49:35.325Z</updated>
+  <updated>2019-05-30T14:47:17.162Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://atjason.com/daily/2019-05-30.html"/>
+    <id>https://atjason.com/daily/2019-05-30.html</id>
+    <published>2019-05-30T14:40:23.632Z</published>
+    <updated>2019-05-30T14:47:17.162Z</updated>
+    
+    <content type="html"><![CDATA[<p>title: ‘0530 - 商品只是赚钱的载体’<br>categories: 每天写一点</p>
+<h2 id="date-2019-05-30-22-00-00"><a href="#date-2019-05-30-22-00-00" class="headerlink" title="date: 2019-05-30 22:00:00"></a>date: 2019-05-30 22:00:00</h2><p>比如鸭脖、小龙虾们，它们本身是什么脖、什么虾已经不重要，已经沦为麻辣、十三香、蒜蓉等 <strong>味道的载体</strong>。吃的不是肉，是味。</p>
+<p>开始时，不是这样的。最初大家讲创意、拼体验，靠这些东西胜出。可慢慢的，创意太脆弱，体验太容易被复制，<strong>产品慢慢商品化</strong>。</p>
+<ul>
+<li>比如手机，开始拼供应链、拼渠道。</li>
+<li>比如口红，是姹紫的还是嫣红，开始不那么重要的；重要的是有带货王替你喊：OMG，买它！</li>
+</ul>
+<p>之所以想说这个，是感觉 <strong>App 这种出生时便是创意型的产品，也开始慢慢商品化</strong>。</p>
+<ul>
+<li>比如，当一个好的创意 App 上架后，便有跟风者光速进场。如果后来者在运营推广等方面更强势，普通用户是无法分辨真假李逵。且，<strong>一般用户的心态是：谁好用、谁便宜，我就用谁。至于有没有抄袭模仿致敬，基本不关心</strong>；有点笑贫不笑娼的味道。</li>
+<li>比如，如果在 App Store 投放 100 元广告，能有 101 元收入，这种模式便可无限放大。App 的量化追踪，可比普通商品更加细致入微得多。比如，除了能追踪 App 本身的销售，还能追踪到 App 后续的内购、二次软化等。</li>
+<li>比如，某某产品 + 马化腾 = QQ 某产品。</li>
+<li>比如，拼音上已经有给 App 带货的实例了。</li>
+</ul>
+<p><strong>产品和运营是相辅相成的，只是比例问题</strong>。对于电商，运营的成份可能达到 9 甚至更高，具体卖的东西是鞋子袜子，还是手机电脑，已不重要，只要好卖就行；商品只是赚钱的载体。软件还没到这个比例，不过也是趋势。</p>
+<p>当然，商品化也不能全部垄断，也会有小清新的生存空间。不过，依然，对于个人开发者、小团队，建议还是能组队尽早组队、能抱团尽早抱团、能融资尽早融资，<strong>留给小竞争者的机会窗口，越来越窄了</strong>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;title: ‘0530 - 商品只是赚钱的载体’&lt;br&gt;categories: 每天写一点&lt;/p&gt;
+&lt;h2 id=&quot;date-2019-05-30-22-00-00&quot;&gt;&lt;a href=&quot;#date-2019-05-30-22-00-00&quot; class=&quot;headerlin
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>0529 - 分辨能力</title>
@@ -501,31 +536,6 @@
     
       &lt;p&gt;今天在看怎么给 iText 增加序列号机制。&lt;/p&gt;
 &lt;p&gt;在市场上找了下成型的服务，发现并不是很多。DevMate 是最合适的，但被 Paddle 收购了；而 Paddle 并不支持预先生成序列号。keygen 的服务起步每月 $19，对于我目前想先试试来说，贵了些。别的
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0510 - 股票量化交易</title>
-    <link href="https://atjason.com/daily/2019-05-10.html"/>
-    <id>https://atjason.com/daily/2019-05-10.html</id>
-    <published>2019-05-10T14:00:00.000Z</published>
-    <updated>2019-05-10T16:34:35.158Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天大致了解了 Interactive Brokers (IB)，包括注册账户、入金、费用、API 类别等。</p>
-<p>为什么要搞这个呢？其实我目前只是想搞个自动化的机器人，取代人工盯盘，实现一些相对复杂的 Order 类型。而股票的交易费用是真贵，在富途一买一卖要 $5 的样子，对于日内小金额交易，实在是吃不消。简单了解了下，IB 几乎是费用最低的了。</p>
-<p>IB 的接口也很成熟，比如包含 FIX 协议，这几乎是非专业人士能使用的最快的协议了。当然，其他比如富途也是有接口的。其实，券商理论上对接口应该是非常欢迎的，因为大部分还是靠吃手续费赚钱的。有了接口，交易量会急剧增加，收入自然也会急剧增加。不过，开放接口，对技术的要求可不封闭高太多了。</p>
-<p>目前，也只是初步了解了下；是否要真的搞一个机器人，还得再想想。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天大致了解了 Interactive Brokers (IB)，包括注册账户、入金、费用、API 类别等。&lt;/p&gt;
-&lt;p&gt;为什么要搞这个呢？其实我目前只是想搞个自动化的机器人，取代人工盯盘，实现一些相对复杂的 Order 类型。而股票的交易费用是真贵，在富途一买一卖要 $
     
     </summary>
     
