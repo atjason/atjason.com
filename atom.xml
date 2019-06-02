@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-05-31T15:49:22.305Z</updated>
+  <updated>2019-06-02T15:41:47.635Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0602 - 控制变量</title>
+    <link href="https://atjason.com/daily/2019-06-02.html"/>
+    <id>https://atjason.com/daily/2019-06-02.html</id>
+    <published>2019-06-02T14:00:00.000Z</published>
+    <updated>2019-06-02T15:41:47.635Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近几天不确定的事太多，导致有点焦虑：要不要做量化、选什么标的、怎么开发策略、用什么语言实现、要不要学 Python 等等。<strong>这么多变量混在一起，直接混沌了。</strong></p>
+<p>人脑是无法并行同时处理这么多问题的；只能是一种思想占优，其他的辅助。而真的面对这么多问题时，只是选择性忽略，或者给予基本的假定，等等。总之，是 <strong>把不重要的变量固定住</strong>，以减少变量；然后 <strong>专心对付最主要的变量</strong>，也就是主要的问题。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近几天不确定的事太多，导致有点焦虑：要不要做量化、选什么标的、怎么开发策略、用什么语言实现、要不要学 Python 等等。&lt;strong&gt;这么多变量混在一起，直接混沌了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;人脑是无法并行同时处理这么多问题的；只能是一种思想占优，其他的辅助。
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0601 - 吃到肚里，才是好的，吗？</title>
+    <link href="https://atjason.com/daily/2019-06-01.html"/>
+    <id>https://atjason.com/daily/2019-06-01.html</id>
+    <published>2019-06-01T14:00:00.000Z</published>
+    <updated>2019-06-01T16:00:22.247Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，在家里自己做的饭，吃到最好还剩一点，怎么办？如果家里有老人，多半是努力吃到肚子里。就算是由饱到撑，也不能浪费粮食。</p>
+<p>原因上，基本是老人是人匮乏时代过来的，一辈子节俭怪了，见不得浪费。而现在的年轻人，可能更注重健康，更别说天天嘴巴上说减肥的人，扔掉也不容易有什么。而再年轻的小孩，估计连眼都不眨一下。</p>
+<p>环境，就像重力一样，牢牢把人吸在地表。而人的能动性，就像是能在地上蹦哒几下而已。能挣脱引力的人，太少太少。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，在家里自己做的饭，吃到最好还剩一点，怎么办？如果家里有老人，多半是努力吃到肚子里。就算是由饱到撑，也不能浪费粮食。&lt;/p&gt;
+&lt;p&gt;原因上，基本是老人是人匮乏时代过来的，一辈子节俭怪了，见不得浪费。而现在的年轻人，可能更注重健康，更别说天天嘴巴上说减肥的人，扔掉也不容易
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0531 - 缝缝补补</title>
@@ -418,30 +465,6 @@
   </entry>
   
   <entry>
-    <title>0516 - 多做一点点</title>
-    <link href="https://atjason.com/daily/2019-05-16.html"/>
-    <id>https://atjason.com/daily/2019-05-16.html</id>
-    <published>2019-05-15T14:00:00.000Z</published>
-    <updated>2019-05-16T16:26:58.919Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
-<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。&lt;/p&gt;
-&lt;p&gt;多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>0515 - 解决网速慢的问题</title>
     <link href="https://atjason.com/daily/2019-05-15.html"/>
     <id>https://atjason.com/daily/2019-05-15.html</id>
@@ -468,6 +491,30 @@
   </entry>
   
   <entry>
+    <title>0516 - 多做一点点</title>
+    <link href="https://atjason.com/daily/2019-05-16.html"/>
+    <id>https://atjason.com/daily/2019-05-16.html</id>
+    <published>2019-05-15T14:00:00.000Z</published>
+    <updated>2019-05-16T16:26:58.919Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
+<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。&lt;/p&gt;
+&lt;p&gt;多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0514 - 菜好贵</title>
     <link href="https://atjason.com/daily/2019-05-14.html"/>
     <id>https://atjason.com/daily/2019-05-14.html</id>
@@ -484,59 +531,6 @@
     
       &lt;p&gt;真是不当家不知柴米贵。今天去买菜，明显感觉菜好贵。虾基本是 50 元起步；想起前几天一个内陆城市，茄子 18 元/斤。&lt;/p&gt;
 &lt;p&gt;相对而言，猪肉的价格却显得温和很多。可能是国家管制的原因，明显感觉「&lt;strong&gt;猪肉有价菜无价&lt;/strong&gt;」；猪肉这种商品的价格太
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0513 - 回杭</title>
-    <link href="https://atjason.com/daily/2019-05-13.html"/>
-    <id>https://atjason.com/daily/2019-05-13.html</id>
-    <published>2019-05-13T14:00:00.000Z</published>
-    <updated>2019-05-14T17:24:28.524Z</updated>
-    
-    <content type="html"><![CDATA[<p>时隔 5 个月，回到了杭州的家。</p>
-<p>这么长时间没住人，房子里竟比想象的要干净些；要知道，周边可常年都是工地，灰土是很大的。</p>
-<p>晚上 9 点多到的。要在最短时间内收拾出可以睡觉的地方、安顿娃，并不是件容易的事；尤其，是在舟车劳顿几个小时之后。最后，差不多是在 12 点睡的。</p>
-<p>后来想了下，当时收拾的感觉和项目初始时挺像的：有很多事要做、有很多事可做，先收拾什么、收拾到什么程度，什么可以先放着不管，等等。</p>
-<p><strong>能把生活过好的人，能把事情做好。</strong><br>能把事情做好，却过不好生活，没有意义。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;时隔 5 个月，回到了杭州的家。&lt;/p&gt;
-&lt;p&gt;这么长时间没住人，房子里竟比想象的要干净些；要知道，周边可常年都是工地，灰土是很大的。&lt;/p&gt;
-&lt;p&gt;晚上 9 点多到的。要在最短时间内收拾出可以睡觉的地方、安顿娃，并不是件容易的事；尤其，是在舟车劳顿几个小时之后。最后，差不
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0512 - 邮政包裹也不错</title>
-    <link href="https://atjason.com/daily/2019-05-12.html"/>
-    <id>https://atjason.com/daily/2019-05-12.html</id>
-    <published>2019-05-12T14:00:00.000Z</published>
-    <updated>2019-05-14T17:14:55.831Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天寄了邮政包裹，感觉挺好的。</p>
-<p>约 80 斤；3 个邮政袋、2 个纸箱；跨省，选普通包裹，2 天到；送货上门；130 元。</p>
-<p>对邮政或快递了解的朋友应该能感觉，这很不错了。要是放几年前，基本是一周以上才能到，且需要自己到邮局取。速度和普通快递差不多，或者说慢 1 天。而最关键的，这价格，秒杀所有快递。</p>
-<p>综合体验下来，感觉邮政包裹挺好的，尤其适合大件远距离寄送。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天寄了邮政包裹，感觉挺好的。&lt;/p&gt;
-&lt;p&gt;约 80 斤；3 个邮政袋、2 个纸箱；跨省，选普通包裹，2 天到；送货上门；130 元。&lt;/p&gt;
-&lt;p&gt;对邮政或快递了解的朋友应该能感觉，这很不错了。要是放几年前，基本是一周以上才能到，且需要自己到邮局取。速度和普通快递差不多
     
     </summary>
     

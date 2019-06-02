@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title><![CDATA[0602 - 控制变量]]></title>
+      <url>https://atjason.com/daily/2019-06-02.html</url>
+      <content type="html"><![CDATA[<p>最近几天不确定的事太多，导致有点焦虑：要不要做量化、选什么标的、怎么开发策略、用什么语言实现、要不要学 Python 等等。<strong>这么多变量混在一起，直接混沌了。</strong></p>
+<p>人脑是无法并行同时处理这么多问题的；只能是一种思想占优，其他的辅助。而真的面对这么多问题时，只是选择性忽略，或者给予基本的假定，等等。总之，是 <strong>把不重要的变量固定住</strong>，以减少变量；然后 <strong>专心对付最主要的变量</strong>，也就是主要的问题。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0601 - 吃到肚里，才是好的，吗？]]></title>
+      <url>https://atjason.com/daily/2019-06-01.html</url>
+      <content type="html"><![CDATA[<p>比如，在家里自己做的饭，吃到最好还剩一点，怎么办？如果家里有老人，多半是努力吃到肚子里。就算是由饱到撑，也不能浪费粮食。</p>
+<p>原因上，基本是老人是人匮乏时代过来的，一辈子节俭怪了，见不得浪费。而现在的年轻人，可能更注重健康，更别说天天嘴巴上说减肥的人，扔掉也不容易有什么。而再年轻的小孩，估计连眼都不眨一下。</p>
+<p>环境，就像重力一样，牢牢把人吸在地表。而人的能动性，就像是能在地上蹦哒几下而已。能挣脱引力的人，太少太少。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0531 - 缝缝补补]]></title>
       <url>https://atjason.com/daily/2019-05-31.html</url>
       <content type="html"><![CDATA[<p>裤子的松紧带松了，自己换了一根，立马感觉幸福指数暴增。</p>
@@ -289,10 +322,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0516 - 多做一点点]]></title>
-      <url>https://atjason.com/daily/2019-05-16.html</url>
-      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
-<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
+      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
+      <url>https://atjason.com/daily/2019-05-15.html</url>
+      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
+<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
+<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
+<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
 ]]></content>
       
         <categories>
@@ -305,12 +340,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
-      <url>https://atjason.com/daily/2019-05-15.html</url>
-      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
-<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
-<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
-<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
+      <title><![CDATA[0516 - 多做一点点]]></title>
+      <url>https://atjason.com/daily/2019-05-16.html</url>
+      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
+<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
 ]]></content>
       
         <categories>
@@ -10736,6 +10769,37 @@
     </entry>
     
     <entry>
+      <title><![CDATA[深圳行：1207-Day 1 - 到达]]></title>
+      <url>https://atjason.com/daily/2017-12-07.html</url>
+      <content type="html"><![CDATA[<p>今天一天都在路上；<strong>前脚杭州，后脚深圳</strong>。</p>
+<p>其实，首先要说的是 <strong>夜晚</strong>。由于新版 iText 要提交上架 App Store，于是，我在小米手环上 <strong>定了 3、4、5、6 点的闹钟</strong>，闹醒自己看看审核有没有被拒，然后再提交一个版本。</p>
+<p>果然，在 4 点钟醒来，不详地收到「Dear Jason, We’ve sent you a new message about your app, iText.」<strong>审核被拒，原因是什么呢？</strong>是我在 App 描述里有这么一句话：”Your 5-star rating will be a great encouragement for me.”，被苹果认为涉嫌诱导用户评分。哎，iText 上个版本就有这句话，iPic 等其他应用也有这句话，都可以审核通过；偏偏这次就不行。哎，审核是大爷，于是 4 点多时提交。</p>
+<p>等到了 8 点，审核才开始。一直等到 11 点才审核通过。要知道，<strong>此时我已经在机场，广播已经在提示登机了。我依然镇定 + 火速地拿出电脑，连接手机 4G 网络，在朋友圈、微博等渠道对该版本上架进行推广。然后抱着娃，跟着家人一直登机。</strong></p>
+<p><img src="https://ps.toolinbox.net/2g970.jpg" alt=""></p>
+<a id="more"></a>
+<hr>
+<p>是的，这次是带着娃，跟家人一起去深圳、香港旅游。说是旅游，更像是 <strong>换个城市小小地生活一下</strong>，准备呆 10 天。</p>
+<p>说回飞机。这是 <strong>娃和妈第一次坐飞机，我挺希望给他们留下一段美好的回忆</strong>，当然主要是妈喽。遗憾的是，妈延续了晕车的习惯，一直觉得飞机上很闷。而且，有雾霾，即使坐在了靠窗的位置上，外面也看不到什么风景。最后，下机的时候，顾不上我们，必须先冲下飞机，踩在踏实的地面上，呼吸新鲜空气去了。</p>
+<p><strong>娃还好，至少表现的比预期的要好</strong>：没有大哭大闹。要知道，飞机起飞降落时，耳朵会明显地不舒服。飞机上的空气干燥憋闷、空间小，很容易让娃不爽的。好玩的是，这娃觉得起飞时的越重、失重很好玩，竟然还自己笑 😀 一路上由于过度兴奋，该睡的时候不睡。最后，临下飞机前，留了一泡臭臭…比较庆幸的是，我们是倒数第二排，而最后一排没有人，所以就被我们霸占了，空间立马宽裕了。这应该也是娃没失控的重要原因吧。</p>
+<p><img src="https://ps.toolinbox.net/epf5p.JPG" alt=""></p>
+<p>坐深圳航空去深圳…</p>
+<hr>
+<p>下了飞机，找地方填肚子。然后，又是 1 个多小时的车程，才到目的地。车是滴滴专车，本田雅阁，车费￥260…好在空间还挺宽敞。加上一路都是高速，<strong>我们全家人，都在车上睡着了</strong>…</p>
+<p>目的地是哪呢？大梅沙附近。在 AirBNB 上定了一间公寓，<strong>两居室，只要不到 300 元，和快捷酒店差不多</strong>，感觉还挺划算。毕竟拖家带口出来，有个能做饭的厨房，有个不小的客厅，还是很好的。</p>
+<p>奔波了一天，晚上下楼买了饺子吃，还干了一瓶啤酒。接下来，伺候娃睡觉；再接下来，竟然闲得不知道要干什么了 😂 不干活的感觉也还不错，只是幸福来得太突然，我还得适应适用…</p>
+<p>明天去哪玩呢？不知道、无计划，走哪算哪呗。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iText - OCR 截图识字新版：重写算法，段落识别更精准]]></title>
       <url>https://atjason.com/daily/2017-12-07_2.html</url>
       <content type="html"><![CDATA[<p>在介绍新版前，稍稍解释下背景知识。</p>
@@ -10790,37 +10854,6 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[深圳行：1207-Day 1 - 到达]]></title>
-      <url>https://atjason.com/daily/2017-12-07.html</url>
-      <content type="html"><![CDATA[<p>今天一天都在路上；<strong>前脚杭州，后脚深圳</strong>。</p>
-<p>其实，首先要说的是 <strong>夜晚</strong>。由于新版 iText 要提交上架 App Store，于是，我在小米手环上 <strong>定了 3、4、5、6 点的闹钟</strong>，闹醒自己看看审核有没有被拒，然后再提交一个版本。</p>
-<p>果然，在 4 点钟醒来，不详地收到「Dear Jason, We’ve sent you a new message about your app, iText.」<strong>审核被拒，原因是什么呢？</strong>是我在 App 描述里有这么一句话：”Your 5-star rating will be a great encouragement for me.”，被苹果认为涉嫌诱导用户评分。哎，iText 上个版本就有这句话，iPic 等其他应用也有这句话，都可以审核通过；偏偏这次就不行。哎，审核是大爷，于是 4 点多时提交。</p>
-<p>等到了 8 点，审核才开始。一直等到 11 点才审核通过。要知道，<strong>此时我已经在机场，广播已经在提示登机了。我依然镇定 + 火速地拿出电脑，连接手机 4G 网络，在朋友圈、微博等渠道对该版本上架进行推广。然后抱着娃，跟着家人一直登机。</strong></p>
-<p><img src="https://ps.toolinbox.net/2g970.jpg" alt=""></p>
-<a id="more"></a>
-<hr>
-<p>是的，这次是带着娃，跟家人一起去深圳、香港旅游。说是旅游，更像是 <strong>换个城市小小地生活一下</strong>，准备呆 10 天。</p>
-<p>说回飞机。这是 <strong>娃和妈第一次坐飞机，我挺希望给他们留下一段美好的回忆</strong>，当然主要是妈喽。遗憾的是，妈延续了晕车的习惯，一直觉得飞机上很闷。而且，有雾霾，即使坐在了靠窗的位置上，外面也看不到什么风景。最后，下机的时候，顾不上我们，必须先冲下飞机，踩在踏实的地面上，呼吸新鲜空气去了。</p>
-<p><strong>娃还好，至少表现的比预期的要好</strong>：没有大哭大闹。要知道，飞机起飞降落时，耳朵会明显地不舒服。飞机上的空气干燥憋闷、空间小，很容易让娃不爽的。好玩的是，这娃觉得起飞时的越重、失重很好玩，竟然还自己笑 😀 一路上由于过度兴奋，该睡的时候不睡。最后，临下飞机前，留了一泡臭臭…比较庆幸的是，我们是倒数第二排，而最后一排没有人，所以就被我们霸占了，空间立马宽裕了。这应该也是娃没失控的重要原因吧。</p>
-<p><img src="https://ps.toolinbox.net/epf5p.JPG" alt=""></p>
-<p>坐深圳航空去深圳…</p>
-<hr>
-<p>下了飞机，找地方填肚子。然后，又是 1 个多小时的车程，才到目的地。车是滴滴专车，本田雅阁，车费￥260…好在空间还挺宽敞。加上一路都是高速，<strong>我们全家人，都在车上睡着了</strong>…</p>
-<p>目的地是哪呢？大梅沙附近。在 AirBNB 上定了一间公寓，<strong>两居室，只要不到 300 元，和快捷酒店差不多</strong>，感觉还挺划算。毕竟拖家带口出来，有个能做饭的厨房，有个不小的客厅，还是很好的。</p>
-<p>奔波了一天，晚上下楼买了饺子吃，还干了一瓶啤酒。接下来，伺候娃睡觉；再接下来，竟然闲得不知道要干什么了 😂 不干活的感觉也还不错，只是幸福来得太突然，我还得适应适用…</p>
-<p>明天去哪玩呢？不知道、无计划，走哪算哪呗。</p>
 ]]></content>
       
         <categories>
@@ -14021,24 +14054,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
-      <url>https://atjason.com/daily/2017-07-25.html</url>
-      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
-<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
-<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
-<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[说说我出道后的处女作：剪贴板神器 iPaste]]></title>
       <url>https://atjason.com/IndieDev/2017-07-25_iPaste_Review.html</url>
       <content type="html"><![CDATA[<p>2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 <strong><a href="https://toolinbox.net/iPaste/" target="_blank" rel="external">iPaste</a>，是我独立开发的第一款 macOS 产品。</strong></p>
@@ -14227,6 +14242,24 @@
         <categories>
             
             <category> IndieDev </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
+      <url>https://atjason.com/daily/2017-07-25.html</url>
+      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
+<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
+<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
+<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -17295,6 +17328,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -17379,22 +17428,6 @@
         <categories>
             
             <category> IT </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -25856,6 +25889,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
+      <url>https://atjason.com/daily/2016-05-08.html</url>
+      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
+<p>不见得。</p>
+<p>也许是劲使错地方了。</p>
+<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
+<ul>
+<li>做自己擅长的、坚持做、更擅长。</li>
+<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
+<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0509 - 选择开源软件，还是付费软件？]]></title>
       <url>https://atjason.com/daily/2016-05-09.html</url>
       <content type="html"><![CDATA[<p>各有好坏。</p>
@@ -25870,29 +25926,6 @@
 <li>选择用户多的。这通常意味着网上会有充足的教程，也会有人把自己踩过的坑记录下来。有了这些资料，会让自己遇到问题时更容易解决。</li>
 </ul>
 <p>当然，开发者也是人、也需要生存、也需要收入。鼓励大家为软件付费（不论是直接购买付费软件，还是赞助开源软件），这样才能可持续发展：开发者做出越来精品的软件、消费者为软件付费、开发者继续改进、消费者享受更加精良的软件。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
-      <url>https://atjason.com/daily/2016-05-08.html</url>
-      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
-<p>不见得。</p>
-<p>也许是劲使错地方了。</p>
-<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
-<ul>
-<li>做自己擅长的、坚持做、更擅长。</li>
-<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
-<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
-</ul>
 ]]></content>
       
         <categories>
@@ -26026,7 +26059,7 @@
 <h1 id="配置-ssh-的-config"><a href="#配置-ssh-的-config" class="headerlink" title="配置 ssh 的 config"></a>配置 ssh 的 config</h1><p>编辑 ~/.ssh/config，添加类似下面的内容：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># user1</div><div class="line">Host github.com</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa</div><div class="line"></div><div class="line"># user2</div><div class="line">Host github.cn</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa2</div></pre></td></tr></table></figure>
 <p>编辑后，测试连接是否成功。如果成功，会有类似下面的提示：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> ssh -T git@github.com</div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$ ssh -T git@github.cn</div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh -T git@github.com</span></div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$<span class="bash"> ssh -T git@github.cn</span></div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
 <p>核心原理就是，当 ssh 尝试访问某域名时，会尝试和 config 中 <code>Host</code> 对应的记录匹配。如果匹配成功，就会使用该记录中 <code>HostName</code> 的值作为真正的域名、以及使用 <code>IdentityFile</code> 对应的私钥进行配对。这样，既可以实现把 <code>github.cn</code> 当作 <code>github.com</code> 访问、又可以匹配到正常的私钥。 </p>
 <p>这里，<code>github.cn</code> 只是个代号，你可以使用任何其它你喜欢的域名。</p>
 <h1 id="对-git-项目使用适当的-ssh-连接"><a href="#对-git-项目使用适当的-ssh-连接" class="headerlink" title="对 git 项目使用适当的 ssh 连接"></a>对 git 项目使用适当的 ssh 连接</h1><p>前面提到，假定 user1@gmail.com 是更经常使用的账户，这样我们可以设置该账户为全局默认的 git 账户。通常，你已经这么设置了。不过，如果可以通过下面的命令再次设置以确认。</p>
