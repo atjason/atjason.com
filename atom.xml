@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-06-23T15:37:32.013Z</updated>
+  <updated>2019-06-25T16:59:24.238Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,55 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0625 - 什么阶段做什么事</title>
+    <link href="https://atjason.com/daily/2019-06-25.html"/>
+    <id>https://atjason.com/daily/2019-06-25.html</id>
+    <published>2019-06-25T14:00:00.000Z</published>
+    <updated>2019-06-25T16:59:24.238Z</updated>
+    
+    <content type="html"><![CDATA[<p>刚毕业的小年轻，时间多、身体好，加个班、熬个夜，完全不在话下。脑子还好使，新东西学的快。在这些方面和他们比拼，我怕是要被碾压。</p>
+<p>比如，现在再去做小工具，就很是尴尬。我辛苦憋出个新东西，人家几天就「致敬」出来了。我卖高价，人家便宜；我卖便宜，人家免费、甚至开源。再加上普通用户基本笑贫不笑娼，谁便宜用谁，什么模仿致敬啥的，完全不关心。这样的环境，哎，算了吧。</p>
+<p>目前来看，对交易还比较感兴趣。至少这东西不是青春饭，可以做很久。且做得越久，经验和积累越多，不太会在很短时间内被取代。虽说之前做 App 积累的一些东西怕是用不上，有些可惜。不过毕竟没有完全离开代码，还是挺好的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;刚毕业的小年轻，时间多、身体好，加个班、熬个夜，完全不在话下。脑子还好使，新东西学的快。在这些方面和他们比拼，我怕是要被碾压。&lt;/p&gt;
+&lt;p&gt;比如，现在再去做小工具，就很是尴尬。我辛苦憋出个新东西，人家几天就「致敬」出来了。我卖高价，人家便宜；我卖便宜，人家免费、甚至开源。
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0624 - 日记不能拖</title>
+    <link href="https://atjason.com/daily/2019-06-24.html"/>
+    <id>https://atjason.com/daily/2019-06-24.html</id>
+    <published>2019-06-24T14:00:00.000Z</published>
+    <updated>2019-06-25T16:51:51.513Z</updated>
+    
+    <content type="html"><![CDATA[<p>写日记这事，还真是不能拖。有时侯，一天过完，好像确实找不到值得说的。同时，犯懒，想着今天就不写了，明天有新鲜事了再回来补。结果，明天也不知道写什么…</p>
+<p>主要是这几天做的事比较单一，就是看交易的书、想策略；又没什么突破，所以日子显得平庸了些。</p>
+<p>学英语也是，有时一天学很久，有时一天连一个单词都没认识、一篇文章也没看。不能断这事，真的很重要；哪怕只是复习下新学的单词，也不能断。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写日记这事，还真是不能拖。有时侯，一天过完，好像确实找不到值得说的。同时，犯懒，想着今天就不写了，明天有新鲜事了再回来补。结果，明天也不知道写什么…&lt;/p&gt;
+&lt;p&gt;主要是这几天做的事比较单一，就是看交易的书、想策略；又没什么突破，所以日子显得平庸了些。&lt;/p&gt;
+&lt;p&gt;学英语
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0623 - 换个环境</title>
@@ -469,55 +518,6 @@
     
       &lt;p&gt;同一场 WWDC，不同的人有不同的关注点。而他的言论、对 WWDC 的评价，自然是和他的关注点有关。如果他关注的东西得到满足，就会给予正面评价；反之就会批评。而没什么可关注的，会去批评 Mac Pro 的外观设计。&lt;/p&gt;
 &lt;p&gt;我们如果没有自己的关注的点、没有自己的观点，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0605 - 爱好与专业</title>
-    <link href="https://atjason.com/daily/2019-06-05.html"/>
-    <id>https://atjason.com/daily/2019-06-05.html</id>
-    <published>2019-06-05T14:00:00.000Z</published>
-    <updated>2019-06-05T16:29:13.189Z</updated>
-    
-    <content type="html"><![CDATA[<p>经常听到这样的观点：<strong>别拿自己的爱好去和别人的专业 PK</strong>。</p>
-<p>我本身也是认同这个观点的；毕竟，人家吃饭的家伙，每天都在操练，是有长期优势的。如果只是一腔热情冲进去做，基本也只能做别人的陪练或韭菜。</p>
-<p>可，有时候总是不甘心；毕竟是喜欢的东西，如果还没 PK 就先放弃，总归是不舍的；哪怕知道最后会是输，也想试一试。</p>
-<p>爱好和事业能够重叠固然好；如果不能，我还是想给爱好一点时间。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;经常听到这样的观点：&lt;strong&gt;别拿自己的爱好去和别人的专业 PK&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;我本身也是认同这个观点的；毕竟，人家吃饭的家伙，每天都在操练，是有长期优势的。如果只是一腔热情冲进去做，基本也只能做别人的陪练或韭菜。&lt;/p&gt;
-&lt;p&gt;可，有时候总是不甘
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0604 - 必然要做的，不抱怨</title>
-    <link href="https://atjason.com/daily/2019-06-04.html"/>
-    <id>https://atjason.com/daily/2019-06-04.html</id>
-    <published>2019-06-04T14:00:00.000Z</published>
-    <updated>2019-06-04T15:30:48.589Z</updated>
-    
-    <content type="html"><![CDATA[<p>这种事情时不时会发生在自己身上，我想也很常见：并不想做某件事，但基于各种原因，又不得不做。于是，做吧。而做的过程中，各种不爽、乱发脾气、心情很差，总之很糟糕。</p>
-<p>事后来看，都说是不得不做，抱怨除了降低效率、让自己心情变差之外，并无意义。不如尽快处理掉，释放出自己的时间和心情。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这种事情时不时会发生在自己身上，我想也很常见：并不想做某件事，但基于各种原因，又不得不做。于是，做吧。而做的过程中，各种不爽、乱发脾气、心情很差，总之很糟糕。&lt;/p&gt;
-&lt;p&gt;事后来看，都说是不得不做，抱怨除了降低效率、让自己心情变差之外，并无意义。不如尽快处理掉，释放出自己
     
     </summary>
     
