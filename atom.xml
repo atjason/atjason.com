@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-06-26T16:10:24.652Z</updated>
+  <updated>2019-06-29T12:57:24.634Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,79 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0629 - 避短</title>
+    <link href="https://atjason.com/daily/2019-06-29.html"/>
+    <id>https://atjason.com/daily/2019-06-29.html</id>
+    <published>2019-06-29T14:00:00.000Z</published>
+    <updated>2019-06-29T12:57:24.634Z</updated>
+    
+    <content type="html"><![CDATA[<p>交易策略，有种简单的分法：高频与低频。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;交易策略，有种简单的分法：高频与低频。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0628 - 交易无情</title>
+    <link href="https://atjason.com/daily/2019-06-28.html"/>
+    <id>https://atjason.com/daily/2019-06-28.html</id>
+    <published>2019-06-28T14:00:00.000Z</published>
+    <updated>2019-06-29T12:56:27.473Z</updated>
+    
+    <content type="html"><![CDATA[<p>辛苦设计并实现一个策略，自以为考虑周全，结果接连损失，达到最大损失后，机器人停了。</p>
+<p>这不重要，重要的是对心情的影响很大。人就开始消极，心智开始封闭。不愿复盘，不愿思考如何改进。</p>
+<p><strong>交易无情；交易中的人，也不能有情。赢不喜，亏不悲。</strong></p>
+<p>如果做不到，也很自然。目前能想到的办法是：<strong>换脑</strong>。做完全不相关的事，比如看看电影，了解一些全新的事。用新的东西，强行挤占大脑，避免陷入到消极状态中，无法自拔。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;辛苦设计并实现一个策略，自以为考虑周全，结果接连损失，达到最大损失后，机器人停了。&lt;/p&gt;
+&lt;p&gt;这不重要，重要的是对心情的影响很大。人就开始消极，心智开始封闭。不愿复盘，不愿思考如何改进。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;交易无情；交易中的人，也不能有情。赢不喜，亏不悲。&lt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0627 - 考虑风险</title>
+    <link href="https://atjason.com/daily/2019-06-27.html"/>
+    <id>https://atjason.com/daily/2019-06-27.html</id>
+    <published>2019-06-27T14:00:00.000Z</published>
+    <updated>2019-06-29T12:50:50.928Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天手机摔地上，边框掉漆；所幸屏幕没有碎。</p>
+<p>想了想，如果屏幕碎了，我愿意承担这个损失吗？为了裸机手机，我能承担碎屏的风险吗？想了想，好像不能；于是，乖乖给手机戴套。</p>
+<p>平时习惯于面向利益行事。不过，面向风险行事，也很有必要，尤其是在交易过程中。100% 的收益固然很爽，但谁又能承担 100% 的损失即破产呢？如果潜在的收益带来的风险太大，不是好策略。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天手机摔地上，边框掉漆；所幸屏幕没有碎。&lt;/p&gt;
+&lt;p&gt;想了想，如果屏幕碎了，我愿意承担这个损失吗？为了裸机手机，我能承担碎屏的风险吗？想了想，好像不能；于是，乖乖给手机戴套。&lt;/p&gt;
+&lt;p&gt;平时习惯于面向利益行事。不过，面向风险行事，也很有必要，尤其是在交易过程中。10
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0626 - 高考志愿选专业</title>
@@ -445,79 +518,6 @@
     
       &lt;p&gt;每月总有状态不佳的几天…&lt;/p&gt;
 &lt;p&gt;对我而言，最好的方式是：&lt;strong&gt;中断，等待恢复&lt;/strong&gt;。类似于 CPU 的任务调度，在暂停一项任务、准备切换至下一任务时，先要保存当前任务的所有信息。然后，在将来某时重新启动该任务时，可以根据当初保存的信息，快速恢复
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0609 - 证券业从业人员一般从业资格考试</title>
-    <link href="https://atjason.com/daily/2019-06-09.html"/>
-    <id>https://atjason.com/daily/2019-06-09.html</id>
-    <published>2019-06-09T14:00:00.000Z</published>
-    <updated>2019-06-09T14:55:55.862Z</updated>
-    
-    <content type="html"><![CDATA[<p>偶然间知道了证券业从业人员一般从业资格考试，正好自己想了解下金融证券行业，就报了个名。看书的同时，顺便拿个证。7 月 6 日考试，争取一遍过。</p>
-<p>人嘛，总是容易懒散。考试是个好东西，可以制造紧张感，逼迫自己去学习。</p>
-<p>话说，好久没考过试了，不知道还能不能适应这种模式。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;偶然间知道了证券业从业人员一般从业资格考试，正好自己想了解下金融证券行业，就报了个名。看书的同时，顺便拿个证。7 月 6 日考试，争取一遍过。&lt;/p&gt;
-&lt;p&gt;人嘛，总是容易懒散。考试是个好东西，可以制造紧张感，逼迫自己去学习。&lt;/p&gt;
-&lt;p&gt;话说，好久没考过试了，不知道还能
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0608 - 总会有机会</title>
-    <link href="https://atjason.com/daily/2019-06-08.html"/>
-    <id>https://atjason.com/daily/2019-06-08.html</id>
-    <published>2019-06-08T14:00:00.000Z</published>
-    <updated>2019-06-08T15:10:41.712Z</updated>
-    
-    <content type="html"><![CDATA[<p>有没有这种经历：错失一个重要的机会，捶胸顿足、无比难受、后悔万分、极度郁闷。最关键的，感觉再也不会有这么好的机会，实在太可惜了。</p>
-<p>看开点。一方面，得不到的机会，其实也不是机会。另一方面，前方总会有更大的机会。重要的是持续准备；机会来的时候，抓得住。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有没有这种经历：错失一个重要的机会，捶胸顿足、无比难受、后悔万分、极度郁闷。最关键的，感觉再也不会有这么好的机会，实在太可惜了。&lt;/p&gt;
-&lt;p&gt;看开点。一方面，得不到的机会，其实也不是机会。另一方面，前方总会有更大的机会。重要的是持续准备；机会来的时候，抓得住。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0607 - 挑选自己满意的</title>
-    <link href="https://atjason.com/daily/2019-06-07.html"/>
-    <id>https://atjason.com/daily/2019-06-07.html</id>
-    <published>2019-06-07T14:00:00.000Z</published>
-    <updated>2019-06-08T15:07:47.492Z</updated>
-    
-    <content type="html"><![CDATA[<p>去迪卡侬买裤子，我一下子拿了 7 条符合初步要求的裤子去试：凉快、快干、口袋有拉链、腰带弹力足够；最后挑了一件自己挺满意的。</p>
-<p>喜欢这种感觉：<strong>知道自己要什么、知道哪里可以找到、知道如何挑选、有能力得到</strong>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;去迪卡侬买裤子，我一下子拿了 7 条符合初步要求的裤子去试：凉快、快干、口袋有拉链、腰带弹力足够；最后挑了一件自己挺满意的。&lt;/p&gt;
-&lt;p&gt;喜欢这种感觉：&lt;strong&gt;知道自己要什么、知道哪里可以找到、知道如何挑选、有能力得到&lt;/strong&gt;。&lt;/p&gt;
-
     
     </summary>
     
