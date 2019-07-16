@@ -268,6 +268,162 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-02-26.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2019-02-26.html" itemprop="url">
+                  0226 - 开源了自己折腾的 Vue 多页面框架
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-26T22:00:00+08:00">
+                2019-02-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天花了挺多时间研究 Vue 多页面，感觉还比较通用，自己之后也可能重复用到，就稍微整理下，放到 GitHub 上了：<a href="https://github.com/atjason/vue-multi-pages" target="_blank" rel="external">vue-multi-pages</a></p>
+<p><img src="https://ps.toolinbox.net/006tKfTcgy1g0k3dhfdl3j31180u04it.jpg" alt=""></p>
+<p>说说背景和现状。</p>
+<p>由于 Vue 原生是针对单页面设计的，vue cli 生成的项目也是单页面的；在单页面的前提下，很多配置都默认化了，开发者是无感的。而一旦拉出来成多页面，很多隐藏在内部的、之前开发者不需要知道的配置，都需要知道并修改。</p>
+<p>再加上官方并没什么指导，网上各种新旧版本交织，所以学起来比较累，也很难界定哪种是最佳实践。如果能更多地阅读 Vue 源码，可能更容易判断；不过估计绝大多数人并没这个耐心和时间。</p>
+<p>从技术上，大体有两种实现方式：通过 pages 和 router；后者其实本质上还是单页面，只是通过 router 使得表现上像是多页面，更彻底的还是 pages 方式。</p>
+<p>我就不展开讲了，内行的直接看 <a href="https://github.com/atjason/vue-multi-pages" target="_blank" rel="external">代码</a> 就都明白了。这里简单列出一些点：</p>
+<ul>
+<li>支持多级目录</li>
+<li>包含 router、vuex 示例</li>
+<li>内置了全局 404 的大体实现</li>
+<li>代码中暂未包含私有及公共 Component 的示例，不过应该容易实现</li>
+<li>参考了 <a href="https://github.com/Plortinus/vue-multiple-pages" target="_blank" rel="external">vue-multiple-pages</a>，并在其基础上二次开发</li>
+</ul>
+<p>说起来，不知道 Vue 3 会不会原生对多页面支持得更好，期待。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-02-25.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -861,150 +1017,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-02-21.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ohpsctde4.qnssl.com/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2019-02-21.html" itemprop="url">
-                  0221 - 光学不练假把式
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-21T22:00:00+08:00">
-                2019-02-21
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>纯学习有一个多星期了，虽说最近几天也是以实现 example 为主，但总归不是做实际的产品，很容易「出戏」</p>
-<p>实在憋不住，今天没再纯学习，而是做一个小小项目：在线 html/css/js 代码编辑器。对，世上有很多这种产品，比如 jsfiddle/codepen；我也就是练手，毕竟最近接连学了 css/vue，这个小项目刚好这几方面都能锻练，还是挺适合的。</p>
-<p>今天大概做出样子了，明天拿出来给大家见面。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1054,7 +1066,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1413</span>
+                <span class="site-state-item-count">1414</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

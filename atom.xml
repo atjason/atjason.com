@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-07-14T13:48:48.654Z</updated>
+  <updated>2019-07-15T15:25:56.556Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0715 - 微信听书挺不错</title>
+    <link href="https://atjason.com/daily/2019-07-15.html"/>
+    <id>https://atjason.com/daily/2019-07-15.html</id>
+    <published>2019-07-15T14:00:00.000Z</published>
+    <updated>2019-07-15T15:25:56.556Z</updated>
+    
+    <content type="html"><![CDATA[<p>微信读书有个功能：听书；就是用合成语音的技术，朗读书本内容。实际使用下来，感觉挺好的。</p>
+<p>首先是语音合成技术已经挺成熟了，不会有很生硬的感觉，声音还带点情感。还有就是可以加快语音播放速度。这样，对于信息密度比较低的书，可以加速播放。</p>
+<p>交互体验也不错，可以在肉眼阅读和朗读间无缝切换。比如，肉眼读到 100 页，临时有事不方便手持手机，转为听书。听书到 120 页，重新改为肉眼读书，当前精确停留在听书的位置。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;微信读书有个功能：听书；就是用合成语音的技术，朗读书本内容。实际使用下来，感觉挺好的。&lt;/p&gt;
+&lt;p&gt;首先是语音合成技术已经挺成熟了，不会有很生硬的感觉，声音还带点情感。还有就是可以加快语音播放速度。这样，对于信息密度比较低的书，可以加速播放。&lt;/p&gt;
+&lt;p&gt;交互体验也不错
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0714 - 还是得有提前量</title>
@@ -506,30 +531,6 @@
     
       &lt;p&gt;说一个高考志愿的一个观点：如果你觉得自己很牛，可以选基础学科，将来想做什么做什么。不然，就选应用学科；把大学当成职业教育，毕业就可以工作。&lt;/p&gt;
 &lt;p&gt;虽然是个高校，明面上都想办成研究型、综合型大学。但实际上，从我 YY 的国家的角度，是希望高校承担更多职业教育的责任。毕
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0625 - 什么阶段做什么事</title>
-    <link href="https://atjason.com/daily/2019-06-25.html"/>
-    <id>https://atjason.com/daily/2019-06-25.html</id>
-    <published>2019-06-25T14:00:00.000Z</published>
-    <updated>2019-06-30T14:46:03.650Z</updated>
-    
-    <content type="html"><![CDATA[<p>刚毕业的小年轻，时间多、身体好，加个班、熬个夜，完全不在话下。脑子还好使，新东西学的快。在这些方面和他们比拼，我怕是要被碾压。</p>
-<p>比如，现在再去做小工具，就很是尴尬。我辛苦憋出个新东西，人家几天就「致敬」出来了。我卖高价，人家便宜；我卖便宜，人家免费、甚至开源。再加上普通用户基本笑贫不笑娼，谁便宜用谁，什么模仿致敬啥的，完全不关心。这样的环境，哎，算了吧。</p>
-<p>目前来看，对交易还比较感兴趣。至少这东西不是青春饭，可以做很久。且做得越久，经验和积累越多，不太会在很短时间内被取代。虽说之前做 App 积累的一些东西怕是用不上，有些可惜。不过毕竟没有完全离开代码，还是挺好的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;刚毕业的小年轻，时间多、身体好，加个班、熬个夜，完全不在话下。脑子还好使，新东西学的快。在这些方面和他们比拼，我怕是要被碾压。&lt;/p&gt;
-&lt;p&gt;比如，现在再去做小工具，就很是尴尬。我辛苦憋出个新东西，人家几天就「致敬」出来了。我卖高价，人家便宜；我卖便宜，人家免费、甚至开源。
     
     </summary>
     
