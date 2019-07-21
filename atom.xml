@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-07-17T16:22:55.646Z</updated>
+  <updated>2019-07-20T16:08:06.608Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,82 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0720 - 理解边界</title>
+    <link href="https://atjason.com/daily/2019-07-20.html"/>
+    <id>https://atjason.com/daily/2019-07-20.html</id>
+    <published>2019-07-20T14:00:00.000Z</published>
+    <updated>2019-07-20T16:08:06.608Z</updated>
+    
+    <content type="html"><![CDATA[<p>感觉很多人无法理解边界。</p>
+<p>比如，我有一个「实时公交精准查询」小程序，显示下一趟公交还有几站到。有用户等了很久，车还没来，小程序上也显示无车。这里，用户会通过小程序内置的反馈渠道来抱怨：怎么车还没来？而事实上，小程序已经准确显示无车；出问题的，是公交公司。</p>
+<p>比如，一个工作正常的收音机，却因为电台没有发射信号，无法接收到这个台。这时候，你打电话给收音机售后，再怎么骂娘也解决不了问题。</p>
+<p>一个问题的对象可能有多个，对象之间又相互关联。厘清对象间的边界，是解决问题的前提。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;感觉很多人无法理解边界。&lt;/p&gt;
+&lt;p&gt;比如，我有一个「实时公交精准查询」小程序，显示下一趟公交还有几站到。有用户等了很久，车还没来，小程序上也显示无车。这里，用户会通过小程序内置的反馈渠道来抱怨：怎么车还没来？而事实上，小程序已经准确显示无车；出问题的，是公交公司。&lt;/p
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0719 - 真正的休息</title>
+    <link href="https://atjason.com/daily/2019-07-19.html"/>
+    <id>https://atjason.com/daily/2019-07-19.html</id>
+    <published>2019-07-19T14:00:00.000Z</published>
+    <updated>2019-07-19T15:37:04.166Z</updated>
+    
+    <content type="html"><![CDATA[<p>有时，有时间，但感觉有点累，不想干太费脑子的事。于是，找些轻松的事做，如刷微博抖音。实际上，这样的事做完，既没有太大收获，也没有得到休息，两边不讨好。</p>
+<p>如果感觉自己的精力状态不能做高效的事，最好是真正的休息；比如小睡、冥想、听歌、简单的运动。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有时，有时间，但感觉有点累，不想干太费脑子的事。于是，找些轻松的事做，如刷微博抖音。实际上，这样的事做完，既没有太大收获，也没有得到休息，两边不讨好。&lt;/p&gt;
+&lt;p&gt;如果感觉自己的精力状态不能做高效的事，最好是真正的休息；比如小睡、冥想、听歌、简单的运动。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0718 - 学科的边界</title>
+    <link href="https://atjason.com/daily/2019-07-18.html"/>
+    <id>https://atjason.com/daily/2019-07-18.html</id>
+    <published>2019-07-18T14:00:00.000Z</published>
+    <updated>2019-07-18T16:02:14.227Z</updated>
+    
+    <content type="html"><![CDATA[<p>世界是混沌的、一体的，可科学却被人为地分成不同的学科，不同学科之前老死不相往来。甚至，如果别的学科来研究本学科的问题，那简直是断人财路如杀人父母，不共戴天。</p>
+<p>幸好，我不在学术圈混，没这样的限制。每个学科都有其好用的东西，干嘛不用？</p>
+<p>要了解一个学科，并不需要成为专家，了解基础的东西，好处已经大大的。比如，要了解法学，并不需要背法律条文（诸如触犯法律后该罚多少钱、判几年），只需要了解基础的、核心的、常用的部分，比如法的理念、我国的司法体系、常见问题的法律解决方案等。</p>
+<p>比如独立开发者，要独立完成一个产品，不可避免要亲自完成一个产品的方方面面。虽说一些部分可以合作，比如 Logo 的设计，但大部分还是自己来。此时，既需要了解诸如设计、开发、测试、运营等各个环节，又不必也不可能过于深入。</p>
+<p>了解一个学科，通常并没有想象中的难。虽说时间精力有限，但还是可能「速成」，即快速入门；每个学科都有其法门。向业内人士请教，是捷径之一。经常操练，也可对入门一个新领域，有更多的路数和信心。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;世界是混沌的、一体的，可科学却被人为地分成不同的学科，不同学科之前老死不相往来。甚至，如果别的学科来研究本学科的问题，那简直是断人财路如杀人父母，不共戴天。&lt;/p&gt;
+&lt;p&gt;幸好，我不在学术圈混，没这样的限制。每个学科都有其好用的东西，干嘛不用？&lt;/p&gt;
+&lt;p&gt;要了解一个学科
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0717 - 安之</title>
@@ -446,91 +522,6 @@
       &lt;p&gt;比如英语，学起来是很枯燥的；尤其现在记忆力一般，学了记不住，更加沮丧。&lt;/p&gt;
 &lt;p&gt;这次又重学英语，本来是打算看量化交易相关的英文博客、论坛等内容。实践起来，却是听和背 TED，绕了个弯。离目标远了，动力就弱了。&lt;/p&gt;
 &lt;p&gt;还是用以致学，找个老外的博客、播客，直接怼。
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0630 - 年中</title>
-    <link href="https://atjason.com/daily/2019-06-30.html"/>
-    <id>https://atjason.com/daily/2019-06-30.html</id>
-    <published>2019-06-30T14:00:00.000Z</published>
-    <updated>2019-07-01T00:44:19.551Z</updated>
-    
-    <content type="html"><![CDATA[<p>年中了，来个盘点？</p>
-<p>生活上，还算满意，小宝宝健康成长，没什么大病或不顺利的事，家人也都还好。可以预见，下半年也会这样平静地走下去。恩，生活不用多么斑斓，平平淡淡顺顺利利即是心安。</p>
-<p>工作上，就差强人意了。半年来折腾了几件不同的事，小程序、学 Vue、做 SeoGrows.com 网站；后来，又转向量化交易，却也还没有起色。下半年，准备 All In 量化交易，目标是打造一个自动赢利的机器，释放自己的金钱压力和时间。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;年中了，来个盘点？&lt;/p&gt;
-&lt;p&gt;生活上，还算满意，小宝宝健康成长，没什么大病或不顺利的事，家人也都还好。可以预见，下半年也会这样平静地走下去。恩，生活不用多么斑斓，平平淡淡顺顺利利即是心安。&lt;/p&gt;
-&lt;p&gt;工作上，就差强人意了。半年来折腾了几件不同的事，小程序、学 Vue
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0629 - 避短</title>
-    <link href="https://atjason.com/daily/2019-06-29.html"/>
-    <id>https://atjason.com/daily/2019-06-29.html</id>
-    <published>2019-06-29T14:00:00.000Z</published>
-    <updated>2019-07-01T00:44:20.535Z</updated>
-    
-    <content type="html"><![CDATA[<p>交易策略，有种简单的分法：<strong>高频与低频</strong>。</p>
-<p>看了《Flash Boys》后，对高频有了更骇人的理解。</p>
-<ul>
-<li>为了快 <strong>几毫秒</strong>，在芝加哥和纽约铺设路线更短的光纤，每年费用几百万；<ul>
-<li>有个细节：宽带商向高盛报价后，高盛说：你能不能把价格翻倍。意思就是，<strong>你卖的贵些、再贵些</strong>。</li>
-<li>你见过这种买家吗？我想的原因是：<strong>这样可以把出不起高价的玩家排除在外</strong>。</li>
-</ul>
-</li>
-<li>为了快 <strong>几纳秒</strong>，把服务器放在交易服务器边上，在机房内强拉网线、缩短网线长度。</li>
-</ul>
-<p>当然，快和高频还不是同一个概念。只是，没有快，何来高频？更何况，机构在交易费用等方面，有着散户无可比拟的优势。在这样的优势面前，我这样的散兵游勇，就别去找别扭了。更靠谱的，还是转战低频，避短。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;交易策略，有种简单的分法：&lt;strong&gt;高频与低频&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;看了《Flash Boys》后，对高频有了更骇人的理解。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;为了快 &lt;strong&gt;几毫秒&lt;/strong&gt;，在芝加哥和纽约铺设路线更短的光纤，每年费用几百万；&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0628 - 交易无情</title>
-    <link href="https://atjason.com/daily/2019-06-28.html"/>
-    <id>https://atjason.com/daily/2019-06-28.html</id>
-    <published>2019-06-28T14:00:00.000Z</published>
-    <updated>2019-06-30T14:46:09.556Z</updated>
-    
-    <content type="html"><![CDATA[<p>辛苦设计并实现一个策略，自以为考虑周全，结果接连损失，达到最大损失后，机器人停了。</p>
-<p>这不重要，重要的是对心情的影响很大。人就开始消极，心智开始封闭。不愿复盘，不愿思考如何改进。</p>
-<p><strong>交易无情；交易中的人，也不能有情。赢不喜，亏不悲。</strong></p>
-<p>如果做不到，也很自然。目前能想到的办法是：<strong>换脑</strong>。做完全不相关的事，比如看看电影，了解一些全新的事。用新的东西，强行挤占大脑，避免陷入到消极状态中，无法自拔。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;辛苦设计并实现一个策略，自以为考虑周全，结果接连损失，达到最大损失后，机器人停了。&lt;/p&gt;
-&lt;p&gt;这不重要，重要的是对心情的影响很大。人就开始消极，心智开始封闭。不愿复盘，不愿思考如何改进。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;交易无情；交易中的人，也不能有情。赢不喜，亏不悲。&lt;
     
     </summary>
     
