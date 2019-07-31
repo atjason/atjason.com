@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-07-29T15:20:13.215Z</updated>
+  <updated>2019-07-31T16:21:23.981Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,68 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0731 - 不够专注</title>
+    <link href="https://atjason.com/daily/2019-07-31.html"/>
+    <id>https://atjason.com/daily/2019-07-31.html</id>
+    <published>2019-07-31T14:00:00.000Z</published>
+    <updated>2019-07-31T16:21:23.981Z</updated>
+    
+    <content type="html"><![CDATA[<p>这里说的专注，是指在做某件事时，心无旁骛、全情投入、效率最高。</p>
+<p>在家的呆的时间长了，做事总是被打断，好像已经习惯了低效地做事，这显然是不好的。</p>
+<p>其实，越是这样，越是需要瞬间投入的能力。前一秒还在哄娃，下一秒就要高效代码，要的就是这种切换的能力。另外需要的就是，无法坐在电脑前时思考；一旦在电脑前，立即执行、实现刚才的思考。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这里说的专注，是指在做某件事时，心无旁骛、全情投入、效率最高。&lt;/p&gt;
+&lt;p&gt;在家的呆的时间长了，做事总是被打断，好像已经习惯了低效地做事，这显然是不好的。&lt;/p&gt;
+&lt;p&gt;其实，越是这样，越是需要瞬间投入的能力。前一秒还在哄娃，下一秒就要高效代码，要的就是这种切换的能力。另
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0730 - 美股定投标的选择</title>
+    <link href="https://atjason.com/daily/2019-07-30.html"/>
+    <id>https://atjason.com/daily/2019-07-30.html</id>
+    <published>2019-07-30T14:00:00.000Z</published>
+    <updated>2019-07-30T16:06:33.749Z</updated>
+    
+    <content type="html"><![CDATA[<p>大体上，想选一个指数和一个普通股进行定投。</p>
+<p>指数方面，主要是 ETF，比较了 SPY/IVV/VOO/VTI/QQQ/FDN，最后选择 <strong>FDN</strong>；大体理由：</p>
+<ul>
+<li>历史定投回测数据好，优于 SPY、QQQ 等 ETF</li>
+<li>不包含 Apple；说实话苹果连续几年不给力，被各路手机厂商追上，新手机外观传闻是浴霸，怕怕</li>
+<li>另外打算定投 Microsoft，而 FDN 恰好不包含，于是不冲突</li>
+</ul>
+<p>FDN 的缺点：</p>
+<ul>
+<li>费用高，一年为 0.52%，而 QQQ 为 0.2%，SPY/IVV/VOO 则很低</li>
+<li>全部是互联网类的公司，一旦遇到股灾，风险分散能力不如 QQQ/SPY 等指数</li>
+<li>规模和交易量相对不大；不过对我这种小散，也是足够了</li>
+</ul>
+<p>普通股方面，本来是想选一个非科技类股，当是对冲，比如可口可乐。不过想想实在是不了解，还是选科技股吧。候选的有苹果、亚马逊、微软、奈飞。苹果最近表现让人提不起兴趣；亚马逊股价太高，不适合小散定投；微软股份一直稳步增长，没有前二者那样的震荡，回测结果也比较好。恰好最近看了《刷新》这本书，那干脆就 <strong>微软</strong> 吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大体上，想选一个指数和一个普通股进行定投。&lt;/p&gt;
+&lt;p&gt;指数方面，主要是 ETF，比较了 SPY/IVV/VOO/VTI/QQQ/FDN，最后选择 &lt;strong&gt;FDN&lt;/strong&gt;；大体理由：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;历史定投回测数据好，优于 SPY、QQQ 等
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0729 - 《定投改变命运》</title>
@@ -455,60 +517,6 @@
     
       &lt;p&gt;&lt;img src=&quot;https://img3.doubanio.com/view/subject/l/public/s29085902.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;《&lt;a href=&quot;https://book.douban.com/subject/2687894
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0711 - 不能太舒适</title>
-    <link href="https://atjason.com/daily/2019-07-11.html"/>
-    <id>https://atjason.com/daily/2019-07-11.html</id>
-    <published>2019-07-11T14:00:00.000Z</published>
-    <updated>2019-07-11T14:56:19.519Z</updated>
-    
-    <content type="html"><![CDATA[<p>人有一种能力，不能在什么环境下，都能构建一个小小的茧；躲在里面，很安全，很舒适。</p>
-<p>这种能力很重要；不然在恶劣的进化过程中，人不被搞死，也会痛苦死。</p>
-<p>只是，这种能力，就像脂肪一样，有点过时，有点显得过于强大。</p>
-<p>我们既不会被野兽吃掉，也不会吃不饱肚子，不用一直躲在舒适区中，而要不断走出去，在难受痛苦的过程中，增加能力，拓展边界。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;人有一种能力，不能在什么环境下，都能构建一个小小的茧；躲在里面，很安全，很舒适。&lt;/p&gt;
-&lt;p&gt;这种能力很重要；不然在恶劣的进化过程中，人不被搞死，也会痛苦死。&lt;/p&gt;
-&lt;p&gt;只是，这种能力，就像脂肪一样，有点过时，有点显得过于强大。&lt;/p&gt;
-&lt;p&gt;我们既不会被野兽吃掉，也
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0710 - 透明的力量</title>
-    <link href="https://atjason.com/daily/2019-07-10.html"/>
-    <id>https://atjason.com/daily/2019-07-10.html</id>
-    <published>2019-07-10T14:00:00.000Z</published>
-    <updated>2019-07-11T14:48:46.127Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如做交易，策略是核心资源，把它捂的严严实实，最有利于价值最大化。</p>
-<p>是这样吗？不一定。</p>
-<p>比如，分享的过程，会迫使自己系统地梳理思路，然后用简洁的方式组织，以便将信息传递出去。这样有目标的倒逼过程，可以有效地发现之前的思维盲区，找到潜在的问题。有时，还能意外地找到长期郁结问题的解决之道。</p>
-<p>比如，展示自己是交流的前提。而交流不仅仅是互通有无，很重要的一点是他励。别人随口的一句话，有可能给自己带来全新的思路。</p>
-<p>比如，暴露会带来机会。钱在找赚钱的方法，赚钱的方法也在找钱。夜晚的灯塔，固然会有飞蛾的烦恼，却也会带来聚拢的船只。一旦成为联结的节点，价值也会几何放大。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如做交易，策略是核心资源，把它捂的严严实实，最有利于价值最大化。&lt;/p&gt;
-&lt;p&gt;是这样吗？不一定。&lt;/p&gt;
-&lt;p&gt;比如，分享的过程，会迫使自己系统地梳理思路，然后用简洁的方式组织，以便将信息传递出去。这样有目标的倒逼过程，可以有效地发现之前的思维盲区，找到潜在的问题。有时
     
     </summary>
     
