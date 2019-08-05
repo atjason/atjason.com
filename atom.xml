@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-08-03T01:10:20.551Z</updated>
+  <updated>2019-08-04T16:10:59.680Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0804 - 《财富自由之路》</title>
+    <link href="https://atjason.com/daily/2019-08-04.html"/>
+    <id>https://atjason.com/daily/2019-08-04.html</id>
+    <published>2019-08-04T14:00:00.000Z</published>
+    <updated>2019-08-04T16:10:59.680Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://img3.doubanio.com/view/subject/l/public/s29578695.jpg" alt=""></p>
+<p>《<a href="https://book.douban.com/subject/27170672/" target="_blank" rel="external">财富自由之路</a>》</p>
+<p>看完最大的感受是：<strong>要思考</strong>。</p>
+<p>书中讲的道理，并不难理解。虽然有些经历自己没有，不能真切感受。但只要多思考、深入思考，总是能不断加深理解，不断精进。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://img3.doubanio.com/view/subject/l/public/s29578695.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;《&lt;a href=&quot;https://book.douban.com/subject/2717067
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0803 - 带小孩最重要的事</title>
@@ -131,30 +156,18 @@
     <link href="https://atjason.com/daily/2019-07-30.html"/>
     <id>https://atjason.com/daily/2019-07-30.html</id>
     <published>2019-07-30T14:00:00.000Z</published>
-    <updated>2019-07-30T16:06:33.749Z</updated>
+    <updated>2019-08-04T16:09:30.402Z</updated>
     
     <content type="html"><![CDATA[<p>大体上，想选一个指数和一个普通股进行定投。</p>
-<p>指数方面，主要是 ETF，比较了 SPY/IVV/VOO/VTI/QQQ/FDN，最后选择 <strong>FDN</strong>；大体理由：</p>
-<ul>
-<li>历史定投回测数据好，优于 SPY、QQQ 等 ETF</li>
-<li>不包含 Apple；说实话苹果连续几年不给力，被各路手机厂商追上，新手机外观传闻是浴霸，怕怕</li>
-<li>另外打算定投 Microsoft，而 FDN 恰好不包含，于是不冲突</li>
-</ul>
-<p>FDN 的缺点：</p>
-<ul>
-<li>费用高，一年为 0.52%，而 QQQ 为 0.2%，SPY/IVV/VOO 则很低</li>
-<li>全部是互联网类的公司，一旦遇到股灾，风险分散能力不如 QQQ/SPY 等指数</li>
-<li>规模和交易量相对不大；不过对我这种小散，也是足够了</li>
-</ul>
+<p>指数方面，主要是 ETF，比较了 SPY/IVV/VOO/VTI/QQQ/FDN，最后选择 <strong>VOO</strong>。主要是稳定，费率低（0.03%）。其实，SPY/IVV/VOO 三者，不管是包含的成份股，还是历史收益，都非常相似，选谁都差不多。</p>
+<p>其实，本来想选择 FDN 的，因为看中其收益高。不过，其波动也比较大，不同时间进场，差异很大。想着，既然是投指数基金，还是求稳大于求收益。高收益的事，留给其他标的去完成吧。</p>
 <p>普通股方面，本来是想选一个非科技类股，当是对冲，比如可口可乐。不过想想实在是不了解，还是选科技股吧。候选的有苹果、亚马逊、微软、奈飞。苹果最近表现让人提不起兴趣；亚马逊股价太高，不适合小散定投；微软股份一直稳步增长，没有前二者那样的震荡，回测结果也比较好。恰好最近看了《刷新》这本书，那干脆就 <strong>微软</strong> 吧。</p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;大体上，想选一个指数和一个普通股进行定投。&lt;/p&gt;
-&lt;p&gt;指数方面，主要是 ETF，比较了 SPY/IVV/VOO/VTI/QQQ/FDN，最后选择 &lt;strong&gt;FDN&lt;/strong&gt;；大体理由：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;历史定投回测数据好，优于 SPY、QQQ 等
+&lt;p&gt;指数方面，主要是 ETF，比较了 SPY/IVV/VOO/VTI/QQQ/FDN，最后选择 &lt;strong&gt;VOO&lt;/strong&gt;。主要是稳定，费率低（0.03%）。其实，SPY/IVV/VOO 三者，不管是包含的
     
     </summary>
     
@@ -506,31 +519,6 @@
       &lt;p&gt;看查理·芒格的书，有一点印象挺深：&lt;strong&gt;能力圈&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;明确自己的能力圈，然后只在自己的能力圈内行事&lt;/strong&gt;。事情可分为能做、不能、很难。找到能做的事，做好；放弃不能做的事；慎做很难的事。&lt;/p&gt;
 &lt;p&gt;大师的智
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0715 - 微信听书挺不错</title>
-    <link href="https://atjason.com/daily/2019-07-15.html"/>
-    <id>https://atjason.com/daily/2019-07-15.html</id>
-    <published>2019-07-15T14:00:00.000Z</published>
-    <updated>2019-07-15T15:25:56.556Z</updated>
-    
-    <content type="html"><![CDATA[<p>微信读书有个功能：听书；就是用合成语音的技术，朗读书本内容。实际使用下来，感觉挺好的。</p>
-<p>首先是语音合成技术已经挺成熟了，不会有很生硬的感觉，声音还带点情感。还有就是可以加快语音播放速度。这样，对于信息密度比较低的书，可以加速播放。</p>
-<p>交互体验也不错，可以在肉眼阅读和朗读间无缝切换。比如，肉眼读到 100 页，临时有事不方便手持手机，转为听书。听书到 120 页，重新改为肉眼读书，当前精确停留在听书的位置。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;微信读书有个功能：听书；就是用合成语音的技术，朗读书本内容。实际使用下来，感觉挺好的。&lt;/p&gt;
-&lt;p&gt;首先是语音合成技术已经挺成熟了，不会有很生硬的感觉，声音还带点情感。还有就是可以加快语音播放速度。这样，对于信息密度比较低的书，可以加速播放。&lt;/p&gt;
-&lt;p&gt;交互体验也不错
     
     </summary>
     
