@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-08-18T15:06:17.169Z</updated>
+  <updated>2019-08-19T15:51:19.392Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0819 - 通透地掌握一门技术</title>
+    <link href="https://atjason.com/daily/2019-08-19.html"/>
+    <id>https://atjason.com/daily/2019-08-19.html</id>
+    <published>2019-08-19T14:00:00.000Z</published>
+    <updated>2019-08-19T15:51:19.392Z</updated>
+    
+    <content type="html"><![CDATA[<p>感觉我还没有通透地掌握一门技术的感觉。</p>
+<p>比如英语，前后学了有 20 年了吧，可今天看一篇文章，感觉有一半的单词不认识…</p>
+<p>对于交易，无疑国外是开创者、领先者，直接从英文世界里获取信息，无疑是高效、准确和必要的。进而，英语阅读能力则显得非常重要。</p>
+<p>干，用几年的时间，达到无障碍阅读交易和技术类文章的程度，感受通透的感觉。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;感觉我还没有通透地掌握一门技术的感觉。&lt;/p&gt;
+&lt;p&gt;比如英语，前后学了有 20 年了吧，可今天看一篇文章，感觉有一半的单词不认识…&lt;/p&gt;
+&lt;p&gt;对于交易，无疑国外是开创者、领先者，直接从英文世界里获取信息，无疑是高效、准确和必要的。进而，英语阅读能力则显得非常重要。&lt;/
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0818 - 行情好时赚钱，行情差时积累</title>
@@ -202,13 +228,13 @@
     <link href="https://atjason.com/daily/2019-08-12.html"/>
     <id>https://atjason.com/daily/2019-08-12.html</id>
     <published>2019-08-12T14:00:00.000Z</published>
-    <updated>2019-08-12T16:16:45.992Z</updated>
+    <updated>2019-08-18T15:25:23.212Z</updated>
     
     <content type="html"><![CDATA[<p>之前自己写回测，基本是自己去抓取数据、搭框架、写代码。好处是最灵活，坏处是要花很多时间做基础性的工作。</p>
 <p>特别的，对于历史数据，分钟级别的还好获取，秒级的基本只能自己长期运行程序获取，且时间范围有限。</p>
 <p>之所以没有用于一些在线回测平台，有一些模糊的原因。比如，当时了解到的平台基本都是使用 Python，而我目前把技术栈收敛到 Javascript，暂不打算分散精力。比如，不想花时间去学习一个扩展性差的平台，即学会了只有做一件事，机会成本高。</p>
 <p>而今天无意间了解到一些平台支持 Javascript，且貌似提供秒级数据，再考虑到平台本身提供的代码框架，想想应该是可以快速回测的。</p>
-<p>恩，看来是时侯革除陈旧观察，这几天花时间调研下市面上的在线回测交易平台，包括国内外的，选一个玩玩。</p>
+<p>恩，看来是时侯革除陈旧观念，这几天花时间调研下市面上的在线回测交易平台，包括国内外的，选一个玩玩。</p>
 ]]></content>
     
     <summary type="html">
@@ -536,31 +562,6 @@
       &lt;p&gt;这里说的专注，是指在做某件事时，心无旁骛、全情投入、效率最高。&lt;/p&gt;
 &lt;p&gt;在家的呆的时间长了，做事总是被打断，好像已经习惯了低效地做事，这显然是不好的。&lt;/p&gt;
 &lt;p&gt;其实，越是这样，越是需要瞬间投入的能力。前一秒还在哄娃，下一秒就要高效代码，要的就是这种切换的能力。另
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0730 - 美股定投标的选择</title>
-    <link href="https://atjason.com/daily/2019-07-30.html"/>
-    <id>https://atjason.com/daily/2019-07-30.html</id>
-    <published>2019-07-30T14:00:00.000Z</published>
-    <updated>2019-08-04T16:09:30.402Z</updated>
-    
-    <content type="html"><![CDATA[<p>大体上，想选一个指数和一个普通股进行定投。</p>
-<p>指数方面，主要是 ETF，比较了 SPY/IVV/VOO/VTI/QQQ/FDN，最后选择 <strong>VOO</strong>。主要是稳定，费率低（0.03%）。其实，SPY/IVV/VOO 三者，不管是包含的成份股，还是历史收益，都非常相似，选谁都差不多。</p>
-<p>其实，本来想选择 FDN 的，因为看中其收益高。不过，其波动也比较大，不同时间进场，差异很大。想着，既然是投指数基金，还是求稳大于求收益。高收益的事，留给其他标的去完成吧。</p>
-<p>普通股方面，本来是想选一个非科技类股，当是对冲，比如可口可乐。不过想想实在是不了解，还是选科技股吧。候选的有苹果、亚马逊、微软、奈飞。苹果最近表现让人提不起兴趣；亚马逊股价太高，不适合小散定投；微软股份一直稳步增长，没有前二者那样的震荡，回测结果也比较好。恰好最近看了《刷新》这本书，那干脆就 <strong>微软</strong> 吧。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;大体上，想选一个指数和一个普通股进行定投。&lt;/p&gt;
-&lt;p&gt;指数方面，主要是 ETF，比较了 SPY/IVV/VOO/VTI/QQQ/FDN，最后选择 &lt;strong&gt;VOO&lt;/strong&gt;。主要是稳定，费率低（0.03%）。其实，SPY/IVV/VOO 三者，不管是包含的
     
     </summary>
     
