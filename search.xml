@@ -4,6 +4,158 @@
   
     
     <entry>
+      <title><![CDATA[0901 - Shrimpy 的社交策略]]></title>
+      <url>https://atjason.com/daily/2019-09-01.html</url>
+      <content type="html"><![CDATA[<p>昨天提到了币的基金，难点就是如何从上千种币中，挑选中合适的币、制定合适的比例，以构成基金。</p>
+<p>对于这一点，Shrimpy 的方案是：<strong>社交</strong>。</p>
+<ul>
+<li><strong>达人提供策略并获利，小白付费以获得策略，平台获取抽成</strong>。</li>
+<li>对于达人<ul>
+<li>可根据自己的专业知识，构建自己的基金模型，甚至是策略。</li>
+<li>开放自己的策略，通过赢利的历史来吸引小白跟随。</li>
+<li>利益是：每位跟随者，每月获利 $4。如果有 1000 名跟随者，每月便是 $4000，比较可观了。</li>
+</ul>
+</li>
+<li>对于小白<ul>
+<li>可跟随达人的策略。所谓跟随，就是小白的账户会 1:1 复制达人的交易，达到完全一致的盈亏。</li>
+<li>代价是：每月 $8.99 的固定费用。</li>
+</ul>
+</li>
+<li>对于平台<ul>
+<li>一个小白同时只能跟随一位达人，所以平台每月可从每位用户身上获得 $4.99。</li>
+</ul>
+</li>
+</ul>
+<p>了解之后，我其实觉得这个模式挺好的，顺利的话，达人、小白、平台多赢，大家各取所需。</p>
+<p><a href="https://blog.shrimpy.io/blog/shrimpy-adds-social-portfolios-for-crypto" target="_blank" rel="external">更多介绍</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0831 - 定投币圈指数基金]]></title>
+      <url>https://atjason.com/daily/2019-08-31.html</url>
+      <content type="html"><![CDATA[<p>越来越多的钱涌入币圈，币圈也越来越正规，也越来越需要更丰富的金融产品，来满足高中低档不同资本的需求。币圈的金融产品，自然很多是照搬传统金融市场来的。指数基金，便是其中一个。</p>
+<p><a href="https://www.shrimpy.io" target="_blank" rel="external">Shrimpy</a> 是个自动交易以完成资本增长的服务。其核心策略就是组建币的指数，然后定期 Rebalance。</p>
+<ul>
+<li>所谓币的指数，说白了就是挑些币，然后按比例分配资产。<ul>
+<li>之所以要挑币，主要是平抑不同币的波动，避免非系统性风险，即避免在某个币中阴沟里翻船。</li>
+<li>如何挑币？这就是考验功力了，换个话题再讲。</li>
+</ul>
+</li>
+<li>所谓 Rebanlance，就是随着不同币的价格涨跌，其价值比例会偏离当初的设定。于是，卖掉一部分涨的、买入一部分跌的，平衡比例。而这部分，是该策略跑赢 HODL（买入不卖）的关键。</li>
+</ul>
+<p>李笑来近期搞的 BOX 定投，核心也是币的指数基金。</p>
+<p>不得不说，对于小白而言，不论是传统的股市，还是币圈，指数基金确实很稳妥，定投又是最适合的策略。想在币圈赚钱、又不想承担太多风险、且没太多时间研究的朋友，不妨了解下定投币的基金，或者是以这种思想来投资。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0830 - 持续地赚钱]]></title>
+      <url>https://atjason.com/daily/2019-08-30.html</url>
+      <content type="html"><![CDATA[<p><strong>一种赚钱模式是有时效性的</strong>。</p>
+<p>只是是赚钱，就会有越来越多的竞争者涌入，逐渐摊薄利润，最后大家都不赚钱。尤其，有些人恶意竞争，比如模仿抄袭、低于成本价倾销以占领市场、等等，在这样的情况下，赚钱变得更难。</p>
+<p>如果护城河宽且深，只是延长了这种时效性，减缓失效的过程，绝不可能永久。</p>
+<p>于是，要想持续赚钱，就得在当前这一赚钱模式尚未失效前，寻找到下一种新的赚钱模式。</p>
+<p><strong>赚钱是种无限游戏</strong>；一旦停下来，就没得赚。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0829 - 官方博客是宝库]]></title>
+      <url>https://atjason.com/daily/2019-08-29.html</url>
+      <content type="html"><![CDATA[<p>最关键的，他们有动力写出好文章、系列文章，在系统性介绍基础知识的同时，增加在用户心中的专业感，扩大自己的影响力，宣传自己的产品。虽然难免有广告，但不妨碍通过这些文章学到东西。</p>
+<p>反过来，如果没有利益驱动，谁会把赚钱的知识和方法到处嚷嚷？可能会有，但一定不如有利益驱动的可靠。</p>
+<p>至关重要的，它竟然是免费的！</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0828 - 读系列文章]]></title>
+      <url>https://atjason.com/daily/2019-08-28.html</url>
+      <content type="html"><![CDATA[<p>最近学英语，感觉有个技巧：<strong>读系列文章</strong>。</p>
+<p>一个作者的风格是固定的，经常使用的词汇、表达方式也是有限的。如果有的词汇、表达方式你不认识，第一次见时学习一下。之后在其他文章中再次遇到时，就会有种很好的感觉：<strong>我学的东西用上了</strong>。这对于加深印象、增加学习的兴趣和信心，都是很有好处的。反过来，如果新学一个东西，半年都用不到一次，基本也就忘了。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0827 - 多元的世界]]></title>
+      <url>https://atjason.com/daily/2019-08-27.html</url>
+      <content type="html"><![CDATA[<p>最近在学习英文，所以对英文学习感兴趣（废话；也不是废话，就是因为感兴趣，才会上公众号推荐的钩…）</p>
+<p>先是一公众号推荐了一个课程，大意是一周背会  20000 单词。如果你对英语有些了解，大致能猜到是利用词根来背单词。</p>
+<p>另一公众号也推荐了一个课程，大意是扔掉单词书、撕掉语法书，老师带你跟着 BBC 来学英语。定睛一看，其实是从 BBC 纪录片中挑出一些句子，带着学习单词、语法、发音，形式是网页上的片断音频 + 图文的形式。其实，跟 BBC 真没几毛钱关系，发音也是老师发音，不是纪录片原版。</p>
+<p>其他学英语的方式应该还有无数多，比如我年轻时的李阳疯狂英语。</p>
+<p>我自己目前学习的方法是：<strong>读大量原文，顺便背单词</strong>。</p>
+<p>一个英语就能闹出这么多事，还可能是些互相矛盾的事；你否定的，正是我赖以立身的东西，有意思。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0826 - 意外之喜]]></title>
+      <url>https://atjason.com/daily/2019-08-26.html</url>
+      <content type="html"><![CDATA[<p>今天早上醒来，躺在床上想目前运行的策略，想着交易过程、想着策略的本质，意外想到一个极其简洁傻瓜的策略。于是起床写代码，回测。由于极其简洁，很快就写好了，收益还不错。</p>
+<p>这不是重点。重点是，在把回测代码应用于生产时，意外发生回测代码多做一点点计划外的事。如果把这点事取消，回测收益立马大幅下降。</p>
+<p>这真是一个 Bug 引发的高收益策略。</p>
+<p>不过，经历过太多次：发现一个一定会赚钱的策略，回测结果也很好，通常的原因是：回测代码写错了 😂 目前我是非常淡定的，用小资金实盘运行一段时间再说。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0825 - 小趋势²]]></title>
       <url>https://atjason.com/daily/2019-08-25.html</url>
       <content type="html"><![CDATA[<p><img src="https://img3.doubanio.com/view/subject/l/public/s29946916.jpg" alt=""></p>
@@ -1683,23 +1835,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0523 - 闲庭信步]]></title>
-      <url>https://atjason.com/daily/2019-05-23.html</url>
-      <content type="html"><![CDATA[<p>真正的效率，不是马不停蹄，而是闲庭信步。</p>
-<p>形象的说，有点像 996 与 Google 号称员工有 20% 的自由时间。高强度工作，确实可能更快地完成既定的任务。可，问题在于，任务并不一定是既定的，把已知的事全部做完、做好，并不一定能带来最好的结果。因为，与已知相比，未知是更加不确定、影响更大的。过度关注已知，未知就被忽视了。</p>
-<p>至少，80% 精力用来处理已知事务，20% 用来思考可能性。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0524 - 人设崩塌]]></title>
       <url>https://atjason.com/daily/2019-05-24.html</url>
       <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
@@ -1723,6 +1858,23 @@
       <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
 <p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
 <p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0523 - 闲庭信步]]></title>
+      <url>https://atjason.com/daily/2019-05-23.html</url>
+      <content type="html"><![CDATA[<p>真正的效率，不是马不停蹄，而是闲庭信步。</p>
+<p>形象的说，有点像 996 与 Google 号称员工有 20% 的自由时间。高强度工作，确实可能更快地完成既定的任务。可，问题在于，任务并不一定是既定的，把已知的事全部做完、做好，并不一定能带来最好的结果。因为，与已知相比，未知是更加不确定、影响更大的。过度关注已知，未知就被忽视了。</p>
+<p>至少，80% 精力用来处理已知事务，20% 用来思考可能性。</p>
 ]]></content>
       
         <categories>
@@ -11413,22 +11565,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -11470,6 +11606,22 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -15505,13 +15657,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
-      <url>https://atjason.com/daily/2017-07-29.html</url>
-      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
-<p>至此，理论部分算是学完了。</p>
-<p>下一步，开始实战。</p>
-<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
-<p>明天，先从产品角度考虑，确定交互。</p>
+      <title><![CDATA[0728 - Core 了一天 Data]]></title>
+      <url>https://atjason.com/daily/2017-07-28.html</url>
+      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
+<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
+<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
+<hr>
+<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
+<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
+<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
 ]]></content>
       
         <categories>
@@ -15524,15 +15678,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0728 - Core 了一天 Data]]></title>
-      <url>https://atjason.com/daily/2017-07-28.html</url>
-      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
-<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
-<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
-<hr>
-<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
-<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
-<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
+      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
+      <url>https://atjason.com/daily/2017-07-29.html</url>
+      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
+<p>至此，理论部分算是学完了。</p>
+<p>下一步，开始实战。</p>
+<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
+<p>明天，先从产品角度考虑，确定交互。</p>
 ]]></content>
       
         <categories>
@@ -18855,22 +19007,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -18955,6 +19091,22 @@
         <categories>
             
             <category> IT </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -27416,6 +27568,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
+      <url>https://atjason.com/daily/2016-05-08.html</url>
+      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
+<p>不见得。</p>
+<p>也许是劲使错地方了。</p>
+<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
+<ul>
+<li>做自己擅长的、坚持做、更擅长。</li>
+<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
+<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0509 - 选择开源软件，还是付费软件？]]></title>
       <url>https://atjason.com/daily/2016-05-09.html</url>
       <content type="html"><![CDATA[<p>各有好坏。</p>
@@ -27430,29 +27605,6 @@
 <li>选择用户多的。这通常意味着网上会有充足的教程，也会有人把自己踩过的坑记录下来。有了这些资料，会让自己遇到问题时更容易解决。</li>
 </ul>
 <p>当然，开发者也是人、也需要生存、也需要收入。鼓励大家为软件付费（不论是直接购买付费软件，还是赞助开源软件），这样才能可持续发展：开发者做出越来精品的软件、消费者为软件付费、开发者继续改进、消费者享受更加精良的软件。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
-      <url>https://atjason.com/daily/2016-05-08.html</url>
-      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
-<p>不见得。</p>
-<p>也许是劲使错地方了。</p>
-<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
-<ul>
-<li>做自己擅长的、坚持做、更擅长。</li>
-<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
-<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
-</ul>
 ]]></content>
       
         <categories>
