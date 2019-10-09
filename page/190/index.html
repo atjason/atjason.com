@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-10.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-17.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-03-10.html" itemprop="url">
-                  0310 - 技术的坑，产品挖
+                <a class="post-title-link" href="/daily/2017-03-17.html" itemprop="url">
+                  0317 - 继续踩坑 Evernote
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-10T19:52:25+08:00">
-                2017-03-10
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-17T19:52:25+08:00">
+                2017-03-17
               </time>
             
 
@@ -366,10 +366,9 @@
       
         
           
-            <p>最近这些天在改进 Klib，其中很多时间都花在数据结构上。</p>
-<p>之前，因为只考虑了 <em>My Clipping.txt</em> 这一种数据源，与之对应的数据结构也比较简单。虽说能满足当时的需求，但扩展性差。这不，这版中，新加了 Kindle 网页版本、Kindle 导出的 html 文件、多看等数据源，单是兼容这些数据就是问题；再加上各个源之间的数据合并，真真是头大死了。修改了数据结构后，还要兼容之前的版本，真是 <strong>麻烦他妈给麻烦开门：麻烦到家了</strong>。</p>
-<p>现在来复盘，主要是还是当初产品没设计好，路没走对。这两天正好在看《<strong>自律型创业</strong>》这本书，书中介绍，在产品初期，要进行充分的考察、定位、设计。可我当初，仅仅是因为自己有需求、本着练手的目的，立马就开始代码。结果挖了这么大个坑，现在来慢慢填。如果当初早些看了这本书、充分了解用户主要的诉求，就可以在设计数据结构时，留下足够的提前量、扩展性，就不至于现在这么被动。</p>
-<p>当然，这也是没办法的事。<strong>做产品，总是在不断迭代中的</strong>。不过，还是要在项目形式前做足功能，尤其是 <strong>数据结构的设计，一定要有预见性</strong>。</p>
+            <p>坑之一：Evernote 号称可以仅授权单个 Notebook.</p>
+<p>出于想把 Klib 做得优雅的考虑，在已经完成全局授权的前提下，我又花时间折腾，希望能仅授权单个 Notebook. 结果，怎么都不行。按照官方的介绍操作，根本就出不了正常的结果。最后，无奈，只能在 Twitter 上联系了 Evernote 官号，然后放弃了。</p>
+<p>目前，在使用 4 年前的 Evernote macOS SDK，非常难受。接口封装的不合理，自己完全实现又要花大量时间，纠结。明天继续吧，争取能用最小的代码，完成 Klib 所需的接口。</p>
 
           
         
@@ -413,7 +412,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-09.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-16.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -435,8 +434,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-03-09.html" itemprop="url">
-                  0309 - 不能偏居一隅
+                <a class="post-title-link" href="/daily/2017-03-16.html" itemprop="url">
+                  0316 - 不是用户，很难体会到用户的需求
                 </a>
               
             
@@ -452,8 +451,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-09T19:52:25+08:00">
-                2017-03-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-16T19:52:25+08:00">
+                2017-03-16
               </time>
             
 
@@ -511,31 +510,18 @@
       
         
           
-            <p>好吧，我说的是 Xcode + Swift.</p>
-<p>Xcode 是很棒的 IDE，可是（恩，可是）</p>
+            <p>最近，带娃出去几次，注意到一些细节：</p>
 <ul>
-<li>经常闪退</li>
-<li>代码提示抽风</li>
-<li>代码跳转抽风</li>
-<li>狂占资源</li>
+<li>公交车的过道，要考虑推车的宽度</li>
+<li>临街店铺前面的路面，已经被汽车压得破败不堪，推车推起来很不爽</li>
+<li>很多台阶、台面，都没有供推车、轮椅用的斜坡</li>
+<li>列车上报站的声音，大的能直接把婴儿从睡梦中惊醒</li>
+<li>有没有母婴室，是好商场的标准之一</li>
+<li>药瓶盖必须是儿童难以打开的</li>
 <li>…</li>
 </ul>
-<p>Swift 是很棒的语言，可是（恩，可是）</p>
-<ul>
-<li>编译慢、结果大，甚至像 Qt 一样需要自带运行库</li>
-<li>后端弱（恩，主要是 Linux 支持弱）</li>
-<li>官方示例、网上资源少，依旧是 OC 的天下</li>
-<li>库少，比如 TryParseDate 的缺少，连十几年前的 C# 都不如，实在是好生痛苦。</li>
-<li>变化大，每次版本升级都像换了个语言</li>
-<li>…</li>
-</ul>
-<p><strong>要忍都能忍；可是，为何要忍？</strong></p>
-<p>世上还有很多美好的东西：</p>
-<ul>
-<li>神之编辑器 Emacs 与编辑器之神 Vim，最近势头强势的 Visual Studio</li>
-<li>各种优秀的语言，经常出镜的 Python、Go、Ruby，把 () 捧上天的 Lisp，地球上最好的语言 PHP，正在统治地球的 js…</li>
-</ul>
-<p>在苹果的体系下，选择余地不多；可跳出苹果、放眼望去，一派繁荣气象。恩，偶尔还是要出逃，多接触下新鲜玩意，就当是新玩具喽。</p>
+<p>而这些细节，是之前不带娃时根本体会不到的。</p>
+<p>如果自己是相关产品的设计者，估计最多能从竞品、调查中得到一些普遍需求，但也绝对无法做出很贴心的设计。大的产品、平台我不知道，但一些小的、具体的产品，设计者最好是产品本身的用户，不然很难有打动人心的设计。</p>
 
           
         
@@ -579,7 +565,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-08.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-15.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -601,8 +587,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-03-08.html" itemprop="url">
-                  0308 - 竞品分流用户的「好处」
+                <a class="post-title-link" href="/daily/2017-03-15.html" itemprop="url">
+                  0315 - 小米移动电源，还需要更新吗？
                 </a>
               
             
@@ -618,8 +604,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-08T19:52:25+08:00">
-                2017-03-08
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-15T19:52:25+08:00">
+                2017-03-15
               </time>
             
 
@@ -677,18 +663,43 @@
       
         
           
-            <p>有竞品来挖用户，自然不是什么让人开心的事。不过，换个角度想想，也是有好处的。</p>
+            <p>我其实很长时间都没有关注过移动电源了，主要是这段时间我自己外出的次数很少。只是，今天在准备出门时，才想起这事。而且，我犹豫之后，并没有带，因为到的地方供电不是问题。</p>
+<p>但我还是思考了这个问题：<strong>小米移动电源，还需要更新吗</strong>？或者说，还需要频繁更新吗？</p>
+<p>就产品而言，我觉得小米移动电源在产品本身、市场占有率、美誉度、盈利等方面，都很不错，确实做到了雷军说的：市场上有两种移动电源：小米、和像小米的。那么，<strong>在此基础上，还能做什么呢？</strong></p>
+<p>我不是其产品经理，只需看结果即可。到小米官网上看了最近的移动电源，和我当初买的，有下面的变化：</p>
 <ul>
-<li>如果这么容易就被挖走，反而说明不是自己的核心用户。</li>
-<li>这样的用户，很可能并不是付费用户。因为一旦付费，一方面就是证明自己当初选择的潜意识，另一方面在金钱上更换是有成本的。</li>
-<li>最重要的：<strong>减少非核心用户对核心用户的干扰</strong>。<ul>
-<li><strong>每个产品都有自己的调性，并且有喜欢这种调性的忠实用户，这其实是产品的立身之本，尤其是商业上成立的根本。</strong></li>
-<li>如果不喜欢这种调性的用户，时不时来唱反调。诸如 xxx 就有某个功能、就是这么做的，你为什么不做、不参考呢？回答这样的问题，是很尴尬的。一方面同行相轻并不是很高尚的事；另一方面，很多时候只是个人偏好问题，并没有绝对高低贵贱之分。</li>
-<li>一些相似的例子：一些产品早期有很多忠实用户；后来，出于商业等各种原因，产品要扩大用户群，就会进来很多各种各样的人。这对老用户会是很大的冲激：原来的环境、调性被破坏了，这还是当初我喜欢的产品吗？进而开始有老用户的出逃。<strong>如何有序地引入新用户、如何让不同用户群体间相安无事，这恐怕是很多做社区产品人心中的难题</strong>。</li>
+<li>有了 20,000 mAh 的版本，也有其他不同容量的版本</li>
+<li>支持 Type-C</li>
+<li>有了「高配版」</li>
+<li>有了「超薄版」</li>
+</ul>
+<p>我的一些理解：</p>
+<ul>
+<li>增加核心功能，如增加容量、Type-C 接口</li>
+<li>充分满足细分领域，如不同容量</li>
+<li>设法深挖高端用户价值，如高价格的「高配版」</li>
+</ul>
+<hr>
+<p>其实，不止是对于看得见的硬件工具，对于软件的基础工具，也有类似的问题：<strong>当工具本身的基础功能已经完备、做好的前提下，还能做些什么</strong>？最近，长期占据 macOS App Store 付费软件排行榜首的 PDF Expert 出新版了，主要有哪些变化呢？（信息来自 <a href="https://sspai.com/post/35306" target="_blank" rel="external">少数派</a>）</p>
+<ul>
+<li>完成了从「PDF 阅读器」到「PDF 编辑器」的质变<ul>
+<li>官方自我评价：业界领先的 PDF 轻量级编辑应用</li>
+</ul>
+</li>
+<li>没有其他；除了价格从最早的 128 元涨价到了 388 元<ul>
+<li>YY：全球12万 Mac 用户 * 388 = ？</li>
 </ul>
 </li>
 </ul>
-<p>当然，希望你别理解为这是我对自己产品的孤芳自赏、裹足不前。<strong>要做好产品，总要了解自己的用户。而要了解自己的用户，总要了解哪些不是自己的用户</strong>。    </p>
+<p>可见，PDF Expert 的做法是：<strong>转移阵地</strong>。虽说还是 PDF 领域，但其实本质已经发生了重要变化。不过，对于不需要编辑的用户，要面对编辑所带来的界面复杂化，以及不需要的功能导致的高价格，我不是其用户，幸与不幸，未可知。</p>
+<hr>
+<p>另外，近期印象笔记的全新版本也颇耐人寻味：<strong>简化了</strong>。我接触到的评价基本向好。<strong>如果说此次简化是对的，那么当初复杂化就是错的</strong>。这也从反面警示我们：<strong>面对已经成熟的产品，如果不知道该怎么做，什么都不做，可能比随便做点什么，更好；因为至少不会让软件变得难用。</strong>比如微信在改进方面的「懒惰」</p>
+<p>简单回顾下，面对已经成熟甚至优秀的产品、尤其是工具型产品，有哪些可做呢？</p>
+<ul>
+<li><strong>戒掉贪念，只增强核心功能</strong></li>
+<li><strong>出于（迫于）商业考量，迁移产品内涵、扩展外延</strong></li>
+<li><strong>什么都不做</strong></li>
+</ul>
 
           
         
@@ -732,7 +743,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-07.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-14.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -754,8 +765,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-03-07.html" itemprop="url">
-                  0307 - 又在提前布局、与快速迭代之间纠结
+                <a class="post-title-link" href="/daily/2017-03-14.html" itemprop="url">
+                  0314 - 喜欢慢慢做事的感觉
                 </a>
               
             
@@ -771,8 +782,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-07T19:52:25+08:00">
-                2017-03-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-14T19:52:25+08:00">
+                2017-03-14
               </time>
             
 
@@ -830,27 +841,9 @@
       
         
           
-            <p>今天，在改进 Klib 时面临这样一样选择：数据库的设计，是要 <strong>考虑将来的需求而提前进行优良设计，还是满足现在的需求即可、快速迭代</strong>？</p>
-<p>如果提前布局，</p>
-<ul>
-<li><p>好处是</p>
-<ul>
-<li>将来上新功能是会比较顺滑</li>
-<li>版本之间的兼容性好、测试工作量小、风险低</li>
-</ul>
-</li>
-<li><p>坏处是</p>
-<ul>
-<li>大大增加目前的工作量</li>
-<li>增加程序的复杂度、出错的风险，提前增加了测试工作量</li>
-<li>如果将来不上对应的新功能，目前的工作就会变成沉没成本</li>
-<li>拖延发布日期，可能会错过重要的运营节点</li>
-</ul>
-</li>
-</ul>
-<p>如果选择保守方案，优缺点大致与上述介绍相反。</p>
-<p>综合考虑，以目前的进度、我的时间、效率与疲惫程度，暂定后者，即 <strong>快速迭代</strong></p>
-<p>拔高了说，<strong>过度设计对创业是个很大的风险</strong>，会极大增加工作量、成本，熬不到春天就已经被拖死。</p>
+            <p>家里一个水龙头漏水，一直没管。今天趁着 Klib 发布后的休息时间，搞定它。</p>
+<p>修完，不漏水了，挺满意。看了下时间，竟然有 40 分钟之久，确实没想到。我在修的时候，很放松，慢慢地操作、慢慢地想最好的办法、慢慢地在家里搜罗合适的材料，这感觉，还是很舒服的。如果条件允许，还是 <strong>喜欢这种慢悠悠、细心打磨的过程</strong>。</p>
+<p>当然，这只是在条件允许的情况下，一般是没这么多时间的，花点钱买个新的装上了事。<strong>产品的开发也是一样，我也想慢慢打磨，但事实上迫于商业、用户的压力，只能做到差不多就出手</strong>。难免有瑕疵，虽然照顾了至少 90% 的情况，但并没有到完美，算是追求与现实的平衡吧。</p>
 
           
         
@@ -894,7 +887,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-06.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/book/Girlboss.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -916,8 +909,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-03-06.html" itemprop="url">
-                  0306 - 人人都爱多彩
+                <a class="post-title-link" href="/book/Girlboss.html" itemprop="url">
+                  《女孩老板》
                 </a>
               
             
@@ -933,8 +926,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-06T19:52:25+08:00">
-                2017-03-06
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-14T08:01:08+08:00">
+                2017-03-14
               </time>
             
 
@@ -956,8 +949,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
+                  <a href="/categories/读书笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">读书笔记</span>
                   </a>
                 </span>
 
@@ -992,10 +985,27 @@
       
         
           
-            <p>当你发现素来安静的同事突然在年会上大跳帅气的街舞；<br>当你发现测试同学也能写出优美的代码；<br>当你发现发现某位多年未联系的朋友已经去过十几个国家；<br>当你发现胡歌要去美国深造；<br>当你发现六十多岁的老太投篮命中率 100%；<br>…</p>
-<p>我们总会不自觉的侧目、羡慕，内心还有点小激动。</p>
-<p>是的，我们都爱多彩；哪怕自己不多彩，也愿意看到、接触多彩，就如我们愿意倾听有故事的人娓娓道来。</p>
-<p>恩，除了产品、代码，我也得多些色彩。</p>
+            <p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
+<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
+<ul>
+<li>一头是成名前如何放荡不羁，然后快速成长；</li>
+<li>另一头是成名后的一个想法、状态。</li>
+</ul>
+<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
+<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
+<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
+<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
+<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
+<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
+<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
+<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
+<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
+<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
+<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
+<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
+<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
+<li>生活得自由并不意味着生活得好。</li>
+</ul>
 
           
         
@@ -1034,7 +1044,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/189/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/189/">189</a><span class="page-number current">190</span><a class="page-number" href="/page/191/">191</a><span class="space">&hellip;</span><a class="page-number" href="/page/298/">298</a><a class="extend next" rel="next" href="/page/191/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/189/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/189/">189</a><span class="page-number current">190</span><a class="page-number" href="/page/191/">191</a><span class="space">&hellip;</span><a class="page-number" href="/page/300/">300</a><a class="extend next" rel="next" href="/page/191/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1079,7 +1089,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1490</span>
+                <span class="site-state-item-count">1500</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

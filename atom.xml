@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-09-29T16:54:48.196Z</updated>
+  <updated>2019-10-09T15:50:06.082Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,250 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1009 - 积累 &amp; 收获</title>
+    <link href="https://atjason.com/daily/2019-10-09.html"/>
+    <id>https://atjason.com/daily/2019-10-09.html</id>
+    <published>2019-10-09T14:00:00.000Z</published>
+    <updated>2019-10-09T15:50:06.082Z</updated>
+    
+    <content type="html"><![CDATA[<p>时间上，年轻时注重积累，中年时注重收获。</p>
+<p>比如，应用到理财，年轻时可购买房子等实物类资产，为长时间的增值提供基础；中年时已有资本多、抗风险能力强，可增加股票等风险类资产，以增加收益。</p>
+<p>除了串行，也可以并行。也即，应用杠铃型思路，同时做积累型和收获型的事，或者交替来做。比如，在品牌积累期，也可适度套现，而不是死抗到品牌成熟了再套现，有可能都等不到那时候。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;时间上，年轻时注重积累，中年时注重收获。&lt;/p&gt;
+&lt;p&gt;比如，应用到理财，年轻时可购买房子等实物类资产，为长时间的增值提供基础；中年时已有资本多、抗风险能力强，可增加股票等风险类资产，以增加收益。&lt;/p&gt;
+&lt;p&gt;除了串行，也可以并行。也即，应用杠铃型思路，同时做积累型和收获
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1008 - 技术分析是迷宫</title>
+    <link href="https://atjason.com/daily/2019-10-08.html"/>
+    <id>https://atjason.com/daily/2019-10-08.html</id>
+    <published>2019-10-08T14:00:00.000Z</published>
+    <updated>2019-10-09T15:43:10.590Z</updated>
+    
+    <content type="html"><![CDATA[<p>技术分析是迷宫；交易理念，决定了看迷宫的高度。</p>
+<p>这两天二刷《量化交易入门》系列文章，感觉有些地方又有更多理解。尤其上面说的，技术分析有无数多，市场变化又有无数多；二者结合，有无数更多。想纯粹用技术指标 + 回测的方法构建交易系统，方向是错的。</p>
+<p>应该首先有交易理念，然后固定并量化其中一些关键环节，形成交易系统，然后程序化实现。通过回测后，再小资金实盘验证，最后才是真金白银的操作。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;技术分析是迷宫；交易理念，决定了看迷宫的高度。&lt;/p&gt;
+&lt;p&gt;这两天二刷《量化交易入门》系列文章，感觉有些地方又有更多理解。尤其上面说的，技术分析有无数多，市场变化又有无数多；二者结合，有无数更多。想纯粹用技术指标 + 回测的方法构建交易系统，方向是错的。&lt;/p&gt;
+&lt;p&gt;应
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1007 - 过于精简的道理</title>
+    <link href="https://atjason.com/daily/2019-10-07.html"/>
+    <id>https://atjason.com/daily/2019-10-07.html</id>
+    <published>2019-10-07T14:00:00.000Z</published>
+    <updated>2019-10-09T15:42:46.298Z</updated>
+    
+    <content type="html"><![CDATA[<p>就像物理或数学上的道理，公理一般很难直接用得上，用得上的是公理推导出来的定理，以及更具体的法则。</p>
+<p>比如，我的博客尽量在讲道理的同时，一般会给出一些具体的案例或解释。这样的解释，可能很简短；我自己是明白的，因为是我经历过的、有感触的。可对于陌生的读者，可就未必了，可能就是正确的废话。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;就像物理或数学上的道理，公理一般很难直接用得上，用得上的是公理推导出来的定理，以及更具体的法则。&lt;/p&gt;
+&lt;p&gt;比如，我的博客尽量在讲道理的同时，一般会给出一些具体的案例或解释。这样的解释，可能很简短；我自己是明白的，因为是我经历过的、有感触的。可对于陌生的读者，可就未必了
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1006 - 适度饥饿可能是好的</title>
+    <link href="https://atjason.com/daily/2019-10-06.html"/>
+    <id>https://atjason.com/daily/2019-10-06.html</id>
+    <published>2019-10-06T14:00:00.000Z</published>
+    <updated>2019-10-09T15:41:47.664Z</updated>
+    
+    <content type="html"><![CDATA[<p>一些宗教会有斋戒，不吃东西或者只吃很少的东西。</p>
+<p>如果你不信这些，最好也不要一上来就表示鄙夷。这个现象，可能有深层次的、自己尚未理解的合理性。</p>
+<p>适度饥饿，可能会触发身体的一些应激反应，对身体可能是好的。想想我们的狩猎时代的祖先，肯定是饥一饱一顿，也很好的活到了现在。狮子豹子差不多也是这样，吃完上顿，就要为下顿发愁。这样的状态，可能会激发我们更好地吸收吃到的东西，更高效地为下一顿而狩猎。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一些宗教会有斋戒，不吃东西或者只吃很少的东西。&lt;/p&gt;
+&lt;p&gt;如果你不信这些，最好也不要一上来就表示鄙夷。这个现象，可能有深层次的、自己尚未理解的合理性。&lt;/p&gt;
+&lt;p&gt;适度饥饿，可能会触发身体的一些应激反应，对身体可能是好的。想想我们的狩猎时代的祖先，肯定是饥一饱一顿，也
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1005 - 代理问题</title>
+    <link href="https://atjason.com/daily/2019-10-05.html"/>
+    <id>https://atjason.com/daily/2019-10-05.html</id>
+    <published>2019-10-05T14:00:00.000Z</published>
+    <updated>2019-10-09T15:41:29.586Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，如果投资顾问的收益和资本金额相关，却和你的收益或损失关联不大。这样的代理，你能信任他吗？</p>
+<p>不要告诉我投资建议，告诉我你的投资组合。</p>
+<p>如果一个人给出建议，却不用承担该建议可能带来的损失。这样的建议，不听也罢。</p>
+<p>《汉谟拉比法典》规定，建筑设计师设计的房屋倒塌，若压死了屋主，把建筑师处死。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，如果投资顾问的收益和资本金额相关，却和你的收益或损失关联不大。这样的代理，你能信任他吗？&lt;/p&gt;
+&lt;p&gt;不要告诉我投资建议，告诉我你的投资组合。&lt;/p&gt;
+&lt;p&gt;如果一个人给出建议，却不用承担该建议可能带来的损失。这样的建议，不听也罢。&lt;/p&gt;
+&lt;p&gt;《汉谟拉比法典》规
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1004 - 成绩好，好？</title>
+    <link href="https://atjason.com/daily/2019-10-04.html"/>
+    <id>https://atjason.com/daily/2019-10-04.html</id>
+    <published>2019-10-04T14:00:00.000Z</published>
+    <updated>2019-10-09T15:40:55.969Z</updated>
+    
+    <content type="html"><![CDATA[<p>在学校里成绩好，就像是在健身房里练出一身肌肉。</p>
+<p>肌肉男在街头斗殴或拳击比赛中，也很可能和一般人一样，被打得头破血流。成绩好，很可能只是更能忍受枯燥的学习而已。出了学校，所需要的其他技能可能并不强，甚至是因为时间分配到了学习上，反而受到了抑制。</p>
+<p>我无意贬损任何一类人，甚至很多人眼里我是成绩好的那种人（也是奇怪，成绩好的人，竟然被划分成一类人）。只是，通常意义中的认知太过强大顽固，而矫枉须得过正。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在学校里成绩好，就像是在健身房里练出一身肌肉。&lt;/p&gt;
+&lt;p&gt;肌肉男在街头斗殴或拳击比赛中，也很可能和一般人一样，被打得头破血流。成绩好，很可能只是更能忍受枯燥的学习而已。出了学校，所需要的其他技能可能并不强，甚至是因为时间分配到了学习上，反而受到了抑制。&lt;/p&gt;
+&lt;p&gt;我
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1003 - 商业和利益，简化了关系</title>
+    <link href="https://atjason.com/daily/2019-10-03.html"/>
+    <id>https://atjason.com/daily/2019-10-03.html</id>
+    <published>2019-10-03T14:00:00.000Z</published>
+    <updated>2019-10-09T15:40:39.168Z</updated>
+    
+    <content type="html"><![CDATA[<p>否则，还要用亲情、友情、人情这些说不清、道不明、无法量化的东西来维持，更累，成本更高。</p>
+<p>不过，感觉自己一个人做事的时间长了，有种脱离社会的感觉；像是个恶性循环：越是打交道少，越不想打交道，打交道的能力越弱。这样不太好。接下来，要强迫自己找点需要和人合作才能完成的事。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;否则，还要用亲情、友情、人情这些说不清、道不明、无法量化的东西来维持，更累，成本更高。&lt;/p&gt;
+&lt;p&gt;不过，感觉自己一个人做事的时间长了，有种脱离社会的感觉；像是个恶性循环：越是打交道少，越不想打交道，打交道的能力越弱。这样不太好。接下来，要强迫自己找点需要和人合作才能完成
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1002 - 还是纯水好喝</title>
+    <link href="https://atjason.com/daily/2019-10-02.html"/>
+    <id>https://atjason.com/daily/2019-10-02.html</id>
+    <published>2019-10-02T14:00:00.000Z</published>
+    <updated>2019-10-09T15:40:09.535Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近喝了不同的饮料；现在感觉，还是纯水好喝。</p>
+<p>喝饮料，很多时候是为了通过刺激感官而感到爽。但刺激多了，就麻木了，就要加大刺激的程度，或者换个花样来刺激。何必呢？既然已经知道了这种爽，就可以了。如果继续沉醉其中，就是成了饮料的奴隶。与其这样，不如喝纯水，不在饮料上寻求刺激，转而去追求能维持更长时间、更自然的满足。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近喝了不同的饮料；现在感觉，还是纯水好喝。&lt;/p&gt;
+&lt;p&gt;喝饮料，很多时候是为了通过刺激感官而感到爽。但刺激多了，就麻木了，就要加大刺激的程度，或者换个花样来刺激。何必呢？既然已经知道了这种爽，就可以了。如果继续沉醉其中，就是成了饮料的奴隶。与其这样，不如喝纯水，不在饮料
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1001 - 保持创造</title>
+    <link href="https://atjason.com/daily/2019-10-01.html"/>
+    <id>https://atjason.com/daily/2019-10-01.html</id>
+    <published>2019-10-01T14:00:00.000Z</published>
+    <updated>2019-10-09T15:39:43.763Z</updated>
+    
+    <content type="html"><![CDATA[<p>想了想，创造以解决问题，是最能让我感到满足的事。</p>
+<p>还是之前说的：感受用户需求，思考解决方案，促成产品。保持思考，保持学习，保持创造。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;想了想，创造以解决问题，是最能让我感到满足的事。&lt;/p&gt;
+&lt;p&gt;还是之前说的：感受用户需求，思考解决方案，促成产品。保持思考，保持学习，保持创造。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0930 - 时间充裕，好不好？</title>
+    <link href="https://atjason.com/daily/2019-09-30.html"/>
+    <id>https://atjason.com/daily/2019-09-30.html</id>
+    <published>2019-09-30T14:00:00.000Z</published>
+    <updated>2019-10-09T15:39:27.418Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，你是一位领导，有一件重要的事要分配给下属做。有两位下属，一位总是很忙，一位总是很闲，你会让谁做呢？多半，你会让忙的那个人做，即使另一个人时间更多。</p>
+<p>比如，你有一件重要的事要做，而你此时有两种状态。一种状态是很忙，正在做别的事；一种状态是很闲，没什么事做。哪种状态下更可能把这件事做好？多半，是很忙的时候。</p>
+<p>至少，我是这样的。长时间闲下来，感觉自己会生锈。反而是不管有什么事，先拿过来做着，这样更能维持好的状态。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，你是一位领导，有一件重要的事要分配给下属做。有两位下属，一位总是很忙，一位总是很闲，你会让谁做呢？多半，你会让忙的那个人做，即使另一个人时间更多。&lt;/p&gt;
+&lt;p&gt;比如，你有一件重要的事要做，而你此时有两种状态。一种状态是很忙，正在做别的事；一种状态是很闲，没什么事做。
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0929 - 《人性的弱点》</title>
@@ -256,269 +500,6 @@
       &lt;p&gt;基本上，我们能看到的、听到的，都是人家想让我们看到或听到的。比如，公司出了产品，自然会全渠道推广；很多技术人员攻克了难题，也愿意通过博客等形式分享。&lt;/p&gt;
 &lt;p&gt;而事实上，沉默才是大多数。又或者，即使愿意表达，也可能没时间；也很可能，表达了也无法触达到你。&lt;/p&gt;
 &lt;p&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0919 - 小微团队</title>
-    <link href="https://atjason.com/daily/2019-09-19.html"/>
-    <id>https://atjason.com/daily/2019-09-19.html</id>
-    <published>2019-09-19T14:00:00.000Z</published>
-    <updated>2019-09-21T14:34:02.596Z</updated>
-    
-    <content type="html"><![CDATA[<p>个人比较喜欢和看好几人、几十人的团队。灵活，反应快，有战斗力，负担小，历史债务少。</p>
-<p>大公司绝对产值高，人均产值却未必。显然，人均产值高，越有战斗力和生命力。而 Top 100 的公司，几十年换了一大半，其中很多已经死掉。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;个人比较喜欢和看好几人、几十人的团队。灵活，反应快，有战斗力，负担小，历史债务少。&lt;/p&gt;
-&lt;p&gt;大公司绝对产值高，人均产值却未必。显然，人均产值高，越有战斗力和生命力。而 Top 100 的公司，几十年换了一大半，其中很多已经死掉。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0918 - 屌丝如何逆袭</title>
-    <link href="https://atjason.com/daily/2019-09-18.html"/>
-    <id>https://atjason.com/daily/2019-09-18.html</id>
-    <published>2019-09-18T14:00:00.000Z</published>
-    <updated>2019-09-21T14:31:39.555Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，一个投资，年化 30% 收益，你满意吗？</p>
-<ul>
-<li>如果你手上有 10 亿，多半你会满意，那可是 3 亿。</li>
-<li>如果你手上有 10 万，多半不会满意，那只有 3 万。</li>
-</ul>
-<p>对于屌丝，只有破坏性、颠覆性创新，才能有满意的收益。从无到有、从 0 到 1 的收益率多大？无穷大。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，一个投资，年化 30% 收益，你满意吗？&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果你手上有 10 亿，多半你会满意，那可是 3 亿。&lt;/li&gt;
-&lt;li&gt;如果你手上有 10 万，多半不会满意，那只有 3 万。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;对于屌丝，只有破坏性、颠覆性创新，才能有满
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0917 - 世界越复杂，越需要思想来收敛</title>
-    <link href="https://atjason.com/daily/2019-09-17.html"/>
-    <id>https://atjason.com/daily/2019-09-17.html</id>
-    <published>2019-09-17T14:00:00.000Z</published>
-    <updated>2019-09-20T14:22:34.739Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天看到的金句。</p>
-<p>世界的复杂，必然会超出认知。而认不了也得认，就得构建出一套思想、模式，然后往上套。所谓人为自然立法，也是这个道理。</p>
-<p>有了思想，就能更好的认识世界。至于认识的对不对、好不好，那就是另一个问题了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天看到的金句。&lt;/p&gt;
-&lt;p&gt;世界的复杂，必然会超出认知。而认不了也得认，就得构建出一套思想、模式，然后往上套。所谓人为自然立法，也是这个道理。&lt;/p&gt;
-&lt;p&gt;有了思想，就能更好的认识世界。至于认识的对不对、好不好，那就是另一个问题了。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0916 - 时间的淬炼</title>
-    <link href="https://atjason.com/daily/2019-09-16.html"/>
-    <id>https://atjason.com/daily/2019-09-16.html</id>
-    <published>2019-09-16T14:00:00.000Z</published>
-    <updated>2019-09-18T14:31:48.364Z</updated>
-    
-    <content type="html"><![CDATA[<p>有些事情，无法速成。</p>
-<p>比如，锻练对 K 线的感觉，可以盖住右边，根据左边的形态，推测右侧的趋势；然后松开右侧进行验证；以此类推。这样进行练习，固然可以快速感知不同 K 线形态的演化。问题在于，如果没有持仓、不经历隔夜时心态上各种细微变化乃至反转，这种对 K 线的感觉，是很浅的。</p>
-<p>比如，通过回测来验证策略，固然可以在短时间内测试策略在不同行情时的响应。但现实中，有各种无法被回测验证的问题。比如，服务器因过载而拒绝响应。尤其，当持有浮亏仓位时，回测时一带而过，真实的情况下，是否有信心继续持有呢？这样的问题，只有经过真实的检验，才能知晓答案。</p>
-<p>铸铁经过高温、淬火、捶打，方能去除杂质变精钢。时间，同时有锻造的各个功能。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有些事情，无法速成。&lt;/p&gt;
-&lt;p&gt;比如，锻练对 K 线的感觉，可以盖住右边，根据左边的形态，推测右侧的趋势；然后松开右侧进行验证；以此类推。这样进行练习，固然可以快速感知不同 K 线形态的演化。问题在于，如果没有持仓、不经历隔夜时心态上各种细微变化乃至反转，这种对 K 线
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0915 - 婴幼儿教育的师资水平堪忧</title>
-    <link href="https://atjason.com/daily/2019-09-15.html"/>
-    <id>https://atjason.com/daily/2019-09-15.html</id>
-    <published>2019-09-15T14:00:00.000Z</published>
-    <updated>2019-09-15T15:35:06.642Z</updated>
-    
-    <content type="html"><![CDATA[<p>以我所接触到的一些婴幼儿教育培训机构，如果游泳、乐高、英语，感觉实在谈不上高级。甚至感觉像是随便拉个人，简单培训一下，就可以上岗了。</p>
-<p>与之相对应的，收费却是相当的高级。大学里教授的应该是高级的知识了吧，而其学费与小孩子相比，简直白菜价。</p>
-<p>当然，老师里面自然是有好的。比如，今天我还看到另外一则新闻，说是北京一对一的课程辅导，老师的价格可以达到 500~2000 每小时，而且是家长车接车送。</p>
-<p>不过，这种毕竟是少数。更广大的师资水平，我觉得是堪忧的。这里面，也孕育着机会。就像是智能手机刚起步的时候，普遍价格都很高，需要小米这样的价格屠夫，加快行业的价格正常和规范化。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;以我所接触到的一些婴幼儿教育培训机构，如果游泳、乐高、英语，感觉实在谈不上高级。甚至感觉像是随便拉个人，简单培训一下，就可以上岗了。&lt;/p&gt;
-&lt;p&gt;与之相对应的，收费却是相当的高级。大学里教授的应该是高级的知识了吧，而其学费与小孩子相比，简直白菜价。&lt;/p&gt;
-&lt;p&gt;当然，老
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0914 - 鞋子上的生肖</title>
-    <link href="https://atjason.com/daily/2019-09-14.html"/>
-    <id>https://atjason.com/daily/2019-09-14.html</id>
-    <published>2019-09-14T14:00:00.000Z</published>
-    <updated>2019-09-15T15:24:41.259Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，带着小孩子去买鞋子，其中一双鞋子上正好有小孩子生肖的卡通形象，买这双鞋子的概率就会大很多。</p>
-<p>注意，鞋子上并没有所有不同生肖的图案，而是刚刚好适合这个年纪段小朋友的生肖。说的有点绕。</p>
-<p>当然，商家可能没想这么多，也可能是无意的。不过，如果是有意的，那可真是厉害。已经深入到消费场景，充分个性化了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，带着小孩子去买鞋子，其中一双鞋子上正好有小孩子生肖的卡通形象，买这双鞋子的概率就会大很多。&lt;/p&gt;
-&lt;p&gt;注意，鞋子上并没有所有不同生肖的图案，而是刚刚好适合这个年纪段小朋友的生肖。说的有点绕。&lt;/p&gt;
-&lt;p&gt;当然，商家可能没想这么多，也可能是无意的。不过，如果是有意
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0913 - 我来到世上，不是给你当妈的</title>
-    <link href="https://atjason.com/daily/2019-09-13.html"/>
-    <id>https://atjason.com/daily/2019-09-13.html</id>
-    <published>2019-09-13T14:00:00.000Z</published>
-    <updated>2019-09-14T14:49:58.502Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天看到一个霸气的观点。王潮歌常对女儿说：</p>
-<blockquote>
-<p>我来这世上并不是为了给你当妈的，也不是为了给谁当老婆的，我首先要做艺术，我要做一个很好的艺术家，然后才是你妈，听明白了吗？</p>
-</blockquote>
-<p>这不是霸气，而是活得明白。不被世俗的规矩所局限，活在自己的信念中。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天看到一个霸气的观点。王潮歌常对女儿说：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;我来这世上并不是为了给你当妈的，也不是为了给谁当老婆的，我首先要做艺术，我要做一个很好的艺术家，然后才是你妈，听明白了吗？&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这不是霸气，而是活得明白
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0912 - 初学者傻一点</title>
-    <link href="https://atjason.com/daily/2019-09-12.html"/>
-    <id>https://atjason.com/daily/2019-09-12.html</id>
-    <published>2019-09-12T14:00:00.000Z</published>
-    <updated>2019-09-14T14:41:29.912Z</updated>
-    
-    <content type="html"><![CDATA[<p>开始学一样东西时，总是想学最佳实践，不想走弯路。</p>
-<p>这思路当然是好的，只是不太现实。除非，有个业内高手在你身边指点，详细地告诉你先学什么、再练什么。否则，根本做不到。</p>
-<p>学习的过程，踩坑是必然的。举个例子，Python、Node 都有优雅的版本和包管理方式。可，这需要一定的学习才能掌握。通常，初学者会把自己的电脑环境搞得一团糟，至少很不优雅。问题在于，如果一开始学习时，把过多的精力放在这个点上，有点舍本求末。且，如果没有经历过电脑环境一团糟、没有在不同电脑上配置运行环境的痛，是无法感受到管理的必要性，也很难真的理解和掌握。</p>
-<p>学习时，不怕踩坑。踩了，爬出来，再次不再踩即可。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;开始学一样东西时，总是想学最佳实践，不想走弯路。&lt;/p&gt;
-&lt;p&gt;这思路当然是好的，只是不太现实。除非，有个业内高手在你身边指点，详细地告诉你先学什么、再练什么。否则，根本做不到。&lt;/p&gt;
-&lt;p&gt;学习的过程，踩坑是必然的。举个例子，Python、Node 都有优雅的版本和包管
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0911 - 喷泉喷得高</title>
-    <link href="https://atjason.com/daily/2019-09-11.html"/>
-    <id>https://atjason.com/daily/2019-09-11.html</id>
-    <published>2019-09-11T14:00:00.000Z</published>
-    <updated>2019-09-14T14:34:20.259Z</updated>
-    
-    <content type="html"><![CDATA[<p>每次跟妈看到或说起喷泉，妈总会说：哪哪哪的喷泉喷得高。</p>
-<p>喷泉好不好看，有很多评判因素，如音乐、灯光、造型等。可喷得高，确实是最杀手级的特性。纵然有我妈审美水平的限制，喷泉喷得高，依然是最能打动人、给人留下最深印象的点。</p>
-<p>产品也是一样。决定产品好不好的，通常是木桶理论。而能不能给用户留下深刻印象的，则是长板理论。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;每次跟妈看到或说起喷泉，妈总会说：哪哪哪的喷泉喷得高。&lt;/p&gt;
-&lt;p&gt;喷泉好不好看，有很多评判因素，如音乐、灯光、造型等。可喷得高，确实是最杀手级的特性。纵然有我妈审美水平的限制，喷泉喷得高，依然是最能打动人、给人留下最深印象的点。&lt;/p&gt;
-&lt;p&gt;产品也是一样。决定产品好不
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0910 - 《算法交易员：会赚钱的人工智能》</title>
-    <link href="https://atjason.com/daily/2019-09-10.html"/>
-    <id>https://atjason.com/daily/2019-09-10.html</id>
-    <published>2019-09-10T14:00:00.000Z</published>
-    <updated>2019-09-14T14:30:01.420Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://img3.doubanio.com/view/subject/l/public/s33457083.jpg" alt=""></p>
-<p>《<a href="https://book.douban.com/subject/34793541/" target="_blank" rel="external">算法交易员：会赚钱的人工智能</a>》</p>
-<p>挺好的一本书。</p>
-<p>先是大致梳理了量化交易的历程，点出了关键人物及其成就。然后，介绍了自己在美林证券量化部门的工作经历，以及该部门最后为何突然关闭。最后，点评了量化交易的现状，展望了接下来的发展。</p>
-<p>总的来说，是比较概述性的介绍，书中肯定是没有你拿来就用的算法之类的东西。不过，其中很多信息还是很宝贵的。比如，揭示了顶级量化团队的大致工作模式；有的团队共同维护算法，而有的则是算法个人私有、与公司按比例分配收益；实际的人员，有很多华裔、印度裔、俄罗斯裔等（作者是韩国人）；等等。这些类型的信息，很难在别的地方看到。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://img3.doubanio.com/view/subject/l/public/s33457083.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;《&lt;a href=&quot;https://book.douban.com/subject/3479354
     
     </summary>
     
