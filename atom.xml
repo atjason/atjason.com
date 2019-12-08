@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-12-02T14:51:04.066Z</updated>
+  <updated>2019-12-08T14:48:11.806Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,164 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1208 - 本能技能</title>
+    <link href="https://atjason.com/daily/2019-12-08.html"/>
+    <id>https://atjason.com/daily/2019-12-08.html</id>
+    <published>2019-12-08T14:00:00.000Z</published>
+    <updated>2019-12-08T14:48:11.806Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近给小孩买了显微镜，就是有千倍左右、单目直筒的那种，我上学的时候很常见。也能看清楚一些好玩的东西，比如植物皮中的细胞、金鱼鳍中的血液流动等等。</p>
+<p>我想说的是，十几年没碰过这东西，我竟然几乎能立即上手、甚至可以说是熟练，比如先低倍后高倍；物镜高倍时，先调到最下的位置，然后向上调；等等。</p>
+<p>还有一些类似的技能，比如说骑自行车、游泳。这样的技能，可以说学会之后，想忘都忘不掉，像是把技能变成了本能。把你扔水里，你还能假装不会游泳？</p>
+<p>与之相反，另外一些技能，却是稍不练习便会生疏、一生疏基本等于无用，比如编程。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近给小孩买了显微镜，就是有千倍左右、单目直筒的那种，我上学的时候很常见。也能看清楚一些好玩的东西，比如植物皮中的细胞、金鱼鳍中的血液流动等等。&lt;/p&gt;
+&lt;p&gt;我想说的是，十几年没碰过这东西，我竟然几乎能立即上手、甚至可以说是熟练，比如先低倍后高倍；物镜高倍时，先调到最下的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1207 - 技能不嫌多啊</title>
+    <link href="https://atjason.com/daily/2019-12-07.html"/>
+    <id>https://atjason.com/daily/2019-12-07.html</id>
+    <published>2019-12-07T14:00:00.000Z</published>
+    <updated>2019-12-08T15:04:06.359Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近梯子实在不稳，就有了找最快梯子的需求。</p>
+<p>刚开始的想法是这样的。服务商提供订阅地址，通过这个地址，可以得到当前所有可用服务器地址。先用 ping 对其排序，然后挑选靠前的一些，直接使用其下载海外不可描述的文件，用这种方法进行实际测速，然后挑出最快的，并自动应用。</p>
+<p>考虑到服务器是否可用、速度是否快是动态的，可以在后台定期运行这一小工具，总是用最快的，也提高了稳定性。</p>
+<p>技术上核心一点在于：通过代码将 ss 服务转换为 socks 代理。我是打算基于 node 实现，可找了关于，最后发现官方已经 Deprecated 了。而 Python/Go 等版本，还活得挺好。哎，基于没有这些技能，这一想法只能搁浅了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近梯子实在不稳，就有了找最快梯子的需求。&lt;/p&gt;
+&lt;p&gt;刚开始的想法是这样的。服务商提供订阅地址，通过这个地址，可以得到当前所有可用服务器地址。先用 ping 对其排序，然后挑选靠前的一些，直接使用其下载海外不可描述的文件，用这种方法进行实际测速，然后挑出最快的，并自动应
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1206 - 默契</title>
+    <link href="https://atjason.com/daily/2019-12-06.html"/>
+    <id>https://atjason.com/daily/2019-12-06.html</id>
+    <published>2019-12-06T14:00:00.000Z</published>
+    <updated>2019-12-07T15:11:36.841Z</updated>
+    
+    <content type="html"><![CDATA[<p>默契，可以通过蛛丝马迹，理解对方的意图。</p>
+<p>除了理解的能力，更在于愿意去理解的意愿。</p>
+<p>觉得对方不理解你，可能你也没主动去理解对方。</p>
+<p>默契，建立不易，破坏却不难。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;默契，可以通过蛛丝马迹，理解对方的意图。&lt;/p&gt;
+&lt;p&gt;除了理解的能力，更在于愿意去理解的意愿。&lt;/p&gt;
+&lt;p&gt;觉得对方不理解你，可能你也没主动去理解对方。&lt;/p&gt;
+&lt;p&gt;默契，建立不易，破坏却不难。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1205 - 享受闲暇的能力</title>
+    <link href="https://atjason.com/daily/2019-12-05.html"/>
+    <id>https://atjason.com/daily/2019-12-05.html</id>
+    <published>2019-12-05T14:00:00.000Z</published>
+    <updated>2019-12-07T15:08:48.983Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果有一段时间，什么都不用干，你能享(忍)受多久？不拿手机、不看新闻、不刷抖音，就这么静静的呆着。你觉得是享受、还是煎熬？能坚持多久？</p>
+<p><strong>人有两大敌人：贫穷和无聊</strong>，分别是穷人和富人的敌人。</p>
+<p>最近看叔本华的《人生的智慧》，他认为幸福来自内在，现在的我也这样认为。用忙碌来填补内心的空虚，是穷人的做法；用生理感观的刺激来对抗无聊，是富人的陷阱。</p>
+<p><strong>是享受还是忍受闲暇，是内心是否充盈的一种标志</strong>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果有一段时间，什么都不用干，你能享(忍)受多久？不拿手机、不看新闻、不刷抖音，就这么静静的呆着。你觉得是享受、还是煎熬？能坚持多久？&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;人有两大敌人：贫穷和无聊&lt;/strong&gt;，分别是穷人和富人的敌人。&lt;/p&gt;
+&lt;p&gt;最近看叔本华的《人生的智
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1204 - 自己判断价值</title>
+    <link href="https://atjason.com/daily/2019-12-04.html"/>
+    <id>https://atjason.com/daily/2019-12-04.html</id>
+    <published>2019-12-04T14:00:00.000Z</published>
+    <updated>2019-12-05T14:21:33.855Z</updated>
+    
+    <content type="html"><![CDATA[<p>50 元买了本书，随手在多抓鱼上一扫，回收价 5 元，瞬间觉得买亏了。</p>
+<p>可，明显书的价值不应该这么算。书买来不是用于卖的，而是为了从中学到东西。至少能学到多少有价值的东西，这就难说了，且因人而异。</p>
+<p>比如，同一本书，豆瓣上有人打 10 分、有人只给 1 分。如果不考虑作弊，那就是有人觉得很棒，有人觉得完全无用。</p>
+<p>不过是多抓鱼回收价，还是豆瓣评分，还是别的什么评价，都是别人的，是别人根据对他是否有用而给出的评价。既然是别人的评价，也就只能参考。既然是参考，就不能因此替自己下判断。</p>
+<p>说到买书，其实现在很多书微信读书上都有。即使不是会员，也可以免费阅读前面几章。与其看别人的评价，不如自己亲自读上几章，就知道是否值得继续阅读了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;50 元买了本书，随手在多抓鱼上一扫，回收价 5 元，瞬间觉得买亏了。&lt;/p&gt;
+&lt;p&gt;可，明显书的价值不应该这么算。书买来不是用于卖的，而是为了从中学到东西。至少能学到多少有价值的东西，这就难说了，且因人而异。&lt;/p&gt;
+&lt;p&gt;比如，同一本书，豆瓣上有人打 10 分、有人只给
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1203 - 谁决定科学的方向</title>
+    <link href="https://atjason.com/daily/2019-12-03.html"/>
+    <id>https://atjason.com/daily/2019-12-03.html</id>
+    <published>2019-12-03T14:00:00.000Z</published>
+    <updated>2019-12-03T15:29:12.031Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，有两项科学研究，一项用于加快 5G 商用，一项用于提高非洲狮群数量，哪个更容易获得科研经费？又是谁决定的？</p>
+<p>经费，科学的命根子，由科学之外提供。</p>
+<p>科学的方向，很大程度由非科学决定。</p>
+<p>衍生的，大学里教授的评定及福利，很大程度是由政治或者说领导决定的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，有两项科学研究，一项用于加快 5G 商用，一项用于提高非洲狮群数量，哪个更容易获得科研经费？又是谁决定的？&lt;/p&gt;
+&lt;p&gt;经费，科学的命根子，由科学之外提供。&lt;/p&gt;
+&lt;p&gt;科学的方向，很大程度由非科学决定。&lt;/p&gt;
+&lt;p&gt;衍生的，大学里教授的评定及福利，很大程度是由
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1202 - 工作的风险</title>
@@ -406,171 +564,6 @@
 &lt;li&gt;今天天气太冷，明天多穿点再好好干。&lt;/li&gt;
 &lt;li&gt;今天进展不错，剩下的下次再做。&lt;/li&gt;
 &lt;li&gt;…&lt;/
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1118 - 为什么呢？</title>
-    <link href="https://atjason.com/daily/2019-11-18.html"/>
-    <id>https://atjason.com/daily/2019-11-18.html</id>
-    <published>2019-11-18T14:00:00.000Z</published>
-    <updated>2019-11-18T15:04:13.501Z</updated>
-    
-    <content type="html"><![CDATA[<p>睡觉故事：</p>
-<p>A：从前，有座高高的山。<br>B：爸爸，为什么有座山呢？<br>A：山上，有个黑黑的洞。<br>B：爸爸，为什么有个洞呢？<br>A：洞里，有只熊在睡觉。<br>B：爸爸，为什么有只熊呢？</p>
-<p>A：……（完了，可怕的为什么阶段）</p>
-<p>B：爸爸，你不说话，我就把你扔掉。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;睡觉故事：&lt;/p&gt;
-&lt;p&gt;A：从前，有座高高的山。&lt;br&gt;B：爸爸，为什么有座山呢？&lt;br&gt;A：山上，有个黑黑的洞。&lt;br&gt;B：爸爸，为什么有个洞呢？&lt;br&gt;A：洞里，有只熊在睡觉。&lt;br&gt;B：爸爸，为什么有只熊呢？&lt;/p&gt;
-&lt;p&gt;A：……（完了，可怕的为什么阶段）&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1117 - 时间的长度</title>
-    <link href="https://atjason.com/daily/2019-11-17.html"/>
-    <id>https://atjason.com/daily/2019-11-17.html</id>
-    <published>2019-11-17T14:00:00.000Z</published>
-    <updated>2019-11-17T15:24:33.144Z</updated>
-    
-    <content type="html"><![CDATA[<p>同样是时间，却有很多奇妙的属性。</p>
-<p><strong>对时间长度的感知是相对的</strong>。比如，一个 3 岁的小孩，1 年对他来说，相当于人生的 1/3，是很漫长的。而对于他爹，可能只是 1/30，很短暂。</p>
-<p><strong>过去很快，未来很慢</strong>。比如，说你会赚很大一笔钱，但需要等 5 年，估计大多数人都等不及，现在就想要。可你回头看看过去 5 年，不是一眨眼就过去了吗。</p>
-<p><strong>不同时间的状态不同</strong>。比如，常说的晚上想想千条路，早上起来走原路。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;同样是时间，却有很多奇妙的属性。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;对时间长度的感知是相对的&lt;/strong&gt;。比如，一个 3 岁的小孩，1 年对他来说，相当于人生的 1/3，是很漫长的。而对于他爹，可能只是 1/30，很短暂。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;过去很快，未来很慢
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1116 - 不被物质左右</title>
-    <link href="https://atjason.com/daily/2019-11-16.html"/>
-    <id>https://atjason.com/daily/2019-11-16.html</id>
-    <published>2019-11-16T14:00:00.000Z</published>
-    <updated>2019-11-16T14:21:33.761Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近有时晚上要起来盯盘，用手机当闹钟，会吵醒枕边人，于是买了个小米手环当闹钟。</p>
-<p>下单后，忍不住查发货了没有。过了一天还没发货，就感觉不爽。</p>
-<p>看起来是我买了东西，但实质上我的精神却被这个东西左右了：是它在驱使我查快递、占用我的时间、扰乱我的心绪。</p>
-<p>左右物质，而不要被物质左右。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近有时晚上要起来盯盘，用手机当闹钟，会吵醒枕边人，于是买了个小米手环当闹钟。&lt;/p&gt;
-&lt;p&gt;下单后，忍不住查发货了没有。过了一天还没发货，就感觉不爽。&lt;/p&gt;
-&lt;p&gt;看起来是我买了东西，但实质上我的精神却被这个东西左右了：是它在驱使我查快递、占用我的时间、扰乱我的心绪。&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1115 - 用书撞脑袋</title>
-    <link href="https://atjason.com/daily/2019-11-15.html"/>
-    <id>https://atjason.com/daily/2019-11-15.html</id>
-    <published>2019-11-15T14:00:00.000Z</published>
-    <updated>2019-11-15T14:31:54.094Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天看《以交易为生》，看到一些好玩的典故：</p>
-<ul>
-<li>华尔街（Wall Street）得名于 Wall。当时这个地方交易存放用于交割的牲畜，而这墙是是用来围着以防牲畜乱跑。</li>
-<li>进而，华尔街有很多动物相关的词汇，比如牛熊。</li>
-<li>为什么是牛熊呢？牛向上顶，熊掌向下拍，故而用之。</li>
-</ul>
-<p>看书，很多时候并不一定是直接从书中得到有用的知识，而是用书、用一个陌生人的观点，来撞击自己的脑袋，迸发出可能的新思路。思想这东西，就是很奇怪，有时自己怎么想都想不通，别人不经意的一句话，却能醍醐灌顶。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天看《以交易为生》，看到一些好玩的典故：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;华尔街（Wall Street）得名于 Wall。当时这个地方交易存放用于交割的牲畜，而这墙是是用来围着以防牲畜乱跑。&lt;/li&gt;
-&lt;li&gt;进而，华尔街有很多动物相关的词汇，比如牛熊。&lt;/li&gt;
-&lt;li&gt;为
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1114 - 迅雷下跌</title>
-    <link href="https://atjason.com/daily/2019-11-14.html"/>
-    <id>https://atjason.com/daily/2019-11-14.html</id>
-    <published>2019-11-14T14:00:00.000Z</published>
-    <updated>2019-11-15T14:27:01.362Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天，迅雷盘前发了 2019Q3 财报，很难看：营收下跌 8%，亏损增加 11 倍。盘前下跌 10%，收盘时下跌 19%。</p>
-<p>我做空浮盈 1/6，且判断还会下跌，尚未平仓止盈。</p>
-<p>现在复盘，<strong>最重要的是运气</strong>，即赌对了迅雷的财报不会好看，不过也没想到亏损会如此大（有会计的原因）；其次是做了自己能做到的系统分析，<strong>明确并坚持自己的判断</strong>。</p>
-<p>做的不好的地方，主要有以下几点：</p>
-<ul>
-<li><strong>不够敏感，入场晚了</strong>。迅雷是在 10 月 25 日大涨 107%，而我是在 10 月 31 日首次做空。虽然价格上还好，但毕竟晚了。要不是这时时间窗口这么长，应该就错过机会了。</li>
-<li><strong>入场毫无计划</strong>。比如，总共准备投入多少资金、止损点、预期收益点完全没考虑，直接一头扎进去了。且，入场时看到价格快速下跌，担心错过机会，下了市价单，结果以很低的价格做空，之后股票大幅回调。这导致了好几个问题，比如初始投入太多，后期无法加码；做空成本差，导致长时间大幅浮亏，心理压力增大。如果不是坚持自己的判断，纯靠技术分析，估计早止损离场了。</li>
-</ul>
-<p>有意思的是，微博当天也发财报，也大跌 17.7%，我在毫无分析的情况下，抄底了一点。现在浮盈，这恰恰是最可怕的，很像书上讲的：新手凭运气赚钱后，感觉赚钱很容易、自己很厉害，于是继续瞎搞，最后凭本事亏光…不以结果论英雄，而要看交易过程。<strong>不追求赚钱，而追求做对每一笔交易</strong>，赚钱只是附带效果。</p>
-<p>不过，感觉上，财报或大事件前后，股票会有大幅变化。如果谨慎操作，应该还是有机会的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天，迅雷盘前发了 2019Q3 财报，很难看：营收下跌 8%，亏损增加 11 倍。盘前下跌 10%，收盘时下跌 19%。&lt;/p&gt;
-&lt;p&gt;我做空浮盈 1/6，且判断还会下跌，尚未平仓止盈。&lt;/p&gt;
-&lt;p&gt;现在复盘，&lt;strong&gt;最重要的是运气&lt;/strong&gt;，即赌对了迅
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1113 - 该不该判断市场</title>
-    <link href="https://atjason.com/daily/2019-11-13.html"/>
-    <id>https://atjason.com/daily/2019-11-13.html</id>
-    <published>2019-11-13T14:00:00.000Z</published>
-    <updated>2019-11-14T16:02:41.370Z</updated>
-    
-    <content type="html"><![CDATA[<p>苹果已经连续涨了 10 天，已经这么大体量了，还这么涨，实在是想不出道理。别急，苹果发了新 MacBook Pro，以及一些配件，给你它涨的理由。对苹果这支股票，实在不能轻易判断，尤其不能做空。</p>
-<p>迅雷我却一直判断会下跌。值得注意的一点，迅雷的市值只有苹果的 0.3%，体量毕竟不大，随便一个新闻，都可以小股价抖三抖。苹果则不同，即使你看到一个负面新闻，对于所有影响因素而言，可能只是极小的一部分，因此很难根据自己得到的那一点信息来判断。</p>
-<p>所以，该不该判断市场呢？市场越大、自己能力越有限，越不要主动判断，等趋势明朗之后再行动。反之，如果你有很大把握，可以审慎考虑根据自己的判断行事，毕竟这样有提前量，可能的收益也高些。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;苹果已经连续涨了 10 天，已经这么大体量了，还这么涨，实在是想不出道理。别急，苹果发了新 MacBook Pro，以及一些配件，给你它涨的理由。对苹果这支股票，实在不能轻易判断，尤其不能做空。&lt;/p&gt;
-&lt;p&gt;迅雷我却一直判断会下跌。值得注意的一点，迅雷的市值只有苹果的 0
     
     </summary>
     
