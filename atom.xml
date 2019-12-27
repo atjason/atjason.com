@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2019-12-26T05:27:32.268Z</updated>
+  <updated>2019-12-27T08:04:35.391Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1225 - 一个年化 100% 的策略</title>
+    <link href="https://atjason.com/daily/2019-12-25.html"/>
+    <id>https://atjason.com/daily/2019-12-25.html</id>
+    <published>2019-12-25T14:00:00.000Z</published>
+    <updated>2019-12-27T08:04:35.391Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>策略</strong>：JD 和 PDD 二选一，谁便宜就买谁，价格相同就平仓。</p>
+<p><strong>回测</strong>：2018-08-01 至 2019-12-25</p>
+<p><strong>收益</strong>：150% 左右，年化 &gt; 100%</p>
+<p>期间：JD 上涨 34.1%，拼多多上涨：68.6%</p>
+<p>回测期间的开仓、平仓日期及价格：</p>
+<p><img src="https://ps.toolinbox.net/itb0y.jpg" alt=""></p>
+<p><strong>为什么会想到这个策略呢？</strong></p>
+<p>主要是京东和拼多多的市值差不多，尤其股价你高我低、来回交替，就想到了谁便宜买谁的策略。</p>
+<p><img src="https://ps.toolinbox.net/lbet2.jpg" alt=""></p>
+<p>不过，风险自然是有的。这个策略本质是逆势交易，就是相信现在偏低的股价，未来会涨上来。如果两支股票同时、一直跌呢？自然是亏。所以，如果你想执行这个策略，风险自己想清楚。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;策略&lt;/strong&gt;：JD 和 PDD 二选一，谁便宜就买谁，价格相同就平仓。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;回测&lt;/strong&gt;：2018-08-01 至 2019-12-25&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;收益&lt;/strong&gt;：150% 左右，年化
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1224 - 喝水水、吃饭饭</title>
+    <link href="https://atjason.com/daily/2019-12-24.html"/>
+    <id>https://atjason.com/daily/2019-12-24.html</id>
+    <published>2019-12-24T14:00:00.000Z</published>
+    <updated>2019-12-26T14:45:06.879Z</updated>
+    
+    <content type="html"><![CDATA[<p>大人在和小孩说话时，很容易使用诸如喝水水、吃饭饭之类的表达，显得很可爱、很亲切。</p>
+<p>实际上，如果小孩还听不懂话，说「喝水」和「喝水水」是一样的，只是大人自己觉得自己可爱而已。如果小孩能听懂，那更是一样。</p>
+<p>既然是一样的，却无来由增加了纠错成本，小孩需要很长时间才能明白，原来「喝水」才是正确的表达，「喝水水」是错误的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大人在和小孩说话时，很容易使用诸如喝水水、吃饭饭之类的表达，显得很可爱、很亲切。&lt;/p&gt;
+&lt;p&gt;实际上，如果小孩还听不懂话，说「喝水」和「喝水水」是一样的，只是大人自己觉得自己可爱而已。如果小孩能听懂，那更是一样。&lt;/p&gt;
+&lt;p&gt;既然是一样的，却无来由增加了纠错成本，小孩需
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1223 - 《美国陷阱》</title>
@@ -479,59 +536,6 @@
 &lt;p&gt;觉得对方不理解你，可能你也没主动去理解对方。&lt;/p&gt;
 &lt;p&gt;默契，建立不易，破坏却不难。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1205 - 享受闲暇的能力</title>
-    <link href="https://atjason.com/daily/2019-12-05.html"/>
-    <id>https://atjason.com/daily/2019-12-05.html</id>
-    <published>2019-12-05T14:00:00.000Z</published>
-    <updated>2019-12-07T15:08:48.983Z</updated>
-    
-    <content type="html"><![CDATA[<p>如果有一段时间，什么都不用干，你能享(忍)受多久？不拿手机、不看新闻、不刷抖音，就这么静静的呆着。你觉得是享受、还是煎熬？能坚持多久？</p>
-<p><strong>人有两大敌人：贫穷和无聊</strong>，分别是穷人和富人的敌人。</p>
-<p>最近看叔本华的《人生的智慧》，他认为幸福来自内在，现在的我也这样认为。用忙碌来填补内心的空虚，是穷人的做法；用生理感观的刺激来对抗无聊，是富人的陷阱。</p>
-<p><strong>是享受还是忍受闲暇，是内心是否充盈的一种标志</strong>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;如果有一段时间，什么都不用干，你能享(忍)受多久？不拿手机、不看新闻、不刷抖音，就这么静静的呆着。你觉得是享受、还是煎熬？能坚持多久？&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;人有两大敌人：贫穷和无聊&lt;/strong&gt;，分别是穷人和富人的敌人。&lt;/p&gt;
-&lt;p&gt;最近看叔本华的《人生的智
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1204 - 自己判断价值</title>
-    <link href="https://atjason.com/daily/2019-12-04.html"/>
-    <id>https://atjason.com/daily/2019-12-04.html</id>
-    <published>2019-12-04T14:00:00.000Z</published>
-    <updated>2019-12-05T14:21:33.855Z</updated>
-    
-    <content type="html"><![CDATA[<p>50 元买了本书，随手在多抓鱼上一扫，回收价 5 元，瞬间觉得买亏了。</p>
-<p>可，明显书的价值不应该这么算。书买来不是用于卖的，而是为了从中学到东西。至少能学到多少有价值的东西，这就难说了，且因人而异。</p>
-<p>比如，同一本书，豆瓣上有人打 10 分、有人只给 1 分。如果不考虑作弊，那就是有人觉得很棒，有人觉得完全无用。</p>
-<p>不过是多抓鱼回收价，还是豆瓣评分，还是别的什么评价，都是别人的，是别人根据对他是否有用而给出的评价。既然是别人的评价，也就只能参考。既然是参考，就不能因此替自己下判断。</p>
-<p>说到买书，其实现在很多书微信读书上都有。即使不是会员，也可以免费阅读前面几章。与其看别人的评价，不如自己亲自读上几章，就知道是否值得继续阅读了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;50 元买了本书，随手在多抓鱼上一扫，回收价 5 元，瞬间觉得买亏了。&lt;/p&gt;
-&lt;p&gt;可，明显书的价值不应该这么算。书买来不是用于卖的，而是为了从中学到东西。至少能学到多少有价值的东西，这就难说了，且因人而异。&lt;/p&gt;
-&lt;p&gt;比如，同一本书，豆瓣上有人打 10 分、有人只给
     
     </summary>
     
