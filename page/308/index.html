@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/282.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/330.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/282.html" itemprop="url">
-                  斯凯网络CEO宋涛：大平台、小公司
+                <a class="post-title-link" href="/330.html" itemprop="url">
+                  Kindle 4 原生系统替换中文字体
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-05-28T22:02:46+08:00">
-                2012-05-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-02-03T20:40:04+08:00">
+                2013-02-03
               </time>
             
 
@@ -366,20 +366,88 @@
       
         
           
-            <p>公司大到一定程度，内部创新动力就会不足；如何鼓励创新、二次创业，这里给出斯凯网络的做法：more</p>
+            <p>更换字体后的效果：</p>
+<p><a href="https://ps.toolinbox.net/5us2b.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/jgzgr.jpg" alt=""></a></p>
+<p>以下是根据网络上的教程+自己刷机步骤整理，自己不会忘，也供诸君参考。more</p>
+<hr>
+<p>准备字体</p>
 <ul>
-<li><p>根据公司发展、团队兴趣，提炼出几个项</p>
+<li><p>中文字体建议：</p>
+<ul>
+<li><p>主字体选择“方正准雅宋 ”；</p>
+<ul>
+<li><p>粗体是“方正特雅宋 ”；</p>
 </li>
-<li><p>公司投资项目，团队占20%股份，类似于PE</p>
+<li><p>斜体是“华文中宋斜”</p>
 </li>
-<li><p>公司与团队签订合同，之后项目的人事权、方向全部由团队负</p>
-</li>
-<li><p>两年后，用市场的方法对项目进行估值，然后用公司的股票兑换项目的虚拟股权，相当于内部IP</p>
-</li>
-<li><p>项目越成功，公司利益也越大，二者是统一</p>
+<li><p>粗斜体是“华文中宋粗斜”</p>
 </li>
 </ul>
-<p>视频地址：<a href="http://v.youku.com/v_show/id_XMzk2NDAxMTEy.html" target="_blank" rel="external">http://v.youku.com/v_show/id_XMzk2NDAxMTEy.html</a></p>
+</li>
+</ul>
+</li>
+<li><p>英文字体优化建议：</p>
+<ul>
+<li><p>Serif（衬线）字体由 PMN Caecilia 换成了 Droid Serif，</p>
+<ul>
+<li>Sans Serif（无衬线）字体则由经典的 Helvetica换成了 Droid Sans。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>复制字体，进入调试模式 </strong></p>
+<p>将Kindle通过usb连接至PC，要目录创建fonts文件夹，将CJK.ttf 和CJK_Bold.ttf(前者是普通字体，后者是粗体)。</p>
+<p>然后，为了进入调试模式，需要在kindle根目录下创建一个名为“ENABLE_DIAGS”的空文件。重启设备(Settings -&gt; Menu -&gt; Restart)</p>
+<p><strong>调试模式下开启USBnet </strong></p>
+<p>重启后，设备会自动进入调试模式，将Kindle连上USB线，在菜单中依次选择 Misc individual diagnostics -&gt; Utilities -&gt; Enable USBnet，记录IP地址，一般为192.168.15.244；最后并根据提示按方向键右键确认(FW RIGHT)</p>
+<p><strong>设置网络连接</strong></p>
+<p>Mac下连接新创建的网络节点（Window需要安装驱动），设置该连接IP为：192.168.15.1，子网掩码为：255.255.255.0 ，其它保持默认。</p>
+<p><strong>SSH登录</strong></p>
+<p>现在就可以通过SSH登录了，在Putty中连接到192.168.15.244(这是Kindle的默认地址) ，输入用户名为 root ，密码很有可能为mario；不然看文后链接 。</p>
+<p>ssh root@192.168.15.244</p>
+<p><strong>替换中文字体 </strong></p>
+<p>输入以下命令挂载驱动器：</p>
+<p>mount /dev/mmcblk0p1 /mnt/base-mmc</p>
+<p>复制字体</p>
+<p>cp /mnt/base-us/documents/fonts/CJK.ttf /mnt/base-mmc/usr/java/lib/fonts/</p>
+<p>cp /mnt/base-us/documents/fonts/CJK_Bold.ttf /mnt/base-mmc/usr/java/lib/fonts/</p>
+<p>修改系统默认字体设置</p>
+<p>在修改前，先对系统文件进行备份，有备无患：</p>
+<p>cp /mnt/base-mmc/usr/java/lib/font.properties /mnt/base-mmc/usr/java/lib/font.properties.bak</p>
+<p>然后，执行：</p>
+<p>vi /mnt/base-mmc/usr/java/lib/font.properties</p>
+<p>找到如下行：</p>
+<p>hans.0=MHeiM18030_E.ttf</p>
+<p>hans.plain=MHeiM18030_E.ttf</p>
+<p>hans.1=MHeiM18030_E_Bold.ttf</p>
+<p>hans.bold=MHeiM18030_E_Bold.ttf</p>
+<p>将其修改为（按 i 键进入编辑模式）：</p>
+<p>hans.0=CJK.ttf</p>
+<p>hans.plain=CJK.ttf</p>
+<p>hans.1=CJK_Bold.ttf</p>
+<p>hans.bold=CJK_Bold.ttf</p>
+<p>保存退出(按ESC，输入 :wq)。</p>
+<p>Update：</p>
+<p>经过以上步骤的修改后，语言为中文的书籍就能够正常显示了，但对于未设置语言的书籍，可以用PC上的calibre进行设置。</p>
+<p><strong>退出调试模式 </strong></p>
+<p>在Kindle上退回到调试模式主菜单，并选择”’Exit, Reboot or Disable Diags’”-&gt;”’Disable Diagnostics”,，并按照提示按左键确认（FW Left ）退出。稍等片刻，设备将重启并回到正常模式。</p>
+<p>退出调试模式很慢，按部就班就行 ，k4的系统重启一样需要一些耐心。</p>
+<p>如果再次使用USB进入调试模式，需要建立”enable_diags”文件夹…….</p>
+<p>**到退出调试时提示：pcbid does not match with DSN</p>
+<p>**K4 Black刷砖后的确会有这个问题， 只有这个菜单有问题，其他菜单正常。</p>
+<p>在 USBNETWORK 下 敲：</p>
+<p>idme -d –bootmode main</p>
+<p>reboot</p>
+<p>切换到main，下次就不会自动进入diags模式了。</p>
+<p><strong>链接 </strong></p>
+<p><a href="http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=50925&amp;highlight=kindle%2B4%2B%E5%AD%97%E4%BD%93" target="_blank" rel="external">http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=50925&amp;highlight=kindle%2B4%2B字体</a></p>
+<p><a href="http://bbs.zoopda.com/thread-117055-1-1.html" target="_blank" rel="external">http://bbs.zoopda.com/thread-117055-1-1.html</a></p>
+<p><a href="http://axiu.me/trial/change_font_for_kindle4/" target="_blank" rel="external">http://axiu.me/trial/change_font_for_kindle4/</a></p>
+<p><a href="http://miaoo.in/kindle4-modify-font.html" target="_blank" rel="external">http://miaoo.in/kindle4-modify-font.html</a></p>
+<p><a href="http://bbs.duokan.com/forum/thread-73792-1-1.html" target="_blank" rel="external">http://bbs.duokan.com/forum/thread-73792-1-1.html</a></p>
+<p><a href="http://irising.me/2011/12/12574/" target="_blank" rel="external">http://irising.me/2011/12/12574/</a></p>
+<p><a href="http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=64538&amp;highlight=kindle%2B4%2B%E5%AD%97%E4%BD%93" target="_blank" rel="external">http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=64538&amp;highlight=kindle%2B4%2B字体</a></p>
 
           
         
@@ -423,7 +491,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/276.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/324.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -445,8 +513,8 @@
             
               
                 
-                <a class="post-title-link" href="/276.html" itemprop="url">
-                  李开复《互联网的产品精神》的演讲
+                <a class="post-title-link" href="/324.html" itemprop="url">
+                  需求的生死关
                 </a>
               
             
@@ -462,8 +530,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-05-25T19:44:43+08:00">
-                2012-05-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-11-07T22:08:09+08:00">
+                2012-11-07
               </time>
             
 
@@ -521,25 +589,33 @@
       
         
           
-            <p>视频地址：<a href="http://v.youku.com/v_show/id_XMjcyMDA2MDI4.html" target="_blank" rel="external">http://v.youku.com/v_show/id_XMjcyMDA2MDI4.html</a></p>
-<p>创新与产品经</p>
-<p>创新，不是研究出新的技术、发明、研究，然后通过产学研结合生成新的产品；而是在产品构思的第一天，就整合了用户、技术、商业模式这三者。背后的角色，就是产品经理more</p>
-<p>软件产品成本达到历史新</p>
-<p>三大原因：开源软件、云计算平台（解决带宽、服务器…）、网络商店（方便市场、销售）</p>
-<p>关注用</p>
-<p>用户的痛点可以成为产品的契机，如UC Web对于手机流量</p>
-<p>数据导向很重</p>
-<p>用实验、数据来决策，而不是拍脑袋；互联网可以先推出基础产品，然后根据用户反馈、数据来调整、改进，快速迭代、微创新</p>
-<p>清晰的定</p>
-<p>不能太依赖、迷信用户；在定义产品时，心中首先要用Idea，然后根据用户数据来验证、调整；做什么产品是不能通过用户调查直接得到的；如Hao123的定位：非专业电脑使用者的浏览器首页</p>
-<p>重视细</p>
-<p>自己产品、竞争对手产品骨灰级用户；如Google Search，植物大战僵尸在细节中包含了大量的细节</p>
-<p>别锁在框架</p>
-<p>汽车制造者，曾试图用缰绳来控制汽车</p>
-<p>微创</p>
-<p>很多伟大的创新，都是建立在巨人的肩膀上，整合不同的领域；例如Kik之于短信</p>
-<p>洞悉未</p>
-<p>抢占先机；如果能把握大环境、战略正确，想做错事都不容易</p>
+            <p>不是每个需求都有价值、或者即便有价值也不一定做。确定一个需求做还是不做、何时做，是PM需要考虑的事情，也是需求所面临的生死关。more</p>
+<ul>
+<li><p>是否和主体应用紧密相关</p>
+<ul>
+<li>非常紧密、非做不可 | 一般、最好包含 | 可有可无 | 无关</li>
+</ul>
+</li>
+<li><p>如果做，能给用户带来什么价值、便</p>
+</li>
+<li><p>如果不做有什么坏处，有没有其他替代方</p>
+</li>
+<li><p>如果做，最简要的实现形式是什么，会不会对现有的应用有影</p>
+</li>
+</ul>
+<p>当然，这只是确定这个需求做还是不做，更进一步的还要考虑很多方面</p>
+<ul>
+<li><p>技术可行</p>
+</li>
+<li><p>技术实现成</p>
+</li>
+<li><p>需求细节、Corner Cas</p>
+</li>
+<li><p>如何测试、验</p>
+</li>
+<li><p>如何推广、教育用户</p>
+</li>
+</ul>
 
           
         
@@ -583,7 +659,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/273.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/319.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -605,8 +681,8 @@
             
               
                 
-                <a class="post-title-link" href="/273.html" itemprop="url">
-                  返利网产品总监：怎么做一个好的产品经理
+                <a class="post-title-link" href="/319.html" itemprop="url">
+                  用惯用法快速打造常规用户交互
                 </a>
               
             
@@ -622,8 +698,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-05-24T21:44:24+08:00">
-                2012-05-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-11-06T22:53:00+08:00">
+                2012-11-06
               </time>
             
 
@@ -681,18 +757,23 @@
       
         
           
-            <p>视频地址：<a href="http://v.youku.com/v_show/id_XMzk5NDY5OTgw.html" target="_blank" rel="external">http://v.youku.com/v_show/id_XMzk5NDY5OTgw.html</a></p>
-<p>初</p>
-<p>别忘了为什么要做产品经理</p>
-<p>别得指望</p>
-<p>产品经理不只是PRM、原型、用例…产品经理是为了做出好的产品</p>
-<p>产品经理的价</p>
-<p>发现用户、市场的需求，找到自己合适的解决方案，并在合适的时候、把合适的产品投放到市场上</p>
-<p>沙滩上的</p>
-<p>发现鱼的真正需求：我要呼吸；站在比用户更高的立场上寻找解决方</p>
-<p>别指望救活所有的鱼； 别指望满足所有用户的所有需求</p>
-<p>同理</p>
-<p>站在用户的脚上去思考、体验</p>
+            <p>不是、也没必要每个用户交互都要惊天地、泣鬼神，用惯用法快速打造常规用户交互、或者应用的常规部分，是比较现实、高效的办法。</p>
+<p>more显然，这个话题会比较有争议性，所以先明确问题的前提和边界：</p>
+<ul>
+<li><p>常规用户交</p>
+</li>
+<li><p>项目前</p>
+</li>
+</ul>
+<p>惯用法的例子：登陆</p>
+<p>惯用法可以快速搭建原</p>
+<p>“快”是个宝贵、重要的目标，一旦有了快，接下来的好处就不言而喻。比如，可以更早的进行可用性测试，更快的进行迭代。</p>
+<p>用户已然熟悉某些惯用</p>
+<p>比如说登陆，用户闭着眼睛就知道先输入用户名、再输入密码，就没必要来个创新，让用户先输入密码、再输入用户名。再者，虽然在手机上输入复杂的密码是比较低效的办法，但在没有改进的情况下，大量的应用已经教育了用户，所以即使低效，用户还是能够正常使用。</p>
+<p>当然，强调惯用法并不是否定创</p>
+<p>创新要有基础。脑子里凭空想出点子很难，在现有东西的基础上改进就容易得多，这就是时下比较热门的微创新。所以，惯用法快速打造底子，让微创新变得更具可能性。</p>
+<p>PS：登陆虽然有已经多的惯用法，但其实也是个无尽的话题。特别是随着技术的演进，会有更多的方式，也会有更大的市场，想想手机上输入复杂密码这种低效的方式还可以这么广泛的存在就知道了。</p>
+<p>谁会每一个推出在触摸屏上用指纹登陆呢？</p>
 
           
         
@@ -736,7 +817,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/270.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/310.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -758,8 +839,8 @@
             
               
                 
-                <a class="post-title-link" href="/270.html" itemprop="url">
-                  周鸿祎《怎样才能成为一个优秀的产品经理》的演讲
+                <a class="post-title-link" href="/310.html" itemprop="url">
+                  学习图形设计工具GIMP
                 </a>
               
             
@@ -775,8 +856,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-05-24T21:30:30+08:00">
-                2012-05-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-10-22T21:53:10+08:00">
+                2012-10-22
               </time>
             
 
@@ -834,18 +915,34 @@
       
         
           
-            <p>视频地址：<a href="http://v.youku.com/v_show/id_XMjczMzA0MjQ0.html" target="_blank" rel="external">http://v.youku.com/v_show/id_XMjczMzA0MjQ0.html</a></p>
-<p>产品是基</p>
-<p>包括商业价值等在内，都是建立在优秀的产品基础上</p>
-<p>记住大</p>
-<p>以CEO、养自己的孩子的心态对待产品</p>
-<p>忘掉小</p>
-<p>避免为自己、为周围的同事做产品，而应该真正从用户的角度去考虑、体验</p>
-<p>职位不重</p>
-<p>关键是有能力调动现有的资源，做出优秀的产品</p>
-<p>做产品不一定要创</p>
-<p>利用公司的平台做产品，积累做产品的经验，就已经在为创业做准备</p>
-<p>一句笑语：怎样做好一个产品经理，是需要20包面巾纸才能讲完的一个悲伤的故事。</p>
+            <p>[caption id=”” align=”aligncenter” width=”106”]<a href="https://ps.toolinbox.net/b86mo.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/y6iw7.png" alt="光芒剑"></a> 光芒剑[/caption]</p>
+<p>最近学习了一段时间的GIMP（GNU Image Manipulation Program）（ing…），写点东西纪念下more</p>
+<p>先说下对GIMP这款软件的印象</p>
+<ul>
+<li>小</li>
+</ul>
+<p>这应该是首当其冲的印象。图形设计软件从逻辑和算法上应该是很复杂的软件，像Photoshop动动辄几百MB及至上G的。相比之下，GIMP几十MB的安装文件，确实让我眼前一亮。也许是自己有精简的情节，并不喜欢像传言中有95%的功能用不到的Word，只喜欢自己需要的功能。</p>
+<ul>
+<li>免费、且开</li>
+</ul>
+<p>这是最实在的印象，相比较于Photoshop最低$699的价格，免费、开源实在是很有爱。而且这会增加使用者，培养社区，丰富像插件之类的资源。</p>
+<ul>
+<li>跨平</li>
+</ul>
+<p>支持主流的Windows、Mac、Linux。尤其是Mac，刚刚完成了原生支持，让果粉感觉很亲切。</p>
+<ul>
+<li>兼容行业标准Photosho</li>
+</ul>
+<p>不管Photoshop强大还是难用，它就在那，工业标准。抛开标准自己另辟蹊径太难、风险太大。GIMP之于其的兼容有两方面：一是操作类似，二是数据格式可以相互转换。所以，很安全。</p>
+<p>PM之于图形设</p>
+<p>严格来说，PM和User Experience, Graphics Design是不同的，但实际上有很多的重叠。尤其在国内，往往并没有区别得那么明确，人少的团队，大家都是多面手。所以基本的图形底子，对于PM来说还是必要的</p>
+<p>不过，图形设计毕竟比较博大精深，我也并不打算深入探索，只要了解基本理论（如Layer, Mask, Pattern, Path, Selection, Colors, Filter），常用套路（如使用Mask扣图，使用Guide Lines切图)，熟悉某些工具（如GIMP，MarkMan，IrfanView)就可以了</p>
+<p>用于日常生</p>
+<p>这个有时还是很有用的。现在大家照相、拍视频越来越多，会修片、会编辑视频，就像以前会装机、装软件一样，虽然不再能用来骗妹子，却也实在是居家必备之良药。</p>
+<p>国内外资</p>
+<p>在学习的过程中，确实发现英文、中文资料的悬殊。官网没有最新中文的Tutorial不说，连YouTube和优酷上出来教程也根本不在一个数量级（而且，优酷应该有一多半都是从YouTube上复制过来的）</p>
+<p>BTW，有一个中文的Tutorial中两个工具的名称竟然翻译反了，害得我这个菜鸟晕了半天。</p>
+<p>PS，文章开头的图片，就是GIMP设计的一个小样，以后继续！</p>
 
           
         
@@ -889,7 +986,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/260.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/300.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -911,8 +1008,8 @@
             
               
                 
-                <a class="post-title-link" href="/260.html" itemprop="url">
-                  依靠专业的力量
+                <a class="post-title-link" href="/300.html" itemprop="url">
+                  慢下来，再慢一点
                 </a>
               
             
@@ -928,8 +1025,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-02-17T21:55:21+08:00">
-                2012-02-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-06-04T19:51:15+08:00">
+                2012-06-04
               </time>
             
 
@@ -987,11 +1084,8 @@
       
         
           
-            <p>也许对于你来说难于登天的问题，在行家眼里，只是一句话的事more</p>
-<p>在申请美国签证的时候，需要根据要求拍摄照片。而这张照片的要求非常奇特（至少对我来说），50mm*50mm，头部的比较、头部的大小、背景色都有严格的要求。由于我不熟，花了很多时间做准备工作，心里还是没底。</p>
-<p>结果，去照相馆照相的时候，当我准备仔细的给老板介绍照片要求时，老板说：“美签啊，简单，最近出国的人越来越多了”。然后，分分钟就把照片搞定了。我当时那个雷啊，早知道这样，我花那么多时间准备啥啊？</p>
-<p>专业，真的是专业！</p>
-<p>一个人不可能做所有事情；所以，把自己的事情做得专业，让专业的人帮你做事</p>
+            <p>慢到适合自己的节奏</p>
+<p>学会休息</p>
 
           
         
@@ -1030,7 +1124,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/307/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/307/">307</a><span class="page-number current">308</span><a class="page-number" href="/page/309/">309</a><span class="space">&hellip;</span><a class="page-number" href="/page/316/">316</a><a class="extend next" rel="next" href="/page/309/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/307/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/307/">307</a><span class="page-number current">308</span><a class="page-number" href="/page/309/">309</a><span class="space">&hellip;</span><a class="page-number" href="/page/318/">318</a><a class="extend next" rel="next" href="/page/309/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1075,7 +1169,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1578</span>
+                <span class="site-state-item-count">1586</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
