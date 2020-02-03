@@ -268,6 +268,330 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/410.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/410.html" itemprop="url">
+                  使用Seafile架设私有云：局域网使用
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-05-10T17:21:56+08:00">
+                2014-05-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>关于版本等信息，本文使用的是2014年5月10日的最新版，你看到本文时可能已经有更新，可以到<a href="http://seafile.com" target="_blank" rel="external">Seafile</a><a href="http://seafile.com" target="_blank" rel="external">官网</a>上查看</p>
+<p>关于一些技术细节，写得太细了怕招人烦，写得粗略又怕看不懂。本文并不知道看官道行有多深，所以并不确定该写到什么程度。如果觉得太琐碎，就请快速扫过；如果觉得看不太懂，可以联络我，或者请教万能的Google，毕竟你看这篇文章说明动手能力还是不错的</p>
+<p>关于什么是私有云，就真的只能Google了</p>
+<h2 id="安装Python"><a href="#安装Python" class="headerlink" title="安装Python"></a>安装Python</h2><p>Seafile服务器端运行需要Python，所以要先安装Python</p>
+<p>下载安装<a href="https://www.python.org/" target="_blank" rel="external">Python 2.7.6</a>，注意不要使用Python 3.x，Seafile目前不支持</p>
+<p>将Python的安装路径添加至Windows环境变量PATH中</p>
+<p>至此，Python的安装及配置就好了</p>
+<h2 id="安装Seafile服务器"><a href="#安装Seafile服务器" class="headerlink" title="安装Seafile服务器"></a>安装Seafile服务器</h2><p>Seafile服务器端支持Windows、Linux、Raspberry Pi（其实仍为Linux）等系统，本文使用Windows 7作为Seafile服务器</p>
+<p><a href="http://seafile.com/download/" target="_blank" rel="external">下载Seafile Windows端服务器3.0.2</a><a href="http://seafile.com/download/" target="_blank" rel="external">版</a>，直接解压缩至运行目录即可。建议将其放到纯英文、不带空格的简单目录，如C:\Program\seafile-server-3.0.2</p>
+<p>运行解压缩根目录的run.bat（需要管理员权限），依次进行如下配置more</p>
+<ul>
+<li><p>选择一个磁盘，Seafile会在些磁盘下创建seafile-server目录，Seafile服务器相关的数据将会保存在此</p>
+</li>
+<li><p>在弹出的Windows防火墙（如果打开的话）依次允许”ccnet-server”、”seaf-server”、”httpserver”使用网</p>
+</li>
+<li><p>如果有杀毒软件的话，也允许上述程序使用网</p>
+</li>
+<li><p>注：建议Seafile加入签名机制，并加入主流杀毒软件、防火墙软件的白名单中，这样看起来就不像病毒软件</p>
+</li>
+<li><p>右击任务栏托盘中的Seafile Server图标，创建管理员账户</p>
+</li>
+</ul>
+<p>检查Seafile服务器是否正确安装运行</p>
+<p>获取电脑IP，如192.168.1.101。在浏览器中访问<a href="http://192.168.1.101:8000，注意，8000为默认端口，如果有冲突则使用实际端口。使用刚刚创建的账户登陆，如果能使用则说明一切正常" target="_blank" rel="external">http://192.168.1.101:8000，注意，8000为默认端口，如果有冲突则使用实际端口。使用刚刚创建的账户登陆，如果能使用则说明一切正常</a></p>
+<p>至此，Seafile服务器安装配置告一段落</p>
+<h2 id="安装并测试Windows客户端"><a href="#安装并测试Windows客户端" class="headerlink" title="安装并测试Windows客户端"></a>安装并测试Windows客户端</h2><p>Seafile Windows客户端和一般的程序一样，下载安装即可</p>
+<p>运行程序，会要求选择一个目录来存放Seafile的数据</p>
+<p>在添加账号时，服务器使用刚刚创建的地址，如<a href="http://192.168.1.101:8000" target="_blank" rel="external">http://192.168.1.101:8000</a>，服务器默认端口为8000，如果在创建服务器过程中出现端口冲突而选择了其它端口，则使用实际的端口。邮箱和密码则使用刚刚创建的管理员账户</p>
+<p>创建成功后，客户端会下载默认资料库 打开资料库（即运行程序时选择存放Seafile的数据的目录），可以看到有默认的文件”seafile-tutorial”。为了测试，添加任意文件</p>
+<p>至此，Seafile Windows客户端安装配置结束</p>
+<h2 id="安装并测试iOS客户端"><a href="#安装并测试iOS客户端" class="headerlink" title="安装并测试iOS客户端"></a>安装并测试iOS客户端</h2><p>注：Android类似，就不再赘述</p>
+<p>像一般的iOS App一新，在App Store中搜索Seafile下载安装即可</p>
+<p>打开App后，使用和Windows客户端一样的地址和账户登陆。</p>
+<p>注意：此时要保证手机和安装Seafile Windows服务器的电脑在同一局域网内</p>
+<p>进入后，如果能看到之前在Windows客户端上添加的测试文件，即说明Seafile服务器确实配置成功</p>
+<p><strong>至此，就完成了Seafile服务器在局域网内的配置及使用</strong></p>
+<h3 id="下一步"><a href="#下一步" class="headerlink" title="下一步"></a>下一步</h3><p>如何能在局域网之外即公网使用Seafile？这就需要更进一步的设置了，请看<a href="http://itguwen.net/306.html" target="_blank" rel="external">使用Seafile架设私有云：公网基础使用</a></p>
+<p>转自：<a href="http://itguwen.net/294.html" target="_blank" rel="external">使用Seafile架设私有云：局域网使用</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/406.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/406.html" itemprop="url">
+                  投机与投入
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-04-10T15:36:51+08:00">
+                2014-04-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/北冥/" itemprop="url" rel="index">
+                    <span itemprop="name">北冥</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>现在的投机换得将来的后悔，现在的投入换来以后的收获。有因必有果。</p>
+<p>工作时，我们可以投机，偷懒少干点活，能做得好的却随便应付。公司、客户可能并不会发现，或者知道了也没什么办法催促。可是，日久见人心，对方终究会了解。</p>
+<p>而且，在这些宝贵的时间，如果我们没有投入得去做事，也就不会有什么收获。上上网、刷刷微博、瞧瞧朋友圈只会让我们从无聊变得更无聊。在日后要写的简历上，这段时间必不会有亮点。</p>
+<p>投入得去做事，哪怕是别人根本无法知道、没有激励的事。不浪费青春、对得起自己。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/358.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -819,432 +1143,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/343.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/343.html" itemprop="url">
-                  怎么设置好记又复杂的密码
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-11-01T11:26:42+08:00">
-                2013-11-01
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><em>*简单的密码是很容易破解，复杂的却很难</em></p>
-<p>• 如果采用暴力破解的方式破解密码，按每秒100万次计</p>
-<p>• 如果是6位数字密码破解仅需1秒钟，16位数字密码需要317</p>
-<p>• 如果是加上字母，6位需要半个小时，16位需要252367488266</p>
-<p>• 如果是大小写字母外加标点符号，6位需要8天，16位需要1178254346886418432年</p>
-<p><em>*怎样才是复杂的密码more</em></p>
-<p>• 至少八个字符，越长越</p>
-<p>• 包含了大小写字母、数字和符</p>
-<p>基于这些标准，下列密码可作为强密码的示例</p>
-<p>• d&amp;C24!Zp&gt;&gt;l</p>
-<p>• *M@a09(b(aTQ</p>
-<p><em>*怎样创建不易破解且便于记忆的密码</em></p>
-<p>一种技巧是，选择一个短语，但仅使用每个单词的首位字</p>
-<p>• 例</p>
-<p>○ 我喜欢吃西瓜和苹果</p>
-<p>• 提取句子中每个单词的首字</p>
-<p>○ 密码：wxhcxghep</p>
-<p>• 替换特殊字</p>
-<p>○ 第一个字母大</p>
-<p>§ Wxhcxghep</p>
-<p>○ 在单词间、或最后添加你容易记住的特殊字符，如~`!@#$%^&amp;*()”;:?</p>
-<p>§ Wxhcxg&amp;pg</p>
-<p>○ @替换</p>
-<p>○ !替换</p>
-<p>○ 零 (0) 替换</p>
-<p>○ $替换</p>
-<p>○ 3替换</p>
-<p>• 这将是一个破解难度极高而您自己却可以轻松记住的密</p>
-<p>○ Wxhcxg&amp;pg%</p>
-<p>另一个技巧是用数字和符号将几个单词串在一</p>
-<p>• 2番茄炒3个鸡</p>
-<p>○ 2fanqie3jida</p>
-<p>• 根据之前 的规则转</p>
-<p>○ -&gt; 2Fanqie3jida</p>
-<p>○ -&gt; 2Fanqie+3jida</p>
-<p>○ -&gt; 2Fanqie+3jidan#</p>
-<p>再一个技巧是，着眼于即将到来的活动或对您有特殊意义的事</p>
-<p>• 如，儿子在10月25号考</p>
-<p>○ erzi1025kaosh</p>
-<p>• 根据之前 的规则转</p>
-<p>○ -&gt; Erzi1025kaosh</p>
-<p>○ -&gt; Erzi@1025kaosh</p>
-<p>○ -&gt; Erzi@1025kaoshi%</p>
-<p><em>*不要使用相同的密码</em></p>
-<p>• 如果您实在不想设置无数的密码，可以在某一密码是做变</p>
-<p>• 变种规则可采用你比较容易记住的。比如，拆开目标拼音的首字母，放在基础密码的前后</p>
-<p>○ 比如，基础密码为”8kak@&amp;A</p>
-<p>○ 微博密码为”W8kak@&amp;Ab</p>
-<p>○ 微信密码为”W8kak@&amp;Ax</p>
-<p>• 重要密码还是要和变种的密码不同</p>
-<p><em>*附加建议</em></p>
-<p>• 不要使用个人信息，例如自己 ID 的派生形式、家庭成员的姓名、汽车牌照、电话号码、宠物、生日、身份证号、地址</p>
-<p>• 不要在你不信任的电脑输入重要密</p>
-<p>• 不要与任何人共享您的密</p>
-<p>• 经常做出更改 。新密码应与前一个密码有很大差别；哪怕是增加一个字符也好，或者加上（?lACPAs56IKMs111111111111111111111111111″）N个1也</p>
-<p>• 不要害怕创建长密码。尽管密码很长，但如果您自己可以轻松记住，总比密码被盗时追悔莫急来得好。</p>
-<p>你的密码是？哈哈，来微软安全中心检测下你的密码强度：<a href="https://www.microsoft.com/zh-cn/security/pc-security/password-checker.aspx" target="_blank" rel="external">https://www.microsoft.com/zh-cn/security/pc-security/password-checker.aspx</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/330.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/330.html" itemprop="url">
-                  Kindle 4 原生系统替换中文字体
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-02-03T20:40:04+08:00">
-                2013-02-03
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>更换字体后的效果：</p>
-<p><a href="https://ps.toolinbox.net/5us2b.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/jgzgr.jpg" alt=""></a></p>
-<p>以下是根据网络上的教程+自己刷机步骤整理，自己不会忘，也供诸君参考。more</p>
-<hr>
-<p>准备字体</p>
-<ul>
-<li><p>中文字体建议：</p>
-<ul>
-<li><p>主字体选择“方正准雅宋 ”；</p>
-<ul>
-<li><p>粗体是“方正特雅宋 ”；</p>
-</li>
-<li><p>斜体是“华文中宋斜”</p>
-</li>
-<li><p>粗斜体是“华文中宋粗斜”</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>英文字体优化建议：</p>
-<ul>
-<li><p>Serif（衬线）字体由 PMN Caecilia 换成了 Droid Serif，</p>
-<ul>
-<li>Sans Serif（无衬线）字体则由经典的 Helvetica换成了 Droid Sans。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><strong>复制字体，进入调试模式 </strong></p>
-<p>将Kindle通过usb连接至PC，要目录创建fonts文件夹，将CJK.ttf 和CJK_Bold.ttf(前者是普通字体，后者是粗体)。</p>
-<p>然后，为了进入调试模式，需要在kindle根目录下创建一个名为“ENABLE_DIAGS”的空文件。重启设备(Settings -&gt; Menu -&gt; Restart)</p>
-<p><strong>调试模式下开启USBnet </strong></p>
-<p>重启后，设备会自动进入调试模式，将Kindle连上USB线，在菜单中依次选择 Misc individual diagnostics -&gt; Utilities -&gt; Enable USBnet，记录IP地址，一般为192.168.15.244；最后并根据提示按方向键右键确认(FW RIGHT)</p>
-<p><strong>设置网络连接</strong></p>
-<p>Mac下连接新创建的网络节点（Window需要安装驱动），设置该连接IP为：192.168.15.1，子网掩码为：255.255.255.0 ，其它保持默认。</p>
-<p><strong>SSH登录</strong></p>
-<p>现在就可以通过SSH登录了，在Putty中连接到192.168.15.244(这是Kindle的默认地址) ，输入用户名为 root ，密码很有可能为mario；不然看文后链接 。</p>
-<p>ssh root@192.168.15.244</p>
-<p><strong>替换中文字体 </strong></p>
-<p>输入以下命令挂载驱动器：</p>
-<p>mount /dev/mmcblk0p1 /mnt/base-mmc</p>
-<p>复制字体</p>
-<p>cp /mnt/base-us/documents/fonts/CJK.ttf /mnt/base-mmc/usr/java/lib/fonts/</p>
-<p>cp /mnt/base-us/documents/fonts/CJK_Bold.ttf /mnt/base-mmc/usr/java/lib/fonts/</p>
-<p>修改系统默认字体设置</p>
-<p>在修改前，先对系统文件进行备份，有备无患：</p>
-<p>cp /mnt/base-mmc/usr/java/lib/font.properties /mnt/base-mmc/usr/java/lib/font.properties.bak</p>
-<p>然后，执行：</p>
-<p>vi /mnt/base-mmc/usr/java/lib/font.properties</p>
-<p>找到如下行：</p>
-<p>hans.0=MHeiM18030_E.ttf</p>
-<p>hans.plain=MHeiM18030_E.ttf</p>
-<p>hans.1=MHeiM18030_E_Bold.ttf</p>
-<p>hans.bold=MHeiM18030_E_Bold.ttf</p>
-<p>将其修改为（按 i 键进入编辑模式）：</p>
-<p>hans.0=CJK.ttf</p>
-<p>hans.plain=CJK.ttf</p>
-<p>hans.1=CJK_Bold.ttf</p>
-<p>hans.bold=CJK_Bold.ttf</p>
-<p>保存退出(按ESC，输入 :wq)。</p>
-<p>Update：</p>
-<p>经过以上步骤的修改后，语言为中文的书籍就能够正常显示了，但对于未设置语言的书籍，可以用PC上的calibre进行设置。</p>
-<p><strong>退出调试模式 </strong></p>
-<p>在Kindle上退回到调试模式主菜单，并选择”’Exit, Reboot or Disable Diags’”-&gt;”’Disable Diagnostics”,，并按照提示按左键确认（FW Left ）退出。稍等片刻，设备将重启并回到正常模式。</p>
-<p>退出调试模式很慢，按部就班就行 ，k4的系统重启一样需要一些耐心。</p>
-<p>如果再次使用USB进入调试模式，需要建立”enable_diags”文件夹…….</p>
-<p>**到退出调试时提示：pcbid does not match with DSN</p>
-<p>**K4 Black刷砖后的确会有这个问题， 只有这个菜单有问题，其他菜单正常。</p>
-<p>在 USBNETWORK 下 敲：</p>
-<p>idme -d –bootmode main</p>
-<p>reboot</p>
-<p>切换到main，下次就不会自动进入diags模式了。</p>
-<p><strong>链接 </strong></p>
-<p><a href="http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=50925&amp;highlight=kindle%2B4%2B%E5%AD%97%E4%BD%93" target="_blank" rel="external">http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=50925&amp;highlight=kindle%2B4%2B字体</a></p>
-<p><a href="http://bbs.zoopda.com/thread-117055-1-1.html" target="_blank" rel="external">http://bbs.zoopda.com/thread-117055-1-1.html</a></p>
-<p><a href="http://axiu.me/trial/change_font_for_kindle4/" target="_blank" rel="external">http://axiu.me/trial/change_font_for_kindle4/</a></p>
-<p><a href="http://miaoo.in/kindle4-modify-font.html" target="_blank" rel="external">http://miaoo.in/kindle4-modify-font.html</a></p>
-<p><a href="http://bbs.duokan.com/forum/thread-73792-1-1.html" target="_blank" rel="external">http://bbs.duokan.com/forum/thread-73792-1-1.html</a></p>
-<p><a href="http://irising.me/2011/12/12574/" target="_blank" rel="external">http://irising.me/2011/12/12574/</a></p>
-<p><a href="http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=64538&amp;highlight=kindle%2B4%2B%E5%AD%97%E4%BD%93" target="_blank" rel="external">http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=64538&amp;highlight=kindle%2B4%2B字体</a></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/310/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/310/">310</a><span class="page-number current">311</span><a class="page-number" href="/page/312/">312</a><span class="space">&hellip;</span><a class="page-number" href="/page/321/">321</a><a class="extend next" rel="next" href="/page/312/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/310/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/310/">310</a><span class="page-number current">311</span><a class="page-number" href="/page/312/">312</a><span class="space">&hellip;</span><a class="page-number" href="/page/322/">322</a><a class="extend next" rel="next" href="/page/312/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1289,7 +1192,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1605</span>
+                <span class="site-state-item-count">1607</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
