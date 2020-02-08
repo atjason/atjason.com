@@ -268,6 +268,190 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-25.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2018-01-25.html" itemprop="url">
+                  0125 - EOS 编程学习日志（2）
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-25T22:00:00+08:00">
+                2018-01-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>关于 EOS 学习，今天还是有些收获的。</p>
+<h2 id="关于去中心化的理解"><a href="#关于去中心化的理解" class="headerlink" title="关于去中心化的理解"></a>关于去中心化的理解</h2><p>首先，我对去中心化的理解也在不断学习中，以下表述不一定正确，君且一听。</p>
+<p><strong>要理解去中心化，首先来对比看看中心化。</strong></p>
+<p>比如，我们要实现一个在线五子棋的游戏（只是我随便举的例子，方便理解），需要这些元素：</p>
+<ul>
+<li>定义游戏的规则<ul>
+<li>比如，如果已经在某个点上下了一个子，就不能重复在相同的点上下子</li>
+<li>比如，满足连续五子，即可以赢了比赛</li>
+</ul>
+</li>
+<li>记录游戏的状态<ul>
+<li>比如，谁在哪些点上下了子</li>
+</ul>
+</li>
+<li>执行游戏的规则<ul>
+<li>比如，当一方出现连续五子时，判定其赢，且结束比赛</li>
+</ul>
+</li>
+<li>权限<ul>
+<li>比如，谁有权加入比赛</li>
+</ul>
+</li>
+</ul>
+<p>在中性化的设计中，很明显上述元素都是在中心服务器中完成的。那对于区块链、也即 EOS 中，是如何对应的呢？</p>
+<ul>
+<li>记录游戏的状态<ul>
+<li>这是记录在区块中的</li>
+</ul>
+</li>
+<li>定义、执行游戏的规则<ul>
+<li>这是包含在智能合约（contract）中的，也即 .hpp/.cpp 所转换的 .abi/.wast 中的代码</li>
+</ul>
+</li>
+<li>权限<ul>
+<li>这是记录在 account 及 wallet 中的</li>
+</ul>
+</li>
+</ul>
+<p>可以看出，<strong>去中心化并不能减少这个程序中的任一环节，只是用自己的方式来实现</strong>。在初入区块链领域时，可以借助中心化的思路来帮助理解。但如果真的要彻底进入区块链的世界，还是要慢慢切换为去中心化的思维模式。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/daily/2018-01-25.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-24.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -900,182 +1084,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-20.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2018-01-20.html" itemprop="url">
-                  0120 - Kindle 导出标注时，如何破除 <您已达到本内容的剪贴上限> 这一限制？
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-20T22:00:00+08:00">
-                2018-01-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>使用 Kindle 的重度用户会知道，在 Kindle 上读书时可以任性标注，但在导出标注时则有限制：<strong>Kindle 限制能导出的标注的文字总数</strong>。这个比例没有明文规定，各本书也有不同，通常理解是一本书所有内容的 10%；一旦超出这一限制，导出时则会看到恼人的 <code>&lt;您已达到本内容的剪贴上限&gt;</code>。</p>
-<p><img src="https://ps.toolinbox.net/r0f3c.png" alt=""></p>
-<p>如果大家遇到这个问题，又实在想导出所有的标注，<strong>怎么办呢？可以这样操作</strong>：</p>
-<ul>
-<li>先使用 <a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib</a> 导入 Kindle 中的标注。</li>
-<li>使用 Kindle for macOS 继续下面的操作（因为效率高）<ul>
-<li><a href="https://www.amazon.cn/kindleformac" target="_blank" rel="external">点击这里，从亚马逊下载最新版 Kindle for macOS</a></li>
-</ul>
-</li>
-<li>在 Kindle for macOS 中删除已经导入的标注。<ul>
-<li>可以在 Klib 中查看最后一条标注的内容，在 Kindle for macOS 中搜索这条标注，然后删除这条标注前面所有的标注。</li>
-<li>同时，在 Klib 中多选 <code>&lt;您已达到本内容的剪贴上限&gt;</code> 对应的标注，右击并删除。</li>
-</ul>
-</li>
-<li>将剩下的标注导出为 html 文件，操作示意：<ul>
-<li><img src="https://ps.toolinbox.net/vo0ua.jpg" alt=""></li>
-</ul>
-</li>
-<li>使用 Klib 导入 html 文件<ul>
-<li>点击 Klib <code>文件</code> 菜单，选择 <code>从 Kindle 导入…</code>，然后选择刚才导出的 html 文件。</li>
-</ul>
-</li>
-<li>如果 Klib 依然有 <code>&lt;您已达到本内容的剪贴上限&gt;</code>，重复上面的步骤：删除已导入的、重新导出、然后导入。</li>
-</ul>
-<p>我测试过，这个办法是有效的。技术上，是 Kindle 在导出标注时，会机械地判断导出的内容是否过多。而一旦删除已经导入的标注，自然能向后延伸，导出后面更多的标注。</p>
-<p>这个方法有 2 个潜在的问题需要注意：</p>
-<ol>
-<li>标注一旦导出，就无法在 Kindle 中展现了。</li>
-<li>一旦删除，Amazon 是不会替你恢复的。<ul>
-<li>你要自己保存标注（比如使用 Klib 管理，并定期备份）</li>
-</ul>
-</li>
-</ol>
-<p>这 2 点请大家知会。如果理解了，就可以放心地使用上述方法，<strong>完整导出你自己花时间做出的读书笔记</strong>。</p>
-<p>祝，阅读愉快。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1125,7 +1133,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1611</span>
+                <span class="site-state-item-count">1612</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

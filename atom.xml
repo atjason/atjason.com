@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2020-02-07T15:50:12.979Z</updated>
+  <updated>2020-02-08T15:45:23.783Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0207 - 「视字」上线</title>
+    <link href="https://atjason.com/daily/2020-02-08.html"/>
+    <id>https://atjason.com/daily/2020-02-08.html</id>
+    <published>2020-02-07T14:00:00.000Z</published>
+    <updated>2020-02-08T15:45:23.783Z</updated>
+    
+    <content type="html"><![CDATA[<p>折腾了差不多一周，「视字」小程序上线了。</p>
+<p><img src="https://ps.toolinbox.net/2m0o8.png" width="200px"></p>
+<p>用法很简单：选择视频，等待，即可识别出视频中的文字。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybply1gbpf7wv843g30880hshdu.gif" alt=""></p>
+<p>欢迎扫码一试，也请帮忙介绍给周围需要的朋友。</p>
+<p>使用过程中遇到任何问题，可以点击应用底部的「反馈」，我这个小客服会很负责的哦~</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;折腾了差不多一周，「视字」小程序上线了。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/2m0o8.png&quot; width=&quot;200px&quot;&gt;&lt;/p&gt;
+&lt;p&gt;用法很简单：选择视频，等待，即可识别出视频中的文字。&lt;/p&gt;
+&lt;p&gt;&lt;img sr
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0207 - 「视字」收尾</title>
@@ -154,11 +183,11 @@
     <link href="https://atjason.com/daily/2020-02-02.html"/>
     <id>https://atjason.com/daily/2020-02-02.html</id>
     <published>2020-02-02T14:00:00.000Z</published>
-    <updated>2020-02-02T09:39:14.059Z</updated>
+    <updated>2020-02-08T04:00:17.797Z</updated>
     
     <content type="html"><![CDATA[<p>最近在看特*朗-普的自传，目前感触最深的便是：精明不过商人。</p>
 <p>其中一个表现是，不论发生什么情况，都有应对之策。比如，买了一个地皮，准备盖大厦，需要一系列审批。如果审批能下来，自然最好；如果不能下来，也有把握溢价将地皮出手。</p>
-<p>这样一位精明的商人总统，在中美关系中，基本他总是想占便宜的。要想让他吃瘪，那简单太难了。基本上，更可行的还是在互利的基础上，让一部分利给对方。</p>
+<p>这样一位精明的商人总统，在中美关系中，基本他总是想占便宜的。要想让他吃瘪，那简直太难了。基本上，更可行的还是在互利的基础上，让一部分利给对方。</p>
 ]]></content>
     
     <summary type="html">
@@ -492,31 +521,6 @@
     
       &lt;p&gt;目前在做 BTC/ETH 价差套利，上次吃到 4% 价差，然后接着几天都没行情。没行情的日子，等待有点难熬。还好现在是春节期间，本就没大块时间干活，不然肯定更难受。&lt;/p&gt;
 &lt;p&gt;从回测的数据来看，几天一次的行情频率，也算是正常。不过，等春节过了、有大块时间了，还是要再研究
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0119 - 有钱与有才</title>
-    <link href="https://atjason.com/daily/2020-01-19.html"/>
-    <id>https://atjason.com/daily/2020-01-19.html</id>
-    <published>2020-01-19T14:00:00.000Z</published>
-    <updated>2020-01-19T13:31:43.458Z</updated>
-    
-    <content type="html"><![CDATA[<p>回家还有个感触：有钱家希望自己的后代有才，有才家希望自己的后代有钱。</p>
-<p>有钱家，通常是几代人奋力打拼的结果。尤其，一些人甚至不识字，硬是凭一把力气致富。这样的家庭，吃了太多没文化的亏，这教训是刻在骨子里的。于是，面对子孙的教育，无比的上心，一心希望自己的后代有文化。对于赚钱这事，他们反倒不太担心。毕竟，他们有过致富的经验，相信钱是好赚的，难的是学文化。</p>
-<p>有才家，也就是子女上学成绩好的，很多都是寒窗苦读，家境并不好。做父母的，没别的本事，就希望后代通常读书改变命运。他们让后代求学的目的，其实还是求财。就算有大学文凭，最后还是要用钱来装点门面。对于赚钱这事，他们没经验，也最是上心，希望自己的后代不再像自己一样吃没钱的亏。对于有文化，他们反倒不担心，知道只要学，肯定能学会。而且，他们可能觉得有钱比有文化更好。</p>
-<p>真是非常典型的两类人，各自站在自己的山头，望着那山高。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;回家还有个感触：有钱家希望自己的后代有才，有才家希望自己的后代有钱。&lt;/p&gt;
-&lt;p&gt;有钱家，通常是几代人奋力打拼的结果。尤其，一些人甚至不识字，硬是凭一把力气致富。这样的家庭，吃了太多没文化的亏，这教训是刻在骨子里的。于是，面对子孙的教育，无比的上心，一心希望自己的后代有文
     
     </summary>
     
