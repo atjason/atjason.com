@@ -69,7 +69,7 @@
 <meta property="og:url" content="https://atjason.com/daily/2020-02-11.html">
 <meta property="og:site_name" content="Jason">
 <meta property="og:description" content="项目中，经常需要使用邮件来发送一些信息，比如重要错误、自己关心的信息等等。 市面上有很多类似的消息推送服务，比如 Server酱、PushBear，接口也很简单。只是我目前还是习惯于用邮件来管理这些信息。每个项目重复一个邮件模块挺烦的，而且像小程序这样的环境，又不支持发邮件。于是自己做了一个： https://github.com/atjason/email_message 首先，你需要更新项目中">
-<meta property="og:updated_time" content="2020-02-11T23:14:46.068Z">
+<meta property="og:updated_time" content="2020-02-11T23:28:36.245Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="0211 - 邮件发送">
 <meta name="twitter:description" content="项目中，经常需要使用邮件来发送一些信息，比如重要错误、自己关心的信息等等。 市面上有很多类似的消息推送服务，比如 Server酱、PushBear，接口也很简单。只是我目前还是习惯于用邮件来管理这些信息。每个项目重复一个邮件模块挺烦的，而且像小程序这样的环境，又不支持发邮件。于是自己做了一个： https://github.com/atjason/email_message 首先，你需要更新项目中">
@@ -368,6 +368,7 @@
 <p>然后，你需要有服务器、域名，然后把以上服务配置到服务器中，使用 <code>nginx</code> 等服务器应用完成网络转发。</p>
 <p>这些完了之后，客户端请求就很容易了。假设部署的域名是 <code>https://example.com</code>，只需要发一个网络请求，如 <code>https://example.com/?s=SECRET&amp;t=title</code>，就会发一封邮件标题为 <code>title</code>、正文为空的邮件。其中 <code>SECRET</code> 用于阻止非法访问，达到一定程度的安全性。更多参数，可在项目中查看，或者自己设置。</p>
 <p>一些信息：我后台是使用 <code>Gmail</code> 来发送邮件。可以先注册一个小号，专门用于发邮件。然后允许其在非安全环境登录。如果首次在一个 IP 等环境使用该账户发邮件时，会因安全提示而阻止。此时，只需在浏览器中访问提示中的网址，进行安全验证即可。我的服务器部署在国外，因此没有那个神奇问题的干扰。</p>
+<p>当然，你也可以使用其他邮件服务。另外，一般的云服务也提供邮件服务，每天也有大约 200 的免费发送量，对个人基本也是够的。不过，以我测试的经验，触达率不好说。即使是把发送方加入收件人的联系人或白名单，也会出现发送成功、但收不到、垃圾邮箱里也没有的情况。而 <code>Gmail</code> 是我测试下来最让人放心的。</p>
 
       
     </div>
