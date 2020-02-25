@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2020-02-23T13:15:13.950Z</updated>
+  <updated>2020-02-25T15:04:03.734Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,56 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0225 - 做小工具的乐趣</title>
+    <link href="https://atjason.com/daily/2020-02-25.html"/>
+    <id>https://atjason.com/daily/2020-02-25.html</id>
+    <published>2020-02-25T14:00:00.000Z</published>
+    <updated>2020-02-25T15:04:03.734Z</updated>
+    
+    <content type="html"><![CDATA[<p>Namebase 的交易所网页（<a href="https://www.namebase.io/pro" target="_blank" rel="external">https://www.namebase.io/pro</a> ）布局比较生硬，自己不习惯，又不能拖拽调整。于是自己做了个 Chrome 插件，可以按自己的喜好调整布局，顿时感觉舒爽。</p>
+<p>有能力做个小工具，提高效率、也让自己感觉舒服，这真是件惬意的事。</p>
+<p>当然了，这个小工具我也开源了：</p>
+<p><a href="https://github.com/atjason/namebase-chrome" target="_blank" rel="external">https://github.com/atjason/namebase-chrome</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Namebase 的交易所网页（&lt;a href=&quot;https://www.namebase.io/pro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.namebase.io/pro&lt;/a&gt; ）布局比较生硬，自己不习惯，又不能拖拽调
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0224 - 权力的滥用</title>
+    <link href="https://atjason.com/daily/2020-02-24.html"/>
+    <id>https://atjason.com/daily/2020-02-24.html</id>
+    <published>2020-02-24T14:00:00.000Z</published>
+    <updated>2020-02-24T15:05:23.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，当孩子小的时候，父母在体力上占用绝对辗压优势。只要愿意，几乎可以随时、无偿地打骂小孩，这就是权力。当权力不被约束时，更是权力。</p>
+<p>就像墨菲法则一样，只要权力有被滥用的可能，就一定会被滥用。最有效的，就是增加约束的时效性。</p>
+<p>比如，打了孩子，孩子就不和自己亲近，将来长大后更是如此。可毕竟长大后的事太过遥远，无法对现在产生影响。爷爷奶奶辈的，则可以不断重复将来可能的事，算是提高了时效性，用将来可能的影响，来影响现在，以达到心疼小辈的目的。</p>
+<p>说的有点乱。对于自己，就是要提醒自己，小孩的任性、不配合，确实很容易激怒耐心丧失的父母。不过，打骂，更多时候不是教育，只是发泄自己心中的怒火，只是权力的滥用。打则打矣，可别拿当教育来当挡箭牌。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，当孩子小的时候，父母在体力上占用绝对辗压优势。只要愿意，几乎可以随时、无偿地打骂小孩，这就是权力。当权力不被约束时，更是权力。&lt;/p&gt;
+&lt;p&gt;就像墨菲法则一样，只要权力有被滥用的可能，就一定会被滥用。最有效的，就是增加约束的时效性。&lt;/p&gt;
+&lt;p&gt;比如，打了孩子，孩子
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0223 - 知道在赚谁的钱</title>
@@ -493,62 +543,6 @@
     
       &lt;p&gt;今天在写小程序云函数，为了不依赖第三方库，自动手动实现鉴权，并找单独的 base64/md5/hmac/post 等单文件实现的版本。最后，终于还是实现功能了，可惜花的时间太多了。本打算今天放出体验版的，结果还是做不到。&lt;/p&gt;
 &lt;p&gt;好处是，有些工作只用做一次，下次直接复
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0205 - 「视字」小程序继续踩坑</title>
-    <link href="https://atjason.com/daily/2020-02-05.html"/>
-    <id>https://atjason.com/daily/2020-02-05.html</id>
-    <published>2020-02-05T14:00:00.000Z</published>
-    <updated>2020-02-05T16:14:01.135Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天早上把「<strong>视字</strong>」小程序的 <strong>体验版</strong> 做出来了，也发给了几个人试用，暴露出了很多问题。最关键的是，<strong>太太慢了</strong>。</p>
-<p>首先，我使用了 <a href="https://file.io" target="_blank" rel="external">https://file.io</a> 进行 <strong>文件中转</strong>。这个是国外的服务，之前一直开代理没感觉；在普通网络下，上传很慢，甚至可能会有超时之类的错误。</p>
-<p>然后，发现正在使用的、免费的 <strong>在线格式转换服务</strong>，其中限制了每天 30 分钟额度。哎，大意了。之前其实我是看了价格的，没注意到。并且，这个也是国外的服务，也有慢的问题。</p>
-<p>由于这两个问题，现在的方案必须得有大的调整。现在可行的方案是：<strong>使用国内的云存储，上传视频后自动转码</strong>。本以为这是很成熟的服务了，没想到还是有很多坑。</p>
-<p>首先，我试用了 <strong>阿里云和腾讯云</strong> 的相关服务，发现有个致命的问题：<strong>音频的最低采样率大于 16k Hz</strong>。而 <strong>搜狗的音频识别必须使用 16k 的采样率</strong>。发工单问了客服，告知确实不行。哎，没办法，只能放弃这两家。</p>
-<p>然后去看了 <strong>七牛</strong>。恩，看起来老实厚道七牛是没问题的，可真的一试，又发现一个坑：<strong>音频转码时不支持设置 bit per sample</strong>（中文是分辨率？位深？）。这也麻烦了，因为 <strong>搜狗的音频识别必须使用 8 bit 或 16 bit 的分辨率</strong>。理论上，可以通过设置码率（因为码率 = 采样率 <em> 位深 </em> 声道数）来倒过来设置位深，而实际测试并不工作。发工单给七牛，无奈这有点专业，售后解决不了，得等他们技术来支持。<strong>现在，这事卡在这了</strong>，除非我再去找一家云服务。</p>
-<p>同时，我又去了解了下 <strong><a href="https://ai.qq.com/doc/wxasrlong.shtml" target="_blank" rel="external">腾讯 AI 长语音识别</a></strong>，哎，也有坑。比如，服务器时不时返回 502（可以看出，给其配备的服务器资源并不充足）；很多时候创建任务成功，却永远收不到回调。从偶尔成功时返回的结果来看，<strong>文字识别结果并不如讯飞或搜狗</strong>，包括文字不准确、大段文字而没有标点等。</p>
-<p>我感觉，腾讯 AI 还是试验性阶段，各种不靠谱。可能腾讯云是商务的，应该靠谱些。其实我也不明白，腾讯云和腾讯 AI 是什么关系，不会像 QQ 和微信的关系吧。</p>
-<p>除此之外，<strong>百度</strong> 也提供了长音频提取文字，不过刚刚开始公测。我已经申请了，在等结果。现在是疫情时期，估计会很慢。下午错过了一个百度的电话，可能跟这事有关，有点后悔没接到电话，耽误事了。</p>
-<p>哎，这么个小程序、小项目，没想到会遇到这么多坑。有时，<strong>你看到一个产品很简洁，殊不知，在走到最后简洁这一步之前，已经踩过多少坑</strong>。再一个感叹便是，<strong>国内的这些云服务，看起来大而全，真往细了用时，问题很多</strong>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天早上把「&lt;strong&gt;视字&lt;/strong&gt;」小程序的 &lt;strong&gt;体验版&lt;/strong&gt; 做出来了，也发给了几个人试用，暴露出了很多问题。最关键的是，&lt;strong&gt;太太慢了&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;首先，我使用了 &lt;a href=&quot;https://
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0204 - 起名字真难</title>
-    <link href="https://atjason.com/daily/2020-02-04.html"/>
-    <id>https://atjason.com/daily/2020-02-04.html</id>
-    <published>2020-02-04T14:00:00.000Z</published>
-    <updated>2020-02-09T12:46:08.541Z</updated>
-    
-    <content type="html"><![CDATA[<p>程序员中有个段子：最难的是，如何命名。</p>
-<p>开发小程序，有同样的问题。今天的最后几分钟，本打算注册小程序并提交。结果，在给小程序起名时卡了半天。核心的在于，对于「视频」「文字」这些通用词汇，微信基本上是不给注册的。可怜我想起类似「视频文字提取」这样的名字，肯定是不行的。</p>
-<p>憋到最后，在寒冷的冬天的晚上，我的腿都快冰了，站起来走两步，抖了个机灵，想到「视字」这个名字，立马坐电脑前一试：呀，居然成了！瞬间郁闷成了开心😄「视字」不就是视频中的文字嘛，而且还短，简直太贴切了。当然，最大的问题是对搜索不友好，用户连输入这两天字都有点麻烦。不管了，能想到这个名字就不错了。</p>
-<p>万万没想到，我最后还是没提交。原因在于，小程序限制可访问的域名。而我用到的在线视频转码服务，是动态返回上传地址的。我简单测试了下，居然有将近 50 个可能的域名；而微信最多支持 20 个。哎，这个方式不行了，只能先上传至某个云存储或文件中转，然后再识别。哎，明日再战。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;程序员中有个段子：最难的是，如何命名。&lt;/p&gt;
-&lt;p&gt;开发小程序，有同样的问题。今天的最后几分钟，本打算注册小程序并提交。结果，在给小程序起名时卡了半天。核心的在于，对于「视频」「文字」这些通用词汇，微信基本上是不给注册的。可怜我想起类似「视频文字提取」这样的名字，肯定是不
     
     </summary>
     
