@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/545.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/671.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/545.html" itemprop="url">
-                  在Linode Ubuntu 14.04 64位系统中安装AMH碰到的问题及解决办法
+                <a class="post-title-link" href="/671.html" itemprop="url">
+                  Origami之于滴答清单—选择语言
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-07T08:44:16+08:00">
-                2014-07-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-29T21:56:28+08:00">
+                2015-05-29
               </time>
             
 
@@ -330,8 +330,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
+                  <a href="/categories/PM/" itemprop="url" rel="index">
+                    <span itemprop="name">PM</span>
                   </a>
                 </span>
 
@@ -366,208 +366,28 @@
       
         
           
-            <p>刚买了个Linode的VPS，尝试安装AMH，碰到以下两个问题导致安装失败：</p>
-<pre><code>1，
-</code></pre><p>gcc -DHAVE_CONFIG_H -DEXEEXT=\&quot;\&quot; -I. -I.. -I../lib  -I../intl -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1   -g -O2 -c progname.c</p>
-<p>In file included from progname.c:26:0:</p>
-<p>./stdio.h:1010:1: error: &acirc;&euro;&tilde;gets&acirc;&euro;&trade; undeclared here (not in a function)</p>
-<p>_GL_WARN_ON_USE (gets, &quot;gets is a security hole - use fgets instead&quot;);</p>
-<p>^</p>
-<p>make[2]: <em>*</em> [progname.o] Error 1</p>
-<p>make[2]: Leaving directory `/home/amh_install/packages/untar/libiconv-1.14/srclib&#39;</p>
-<pre><code>这个问题已经有解决办法；[http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610](http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610)
-
-more
-
-2，
-</code></pre><p>checking for png_write_image in -lpng… yes</p>
-<p>If configure fails try –with-xpm-dir=&lt;DIR&gt;</p>
-<p>configure: error: freetype.h not found.</p>
-<p>make: <em>*</em> No targets specified and no makefile found.  Stop.</p>
-<p>make: <em>*</em> No rule to make target `install&#39;.  Stop.</p>
-<p>cp: cannot create regular file &acirc;&euro;&tilde;/usr/local/php/etc/php-fpm.conf&acirc;&euro;&trade;: No such file or directory</p>
-<p>cp: cannot create regular file &acirc;&euro;&tilde;/usr/local/php/etc/php-fpm-template.conf&acirc;&euro;&trade;: No such file or diorytt</p>
-<p>mkdir: cannot create directory &acirc;&euro;&tilde;/usr/local/php/etc/fpm&acirc;&euro;&trade;: No such file or directory</p>
-<p>mkdir: cannot create directory &acirc;&euro;&tilde;/usr/local/php/var/run/pid&acirc;&euro;&trade;: No such file or directory</p>
-<p>touch: cannot touch &acirc;&euro;&tilde;/usr/local/php/etc/fpm/amh.conf&acirc;&euro;&trade;: No such file or directory</p>
-<p>./amh.sh: line 371: /usr/local/php/sbin/php-fpm: No such file or directory</p>
-<p>[OK] php-5.3.27 install completed.</p>
-<pre><code>查看vi php-5.3.27/configure
-</code></pre><p>for i in $PHP_FREETYPE_DIR /usr/local /usr; do</p>
-<pre><code>if test -f &amp;quot;$i/include/freetype2/freetype/freetype.h&amp;quot;; then
-
-  FREETYPE2_DIR=$i
-
-  FREETYPE2_INC_DIR=$i/include/freetype2
-
-  break
-
-fi
-</code></pre><p>done</p>
-<pre><code>可以看到脚本假定freetype的相对路径为&amp;ldquo;/include/freetype2/freetype/freetype.h&amp;rdquo;，但实际上系统路径为&amp;ldquo;/include/freetype2/freetype.h&amp;rdquo;。可以相应的修改脚本，去除一层&amp;quot;freetype&amp;quot;，或者在系统路径下临时多生成一层路径，并将相应的文件复制过去
-</code></pre>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/524.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/524.html" itemprop="url">
-                  Netgear WNDR3800 WPS按钮切换LED灯
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-06T15:44:46+08:00">
-                2014-07-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Netgear WNDR3800前面板的灯看起来还是挺上档次的，不过放在客厅一直闪，总觉得晃眼，故而准备使用前面板的WPS按钮来控制LED灯的亮灭。</p>
-<h1 id="Shell脚本"><a href="#Shell脚本" class="headerlink" title="Shell脚本"></a>Shell脚本</h1><p>创建/root/led.sh脚本，内容如下：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="comment"># const</span></div><div class="line">ENABLE=<span class="string">"enable"</span></div><div class="line">DISABLE=<span class="string">"disable"</span></div><div class="line">TOGGLE=<span class="string">"toggle"</span></div><div class="line"></div><div class="line"><span class="comment"># read parameter</span></div><div class="line">ope=</div><div class="line"><span class="keyword">while</span> <span class="built_in">getopts</span> <span class="string">"edt"</span> arg</div><div class="line"><span class="keyword">do</span></div><div class="line">        <span class="keyword">case</span> <span class="variable">$arg</span> <span class="keyword">in</span></div><div class="line">             e)</div><div class="line">                ope=<span class="variable">$ENABLE</span></div><div class="line">		;;</div><div class="line">             d)</div><div class="line">                ope=<span class="variable">$DISABLE</span></div><div class="line">                ;;</div><div class="line">             t)</div><div class="line">                ope=<span class="variable">$TOGGLE</span></div><div class="line">		;;</div><div class="line">             ?)</div><div class="line">            	<span class="built_in">echo</span> <span class="string">"unknown argument"</span></div><div class="line">        	<span class="built_in">exit</span> 1</div><div class="line">        	;;</div><div class="line">        <span class="keyword">esac</span></div><div class="line"><span class="keyword">done</span></div><div class="line"></div><div class="line"><span class="comment"># check operator</span></div><div class="line"><span class="keyword">if</span> [[ -z <span class="variable">$ope</span> ]]; <span class="keyword">then</span></div><div class="line">        <span class="built_in">echo</span> <span class="string">"Miss operator!"</span></div><div class="line">	<span class="built_in">exit</span> 1</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$TOGGLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># read current led status</span></div><div class="line">        cur_state=`swconfig dev rtl8366s port 1 get led`</div><div class="line">	</div><div class="line">	<span class="keyword">if</span> [ <span class="string">"<span class="variable">$cur_state</span>"</span> == <span class="string">"0"</span> ]; <span class="keyword">then</span></div><div class="line">		ope=<span class="variable">$ENABLE</span></div><div class="line">	<span class="keyword">else</span></div><div class="line">		ope=<span class="variable">$DISABLE</span></div><div class="line">	<span class="keyword">fi</span></div><div class="line"><span class="keyword">fi</span> </div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># check command</span></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$DISABLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># turn on power green led                                           </span></div><div class="line">        <span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:green\:power/brightness         </div><div class="line">        <span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:orange\:power/brightness	</div><div class="line"></div><div class="line">	<span class="comment"># turn off all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	swconfig dev rtl8366s port 1 <span class="built_in">set</span> led 0</div><div class="line">	swconfig dev rtl8366s port 2 <span class="built_in">set</span> led 0</div><div class="line">	</div><div class="line">	<span class="comment"># USB</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:green\:usb/brightness</div><div class="line"></div><div class="line">	<span class="comment"># 2.4GHz</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/ath9k-phy0/brightness</div><div class="line">	<span class="comment"># 5GHz</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/ath9k-phy1/brightness</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$ENABLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># turn on power green led</span></div><div class="line">	<span class="built_in">echo</span> 128 &gt; /sys/class/leds/netgear\:green\:power/brightness</div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:orange\:power/brightness</div><div class="line"></div><div class="line">	<span class="comment"># turn off all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	<span class="comment"># turn on all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	swconfig dev rtl8366s port 1 <span class="built_in">set</span> led 6</div><div class="line">	swconfig dev rtl8366s port 2 <span class="built_in">set</span> led 9</div><div class="line">                      </div><div class="line">        <span class="comment"># USB                                            </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/netgear\:green\:usb/brightness  </div><div class="line">                                 </div><div class="line">        <span class="comment"># 2.4GHz                                                   </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/ath9k-phy0/brightness             </div><div class="line">        <span class="comment"># 5GHz                                                    </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/ath9k-phy1/brightness </div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure>
-<p>目前这一脚本中控制全部LED灯：电源、2.4GHz、5GHz、USB、WAN、LAN</p>
-<p>测试脚本是否正常工作</p>
+            <p>以下就开始整个模仿的过程，大致分为三步。</p>
+<h1 id="1，想清楚交互的具体过程"><a href="#1，想清楚交互的具体过程" class="headerlink" title="1，想清楚交互的具体过程"></a>1，想清楚交互的具体过程</h1><p>拆分后包含：</p>
 <ul>
-<li>点亮LED灯 <code>/root/led.sh -e</code></li>
-<li>熄灭LED灯 <code>/root/led.sh -d</code></li>
-<li>切换LED灯 <code>/root/led.sh -t</code></li>
+<li><p>点击某一项后，使用在该行显示灰色半透明蒙</p>
+</li>
+<li><p>松手后，蒙板消失，表示选中的图标移至该行</p>
+</li>
 </ul>
-<h1 id="接入按钮事件"><a href="#接入按钮事件" class="headerlink" title="接入按钮事件"></a>接入按钮事件</h1><p>在/etc/hotplug.d位置创建一个目录，名为button，然后在/etc/hotplug.d/button下创建名为01-radio-toggle的文件</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$BUTTON</span>"</span> = <span class="string">"wps"</span> ] &amp;&amp; [ <span class="string">"<span class="variable">$ACTION</span>"</span> = <span class="string">"pressed"</span> ]; <span class="keyword">then</span></div><div class="line">        ( sleep 1; /root/led.sh -t ) &amp;</div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure>
-<p>测试：按下WPS按钮就可以切换前面板中的部分LED灯了</p>
-<h1 id="开机设置默认值"><a href="#开机设置默认值" class="headerlink" title="开机设置默认值"></a>开机设置默认值</h1><p>如果开机就希望LED灯熄灭，可以使用crontab：#crontab -e</p>
-<p>添加如下命令</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># turn off led</span></div><div class="line">@reboot /root/led.sh <span class="_">-d</span></div></pre></td></tr></table></figure>
-<p>参考</p>
+<h1 id="2，准备素材"><a href="#2，准备素材" class="headerlink" title="2，准备素材"></a>2，准备素材</h1><p>其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：</p>
 <ul>
-<li><a href="http://wiki.openwrt.org/toh/netgear/wndr3700" target="_blank" rel="external">http://wiki.openwrt.org/toh/netgear/wndr3700</a></li>
-<li><a href="http://wiki.openwrt.org/doc/uci/system" target="_blank" rel="external">http://wiki.openwrt.org/doc/uci/system</a></li>
-<li><a href="http://blog.xieyc.com/how-to-setup-after-upgrading-netgear-wndr3700-to-openwrt/" target="_blank" rel="external">http://blog.xieyc.com/how-to-setup-after-upgrading-netgear-wndr3700-to-openwrt/</a></li>
+<li><p>背景</p>
+</li>
+<li><p>选中图标</p>
+</li>
 </ul>
+<h1 id="3，逐步实现交互"><a href="#3，逐步实现交互" class="headerlink" title="3，逐步实现交互"></a>3，逐步实现交互</h1><h2 id="布置静态界面"><a href="#布置静态界面" class="headerlink" title="布置静态界面"></a>布置静态界面</h2><p>将选中图标放在背景图中即可，默认隐藏灰色蒙板</p>
+<h2 id="实现点击交互"><a href="#实现点击交互" class="headerlink" title="实现点击交互"></a>实现点击交互</h2><p>先实现点击松开时，选中图标移至相应的位置。</p>
+<p>根据截图，计算中选中图标在各行时对应的坐标。第0行Y坐标为1110，第5行为630，可推出相应的计算公式：Y = 1110- 96 * i。这样，使用Index就可以实现点击与移动的对应关系。因为选中图标仅在Y方向移动，X坐标保持不变。</p>
+<p>对于点击后的灰色蒙板，也可以使用类似的方式来移动。隐藏与否则可以通过控制Scale来实现，而Opacity则设置为0.3。</p>
+<p>实现后的QC界面大概是：</p>
+<p><a href="https://ps.toolinbox.net/d72aa.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/y7wsk.png" alt=""></a></p>
+<p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/SelectLanguage.zip">下载Origami工程文件</a>。</p>
 
           
         
@@ -611,7 +431,7 @@ fi
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/519.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/666.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -633,8 +453,8 @@ fi
             
               
                 
-                <a class="post-title-link" href="/519.html" itemprop="url">
-                  Radxa折腾小记
+                <a class="post-title-link" href="/666.html" itemprop="url">
+                  2015年第6本书《重来》
                 </a>
               
             
@@ -650,8 +470,8 @@ fi
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-05T21:03:23+08:00">
-                2014-07-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-28T22:03:17+08:00">
+                2015-05-28
               </time>
             
 
@@ -673,8 +493,8 @@ fi
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
+                  <a href="/categories/读书笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">读书笔记</span>
                   </a>
                 </span>
 
@@ -709,108 +529,11 @@ fi
       
         
           
-            <p>前段时间折腾了Radxa开发板，一直没时间整理，怕再不记下就忘了，粗略流水账如下</p>
-<h1 id="从开发板说起"><a href="#从开发板说起" class="headerlink" title="从开发板说起"></a>从开发板说起</h1><p>要说Radxa，还真得从开发板说起。要说开发板，还得从电脑说起。说起电脑，我们的印象基本是台式机、笔记本，构成上主要包含屏幕、键盘、鼠标、音箱、还有最重要的主机，主机内包含CPU、内存、显卡、硬盘等核心组件</p>
-<p>粗俗的说，和电脑相比，开发板可以理解为精简的主机，它也包含核心的CPU、内存、显卡、存储器（不同于硬盘，通常是Flash存储），但没有屏幕、键盘、鼠标等外围配件，不过没关系，开发板上通常有丰富的接口，可以外接屏幕、键盘、鼠标等配件，甚至是音箱、摄像头、红外遥控器、蓝牙配件等等。加上这些配件，开发板就能组成功能完善的电脑</p>
-<p>那为什么不用电脑而用开发板呢？因为开发板有它独特的优势：</p>
-<ul>
-<li><p>体积小。像Raspberry Pi这样的开发板仅有信用卡大小，这使得开发板非常适合嵌入式开</p>
-</li>
-<li><p>功耗低。一般不超过3W，而笔记本待机一般在60W，长年累月用下来，电费不是个小数目。关键是，功耗低就可以使用更轻便的电源、待机时间更</p>
-</li>
-<li><p>定制性高。一般的电脑只包含少数通常的接口，比如USB。而开发板则更多，比如GPIO。这些丰富的接口使得开发板提供了丰富的想像空间，比如遥控飞机、自动浇花系统等等</p>
-</li>
-</ul>
-<p>在开发板的圈子里，Raspberry Pi应该是名气比较大的，最关键是其发展成熟，有丰富的社区、文档、实例支持，学习起来莫名其妙的问题少。但最大的问题是性能较差，仅有单核700MHz的CPU和512M的内存，跑起Linux及应用来比较吃力</p>
-<p>进而，我将目光转向性能更强的开发板。其实，了解之后发现，高端开发板也大有板在，像三星、Intel这些国外牛轰轰的公司都有自己的高端的板子，不过价格也是高端，跟买一台入门笔记本也差不多</p>
-<p>为了性价比，将目光又转回国内，毕竟堆硬件这种思路国内还是很盛行的。果不其然，国内这一圈子也很火热，一番比较之后（比较这篇文章：几款高端大气的ARM开发板），选择了Radxamore</p>
-<h1 id="Radxa由来"><a href="#Radxa由来" class="headerlink" title="Radxa由来"></a>Radxa由来</h1><p>Radxa是怎么来的呢？对其创始人汤亮的<a href="http://www.csdn.net/article/2014-03-13/2818753-from-cubieboard-to-radxa-toms-hardware-startup" target="_blank" rel="external">这篇采访文章</a>说得比较清楚了，这里摘录一二：</p>
-<blockquote>
-<p>2010年，他从华中科技大学毕业，曾在Imagination Technology和全志科技工作，做过外贸，也曾经在山寨平板产线上调试过固件。Raspberry Pi和一款名为MK802的USB便携电脑点醒了他，他与四名老同事聚在一起，开发了曾在众筹平台Indiegogo获得9.5万美元融资的Cubieboard。现在，他再度出发，与一群85后的年轻人和一位有着丰富的大公司管理经验的“老兵”杨博士，共同组建了 radxa。这就是前Cubieboard创始人，现radxa（瑞莎）创始人汤亮</p>
-</blockquote>
-<p>之所以选择Radxa，还有一个内心的原因，就是支持创业。即便我目前没有创业，也希望其他创业者能够成功，出钱买他们的产品（RMB599），便是对其最直接的支持与帮助</p>
-<h1 id="Radxa功能与性能"><a href="#Radxa功能与性能" class="headerlink" title="Radxa功能与性能"></a>Radxa功能与性能</h1><p>说到这一点，又要从<a href="http://radxa.com/specification/" target="_blank" rel="external">Radxa官网</a>搬数据了：</p>
-<p>Model radxa rock</p>
-<ul>
-<li><p>System</p>
-<ul>
-<li><p>CPU ARM Cortex-A9 quad core @ 1.6Gh</p>
-</li>
-<li><p>Memory 2GB DDR3 @ 800Mh</p>
-</li>
-<li><p>Storage 8GB Nand Flash, Micro-SD SDXC up to 128GB</p>
-</li>
-</ul>
-</li>
-<li><p>Display and Graphics</p>
-<ul>
-<li><p>GPU Mali400-mp4@533Mhz, OpenGL ES 2.</p>
-</li>
-<li><p>Digital Video HDMI 1.4 up to 1080p@60h</p>
-</li>
-<li><p>Analog Video AV output</p>
-</li>
-</ul>
-</li>
-<li><p>Network</p>
-<ul>
-<li><p>LAN 10/100M Ethernet por</p>
-</li>
-<li><p>WIFI 150Mbps 802.11b/g/n with antenn</p>
-</li>
-<li><p>Bluetooth Bluetooth 4.0</p>
-</li>
-</ul>
-</li>
-<li><p>I/O</p>
-<ul>
-<li><p>Audio S/PDIF, headphone jac</p>
-</li>
-<li><p>USB HOST 2 USB 2.0 standard A typ</p>
-</li>
-<li><p>USB OTG USB OTG micro-USB connecto</p>
-</li>
-<li><p>Serial Serial Console for debuggin</p>
-</li>
-<li><p>IR Support self defined IR remot</p>
-</li>
-<li><p>Key 1 power key, 1 recovery key, 1 reset key</p>
-</li>
-</ul>
-</li>
-<li><p>Other</p>
-<ul>
-<li><p>Led 3 programable led</p>
-</li>
-<li><p>RTC Support power off alar</p>
-</li>
-<li><p>Extend header 80 pins including GPIO, I2C, SPI, Line in, USB 2.0, PWM, ADC, LCD, etc</p>
-</li>
-</ul>
-</li>
-</ul>
-<p>4核1.6Ghz的CPU，2G内存，这几乎可以干掉我那台08年的笔记本了。另外可以看到Radxa还有Wifi、蓝牙4.0、红外、80个GPIO等接口，理论上可以做很多事情了</p>
-<h1 id="Radxa学习渠道"><a href="#Radxa学习渠道" class="headerlink" title="Radxa学习渠道"></a>Radxa学习渠道</h1><p>学习渠道很重要，就像先前说的，Raspberry Pi的成功，很大程度上原由其成熟的社区，正所谓有人的地方才有江湖，才能把东西做好。与其相比，Radxa就显得很冷清，目前主要的学习渠道包括官网、Google Group、论坛、QQ群。而且，其文档还是很匮乏的。举个例子，我当时尝试使用GPIO结合温度传感器监测Radxa板子温度，本来是件很简单的事情，结果因为愣是得不到足够的关于GPIO的文档而放弃。可见一斑。不过，说话其QQ群还是很活跃的，平均每天百十条消息，假以时日，相信还是能发展起来的</p>
-<h1 id="Radxa目前被用来做什么"><a href="#Radxa目前被用来做什么" class="headerlink" title="Radxa目前被用来做什么"></a>Radxa目前被用来做什么</h1><p>说了这么多，到底用Radxa做什么呢？Radxa买来之后，装上了Ubuntu服务器版，其实是对ARM系统适配的Liano系统。之后就可以做任何Linux可以做的事，比如</p>
-<ul>
-<li><p>满足夙愿。很早就折腾过Linux，也折腾过Linux内核定制，一直想有个常开的Linux环境，不断累积对Linux的经验，想起来时就可以去玩</p>
-</li>
-<li><p>Web服务器。虽然在AWS、Linode上有服务器，不过毕竟放着需要保证可靠性的网站，不敢随意折腾。而作为专门用来折腾的开发板就不同的，想怎么折腾就怎么折</p>
-</li>
-<li><p>PPTP服务器。可以远程到家里的网络环境下，这是做很多事的基础。比如，在外面想给家里的路由器开个端口转发，怎么办？除了路由器可以外网访问（有安全风险），VPN是不错的方</p>
-</li>
-<li><p>SVN/Git服务器。总有一些文档需要保存历史版本、比较不同版本的区别，又不希望作为开源放在网上，搭个私有的服务器是比较好的选</p>
-</li>
-<li><p>私有云。公有云的好处大家都知道，但也有其不好的地方：内容被政府监控、安全性依赖于对方服务器、容量及价格问题。自建私有云，可以有更多的可定制</p>
-</li>
-<li><p>NAS服务器。组个家庭的文件共享中心，这个其实和私有云有重叠的部分，并且有USB接口的路由器也可以实现这一功</p>
-</li>
-<li><p>Linux编译、测试环境。虽然性能毕竟不强，但没关系，我可以24小时编译啊，又不费</p>
-</li>
-<li><p>等等，取决于你的想像能力和动手能力</p>
-</li>
-</ul>
-<h1 id="小记"><a href="#小记" class="headerlink" title="小记"></a>小记</h1><p>总的来说，比较满意Radxa这个开发板，既可以是折腾的东西，也可以是积累的落脚点，没事摩挲一下，也有种IT男的满足感，像是小男孩的玩具，也像是小女孩不断摆弄的芭比娃娃</p>
+            <p><a href="https://www.amazon.cn/gp/product/B0048EKQS0/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B0048EKQS0&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/os9ql.jpg" alt=""></a></p>
+<p>今年计划看50本书，过了快一半，才看了5本。</p>
+<p>无意间翻到这本《重来》，翻了几页就发现特别对胃口，书中的观点非常认同，看着看着就想一直看下来。虽没有一次读完，也差不多四次就读完了。书不厚，每个小主题都有插图，看起来也不觉得累。</p>
+<p>这本书主要讲的是大名鼎鼎的37signals介绍小团队创业相关的事，包括要保持小团队、做自己喜欢并使用的产品、以产品为主、万不得已再招人、保持精简、等等。总之是涉及到了产品到公司的很多层面。非常喜欢，应该会再认真读一遍。</p>
+<p>还是要看书，不然思想都没什么变化，也懒得思考，这样老的太快了。</p>
 
           
         
@@ -854,7 +577,7 @@ fi
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/512.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/654.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -876,8 +599,8 @@ fi
             
               
                 
-                <a class="post-title-link" href="/512.html" itemprop="url">
-                  路由器折腾小记
+                <a class="post-title-link" href="/654.html" itemprop="url">
+                  Origami之于滴答清单—侧边栏的交互
                 </a>
               
             
@@ -893,8 +616,8 @@ fi
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-05T13:39:36+08:00">
-                2014-07-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-26T20:19:03+08:00">
+                2015-05-26
               </time>
             
 
@@ -916,8 +639,8 @@ fi
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
+                  <a href="/categories/PM/" itemprop="url" rel="index">
+                    <span itemprop="name">PM</span>
                   </a>
                 </span>
 
@@ -952,35 +675,301 @@ fi
       
         
           
-            <p>近段时间折腾路由器，小记一下</p>
-<h1 id="为什么要折腾路由器？"><a href="#为什么要折腾路由器？" class="headerlink" title="为什么要折腾路由器？"></a>为什么要折腾路由器？</h1><pre><code>之所以要折腾，自然是现在的路由器不能满足需求。之前用的是TP LINK 54M的无线路由器，4年前买的，想想也知道淘汰得差不多了。话说路由器确实是个耐用的东西，在电子产品中能用超过4年，绝对是老年级的，也说明这是个小众市场，毕竟淘汰速度慢
-
-到底哪些方面不给力呢？
+            <p>以下就开始整个模仿的过程，大致分为三步。</p>
+<h1 id="1，想清楚交互的具体过程"><a href="#1，想清楚交互的具体过程" class="headerlink" title="1，想清楚交互的具体过程"></a>1，想清楚交互的具体过程</h1><p>侧边栏的交互并不复杂，拆分结束后，大致可分为以下的交互、或者说动画：</p>
+<ul>
+<li><p>任务列表左移、右</p>
+</li>
+<li><p>侧边栏保持不动，被任务列表盖</p>
+</li>
+<li><p>两种方式触发页面的切换</p>
+<pre><code>*   点击抽屉图
 </code></pre><ul>
-<li><p>不稳定。尤其是无线方面，经常莫名其妙得连接不上，拔电源重启后就一切正常。估计是持续运行时间过长导致内部软件出问题</p>
-</li>
-<li><p>信号覆盖不强。主要指的就是穿墙能力了，路由器放客厅，在卧室信号就很弱，竟然还没有隔壁家无线信号强，这个太无语了，忍着别人家的辐射却上不了自家的网，想想就郁闷</p>
-</li>
-<li><p>翻墙不方便。这其实是最主要的原因。随着本界政府对大陆局域网建设步伐的加速，其行径越来越令人发指，越来越多的网站无法访问，实在忍无可忍</p>
+<li>滑动任务列表界面</li>
+</ul>
 </li>
 </ul>
-<h1 id="软件：路由器之魂"><a href="#软件：路由器之魂" class="headerlink" title="软件：路由器之魂"></a>软件：路由器之魂</h1><pre><code>所谓折腾，其实主要是指折腾软件，毕竟折腾硬件现在还没经验。而软件，在路由器这一领域更多的称之为固件、ROM。在可折腾的固件榜单中，靠前的自然是Open WRT, DD WRT, tomato等等，其外还有华硕ROM之类的。经过简单比较后，选择了自己相对较熟悉的Open WRT 什么是Open WRT？这一点我就不再拾人牙慧，大家可以到网上简单一搜便可得知。比如[这一篇](http://baike.baidu.com/view/1671581.htm)和[这一篇](http://www.dz3w.com/mcu/linux/0075344.html)，Open WRT的由来还有一段趣闻哦，不妨一看 more
-</code></pre><h1 id="硬件：软件之基础"><a href="#硬件：软件之基础" class="headerlink" title="硬件：软件之基础"></a>硬件：软件之基础</h1><pre><code>要根据软件来选硬件（也即根据固件来选择路由器），而不是反过来，不然就是路由器折腾你、而非你折腾路由器了。Open WRT官方支持哪些路由器呢？简单，到这个网址上一看便知：[http://wiki.openwrt.org/toh/start](http://wiki.openwrt.org/toh/start)
+<h1 id="2，准备素材"><a href="#2，准备素材" class="headerlink" title="2，准备素材"></a>2，准备素材</h1><p>其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：</p>
+<ul>
+<li><p>手机状态栏</p>
+<pre><code>*   注意：状态栏背景应该是全透明的，这样可以显示下面页面的颜
+</code></pre></li>
+<li><p>侧边</p>
+</li>
+<li><p>任务列表界面</p>
+</li>
+</ul>
+<p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel_Asset.zip">下载素材</a>。</p>
+<h1 id="3，逐步实现交互"><a href="#3，逐步实现交互" class="headerlink" title="3，逐步实现交互"></a>3，逐步实现交互</h1><h2 id="布置静态界面"><a href="#布置静态界面" class="headerlink" title="布置静态界面"></a>布置静态界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。</p>
+<p>注意Layer的上下层次，从上到下依次是：状态栏、任务列表、侧边栏</p>
+<p>实现后的QC界面大概是：</p>
+<p><img src="https://ps.toolinbox.net/t7dwd.jpg" alt=""></p>
+<h2 id="确认交互的触发方式"><a href="#确认交互的触发方式" class="headerlink" title="确认交互的触发方式"></a>确认交互的触发方式</h2><p>由于点击抽屉图标和滑动任务列表界面都可以触发交互，所以考虑先实现一种触发方式，然后用另一种方式来调用第一种方式。</p>
+<p>技巧：优先实现滑动的触发方式，然后使用点击来设置滑动的起始状态即可。</p>
+<h2 id="实现滑动交互"><a href="#实现滑动交互" class="headerlink" title="实现滑动交互"></a>实现滑动交互</h2><p>这点并不复杂，使用简单的Swipe Patch，明确起始位置即可。</p>
+<p>实现后的QC界面大概是：</p>
+<p><img src="https://ps.toolinbox.net/agxom.jpg" alt=""></p>
+<h2 id="实现点击交互"><a href="#实现点击交互" class="headerlink" title="实现点击交互"></a>实现点击交互</h2><p>这里要处理的是，在不同的情况，点击所触发的行为是不一致的。也就是说</p>
+<ul>
+<li><p>在侧边栏隐藏时，点击抽屉图标应该显示侧边</p>
+</li>
+<li><p>在侧边栏显示时，点击抽屉图标应该隐藏侧边栏</p>
+</li>
+</ul>
+<p>这就意味着要做条件判断。条件判断可以使用Condition来实现，简单的判断任务列表界面的X位置即可。然后，将不同状态下点击的行为，用于设置滑动操作切换到起始、或终止的位置即可。</p>
+<p>实现后的QC界面大概是：</p>
+<p><img src="https://ps.toolinbox.net/qyd1u.jpg" alt=""></p>
+<p>另一种更巧妙的办法是，点击切换滑动的起始状态即可。</p>
+<p>实现后的QC界面大概是：</p>
+<p><img src="https://ps.toolinbox.net/1j0dk.jpg" alt=""></p>
+<p>好，这样就完成了整个交互设计，大家可以到这里下载<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel.zip">Origami工程文件</a>。</p>
 
-不过，打开网页你会发现，上面的列表长得吓人。怎么选呢？几个方面
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/629.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/629.html" itemprop="url">
+                  Origami之于滴答清单—添加任务的交互
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-25T18:32:16+08:00">
+                2015-05-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PM/" itemprop="url" rel="index">
+                    <span itemprop="name">PM</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>滴答清单是已经存在的产品，其中延期也包含了添加任务的交互。这里并不是使用Origami去设计，而是使用Origami去模仿，达到学习Origami的目的。</p>
+<p>关于滴答清单，本文模仿的是iOS1.9.4版本的滴答清单，可以在滴答清单官网去下载：<a href="http://www.dida365.com" target="_blank" rel="external">http://www.dida365.com</a></p>
+<p>好，以下就开始整个模仿的过程，大致分为三步。</p>
+<h1 id="一，想清楚交互的具体过程"><a href="#一，想清楚交互的具体过程" class="headerlink" title="一，想清楚交互的具体过程"></a>一，想清楚交互的具体过程</h1><p>也就是说，实际操作滴答清单，了解添加任务的过程，然后逐渐对整个交互进行拆解。过程中，可以使用高速录像后慢放的方式，了解动画的细节。</p>
+<p>拆分结束后，大致可分为以下的交互、或者说动画：</p>
+<ul>
+<li><p>正向（即添加任务）</p>
+<pre><code>*   加号键逐渐放大、消
 </code></pre><ul>
-<li><p>选能买得到的。因为一些已经不卖了，一些不在国内卖。说到这时忍不住要吐槽一些国内路由器厂商，比如TP LINK，一些性价比高的、配置说得过去的路由器竟然都不在自己母国卖，在国外的Amazon上倒是卖得挺欢。不知道原因，也不方便开骂，希望不是因为觉得国内的用户人傻钱多好骗，所以就卖些低端货</p>
+<li><p>同时完成以下交</p>
 </li>
-<li><p>选配置高的。主要是ROM（也即闪存）高，这个是用来存放软件的地方。然后是RAM（也即内存）高，这个是软件运行时需要的空间。然后是CPU好（频率高、多核）。然后是一些最好支持的功能：千兆网卡、支持无线ac、支持5G无线、支持USB接口等等</p>
+<li><p>标题栏文字和图标切</p>
 </li>
-<li><p>选买得起的。或者说买预算内的，因为要烧硬件，几千元的路由器也不少</p>
-<pre><code>我选了哪款？Netgear WNDR3800，配置如下：芯片Atheros AR7161、CPU 680Mhz、闪存16M、内存128M、千兆网卡、无线支持802.11 a/b/g/n、支持5G、支持USB接口，唯一遗憾是不支持802.11 ac。之所以选这款是lifetyper君推荐的，自己也觉得不错。关于购买渠道，因为不在国内销售，只能从淘宝买国外的洋垃圾。注：Amazon原价$139.95，淘宝约200+。拿到手后就直接刷了Open WRT官方固件，目前用起来还算顺手
+<li><p>主页面切</p>
+</li>
+<li><p>键盘升</p>
+</li>
+</ul>
+</li>
+<li><p>反向（即从添加任务状态返回）</p>
+<pre><code>*   两种方式触发返
+</code></pre><ul>
+<li><p>点击返回</p>
+</li>
+<li><p>屏幕右滑（本期暂时不包含这一功能</p>
+</li>
+<li><p>同时完成以下交</p>
+</li>
+<li><p>标题栏文字和图标切</p>
+</li>
+<li><p>主页面切换</p>
+<pre><code>*   注：加号键和页面同时出现，没有动
+</code></pre></li>
+<li><p>键盘下降</p>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="二，准备素材"><a href="#二，准备素材" class="headerlink" title="二，准备素材"></a>二，准备素材</h1><p>其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：</p>
+<ul>
+<li><p>图标：抽屉、菜单、返</p>
+</li>
+<li><p>图片：状态栏及标题栏、任务列表界面、新任务页面、键盘页面、加号键</p>
+</li>
+</ul>
+<p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/Assets.zip">下载素材</a>：</p>
+<h1 id="三，逐步实现交互"><a href="#三，逐步实现交互" class="headerlink" title="三，逐步实现交互"></a>三，逐步实现交互</h1><p>以下是主要的部分，放在一个步骤里，显示有些大了。不过不用担心，还是一步步完成的。</p>
+<h2 id="布置静态的任务列表界面"><a href="#布置静态的任务列表界面" class="headerlink" title="布置静态的任务列表界面"></a>布置静态的任务列表界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。具体的内容和素材包括：</p>
+<ul>
+<li><p>标题栏：背影、图标、文</p>
+</li>
+<li><p>内容界</p>
+</li>
+<li><p>加号键</p>
+</li>
+</ul>
+<p>小技巧：可将截图放在最上方，并使其半透明，这样就可以使用截图来校对元素在界面上的位置</p>
+<p>布置好后是这样的：</p>
+<p><img src="https://ps.toolinbox.net/cswp7.png" alt="任务列表界面"></p>
+<h2 id="依次实现以下任务列表界面的交互"><a href="#依次实现以下任务列表界面的交互" class="headerlink" title="依次实现以下任务列表界面的交互"></a>依次实现以下任务列表界面的交互</h2><ul>
+<li><p>消息的触发</p>
+<pre><code>*   以点击加号键任务交互的触发点。可以将按下加号键的消息以Wireless的方式广播出去，这样可以方便得在其它LayerGroup中使用
+</code></pre></li>
+<li><p>点击加号键后，加号键逐渐放大、消失</p>
+<pre><code>*   也即修改Scale、Opacity属性，使得加号键在放大的过程中同时消失
+</code></pre></li>
+<li><p>标题栏图标的切换</p>
+<pre><code>*   也即修改Opacity属性，使得图标在过渡过程中消
+</code></pre></li>
+<li><p>标题栏文字的切换</p>
+<pre><code>*   也即修改XPosition、Opacity属性，使得图标在左移过程中消
+</code></pre></li>
+<li><p>主页面切换</p>
+<pre><code>*   也即修改Opacity属性，使得内容在左移过程中消失
 </code></pre></li>
 </ul>
-<h1 id="翻墙"><a href="#翻墙" class="headerlink" title="翻墙"></a>翻墙</h1><pre><code>接下来就来到折腾的重点：翻墙。所谓墙，有很多种形式，比如DNS污染、屏蔽IP等等。相对应的，翻墙也有很多种方法。经过比较后，笔者选用的是lifetyper君所给出的[方案](https://github.com/lifetyper/FreeRouter_V2) 该方案核心思路是：在路由器使用VPN括号生成新的网关，利用Dnsmasq的ipset功能，配置哪些域名需要国外DNS服务器解析、哪些使用国内运营商的DNS服务器，哪些域名所对应的IP使用VPN网关访问、哪些使用国内的。这样的方案维护成本低，不需要客户端修改，确实很好用 这里要重点感谢下lifetyper君，他花了大量时间来解决我在折腾过程中碰到的奇奇怪怪的问题，谢谢
-</code></pre><h1 id="国内-ldquo-智能-rdquo-路由器"><a href="#国内-ldquo-智能-rdquo-路由器" class="headerlink" title="国内&ldquo;智能&rdquo;路由器"></a>国内&ldquo;智能&rdquo;路由器</h1><pre><code>这里忍不住要818国内所谓的&amp;ldquo;智能&amp;rdquo;路由器。殊不知，你经常听到的极路由、小米路由器等等，其实他们的固件都是基于Open WRT，而一般用户却可能压根不知道，为什么？因为他们从来不会在发布会、官网、广告等场合中提到这一点，反而讳莫如深，甚至威胁用户你如果刷成Open WRT官方固件，路由器就不保修（没错，说的是极路由，买了，不爽；但为了测试，忍住没退货）。明明深深依赖着开源代码，却不尊重开源、不回馈开源、甚至都不宣传开源，这样的行径实在让人不齿
-</code></pre><h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><pre><code>到目前为止，路由器的折腾告一段落。毕竟我不是这一领域的，不可能花大把的时间来折腾，满足自己的需求即可。不过，还是希望路由器的从业者，在谋求应得商业利益时，能减少用户所需要折腾的时间、精力，做出对用户来说好用、易用的产品。同时，如果你使用开源代码，一定要回馈开源社区
-</code></pre>
+<p>QC中的界面大致是这样的：</p>
+<p><img src="https://ps.toolinbox.net/v679h.jpg" alt=""></p>
+<h2 id="创建Layer-Group"><a href="#创建Layer-Group" class="headerlink" title="创建Layer Group"></a>创建Layer Group</h2><p>将任务列表的所有内容放置在一个LayerGroup中，同时创建另一个LayerGroup，用于放置新任务的内容。暂时关闭任务列表界面，进行接下来新任务界面的设计。</p>
+<p><img src="https://ps.toolinbox.net/f09x4.jpg" alt="Layer Group"></p>
+<h2 id="布置静态的新任务界面"><a href="#布置静态的新任务界面" class="headerlink" title="布置静态的新任务界面"></a>布置静态的新任务界面</h2><p>这一点和上面介绍的布置静态任务列表界面类似，这里就不多做介绍。布置好后是这样的：</p>
+<p><img src="https://ps.toolinbox.net/lpztp.png" alt="新任务界面"></p>
+<h2 id="依次实现以下新任务界面的交互"><a href="#依次实现以下新任务界面的交互" class="headerlink" title="依次实现以下新任务界面的交互"></a>依次实现以下新任务界面的交互</h2><ul>
+<li><p>消息的触发</p>
+<pre><code>*   以点击返回键任务交互的触发点、暂时不处理滑动返回操作。同时的，可以将该消息以Wireless的方式广播出去
+</code></pre></li>
+<li><p>标题栏图标的切换</p>
+<pre><code>*   也即修改Opacity属性，使得图标在过渡过程中消
+</code></pre></li>
+<li><p>标题栏文字的切换</p>
+<pre><code>*   也即修改XPosition、Opacity属性，使得图标在右移过程中消
+</code></pre></li>
+<li><p>主页面切换</p>
+<pre><code>*   也即修改Opacity属性，使得内容在左移过程中消
+</code></pre></li>
+<li><p>键盘下降</p>
+<pre><code>*   也即修改YPosition、Opacity属性，使得图标在下移过程中消失
+</code></pre></li>
+</ul>
+<p>​QC中的界面大致是这样的：</p>
+<p><img src="https://ps.toolinbox.net/h48py.jpg" alt="新任务界面"></p>
+<h2 id="重新打开任务列表的LayerGroup，并进行调整"><a href="#重新打开任务列表的LayerGroup，并进行调整" class="headerlink" title="重新打开任务列表的LayerGroup，并进行调整"></a>重新打开任务列表的LayerGroup，并进行调整</h2><p>将任务列表的LayerGroup放在底层，将新任务的LayerGroup放在上层</p>
+<p>使用添加任务、返回两个消息，控制上述两个层的状态切换。需要注意的是，除了状态切换，还需要在显示底层时隐藏上层，也即在显示任务列表的LayerGroup时隐藏新任务的LayerGroup，这样才能响应任务列表的点击操作。</p>
+<p>进行其它一些调整，主要是针对动画的过渡，修正其中处理不好的地方。注意，这里有一点要说，不要刻意追求动画的完美。有时，花了2个小时做好了90%的交互、已经可以表达出意图，却又要花1小时、甚至更多的时间去调整不完美的地方，这就有些钻牛角尖了，浪费精力、没有必要。除非是开发同学能100%实现你设计的交互，不然这样的交互只是用来表达意图，做得太完美反而是浪费时间。</p>
+<p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/AddTask_OK.zip">下载Origami工程文件</a>。</p>
+
           
         
       
@@ -1023,7 +1012,7 @@ fi
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/507.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/632.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -1045,8 +1034,8 @@ fi
             
               
                 
-                <a class="post-title-link" href="/507.html" itemprop="url">
-                  网站搬家小记
+                <a class="post-title-link" href="/632.html" itemprop="url">
+                  优化Quartz Composer (Origami)的性能
                 </a>
               
             
@@ -1062,8 +1051,8 @@ fi
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-05T09:35:15+08:00">
-                2014-07-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-25T17:04:10+08:00">
+                2015-05-25
               </time>
             
 
@@ -1085,8 +1074,8 @@ fi
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
+                  <a href="/categories/PM/" itemprop="url" rel="index">
+                    <span itemprop="name">PM</span>
                   </a>
                 </span>
 
@@ -1121,26 +1110,37 @@ fi
       
         
           
-            <p>不知不觉间，这两天网站已经搬了再次家了，可谓飘洋过海、翻山越岭，这里小记下</p>
-<h1 id="AWS"><a href="#AWS" class="headerlink" title="AWS"></a>AWS</h1><p>之前网站是搭建上AWS上。提起Amazon AWS这个占据一半以上服务器市场的老大，圈内人士应该无人不知。当时选择AWS的原因很简单：免费。财大气粗的Amazon为了吸引更多的人使用AWS，允许新用户免费使用一年。目前这个活动依然继续：<a href="http://aws.amazon.com/free/" target="_blank" rel="external">http://aws.amazon.com/free/</a></p>
-<p>就我的使用体验来说，AWS最大的好处就是稳定，没有碰到过网站不能访问的时候。最大的问题就是慢，一是后台管理页面打开比较慢，基本要翻墙速度才快；二是网站在国内访问速度一般（我的是在日本，据说新加坡的节点会快些），每次进入后台写点什么都要等上半天，可能不同地区的国内用户打开时速度也不见得快</p>
-<p>这不，免费的AWS要到期了，是时候考虑换一个快点的主机</p>
-<p>more</p>
-<h1 id="国内云主机"><a href="#国内云主机" class="headerlink" title="国内云主机"></a>国内云主机</h1><p>为了速度，首先把目光移到国内云主机。经过简单的比较，选择了阿里云主机。我承认，一定程度上是被“阿里”这个牌子给吸引过去的，虽然这是一家什么业务都涉足、经常不务正业的公司</p>
-<h1 id="阿里云"><a href="#阿里云" class="headerlink" title="阿里云"></a>阿里云</h1><p>阿里云为了吸引用户，也有5天的试用机会，不过还要申请，真是小家子气。申请也就罢了，竟然默认是在青岛、而不给用户选择机会；估计是为了给青岛的节点增加人气、降低成本。可是，这也太粗暴了，他也不想想，一旦用得爽了、在服务器上花了大把时间配置后，又需要在杭州等其他节点创建服务器时怎么办？</p>
-<p>在一边骂这个脑残、或者说为了商业利益不惜伤害用户利益的做法，一边花钱买了一个月的杭州主机，省得以后真的使用时浪费之前的时间。这里有个插曲，阿里云为了吸引用户，新注册用户在回答几个白痴问题后就可以得到20元代金券。好吧，为了这点钱，我还是屁颠屁颠得回答了问题，35元买了一个月乞丐版。创建主机后第一次访问、配置什么的没什么可说的，一切顺利</p>
-<h1 id="备案"><a href="#备案" class="headerlink" title="备案"></a>备案</h1><p>接下来便是万恶的备案。什么是备案？简单得说，政府默认你开网站一定是要干坏事的，那么要开网站首先你要到政府那登记，把你的包括身份证在内的一切信息登记在册，之后一旦你干坏事，很容易就可以把你抓走。什么？执政为民？为人民服务？为人民谋福利？我绝逼不信备案这事给站长带来了什么福利</p>
-<p>备案之烦琐简直令人发指，即使是阿里云这种可以代备案的，依然有超过18页的帮助文档：<a href="http://help.aliyun.com/view/13445871.html" target="_blank" rel="external">http://help.aliyun.com/view/13445871.html</a>。好吧，硬着头皮我就上了。其间复杂就不提了，就提个网站名称这一点，其中一条规则是“网站名称不能以纯数字或纯英文命名”。首先不说这句话的漏洞，我纯外星语行吗？好吧，既然咱生活在汉语国家，这条我认。想了半天给自己原来叫“Jason”的名称改为“Jason的果园”，带上其他亲笔签名等信息我就提交了</p>
-<p>一天后，阿里云初审没过，理由如下：</p>
-<p>“您好，备案信息中网站名称“IT顾问 Jason的果园”填写不正确，个人性质的网站名称不能涉及企业、行业信息，不能以域名命名，不能涉及地名，请您修改。 2：根据工信部规定未备案成功的网站域名禁止进行绑定访问，网站域名：“atjason.com”未备案成功，现却能访问网站，请您在未备案成功暂停域名解析绑定，以方便为您处理，谢谢您的配合。”</p>
-<p>看完气不打一处来。经过深深的忧虑之后我毅然决定不再继续献媚政府，凭什么我自己的东西取名还要你同意？我自己的网站能不能访问还要你批准？批你妹，哥不跟你玩了</p>
-<h1 id="国外云主机"><a href="#国外云主机" class="headerlink" title="国外云主机"></a>国外云主机</h1><p>接下来自然转回不需要备案的国外云主机。期间阿里云的客服提过，他们在香港也有主机，而且强调不需要备案哦，可惜价格有些高。我之前一直有印象的就是Linode，在网上一番搜索、比较后，还是决定用Linode</p>
-<h1 id="Linode"><a href="#Linode" class="headerlink" title="Linode"></a>Linode</h1><p>乞丐版价格比阿里云稍贵，不过配置要比其强很多：内存是其一倍、网速是其N倍、硬盘速度是其N倍。有个插曲是，Linode促销搞充5美元送50美元的活动，就在我注册的前一天结束，心中为50美元默哀5分钟……</p>
-<p>Linode一直是主机类中的高大上，价格高、服务好。这次能把价格降到$10每月、还搞大力度的促销，着实不易。除了性能，Linode在主机后台服务上做得也很好。具体不多说，只说一点：备份。Linode可以很容易得给主机备份、不需要关机，简直是无痛。而在阿里云上我压根就没看到备份这俩字。当然，AWS也是支持镜像</p>
-<h1 id="AMH"><a href="#AMH" class="headerlink" title="AMH"></a>AMH</h1><p>在网站搬家中，其实功劳最大的是AMH。什么是AMH？简单得说，“国内首个免费开源虚拟主机面板。”更多的，到其官网去了解吧：<a href="http://www.amysql.com/AMH.htm" target="_blank" rel="external">http://www.amysql.com/AMH.htm</a></p>
-<p>之前在AWS上的多个网站是通过AWS搭建的，这次搬到Linode后，安装好AMH，只需要一个命令，之前所有的东西就全回来了，注意，是全回来了，包括数据库、虚拟网站、各种配置……太方便了，我忍不住去给他们捐点小钱，却发现现在通道关闭了，以后还是会捐的</p>
-<p>据说现在在开发更好用的新版本，期待中</p>
-<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>好了，说了这么多，其实最想说的是，做网站最重要的是内容。站长大多在后台技术上不那么专业，花在这些外围事情上的时间应当越少越好（花点钱也是应该的），这样才能更专注得做好内容。</p>
+            <p>StartFragment使用过Quartz Composer(Origami)的朋友会有感觉，这家伙是个耗性能的大户。如果你还不打算切换工具、或者离不开QC强大的交互设计功能，就试试下面介绍的优化建议吧。</p>
+<p>主要的调整是在系统偏好设置中进行：</p>
+<p><a href="https://ps.toolinbox.net/6zxqv.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/rk9mj.jpg" alt="Quartz Composer设置"></a></p>
+<p>Viewer (Preferences &gt; Viewer)</p>
+<ul>
+<li><p>降低帧率</p>
+<pre><code>*   这应该是最有效的方式。可以在开发过程中设置低的帧率，在演示过程中再将其调高
+</code></pre><ul>
+<li>具体的，可将&quot;Maximum rendering frame rate&quot;调低至10，演示时可调至&quot;Unlimited&quot;</li>
+</ul>
+</li>
+<li><p>降低Viewer窗口的尺寸</p>
+<pre><code>*   这个没有严格的依据，只是根据心理上的理解，窗体小、执行动画时需要重绘的面积小，需要消耗的性能也少
+</code></pre></li>
+</ul>
+<p>Editor</p>
+<ul>
+<li><p>取消阴影</p>
+<pre><code>*   猜想可以降低绘制阴影的消
+</code></pre></li>
+<li><p>取消网络线</p>
+<pre><code>*   虽然网络线可以帮助在视觉上对齐，但实际上吸附的操作还是通过&amp;quot;Align Nodes&amp;quot;实现的，所以可以取消网络
+</code></pre></li>
+<li><p>关闭Patch的Render</p>
+<pre><code>*   也即，在不需要展示某些Patch时，暂时关闭这些Patch的Render，等需要时再打开
+</code></pre></li>
+</ul>
+<p>注意：在调整过程中，可以同时打开Activity Monitor，观察调整前后，在Viewer中操作时CPU使用率的变化。</p>
+<p>终极方案：关闭Viewer</p>
+<pre><code>熟练使用快捷键，在需要查看时使用⌘+R支持Viewer，不需要进使用⌘+.关闭Viewer
+</code></pre><p>EndFragment</p>
 
           
         
@@ -1179,7 +1179,7 @@ fi
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/318/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/318/">318</a><span class="page-number current">319</span><a class="page-number" href="/page/320/">320</a><span class="space">&hellip;</span><a class="page-number" href="/page/333/">333</a><a class="extend next" rel="next" href="/page/320/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/318/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/318/">318</a><span class="page-number current">319</span><a class="page-number" href="/page/320/">320</a><span class="space">&hellip;</span><a class="page-number" href="/page/335/">335</a><a class="extend next" rel="next" href="/page/320/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1224,7 +1224,7 @@ fi
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1662</span>
+                <span class="site-state-item-count">1674</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

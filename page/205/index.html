@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-05.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-17.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-06-05.html" itemprop="url">
-                  0605 - 域名备案成功
+                <a class="post-title-link" href="/daily/2017-06-17.html" itemprop="url">
+                  0617 - 只做核心业务
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-05T22:00:00+08:00">
-                2017-06-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-17T22:00:00+08:00">
+                2017-06-17
               </time>
             
 
@@ -366,9 +366,12 @@
       
         
           
-            <p>记录一下，等了 10 几天后，管局终于通过审核。看起来，就像朋友说的，只要阿里云通过了，管局基本也能通过，只是时间问题。</p>
-<p>不过，还得去公安备案。哎，良民当到底吧。</p>
-<p>有了备案后，就要考虑 CDN 了，以及用起来阿里云国内的服务器。再加上把现在的网站全部升级，又是半天左右的事了。</p>
+            <p>这两天遇到了 MySQL 一个很诡异的问题，Google 后打开了上百个页面，折腾了将近一天，也只是「绕过去」了，最终也只是模糊地了解了原因。</p>
+<p>回头来看：<strong>真不划算</strong>。既浪费了时间，还坏了自己的精神头。</p>
+<p>还是要 <strong>专注于核心业务，把核心业务以外的事情，全部「外包」</strong></p>
+<p><strong>外包，就是交给更专业的人做，节约自己的时间</strong>。比如，对于 MySQL，可以找 AWS 这种专门提供数据库托管的服务，几分钟就可以创建一个强大的、全球的、高可靠、防攻击的数据库，这是个人花几个月也做不到的；而其成本，则相对低廉的多。</p>
+<p><strong>尤其对于独立开发者，个人精力非常有限，一定要用在最核心的、无法被替代的地方</strong>。对于 MySQL 这种基础性的工作，做差了，用户骂；做好了，用户根本不知道，也不会表扬；摆明了吃力不讨好的事。</p>
+<p>再一次记住这个教训。</p>
 
           
         
@@ -412,7 +415,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-04.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-16.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -434,8 +437,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-06-04.html" itemprop="url">
-                  0604 - Python 学得好慢
+                <a class="post-title-link" href="/daily/2017-06-16.html" itemprop="url">
+                  0616 - 完成功能，离完善产品，还差很远
                 </a>
               
             
@@ -451,8 +454,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-04T22:00:00+08:00">
-                2017-06-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-16T22:00:00+08:00">
+                2017-06-16
               </time>
             
 
@@ -510,8 +513,17 @@
       
         
           
-            <p>不知道是学习的方法不对，还是自己状态不好，感觉学得很慢，也觉得累。</p>
-<p>还是坚持把廖雪峰的教程看完，然后实施 Klib 分享页。</p>
+            <p>目前，已经完成了 Klib 分享的后端和前端部分，可距离发布产品，还有很多工作要做。</p>
+<p>比如数据库，正常的读写好，还要处理异常的情况，比如防止 SQL 注入，防止恶意插入大量数据，等等。</p>
+<p>再比如并发数，同时和多个组件关联，复杂度甚至是各组件相乘：</p>
+<ul>
+<li>MySQL</li>
+<li>SQLAlchemy</li>
+<li>gunicorn</li>
+<li>nginx</li>
+</ul>
+<p>有高人指点就好。可要找到恰巧上面各项都懂、有时间、愿意帮忙的高手，太难了。</p>
+<p>更靠谱的是，自己学习并解决。趁还不算老，多学点吧。</p>
 
           
         
@@ -555,7 +567,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-03.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-15.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -577,8 +589,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-06-03.html" itemprop="url">
-                  0603 - 近视，是种残疾
+                <a class="post-title-link" href="/daily/2017-06-15.html" itemprop="url">
+                  0615 - 没有比较，就没有伤害
                 </a>
               
             
@@ -594,8 +606,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-03T22:00:00+08:00">
-                2017-06-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-15T22:00:00+08:00">
+                2017-06-15
               </time>
             
 
@@ -653,11 +665,33 @@
       
         
           
-            <p>这两天新配了眼镜。</p>
-<p>其实，我是非常抵触去眼镜店的。</p>
-<p>一方面，总感觉被宰。因为多少还是知道一点眼镜行业的暴利，于是，他们服务的越周道、热烈，我越发觉得被宰得厉害、就更不舒服了。哎，一个行业能做成这种状态，也是悲哀。</p>
-<p>另一方面，更重要的是：怕面对近视度数又加深的事实，有点讳疾忌医的感觉。作为每天至少面对电脑 8 个小时、外加不知道多少小时手机的我，近视加深几乎是必然的；但又必然是不想加深的。这种矛盾与无能为力，真让人难受。</p>
-<p>近视，是种残疾，让人想想就难受的病。</p>
+            <p>用了一段时间 Python，今天又开始切换至 Xcode + Swift，真的是感觉到：没有比较，就没有伤害。</p>
+<p>一方面：</p>
+<ul>
+<li>和解释型语言相比，编译型语言的编译时间，简直是在谋杀程序员<ul>
+<li>尤其，Swift 的编译时间出名的慢</li>
+<li>再加上，每次编译都要签名；尝试了取消签名，但失败了，回头再折腾下</li>
+<li>当然，也是有好处是：不用像解释型语言一样，担心在运行时出现类型错误。当然，这一点是可以通过别的方法解决</li>
+</ul>
+</li>
+<li>Xcode 的代码提示…Xcode 有代码提示吗？</li>
+<li>VS Code 可以像网页一样使用 Command +/- 来缩放，比 Xcode 用起来舒服</li>
+</ul>
+<p>另一方面：</p>
+<ul>
+<li>和 Xcode 相比，VS Code 的调试功能还是太弱了</li>
+<li>VS Code 在提交代码时，即时的修改竟然不会被提交</li>
+</ul>
+<p>另外：</p>
+<ul>
+<li>Xcode 和 VS Code 的功能和快捷键有很大的不同，切换起来，要人格分裂了<ul>
+<li>在 IDE 中使用 Git 查看代码不同时，Xcode 当前代码在左侧，VS Code 在右侧</li>
+</ul>
+</li>
+<li>Swift 和 Python 语法上的不同，切换起来，要人格分裂了</li>
+<li>现在用 13 寸的 MBP、还未外接显示器，多窗口调试时确实显小了，下一台一定要上 15 寸，除非有工作室 + 外接显示器</li>
+</ul>
+<p>好在，今天完成了 Klib 分享的客户端主体部分，明天应该能完整搞定；争取再写一部分 Klib 分享的技术方案。</p>
 
           
         
@@ -701,7 +735,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-02.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-14.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -723,8 +757,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-06-02.html" itemprop="url">
-                  0602 - 共享工具？
+                <a class="post-title-link" href="/daily/2017-06-14.html" itemprop="url">
+                  0614 - 终于完成 Klib 笔记分享的后端部分
                 </a>
               
             
@@ -740,8 +774,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-02T22:00:00+08:00">
-                2017-06-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-14T22:00:00+08:00">
+                2017-06-14
               </time>
             
 
@@ -799,9 +833,9 @@
       
         
           
-            <p>最近共享概念还挺热，比如共享雨伞、共享篮球、等等。像这样的东西都可以共享了，还有什么不能共享？</p>
-<p>其实，我倒是挺希望有 <strong>共享工具</strong> 的。比如，前段时间家里需要钻个孔，我到楼下做铝合金窗户的店铺里借电钻，结果去了 3 次，人家以各种理由推脱，就是没借到。最后，我自己在淘宝买了一个。用完之后，就一直闲置在家里。</p>
-<p>如果当时有共享这个电动工具的，我就是挺愿意一用。而目前我有了之后，我也愿意租给别人用，但并不愿意为此花时间、精力。共享电动工具这事，问题还挺多，比如如何取、送、保护隐私、等等。</p>
+            <p>严重拖堂之后，终于完成了 Klib 笔记分享的后端部分。目前的方案了实现，基本满意。也想好下周公众号要发的文章了：描述 Klib 笔记分享的技术造型与关键点。</p>
+<p>关注我的公众号「自在开发」，下周二、下下周二、下下下周二早 8 点…准时分享技术长文。</p>
+<p><img src="https://ps.toolinbox.net/nckv0.jpg" alt=""></p>
 
           
         
@@ -845,7 +879,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-01.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-13.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -867,8 +901,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-06-01.html" itemprop="url">
-                  0601 - 管理期望值
+                <a class="post-title-link" href="/daily/2017-06-13.html" itemprop="url">
+                  0613 - 一天干了很多活
                 </a>
               
             
@@ -884,8 +918,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-01T22:00:00+08:00">
-                2017-06-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-13T22:00:00+08:00">
+                2017-06-13
               </time>
             
 
@@ -943,11 +977,23 @@
       
         
           
-            <p>东西贵不贵、好不好，是相对的；相对于什么呢？相对于用户的期望值、心理预期。</p>
-<p>要「管理」用户的期望。</p>
-<p>比如，软件的免费 + 内购模式。起初，用户看到内购价格时，可能会觉得贵。但看的多了，慢慢就不觉得贵了。某一天需要的时候，可能就入手了。</p>
-<p>比如，坚果 Pro 发布会上将产品吹的天上手、地下无的，可当拿到手，看到背板不平这样低级的质量问题，还是会有种吃苍蝇的感觉；心理落差大。</p>
-<p>好坏无绝对，只能相对满意。</p>
+            <p>今天干活涉及到了很多个技术点，罗列一下吧：</p>
+<ul>
+<li>Python 项目的单元测试</li>
+<li>完善 Python 中日志的用法<ul>
+<li>如格式化日志文件分割，开发、生产环境区分，等等</li>
+</ul>
+</li>
+<li>使用 pyinotify 监控文件夹变化</li>
+<li>使用 rsync 在不同服务器间同步文件</li>
+<li>使用 ssh 远程运行命令</li>
+<li>使用 supervisor 保障服务运行</li>
+<li>去掉 CSS 中未用到的属性</li>
+<li>认识到国内服务器访问外网是龟速<ul>
+<li>影响了技术选择；哎，之前太天真了</li>
+</ul>
+</li>
+</ul>
 
           
         
@@ -986,7 +1032,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/204/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/204/">204</a><span class="page-number current">205</span><a class="page-number" href="/page/206/">206</a><span class="space">&hellip;</span><a class="page-number" href="/page/333/">333</a><a class="extend next" rel="next" href="/page/206/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/204/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/204/">204</a><span class="page-number current">205</span><a class="page-number" href="/page/206/">206</a><span class="space">&hellip;</span><a class="page-number" href="/page/335/">335</a><a class="extend next" rel="next" href="/page/206/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1031,7 +1077,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1662</span>
+                <span class="site-state-item-count">1674</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

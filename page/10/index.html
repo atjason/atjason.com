@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-13.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-25.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-13.html" itemprop="url">
-                  0213 - 「说字」小程序
+                <a class="post-title-link" href="/daily/2020-02-25.html" itemprop="url">
+                  0225 - 做小工具的乐趣
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-13T22:00:00+08:00">
-                2020-02-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-25T22:00:00+08:00">
+                2020-02-25
               </time>
             
 
@@ -366,15 +366,10 @@
       
         
           
-            <p>今天没忍住，准备接着「视字」，再搞一个「说字」小程序。</p>
-<p>所谓「说字」，就是边说话、边识别文字，就和微信里的按住说话一样。说实话，这东西有什么商用价值呢？不是有很多类似的产品了吗？恩，是这样的，不过我还是没忍住不是。今天是周四，计划 3 天、也即周日前完成发布上线，下周一推广一天，完事。</p>
-<p>首先，自然是技术可行性研究。</p>
-<p>先看微信小程序接口方面，提供了边录音边提供音频数据的能力，基本可行。</p>
-<p>然后就是研究提供实时语音识别的服务。先是看了搜狗，因为「视字」里就是用的搜狗，且搜狗的语音识别使用的是 WebSocket 技术，看起来很厉害的样子。实际测试下来，感觉不管我怎么修改参数，长时间的音频，只能返回第一次发送的数据。最后发现是数据分割出了问题。证明可行。<br>不过有个限制，一次最多一分钟，还不确定能不能通过多次请求了来实现长时间的识别。<br>另外还有个可能的问题，就是是否兼容微信录音产生的音频格式，有待验证。</p>
-<p>然后看了讯飞的接口，恩，太贵了…</p>
-<p>然后看了腾讯 AI 的语音识别，基本已经完成集成，目测中间结果、最终识别结果略优于搜狗，单次最长 90s，看起来是比较好的选择。不过，也有坑，就是腾讯 AI 服务器很频繁地出现 502 错误，应该是服务器资源不足。这对于实时性要求很高的即时翻译，是比较要命。而且，微信小程序对于网络请求的频率，估计也是有限制的。</p>
-<p>另外，百度的语音识别需要申请。已经申请了，等待结果。</p>
-<p>目前还没有非常适合的服务，明天再想想，再看看阿里云的情况。</p>
+            <p>Namebase 的交易所网页（<a href="https://www.namebase.io/pro" target="_blank" rel="external">https://www.namebase.io/pro</a> ）布局比较生硬，自己不习惯，又不能拖拽调整。于是自己做了个 Chrome 插件，可以按自己的喜好调整布局，顿时感觉舒爽。</p>
+<p>有能力做个小工具，提高效率、也让自己感觉舒服，这真是件惬意的事。</p>
+<p>当然了，这个小工具我也开源了：</p>
+<p><a href="https://github.com/atjason/namebase-chrome" target="_blank" rel="external">https://github.com/atjason/namebase-chrome</a></p>
 
           
         
@@ -418,7 +413,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-12.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-24.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -440,8 +435,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-12.html" itemprop="url">
-                  0212 - 对自己没有帮助的信息，都是噪音
+                <a class="post-title-link" href="/daily/2020-02-24.html" itemprop="url">
+                  0224 - 权力的滥用
                 </a>
               
             
@@ -457,8 +452,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-12T22:00:00+08:00">
-                2020-02-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-24T22:00:00+08:00">
+                2020-02-24
               </time>
             
 
@@ -516,8 +511,10 @@
       
         
           
-            <p>最近疫情，很多人会关心很多信息。比如，湖北省的人事干部有什么变动，实际情况是不是比官方通报的更严重，等等。</p>
-<p>其实，很多信息对自己并没有帮助。比如，不管疫情是不是比通报的更严重，能改变你目前的决策吗？不是该上班上班、该在家呆着呆着、该做防护做防护，什么都没变。那这些信息对你有什么用呢？就是噪音；最多像娱乐八卦一样，满足你的好奇心、打发时间而已。</p>
+            <p>比如，当孩子小的时候，父母在体力上占用绝对辗压优势。只要愿意，几乎可以随时、无偿地打骂小孩，这就是权力。当权力不被约束时，更是权力。</p>
+<p>就像墨菲法则一样，只要权力有被滥用的可能，就一定会被滥用。最有效的，就是增加约束的时效性。</p>
+<p>比如，打了孩子，孩子就不和自己亲近，将来长大后更是如此。可毕竟长大后的事太过遥远，无法对现在产生影响。爷爷奶奶辈的，则可以不断重复将来可能的事，算是提高了时效性，用将来可能的影响，来影响现在，以达到心疼小辈的目的。</p>
+<p>说的有点乱。对于自己，就是要提醒自己，小孩的任性、不配合，确实很容易激怒耐心丧失的父母。不过，打骂，更多时候不是教育，只是发泄自己心中的怒火，只是权力的滥用。打则打矣，可别拿当教育来当挡箭牌。</p>
 
           
         
@@ -561,7 +558,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-11.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-23.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -583,8 +580,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-11.html" itemprop="url">
-                  0211 - 邮件发送
+                <a class="post-title-link" href="/daily/2020-02-23.html" itemprop="url">
+                  0223 - 知道在赚谁的钱
                 </a>
               
             
@@ -600,8 +597,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-11T22:00:00+08:00">
-                2020-02-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-23T22:00:00+08:00">
+                2020-02-23
               </time>
             
 
@@ -659,14 +656,11 @@
       
         
           
-            <p>项目中，经常需要使用邮件来发送一些信息，比如重要错误、自己关心的信息等等。</p>
-<p>市面上有很多类似的消息推送服务，比如 <a href="http://sc.ftqq.com/3.version" target="_blank" rel="external">Server酱</a>、<a href="https://pushbear.ftqq.com/admin/#/" target="_blank" rel="external">PushBear</a>，接口也很简单。只是我目前还是习惯于用邮件来管理这些信息。每个项目重复一个邮件模块挺烦的，而且像小程序这样的环境，又不支持发邮件。于是自己做了一个：</p>
-<p><a href="https://github.com/atjason/email_message" target="_blank" rel="external">https://github.com/atjason/email_message</a></p>
-<p>首先，你需要更新项目中的配置文件 <code>config.js</code>，完成邮件账户、服务器端口等信息的配置。</p>
-<p>然后，你需要有服务器、域名，然后把以上服务配置到服务器中，使用 <code>nginx</code> 等服务器应用完成网络转发。</p>
-<p>这些完了之后，客户端请求就很容易了。假设部署的域名是 <code>https://example.com</code>，只需要发一个网络请求，如 <code>https://example.com/?s=SECRET&amp;t=title</code>，就会发一封邮件标题为 <code>title</code>、正文为空的邮件。其中 <code>SECRET</code> 用于阻止非法访问，达到一定程度的安全性。更多参数，可在项目中查看，或者自己设置。</p>
-<p>一些信息：我后台是使用 <code>Gmail</code> 来发送邮件。可以先注册一个小号，专门用于发邮件。然后允许其在非安全环境登录。如果首次在一个 IP 等环境使用该账户发邮件时，会因安全提示而阻止。此时，只需在浏览器中访问提示中的网址，进行安全验证即可。我的服务器部署在国外，因此没有那个神奇问题的干扰。</p>
-<p>当然，你也可以使用其他邮件服务。另外，一般的云服务也提供邮件服务，每天也有大约 200 的免费发送量，对个人基本也是够的。不过，以我测试的经验，触达率不好说。即使是把发送方加入收件人的联系人或白名单，也会出现发送成功、但收不到、垃圾邮箱里也没有的情况。而 <code>Gmail</code> 是我测试下来最让人放心的。</p>
+            <p>在交易市场里混，想赚钱，就得知道赚的是谁的钱。</p>
+<p>如果是交易所提供的羊毛，那是容易的；甚至可以说，不赚白不赚。</p>
+<p>如果是要赚别人的钱，就要慎重。因为大家都是来赚钱的，都是聪明人。想从别人口中抢肉吃，自然不容易。</p>
+<p>如果确定要这么做，就得研究这些人。他们来市场的目的是什么，套保还是套利；他们的策略是什么；他们有什么优势、劣势、特征；什么要避免、什么是可以利用的；等等。</p>
+<p>知道是赚谁的钱，才能避免稀里糊涂亏钱。</p>
 
           
         
@@ -710,7 +704,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-10.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-22.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -732,8 +726,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-10.html" itemprop="url">
-                  0210 - 「视字」集成百度
+                <a class="post-title-link" href="/daily/2020-02-22.html" itemprop="url">
+                  0222 - 交流是人的天性
                 </a>
               
             
@@ -749,8 +743,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-10T22:00:00+08:00">
-                2020-02-10
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-22T22:00:00+08:00">
+                2020-02-22
               </time>
             
 
@@ -808,12 +802,8 @@
       
         
           
-            <p><strong>百度语音转写</strong>，目前还在公测期，需要申请。之前申请，今天终于过了；估计主要是受疫情影响，审核比较慢。</p>
-<p>迫不及待拿来一试。集成还挺简单的，一个请求创建任务，指定音频的 url 及其他参数；之后便是轮询，查询转写是否完成。当然，也支持作为完成后回调，只是一般客户端调用，自然是无法接受回调的。</p>
-<p>需要关心的主要是两点：<strong>识别质量</strong> 和 <strong>识别速度</strong>。</p>
-<p><strong>识别质量</strong> 方面，感觉略微比较搜狗知音差一点，不过整体还是达到商用级别的。尤其，每天还有 5 万次的免费额度，对「视字」这种级别的小程序，自然是够用了。</p>
-<p><strong>识别速度</strong> 方面，感觉不太稳定。快的时候很快，基本 10s+ 就有结果。慢的时候很慢，甚至 3 分钟的音频，要几十分钟、上小时才完成。我猜还是服务器资源有限，碰到请求比较多时，识别时间就会拉长。</p>
-<p>不过，最后我还是 <strong>没有在「视字」中使用百度</strong>，主要是因为上面两点：识别质量畋差于搜狗，识别速度不够稳定。不过，还是继续观察，相信百度还是会快速进化的，毕竟语音是未来交互的重要途径之一，而百度明显在语音转写方面起步晚了。要追上，就得快跑了。</p>
+            <p>这两天在研究 Namebase 交易所，其中发现一些很好玩的环节，就特别想跟人分享。而能找到真正理解其中意趣人来分享，也并不那么容易。</p>
+<p>果然，八卦、交流，真是人的天性。像我这么宅的人，都有忍不住的时候，更何况那些本性比较外向的人。想让他们憋住，怕是真的会憋坏。</p>
 
           
         
@@ -857,7 +847,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-09.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-21.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -879,8 +869,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-09.html" itemprop="url">
-                  0209 - 「视字」集成讯飞
+                <a class="post-title-link" href="/daily/2020-02-21.html" itemprop="url">
+                  0221 - namebase.io 的套利机会
                 </a>
               
             
@@ -896,8 +886,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-09T22:00:00+08:00">
-                2020-02-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-21T22:00:00+08:00">
+                2020-02-21
               </time>
             
 
@@ -955,16 +945,19 @@
       
         
           
-            <p>今天没忍住，动手给「<strong>视字</strong>」集成了 <strong>讯飞语音识别</strong>。</p>
-<p>为什么呢？本来对讯飞期望挺高的，毕竟在公开的产品中，<strong>讯飞听见的识别结果是相对来说最理想的</strong>，我自然想将其集成到「视字」中。之前选择搜狗而非讯飞，主要是几个原因：</p>
+            <p>昨天折腾的 namebase 空投 HNS，今天收到了，也转成 BTC 并投币了。</p>
+<p>不过，namebase 的势头造起来了，吸引开发者的目的也达到了。至少我有点兴趣，就看了下交易所。总的来说，交易所的技术还比较初级，比如：</p>
 <ul>
-<li>讯飞只支持上传本地音频文件，不支持提供网络音频文件。</li>
-<li>讯飞价格最美丽，入门价基本是搜狗等其他产品的 2 倍+</li>
+<li>网站本身有很多不完善的地方</li>
+<li>接口及网页不支持修改订单等操作</li>
+<li>Ticker 接口不支持顶层订单价格和大小</li>
+<li>缺少限定最小订单金额机制</li>
+<li>没有明确的请求频率限制</li>
+<li>订单编号是递增数字，过于坦露内部信息</li>
+<li>市价单查不到价格、费率</li>
+<li>成交量还很小</li>
 </ul>
-<p>不过，后来看如果选择比较贵的套餐，基本价格能做到和其他产品差不多。冲着它的效果，我就动手了。</p>
-<p>不过，折腾了一天，等集成后，傻眼了：<strong>相同的音频文件，讯飞 API 返回的识别结果，和讯飞自家的产品如讯飞听听，那简单不是一个量级的东西，差太多了</strong>。跟腾讯、阿里比都不如，更别说搜狗。我当时那个吐血啊。都怪我太善良，没相信讯飞这个浓眉大眼的家伙，也会干这种事。</p>
-<p>目前，我已经发了工单，提供了音频文件和分别的识别结果，询问官方到底是怎么回事，期待结果吧。<strong>如果没有合理的答复，我只能粉转黑，再也不义务宣传讯飞的产品了</strong>。</p>
-<p>当然，今天还件开心的事：<strong>从视频中提取音频</strong>，我选用的是七牛的服务。本以为会按视频转码计费；给七牛发工单，官人也是这么说的。没想到今天看实时费用，<strong>应该是按音频转码计费的</strong>，这可是视频价格的 1/10。恩，好事，可以压低成本了。不过，七牛的服务响应速度堪忧，说人话就是很慢。哎，这问题目前怕是无解了。</p>
+<p>不过，不成熟也意味着一定的机会。比如，流动性差意味着大玩家不会进场，节奏慢意味着适合学习盘口技术，价差大意味着套利机会。有这么些优势，准备弄个小机器人玩玩。</p>
 
           
         
@@ -1003,7 +996,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/9/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><span class="page-number current">10</span><a class="page-number" href="/page/11/">11</a><span class="space">&hellip;</span><a class="page-number" href="/page/333/">333</a><a class="extend next" rel="next" href="/page/11/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/9/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/9/">9</a><span class="page-number current">10</span><a class="page-number" href="/page/11/">11</a><span class="space">&hellip;</span><a class="page-number" href="/page/335/">335</a><a class="extend next" rel="next" href="/page/11/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1048,7 +1041,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1662</span>
+                <span class="site-state-item-count">1674</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

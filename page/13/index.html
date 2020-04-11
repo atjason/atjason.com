@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-29.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-10.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-29.html" itemprop="url">
-                  0129 - 表演
+                <a class="post-title-link" href="/daily/2020-02-10.html" itemprop="url">
+                  0210 - 「视字」集成百度
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-29T22:00:00+08:00">
-                2020-01-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-10T22:00:00+08:00">
+                2020-02-10
               </time>
             
 
@@ -366,9 +366,12 @@
       
         
           
-            <p>有多少大家心知肚明的表演呢？</p>
-<p>说的人在表演；关键听到的人，明知对方在表演，也自然而然地跟着表演。大家心照不宣，面子上都过得去。</p>
-<p>比如，摆拍；比如，形式主义；比如「下次注意；一定一定」，说的人知道对方多半下次还是不注意，但这样说了，感觉自己尽到责任了；听的人也听到这次算过了，对方不会再追究了。</p>
+            <p><strong>百度语音转写</strong>，目前还在公测期，需要申请。之前申请，今天终于过了；估计主要是受疫情影响，审核比较慢。</p>
+<p>迫不及待拿来一试。集成还挺简单的，一个请求创建任务，指定音频的 url 及其他参数；之后便是轮询，查询转写是否完成。当然，也支持作为完成后回调，只是一般客户端调用，自然是无法接受回调的。</p>
+<p>需要关心的主要是两点：<strong>识别质量</strong> 和 <strong>识别速度</strong>。</p>
+<p><strong>识别质量</strong> 方面，感觉略微比较搜狗知音差一点，不过整体还是达到商用级别的。尤其，每天还有 5 万次的免费额度，对「视字」这种级别的小程序，自然是够用了。</p>
+<p><strong>识别速度</strong> 方面，感觉不太稳定。快的时候很快，基本 10s+ 就有结果。慢的时候很慢，甚至 3 分钟的音频，要几十分钟、上小时才完成。我猜还是服务器资源有限，碰到请求比较多时，识别时间就会拉长。</p>
+<p>不过，最后我还是 <strong>没有在「视字」中使用百度</strong>，主要是因为上面两点：识别质量畋差于搜狗，识别速度不够稳定。不过，还是继续观察，相信百度还是会快速进化的，毕竟语音是未来交互的重要途径之一，而百度明显在语音转写方面起步晚了。要追上，就得快跑了。</p>
 
           
         
@@ -412,7 +415,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-28.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-09.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -434,8 +437,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-28.html" itemprop="url">
-                  0128 - 隐藏在大义下的问题
+                <a class="post-title-link" href="/daily/2020-02-09.html" itemprop="url">
+                  0209 - 「视字」集成讯飞
                 </a>
               
             
@@ -451,8 +454,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-28T22:00:00+08:00">
-                2020-01-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-09T22:00:00+08:00">
+                2020-02-09
               </time>
             
 
@@ -510,10 +513,16 @@
       
         
           
-            <p>最近肺炎疫情越来越严重，各地也慢慢开始重视，出现了各种各样的举措。河南省的一些封村之类的行为，在网上被传播，人称网红硬核省。相反，一些不作为、或者行动慢的地方zf，则被骂。</p>
-<p>问题是，不作为被骂被问责，乱作为呢？</p>
-<p>封村封城，你看着爽，拍手称赞。可被封的对象，就没人权了吗。一颗白菜几十块，怎么说？</p>
-<p>对于官员来说，采取严苛甚至过份的举措，是政治正确。不仅不会被骂，还会赢来可能的政治资本，那最自然的结果，就是采取越来越严的管理办法，毕竟有利无害，为什么不呢？可因此引发的问题，隐藏在大义之下，就被无视、被淹没，更别说被解决。下次有类似情况，还会是这问题。</p>
+            <p>今天没忍住，动手给「<strong>视字</strong>」集成了 <strong>讯飞语音识别</strong>。</p>
+<p>为什么呢？本来对讯飞期望挺高的，毕竟在公开的产品中，<strong>讯飞听见的识别结果是相对来说最理想的</strong>，我自然想将其集成到「视字」中。之前选择搜狗而非讯飞，主要是几个原因：</p>
+<ul>
+<li>讯飞只支持上传本地音频文件，不支持提供网络音频文件。</li>
+<li>讯飞价格最美丽，入门价基本是搜狗等其他产品的 2 倍+</li>
+</ul>
+<p>不过，后来看如果选择比较贵的套餐，基本价格能做到和其他产品差不多。冲着它的效果，我就动手了。</p>
+<p>不过，折腾了一天，等集成后，傻眼了：<strong>相同的音频文件，讯飞 API 返回的识别结果，和讯飞自家的产品如讯飞听听，那简单不是一个量级的东西，差太多了</strong>。跟腾讯、阿里比都不如，更别说搜狗。我当时那个吐血啊。都怪我太善良，没相信讯飞这个浓眉大眼的家伙，也会干这种事。</p>
+<p>目前，我已经发了工单，提供了音频文件和分别的识别结果，询问官方到底是怎么回事，期待结果吧。<strong>如果没有合理的答复，我只能粉转黑，再也不义务宣传讯飞的产品了</strong>。</p>
+<p>当然，今天还件开心的事：<strong>从视频中提取音频</strong>，我选用的是七牛的服务。本以为会按视频转码计费；给七牛发工单，官人也是这么说的。没想到今天看实时费用，<strong>应该是按音频转码计费的</strong>，这可是视频价格的 1/10。恩，好事，可以压低成本了。不过，七牛的服务响应速度堪忧，说人话就是很慢。哎，这问题目前怕是无解了。</p>
 
           
         
@@ -557,7 +566,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-27.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-08.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -579,8 +588,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-27.html" itemprop="url">
-                  0127 - 感情是时间浪费出来的
+                <a class="post-title-link" href="/daily/2020-02-08.html" itemprop="url">
+                  0208 - 「视字」上线
                 </a>
               
             
@@ -596,8 +605,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-27T22:00:00+08:00">
-                2020-01-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-08T22:00:00+08:00">
+                2020-02-08
               </time>
             
 
@@ -655,8 +664,12 @@
       
         
           
-            <p>比如，过年走亲戚、见朋友，「正事」其实几句话就说完了，之后就开始说一些无关紧要「废话」，干一些打牌之类「没用」的事。</p>
-<p>而要建立亲近的关系，这样的时间「浪费」好像是必须的。不可能食用高纯度关系增加剂，只能是用时间堆出来。</p>
+            <p>折腾了差不多一周，「<strong>视字</strong>」小程序上线了。</p>
+<p><img src="https://ps.toolinbox.net/2m0o8.png" width="200px"></p>
+<p>用法很简单：选择视频，等待，即可识别出视频中的文字。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybply1gbpf7wv843g30880hshdu.gif" alt=""></p>
+<p>欢迎扫码一试，也请帮忙介绍给周围需要的朋友。</p>
+<p>使用过程中遇到任何问题，可以点击应用底部的「反馈」，我这个小客服会很负责的哦~</p>
 
           
         
@@ -700,7 +713,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-26.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-07.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -722,8 +735,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-26.html" itemprop="url">
-                  0126 - 从众
+                <a class="post-title-link" href="/daily/2020-02-07.html" itemprop="url">
+                  0207 - 「视字」收尾
                 </a>
               
             
@@ -739,8 +752,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-26T22:00:00+08:00">
-                2020-01-26
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-07T22:00:00+08:00">
+                2020-02-07
               </time>
             
 
@@ -798,11 +811,9 @@
       
         
           
-            <p>最近的事，不论是不让放炮、不让拜年、戴口罩，这在农村里几乎是不可想象的。如果有人这么干，那绝对是异类，是要被鄙夷的。</p>
-<p>可偏偏就是发生的，怎么发生的呢？</p>
-<p>最核心的有人带头。不过多奇怪的事，只要有人带头，最好有不少其他人也这么干，那这事就不奇怪了，自己也可以放心这么干，这就是从众。从众行为在农村更加明显，只要村干部和少数人带头，除了少数刺头，大伙基本都会跟着干。原因有很多，可以说村人缺乏独立思考能力；也可以说和大家保持一致，在这个人情环境里，太重要了。</p>
-<p>强制力也很有用。村里人之间讲情面，黑锅基本会甩给「上面」。比如，村干部采取些村民可能不乐意的举动，就会大说特说「这是上面要求的」，最好再加一句：我也没办法。这样，既能强制对方以达到目的，又不伤情面。</p>
-<p>人情 + 强制力，基本就能管控村里了。如果能有点甜头，更好。</p>
+            <p>昨天把主体工作完成了，今天就是收尾。</p>
+<p>其实，收尾会有很多杂事，比如校对文案，错误日志收集，关键服务监控，设计 Logo、图标，提交审核并发布，制作宣传材料和文案，考虑推广方案，等等。</p>
+<p>Anyway，今天小程序已经上线了，宣传视频也做好了，明天开始逐步推广。</p>
 
           
         
@@ -846,7 +857,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-25.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-06.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -868,8 +879,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-25.html" itemprop="url">
-                  0125 - 封村
+                <a class="post-title-link" href="/daily/2020-02-06.html" itemprop="url">
+                  0206 - 有一点代码洁癖
                 </a>
               
             
@@ -885,8 +896,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-25T22:00:00+08:00">
-                2020-01-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-06T22:00:00+08:00">
+                2020-02-06
               </time>
             
 
@@ -944,10 +955,8 @@
       
         
           
-            <p>今天是大年初一。</p>
-<p>最近的肺炎疫情越来越严重了。各级对待的态度，也明显严于非典时期。我们这边有的村已经开始封村了，就是主动挖断进村道路，只留一条，然后派人守着。一般不让进村，实在要进的，就要登记体温之类的。</p>
-<p>进而，就是不让拜年。这边基本上是不同村之间通婚的，过年自然是不同村之间的人员互相走动拜年。封村了，拜年自然是进行不了。</p>
-<p>这次疫情，真是深刻改变了过年的生活。现在，在家呆着，就是给祖国做贡献。</p>
+            <p>今天在写小程序云函数，为了不依赖第三方库，自动手动实现鉴权，并找单独的 base64/md5/hmac/post 等单文件实现的版本。最后，终于还是实现功能了，可惜花的时间太多了。本打算今天放出体验版的，结果还是做不到。</p>
+<p>好处是，有些工作只用做一次，下次直接复制这些代码即可。不过，如无必要，还是直接依赖第三方库算了。人生苦短，还是少重复造轮子的好。</p>
 
           
         
@@ -986,7 +995,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/12/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><span class="page-number current">13</span><a class="page-number" href="/page/14/">14</a><span class="space">&hellip;</span><a class="page-number" href="/page/333/">333</a><a class="extend next" rel="next" href="/page/14/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/12/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/12/">12</a><span class="page-number current">13</span><a class="page-number" href="/page/14/">14</a><span class="space">&hellip;</span><a class="page-number" href="/page/335/">335</a><a class="extend next" rel="next" href="/page/14/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1031,7 +1040,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1662</span>
+                <span class="site-state-item-count">1674</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
