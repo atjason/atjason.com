@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2020-04-10T14:21:44.896Z</updated>
+  <updated>2020-04-12T15:12:47.281Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0412 - 理财与赌大小</title>
+    <link href="https://atjason.com/daily/2020-04-12.html"/>
+    <id>https://atjason.com/daily/2020-04-12.html</id>
+    <published>2020-04-12T14:00:00.000Z</published>
+    <updated>2020-04-12T15:12:47.281Z</updated>
+    
+    <content type="html"><![CDATA[<p>这两天接触到了币圈的一个 <em>理财</em> 产品。比如，投入资产 A，当币价高于某个值时，你会得到带有一定收益的 A 资产；反之，你会得到一定的币。</p>
+<p>这不就是赌大小嘛。</p>
+<p>如果我知道币价会涨，直接做多不就好了；反之就是做空，犯得着这么麻烦嘛。</p>
+<p>有趣的点在于，这么一个简单的核心，被包装上理财的外衣，再加上华丽的年化收益数字，甚是诱人。是什么样的人纺织出这一切，又是什么样的人发现并陷入其中，这些人最后的收益或亏损是什么，等等。这些事情，想想还是有意思的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这两天接触到了币圈的一个 &lt;em&gt;理财&lt;/em&gt; 产品。比如，投入资产 A，当币价高于某个值时，你会得到带有一定收益的 A 资产；反之，你会得到一定的币。&lt;/p&gt;
+&lt;p&gt;这不就是赌大小嘛。&lt;/p&gt;
+&lt;p&gt;如果我知道币价会涨，直接做多不就好了；反之就是做空，犯得着这么麻烦嘛。
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0411 - 订单流</title>
+    <link href="https://atjason.com/daily/2020-04-11.html"/>
+    <id>https://atjason.com/daily/2020-04-11.html</id>
+    <published>2020-04-11T14:00:00.000Z</published>
+    <updated>2020-04-12T15:05:46.217Z</updated>
+    
+    <content type="html"><![CDATA[<p>这两天在看<a href="http://www.orderflows.com/book/TradingOrderFlow768.pdf" target="_blank" rel="external">《Trading Order Flow》</a>这本书，算是二刷了。</p>
+<p>其中，印象最深的一点，是 <em>stacked imbalances</em>:</p>
+<blockquote>
+<p>The beauty of stacked imbalances is that they make great entries for low risk trades. Quite often price will retrace back into a stack imbalance zone before continuing in the direction of the stacked imbalance. The stop placement is very easy, it is just outside of the stacked imbalance zone, literally a tick or two outside the stacked imbalance.</p>
+</blockquote>
+<p>恩，可操作性很强，等书看完了，实操下。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这两天在看&lt;a href=&quot;http://www.orderflows.com/book/TradingOrderFlow768.pdf&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;《Trading Order Flow》&lt;/a&gt;这本书，算是二刷了。&lt;/
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0410 - 时间消化情感</title>
@@ -522,59 +574,6 @@
       &lt;p&gt;今天研究了 v2 开头的那个神奇的工具。&lt;/p&gt;
 &lt;p&gt;为什么要研究呢？&lt;/p&gt;
 &lt;p&gt;在调用交易所 API 接口时，为了安全，通常会指定 IP 白名单。由于这些神奇的交易所在国内无法访问，故而需要指定国外服务器的 IP。那如何在本地调试呢？需要通过类似代理的机制，将网络请
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0323 - 交易策略的可靠性</title>
-    <link href="https://atjason.com/daily/2020-03-23.html"/>
-    <id>https://atjason.com/daily/2020-03-23.html</id>
-    <published>2020-03-23T14:00:00.000Z</published>
-    <updated>2020-03-23T15:18:25.834Z</updated>
-    
-    <content type="html"><![CDATA[<p>在交易策略中，可靠性非常重要。</p>
-<p>一旦可靠性出了问题，程序出了乱子，其结果可能乱七八糟。轻则影响对策略效果的判断，重则造成巨大损失。</p>
-<p>在正常的环境下正常运行，是不够的。要增加额外的策略，保证即使出了异常情况，也能有可靠的机制，保证会拉回到正常轨道上来。</p>
-<p>在增加可靠性方面，特别考验策略及程序的实现。最关键的，在策略无法精简的前提下，尽可能避免增加程序复杂度。加代码容易，删代码难。随便加个补丁，很可能在修复当前异常情况时，引入新的不稳定因素。在某些诡异的情况下，可能会触发新的异常。程序越简洁，这样的情况越不容易发生。这也是奥卡姆剃刀原理。</p>
-<p>简单的东西，更容易可靠；<br>可靠的东西，基本很简单。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;在交易策略中，可靠性非常重要。&lt;/p&gt;
-&lt;p&gt;一旦可靠性出了问题，程序出了乱子，其结果可能乱七八糟。轻则影响对策略效果的判断，重则造成巨大损失。&lt;/p&gt;
-&lt;p&gt;在正常的环境下正常运行，是不够的。要增加额外的策略，保证即使出了异常情况，也能有可靠的机制，保证会拉回到正常轨道上
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0322 - 势均力敌才有趣</title>
-    <link href="https://atjason.com/daily/2020-03-22.html"/>
-    <id>https://atjason.com/daily/2020-03-22.html</id>
-    <published>2020-03-22T14:00:00.000Z</published>
-    <updated>2020-03-22T14:58:05.310Z</updated>
-    
-    <content type="html"><![CDATA[<p>就像打乒乓球，最有意思的，是和自己差不多、或者比自己稍微强些的人打。</p>
-<p>如果对手太弱，自己提不起兴趣；<br>如果对手太强，自己依然提不起兴趣，因为赢不了嘛。</p>
-<p>买拍子不难，找到打球的场地也不难；难的，是找到合适的对手。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;就像打乒乓球，最有意思的，是和自己差不多、或者比自己稍微强些的人打。&lt;/p&gt;
-&lt;p&gt;如果对手太弱，自己提不起兴趣；&lt;br&gt;如果对手太强，自己依然提不起兴趣，因为赢不了嘛。&lt;/p&gt;
-&lt;p&gt;买拍子不难，找到打球的场地也不难；难的，是找到合适的对手。&lt;/p&gt;
-
     
     </summary>
     
