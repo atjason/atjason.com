@@ -4,12 +4,138 @@
   
     
     <entry>
+      <title><![CDATA[0419 - 想，干]]></title>
+      <url>https://atjason.com/daily/2020-04-19.html</url>
+      <content type="html"><![CDATA[<p>知道自己想要的，努力去挣。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0418 - 那一刻的温柔]]></title>
+      <url>https://atjason.com/daily/2020-04-18.html</url>
+      <content type="html"><![CDATA[<p>今天一个朋友来家里坐坐，伸手问娃说：抱抱吧。娃有点认生，往我怀里钻，扭扭捏捏、黏黏糊糊。</p>
+<p>那一刻，我的心一下子软了。</p>
+<p>那个神情、那个扭，不能不让人温柔。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0417 - 2B 交易定式]]></title>
+      <url>https://atjason.com/daily/2020-04-17.html</url>
+      <content type="html"><![CDATA[<p>今天盯盘，发现一个较为典型的 2B 定式：</p>
+<p><img src="https://ps.toolinbox.net/0em2r.png" alt=""></p>
+<p>什么是趋势衰竭反转 2B、怎么用，我这水平就不献丑了，大家可以在这时学习：</p>
+<p><a href="https://www.youtube.com/watch?v=ysfn8aqyaKU" target="_blank" rel="external">https://www.youtube.com/watch?v=ysfn8aqyaKU</a></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0416 - 一个机会]]></title>
+      <url>https://atjason.com/daily/2020-04-16.html</url>
+      <content type="html"><![CDATA[<p>昨天画好图，今天试着盯盘，发现一个机会：</p>
+<p><img src="https://ps.toolinbox.net/iwyak.jpg" alt=""></p>
+<p>用 Order Flow 图来看，是这样的：</p>
+<p><img src="https://ps.toolinbox.net/bgtuq.jpg" alt=""></p>
+<p>事后看，止损还可以再向上拉一点，</p>
+<p>当然，这是拿成功的说事，失败的还是大多数。做趋势及突破交易，就是这样的，多次小亏，换得一次大赚。所以经验能力，无非是减少小亏的次数，以及其他诸如资金管理、心态管理之类的。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0415 - 接入数据源]]></title>
+      <url>https://atjason.com/daily/2020-04-15.html</url>
+      <content type="html"><![CDATA[<p>按计划，今天接入了数据源，并根据实际情况，对图表进行调整。现在长这个样子：</p>
+<p><img src="https://ps.toolinbox.net/gpxv3.png" alt=""></p>
+<p>花比较多的时间，在图表的调整，尤其是缩放的支持。粗糙实现容易，微调所花费的时间，绝对不亚于搭框架。</p>
+<p>有了这个图表做底子，明天实际用起来，看能不能据此产生出一个交易系统。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0414 - 绘制图表完成]]></title>
+      <url>https://atjason.com/daily/2020-04-14.html</url>
+      <content type="html"><![CDATA[<p>根据计划，今天完成了除数据源外的图表绘制，大概长这个样子：</p>
+<p><img src="https://ps.toolinbox.net/sxwql.jpg" alt=""></p>
+<p>具体的工作，主要是研究并实现 echarts custom series；echarts 是个好东西，功能强大且灵活，关键文档及示例还很齐全，基本只看官网、不搜索，就能得到想要的结果。</p>
+<p>庆幸有 echarts 这样的工具。我之前还打算直接在 cavans 上绘图；要是真这样做，不知道要多久才能做到现在的结果。</p>
+<p>接下来，就是要接入真正的数据了。大体思路已经想通了，明天实现。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0413 - 绘制图表]]></title>
+      <url>https://atjason.com/daily/2020-04-13.html</url>
+      <content type="html"><![CDATA[<p>看完了订单流交易那本书，接下来自然是要实验下。可，软件卖得太贵了，$1250…</p>
+<p>想到我是个程序员，那就程序实现呗。其实这样不好，无奈穷…</p>
+<p>研究了一番，发现 echarts 可以。一方面，本身支持 candlestick 类型的图；另一方面，可以在图的基础上增加 graphic，也即文本、矩形框之类的。在得到 candlestick 所产生的图元素位置的基础上，还是可以达到想要的结果，只是繁碎了些。</p>
+<p>在实际实现的过程中，发现 echarts 支持自定义 series，这下可以更优雅地实现，而不是在 candlestick 图上加各种补丁。</p>
+<p>恩，明天好好研究这个，搞定除数据源以外的图表部分。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0412 - 理财与赌大小]]></title>
       <url>https://atjason.com/daily/2020-04-12.html</url>
       <content type="html"><![CDATA[<p>这两天接触到了币圈的一个 <em>理财</em> 产品。比如，投入资产 A，当币价高于某个值时，你会得到带有一定收益的 A 资产；反之，你会得到一定的币。</p>
 <p>这不就是赌大小嘛。</p>
 <p>如果我知道币价会涨，直接做多不就好了；反之就是做空，犯得着这么麻烦嘛。</p>
-<p>有趣的点在于，这么一个简单的核心，被包装上理财的外衣，再加上华丽的年化收益数字，甚是诱人。是什么样的人纺织出这一切，又是什么样的人发现并陷入其中，这些人最后的收益或亏损是什么，等等。这些事情，想想还是有意思的。</p>
+<p>有趣的点在于，这么一个简单的核心，被包装上理财的外衣，再加上华丽的年化收益数字，甚是诱人。是什么样的人编织出这一切，又是什么样的人发现并陷入其中，这些人最后的收益或亏损是什么，等等。这些事情，想想还是有意思的。</p>
 ]]></content>
       
         <categories>
@@ -64,7 +190,7 @@
 <p>和差的人打交道，一定要小心，尤其要避免沾染上对方的习气，陷入对方的思维逻辑中，落入比下限的境地。一旦如此，你会慢慢变得和他一样 Low，变成你现在讨厌的样子。</p>
 <p>有时，对付什么样的人，就要用什么样的办法，是对的；但又是很危险的。对付恶人用恶的方法，不是不可以，但一定要小心，因为恶的方法通常是捷径、见效快；一旦用了，很容易上瘾。</p>
 <p>比如，有人打了你一拳，你用更狠的一拳还击，这自然是见效最快的，他不敢再欺负你了。这里的陷阱在于，下次呢？一旦你出过拳，之后就有可能主动出拳，出错误的拳。</p>
-<p>写到这里，又突然想到交易中的一致性、纪律。偶尔破戒，确实无伤大雅。问题在于，它会破功，大大削弱下次守戒的定力。当人笨人，比偶尔耍小聪明，可能更好。</p>
+<p>写到这里，又突然想到交易中的一致性、纪律。偶尔破戒，确实无伤大雅。问题在于，它会破功，大大削弱下次守戒的定力。当个笨人，比偶尔耍小聪明，可能更好。</p>
 ]]></content>
       
         <categories>
@@ -754,14 +880,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
-      <url>https://atjason.com/daily/2020-03-04.html</url>
-      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
-<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
-<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
-<p>靠自己的实力呢？玩笑了。</p>
-<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
-<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
+      <title><![CDATA[0305 - 极致收敛]]></title>
+      <url>https://atjason.com/daily/2020-03-05.html</url>
+      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
+<p>过不了这二问，不做。</p>
+<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
 ]]></content>
       
         <categories>
@@ -774,11 +897,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0305 - 极致收敛]]></title>
-      <url>https://atjason.com/daily/2020-03-05.html</url>
-      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
-<p>过不了这二问，不做。</p>
-<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
+      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
+      <url>https://atjason.com/daily/2020-03-04.html</url>
+      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
+<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
+<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
+<p>靠自己的实力呢？玩笑了。</p>
+<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
+<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
 ]]></content>
       
         <categories>
@@ -5801,11 +5927,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
-      <url>https://atjason.com/daily/2019-05-25.html</url>
-      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
-<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
-<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
+      <title><![CDATA[0524 - 人设崩塌]]></title>
+      <url>https://atjason.com/daily/2019-05-24.html</url>
+      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
+<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
+<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
+<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
 ]]></content>
       
         <categories>
@@ -5835,12 +5962,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0524 - 人设崩塌]]></title>
-      <url>https://atjason.com/daily/2019-05-24.html</url>
-      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
-<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
-<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
-<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
+      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
+      <url>https://atjason.com/daily/2019-05-25.html</url>
+      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
+<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
+<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
 ]]></content>
       
         <categories>
@@ -21032,6 +21158,35 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
+      <url>https://atjason.com/daily/2017-06-27.html</url>
+      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
+<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
+<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
+<ul>
+<li><strong>基于数据</strong><ul>
+<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
+</ul>
+</li>
+<li><strong>基于内容</strong><ul>
+<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
+</ul>
+</li>
+</ul>
+<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
+<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Klib 第四版：纯粹，只为悦读]]></title>
       <url>https://atjason.com/PM/2017-06-27_Klib.html</url>
       <content type="html"><![CDATA[<p>在 Kindle 上读书，可以避免纸质书的收纳问题，还能方便地标注，挺好的。不过，标注虽然方便，标注的回顾整理却并不方便。好在，<strong><a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a></strong> 解决了这个问题（如何解决？请看 <a href="https://sspai.com/post/37581" target="_blank" rel="external">这里</a>、以及 <a href="https://sspai.com/post/38688" target="_blank" rel="external">这里</a>）</p>
@@ -21058,35 +21213,6 @@
         <categories>
             
             <category> PM </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
-      <url>https://atjason.com/daily/2017-06-27.html</url>
-      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
-<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
-<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
-<ul>
-<li><strong>基于数据</strong><ul>
-<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
-</ul>
-</li>
-<li><strong>基于内容</strong><ul>
-<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
-</ul>
-</li>
-</ul>
-<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
-<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
