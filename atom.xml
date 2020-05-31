@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2020-05-31T03:14:59.168Z</updated>
+  <updated>2020-05-31T03:25:46.607Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://atjason.com/daily/2020-05-31.html"/>
     <id>https://atjason.com/daily/2020-05-31.html</id>
     <published>2020-05-31T14:00:00.000Z</published>
-    <updated>2020-05-31T03:14:59.168Z</updated>
+    <updated>2020-05-31T03:25:46.607Z</updated>
     
     <content type="html"><![CDATA[<p>这两天简单了解了美国国债，以下为笔记；也帮你在 3 分钟内认识美债。</p>
 <p><strong>什么是美国国债</strong></p>
@@ -39,8 +39,8 @@
 </ul>
 <p>原理：</p>
 <ul>
-<li>降息释放大量的流动性，注入债市。大家抢着买，就要牺牲一点收益，来抢到债券。债的名义利率是不变的，于是便溢价发行，价格自然推高。</li>
-<li>当然，和债券抢钱的还有其他蓄水池，比如股市。</li>
+<li>降息导致基准利率下降，无风险利率和信用风险利率紧随其后。而根据风险与收益匹配的原则，在国债风险不变的情况下，收益也应下调（不然不就变成低风险、高收益这种不应该存在的东西）。由于债券的票面利率不变，于是出现溢价、价格走高。</li>
+<li>降息释放大量的流动性，注入债市。大家抢着买，就要牺牲一点收益，来抢债券，推高债券价格。当然，和债券抢钱的还有其他蓄水池，比如股市。</li>
 </ul>
 <p><strong>债券收益</strong></p>
 <ul>
@@ -67,11 +67,14 @@
 <p>而就最近几个月股指和债券价格走势来看，具有明显的负相关性。因此，简单粗暴的结论是，当股指开始掉头向下时，将资金从股市移至债券。</p>
 <p><strong>我对债券的定位</strong></p>
 <p>目前，对我来说，债券是理财的一种，目标是保本 + 抗通胀收益。相比而言，并不是投资的主要收益来源。</p>
+<hr>
+<p>以上为笔记。理解不对的地方，还请帮忙指正，先谢。</p>
 <p>一些资料：</p>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=kj87yxWJ9qQ" target="_blank" rel="external">美国国债 (US Treasury) 基础知识（4K 高清美女讲解）</a></li>
 <li><a href="https://www.youtube.com/watch?v=3d7uIE7sEXk&amp;t=887s" target="_blank" rel="external">美国国债怎么买？</a></li>
 <li><a href="https://tmmperfectlife.com/how-to-choose-the-right-us-treasury-bond-etfs/" target="_blank" rel="external">美國公債ETF比較</a></li>
+<li><a href="https://secure.fundsupermart.com.hk/fsm/article/view/rcms205520/" target="_blank" rel="external">【美国长债ETF比较】抗疫首选 逆市上升的投资工具</a></li>
 </ul>
 ]]></content>
     
