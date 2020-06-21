@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/IT/evernote-sdk-mac.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-31.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/IT/evernote-sdk-mac.html" itemprop="url">
-                  Improve evernote-sdk-mac
+                <a class="post-title-link" href="/daily/2017-03-31.html" itemprop="url">
+                  0331 - 运营，非一日之功
                 </a>
               
             
@@ -307,336 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-25T17:17:37+08:00">
-                2017-03-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Tips: official <a href="https://github.com/evernote/evernote-sdk-mac" target="_blank" rel="external"><em>evernote-sdk-mac</em></a> hasn’t been updated <strong>over around 4 years</strong>. You can image how many possible issues inside.</p>
-<p><img src="https://ps.toolinbox.net/y83qr.jpg" alt=""></p>
-<p>When add feature of export to Evernote from <a href="https://itunes.apple.com/cn/app/id1196268448?mt=12&amp;at=1000lv4R&amp;ct=klib_me" target="_blank" rel="external">Klib</a>, I fixed the issues in the SDK and improve it. Check what problems I ever met, and how you can safely walk around them.</p>
-<h1 id="What’s-changed-in-this-fork"><a href="#What’s-changed-in-this-fork" class="headerlink" title="What’s changed in this fork?"></a>What’s changed in this fork?</h1><p><a href="https://github.com/atjason/evernote-sdk-mac" target="_blank" rel="external">My fork</a></p>
-<ul>
-<li><p>Change <code>Dynamic Library Install Name Base</code> (i.e., <code>DYLIB_INSTALL_NAME_BASE</code>) from <code>/Library/Frameworks</code> to <code>@rpath</code>. </p>
-<ul>
-<li>If not, even you include <code>EvernoteSDK-Mac.framework</code> in your App, your App will still crash with error <em>dyld: Library not loaded: … Reason: image not found</em>. As <code>EvernoteSDK-Mac.framework</code> will definitely not be copied to <code>/Library/Frameworks</code>.</li>
-</ul>
-</li>
-<li><p>Could manually set Evernote token.</p>
-<ul>
-<li>This change isn’t necessary, as the SDK itself will save the token in system Keychain.</li>
-<li>But it will be flexiable if so, i.e., save token after authorization, and set it after app restarts.</li>
-</ul>
-</li>
-<li><p>Choose Evernote host based on parameter of host.</p>
-<ul>
-<li>The SDK will still choose host (i.e., ‘Evernote’, or ‘Evernote-China’) based on <code>getBootstrapInfoWithLocale</code>, even you set the host as <code>BootstrapServerBaseURLStringCN</code> (i.e., “app.yinxiang.com”) in <code>setSharedSessionHost</code> and <code>authenticate</code>.</li>
-<li>But this logic seems has issue (always chhose the first host from the list returned from Evernote sever).</li>
-<li>And sometimes, user want to manually choose host.</li>
-<li>For the reasons above, I modify the API to use Evernote host based on parameter of host.</li>
-</ul>
-</li>
-</ul>
-<h1 id="About-Evernote-API"><a href="#About-Evernote-API" class="headerlink" title="About Evernote API"></a>About Evernote API</h1><p>Beside the SDK itself above, you also need to pay attention on Evernote API.</p>
-<ul>
-<li>Try to activate Evernote API as early as possible. No one guarantee how much time you need to wait before Evernote really activate it.<ul>
-<li>Tips: you will not get any confirm email after request to activate API.</li>
-<li>If you thought Evernote ignore your request, you can try to reach them in Twitter <a href="https://twitter.com/evernotehelps" target="_blank" rel="external">@evernotehelpst</a></li>
-</ul>
-</li>
-<li>By default, Evernote only activate API for Evernote international rage. If you want to provide service in ‘Evernote-China’ (i.e., Yinxiang Biji), you need to manually request Evernote team to do so. Just reply the confirm email about activation.</li>
-</ul>
-<h1 id="About-NoteStore-findNotesMetadata"><a href="#About-NoteStore-findNotesMetadata" class="headerlink" title="About NoteStore.findNotesMetadata"></a>About <code>NoteStore.findNotesMetadata</code></h1><ul>
-<li>@param  maxNotes The maximum notes to return in this query. The service will return a set of notes that is no larger than this number, but may return fewer notes if needed. The NoteList.totalNotes field in the return value will indicate whether there are more values available after the returned set. Currently, the service will not return more than <strong>250</strong> notes in a single request, but this number may change in the future.</li>
-<li>The <strong>250</strong> means, if you have more than 250 notes in the query, you need to query for times.</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/book/201704.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/book/201704.html" itemprop="url">
-                  201704 -《自律型创业》
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-25T08:01:08+08:00">
-                2017-03-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/读书笔记/" itemprop="url" rel="index">
-                    <span itemprop="name">读书笔记</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p><img src="https://ps.toolinbox.net/xxnlt.jpg" alt=""></p>
-<p><a href="https://www.amazon.cn/gp/product/B00U3NDIJE/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00U3NDIJE&amp;linkCode=as2&amp;tag=llll1-23">自律型创业</a></p>
-<p>这应该是我做标注最多的书了。</p>
-<p>这是讲创业如何启动、如何从 0 到 1 的。比较系统的分析了这一过程中各个方面，并且列出了各方面重点要注意的事项。感觉可以作为一本工具书，每当启动新项目时，就拿来读一遍。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/book/201704.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-24.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-03-24.html" itemprop="url">
-                  0324 - 帮助别人带来的满足感
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-24T19:52:25+08:00">
-                2017-03-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-31T19:52:25+08:00">
+                2017-03-31
               </time>
             
 
@@ -694,10 +366,446 @@
       
         
           
-            <p>好像，我还是是挺喜欢这种感觉的。</p>
-<p>尤其是，当使用自己的技能，解决了别人不会、或很难解决的问题，就会很有成就感。尤其，当这个人跟自己有关系、比较亲近时，这种成就感就更高了；<strong>感觉自己对别人还是有点用的。</strong></p>
+            <p>今天 <a href="http://klib.me" target="_blank" rel="external">Klib</a> 的海外推广依然不顺利，几乎没有有效收获。</p>
+<p>其实想想，除了运营的技法，<strong>最主要的是自己没有品牌、没有影响力</strong>。而作为媒体、编辑，都希望通过报道有趣、有用、有价值、有影响力的产品，来增加自己的价值。所以，除了个人关系的熟络，更重要的是自己提供的东西，能帮助其增加价值。</p>
+<p>而个人品牌的建立，并非一日之功。比如域名、品牌的选择，比如 Twitter、Facebook 的经营，比如坚持写博客，比如英文写作功底，等等，都是需要长期的支持、磨练，才能见效。</p>
+<p>好消息是，一旦建立了良好的运营渠道、方法，但是很大的优势，因为竞品想要追上来，也非一日之功。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-30.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-03-30.html" itemprop="url">
+                  0330 - 运营：全面撒网、不如单点突破
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-30T19:52:25+08:00">
+                2017-03-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天推广了一天 <a href="http://klib.me" target="_blank" rel="external">Klib</a>，收效甚微，心累…</p>
+<p>回头来看，就像投简历一样，随意的广撒网，不如盯住心仪的公司（媒体），重点突破。这样，保证有一家的可能性更大。并且，<strong>一旦在一家媒体上爆光了，在其他媒体上推广的难度就会小很多</strong>。</p>
+<p>再者，时间有限，也不可能对大量媒体重点进攻，只能选择更对口的媒体。</p>
+<p>换个角度，从媒体的角度，什么样的产品是他们愿意爆光的？从用户的角度，什么样的介绍方式是他们愿意接受的？<strong>从这些角度、而不是产品说明书的角度，好好的写文稿，然后再去敲门。</strong></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-29.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-03-29.html" itemprop="url">
+                  0329 - 运营，别急
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-29T19:52:25+08:00">
+                2017-03-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>最近是有些急躁，总感觉运营有好多事情要做，却又感觉没做什么事、进展很慢。再加上 <a href="http://klib.me" target="_blank" rel="external">Klib</a> 审核接连被拒，确实有些急躁了。</p>
+<p>不过，反过来想，别总想着还有多少事没做，想想凡是做点推广的事，就有可能多一位用户。这样想想，压力就小些了。</p>
+<p>目前，对 <a href="http://klib.me" target="_blank" rel="external">Klib</a> 还是有些自信的，相信只要是需要管理 Kindle 标注的用户，都还是会喜欢  <a href="http://klib.me" target="_blank" rel="external">Klib</a> 的。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-28.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-03-28.html" itemprop="url">
+                  0328 - 你娃子长好好哦
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-28T19:52:25+08:00">
+                2017-03-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>最近在丈母娘家，带娃出去，经常听到「你娃子长得好好哦」</p>
+<p>心里窃喜，基因嘛 😊</p>
+<p>后来，老婆告知：在我们这，「长得好好」，意思就是「长得好胖」</p>
+<p>我去…</p>
 <hr>
-<p>今天有些过于忙了，这样并不是很好，因为 <strong>过于忙碌具体的事，反而没时间思考忙碌本身是否值得，以及可能错过更重要的。</strong></p>
+<p>国内文化都差异这么大，这两天在做海外推广，那区别得多大啊，怕怕…</p>
 
           
         
@@ -741,7 +849,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-23.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-27.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -763,8 +871,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-03-23.html" itemprop="url">
-                  0323 - 简单，无法被打败
+                <a class="post-title-link" href="/daily/2017-03-27.html" itemprop="url">
+                  0327 - Klib.me 国外秒开
                 </a>
               
             
@@ -780,8 +888,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-23T19:52:25+08:00">
-                2017-03-23
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-27T19:52:25+08:00">
+                2017-03-27
               </time>
             
 
@@ -839,154 +947,10 @@
       
         
           
-            <p>简单是无法被打败的，复杂却可以。</p>
-<p>因为 <strong>你无法比简单更简单，却可以比复杂更复杂。</strong></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-03-22.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-03-22.html" itemprop="url">
-                  0322 - 价格，其实跟成本没几毛钱关系
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-22T19:52:25+08:00">
-                2017-03-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><strong>所谓价格，其实是在给用户提供一定价值后，从中制取一定比例作为回报。</strong></p>
-<p>当然，价格并不只这么简单，还和成本、市场环境、消费者经济水平、竞品价格、等等因素有关。不过，最核心的，依然还是产品本身能为用户提供的价值。</p>
-<p>作为理性的消费者，在考虑价格这个因素时，主要考虑的应该还是这个产品给自己带来的收益、便利。如果收益已经大于价格，那么，过多的在价格上纠结，就是在浪费时间。省去纠结的时间、精力，可以做更多事、产出更多价值，或者直接说，赚更多钱。</p>
-<hr>
-<p>最近 Klib 搞得好累，感觉要涨价了…</p>
+            <p><img src="https://ps.toolinbox.net/0t1co.jpg" alt=""></p>
+<p>折腾了两天，终于差不多把 <a href="http://Klib.me" target="_blank" rel="external">Klib.me</a> 页面做好了，基本可以达到在国外秒开。</p>
+<p>虽然如此，可做的事情还很多。并且，尤其是对网速优化部分，只是了解皮毛的皮毛，离真正了解还差的很远。不管了，暂先这样吧，能干活就行，之后遇到实际问题，再较系统地学习吧。</p>
+<p>现在来回看，应该可以把时间压缩半天，而且也不应该这么累。今天没有按时睡觉，批评自己。明天半休息~</p>
 
           
         
@@ -1025,7 +989,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/235/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/235/">235</a><span class="page-number current">236</span><a class="page-number" href="/page/237/">237</a><span class="space">&hellip;</span><a class="page-number" href="/page/348/">348</a><a class="extend next" rel="next" href="/page/237/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/235/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/235/">235</a><span class="page-number current">236</span><a class="page-number" href="/page/237/">237</a><span class="space">&hellip;</span><a class="page-number" href="/page/350/">350</a><a class="extend next" rel="next" href="/page/237/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1070,7 +1034,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1739</span>
+                <span class="site-state-item-count">1746</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
