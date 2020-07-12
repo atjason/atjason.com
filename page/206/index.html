@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-03.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-10.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-09-03.html" itemprop="url">
-                  0903 - Firebase Analytics PK Google Analytics
+                <a class="post-title-link" href="/daily/2017-09-10.html" itemprop="url">
+                  0910 - iPaste 搞定数据压缩
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-03T22:00:00+08:00">
-                2017-09-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-10T22:00:00+08:00">
+                2017-09-10
               </time>
             
 
@@ -366,34 +366,37 @@
       
         
           
-            <p>之前一直是使用 Google Analytics，无奈 Google 已经禁止移动版的 Google Analytics，全面让位于 Firebase Analytics；于是，在 iPaste for iOS 中，只能选择后者了。</p>
-<p>万万没想到，作为继任者的 Firebase Analytics，在 Event 方面远不如其父辈：</p>
+            <p>在 iPaste 数据结构中，有个很重要的环节：<strong>压缩数据</strong>（即剪贴板内容）；鬼使神差的，竟然一直没有做。在准备发 Beta 2 时，做吧。</p>
+<p>简单了解下后，发现Apple 内置了 <a href="https://developer.apple.com/documentation/compression/data_compression" target="_blank" rel="external">libcompression library</a> 压缩库。而且，也有一些使用 Swift 的封装，比如 <a href="https://github.com/leemorgan/NSData-Compression" target="_blank" rel="external">NSData-Compression</a> 和 <a href="https://github.com/mw99/DataCompression" target="_blank" rel="external">DataCompression</a>；我使用了后者，不过应该差不多。</p>
+<p>进一步，这个库中包含了 <strong>4 种压缩算法：</strong></p>
 <ul>
-<li>数据更新慢，目测要 4+ 个小时。在这开始时很要命，因为第一次接触 Firebase，总要多试试才能摸清楚。可试一把就要 4+ 个小时，怒火中烧~</li>
-<li>不支持没有实时事件。虽说有开发者模式，但明显差很多。</li>
-<li>不支持 Category/Event/Label 分类，这个应该是最不方便的。<ul>
-<li>最终，我是使用 <code>AnalyticsEventSelectContent</code> 中的 <code>AnalyticsParameterContentType</code> 和 <code>AnalyticsParameterItemID</code>，够强实现了二级分类的 Event.</li>
+<li>LZFSE</li>
+<li>LZ4</li>
+<li>LZMA</li>
+<li>ZLIB</li>
 </ul>
-</li>
-<li>不支持页面跳转流。</li>
-<li>报表简陋。<ul>
-<li>比如不支持自定义 Dashboard.</li>
-<li>即使是内置的 Parameter，都无法完全显示在报表中；而自定义的 Parameter，则想当别想了。目测导入 BigQuery 是可以看到的，但目测麻烦、且要钱。</li>
-</ul>
-</li>
-<li>会带来网络请求。这是废话，关键的是，我想延迟网络请求直到用户手动操作，这样 iOS 弹出网络授权时，用户更不可能拒绝。稍后再想想怎么优化。</li>
-</ul>
-<p>当然，还有有些好处的：</p>
+<p><strong>如何选择呢？</strong>苹果也给出了官方建议：</p>
+<blockquote>
+<p>Choice of Compression Algorithm:</p>
 <ul>
-<li>可以自定义用户属性。<ul>
-<li>比如，可以用于区分开发环境和生产环境、是否曾参加 TestFlight 测试。</li>
+<li>Use LZ4 if speed is critical, and you are willing to sacrifice compression ratio to achieve it.</li>
+<li>Use LZMA if compression ratio is critical, and you are willing to sacrifice speed to achieve it. Note that - LZMA is an order of magnitude slower for both compression and decompression than other choices.</li>
+<li>Otherwise, if speed and compression are more or less equally important, use LZFSE unless you require interoperability with non-Apple devices. If you do require interoperability with non-Apple devices, use ZLIB.</li>
+<li>LZFSE is faster than ZLIB, and generally achieves a better compression ratio. However, it is slower than LZ4 and does not compress as well as LZMA, so you will still want to use LZ4 if speed is critical or LZMA if compression ratio is critical.</li>
 </ul>
-</li>
-<li>生成漏斗报表更方便。比如付费转化率。</li>
-<li>Firebase 内置 Crash Report，这个有用。</li>
-<li>如果集成了 Ad 模块，可以识别出更多用户画像，比如年龄段、爱好、等等。不过，会让 AppStore 审核更严格。</li>
+</blockquote>
+<p>简单的说：</p>
+<p>**- LZMA 压缩效果最好</p>
+<ul>
+<li>LZ4 压缩速度最快</li>
+<li>LZFSE 是苹果自己开发的、综合表现好</li>
+<li>ZLIB 应该被 LZFSE 取代**</li>
 </ul>
-<p>才刚刚接触 Firebase，后续还有很多要学习研究的。</p>
+<p>当然，不能道听途说，我也拿自己的实践数据测试了一把：</p>
+<p><img src="https://ps.toolinbox.net/u15ed.jpg" alt=""></p>
+<p>最后，我选择了苹果自己的 <strong>LZFSE</strong> 压缩算法。</p>
+<p>除了压缩本身，还有件很重要的事：<strong>兼容已有的、未压缩的数据</strong>。事实上也还算好做，关键是有一点：如果数据未压缩，解压是无法得到有效数据。这一点可以用于区分数据是否压缩，而暂时不用添加 v1/v2 这样的数据结构版本号。</p>
+<p>再次得到教训：<strong>优先做数据结构相关的事情</strong>。等数据结构做完善、做稳定了，UI、业务逻辑等内容，随意换。</p>
 
           
         
@@ -437,7 +440,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-02.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-09.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -459,8 +462,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-09-02.html" itemprop="url">
-                  0902 - Preferences & Permission
+                <a class="post-title-link" href="/daily/2017-09-09.html" itemprop="url">
+                  0909 - iPaste Beta 2 基本搞定，心下稍安
                 </a>
               
             
@@ -476,8 +479,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-02T22:00:00+08:00">
-                2017-09-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-09T22:00:00+08:00">
+                2017-09-09
               </time>
             
 
@@ -535,22 +538,302 @@
       
         
           
-            <p>在 iPaste 的外围功能中，今天主要搞定了 Preferences &amp; Permission.</p>
-<p>Preferences 方面，由于目前主要是静态的功能，于是采用了 UITableViewController，基于 UITableView 使用 Static Cells 模式，手动添加一个个选项。其它一些细节：</p>
-<ul>
-<li>使用 <code>SFSafariViewController</code> 在应用内打开网页，不至于跳出应用。</li>
-<li>使用 <code>MFMailComposeViewController</code> 发送反馈邮件。</li>
-<li>当系统未配置邮箱时，打开网页进行反馈。</li>
-</ul>
-<p>Permission 方面，目前 iPaste 仅使用了网络权限。主要要注意的点：</p>
-<ul>
-<li>在应用启动时，避免一切网络请求。仅当用户有手动操作时，才请求网络。主要的好处是：不至于首次打开应用，就被提示要授权网络连接。</li>
-<li>封装检测当前应用是否可以访问的方法。对于重要的网络请求，先检测网络是否通畅。</li>
-<li>实际测试有些麻烦。因为 iOS 仅在用户首次运行时才弹出授权申请，要重置就要重置所有应用的权限，卸载程序都不行。感觉真的很不友好。</li>
-</ul>
+            <p><img src="https://ps-hz.toolinbox.net/006tNc79gy1fjdqci802vg30f00du176.gif" alt=""></p>
+<p>上午搞定了 Today Extension 剩余部分，最喜欢的就是上图中的切换列表的交互。至少我是没在别的应用中见到，这个微微的创新，让我有些开心。</p>
+<p>下午搞定了目前已知的较严重的问题，以目前的状态，基本可以发 Beta 2 了，预计在下周，苹果发布会之前。</p>
+<p>接下来最麻烦的就是内购模式了，想了好几种模式，也跟用户深入讨论过，依然没有确定。哎，收个钱，咋就这么难？</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-08.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-09-08.html" itemprop="url">
+                  0908 - Today > Today Extension
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-08T22:00:00+08:00">
+                2017-09-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天鼓捣了一天 Today Extension，搞定了大部分。本打算熬夜搞定的，无奈太晚了，明天继续吧。今天就不放图了，明天搞完了再一起放。</p>
+<p>做的过程中，首先有点吃惊的是，Extension 和主程序几乎就是两个完全独立的程序。要互相通信，主要还是通过 App Group 来实现。目前，我主要是使用了公共 UserDefaults 和 CoreData；其中，在使用公共 CoreData 时，我有些犹豫，主要不想把 Today Extension 的功能和代码变得太复杂。后来，为了可能的在 Today Extension 中搜索，没抵挡这个诱惑，还是公用了。</p>
+<p>开发上主要是两点。一是尽量减小资源消耗，尤其是尽量避免不必要的数据请求、速度快，这对于 Today Extension 的简洁交互方式，非常重要。</p>
+<p>另一点，就是要美观。比如，颜色之类的，尽量和系统融合。如果有界面变化，使用必要的动画。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-07.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-09-07.html" itemprop="url">
+                  0907 - 打磨产品的感觉，真好
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-07T22:00:00+08:00">
+                2017-09-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天暂停了运营工作，重新开始写代码。</p>
+<p>改了几个之前明显不能忍的 Bug 后，看着流畅运行的 iPaste，心里畅快多了。</p>
+<p>对于如何避免 Universal Pasteboard 所带来的重复历史、内购收费的策略这几个比较大的问题，也大致有了思绪。</p>
+<p>目标：争取 9.19 发布 iPaste for iOS 1.0 &amp; iPaste for macOS 2.0</p>
 <hr>
-<p>另外，我一直觉得应用应该尽量减少配置项，今天碰到法理依据了：</p>
-<p><img src="https://ps.toolinbox.net/py5z4.jpg" alt=""></p>
+<p>另外，在 macOS 10.13 上测试了自己目前的产品，没有发现新问题，松了一口气。</p>
 
           
         
@@ -594,7 +877,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-01.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-06.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -616,8 +899,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-09-01.html" itemprop="url">
-                  0901 - 虽已马不停蹄，无奈时光飞逝
+                <a class="post-title-link" href="/daily/2017-09-06.html" itemprop="url">
+                  0906 - 谢谢各位参与 iPaste for iOS 内测的朋友
                 </a>
               
             
@@ -633,8 +916,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-01T22:00:00+08:00">
-                2017-09-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-06T22:00:00+08:00">
+                2017-09-06
               </time>
             
 
@@ -692,356 +975,13 @@
       
         
           
-            <p>以下为 8 月计划：</p>
-<ul>
-<li>发布 iPaste for macOS 2.0</li>
-<li>发布 iPaste for iOS 1.0</li>
-<li>二者数据可以相互同步</li>
-</ul>
-<p>转眼已是 9 月。</p>
-<p>回顾 8 月，虽然一直在忙碌，无奈自己太过浅薄，要学的东西太多，以至于并未完成原先看起来并不复杂的计划，一声嗟叹。</p>
-<p>无奈，将 8 月计划照搬至 9 月：</p>
-<ul>
-<li>（争取）发布 iPaste for macOS 2.0</li>
-<li>（争取）发布 iPaste for iOS 1.0</li>
-<li>已有产品适配 macOS 10.13</li>
-</ul>
-<p>但愿时光停止。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-31.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-08-31.html" itemprop="url">
-                  0831 - 每晚放松一刻
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-31T22:00:00+08:00">
-                2017-08-31
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>最近养成了个习惯：每晚下楼，边走边听小说。</p>
-<p>借小说中描述的世界，放空大脑，缓解一天的疲惫，效果还不错。顺便还能稍微锻炼下身体，吹吹凉风，舒服。</p>
-<p>大脑这家伙，是挺奇怪的，你专门休息，它丫还是会在潜意识里思考东西，有好有坏吧。好的是，可以不经意想想出问题的答案。坏的是，你真的想休息时，它丫还在干活。没办法，只有给它点别的信息处理，它才会不得已放下先前思考的东西。</p>
-<p>最近在听的是《间客》，是之前听过的《庆余年》作者猫腻所著，其实还是能听出很多共通的东西，毕竟同一个的框架、模式、套路，总有相似的痕迹。昨天听的打斗的场景有意思的，今天的部分一般般了。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-30.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-08-30.html" itemprop="url">
-                  0830 - 迂回于 Swift 包管理
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-30T22:00:00+08:00">
-                2017-08-30
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天又折腾了下 Swift 包管理。</p>
-<p>目前是用 CocoaPods，其实也没太大问题，但总觉得 <strong>对代码的侵入太强</strong>。这不，iPaste for iOS 起了个新项目，想换个清爽点的，于是就又折腾了下。</p>
-<p>除了 Pod，主要有 2 个选择：<strong>Carthage</strong> 和 <strong>Swift Package Manager</strong>. 后者现在还太嫩，仅适合 Swift 项目，很多第三方并不支持，遂放弃。</p>
-<p>那就来到了 Carthage；其实 <strong>Carthage</strong> 并不复杂，<strong>实质是下载第三方库的源码、本地编译为 Frameworks. 剩下的事情，就要开发者自己手动操作了。</strong>其实手动也没什么，就是把 Frameworks 作为 Linked Frameworks 加入项目中，并在编译时复制入 .app. </p>
-<p><strong>为什么不用 Embeded 方式呢？</strong>因为毕竟第三方库是会变的，如果用 Embeded 相当于写死了版本，后续升级时有些麻烦。当然，也是可行的。</p>
-<p>这里就可以看出 <strong>Pod 和 Carthage 的二点不同</strong>：</p>
-<ul>
-<li><strong>Pod 实质是使用源代码集成</strong><ul>
-<li>好处：在写代码时可以方便跳转至第三方库的源码中</li>
-<li>坏处：编译速度慢，尤其是全新编译或打包时</li>
-</ul>
-</li>
-<li><strong>Carthage 实质是使用 Framework 集成</strong><ul>
-<li>好处与坏处，正好与 Pod 相反</li>
-<li>不过，在集成 dYMS 后，也可以在调试期间跳入第三方库的源码中，但依然不能在写代码时跳转</li>
-</ul>
-</li>
-</ul>
-<p>Carthage 这里有个坑：<strong>Swift 编译器版本</strong>。</p>
-<ul>
-<li>如果你电脑上仅有一个 Xcode，没什么问题。而如果你同时安装了 Xcode Beta、又恰巧要为 Xcode Beta 的项目添加依赖，就有问题了。</li>
-<li>Carthage 默认是用 <code>xcrun swift --version</code> 所得到的 Swift 版本进行编译的。而默认情况下，这个肯定是 Xcode 而非 Xcode Beta 的运行环境。再来个而，Swift 3.2 的项目，是无法引用 Swift 3.1 编译器编译出来的 Frameworks 的。</li>
-<li>解决方案也很直接，使用 Xcode Beta 中的编译器即可。只是，貌似 Carthage 并没有相关的参数方便地切换（比如，我试了 <code>TOOLCHAINS=com.apple.dt.toolchain.Swift_3_2 carthage update --platform iOS</code> 来指定 Swift 编译器版本，不过貌似并没有干活），最后比较土的先将 Swift 默认编译器改为 Xcode Beta 版本，编译后再改回来。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo xcode-select -s /Applications/Xcode-beta.app/Contents/Developer</div><div class="line">carthage update --platform iOS</div><div class="line">sudo xcode-select -s /Applications/Xcode.app/Contents/Developer</div></pre></td></tr></table></figure>
-<p>Carthage 这么简洁美好，<strong>万万没想到，最后还是倒入了 Pod 的怀抱。</strong></p>
-<p><strong>因为 Firebase 只支持 Pod 方式集成？！</strong></p>
-<p>根本原因是，<strong>Firebase 并没有完全开源，部分代码只能用静态库的方式发布</strong>。而 Carthage 目前对静态库的支持并不好（虽然网上也有人成功了，但毕竟不是官方支持，有些麻烦，放弃了）</p>
-<p>早说嘛，我就不折腾 Carthage 了，何必呢？</p>
-<p>另外，还折腾了 <strong>iOS 与 macOS 项目间共享代码</strong>。因为我不想将二者放在一个工程里，怕同时调试时麻烦，就分为 2 个项目了。现在看来，主要有如下方式集成：</p>
-<ul>
-<li>创建本地 Pod 项目<ul>
-<li>好处是可以方便跳入源码，道理和上面介绍的一样</li>
-<li>坏处是，创建本地 Pod 项目，麻烦啊</li>
-<li><strong>最后，还是用了这个方式</strong></li>
-</ul>
-</li>
-<li>使用 Frameworks + Carthage 集成<ul>
-<li>好处是集成简单</li>
-<li>坏处也是 Carthage 本身的限制：看源码麻烦</li>
-</ul>
-</li>
-<li>共享相同的源码文件<ul>
-<li>由于我是自己写代码，不需要和别人共享，这也不失为一条路。</li>
-<li>而且，这个方式最简单。</li>
-</ul>
-</li>
-</ul>
-<p>总算，这事有了结论，明天可以静心地优化 iOS 与 macOS 间的数据同步了。</p>
+            <p>其实，这只是 iPaste for iOS 的首次面世，我也知道有已知的问题，所以并不打算大规模介绍，只是小范围的先试试，发现可能的问题，解决掉。等产品稳定了、更好用了，再更多的推广。</p>
+<p>可没想到，收到了好久要测试的邮件。甚至，我都不知道「最美应用」这样的媒体是怎么找到消息的、并在微博上发布了，我只好被动地在自己的微博上发了通告。</p>
+<p>另外，由于之前没料想到有这么多的要测试的朋友，之前只是留了邮箱、发邮件即可。这可苦了我了，手动复制 100 多年邮件地址。另外，真忙搞了个腾讯问卷。这样，大家可以在问卷中留下邮箱，我在后台导出来 csv 文件，进而导入 Test Flight 的后台，免去手动复制的麻烦。</p>
+<p>由于折腾这些事情，今天并没有做真正的开发。明天会停止这些运营活动，先修复发现的较严重的问题，然后开发 Today Widget. 至于发布日期，还没想好，可能得 9.12 苹果发布会之后的一两周吧。</p>
+<hr>
+<p>如果你刚刚了解到 iPaste for iOS，可以在 <a href="https://atjason.com/daily/2017-09-05.html">这里</a> 了解，感兴趣可以在 <a href="https://wj.qq.com/s/1540447/7100/" target="_blank" rel="external">这里</a> 留下邮箱以参与 Test Flight 内测。</p>
+<p>最后，凡是参与内测的朋友，真诚地等待你们的使用体验，尤其是不满意的地方，让我们一起把这款产品做得简洁好用。</p>
 
           
         
@@ -1080,7 +1020,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/205/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/205/">205</a><span class="page-number current">206</span><a class="page-number" href="/page/207/">207</a><span class="space">&hellip;</span><a class="page-number" href="/page/352/">352</a><a class="extend next" rel="next" href="/page/207/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/205/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/205/">205</a><span class="page-number current">206</span><a class="page-number" href="/page/207/">207</a><span class="space">&hellip;</span><a class="page-number" href="/page/354/">354</a><a class="extend next" rel="next" href="/page/207/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1125,7 +1065,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1760</span>
+                <span class="site-state-item-count">1767</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
