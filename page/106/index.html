@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-15.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-22.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-03-15.html" itemprop="url">
-                  0315 - 每天预留自由时间
+                <a class="post-title-link" href="/daily/2019-03-22.html" itemprop="url">
+                  0322 - 响应 GitHub Webhooks 实现自动部署的 Web 服务
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-15T22:00:00+08:00">
-                2019-03-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-22T22:00:00+08:00">
+                2019-03-22
               </time>
             
 
@@ -366,15 +366,32 @@
       
         
           
-            <p>结论：每天晚上 11 点之后，不再做业务相关的事情，只用来思考、学习、或发呆。</p>
-<p>忙了一天，需要一个调整切换的时期：</p>
+            <p>今天研究并实现一个响应 GitHub Webhooks 实现自动部署的 Web 服务。简单收拾了下代码和文档，<a href="https://github.com/atjason/deploy" target="_blank" rel="external">开源至此</a></p>
+<h2 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h2><p>这并不是一个 Hello Word 教学示例，而是我自己在用的实际项目。假设你已经知道下列技术或满足其条件：</p>
 <ul>
-<li>比如，在赶业务时暂时搁置的不熟悉的部分，学习之；</li>
-<li>比如，思考今天的技术方案，有没有更好的实现方式；</li>
-<li>比如，跳出具体的事情，从更多的角度审视项目所处的状态，确定明天最应该做什么；</li>
-<li>比如，就是休息一下，放空大脑；</li>
+<li>有一台自己的服务器</li>
+<li>会配置域名</li>
+<li>会配置 nginx 或者其他 Web 服务器，实现 Web 服务至 node 服务的转发</li>
+<li>了解 node、koa</li>
+<li>了解 Webhooks</li>
+<li>了解 SMTP</li>
+<li>会编辑 shell 脚本</li>
 </ul>
-<p>做完这一切，正好是新的一天的形女以；从睡觉回血开始，开启美妙的一天。</p>
+<h2 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h2><ul>
+<li><code>node lib/index.js</code> 运行后，在 <code>3030</code> 端口提供可响应 GitHub Webhook 的服务</li>
+<li>内部通过 <code>exec</code> 来调用实际工作的 shell 脚本（需要自己编写）</li>
+<li>发邮件告知运行结果</li>
+</ul>
+<h2 id="主要配置"><a href="#主要配置" class="headerlink" title="主要配置"></a>主要配置</h2><p>均位于 <code>config</code> 目录，参照 <code>*_demo.json</code>，添加没有 <code>_demo</code> 的版本</p>
+<h3 id="config-json"><a href="#config-json" class="headerlink" title="config.json"></a>config.json</h3><p>可为每个仓库、分支创建对应的配置：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="string">"webhook-test_master"</span>: &#123; <span class="comment">// RepositoryName_BranchName</span></div><div class="line">    <span class="string">"secret"</span>: <span class="string">"GitHub_Webhook_secret"</span>,</div><div class="line">    <span class="string">"cwd"</span>: <span class="string">"/home/jason/testapi/"</span>, <span class="comment">// 脚本执行目录</span></div><div class="line">    <span class="string">"command"</span>: <span class="string">"/bin/bash ./deploy.sh"</span>, <span class="comment">// 真正工作的 shell 脚本</span></div><div class="line">    <span class="string">"env"</span>: &#123; <span class="comment">// 一些环境变量</span></div><div class="line">      <span class="string">"DEBUG"</span>: <span class="string">"s:*"</span></div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="security-json"><a href="#security-json" class="headerlink" title="security.json"></a>security.json</h3><p>目前主要存储了 SMTP 配置信息，用于发告知邮件：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="string">"mailConfig"</span>: &#123;</div><div class="line">    <span class="string">"host"</span>: <span class="string">"email-smtp.us-west-2.amazonaws.com"</span>,</div><div class="line">    <span class="string">"port"</span>: <span class="string">"465"</span>,</div><div class="line">    <span class="string">"user"</span>: <span class="string">"user123"</span>,</div><div class="line">    <span class="string">"password"</span>: <span class="string">"password123"</span>,</div><div class="line">    <span class="string">"from"</span>: <span class="string">"from@gmail.com"</span>,</div><div class="line">    <span class="string">"to"</span>: <span class="string">"to@gmail.com"</span></div><div class="line">  &#125;  </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="琐碎的"><a href="#琐碎的" class="headerlink" title="琐碎的"></a>琐碎的</h2><p>关于 GitHub Webhook，记得生成密码、选择 <code>json</code> 格式。</p>
+<p>关于 shell 脚本，可以通过 <code>2&gt;&amp;1</code> 将其中不重要的 warn/error，从 stderr 转到 stdout 中。</p>
+<p>关于邮件服务，我开始时用的是阿里云，但出现了提示发送成功、但实际不破功的情况，垃圾箱也没有。后来试了 Amazon SES，目前一切顺利；每天 200 封免费邮件额度。</p>
+<p>使用 VSCode 编写调试，<code>.vscode</code> 配置本身也包含在项目中了。</p>
+<p>如果你遇到了问题，多问问 Google 和自己；我这边是顺畅运行的。</p>
 
           
         
@@ -418,7 +435,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-14.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-21.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -440,8 +457,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-03-14.html" itemprop="url">
-                  0314 - 所有好的，都值得大力称赞
+                <a class="post-title-link" href="/daily/2019-03-21.html" itemprop="url">
+                  0321 - 简单折腾了 Docker
                 </a>
               
             
@@ -457,8 +474,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-14T22:00:00+08:00">
-                2019-03-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-21T22:00:00+08:00">
+                2019-03-21
               </time>
             
 
@@ -516,9 +533,11 @@
       
         
           
-            <p>比如机动车在斑马线上让行人。我们先不考虑效率等因素，先假定这是好的行为。那么，不论让行人的动机，是司机主动礼让，还是不想被拍照扣分，都应该大力称赞这种行为。</p>
-<p>核心的一点是，不能因为动机是怕被拍照扣分，就认为这么行为不值得表扬，更不能觉得「本该如此」人们本该善良、本该助人这样的人设，并不出现在现实中，可能童话或动画片里会有。</p>
-<p>如果愿意用一分来唾弃不好的，就要用十分来称赞好的；别因动机而吝啬你的表扬。</p>
+            <p>本来要做微信登录，一直被微信审核给卡着，烦；就折腾了 Docker.</p>
+<p>目前来看，我对 Docker 的使用还在 Container 级别。比如，需要使用 mongodb；本来是全局安装，测试和生产环境使用相同的 mongo、不同的 db. 有了 Docker 之后，可以运行不同的 mongodb Container，分隔的更彻底些，理论上扩展性也更好些。再加上结果 Docker Volume，可以更好地备份恢复数据。</p>
+<p>顺带着还有个好处：临时学习某技术时，不用全局安装其运行环境，而是安装一个 Docker 镜像，在这个沙盒里随意折腾，而不用担心污染电脑主环境。试用后发现不需要，直接删除 images 即可；需要时，才考虑在电脑主环境安装。</p>
+<p>进阶的，还没有用于 Images/Stack/Swarm 级别；不过还是跟着官方介绍跑了一遍，大致知道是怎么回事。等将来用的时候，再细细口味。</p>
+<p>比如，明天准备搭个 webhook 的响应服务，就可以用上 Docker 来开发和部署。虽然我还是觉得有点不适应，平白多了一些步骤，不过还是硬着头皮上吧，逼自己适应 Docker 的套路。</p>
 
           
         
@@ -562,7 +581,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-13.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-20.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -584,8 +603,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-03-13.html" itemprop="url">
-                  0313 - 不能复制时间的事，少做
+                <a class="post-title-link" href="/daily/2019-03-20.html" itemprop="url">
+                  0320 - 学习的两个阶段
                 </a>
               
             
@@ -601,8 +620,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-13T22:00:00+08:00">
-                2019-03-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-20T22:00:00+08:00">
+                2019-03-20
               </time>
             
 
@@ -660,10 +679,12 @@
       
         
           
-            <p>比如，开发自己的产品，可以给无数人用，相当于把自己的时间复制了无数份。</p>
-<p>比如，做外包开发给别人开发产品，只能取得一次性的报酬；自己的时间并不能复制，只是简单的出卖。</p>
-<p><strong>不能复制时间的事，少做，这不利于自己价值的最大化。</strong></p>
-<p>不过，凡事无绝对。比如外包，如果钱实在多的诱人，或者正好自己感兴趣，或者可以锻炼自己正在学的技术，等等；对于这些情况，自然是可以做的。</p>
+            <h2 id="一、野蛮学习阶段"><a href="#一、野蛮学习阶段" class="headerlink" title="一、野蛮学习阶段"></a>一、野蛮学习阶段</h2><p>学新东西时，先不要太过在意能否应用到生产中、怎么用。<strong>先把自己完全沉浸到新东西中，用新东西的视角和思维模式来理解一切。</strong><br>打个比方，自己之前擅长用螺丝刀解决一切问题。现在开始学锤子，先不着急和螺丝刀比较，而是认真学习锤子的使用方式，把全世界看成钉子。</p>
+<h2 id="二、为我所用阶段"><a href="#二、为我所用阶段" class="headerlink" title="二、为我所用阶段"></a>二、为我所用阶段</h2><p>等到了一定程度，再跳出来，和已有的东西交融。</p>
+<p>比如，和螺丝刀相比，锤子在哪些方面更好使；又有哪些局限，还是有螺丝刀更顺手；<br>比如，我目前正在使用的技术和方式，有哪些不足；和新东西相比，互相有哪些优缺点。</p>
+<p>既不盲目崇拜新东西、把已有的拍死，也不要过早因为新东西的局限而下结论。</p>
+<p><strong>更关键的</strong>，是已经会的、和新学的东西之间，如何交融，如何发挥双方的特长，<strong>如何更新自己的技术树</strong>。该用锤子用锤子，该用螺丝刀则继续使用螺丝刀。</p>
+<p><strong>吸星大法</strong>，你怕不怕？</p>
 
           
         
@@ -707,7 +728,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-12.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-19.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -729,8 +750,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-03-12.html" itemprop="url">
-                  0312 - 选择多：甜蜜的烦恼
+                <a class="post-title-link" href="/daily/2019-03-19.html" itemprop="url">
+                  0319 - 被微信审核搞得有点烦
                 </a>
               
             
@@ -746,8 +767,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-12T22:00:00+08:00">
-                2019-03-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-19T22:00:00+08:00">
+                2019-03-19
               </time>
             
 
@@ -805,10 +826,9 @@
       
         
           
-            <p>关键词项目前端的功能差不多了，今天挑前端框架优化之，真的挑花眼了…</p>
-<p>前后了解了 Bootstrap、Bulma、Ant Design、Element、iView 等，最后选择了 <strong>Element</strong>；其中，一个重要的原因是，鉴于我的 Vue 基础还不牢，而 Element 文档里包含了大量 Vue 实例代码，简直可以拿来就用，抵挡不了诱惑。</p>
-<p>另外，对 Ant Design 也挺有好感的。一方面它的「面向中后端」的定位，其实挺符合我的需求；另一方面，它的生态相对更丰富，比如对设计原则的介绍、设计资源、文档等等。不过，未选择它的原因是，Ant Design 是 React 基因，Vue 版本貌似去年下半年才推出来，且未应用到 Ant Design Pro 中，是明显的二等公民。且文档中没有 Vue 示例源码 😂</p>
-<p>挑完后，看了一遍 Element 官方文档，大概了解了它怎么用、包含哪些组件，也写了测试代码进行可行性研究，基本心里有数。原本计划 3 天的后端 UI 改进，看来可以加快到 2 天了。</p>
+            <p>这周本来有几项关键词改进的功能，这些功能都或多或少依赖微信登录。可，在微信开放平台创建应用需要审核。审核也就罢了，等了 2 天，竟然审核没通过，说是提供的材料缺少盖章。</p>
+<p>哎，能不能专业点，我用的是个体户资质，本来就没公章，去淘宝买个萝卜章给你盖上啊？被拒后，连个申诉的入口都没有，发邮件也没任何反应，真是相当糟糕的体验。</p>
+<p>既影响进度、又影响心情，干脆不搞了，去学 Docker，换个心情。</p>
 
           
         
@@ -852,7 +872,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-11.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-18.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -874,8 +894,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-03-11.html" itemprop="url">
-                  0311 - 上了并发系统
+                <a class="post-title-link" href="/daily/2019-03-18.html" itemprop="url">
+                  0318 - 做朋友的需求
                 </a>
               
             
@@ -891,8 +911,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-11T22:00:00+08:00">
-                2019-03-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-18T22:00:00+08:00">
+                2019-03-18
               </time>
             
 
@@ -950,9 +970,9 @@
       
         
           
-            <p>今天给关键词项目上了并发系统。</p>
-<p>先是用测试项目，实现了代理池自动更新；然后将其应用到爬虫系统中。由于要支持并发，代码系统变得复杂很多，且增加了一些冗余逻辑来保证一致性和可靠性。比较不爽的是，由于代理池性能的问题，10 倍速并发并不能带来 10 倍的提速，有点得不偿失的感觉。</p>
-<p><strong>实际项目中，架构及实现的可靠性，甚至比较性能更重要</strong>。性能问题，可以简单粗暴地加强硬件解决。但可靠性问题就比较麻烦；尤其是项目进行维护期，自己对代码越来越不熟悉，一旦出基础的问题，修复的成本就很高了。</p>
+            <p>最好的，是做自己的需求，可以 100% 知道要做什么、做成什么样子。</p>
+<p>其次，是做朋友的需求，可以随时拉过来问，要做什么、做成什么样子。注意，即使如此，也要保持主动性、有自己的理解判断，不能被带着走。终究，还是要当成自己的需求去做。</p>
+<p>关键词排名监控，便是后者。</p>
 
           
         
@@ -991,7 +1011,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/105/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/105/">105</a><span class="page-number current">106</span><a class="page-number" href="/page/107/">107</a><span class="space">&hellip;</span><a class="page-number" href="/page/364/">364</a><a class="extend next" rel="next" href="/page/107/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/105/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/105/">105</a><span class="page-number current">106</span><a class="page-number" href="/page/107/">107</a><span class="space">&hellip;</span><a class="page-number" href="/page/365/">365</a><a class="extend next" rel="next" href="/page/107/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1036,7 +1056,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1816</span>
+                <span class="site-state-item-count">1823</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
