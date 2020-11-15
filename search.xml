@@ -4,6 +4,163 @@
   
     
     <entry>
+      <title><![CDATA[1115 - 软件的模仿与抄袭]]></title>
+      <url>https://atjason.com/daily/2020-11-15.html</url>
+      <content type="html"><![CDATA[<p>今天，先是看到「<a href="https://mp.weixin.qq.com/s/Ag5f9zE0OuwuXc-GZ4t7jw" target="_blank" rel="external">“抄袭者”不仅口吐芬芳，而且还要起诉我？</a>」，感受到了抄袭者的嚣张、开发者的被动与无奈。</p>
+<p>然后，偶然间发现我的一个跟风应用的评分，已经是我的 10 倍了…刚开始其交互和我的 iText 一模一样，后来增加了功能才变得不一样，现在还保留 iText 作为其搜索关键字（其实，之前联系过苹果，对方也停止了 iText 作为其关键字，后来又加上了）</p>
+<p>大概的套路是这样的：</p>
+<ul>
+<li>发现好的应用，模仿抄袭 + 免费廉价，收获一批笑贫不笑娼的用户。当然其中更多是不知情的用户，不过，持「管你谁抄谁，谁便宜免费我就用谁」这样思想的用户，还在少数。</li>
+<li>养一段时间，甚至是几年。等用户基数和影响力上来了，涨价。</li>
+<li>接下来的用户，已经无法分辨真假李逵了，模仿者事实上后来居上。</li>
+</ul>
+<p>怎么办呢？很难，最多也就是挣扎几下：</p>
+<blockquote>
+<p>法务（国内的环境，难且通常无用，你感受下文章开头链接中的那些家伙）<br>持续改进（持续被模仿，除非耗到对方放弃，可还有李四王五）<br>品牌建设及运营推广（确实会有一些用户有品牌忠诚度，但这实在很难依靠）</p>
+</blockquote>
+<p>我之所以选择独立开发的同时，开始学习交易，这也是重要的原因。软件开发对我而言，更多只适合作为兴趣，而不是盈利来源。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1114 - 交易盈利的原则]]></title>
+      <url>https://atjason.com/daily/2020-11-14.html</url>
+      <content type="html"><![CDATA[<p>交易盈利，不是去抓住每一段行情，而是只做自己擅长的行情，然后不断做、重复做、放大了去做，仅此而已。</p>
+<p>说的学术点，<strong>盈利期望 = 胜率 * 交易次数 - 交易成本</strong></p>
+<ul>
+<li>做自己擅长的事，就是胜率高的事；越做越擅长。<ul>
+<li>反过来讲，要 <strong>敢于放弃</strong> 自己不擅长的、看不懂的、没把握的机会。</li>
+<li>要劝自己：<strong>不亏就是赚</strong>。</li>
+<li>不做没把握的，<strong>耐心等待</strong> 有把握的机会。</li>
+</ul>
+</li>
+<li>不断重复做，就是增加交易次数。<ul>
+<li>反过来讲，新手的胜率低，盈利期望是负的，越交易越亐。</li>
+<li>那为什么还要交易？为了学习如何交易。</li>
+<li>于是，要延长在交易市场中的寿命、抓住更多的学习机会，就要减少交易次数，避免过度交易而加速消耗宝贵的本金。</li>
+<li>记住：<strong>新手交易，目的不是赚钱，而是学习</strong>。</li>
+</ul>
+</li>
+<li>交易成本，主要是指交易的费用；要尽可能的降低交易的手续费。</li>
+</ul>
+<p>盈利的交易，并不像赌博一样刺激，应该是很枯燥的、很无聊的；机械的执行交易计划，无非是赚点钱而已。</p>
+<p>其实你想想，上面说的这些东西，并不只适用交易，其他工作也是类似的。恩，交易也是一种工作。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1113 - 《台指當沖交易秘訣》]]></title>
+      <url>https://atjason.com/daily/2020-11-13.html</url>
+      <content type="html"><![CDATA[<p>最近在看《台指當沖交易秘訣》这本书，感觉很有共鸣和收获。</p>
+<p>因为最近在操作期货的日内短线，还没有找到门路，只是有些隐约的感觉。云聪老师所教授的方法，说是可以适应不同周期，可真到了日内极短线，还是有些泛泛，缺乏交易的一些细节指导，适合有一定经验后再进行提高。</p>
+<p>而作者自由人和这本书所介绍的方法和思想，是非常简单直接的，立即就可以上手。关键的，和自己这段时间的交易方法，也比较契合，因为看起来很亲切，也很认可。并且，有这样一位有成功经历的精神导师在，自己交易起来也更有信心，至少知道有人这么操作是赚钱的。</p>
+<p>不过，这本书大约是在 10 年前所写的，作者也表示有些方法已经变化，甚至最新的理解和当时还有矛盾之处。即使如此，书中的方法也是成体系的、自洽的、值得学习和实践的。等我能体验并摸到这个方法的命门，基本也就掌握、并可以在此基础上改进了。</p>
+<p>怎么学习的呢？基本上我把这本书手抄了一遍，也加上了自己的理解；把作者之前发的帖子全部扒一遍。同时，在实盘中交易、感受、错过机会、按计划止损等等。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1112 - Google Photos 不再免费]]></title>
+      <url>https://atjason.com/daily/2020-11-12.html</url>
+      <content type="html"><![CDATA[<p>今天对我影响比较大的，就是这则新闻了：Google Photos 不再免费。</p>
+<p>当然，作为一家商业公司，免费提供了这么长时间的优质服务，现在转为收费，本身无可厚非。</p>
+<p>只是，作为用户，我目前已经非常依赖 Google Photos 管理大量照片，使用越来也非常便利。比如，每每当我快速找到多年前的照片时，都会引来惊呼：哇，你手机内存这么大啊。虽然，我知道手机上叫存储而不是内存，而我已经懒得去解释了，心里还是窃喜和有优越感的。</p>
+<p>等明年 6 月份后，要继续享受这种便利和优越感，每年大概付费 200 ~ 600 元（视存储容量而定），坦白说也不是很贵；或者说，相同的价格，也找不到可以替代的产品。</p>
+<p>说到替代，如果只是存储这些图片，那还是能找到更便宜的云存储。可关键是，像 Google Photos 这种优秀的图片管理服务，怕是找不到了。</p>
+<p>推而广之，一款产品的价值，已经不由其基础能力决定，而取决于其增值服务的能力。类比的，同样是汽车，如果其他方面完全相同，一款有自动驾驶功能、一款没有，那么能自动驾驶的汽车会秒杀不能的，也会因此有很高的溢价能力。比如，自动驾驶的成本可能只有 100 元，却可以因此加价 10000 元甚至更多。</p>
+<p>那如何区分基础能力与增值服务呢？还说汽车，现在自动驾驶可以说是增值服务，可几年后，估计就成基础能力了。说白了，还是要增加核心竞争力和不可替代性。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1111 - 从心所欲不逾矩]]></title>
+      <url>https://atjason.com/daily/2020-11-11.html</url>
+      <content type="html"><![CDATA[<p>刚开始学习的时候，要一板一眼，照着规矩来。这个时候什么都不太懂，有很多问题，却不知从何问起。干脆，就不要问，服从规矩，先学了再说。</p>
+<p>等真的入了门，深入理解之后，可以不再受规矩具体的束缚。可以对规矩进行变通，取得更好的结果。「从心所欲」，所有自己想做的、能做的，看似随意，其实都是在规矩之内，「不逾矩」。</p>
+<p>还是那句话，在达到这种境界之前，还是老老实实守规矩的好。规矩不是用来束缚人的，而是为了避免初学者走弯路的。高手也并不会受规矩束缚，因为规矩是自然而然的事。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1110 - 善待至亲]]></title>
+      <url>https://atjason.com/daily/2020-11-10.html</url>
+      <content type="html"><![CDATA[<p>至亲之人，对我们有无限包容。而我们，有可能会滥用这种包容，做出伤害他们的事。这种事，我们对朋友同事，反倒因为客气而做不出来。一旦做出来，对至亲的伤害是很大的，因为他们不能你朋友同事一样，大不了离你而去。</p>
+<p>有矛盾时，无论自己觉得自己多么的有道理，也要站在对方的角度上想，他为什么会这么想，有什么特殊的考虑，有哪些合理性。你想，就算你的老板或客户有个混蛋或傻瓜想法，你还不是要耐心的解释，既要达到目的、又不是对方脸面。对至亲，尤其要如此；至少，拿出对老板一半的耐心，来向至亲解释，慢慢交流。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1109 - 大学教你做什么]]></title>
+      <url>https://atjason.com/daily/2020-11-09.html</url>
+      <content type="html"><![CDATA[<p>大学同学聚会，聊到一个话题：迷茫。</p>
+<ul>
+<li>工作不顺的，迷茫，不知道怎么走出困境。</li>
+<li>赚到钱的，迷茫，不知道赚钱之外还有什么意义。</li>
+</ul>
+<p>不知觉的，大家都会抱怨，学校教了我们遇到具体问题时该如何解决，却并没有教我们该做什么。</p>
+<p>其实，大学只是个抽象的概念，还是要具体的一位位老师、一节节课、一个个社团、一次次活动。比如，具体到每位老师，他可能只是负责上一些大课，不可能兼顾到每位学生，更不可能深入到你该干什么这种层次的问题。</p>
+<p>更可能的，是学生自己带着这个问题，在老师、上课、社团、活动等过程中，自己去碰撞、去思考。学校的环境，确实有启迪作用，但并不能替代思考。不太可能仅仅通过教育，就让一个迷茫的人找到方向。当然，可能是我受到的教育的水平所限，没到这种程度。</p>
+<p>说到底，「我该干什么」这种神级问题，没有人能替代做决定，也别指望别人来告诉你。别人的说教，其实并不能真正改变你。答案可能已经在你心底，与人交流，可能只是把潜藏的东西派发出来而已。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[1108 - 牛人]]></title>
       <url>https://atjason.com/daily/2020-11-08.html</url>
       <content type="html"><![CDATA[<p>这两天见到一位十几年未见的师兄，感觉他是真的牛。既能混得开，又有真材实料。</p>
@@ -125,7 +282,7 @@
 <p>估计大部分会觉得第二类人更合适。</p>
 <p>这些都是我们的直觉思考，可，真的是这样吗？</p>
 <p>如果你冷静想想逻辑、算算比例，肯定能发现自然不是这样。可，为什么我们还会有那么「自然」的错误推论？</p>
-<p>经常看到的解释，远古人类生活在除恶的自然环境中，看到一头老虎，仅凭自己有限的经验，逻辑上自然不能推导出「所有的老虎都会吃人」这样的结论。可，没人敢赌这样的结论，谁知道这头老虎刚刚吃饱，还是外出给崽子找食物。谁也不会傻到把这样老虎想成老虎群中的素食者。这事情理论上存在，现实中却不能相信它的存在。</p>
+<p>经常看到的解释，远古人类生活在险恶的自然环境中，看到一头老虎，仅凭自己有限的经验，逻辑上自然不能推导出「所有的老虎都会吃人」这样的结论。可，没人敢赌这样的结论，谁知道这头老虎刚刚吃饱，还是外出给崽子找食物。谁也不会傻到把这样老虎想成老虎群中的素食者。这事情理论上存在，现实中却不能相信它的存在。</p>
 <p>所以，繁衍至今的族群，不断强化了仅凭个体便放诸群体的思维。只是，发展至今，号称每粒沙子的数据都要统计的大数据时代，每头老虎是不是素食者的数据自然也有。在这样的数据面前，前面的推论就显得很幼稚了。就算不考虑大数据，在个性化日益突出的时代，也不能随意的一叶落而知天下秋。不下断言，让我们的判断成本大大增加，也带来了越来越多的可能性。</p>
 ]]></content>
       
@@ -3689,16 +3846,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0504 - 《坏血》]]></title>
-      <url>https://atjason.com/daily/2020-05-04.html</url>
-      <content type="html"><![CDATA[<p>今天看完了这本书，感觉挺一般。</p>
-<p>从一开始，我脑子里一直有这个问题：在都是人精的现代，这样的惊天骗局，是怎么一步步形成的？</p>
-<p>看完书，我也没找到满意的答案。</p>
-<p>其次的疑问，她是怎么得到巨量融资、做到天量估值。尤其，有大量钱的人，都是人精中的人精。看完书，我感觉最主要的，是大饼与吃大饼的人。</p>
-<p>首先，她画的大饼，是很多人需要的。有钱人，在我们看来，可能衣食无忧，没什么可烦的。事实上，他们的烦恼也不小，即如何保持现在的财富、地位，以及谋求更多的财富、更高的地位。要实现这样的目标，就需要新的增长点，尤其是像 iPhone 那样划时代的产品；一般的小项目，入不了他们的眼。</p>
-<p>反过来讲，他们特别特别害怕错过这样的机会。比如，当机构 A 想要投资该公司，在对公司的问题提出质疑时，他们特别担心，对公司不提出质疑的机构 B，得到了这次黄金投资机会；而自己，则被挤出未来的诱人的增加机会。于是，他们放弃的质疑，把钱打了过去。机构的判断力，就这样慢慢丧失了。而该公司，也越来越被纵容。</p>
-<p>书中还有一些有意思的点。比如，投资该公司的爸爸中，有新闻大亨默多克。爆光这一骗局的，也正是旗下《华尔街日报》的记者。期间，她试图让默多克毙掉这篇报道；毕竟，这会影响他真金白银的投资。可，后者拒绝了。</p>
-<p>让我比较佩服的一点，她聚拢的都是顶级资源，包括前国务卿、军方高层、默多克、甲骨文创始人等等。有如此能耐，如果不是骗局，真的能成大事。</p>
+      <title><![CDATA[0505 - 不可细说]]></title>
+      <url>https://atjason.com/daily/2020-05-05.html</url>
+      <content type="html"><![CDATA[<p>很多东西，看起来很明确，可真往细了看，一片模糊。</p>
+<p>比如，从飞机上看，大陆和大海之间，有明显的海岸线。可真站在沙滩上，你能画出海岸线在哪吗？</p>
+<p>比如，我们总说，活在当下，意思很明确对吧？那么请问，这个当下是什么，几点几分？哪个时区的几点几分？前后持续持久？超出一秒，还算当下吗？</p>
+<p>比如，我说手、胳膊，你可以很清晰地在脑海中想到是什么对吧？那么请问，手和胳膊的分界点在哪？在哪条线的一边是手、另一边是胳膊？</p>
+<p>也许你会说，你这都是闲的，没事找事型的。好，来点实际的。</p>
+<p>比如，交易中的低买高卖、赚取差价，简洁明了对吧？那么请问，多低是低、多高是高？现在是低还是高？</p>
+<p>无限细分，事情不是变得更清晰，反而是更模糊。适当的抽象、简化，是我们认识世界，没有办法的办法。</p>
 ]]></content>
       
         <categories>
@@ -3711,15 +3867,16 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0505 - 不可细说]]></title>
-      <url>https://atjason.com/daily/2020-05-05.html</url>
-      <content type="html"><![CDATA[<p>很多东西，看起来很明确，可真往细了看，一片模糊。</p>
-<p>比如，从飞机上看，大陆和大海之间，有明显的海岸线。可真站在沙滩上，你能画出海岸线在哪吗？</p>
-<p>比如，我们总说，活在当下，意思很明确对吧？那么请问，这个当下是什么，几点几分？哪个时区的几点几分？前后持续持久？超出一秒，还算当下吗？</p>
-<p>比如，我说手、胳膊，你可以很清晰地在脑海中想到是什么对吧？那么请问，手和胳膊的分界点在哪？在哪条线的一边是手、另一边是胳膊？</p>
-<p>也许你会说，你这都是闲的，没事找事型的。好，来点实际的。</p>
-<p>比如，交易中的低买高卖、赚取差价，简洁明了对吧？那么请问，多低是低、多高是高？现在是低还是高？</p>
-<p>无限细分，事情不是变得更清晰，反而是更模糊。适当的抽象、简化，是我们认识世界，没有办法的办法。</p>
+      <title><![CDATA[0504 - 《坏血》]]></title>
+      <url>https://atjason.com/daily/2020-05-04.html</url>
+      <content type="html"><![CDATA[<p>今天看完了这本书，感觉挺一般。</p>
+<p>从一开始，我脑子里一直有这个问题：在都是人精的现代，这样的惊天骗局，是怎么一步步形成的？</p>
+<p>看完书，我也没找到满意的答案。</p>
+<p>其次的疑问，她是怎么得到巨量融资、做到天量估值。尤其，有大量钱的人，都是人精中的人精。看完书，我感觉最主要的，是大饼与吃大饼的人。</p>
+<p>首先，她画的大饼，是很多人需要的。有钱人，在我们看来，可能衣食无忧，没什么可烦的。事实上，他们的烦恼也不小，即如何保持现在的财富、地位，以及谋求更多的财富、更高的地位。要实现这样的目标，就需要新的增长点，尤其是像 iPhone 那样划时代的产品；一般的小项目，入不了他们的眼。</p>
+<p>反过来讲，他们特别特别害怕错过这样的机会。比如，当机构 A 想要投资该公司，在对公司的问题提出质疑时，他们特别担心，对公司不提出质疑的机构 B，得到了这次黄金投资机会；而自己，则被挤出未来的诱人的增加机会。于是，他们放弃的质疑，把钱打了过去。机构的判断力，就这样慢慢丧失了。而该公司，也越来越被纵容。</p>
+<p>书中还有一些有意思的点。比如，投资该公司的爸爸中，有新闻大亨默多克。爆光这一骗局的，也正是旗下《华尔街日报》的记者。期间，她试图让默多克毙掉这篇报道；毕竟，这会影响他真金白银的投资。可，后者拒绝了。</p>
+<p>让我比较佩服的一点，她聚拢的都是顶级资源，包括前国务卿、军方高层、默多克、甲骨文创始人等等。有如此能耐，如果不是骗局，真的能成大事。</p>
 ]]></content>
       
         <categories>
@@ -4867,14 +5024,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
-      <url>https://atjason.com/daily/2020-03-04.html</url>
-      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
-<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
-<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
-<p>靠自己的实力呢？玩笑了。</p>
-<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
-<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
+      <title><![CDATA[0305 - 极致收敛]]></title>
+      <url>https://atjason.com/daily/2020-03-05.html</url>
+      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
+<p>过不了这二问，不做。</p>
+<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
 ]]></content>
       
         <categories>
@@ -4887,11 +5041,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0305 - 极致收敛]]></title>
-      <url>https://atjason.com/daily/2020-03-05.html</url>
-      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
-<p>过不了这二问，不做。</p>
-<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
+      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
+      <url>https://atjason.com/daily/2020-03-04.html</url>
+      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
+<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
+<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
+<p>靠自己的实力呢？玩笑了。</p>
+<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
+<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
 ]]></content>
       
         <categories>
@@ -9914,12 +10071,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0524 - 人设崩塌]]></title>
-      <url>https://atjason.com/daily/2019-05-24.html</url>
-      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
-<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
-<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
-<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
+      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
+      <url>https://atjason.com/daily/2019-05-25.html</url>
+      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
+<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
+<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
 ]]></content>
       
         <categories>
@@ -9949,11 +10105,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
-      <url>https://atjason.com/daily/2019-05-25.html</url>
-      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
-<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
-<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
+      <title><![CDATA[0524 - 人设崩塌]]></title>
+      <url>https://atjason.com/daily/2019-05-24.html</url>
+      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
+<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
+<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
+<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
 ]]></content>
       
         <categories>
@@ -10080,10 +10237,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0516 - 多做一点点]]></title>
-      <url>https://atjason.com/daily/2019-05-16.html</url>
-      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
-<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
+      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
+      <url>https://atjason.com/daily/2019-05-15.html</url>
+      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
+<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
+<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
+<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
 ]]></content>
       
         <categories>
@@ -10096,12 +10255,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
-      <url>https://atjason.com/daily/2019-05-15.html</url>
-      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
-<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
-<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
-<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
+      <title><![CDATA[0516 - 多做一点点]]></title>
+      <url>https://atjason.com/daily/2019-05-16.html</url>
+      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
+<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
 ]]></content>
       
         <categories>
@@ -23736,15 +23893,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0728 - Core 了一天 Data]]></title>
-      <url>https://atjason.com/daily/2017-07-28.html</url>
-      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
-<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
-<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
-<hr>
-<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
-<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
-<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
+      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
+      <url>https://atjason.com/daily/2017-07-29.html</url>
+      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
+<p>至此，理论部分算是学完了。</p>
+<p>下一步，开始实战。</p>
+<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
+<p>明天，先从产品角度考虑，确定交互。</p>
 ]]></content>
       
         <categories>
@@ -23757,13 +23912,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
-      <url>https://atjason.com/daily/2017-07-29.html</url>
-      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
-<p>至此，理论部分算是学完了。</p>
-<p>下一步，开始实战。</p>
-<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
-<p>明天，先从产品角度考虑，确定交互。</p>
+      <title><![CDATA[0728 - Core 了一天 Data]]></title>
+      <url>https://atjason.com/daily/2017-07-28.html</url>
+      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
+<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
+<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
+<hr>
+<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
+<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
+<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
 ]]></content>
       
         <categories>
@@ -23800,6 +23957,24 @@
 <p>虽然，我们这个层次的人，通常会为了性能、性价比，去追捧小米这些品牌。但是，对于「老板」这种极具消费能力的群体，性价比俨然是他们鄙视的东西。相反，他们会有自己的需求，比如，在与客户第一次见面时，能想办法彰显自己的财富、地位、权力等等信息，手机这种出镜率如此之高的物品，自然是核心部件之一。8848 的定位，我感觉非常契合这个群体的需求。再加上王石等大牌的代言，相信会击中这些土壕们心中的软肉。</p>
 <hr>
 <p>深刻理解用户的消费心理，能在深层次满足这些心理的东西，才是好东西。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
+      <url>https://atjason.com/daily/2017-07-25.html</url>
+      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
+<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
+<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
+<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
 ]]></content>
       
         <categories>
@@ -24000,24 +24175,6 @@
         <categories>
             
             <category> IndieDev </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
-      <url>https://atjason.com/daily/2017-07-25.html</url>
-      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
-<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
-<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
-<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -25145,35 +25302,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
-      <url>https://atjason.com/daily/2017-06-27.html</url>
-      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
-<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
-<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
-<ul>
-<li><strong>基于数据</strong><ul>
-<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
-</ul>
-</li>
-<li><strong>基于内容</strong><ul>
-<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
-</ul>
-</li>
-</ul>
-<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
-<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Klib 第四版：纯粹，只为悦读]]></title>
       <url>https://atjason.com/PM/2017-06-27_Klib.html</url>
       <content type="html"><![CDATA[<p>在 Kindle 上读书，可以避免纸质书的收纳问题，还能方便地标注，挺好的。不过，标注虽然方便，标注的回顾整理却并不方便。好在，<strong><a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a></strong> 解决了这个问题（如何解决？请看 <a href="https://sspai.com/post/37581" target="_blank" rel="external">这里</a>、以及 <a href="https://sspai.com/post/38688" target="_blank" rel="external">这里</a>）</p>
@@ -25200,6 +25328,35 @@
         <categories>
             
             <category> PM </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
+      <url>https://atjason.com/daily/2017-06-27.html</url>
+      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
+<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
+<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
+<ul>
+<li><strong>基于数据</strong><ul>
+<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
+</ul>
+</li>
+<li><strong>基于内容</strong><ul>
+<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
+</ul>
+</li>
+</ul>
+<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
+<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -27086,6 +27243,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -27170,22 +27343,6 @@
         <categories>
             
             <category> IT </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -28695,41 +28852,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[《女孩老板》]]></title>
-      <url>https://atjason.com/book/Girlboss.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
-<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
-<ul>
-<li>一头是成名前如何放荡不羁，然后快速成长；</li>
-<li>另一头是成名后的一个想法、状态。</li>
-</ul>
-<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
-<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
-<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
-<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
-<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
-<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
-<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
-<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
-<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
-<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
-<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
-<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
-<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
-<li>生活得自由并不意味着生活得好。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 读书笔记 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[201703 - 《从零开始做运营》]]></title>
       <url>https://atjason.com/book/201703.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/z1s34.jpg" alt=""></p>
@@ -28801,6 +28923,41 @@
 <li>然后，你需要衡量微信群和QQ群的优劣。微信群现在非常倾向于熟人之间的交流，同时微信群非常不便于管理。QQ群便于管理，但QQ群的活跃度是个极大的问题。群组的差异会导致运营的不同结果，在我看来，除非到了一定阶段，否则根本没有必要建立群组。 因为群组一旦组织，群主就要对群负责。同时群组会耗费很多时间精力，因此，请慎重考虑建立群组。</li>
 <li>我一直坚持案例的意义在于如何避免失败，而非如何成功。</li>
 <li>我们看到的大多是成功者的案例，其中成功的精髓无法通过表面现象和简单的方法论获得。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 读书笔记 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[《女孩老板》]]></title>
+      <url>https://atjason.com/book/Girlboss.html</url>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
+<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
+<ul>
+<li>一头是成名前如何放荡不羁，然后快速成长；</li>
+<li>另一头是成名后的一个想法、状态。</li>
+</ul>
+<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
+<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
+<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
+<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
+<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
+<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
+<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
+<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
+<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
+<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
+<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
+<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
+<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
+<li>生活得自由并不意味着生活得好。</li>
 </ul>
 ]]></content>
       
@@ -35817,7 +35974,7 @@
 <h1 id="配置-ssh-的-config"><a href="#配置-ssh-的-config" class="headerlink" title="配置 ssh 的 config"></a>配置 ssh 的 config</h1><p>编辑 ~/.ssh/config，添加类似下面的内容：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># user1</div><div class="line">Host github.com</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa</div><div class="line"></div><div class="line"># user2</div><div class="line">Host github.cn</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa2</div></pre></td></tr></table></figure>
 <p>编辑后，测试连接是否成功。如果成功，会有类似下面的提示：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh -T git@github.com</span></div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$<span class="bash"> ssh -T git@github.cn</span></div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> ssh -T git@github.com</div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$ ssh -T git@github.cn</div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
 <p>核心原理就是，当 ssh 尝试访问某域名时，会尝试和 config 中 <code>Host</code> 对应的记录匹配。如果匹配成功，就会使用该记录中 <code>HostName</code> 的值作为真正的域名、以及使用 <code>IdentityFile</code> 对应的私钥进行配对。这样，既可以实现把 <code>github.cn</code> 当作 <code>github.com</code> 访问、又可以匹配到正常的私钥。 </p>
 <p>这里，<code>github.cn</code> 只是个代号，你可以使用任何其它你喜欢的域名。</p>
 <h1 id="对-git-项目使用适当的-ssh-连接"><a href="#对-git-项目使用适当的-ssh-连接" class="headerlink" title="对 git 项目使用适当的 ssh 连接"></a>对 git 项目使用适当的 ssh 连接</h1><p>前面提到，假定 user1@gmail.com 是更经常使用的账户，这样我们可以设置该账户为全局默认的 git 账户。通常，你已经这么设置了。不过，如果可以通过下面的命令再次设置以确认。</p>
