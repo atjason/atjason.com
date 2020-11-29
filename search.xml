@@ -4,6 +4,164 @@
   
     
     <entry>
+      <title><![CDATA[1129 - 苹果的上面是哪一面]]></title>
+      <url>https://atjason.com/daily/2020-11-29.html</url>
+      <content type="html"><![CDATA[<p>苹果一般一边小，另一边有柄的地方大。</p>
+<p>注意这个问题：<strong>你觉得苹果的上面是哪一面？</strong></p>
+<p>又或者说，当一个苹果放在桌上，小头朝上、或者有柄的朝上，哪种会让你感觉更舒服？</p>
+<p>其实，在自然环境下，当苹果还在树上时，有柄的朝上，这是最原始的状态。你看到的这个🍎 Emoji，苹果手机的 Logo，也是如此。</p>
+<p>而其实，我更深层的意识里，是希望苹果大头朝下。我自己在摆放时，也会下意识的这样做。</p>
+<p>为什么会这样呢？一方面我觉得这样稳；更多的，我觉得还是自己在很小的时候，看到这样摆放的苹果比较多，所以形成了这样的潜意识。而这样的意识一旦形成，很可能会伴随一生。</p>
+<p>就像是有人到一个新地方晕方向，总觉得一个方向应该是另一个方向。就像你告诉他正确的方向，他脑子里的感觉就是切换不过来。</p>
+<p>对小孩的教育，这点是很值得玩味的。<strong>孩子就像白纸，你在纸上用铅笔画了一条线。之后，无论怎样用橡皮去擦，总会有浅浅的颜色，以及印痕</strong>。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1128 - 小朋友没有未来概念]]></title>
+      <url>https://atjason.com/daily/2020-11-28.html</url>
+      <content type="html"><![CDATA[<p>「你再这样，以后我就再也不…」</p>
+<p>对小孩，你是不是也经常用这样的句式。比如，以后再也不带你出来玩了。</p>
+<p>可惜，你做不到，这种威胁对小孩也没有用。基本上，这些就是废话，最多是假装发泄一下你当时的怨气罢了。</p>
+<p><strong>小朋友基本没有未来概念，他们生活在当下</strong>。延迟满足是什么鬼，明天有没有糖吃，他们不懂，也不在乎。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1127 - 你画个熊试试]]></title>
+      <url>https://atjason.com/daily/2020-11-27.html</url>
+      <content type="html"><![CDATA[<p><strong>说真的，你现在停下来，找纸笔画个熊试试，看能画出个什么样子。</strong></p>
+<p>然后，你会发现，一些看越来非常简单、想当然的事，其实，并不简单。</p>
+<p>比如，在教育小孩时，经常会有这样的愤慨：这么简单的事你都不会，你是 x 吗？抖音上也有很多家长一辅导作业就歇斯底里的视频。</p>
+<p>冷静，想想画熊这件事吧。没有自然而然、显而易见，只能循序渐进、熟能生巧。</p>
+<p>像穿鞋子、提裤子、画直线、认方向、分季节等等这些对大人而言「常识」性的东西，对孩子来说，都是新鲜的、很难的、需要学习的东西。就跟你现在用一门新的外语说「你好」一样，并不那么容易。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1126 - i18n 的一个思路]]></title>
+      <url>https://atjason.com/daily/2020-11-26.html</url>
+      <content type="html"><![CDATA[<p>这些天在做 iText 的国际化，准备增加日语、德语、西班牙语等语言。</p>
+<p>怎么做呢？</p>
+<p>最专业的做法，自然是花钱请专业团队翻译。只是，这个费用比较高，小应用一般到不了这个程度。</p>
+<p>或者，就是找在某个语言比较熟悉的朋友、用户，请他们帮忙翻译。这差不多是最适合的方式了，只是要看缘份了。</p>
+<p>不过，这也有问题。一方面，翻译是很枯燥的事，也很容易出差错，而且出了差错自己压根不懂，也发现不了；另一方面，工作量比较大，很花时间。</p>
+<p>怎么改进呢？可以先用工具将语言翻译个大概，然后请朋友帮忙校对，这就大大减少了工作量和出错的概率。</p>
+<p>不过，这又有几个问题。一方面，程序中使用的语言，可以算作是行业用语，一般的通用翻译可能显得很奇怪。另一方面，如果只是翻译一些孤零零的词，在没有上下文的情况下，不可能翻译得完全准确。</p>
+<p>怎么办呢？这时我发现一个好工具：<a href="https://i18ns.com/" target="_blank" rel="external">i18ns</a>。它的基本思路是：<strong>收集整理已有应用中常用的翻译，供大家查询使用</strong>。</p>
+<p>比如，很多应用中都需要用到「Account」这个词，如果 Facebook/微信 等大牌应用，都是把这个词翻译成「账户」，那么基本上我们就也可以这么做。怎么样，是不是觉得很巧妙？并且，还可以做成收费服务，就更棒了。</p>
+<p>不过，这个工具的由来，也依然是脏活累活，作者有写过一些文章介绍：<a href="https://www.v2ex.com/t/560751" target="_blank" rel="external">https://www.v2ex.com/t/560751</a>，感兴趣可以去看看。</p>
+<p>最近，目前 iText 即将支持 英语、简体中文、繁体中文、日语、德语、西班牙语。<strong>如果你有兴趣让 iText 支持更多语言，欢迎联系我</strong>：iToolinbox at gmail.com</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1125 - 交易的垃圾时间]]></title>
+      <url>https://atjason.com/daily/2020-11-25.html</url>
+      <content type="html"><![CDATA[<p>之前看 NBA，经常听到「垃圾时间」这个词，就是说当比赛快结束，而双方差距比较大、落后方追平无望后，比赛结果没有悬念，双方都不再尽全力打，于是比赛进入垃圾时间。</p>
+<p>其实，交易也是有类似的节奏。比如国内商品期货，通常早上开盘的半小时是比较兴奋的时间段，之后又会有半小时的疲软期，成交量很小，价格变化也不大。</p>
+<p>熟悉一个品种，熟悉它的脾气；对市场所给出的提示，要能敏感的接收理解并执行。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1124 - 实时检测 macOS 菜单栏颜色]]></title>
+      <url>https://atjason.com/daily/2020-11-24.html</url>
+      <content type="html"><![CDATA[<p>macOS 菜单栏颜色历史是这样的：</p>
+<ul>
+<li>macOS 10.14 Mojave 之前，只有白色。</li>
+<li>macOS 10.14 Mojave 开始支持暗色模式，于是有白与黑。</li>
+<li>macOS 11 Big Sur 之后，菜单栏的颜色又同时受桌面图片的影响。比如，即使当前是暗色模式，如果桌面背景是白色，菜单栏也是黑色的。</li>
+</ul>
+<p>这有什么问题呢？</p>
+<p>对于我的几款应用 iText、iPic、iTimer，要在菜单栏上绘制进度条，就需要知道用什么前景色。不然，如果在暗色的菜单栏上用黑色绘制，就什么都看不出来了。</p>
+<p><img src="https://ps.toolinbox.net/poqls.png" alt=""></p>
+<p>之前，这很容易，只要检测系统主题即可。而如上所述，macOS 11 后变得麻烦了，怎么知道菜单栏当前是什么颜色呢？</p>
+<p>直接搜索，没有找到结果。于是我想到一个笨办法：想办法截取菜单栏图标的颜色。可最近得到的是一个类似透明度通道的东西，并没有具体的颜色。</p>
+<p>又是一通搜索（恩，面向 Google 编程），最后在 StackOverflow 上找到 <a href="https://stackoverflow.com/questions/62685948/macos-big-sur-detect-dark-menu-bar-system-tray" target="_blank" rel="external">这篇帖子</a>，算是找到了优雅的解决方案：<strong>检测菜单栏图标按钮的样式</strong>。</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">let</span> appearanceName = statusItem?.button?.effectiveAppearance.name.rawValue.lowercased()</div><div class="line"><span class="keyword">let</span> isDarkMode = appearanceName?.<span class="built_in">contains</span>(<span class="string">"dark"</span>)</div></pre></td></tr></table></figure>
+<p>另外，还有种办法，就是先在 NSView 上绘制，然后转换为 NSImage 图片，并指定为菜单栏图标。这样可以完美适配菜单栏背景色，不过也牺牲了个性化的前景色。</p>
+<p>其实，找到技术方案后，感觉很简单，也很开心。而难的是解决问题的思路，以及搜索、寻求帮助的能力。</p>
+<p>PS：好久没发技术博客，是不是快忘记我还是个开发了 😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[1123 - 交易就是交易]]></title>
+      <url>https://atjason.com/daily/2020-11-23.html</url>
+      <content type="html"><![CDATA[<p><strong>交易不是学术研究</strong>。如果不用自己的真金白银去市场里交易，只是把价格曲线当作研究标的，用历史数据去投喂算法，用研究出来的策略去预测未来，基本，是没戏的；至少，是没劲的。交易过程中的心态变化，是无法用冷冰冰的数据模拟的。就像传统经济学的基础是理性人假设，但没有谁是绝对理性的；于是，有了行为经济学。</p>
+<p><strong>交易不是赌博</strong>。可以勉强说是研究概率的赌博，但一定不是烂赌徒干的那些事。交易也下注，就是自己这次交易能承受的最大止损。下注的目的不是赢把大的，而是以下注为代价，看之后的价格走势，是否如自己预期；以及在确定如自己预期时，拥有正确的仓位。</p>
+<p><strong>交易就是交易</strong>。</p>
+<p>交易就像镜子。交易的过程，是用价格及交易，来映射自己的内心。盯盘及下单，不仅是关注价格及盈亏的变化，更要关注自己内心的感受：</p>
+<ul>
+<li>自己判断错误时的心态；</li>
+<li>自己判断对时的心态；</li>
+<li>账户有大的浮盈时的心态；</li>
+<li>账户有大的浮亏时的心态；</li>
+<li>盘面沉闷时的心态；</li>
+<li>盘面活跃时的心态；</li>
+</ul>
+<p>每天检视自己的得失，与自己对话，为自己打气。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[1122 - 软件生态]]></title>
       <url>https://atjason.com/daily/2020-11-22.html</url>
       <content type="html"><![CDATA[<p>苹果基于 M1 芯片的笔记本本周发布，让我切实感受到了生态的重要。</p>
@@ -10201,11 +10359,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
-      <url>https://atjason.com/daily/2019-05-25.html</url>
-      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
-<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
-<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
+      <title><![CDATA[0524 - 人设崩塌]]></title>
+      <url>https://atjason.com/daily/2019-05-24.html</url>
+      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
+<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
+<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
+<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
 ]]></content>
       
         <categories>
@@ -10235,12 +10394,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0524 - 人设崩塌]]></title>
-      <url>https://atjason.com/daily/2019-05-24.html</url>
-      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
-<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
-<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
-<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
+      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
+      <url>https://atjason.com/daily/2019-05-25.html</url>
+      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
+<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
+<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
 ]]></content>
       
         <categories>
@@ -19931,6 +20089,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -19972,22 +20146,6 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -20814,6 +20972,37 @@
     </entry>
     
     <entry>
+      <title><![CDATA[深圳行：1207-Day 1 - 到达]]></title>
+      <url>https://atjason.com/daily/2017-12-07.html</url>
+      <content type="html"><![CDATA[<p>今天一天都在路上；<strong>前脚杭州，后脚深圳</strong>。</p>
+<p>其实，首先要说的是 <strong>夜晚</strong>。由于新版 iText 要提交上架 App Store，于是，我在小米手环上 <strong>定了 3、4、5、6 点的闹钟</strong>，闹醒自己看看审核有没有被拒，然后再提交一个版本。</p>
+<p>果然，在 4 点钟醒来，不详地收到「Dear Jason, We’ve sent you a new message about your app, iText.」<strong>审核被拒，原因是什么呢？</strong>是我在 App 描述里有这么一句话：”Your 5-star rating will be a great encouragement for me.”，被苹果认为涉嫌诱导用户评分。哎，iText 上个版本就有这句话，iPic 等其他应用也有这句话，都可以审核通过；偏偏这次就不行。哎，审核是大爷，于是 4 点多时提交。</p>
+<p>等到了 8 点，审核才开始。一直等到 11 点才审核通过。要知道，<strong>此时我已经在机场，广播已经在提示登机了。我依然镇定 + 火速地拿出电脑，连接手机 4G 网络，在朋友圈、微博等渠道对该版本上架进行推广。然后抱着娃，跟着家人一直登机。</strong></p>
+<p><img src="https://ps.toolinbox.net/2g970.jpg" alt=""></p>
+<a id="more"></a>
+<hr>
+<p>是的，这次是带着娃，跟家人一起去深圳、香港旅游。说是旅游，更像是 <strong>换个城市小小地生活一下</strong>，准备呆 10 天。</p>
+<p>说回飞机。这是 <strong>娃和妈第一次坐飞机，我挺希望给他们留下一段美好的回忆</strong>，当然主要是妈喽。遗憾的是，妈延续了晕车的习惯，一直觉得飞机上很闷。而且，有雾霾，即使坐在了靠窗的位置上，外面也看不到什么风景。最后，下机的时候，顾不上我们，必须先冲下飞机，踩在踏实的地面上，呼吸新鲜空气去了。</p>
+<p><strong>娃还好，至少表现的比预期的要好</strong>：没有大哭大闹。要知道，飞机起飞降落时，耳朵会明显地不舒服。飞机上的空气干燥憋闷、空间小，很容易让娃不爽的。好玩的是，这娃觉得起飞时的越重、失重很好玩，竟然还自己笑 😀 一路上由于过度兴奋，该睡的时候不睡。最后，临下飞机前，留了一泡臭臭…比较庆幸的是，我们是倒数第二排，而最后一排没有人，所以就被我们霸占了，空间立马宽裕了。这应该也是娃没失控的重要原因吧。</p>
+<p><img src="https://ps.toolinbox.net/epf5p.JPG" alt=""></p>
+<p>坐深圳航空去深圳…</p>
+<hr>
+<p>下了飞机，找地方填肚子。然后，又是 1 个多小时的车程，才到目的地。车是滴滴专车，本田雅阁，车费￥260…好在空间还挺宽敞。加上一路都是高速，<strong>我们全家人，都在车上睡着了</strong>…</p>
+<p>目的地是哪呢？大梅沙附近。在 AirBNB 上定了一间公寓，<strong>两居室，只要不到 300 元，和快捷酒店差不多</strong>，感觉还挺划算。毕竟拖家带口出来，有个能做饭的厨房，有个不小的客厅，还是很好的。</p>
+<p>奔波了一天，晚上下楼买了饺子吃，还干了一瓶啤酒。接下来，伺候娃睡觉；再接下来，竟然闲得不知道要干什么了 😂 不干活的感觉也还不错，只是幸福来得太突然，我还得适应适用…</p>
+<p>明天去哪玩呢？不知道、无计划，走哪算哪呗。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iText - OCR 截图识字新版：重写算法，段落识别更精准]]></title>
       <url>https://atjason.com/daily/2017-12-07_2.html</url>
       <content type="html"><![CDATA[<p>在介绍新版前，稍稍解释下背景知识。</p>
@@ -20868,37 +21057,6 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[深圳行：1207-Day 1 - 到达]]></title>
-      <url>https://atjason.com/daily/2017-12-07.html</url>
-      <content type="html"><![CDATA[<p>今天一天都在路上；<strong>前脚杭州，后脚深圳</strong>。</p>
-<p>其实，首先要说的是 <strong>夜晚</strong>。由于新版 iText 要提交上架 App Store，于是，我在小米手环上 <strong>定了 3、4、5、6 点的闹钟</strong>，闹醒自己看看审核有没有被拒，然后再提交一个版本。</p>
-<p>果然，在 4 点钟醒来，不详地收到「Dear Jason, We’ve sent you a new message about your app, iText.」<strong>审核被拒，原因是什么呢？</strong>是我在 App 描述里有这么一句话：”Your 5-star rating will be a great encouragement for me.”，被苹果认为涉嫌诱导用户评分。哎，iText 上个版本就有这句话，iPic 等其他应用也有这句话，都可以审核通过；偏偏这次就不行。哎，审核是大爷，于是 4 点多时提交。</p>
-<p>等到了 8 点，审核才开始。一直等到 11 点才审核通过。要知道，<strong>此时我已经在机场，广播已经在提示登机了。我依然镇定 + 火速地拿出电脑，连接手机 4G 网络，在朋友圈、微博等渠道对该版本上架进行推广。然后抱着娃，跟着家人一直登机。</strong></p>
-<p><img src="https://ps.toolinbox.net/2g970.jpg" alt=""></p>
-<a id="more"></a>
-<hr>
-<p>是的，这次是带着娃，跟家人一起去深圳、香港旅游。说是旅游，更像是 <strong>换个城市小小地生活一下</strong>，准备呆 10 天。</p>
-<p>说回飞机。这是 <strong>娃和妈第一次坐飞机，我挺希望给他们留下一段美好的回忆</strong>，当然主要是妈喽。遗憾的是，妈延续了晕车的习惯，一直觉得飞机上很闷。而且，有雾霾，即使坐在了靠窗的位置上，外面也看不到什么风景。最后，下机的时候，顾不上我们，必须先冲下飞机，踩在踏实的地面上，呼吸新鲜空气去了。</p>
-<p><strong>娃还好，至少表现的比预期的要好</strong>：没有大哭大闹。要知道，飞机起飞降落时，耳朵会明显地不舒服。飞机上的空气干燥憋闷、空间小，很容易让娃不爽的。好玩的是，这娃觉得起飞时的越重、失重很好玩，竟然还自己笑 😀 一路上由于过度兴奋，该睡的时候不睡。最后，临下飞机前，留了一泡臭臭…比较庆幸的是，我们是倒数第二排，而最后一排没有人，所以就被我们霸占了，空间立马宽裕了。这应该也是娃没失控的重要原因吧。</p>
-<p><img src="https://ps.toolinbox.net/epf5p.JPG" alt=""></p>
-<p>坐深圳航空去深圳…</p>
-<hr>
-<p>下了飞机，找地方填肚子。然后，又是 1 个多小时的车程，才到目的地。车是滴滴专车，本田雅阁，车费￥260…好在空间还挺宽敞。加上一路都是高速，<strong>我们全家人，都在车上睡着了</strong>…</p>
-<p>目的地是哪呢？大梅沙附近。在 AirBNB 上定了一间公寓，<strong>两居室，只要不到 300 元，和快捷酒店差不多</strong>，感觉还挺划算。毕竟拖家带口出来，有个能做饭的厨房，有个不小的客厅，还是很好的。</p>
-<p>奔波了一天，晚上下楼买了饺子吃，还干了一瓶啤酒。接下来，伺候娃睡觉；再接下来，竟然闲得不知道要干什么了 😂 不干活的感觉也还不错，只是幸福来得太突然，我还得适应适用…</p>
-<p>明天去哪玩呢？不知道、无计划，走哪算哪呗。</p>
 ]]></content>
       
         <categories>
@@ -24436,6 +24594,38 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0718 - 为何要写作]]></title>
+      <url>https://atjason.com/daily/2017-07-18.html</url>
+      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
+<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
+<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
+<ul>
+<li><strong>输出倒逼输入</strong><ul>
+<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
+</ul>
+</li>
+<li><strong>个人品牌建设</strong><ul>
+<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
+</ul>
+</li>
+<li><strong>跨界寻找可能性</strong><ul>
+<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
+<li><strong>多一个维度，多一种可能性</strong></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Mac 开发的神秘面纱：后娘养的嫡长子]]></title>
       <url>https://atjason.com/IndieDev/2017-07-18.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/bx86a.png" alt=""></p>
@@ -24624,38 +24814,6 @@
         <categories>
             
             <category> IndieDev </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0718 - 为何要写作]]></title>
-      <url>https://atjason.com/daily/2017-07-18.html</url>
-      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
-<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
-<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
-<ul>
-<li><strong>输出倒逼输入</strong><ul>
-<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
-</ul>
-</li>
-<li><strong>个人品牌建设</strong><ul>
-<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
-</ul>
-</li>
-<li><strong>跨界寻找可能性</strong><ul>
-<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
-<li><strong>多一个维度，多一种可能性</strong></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -25432,6 +25590,35 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
+      <url>https://atjason.com/daily/2017-06-27.html</url>
+      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
+<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
+<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
+<ul>
+<li><strong>基于数据</strong><ul>
+<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
+</ul>
+</li>
+<li><strong>基于内容</strong><ul>
+<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
+</ul>
+</li>
+</ul>
+<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
+<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Klib 第四版：纯粹，只为悦读]]></title>
       <url>https://atjason.com/PM/2017-06-27_Klib.html</url>
       <content type="html"><![CDATA[<p>在 Kindle 上读书，可以避免纸质书的收纳问题，还能方便地标注，挺好的。不过，标注虽然方便，标注的回顾整理却并不方便。好在，<strong><a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a></strong> 解决了这个问题（如何解决？请看 <a href="https://sspai.com/post/37581" target="_blank" rel="external">这里</a>、以及 <a href="https://sspai.com/post/38688" target="_blank" rel="external">这里</a>）</p>
@@ -25458,35 +25645,6 @@
         <categories>
             
             <category> PM </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
-      <url>https://atjason.com/daily/2017-06-27.html</url>
-      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
-<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
-<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
-<ul>
-<li><strong>基于数据</strong><ul>
-<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
-</ul>
-</li>
-<li><strong>基于内容</strong><ul>
-<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
-</ul>
-</li>
-</ul>
-<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
-<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -27373,22 +27531,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -27473,6 +27615,22 @@
         <categories>
             
             <category> IT </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -36104,7 +36262,7 @@
 <h1 id="配置-ssh-的-config"><a href="#配置-ssh-的-config" class="headerlink" title="配置 ssh 的 config"></a>配置 ssh 的 config</h1><p>编辑 ~/.ssh/config，添加类似下面的内容：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># user1</div><div class="line">Host github.com</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa</div><div class="line"></div><div class="line"># user2</div><div class="line">Host github.cn</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa2</div></pre></td></tr></table></figure>
 <p>编辑后，测试连接是否成功。如果成功，会有类似下面的提示：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> ssh -T git@github.com</div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$ ssh -T git@github.cn</div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh -T git@github.com</span></div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$<span class="bash"> ssh -T git@github.cn</span></div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
 <p>核心原理就是，当 ssh 尝试访问某域名时，会尝试和 config 中 <code>Host</code> 对应的记录匹配。如果匹配成功，就会使用该记录中 <code>HostName</code> 的值作为真正的域名、以及使用 <code>IdentityFile</code> 对应的私钥进行配对。这样，既可以实现把 <code>github.cn</code> 当作 <code>github.com</code> 访问、又可以匹配到正常的私钥。 </p>
 <p>这里，<code>github.cn</code> 只是个代号，你可以使用任何其它你喜欢的域名。</p>
 <h1 id="对-git-项目使用适当的-ssh-连接"><a href="#对-git-项目使用适当的-ssh-连接" class="headerlink" title="对 git 项目使用适当的 ssh 连接"></a>对 git 项目使用适当的 ssh 连接</h1><p>前面提到，假定 user1@gmail.com 是更经常使用的账户，这样我们可以设置该账户为全局默认的 git 账户。通常，你已经这么设置了。不过，如果可以通过下面的命令再次设置以确认。</p>
@@ -44182,9 +44340,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
@@ -44244,9 +44402,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
