@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2020-12-16T15:48:20.080Z</updated>
+  <updated>2020-12-21T02:29:14.849Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,177 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1221 - 交易和生活，仿佛两个世界</title>
+    <link href="https://atjason.com/daily/2020-12-21.html"/>
+    <id>https://atjason.com/daily/2020-12-21.html</id>
+    <published>2020-12-21T14:00:00.000Z</published>
+    <updated>2020-12-21T02:29:14.849Z</updated>
+    
+    <content type="html"><![CDATA[<p>打开电脑，看着交易界面，开仓平仓、下单撤单，一切好像游戏一样，并不真实，却又真实的影响的账户里的余额。</p>
+<p>离开电脑，看着家和家人，一下子很难切换过来，现实也好像虚幻起来。</p>
+<p><strong>交易和生活，仿佛两个世界，却只差一个转身</strong>。</p>
+<p>尤其，在交易大赚或大亏时，这种虚实的割裂感会更强。</p>
+<p>交易世界里，不管盈利还是亏损，平仓了，就可以重新来过。<br>现实里，发生了就是发生了，事情的影响会持续很久。</p>
+<p>交易中，需要耐心等待机会。<br>生活中，需要更加耐心的对待家人；因为，无法重新来过。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;打开电脑，看着交易界面，开仓平仓、下单撤单，一切好像游戏一样，并不真实，却又真实的影响的账户里的余额。&lt;/p&gt;
+&lt;p&gt;离开电脑，看着家和家人，一下子很难切换过来，现实也好像虚幻起来。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;交易和生活，仿佛两个世界，却只差一个转身&lt;/strong&gt;。
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1220 - Kindle 成表</title>
+    <link href="https://atjason.com/daily/2020-12-20.html"/>
+    <id>https://atjason.com/daily/2020-12-20.html</id>
+    <published>2020-12-20T14:00:00.000Z</published>
+    <updated>2020-12-20T14:34:12.495Z</updated>
+    
+    <content type="html"><![CDATA[<p>盯盘时，电脑是全屏状态，看不到时间。于是，需要另外一个能显示秒的表。可，市面上想找到一个只显示时分秒、长得又简洁的表，并不容易。再说，我也不想为此在家里再增加个东西。</p>
+<p>突然又想到了 Kindle；之前，我其实试过一次在 Kindle 上显示时间，不过并没有真的长期用，毕竟当时需求不强。这次，我又把之前的代码拿出来改进下，做成了下面的样子。</p>
+<p><img src="https://ps.toolinbox.net/4k04k.JPG" alt=""></p>
+<p>有几个细节说一下：</p>
+<ul>
+<li>关于时间准确度。由于 Kindle 本地时间不一定准确，设置又不支持设置秒。于是，这次网页加载时，会先从网络获取准确时间，计算和本地的时间差，以校正时间。</li>
+<li>为了减少不必要的刷新次数，可以点击时间，切换为只显示时分，这样可以每 1 分才刷新一次。另外，即使是显示秒，也只是偶数秒时刷新。这样既是为了省电，也是为了降低刷新时的页面残影。</li>
+</ul>
+<p>其实，哪怕是这么个极小的项目，要做得好，要打磨的地方还是有很多。比如，为了保护 Kindle 的屏幕，最好隔一段时间做一次全黑全白的切换，延长屏幕寿命。</p>
+<p>现在，可用性方面，最大的问题还是续航。很老的 Kindle 4，目前估计充满电最多撑两天。关键是它不支持打开浏览器后，开启飞行模式。用 Kindle PaperWhite 3，在开户飞行模式和关闭屏幕灯时，估计能用好几天，差不多是能用了。</p>
+<p>项目的代码，我放 GitHub 上了：<a href="http://github.com/atjason/kindle-clock" target="_blank" rel="external">http://github.com/atjason/kindle-clock</a>。另外，网页我也放这了：<a href="http://k.ilib.io/i/k4.html" target="_blank" rel="external">http://k.ilib.io/i/k4.html</a>。注意，这个页面只针对 Kindle 4 横屏进行优化，可能并不适合你的使用场景，你可以针对性优化下。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;盯盘时，电脑是全屏状态，看不到时间。于是，需要另外一个能显示秒的表。可，市面上想找到一个只显示时分秒、长得又简洁的表，并不容易。再说，我也不想为此在家里再增加个东西。&lt;/p&gt;
+&lt;p&gt;突然又想到了 Kindle；之前，我其实试过一次在 Kindle 上显示时间，不过并没有真的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1219 - 财富与年龄</title>
+    <link href="https://atjason.com/daily/2020-12-19.html"/>
+    <id>https://atjason.com/daily/2020-12-19.html</id>
+    <published>2020-12-19T14:00:00.000Z</published>
+    <updated>2020-12-20T14:16:46.634Z</updated>
+    
+    <content type="html"><![CDATA[<p>财富面前，人人平等，但又不平等。</p>
+<p>比如，不同年龄的不平等。年纪大的人，通常拥有相对更多的财富，则更可能追求收益率更高的增长机会。年轻人，则在财富总量和可把握的机会上，处于劣势。</p>
+<p>说人话，举个例子。五年前，买得起房的人中，肯定年纪大的比年轻人更买得起房。对于房价增速来说，买得起就相当于卡位成功。五年后的今天，当年的没买房年轻人，更加比不过当年买了房的中年油腻大叔，虽然他本身也长成了大叔。</p>
+<p>这其实会引发深层次的问题，毕竟年轻人是社会的活力和动力。所以，才会有限购等一系列行政干预，为年轻人留一条缝、开一扇窗。</p>
+<p>财富的加速集聚效应，注定是不平等的。有钱人越来越有钱，财富阶级越来越固化。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;财富面前，人人平等，但又不平等。&lt;/p&gt;
+&lt;p&gt;比如，不同年龄的不平等。年纪大的人，通常拥有相对更多的财富，则更可能追求收益率更高的增长机会。年轻人，则在财富总量和可把握的机会上，处于劣势。&lt;/p&gt;
+&lt;p&gt;说人话，举个例子。五年前，买得起房的人中，肯定年纪大的比年轻人更买得
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1218 - 交易与乐高</title>
+    <link href="https://atjason.com/daily/2020-12-18.html"/>
+    <id>https://atjason.com/daily/2020-12-18.html</id>
+    <published>2020-12-18T14:00:00.000Z</published>
+    <updated>2020-12-19T11:26:50.831Z</updated>
+    
+    <content type="html"><![CDATA[<p>交易与乐高很像：<strong>事情简单化、简单的事情重复做</strong>。</p>
+<p>复杂世界，被乐高抽象得很简单，都是一个个小颗粒。可这一个个小颗粒，重复的拼，又能还原出复杂的世界。</p>
+<p>交易也是类似。交易本身是复杂的、混沌的，应该先进行简单化。具体的，可以只做自己熟悉的品种、擅长的价格形态。然后，重复做，重复得用这种方式，把市场的钱装自己口袋里。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;交易与乐高很像：&lt;strong&gt;事情简单化、简单的事情重复做&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;复杂世界，被乐高抽象得很简单，都是一个个小颗粒。可这一个个小颗粒，重复的拼，又能还原出复杂的世界。&lt;/p&gt;
+&lt;p&gt;交易也是类似。交易本身是复杂的、混沌的，应该先进行简单化。具体的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1217 - 训练生产两张皮</title>
+    <link href="https://atjason.com/daily/2020-12-17.html"/>
+    <id>https://atjason.com/daily/2020-12-17.html</id>
+    <published>2020-12-17T14:00:00.000Z</published>
+    <updated>2020-12-18T15:46:25.996Z</updated>
+    
+    <content type="html"><![CDATA[<p>是不是经常有这种感觉：<strong>一看就会、一上手全不会</strong>。</p>
+<p>比如，学车时，在场地内开车还好，一上路，遇到行人、电动车、夹塞、雨雾天，完全蒙了，和原来练习好像根本不是一回事。</p>
+<p>比如，用模拟盘交易，或者用小仓位交易，感觉还好。可一旦用大仓位，遇到波动剧烈的行情，就开始乱来了。尤其是不设止损，想博一把大的，结果却变成了亏损，抗成了爆仓。</p>
+<p>比如，打乒乓球时练习拉球还挺像样，真碰到打球时各种旋转、角度、远近，就开始胡打，完全忘了训练时的步伐、动作、击球点位。</p>
+<p>简单的说，是训练模式过于抽象、简单，只应对某一种情况时还好，一旦遇到真实的、复杂的情况，就应对不过来了。好像也没什么好的办法，只能是 <strong>训练和生产之间不断切换</strong>；训练时只专注某一种技能，生产时则想尽办法达成目标。尤其，<strong>要在生产过程中发现薄弱环节，训练时针对性的进行刻意练习</strong>。</p>
+<p>还有一点，<strong>高手往往看起来很自然，好像事情本该如此</strong>。事实上，对比一下就会发现，菜鸟的菜在局外人看来，是很明显的。你必须非常努力，才能看起来毫不费力。有时，<strong>高手和菜鸟之间，往往只是一系列看越来很小的差异</strong>。单看某一个动作，好像差别不大；可这些小小的差异累积越来，便是云泥之别了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;是不是经常有这种感觉：&lt;strong&gt;一看就会、一上手全不会&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;比如，学车时，在场地内开车还好，一上路，遇到行人、电动车、夹塞、雨雾天，完全蒙了，和原来练习好像根本不是一回事。&lt;/p&gt;
+&lt;p&gt;比如，用模拟盘交易，或者用小仓位交易，感觉还好。可
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1216 - 亏，并坦然着</title>
+    <link href="https://atjason.com/daily/2020-12-16.html"/>
+    <id>https://atjason.com/daily/2020-12-16.html</id>
+    <published>2020-12-16T14:00:00.000Z</published>
+    <updated>2020-12-20T14:39:54.025Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天，进行了很多次交易。虽然，最后的结果是亏损的。不过，我整体上是开心的。因为我知道：</p>
+<ul>
+<li>一些亏损是胡乱开仓引起的，之后是可以避免的。</li>
+<li>一些亏损是正常止损，完全不应该因此有负面想法。</li>
+</ul>
+<p>也进一步认识到，提高胜率，判断更快更果敢、眼到心到手到，是我目前最重要的、最需要锻炼的技能。而这两项，<strong>胜率+果敢，都是练出来的，是需要时间+金钱堆出来的</strong>。虽然我目前花费了大量的时间，也亏不了少钱，但我正在练习这两项重要的技术，<strong>是在做对的事，就不担心。接下来，只需要把事情做对即可</strong>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天，进行了很多次交易。虽然，最后的结果是亏损的。不过，我整体上是开心的。因为我知道：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一些亏损是胡乱开仓引起的，之后是可以避免的。&lt;/li&gt;
+&lt;li&gt;一些亏损是正常止损，完全不应该因此有负面想法。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;也进一步认识到，提高
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1215 - 找到，即是放弃</title>
@@ -46,13 +217,13 @@
     <link href="https://atjason.com/daily/2020-12-14.html"/>
     <id>https://atjason.com/daily/2020-12-14.html</id>
     <published>2020-12-14T14:00:00.000Z</published>
-    <updated>2020-12-16T15:44:36.589Z</updated>
+    <updated>2020-12-20T14:38:43.552Z</updated>
     
     <content type="html"><![CDATA[<p>比如，你在输入图片验证码时，就是在帮助算法改进图像识别。</p>
 <p>比如，Google 会把一些搜索诸如这样的问题，外包给用零碎时间兼职的人：「怎样才能学会骑自行车」和「自行车怎么学」这两个问题，是不是可以等同，以帮助其改进语义理解算法。</p>
 <p>虽说，这些行为背后都有人或公司受益。但，如果把软件（数据和算法）当作一个主体，<strong>人何尝不是在给软件打工</strong>。</p>
 <p>打个比方，富人家养了条名贵的狗；不好意思，狗太不雅了，得用犬。却没时间照顾，于是专门请人来照顾。当然，这个人是在给富人打工，但又何尝不是在为狗服务、给狗打工。</p>
-<p>想想，是不是有点奇怪的感觉。<strong>人和软件的关系，正在发生微秒的变化</strong>。</p>
+<p>想想，是不是有点奇怪的感觉。<strong>人和软件的关系，正在发生微妙的变化</strong>。</p>
 <p>比如，你在用地图应用导航时，是不是它让你左转你就左转、让你掉头你就掉头，有没有点令行禁止的感觉。到底是你在用导航软件，还是 <strong>导航软件在玩你</strong>？如果它使坏，多走了几个路口，理由是绕开拥堵，<strong>你分得清吗</strong>？</p>
 <p>互联网里有句话：流量终将流向能让其价值最大化的地方。套用过来，<strong>未来终将被更高智能的人（或机器）统治</strong>。具体是谁，上帝并不在乎。</p>
 ]]></content>
@@ -373,191 +544,6 @@
       &lt;p&gt;听一位美院教授讲座，其中提到了美术是「无用之用」，我觉得挺有意思。&lt;/p&gt;
 &lt;p&gt;一般来说，在快节奏的当下，我们追求效率，什么东西有用没用，成为我们判断的首要标准。像美术这种东西，好像对升职加薪并没有直接帮助。&lt;/p&gt;
 &lt;p&gt;但间接帮助还是有很多的。比如，提高了审美，在新房
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1201 - 头痛</title>
-    <link href="https://atjason.com/daily/2020-12-01.html"/>
-    <id>https://atjason.com/daily/2020-12-01.html</id>
-    <published>2020-12-01T14:00:00.000Z</published>
-    <updated>2020-12-06T12:25:08.839Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天开始有点头痛，就是头的右上角，有一跳一跳的痛。刚开始很轻，频次也不高，我就没当回事。可后来明显感觉到痛，频率也高了，我感觉不太对劲，就停下了交易，开始休息。</p>
-<p>简单查了下，可能是血管神经引起的疼痛，心脏跳动引起的血液冲击脑血管，可能会感到痛。可能的原因，还是常见的：休息不好、精神压力大。</p>
-<p>想了想，不知道是不是最近交易带来的精神紧张引起的。不管怎样，这至少说明两个问题。一个，就是目前的交易方法不太对，至少是跟我目前的能力、状态不匹配，要调整。另一方面，这是个警告信号，说明自己要重视身体健康，必须要有一定的体育运动。</p>
-<p>后记：休息了几天后，头痛消失了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天开始有点头痛，就是头的右上角，有一跳一跳的痛。刚开始很轻，频次也不高，我就没当回事。可后来明显感觉到痛，频率也高了，我感觉不太对劲，就停下了交易，开始休息。&lt;/p&gt;
-&lt;p&gt;简单查了下，可能是血管神经引起的疼痛，心脏跳动引起的血液冲击脑血管，可能会感到痛。可能的原因，还是
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1130 - 交易中的取舍</title>
-    <link href="https://atjason.com/daily/2020-11-30.html"/>
-    <id>https://atjason.com/daily/2020-11-30.html</id>
-    <published>2020-11-30T14:00:00.000Z</published>
-    <updated>2020-12-05T15:06:57.321Z</updated>
-    
-    <content type="html"><![CDATA[<p>交易，有大量的决策过程。随着行情的进展，不断的想：</p>
-<ul>
-<li>如果价格接下来这么走，该怎么办；</li>
-<li>那么走，又该怎么办；</li>
-<li>最理想的走法，是怎样的；</li>
-</ul>
-<p>决策，既是应对，也是取舍。比如：</p>
-<ul>
-<li>想拿长线，就要忍受回调；</li>
-<li>想要落袋为安，就不要后悔错过大涨；</li>
-<li>想要省心，就不要贪图波段利润；</li>
-<li>想要每个波段都赚，就要劳心劳力，盯盘及提高技术；</li>
-</ul>
-<p>交易是取舍、是置换，用你有的，换你想要的。当然，也得有换的资格，不断提高换的能力。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;交易，有大量的决策过程。随着行情的进展，不断的想：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果价格接下来这么走，该怎么办；&lt;/li&gt;
-&lt;li&gt;那么走，又该怎么办；&lt;/li&gt;
-&lt;li&gt;最理想的走法，是怎样的；&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;决策，既是应对，也是取舍。比如：&lt;/p&gt;
-&lt;ul&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1129 - 苹果的上面是哪一面</title>
-    <link href="https://atjason.com/daily/2020-11-29.html"/>
-    <id>https://atjason.com/daily/2020-11-29.html</id>
-    <published>2020-11-29T14:00:00.000Z</published>
-    <updated>2020-11-29T14:50:26.048Z</updated>
-    
-    <content type="html"><![CDATA[<p>苹果一般一边小，另一边有柄的地方大。</p>
-<p>注意这个问题：<strong>你觉得苹果的上面是哪一面？</strong></p>
-<p>又或者说，当一个苹果放在桌上，小头朝上、或者有柄的朝上，哪种会让你感觉更舒服？</p>
-<p>其实，在自然环境下，当苹果还在树上时，有柄的朝上，这是最原始的状态。你看到的这个🍎 Emoji，苹果手机的 Logo，也是如此。</p>
-<p>而其实，我更深层的意识里，是希望苹果大头朝下。我自己在摆放时，也会下意识的这样做。</p>
-<p>为什么会这样呢？一方面我觉得这样稳；更多的，我觉得还是自己在很小的时候，看到这样摆放的苹果比较多，所以形成了这样的潜意识。而这样的意识一旦形成，很可能会伴随一生。</p>
-<p>就像是有人到一个新地方晕方向，总觉得一个方向应该是另一个方向。就像你告诉他正确的方向，他脑子里的感觉就是切换不过来。</p>
-<p>对小孩的教育，这点是很值得玩味的。<strong>孩子就像白纸，你在纸上用铅笔画了一条线。之后，无论怎样用橡皮去擦，总会有浅浅的颜色，以及印痕</strong>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;苹果一般一边小，另一边有柄的地方大。&lt;/p&gt;
-&lt;p&gt;注意这个问题：&lt;strong&gt;你觉得苹果的上面是哪一面？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;又或者说，当一个苹果放在桌上，小头朝上、或者有柄的朝上，哪种会让你感觉更舒服？&lt;/p&gt;
-&lt;p&gt;其实，在自然环境下，当苹果还在树上时，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1128 - 小朋友没有未来概念</title>
-    <link href="https://atjason.com/daily/2020-11-28.html"/>
-    <id>https://atjason.com/daily/2020-11-28.html</id>
-    <published>2020-11-28T14:00:00.000Z</published>
-    <updated>2020-11-29T14:50:16.100Z</updated>
-    
-    <content type="html"><![CDATA[<p>「你再这样，以后我就再也不…」</p>
-<p>对小孩，你是不是也经常用这样的句式。比如，以后再也不带你出来玩了。</p>
-<p>可惜，你做不到，这种威胁对小孩也没有用。基本上，这些就是废话，最多是假装发泄一下你当时的怨气罢了。</p>
-<p><strong>小朋友基本没有未来概念，他们生活在当下</strong>。延迟满足是什么鬼，明天有没有糖吃，他们不懂，也不在乎。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;「你再这样，以后我就再也不…」&lt;/p&gt;
-&lt;p&gt;对小孩，你是不是也经常用这样的句式。比如，以后再也不带你出来玩了。&lt;/p&gt;
-&lt;p&gt;可惜，你做不到，这种威胁对小孩也没有用。基本上，这些就是废话，最多是假装发泄一下你当时的怨气罢了。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;小朋友基本没有未
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1127 - 你画个熊试试</title>
-    <link href="https://atjason.com/daily/2020-11-27.html"/>
-    <id>https://atjason.com/daily/2020-11-27.html</id>
-    <published>2020-11-27T14:00:00.000Z</published>
-    <updated>2020-11-29T14:50:07.009Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>说真的，你现在停下来，找纸笔画个熊试试，看能画出个什么样子。</strong></p>
-<p>然后，你会发现，一些看越来非常简单、想当然的事，其实，并不简单。</p>
-<p>比如，在教育小孩时，经常会有这样的愤慨：这么简单的事你都不会，你是 x 吗？抖音上也有很多家长一辅导作业就歇斯底里的视频。</p>
-<p>冷静，想想画熊这件事吧。没有自然而然、显而易见，只能循序渐进、熟能生巧。</p>
-<p>像穿鞋子、提裤子、画直线、认方向、分季节等等这些对大人而言「常识」性的东西，对孩子来说，都是新鲜的、很难的、需要学习的东西。就跟你现在用一门新的外语说「你好」一样，并不那么容易。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;说真的，你现在停下来，找纸笔画个熊试试，看能画出个什么样子。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;然后，你会发现，一些看越来非常简单、想当然的事，其实，并不简单。&lt;/p&gt;
-&lt;p&gt;比如，在教育小孩时，经常会有这样的愤慨：这么简单的事你都不会，你是 x 吗？抖音上也
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1126 - i18n 的一个思路</title>
-    <link href="https://atjason.com/daily/2020-11-26.html"/>
-    <id>https://atjason.com/daily/2020-11-26.html</id>
-    <published>2020-11-26T14:00:00.000Z</published>
-    <updated>2020-11-29T14:49:49.769Z</updated>
-    
-    <content type="html"><![CDATA[<p>这些天在做 iText 的国际化，准备增加日语、德语、西班牙语等语言。</p>
-<p>怎么做呢？</p>
-<p>最专业的做法，自然是花钱请专业团队翻译。只是，这个费用比较高，小应用一般到不了这个程度。</p>
-<p>或者，就是找在某个语言比较熟悉的朋友、用户，请他们帮忙翻译。这差不多是最适合的方式了，只是要看缘份了。</p>
-<p>不过，这也有问题。一方面，翻译是很枯燥的事，也很容易出差错，而且出了差错自己压根不懂，也发现不了；另一方面，工作量比较大，很花时间。</p>
-<p>怎么改进呢？可以先用工具将语言翻译个大概，然后请朋友帮忙校对，这就大大减少了工作量和出错的概率。</p>
-<p>不过，这又有几个问题。一方面，程序中使用的语言，可以算作是行业用语，一般的通用翻译可能显得很奇怪。另一方面，如果只是翻译一些孤零零的词，在没有上下文的情况下，不可能翻译得完全准确。</p>
-<p>怎么办呢？这时我发现一个好工具：<a href="https://i18ns.com/" target="_blank" rel="external">i18ns</a>。它的基本思路是：<strong>收集整理已有应用中常用的翻译，供大家查询使用</strong>。</p>
-<p>比如，很多应用中都需要用到「Account」这个词，如果 Facebook/微信 等大牌应用，都是把这个词翻译成「账户」，那么基本上我们就也可以这么做。怎么样，是不是觉得很巧妙？并且，还可以做成收费服务，就更棒了。</p>
-<p>不过，这个工具的由来，也依然是脏活累活，作者有写过一些文章介绍：<a href="https://www.v2ex.com/t/560751" target="_blank" rel="external">https://www.v2ex.com/t/560751</a>，感兴趣可以去看看。</p>
-<p>最近，目前 iText 即将支持 英语、简体中文、繁体中文、日语、德语、西班牙语。<strong>如果你有兴趣让 iText 支持更多语言，欢迎联系我</strong>：iToolinbox at gmail.com</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这些天在做 iText 的国际化，准备增加日语、德语、西班牙语等语言。&lt;/p&gt;
-&lt;p&gt;怎么做呢？&lt;/p&gt;
-&lt;p&gt;最专业的做法，自然是花钱请专业团队翻译。只是，这个费用比较高，小应用一般到不了这个程度。&lt;/p&gt;
-&lt;p&gt;或者，就是找在某个语言比较熟悉的朋友、用户，请他们帮忙翻译
     
     </summary>
     
