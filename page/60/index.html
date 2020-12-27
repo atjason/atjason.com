@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-01.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-07.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-03-01.html" itemprop="url">
-                  0301 - 开源一个网络转发服务
+                <a class="post-title-link" href="/daily/2020-03-07.html" itemprop="url">
+                  0307 - 难与不难
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-01T22:00:00+08:00">
-                2020-03-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-07T22:00:00+08:00">
+                2020-03-07
               </time>
             
 
@@ -366,16 +366,12 @@
       
         
           
-            <p>为什么会有这样的需求？或者说，什么时候用得到呢？</p>
-<ul>
-<li>浏览器有跨域请求限制，而后端则没有；</li>
-<li>直接访问目标服务器比较慢，或者因为神奇的原因无法访问，需要一个跳转服务器；</li>
-</ul>
-<p>安全性方面，目前做得比较粗糙，需要在请求中加指定的 <code>secret</code> 参数，以过滤无效访问。</p>
-<p>用法方面，只需将请求封装为 <code>axios</code> 类似的格式，然后通过 <code>POST</code> 发送给跳转服务即可。</p>
-<p>部署方面，需要自己配置域名、nginx 转发、CORS 等等。</p>
-<p>源码如下：</p>
-<p><a href="https://github.com/atjason/forward" target="_blank" rel="external">https://github.com/atjason/forward</a></p>
+            <p>让我们逐渐地说。</p>
+<p>除了像卫星发射这种有绝对难度的事，通常，对于不了解的行业，我们会习惯性地觉得它并不难。比如，你会觉得前台的工作，不就是收收快递、打打电话，谁都能干（当然，最好长得漂亮…）</p>
+<p>真正上手，便会感觉：呀，原来这事还有点难度。</p>
+<p>等过段时间、熟练了，又会感觉：其实也就这么回事，我现在一边摸鱼、一边干活都没问题。</p>
+<p>等工作量大、要求变高时，又会后悔之前怎么没趁不忙的时候多学点，现在效率这么低，或者干着急想不出好办法，觉得这事真难，都要干不下去了。</p>
+<p>你看，同一件事，不同的人、不同的阶段来看，感受结论都不一样。其中一点，与其习惯性轻视，不如习惯性地觉得别人的工作比较重要、比较难。</p>
 
           
         
@@ -419,7 +415,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-29.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-06.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -441,8 +437,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-29.html" itemprop="url">
-                  0229 - 过了配置服务器的瘾
+                <a class="post-title-link" href="/daily/2020-03-06.html" itemprop="url">
+                  0306 - 先信再疑
                 </a>
               
             
@@ -458,8 +454,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-29T22:00:00+08:00">
-                2020-02-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-06T22:00:00+08:00">
+                2020-03-06
               </time>
             
 
@@ -517,11 +513,12 @@
       
         
           
-            <p><strong>程序员一般有两种瘾：域名和服务器</strong>。</p>
-<p>看到好的域名、便宜的服务器，哪怕目前用不着，也想收着。估计和女士买包包、收藏口红，是差不多道理。</p>
-<p>这不，最近疫情，很多云服务端都推出的力度较大的促销活动。说是战疫，说白了都是为了拉新。不管怎样，确实出现了一些便宜货。正好我的一个服务器要到期（其实还有 2 个月…），忍不住入了一个。</p>
-<p>买服务器容易，配置难啊。其实配置服务器倒也还好，可以用镜像之类的办法做到；难的是配置其中的软件、尤其是迁移项目。重要的项目，我宁愿花钱续费也不会这么干。而一般玩票性的，就无所谓了，就算挂一段时间，其实也没啥影响。</p>
-<p>总之，折腾了大半天，终于搞完了这事。未来 3 年，我应该都不会再干这种事了。</p>
+            <p>学一样东西，首先要信；相信这是好的、对的、有用的。</p>
+<p>然后浸入其中，打开自己所有的毛孔去吸收，用它的思维方式思考。</p>
+<p>等学得差不多了，感觉突破了限制、感受到了创作的自由，然后再怀疑。比如，这东西到底能解决什么问题、最佳应用场景是什么、有什么局限、有没有更好的解决方案等等。</p>
+<p>对应的，如果一开始就怀疑，就觉得这不是最好，就很难浸入其中去学习。稍微遇到点困难，就想去找「更好」的替代品；其实就是放弃。</p>
+<p>学任何东西都差不多，就像弹钢琴，学会之前，很难、弹得不好听，很容易得出结论：自己不适合、对小提琴更感兴趣等等，进而放弃。而事实上，当自己真的能熟练的弹好一首曲子、惊艳四座时，反而可能忘了当初的痛，厚着脸皮说自己其实挺喜欢弹钢琴的。</p>
+<p>不会时，没资格说不对。</p>
 
           
         
@@ -565,7 +562,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-28.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-04.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -587,8 +584,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-28.html" itemprop="url">
-                  0228 - 现金为王与捡白菜
+                <a class="post-title-link" href="/daily/2020-03-04.html" itemprop="url">
+                  0304 - 靠什么，怕什么
                 </a>
               
             
@@ -604,8 +601,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-28T22:00:00+08:00">
-                2020-02-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-04T22:00:00+08:00">
+                2020-03-04
               </time>
             
 
@@ -663,11 +660,12 @@
       
         
           
-            <p>现金为王，并不是为了搂着现金，而是捡白菜。</p>
-<p>也即，在资本市场跌出黄金坑时，以低价入手优质资产，然后在短时间内快速拉长赢利。</p>
-<p>当然，现金并不是通常意义上的现金，而是能快速出售，以用于购入其他资产的资产。也即，具有高流动性的资产。</p>
-<p>怎么会有这种好事呢？还真有。比如，08 年经济危机时，流动性严重不足。很多金融机构为了获取流动性，不得不低价贱卖优质资产。而巴菲特的投资基金，恰恰在 08 年、尤其是下半年，进行了大量投资，包括通用电气、高盛这样的资产。虽然他后来曾说，还是买早了，也就是我们通常所说的买在了山腰上。不过，结果是很明确的，这些资产均大涨。</p>
-<p>当然，如何鉴别是否是优良资产、当前是山腰价还是地板价，就考验个人能力了。而如果手上没有现金，有这个能力也白搭。</p>
+            <p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
+<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
+<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
+<p>靠自己的实力呢？玩笑了。</p>
+<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
+<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
 
           
         
@@ -711,7 +709,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-27.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-05.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -733,8 +731,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-27.html" itemprop="url">
-                  0227 - 交易策略的反脆弱性
+                <a class="post-title-link" href="/daily/2020-03-05.html" itemprop="url">
+                  0305 - 极致收敛
                 </a>
               
             
@@ -750,8 +748,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-27T22:00:00+08:00">
-                2020-02-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-04T22:00:00+08:00">
+                2020-03-04
               </time>
             
 
@@ -809,13 +807,9 @@
       
         
           
-            <p>所有交易策略都有其适应的环境。在顺风顺水时，可以赚得盆满钵满；在行情不好时，则会触发止损，甚至大亏。而交易市场，最不缺的就是意外。</p>
-<p>通常，会给策略打各种补丁，以防止意外的发生，减少损失。</p>
-<p>为什么不反过来呢？</p>
-<p>制定这样的策略：在「正常」的行情下，少赚、不赚、甚至略亏；而 <strong>在「意外」的行情下，大赚</strong>。行情越乱越意外，赚得越多。这样的策略，便有反脆弱性。</p>
-<p>一方面，制定这样的策略并不容易。另一方面，这和人性有点违背。通常，人们比较求稳，希望一年 365 天，每天都能小赚一笔，累积成一笔可观的财富。可如果是这样的策略：一年 364 天都不赚、甚至亏损，最后 1 天大赚，估计绝大多数人都难以接受，等不到最后一天就放弃了。</p>
-<p>怎么办呢？也不能太欺负人性了。《反脆弱》作者塔勒布给的方案是：使用「杠铃策略」。比如，80% 的资金，用于符合人性的常规投资；20% 的资金，用于捕捉黑天鹅，抓住那 1/365 的机会。这样，既不用在等待的时间过于煎熬，也有可能抓住大的机会。</p>
-<p>你觉得呢？</p>
+            <p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
+<p>过不了这二问，不做。</p>
+<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
 
           
         
@@ -859,7 +853,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-26.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-03.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -881,8 +875,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-26.html" itemprop="url">
-                  0226 - 连接的多样性
+                <a class="post-title-link" href="/daily/2020-03-03.html" itemprop="url">
+                  0303 - 珍惜朋友
                 </a>
               
             
@@ -898,8 +892,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-26T22:00:00+08:00">
-                2020-02-26
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-03T22:00:00+08:00">
+                2020-03-03
               </time>
             
 
@@ -957,10 +951,9 @@
       
         
           
-            <p>家里停电了，想去看看邻居家有没有停电，以确定是自家线路问题，还是整体停电了。</p>
-<p>怎么做呢？</p>
-<p>最直接的，就是去邻居家敲门问问。现在，有了更多的办法。比如，用手机看看附近的 WiFi 热点是不是全没了。如果是，那基本可以确定是整体停电了。</p>
-<p>无形的 WiFi，也成了人们之间无形的连接。</p>
+            <p>朋友这样的关系，建立很难，破坏却很容易。</p>
+<p>基本上，所有的关系都是这样。需要精力培养，需要时间沉淀，需要经历佐证。而一次严重的伤害，亦或是一次次小的透支，都很容易使得关系走向终结。</p>
+<p>而且，随着年纪的增长，重新培养这样的关系，越来越难，可能性也越来越低。对于这样类似不可再生的东西，且行且珍惜。</p>
 
           
         
@@ -999,7 +992,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/59/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/59/">59</a><span class="page-number current">60</span><a class="page-number" href="/page/61/">61</a><span class="space">&hellip;</span><a class="page-number" href="/page/386/">386</a><a class="extend next" rel="next" href="/page/61/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/59/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/59/">59</a><span class="page-number current">60</span><a class="page-number" href="/page/61/">61</a><span class="space">&hellip;</span><a class="page-number" href="/page/387/">387</a><a class="extend next" rel="next" href="/page/61/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1044,7 +1037,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1929</span>
+                <span class="site-state-item-count">1935</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
