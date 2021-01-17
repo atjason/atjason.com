@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-12.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-26.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-01-12.html" itemprop="url">
-                  0112 - 少做非标件
+                <a class="post-title-link" href="/daily/2017-01-26.html" itemprop="url">
+                  0126 - 播客的软肋
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-12T19:52:25+08:00">
-                2017-01-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-26T19:52:25+08:00">
+                2017-01-26
               </time>
             
 
@@ -366,11 +366,11 @@
       
         
           
-            <p>在做 iKindle 项目时，有个点是预览书籍。本来最佳实践是使用系统的 Quick Look，无奈这路子还挺复杂；并且，可能也会在沙盒的时候遇到麻烦。</p>
-<p>于是乎，开始自己模拟实现 Quick Look；<br>于是乎，开始入坑了…</p>
-<p>界面样式、交互、动画、等等，看起来很简单的东西，但真要做出来，还是很难的。关键，这部分只是产品的一小部分，为了这一小部分花费大量时间，并不划算。并且，由于很难 100% 模拟，做出来的交互会让人感觉很廉价、不专业。</p>
-<p>现在大的样子已经做出来，暂时先不动了（既不切换至 Quick Look，也不继续增加相似度），等体验版做出来的，到时看大伙的反应再说吧。</p>
-<p>恩，尽量少做非标准件。</p>
+            <p>播客及至音频节点的软肋：信息密度低、不能快进。</p>
+<p>如果在高效时间听，浪费时间；<br>如果在低效时间听，很难有大的收获。</p>
+<p>比如，听到一个知识点，要扩展了解，就需要先记录，然后有时间后再搜索。但如果是在低效时间（比如运动、打扫卫生、洗衣服时），是不方便记录或扩展研究的。</p>
+<p>当然，还是有些办法规避这些缺点。比如在播客介绍中列出本集重点、相关链接、等等，虽不然完全解决，但还是能明显发送的。</p>
+<p>恩，播客还是挺有意义的，毕竟总是有很多低效、又无法阅读的时间需要填充。</p>
 
           
         
@@ -414,7 +414,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-11.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-25.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -436,8 +436,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-01-11.html" itemprop="url">
-                  0111 - 数组与链表
+                <a class="post-title-link" href="/daily/2017-01-25.html" itemprop="url">
+                  0125 - iKindle 再思考
                 </a>
               
             
@@ -453,8 +453,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-11T19:52:25+08:00">
-                2017-01-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-25T19:52:25+08:00">
+                2017-01-25
               </time>
             
 
@@ -512,11 +512,21 @@
       
         
           
-            <p>不是在说数据结构，而是在说两种模式、状态。</p>
-<p>数组模式，在一开始就知道所有：类型、地址、容量、等等。优点是效率高，缺点是不易变动。</p>
-<p>链表呢，很不同。在意的是每时每刻，不知道未来的路有多长，也不一定知道过去；而只在意当下、与下一步。有此两样，但可开路搭桥、一往无前。</p>
-<p>想想，我更多的是链表模式。</p>
-<p>原来，人生也是由数据结构和算法组成的呀 😂</p>
+            <p>今天 iKindle 公开体验，收获了首批种子用户，初步反馈还是可以的。</p>
+<p>接下来，就有两个可能的方向：</p>
+<ol>
+<li>继续维持原来的方向：专注于 Kindle 设备的笔记管理。<ul>
+<li>优点是，因为专注，可以做的更便捷、高效。</li>
+<li>缺点是，这注定是一个无比小、无比细分的领域。说的直白一些，几乎无法带来什么收入，几乎是个纯情怀产品。</li>
+</ul>
+</li>
+<li>扩大 iKindle 的应用领域<ul>
+<li>比如，支持多看、微信阅读等更多格式笔记，成为用户统一的阅读笔记中心。</li>
+<li>这会大大增加产品的复杂度，不仅是需求与交互上的，还是技术上的。</li>
+</ul>
+</li>
+</ol>
+<p>目前来看，还是坚持原来的方向，先做好 Kindle 本身的优化，再考虑可能的扩展；情怀就情怀吧。</p>
 
           
         
@@ -560,7 +570,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-10.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-24.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -582,8 +592,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-01-10.html" itemprop="url">
-                  0110 - 一次只做一件事，做好
+                <a class="post-title-link" href="/daily/2017-01-24.html" itemprop="url">
+                  0124 - iKindle: 用着很爽的 Kindle 笔记管理 App
                 </a>
               
             
@@ -599,8 +609,160 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-10T19:52:25+08:00">
-                2017-01-10
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-24T19:52:25+08:00">
+                2017-01-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><img src="https://ps.toolinbox.net/006tNc79gy1fc263fisr7j3074074aaq.jpg" alt=""></p>
+<h1 id="iKindle-是什么？"><a href="#iKindle-是什么？" class="headerlink" title="iKindle 是什么？"></a>iKindle 是什么？</h1><p>iKindle 是管理 Kindle 中标注、笔记的工具，macOS 平台。</p>
+<p>俗话说，「不动笔墨不读书」；在 Kindle 上看书时，也会积累很多笔记。如果任由这些笔记流失、或蒙灰，实在是太浪费精华了。怎么办呢？试试 iKindle 吧。</p>
+<h1 id="管理，从导入开始"><a href="#管理，从导入开始" class="headerlink" title="管理，从导入开始"></a>管理，从导入开始</h1><p>将你的 Kindle 连接到 Mac 电脑上，选择 Kindle 目录，「开始导入」即可一键导入。</p>
+<p><img src="https://ps.toolinbox.net/006tNc79gy1fc25fp18s7j30t20ihaam.jpg" alt=""></p>
+<h1 id="原生交互，未打开、已熟练"><a href="#原生交互，未打开、已熟练" class="headerlink" title="原生交互，未打开、已熟练"></a>原生交互，未打开、已熟练</h1><p>考虑了好几版交互，最后参考了系统原生应用「提醒事项」。非常契合 Kindle 笔记管理，也方便大家快速上手、避免学习新交互所浪费的时间。</p>
+<p><img src="https://ps.toolinbox.net/006tNc79gy1fc25g2bp8tj30t80ij0uy.jpg" alt=""></p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/daily/2017-01-24.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-23.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-01-23.html" itemprop="url">
+                  0123 - 帮助别人就是在帮自己
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-23T19:52:25+08:00">
+                2017-01-23
               </time>
             
 
@@ -658,10 +820,18 @@
       
         
           
-            <p>本来这两天在很开心地开发 iKindle，结果半路杀出来 iPic…</p>
-<p>这两天爆出来，iPic 在上传至默认的微博图床时，有可能失败。在几位热心的 iPic 用户帮忙之后，终于解决了这个问题。</p>
-<p>可是，有个比较纠结的事：既然已经出 iPic 新版了，要不要顺便再做点功能呢？如果做，就需要花时间，并且会更长时间地打断 iKindle 的进展。如果不做，有可能使 iPic 的迭代周期过于频繁，对于程序的稳定、及运营并不利。</p>
-<p>最后决定：尽快上架 iPic，解决用户的问题，这是第一位的。然后抽身，全力继续 iKindle 开发。目前 iPic 新版已提交审核，期望明天能顺利上架。</p>
+            <p>最近使用了开源库 <a href="https://github.com/SwiftyBeaver/AES256CBC" target="_blank" rel="external">AES256CBC</a>，还是挺方便的：封装了最常使用的 AES 加密方式，还创造式了自定义 iv，值得称赞。</p>
+<p>美中不足的是，这库还不成熟，在 macOS 和 Ubuntu 中均有闪退的情况。之前遇到闪退时，自己解决了问题；现在又遇到了闪退。</p>
+<p>问题是，当初自己临时解决问题，并没有合并到 AES256CBC 的官方代码中。主要原因是怕花时间。毕竟自己随意改改，代码要求可以不高。但 <strong>要拿出手，就要拿得出手</strong>，这就要对问题深入理解、打磨代码。而在做项目期间，通常是没这个时间的。而等项目结束、有时间了，又懒得弄了。</p>
+<p>当初的放松，导致现在的问题：自己相当于另建了一个分支，之后自己再修改，就要手动处理自己的分支和官方分支的合并情况，而这又增加了新的时间成本。</p>
+<p>所以，如果当初稍微再花点时间，将自己的修改提交到官方主分支上，能：</p>
+<ul>
+<li>帮助改进官方库，帮助其他用户</li>
+<li>逼迫自己对问题深入了解、打磨自己的代码</li>
+<li>避免维持不同分支的麻烦</li>
+<li>从这个层面提高自己的影响力</li>
+</ul>
+<p>看来，虽然花了点时间，但好处多多；恩，以后要多多向开源库提交自己的修改。</p>
 
           
         
@@ -705,7 +875,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-09.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-22.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -727,8 +897,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-01-09.html" itemprop="url">
-                  0109 - 被奇怪的对手打败
+                <a class="post-title-link" href="/daily/2017-01-22.html" itemprop="url">
+                  0122 - 对程序的敬畏之心
                 </a>
               
             
@@ -744,8 +914,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-09T19:52:25+08:00">
-                2017-01-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-22T22:22:30+08:00">
+                2017-01-22
               </time>
             
 
@@ -803,158 +973,10 @@
       
         
           
-            <p>当前这个博客，用了很长时间的 Next 主题，挺喜欢的。</p>
-<p>可，有个致命的问题：分享至微信朋友圈时，会因为 JS 被微信重排页面，导致页面很久才出来、或者有异常。</p>
-<p>在 Next 的 Github Issues 中，已经有多位用户提了这个问题。可，由于作者是台湾人，可能本身并没有这样的困扰，所以一直未把这个问题当问题，虽然这对于大陆的用户是极大的问题。</p>
-<p>由于这个问题，我甚至开始考虑换主题了。</p>
-<p>看来打败 Next 主题的，可能并不是别的主题，而是微信。</p>
-<p>同行竞争并不危险，看不见的杀手才可怕。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-01-08.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-01-08.html" itemprop="url">
-                  0108 - 又遇到兴奋的感觉
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-01-08T19:52:25+08:00">
-                2017-01-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天找到了 iKindle 的最佳设计，感觉真爽！</p>
-<p>真想早点把设计稿拿出来跟大家分享，可惜考虑到保密的因素，暂时先忍着吧。最近一段时间有的忙了，争取在年前拿出体验版、年后正式上线。</p>
-<p>另外，今天还面基了一个独立开发者，其主要代表作有『开垦世界』，很受好评。跟我的经历有些相似，却比我年轻很多，备感压力、要努力啊。以后还得经常和不同的人接触，碰到思想、杂交出新想法。</p>
-<p>还有，在和这个朋友讨论过程中，坚定了做 Toolinbox 粉丝群的想法。其实之前一直有这个想法，只是担心运营这样的群太花时间。现在来看，还是利大于弊。主要可以通过工具把一群志同道合的人聚在一起，其价值不止于方便推广 Toolinbox 系列产品，还可能孕育出奇妙的东西。比如罗辑思维，通过把读书人连接在一起，就带来了非常多的可能性。</p>
-<p>恩，要成为连接他人的节点；连接的人越多，自己的价值越大。</p>
+            <p>相信很多开发者都是 <strong>面向 Google 编程</strong>：遇到问题，搜索解决方案；继续遇到问题，如此反复。</p>
+<p>对于比较粗浅的问题，这样做确实是可以的。但对于更底层、更复杂的问题，就不是搜索能解决的了。需要的是耐心的研究，花时间研究。并且，要相信很多的问题的复杂度是超出目前自己的能力范围，或者说是时间允许的能力范围。</p>
+<p>比如，对于你目前的产品，如果在线人数、业务量翻倍、10 倍、100 倍、乃至更多倍，你目前的程序设计还能支撑吗？你知道怎么解决吗？你觉得 Google 能帮你解决吗？</p>
+<p>当然，这并不是说让大家都去研究底层，实用主义也挺好的。只是说，大家在用实用主义编程时，要对程序有敬畏之心。</p>
 
           
         
@@ -993,7 +1015,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/291/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/291/">291</a><span class="page-number current">292</span><a class="page-number" href="/page/293/">293</a><span class="space">&hellip;</span><a class="page-number" href="/page/389/">389</a><a class="extend next" rel="next" href="/page/293/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/291/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/291/">291</a><span class="page-number current">292</span><a class="page-number" href="/page/293/">293</a><span class="space">&hellip;</span><a class="page-number" href="/page/392/">392</a><a class="extend next" rel="next" href="/page/293/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1038,7 +1060,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1942</span>
+                <span class="site-state-item-count">1956</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

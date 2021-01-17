@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-19.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-04-02.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-03-19.html" itemprop="url">
-                  0319 - 集成 HotBit
+                <a class="post-title-link" href="/daily/2020-04-02.html" itemprop="url">
+                  0402 - 拼了 Office 365 家庭版
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-19T22:00:00+08:00">
-                2020-03-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-02T22:00:00+08:00">
+                2020-04-02
               </time>
             
 
@@ -366,11 +366,14 @@
       
         
           
-            <p>做了才发现，目前 HotBit 尚未完全开放 API，需要申请才能开放。</p>
-<p>不过，貌似申请门槛也很低，发个工单，简单介绍下自己就可以了。之后便会拉微信群，开通 API 权限。再之后便可以对着文档进行接入了。</p>
-<p>果然，未公开的 API 是有坑的。遇到最大的一个，是 API Key 限定 IP 白名单后，无法对 WebSocket 进行签名；取消 IP 限定，即可正常工作。还有些隐蔽和偶尔的问题，比如 WebSocket 会漏推送一些订单消息，这就带来可靠性的问题，需要额外通过 REST 请求来保证程序在各种异常情况下，也能正常工作，这无疑就增加了代码的复杂度和维护成本。</p>
-<p>从交流过程中，他们提供的截图中显示，竟然在日志里明文存储 API Key/Secret，惊着我了。这样的漏洞，只要被盗取日志文件，便会泄漏所有 API 信息。更何况，内部成员泄漏这些信息的成本，实在是太低了。</p>
-<p>不过，很可惜，不出所料，HotBit 交易量造假的痕迹也很明显；不过，交易深度还是略好于 LBank。基于此，准备再给它一些机会，再集成观察一段时间。</p>
+            <p>事情是这么个序列。</p>
+<p>在 V2EX 看了一个帖子，讨论大家如何备份照片。其中有评论说，他是 Google Photos + OneDrive + 移动硬盘组合备份。</p>
+<p>我一想，少了个 OneDrive 啊。不行，要凑上。</p>
+<p>OneDrive 空间要钱啊。于是某宝注册了个 5T 版的；可事实上，这样其实是子账户。一方面随时可能被管理员删除，另一方面微软也可能随时清除这样的账户。于是作罢。</p>
+<p>订阅 Office 365，OneDrive 可以扩容到 1TB。恩，够了。</p>
+<p>Office 365 家庭版，最多支持 6 人。于是，想到了拼车；因为穷，6 人分担自然少。</p>
+<p>更进一步，某宝正版序列号 5 折。最后算下来，41.5 元/人/年。除了 1TB OneDrive，还可以使用正版 Office 三件套。</p>
+<p>回到事情原点，目前已经备份了几千张照片，视频还在上传中…</p>
 
           
         
@@ -414,7 +417,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-18.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-04-01.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -436,8 +439,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-03-18.html" itemprop="url">
-                  0318 - 集成 LBank
+                <a class="post-title-link" href="/daily/2020-04-01.html" itemprop="url">
+                  0401 - 愚人不愚
                 </a>
               
             
@@ -453,8 +456,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-18T22:00:00+08:00">
-                2020-03-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-01T22:00:00+08:00">
+                2020-04-01
               </time>
             
 
@@ -512,12 +515,11 @@
       
         
           
-            <p>今天心血来潮，在 24 小时交易量比较靠前的交易所，我统计了一遍他们的手续费，发现竟然有两个交易所在现货市场也提供返佣。</p>
-<p><img src="https://ps.toolinbox.net/xqvig.jpg" alt=""></p>
-<p>低手续费、甚至返佣，让一些策略成为可能。粗一看，LBank 的 API 文档比较齐全友好。恩，就集成它来试试。</p>
-<p>不过，做下来发现，LBank 的交易量很假。体现在很多方面，比如市场深度不健康，不同层之间不连续，有很大的跳跃；盘口的价差很大，而在盘口内，有很多感觉莫名其妙的成交，应该是为了模拟 K 线，虚构出来的成交量。</p>
-<p>很多小的市场，应该都是类似的情况。其实，这不见得全是坏事。如果很规范、流动性很好，反而意味着机会少。这样乱的市场，却可能有大的机会；只是，风险自然也很高，因为它会胡来嘛。</p>
-<p>想了想，还是先不在这个市场折腾了，做不长久。明天研究下另一家返佣的交易所 HotBit。</p>
+            <p>今天是愚人节。</p>
+<p>可，你或你周围的人，有愚人的事发生吗？</p>
+<p>我赌，多半没有。</p>
+<p>是啊，现在还是疫情的影响之下，大家还在为生产生活发愁，哪有心情去愚人，更不想被愚。</p>
+<p>底层经济基础不牢，<br>上层精神文化不稳。</p>
 
           
         
@@ -561,7 +563,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-17.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-31.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -583,8 +585,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-03-17.html" itemprop="url">
-                  0317 - 抄
+                <a class="post-title-link" href="/daily/2020-03-31.html" itemprop="url">
+                  0331 - 节奏慢
                 </a>
               
             
@@ -600,8 +602,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-17T22:00:00+08:00">
-                2020-03-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-31T22:00:00+08:00">
+                2020-03-31
               </time>
             
 
@@ -659,12 +661,9 @@
       
         
           
-            <p>首先声明，以下是我个人观点，不构成任何投资建议。</p>
-<p>最近全球股市大跌，抄还是不抄？</p>
-<p>我是个入股市不到一年的愣头青，没什么成系统的理论，更没什么经验或教训，都是凭感觉在玩。之前几个月最高时浮盈 20%，不过最近跌成了 -2%。最高时几乎满仓，好在前段时间逃了半仓。现在持仓的，大亏的是标普，不过暂时没打算割。</p>
-<p>现在有半仓现金，怎么办呢？我是准备抄的。</p>
-<p>不过，抄不是梭。我会分多批进入，不做空，也不加杠杆。标的方面，可能会侧重苹果、特斯拉这种大牌或明星股。暂不打算抄指数，因为指数其实是要靠大公司拉起来的。</p>
-<p>最后，近期最多也就加到八成仓，然后观望一段时间再说。</p>
+            <p>感觉最近做事的节奏很慢。</p>
+<p>一方面是疫情的影响，一些生活也在慢慢恢复。另一方面也是农村的节奏本来就慢。一件事，今天不做、拖到明天，是很正常的，并没什么影响。在这样的环境呆久了，自己做事也会染上类似的气息。</p>
+<p>人这种动物，太容易懈怠了。自己督促自己，就像自己把自己提起来一样难。还是在一个好的环境里，让环境来刺激自己，更事半功倍。</p>
 
           
         
@@ -708,7 +707,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-16.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-30.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -730,8 +729,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-03-16.html" itemprop="url">
-                  0316 - 别漏空子
+                <a class="post-title-link" href="/daily/2020-03-30.html" itemprop="url">
+                  0330 - 学生好辛苦
                 </a>
               
             
@@ -747,8 +746,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-16T22:00:00+08:00">
-                2020-03-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-30T22:00:00+08:00">
+                2020-03-30
               </time>
             
 
@@ -806,10 +805,12 @@
       
         
           
-            <p>被人钻空子、占便宜，人家不仅不会心存感激，反而会鄙视你。</p>
-<p>比如羊毛党，不仅不会感激有漏洞的平台养活了他们，反而会一边赚钱，一边骂这些平台的风控傻缺。</p>
-<p>人性就是这样。</p>
-<p>对个人而言，经常给人小恩小惠，是件很有风险的事。你觉得是在拉近距离，有可能会适得其反。不如堂堂正正、直直接接，该让对方赚的，要让其赚够；该是对方的责任，出问题一定要追究。</p>
+            <p>疫情下，学校不开学，学生只有在学上网课。以我的了解，学生和家长都不适应。</p>
+<p>学生这边，本来学习就是件很枯燥的事，如果和同龄人一起学，大家都苦，也就不觉得苦了。可现在呆在家里，就只有自己苦，爸妈可以很「自在」地想干什么干什么，多爽。</p>
+<p>再加上，很多孩子自制力本就差，家里效果更差。课程学不会、作业做不完，家长和老师两边夹击，越来越难受。</p>
+<p>而且，整体学习的时间也拉长。当然，肯定很多小孩在玩手机，而不是上课或写作业。可事实就是，原来下午五六点钟，可以看到孩子里跑来跑去。现在可好，相同的时间，还没下课，或者还在写作业。基本在外面，一天到晚都看不到孩子。</p>
+<p>家长这边，其实也好不到哪。本来塞到学校，教好教坏不说，至少眼不见心不烦。现在可好，自己被迫要对孩子的学习负责。其实，很多家长也只是大小孩，也想轻松自在刷抖音，并不好真情投入孩子的学习。更何况，初中高中的课，大部分家长已经没有能力辅导，这就有点尴尬和恼羞成怒的感觉。我相信，家长迫不及待想把孩子送回学校。</p>
+<p>现在的学生，感觉和养鸡场的鸡差不多。只不过，一个填喂的是饲料，一个是「知识」。</p>
 
           
         
@@ -853,7 +854,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-15.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-29.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -875,8 +876,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-03-15.html" itemprop="url">
-                  0315 - 什么是钱
+                <a class="post-title-link" href="/daily/2020-03-29.html" itemprop="url">
+                  0329 - 连接的重要性
                 </a>
               
             
@@ -892,8 +893,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-15T22:00:00+08:00">
-                2020-03-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-29T22:00:00+08:00">
+                2020-03-29
               </time>
             
 
@@ -951,15 +952,9 @@
       
         
           
-            <p>如果，钱买不到口罩；<br>那么，口罩就是钱。</p>
-<p>理解钱，可以有很多维度。比如上面说的，可以理解为，钱是一种硬通货。</p>
-<p>我们把关于钱的讨论，缩小在法币。</p>
-<p>其实，更重要的是理解什么在背后支撑着法币。可以的国家暴力，是其他人的信任及预期，等等。而这些东西，又都建立在实力之上。实力，可以体现为很多方面，包括国家制度、社会稳定性、创造力、制造力等等。</p>
-<p>实力就是钱。</p>
-<p>比如，二战后美国的迅速崛起，是因为从二战期间开始，美国就成了全国唯一（大）的供应国。什么意思，当别的国家都在忙打仗、哪有心思生产的时候，美国的机器拼命运转，说不定交战双方都要来美国买东西；既赚到了钱，又发展了技术。此消彼长，美国怎能不崛起。</p>
-<p>于是，二战后，美元开始走上舞台、走向霸权。是因为美元比英磅长得好看吗？自然是因为美国胳膊更粗。</p>
-<p>现实中，也是一样的。马云说的话，影响力很大；是因为马云长得帅吗、是因为他说的特别有道理吗。我想，你自然知道不是。</p>
-<p>换个方式，这些东西，又可以表述为丛林法则。绝对实力，碾压一切。</p>
+            <p>连接的重要性，甚至会超过东西本身。</p>
+<p>比如，一件大衣，少了一粒扣子，很影响穿着体验。要配一模一样的扣子，并不容易。而对于扣子的生产者来说，一粒扣子的成本，甚至可以忽略不计。一边是极难配到扣子，一边是便宜到免费的扣子卖不出去，中间缺少的，便是连接。</p>
+<p>在不改变已有物品的前提下，仅通过排列组合，便可提高效率。连接，便有这种神奇的效果。</p>
 
           
         
@@ -998,7 +993,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/58/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/58/">58</a><span class="page-number current">59</span><a class="page-number" href="/page/60/">60</a><span class="space">&hellip;</span><a class="page-number" href="/page/389/">389</a><a class="extend next" rel="next" href="/page/60/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/58/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/58/">58</a><span class="page-number current">59</span><a class="page-number" href="/page/60/">60</a><span class="space">&hellip;</span><a class="page-number" href="/page/392/">392</a><a class="extend next" rel="next" href="/page/60/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1043,7 +1038,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1942</span>
+                <span class="site-state-item-count">1956</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

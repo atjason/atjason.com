@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-09.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-22.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-07-09.html" itemprop="url">
-                  0709 - 沉浸在自己的世界里，是好是坏？
+                <a class="post-title-link" href="/daily/2017-07-22.html" itemprop="url">
+                  0722 - 临渊羡鱼，不若退而结网
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-09T22:00:00+08:00">
-                2017-07-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-22T22:00:00+08:00">
+                2017-07-22
               </time>
             
 
@@ -366,11 +366,12 @@
       
         
           
-            <p>做事，有自己的想法是必须的。但听从别人的规劝，是否也是？</p>
-<p>正反都有例子。</p>
-<p>比如，像马斯克那样顶着无数压力和质疑，推动特斯拉、Space X 等事先看来荒唐，事后看来英明的事，无疑证明了要有自己的坚持。</p>
-<p>比如，即便现在，我也希望有高人指点，告诉我未来的路如何走更好。这，不也是别人的规劝吗？</p>
-<p>沉浸在自己的世界里，无视别人或善意或恶意的规劝，很难说是好是坏。</p>
+            <p>今天收到一则关于一位独立开发者朋友的好消息，很为其高兴（他暂时要求保密，这里就不提了）。</p>
+<p>他做的产品很棒，当得起这样的好消息。我也希望能有类似的好消息，不过，还是要自己做出成绩才行。于是，高兴、羡慕完后，继续低头代码。</p>
+<hr>
+<p>今天本来学 iOS 学得开心，刚看完本地化和动画，就收到一个关于 Klib 的 Bug；其实根本上并不算 Bug，而是 Amazon 网页版变化后，Klib 需要相应地调整。麻烦就在于，Klib 是个桌面端应用、不是网络应用，无法热更新，需要提交新版到 Mac App Store，还要经历用户升级，才能全面解决这个问题。并且，之后再遇到类似问题，还要再来一遍。</p>
+<p>看来，这部分代码的热更新很必要。目前，虽没有彻底地实现热更新，但还是通过从网络获取最新配置信息的方式，实现了一部分的热更新，能适应一定程度的变化。先这样维持着，看后续 Amazon 变化的频率再说吧。</p>
+<p>另外，就是要建立实时监测机制，不能总是等到用户报 Bug 才发现问题，那样体验就差了。</p>
 
           
         
@@ -414,7 +415,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-08.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-21.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -436,8 +437,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-07-08.html" itemprop="url">
-                  0708 - 今天休息，顺便废了个点子
+                <a class="post-title-link" href="/daily/2017-07-21.html" itemprop="url">
+                  0721 - Mark: 开战 iOS
                 </a>
               
             
@@ -453,8 +454,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-08T22:00:00+08:00">
-                2017-07-08
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-21T22:00:00+08:00">
+                2017-07-21
               </time>
             
 
@@ -512,10 +513,12 @@
       
         
           
-            <p>今天没写代码。</p>
-<p>下午，和用户及朋友讨论了一个点子：做外贸的图床服务。痛点的出发点是：做外贸的需要在国外的网站上放图片，其中 Amazon S3 是个不错的空间。可是，S3 的权限系统很复杂，并且，Windows 下并没有合适的图床工具（是的，iPic 目前仅支持 macOS 版，不支持 Windows），于是就是个麻烦。</p>
-<p>我设想了一种服务，可以对用户屏蔽这些复杂性，提供简单的使用方式，收费方式也简单，甚至想了大概的技术方案。可是，一个认识做外贸的朋友说，现在大多使用电商自带的图床，基于空间的图床，已经少有人用了。哎，这个点子就放弃吧。</p>
-<p>晚上看了 3 集《硅谷》这部美剧，有些桥段有意思，毕竟是圈内的。之前空闲时继续看吧，当是奖励了。</p>
+            <p><strong>今天，正式开始学 iOS 开发。</strong></p>
+<p>选什么书呢？这个很关键。</p>
+<p>之前学 macOS 开发时，研读了《<a href="https://www.bignerdranch.com/books/cocoa-programming/" target="_blank" rel="external">Cocoa Programming for OS X (5th Edition)</a>》这本书。这次，毫无悬念地选择了他们家的《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》。果然，还是那个味道。</p>
+<p>而且，有了 macOS 和 Swift 开发经验后，iOS 开发学起来确实快。今天，一口气看完前 6 章。按照这个节奏，5 天内就可过完全书。</p>
+<p><strong>即便是学习，也要动真格的</strong>；也即，要做出能解决实际问题的产品。准备拿自己已有的产品开刀，也即开发出 macOS 版对应的 iOS 版本。大致想了，准备先做 iPaste for iOS. 虽说此类产品已经有不少了，比如 Pin. 不过，应该还是有可做的。比如，我现在在 macOS 生成图片后要发朋友圈，就很麻烦。有了 iPaste for iOS，可以做到选择图片、文本后，一键发朋友圈。</p>
+<p>学习的感觉还是不错的，感觉很充实。尤其多了一项技能后，能做的事更多了，感觉更有可能改变世界了 😂</p>
 
           
         
@@ -559,7 +562,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-07.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-20.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -581,8 +584,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-07-07.html" itemprop="url">
-                  0707 - iTips v0.0.1
+                <a class="post-title-link" href="/daily/2017-07-20.html" itemprop="url">
+                  0720 - 做产品，三步走
                 </a>
               
             
@@ -598,8 +601,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-07T22:00:00+08:00">
-                2017-07-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-20T22:00:00+08:00">
+                2017-07-20
               </time>
             
 
@@ -657,307 +660,323 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/87g0g.png" alt=""></p>
-<p>连着编码 3 天，今天终于拿出了 iTip v0.0.1 版本。</p>
-<p>主要是想验证下这个想法，以及目前的交互是否合适。接下来：</p>
+            <p>好像，事情也没那么复杂：</p>
+<ol>
+<li><strong>发现需求</strong></li>
+<li><strong>做出产品以满足需求</strong></li>
+<li><strong>告知需要的人</strong></li>
+</ol>
+<p>发现需求，首先要丰富自己的生活，提高自己的品位。这样，才能发现生活中不如意的地方，也就是要改进的点。多和不同的人接触，洞察别人的需求，也是很重要的。</p>
+<p>有了需求，就得有能力把产品做出来。落实到具体，主要是产品设计和开发。</p>
+<p>有了好产品，还得让别人知道，才能被用起来，这就是运营推广了。</p>
+<p>当然，以上不一定全部是自己做。但自己至少要对全局有所了解，这样，才能知道在什么环节，找什么样的人，做到什么程度。</p>
+<p>目前，比较痛苦地卡在「发现需求」阶段…</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-19.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-07-19.html" itemprop="url">
+                  0719 - 暂时放弃适配 macOS High Sierra
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-19T22:00:00+08:00">
+                2017-07-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天在为剪贴板神器 iPaste 适配 macOS High Sierra 时，遇到一个很诡异的问题：<strong>在尝试升级时，无法弹出用户授权的对话框</strong>。</p>
+<p>相同的代码，在 10.12 及以前都是好的，在 10.13 下，在下面的回调中，只能收到 <code>SKPaymentTransactionState.purchasing</code> 状态，没有完成或其他状态。界面上，也没有弹出让用户输入账户以授权的对话框（感觉问题就出在这里）</p>
+<figure class="highlight swift"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">func</span> <span class="title">paymentQueue</span><span class="params">(<span class="number">_</span> queue: SKPaymentQueue, updatedTransactions transactions: [SKPaymentTransaction])</span></span></div></pre></td></tr></table></figure>
+<p>等的时间长了，还遇到 2 次 storeuid.app 闪退的情况：</p>
+<p><img src="https://ps.toolinbox.net/iolr9.jpg" alt=""></p>
+<p>严重怀疑是 macOS 10.13 的 Bug，目前打算暂时搁置了，等 macOS 10.13 快发布了再适配，说不定自己就好了。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-18.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-07-18.html" itemprop="url">
+                  0718 - 为何要写作
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-18T22:00:00+08:00">
+                2017-07-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
+<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
+<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
 <ul>
-<li>一方面补充关键环节，如快速添加</li>
-<li>另一方面，尽量多地用真实数据去感受，看是否能解决问题，该如何调整</li>
+<li><strong>输出倒逼输入</strong><ul>
+<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
 </ul>
-<p>累了，今天早休息。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-06.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-07-06.html" itemprop="url">
-                  0706 - 个人品牌建立
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-06T22:00:00+08:00">
-                2017-07-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>昨天，被有才拉去录「<a href="https://banlan.show/bitvoice/152" target="_blank" rel="external">比特新声</a>」，聊得挺开心，主要是价值观比较契合，所以有的聊。</p>
-<p>期间必然地聊了过去，比如当初为什么走上独立开发这条路，等等。这也让我不自觉地回想这条路。想想，从名不见经传的开发者，到目前被人认同，真是个漫长的过程。</p>
-<p>我觉得主要的，还是自己肯努力、花时间。有了这一点，什么开发上的困难，对产品的把握，运营，等等，都是可以学的。</p>
-<p>未来怎样，我并不知道。我不是一个擅长做决定的人，但是一个能够坚守的人，相信总会守得云开见月明。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-07-05.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-07-05.html" itemprop="url">
-                  0705 - 说说 NSPopover 的一个坑
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-05T22:00:00+08:00">
-                2017-07-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天开发 iTips，遇到一个很诡异的问题：<strong>NSOutlineView 中的 NSTableCellView 中的 NSTextField，始终有一个背景色，无论怎么设置都无法去掉。</strong>如下图中左侧部分所示：</p>
-<p><img src="https://ps.toolinbox.net/anc8i.png" alt=""></p>
-<p>关键的，<strong>相同的代码在另一个项目中，则没有问题，奇了怪了。</strong></p>
-<p>Google 了快一个小时，最后终于在 <a href="https://github.com/rheinfabrik/RFOverlayScrollView/issues/6" target="_blank" rel="external">GitHub 的一个项目的一个 Issue 的一个评论里</a>，有人说了一点，才 <strong>终于知道为什么</strong>：NSPopover 默认使用 <code>NSAppearanceNameVibrantLight</code> 这种样式，因此带来问题：NSTextField 使用透明背景色，进而就会取 NSPopover 中的背景色，就是图中的问题。</p>
-<p><strong>解决方案</strong>：只要将 NSPopover 的主题改为 <code>NSAppearanceNameAqua</code> 即可：</p>
-<p><code>self.view.appearance = NSAppearance(named: NSAppearanceNameAqua)</code></p>
-<p>知道原因后，改是容易的。关键的，很难知道这个原因，这是你翻遍 Apple 技术文档第一页，都找不到答案的问题。好在解决了，不然真的是闹心。</p>
+</li>
+<li><strong>个人品牌建设</strong><ul>
+<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
+</ul>
+</li>
+<li><strong>跨界寻找可能性</strong><ul>
+<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
+<li><strong>多一个维度，多一种可能性</strong></li>
+</ul>
+</li>
+</ul>
 
           
         
@@ -996,7 +1015,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/253/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/253/">253</a><span class="page-number current">254</span><a class="page-number" href="/page/255/">255</a><span class="space">&hellip;</span><a class="page-number" href="/page/389/">389</a><a class="extend next" rel="next" href="/page/255/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/253/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/253/">253</a><span class="page-number current">254</span><a class="page-number" href="/page/255/">255</a><span class="space">&hellip;</span><a class="page-number" href="/page/392/">392</a><a class="extend next" rel="next" href="/page/255/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1041,7 +1060,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1942</span>
+                <span class="site-state-item-count">1956</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
