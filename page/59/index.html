@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-04-02.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-04-14.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-04-02.html" itemprop="url">
-                  0402 - 拼了 Office 365 家庭版
+                <a class="post-title-link" href="/daily/2020-04-14.html" itemprop="url">
+                  0414 - 绘制图表完成
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-02T22:00:00+08:00">
-                2020-04-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-14T22:00:00+08:00">
+                2020-04-14
               </time>
             
 
@@ -366,14 +366,11 @@
       
         
           
-            <p>事情是这么个序列。</p>
-<p>在 V2EX 看了一个帖子，讨论大家如何备份照片。其中有评论说，他是 Google Photos + OneDrive + 移动硬盘组合备份。</p>
-<p>我一想，少了个 OneDrive 啊。不行，要凑上。</p>
-<p>OneDrive 空间要钱啊。于是某宝注册了个 5T 版的；可事实上，这样其实是子账户。一方面随时可能被管理员删除，另一方面微软也可能随时清除这样的账户。于是作罢。</p>
-<p>订阅 Office 365，OneDrive 可以扩容到 1TB。恩，够了。</p>
-<p>Office 365 家庭版，最多支持 6 人。于是，想到了拼车；因为穷，6 人分担自然少。</p>
-<p>更进一步，某宝正版序列号 5 折。最后算下来，41.5 元/人/年。除了 1TB OneDrive，还可以使用正版 Office 三件套。</p>
-<p>回到事情原点，目前已经备份了几千张照片，视频还在上传中…</p>
+            <p>根据计划，今天完成了除数据源外的图表绘制，大概长这个样子：</p>
+<p><img src="https://ps.toolinbox.net/sxwql.jpg" alt=""></p>
+<p>具体的工作，主要是研究并实现 echarts custom series；echarts 是个好东西，功能强大且灵活，关键文档及示例还很齐全，基本只看官网、不搜索，就能得到想要的结果。</p>
+<p>庆幸有 echarts 这样的工具。我之前还打算直接在 cavans 上绘图；要是真这样做，不知道要多久才能做到现在的结果。</p>
+<p>接下来，就是要接入真正的数据了。大体思路已经想通了，明天实现。</p>
 
           
         
@@ -417,7 +414,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-04-01.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-04-13.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -439,8 +436,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-04-01.html" itemprop="url">
-                  0401 - 愚人不愚
+                <a class="post-title-link" href="/daily/2020-04-13.html" itemprop="url">
+                  0413 - 绘制图表
                 </a>
               
             
@@ -456,8 +453,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-01T22:00:00+08:00">
-                2020-04-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-13T22:00:00+08:00">
+                2020-04-13
               </time>
             
 
@@ -515,11 +512,11 @@
       
         
           
-            <p>今天是愚人节。</p>
-<p>可，你或你周围的人，有愚人的事发生吗？</p>
-<p>我赌，多半没有。</p>
-<p>是啊，现在还是疫情的影响之下，大家还在为生产生活发愁，哪有心情去愚人，更不想被愚。</p>
-<p>底层经济基础不牢，<br>上层精神文化不稳。</p>
+            <p>看完了订单流交易那本书，接下来自然是要实验下。可，软件卖得太贵了，$1250…</p>
+<p>想到我是个程序员，那就程序实现呗。其实这样不好，无奈穷…</p>
+<p>研究了一番，发现 echarts 可以。一方面，本身支持 candlestick 类型的图；另一方面，可以在图的基础上增加 graphic，也即文本、矩形框之类的。在得到 candlestick 所产生的图元素位置的基础上，还是可以达到想要的结果，只是繁碎了些。</p>
+<p>在实际实现的过程中，发现 echarts 支持自定义 series，这下可以更优雅地实现，而不是在 candlestick 图上加各种补丁。</p>
+<p>恩，明天好好研究这个，搞定除数据源以外的图表部分。</p>
 
           
         
@@ -563,7 +560,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-31.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-04-12.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -585,8 +582,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-03-31.html" itemprop="url">
-                  0331 - 节奏慢
+                <a class="post-title-link" href="/daily/2020-04-12.html" itemprop="url">
+                  0412 - 理财与赌大小
                 </a>
               
             
@@ -602,8 +599,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-31T22:00:00+08:00">
-                2020-03-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-12T22:00:00+08:00">
+                2020-04-12
               </time>
             
 
@@ -661,9 +658,10 @@
       
         
           
-            <p>感觉最近做事的节奏很慢。</p>
-<p>一方面是疫情的影响，一些生活也在慢慢恢复。另一方面也是农村的节奏本来就慢。一件事，今天不做、拖到明天，是很正常的，并没什么影响。在这样的环境呆久了，自己做事也会染上类似的气息。</p>
-<p>人这种动物，太容易懈怠了。自己督促自己，就像自己把自己提起来一样难。还是在一个好的环境里，让环境来刺激自己，更事半功倍。</p>
+            <p>这两天接触到了币圈的一个 <em>理财</em> 产品。比如，投入资产 A，当币价高于某个值时，你会得到带有一定收益的 A 资产；反之，你会得到一定的币。</p>
+<p>这不就是赌大小嘛。</p>
+<p>如果我知道币价会涨，直接做多不就好了；反之就是做空，犯得着这么麻烦嘛。</p>
+<p>有趣的点在于，这么一个简单的核心，被包装上理财的外衣，再加上华丽的年化收益数字，甚是诱人。是什么样的人编织出这一切，又是什么样的人发现并陷入其中，这些人最后的收益或亏损是什么，等等。这些事情，想想还是有意思的。</p>
 
           
         
@@ -707,7 +705,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-30.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-04-11.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -729,8 +727,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-03-30.html" itemprop="url">
-                  0330 - 学生好辛苦
+                <a class="post-title-link" href="/daily/2020-04-11.html" itemprop="url">
+                  0411 - 订单流
                 </a>
               
             
@@ -746,8 +744,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-30T22:00:00+08:00">
-                2020-03-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-11T22:00:00+08:00">
+                2020-04-11
               </time>
             
 
@@ -805,12 +803,12 @@
       
         
           
-            <p>疫情下，学校不开学，学生只有在学上网课。以我的了解，学生和家长都不适应。</p>
-<p>学生这边，本来学习就是件很枯燥的事，如果和同龄人一起学，大家都苦，也就不觉得苦了。可现在呆在家里，就只有自己苦，爸妈可以很「自在」地想干什么干什么，多爽。</p>
-<p>再加上，很多孩子自制力本就差，家里效果更差。课程学不会、作业做不完，家长和老师两边夹击，越来越难受。</p>
-<p>而且，整体学习的时间也拉长。当然，肯定很多小孩在玩手机，而不是上课或写作业。可事实就是，原来下午五六点钟，可以看到孩子里跑来跑去。现在可好，相同的时间，还没下课，或者还在写作业。基本在外面，一天到晚都看不到孩子。</p>
-<p>家长这边，其实也好不到哪。本来塞到学校，教好教坏不说，至少眼不见心不烦。现在可好，自己被迫要对孩子的学习负责。其实，很多家长也只是大小孩，也想轻松自在刷抖音，并不好真情投入孩子的学习。更何况，初中高中的课，大部分家长已经没有能力辅导，这就有点尴尬和恼羞成怒的感觉。我相信，家长迫不及待想把孩子送回学校。</p>
-<p>现在的学生，感觉和养鸡场的鸡差不多。只不过，一个填喂的是饲料，一个是「知识」。</p>
+            <p>这两天在看<a href="http://www.orderflows.com/book/TradingOrderFlow768.pdf" target="_blank" rel="external">《Trading Order Flow》</a>这本书，算是二刷了。</p>
+<p>其中，印象最深的一点，是 <em>stacked imbalances</em>:</p>
+<blockquote>
+<p>The beauty of stacked imbalances is that they make great entries for low risk trades. Quite often price will retrace back into a stack imbalance zone before continuing in the direction of the stacked imbalance. The stop placement is very easy, it is just outside of the stacked imbalance zone, literally a tick or two outside the stacked imbalance.</p>
+</blockquote>
+<p>恩，可操作性很强，等书看完了，实操下。</p>
 
           
         
@@ -854,7 +852,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-29.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-04-10.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -876,8 +874,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-03-29.html" itemprop="url">
-                  0329 - 连接的重要性
+                <a class="post-title-link" href="/daily/2020-04-10.html" itemprop="url">
+                  0410 - 时间消化情感
                 </a>
               
             
@@ -893,8 +891,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-29T22:00:00+08:00">
-                2020-03-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-10T22:00:00+08:00">
+                2020-04-10
               </time>
             
 
@@ -952,9 +950,8 @@
       
         
           
-            <p>连接的重要性，甚至会超过东西本身。</p>
-<p>比如，一件大衣，少了一粒扣子，很影响穿着体验。要配一模一样的扣子，并不容易。而对于扣子的生产者来说，一粒扣子的成本，甚至可以忽略不计。一边是极难配到扣子，一边是便宜到免费的扣子卖不出去，中间缺少的，便是连接。</p>
-<p>在不改变已有物品的前提下，仅通过排列组合，便可提高效率。连接，便有这种神奇的效果。</p>
+            <p>不管多高兴或忧伤，过一段时间，感觉也就淡了。</p>
+<p>人的情感会自我消化、会自愈，避免长期受某一情感的刺激，保持在正常范围内。</p>
 
           
         
@@ -993,7 +990,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/58/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/58/">58</a><span class="page-number current">59</span><a class="page-number" href="/page/60/">60</a><span class="space">&hellip;</span><a class="page-number" href="/page/392/">392</a><a class="extend next" rel="next" href="/page/60/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/58/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/58/">58</a><span class="page-number current">59</span><a class="page-number" href="/page/60/">60</a><span class="space">&hellip;</span><a class="page-number" href="/page/394/">394</a><a class="extend next" rel="next" href="/page/60/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1038,7 +1035,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">1956</span>
+                <span class="site-state-item-count">1968</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
