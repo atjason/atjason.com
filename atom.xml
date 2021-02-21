@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2021-02-14T09:11:35.469Z</updated>
+  <updated>2021-02-21T12:43:10.000Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,214 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0221 - Klib 新年新版：优雅地导入「微信读书」中的笔记</title>
+    <link href="https://atjason.com/daily/2021-02-21.html"/>
+    <id>https://atjason.com/daily/2021-02-21.html</id>
+    <published>2021-02-21T14:00:00.000Z</published>
+    <updated>2021-02-21T12:43:10.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>二话不说先上图：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnt4thy3vsg30eu0dywui.gif" alt=""></p>
+<p>从图中可以看出，<strong>在 Klib 中导入「微信读书」的标注，简单到极致</strong>：扫码登录微信读书即可。和常见的在微信读书中复制笔记、然后在应用中粘贴的方法相比，明显高效很多，也非常优雅。</p>
+<p>很值得提及的一点：<strong>新标注、秒同步</strong>。不妨这样试试：在微信读书中添加新的标注后，以迅雷不及掩耳之势，在 Klib 中导入：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEly1gnt693foy6g30eu0dykci.gif" alt=""></p>
+<p>神奇的一幕发生了：<strong>刚刚添加的标注，立刻出现在 Klib 中</strong>。这感觉，真的很爽、很美妙。</p>
+<h2 id="Klib-是什么？"><a href="#Klib-是什么？" class="headerlink" title="Klib 是什么？"></a>Klib 是什么？</h2><p>上面的介绍，可能略显突兀，需要介绍一下背景。</p>
+<p><strong>Klib 是</strong> 我开发的 <strong>读书笔记管理工具</strong>，运行在 macOS 平台，<strong>目前已支持 Kindle、Apple Books、微信读书、多看等多个阅读平台。可以将标注导出至印象笔记，或者复制为 Markdown 格式</strong>，进而输出到你自己使用的文档管理应用中。</p>
+<p>更多介绍，请参考：<a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib 使用教程</a> (<a href="https://toolinbox.net/Klib/" target="_blank" rel="external">https://toolinbox.net/Klib/</a>)</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;二话不说先上图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/008eGmZEly1gnt4thy3vsg30eu0dywui.gif&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;从图中可以看出，&lt;strong&gt;在 Klib 中导入「微
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0220 - 推广比写代码还累</title>
+    <link href="https://atjason.com/daily/2021-02-20.html"/>
+    <id>https://atjason.com/daily/2021-02-20.html</id>
+    <published>2021-02-20T14:00:00.000Z</published>
+    <updated>2021-02-20T14:22:34.052Z</updated>
+    
+    <content type="html"><![CDATA[<p>写代码实现功能，基本是封闭问题。就是说，自己知道目标是什么、达到目标前有哪些问题或困难，然后一一解决便是。</p>
+<p>而运营推广，是开放问题。目标不确定；达到可能的目标，又有无数种途径。对于开放性问题，以及流量运营，好像我不太擅长。需要做的选择取舍太多，多渠道追踪起来又很花时间。</p>
+<p>并且，准备运营的素材，包括文案、图片、视频或动图等，也是非常花时间、花精力的。比如，如果图片中需要出现产品的界面，对于内容型产品，就要事先准备大量优秀的内容，以填充应用界面。最后，看起来是一张简单的图，背后却有大量的工作。如果是视频，要求则又高一个量级。</p>
+<p>之前，我一直想，要是有人能帮我把运营推广给做起来，我专注于产品本身多好啊。一方面，这样的合作伙伴并不好找。另一方面，运营的过程，也是和用户深入交流的过程。这样关键的环节，也不能完全假他人之手，还是要自己花时间参与的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;写代码实现功能，基本是封闭问题。就是说，自己知道目标是什么、达到目标前有哪些问题或困难，然后一一解决便是。&lt;/p&gt;
+&lt;p&gt;而运营推广，是开放问题。目标不确定；达到可能的目标，又有无数种途径。对于开放性问题，以及流量运营，好像我不太擅长。需要做的选择取舍太多，多渠道追踪起来又
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0219 - 有点过于自信了</title>
+    <link href="https://atjason.com/daily/2021-02-19.html"/>
+    <id>https://atjason.com/daily/2021-02-19.html</id>
+    <published>2021-02-19T14:00:00.000Z</published>
+    <updated>2021-02-20T14:13:45.382Z</updated>
+    
+    <content type="html"><![CDATA[<p>花了两三天，实现了从微信读书中导入标注。使用自己的账户测试了一遍，感觉差不多，就发布上线了。</p>
+<p>现实是，一个微信读书的重度用户，有几百本带标注的书。数据量一天，就暴露出程序的问题。比如，微信读书接口对并发请求的限制。</p>
+<p>庆幸的是，虽然功能已经上线，但还没进行大规模宣传，影响还不大，来得及改进。发布后，下周初再宣传吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;花了两三天，实现了从微信读书中导入标注。使用自己的账户测试了一遍，感觉差不多，就发布上线了。&lt;/p&gt;
+&lt;p&gt;现实是，一个微信读书的重度用户，有几百本带标注的书。数据量一天，就暴露出程序的问题。比如，微信读书接口对并发请求的限制。&lt;/p&gt;
+&lt;p&gt;庆幸的是，虽然功能已经上线，但
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0218 - Klib 导入微信读书笔记</title>
+    <link href="https://atjason.com/daily/2021-02-18.html"/>
+    <id>https://atjason.com/daily/2021-02-18.html</id>
+    <published>2021-02-18T14:00:00.000Z</published>
+    <updated>2021-02-18T13:21:48.347Z</updated>
+    
+    <content type="html"><![CDATA[<p>事情的起因是这样的，突然发现 Kindle for iOS 等客户端，之前是可以将标注通过 Email 以 html 附件的形式导出，现在却不行了。哎，Kindle 变得更加封闭了。</p>
+<p>Kindle 如此傲娇，不想伺候了。换什么阅读工具呢？自然是已经买了会员的微信读书。</p>
+<p>这又带来另一个问题：微信读书同样比较封闭，并没有接口可以导出标注；只能自己一本本书复杂纯文本的标注，然后想办法格式化再导入。关键，每次更新，都要这么手动操作一把，实在太烦了。</p>
+<p>其实，技术上还是有条路可以绕的。微信读书肯定是有接口的，只是没有开放；核心的，是没有开放授权机制。怎么办呢？绕过去。微信读书网页版登录后，从浏览器中提取 Cookie；然后，通过 Cookie 完成授权，并调用接口以获取读书笔记。</p>
+<p>有开源项目已经在这么干了。有了前人的工作，分析接口的工作就少了很多。到这时，技术可行性都已经通过了，只剩下堆代码实现功能了。</p>
+<p>业务上，还有些繁琐的细节。比如，微信读书不只是商城里的书，还支持自己上传的 epub/txt 等格式的书、以及公众号的文章。不同类型的数据源，所产生的数据结构是不同的，需要分别适配，还要集成到统一的数据库中，费了一点心思。</p>
+<p>堆了一天代码，主体功能已经跑通了。接下来，还需要完善业务、代码、交互上的细节。功能完成后，还要考虑一定规模内测以发现问题，以及发布、推广的事。哎，这么个功能，做出来还挺麻烦的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;事情的起因是这样的，突然发现 Kindle for iOS 等客户端，之前是可以将标注通过 Email 以 html 附件的形式导出，现在却不行了。哎，Kindle 变得更加封闭了。&lt;/p&gt;
+&lt;p&gt;Kindle 如此傲娇，不想伺候了。换什么阅读工具呢？自然是已经买了会员的微
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0217 - 折腾了 Paddle</title>
+    <link href="https://atjason.com/daily/2021-02-17.html"/>
+    <id>https://atjason.com/daily/2021-02-17.html</id>
+    <published>2021-02-17T14:00:00.000Z</published>
+    <updated>2021-02-17T16:02:06.674Z</updated>
+    
+    <content type="html"><![CDATA[<p>事情是这样的，国外一个媒体联系到我，想要推广 Klib 的时候有点返佣。</p>
+<p>这个，虽然目前 Klib 支持序列号，但还不支持 Affiliate 和 Coupon。本来想算了，放弃这个机会。后来想想，要么试下吧。</p>
+<p>功能上，主要是这几部分：</p>
+<ul>
+<li>国际支付，包括接受信用卡、PayPal 等方式付款，最后提现到银行卡。</li>
+<li>用户付款后，自动发送包括序列号的邮件。</li>
+<li>Affiliate 联盟机制，以便统计推广者带来多少付费。</li>
+<li>Coupon 优惠码机制，让推广者多一点吸引用户付费的动力。</li>
+</ul>
+<p>比较了 Stripe、Paddle、Gumroad 等方式，包括功能支持、费率等因素，最后选择了 Paddle。其实是用了排除法：Stripe 不支持国内用户注册，Gumroad 有过随意封号的黑历史，直接不考虑了。</p>
+<p>花了几个小时集成 Paddle，其实还是挺简单的。唯一的麻烦，是在创建 Affiliate 时，一定要有个自己网站的落地页。其实，我不太理解为什么一定要这么做。在我看来，直接在付费链接上加小尾巴，应该也是能实现的。不管怎样，我实现的落地页，是这样的：<a href="http://klib.me/pro/" target="_blank" rel="external">http://klib.me/pro/</a></p>
+<p>序列号方面，只要上传一个文件，每行一个序列号即可。用户购买后，Paddle 会自动依次提取序列号并发送。需要提醒一点：Paddle 并不支持删除已经上传的序列号；所以，不要上传无效的序列号。如果已经上传了（比如像我），可以创建一个完全免费的 Coupon，然后用这个 Coupon 去消耗掉无效的序列号。</p>
+<p>目前，由于还没有真实的付费，尚不清楚考虑到税之后实际收到钱的比例，以及提现到 PayPal 会不会再次收费。</p>
+<p>总之，目前这个机制已经完全实现了。如果你有国外的软件推广渠道，欢迎联系我。具体的软件，推荐 <a href="https://toolinbox.net/Klib" target="_blank" rel="external">Klib</a>、<a href="https://toolinbox.net/iText" target="_blank" rel="external">iText</a>、<a href="https://toolinbox.net/iPic" target="_blank" rel="external">iPic</a>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;事情是这样的，国外一个媒体联系到我，想要推广 Klib 的时候有点返佣。&lt;/p&gt;
+&lt;p&gt;这个，虽然目前 Klib 支持序列号，但还不支持 Affiliate 和 Coupon。本来想算了，放弃这个机会。后来想想，要么试下吧。&lt;/p&gt;
+&lt;p&gt;功能上，主要是这几部分：&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0216 - 币价与房价</title>
+    <link href="https://atjason.com/daily/2021-02-16.html"/>
+    <id>https://atjason.com/daily/2021-02-16.html</id>
+    <published>2021-02-16T14:00:00.000Z</published>
+    <updated>2021-02-16T15:49:14.832Z</updated>
+    
+    <content type="html"><![CDATA[<p>BTC，突破 5 万美元。</p>
+<p>突然觉得币价和房价很像。</p>
+<ul>
+<li>想上车的人，觉得太贵；</li>
+<li>车上的人，想要继续涨。</li>
+</ul>
+<p>至于涨的有没有道理、是否合理，还重要吗？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;BTC，突破 5 万美元。&lt;/p&gt;
+&lt;p&gt;突然觉得币价和房价很像。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;想上车的人，觉得太贵；&lt;/li&gt;
+&lt;li&gt;车上的人，想要继续涨。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;至于涨的有没有道理、是否合理，还重要吗？&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0215 - 交易不是技术</title>
+    <link href="https://atjason.com/daily/2021-02-15.html"/>
+    <id>https://atjason.com/daily/2021-02-15.html</id>
+    <published>2021-02-15T14:00:00.000Z</published>
+    <updated>2021-02-15T12:24:42.080Z</updated>
+    
+    <content type="html"><![CDATA[<p>交易是不是艺术，我不好说；但交易一定不是技术活。</p>
+<p>所谓技术，通常是线性的。所谓线性，就是投入产品成简单的正比。比如愚公移山，虽然很难，但只要世世代代坚持下去，总有移走的一天。</p>
+<p>而艺术则不是这样的。比如画画，画几笔容易，但要画到能卖出价钱的画作，难。并且，并不是你坚持画，就一定能突破那个瓶颈。</p>
+<p>交易更像是艺术。学习，一定能提高交易的水平；但，绝不能保证盈利。努力学习，最多到及格的水平。要成为优秀交易员，是需要天赋的。</p>
+<p>接受自己不适合交易，不容易。退出交易，更难。</p>
+<p>从老师的角度，当然希望自己的每一位学生都成才。可事实上，再好的老师，班里也有第一名和最后一名；考试成功，也不是每位学生的最佳出路。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;交易是不是艺术，我不好说；但交易一定不是技术活。&lt;/p&gt;
+&lt;p&gt;所谓技术，通常是线性的。所谓线性，就是投入产品成简单的正比。比如愚公移山，虽然很难，但只要世世代代坚持下去，总有移走的一天。&lt;/p&gt;
+&lt;p&gt;而艺术则不是这样的。比如画画，画几笔容易，但要画到能卖出价钱的画作，难
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0214 - 享受当下</title>
@@ -371,209 +579,6 @@
 &lt;li&gt;烂泥扶不上墙。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;说得学术点：&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0201 - 看问题的角度</title>
-    <link href="https://atjason.com/daily/2021-02-01.html"/>
-    <id>https://atjason.com/daily/2021-02-01.html</id>
-    <published>2021-02-01T14:00:00.000Z</published>
-    <updated>2021-02-01T14:00:22.112Z</updated>
-    
-    <content type="html"><![CDATA[<p>看动物世界，狮子抓斑马。我妈不会夸狮子多厉害：即有抓斑马的能力，还有足够的耐心、良好的策略。相反，她会说：这些斑马怎么这么笨啊，还不团队；要是它们围成一圈，腿朝外，狮子来了就踢，肯定不会被吃掉。</p>
-<p>你看，相同事物，不同视角，便会有截然不同的观点。</p>
-<p>进而，你听到一个观点时，别直接认为这就是事物本身。一方面，这只是其中一个视角。另一方面，很自然的，每个人在表达时，都会有意无意突出对自己有利的、跳过对自己不利的。</p>
-<p>最好的办法，是听控辩双方都陈诉一遍，基本你就知道是怎么回事了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看动物世界，狮子抓斑马。我妈不会夸狮子多厉害：即有抓斑马的能力，还有足够的耐心、良好的策略。相反，她会说：这些斑马怎么这么笨啊，还不团队；要是它们围成一圈，腿朝外，狮子来了就踢，肯定不会被吃掉。&lt;/p&gt;
-&lt;p&gt;你看，相同事物，不同视角，便会有截然不同的观点。&lt;/p&gt;
-&lt;p&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0131 - 互相成就</title>
-    <link href="https://atjason.com/daily/2021-01-31.html"/>
-    <id>https://atjason.com/daily/2021-01-31.html</id>
-    <published>2021-01-31T14:00:00.000Z</published>
-    <updated>2021-02-01T13:54:25.733Z</updated>
-    
-    <content type="html"><![CDATA[<p>有了娃之后，家庭生活几乎全部围绕着他们进行，时间也花在了他们身上。</p>
-<p>相应的，留给自己的时间就少了。为家庭付出更多时间的一方，尤其如此。</p>
-<p>而人，是需要有自己的独立空间、自由时间的。没有了这些，就会感觉失去了自我，好像总是在为别人而活；哪怕这个别人，是自己的子女。</p>
-<p>如果，能时不时的从这种状态中脱离出来，完全搁下家庭琐事，享受一段独处时光，对心态的平衡，非常有帮助。经过这样的独处，既离自己的内心更近；回来之后，也更愿意在家庭、亲人身上付出。</p>
-<p>要做到这一点，就需要家庭成员之间，互相成就。这周，我来带娃，你想干什么干什么去；下周，再交换过来。</p>
-<p>互相分担，彼此成就。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有了娃之后，家庭生活几乎全部围绕着他们进行，时间也花在了他们身上。&lt;/p&gt;
-&lt;p&gt;相应的，留给自己的时间就少了。为家庭付出更多时间的一方，尤其如此。&lt;/p&gt;
-&lt;p&gt;而人，是需要有自己的独立空间、自由时间的。没有了这些，就会感觉失去了自我，好像总是在为别人而活；哪怕这个别人，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0130 - 感觉自己状态有点不对</title>
-    <link href="https://atjason.com/daily/2021-01-30.html"/>
-    <id>https://atjason.com/daily/2021-01-30.html</id>
-    <published>2021-01-30T14:00:00.000Z</published>
-    <updated>2021-02-01T13:54:28.815Z</updated>
-    
-    <content type="html"><![CDATA[<p>去书店逛，看了一圈，竟没什么书愿意坐下来细细看。</p>
-<p>当然，这是家小书店。可，这已经暴露出很大的问题：我缺乏足够的好奇心、未知欲。</p>
-<p>问题大了。</p>
-<p>如此不上进，跟咸鱼有何分别。</p>
-<p>自己反省了下，大概是这样：</p>
-<ul>
-<li>金融及交易方面的书，感觉平时脑子里一直填充的就是这些，再看到类似的，感到累，不想看。</li>
-<li>其他方面的呢，又提不起兴趣。</li>
-</ul>
-<p>我又想了想，解决的办法，是一定要把主业做好。只有做好了交易，心境坦然、自信从容，才不会首尾难顾、左右不成。</p>
-<p>集中一切力量，集中在一点，学习和实践交易。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;去书店逛，看了一圈，竟没什么书愿意坐下来细细看。&lt;/p&gt;
-&lt;p&gt;当然，这是家小书店。可，这已经暴露出很大的问题：我缺乏足够的好奇心、未知欲。&lt;/p&gt;
-&lt;p&gt;问题大了。&lt;/p&gt;
-&lt;p&gt;如此不上进，跟咸鱼有何分别。&lt;/p&gt;
-&lt;p&gt;自己反省了下，大概是这样：&lt;/p&gt;
-&lt;ul&gt;
-&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0129 - 灯塔国，光辉不再</title>
-    <link href="https://atjason.com/daily/2021-01-29.html"/>
-    <id>https://atjason.com/daily/2021-01-29.html</id>
-    <published>2021-01-29T14:00:00.000Z</published>
-    <updated>2021-02-01T13:54:31.790Z</updated>
-    
-    <content type="html"><![CDATA[<p>先说最引以为傲的 <strong>民主自由</strong>。此次大选，两位候选人几乎一半一半，暴露出严重的分裂问题。再加上选举舞弊、攻占白宫，基本脸面全无。</p>
-<p>再说 <strong>言论自由</strong>。先皇 Twitter 账户直接被封。不服，转战其他社交应用。结果，该社交应用被封，全线被下架。自由何在？脸面全无。</p>
-<p>再说 <strong>经济自由</strong>。随意加关税、增加贸易壁垒、威逼利诱制造业回国、等等。华为被举国之力封杀，就是最黑的反证。脸面全无。</p>
-<p>再说 <strong>金融自由</strong>。空头机构被散户爆头，为了最后的利益，网站拔网线、交易所隐藏代码、券商不允许交易。史无前例，脸面全无。</p>
-<p>曾经的灯塔国，光辉不再。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;先说最引以为傲的 &lt;strong&gt;民主自由&lt;/strong&gt;。此次大选，两位候选人几乎一半一半，暴露出严重的分裂问题。再加上选举舞弊、攻占白宫，基本脸面全无。&lt;/p&gt;
-&lt;p&gt;再说 &lt;strong&gt;言论自由&lt;/strong&gt;。先皇 Twitter 账户直接被封。不服，转战其他
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0128 - 房价最多跌多少</title>
-    <link href="https://atjason.com/daily/2021-01-28.html"/>
-    <id>https://atjason.com/daily/2021-01-28.html</id>
-    <published>2021-01-28T14:00:00.000Z</published>
-    <updated>2021-02-01T13:54:33.583Z</updated>
-    
-    <content type="html"><![CDATA[<p>房价仿佛永远在上涨。可是，有没有想过，如果房价跌了会怎样？跌多少会出大问题？</p>
-<p>简单的说，取决于杠杆。</p>
-<p>大部分人买房，都用到贷款，这其实就是杠杆。比如，常见的首付三成，贷款即是 70%。</p>
-<ul>
-<li>假如，房价下跌 30%；房子的价值，和银行货款是相同的，即原先的 70%。这时，不考虑住房学籍等因素，仅从钱的角度考虑，还不还贷款，是一样的。</li>
-<li>假如，房价下跌 30% 以上，房子价值，已经低于银行货款。换句话说，还房贷，还不如违约，让银行把房子收走。当然，参考上一条，房子还有居住、学籍、户口等附加属性。但，如果实在下跌太多，超出了这些附加价值，一样会出现大面积违约、不还贷款的情况。</li>
-</ul>
-<p>一旦发生大面积不还房贷的情况，将引发雪崩。银行不得不收回房子，然后对房子进行拍卖。问题是，拍卖的房子越多，房价掉得越厉害；进而，不还房贷的人更多。这是一个加速的、螺旋向下的过程，就是雪崩，就会引发严重的经济危机，具体请参考 08 年经济危机，差不多是这么个意思。</p>
-<p>简单的说，<strong>买房首付的比例，就是房价绝不能跌穿的底线</strong>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;房价仿佛永远在上涨。可是，有没有想过，如果房价跌了会怎样？跌多少会出大问题？&lt;/p&gt;
-&lt;p&gt;简单的说，取决于杠杆。&lt;/p&gt;
-&lt;p&gt;大部分人买房，都用到贷款，这其实就是杠杆。比如，常见的首付三成，贷款即是 70%。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;假如，房价下跌 30%；房子的价值
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0127 - 数星星、数月亮</title>
-    <link href="https://atjason.com/daily/2021-01-27.html"/>
-    <id>https://atjason.com/daily/2021-01-27.html</id>
-    <published>2021-01-27T14:00:00.000Z</published>
-    <updated>2021-02-01T13:54:36.203Z</updated>
-    
-    <content type="html"><![CDATA[<p>股市里，很多普通交易者，都希望能找到某一支好股票，将来大涨。</p>
-<p>这当时是可能的；只是，太难了。就像是在满天繁星中，找最亮的那一颗。要知道，最亮的不一定最大，可能只是离得近而已。</p>
-<p>相反，股指 ETF 就在那里，各行业 ETF 在那里，各行业龙头也在那里。为什么，要放着这些月亮不管，去寻找星星呢？绝大多数普通交易者，只是普通人，没那能力，找到最亮的星星，获利超额收益。相反，亏损的才是大多数。</p>
-<p>认识到自己是普通人，数月亮。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;股市里，很多普通交易者，都希望能找到某一支好股票，将来大涨。&lt;/p&gt;
-&lt;p&gt;这当时是可能的；只是，太难了。就像是在满天繁星中，找最亮的那一颗。要知道，最亮的不一定最大，可能只是离得近而已。&lt;/p&gt;
-&lt;p&gt;相反，股指 ETF 就在那里，各行业 ETF 在那里，各行业龙头也在那
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0126 - 开始刷题</title>
-    <link href="https://atjason.com/daily/2021-01-26.html"/>
-    <id>https://atjason.com/daily/2021-01-26.html</id>
-    <published>2021-01-26T14:00:00.000Z</published>
-    <updated>2021-02-01T13:54:38.481Z</updated>
-    
-    <content type="html"><![CDATA[<p>我是喜欢编程的。</p>
-<p>可惜，目前把大部分精力投到了交易上；又怕长期不写代码，手生了。怎么办呢？想了一下，开始刷题吧。</p>
-<p>跟做编程教育的朋友简单了解了下，现在刷题大致有两个网站不错：<a href="https://www.luogu.com.cn" target="_blank" rel="external">洛谷</a>、<a href="https://leetcode.com/" target="_blank" rel="external">LeetCode</a></p>
-<p>怎么选呢？我有一个比较大的限制：想使用 JavaScript 进行代码。又简单了解下，貌似两个网站都支持。不过，从界面上看，明显 LeetCode 支持的更好。再加上，LeetCode 支持英语；代码的同时，也保持对英语的熟悉。恩，就这么愉快的决定了。</p>
-<p>刷的代码，放到 GitHub 上，既是存档，也当是对自己的激励：<a href="https://github.com/atjason/leetcode" target="_blank" rel="external">https://github.com/atjason/leetcode</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我是喜欢编程的。&lt;/p&gt;
-&lt;p&gt;可惜，目前把大部分精力投到了交易上；又怕长期不写代码，手生了。怎么办呢？想了一下，开始刷题吧。&lt;/p&gt;
-&lt;p&gt;跟做编程教育的朋友简单了解了下，现在刷题大致有两个网站不错：&lt;a href=&quot;https://www.luogu.com.cn&quot; t
     
     </summary>
     
