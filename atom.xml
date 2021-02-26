@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2021-02-21T12:43:10.000Z</updated>
+  <updated>2021-02-25T07:45:06.436Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,104 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0224 - 微信读书中的「热门图书 + 热门标注」</title>
+    <link href="https://atjason.com/daily/2021-02-24.html"/>
+    <id>https://atjason.com/daily/2021-02-24.html</id>
+    <published>2021-02-24T14:00:00.000Z</published>
+    <updated>2021-02-25T07:45:06.436Z</updated>
+    
+    <content type="html"><![CDATA[<p>前几天在 Klib 中增加了导出微信读书笔记的功能：<a href="https://atjason.com/daily/2021-02-21.html">链接</a></p>
+<p>做的过程中，就想整这么个东西：<strong>把微信读书中热门图书的热门标注，集中整理出来</strong>，一次看个够。</p>
+<p>热门标注还是挺好玩的；像是众多读者一起，把书中精华的部分拎出来，三分钟看完一本书。<strong>在决定是否精读一本书时，除了看评分，还可以看看这些热门标注，看是否对自己的胃口。</strong></p>
+<p><img src="https://tva1.sinaimg.cn/large/008eGmZEgy1gnztr69t4qj31bq0u0jw6.jpg" alt=""></p>
+<p>比如，我看到 <a href="http://s.klib.me/26447797.html" target="_blank" rel="external">这段话</a>，就笑了：</p>
+<blockquote>
+<p>“轻车熟路，自己慢慢生吧，”上官吕氏把一卷白布、一把剪刀放在炕上，蹙着眉头，不耐烦地说，“你公公和来弟她爹在西厢房里给黑驴接生，它是初生头养，我得去照应着。”</p>
+</blockquote>
+<p>欢迎一试：<a href="http://klib.me/weread/hot/index.html" target="_blank" rel="external">http://klib.me/weread/hot/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;前几天在 Klib 中增加了导出微信读书笔记的功能：&lt;a href=&quot;https://atjason.com/daily/2021-02-21.html&quot;&gt;链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;做的过程中，就想整这么个东西：&lt;strong&gt;把微信读书中热门图书的热门标注，集中整理出来
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0223 - 什么是吃苦</title>
+    <link href="https://atjason.com/daily/2021-02-23.html"/>
+    <id>https://atjason.com/daily/2021-02-23.html</id>
+    <published>2021-02-23T14:00:00.000Z</published>
+    <updated>2021-02-23T08:13:11.313Z</updated>
+    
+    <content type="html"><![CDATA[<p>大多数人对吃苦的含义，理解得太肤浅了。</p>
+<p>穷，根本不是吃苦。<br>吃苦，不是受穷的能力。</p>
+<p>吃苦的本质，是长时间为了一件事聚焦的能力；以及，为了长时间聚焦的做一件事的过程中，所放弃的娱乐生活、所放弃的无效社交、所放弃的的无意义的消费生活，以及在这个过程中所忍受的孤独和不被理解。</p>
+<p><strong>吃苦，本质是一种自控能力、自制能力和坚持能力，以及深度思考</strong>。</p>
+<p>很大程度上，靠自己成功的富人，往往比穷人能吃苦；否则，他就不能靠自己白手起家。你会发现，他富了以后，做事情还是比你勤奋、还是比你能忍受孤独、还是比你更有理想。</p>
+<p>这才是吃苦。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大多数人对吃苦的含义，理解得太肤浅了。&lt;/p&gt;
+&lt;p&gt;穷，根本不是吃苦。&lt;br&gt;吃苦，不是受穷的能力。&lt;/p&gt;
+&lt;p&gt;吃苦的本质，是长时间为了一件事聚焦的能力；以及，为了长时间聚焦的做一件事的过程中，所放弃的娱乐生活、所放弃的无效社交、所放弃的的无意义的消费生活，以及在这个
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0222 - 程序员的域名情结</title>
+    <link href="https://atjason.com/daily/2021-02-22.html"/>
+    <id>https://atjason.com/daily/2021-02-22.html</id>
+    <published>2021-02-22T14:00:00.000Z</published>
+    <updated>2021-02-21T12:48:33.756Z</updated>
+    
+    <content type="html"><![CDATA[<p>故事的开始，是这样的：</p>
+<ul>
+<li>想到一个点子，</li>
+<li>注册一堆域名。</li>
+</ul>
+<p>然后是这样的：</p>
+<ul>
+<li>域名要续费了，</li>
+<li>点子还是点子。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;故事的开始，是这样的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;想到一个点子，&lt;/li&gt;
+&lt;li&gt;注册一堆域名。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;然后是这样的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;域名要续费了，&lt;/li&gt;
+&lt;li&gt;点子还是点子。&lt;/li&gt;
+&lt;/ul&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0221 - Klib 新年新版：优雅地导入「微信读书」中的笔记</title>
@@ -467,118 +565,6 @@
 &lt;p&gt;比如，看到一个弯弯的形状，想到月亮、桥、眉毛，都是抽象出弯弯这个概念，然后去匹配能命中这一特征的东西。&lt;/p&gt;
 &lt;p&gt;这样的想象力，其实是比较初级的。&lt;/p&gt;
 &lt;p&gt;只要自身已经有完整的知识体系，才能有更科
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0204 - 停下来，想一想</title>
-    <link href="https://atjason.com/daily/2021-02-04.html"/>
-    <id>https://atjason.com/daily/2021-02-04.html</id>
-    <published>2021-02-04T14:00:00.000Z</published>
-    <updated>2021-02-03T07:12:59.877Z</updated>
-    
-    <content type="html"><![CDATA[<p>我发现，这个小技巧，对我很有用。</p>
-<p>比如，之前独立开发产品时，尤其是项目早期和中期，有很多事情要做，千头万绪。这时候，很容易陷入其中。好像什么都要做，却又不知道先做什么。</p>
-<p>这时，我会停下来了，稍微想个 7、8 件事。然后，从中挑选中最想做、或者最必要做的前 3 件事。挑出来之后，就不再想任何其他的事，把这 3 件事做空再说。</p>
-<ul>
-<li>一方面，这可以让我集中注意力对付这几件事，不受其他事的影响。</li>
-<li>另一方面，随意这 3 件事的完成，对整个局面，很可能会有更清晰的认识，更有利于接下来的安排。</li>
-</ul>
-<p>现在做交易，也是类似的。当行情走到一定程度，或者刚刚平仓后，我会停下来，从更高的视角，审视接下来的行情会怎么走。至少做正反两方面的推演，当然也包括我最希望看到的行情是什么；以及，不同行情下该如何应对。</p>
-<p>然后，把这些判断显式的记下来。可以用纸笔，也可以在电脑上。总之，让它们脱离大脑，成为一个实体的存在。</p>
-<p>然后，随着行情的演进，新的行情和自己之前的判断进行比对。比如，恰好和自己最期望的行情匹配，勇敢的按计划操作即可。行情是很随意的，如果没有事先的预演作为对照，自己很容易陷入行情的无序波动中。</p>
-<p>当然，这样的预演，不必太长太久，那样通常会走样，和事实差距太大而变得没有意义。只需要理出最可能发生的 123 即可。如果自己的推演都没有命中，停下来，再想一次。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我发现，这个小技巧，对我很有用。&lt;/p&gt;
-&lt;p&gt;比如，之前独立开发产品时，尤其是项目早期和中期，有很多事情要做，千头万绪。这时候，很容易陷入其中。好像什么都要做，却又不知道先做什么。&lt;/p&gt;
-&lt;p&gt;这时，我会停下来了，稍微想个 7、8 件事。然后，从中挑选中最想做、或者最必
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0203 - 不要羡慕</title>
-    <link href="https://atjason.com/daily/2021-02-03.html"/>
-    <id>https://atjason.com/daily/2021-02-03.html</id>
-    <published>2021-02-03T14:00:00.000Z</published>
-    <updated>2021-02-02T07:30:28.938Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，我很长时间没开发出自己的软件产品。当看到别的独立开发者，又出了新产品；或者是，已有的产品，又被 App Store 推荐，或有其他成就时，难免心生艳羡。</p>
-<p>比如，我还在学习交易，还是亏损中。当看到别的学员，已经达到稳定盈利，甚至盈利颇丰时，难免心生艳羡。</p>
-<p><strong>羡慕是种很不好的情绪。这是病，得治</strong>。</p>
-<p>既然自己选择了新的路，就不要对过去有太多依恋。随着时间的推移，对于过去的事，总是习惯性记得它的好，忽悠其不好的地方。</p>
-<p>对于现在的路，必然会有困难。遇到困难，就退缩，想缩回原来的安乐窝，想象原来的窝的多美好。</p>
-<p>以上，都是人之常情；只是，也是人之弊病。</p>
-<p>反过来，如果自己已经有一定成就；或者哪怕没有，但知道自己走在正确的路上，有这样的成就或心态，就不会羡慕别人。因为自己知道，别人有好的，我也有别人没有的好东西。或者，即便我现在还没有好东西，那也只是时候未到；假以时日，该来的总会来。有这样的心态，何必羡慕，又何需羡慕。</p>
-<p><strong>既往不恋，勇往直前</strong>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，我很长时间没开发出自己的软件产品。当看到别的独立开发者，又出了新产品；或者是，已有的产品，又被 App Store 推荐，或有其他成就时，难免心生艳羡。&lt;/p&gt;
-&lt;p&gt;比如，我还在学习交易，还是亏损中。当看到别的学员，已经达到稳定盈利，甚至盈利颇丰时，难免心生艳羡。&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0202 - 赌徒谬误</title>
-    <link href="https://atjason.com/daily/2021-02-02.html"/>
-    <id>https://atjason.com/daily/2021-02-02.html</id>
-    <published>2021-02-02T14:00:00.000Z</published>
-    <updated>2021-02-07T14:57:47.480Z</updated>
-    
-    <content type="html"><![CDATA[<p>赌徒谬误：</p>
-<ul>
-<li>已经跌了这么久了，总该涨了；</li>
-<li>已经涨了这么久了，总该跌了。</li>
-</ul>
-<p>殊不知：</p>
-<ul>
-<li>强者恒强；</li>
-<li>烂泥扶不上墙。</li>
-</ul>
-<p>说得学术点：</p>
-<ul>
-<li>之前与之后发生的事，是独立的；</li>
-<li>之后发生的事，不会受之前发生的事的影响。</li>
-</ul>
-<p>交易中：</p>
-<ul>
-<li>之前，我恐高，就怕买了被套在山顶上。</li>
-<li>现在，偏偏喜欢新高，向上海阔天空。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;赌徒谬误：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;已经跌了这么久了，总该涨了；&lt;/li&gt;
-&lt;li&gt;已经涨了这么久了，总该跌了。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;殊不知：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;强者恒强；&lt;/li&gt;
-&lt;li&gt;烂泥扶不上墙。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;说得学术点：&lt;/p&gt;
     
     </summary>
     
