@@ -2,16 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://atjason.com/links/index.html</loc>
+    <loc>https://atjason.com/daily/2021-02-28.html</loc>
     
-    <lastmod>2021-02-26T11:45:52.617Z</lastmod>
+    <lastmod>2021-02-28T14:48:45.663Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2021-02-26.html</loc>
+    
+    <lastmod>2021-02-28T14:40:52.201Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2021-02-27.html</loc>
+    
+    <lastmod>2021-02-28T14:33:59.687Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2021-02-25.html</loc>
+    
+    <lastmod>2021-02-27T15:42:14.431Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://atjason.com/daily/2021-02-24.html</loc>
     
-    <lastmod>2021-02-25T07:45:06.436Z</lastmod>
+    <lastmod>2021-02-26T11:47:38.502Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/links/index.html</loc>
+    
+    <lastmod>2021-02-26T11:45:52.617Z</lastmod>
     
   </url>
   
@@ -4713,14 +4741,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2018-01-02.html</loc>
+    <loc>https://atjason.com/daily/2018-01-05.html</loc>
     
     <lastmod>2019-04-25T04:12:15.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2018-01-05.html</loc>
+    <loc>https://atjason.com/daily/2018-01-02.html</loc>
     
     <lastmod>2019-04-25T04:12:15.000Z</lastmod>
     
@@ -4762,13 +4790,6 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2019-03-01.html</loc>
-    
-    <lastmod>2019-04-25T04:11:47.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/daily/2019-02-26.html</loc>
     
     <lastmod>2019-04-25T04:11:47.000Z</lastmod>
@@ -4776,9 +4797,9 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2019-02-17.html</loc>
+    <loc>https://atjason.com/daily/2019-03-01.html</loc>
     
-    <lastmod>2019-04-25T04:11:46.000Z</lastmod>
+    <lastmod>2019-04-25T04:11:47.000Z</lastmod>
     
   </url>
   
@@ -4791,6 +4812,13 @@
   
   <url>
     <loc>https://atjason.com/daily/2019-02-03.html</loc>
+    
+    <lastmod>2019-04-25T04:11:46.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2019-02-17.html</loc>
     
     <lastmod>2019-04-25T04:11:46.000Z</lastmod>
     
@@ -4825,14 +4853,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-11-26.html</loc>
+    <loc>https://atjason.com/daily/2017-11-22.html</loc>
     
     <lastmod>2019-04-25T04:11:37.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-11-22.html</loc>
+    <loc>https://atjason.com/daily/2017-11-26.html</loc>
     
     <lastmod>2019-04-25T04:11:37.000Z</lastmod>
     
@@ -4853,14 +4881,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-09-09.html</loc>
+    <loc>https://atjason.com/daily/2017-11-04.html</loc>
     
     <lastmod>2019-04-25T04:11:35.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-11-04.html</loc>
+    <loc>https://atjason.com/daily/2017-09-09.html</loc>
     
     <lastmod>2019-04-25T04:11:35.000Z</lastmod>
     
@@ -4888,14 +4916,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-07-04.html</loc>
+    <loc>https://atjason.com/daily/2017-06-20.html</loc>
     
     <lastmod>2019-04-25T04:11:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-06-20.html</loc>
+    <loc>https://atjason.com/daily/2017-07-04.html</loc>
     
     <lastmod>2019-04-25T04:11:18.000Z</lastmod>
     
@@ -6008,6 +6036,13 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/40.html</loc>
+    
+    <lastmod>2018-11-12T02:23:37.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/155.html</loc>
     
     <lastmod>2018-11-12T02:23:37.000Z</lastmod>
@@ -6050,70 +6085,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/40.html</loc>
-    
-    <lastmod>2018-11-12T02:23:37.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/632.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/129.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/122.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/175.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/99.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/569.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/106.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/310.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/752.html</loc>
+    <loc>https://atjason.com/629.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
@@ -6127,49 +6099,42 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/114.html</loc>
+    <loc>https://atjason.com/330.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/69.html</loc>
+    <loc>https://atjason.com/IT/evernote-sdk-mac.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/81.html</loc>
+    <loc>https://atjason.com/IT/ss_account.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/671.html</loc>
+    <loc>https://atjason.com/1010.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/629.html</loc>
+    <loc>https://atjason.com/IT/iHostsMacAppStoreExperience.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/654.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/358.html</loc>
+    <loc>https://atjason.com/170.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
@@ -6190,7 +6155,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/170.html</loc>
+    <loc>https://atjason.com/358.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
@@ -6204,28 +6169,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/1010.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/IT/ss_account.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/IT/iHostsMacAppStoreExperience.html</loc>
-    
-    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/IT/evernote-sdk-mac.html</loc>
+    <loc>https://atjason.com/654.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
@@ -6239,7 +6183,91 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/330.html</loc>
+    <loc>https://atjason.com/671.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/81.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/69.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/632.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/114.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/752.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/129.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/569.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/310.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/106.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/99.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/122.html</loc>
+    
+    <lastmod>2018-11-12T02:23:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/175.html</loc>
     
     <lastmod>2018-11-12T02:23:35.000Z</lastmod>
     
@@ -6253,203 +6281,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-04-10.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-02-07.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-12-03.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-26.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-24.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-23.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-21.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-20.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-02-20.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-05-13.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-19.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-05-15.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-18.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-07.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-02-02.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-17.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-05.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-02-11.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-06.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-05-28.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-05-30.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-02-21.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-11-04.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-27.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-25.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-02-10.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-01-18.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-05.html</loc>
-    
-    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-12-31.html</loc>
+    <loc>https://atjason.com/daily/2017-06-09.html</loc>
     
     <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
@@ -6463,21 +6295,119 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-06-09.html</loc>
+    <loc>https://atjason.com/daily/2017-03-27.html</loc>
     
     <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-12-27.html</loc>
+    <loc>https://atjason.com/daily/2017-04-10.html</loc>
     
     <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-06-12.html</loc>
+    <loc>https://atjason.com/daily/2017-06-14.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-11-17.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-11-07.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-11-06.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-02-07.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-11-05.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-11-04.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-02-10.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-05-15.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-05-13.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-12-31.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-05.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-05-28.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-02-20.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2018-01-20.html</loc>
     
     <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
@@ -6491,7 +6421,21 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-06-14.html</loc>
+    <loc>https://atjason.com/daily/2017-02-21.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-02-11.html</loc>
+    
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-12-27.html</loc>
     
     <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
@@ -6519,560 +6463,98 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2018-01-20.html</loc>
+    <loc>https://atjason.com/daily/2016-12-03.html</loc>
     
     <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-06.html</loc>
+    <loc>https://atjason.com/daily/2016-11-26.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-08.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-11.html</loc>
+    <loc>https://atjason.com/daily/2017-01-18.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-09.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-10.html</loc>
+    <loc>https://atjason.com/daily/2016-11-23.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-12.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-13.html</loc>
+    <loc>https://atjason.com/daily/2017-02-02.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-14.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-15.html</loc>
+    <loc>https://atjason.com/daily/2016-11-24.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-16.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-17.html</loc>
+    <loc>https://atjason.com/daily/2016-11-20.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-18.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-20.html</loc>
+    <loc>https://atjason.com/daily/2016-11-21.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-21.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-22.html</loc>
+    <loc>https://atjason.com/daily/2016-11-19.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-19.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-23.html</loc>
+    <loc>https://atjason.com/daily/2017-06-12.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-24.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-25.html</loc>
+    <loc>https://atjason.com/daily/2016-11-18.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-27.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-26.html</loc>
+    <loc>https://atjason.com/daily/2017-04-25.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-28.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-29.html</loc>
+    <loc>https://atjason.com/daily/2017-05-30.html</loc>
     
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-30.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-08-31.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-01.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-02.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-03.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-04.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-05.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-07.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-08.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-06.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-09.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-10.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-11.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-12.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-13.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-14.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-18.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-16.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-17.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-20.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-15.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-19.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-21.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-22.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-23.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    <lastmod>2018-11-12T01:38:40.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://atjason.com/daily/2016-09-25.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-24.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-26.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-28.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-27.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-29.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-09-30.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-02.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-01.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-03.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-04.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-06-06.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-05.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-08.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-09.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-07.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-10.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-13.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-15.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-14.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-11.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-12.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-16.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-17.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-18.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-20.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-22.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-19.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-23.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-21.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-10-24.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7100,7 +6582,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-10-30.html</loc>
+    <loc>https://atjason.com/daily/2016-10-28.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7114,7 +6596,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-10-28.html</loc>
+    <loc>https://atjason.com/daily/2016-10-30.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7128,14 +6610,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-11-01.html</loc>
+    <loc>https://atjason.com/daily/2016-10-07.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-06-07.html</loc>
+    <loc>https://atjason.com/daily/2016-11-01.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7149,7 +6631,42 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/daily/2016-11-03.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-06-05.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-06-06.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-06-07.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/daily/2016-06-08.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-06-09.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7170,13 +6687,6 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-06-09.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/daily/2016-06-12.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
@@ -7191,21 +6701,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-06-14.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/daily/2016-06-15.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2016-06-18.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7226,14 +6722,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-06-19.html</loc>
+    <loc>https://atjason.com/daily/2016-06-14.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-06-22.html</loc>
+    <loc>https://atjason.com/daily/2016-06-18.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7254,7 +6750,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-06-24.html</loc>
+    <loc>https://atjason.com/daily/2016-06-22.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7262,6 +6758,20 @@
   
   <url>
     <loc>https://atjason.com/daily/2016-06-23.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-06-19.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-06-24.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7303,13 +6813,6 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-01.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/daily/2016-06-30.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
@@ -7317,7 +6820,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-03.html</loc>
+    <loc>https://atjason.com/daily/2016-07-01.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7331,13 +6834,6 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-04.html</loc>
-    
-    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/daily/2016-07-05.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
@@ -7345,7 +6841,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-08.html</loc>
+    <loc>https://atjason.com/daily/2016-07-04.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7359,6 +6855,20 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/daily/2016-10-23.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-07-03.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/daily/2016-07-07.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
@@ -7366,7 +6876,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-10-06.html</loc>
+    <loc>https://atjason.com/daily/2016-07-08.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7387,98 +6897,602 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-12.html</loc>
+    <loc>https://atjason.com/daily/2016-10-22.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-13.html</loc>
+    <loc>https://atjason.com/daily/2016-10-21.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-14.html</loc>
+    <loc>https://atjason.com/daily/2016-10-20.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-15.html</loc>
+    <loc>https://atjason.com/daily/2016-10-19.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-06-05.html</loc>
+    <loc>https://atjason.com/daily/2016-10-18.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-17.html</loc>
+    <loc>https://atjason.com/daily/2016-10-17.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-18.html</loc>
+    <loc>https://atjason.com/daily/2016-10-16.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-20.html</loc>
+    <loc>https://atjason.com/daily/2016-10-15.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-19.html</loc>
+    <loc>https://atjason.com/daily/2016-10-14.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-21.html</loc>
+    <loc>https://atjason.com/daily/2016-10-13.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-22.html</loc>
+    <loc>https://atjason.com/daily/2016-10-12.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-23.html</loc>
+    <loc>https://atjason.com/daily/2016-10-11.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-24.html</loc>
+    <loc>https://atjason.com/daily/2016-10-10.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-25.html</loc>
+    <loc>https://atjason.com/daily/2016-10-04.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-10-09.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-10-06.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-10-08.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-10-05.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-10-03.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-10-02.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-10-01.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-30.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-29.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-27.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-28.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-26.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-10-24.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-21.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-24.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-23.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-22.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-20.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-19.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-18.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-17.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-16.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-15.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-14.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-13.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-12.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-11.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-06.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-10.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-04.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-09.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-07.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-08.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-05.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-03.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-02.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-09-01.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-31.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-30.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-29.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-28.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-26.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-27.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-25.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-24.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-23.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-22.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-21.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-20.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-19.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-17.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-18.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-16.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-15.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-14.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-13.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-12.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-11.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-10.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-09.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-08.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-07-30.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-07.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-06.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-05.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-04.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-03.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-02.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-08-01.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-07-31.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-07-29.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-07-28.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
@@ -7499,84 +7513,203 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-28.html</loc>
+    <loc>https://atjason.com/daily/2016-07-24.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-30.html</loc>
+    <loc>https://atjason.com/daily/2016-07-25.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-31.html</loc>
+    <loc>https://atjason.com/daily/2016-07-23.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-01.html</loc>
+    <loc>https://atjason.com/daily/2016-07-20.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-07-29.html</loc>
+    <loc>https://atjason.com/daily/2016-07-22.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-02.html</loc>
+    <loc>https://atjason.com/daily/2016-07-21.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-03.html</loc>
+    <loc>https://atjason.com/daily/2016-07-19.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-04.html</loc>
+    <loc>https://atjason.com/daily/2016-07-18.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-05.html</loc>
+    <loc>https://atjason.com/daily/2016-07-17.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-08-07.html</loc>
+    <loc>https://atjason.com/daily/2016-07-15.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-11-03.html</loc>
+    <loc>https://atjason.com/daily/2016-07-13.html</loc>
     
     <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-07-14.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2016-07-12.html</loc>
+    
+    <lastmod>2018-11-12T01:38:39.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/IndieDev/2017-07-18.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/142.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/78.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/book/201703.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/162.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/202.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/188.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/666.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/222.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://atjason.com/683.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/685.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/680.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/book/201704.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/book/201705.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/book/201706.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/book/201707.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
@@ -7597,70 +7730,28 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/book/201706.html</loc>
+    <loc>https://atjason.com/724.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/book/201705.html</loc>
+    <loc>https://atjason.com/151.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/book/201704.html</loc>
+    <loc>https://atjason.com/698.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/book/201703.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/book/201702.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/book/201701.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/769.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/772.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/766.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/760.html</loc>
+    <loc>https://atjason.com/729.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
@@ -7681,6 +7772,20 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/IT/anki.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/760.html</loc>
+    
+    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/732.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
@@ -7688,91 +7793,35 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/729.html</loc>
+    <loc>https://atjason.com/769.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/698.html</loc>
+    <loc>https://atjason.com/766.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/724.html</loc>
+    <loc>https://atjason.com/772.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/685.html</loc>
+    <loc>https://atjason.com/book/201701.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/book/201707.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/666.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/680.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/222.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/188.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/202.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/162.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/151.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/142.html</loc>
+    <loc>https://atjason.com/book/201702.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
@@ -7780,27 +7829,6 @@
   
   <url>
     <loc>https://atjason.com/94.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/78.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/IndieDev/2017-07-18.html</loc>
-    
-    <lastmod>2018-11-12T01:38:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/IT/anki.html</loc>
     
     <lastmod>2018-11-12T01:38:38.000Z</lastmod>
     
@@ -11538,7 +11566,245 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-01-27.html</loc>
+    <loc>https://atjason.com/daily/2017-04-20.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-19.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-18.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-17.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-16.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-15.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-14.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-11.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-13.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-12.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-09.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-05.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-08.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-06.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-07.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-02.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-03.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-04-01.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-31.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-30.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-29.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-28.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-26.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-24.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-25.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-23.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-21.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-22.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-20.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-19.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-17.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-18.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-16.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-15.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-03-14.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11559,14 +11825,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-03-10.html</loc>
+    <loc>https://atjason.com/daily/2017-03-09.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-03-09.html</loc>
+    <loc>https://atjason.com/daily/2017-03-10.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11601,13 +11867,6 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-18.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/daily/2017-03-03.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
@@ -11622,14 +11881,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-28.html</loc>
+    <loc>https://atjason.com/daily/2017-03-01.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-03-01.html</loc>
+    <loc>https://atjason.com/daily/2017-02-28.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11650,7 +11909,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-23.html</loc>
+    <loc>https://atjason.com/daily/2017-02-25.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11664,7 +11923,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-25.html</loc>
+    <loc>https://atjason.com/daily/2017-02-23.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11678,21 +11937,21 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-04-21.html</loc>
+    <loc>https://atjason.com/daily/2017-02-19.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-08.html</loc>
+    <loc>https://atjason.com/daily/2017-02-18.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-13.html</loc>
+    <loc>https://atjason.com/daily/2017-02-15.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11713,14 +11972,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-15.html</loc>
+    <loc>https://atjason.com/daily/2017-02-14.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-14.html</loc>
+    <loc>https://atjason.com/daily/2017-02-13.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11748,6 +12007,13 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/daily/2017-02-08.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/daily/2017-02-05.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
@@ -11755,14 +12021,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-04.html</loc>
+    <loc>https://atjason.com/daily/2017-02-03.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-02-03.html</loc>
+    <loc>https://atjason.com/daily/2017-02-04.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11783,14 +12049,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-01-30.html</loc>
+    <loc>https://atjason.com/daily/2017-01-29.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-01-29.html</loc>
+    <loc>https://atjason.com/daily/2017-01-30.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11804,14 +12070,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-04-18.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-01-21.html</loc>
+    <loc>https://atjason.com/daily/2017-01-27.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11839,7 +12098,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-04-19.html</loc>
+    <loc>https://atjason.com/daily/2017-04-22.html</loc>
+    
+    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/2017-01-21.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11916,14 +12182,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-01-09.html</loc>
+    <loc>https://atjason.com/daily/2017-01-08.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-01-08.html</loc>
+    <loc>https://atjason.com/daily/2017-01-09.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -11937,14 +12203,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-01-05.html</loc>
+    <loc>https://atjason.com/daily/2017-01-06.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-01-06.html</loc>
+    <loc>https://atjason.com/daily/2017-01-05.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -12035,14 +12301,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-12-18.html</loc>
+    <loc>https://atjason.com/daily/2016-12-14.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-12-14.html</loc>
+    <loc>https://atjason.com/daily/2016-12-18.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -12063,245 +12329,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2017-04-22.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-20.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-14.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-15.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-16.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-17.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-13.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-12.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-11.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-09.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-08.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-07.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-06.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-05.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-03.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-02.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-04-01.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-31.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-30.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-29.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-28.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-26.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-25.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-24.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-23.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-20.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-21.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-22.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-19.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-14.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-17.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-15.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-18.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-03-16.html</loc>
-    
-    <lastmod>2017-04-23T14:39:18.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/2017-02-19.html</loc>
+    <loc>https://atjason.com/daily/2017-04-21.html</loc>
     
     <lastmod>2017-04-23T14:39:18.000Z</lastmod>
     
@@ -12511,13 +12539,6 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/2016-05-16.html</loc>
-    
-    <lastmod>2017-04-23T08:48:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/daily/2016-05-24.html</loc>
     
     <lastmod>2017-04-23T08:48:26.000Z</lastmod>
@@ -12532,56 +12553,42 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/878.html</loc>
+    <loc>https://atjason.com/daily/2016-05-16.html</loc>
+    
+    <lastmod>2017-04-23T08:48:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/900.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/800.html</loc>
+    <loc>https://atjason.com/896.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/795.html</loc>
+    <loc>https://atjason.com/891.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/793.html</loc>
+    <loc>https://atjason.com/887.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/791.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/789.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/785.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/866.html</loc>
+    <loc>https://atjason.com/902.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
@@ -12595,20 +12602,6 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/781.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/778.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/874.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
@@ -12616,21 +12609,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/863.html</loc>
+    <loc>https://atjason.com/872.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/1030.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/861.html</loc>
+    <loc>https://atjason.com/905.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
@@ -12644,7 +12630,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/851.html</loc>
+    <loc>https://atjason.com/863.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/861.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
@@ -12665,7 +12658,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/847.html</loc>
+    <loc>https://atjason.com/851.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
@@ -12673,6 +12666,13 @@
   
   <url>
     <loc>https://atjason.com/849.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/847.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
@@ -12707,13 +12707,6 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/829.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/833.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
@@ -12728,7 +12721,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/820.html</loc>
+    <loc>https://atjason.com/829.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
@@ -12749,14 +12742,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/817.html</loc>
+    <loc>https://atjason.com/820.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/806.html</loc>
+    <loc>https://atjason.com/817.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
@@ -12798,322 +12791,84 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/898.html</loc>
+    <loc>https://atjason.com/806.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/896.html</loc>
+    <loc>https://atjason.com/878.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/891.html</loc>
+    <loc>https://atjason.com/800.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/887.html</loc>
+    <loc>https://atjason.com/795.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/1035.html</loc>
+    <loc>https://atjason.com/793.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/900.html</loc>
+    <loc>https://atjason.com/789.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/902.html</loc>
+    <loc>https://atjason.com/791.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/1033.html</loc>
+    <loc>https://atjason.com/785.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/1022.html</loc>
+    <loc>https://atjason.com/781.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/872.html</loc>
+    <loc>https://atjason.com/866.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/1027.html</loc>
+    <loc>https://atjason.com/778.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/1020.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/1015.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/1004.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/1001.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/994.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/987.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/990.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/985.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/992.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/981.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/968.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/978.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/976.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/974.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/972.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/970.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/964.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/962.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/958.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/960.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/956.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/954.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/952.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/950.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/947.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/942.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/940.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/945.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/935.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/926.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/938.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/928.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/931.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/922.html</loc>
-    
-    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/919.html</loc>
+    <loc>https://atjason.com/907.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
@@ -13141,21 +12896,294 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/907.html</loc>
+    <loc>https://atjason.com/919.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/905.html</loc>
+    <loc>https://atjason.com/922.html</loc>
     
     <lastmod>2017-04-23T08:47:36.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0421%20-%20%E8%A6%81%E5%9D%9A%E6%8C%81%EF%BC%8C%E6%94%BE%E5%BC%83%E5%8F%AA%E5%9C%A8%E4%B8%80%E5%BF%B5%E9%97%B4.html</loc>
+    <loc>https://atjason.com/926.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/928.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/931.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/935.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/940.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/942.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/898.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/945.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/947.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/938.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/952.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/950.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/956.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/958.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/960.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/954.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/962.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/964.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/970.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/968.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/972.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/974.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/978.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/976.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/985.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/981.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/990.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/1035.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/992.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/1033.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/1030.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/1022.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/1027.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/1020.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/1015.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/1001.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/1004.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/994.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/987.html</loc>
+    
+    <lastmod>2017-04-23T08:47:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/0420%20-%20%E7%9D%80%E6%80%A5%E8%B5%B6%E8%B7%AF%EF%BC%8C%E5%88%AB%E6%8A%8A%E8%A1%A8%E5%BC%84%E4%B8%A2%E4%BA%86.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13169,7 +13197,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0403%20-%20%E6%95%B0%E5%AD%97%E6%B8%B8%E6%B0%91.html</loc>
+    <loc>https://atjason.com/daily/0404%20-%20%E5%8F%AA%E7%A7%AF%E7%B4%AF%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%8F%AA%E5%81%9A%E6%A0%B8%E5%BF%83%E4%B8%9A%E5%8A%A1.html</loc>
+    
+    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/0405%20-%20%E8%8A%82%E5%A5%8F%E6%84%9F.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13183,7 +13218,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0405%20-%20%E8%8A%82%E5%A5%8F%E6%84%9F.html</loc>
+    <loc>https://atjason.com/daily/0408%20-%20%E5%AD%A6%E5%88%B0%E4%BB%80%E4%B9%88%E7%A8%8B%E5%BA%A6%E6%89%8D%E5%A5%BD%E5%91%A2%EF%BC%9F.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13204,20 +13239,6 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0410%20-%20%E5%96%84%E5%BE%85%E8%87%AA%E5%B7%B1%E7%9A%84%E8%BA%AB%E4%BD%93.html</loc>
-    
-    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/0408%20-%20%E5%AD%A6%E5%88%B0%E4%BB%80%E4%B9%88%E7%A8%8B%E5%BA%A6%E6%89%8D%E5%A5%BD%E5%91%A2%EF%BC%9F.html</loc>
-    
-    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/daily/0411%20-%20%E4%BF%9D%E6%8C%81%E4%B8%BB%E7%BA%BF%E4%B8%8D%E5%88%86%E5%8F%89.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
@@ -13225,7 +13246,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0413%20-%20%E5%A4%A7%E5%8A%9B%E6%94%BE%E6%9D%BE.html</loc>
+    <loc>https://atjason.com/daily/0410%20-%20%E5%96%84%E5%BE%85%E8%87%AA%E5%B7%B1%E7%9A%84%E8%BA%AB%E4%BD%93.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13239,14 +13260,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0414%20-%20%E5%8F%88%E6%84%9F%E5%88%B0%E8%BF%90%E8%90%A5%E7%9A%84%E5%8E%8B%E5%8A%9B%E4%BA%86.html</loc>
+    <loc>https://atjason.com/daily/0413%20-%20%E5%A4%A7%E5%8A%9B%E6%94%BE%E6%9D%BE.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0416%20-%20%E8%87%AA%E5%B7%B1%E5%81%9A%E7%9A%84%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%AE%B9%E5%BF%8D%E5%BA%A6%E9%AB%98.html</loc>
+    <loc>https://atjason.com/daily/0414%20-%20%E5%8F%88%E6%84%9F%E5%88%B0%E8%BF%90%E8%90%A5%E7%9A%84%E5%8E%8B%E5%8A%9B%E4%BA%86.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13274,6 +13295,13 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/daily/0416%20-%20%E8%87%AA%E5%B7%B1%E5%81%9A%E7%9A%84%E4%B8%9C%E8%A5%BF%EF%BC%8C%E5%AE%B9%E5%BF%8D%E5%BA%A6%E9%AB%98.html</loc>
+    
+    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/daily/0419%20-%20%E7%BB%8F%E9%AA%8C%EF%BC%8C%E8%BF%98%E6%98%AF%E6%B2%89%E6%B2%A1%E6%88%90%E6%9C%AC.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
@@ -13281,28 +13309,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0404%20-%20%E5%8F%AA%E7%A7%AF%E7%B4%AF%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%8F%AA%E5%81%9A%E6%A0%B8%E5%BF%83%E4%B8%9A%E5%8A%A1.html</loc>
+    <loc>https://atjason.com/daily/0403%20-%20%E6%95%B0%E5%AD%97%E6%B8%B8%E6%B0%91.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0420%20-%20%E7%9D%80%E6%80%A5%E8%B5%B6%E8%B7%AF%EF%BC%8C%E5%88%AB%E6%8A%8A%E8%A1%A8%E5%BC%84%E4%B8%A2%E4%BA%86.html</loc>
-    
-    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/0423%20-%20%E8%A2%AB%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E5%BA%93%E7%BB%99%E5%9D%91%E4%BA%86.html</loc>
-    
-    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/0424%20-%20iHosts%20%E7%BB%88%E4%BA%8E%E6%8F%90%E4%BA%A4%E4%B8%8A%E6%9E%B6%E5%95%A6%EF%BC%81.html</loc>
+    <loc>https://atjason.com/daily/0421%20-%20%E8%A6%81%E5%9D%9A%E6%8C%81%EF%BC%8C%E6%94%BE%E5%BC%83%E5%8F%AA%E5%9C%A8%E4%B8%80%E5%BF%B5%E9%97%B4.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13316,21 +13330,14 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/daily/0424%20-%20iHosts%20%E7%BB%88%E4%BA%8E%E6%8F%90%E4%BA%A4%E4%B8%8A%E6%9E%B6%E5%95%A6%EF%BC%81.html</loc>
+    
+    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/daily/0425%20-%20%E8%8A%82%E5%A5%8F%E3%80%81%E8%8A%82%E5%A5%8F%E3%80%81%E8%BF%98%E6%98%AF%E8%8A%82%E5%A5%8F.html</loc>
-    
-    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/0427%20-%20%E5%A6%82%E6%9E%9C%E4%B8%8D%E8%83%BD%E6%8C%89%E6%83%B3%E7%9A%84%E6%96%B9%E5%BC%8F%E6%B4%BB%EF%BC%8C%E5%B0%B1%E4%BC%9A%E6%8C%89%E6%B4%BB%E7%9A%84%E6%96%B9%E5%BC%8F%E6%83%B3.html</loc>
-    
-    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/daily/0429%20-%20%E8%BF%98%E6%98%AF%E5%BE%97%E5%A4%9A%E8%BF%90%E5%8A%A8.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13344,7 +13351,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0430%20-%20%E5%85%85%E5%88%86%E5%88%A9%E7%94%A8%E4%BC%98%E5%8A%BF.html</loc>
+    <loc>https://atjason.com/daily/0427%20-%20%E5%A6%82%E6%9E%9C%E4%B8%8D%E8%83%BD%E6%8C%89%E6%83%B3%E7%9A%84%E6%96%B9%E5%BC%8F%E6%B4%BB%EF%BC%8C%E5%B0%B1%E4%BC%9A%E6%8C%89%E6%B4%BB%E7%9A%84%E6%96%B9%E5%BC%8F%E6%83%B3.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13352,6 +13359,20 @@
   
   <url>
     <loc>https://atjason.com/daily/0428%20-%20%E5%81%9C%E4%B8%8B%E6%9D%A5%E6%97%B6%EF%BC%8C%E4%B8%8D%E7%9F%A5%E6%89%80%E6%8E%AA.html</loc>
+    
+    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/0429%20-%20%E8%BF%98%E6%98%AF%E5%BE%97%E5%A4%9A%E8%BF%90%E5%8A%A8.html</loc>
+    
+    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/daily/0430%20-%20%E5%85%85%E5%88%86%E5%88%A9%E7%94%A8%E4%BC%98%E5%8A%BF.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13372,14 +13393,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0503%20-%20iHosts%20%E7%BB%88%E4%BA%8E%E4%B8%8A%E6%9E%B6%20Mac%20App%20Store%E4%BA%86.html</loc>
+    <loc>https://atjason.com/daily/0504%20-%20%E6%95%B4%E5%90%88%E4%BF%A1%E6%81%AF%E7%9A%84%E8%83%BD%E5%8A%9B.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/daily/0504%20-%20%E6%95%B4%E5%90%88%E4%BF%A1%E6%81%AF%E7%9A%84%E8%83%BD%E5%8A%9B.html</loc>
+    <loc>https://atjason.com/daily/0503%20-%20iHosts%20%E7%BB%88%E4%BA%8E%E4%B8%8A%E6%9E%B6%20Mac%20App%20Store%E4%BA%86.html</loc>
     
     <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
@@ -13407,70 +13428,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/711.html</loc>
+    <loc>https://atjason.com/daily/0423%20-%20%E8%A2%AB%E4%B8%80%E4%B8%AA%E5%BC%80%E6%BA%90%E5%BA%93%E7%BB%99%E5%9D%91%E4%BA%86.html</loc>
     
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/func.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    <lastmod>2017-04-23T08:44:53.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/715.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/693.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/507.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/source.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/545.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/348.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/579.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/printf.html</loc>
+    <loc>https://atjason.com/Git/2.1_GetGit.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
@@ -13484,49 +13449,28 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/270.html</loc>
+    <loc>https://atjason.com/727.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/Git/2.1_GetGit.html</loc>
+    <loc>https://atjason.com/Shell/func.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/230.html</loc>
+    <loc>https://atjason.com/Shell/printf.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/586.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/6.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/292.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Git/2.3_CommitHistory.html</loc>
+    <loc>https://atjason.com/Shell/source.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
@@ -13534,13 +13478,6 @@
   
   <url>
     <loc>https://atjason.com/519.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/319.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
@@ -13568,6 +13505,97 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/415.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/564.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/230.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/545.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/579.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/715.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/711.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/708.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/410.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/6.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/474.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/343.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/586.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/218.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
@@ -13582,21 +13610,49 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/559.html</loc>
+    <loc>https://atjason.com/463.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/343.html</loc>
+    <loc>https://atjason.com/319.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/474.html</loc>
+    <loc>https://atjason.com/693.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/292.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/348.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/270.html</loc>
+    
+    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/507.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
@@ -13610,21 +13666,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/410.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/727.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/415.html</loc>
+    <loc>https://atjason.com/559.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
@@ -13638,196 +13680,28 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/564.html</loc>
+    <loc>https://atjason.com/Git/2.3_CommitHistory.html</loc>
     
     <lastmod>2016-12-06T04:43:10.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/463.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/708.html</loc>
-    
-    <lastmod>2016-12-06T04:43:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/276.html</loc>
+    <loc>https://atjason.com/247.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/713.html</loc>
+    <loc>https://atjason.com/243.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/702.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/251.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/206.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/406.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/742.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/300.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/22.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/228.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/260.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/296.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/workflow.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/variant.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/string.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/operator.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/param.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/let.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/echo.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/Shell/array.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/324.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/489.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/273.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/423.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/706.html</loc>
+    <loc>https://atjason.com/484.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
@@ -13848,35 +13722,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/484.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/234.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/247.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://atjason.com/243.html</loc>
-    
-    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://atjason.com/512.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/423.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
@@ -13890,7 +13743,42 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/276.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/489.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/273.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/9.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/324.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/702.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
@@ -13904,14 +13792,42 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/417.html</loc>
+    <loc>https://atjason.com/706.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/Git/7.5_Search.html</loc>
+    <loc>https://atjason.com/713.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/296.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/260.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/22.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/228.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
@@ -13925,7 +13841,14 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/524.html</loc>
+    <loc>https://atjason.com/417.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/234.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
@@ -13939,6 +13862,20 @@
   </url>
   
   <url>
+    <loc>https://atjason.com/524.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/Shell/param.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://atjason.com/598.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
@@ -13946,7 +13883,77 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/Git/2.6_Tag.html</loc>
+    <loc>https://atjason.com/Shell/workflow.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/Shell/string.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/742.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/Shell/variant.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/Shell/operator.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/Shell/let.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/406.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/206.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/Shell/echo.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/Shell/array.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/Git/7.5_Search.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
@@ -13960,14 +13967,35 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/categories/index.html</loc>
+    <loc>https://atjason.com/Git/2.5_Remote.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://atjason.com/Git/2.5_Remote.html</loc>
+    <loc>https://atjason.com/251.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/Git/2.6_Tag.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/tags/index.html</loc>
+    
+    <lastmod>2016-12-06T04:43:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://atjason.com/categories/index.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
@@ -13981,7 +14009,7 @@
   </url>
   
   <url>
-    <loc>https://atjason.com/tags/index.html</loc>
+    <loc>https://atjason.com/300.html</loc>
     
     <lastmod>2016-12-06T04:43:09.000Z</lastmod>
     
