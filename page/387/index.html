@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/569.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/666.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/569.html" itemprop="url">
-                  在手机上运行Axure设计的原型
+                <a class="post-title-link" href="/666.html" itemprop="url">
+                  2015年第6本书《重来》
                 </a>
               
             
@@ -307,8 +307,154 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-14T16:18:40+08:00">
-                2014-07-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-28T22:03:17+08:00">
+                2015-05-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/读书笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">读书笔记</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="https://www.amazon.cn/gp/product/B0048EKQS0/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B0048EKQS0&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external"><img src="https://ps.toolinbox.net/os9ql.jpg" alt=""></a></p>
+<p>今年计划看50本书，过了快一半，才看了5本。</p>
+<p>无意间翻到这本《重来》，翻了几页就发现特别对胃口，书中的观点非常认同，看着看着就想一直看下来。虽没有一次读完，也差不多四次就读完了。书不厚，每个小主题都有插图，看起来也不觉得累。</p>
+<p>这本书主要讲的是大名鼎鼎的37signals介绍小团队创业相关的事，包括要保持小团队、做自己喜欢并使用的产品、以产品为主、万不得已再招人、保持精简、等等。总之是涉及到了产品到公司的很多层面。非常喜欢，应该会再认真读一遍。</p>
+<p>还是要看书，不然思想都没什么变化，也懒得思考，这样老的太快了。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/654.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/654.html" itemprop="url">
+                  Origami之于滴答清单—侧边栏的交互
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-26T20:19:03+08:00">
+                2015-05-26
               </time>
             
 
@@ -366,50 +512,54 @@
       
         
           
-            <p>对于移动App的原型，如果能在手机上运行，像本地程度一样运行，会带来更真实的体验。本文简要记录使Axure原型能在iPhone 5s上运行</p>
-<p># </p>
-<pre><code>使用Axure设计原型并导出
-
-Axure设计时，和普通原型设计要比，要注意的地方有几点：
-
-**原型尺寸的选择**
-
-iOS的屏幕尺寸目前是有限的几种，原型尺寸要和其一致。比如320*640。不过，由于Axure导出的原型在iOS上处理status bar时有问题，需要在高度上减去status bar的高度，比如使用320*548
-
-**导出原型时的选项**
-
-在&amp;quot;Public &amp;gt; Generate HTML files &amp;gt; Mobile/Device&amp;quot;中，使用如下选项：
-
-more
-
-[![](https://ps.toolinbox.net/jii4g.png)​](https://ps.toolinbox.net/lrq4b.png)
-
-注意，为了使原型更加逼真，可以使用实际App会采用的真实图标
-</code></pre><p># </p>
-<pre><code>在iPhone 5s上测试
-
-将导出的html放在web服务器中，使其可以在其他环境中访问。比如Mac自带的Apache、自己的小网站，等等。比如，本文对应的原型可以在这访问：[http://atjason.com/Axure/iPhone_Framework/home.html](http://atjason.com/Axure/iPhone_Framework/home.html)
-
-在iPhone上使用Safari打开，然后添加至桌面：&amp;quot;Share &amp;gt; Add to Home Screen &amp;gt; Add&amp;quot;
-
-从手机桌面打开此原型，即可得到类似于原生App的使用体验
-
-注，本文以iOS、iPhone 5s为例，其实对于其他Android手机、其他分辨率，原理是相同的
-</code></pre><p>## </p>
-<pre><code>下载
-
-[iPhone Framework.rp](http://atjason.com/Axure/iPhone_Framework.rp)
-</code></pre><p>### </p>
-<pre><code>参考
+            <p>以下就开始整个模仿的过程，大致分为三步。</p>
+<h1 id="1，想清楚交互的具体过程"><a href="#1，想清楚交互的具体过程" class="headerlink" title="1，想清楚交互的具体过程"></a>1，想清楚交互的具体过程</h1><p>侧边栏的交互并不复杂，拆分结束后，大致可分为以下的交互、或者说动画：</p>
+<ul>
+<li><p>任务列表左移、右</p>
+</li>
+<li><p>侧边栏保持不动，被任务列表盖</p>
+</li>
+<li><p>两种方式触发页面的切换</p>
+<pre><code>*   点击抽屉图
 </code></pre><ul>
-<li><p><a href="http://www.axure.com/forum/mobile-prototyping/7886-viewport-sizing-problems.html" target="_blank" rel="external">http://www.axure.com/forum/mobile-prototyping/7886-viewport-sizing-problems.html</a></p>
-</li>
-<li><p><a href="http://www.smashingmagazine.com/2012/08/17/mobile-prototyping-axure-rp/" target="_blank" rel="external">http://www.smashingmagazine.com/2012/08/17/mobile-prototyping-axure-rp/</a></p>
-</li>
-<li><p><a href="http://cdc.tencent.com/?p=7246" target="_blank" rel="external">http://cdc.tencent.com/?p=7246</a></p>
-<p>EndFragment</p>
+<li>滑动任务列表界面</li>
+</ul>
 </li>
 </ul>
+<h1 id="2，准备素材"><a href="#2，准备素材" class="headerlink" title="2，准备素材"></a>2，准备素材</h1><p>其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：</p>
+<ul>
+<li><p>手机状态栏</p>
+<pre><code>*   注意：状态栏背景应该是全透明的，这样可以显示下面页面的颜
+</code></pre></li>
+<li><p>侧边</p>
+</li>
+<li><p>任务列表界面</p>
+</li>
+</ul>
+<p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel_Asset.zip">下载素材</a>。</p>
+<h1 id="3，逐步实现交互"><a href="#3，逐步实现交互" class="headerlink" title="3，逐步实现交互"></a>3，逐步实现交互</h1><h2 id="布置静态界面"><a href="#布置静态界面" class="headerlink" title="布置静态界面"></a>布置静态界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。</p>
+<p>注意Layer的上下层次，从上到下依次是：状态栏、任务列表、侧边栏</p>
+<p>实现后的QC界面大概是：</p>
+<p><img src="https://ps.toolinbox.net/t7dwd.jpg" alt=""></p>
+<h2 id="确认交互的触发方式"><a href="#确认交互的触发方式" class="headerlink" title="确认交互的触发方式"></a>确认交互的触发方式</h2><p>由于点击抽屉图标和滑动任务列表界面都可以触发交互，所以考虑先实现一种触发方式，然后用另一种方式来调用第一种方式。</p>
+<p>技巧：优先实现滑动的触发方式，然后使用点击来设置滑动的起始状态即可。</p>
+<h2 id="实现滑动交互"><a href="#实现滑动交互" class="headerlink" title="实现滑动交互"></a>实现滑动交互</h2><p>这点并不复杂，使用简单的Swipe Patch，明确起始位置即可。</p>
+<p>实现后的QC界面大概是：</p>
+<p><img src="https://ps.toolinbox.net/agxom.jpg" alt=""></p>
+<h2 id="实现点击交互"><a href="#实现点击交互" class="headerlink" title="实现点击交互"></a>实现点击交互</h2><p>这里要处理的是，在不同的情况，点击所触发的行为是不一致的。也就是说</p>
+<ul>
+<li><p>在侧边栏隐藏时，点击抽屉图标应该显示侧边</p>
+</li>
+<li><p>在侧边栏显示时，点击抽屉图标应该隐藏侧边栏</p>
+</li>
+</ul>
+<p>这就意味着要做条件判断。条件判断可以使用Condition来实现，简单的判断任务列表界面的X位置即可。然后，将不同状态下点击的行为，用于设置滑动操作切换到起始、或终止的位置即可。</p>
+<p>实现后的QC界面大概是：</p>
+<p><img src="https://ps.toolinbox.net/qyd1u.jpg" alt=""></p>
+<p>另一种更巧妙的办法是，点击切换滑动的起始状态即可。</p>
+<p>实现后的QC界面大概是：</p>
+<p><img src="https://ps.toolinbox.net/1j0dk.jpg" alt=""></p>
+<p>好，这样就完成了整个交互设计，大家可以到这里下载<a href="http://atjason.com/wp-content/uploads/2015/05/LeftPanel.zip">Origami工程文件</a>。</p>
 
           
         
@@ -453,7 +603,7 @@ more
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/564.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/629.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -475,8 +625,8 @@ more
             
               
                 
-                <a class="post-title-link" href="/564.html" itemprop="url">
-                  使用UnixBench为Linux跑分
+                <a class="post-title-link" href="/629.html" itemprop="url">
+                  Origami之于滴答清单—添加任务的交互
                 </a>
               
             
@@ -492,570 +642,8 @@ more
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-13T12:46:35+08:00">
-                2014-07-13
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>跑分软件感觉是被Android玩烂了，突然也想测试下手上的Radxa和Linode VPS的性能怎样</p>
-<p># </p>
-<pre><code>UnixBench介绍
-
-简单搜索了下，找到了Linux下较常用的UnixBench，是linux、unix测试系统基准性能的经典工具，UnixBench测试包含了系统调用、读写、进程、2D、3D、管道、运算、C库等系统基准性能，它的优点在于提供了对系统性能的一种评价体系，为系统评分，如此方便对系统作对比测试；但UnixBench在网络性能测试欠缺
-
-UnixBench的使用方法如下：
-</code></pre><h1 id="Download-the-latest-version"><a href="#Download-the-latest-version" class="headerlink" title="Download the latest version"></a>Download the latest version</h1><p>wget <a href="https://byte-unixbench.googlecode.com/files/UnixBench5.1.3.tgz" target="_blank" rel="external">https://byte-unixbench.googlecode.com/files/UnixBench5.1.3.tgz</a>;</p>
-<p>tar xzf UnixBench-5.1.3.tar.gz;</p>
-<p>cd UnixBench;</p>
-<h1 id="Disable-graphic-test-as-no-desktop-for-Linux-installed"><a href="#Disable-graphic-test-as-no-desktop-for-Linux-installed" class="headerlink" title="Disable graphic test as no desktop for Linux installed"></a>Disable graphic test as no desktop for Linux installed</h1><p>sed -i &quot;s/GRAPHIC_TESTS = defined/#GRAPHIC_TESTS = defined/g&quot; ./Makefile</p>
-<p>make;</p>
-<p>./Run;</p>
-<pre><code>执行后就耐心等待结果就行，依据机器性能不同，大概需要10分钟
-</code></pre><p># </p>
-<pre><code>UnixBench测试结果
-
-Radxa的执行结果：
-
-more
-
-========================================================================
-
- BYTE UNIX Benchmarks (Version 5.1.3)
-
- System: radxa: GNU/Linux
-
- OS: GNU/Linux -- 3.0.36+ -- #2 SMP PREEMPT Sat Mar 15 11:18:05 CST 2014
-
- Machine: armv7l (armv7l)
-
- Language: en_US.utf8 (charmap=&amp;quot;ANSI_X3.4-1968&amp;quot;, collate=&amp;quot;ANSI_X3.4-1968&amp;quot;)
-
- 11:50:03 up 12 days, 14:42, 4 users, load average: 0.54, 0.31, 0.58; runlevel 2
-
-------------------------------------------------------------------------
-
-Benchmark Run: Sun Jul 13 2014 11:50:03 - 12:18:17
-
-0 CPUs in system; running 1 parallel copy of tests
-
-Dhrystone 2 using register variables    6077940.3 lps  (10.0 s, 7 samples)
-
-Double-Precision Whetstone           995.3 MWIPS (9.9 s, 7 samples)
-
-Execl Throughput                294.0 lps  (29.5 s, 2 samples)
-
-File Copy 1024 bufsize 2000 maxblocks    129538.0 KBps (30.0 s, 2 samples)
-
-File Copy 256 bufsize 500 maxblocks      40792.2 KBps (30.0 s, 2 samples)
-
-File Copy 4096 bufsize 8000 maxblocks    325214.2 KBps (30.0 s, 2 samples)
-
-Pipe Throughput               271265.0 lps  (10.0 s, 7 samples)
-
-Pipe-based Context Switching         64658.0 lps  (10.0 s, 7 samples)
-
-Process Creation                831.6 lps  (30.0 s, 2 samples)
-
-Shell Scripts (1 concurrent)          1785.6 lpm  (60.0 s, 2 samples)
-
-Shell Scripts (8 concurrent)          370.0 lpm  (60.1 s, 2 samples)
-
-System Call Overhead            1007757.5 lps  (10.0 s, 7 samples)
-
-System Benchmarks Index Values        BASELINE    RESULT  INDEX
-
-Dhrystone 2 using register variables     116700.0  6077940.3  520.8
-
-Double-Precision Whetstone            55.0    995.3  181.0
-
-Execl Throughput                 43.0    294.0   68.4
-
-File Copy 1024 bufsize 2000 maxblocks     3960.0   129538.0  327.1
-
-File Copy 256 bufsize 500 maxblocks      1655.0   40792.2  246.5
-
-File Copy 4096 bufsize 8000 maxblocks     5800.0   325214.2  560.7
-
-Pipe Throughput                12440.0   271265.0  218.1
-
-Pipe-based Context Switching          4000.0   64658.0  161.6
-
-Process Creation                126.0    831.6   66.0
-
-Shell Scripts (1 concurrent)           42.4    1785.6  421.1
-
-Shell Scripts (8 concurrent)           6.0    370.0  616.6
-
-System Call Overhead             15000.0  1007757.5  671.8
-
-                                 ========
-
-System Benchmarks Index Score                     264.7
-
-Linode 1GB的执行结果：
-
-========================================================================
-
- BYTE UNIX Benchmarks (Version 5.1.3)
-
- System: li715-76: GNU/Linux
-
- OS: GNU/Linux -- 3.15.3-x86_64-linode44 -- #1 SMP Tue Jul 1 15:51:04 EDT 2014
-
- Machine: x86_64 (x86_64)
-
- Language: en_US.utf8 (charmap=&amp;quot;UTF-8&amp;quot;, collate=&amp;quot;UTF-8&amp;quot;)
-
- CPU 0: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz (5602.5 bogomips)
-
-     Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
-
- 11:50:02 up 8 days, 19:34, 1 user, load average: 0.08, 0.09, 0.51; runlevel 2
-
-------------------------------------------------------------------------
-
-Benchmark Run: Sun Jul 13 2014 11:50:02 - 12:18:09
-
-1 CPU in system; running 1 parallel copy of tests
-
-Dhrystone 2 using register variables    29753198.8 lps  (10.0 s, 7 samples)
-
-Double-Precision Whetstone           3944.6 MWIPS (9.9 s, 7 samples)
-
-Execl Throughput                1619.4 lps  (30.0 s, 2 samples)
-
-File Copy 1024 bufsize 2000 maxblocks    319724.7 KBps (30.0 s, 2 samples)
-
-File Copy 256 bufsize 500 maxblocks      82858.8 KBps (30.0 s, 2 samples)
-
-File Copy 4096 bufsize 8000 maxblocks    957790.3 KBps (30.0 s, 2 samples)
-
-Pipe Throughput               458770.0 lps  (10.0 s, 7 samples)
-
-Pipe-based Context Switching         74230.2 lps  (10.0 s, 7 samples)
-
-Process Creation                2963.8 lps  (30.0 s, 2 samples)
-
-Shell Scripts (1 concurrent)          3719.2 lpm  (60.0 s, 2 samples)
-
-Shell Scripts (8 concurrent)          494.0 lpm  (60.1 s, 2 samples)
-
-System Call Overhead             474360.8 lps  (10.0 s, 7 samples)
-
-System Benchmarks Index Values        BASELINE    RESULT  INDEX
-
-Dhrystone 2 using register variables     116700.0  29753198.8  2549.5
-
-Double-Precision Whetstone            55.0    3944.6  717.2
-
-Execl Throughput                 43.0    1619.4  376.6
-
-File Copy 1024 bufsize 2000 maxblocks     3960.0   319724.7  807.4
-
-File Copy 256 bufsize 500 maxblocks      1655.0   82858.8  500.7
-
-File Copy 4096 bufsize 8000 maxblocks     5800.0   957790.3  1651.4
-
-Pipe Throughput                12440.0   458770.0  368.8
-
-Pipe-based Context Switching          4000.0   74230.2  185.6
-
-Process Creation                126.0    2963.8  235.2
-
-Shell Scripts (1 concurrent)           42.4    3719.2  877.2
-
-Shell Scripts (8 concurrent)           6.0    494.0  823.3
-
-System Call Overhead             15000.0   474360.8  316.2
-
-                                 ========
-
-System Benchmarks Index Score                     587.5
-
-Radxa基本参数：
-
-
-
-
-
-
-
-
-
-
-
-                    System
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    CPU
-
-
-
-
-
-                    ARM Cortex-A9 quad core @ 1.6Ghz
-
-
-
-
-
-
-
-
-
-                    Memory
-
-
-
-
-
-                    2GB DDR3 @ 800Mhz
-
-
-
-
-
-
-
-
-
-                    Storage
-
-
-
-
-
-                    8GB Nand Flash
-
-
-
-
-
-
-
-
-
-
-
-Linode 1GB基本参数：
-
-
-
-
-
-
-
-
-
-                System
-
-
-
-
-
-
-
-
-
-
-
-
-
-                CPU
-
-
-
-
-
-                单核Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz
-
-
-
-
-
-
-
-
-
-                Memory
-
-
-
-
-
-                1GB
-
-
-
-
-
-
-
-
-
-                Storage
-
-
-
-
-
-                24GB SSD Storage
-
-
-
-
-
-
-
-
-
-可以看出，表面参数占优的ARM板子Radxa还是输给了Linode的VPS。不过，需要说明的是，VPS都是多个共用一个服务器资源，所以，测试结果并不代表可以使用到这么多资源
-</code></pre><p># </p>
-<pre><code>UnixBench测试结果的解释
-
-1. ***********************
-
-Dhrystone 2 using register variables 1 2 3 4 5 6 7 8 9 10
-
-此项产生于 1984，测试 string handling，因为没有浮点操作，所以深受软件和硬件设计（hardware and software design）、编译和链接（compiler and linker options）、代码优化（code optimazaton）、对内存的cache（cache memory）、等待状态（wait states）、整数数据类型（integer data types）的影响
-
-2. ********************
-
-Double-Precision Whetstone 1 2 3 4 5 6 7 8 9 10
-
-这一项测试浮点数操作的速度和效率。这一测试包括几个模块，每个模块都包括一组用于科学计算的操作。覆盖面很广的一系列 c 函数：sin，cos，sqrt，exp，log 被用于整数和浮点数的数学运算、数组访问、条件分支（conditional branch）和程序调用。此测试同时测试了整数和浮点数算术运算。
-
-3. **************
-
-System Call Overhead 1 2 3 4 5 6 7 8 9 10
-
-测试进入和离开操作系统内核的代价，即一次系统调用的代价。它利用一个反复地调用 getpid 函数的小程序达到此目的。
-
-4. ***************
-
-Pipe Throughput 1 2 3 4 5 6 7 8 9 10
-
-管道（pipe）是进程间交流的最简单方式，这里的 Pipe throughtput 指的是一秒钟内一个进程可以向一个管道写 512 字节数据然后再读回的次数。需要注意的是，pipe throughtput 在实际编程中没有对应的真实存在。
-
-5. *************
-
-Pipe-based Context Switching 1 2 3 4 5 6 7 8 9 10
-
-这个测试两个进程（每秒钟）通过一个管道交换一个不断增长的整数的次数。这一点很向现实编程中的一些应用，这个测试程序首先创建一个子进程，再和这个子进程进行双向的管道传输。
-
-6. ************
-
-Process Creation 1 2 3
-
-测试每秒钟一个进程可以创建子进程然后收回子进程的次数（子进程一定立即退出）。process creation 的关注点是新进程进程控制块（process control block）的创建和内存分配，即一针见血地关注内存带宽。一般说来，这个测试被用于对操作系统进程创建这一系统调用的不同实现的比较。
-
-7. ***********
-
-Execl Throughput 1 2 3
-
-此测试考察每秒钟可以执行的 execl 系统调用的次数。 execl 系统调用是 exec 函数族的一员。它和其他一些与之相似的命令一样是 execve（） 函数的前端。
-
-8. ***********
-
-File copy
-
-测试从一个文件向另外一个文件传输数据的速率。每次测试使用不同大小的缓冲区。这一针对文件 read、write、copy 操作的测试统计规定时间（默认是 10s）内的文件 read、write、copy 操作次数。
-
-9. **********
-
-Shell Scripts
-
-测试一秒钟内一个进程可以并发地开始一个 shell 脚本的 n 个拷贝的次数，n 一般取值 1，2，4，8.（我的系统上取 1， 8， 16）。这个脚本对一个数据文件进行一系列的变形操作（transformation）
-
-10. *********
-
-Arithmetic Test
-
-11. *************
-
-Arithoh 1 2 3
-
-12. *************
-
-C Compiler Throughput 1 2 3
-
-13. *************
-
-Dc: sqrt(2) to 99 decimal places 1 2 3
-
-sqrt（2） 到 99 位小数
-
-14. *************
-
-Recursion Test--Tower of Hanoi 1 2 3
-
-15. *************
-
-join: file 2 is not in sorted order
-
-join: file 1 is not in sorted order
-</code></pre><p>### </p>
-<pre><code>参考
-</code></pre><ul>
-<li><p><a href="https://code.google.com/p/byte-unixbench/" target="_blank" rel="external">https://code.google.com/p/byte-unixbench/</a></p>
-</li>
-<li><p><a href="http://www.ddhow.com/blog/unixbench.html" target="_blank" rel="external">http://www.ddhow.com/blog/unixbench.html</a></p>
-</li>
-<li><p><a href="http://www.cnblogs.com/share-everything-i-do/articles/3179213.html" target="_blank" rel="external">http://www.cnblogs.com/share-everything-i-do/articles/3179213.html</a></p>
-</li>
-<li><p><a href="http://lbs.sourceforge.net/" target="_blank" rel="external">http://lbs.sourceforge.net/</a></p>
-<p>EndFragment</p>
-</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/559.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/559.html" itemprop="url">
-                  Origami初入门
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-09T15:25:50+08:00">
-                2014-07-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-25T18:32:16+08:00">
+                2015-05-25
               </time>
             
 
@@ -1113,58 +701,111 @@ join: file 1 is not in sorted order
       
         
           
-            <p>最近粗粗得了解了Origami，这里简要记录过程及对Origami的理解</p>
-<p># </p>
-<pre><code>Origami是什么
-
-一句话，Origami是一款用来设计高保真、可交互产品原型的工具
-
-XCode是Mac进行开发的工具，Quartz Composer（以下简称QC）是基于XCode进行UI开发、原型设计的工具，Origami是Facebook对QC封装后得到的Patch库，降低了QC的使用门槛，使QC的界面变得更加友好，更加适合进行移动App的界面设计
-</code></pre><p># </p>
-<pre><code>Paper来背书
-
-2014年初，Facebook重磅推出一款拥有超华丽界面的新闻聚合应用：Paper，它有许多复杂的动画：在一个屏幕内翻页和切换主题，滑动移动版块提取新闻，灵活的互动让用户仿佛感觉不到屏幕上玻璃的存在，富有诗情画意的3D效果更是给App增加了无限立体感。而这些交互都是使用Origami进行原型设计，足见其强大
-
-more
-</code></pre><p># </p>
-<pre><code>Origami的优缺点
-
-优点
+            <p>滴答清单是已经存在的产品，其中延期也包含了添加任务的交互。这里并不是使用Origami去设计，而是使用Origami去模仿，达到学习Origami的目的。</p>
+<p>关于滴答清单，本文模仿的是iOS1.9.4版本的滴答清单，可以在滴答清单官网去下载：<a href="http://www.dida365.com" target="_blank" rel="external">http://www.dida365.com</a></p>
+<p>好，以下就开始整个模仿的过程，大致分为三步。</p>
+<h1 id="一，想清楚交互的具体过程"><a href="#一，想清楚交互的具体过程" class="headerlink" title="一，想清楚交互的具体过程"></a>一，想清楚交互的具体过程</h1><p>也就是说，实际操作滴答清单，了解添加任务的过程，然后逐渐对整个交互进行拆解。过程中，可以使用高速录像后慢放的方式，了解动画的细节。</p>
+<p>拆分结束后，大致可分为以下的交互、或者说动画：</p>
+<ul>
+<li><p>正向（即添加任务）</p>
+<pre><code>*   加号键逐渐放大、消
 </code></pre><ul>
-<li><p>交互设计功能强大</p>
+<li><p>同时完成以下交</p>
 </li>
-<li><p>基础操作简便，拖放即可</p>
+<li><p>标题栏文字和图标切</p>
 </li>
-<li><p>适合进行移动App原型设计</p>
-<p>缺点</p>
+<li><p>主页面切</p>
 </li>
-<li><p>学习门槛高</p>
-</li>
-<li><p>只能在Mac上进行设计</p>
-</li>
-<li><p>设计出的原型只能在Mac上体验，而不能在手机等目标设备上运行，这一点个人觉得效果大大折扣</p>
+<li><p>键盘升</p>
 </li>
 </ul>
-<p># </p>
-<pre><code>Origami的学习渠道
+</li>
+<li><p>反向（即从添加任务状态返回）</p>
+<pre><code>*   两种方式触发返
 </code></pre><ul>
-<li><p>Origami官方<a href="http://facebook.github.io/origami/examples/" target="_blank" rel="external">Examples</a>:</p>
+<li><p>点击返回</p>
 </li>
-<li><p>Facebook上<a href="https://www.facebook.com/groups/origami.community/" target="_blank" rel="external">Origami群组</a>：</p>
+<li><p>屏幕右滑（本期暂时不包含这一功能</p>
 </li>
-<li><p>网上其它人发布的教程，如<a href="http://www.pasanpremaratne.com/2014/03/15/UI-Prototyping-with-Quartz-Composer-and-Origami/" target="_blank" rel="external">这篇</a></p>
+<li><p>同时完成以下交</p>
 </li>
-<li><p>网上高手发布的例子，如<a href="https://dribbble.com/search?q=origami+quartz" target="_blank" rel="external">这篇</a></p>
+<li><p>标题栏文字和图标切</p>
+</li>
+<li><p>主页面切换</p>
+<pre><code>*   注：加号键和页面同时出现，没有动
+</code></pre></li>
+<li><p>键盘下降</p>
 </li>
 </ul>
-<p>### </p>
-<pre><code>引用
-</code></pre><ul>
-<li><p><a href="http://facebook.github.io/origami/" target="_blank" rel="external">http://facebook.github.io/origami/</a></p>
-</li>
-<li><p><a href="https://github.com/facebook/origami" target="_blank" rel="external">https://github.com/facebook/origami</a></p>
 </li>
 </ul>
+<h1 id="二，准备素材"><a href="#二，准备素材" class="headerlink" title="二，准备素材"></a>二，准备素材</h1><p>其实Origami主要是用来设计交互、动画，其前置条件是已经有完整的图片资源。主要包含收下部分：</p>
+<ul>
+<li><p>图标：抽屉、菜单、返</p>
+</li>
+<li><p>图片：状态栏及标题栏、任务列表界面、新任务页面、键盘页面、加号键</p>
+</li>
+</ul>
+<p>大家如果要练手的话，可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/Assets.zip">下载素材</a>：</p>
+<h1 id="三，逐步实现交互"><a href="#三，逐步实现交互" class="headerlink" title="三，逐步实现交互"></a>三，逐步实现交互</h1><p>以下是主要的部分，放在一个步骤里，显示有些大了。不过不用担心，还是一步步完成的。</p>
+<h2 id="布置静态的任务列表界面"><a href="#布置静态的任务列表界面" class="headerlink" title="布置静态的任务列表界面"></a>布置静态的任务列表界面</h2><p>其实主要是根据程序，将内容、素材摆放在界面相应的位置上。具体的内容和素材包括：</p>
+<ul>
+<li><p>标题栏：背影、图标、文</p>
+</li>
+<li><p>内容界</p>
+</li>
+<li><p>加号键</p>
+</li>
+</ul>
+<p>小技巧：可将截图放在最上方，并使其半透明，这样就可以使用截图来校对元素在界面上的位置</p>
+<p>布置好后是这样的：</p>
+<p><img src="https://ps.toolinbox.net/cswp7.png" alt="任务列表界面"></p>
+<h2 id="依次实现以下任务列表界面的交互"><a href="#依次实现以下任务列表界面的交互" class="headerlink" title="依次实现以下任务列表界面的交互"></a>依次实现以下任务列表界面的交互</h2><ul>
+<li><p>消息的触发</p>
+<pre><code>*   以点击加号键任务交互的触发点。可以将按下加号键的消息以Wireless的方式广播出去，这样可以方便得在其它LayerGroup中使用
+</code></pre></li>
+<li><p>点击加号键后，加号键逐渐放大、消失</p>
+<pre><code>*   也即修改Scale、Opacity属性，使得加号键在放大的过程中同时消失
+</code></pre></li>
+<li><p>标题栏图标的切换</p>
+<pre><code>*   也即修改Opacity属性，使得图标在过渡过程中消
+</code></pre></li>
+<li><p>标题栏文字的切换</p>
+<pre><code>*   也即修改XPosition、Opacity属性，使得图标在左移过程中消
+</code></pre></li>
+<li><p>主页面切换</p>
+<pre><code>*   也即修改Opacity属性，使得内容在左移过程中消失
+</code></pre></li>
+</ul>
+<p>QC中的界面大致是这样的：</p>
+<p><img src="https://ps.toolinbox.net/v679h.jpg" alt=""></p>
+<h2 id="创建Layer-Group"><a href="#创建Layer-Group" class="headerlink" title="创建Layer Group"></a>创建Layer Group</h2><p>将任务列表的所有内容放置在一个LayerGroup中，同时创建另一个LayerGroup，用于放置新任务的内容。暂时关闭任务列表界面，进行接下来新任务界面的设计。</p>
+<p><img src="https://ps.toolinbox.net/f09x4.jpg" alt="Layer Group"></p>
+<h2 id="布置静态的新任务界面"><a href="#布置静态的新任务界面" class="headerlink" title="布置静态的新任务界面"></a>布置静态的新任务界面</h2><p>这一点和上面介绍的布置静态任务列表界面类似，这里就不多做介绍。布置好后是这样的：</p>
+<p><img src="https://ps.toolinbox.net/lpztp.png" alt="新任务界面"></p>
+<h2 id="依次实现以下新任务界面的交互"><a href="#依次实现以下新任务界面的交互" class="headerlink" title="依次实现以下新任务界面的交互"></a>依次实现以下新任务界面的交互</h2><ul>
+<li><p>消息的触发</p>
+<pre><code>*   以点击返回键任务交互的触发点、暂时不处理滑动返回操作。同时的，可以将该消息以Wireless的方式广播出去
+</code></pre></li>
+<li><p>标题栏图标的切换</p>
+<pre><code>*   也即修改Opacity属性，使得图标在过渡过程中消
+</code></pre></li>
+<li><p>标题栏文字的切换</p>
+<pre><code>*   也即修改XPosition、Opacity属性，使得图标在右移过程中消
+</code></pre></li>
+<li><p>主页面切换</p>
+<pre><code>*   也即修改Opacity属性，使得内容在左移过程中消
+</code></pre></li>
+<li><p>键盘下降</p>
+<pre><code>*   也即修改YPosition、Opacity属性，使得图标在下移过程中消失
+</code></pre></li>
+</ul>
+<p>​QC中的界面大致是这样的：</p>
+<p><img src="https://ps.toolinbox.net/h48py.jpg" alt="新任务界面"></p>
+<h2 id="重新打开任务列表的LayerGroup，并进行调整"><a href="#重新打开任务列表的LayerGroup，并进行调整" class="headerlink" title="重新打开任务列表的LayerGroup，并进行调整"></a>重新打开任务列表的LayerGroup，并进行调整</h2><p>将任务列表的LayerGroup放在底层，将新任务的LayerGroup放在上层</p>
+<p>使用添加任务、返回两个消息，控制上述两个层的状态切换。需要注意的是，除了状态切换，还需要在显示底层时隐藏上层，也即在显示任务列表的LayerGroup时隐藏新任务的LayerGroup，这样才能响应任务列表的点击操作。</p>
+<p>进行其它一些调整，主要是针对动画的过渡，修正其中处理不好的地方。注意，这里有一点要说，不要刻意追求动画的完美。有时，花了2个小时做好了90%的交互、已经可以表达出意图，却又要花1小时、甚至更多的时间去调整不完美的地方，这就有些钻牛角尖了，浪费精力、没有必要。除非是开发同学能100%实现你设计的交互，不然这样的交互只是用来表达意图，做得太完美反而是浪费时间。</p>
+<p>好，这样就完成了整个交互设计，大家可以到这里<a href="http://atjason.com/wp-content/uploads/2015/05/AddTask_OK.zip">下载Origami工程文件</a>。</p>
 
           
         
@@ -1208,7 +849,7 @@ more
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/545.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/632.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -1230,8 +871,8 @@ more
             
               
                 
-                <a class="post-title-link" href="/545.html" itemprop="url">
-                  在Linode Ubuntu 14.04 64位系统中安装AMH碰到的问题及解决办法
+                <a class="post-title-link" href="/632.html" itemprop="url">
+                  优化Quartz Composer (Origami)的性能
                 </a>
               
             
@@ -1247,8 +888,180 @@ more
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-07T08:44:16+08:00">
-                2014-07-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2015-05-25T17:04:10+08:00">
+                2015-05-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PM/" itemprop="url" rel="index">
+                    <span itemprop="name">PM</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>StartFragment使用过Quartz Composer(Origami)的朋友会有感觉，这家伙是个耗性能的大户。如果你还不打算切换工具、或者离不开QC强大的交互设计功能，就试试下面介绍的优化建议吧。</p>
+<p>主要的调整是在系统偏好设置中进行：</p>
+<p><a href="https://ps.toolinbox.net/6zxqv.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/rk9mj.jpg" alt="Quartz Composer设置"></a></p>
+<p>Viewer (Preferences &gt; Viewer)</p>
+<ul>
+<li><p>降低帧率</p>
+<pre><code>*   这应该是最有效的方式。可以在开发过程中设置低的帧率，在演示过程中再将其调高
+</code></pre><ul>
+<li>具体的，可将&quot;Maximum rendering frame rate&quot;调低至10，演示时可调至&quot;Unlimited&quot;</li>
+</ul>
+</li>
+<li><p>降低Viewer窗口的尺寸</p>
+<pre><code>*   这个没有严格的依据，只是根据心理上的理解，窗体小、执行动画时需要重绘的面积小，需要消耗的性能也少
+</code></pre></li>
+</ul>
+<p>Editor</p>
+<ul>
+<li><p>取消阴影</p>
+<pre><code>*   猜想可以降低绘制阴影的消
+</code></pre></li>
+<li><p>取消网络线</p>
+<pre><code>*   虽然网络线可以帮助在视觉上对齐，但实际上吸附的操作还是通过&amp;quot;Align Nodes&amp;quot;实现的，所以可以取消网络
+</code></pre></li>
+<li><p>关闭Patch的Render</p>
+<pre><code>*   也即，在不需要展示某些Patch时，暂时关闭这些Patch的Render，等需要时再打开
+</code></pre></li>
+</ul>
+<p>注意：在调整过程中，可以同时打开Activity Monitor，观察调整前后，在Viewer中操作时CPU使用率的变化。</p>
+<p>终极方案：关闭Viewer</p>
+<pre><code>熟练使用快捷键，在需要查看时使用⌘+R支持Viewer，不需要进使用⌘+.关闭Viewer
+</code></pre><p>EndFragment</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/603.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/603.html" itemprop="url">
+                  照片管理调查结果分析
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-09-05T14:20:54+08:00">
+                2014-09-05
               </time>
             
 
@@ -1306,208 +1119,142 @@ more
       
         
           
-            <p>刚买了个Linode的VPS，尝试安装AMH，碰到以下两个问题导致安装失败：</p>
-<pre><code>1，
-</code></pre><p>gcc -DHAVE_CONFIG_H -DEXEEXT=\&quot;\&quot; -I. -I.. -I../lib  -I../intl -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1   -g -O2 -c progname.c</p>
-<p>In file included from progname.c:26:0:</p>
-<p>./stdio.h:1010:1: error: &acirc;&euro;&tilde;gets&acirc;&euro;&trade; undeclared here (not in a function)</p>
-<p>_GL_WARN_ON_USE (gets, &quot;gets is a security hole - use fgets instead&quot;);</p>
-<p>^</p>
-<p>make[2]: <em>*</em> [progname.o] Error 1</p>
-<p>make[2]: Leaving directory `/home/amh_install/packages/untar/libiconv-1.14/srclib&#39;</p>
-<pre><code>这个问题已经有解决办法；[http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610](http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610)
-
-more
-
-2，
-</code></pre><p>checking for png_write_image in -lpng… yes</p>
-<p>If configure fails try –with-xpm-dir=&lt;DIR&gt;</p>
-<p>configure: error: freetype.h not found.</p>
-<p>make: <em>*</em> No targets specified and no makefile found.  Stop.</p>
-<p>make: <em>*</em> No rule to make target `install&#39;.  Stop.</p>
-<p>cp: cannot create regular file &acirc;&euro;&tilde;/usr/local/php/etc/php-fpm.conf&acirc;&euro;&trade;: No such file or directory</p>
-<p>cp: cannot create regular file &acirc;&euro;&tilde;/usr/local/php/etc/php-fpm-template.conf&acirc;&euro;&trade;: No such file or diorytt</p>
-<p>mkdir: cannot create directory &acirc;&euro;&tilde;/usr/local/php/etc/fpm&acirc;&euro;&trade;: No such file or directory</p>
-<p>mkdir: cannot create directory &acirc;&euro;&tilde;/usr/local/php/var/run/pid&acirc;&euro;&trade;: No such file or directory</p>
-<p>touch: cannot touch &acirc;&euro;&tilde;/usr/local/php/etc/fpm/amh.conf&acirc;&euro;&trade;: No such file or directory</p>
-<p>./amh.sh: line 371: /usr/local/php/sbin/php-fpm: No such file or directory</p>
-<p>[OK] php-5.3.27 install completed.</p>
-<pre><code>查看vi php-5.3.27/configure
-</code></pre><p>for i in $PHP_FREETYPE_DIR /usr/local /usr; do</p>
-<pre><code>if test -f &amp;quot;$i/include/freetype2/freetype/freetype.h&amp;quot;; then
-
-  FREETYPE2_DIR=$i
-
-  FREETYPE2_INC_DIR=$i/include/freetype2
-
-  break
-
-fi
-</code></pre><p>done</p>
-<pre><code>可以看到脚本假定freetype的相对路径为&amp;ldquo;/include/freetype2/freetype/freetype.h&amp;rdquo;，但实际上系统路径为&amp;ldquo;/include/freetype2/freetype.h&amp;rdquo;。可以相应的修改脚本，去除一层&amp;quot;freetype&amp;quot;，或者在系统路径下临时多生成一层路径，并将相应的文件复制过去
-</code></pre>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/524.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/524.html" itemprop="url">
-                  Netgear WNDR3800 WPS按钮切换LED灯
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-06T15:44:46+08:00">
-                2014-07-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/IT/" itemprop="url" rel="index">
-                    <span itemprop="name">IT</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Netgear WNDR3800前面板的灯看起来还是挺上档次的，不过放在客厅一直闪，总觉得晃眼，故而准备使用前面板的WPS按钮来控制LED灯的亮灭。</p>
-<h1 id="Shell脚本"><a href="#Shell脚本" class="headerlink" title="Shell脚本"></a>Shell脚本</h1><p>创建/root/led.sh脚本，内容如下：</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="comment"># const</span></div><div class="line">ENABLE=<span class="string">"enable"</span></div><div class="line">DISABLE=<span class="string">"disable"</span></div><div class="line">TOGGLE=<span class="string">"toggle"</span></div><div class="line"></div><div class="line"><span class="comment"># read parameter</span></div><div class="line">ope=</div><div class="line"><span class="keyword">while</span> <span class="built_in">getopts</span> <span class="string">"edt"</span> arg</div><div class="line"><span class="keyword">do</span></div><div class="line">        <span class="keyword">case</span> <span class="variable">$arg</span> <span class="keyword">in</span></div><div class="line">             e)</div><div class="line">                ope=<span class="variable">$ENABLE</span></div><div class="line">		;;</div><div class="line">             d)</div><div class="line">                ope=<span class="variable">$DISABLE</span></div><div class="line">                ;;</div><div class="line">             t)</div><div class="line">                ope=<span class="variable">$TOGGLE</span></div><div class="line">		;;</div><div class="line">             ?)</div><div class="line">            	<span class="built_in">echo</span> <span class="string">"unknown argument"</span></div><div class="line">        	<span class="built_in">exit</span> 1</div><div class="line">        	;;</div><div class="line">        <span class="keyword">esac</span></div><div class="line"><span class="keyword">done</span></div><div class="line"></div><div class="line"><span class="comment"># check operator</span></div><div class="line"><span class="keyword">if</span> [[ -z <span class="variable">$ope</span> ]]; <span class="keyword">then</span></div><div class="line">        <span class="built_in">echo</span> <span class="string">"Miss operator!"</span></div><div class="line">	<span class="built_in">exit</span> 1</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$TOGGLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># read current led status</span></div><div class="line">        cur_state=`swconfig dev rtl8366s port 1 get led`</div><div class="line">	</div><div class="line">	<span class="keyword">if</span> [ <span class="string">"<span class="variable">$cur_state</span>"</span> == <span class="string">"0"</span> ]; <span class="keyword">then</span></div><div class="line">		ope=<span class="variable">$ENABLE</span></div><div class="line">	<span class="keyword">else</span></div><div class="line">		ope=<span class="variable">$DISABLE</span></div><div class="line">	<span class="keyword">fi</span></div><div class="line"><span class="keyword">fi</span> </div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># check command</span></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$DISABLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># turn on power green led                                           </span></div><div class="line">        <span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:green\:power/brightness         </div><div class="line">        <span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:orange\:power/brightness	</div><div class="line"></div><div class="line">	<span class="comment"># turn off all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	swconfig dev rtl8366s port 1 <span class="built_in">set</span> led 0</div><div class="line">	swconfig dev rtl8366s port 2 <span class="built_in">set</span> led 0</div><div class="line">	</div><div class="line">	<span class="comment"># USB</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:green\:usb/brightness</div><div class="line"></div><div class="line">	<span class="comment"># 2.4GHz</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/ath9k-phy0/brightness</div><div class="line">	<span class="comment"># 5GHz</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/ath9k-phy1/brightness</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$ENABLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># turn on power green led</span></div><div class="line">	<span class="built_in">echo</span> 128 &gt; /sys/class/leds/netgear\:green\:power/brightness</div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:orange\:power/brightness</div><div class="line"></div><div class="line">	<span class="comment"># turn off all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	<span class="comment"># turn on all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	swconfig dev rtl8366s port 1 <span class="built_in">set</span> led 6</div><div class="line">	swconfig dev rtl8366s port 2 <span class="built_in">set</span> led 9</div><div class="line">                      </div><div class="line">        <span class="comment"># USB                                            </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/netgear\:green\:usb/brightness  </div><div class="line">                                 </div><div class="line">        <span class="comment"># 2.4GHz                                                   </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/ath9k-phy0/brightness             </div><div class="line">        <span class="comment"># 5GHz                                                    </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/ath9k-phy1/brightness </div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure>
-<p>目前这一脚本中控制全部LED灯：电源、2.4GHz、5GHz、USB、WAN、LAN</p>
-<p>测试脚本是否正常工作</p>
-<ul>
-<li>点亮LED灯 <code>/root/led.sh -e</code></li>
-<li>熄灭LED灯 <code>/root/led.sh -d</code></li>
-<li>切换LED灯 <code>/root/led.sh -t</code></li>
-</ul>
-<h1 id="接入按钮事件"><a href="#接入按钮事件" class="headerlink" title="接入按钮事件"></a>接入按钮事件</h1><p>在/etc/hotplug.d位置创建一个目录，名为button，然后在/etc/hotplug.d/button下创建名为01-radio-toggle的文件</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$BUTTON</span>"</span> = <span class="string">"wps"</span> ] &amp;&amp; [ <span class="string">"<span class="variable">$ACTION</span>"</span> = <span class="string">"pressed"</span> ]; <span class="keyword">then</span></div><div class="line">        ( sleep 1; /root/led.sh -t ) &amp;</div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure>
-<p>测试：按下WPS按钮就可以切换前面板中的部分LED灯了</p>
-<h1 id="开机设置默认值"><a href="#开机设置默认值" class="headerlink" title="开机设置默认值"></a>开机设置默认值</h1><p>如果开机就希望LED灯熄灭，可以使用crontab：#crontab -e</p>
-<p>添加如下命令</p>
-<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># turn off led</span></div><div class="line">@reboot /root/led.sh <span class="_">-d</span></div></pre></td></tr></table></figure>
-<p>参考</p>
-<ul>
-<li><a href="http://wiki.openwrt.org/toh/netgear/wndr3700" target="_blank" rel="external">http://wiki.openwrt.org/toh/netgear/wndr3700</a></li>
-<li><a href="http://wiki.openwrt.org/doc/uci/system" target="_blank" rel="external">http://wiki.openwrt.org/doc/uci/system</a></li>
-<li><a href="http://blog.xieyc.com/how-to-setup-after-upgrading-netgear-wndr3700-to-openwrt/" target="_blank" rel="external">http://blog.xieyc.com/how-to-setup-after-upgrading-netgear-wndr3700-to-openwrt/</a></li>
-</ul>
+            <p>之前，朋友圈内发起调查，看大家都是如何管理自己的照片的，现在将收集上来的数据整理如下。</p>
+<p>想看完整结果，完成此问卷即可：StartFragment<a href="http://www.wenjuan.com/s/JRbAVv" target="_blank" rel="external">http://www.wenjuan.com/s/JRbAVv</a>EndFragment</p>
+<p>StartFragment</p>
+<p>关于受众</p>
+<p>本次调查主要推广方式为：IT公司同事、朋友圈。可推测比较大的比例来自于IT圈、或对电脑手机较熟悉的人、或其家属，相对于所有可能的用户来说，其结果更偏向于上述人群</p>
+<p>截止2014年9月5日，共收集到149份有效数</p>
+<p>more</p>
+<p>Q1:你用的是什么手机？(多选题)</p>
+<p>Q2:哇，你用的是什么神机？(填空题)</p>
+<p><a href="https://ps.toolinbox.net/xpnsr.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/xpnsr.png" alt=""></a></p>
+<p>iPhone手机多于Android手机</p>
+<p>iPhone和Android手机占据绝大多数，WinPhone手机依然是小众，塞班用户可以忽略，没有黑莓用户</p>
+<p>有11个&ldquo;其他手机&rdquo;，不排除有人不了解自己使用的手机是Android手机，这也说明这些人是真正的小白</p>
+<p>Q3:你主要用什么设备来拍照、拍视频？(单选题)</p>
+<p><a href="https://ps.toolinbox.net/9vim3.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/9vim3.png" alt=""></a></p>
+<p>84.56%的人使用手机拍照</p>
+<p>14.77%的人使用数码相机、单反、微单等拍照</p>
+<p>0.67%（仅1人）主要使用平板拍照</p>
+<p>大部分情况下，自动备份手机上的照片就可以满足绝大部分的用户，而对于使用数码相机的人，则需要考虑SD卡的照片如何备份，当然</p>
+<p>部分相机开始引用WiFi功能</p>
+<p>使用相机、尤其是单反的人，可以理解为高端用户，通常对电脑比较了解，有自己的一套照片管理办法，会使用较复杂、较专业的修图工具、管理软件</p>
+<p>Q4:你的照片、视频主要是保存在什么地方？(多选题)</p>
+<p><a href="https://ps.toolinbox.net/h4nv8.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/h4nv8.png" alt=""></a></p>
+<p>这一问题的答案比较分散</p>
+<p>电脑上的硬盘和移动硬盘实际使用场景比较类似，可归为一类；</p>
+<p>绝大多数用户都会使用这种方式来保存照片，或者说沿用 了这种比较传统的、保存一般性数据文件的方式保存照片</p>
+<p>绝大多数用户依然觉得放在电脑硬盘里是最安全、最方便的</p>
+<p>比较多的人使用云来备份，猜想受益于</p>
+<p>备份方便：几乎所有云都覆盖了所有的移动终端，可以使用自家的App自动备份至云</p>
+<p>空间够大、且免费：尤其是13年网盘大战后，几乎都达到了TB级别的免费空间</p>
+<p>云本身的特性：如共享方便</p>
+<p>当然，使用云的毕竟还是少数（略多于1/4），猜想原因有</p>
+<p>不知道世界上还有云、能把照片自动备份到云上</p>
+<p>不会使用：尤其是对电脑不太懂的人，可能都没有云账户</p>
+<p>担心数据安全：放在云上，万一没了怎么办？还是放在自己看得见、摸得着的地方安全</p>
+<p>担心隐私安全：即怕自己成为艳照门主角</p>
+<p>NAS依然是小众（仅5人），不仅在国内，哪怕是在全球，NAS都是小众产品，尤其是相比于移动硬盘。NAS的好处主要在于</p>
+<p>数据安全：比如使用RAID 1备份。并且，即使是相同的硬盘，由于NAS通常处于静止状态，其硬盘的寿命要比移动硬盘长很多。没坏过移动硬盘、没丢过数据的人，体会不到这种增强硬盘可靠性、数据安全性的重要性，可能会觉得放在移动硬盘里就永远不会丢</p>
+<p>局域网共享方便：得益于Samba、DLNA等技术，可以方便得在Pad、电视等其他终端消费照片</p>
+<p>广域网共享方便：越来越多的NAS提供所有私有云的功能，即在家以外的地方也可以通过Internet来访问家里NAS上的数据</p>
+<p>很多人（43人）是不备份、不移动照片的，在哪拍的就放哪，估计直到手机、相机存储空间满了之后，才会想起将其移出来、腾出空间</p>
+<p>这一部分用户应该是潜在客户，他们没有及时整理照片，不是因为不需要（因为毕竟手机、相机的存储空间是有限的），而是因为没有趁手的方案、懒、不想花时间折腾</p>
+<p>还有3人选择了其他，猜想可能是光盘、电视盒子、等等</p>
+<p>Q5:你用的是哪朵云？(多选题)</p>
+<p>Q6:好吧，你到底用的是啥云？(填空题)</p>
+<p><a href="https://ps.toolinbox.net/s0qxt.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/s0qxt.png" alt=""></a></p>
+<p>此题是后来加上去的，答题人数过少，参考意义不大</p>
+<p>不过，从实际感受和收上来的数据来看，百度云确实是比较流行的</p>
+<p>Q7:你多长时间保存一次呢？(单选题)</p>
+<p><a href="https://ps.toolinbox.net/o7pry.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/o7pry.png" alt=""></a></p>
+<p>&ldquo;手机撑满了才想起来&rdquo;和&ldquo;偶尔想起来就拷一把&rdquo;可看作同一类人，几乎没有备份意识，移动照片应该主要是为了给手机、相机腾出空间。占绝大多数，约68%</p>
+<p>&ldquo;定期保存&rdquo;和&ldquo;自动备份&rdquo;可看作同一类人，有较好的备份意识，并且应该有自己的一套照片管理办法。约占25%</p>
+<p>也有6.71%的人从来不备份。猜想这类人</p>
+<p>照片不多</p>
+<p>没丢过照片，或者觉得丢了也无所谓</p>
+<p>怕麻烦</p>
+<p>不会弄</p>
+<p>Q8:你是怎么管理自己那么多照片的？(单选题)</p>
+<p><a href="https://ps.toolinbox.net/bpcxz.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/bpcxz.png" alt=""></a></p>
+<p>本题的目的是想看看大家管理意识有多强、目前没有自己一套成型的管理办法，选项的设置是逐渐深入</p>
+<p>从结果上看，各种选项比如分散，或者说，什么样的人都有</p>
+<p>从大面上看，愿意管理、并且已经在管理的人还是占绝大多数（超过3/4），只是管理的程度不同</p>
+<p>有10%的人愿意管理，但是觉得&ldquo;不好弄&rdquo;就放弃了。这应该是非常优质的潜在客户</p>
+<p>还有约13%的人并不愿意管理</p>
+<p>从交叉图表上来看，</p>
+<p>定期备份的人，整理欲最强</p>
+<p>自动备份的人，只要将照片放在一起就可以了</p>
+<p>偶尔想起来要备份的人，还是愿意对照片进行很好的整理</p>
+<p>手机撑满才想起来备份的人，只要将照片放在一起就可以了</p>
+<p>不保存的人，自然绝大多数都不会去整理</p>
+<p>Q9:你有找以前照片的经历吗？(单选题)</p>
+<p><a href="https://ps.toolinbox.net/8zg7f.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/8zg7f.png" alt=""></a></p>
+<p>需要找照片，其实是对照片进行管理的主要驱动力</p>
+<p>本题少了一个选项：从不找照片</p>
+<p>绝大多数人还是有找照片的经历的，约68%。其中21%的人在找照片时遇到了不小的困难，这应该是可以改进的地方</p>
+<p>Q10:你怕照片丢吗？(单选题)</p>
+<p><a href="https://ps.toolinbox.net/t5jz8.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/t5jz8.png" alt=""></a></p>
+<p>怕丢照片，其实是对照片进行备份的主要驱动力</p>
+<p>可以看到，超过87%的人都怕丢照片，其实这也意味着，超过87%的人需要备份照片</p>
+<p>Q11:你会看以前的照片、视频吗？(单选题)</p>
+<p><a href="https://ps.toolinbox.net/j0kr9.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/j0kr9.png" alt=""></a></p>
+<p>回看照片，其实和找照片是关联的，也是对照片进行管理的驱动力</p>
+<p>从结果上看，几乎所有的人都有看照片的需求（不然照片拍了用来干嘛？），只是看的频率不同，或者说，看不到照片时带来的痛感不同。约92%的人是很少看、或者只是给别人看</p>
+<p>Q12:你一般在哪看照片呢？(多选题)</p>
+<p><a href="https://ps.toolinbox.net/cgiiw.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/cgiiw.png" alt=""></a></p>
+<p>本题是延续上一题</p>
+<p>绝大多数人都会在电脑上看照片，这和之前绝大多数人把照片备份到电脑上的硬盘、移动硬盘是一致的。并且，大部分人对照片的管理应该也是在电脑上完成的，因为找起来方便</p>
+<p>在手机上看照片的人也非常多。虽然手机屏幕小，看起来不那么舒服，但很大的优势是，可以随时随地看，并且可以看到大部分最近的照片</p>
+<p>从交叉图表可以看出</p>
+<p>在平板上看照片的人，除了把照片保存在电脑上的硬盘和移动硬盘，10人将其保存在云中，8人在哪拍的就放在哪，没有人将其放在NAS中</p>
+<p>在电视上看照片的人，和在平板上看照片的人，有类似的保存习惯</p>
+<p>Q13:其他？如果不是脑海中，那是哪呢？(填空题)</p>
+<p>无数据</p>
+<p>Q14:你需要修改照片吗？(单选题)</p>
+<p><a href="https://ps.toolinbox.net/vcqd5.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/vcqd5.png" alt=""></a></p>
+<p>绝大多数人对修改照片的需求很弱，不修改、很少修改、或者有时分享前会修改</p>
+<p>这可能意味着，在软件开发过程中花了大力气做出来的图片修改功能，可能是大部分用户、大多时候都不会使用的功能，或者在真正需要修图的人眼里是鸡肋</p>
+<p>Q15:你以前修改照片是在哪做的呢？(多选题)</p>
+<p><a href="https://ps.toolinbox.net/ym13n.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/ym13n.png" alt=""></a></p>
+<p>既然修改照片的需求很弱，本题的意义也就不大</p>
+<p>不过，不出意外，修改照片大多还是在手机上（猜想是在分享前）和电脑上（猜想是进行复杂的修图）</p>
+<p>Q16:其他？那是哪呢？(填空题)</p>
+<p>无数据</p>
+<p>Q17:你以前的主要修改过哪些？(多选题)</p>
+<p><a href="https://ps.toolinbox.net/c38i9.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/c38i9.png" alt=""></a></p>
+<p>本题的结果比较分散，不过大多数都是需要较少操作的修改，如裁剪、翻转、滤镜之类的</p>
+<p>15人选择了其他，包括&ldquo;调色 后期&rdquo;、&ldquo;色阶&rdquo;，这明显是高阶的修图</p>
+<p>Q18:你刚才选的其他修改是什么呢？(填空题)</p>
+<p>见上题分析</p>
+<p>Q19:你和朋友一起出去玩，都拍了照片，怎么互相分享？(多选题)</p>
+<p><a href="https://ps.toolinbox.net/t2nic.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/t2nic.png" alt=""></a></p>
+<p>这是一个很实用的话题、较复杂的情景，其实是综合照片管理能力的考验</p>
+<p>结果也比较分散，最多的是使用微信、QQ等工具直接发送，这对于手机拍的照片是很方便的</p>
+<p>当成文件发送的有55人，使用U盘、移动硬盘传递的有22人，这应该是以前PC时代遗留下来的操作习惯</p>
+<p>在使用当面传的17人中，有9人使用iPhone，估计是使用AirDrop；有8人使用Android，估计是使用类似百度云当面传之类的功能，这点其实对手机操作能力要求挺高的；有1人使用WinPhone。当然，不排除有人同时拥有不同的手机</p>
+<p>有19人使用云分享的功能来分享照片，这对于大量照片同时需要分享给多人时比较有用，对云的操作能力要求较高</p>
+<p>当然，现在越来越流行直接发朋友圈等地方（29人），既可以分享照片，也可以秀自己</p>
+<p>Q20:你觉得你现在的照片管理方式完美吗？(多选题)</p>
+<p><a href="https://ps.toolinbox.net/k59bq.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/k59bq.png" alt=""></a></p>
+<p>这是一个较模糊的题目，希望得到从情感意义上大家对于照片管理的需求</p>
+<p>较为意外的是，超过1/3的人觉得目前的方法挺好的，26人觉得现在的方法不好，不过也无所谓</p>
+<p>更多的人是想管，但遇到各种各样的问题，比较典型的是不会弄、怕麻烦不想花时间弄、不想重复照片浪费空间</p>
+<p>Q21:还有哪些槽点？（比如，拍照时担心拍不好，就拍了很…(填空题)</p>
+<p>有效回答如下</p>
+<p>有没有自动按地点分类的，又按时间、朋友圈分类，却只有一份</p>
+<p>太帅了，怕传出去被人利用</p>
+<p>不知道要不要留着，删了可惜，留着无用</p>
+<p>家里有个单细胞的老婆在，总会有整理不好的</p>
+<p>最纠结的是不知道删哪一张留哪一张</p>
+<p>不能按日期排列</p>
+<p>拍完照片想要分享到社交网站，结果不知道该发布在哪里、发布哪张、说点什么而纠结一番后没有发送，后来这些这片就没用了</p>
+<p>命名问题</p>
+<p>怕不美</p>
+<p>很乱 不知道怎么整理</p>
+<p>拍时光线没把握好，在电脑上看看就不舒服</p>
+<p>EndFragment</p>
 
           
         
@@ -1546,7 +1293,7 @@ fi
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/386/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/386/">386</a><span class="page-number current">387</span><a class="page-number" href="/page/388/">388</a><span class="space">&hellip;</span><a class="page-number" href="/page/401/">401</a><a class="extend next" rel="next" href="/page/388/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/386/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/386/">386</a><span class="page-number current">387</span><a class="page-number" href="/page/388/">388</a><span class="space">&hellip;</span><a class="page-number" href="/page/403/">403</a><a class="extend next" rel="next" href="/page/388/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1591,7 +1338,7 @@ fi
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2005</span>
+                <span class="site-state-item-count">2013</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
