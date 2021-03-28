@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-22.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-29.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2018-01-22.html" itemprop="url">
-                  0122 - EOS 编程学习日志（1）
+                <a class="post-title-link" href="/daily/2018-01-29.html" itemprop="url">
+                  0129 - 思想假设
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-22T22:00:00+08:00">
-                2018-01-22
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-29T22:00:00+08:00">
+                2018-01-29
               </time>
             
 
@@ -366,73 +366,16 @@
       
         
           
-            <p><strong>EOS 编程到底是什么呢、学什么呢？</strong></p>
-<p>抱歉，我现在也不无法回答。不过，我可以告诉你我做了哪些尝试、目前的理解，以及下一步还要做什么。</p>
-<p>首先，<strong>EOS 开发最重要的文档自然是在 GitHub</strong>: <a href="https://github.com/EOSIO/eos" target="_blank" rel="external">https://github.com/EOSIO/eos</a>，比如：</p>
+            <p>比如，我们制定了计划、做了决定，是不是最优的、自己能坚持的？可以试试思想假设。例如：</p>
 <ul>
-<li>介绍了如何在本机编译、运行 EOS</li>
-<li>其中的 contracts 目录，提供了一些智能合约的范例。</li>
+<li>突然你有了很多钱，还会做之前想做的事吗？</li>
+<li>如果你从中得到的收益会大幅下降，还做吗？</li>
+<li>如果时间减半，还会这么做吗？</li>
+<li>5 年后，还会这么做吗？</li>
+<li>…</li>
 </ul>
-<p>其中 <strong>一些基础概念</strong>：</p>
-<ul>
-<li><code>eosd</code> - server-side blockchain node component<ul>
-<li>可理解为运行在本机的 EOS Daemon/服务器</li>
-</ul>
-</li>
-<li><code>eosc</code> - command line interface to interact with the blockchain<ul>
-<li>可理解为方便与 EOS 服务器进行交互的命令行工具，不用写代码就可以通过这个工具执行命令，进行一些测试</li>
-</ul>
-</li>
-<li><code>eos-walletd</code> - EOS wallet<ul>
-<li>可以理解为 EOS 钱包的命令行工具</li>
-</ul>
-</li>
-</ul>
-<p>然后，<strong>主要开发文档在此</strong>：<a href="https://eosio.github.io/eos/" target="_blank" rel="external">https://eosio.github.io/eos/</a>，主要分为 2 种形式的接口及文档：</p>
-<ol>
-<li><strong>REST RPC 接口</strong><ul>
-<li>也即，不是直接使用 C/C++/WebAssembly 编写代码，而且封装为 REST RPC 接口。<strong>有了这个接口，对编程语言就没有限制了，你可以用任何你喜欢的语言</strong>，比如 Swift/Python/etc</li>
-<li>不过，<strong>可惜的是，目前已经封装的接口并不多，你并不能通过 REST RPC 干所有事情</strong>。希望 EOS 能尽快完善 REST RPC 接口，这是目前我最期待的</li>
-<li>我把其中的接口都测试了一遍，可惜就是太少了</li>
-</ul>
-</li>
-<li><strong>C/C++/WebAssembly 源码</strong><ul>
-<li><strong>EOS 本身就是基于 C/C++/WebAssembly 编写的</strong>，基于这些语言的文档自然最全。</li>
-<li>自然的，<strong>目前如果你想充分基于 EOS 开发，只能使用 C/C++/WebAssembly</strong>；如果不会，要么学习，要么等 REST RPC 接口早日完善</li>
-</ul>
-</li>
-</ol>
-<p>你可能知道，EOS 在 17 年 12 月 4 日发布了 pre-release 2.0，同时也发布了 <strong>公测版的 EOS 区块链网络</strong>（不是主链，主链预计 18 年 6 月发布），以下是这部分的介绍：</p>
-<ul>
-<li><a href="https://github.com/EOSIO/eos/wiki/Testnet:-Public#public-testnet-endpoints" target="_blank" rel="external">Testnet: Public</a><ul>
-<li>这个就是关于此次公测链的根文档</li>
-</ul>
-</li>
-<li>你需要先在 <a href="https://docs.google.com/forms/d/e/1FAIpQLSel3HVFb22zYaAJfUtu_IzFgIJ4OATb0jQ3H2FV-HbwnJ090g/viewform" target="_blank" rel="external">这里</a> 申请测试账户</li>
-<li>测试链的 <a href="https://t1api.eos.io/v1/docs/" target="_blank" rel="external">REST API 接口文档</a><ul>
-<li>包含了认证、区块、交易(Transaction)、账户等部分的介绍</li>
-<li>我简单试了一遍，貌似 <code>v1/blocks</code> 接口有问题，其它正常</li>
-</ul>
-</li>
-</ul>
-<p><strong>下一步怎么学呢？</strong>其实我也还不清楚，有这么几个可选项：</p>
-<ul>
-<li><strong>学习 Docker</strong><ul>
-<li>为什么呢？因为我暂时不想在 macOS 主系统中编译 EOS 项目，目前是在虚拟机中编译的，但多少有些方便</li>
-<li>EOS 支持在 Docker 中运行，这样既不会把我的主系统搞乱，也不必忍受虚拟机的性能和麻烦</li>
-</ul>
-</li>
-<li><strong>学习 C/C++/WebAssembly</strong><ul>
-<li>只有这样，才能在 EOS 目前的状态下，深入的测试、学习</li>
-<li>这其实是成本、风险非常高的选择，我非常犹豫；我会再去了解下 EOS 团队有没有关于 REST 接口开发计划</li>
-</ul>
-</li>
-<li><strong>学习区块链通用开发技术</strong><ul>
-<li>EOS 只是区块链的一种形态，而区块链本身还有很多通用型的开发技术，这个也要先行了解</li>
-</ul>
-</li>
-</ul>
-<p>你也对 EOS 感兴趣吗？希望这篇文章能帮你揭开 EOS 开发的神秘面纱，也欢迎一起啃这块骨头。</p>
+<p>注：以上的假设，是我随意列举的，并不能代表什么，只是要表意。</p>
+<p>具体到你自己和具体的事，假设的具体内容可能不同。其实这样假设的想达到的目的是，用具象的方式表示，自己是否充分考虑了条件的变化、不同的可能性。<strong>如果你轻易就会放弃之前的计划，说明这本身并不是你特别想要的。</strong></p>
 
           
         
@@ -476,7 +419,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-21.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-28.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -498,8 +441,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2018-01-21.html" itemprop="url">
-                  0121 - 开始学习 EOS 编程
+                <a class="post-title-link" href="/daily/2018-01-28.html" itemprop="url">
+                  0128 - 碎片化的学习，可能真的会是常态
                 </a>
               
             
@@ -515,8 +458,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-21T22:00:00+08:00">
-                2018-01-21
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-28T22:00:00+08:00">
+                2018-01-28
               </time>
             
 
@@ -574,10 +517,9 @@
       
         
           
-            <p>首先，这里不是讨论 EOS 币的买卖，而是 EOS 编程、基于 EOS 的应用。</p>
-<p>今天从 GitHub 上下载了 EOS 的应用，也花了半天编译了，按照操作演示创建了钱包、进行了交易。但，依然是云里雾里。</p>
-<p>EOS 编程方面的资料确实太少了，只能一点点摸过。编程语言上，看起来是 C/C++/JS 栈的，也有些吃力。不过，看起来是有 REST 接口的，比如首个公开测试网络就有 REST 接口的文档：<a href="https://t1api.eos.io/v1/docs/" target="_blank" rel="external">https://t1api.eos.io/v1/docs/</a></p>
-<p>另外，一个人学习，确实很吃力，遇到问题也没人讨论。我拉了个 Telegram 群，不过暂时不打算公开。如果你感兴趣，可以留言或其他方式告诉我你的 Telegram 账户。强调：这里只讨论 EOS 编程，不讨论币价、买卖。</p>
+            <p>截止到现在，今天唯一花在学习上的时间，在几个碎片时间。</p>
+<p>这两天在了解 node 及 js；编程语言的学习，最好是有大块集中的时间，专注地学习。可无奈，除非是当初在学校，年纪越大，各种琐事越多，所谓的这些大块时间，将变得非常稀少。不得不，必须利用好碎片时间，即使是在效率不那么高的情况下，学习编程。比如，今天就是在医院抱着娃等叫号的时候，看完了 js 的基础语法。</p>
+<p>大块时间好，可惜越来越少；<br>碎片时间不好，可惜可能是唯一选项。</p>
 
           
         
@@ -621,7 +563,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-20.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-27.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -643,8 +585,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2018-01-20.html" itemprop="url">
-                  0120 - Kindle 导出标注时，如何破除 <您已达到本内容的剪贴上限> 这一限制？
+                <a class="post-title-link" href="/daily/2018-01-27.html" itemprop="url">
+                  0127 - 别轻易否定现状
                 </a>
               
             
@@ -660,8 +602,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-20T22:00:00+08:00">
-                2018-01-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-27T22:00:00+08:00">
+                2018-01-27
               </time>
             
 
@@ -719,335 +661,341 @@
       
         
           
-            <p>使用 Kindle 的重度用户会知道，在 Kindle 上读书时可以任性标注，但在导出标注时则有限制：<strong>Kindle 限制能导出的标注的文字总数</strong>。这个比例没有明文规定，各本书也有不同，通常理解是一本书所有内容的 10%；一旦超出这一限制，导出时则会看到恼人的 <code>&lt;您已达到本内容的剪贴上限&gt;</code>。</p>
-<p><img src="https://ps.toolinbox.net/r0f3c.png" alt=""></p>
-<p>如果大家遇到这个问题，又实在想导出所有的标注，<strong>怎么办呢？可以这样操作</strong>：</p>
+            <p>当对现状不满意的时候，很容易有全部推倒重来的想法。</p>
+<p>这可能是对的，也可能是错的。</p>
+<p>一方面，确实要警惕沉没成本对自己的影响。考虑到已经花了很多时间在某个事情上，总想着再花点时间就能出结果。这样，反而让我们一直陷入这个泥潭。</p>
+<p>另一方面，也要想想，走到目前这一步，是因为哪些原因引起的。如果这个原因不找到、不解决，即使再换个方向，这些原因也会以新的形式再次骚扰我们。更何况，毕竟自己在这个领域投入很多，也积累了很多能力、人脉、资源等等。一旦切换，这些可能全部要归零，转而去和已经有很多积累的人直接竞争，听着就很亏。</p>
+<p>上面正反两种思想都有道理，没有谁对谁错。既可以说是破釜沉舟、壮士断腕，也可以说是守得云开见月明。关键，还是要看自己对具体问题的分析，理解自己深层次需求，找到除了钱之外最根本的动力。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-26.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2018-01-26.html" itemprop="url">
+                  0126 - 不能总让自己太舒适
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-26T22:00:00+08:00">
+                2018-01-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>总让自己呆在舒适圈中，不去了解自己看不懂的东西，不去尝试新鲜的东西，不增强自己现在不会的能力…</p>
+<p>现实，会让一切变得明确、极端，甚至冷酷。短暂的舒适，会让自己加速退化，越来越没有竞争力，沦落到社会的边缘。</p>
+<p>明确自己的方向，坚毅地前行。有时，一时的低效、绕弯，可能不那么重要，或者说不那么可怕，但坚持、持续地做，更重要。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-25.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2018-01-25.html" itemprop="url">
+                  0125 - EOS 编程学习日志（2）
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-25T22:00:00+08:00">
+                2018-01-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>关于 EOS 学习，今天还是有些收获的。</p>
+<h2 id="关于去中心化的理解"><a href="#关于去中心化的理解" class="headerlink" title="关于去中心化的理解"></a>关于去中心化的理解</h2><p>首先，我对去中心化的理解也在不断学习中，以下表述不一定正确，君且一听。</p>
+<p><strong>要理解去中心化，首先来对比看看中心化。</strong></p>
+<p>比如，我们要实现一个在线五子棋的游戏（只是我随便举的例子，方便理解），需要这些元素：</p>
 <ul>
-<li>先使用 <a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib</a> 导入 Kindle 中的标注。</li>
-<li>使用 Kindle for macOS 继续下面的操作（因为效率高）<ul>
-<li><a href="https://www.amazon.cn/kindleformac" target="_blank" rel="external">点击这里，从亚马逊下载最新版 Kindle for macOS</a></li>
+<li>定义游戏的规则<ul>
+<li>比如，如果已经在某个点上下了一个子，就不能重复在相同的点上下子</li>
+<li>比如，满足连续五子，即可以赢了比赛</li>
 </ul>
 </li>
-<li>在 Kindle for macOS 中删除已经导入的标注。<ul>
-<li>可以在 Klib 中查看最后一条标注的内容，在 Kindle for macOS 中搜索这条标注，然后删除这条标注前面所有的标注。</li>
-<li>同时，在 Klib 中多选 <code>&lt;您已达到本内容的剪贴上限&gt;</code> 对应的标注，右击并删除。</li>
+<li>记录游戏的状态<ul>
+<li>比如，谁在哪些点上下了子</li>
 </ul>
 </li>
-<li>将剩下的标注导出为 html 文件，操作示意：<ul>
-<li><img src="https://ps.toolinbox.net/vo0ua.jpg" alt=""></li>
+<li>执行游戏的规则<ul>
+<li>比如，当一方出现连续五子时，判定其赢，且结束比赛</li>
 </ul>
 </li>
-<li>使用 Klib 导入 html 文件<ul>
-<li>点击 Klib <code>文件</code> 菜单，选择 <code>从 Kindle 导入…</code>，然后选择刚才导出的 html 文件。</li>
+<li>权限<ul>
+<li>比如，谁有权加入比赛</li>
 </ul>
 </li>
-<li>如果 Klib 依然有 <code>&lt;您已达到本内容的剪贴上限&gt;</code>，重复上面的步骤：删除已导入的、重新导出、然后导入。</li>
 </ul>
-<p>我测试过，这个办法是有效的。技术上，是 Kindle 在导出标注时，会机械地判断导出的内容是否过多。而一旦删除已经导入的标注，自然能向后延伸，导出后面更多的标注。</p>
-<p>这个方法有 2 个潜在的问题需要注意：</p>
-<ol>
-<li>标注一旦导出，就无法在 Kindle 中展现了。</li>
-<li>一旦删除，Amazon 是不会替你恢复的。<ul>
-<li>你要自己保存标注（比如使用 Klib 管理，并定期备份）</li>
-</ul>
-</li>
-</ol>
-<p>这 2 点请大家知会。如果理解了，就可以放心地使用上述方法，<strong>完整导出你自己花时间做出的读书笔记</strong>。</p>
-<p>祝，阅读愉快。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-19.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2018-01-19.html" itemprop="url">
-                  0119 - 别拿假设当事实
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-19T22:00:00+08:00">
-                2018-01-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>你有没有类似的感觉：</p>
+<p>在中性化的设计中，很明显上述元素都是在中心服务器中完成的。那对于区块链、也即 EOS 中，是如何对应的呢？</p>
 <ul>
-<li>比如，年会没中奖，感觉就像别人把自己的奖品抢走了，就好像这奖品本来就是自己的一样。</li>
-<li>比如，没在比特币价格很低时抄底，感觉错过了几个亿，就好像自己事先就有能力判断出比特币的底一样。</li>
+<li>记录游戏的状态<ul>
+<li>这是记录在区块中的</li>
 </ul>
-<p><strong>把假设、推论当事实</strong>，进而推断出让自己郁闷的结论、做出错误的决策，是在外人看来浅显易懂，而当局者却浑然不觉的问题。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-18.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2018-01-18.html" itemprop="url">
-                  0118 - 币圈好刺激
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-18T22:00:00+08:00">
-                2018-01-18
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>这两天虽然在忙着 Klib 新版，不过也还是关注着币圈。昨天几乎所有的币都跌，今天几乎所有的都涨。什么原因呢？估计谁也说不清楚。</p>
-<p>不过，从结果上看，被操控、或者说被影响的可能性很大。毕竟币都掌握在相对少的人手里，容易被操控。</p>
-<p>另一方面，由于大量散户其实对数字货币并不了解，更没有信仰。看到普跌，自然想抛。看到普涨，自然想进。而这样的心理，非常容易被影响。越跌越抛，结果更跌。</p>
-<p>于我而言，目前我还是信数字货币，但价格实在是无从理解。其实我几乎没有持有数字货币，近期倒是考虑抄底进一些。希望不要抄到山腰上，哈。</p>
-
-          
+</li>
+<li>定义、执行游戏的规则<ul>
+<li>这是包含在智能合约（contract）中的，也即 .hpp/.cpp 所转换的 .abi/.wast 中的代码</li>
+</ul>
+</li>
+<li>权限<ul>
+<li>这是记录在 account 及 wallet 中的</li>
+</ul>
+</li>
+</ul>
+<p>可以看出，<strong>去中心化并不能减少这个程序中的任一环节，只是用自己的方式来实现</strong>。在初入区块链领域时，可以借助中心化的思路来帮助理解。但如果真的要彻底进入区块链的世界，还是要慢慢切换为去中心化的思维模式。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/daily/2018-01-25.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1084,7 +1032,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/228/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/228/">228</a><span class="page-number current">229</span><a class="page-number" href="/page/230/">230</a><span class="space">&hellip;</span><a class="page-number" href="/page/404/">404</a><a class="extend next" rel="next" href="/page/230/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/228/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/228/">228</a><span class="page-number current">229</span><a class="page-number" href="/page/230/">230</a><span class="space">&hellip;</span><a class="page-number" href="/page/406/">406</a><a class="extend next" rel="next" href="/page/230/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1129,7 +1077,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2019</span>
+                <span class="site-state-item-count">2026</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
