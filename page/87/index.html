@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-31.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-06.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-31.html" itemprop="url">
-                  0131 - 宏观有时没用
+                <a class="post-title-link" href="/daily/2020-02-06.html" itemprop="url">
+                  0206 - 有一点代码洁癖
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-31T22:00:00+08:00">
-                2020-01-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-06T22:00:00+08:00">
+                2020-02-06
               </time>
             
 
@@ -366,8 +366,8 @@
       
         
           
-            <p>比如最近的疫情，每天公布各省各市的确诊病例等信息。而实际上，这样的信息对管理层有用，对我却不是。我更关心的是，最近的确诊或疑似病例，离我有多近；在哪能买到口罩；收到的包裹要先做怎样的处理；等等。</p>
-<p>我们生活在具体的细节之中。宏观的信息，能给我们整体的感觉和判断。而真正能提供切实帮助的，还是微观。</p>
+            <p>今天在写小程序云函数，为了不依赖第三方库，自动手动实现鉴权，并找单独的 base64/md5/hmac/post 等单文件实现的版本。最后，终于还是实现功能了，可惜花的时间太多了。本打算今天放出体验版的，结果还是做不到。</p>
+<p>好处是，有些工作只用做一次，下次直接复制这些代码即可。不过，如无必要，还是直接依赖第三方库算了。人生苦短，还是少重复造轮子的好。</p>
 
           
         
@@ -411,7 +411,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-30.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-05.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -433,8 +433,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-30.html" itemprop="url">
-                  0130 - 从书中「汲取」营养
+                <a class="post-title-link" href="/daily/2020-02-05.html" itemprop="url">
+                  0205 - 「视字」小程序继续踩坑
                 </a>
               
             
@@ -450,8 +450,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-30T22:00:00+08:00">
-                2020-01-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-05T22:00:00+08:00">
+                2020-02-05
               </time>
             
 
@@ -509,9 +509,16 @@
       
         
           
-            <p>看到这句话，感觉「汲取」二字真是贴切。</p>
-<p>因为疫情，全国上下在家坐月子。时间多了，也可以看看书。看书这事，多半也是在铺垫，并不会实时得到些什么。但有时就是铺垫的火候到了，突然看到某个观点，或者触发了自己的某个想法，于是茅塞顿开、受益匪浅。</p>
-<p>书，就像是一湖水，博大无限。看书，就像是拿个吸管，从湖中吸水，汲取营养。</p>
+            <p>今天早上把「<strong>视字</strong>」小程序的 <strong>体验版</strong> 做出来了，也发给了几个人试用，暴露出了很多问题。最关键的是，<strong>太太慢了</strong>。</p>
+<p>首先，我使用了 <a href="https://file.io" target="_blank" rel="external">https://file.io</a> 进行 <strong>文件中转</strong>。这个是国外的服务，之前一直开代理没感觉；在普通网络下，上传很慢，甚至可能会有超时之类的错误。</p>
+<p>然后，发现正在使用的、免费的 <strong>在线格式转换服务</strong>，其中限制了每天 30 分钟额度。哎，大意了。之前其实我是看了价格的，没注意到。并且，这个也是国外的服务，也有慢的问题。</p>
+<p>由于这两个问题，现在的方案必须得有大的调整。现在可行的方案是：<strong>使用国内的云存储，上传视频后自动转码</strong>。本以为这是很成熟的服务了，没想到还是有很多坑。</p>
+<p>首先，我试用了 <strong>阿里云和腾讯云</strong> 的相关服务，发现有个致命的问题：<strong>音频的最低采样率大于 16k Hz</strong>。而 <strong>搜狗的音频识别必须使用 16k 的采样率</strong>。发工单问了客服，告知确实不行。哎，没办法，只能放弃这两家。</p>
+<p>然后去看了 <strong>七牛</strong>。恩，看起来老实厚道七牛是没问题的，可真的一试，又发现一个坑：<strong>音频转码时不支持设置 bit per sample</strong>（中文是分辨率？位深？）。这也麻烦了，因为 <strong>搜狗的音频识别必须使用 8 bit 或 16 bit 的分辨率</strong>。理论上，可以通过设置码率（因为码率 = 采样率 <em> 位深 </em> 声道数）来倒过来设置位深，而实际测试并不工作。发工单给七牛，无奈这有点专业，售后解决不了，得等他们技术来支持。<strong>现在，这事卡在这了</strong>，除非我再去找一家云服务。</p>
+<p>同时，我又去了解了下 <strong><a href="https://ai.qq.com/doc/wxasrlong.shtml" target="_blank" rel="external">腾讯 AI 长语音识别</a></strong>，哎，也有坑。比如，服务器时不时返回 502（可以看出，给其配备的服务器资源并不充足）；很多时候创建任务成功，却永远收不到回调。从偶尔成功时返回的结果来看，<strong>文字识别结果并不如讯飞或搜狗</strong>，包括文字不准确、大段文字而没有标点等。</p>
+<p>我感觉，腾讯 AI 还是试验性阶段，各种不靠谱。可能腾讯云是商务的，应该靠谱些。其实我也不明白，腾讯云和腾讯 AI 是什么关系，不会像 QQ 和微信的关系吧。</p>
+<p>除此之外，<strong>百度</strong> 也提供了长音频提取文字，不过刚刚开始公测。我已经申请了，在等结果。现在是疫情时期，估计会很慢。下午错过了一个百度的电话，可能跟这事有关，有点后悔没接到电话，耽误事了。</p>
+<p>哎，这么个小程序、小项目，没想到会遇到这么多坑。有时，<strong>你看到一个产品很简洁，殊不知，在走到最后简洁这一步之前，已经踩过多少坑</strong>。再一个感叹便是，<strong>国内的这些云服务，看起来大而全，真往细了用时，问题很多</strong>。</p>
 
           
         
@@ -555,7 +562,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-29.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-04.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -577,8 +584,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-29.html" itemprop="url">
-                  0129 - 表演
+                <a class="post-title-link" href="/daily/2020-02-04.html" itemprop="url">
+                  0204 - 起名字真难
                 </a>
               
             
@@ -594,8 +601,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-29T22:00:00+08:00">
-                2020-01-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-04T22:00:00+08:00">
+                2020-02-04
               </time>
             
 
@@ -653,9 +660,10 @@
       
         
           
-            <p>有多少大家心知肚明的表演呢？</p>
-<p>说的人在表演；关键听到的人，明知对方在表演，也自然而然地跟着表演。大家心照不宣，面子上都过得去。</p>
-<p>比如，摆拍；比如，形式主义；比如「下次注意；一定一定」，说的人知道对方多半下次还是不注意，但这样说了，感觉自己尽到责任了；听的人也听到这次算过了，对方不会再追究了。</p>
+            <p>程序员中有个段子：最难的是，如何命名。</p>
+<p>开发小程序，有同样的问题。今天的最后几分钟，本打算注册小程序并提交。结果，在给小程序起名时卡了半天。核心的在于，对于「视频」「文字」这些通用词汇，微信基本上是不给注册的。可怜我想起类似「视频文字提取」这样的名字，肯定是不行的。</p>
+<p>憋到最后，在寒冷的冬天的晚上，我的腿都快冰了，站起来走两步，抖了个机灵，想到「视字」这个名字，立马坐电脑前一试：呀，居然成了！瞬间郁闷成了开心😄「视字」不就是视频中的文字嘛，而且还短，简直太贴切了。当然，最大的问题是对搜索不友好，用户连输入这两天字都有点麻烦。不管了，能想到这个名字就不错了。</p>
+<p>万万没想到，我最后还是没提交。原因在于，小程序限制可访问的域名。而我用到的在线视频转码服务，是动态返回上传地址的。我简单测试了下，居然有将近 50 个可能的域名；而微信最多支持 20 个。哎，这个方式不行了，只能先上传至某个云存储或文件中转，然后再识别。哎，明日再战。</p>
 
           
         
@@ -699,7 +707,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-28.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-03.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -721,8 +729,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-28.html" itemprop="url">
-                  0128 - 隐藏在大义下的问题
+                <a class="post-title-link" href="/daily/2020-02-03.html" itemprop="url">
+                  0203 - 以问题为驱动
                 </a>
               
             
@@ -738,8 +746,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-28T22:00:00+08:00">
-                2020-01-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-03T22:00:00+08:00">
+                2020-02-03
               </time>
             
 
@@ -797,10 +805,15 @@
       
         
           
-            <p>最近肺炎疫情越来越严重，各地也慢慢开始重视，出现了各种各样的举措。河南省的一些封村之类的行为，在网上被传播，人称网红硬核省。相反，一些不作为、或者行动慢的地方zf，则被骂。</p>
-<p>问题是，不作为被骂被问责，乱作为呢？</p>
-<p>封村封城，你看着爽，拍手称赞。可被封的对象，就没人权了吗。一颗白菜几十块，怎么说？</p>
-<p>对于官员来说，采取严苛甚至过份的举措，是政治正确。不仅不会被骂，还会赢来可能的政治资本，那最自然的结果，就是采取越来越严的管理办法，毕竟有利无害，为什么不呢？可因此引发的问题，隐藏在大义之下，就被无视、被淹没，更别说被解决。下次有类似情况，还会是这问题。</p>
+            <p>这两天在做一件事：从视频中提取文字。</p>
+<p>场景是这样的：比如，在看教学视频时，有时嫌视频太慢，希望从视频中提取出文字，打印出来看。10 分钟的视频，看文字可能 1 分钟就看完了，回看也很方便。还有其他一些场景，比如字幕组在翻译生肉视频时，很需要从视频中提取中英文原文，进而翻译、制作字幕。</p>
+<p>这个问题说来也容易解决，视频 &gt; 音频 &gt; 文字。不过要放到具体的环境中，可就有些麻烦了。</p>
+<p>先说从视频中提取音频。如果是在电脑端，这是很容易解决的。不过目前我打算先上个小程序，而小程序的能力很有限。想了半天，最后不得已暂时先使用在线转码服务。这样主要的问题有两个：一是视频文件通常很大，上传会需要花较多时间；二是需要找到这样的服务，最好是免费的、或者不贵。最后我找到的是 <a href="https://www.online-convert.com/" target="_blank" rel="external">https://www.online-convert.com/</a> 这个强大又免费的在线服务。</p>
+<p>再来就是音频中提取文字，这是重点。而其中最关键的，则是识别效果。我粗糙的比较了一系列云服务，最好的是讯飞和搜狗知音，其他的包括百度、阿里、腾讯，都没达到我想要的效果，算是第二梯队。讯飞的口碑和知名度是最好的，我没想到搜狗知音竟然也达到了几乎和讯飞相同的程度，可能搜狗输入法带来的大量语料也是种加持。</p>
+<p>在这一过程中，能直观感受至各家水平的差异。比如，你好歹给个在线体验的入口，总不能非得写代码才能验证效果，这就太麻烦了。</p>
+<p>其他因素包括接口便捷性、速度、并发性、价格等。我最后选择的是搜狗知音，很大程度是讯飞竟然只能上传本地音频文件，不支持使用 url 的方式。由于我先前说了，是使用云服务来提取音频，如果加上下载、再上传，那就太浪费时间了。价格方面，讯飞也是最感人的，搜狗基本是其一半多一点，一分钟约 0.1 元。</p>
+<p>搜狗知音的接口也是有坑的：查询识别结果的接口，竟然要间隔 30s，这实在是太不自信了。好在我实测间隔 10s 也不会报 429 错误，先将就着用吧。另外就是识别速度并不快，我在深夜测试，这段时间应该不太会有很多其他用户的并发，可见其服务器资源并不充裕。</p>
+<p>今天用 node 把这些流程全部实现并调通，明天准备创建小程序并接入。</p>
 
           
         
@@ -844,7 +857,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-27.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-02.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -866,8 +879,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-27.html" itemprop="url">
-                  0127 - 感情是时间浪费出来的
+                <a class="post-title-link" href="/daily/2020-02-02.html" itemprop="url">
+                  0202 - 精明不过商人
                 </a>
               
             
@@ -883,8 +896,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-27T22:00:00+08:00">
-                2020-01-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-02T22:00:00+08:00">
+                2020-02-02
               </time>
             
 
@@ -942,8 +955,9 @@
       
         
           
-            <p>比如，过年走亲戚、见朋友，「正事」其实几句话就说完了，之后就开始说一些无关紧要「废话」，干一些打牌之类「没用」的事。</p>
-<p>而要建立亲近的关系，这样的时间「浪费」好像是必须的。不可能食用高纯度关系增加剂，只能是用时间堆出来。</p>
+            <p>最近在看特*朗-普的自传，目前感触最深的便是：精明不过商人。</p>
+<p>其中一个表现是，不论发生什么情况，都有应对之策。比如，买了一个地皮，准备盖大厦，需要一系列审批。如果审批能下来，自然最好；如果不能下来，也有把握溢价将地皮出手。</p>
+<p>这样一位精明的商人总统，在中美关系中，基本他总是想占便宜的。要想让他吃瘪，那简直太难了。基本上，更可行的还是在互利的基础上，让一部分利给对方。</p>
 
           
         
@@ -982,7 +996,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/86/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/86/">86</a><span class="page-number current">87</span><a class="page-number" href="/page/88/">88</a><span class="space">&hellip;</span><a class="page-number" href="/page/407/">407</a><a class="extend next" rel="next" href="/page/88/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/86/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/86/">86</a><span class="page-number current">87</span><a class="page-number" href="/page/88/">88</a><span class="space">&hellip;</span><a class="page-number" href="/page/408/">408</a><a class="extend next" rel="next" href="/page/88/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1027,7 +1041,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2034</span>
+                <span class="site-state-item-count">2040</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
