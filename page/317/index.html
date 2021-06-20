@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-17.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-24.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-02-17.html" itemprop="url">
-                  0217 - 继续优化 Klib
+                <a class="post-title-link" href="/daily/2017-02-24.html" itemprop="url">
+                  0224 - 遇到难啃的骨头
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-17T19:52:25+08:00">
-                2017-02-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-24T19:52:25+08:00">
+                2017-02-24
               </time>
             
 
@@ -366,11 +366,11 @@
       
         
           
-            <p>今天主要在 2 方面优化 Klib.</p>
-<p><strong>本地化支持</strong></p>
-<p>利益于 <a href="http://kmate.me/" target="_blank" rel="external">Kindle Mate</a> 作者提供的真实的、奇怪的用户笔记文件（再次感谢！），Klib 增加了对真实用户的支持。其实也没太多说的，就是一条条记录去匹配。技术难度不太大，但比较烦琐。</p>
-<p><strong>优化导入速度</strong></p>
-<p>优化后的成绩是：导入 1 万条笔记的文本，用时在 10s 内。对绝大多数用户来说，足够了。</p>
+            <p>今天试着让 Klib 解析 Kindle 存储的、由其他 Kindle 客户端所产生的笔记时，遇到了搞不下去的困难。</p>
+<p>主要是困难在于，<strong>Amazon 并未开放这些数据文件的格式</strong>。并且，这些格式还受 DRM (Digital Rights Management) 加密保护。要读取，即使没有版权、法律上的风险（因为是用户在读取自己会产生的笔记），也确实是不容易。</p>
+<p>虽然有 Calibre 这样的开源软件做了类似的事，不过，他们是基于 Python 的。即使翻译到 Swift，也要涉及逆向工程所得到的文件格式。这一过程是很繁琐、花时间，而且极易出错。</p>
+<p>可是，如果这关过不去，就面临着「Klib 无法获取用户全部笔记」的尴尬。数据的不完整，会让用户用起来很没有安全感，总担心自己的笔记有遗漏。虽说懂内情的人，可以通过仅在 Kindle 设备上加标注来绕过。不过，毕竟不是所有人都能理解。并且，不让用户在手机等 Kindle 客户端做笔记，也并不是合适的要求。</p>
+<p>卡在这个地方了，痛苦中…</p>
 
           
         
@@ -414,7 +414,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-16.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-23.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -436,8 +436,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-02-16.html" itemprop="url">
-                  0216 - iKindle > Klib
+                <a class="post-title-link" href="/daily/2017-02-23.html" itemprop="url">
+                  0223 - 初为嘉宾
                 </a>
               
             
@@ -453,8 +453,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-16T19:52:25+08:00">
-                2017-02-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-23T19:52:25+08:00">
+                2017-02-23
               </time>
             
 
@@ -512,170 +512,17 @@
       
         
           
-            <p>今天真是丰富的一天。</p>
-<p>在经历无数纠结后，终于给 iKindle 起了个新名字：<strong>Klib</strong> (<strong>K</strong>indle <strong>lib</strong>rary). 别跟我说不好听、不好念、不好记，这是我能想到的最好的了。就算不好，也就当起个贱名娃好养吧，任性一把。</p>
-<p>给 App 换名真是个极其痛苦的过程，各种东西都要换，比昨天日记里提到的内容还要多。以后再也不想做类似的事了。</p>
-<p>Anyway, Klib 终于还是提交了，希望苹果大爷这次给面，顺利通过。我这也是为广大 Kindle 用户谋福利啊。</p>
-<p>期间，Kindle Mate 作者给了我很多帮助，还提供了训练识别的 Clippings 文件，非常感谢！1Mhz 君也帮忙给 Klib 起名字（虽然是怕我抢他的名字，哈哈），也一并感谢。</p>
+            <p>今天接受少数派的邀请，参加了 Matrix 群讨论，初为线上嘉宾。</p>
+<p><strong>主要讨论的是：大家是如何阅读、如何做笔记、如何看待做了笔记而不会回看、如何持久存储笔记、等等问题。</strong></p>
+<p>我觉得，在如今这个快消费时代，还有这么一群人能静下心来来，认真的看书，还做笔记，真是不容易。非常愿意跟这样的人交流。</p>
+<p>在跟大家的聊天中，也了解到一些大家实际使用 Kindle 的方法、场景，对改进 Klib 提供了更多背景支持，谢谢大家的分享。</p>
+<p>最大的遗憾就是，时间的限制，没能跟大家深入交流，深觉可惜。</p>
 <hr>
-<p>另一件事，就是 <a href="https://www.zhihu.com/question/55891041" target="_blank" rel="external">61 爆出了微博替换 iTunes 推广链接中的识别码的事</a>，具体的事我就不在这转述了，大家自己跳过去看。除了围观，才知道原来还有 iTunes 推广分成这事，大家感兴趣 <a href="https://itunes-signup.performancehorizon.com/signup/zh_cn/itunes" target="_blank" rel="external">可以去了解下</a>，我是准备给自己的 App 加尾巴啦~</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-15.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-02-15.html" itemprop="url">
-                  0215 - 纪念 iKindle 君
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-15T19:52:25+08:00">
-                2017-02-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>因为苹果大爷不允许 App 名称中包含 <code>Kindle</code>，接连被拒 2 次后，终于要放弃 <code>iKindle</code> 这个名字。</p>
-<p>别了，iKindle 君…</p>
-<p>换名字真是个麻烦的事：</p>
+<p>今天的遗憾还有两处：</p>
 <ul>
-<li>项目名称</li>
-<li>Logo</li>
-<li>App 名称</li>
-<li>截图</li>
-<li>描述</li>
-<li>官网</li>
-<li>媒体资源</li>
+<li>没写代码</li>
+<li>没看完《从零开始做运营》</li>
 </ul>
-<p>并且，之前使用 iKindle 埋下的伏笔（如使用 iKindle 发的帖子），也全都作废。 哎，真是伤心。</p>
-<p>关键是，新名字想不好呀。自己想了半天，也邀请了 iPic 的用户来讨论，有好多候选：iNotes, iKnow, iClip, iClippings, Kinote, iKan, KWords, indle, IDU, iKeys, imazon, EssayNote, iki, kin it, ikendle, iMemo…</p>
-<p>最后比较倾向的是 Kinote，可一方面这是生造词、犯忌讳；另一方面，这和 1Mhz 群的 Knotes 很像，毕竟是同类产品，这样太不好了。哎，纠结的要死，都要精神分裂了。</p>
-<p>本来打算今晚重新提交了，因为名字的问题，只能搁置了。</p>
 
           
         
@@ -719,7 +566,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-14.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-22.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -741,8 +588,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-02-14.html" itemprop="url">
-                  0214 - iKindle 发布预热
+                <a class="post-title-link" href="/daily/2017-02-22.html" itemprop="url">
+                  0222 - 喧嚣过后，归于宁静
                 </a>
               
             
@@ -758,8 +605,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-14T19:52:25+08:00">
-                2017-02-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-22T19:52:25+08:00">
+                2017-02-22
               </time>
             
 
@@ -817,9 +664,23 @@
       
         
           
-            <p>今天花了一天时间来准备 iKindle 发布，如联系媒体朋友、准备 Product Hunt 文案、开启豆瓣小组、学习微博抽奖转发、等等。</p>
-<p>自己做的东西，马上要出去见人了，很是期待；希望大家能喜欢。</p>
-<p>最重要的，希望苹果大叔明天能顺利审核通过，拜托了！</p>
+            <p>于我而言，<strong>代码是宁静的，运营是喧嚣的</strong>。</p>
+<p><strong>而我，偏好于宁静。</strong></p>
+<p>从周一中午手动发布到现在，过去了 60 个小时。而这过去的 2 天多里，我几乎只在做一件事：<strong>Klib 的推广</strong>。</p>
+<ul>
+<li>有半夜起来回消息的疲惫；</li>
+<li>有看到用户好评时的高兴；</li>
+<li>有看到大家买单时的感动；</li>
+<li>有看到 iPic 被抄袭、而抄袭者振振有词时的无语；</li>
+<li>有朋友祝贺时的开心；</li>
+<li>…</li>
+</ul>
+<p>很热闹的一段时间，也是对我过去闭门开发的奖励，享受这段时间。</p>
+<p>不过，热闹总是会过去；就像是春节总是会过去，大家总要回到自己的学习、工作中，继续原来的行程。</p>
+<p>Klib 首发的热闹就快过去了，我也要开始静下心来，认真梳理用户的每条建议，思考接下来的要如何改进 Klib，以期再一次给用户惊艳。</p>
+<hr>
+<p><strong>再见，Klib 首发；</strong></p>
+<p><strong>你好，下一段征程。</strong></p>
 
           
         
@@ -863,7 +724,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-13.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-21.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -885,8 +746,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-02-13.html" itemprop="url">
-                  0213 - 深耕存量用户
+                <a class="post-title-link" href="/daily/2017-02-21.html" itemprop="url">
+                  0221 - 我是如何把 Klib 带到这个世界的
                 </a>
               
             
@@ -902,8 +763,166 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-13T19:52:25+08:00">
-                2017-02-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-21T19:52:25+08:00">
+                2017-02-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><img src="https://ps.toolinbox.net/zyvsd.png" alt=""></p>
+<p>这里不但有<strong>「Klib 的诞生过程」</strong>，</p>
+<p>还有<strong>「独立开发者」</strong>的真实写照，</p>
+<p>万字长文，深度干货，请谨慎继续…</p>
+<hr>
+<p>历时 50 天、横跨 2 年、经过 258 小时的纯手工打造，Klib 终于来到了这个世界。</p>
+<p><img src="https://ps.toolinbox.net/5n91p.jpg" alt=""></p>
+<p>这两天 Klib 刚刚发布，收到很多用户的好评。赶着手热，记录下 Klib 的诞生历程吧。</p>
+<p>Klib 是全新的 Kindle 标注、笔记/书摘管理工具，macOS 平台。</p>
+<ul>
+<li><a href="https://toolinbox.net/Klib/">了解更多</a></li>
+<li><a href="https://itunes.apple.com/cn/app/id1196268448?mt=12&amp;at=1001lsTF&amp;ct=klib_me">Mac App Store 下载</a></li>
+</ul>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/daily/2017-02-21.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-02-20.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-02-20.html" itemprop="url">
+                  0220 - Klib 正式上架 Mac App Store
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-02-20T19:52:25+08:00">
+                2017-02-20
               </time>
             
 
@@ -961,9 +980,20 @@
       
         
           
-            <p><strong>流量红利消失的年代，还是得深耕存量用户</strong>。</p>
-<p>这不，iKindle 马上要发布了，到哪找用户呢？我准备向 iPic 用户介绍 iKindle，看是否有重叠用户。毕竟都是用 Mac、对我个人可能有一定的认可、偏好精简的应用、等等，有了这些标签，需要 iKindle 的可能性还是有的，总比在马路边找用户要强吧。</p>
-<p>当然，这只是「用」存量用户，还是「养」；说白了，就是伺候好现在的用户。比如，快速响应用户的问题，尽量满足用户的需求，平时多通过群等方式来联络感情，等等。</p>
+            <p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_home" target="_blank" rel="external"><img src="https://ps.toolinbox.net/zyvsd.png" alt=""></a></p>
+<p>历时 50 天、横跨 2 年，Klib 终于上架 Mac App Store!</p>
+<p>最初，只是想做一个自己用的小工具。</p>
+<p>后来，发现有点意思，就想做的好一点。</p>
+<p>慢慢，有一些朋友说，他们也需要类似的工具。</p>
+<p>最后，有了现在的 Klib，全新的 Kindle 笔记管理工具。</p>
+<p>期间各种不易：孱弱的 Kindle 笔记格式、繁复的多语言、给 App 起名的各种纠结、不得不放弃的「iKindle」…</p>
+<p>不管怎样，都过去了，Klib 诞生了。在少数派上被推荐后，收到了很多朋友的好评，比如：</p>
+<blockquote>
+<p>初体验惊了，这就是我想要的书摘管理工具啊。简单好用易上手，不需要任何提示指南，两栏的界面设计，简洁清晰，一目了然。复制为markdown功能很棒，也喜欢空格键的快速查看功能，点击一下空格键，然后通过上下键便可回顾完一本书的摘录…</p>
+</blockquote>
+<p>感觉挺满足的。</p>
+<p>继续推荐给更多需要 Klib 的人，继续改进 Klib…</p>
+<p><a href="https://itunes.apple.com/cn/app/id1196268448?ls=1&amp;mt=12&amp;at=1001lsTF&amp;ct=klib_home" target="_blank" rel="external"><img src="https://ps.toolinbox.net/evqdg.jpg" alt="Mac App Store"></a></p>
 
           
         
@@ -1002,7 +1032,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/316/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/316/">316</a><span class="page-number current">317</span><a class="page-number" href="/page/318/">318</a><span class="space">&hellip;</span><a class="page-number" href="/page/421/">421</a><a class="extend next" rel="next" href="/page/318/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/316/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/316/">316</a><span class="page-number current">317</span><a class="page-number" href="/page/318/">318</a><span class="space">&hellip;</span><a class="page-number" href="/page/422/">422</a><a class="extend next" rel="next" href="/page/318/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1047,7 +1077,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2103</span>
+                <span class="site-state-item-count">2110</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
