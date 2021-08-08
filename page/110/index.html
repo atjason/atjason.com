@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-03.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-10.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-03.html" itemprop="url">
-                  0203 - 以问题为驱动
+                <a class="post-title-link" href="/daily/2020-02-10.html" itemprop="url">
+                  0210 - 「视字」集成百度
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-03T22:00:00+08:00">
-                2020-02-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-10T22:00:00+08:00">
+                2020-02-10
               </time>
             
 
@@ -366,15 +366,12 @@
       
         
           
-            <p>这两天在做一件事：从视频中提取文字。</p>
-<p>场景是这样的：比如，在看教学视频时，有时嫌视频太慢，希望从视频中提取出文字，打印出来看。10 分钟的视频，看文字可能 1 分钟就看完了，回看也很方便。还有其他一些场景，比如字幕组在翻译生肉视频时，很需要从视频中提取中英文原文，进而翻译、制作字幕。</p>
-<p>这个问题说来也容易解决，视频 &gt; 音频 &gt; 文字。不过要放到具体的环境中，可就有些麻烦了。</p>
-<p>先说从视频中提取音频。如果是在电脑端，这是很容易解决的。不过目前我打算先上个小程序，而小程序的能力很有限。想了半天，最后不得已暂时先使用在线转码服务。这样主要的问题有两个：一是视频文件通常很大，上传会需要花较多时间；二是需要找到这样的服务，最好是免费的、或者不贵。最后我找到的是 <a href="https://www.online-convert.com/" target="_blank" rel="external">https://www.online-convert.com/</a> 这个强大又免费的在线服务。</p>
-<p>再来就是音频中提取文字，这是重点。而其中最关键的，则是识别效果。我粗糙的比较了一系列云服务，最好的是讯飞和搜狗知音，其他的包括百度、阿里、腾讯，都没达到我想要的效果，算是第二梯队。讯飞的口碑和知名度是最好的，我没想到搜狗知音竟然也达到了几乎和讯飞相同的程度，可能搜狗输入法带来的大量语料也是种加持。</p>
-<p>在这一过程中，能直观感受至各家水平的差异。比如，你好歹给个在线体验的入口，总不能非得写代码才能验证效果，这就太麻烦了。</p>
-<p>其他因素包括接口便捷性、速度、并发性、价格等。我最后选择的是搜狗知音，很大程度是讯飞竟然只能上传本地音频文件，不支持使用 url 的方式。由于我先前说了，是使用云服务来提取音频，如果加上下载、再上传，那就太浪费时间了。价格方面，讯飞也是最感人的，搜狗基本是其一半多一点，一分钟约 0.1 元。</p>
-<p>搜狗知音的接口也是有坑的：查询识别结果的接口，竟然要间隔 30s，这实在是太不自信了。好在我实测间隔 10s 也不会报 429 错误，先将就着用吧。另外就是识别速度并不快，我在深夜测试，这段时间应该不太会有很多其他用户的并发，可见其服务器资源并不充裕。</p>
-<p>今天用 node 把这些流程全部实现并调通，明天准备创建小程序并接入。</p>
+            <p><strong>百度语音转写</strong>，目前还在公测期，需要申请。之前申请，今天终于过了；估计主要是受疫情影响，审核比较慢。</p>
+<p>迫不及待拿来一试。集成还挺简单的，一个请求创建任务，指定音频的 url 及其他参数；之后便是轮询，查询转写是否完成。当然，也支持作为完成后回调，只是一般客户端调用，自然是无法接受回调的。</p>
+<p>需要关心的主要是两点：<strong>识别质量</strong> 和 <strong>识别速度</strong>。</p>
+<p><strong>识别质量</strong> 方面，感觉略微比较搜狗知音差一点，不过整体还是达到商用级别的。尤其，每天还有 5 万次的免费额度，对「视字」这种级别的小程序，自然是够用了。</p>
+<p><strong>识别速度</strong> 方面，感觉不太稳定。快的时候很快，基本 10s+ 就有结果。慢的时候很慢，甚至 3 分钟的音频，要几十分钟、上小时才完成。我猜还是服务器资源有限，碰到请求比较多时，识别时间就会拉长。</p>
+<p>不过，最后我还是 <strong>没有在「视字」中使用百度</strong>，主要是因为上面两点：识别质量畋差于搜狗，识别速度不够稳定。不过，还是继续观察，相信百度还是会快速进化的，毕竟语音是未来交互的重要途径之一，而百度明显在语音转写方面起步晚了。要追上，就得快跑了。</p>
 
           
         
@@ -418,7 +415,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-02.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-09.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -440,8 +437,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-02.html" itemprop="url">
-                  0202 - 精明不过商人
+                <a class="post-title-link" href="/daily/2020-02-09.html" itemprop="url">
+                  0209 - 「视字」集成讯飞
                 </a>
               
             
@@ -457,8 +454,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-02T22:00:00+08:00">
-                2020-02-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-09T22:00:00+08:00">
+                2020-02-09
               </time>
             
 
@@ -516,9 +513,16 @@
       
         
           
-            <p>最近在看特*朗-普的自传，目前感触最深的便是：精明不过商人。</p>
-<p>其中一个表现是，不论发生什么情况，都有应对之策。比如，买了一个地皮，准备盖大厦，需要一系列审批。如果审批能下来，自然最好；如果不能下来，也有把握溢价将地皮出手。</p>
-<p>这样一位精明的商人总统，在中美关系中，基本他总是想占便宜的。要想让他吃瘪，那简直太难了。基本上，更可行的还是在互利的基础上，让一部分利给对方。</p>
+            <p>今天没忍住，动手给「<strong>视字</strong>」集成了 <strong>讯飞语音识别</strong>。</p>
+<p>为什么呢？本来对讯飞期望挺高的，毕竟在公开的产品中，<strong>讯飞听见的识别结果是相对来说最理想的</strong>，我自然想将其集成到「视字」中。之前选择搜狗而非讯飞，主要是几个原因：</p>
+<ul>
+<li>讯飞只支持上传本地音频文件，不支持提供网络音频文件。</li>
+<li>讯飞价格最美丽，入门价基本是搜狗等其他产品的 2 倍+</li>
+</ul>
+<p>不过，后来看如果选择比较贵的套餐，基本价格能做到和其他产品差不多。冲着它的效果，我就动手了。</p>
+<p>不过，折腾了一天，等集成后，傻眼了：<strong>相同的音频文件，讯飞 API 返回的识别结果，和讯飞自家的产品如讯飞听听，那简单不是一个量级的东西，差太多了</strong>。跟腾讯、阿里比都不如，更别说搜狗。我当时那个吐血啊。都怪我太善良，没相信讯飞这个浓眉大眼的家伙，也会干这种事。</p>
+<p>目前，我已经发了工单，提供了音频文件和分别的识别结果，询问官方到底是怎么回事，期待结果吧。<strong>如果没有合理的答复，我只能粉转黑，再也不义务宣传讯飞的产品了</strong>。</p>
+<p>当然，今天还件开心的事：<strong>从视频中提取音频</strong>，我选用的是七牛的服务。本以为会按视频转码计费；给七牛发工单，官人也是这么说的。没想到今天看实时费用，<strong>应该是按音频转码计费的</strong>，这可是视频价格的 1/10。恩，好事，可以压低成本了。不过，七牛的服务响应速度堪忧，说人话就是很慢。哎，这问题目前怕是无解了。</p>
 
           
         
@@ -562,7 +566,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-01.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-08.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -584,8 +588,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-01.html" itemprop="url">
-                  0201 - 没有自然而然的事
+                <a class="post-title-link" href="/daily/2020-02-08.html" itemprop="url">
+                  0208 - 「视字」上线
                 </a>
               
             
@@ -601,8 +605,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-01T22:00:00+08:00">
-                2020-02-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-08T22:00:00+08:00">
+                2020-02-08
               </time>
             
 
@@ -660,10 +664,12 @@
       
         
           
-            <p>比如，吃饭穿衣服是很自然而然的事吧，小孩子并不会。</p>
-<p>比如，红会全心全意为人民服务是自然而然的事吧，然而…</p>
-<p>比如…还有很多。</p>
-<p>几乎所有我们觉得自然而然、理所当然的事，其实不然。这些事，是在各种利益动机风险的权衡之间发生的。要让这些事显得自然，需要调整各种权衡。</p>
+            <p>折腾了差不多一周，「<strong>视字</strong>」小程序上线了。</p>
+<p><img src="https://ps.toolinbox.net/2m0o8.png" width="200px"></p>
+<p>用法很简单：选择视频，等待，即可识别出视频中的文字。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybply1gbpf7wv843g30880hshdu.gif" alt=""></p>
+<p>欢迎扫码一试，也请帮忙介绍给周围需要的朋友。</p>
+<p>使用过程中遇到任何问题，可以点击应用底部的「反馈」，我这个小客服会很负责的哦~</p>
 
           
         
@@ -707,7 +713,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-31.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-07.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -729,8 +735,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-31.html" itemprop="url">
-                  0131 - 宏观有时没用
+                <a class="post-title-link" href="/daily/2020-02-07.html" itemprop="url">
+                  0207 - 「视字」收尾
                 </a>
               
             
@@ -746,8 +752,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-31T22:00:00+08:00">
-                2020-01-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-07T22:00:00+08:00">
+                2020-02-07
               </time>
             
 
@@ -805,8 +811,9 @@
       
         
           
-            <p>比如最近的疫情，每天公布各省各市的确诊病例等信息。而实际上，这样的信息对管理层有用，对我却不是。我更关心的是，最近的确诊或疑似病例，离我有多近；在哪能买到口罩；收到的包裹要先做怎样的处理；等等。</p>
-<p>我们生活在具体的细节之中。宏观的信息，能给我们整体的感觉和判断。而真正能提供切实帮助的，还是微观。</p>
+            <p>昨天把主体工作完成了，今天就是收尾。</p>
+<p>其实，收尾会有很多杂事，比如校对文案，错误日志收集，关键服务监控，设计 Logo、图标，提交审核并发布，制作宣传材料和文案，考虑推广方案，等等。</p>
+<p>Anyway，今天小程序已经上线了，宣传视频也做好了，明天开始逐步推广。</p>
 
           
         
@@ -850,7 +857,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-30.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-06.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -872,8 +879,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-30.html" itemprop="url">
-                  0130 - 从书中「汲取」营养
+                <a class="post-title-link" href="/daily/2020-02-06.html" itemprop="url">
+                  0206 - 有一点代码洁癖
                 </a>
               
             
@@ -889,8 +896,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-30T22:00:00+08:00">
-                2020-01-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-06T22:00:00+08:00">
+                2020-02-06
               </time>
             
 
@@ -948,9 +955,8 @@
       
         
           
-            <p>看到这句话，感觉「汲取」二字真是贴切。</p>
-<p>因为疫情，全国上下在家坐月子。时间多了，也可以看看书。看书这事，多半也是在铺垫，并不会实时得到些什么。但有时就是铺垫的火候到了，突然看到某个观点，或者触发了自己的某个想法，于是茅塞顿开、受益匪浅。</p>
-<p>书，就像是一湖水，博大无限。看书，就像是拿个吸管，从湖中吸水，汲取营养。</p>
+            <p>今天在写小程序云函数，为了不依赖第三方库，自动手动实现鉴权，并找单独的 base64/md5/hmac/post 等单文件实现的版本。最后，终于还是实现功能了，可惜花的时间太多了。本打算今天放出体验版的，结果还是做不到。</p>
+<p>好处是，有些工作只用做一次，下次直接复制这些代码即可。不过，如无必要，还是直接依赖第三方库算了。人生苦短，还是少重复造轮子的好。</p>
 
           
         
@@ -989,7 +995,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/109/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/109/">109</a><span class="page-number current">110</span><a class="page-number" href="/page/111/">111</a><span class="space">&hellip;</span><a class="page-number" href="/page/431/">431</a><a class="extend next" rel="next" href="/page/111/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/109/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/109/">109</a><span class="page-number current">110</span><a class="page-number" href="/page/111/">111</a><span class="space">&hellip;</span><a class="page-number" href="/page/432/">432</a><a class="extend next" rel="next" href="/page/111/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1034,7 +1040,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2152</span>
+                <span class="site-state-item-count">2159</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
