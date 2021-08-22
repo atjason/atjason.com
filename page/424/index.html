@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/330.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/412.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/330.html" itemprop="url">
-                  Kindle 4 原生系统替换中文字体
+                <a class="post-title-link" href="/412.html" itemprop="url">
+                  使用Seafile架设私有云：公网基础使用
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-02-03T20:40:04+08:00">
-                2013-02-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-05-10T17:23:34+08:00">
+                2014-05-10
               </time>
             
 
@@ -366,88 +366,36 @@
       
         
           
-            <p>更换字体后的效果：</p>
-<p><a href="https://ps.toolinbox.net/5us2b.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/jgzgr.jpg" alt=""></a></p>
-<p>以下是根据网络上的教程+自己刷机步骤整理，自己不会忘，也供诸君参考。more</p>
-<hr>
-<p>准备字体</p>
+            <p><a href="http://itguwen.net/294.html" target="_blank" rel="external">上文介绍了Seafile</a><a href="http://itguwen.net/294.html" target="_blank" rel="external">私有云之局域网使用</a>，本文介绍如何将Seafile暴露在公网中使用</p>
+<h2 id="使用域名解析路由器IP地址"><a href="#使用域名解析路由器IP地址" class="headerlink" title="使用域名解析路由器IP地址"></a>使用域名解析路由器IP地址</h2><p>首先查看你的公网IP，可以在<a href="http://who.is/" target="_blank" rel="external">http://</a><a href="http://who.is/" target="_blank" rel="external">who.is/</a>这样的网址上查看，或者在路由器的状态页面查看。</p>
+<p>注：有的宽带运营商并不提供公网IP，对于这种情况，事情就会很复杂，劝你还是放弃吧，内网穿透这种事情不是所有人都能折腾的</p>
+<p>然后你需要一个域名（假定域名为：<a href="http://test.com" target="_blank" rel="external">http://test.com</a>），如果没有就想办法弄一个，不然就别往下看了。或者你可以使用使用公网IP继续往下测试。将域名（或其二级域名）解析至你的公网IP（使用A记录）。过一段时间后域名解析会生效，检查办法：ping你的域名看是否解析至对应的公网IP</p>
+<p>至此，域名解析结束</p>
+<h2 id="路由器配置"><a href="#路由器配置" class="headerlink" title="路由器配置"></a>路由器配置</h2><p>为电脑在路由器上设置静态IP地址分配，这样即使路由器或电脑重启后，电脑依然能得到固定的IPmore</p>
+<p>为电脑在路由器上设置端口转发，之后从外网访问路由器相应端口时，路由器将请求转发给内网的电脑。</p>
+<p>需要转发哪些端口？默认端口如下</p>
 <ul>
-<li><p>中文字体建议：</p>
-<ul>
-<li><p>主字体选择“方正准雅宋 ”；</p>
-<ul>
-<li><p>粗体是“方正特雅宋 ”；</p>
+<li><p>ccnet: 1000</p>
 </li>
-<li><p>斜体是“华文中宋斜”</p>
+<li><p>seaf-server: 1200</p>
 </li>
-<li><p>粗斜体是“华文中宋粗斜”</p>
+<li><p>seahub: 800</p>
+</li>
+<li><p>httpserver: 8082</p>
 </li>
 </ul>
-</li>
-</ul>
-</li>
-<li><p>英文字体优化建议：</p>
-<ul>
-<li><p>Serif（衬线）字体由 PMN Caecilia 换成了 Droid Serif，</p>
-<ul>
-<li>Sans Serif（无衬线）字体则由经典的 Helvetica换成了 Droid Sans。</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<p><strong>复制字体，进入调试模式 </strong></p>
-<p>将Kindle通过usb连接至PC，要目录创建fonts文件夹，将CJK.ttf 和CJK_Bold.ttf(前者是普通字体，后者是粗体)。</p>
-<p>然后，为了进入调试模式，需要在kindle根目录下创建一个名为“ENABLE_DIAGS”的空文件。重启设备(Settings -&gt; Menu -&gt; Restart)</p>
-<p><strong>调试模式下开启USBnet </strong></p>
-<p>重启后，设备会自动进入调试模式，将Kindle连上USB线，在菜单中依次选择 Misc individual diagnostics -&gt; Utilities -&gt; Enable USBnet，记录IP地址，一般为192.168.15.244；最后并根据提示按方向键右键确认(FW RIGHT)</p>
-<p><strong>设置网络连接</strong></p>
-<p>Mac下连接新创建的网络节点（Window需要安装驱动），设置该连接IP为：192.168.15.1，子网掩码为：255.255.255.0 ，其它保持默认。</p>
-<p><strong>SSH登录</strong></p>
-<p>现在就可以通过SSH登录了，在Putty中连接到192.168.15.244(这是Kindle的默认地址) ，输入用户名为 root ，密码很有可能为mario；不然看文后链接 。</p>
-<p>ssh root@192.168.15.244</p>
-<p><strong>替换中文字体 </strong></p>
-<p>输入以下命令挂载驱动器：</p>
-<p>mount /dev/mmcblk0p1 /mnt/base-mmc</p>
-<p>复制字体</p>
-<p>cp /mnt/base-us/documents/fonts/CJK.ttf /mnt/base-mmc/usr/java/lib/fonts/</p>
-<p>cp /mnt/base-us/documents/fonts/CJK_Bold.ttf /mnt/base-mmc/usr/java/lib/fonts/</p>
-<p>修改系统默认字体设置</p>
-<p>在修改前，先对系统文件进行备份，有备无患：</p>
-<p>cp /mnt/base-mmc/usr/java/lib/font.properties /mnt/base-mmc/usr/java/lib/font.properties.bak</p>
-<p>然后，执行：</p>
-<p>vi /mnt/base-mmc/usr/java/lib/font.properties</p>
-<p>找到如下行：</p>
-<p>hans.0=MHeiM18030_E.ttf</p>
-<p>hans.plain=MHeiM18030_E.ttf</p>
-<p>hans.1=MHeiM18030_E_Bold.ttf</p>
-<p>hans.bold=MHeiM18030_E_Bold.ttf</p>
-<p>将其修改为（按 i 键进入编辑模式）：</p>
-<p>hans.0=CJK.ttf</p>
-<p>hans.plain=CJK.ttf</p>
-<p>hans.1=CJK_Bold.ttf</p>
-<p>hans.bold=CJK_Bold.ttf</p>
-<p>保存退出(按ESC，输入 :wq)。</p>
-<p>Update：</p>
-<p>经过以上步骤的修改后，语言为中文的书籍就能够正常显示了，但对于未设置语言的书籍，可以用PC上的calibre进行设置。</p>
-<p><strong>退出调试模式 </strong></p>
-<p>在Kindle上退回到调试模式主菜单，并选择”’Exit, Reboot or Disable Diags’”-&gt;”’Disable Diagnostics”,，并按照提示按左键确认（FW Left ）退出。稍等片刻，设备将重启并回到正常模式。</p>
-<p>退出调试模式很慢，按部就班就行 ，k4的系统重启一样需要一些耐心。</p>
-<p>如果再次使用USB进入调试模式，需要建立”enable_diags”文件夹…….</p>
-<p>**到退出调试时提示：pcbid does not match with DSN</p>
-<p>**K4 Black刷砖后的确会有这个问题， 只有这个菜单有问题，其他菜单正常。</p>
-<p>在 USBNETWORK 下 敲：</p>
-<p>idme -d –bootmode main</p>
-<p>reboot</p>
-<p>切换到main，下次就不会自动进入diags模式了。</p>
-<p><strong>链接 </strong></p>
-<p><a href="http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=50925&amp;highlight=kindle%2B4%2B%E5%AD%97%E4%BD%93" target="_blank" rel="external">http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=50925&amp;highlight=kindle%2B4%2B字体</a></p>
-<p><a href="http://bbs.zoopda.com/thread-117055-1-1.html" target="_blank" rel="external">http://bbs.zoopda.com/thread-117055-1-1.html</a></p>
-<p><a href="http://axiu.me/trial/change_font_for_kindle4/" target="_blank" rel="external">http://axiu.me/trial/change_font_for_kindle4/</a></p>
-<p><a href="http://miaoo.in/kindle4-modify-font.html" target="_blank" rel="external">http://miaoo.in/kindle4-modify-font.html</a></p>
-<p><a href="http://bbs.duokan.com/forum/thread-73792-1-1.html" target="_blank" rel="external">http://bbs.duokan.com/forum/thread-73792-1-1.html</a></p>
-<p><a href="http://irising.me/2011/12/12574/" target="_blank" rel="external">http://irising.me/2011/12/12574/</a></p>
-<p><a href="http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=64538&amp;highlight=kindle%2B4%2B%E5%AD%97%E4%BD%93" target="_blank" rel="external">http://bbs.duokan.com/forum/forum.php?mod=viewthread&amp;tid=64538&amp;highlight=kindle%2B4%2B字体</a></p>
+<p>更新路由器上的防火墙设置，如允许WAN口接收公网请求等</p>
+<p>至此，路由器配置结束</p>
+<h2 id="Seafile服务器配置"><a href="#Seafile服务器配置" class="headerlink" title="Seafile服务器配置"></a>Seafile服务器配置</h2><p>编辑seafile-server目录下的ccnet\ccnet.conf（如G:\seafile-server\ccnet\ccnet.conf），更新如下内容：</p>
+<p>SERVICE_URL = <a href="http://test.com:8000" target="_blank" rel="external">http://test.com:8000</a></p>
+<p><strong>接下来测试配置是否正确</strong></p>
+<h2 id="测试网页端"><a href="#测试网页端" class="headerlink" title="测试网页端"></a>测试网页端</h2><p>打开域名及端口，如<a href="http://test.com:8000" target="_blank" rel="external">http://test.com:8000</a>，如果显示的是和内网的<a href="http://192.168.1.101:8000" target="_blank" rel="external">http://192.168.1.101:8000</a>一致，并能使用账户登陆，则说明域名及路由器配置正确。不然则要从头来排查</p>
+<h2 id="测试Windows客户端"><a href="#测试Windows客户端" class="headerlink" title="测试Windows客户端"></a>测试Windows客户端</h2><p>添加新的账户，使用<a href="http://test.com:8000" target="_blank" rel="external">http://test.com:8000</a>作为服务器地址。如果能显示出和内网相同的内容，则说明一切正常</p>
+<h2 id="测试iOS客户端"><a href="#测试iOS客户端" class="headerlink" title="测试iOS客户端"></a>测试iOS客户端</h2><p>类似于Windows客户端，使用<a href="http://test.com:8000" target="_blank" rel="external">http://test.com:8000 </a>作为服务器地址进行测试。为了验证，在手机上可以使用手机网络而非WiFi来测试</p>
+<p><strong>至此，Seafile私有云可以在公网使用</strong></p>
+<h3 id="关于速度"><a href="#关于速度" class="headerlink" title="关于速度"></a>关于速度</h3><p>不得不说的是速度。限于宽带运营商对上行速度的限制，实际中速度可能比较慢（比如只有几十KB/s）而变得实用性不大；不过，这也取决于你的实际测试情况</p>
+<h3 id="动态域名解析"><a href="#动态域名解析" class="headerlink" title="动态域名解析"></a>动态域名解析</h3><p>可能有经验的看官已经发现，这样配置的域名是有问题的，即路由器重启后从运营商处分配得到的IP是会变动的。对，没错！为了解决这个问题，就需要使用动态域名解析。这一话题，请看：<a href="http://itguwen.net/312.html" target="_blank" rel="external">使用Seafile架设私有云：公网进阶使用</a></p>
+<p>转自：<a href="http://itguwen.net/306.html" target="_blank" rel="external">使用Seafile架设私有云：公网基础使用</a></p>
 
           
         
@@ -491,7 +439,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/324.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/410.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -513,8 +461,8 @@
             
               
                 
-                <a class="post-title-link" href="/324.html" itemprop="url">
-                  需求的生死关
+                <a class="post-title-link" href="/410.html" itemprop="url">
+                  使用Seafile架设私有云：局域网使用
                 </a>
               
             
@@ -530,8 +478,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-11-07T22:08:09+08:00">
-                2012-11-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-05-10T17:21:56+08:00">
+                2014-05-10
               </time>
             
 
@@ -553,8 +501,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/PM/" itemprop="url" rel="index">
-                    <span itemprop="name">PM</span>
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
                   </a>
                 </span>
 
@@ -589,33 +537,44 @@
       
         
           
-            <p>不是每个需求都有价值、或者即便有价值也不一定做。确定一个需求做还是不做、何时做，是PM需要考虑的事情，也是需求所面临的生死关。more</p>
+            <h2 id="写在前面"><a href="#写在前面" class="headerlink" title="写在前面"></a>写在前面</h2><p>关于版本等信息，本文使用的是2014年5月10日的最新版，你看到本文时可能已经有更新，可以到<a href="http://seafile.com" target="_blank" rel="external">Seafile</a><a href="http://seafile.com" target="_blank" rel="external">官网</a>上查看</p>
+<p>关于一些技术细节，写得太细了怕招人烦，写得粗略又怕看不懂。本文并不知道看官道行有多深，所以并不确定该写到什么程度。如果觉得太琐碎，就请快速扫过；如果觉得看不太懂，可以联络我，或者请教万能的Google，毕竟你看这篇文章说明动手能力还是不错的</p>
+<p>关于什么是私有云，就真的只能Google了</p>
+<h2 id="安装Python"><a href="#安装Python" class="headerlink" title="安装Python"></a>安装Python</h2><p>Seafile服务器端运行需要Python，所以要先安装Python</p>
+<p>下载安装<a href="https://www.python.org/" target="_blank" rel="external">Python 2.7.6</a>，注意不要使用Python 3.x，Seafile目前不支持</p>
+<p>将Python的安装路径添加至Windows环境变量PATH中</p>
+<p>至此，Python的安装及配置就好了</p>
+<h2 id="安装Seafile服务器"><a href="#安装Seafile服务器" class="headerlink" title="安装Seafile服务器"></a>安装Seafile服务器</h2><p>Seafile服务器端支持Windows、Linux、Raspberry Pi（其实仍为Linux）等系统，本文使用Windows 7作为Seafile服务器</p>
+<p><a href="http://seafile.com/download/" target="_blank" rel="external">下载Seafile Windows端服务器3.0.2</a><a href="http://seafile.com/download/" target="_blank" rel="external">版</a>，直接解压缩至运行目录即可。建议将其放到纯英文、不带空格的简单目录，如C:\Program\seafile-server-3.0.2</p>
+<p>运行解压缩根目录的run.bat（需要管理员权限），依次进行如下配置more</p>
 <ul>
-<li><p>是否和主体应用紧密相关</p>
-<ul>
-<li>非常紧密、非做不可 | 一般、最好包含 | 可有可无 | 无关</li>
-</ul>
+<li><p>选择一个磁盘，Seafile会在些磁盘下创建seafile-server目录，Seafile服务器相关的数据将会保存在此</p>
 </li>
-<li><p>如果做，能给用户带来什么价值、便</p>
+<li><p>在弹出的Windows防火墙（如果打开的话）依次允许”ccnet-server”、”seaf-server”、”httpserver”使用网</p>
 </li>
-<li><p>如果不做有什么坏处，有没有其他替代方</p>
+<li><p>如果有杀毒软件的话，也允许上述程序使用网</p>
 </li>
-<li><p>如果做，最简要的实现形式是什么，会不会对现有的应用有影</p>
+<li><p>注：建议Seafile加入签名机制，并加入主流杀毒软件、防火墙软件的白名单中，这样看起来就不像病毒软件</p>
 </li>
-</ul>
-<p>当然，这只是确定这个需求做还是不做，更进一步的还要考虑很多方面</p>
-<ul>
-<li><p>技术可行</p>
-</li>
-<li><p>技术实现成</p>
-</li>
-<li><p>需求细节、Corner Cas</p>
-</li>
-<li><p>如何测试、验</p>
-</li>
-<li><p>如何推广、教育用户</p>
+<li><p>右击任务栏托盘中的Seafile Server图标，创建管理员账户</p>
 </li>
 </ul>
+<p>检查Seafile服务器是否正确安装运行</p>
+<p>获取电脑IP，如192.168.1.101。在浏览器中访问<a href="http://192.168.1.101:8000，注意，8000为默认端口，如果有冲突则使用实际端口。使用刚刚创建的账户登陆，如果能使用则说明一切正常" target="_blank" rel="external">http://192.168.1.101:8000，注意，8000为默认端口，如果有冲突则使用实际端口。使用刚刚创建的账户登陆，如果能使用则说明一切正常</a></p>
+<p>至此，Seafile服务器安装配置告一段落</p>
+<h2 id="安装并测试Windows客户端"><a href="#安装并测试Windows客户端" class="headerlink" title="安装并测试Windows客户端"></a>安装并测试Windows客户端</h2><p>Seafile Windows客户端和一般的程序一样，下载安装即可</p>
+<p>运行程序，会要求选择一个目录来存放Seafile的数据</p>
+<p>在添加账号时，服务器使用刚刚创建的地址，如<a href="http://192.168.1.101:8000" target="_blank" rel="external">http://192.168.1.101:8000</a>，服务器默认端口为8000，如果在创建服务器过程中出现端口冲突而选择了其它端口，则使用实际的端口。邮箱和密码则使用刚刚创建的管理员账户</p>
+<p>创建成功后，客户端会下载默认资料库 打开资料库（即运行程序时选择存放Seafile的数据的目录），可以看到有默认的文件”seafile-tutorial”。为了测试，添加任意文件</p>
+<p>至此，Seafile Windows客户端安装配置结束</p>
+<h2 id="安装并测试iOS客户端"><a href="#安装并测试iOS客户端" class="headerlink" title="安装并测试iOS客户端"></a>安装并测试iOS客户端</h2><p>注：Android类似，就不再赘述</p>
+<p>像一般的iOS App一新，在App Store中搜索Seafile下载安装即可</p>
+<p>打开App后，使用和Windows客户端一样的地址和账户登陆。</p>
+<p>注意：此时要保证手机和安装Seafile Windows服务器的电脑在同一局域网内</p>
+<p>进入后，如果能看到之前在Windows客户端上添加的测试文件，即说明Seafile服务器确实配置成功</p>
+<p><strong>至此，就完成了Seafile服务器在局域网内的配置及使用</strong></p>
+<h3 id="下一步"><a href="#下一步" class="headerlink" title="下一步"></a>下一步</h3><p>如何能在局域网之外即公网使用Seafile？这就需要更进一步的设置了，请看<a href="http://itguwen.net/306.html" target="_blank" rel="external">使用Seafile架设私有云：公网基础使用</a></p>
+<p>转自：<a href="http://itguwen.net/294.html" target="_blank" rel="external">使用Seafile架设私有云：局域网使用</a></p>
 
           
         
@@ -659,7 +618,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/319.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/406.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -681,8 +640,8 @@
             
               
                 
-                <a class="post-title-link" href="/319.html" itemprop="url">
-                  用惯用法快速打造常规用户交互
+                <a class="post-title-link" href="/406.html" itemprop="url">
+                  投机与投入
                 </a>
               
             
@@ -698,335 +657,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-11-06T22:53:00+08:00">
-                2012-11-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/PM/" itemprop="url" rel="index">
-                    <span itemprop="name">PM</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>不是、也没必要每个用户交互都要惊天地、泣鬼神，用惯用法快速打造常规用户交互、或者应用的常规部分，是比较现实、高效的办法。</p>
-<p>more显然，这个话题会比较有争议性，所以先明确问题的前提和边界：</p>
-<ul>
-<li><p>常规用户交</p>
-</li>
-<li><p>项目前</p>
-</li>
-</ul>
-<p>惯用法的例子：登陆</p>
-<p>惯用法可以快速搭建原</p>
-<p>“快”是个宝贵、重要的目标，一旦有了快，接下来的好处就不言而喻。比如，可以更早的进行可用性测试，更快的进行迭代。</p>
-<p>用户已然熟悉某些惯用</p>
-<p>比如说登陆，用户闭着眼睛就知道先输入用户名、再输入密码，就没必要来个创新，让用户先输入密码、再输入用户名。再者，虽然在手机上输入复杂的密码是比较低效的办法，但在没有改进的情况下，大量的应用已经教育了用户，所以即使低效，用户还是能够正常使用。</p>
-<p>当然，强调惯用法并不是否定创</p>
-<p>创新要有基础。脑子里凭空想出点子很难，在现有东西的基础上改进就容易得多，这就是时下比较热门的微创新。所以，惯用法快速打造底子，让微创新变得更具可能性。</p>
-<p>PS：登陆虽然有已经多的惯用法，但其实也是个无尽的话题。特别是随着技术的演进，会有更多的方式，也会有更大的市场，想想手机上输入复杂密码这种低效的方式还可以这么广泛的存在就知道了。</p>
-<p>谁会每一个推出在触摸屏上用指纹登陆呢？</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/310.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/310.html" itemprop="url">
-                  学习图形设计工具GIMP
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-10-22T21:53:10+08:00">
-                2012-10-22
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/PM/" itemprop="url" rel="index">
-                    <span itemprop="name">PM</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>[caption id=”” align=”aligncenter” width=”106”]<a href="https://ps.toolinbox.net/b86mo.png" target="_blank" rel="external"><img src="https://ps.toolinbox.net/y6iw7.png" alt="光芒剑"></a> 光芒剑[/caption]</p>
-<p>最近学习了一段时间的GIMP（GNU Image Manipulation Program）（ing…），写点东西纪念下more</p>
-<p>先说下对GIMP这款软件的印象</p>
-<ul>
-<li>小</li>
-</ul>
-<p>这应该是首当其冲的印象。图形设计软件从逻辑和算法上应该是很复杂的软件，像Photoshop动动辄几百MB及至上G的。相比之下，GIMP几十MB的安装文件，确实让我眼前一亮。也许是自己有精简的情节，并不喜欢像传言中有95%的功能用不到的Word，只喜欢自己需要的功能。</p>
-<ul>
-<li>免费、且开</li>
-</ul>
-<p>这是最实在的印象，相比较于Photoshop最低$699的价格，免费、开源实在是很有爱。而且这会增加使用者，培养社区，丰富像插件之类的资源。</p>
-<ul>
-<li>跨平</li>
-</ul>
-<p>支持主流的Windows、Mac、Linux。尤其是Mac，刚刚完成了原生支持，让果粉感觉很亲切。</p>
-<ul>
-<li>兼容行业标准Photosho</li>
-</ul>
-<p>不管Photoshop强大还是难用，它就在那，工业标准。抛开标准自己另辟蹊径太难、风险太大。GIMP之于其的兼容有两方面：一是操作类似，二是数据格式可以相互转换。所以，很安全。</p>
-<p>PM之于图形设</p>
-<p>严格来说，PM和User Experience, Graphics Design是不同的，但实际上有很多的重叠。尤其在国内，往往并没有区别得那么明确，人少的团队，大家都是多面手。所以基本的图形底子，对于PM来说还是必要的</p>
-<p>不过，图形设计毕竟比较博大精深，我也并不打算深入探索，只要了解基本理论（如Layer, Mask, Pattern, Path, Selection, Colors, Filter），常用套路（如使用Mask扣图，使用Guide Lines切图)，熟悉某些工具（如GIMP，MarkMan，IrfanView)就可以了</p>
-<p>用于日常生</p>
-<p>这个有时还是很有用的。现在大家照相、拍视频越来越多，会修片、会编辑视频，就像以前会装机、装软件一样，虽然不再能用来骗妹子，却也实在是居家必备之良药。</p>
-<p>国内外资</p>
-<p>在学习的过程中，确实发现英文、中文资料的悬殊。官网没有最新中文的Tutorial不说，连YouTube和优酷上出来教程也根本不在一个数量级（而且，优酷应该有一多半都是从YouTube上复制过来的）</p>
-<p>BTW，有一个中文的Tutorial中两个工具的名称竟然翻译反了，害得我这个菜鸟晕了半天。</p>
-<p>PS，文章开头的图片，就是GIMP设计的一个小样，以后继续！</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/300.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/300.html" itemprop="url">
-                  慢下来，再慢一点
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2012-06-04T19:51:15+08:00">
-                2012-06-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-04-10T15:36:51+08:00">
+                2014-04-10
               </time>
             
 
@@ -1084,8 +716,391 @@
       
         
           
-            <p>慢到适合自己的节奏</p>
-<p>学会休息</p>
+            <p>现在的投机换得将来的后悔，现在的投入换来以后的收获。有因必有果。</p>
+<p>工作时，我们可以投机，偷懒少干点活，能做得好的却随便应付。公司、客户可能并不会发现，或者知道了也没什么办法催促。可是，日久见人心，对方终究会了解。</p>
+<p>而且，在这些宝贵的时间，如果我们没有投入得去做事，也就不会有什么收获。上上网、刷刷微博、瞧瞧朋友圈只会让我们从无聊变得更无聊。在日后要写的简历上，这段时间必不会有亮点。</p>
+<p>投入得去做事，哪怕是别人根本无法知道、没有激励的事。不浪费青春、对得起自己。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/358.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/358.html" itemprop="url">
+                  移动4G随身WiFi – 使用体验
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-11-17T16:52:08+08:00">
+                2013-11-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><a href="http://itguwen.net/blog/134" target="_blank" rel="external">前面</a>介绍了移动4G随身WiFi的前奏，下面进入正题。</p>
+<h1 id="MiFi介绍"><a href="#MiFi介绍" class="headerlink" title="MiFi介绍"></a>MiFi介绍</h1><p>笔者刚刚去移动营业厅领了4G MiFi，本想着领到华为的设备，结果是UT斯达康的UE328。</p>
+<p>先吐个槽：移动杭州环北营业厅，硕大的一楼大厅，只有3个人在办业务，却有几十个人排除等候。10多分钟一个人的节奏，让大家都等得不耐烦。其中一个人还和业务员吵起来了。说到免费，小米、极路由这些互联网企业如果放出伪免费产品，不知道要从中得到多少好处。而移动的免费，却让用户不耐烦、吵起来。以这样的节奏和互联网企业比拼，不衰落才怪，即使是诺基亚这样的百年老店，出售也只是几年的事。more</p>
+<p>外观、硬件等参数，参见<em><a href="http://www.utstarcom.com/productAndSolution/wireless/solution/1851.aspx" target="_blank" rel="external">官方介绍</a></em>。</p>
+<p>关于电池，理论数据为：正常工作4小时，待机100小时。实际使用建议还是配上移动电源。 充电时间比较长，1800mAh的电池，却需要3~4小时以上才能充满，比较差。</p>
+<p>来张全家福：</p>
+<p><a href="https://ps.toolinbox.net/ukpg5.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/sa7tr.jpg" alt="UE328全家福"></a>UE328全家福</p>
+<h1 id="MiFi怎么使用？"><a href="#MiFi怎么使用？" class="headerlink" title="MiFi怎么使用？"></a>MiFi怎么使用？</h1><p>和一般的3G路由器类似，MiFi基本的使用还是比较简单的：</p>
+<ul>
+<li><p>记录后盖上的连接信息，尤其是默认WiFi密</p>
+</li>
+<li><p>开户MiF</p>
+</li>
+<li><p>使用默认WiFi密码连</p>
+</li>
+<li><p>完了</p>
+</li>
+</ul>
+<h2 id="WPS配对"><a href="#WPS配对" class="headerlink" title="WPS配对"></a>WPS配对</h2><ul>
+<li><p>按压MiFi按钮约2秒钟，MiFi就会在2分钟内搜寻配对的WPS设</p>
+</li>
+<li><p>在设备端开启WPS搜索功能，很快的就可以连接上MiFi，免去繁琐得输入密</p>
+</li>
+<li><p>注意，手机、电脑等设备端WPS支持的方式差别很大。比如Windows 7在输入WiFi密码页面可以进行WPS配对，有的手机（如Nexus 4 + Android 4.3）在WiFi搜索页面有WPS配对按钮。需要各位看官具体情况、具体分析。如需帮助，请<em><a href="http://itguwen.net/lx" target="_blank" rel="external">联系我们</a></em></p>
+</li>
+</ul>
+<h2 id="网页管理"><a href="#网页管理" class="headerlink" title="网页管理"></a>网页管理</h2><ul>
+<li><p>通过WiFi将手机或电脑接到至MiF</p>
+</li>
+<li><p>在网页上打开MiFi默认管理地址：<a href="http://192.168.0.1/" target="_blank" rel="external">http://192.168.0.1/</a>，默认用户名密码为：admin/admi</p>
+</li>
+<li><p>这时，你就可以为所欲为。比如，设置WiFi名称、密码、管理用户名、密码、省电模式等等</p>
+</li>
+</ul>
+<p><a href="https://ps.toolinbox.net/j1jyr.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/wbkur.jpg" alt="MiFi 管理页面"></a>MiFi 管理页面</p>
+<h2 id="查询流量"><a href="#查询流量" class="headerlink" title="查询流量"></a>查询流量</h2><ul>
+<li><p>可以根据MIFI关联的SIM查询流</p>
+</li>
+<li><p>初始密码可以在移动网上营业厅通过“忘记密码”找回，其中验证码会发送到办理MiFi时的主移动号码</p>
+</li>
+<li><p>之后就可以<a href="http://service.zj.10086.cn/yw/usedQuery/currentMonthQuery.do" target="_blank" rel="external">在移动网上营业厅查询免费流量使用情况</a></p>
+</li>
+</ul>
+<h2 id="Show下笔者当月免费使用量"><a href="#Show下笔者当月免费使用量" class="headerlink" title="Show下笔者当月免费使用量"></a>Show下笔者当月免费使用量</h2><p>截止至2013-11-xx，您本月的免费资源使用量信息如下（注：因为是月中办理的，所以免费总量约7G，而不是整月的15G）：</p>
+<ul>
+<li>免费项目</li>
+</ul>
+<p>免费总量</p>
+<p>实际使用量</p>
+<p>剩余使用量</p>
+<p>单位</p>
+<p>优惠时段</p>
+<p>免费4G宽带(4G/3G)省内流量</p>
+<p>7756590</p>
+<p>6405</p>
+<p>7750185</p>
+<p>KB</p>
+<p>包月</p>
+<p># </p>
+<h1 id="MiFi信号怎么样？"><a href="#MiFi信号怎么样？" class="headerlink" title="MiFi信号怎么样？"></a>MiFi信号怎么样？</h1><p>信号是速度的前提，移动4G覆盖是信号的前提。</p>
+<p>目前，杭州主城区已经覆盖4G信号，本次测试是在杭州拱墅区城西银泰附近。MiFi上4G信号显示为满格，MiFi管理页面可以看到实际信号为-78 dBm，不错（实际中，手机信号在&gt;-85dBm时就会显示满格）。</p>
+<p>除了4G信号强度，还需要关心MiFi所提供的WiFi的信号。实际测试结果：</p>
+<ul>
+<li><p>将手机放在MiFi边上，强度为-40dBm（很好的成绩，见下图中Fly</p>
+</li>
+<li><p>在没有障碍物的情况下离4米远，信号略有跳动，约-55dB</p>
+</li>
+<li><p>隔一堵墙（含一扇防盗门），约4米远，信号约-60dB</p>
+</li>
+<li><p>隔两堵墙（含两扇防盗门），约5米远，信号约-80dBm</p>
+</li>
+</ul>
+<p>总的来说，UE328所提供的WiFi信号还是很不错的，毕竟实际使用中手机、电脑也不会离MiFi很远。</p>
+<p><img src="https://ps.toolinbox.net/ymi2u.png" alt="MiFi WiFi信号强度">MiFi WiFi信号强度</p>
+<h1 id="MiGi实际速度怎么样？"><a href="#MiGi实际速度怎么样？" class="headerlink" title="MiGi实际速度怎么样？"></a>MiGi实际速度怎么样？</h1><p>简单的说，打开网页、刷微博、看网易新闻这些典型的3G应用对于4G来说自然不在话下，实际使用流畅。</p>
+<p>来到典型的在线看视频测试，打开优酷视频网页约5秒钟，之后广告立即可以播放。随意拖放超清视频，缓冲约8秒后开始播放，之后基本可以连续播放。 与之对比，华数4M网通下拖放后缓冲约3秒后连续播放（时间，周日下午4点左右）。</p>
+<p>PS：这里吐槽下优酷60秒的广告，基本是在找骂。</p>
+<p>待测：QQ视频、QQ语音</p>
+<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>总的来说，4G MiFi可用性不错，基本可以和家庭宽带媲美。不过考虑到高昂的流量价格、不得不担心的辐射，不建议长期使用。和3G移动WiFi相比，出差、外出时临时用用，依然是4G MiFi的最佳应用场景，只是速度快些。</p>
+<p>来自：<a href="http://itguwen.net/blog/140" target="_blank" rel="external">http://itguwen.net/blog/140</a></p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/356.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/356.html" itemprop="url">
+                  移动4G随身WiFi - 前奏
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2013-11-17T16:51:15+08:00">
+                2013-11-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>4G这个词汇越来越热，到底4G是个什么东西、离我们还有多远？这里带来笔者的亲身感受，供大家参考。</p>
+<h1 id="4G现在是什么样？"><a href="#4G现在是什么样？" class="headerlink" title="4G现在是什么样？"></a>4G现在是什么样？</h1><p>据传4G牌照将于2013年12月18日发放。由于移动在3G大战中明显输于联通、电信，移动是3大运营商中最积极推进4G的，目前正在多个城市火热试点移动4G。试点城市：北京、上海、天津、沈阳、南京、杭州、宁波、福州、厦门、青岛、广州、深圳、成都13个城市。比如在杭州，已经有很多移动用户在不换号、换定制手机的情况下使用移动4G。 另外，移动很可能靠iPhone5s扩大4G用户。more</p>
+<h1 id="4G有多快？"><a href="#4G有多快？" class="headerlink" title="4G有多快？"></a>4G有多快？</h1><p><strong>4G确实比较快。</strong></p>
+<p>据测试，实际下载均速达到4.15MB/s，下载1.09GB电影仅需4分半钟，几乎是三倍于联通20M宽带的表现，更是将3G远远甩在身后。</p>
+<p>另外，你家里应该有宽带对吧，据测试，<a href="http://tech.qq.com/a/20131112/007764.htm" target="_blank" rel="external">移动4G网速完爆20M家用宽带</a>；这下你应该会有比较感性的认识了。</p>
+<p>不过，也有负面新闻说，<a href="http://finance.jrj.com.cn/tech/2013/11/14014516144110.shtml" target="_blank" rel="external">移动4G信号覆盖存短板</a>，这时4G的速度就要打折扣了。</p>
+<h1 id="4G用得起吗？"><a href="#4G用得起吗？" class="headerlink" title="4G用得起吗？"></a>4G用得起吗？</h1><p>各地资费不尽相同，看看下面这张4G流量包资费清单</p>
+<p><img src="https://ps.toolinbox.net/d5rx7.jpg" alt="4G流量包">4G流量</p>
+<p>其中，2GB/月流量包需要100元。这意味着如果你一个月中用10分钟下载了2G的视频，那这个月剩下的时间，你还是别上网了，超出流量包的部分会让你哭的。</p>
+<p>如果你只是简单的浏览网页、看看新闻，流量是够了；可那和3G有什么区别？</p>
+<p>如果你想看看视频、下下电影，不是土豪，真心用不起。</p>
+<h1 id="吊丝逆袭：免费体验移动4G-MiFi"><a href="#吊丝逆袭：免费体验移动4G-MiFi" class="headerlink" title="吊丝逆袭：免费体验移动4G MiFi"></a>吊丝逆袭：免费体验移动4G MiFi</h1><p>也许是移动希望提高4G知名度、在4G牌照发放时能在第一时间让更多的人使用4G，移动发动了免费体验4G的活动。想占便宜的，猛击<em><a href="http://www.10086.cn/lte/recruit.html" target="_blank" rel="external">这里</a></em>。</p>
+<p>参加活动后，用户就可以每个月免费使用15G流量、连续6个月。具体活动细节，请参见上面的活动页面。</p>
+<p>其中，参加活动时需要签署的使用协议，见以下照片</p>
+<p><a href="https://ps.toolinbox.net/3u3mj.jpg" target="_blank" rel="external"><img src="https://ps.toolinbox.net/k406m.jpg" alt="移动4G免费体验协议"></a>移动4G免费体验协</p>
+<p>其中需要注意的是：</p>
+<p><em>3、体验期间，客户须每半月（自然月）通过4G门户网站（<a href="http://www.10086.cn/lte）进行一次测试意见反馈。若客户连续2个月（自然月）未递交问卷，移动公司有权暂停前述免费服务，且客户须至移动营业厅归还经检测无损坏可正常使用的4G终端、退还押金" target="_blank" rel="external">http://www.10086.cn/lte）进行一次测试意见反馈。若客户连续2个月（自然月）未递交问卷，移动公司有权暂停前述免费服务，且客户须至移动营业厅归还经检测无损坏可正常使用的4G终端、退还押金</a></em>。</p>
+<p>好了，以上是关于4G的热身；真正使用体验如何，猛击<em><a href="http://itguwen.net/blog/140" target="_blank" rel="external">这里</a></em>。</p>
+<p>来自：<a href="http://itguwen.net/blog/134" target="_blank" rel="external">http://itguwen.net/blog/134</a></p>
 
           
         
@@ -1124,7 +1139,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/423/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/423/">423</a><span class="page-number current">424</span><a class="page-number" href="/page/425/">425</a><span class="space">&hellip;</span><a class="page-number" href="/page/434/">434</a><a class="extend next" rel="next" href="/page/425/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/423/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/423/">423</a><span class="page-number current">424</span><a class="page-number" href="/page/425/">425</a><span class="space">&hellip;</span><a class="page-number" href="/page/435/">435</a><a class="extend next" rel="next" href="/page/425/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1169,7 +1184,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2166</span>
+                <span class="site-state-item-count">2173</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
