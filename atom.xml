@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2021-12-19T11:43:07.486Z</updated>
+  <updated>2021-12-26T13:07:56.728Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,188 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1226 - 心是被撑大的</title>
+    <link href="https://atjason.com/daily/2021-12-26.html"/>
+    <id>https://atjason.com/daily/2021-12-26.html</id>
+    <published>2021-12-26T14:00:00.000Z</published>
+    <updated>2021-12-26T13:07:56.728Z</updated>
+    
+    <content type="html"><![CDATA[<p>太顺利了、总是关心小事，时间长了，心就这么大了。</p>
+<p>如果总是遇到挫折、总是从更高维度考虑问题，时间长了，心就大了。</p>
+<p>心大了，不是不发愁了，而是为更高级的事发愁。</p>
+<p>就像是，看书并不解决问题，而是解决问题的同时，发现更大的问题。</p>
+<p>又像是一个圈。圈越大，占的面积越大，接触到外界未知的世界也更大。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;太顺利了、总是关心小事，时间长了，心就这么大了。&lt;/p&gt;
+&lt;p&gt;如果总是遇到挫折、总是从更高维度考虑问题，时间长了，心就大了。&lt;/p&gt;
+&lt;p&gt;心大了，不是不发愁了，而是为更高级的事发愁。&lt;/p&gt;
+&lt;p&gt;就像是，看书并不解决问题，而是解决问题的同时，发现更大的问题。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1225 - 天道有轮回</title>
+    <link href="https://atjason.com/daily/2021-12-25.html"/>
+    <id>https://atjason.com/daily/2021-12-25.html</id>
+    <published>2021-12-25T14:00:00.000Z</published>
+    <updated>2021-12-26T11:59:00.598Z</updated>
+    
+    <content type="html"><![CDATA[<p>万物皆有其道。</p>
+<p>让秦国得到一切的变法，也会让其失去一切，二世而亡。陈胜、刘邦起义，都是无法在规定时间到指定地点，按律当斩，于是揭竿而起。</p>
+<p>商鞅逃跑时，受限于自己制定的政策，比较没有通行证无法走动、住店，最后死于自己推行的严刑峻法。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;万物皆有其道。&lt;/p&gt;
+&lt;p&gt;让秦国得到一切的变法，也会让其失去一切，二世而亡。陈胜、刘邦起义，都是无法在规定时间到指定地点，按律当斩，于是揭竿而起。&lt;/p&gt;
+&lt;p&gt;商鞅逃跑时，受限于自己制定的政策，比较没有通行证无法走动、住店，最后死于自己推行的严刑峻法。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1224 - Backtrader 回测框架</title>
+    <link href="https://atjason.com/daily/2021-12-24.html"/>
+    <id>https://atjason.com/daily/2021-12-24.html</id>
+    <published>2021-12-24T14:00:00.000Z</published>
+    <updated>2021-12-26T11:55:57.376Z</updated>
+    
+    <content type="html"><![CDATA[<p>早上比较了一下本地回测框架，发现 Backtrader 极客范很足啊，文档也很简洁完整。恩，就用它了。</p>
+<p>zipline 有一年多没更新代码了，排除。</p>
+<p>又有了学新技术的兴奋感。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;早上比较了一下本地回测框架，发现 Backtrader 极客范很足啊，文档也很简洁完整。恩，就用它了。&lt;/p&gt;
+&lt;p&gt;zipline 有一年多没更新代码了，排除。&lt;/p&gt;
+&lt;p&gt;又有了学新技术的兴奋感。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1223 - 折腾小电脑</title>
+    <link href="https://atjason.com/daily/2021-12-23.html"/>
+    <id>https://atjason.com/daily/2021-12-23.html</id>
+    <published>2021-12-23T14:00:00.000Z</published>
+    <updated>2021-12-26T11:55:02.752Z</updated>
+    
+    <content type="html"><![CDATA[<p>国盛 QMT 不让在云服务器上运行，因为法规限制；折腾了很久，想绕过虚拟机检查。最后推测可能是通常 CPU 指令来识别的，很难绕过去。</p>
+<p>没办法，只能自己本地跑了。由于需要长时间开机，开自己电脑不现实，就咸鱼上 350 元淘了个旧的 Intel NUC；体积小、低功耗，可以放家里弱电箱里。</p>
+<p><img src="https://ps.toolinbox.net/83z6y.jpg" alt=""></p>
+<p>好久没折腾硬件了，还是挺兴奋的；期间，刷了很多次物流信息，看看东西到哪了。不过，由于不想花钱买好的硬件，也就只能多花点时间去配置硬件了。</p>
+<p>有个小细节，我自己是没有 USB 键盘，卖家送了个图中的小键盘，帮了大忙。第一次用这种小键盘，感觉很有意思。</p>
+<p>首先，是安装操作系统的选择。比较了一下，确定的是 Windows Embedded 7。这里有个问题：Win 7 安装文件不包含 USB 3 驱动，导致安装过程中，键盘鼠标没有响应。又是网上一翻折腾，找到了官方提供的工具，在安装盘中加入 USB 3 驱动。问题搞定。</p>
+<p>然后，就是怎么把设备暴露出去，可以外网访问。大体有两种方案：使用 Windows 远程桌面、使用诸如 TeamViewer 之类的第三方远程桌面工具。考虑到性能，还是确定前者。所幸，家里的电信宽带，是有公网 IP 的。</p>
+<p>具体的操作，主要是 DDNS 和端口映射两部分。</p>
+<p>由于宽带 IP 是定期更换的，需要一种机制，自动知道变更后的 IP。本来路由器里支持花生壳，可就是不干活。后来经过简单比较，选择了 noip.com，免费，使用也简单。</p>
+<p>端口映射又是折腾了很久，就是无法在外网远程。直接使用 DMZ 功能，将电脑暴露在公网，这种方式倒是可以。不过，这意味着电脑完全暴露，增加了风险。后来又试了 DMZ 到内网路由器，再用内网路由器完成端口转发，这次成功了。看来，是电信光猫路由器的问题，也可能是故意让端口映射不干活。</p>
+<p>最后再说下这老古董的性能。安装完系统，远程桌面下，基本操作是流畅的。问题是，券商的 QMT 软件太吃性能，占内存、CPU 单核基本是满的。还好，整体还是能流畅运行的。再加上现在是冬天，放弱电箱里也不发热。</p>
+<p>折腾了一天多，对目前的结果还是满意的，基本达到了稳定运行的目标。接下来，就是实盘长时间运行策略了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;国盛 QMT 不让在云服务器上运行，因为法规限制；折腾了很久，想绕过虚拟机检查。最后推测可能是通常 CPU 指令来识别的，很难绕过去。&lt;/p&gt;
+&lt;p&gt;没办法，只能自己本地跑了。由于需要长时间开机，开自己电脑不现实，就咸鱼上 350 元淘了个旧的 Intel NUC；体积小、
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1222 - 主观交易与量化结合</title>
+    <link href="https://atjason.com/daily/2021-12-22.html"/>
+    <id>https://atjason.com/daily/2021-12-22.html</id>
+    <published>2021-12-22T14:00:00.000Z</published>
+    <updated>2021-12-26T11:37:43.280Z</updated>
+    
+    <content type="html"><![CDATA[<p>主观对行情分类，然后使用对应的工具自动交易。</p>
+<p>量化可以分两种。一种是无人值守，全部程序自己判断。一种是人机结合，就如上面所说。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主观对行情分类，然后使用对应的工具自动交易。&lt;/p&gt;
+&lt;p&gt;量化可以分两种。一种是无人值守，全部程序自己判断。一种是人机结合，就如上面所说。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1221 - 孩子不是因为优秀而被鼓励</title>
+    <link href="https://atjason.com/daily/2021-12-21.html"/>
+    <id>https://atjason.com/daily/2021-12-21.html</id>
+    <published>2021-12-21T14:00:00.000Z</published>
+    <updated>2021-12-26T11:34:23.469Z</updated>
+    
+    <content type="html"><![CDATA[<p>孩子不是因为优秀而被鼓励，而是因为鼓励而优秀。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;孩子不是因为优秀而被鼓励，而是因为鼓励而优秀。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1220 - 努力只是上场参赛的资格</title>
+    <link href="https://atjason.com/daily/2021-12-20.html"/>
+    <id>https://atjason.com/daily/2021-12-20.html</id>
+    <published>2021-12-20T14:00:00.000Z</published>
+    <updated>2021-12-26T11:33:45.856Z</updated>
+    
+    <content type="html"><![CDATA[<p>努力只是上场参赛的资格，并不是成功的保证。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;努力只是上场参赛的资格，并不是成功的保证。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1219 - 消灭问题</title>
@@ -95,11 +277,11 @@
     <link href="https://atjason.com/daily/2021-12-16.html"/>
     <id>https://atjason.com/daily/2021-12-16.html</id>
     <published>2021-12-16T14:00:00.000Z</published>
-    <updated>2021-12-19T11:41:27.279Z</updated>
+    <updated>2021-12-19T11:46:12.586Z</updated>
     
     <content type="html"><![CDATA[<p>前几天微信读书提示有最新版，提到优化了大屏体验。我挺想要这个功能，而自带商城却没有新版。</p>
 <p>我花了一些时间去跟进，包括给客户反馈、去微信读书的官网上的手动下载。结果发现也并没有最新版，有可能是误报。</p>
-<p>问题在于，在这件事情上，我花了太多的时间精力，这是很奢侈的事情。不应该这么做，批评自己。应该等商城有新版时，用最少得时间更新。</p>
+<p>问题在于，在这件事情上，我花了太多的时间精力，这是很奢侈的事情。不应该这么做，批评自己。应该等商城有新版时，用最少的时间更新。</p>
 ]]></content>
     
     <summary type="html">
@@ -340,202 +522,6 @@
       &lt;p&gt;比如，农民多收了三五斗米，可是米商却乘机压价，农民并没有获得更大的收益。&lt;/p&gt;
 &lt;p&gt;为什么米商能提价的？因为农民如果不在这个时候卖米，他就没有周转的资金、就转不动了。所以，不得不在此刻以低价卖米。&lt;/p&gt;
 &lt;p&gt;而如果农民有足够多的余钱，可以把米先存起来，等价格高的时候
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1206 - 左侧止盈 VS 右侧止盈</title>
-    <link href="https://atjason.com/daily/2021-12-06.html"/>
-    <id>https://atjason.com/daily/2021-12-06.html</id>
-    <published>2021-12-06T14:00:00.000Z</published>
-    <updated>2021-12-12T13:38:27.845Z</updated>
-    
-    <content type="html"><![CDATA[<ul>
-<li>市场趋势好，多用右侧止盈；</li>
-<li>市场趋势差，多用左侧止盈。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;市场趋势好，多用右侧止盈；&lt;/li&gt;
-&lt;li&gt;市场趋势差，多用左侧止盈。&lt;/li&gt;
-&lt;/ul&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1205 - 突破与回调</title>
-    <link href="https://atjason.com/daily/2021-12-05.html"/>
-    <id>https://atjason.com/daily/2021-12-05.html</id>
-    <published>2021-12-05T14:00:00.000Z</published>
-    <updated>2021-12-05T13:43:48.982Z</updated>
-    
-    <content type="html"><![CDATA[<p>感觉我的性格，不太适合做突破，缺乏必要的胆气，比较求稳。</p>
-<p>又或者说，因为缺乏基本面分析、财务分析、第一手信息等，无法对标的建立绝对的信心。进而，不敢去追突破。</p>
-<p>而在股市中，由于缺乏流动性，能突破的股票，常常会继续大涨，因为有关注度、有资金进来。而所谓有性价比的股票，则可能真的就那么一直躺平。</p>
-<p>这是我最近比较大的一个困惑。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;感觉我的性格，不太适合做突破，缺乏必要的胆气，比较求稳。&lt;/p&gt;
-&lt;p&gt;又或者说，因为缺乏基本面分析、财务分析、第一手信息等，无法对标的建立绝对的信心。进而，不敢去追突破。&lt;/p&gt;
-&lt;p&gt;而在股市中，由于缺乏流动性，能突破的股票，常常会继续大涨，因为有关注度、有资金进来。而
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1204 - 更多标的 VS 更多策略</title>
-    <link href="https://atjason.com/daily/2021-12-04.html"/>
-    <id>https://atjason.com/daily/2021-12-04.html</id>
-    <published>2021-12-04T14:00:00.000Z</published>
-    <updated>2021-12-05T13:48:01.355Z</updated>
-    
-    <content type="html"><![CDATA[<ul>
-<li>一种策略是，在更多标的、甚至全股票选股中，执行一种或几种策略。</li>
-<li>一种策略是，在少量、相对固定的标的中，执行多种策略。</li>
-</ul>
-<p>目前来看，我更倾向于后者。</p>
-<p>前者的问题是，如果股票池少，这样的机会就很少，很难做到等。而如果全股票选股，选出来的股票多半很陌生、甚至可能就是垃圾股。这样的情况下，执行策略是很虚的。</p>
-<p>后者，首先股票少，意味着更可能选出来的是细分领域的龙头。好的标的，能够弥补策略的不足。而如果会不同的策略，则可以弥补标的少的不足。</p>
-<p>当然，多种策略是不容易掌握的。这里面可能有种技巧，就是不同策略，其实是有共性的。</p>
-<p>比如，我现在思考的找拐点策略，对不同分类的行情，其进场点，都是对应情况的拐点。只是把拐点的共性固定下来，其实就相当于把不同行情，统一为一种行情，至少是一致性的进场出场规则，这就不慌了。</p>
-<p>目前还是理论与思考阶段，需要大量复盘和大量实盘交易，才能不断验证，才能真正相信并执行。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;一种策略是，在更多标的、甚至全股票选股中，执行一种或几种策略。&lt;/li&gt;
-&lt;li&gt;一种策略是，在少量、相对固定的标的中，执行多种策略。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;目前来看，我更倾向于后者。&lt;/p&gt;
-&lt;p&gt;前者的问题是，如果股票池少，这样的机会就很少，很难做到等
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1203 - 行情溢价</title>
-    <link href="https://atjason.com/daily/2021-12-03.html"/>
-    <id>https://atjason.com/daily/2021-12-03.html</id>
-    <published>2021-12-03T14:00:00.000Z</published>
-    <updated>2021-12-05T13:40:10.986Z</updated>
-    
-    <content type="html"><![CDATA[<p>价格快速涨跌，不会一下子停下来，V 反的概率更低；按突破方向延续的概率更高，这就是溢价。</p>
-<p>就像是煮粥，当粥溢出来时，即使马上关火，粥还是会持续溢出一波段时间，因为锅还是热的。对应到市场，就是情绪还在。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;价格快速涨跌，不会一下子停下来，V 反的概率更低；按突破方向延续的概率更高，这就是溢价。&lt;/p&gt;
-&lt;p&gt;就像是煮粥，当粥溢出来时，即使马上关火，粥还是会持续溢出一波段时间，因为锅还是热的。对应到市场，就是情绪还在。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1202 - 低点抬高，就是初升回压</title>
-    <link href="https://atjason.com/daily/2021-12-02.html"/>
-    <id>https://atjason.com/daily/2021-12-02.html</id>
-    <published>2021-12-02T14:00:00.000Z</published>
-    <updated>2021-12-05T13:39:26.185Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天学习向北视频时，顿悟到了这一点，感觉很欢喜。</p>
-<p><img src="https://ps.toolinbox.net/6p1ma.png" alt=""></p>
-<p>C 点不是直接涨上去，而是有个折腾。可以说是小级别的初升回压（绿色）；从图形上看，就是低点抬高（绿色）；还可以说是头肩底（橙色+绿色）</p>
-<p>相同的东西，不同的方式和角度进行描述而已。本质上讲，就是下跌趋势已经终止，行情开始蕴酿向上的情绪。</p>
-<p>多种方式和角度都了解后，我自然倾向于选择简单的，就是利用视频直觉、图形审美，做「低点抬高」。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天学习向北视频时，顿悟到了这一点，感觉很欢喜。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/6p1ma.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;C 点不是直接涨上去，而是有个折腾。可以说是小级别的初升回压（绿色）；从图形上看，就是低
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1201 - 《强风吹拂》</title>
-    <link href="https://atjason.com/daily/2021-12-01.html"/>
-    <id>https://atjason.com/daily/2021-12-01.html</id>
-    <published>2021-12-01T14:00:00.000Z</published>
-    <updated>2021-12-05T13:45:49.320Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天看了好几个小时的《强风吹拂》，很受震撼，很好看。</p>
-<p>跑步不是为了更快，而是更强。不是跟别人比，而是跟自己比。体能、身体协调、意志力、等等，在孤独的跑步中，一步步的变强。</p>
-<p>书中有这样一个细节，有个人非常热爱跑步，他结婚时观察对象一个很重要的理由，就是看起来她不会长胖。甚至，还专门去考察了她们家有没有容易长胖的人，发现没有才结婚。</p>
-<p>因为，肥胖是跑步的大忌。而他，不想把肥胖基因传给下一代。这真是对跑步，热爱到了一定程度。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天看了好几个小时的《强风吹拂》，很受震撼，很好看。&lt;/p&gt;
-&lt;p&gt;跑步不是为了更快，而是更强。不是跟别人比，而是跟自己比。体能、身体协调、意志力、等等，在孤独的跑步中，一步步的变强。&lt;/p&gt;
-&lt;p&gt;书中有这样一个细节，有个人非常热爱跑步，他结婚时观察对象一个很重要的理由，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1130 - 《一生一色》</title>
-    <link href="https://atjason.com/daily/2021-11-30.html"/>
-    <id>https://atjason.com/daily/2021-11-30.html</id>
-    <published>2021-11-30T14:00:00.000Z</published>
-    <updated>2021-11-30T07:28:10.281Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>运、根、钝</strong></p>
-<p>手艺人应该怀有“运、根、钝”的工艺态度。</p>
-<p>“运”是指“命运”，认定自己只擅长这件事，既然选定了走这条路，就不做他想，做着这个又想做那个，就会聪明反被聪明误；</p>
-<p>“根”可以理解为“扎根”，不厌其烦地反复劳作，锤炼技巧；</p>
-<p>“钝”是指手艺人要明白，与绘画文章不同，工艺品不能直接表达情感，手艺人只能反复思考，如何在物件中彰显自己的态度和情感，这件作品到底在诉说着什么？一块布，一件衣服，一把伞，虽然是“迟钝”的，不能言语的，它们不能犀利地传达作者的思想，但它们也在讲述，而且必须讲述。这是比文章绘画更难的表达。</p>
-<p>《一生一色》</p>
-<p>本来，作者打算用十年研究一种颜色。后来发现，要用一生。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;运、根、钝&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;手艺人应该怀有“运、根、钝”的工艺态度。&lt;/p&gt;
-&lt;p&gt;“运”是指“命运”，认定自己只擅长这件事，既然选定了走这条路，就不做他想，做着这个又想做那个，就会聪明反被聪明误；&lt;/p&gt;
-&lt;p&gt;“根”可以理解为“扎根”，不
     
     </summary>
     
