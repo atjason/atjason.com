@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2021-12-26T13:07:56.728Z</updated>
+  <updated>2022-01-02T13:07:28.340Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,196 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0102 - 用屁股坐死你</title>
+    <link href="https://atjason.com/daily/2022-01-02.html"/>
+    <id>https://atjason.com/daily/2022-01-02.html</id>
+    <published>2022-01-02T14:00:00.000Z</published>
+    <updated>2022-01-02T13:07:28.340Z</updated>
+    
+    <content type="html"><![CDATA[<p>秦灭六国，王翦伐楚，用的什么招？拼国力。</p>
+<p>怎么拼？拉 60 万部队到楚国门口。你不能不拉出差不多的部队来对质吧？并且，我就在你门口、也不深入国境，不存在你切断我粮道的问题；离自己国家近，后勤保障成本相对较低。</p>
+<p>问题是，这么多人要吃要喝的吧。并且，这些壮劳力都不能回家种田，得需要额外的人种田来养活吧？</p>
+<p>一来二去，再大的国家都得坐吃山空。于是，就看谁先撑不住。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;秦灭六国，王翦伐楚，用的什么招？拼国力。&lt;/p&gt;
+&lt;p&gt;怎么拼？拉 60 万部队到楚国门口。你不能不拉出差不多的部队来对质吧？并且，我就在你门口、也不深入国境，不存在你切断我粮道的问题；离自己国家近，后勤保障成本相对较低。&lt;/p&gt;
+&lt;p&gt;问题是，这么多人要吃要喝的吧。并且，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0101 - 迂回前进</title>
+    <link href="https://atjason.com/daily/2022-01-01.html"/>
+    <id>https://atjason.com/daily/2022-01-01.html</id>
+    <published>2022-01-01T14:00:00.000Z</published>
+    <updated>2022-01-02T13:02:47.560Z</updated>
+    
+    <content type="html"><![CDATA[<p>有时，要往南，先往北。</p>
+<p>举个反例，国际援助非洲医疗，大大提高了当地的医疗水平，却也大大摧毁了当地药企。一旦援助停止，当地医疗水平可能比援助前更差，因为当地医疗体系被破坏了。</p>
+<p>援助的目的，是提高医疗水平。直接给医给药，当然见效快，却也有饮鸩止渴的感觉。应该着力发展当地医疗工业，增加自给自足的能力。这也是鱼于渔的关系。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有时，要往南，先往北。&lt;/p&gt;
+&lt;p&gt;举个反例，国际援助非洲医疗，大大提高了当地的医疗水平，却也大大摧毁了当地药企。一旦援助停止，当地医疗水平可能比援助前更差，因为当地医疗体系被破坏了。&lt;/p&gt;
+&lt;p&gt;援助的目的，是提高医疗水平。直接给医给药，当然见效快，却也有饮鸩止渴的感
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1231 - 学习新技术的过程</title>
+    <link href="https://atjason.com/daily/2022-12-31.html"/>
+    <id>https://atjason.com/daily/2022-12-31.html</id>
+    <published>2021-12-31T14:00:00.000Z</published>
+    <updated>2022-01-02T13:01:40.747Z</updated>
+    
+    <content type="html"><![CDATA[<p>以 Backtrader 为例，在学习其文档时，刚开始自然要慢，因为完全是新东西，要理解其模型、习惯，需要时间，这个快不越来。</p>
+<p>在对整体有一定认识之后，就可以加快了。快速扫一遍所有文档，对整体有稍微深入的了解。即使不会用，至少不会有概念上的盲区。</p>
+<p>之后，就是开始实践。这个过程，开头很难。在遇到具体问题时，就可以回到文档对应的位置，再次仔细阅读。</p>
+<p>等一个个具体的问题解决了，对框架整体也就熟悉的差不多，这个东西就可以放进自己的武器库了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;以 Backtrader 为例，在学习其文档时，刚开始自然要慢，因为完全是新东西，要理解其模型、习惯，需要时间，这个快不越来。&lt;/p&gt;
+&lt;p&gt;在对整体有一定认识之后，就可以加快了。快速扫一遍所有文档，对整体有稍微深入的了解。即使不会用，至少不会有概念上的盲区。&lt;/p&gt;
+&lt;p
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1230 - 学技术，是否要一步到位</title>
+    <link href="https://atjason.com/daily/2022-12-30.html"/>
+    <id>https://atjason.com/daily/2022-12-30.html</id>
+    <published>2021-12-30T14:00:00.000Z</published>
+    <updated>2022-01-02T12:59:57.640Z</updated>
+    
+    <content type="html"><![CDATA[<p>看了一上午 backtrader 的文档，有点感觉了。感觉比较复杂，也可以说是比较完善吧。</p>
+<p>有点纠结要不要学这么复杂的框架，一步到位；还是找个简单的，有需要时再上复杂的。</p>
+<p>既然准备走量化这条路，还是学个完整的吧，省得到时候不够用。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;看了一上午 backtrader 的文档，有点感觉了。感觉比较复杂，也可以说是比较完善吧。&lt;/p&gt;
+&lt;p&gt;有点纠结要不要学这么复杂的框架，一步到位；还是找个简单的，有需要时再上复杂的。&lt;/p&gt;
+&lt;p&gt;既然准备走量化这条路，还是学个完整的吧，省得到时候不够用。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1229 - 治大国如烹小鲜的另一种解释</title>
+    <link href="https://atjason.com/daily/2022-12-29.html"/>
+    <id>https://atjason.com/daily/2022-12-29.html</id>
+    <published>2021-12-29T14:00:00.000Z</published>
+    <updated>2022-01-02T12:58:37.418Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多人应该都是望文生义，解释为治大国就像做小菜一样简单。</p>
+<p>另一种解释，海鲜类的食物在烹煮时，不能像炒菜一样，不停地翻来翻去；而是应该小火慢炖。</p>
+<p>治大国也一样，不能重招频出，要给人民反应和消化的时间。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很多人应该都是望文生义，解释为治大国就像做小菜一样简单。&lt;/p&gt;
+&lt;p&gt;另一种解释，海鲜类的食物在烹煮时，不能像炒菜一样，不停地翻来翻去；而是应该小火慢炖。&lt;/p&gt;
+&lt;p&gt;治大国也一样，不能重招频出，要给人民反应和消化的时间。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1228 - 期货量化交易门槛低</title>
+    <link href="https://atjason.com/daily/2022-12-28.html"/>
+    <id>https://atjason.com/daily/2022-12-28.html</id>
+    <published>2021-12-28T14:00:00.000Z</published>
+    <updated>2022-01-02T12:56:24.022Z</updated>
+    
+    <content type="html"><![CDATA[<p>股票实盘接口的门槛比较高，对个人不友好。</p>
+<p>有了这个铺垫，当我试着了解期货实盘接口时，当发现普通用户就可以直接程序化交易时，我都不敢相信是真的。</p>
+<p>简单搜索了一遍，发现了天勤量化。又简单看了其文档，发现这是所有我接触到的实盘接口中，设计最简单优雅的。从开始看文档，到下单第一笔实盘交易，不到 1 小时就可以了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;股票实盘接口的门槛比较高，对个人不友好。&lt;/p&gt;
+&lt;p&gt;有了这个铺垫，当我试着了解期货实盘接口时，当发现普通用户就可以直接程序化交易时，我都不敢相信是真的。&lt;/p&gt;
+&lt;p&gt;简单搜索了一遍，发现了天勤量化。又简单看了其文档，发现这是所有我接触到的实盘接口中，设计最简单优雅的。
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1227 - 替换光猫拨号</title>
+    <link href="https://atjason.com/daily/2021-12-27.html"/>
+    <id>https://atjason.com/daily/2021-12-27.html</id>
+    <published>2021-12-27T14:00:00.000Z</published>
+    <updated>2021-12-29T15:25:12.690Z</updated>
+    
+    <content type="html"><![CDATA[<p>上周为了外网远程连接家里的小电脑，将光猫 DMZ 到路由器，再端口转发到小电脑。远程连接倒是可以了，可是这两天，家里网络很不稳定，小电脑上的程序也无法正常运行。没办法，只能继续折腾了。</p>
+<p>接下来的思路很简单，就是不再使用光猫拨号，而把信号桥接给内部的路由器，由路由器进行 PPPoE 拨号上网。</p>
+<p>先是在网卡搜索教程，还挺多，找了个和自己光猫路由器相同的教程。</p>
+<p>然后是要能使用超级账号登录光猫，以修改配置。这个也可以网卡找教程。</p>
+<p>然后要知道自己宽带的账号密码。多半，正常人是不知道了。解决的最好办法，就是打电话给运营商，要求重置宽带密码。当然，你也可以解释说要桥接。</p>
+<p>这里赞一下，我是晚上将近 11 点打了电信 10000，竟然还有人工客服，竟然还完成了重置操作。给明显能听出困意的客服小姐姐点个赞。</p>
+<p>知道账号密码后，接下来的操作就很简单了，桥接、拨号之类的常规操作。</p>
+<p>还有个细节，宽带是有 iptv 的，这样拨号会不会影响看电视呢？我虽然没有实测，但应该是不影响的，因为走的不是一个端口，是不影响的。</p>
+<p>调整后的效果怎样呢？非常好，网速飞起。我都后悔，早干嘛去了，应该安装宽带的当天，就这么干才对。打开微信再也没有菊花，公众号也是秒开，跟打开本地文件一样。这感觉，太爽了。</p>
+<p>其实网速快有两个环节：</p>
+<ul>
+<li>连接快。就是从请求到获取第一个数据返回。</li>
+<li>传输快。就是第一个数据到所有数据下载时间短。</li>
+</ul>
+<p>对比一下，云服务器的连接是很快的，因为运营商的硬件条件好。但由于限速，连接后的下载速度并不快，这是软件限制的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;上周为了外网远程连接家里的小电脑，将光猫 DMZ 到路由器，再端口转发到小电脑。远程连接倒是可以了，可是这两天，家里网络很不稳定，小电脑上的程序也无法正常运行。没办法，只能继续折腾了。&lt;/p&gt;
+&lt;p&gt;接下来的思路很简单，就是不再使用光猫拨号，而把信号桥接给内部的路由器，由路
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1226 - 心是被撑大的</title>
@@ -343,185 +533,6 @@
 &lt;/ul&gt;
 &lt;p&gt;这种思路的量化，不会有超额收益，而只是比指数稍微好一些。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1213 - 不够专注</title>
-    <link href="https://atjason.com/daily/2021-12-13.html"/>
-    <id>https://atjason.com/daily/2021-12-13.html</id>
-    <published>2021-12-13T14:00:00.000Z</published>
-    <updated>2021-12-19T11:39:21.507Z</updated>
-    
-    <content type="html"><![CDATA[<p>这两天，总是拿起手机，去做着很琐碎的事。这样做，很多是为了逃避更难更大的事。</p>
-<p>这样的习惯很不好。我应该集中有限的注意力，集中精力做重要复杂的事。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这两天，总是拿起手机，去做着很琐碎的事。这样做，很多是为了逃避更难更大的事。&lt;/p&gt;
-&lt;p&gt;这样的习惯很不好。我应该集中有限的注意力，集中精力做重要复杂的事。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1212 - 我爱学编程</title>
-    <link href="https://atjason.com/daily/2021-12-12.html"/>
-    <id>https://atjason.com/daily/2021-12-12.html</id>
-    <published>2021-12-12T14:00:00.000Z</published>
-    <updated>2021-12-12T13:43:32.774Z</updated>
-    
-    <content type="html"><![CDATA[<p>这真的不是口号，我确实喜欢学编程。</p>
-<p>比如，带娃出去玩，我会在手机上看教程；早上，我会自动醒来，因为脑子里在想编程的事，自己就想起来学习。</p>
-<p>我更喜欢把自己学的，变成有用的东西。比如，变成对别人有用的程序，对自己有用的量化交易。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这真的不是口号，我确实喜欢学编程。&lt;/p&gt;
-&lt;p&gt;比如，带娃出去玩，我会在手机上看教程；早上，我会自动醒来，因为脑子里在想编程的事，自己就想起来学习。&lt;/p&gt;
-&lt;p&gt;我更喜欢把自己学的，变成有用的东西。比如，变成对别人有用的程序，对自己有用的量化交易。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1211 - 外包自己会的东西</title>
-    <link href="https://atjason.com/daily/2021-12-11.html"/>
-    <id>https://atjason.com/daily/2021-12-11.html</id>
-    <published>2021-12-11T14:00:00.000Z</published>
-    <updated>2021-12-12T13:42:14.716Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，苹果外包硬件制造，并不代表苹果不懂。事实上，苹果非常懂，而且还和制造商一起研究新工艺，克服挑战。</p>
-<p>正因为懂，所以代工厂商蒙不了苹果。苹果既享受了代工的好处，又没有增加风险，还不会被当成肥猪狠宰。</p>
-<p>如果外包的自己不会，那就会成为风险源。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，苹果外包硬件制造，并不代表苹果不懂。事实上，苹果非常懂，而且还和制造商一起研究新工艺，克服挑战。&lt;/p&gt;
-&lt;p&gt;正因为懂，所以代工厂商蒙不了苹果。苹果既享受了代工的好处，又没有增加风险，还不会被当成肥猪狠宰。&lt;/p&gt;
-&lt;p&gt;如果外包的自己不会，那就会成为风险源。&lt;/p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1210 - 从 ETF 里选股交易</title>
-    <link href="https://atjason.com/daily/2021-12-10.html"/>
-    <id>https://atjason.com/daily/2021-12-10.html</id>
-    <published>2021-12-10T14:00:00.000Z</published>
-    <updated>2021-12-12T13:41:10.754Z</updated>
-    
-    <content type="html"><![CDATA[<p>昨晚睡觉时想到，既然不想在选股上花很多时间，毕竟对于个股，要考虑的因素很多。那为什么不在众多 ETF 中选择标的呢？</p>
-<p>ETF 包含一些股票，大涨可能性小，大跌也同样不太会出现。而一旦出现买点，不就是很省心的买点。</p>
-<p>况且，ETF 有很多，1000 多只。除去交易量小的、重复的，应该也有 100 多只。对于长期交易来说，也是足够的股票池了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;昨晚睡觉时想到，既然不想在选股上花很多时间，毕竟对于个股，要考虑的因素很多。那为什么不在众多 ETF 中选择标的呢？&lt;/p&gt;
-&lt;p&gt;ETF 包含一些股票，大涨可能性小，大跌也同样不太会出现。而一旦出现买点，不就是很省心的买点。&lt;/p&gt;
-&lt;p&gt;况且，ETF 有很多，1000 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1209 - 行情扩散后，用高一级别止盈</title>
-    <link href="https://atjason.com/daily/2021-12-09.html"/>
-    <id>https://atjason.com/daily/2021-12-09.html</id>
-    <published>2021-12-09T14:00:00.000Z</published>
-    <updated>2021-12-12T13:40:32.405Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，15 分钟拐点进场。开始时，可以用同级别也就是 15 分钟的低点作为止损点。</p>
-<p>当行情扩散到小时、甚至日级别，后续可能有更大的行情。这时候，如果还用 15 低点止盈，很容易被甩下车。可以逐步上移止盈，用小时、日低点止盈。也就是把波段做成趋势。</p>
-<p>当然，有可能会有大的利润回吐，但也可能抓住大的盈利。</p>
-<p>如果接受不了利润回吐，那就不做趋势，还是一段一段的做波段。做波段理论上会有更大的收益、更好的资金利用率，不过对操作要求高，需要投入更多的精力，看自己如何取舍。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，15 分钟拐点进场。开始时，可以用同级别也就是 15 分钟的低点作为止损点。&lt;/p&gt;
-&lt;p&gt;当行情扩散到小时、甚至日级别，后续可能有更大的行情。这时候，如果还用 15 低点止盈，很容易被甩下车。可以逐步上移止盈，用小时、日低点止盈。也就是把波段做成趋势。&lt;/p&gt;
-&lt;p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1208 - 向前看</title>
-    <link href="https://atjason.com/daily/2021-12-08.html"/>
-    <id>https://atjason.com/daily/2021-12-08.html</id>
-    <published>2021-12-08T14:00:00.000Z</published>
-    <updated>2021-12-12T13:39:35.686Z</updated>
-    
-    <content type="html"><![CDATA[<p>时不时就会想，如果当时做了什么选择、如果当时再努力一点，现在就会好很多。</p>
-<p>实际上，历史不可以假设，我们再也回不去了。过去的我们，也已经尽力了。</p>
-<p>最好的是现在。在当下做最正确的选择、尽最大的努力，才是最重要的。</p>
-<p>不要回忆过去，向前看、向前迈步。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;时不时就会想，如果当时做了什么选择、如果当时再努力一点，现在就会好很多。&lt;/p&gt;
-&lt;p&gt;实际上，历史不可以假设，我们再也回不去了。过去的我们，也已经尽力了。&lt;/p&gt;
-&lt;p&gt;最好的是现在。在当下做最正确的选择、尽最大的努力，才是最重要的。&lt;/p&gt;
-&lt;p&gt;不要回忆过去，向前看、
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1207 - 流动性决定定价权</title>
-    <link href="https://atjason.com/daily/2021-12-07.html"/>
-    <id>https://atjason.com/daily/2021-12-07.html</id>
-    <published>2021-12-07T14:00:00.000Z</published>
-    <updated>2021-12-12T13:47:23.560Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，农民多收了三五斗米，可是米商却乘机压价，农民并没有获得更大的收益。</p>
-<p>为什么米商能提价的？因为农民如果不在这个时候卖米，他就没有周转的资金、就转不动了。所以，不得不在此刻以低价卖米。</p>
-<p>而如果农民有足够多的余钱，可以把米先存起来，等价格高的时候再卖。而米商如果没有米就开不下去，就会倒闭。这时候，米商就不得不提价来收米。</p>
-<p>所以，谁的手里余钱多、有流通性，就拥有定价权。当然，这是极简模型。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，农民多收了三五斗米，可是米商却乘机压价，农民并没有获得更大的收益。&lt;/p&gt;
-&lt;p&gt;为什么米商能提价的？因为农民如果不在这个时候卖米，他就没有周转的资金、就转不动了。所以，不得不在此刻以低价卖米。&lt;/p&gt;
-&lt;p&gt;而如果农民有足够多的余钱，可以把米先存起来，等价格高的时候
     
     </summary>
     

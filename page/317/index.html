@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-18.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-25.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-08-18.html" itemprop="url">
-                  0818 - CloudKit + CoreData 初见成效
+                <a class="post-title-link" href="/daily/2017-08-25.html" itemprop="url">
+                  0825 - 最佳实践，必是简洁优雅
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-18T22:00:00+08:00">
-                2017-08-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-25T22:00:00+08:00">
+                2017-08-25
               </time>
             
 
@@ -366,10 +366,11 @@
       
         
           
-            <p><img src="https://ps-hz.toolinbox.net/006tKfTcgy1finxf2dt6bg30jg0bxe81.gif" alt=""></p>
-<p>如上所示，在一台手机上做操作，可以准实时同步至另一台手机上。</p>
-<p>CloudKit + CoreData 初见成效，开心。</p>
-<p>接下来，可以堆 UI 和业务逻辑了，期待 iPaste for iOS 可以早日与大家见面。</p>
+            <p>今天本打算实现这个功能：打开 iPaste 时，展示最近的剪贴板历史、而非分组列表。</p>
+<p>作为一个 iOS 开发的入门者，脑子里迸出的第一种做法，便是将历史列表页作为起始页。可是，这会打乱原本的跳转逻辑，还带来一堆额外的问题。折腾半天，未果。</p>
+<p>在搜索过程中，发现了 <a href="https://developer.apple.com/library/content/featuredarticles/ViewControllerPGforiPhoneOS/PreservingandRestoringState.html" target="_blank" rel="external">Preserving and Restoring State</a>，又试了试系统的自带的 Notes 应用，哇，这不就是我要的吗？退出重启后，能记录并打开上次退出时的页面，体验很棒。</p>
+<p>于是，照着教程和 <a href="https://developer.apple.com/library/content/samplecode/StateRestore/Introduction/Intro.html#//apple_ref/doc/uid/DTS40013190" target="_blank" rel="external">示例项目</a> 三下五除二就实现了这个功能。开心。</p>
+<p>以后，一旦遇到实现的方法很 Ugly，要小心，很可能不是最佳实践；倒回来，重新做。</p>
 
           
         
@@ -413,7 +414,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-17.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-24.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -435,8 +436,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-08-17.html" itemprop="url">
-                  0817 - 做产品，先写宣传稿
+                <a class="post-title-link" href="/daily/2017-08-24.html" itemprop="url">
+                  0824 - 提出正确的问题
                 </a>
               
             
@@ -452,8 +453,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-17T22:00:00+08:00">
-                2017-08-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-24T22:00:00+08:00">
+                2017-08-24
               </time>
             
 
@@ -511,7 +512,13 @@
       
         
           
-            <p>宣传稿里，自然会体现产品最大的卖点、使用场景等信息；反过来，可以帮助在产品初期定义产品、做决策。</p>
+            <p>举个例子：</p>
+<ul>
+<li>我不知道如何让 UICollectionView 只显示一列，网上搜索了半天也没搞定。</li>
+<li>后来想，既然是想显示一列，为什么不用 UITableView 呢？</li>
+<li>转向 UITableView 后，也没有很快搞定。又想，其实是想动态添加元素，干嘛不直接使用 addSubView 的方式？</li>
+</ul>
+<p>以上的例子，有造作的成分。不过，在现实工作中，常常遇见类似的情况：我们沉迷于一个问题、久久无法解决时，或许应该跳出来想想，最终要解决的是什么问题？自己所纠结的「问题」，真的是问题本身吗？条条大路通罗马，我们可能忙于研究修路的技术难点，却没想过直接用现成的路过去。</p>
 
           
         
@@ -555,7 +562,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-16.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-23.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -577,8 +584,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-08-16.html" itemprop="url">
-                  0816 - 做产品，杀手功能很重要
+                <a class="post-title-link" href="/daily/2017-08-23.html" itemprop="url">
+                  0823 - 如何走出状态低谷？
                 </a>
               
             
@@ -594,8 +601,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-16T22:00:00+08:00">
-                2017-08-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-23T22:00:00+08:00">
+                2017-08-23
               </time>
             
 
@@ -653,7 +660,26 @@
       
         
           
-            <p>把 10 个平庸的功能做完美，不如把一个杀手功能做到 60 分。</p>
+            <p>程序员这种略带创造性的工作，对自己状态的要求是很高的。不可能一直保持高效的状态，如何早些从低谷中走出来，才是必备技能。</p>
+<ul>
+<li>时间<ul>
+<li>这是最靠谱的办法，让时间来自愈。</li>
+</ul>
+</li>
+<li>睡觉<ul>
+<li>充分的休息，能让人焕然一新。</li>
+</ul>
+</li>
+<li>环境<ul>
+<li>换个环境，用环境中的新鲜事务来刺激自己。</li>
+</ul>
+</li>
+<li>成就<ul>
+<li>找个喜欢的事，做出点成绩，用成绩来激励自己。</li>
+</ul>
+</li>
+</ul>
+<p>核心的，还是自己。但由于自己不能把自己举起来，故而需要借助环境的力量。</p>
 
           
         
@@ -697,7 +723,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-15.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-22.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -719,8 +745,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-08-15.html" itemprop="url">
-                  0815 - 堆栈不要溢出…
+                <a class="post-title-link" href="/daily/2017-08-22.html" itemprop="url">
+                  0822 - 抓住现金牛，还是投资潜力股
                 </a>
               
             
@@ -736,8 +762,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-15T22:00:00+08:00">
-                2017-08-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-22T22:00:00+08:00">
+                2017-08-22
               </time>
             
 
@@ -795,9 +821,10 @@
       
         
           
-            <p>这次搞 CloudKit + Core Data，真的已经持续太长时间了，心里堆栈已快溢出…</p>
-<p>总算，两台手机间核心的同步差不多搞定了。明天再搞搞外围的，比如订阅推送之类的。</p>
-<p>坚持，这个搞定了，一定大肆庆祝下。</p>
+            <p>也即，短期利益和长期收益的平衡。</p>
+<p>如果只顾眼下，起码可以活下去，但却可能失去未来某个热门的门票；<br>而只顾未来，却可能撑不到未来。</p>
+<p>看起来像是绕口令、玄学，却真实发生在自己身上。到底是改进已有的产品，多赚点钱。还是尽早抛弃鸡肋、寻找鸭腿？尤其是当今天开始一点点浸入灰产、得知某些钱来得很容易时，变得更摇摆：还有必要像之前一样死磕小众，还是大步向钱看？</p>
+<p>Who knows, god knows.</p>
 
           
         
@@ -841,7 +868,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-14.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-21.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -863,8 +890,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-08-14.html" itemprop="url">
-                  0814 - 坚持寻找最佳实践
+                <a class="post-title-link" href="/daily/2017-08-21.html" itemprop="url">
+                  0821 - 我是如何免费为自己的产品制作 Gif 动图的
                 </a>
               
             
@@ -880,8 +907,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-14T22:00:00+08:00">
-                2017-08-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-21T22:00:00+08:00">
+                2017-08-21
               </time>
             
 
@@ -939,10 +966,38 @@
       
         
           
-            <p>今天最大的感触是：<strong>与其自己花时间用已经知道的方法实现功能，不如寻找最佳实践，然后套用。</strong></p>
-<p>通过自己造蹩脚的轮子，确实也能解决实际问题，但总是容易遗漏要考虑的点，后续的开发、维护，也是问题多多。</p>
-<p>反观寻找最佳实践，虽说前期要花较多时间深入理解相关知识点，但这几乎是一次性投入，之后会有源源不断的好处。</p>
-<p><strong>顶住短期的压力，寻找最佳实践，是长期来看的最佳选择。</strong></p>
+            <p>不断有朋友问：</p>
+<blockquote>
+<p>你是怎么做 Gif 的？画质不错，文件也不大。<br>用什么 app 录制的？好顺滑的录屏。<br>…</p>
+</blockquote>
+<p>真有那么神吗？其实我觉得还好啦。大家可以到我的网站上看看效果，比如：</p>
+<ul>
+<li><a href="https://toolinbox.net/Klib/" target="_blank" rel="external">https://toolinbox.net/Klib/</a></li>
+<li><a href="https://toolinbox.net/iPic/" target="_blank" rel="external">https://toolinbox.net/iPic/</a></li>
+</ul>
+<p>Anyway，今天我就分享下自己私藏的小秘密。其实也很简单，就是以下三步（基于 macOS 平台）：</p>
+<h2 id="1-使用-QuickTime-Player-录屏"><a href="#1-使用-QuickTime-Player-录屏" class="headerlink" title="1. 使用 QuickTime Player 录屏"></a>1. 使用 QuickTime Player 录屏</h2><p><img src="https://ps.toolinbox.net/nabez.jpg" alt=""></p>
+<p>其实 macOS 自带的 QuickTime Player 录屏效果还是挺不错的，使用起来也简单：启动后在菜单中选择即可，或者使用 <code>Command + Ctrl + N</code> 快捷键。</p>
+<p><img src="https://ps.toolinbox.net/kh87c.jpg" alt=""></p>
+<p>这一方式个好处：<strong>录屏时可以包含状态栏</strong>。因为我知道一些工具其实是不支持录制状态栏的，而我的几款产品恰好都是基于菜单栏的，故有此一说。</p>
+<h2 id="2-使用-QuickTime-Player-编辑视频"><a href="#2-使用-QuickTime-Player-编辑视频" class="headerlink" title="2. 使用 QuickTime Player 编辑视频"></a>2. 使用 QuickTime Player 编辑视频</h2><p>这一点其实是最便利的。</p>
+<p>我之前曾使用 iMovie 来编辑视频，但其仅支持 16:9 的视频，实在太麻烦了，遂放弃。</p>
+<p>我对视频的编辑其实很简单：<strong>删除无用帧</strong>。步骤如下：</p>
+<ul>
+<li>使用 QuickTime Player 打开上面录制的视频</li>
+<li>按下 <code>Command + E</code> 显示 Clips</li>
+<li>按下 <code>Command + Y</code> 在当前帧分割视频</li>
+<li>删除无用帧</li>
+</ul>
+<p>以下大致演示编辑过程（其中的视频本身是 <a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib</a> 展示阅读器的操作示意，制作完成的 Gif 在 <a href="https://ps-hz.toolinbox.net/006tNc79gy1fgvdy9tha1g30fo0d6asu.gif" target="_blank" rel="external">这里</a>）：</p>
+<p><img src="https://ps-hz.toolinbox.net/006tKfTcgy1firrefc7v2g30fg0dekjl.gif" alt=""></p>
+<p>此方式最大的不足是：<strong>不能在视频中添加文字</strong>。</p>
+<h2 id="3-使用工具将视频转换为-Gif"><a href="#3-使用工具将视频转换为-Gif" class="headerlink" title="3. 使用工具将视频转换为 Gif"></a>3. 使用工具将视频转换为 Gif</h2><p>这一步的选择余地应该挺大的，我个人常用的是下面这个网站：</p>
+<p><a href="http://image.online-convert.com/convert-to-gif" target="_blank" rel="external">http://image.online-convert.com/convert-to-gif</a></p>
+<p><img src="https://ps.toolinbox.net/x2egv.jpg" alt=""></p>
+<p>支持宽度等设定，感觉转换效果还可以。</p>
+<h2 id="尾巴"><a href="#尾巴" class="headerlink" title="尾巴"></a>尾巴</h2><p>以上是我目前录制 Gif 的方式，<strong>全程免费</strong>。</p>
+<p>我并没有说这是最佳选择、也没有为此背书的意思，以后也可能视情况而调整方案。<strong>如果你有更好的方式，欢迎告诉我</strong>。</p>
 
           
         
@@ -981,7 +1036,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/316/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/316/">316</a><span class="page-number current">317</span><a class="page-number" href="/page/318/">318</a><span class="space">&hellip;</span><a class="page-number" href="/page/460/">460</a><a class="extend next" rel="next" href="/page/318/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/316/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/316/">316</a><span class="page-number current">317</span><a class="page-number" href="/page/318/">318</a><span class="space">&hellip;</span><a class="page-number" href="/page/462/">462</a><a class="extend next" rel="next" href="/page/318/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1026,7 +1081,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2299</span>
+                <span class="site-state-item-count">2306</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1144,7 +1199,7 @@
         <div class="copyright" >
   
   &copy;  2011 - 
-  <span itemprop="copyrightYear">2021</span>
+  <span itemprop="copyrightYear">2022</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
