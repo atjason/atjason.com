@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-13.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-10.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-13.html" itemprop="url">
-                  0113 - 视频不真切
+                <a class="post-title-link" href="/daily/2020-02-10.html" itemprop="url">
+                  0210 - 「视字」集成百度
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-13T22:00:00+08:00">
-                2020-01-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-10T22:00:00+08:00">
+                2020-02-10
               </time>
             
 
@@ -366,9 +366,12 @@
       
         
           
-            <p>在外地，经常和家人视频。可一回家、一见真人，和视频感觉完全不同。</p>
-<p>一方面，见面可以看到更多细节，比如头发的质感、白头发是否多了。另一方面，说起话来，那种感觉更容易在互相之间传递，更有温度。</p>
-<p>同样，一些异地远程工作的同事、合作方，不论通过多么先进的在线合作方式，总还是要定期线下见个面、聚一聚，增进真人的感情，合作才能更自然顺畅。</p>
+            <p><strong>百度语音转写</strong>，目前还在公测期，需要申请。之前申请，今天终于过了；估计主要是受疫情影响，审核比较慢。</p>
+<p>迫不及待拿来一试。集成还挺简单的，一个请求创建任务，指定音频的 url 及其他参数；之后便是轮询，查询转写是否完成。当然，也支持作为完成后回调，只是一般客户端调用，自然是无法接受回调的。</p>
+<p>需要关心的主要是两点：<strong>识别质量</strong> 和 <strong>识别速度</strong>。</p>
+<p><strong>识别质量</strong> 方面，感觉略微比较搜狗知音差一点，不过整体还是达到商用级别的。尤其，每天还有 5 万次的免费额度，对「视字」这种级别的小程序，自然是够用了。</p>
+<p><strong>识别速度</strong> 方面，感觉不太稳定。快的时候很快，基本 10s+ 就有结果。慢的时候很慢，甚至 3 分钟的音频，要几十分钟、上小时才完成。我猜还是服务器资源有限，碰到请求比较多时，识别时间就会拉长。</p>
+<p>不过，最后我还是 <strong>没有在「视字」中使用百度</strong>，主要是因为上面两点：识别质量畋差于搜狗，识别速度不够稳定。不过，还是继续观察，相信百度还是会快速进化的，毕竟语音是未来交互的重要途径之一，而百度明显在语音转写方面起步晚了。要追上，就得快跑了。</p>
 
           
         
@@ -412,7 +415,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-12.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-09.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -434,8 +437,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-12.html" itemprop="url">
-                  0112 - 京东物流牛
+                <a class="post-title-link" href="/daily/2020-02-09.html" itemprop="url">
+                  0209 - 「视字」集成讯飞
                 </a>
               
             
@@ -451,8 +454,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-12T22:00:00+08:00">
-                2020-01-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-09T22:00:00+08:00">
+                2020-02-09
               </time>
             
 
@@ -510,11 +513,16 @@
       
         
           
-            <p>在老家，京东是唯一一家能送货上门的物流、电商。</p>
-<p>不只如此，服务的差异也巨大。</p>
-<p>京东配送员，一开口就是哥怎样怎样、姐怎样怎样。而且，好像一两次就能知道收货人具体在哪。要知道，在农村可不像写字楼，有极其准确的收货地址，农村可能是半径几百米的某某村谁谁谁收。</p>
-<p>其他物流、包括顺丰，基本只会到诸如县城一个物流点，然后打电话给收件人。打电话时，直接说这是某某快速，来拿快递；还没等你说「好，我知道了」，物流已经把电话挂了。而且，现在已经全部改为短信，并不会电话通知了。</p>
-<p>你说，你会在哪下单？反正我是京东，送货上门。</p>
+            <p>今天没忍住，动手给「<strong>视字</strong>」集成了 <strong>讯飞语音识别</strong>。</p>
+<p>为什么呢？本来对讯飞期望挺高的，毕竟在公开的产品中，<strong>讯飞听见的识别结果是相对来说最理想的</strong>，我自然想将其集成到「视字」中。之前选择搜狗而非讯飞，主要是几个原因：</p>
+<ul>
+<li>讯飞只支持上传本地音频文件，不支持提供网络音频文件。</li>
+<li>讯飞价格最美丽，入门价基本是搜狗等其他产品的 2 倍+</li>
+</ul>
+<p>不过，后来看如果选择比较贵的套餐，基本价格能做到和其他产品差不多。冲着它的效果，我就动手了。</p>
+<p>不过，折腾了一天，等集成后，傻眼了：<strong>相同的音频文件，讯飞 API 返回的识别结果，和讯飞自家的产品如讯飞听听，那简单不是一个量级的东西，差太多了</strong>。跟腾讯、阿里比都不如，更别说搜狗。我当时那个吐血啊。都怪我太善良，没相信讯飞这个浓眉大眼的家伙，也会干这种事。</p>
+<p>目前，我已经发了工单，提供了音频文件和分别的识别结果，询问官方到底是怎么回事，期待结果吧。<strong>如果没有合理的答复，我只能粉转黑，再也不义务宣传讯飞的产品了</strong>。</p>
+<p>当然，今天还件开心的事：<strong>从视频中提取音频</strong>，我选用的是七牛的服务。本以为会按视频转码计费；给七牛发工单，官人也是这么说的。没想到今天看实时费用，<strong>应该是按音频转码计费的</strong>，这可是视频价格的 1/10。恩，好事，可以压低成本了。不过，七牛的服务响应速度堪忧，说人话就是很慢。哎，这问题目前怕是无解了。</p>
 
           
         
@@ -558,7 +566,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-11.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-08.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -580,8 +588,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-11.html" itemprop="url">
-                  0111 - 可感知的小细节
+                <a class="post-title-link" href="/daily/2020-02-08.html" itemprop="url">
+                  0208 - 「视字」上线
                 </a>
               
             
@@ -597,8 +605,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-11T22:00:00+08:00">
-                2020-01-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-08T22:00:00+08:00">
+                2020-02-08
               </time>
             
 
@@ -656,8 +664,12 @@
       
         
           
-            <p>在火车站卫生间，台盘里面放了滤网，主要是防止不文明的旅客，把诸如烟头纸巾之类的东西扔入台盘。细节在于，滤网被剪成了心形❤️，瞬间让人觉得暖心不少，也就下意识检点自己的行为，至少不至于太过份。</p>
-<p>这样的细节，比「请文明乘车」这样的宣传语，更入耳入心。</p>
+            <p>折腾了差不多一周，「<strong>视字</strong>」小程序上线了。</p>
+<p><img src="https://ps.toolinbox.net/2m0o8.png" width="200px"></p>
+<p>用法很简单：选择视频，等待，即可识别出视频中的文字。</p>
+<p><img src="https://tva1.sinaimg.cn/large/0082zybply1gbpf7wv843g30880hshdu.gif" alt=""></p>
+<p>欢迎扫码一试，也请帮忙介绍给周围需要的朋友。</p>
+<p>使用过程中遇到任何问题，可以点击应用底部的「反馈」，我这个小客服会很负责的哦~</p>
 
           
         
@@ -701,7 +713,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-10.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-07.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -723,8 +735,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-10.html" itemprop="url">
-                  0110 - 承认自己怂
+                <a class="post-title-link" href="/daily/2020-02-07.html" itemprop="url">
+                  0207 - 「视字」收尾
                 </a>
               
             
@@ -740,8 +752,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-10T22:00:00+08:00">
-                2020-01-10
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-07T22:00:00+08:00">
+                2020-02-07
               </time>
             
 
@@ -799,8 +811,9 @@
       
         
           
-            <p>比如戒酒，首先承认自己无法控制酒精，是酒精在控制自己。这样，才不会有这次只喝一点点，然后却再次喝醉的情况。因为后者，其实是认为自己可以控制酒精，想喝多少就喝多少。</p>
-<p>同样的，如果自己对某件事自制力差，首先要承认自己怂，不要认为自己有能力控制。有这样的心态，才能避免最开头的犯错。</p>
+            <p>昨天把主体工作完成了，今天就是收尾。</p>
+<p>其实，收尾会有很多杂事，比如校对文案，错误日志收集，关键服务监控，设计 Logo、图标，提交审核并发布，制作宣传材料和文案，考虑推广方案，等等。</p>
+<p>Anyway，今天小程序已经上线了，宣传视频也做好了，明天开始逐步推广。</p>
 
           
         
@@ -844,7 +857,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-01-09.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-06.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -866,8 +879,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-01-09.html" itemprop="url">
-                  0109 - 永远不要和别人比下限
+                <a class="post-title-link" href="/daily/2020-02-06.html" itemprop="url">
+                  0206 - 有一点代码洁癖
                 </a>
               
             
@@ -883,8 +896,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-01-09T22:00:00+08:00">
-                2020-01-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-06T22:00:00+08:00">
+                2020-02-06
               </time>
             
 
@@ -942,8 +955,8 @@
       
         
           
-            <p>当开始和别人比下限时，无论结果，你已经输了。</p>
-<p>比如，在和别人赌气时，很容易就想做出一些比别人更过份的事。在平静时，无论如何也不会做的事，赌气时却显得非做不可。这其实就是在和别人比下限，受损失更多的，可能还是自己。</p>
+            <p>今天在写小程序云函数，为了不依赖第三方库，自动手动实现鉴权，并找单独的 base64/md5/hmac/post 等单文件实现的版本。最后，终于还是实现功能了，可惜花的时间太多了。本打算今天放出体验版的，结果还是做不到。</p>
+<p>好处是，有些工作只用做一次，下次直接复制这些代码即可。不过，如无必要，还是直接依赖第三方库算了。人生苦短，还是少重复造轮子的好。</p>
 
           
         
@@ -982,7 +995,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/144/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/144/">144</a><span class="page-number current">145</span><a class="page-number" href="/page/146/">146</a><span class="space">&hellip;</span><a class="page-number" href="/page/462/">462</a><a class="extend next" rel="next" href="/page/146/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/144/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/144/">144</a><span class="page-number current">145</span><a class="page-number" href="/page/146/">146</a><span class="space">&hellip;</span><a class="page-number" href="/page/467/">467</a><a class="extend next" rel="next" href="/page/146/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1027,7 +1040,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2306</span>
+                <span class="site-state-item-count">2334</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1150,7 +1163,7 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Jason</span>
-  <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
+  <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
 </div>
 
 

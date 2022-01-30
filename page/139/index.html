@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-12.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-11.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-12.html" itemprop="url">
-                  0212 - 对自己没有帮助的信息，都是噪音
+                <a class="post-title-link" href="/daily/2020-03-11.html" itemprop="url">
+                  0311 - 有钱与审美
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-12T22:00:00+08:00">
-                2020-02-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-11T22:00:00+08:00">
+                2020-03-11
               </time>
             
 
@@ -366,8 +366,10 @@
       
         
           
-            <p>最近疫情，很多人会关心很多信息。比如，湖北省的人事干部有什么变动，实际情况是不是比官方通报的更严重，等等。</p>
-<p>其实，很多信息对自己并没有帮助。比如，不管疫情是不是比通报的更严重，能改变你目前的决策吗？不是该上班上班、该在家呆着呆着、该做防护做防护，什么都没变。那这些信息对你有什么用呢？就是噪音；最多像娱乐八卦一样，满足你的好奇心、打发时间而已。</p>
+            <p>在老家，人们有钱之后很重要的事是：建房子。</p>
+<p>也就是在自家宅基地建房子。没有的建，有的拆了重建。总之，是要建大的、好看的房子。后者尤其重要，要的不就是面子嘛。</p>
+<p>可，这事还是有很多里子在的。房子建成什么样子，里面如何装修。大到布局，小到配色，既关系到口袋里有多少钱，更由审美决定。</p>
+<p>钱这东西，可能在短时间内暴富。而审美这东西，却快不了，需要在平时有意识的培养。</p>
 
           
         
@@ -411,7 +413,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-11.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-10.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -433,8 +435,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-11.html" itemprop="url">
-                  0211 - 邮件发送
+                <a class="post-title-link" href="/daily/2020-03-10.html" itemprop="url">
+                  0310 - 自建工具
                 </a>
               
             
@@ -450,8 +452,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-11T22:00:00+08:00">
-                2020-02-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-10T22:00:00+08:00">
+                2020-03-10
               </time>
             
 
@@ -509,14 +511,10 @@
       
         
           
-            <p>项目中，经常需要使用邮件来发送一些信息，比如重要错误、自己关心的信息等等。</p>
-<p>市面上有很多类似的消息推送服务，比如 <a href="http://sc.ftqq.com/3.version" target="_blank" rel="external">Server酱</a>、<a href="https://pushbear.ftqq.com/admin/#/" target="_blank" rel="external">PushBear</a>，接口也很简单。只是我目前还是习惯于用邮件来管理这些信息。每个项目重复一个邮件模块挺烦的，而且像小程序这样的环境，又不支持发邮件。于是自己做了一个：</p>
-<p><a href="https://github.com/atjason/email_message" target="_blank" rel="external">https://github.com/atjason/email_message</a></p>
-<p>首先，你需要更新项目中的配置文件 <code>config.js</code>，完成邮件账户、服务器端口等信息的配置。</p>
-<p>然后，你需要有服务器、域名，然后把以上服务配置到服务器中，使用 <code>nginx</code> 等服务器应用完成网络转发。</p>
-<p>这些完了之后，客户端请求就很容易了。假设部署的域名是 <code>https://example.com</code>，只需要发一个网络请求，如 <code>https://example.com/?s=SECRET&amp;t=title</code>，就会发一封邮件标题为 <code>title</code>、正文为空的邮件。其中 <code>SECRET</code> 用于阻止非法访问，达到一定程度的安全性。更多参数，可在项目中查看，或者自己设置。</p>
-<p>一些信息：我后台是使用 <code>Gmail</code> 来发送邮件。可以先注册一个小号，专门用于发邮件。然后允许其在非安全环境登录。如果首次在一个 IP 等环境使用该账户发邮件时，会因安全提示而阻止。此时，只需在浏览器中访问提示中的网址，进行安全验证即可。我的服务器部署在国外，因此没有那个神奇问题的干扰。</p>
-<p>当然，你也可以使用其他邮件服务。另外，一般的云服务也提供邮件服务，每天也有大约 200 的免费发送量，对个人基本也是够的。不过，以我测试的经验，触达率不好说。即使是把发送方加入收件人的联系人或白名单，也会出现发送成功、但收不到、垃圾邮箱里也没有的情况。而 <code>Gmail</code> 是我测试下来最让人放心的。</p>
+            <p>这几天，在给自己搭建交易工具，包括 Order Book、订单流、K 线图、下单界面等。</p>
+<p>因为全部是自己实现（当然是借助第三方组件），可以很灵活地配置成自己想要的样子。尤其，可以做到极其精简，只显示必要的信息；且可以用自己能看懂的方式继续简化，而不用像大众产品一样，在效率和易用性间平衡。</p>
+<p>当然，即使这些都做好了，对赚钱与否，也不起主要作用。不过，帮助还是有的。尤其，我个人很喜欢这种一边砍柴、一边磨刀的感觉。</p>
+<p>对了，又买了一台服务器…现在已经有 5 台了…</p>
 
           
         
@@ -560,7 +558,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-10.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-09.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -582,8 +580,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-10.html" itemprop="url">
-                  0210 - 「视字」集成百度
+                <a class="post-title-link" href="/daily/2020-03-09.html" itemprop="url">
+                  0309 - 不劳而获
                 </a>
               
             
@@ -599,8 +597,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-10T22:00:00+08:00">
-                2020-02-10
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-09T22:00:00+08:00">
+                2020-03-09
               </time>
             
 
@@ -658,12 +656,11 @@
       
         
           
-            <p><strong>百度语音转写</strong>，目前还在公测期，需要申请。之前申请，今天终于过了；估计主要是受疫情影响，审核比较慢。</p>
-<p>迫不及待拿来一试。集成还挺简单的，一个请求创建任务，指定音频的 url 及其他参数；之后便是轮询，查询转写是否完成。当然，也支持作为完成后回调，只是一般客户端调用，自然是无法接受回调的。</p>
-<p>需要关心的主要是两点：<strong>识别质量</strong> 和 <strong>识别速度</strong>。</p>
-<p><strong>识别质量</strong> 方面，感觉略微比较搜狗知音差一点，不过整体还是达到商用级别的。尤其，每天还有 5 万次的免费额度，对「视字」这种级别的小程序，自然是够用了。</p>
-<p><strong>识别速度</strong> 方面，感觉不太稳定。快的时候很快，基本 10s+ 就有结果。慢的时候很慢，甚至 3 分钟的音频，要几十分钟、上小时才完成。我猜还是服务器资源有限，碰到请求比较多时，识别时间就会拉长。</p>
-<p>不过，最后我还是 <strong>没有在「视字」中使用百度</strong>，主要是因为上面两点：识别质量畋差于搜狗，识别速度不够稳定。不过，还是继续观察，相信百度还是会快速进化的，毕竟语音是未来交互的重要途径之一，而百度明显在语音转写方面起步晚了。要追上，就得快跑了。</p>
+            <p>在老家，有种操作叫：拾东西。</p>
+<p>比如，有人家种了一大片胡萝卜。等他们收获完时，地里其实还会有些遗漏的。这时，主人家其实已经放弃一遍遍去地里找这些遗漏的胡萝卜，因为投入产出比太低，不划算。</p>
+<p>可有人多的是时间，比如在家闲着的老头老太。他们会带上小工具和袋子，去地里进行地摊式的搜索，找到这些遗漏的胡萝卜。不花一分钱，捡到就是赚到。更神奇的是，不管前面的人找的有多仔细，后面的人总还是能找到遗漏。</p>
+<p>这种接近不劳而获的感觉，很爽。甚至可以说，会让人上瘾。有时明明不差这点钱去买，或者已经拾到足够自己吃的了，还是继续拾，多出来的分给亲戚邻居。</p>
+<p>我也觉得挺好玩，今天还带着娃去地里，体验了原版的拔萝卜。可笑的是，他力气小，会你排雷一样，把胡萝卜周围的土都用手划开，然后再拔。其实，在我看来，那胡萝卜小的，我两根手指头就可以直接拔出来…</p>
 
           
         
@@ -707,7 +704,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-09.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-08.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -729,8 +726,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-09.html" itemprop="url">
-                  0209 - 「视字」集成讯飞
+                <a class="post-title-link" href="/daily/2020-03-08.html" itemprop="url">
+                  0308 - 当代通假字
                 </a>
               
             
@@ -746,8 +743,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-09T22:00:00+08:00">
-                2020-02-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-08T22:00:00+08:00">
+                2020-03-08
               </time>
             
 
@@ -805,16 +802,20 @@
       
         
           
-            <p>今天没忍住，动手给「<strong>视字</strong>」集成了 <strong>讯飞语音识别</strong>。</p>
-<p>为什么呢？本来对讯飞期望挺高的，毕竟在公开的产品中，<strong>讯飞听见的识别结果是相对来说最理想的</strong>，我自然想将其集成到「视字」中。之前选择搜狗而非讯飞，主要是几个原因：</p>
+            <p>比如，想把淘宝链接直接分享到微信好友，那是不行的。原因我想你应该知道，利益分配的问题。</p>
+<p>怎么办呢？聪明的工程师用各种奇怪的文字，在看起来能明白意思的情况下，绕过微信的监管，生生造出现代通假字。来一批拼多多的文字，你感受下：</p>
 <ul>
-<li>讯飞只支持上传本地音频文件，不支持提供网络音频文件。</li>
-<li>讯飞价格最美丽，入门价基本是搜狗等其他产品的 2 倍+</li>
+<li>富之后ҚăI启ρЇɳḒ℧ȯḑ∪Ȫ</li>
+<li>傅致后Ӄɑí启РіηḓὐȭḒ℧ȯ</li>
+<li>缚滞后kаí启РіηḓὐȭḒ℧ȯ</li>
+<li>副㫼后ҞȦĮ启РіηḓὐȭḒ℧ȯ</li>
+<li>幅质后ҞȦĮ启РіηḓὐȭḒ℧ȯ</li>
+<li>…</li>
 </ul>
-<p>不过，后来看如果选择比较贵的套餐，基本价格能做到和其他产品差不多。冲着它的效果，我就动手了。</p>
-<p>不过，折腾了一天，等集成后，傻眼了：<strong>相同的音频文件，讯飞 API 返回的识别结果，和讯飞自家的产品如讯飞听听，那简单不是一个量级的东西，差太多了</strong>。跟腾讯、阿里比都不如，更别说搜狗。我当时那个吐血啊。都怪我太善良，没相信讯飞这个浓眉大眼的家伙，也会干这种事。</p>
-<p>目前，我已经发了工单，提供了音频文件和分别的识别结果，询问官方到底是怎么回事，期待结果吧。<strong>如果没有合理的答复，我只能粉转黑，再也不义务宣传讯飞的产品了</strong>。</p>
-<p>当然，今天还件开心的事：<strong>从视频中提取音频</strong>，我选用的是七牛的服务。本以为会按视频转码计费；给七牛发工单，官人也是这么说的。没想到今天看实时费用，<strong>应该是按音频转码计费的</strong>，这可是视频价格的 1/10。恩，好事，可以压低成本了。不过，七牛的服务响应速度堪忧，说人话就是很慢。哎，这问题目前怕是无解了。</p>
+<p>你能看懂这想表达什么吗？</p>
+<p>参考答案：「复制后开启 Pinduoduo」</p>
+<p>这样的通假字，要多少有多少；想要用程序来识别阻截，相当不容易。</p>
+<p>哎，多少 985、211、996、ICO 的聪明才智，都用在了这种事上面，可悲可叹。</p>
 
           
         
@@ -858,7 +859,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-08.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-03-07.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -880,8 +881,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-02-08.html" itemprop="url">
-                  0208 - 「视字」上线
+                <a class="post-title-link" href="/daily/2020-03-07.html" itemprop="url">
+                  0307 - 难与不难
                 </a>
               
             
@@ -897,8 +898,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-08T22:00:00+08:00">
-                2020-02-08
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-03-07T22:00:00+08:00">
+                2020-03-07
               </time>
             
 
@@ -956,12 +957,12 @@
       
         
           
-            <p>折腾了差不多一周，「<strong>视字</strong>」小程序上线了。</p>
-<p><img src="https://ps.toolinbox.net/2m0o8.png" width="200px"></p>
-<p>用法很简单：选择视频，等待，即可识别出视频中的文字。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0082zybply1gbpf7wv843g30880hshdu.gif" alt=""></p>
-<p>欢迎扫码一试，也请帮忙介绍给周围需要的朋友。</p>
-<p>使用过程中遇到任何问题，可以点击应用底部的「反馈」，我这个小客服会很负责的哦~</p>
+            <p>让我们逐渐地说。</p>
+<p>除了像卫星发射这种有绝对难度的事，通常，对于不了解的行业，我们会习惯性地觉得它并不难。比如，你会觉得前台的工作，不就是收收快递、打打电话，谁都能干（当然，最好长得漂亮…）</p>
+<p>真正上手，便会感觉：呀，原来这事还有点难度。</p>
+<p>等过段时间、熟练了，又会感觉：其实也就这么回事，我现在一边摸鱼、一边干活都没问题。</p>
+<p>等工作量大、要求变高时，又会后悔之前怎么没趁不忙的时候多学点，现在效率这么低，或者干着急想不出好办法，觉得这事真难，都要干不下去了。</p>
+<p>你看，同一件事，不同的人、不同的阶段来看，感受结论都不一样。其中一点，与其习惯性轻视，不如习惯性地觉得别人的工作比较重要、比较难。</p>
 
           
         
@@ -1000,7 +1001,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/138/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/138/">138</a><span class="page-number current">139</span><a class="page-number" href="/page/140/">140</a><span class="space">&hellip;</span><a class="page-number" href="/page/462/">462</a><a class="extend next" rel="next" href="/page/140/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/138/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/138/">138</a><span class="page-number current">139</span><a class="page-number" href="/page/140/">140</a><span class="space">&hellip;</span><a class="page-number" href="/page/467/">467</a><a class="extend next" rel="next" href="/page/140/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1045,7 +1046,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2306</span>
+                <span class="site-state-item-count">2334</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1168,7 +1169,7 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Jason</span>
-  <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
+  <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
 </div>
 
 

@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-01-22.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-02-19.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2021-01-22.html" itemprop="url">
-                  0122 - 想与试
+                <a class="post-title-link" href="/daily/2021-02-19.html" itemprop="url">
+                  0219 - 有点过于自信了
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-01-22T22:00:00+08:00">
-                2021-01-22
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-02-19T22:00:00+08:00">
+                2021-02-19
               </time>
             
 
@@ -366,9 +366,9 @@
       
         
           
-            <p>比如，安装一个东西只有两种方式：要么正着装、要么反着装。</p>
-<p>一种做法，是好好的观察、仔细的分析，看到底应该用哪种方式，想好之后再去操作。</p>
-<p>另一种，就是不管三七二十一，先装了再说。有一半的概率直接成功，不行再拆开重装。</p>
+            <p>花了两三天，实现了从微信读书中导入标注。使用自己的账户测试了一遍，感觉差不多，就发布上线了。</p>
+<p>现实是，一个微信读书的重度用户，有几百本带标注的书。数据量一天，就暴露出程序的问题。比如，微信读书接口对并发请求的限制。</p>
+<p>庆幸的是，虽然功能已经上线，但还没进行大规模宣传，影响还不大，来得及改进。发布后，下周初再宣传吧。</p>
 
           
         
@@ -412,7 +412,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-01-21.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-02-18.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -434,8 +434,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2021-01-21.html" itemprop="url">
-                  0121 - 锚定效应害人
+                <a class="post-title-link" href="/daily/2021-02-18.html" itemprop="url">
+                  0218 - Klib 导入微信读书笔记
                 </a>
               
             
@@ -451,8 +451,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-01-21T22:00:00+08:00">
-                2021-01-21
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-02-18T22:00:00+08:00">
+                2021-02-18
               </time>
             
 
@@ -510,11 +510,13 @@
       
         
           
-            <p>在交易里，锚定效应是非常害人的。</p>
-<p>比如，股价前期最低到 100，现在跌到了 105，感觉差不多了，于是入手。谁知，市场不言底。买了之后，股价狂泻。</p>
-<p>比如，之前自己是 60 买的，后来跌至了 50，又反弹至 58。自己对 60 这个成本价印象太深了。反正现在就差 2 点，等反弹到成本价，我再平仓吧。结果，价格又继续大跌，失去解套机会。</p>
-<p>当然，锚定效应也有好的一面。只是很可惜的，好的一面是：反着用。在交易市场里，亏钱的是大多数。既然想赚钱，关键时刻，就要跟大多数反着来。大众会被锚在什么地方，你在这个地方，就可以反向操作。</p>
-<p>这说得有点大了。往小了说，就是自己不要把自己锚进去了。比如，开仓后，忘掉成本价。加仓减仓还是平仓，完全只根据市场的走向决定，与成本价是多少、赚了多少、亏了多少，没有关系；自己不应该陷在这个没有关系的羁绊中，用心听取市场给的信号，据此而动。</p>
+            <p>事情的起因是这样的，突然发现 Kindle for iOS 等客户端，之前是可以将标注通过 Email 以 html 附件的形式导出，现在却不行了。哎，Kindle 变得更加封闭了。</p>
+<p>Kindle 如此傲娇，不想伺候了。换什么阅读工具呢？自然是已经买了会员的微信读书。</p>
+<p>这又带来另一个问题：微信读书同样比较封闭，并没有接口可以导出标注；只能自己一本本书复杂纯文本的标注，然后想办法格式化再导入。关键，每次更新，都要这么手动操作一把，实在太烦了。</p>
+<p>其实，技术上还是有条路可以绕的。微信读书肯定是有接口的，只是没有开放；核心的，是没有开放授权机制。怎么办呢？绕过去。微信读书网页版登录后，从浏览器中提取 Cookie；然后，通过 Cookie 完成授权，并调用接口以获取读书笔记。</p>
+<p>有开源项目已经在这么干了。有了前人的工作，分析接口的工作就少了很多。到这时，技术可行性都已经通过了，只剩下堆代码实现功能了。</p>
+<p>业务上，还有些繁琐的细节。比如，微信读书不只是商城里的书，还支持自己上传的 epub/txt 等格式的书、以及公众号的文章。不同类型的数据源，所产生的数据结构是不同的，需要分别适配，还要集成到统一的数据库中，费了一点心思。</p>
+<p>堆了一天代码，主体功能已经跑通了。接下来，还需要完善业务、代码、交互上的细节。功能完成后，还要考虑一定规模内测以发现问题，以及发布、推广的事。哎，这么个功能，做出来还挺麻烦的。</p>
 
           
         
@@ -558,7 +560,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-01-20.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-02-17.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -580,8 +582,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2021-01-20.html" itemprop="url">
-                  0120 - 小聪明与大智慧
+                <a class="post-title-link" href="/daily/2021-02-17.html" itemprop="url">
+                  0217 - 折腾了 Paddle
                 </a>
               
             
@@ -597,8 +599,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-01-20T22:00:00+08:00">
-                2021-01-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-02-17T22:00:00+08:00">
+                2021-02-17
               </time>
             
 
@@ -656,10 +658,20 @@
       
         
           
-            <p>交易世界里，有很多小聪明与大智慧的选择。</p>
-<p>比如，猜顶摸底，就是小聪明。蒙对了，能小赚一点。可一旦做错了，却会大亏。更关键的，方向做反，会错过一大波行情。</p>
-<p>这时的大智慧，是顺着趋势做。涨到高位，依然敢做多；跌到低位，依然敢做空。</p>
-<p>总在小聪明里打转，既浪费时间精力，反复小止损也可能累加为大止损。并且，因为多次止损，而丧失交易信心。总的来说，就是小聪明不可取，要追求大智慧。</p>
+            <p>事情是这样的，国外一个媒体联系到我，想要推广 Klib 的时候有点返佣。</p>
+<p>这个，虽然目前 Klib 支持序列号，但还不支持 Affiliate 和 Coupon。本来想算了，放弃这个机会。后来想想，要么试下吧。</p>
+<p>功能上，主要是这几部分：</p>
+<ul>
+<li>国际支付，包括接受信用卡、PayPal 等方式付款，最后提现到银行卡。</li>
+<li>用户付款后，自动发送包括序列号的邮件。</li>
+<li>Affiliate 联盟机制，以便统计推广者带来多少付费。</li>
+<li>Coupon 优惠码机制，让推广者多一点吸引用户付费的动力。</li>
+</ul>
+<p>比较了 Stripe、Paddle、Gumroad 等方式，包括功能支持、费率等因素，最后选择了 Paddle。其实是用了排除法：Stripe 不支持国内用户注册，Gumroad 有过随意封号的黑历史，直接不考虑了。</p>
+<p>花了几个小时集成 Paddle，其实还是挺简单的。唯一的麻烦，是在创建 Affiliate 时，一定要有个自己网站的落地页。其实，我不太理解为什么一定要这么做。在我看来，直接在付费链接上加小尾巴，应该也是能实现的。不管怎样，我实现的落地页，是这样的：<a href="http://klib.me/pro/" target="_blank" rel="external">http://klib.me/pro/</a></p>
+<p>序列号方面，只要上传一个文件，每行一个序列号即可。用户购买后，Paddle 会自动依次提取序列号并发送。需要提醒一点：Paddle 并不支持删除已经上传的序列号；所以，不要上传无效的序列号。如果已经上传了（比如像我），可以创建一个完全免费的 Coupon，然后用这个 Coupon 去消耗掉无效的序列号。</p>
+<p>目前，由于还没有真实的付费，尚不清楚考虑到税之后实际收到钱的比例，以及提现到 PayPal 会不会再次收费。</p>
+<p>总之，目前这个机制已经完全实现了。如果你有国外的软件推广渠道，欢迎联系我。具体的软件，推荐 <a href="https://toolinbox.net/Klib" target="_blank" rel="external">Klib</a>、<a href="https://toolinbox.net/iText" target="_blank" rel="external">iText</a>、<a href="https://toolinbox.net/iPic" target="_blank" rel="external">iPic</a>。</p>
 
           
         
@@ -703,7 +715,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-01-19.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-02-16.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -725,8 +737,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2021-01-19.html" itemprop="url">
-                  0119 - 无谓的细节
+                <a class="post-title-link" href="/daily/2021-02-16.html" itemprop="url">
+                  0216 - 币价与房价
                 </a>
               
             
@@ -742,8 +754,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-01-19T22:00:00+08:00">
-                2021-01-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-02-16T22:00:00+08:00">
+                2021-02-16
               </time>
             
 
@@ -801,9 +813,13 @@
       
         
           
-            <p>最近国家要求返乡人员需持有 7 日内核酸证明。</p>
-<p>这样的政策，当然有很多漏洞、诸多问题。但意思很明确，傻子都能看明白：过年就在原地呆着，别乱跑。在中心思想这么明确的前提下，还去纠结细节，要么是实在想回家而遇到困难，要么就是糊涂、小聪明、有事没事就想辩几句。也许就算辩赢了，他还是不回家，何必呢。</p>
-<p>一眼望穿、直击重点，这是种能力；不要陷在不必要的细节之争中。</p>
+            <p>BTC，突破 5 万美元。</p>
+<p>突然觉得币价和房价很像。</p>
+<ul>
+<li>想上车的人，觉得太贵；</li>
+<li>车上的人，想要继续涨。</li>
+</ul>
+<p>至于涨的有没有道理、是否合理，还重要吗？</p>
 
           
         
@@ -847,7 +863,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-01-18.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2021-02-15.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -869,8 +885,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2021-01-18.html" itemprop="url">
-                  0118 - 每天都有人发财
+                <a class="post-title-link" href="/daily/2021-02-15.html" itemprop="url">
+                  0215 - 交易不是技术
                 </a>
               
             
@@ -886,8 +902,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-01-18T22:00:00+08:00">
-                2021-01-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2021-02-15T22:00:00+08:00">
+                2021-02-15
               </time>
             
 
@@ -945,11 +961,12 @@
       
         
           
-            <p>有人彩票中奖，有人交易大赚，有人做生意接到大单…有无数多，每天都有人发财。</p>
-<p>这些事情，听听就好，跟你有什么关系呢？最多是碗鸡血。</p>
-<p>关键的，可别把自己带入了，把自己想成了主人公。抛下自己手上的西瓜，去抓别人手里的玉米，就想赚个快钱。</p>
-<p>哪有那么容易。也许，你进场，就是去接盘，就是当韭菜的。</p>
-<p>最多修正下自己的方向，还是要低头走自己的路。</p>
+            <p>交易是不是艺术，我不好说；但交易一定不是技术活。</p>
+<p>所谓技术，通常是线性的。所谓线性，就是投入产品成简单的正比。比如愚公移山，虽然很难，但只要世世代代坚持下去，总有移走的一天。</p>
+<p>而艺术则不是这样的。比如画画，画几笔容易，但要画到能卖出价钱的画作，难。并且，并不是你坚持画，就一定能突破那个瓶颈。</p>
+<p>交易更像是艺术。学习，一定能提高交易的水平；但，绝不能保证盈利。努力学习，最多到及格的水平。要成为优秀交易员，是需要天赋的。</p>
+<p>接受自己不适合交易，不容易。退出交易，更难。</p>
+<p>从老师的角度，当然希望自己的每一位学生都成才。可事实上，再好的老师，班里也有第一名和最后一名；考试成功，也不是每位学生的最佳出路。</p>
 
           
         
@@ -988,7 +1005,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/69/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/69/">69</a><span class="page-number current">70</span><a class="page-number" href="/page/71/">71</a><span class="space">&hellip;</span><a class="page-number" href="/page/462/">462</a><a class="extend next" rel="next" href="/page/71/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/69/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/69/">69</a><span class="page-number current">70</span><a class="page-number" href="/page/71/">71</a><span class="space">&hellip;</span><a class="page-number" href="/page/467/">467</a><a class="extend next" rel="next" href="/page/71/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1033,7 +1050,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2306</span>
+                <span class="site-state-item-count">2334</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1156,7 +1173,7 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Jason</span>
-  <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
+  <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
 </div>
 
 

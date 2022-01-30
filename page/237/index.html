@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-09-27.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-10-25.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2018-09-27.html" itemprop="url">
-                  0927 - 做了个查询公交实时到站信息的小工具
+                <a class="post-title-link" href="/daily/2018-10-25.html" itemprop="url">
+                  1025 - 未到极致
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-27T22:00:00+08:00">
-                2018-09-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-25T22:00:00+08:00">
+                2018-10-25
               </time>
             
 
@@ -366,303 +366,16 @@
       
         
           
-            <p>今天又用 JSBox 创建了个小工具：查询公交到站情况。比如，出门前，看一眼就知道所有能到家的公交车，离这个站还有多远。如果比较远，就再呆一会再出门。</p>
-<p>做这个工具，其实最麻烦的在于数据源。也即，到哪去找实时公交查询。关于这一点，各个城市并不相同。不过，基本上都没有公开数据。我这次有点不好意思地抓了另一个程序的数据。</p>
-<p>果然，数据才是最重要的；其次，就是 <strong>使用数据的能力</strong>。其中之一，就是 <strong>编程的能力</strong>。像我今天做的这个工具，你在市面上是不可能找到的。如果是要定制，找到有能力、又愿意开发、自己又付得起定制费的程序员，并不容易（这里另一个话题，就是我一直想做的一个：<strong>软件定制平台</strong>）。在这样的情况下，如果自己有一定的编程能力，可以极大地提高自己的效率，以及生活品质、幸福感。</p>
-<p>所以，<strong>你想学习下编程吗？</strong></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-09-26.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2018-09-26.html" itemprop="url">
-                  0926 - 新技能：Chrome 插件
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-26T22:00:00+08:00">
-                2018-09-26
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天又花了 1 个多小时，终于搞定了 Chrome Extension 环境中的 AES 加密解密。恩，还是一篇博文上说的，AES 加密后的格式是一致的，不同平台的解密失败，主要还是参数设置不同，尤其是每个平台的默认参数不同引起的。</p>
-<p>这个问题搞定后，后续的工作就容易多了，只是时间的堆积。终于，今天在服务器上部署成功了一个 Chrome 插件，可以默默地在后台干活。主要这个活必须依赖于完整的浏览器运行环境，故而不能直接使用 python/node 等环境。如果使用 headless browser，也会有各种奇怪的问题。</p>
-<p>还是要多学习新东西。<strong>开始时很难，因为学习没有支点</strong>。而一旦开头就好办了，因为可以不断在已有的支点上累加东西，新学的东西又可以成为新的支点，这样慢慢就可以点线面地积累了。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-09-25.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2018-09-25.html" itemprop="url">
-                  0925 - 开搞 Chrome 插件
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-25T22:00:00+08:00">
-                2018-09-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天有时间，开始学习 Chrome 插件。</p>
-<p>学习新东西，挑战还是很多的，比如：</p>
+            <p>由于家里的事，现在的时间很零碎，也很少能学习或做的事情不多，感觉很难受。</p>
+<p>不过，不也正是时间零碎也少，才更应该专注、高效？</p>
+<p>专注，核心就是放弃。放弃不应该做的、可做可不做的；只剩下必须要做的、不做会死人的事。</p>
+<p>高效，就是利用一切可利用的时间、精力。比如，在抱娃睡觉时，就想问题的解决方案。把娃放下后，奔向电脑实现之。</p>
+<p>今天对于昨天的改变：</p>
 <ul>
-<li>Chrome 插件的文件结构、运行原理；</li>
-<li>Chrome 插件中的 js 库管理；</li>
+<li>61 新做的「<a href="https://sharecuts.cn/" target="_blank" rel="external">捷径社区</a>」基于 Vue/Nuxt/Egg.js 实现，而这个技术栈正好是我想学的。恩，有了样板，学起来更有方向了。</li>
+<li>继续看吴军的《见识》、薛兆丰的《经济学讲义》</li>
+<li>开始计划升级 iText 等 App</li>
 </ul>
-<p>只要了解了 Chrome 插件通用性的东西，进一步的开发，和 node 应该没有实质区别。</p>
-<p>不过，今天比较郁闷地卡在了加密库。之前 node 是使用 crypto 库，这是 node 专用的；挪到 Chrome 插件环境，只能找替代的。找了通用的 CryptoJS，却发现加密结果无法与 crypto 互通。主要是之前发布出现的版本无法修改，所以不能全新来搞，必须要能适配之前加密的结果。花费了 N 个小时，还是没搞定，郁闷… </p>
 
           
         
@@ -706,7 +419,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-09-24.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-10-24.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -728,8 +441,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2018-09-24.html" itemprop="url">
-                  0924 - 亲近大自然？
+                <a class="post-title-link" href="/daily/2018-10-24.html" itemprop="url">
+                  1024 - 被结果绑架
                 </a>
               
             
@@ -745,8 +458,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-24T22:00:00+08:00">
-                2018-09-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-24T22:00:00+08:00">
+                2018-10-24
               </time>
             
 
@@ -804,10 +517,21 @@
       
         
           
-            <p>我们常说，亲近大自然。</p>
-<p>但，如果把你一人扔到荒岛上，没吃没喝，什么都要自己去「亲近」大自然，你喜欢吗？或者说，你能活下来吗？</p>
-<p>厌倦了都市生活，想回归田园。可真的面对网络信号差、时而停水停电、苍蝇虫子满天、到处灰尘泥巴，你还喜欢吗？</p>
-<p>没有改造过的大自然，比你厌烦的城市，更可怕。</p>
+            <p>如果结果好，自己就开心；<br>如果结果不好，就开始感觉颓废。</p>
+<p>感觉自己现在已经被结果绑架了。</p>
+<p>尤其，这段时间一直在用存量 + 时间的打算，企图见效。不幸的是，貌似运气不佳，并没有堆出漂亮的结果。而自己本身又没太大的进步，就感觉很亏了。毕竟，要么赚钱要么爽，现在是两样都没有。</p>
+<p>是时候做出改变了。</p>
+<ul>
+<li>放一放手上正在做的事；或者说，不过度受其结果影响；</li>
+<li>开始积累，注重个人进步<ul>
+<li>简单的说，是两方面：思考、代码。</li>
+<li>思考，主要是多接触、理解不同的可能性，这样才有可能先出最适合自己的路。</li>
+<li>代码，更多是指要有足够的能力和执行力。不然，然后见了金山也搬不走</li>
+</ul>
+</li>
+</ul>
+<p><strong>不问前程、不论成败，只管今天的自己和昨天比，有什么改变、有哪些进步</strong>。</p>
+<p>机会，总是有的。随着自己的进步，自己想要的东西，也会随之而来。</p>
 
           
         
@@ -851,7 +575,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-09-23.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-10-23.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -873,8 +597,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2018-09-23.html" itemprop="url">
-                  0923 - 与世无争不存在
+                <a class="post-title-link" href="/daily/2018-10-23.html" itemprop="url">
+                  1023 - 恰当利用劣势
                 </a>
               
             
@@ -890,8 +614,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-09-23T22:00:00+08:00">
-                2018-09-23
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-23T22:00:00+08:00">
+                2018-10-23
               </time>
             
 
@@ -949,10 +673,294 @@
       
         
           
-            <p>争，是一定存在的。</p>
-<p>和谐相处，基本是屁话。一个东西的存在，势必要消耗资源。同类之间消耗相同的资源就不用说了，即使是不同类的物种，也会消耗类似的资源，比如空间。</p>
-<p>除了实质性的东西，人这种物种还在争心理这种不实质的东西。比如，可以不如别人，但不能不如自己看不上的人、或者是所有周边的人。</p>
-<p>博弈与平衡。争到自己的能力边界，也即停止争的时刻。</p>
+            <p>聋哑，对人来说是劣势吧？</p>
+<p>今天我去理发，理发师是聋哑人士。我感觉很好，因为他全程安静。你要知道，理发时被推销，是很讨厌的事。而且，因为安静，我会感觉他在很认真地理发，让我感觉很舒服。</p>
+<p>利用好劣势，就是优势。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-10-22.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2018-10-22.html" itemprop="url">
+                  1022 - 需要效果来验证
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-22T22:00:00+08:00">
+                2018-10-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>最近的思路和做法是对的，无奈总是没有好的结果，没有正向激励，难受。</p>
+<p>暂时不准备调整思路，也不去想大方向的事，忽略长期压力，就是埋头苦干。期待能有好的结果；或者撞上南墙。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-10-21.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2018-10-21.html" itemprop="url">
+                  1021 - 纠结面前，只有放弃
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-21T22:00:00+08:00">
+                2018-10-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>真正的纠结面前，我们能做的，其实并不是选择，而是放弃。</p>
 
           
         
@@ -991,7 +999,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/236/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/236/">236</a><span class="page-number current">237</span><a class="page-number" href="/page/238/">238</a><span class="space">&hellip;</span><a class="page-number" href="/page/462/">462</a><a class="extend next" rel="next" href="/page/238/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/236/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/236/">236</a><span class="page-number current">237</span><a class="page-number" href="/page/238/">238</a><span class="space">&hellip;</span><a class="page-number" href="/page/467/">467</a><a class="extend next" rel="next" href="/page/238/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1036,7 +1044,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2306</span>
+                <span class="site-state-item-count">2334</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1159,7 +1167,7 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Jason</span>
-  <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
+  <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
 </div>
 
 

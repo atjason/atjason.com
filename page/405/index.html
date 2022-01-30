@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-06-20.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-07-17.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-06-20.html" itemprop="url">
-                  0620 - 把难题放一放
+                <a class="post-title-link" href="/daily/2016-07-17.html" itemprop="url">
+                  0717 - 搞定 ShadowSocks & fail2ban
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-06-20T19:52:25+08:00">
-                2016-06-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-17T19:52:25+08:00">
+                2016-07-17
               </time>
             
 
@@ -366,10 +366,8 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/1nqgn.jpg" alt=""></p>
-<p>前几天解决一个难题，折腾了很久都没搞定。没办法，只能放一放。</p>
-<p>今天又来搞，比较顺利就解决了。</p>
-<p>之后，碰到难题，如果折腾了很久都没搞定、又不是立即要解决了，就先放一放。】等过些时间，换了脑子后，再来解决，说不定就有新的办法、就能顺利解决了。</p>
+            <p><img src="https://ps.toolinbox.net/jaaub.jpg" alt=""></p>
+<p>今天主要搞定：<a href="http://atjason.com/IT/ss_fail2ban.html">使用 fail2ban 保护 ShadowSocks</a></p>
 
           
         
@@ -413,7 +411,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-06-19.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/IT/ss_fail2ban.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -435,8 +433,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-06-19.html" itemprop="url">
-                  0619 - 别迷失在非必要条件中
+                <a class="post-title-link" href="/IT/ss_fail2ban.html" itemprop="url">
+                  使用 fail2ban 保护 ShadowSocks
                 </a>
               
             
@@ -452,8 +450,160 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-06-19T19:52:25+08:00">
-                2016-06-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-17T17:40:13+08:00">
+                2016-07-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>如果大家在自己的 VPS 上搭 ShadowSocks，总会有贱人来扫描、破解。使用 fail2ban，可以有效地屏蔽这些贱人的 IP，提高安全性。</p>
+<h1 id="前提"><a href="#前提" class="headerlink" title="前提"></a>前提</h1><ul>
+<li>本文不是 ShadowSocks 或 fail2ban 的科普贴，假定大家已经安装，并对二者有基本的了解</li>
+<li>本文使用 ShadowSocks 是多用户版、不是单用户版 </li>
+<li>本文服务器端为 Ubuntu 16.04 LTS</li>
+</ul>
+<h1 id="ShadowSocks-端设置"><a href="#ShadowSocks-端设置" class="headerlink" title="ShadowSocks 端设置"></a>ShadowSocks 端设置</h1><p>注：我这里 ShadowSocks 是安装在 <code>/usr/local/shadowsocks</code> 中，下面的文件是和此路径相关的，大家需要根据自己的情况调整路径。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/IT/ss_fail2ban.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-07-16.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2016-07-16.html" itemprop="url">
+                  0716 - 搞定 iptables
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-16T19:52:25+08:00">
+                2016-07-16
               </time>
             
 
@@ -511,11 +661,8 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/hxpr3.jpg" alt=""></p>
-<p>今天注册微信公众号，想用一个独立的邮件注册，就去注册 Gmail 账户。结果 Gmail 注册不顺利，花了 1 个多小时都没搞定，还让心情很差。最后还是随便用个邮箱注册了。</p>
-<p>其实，现在想想，一个恰当的邮件并不是注册微信公众号的必要条件，更重要的是微信号、是注册本身。不管什么邮箱，先注册了再说。</p>
-<p>事情上，这种事情经常发生。这种所谓的完美主义，却让我们远离目标，在不重要的分支上越走越远，消耗精力、心情。</p>
-<p>以后要特别警惕，不管是在分支上走得顺与不顺，都要经常提醒自己：我的目标是什么、现在做的事是实现目标最重要的条件吗？</p>
+            <p>今天最大的成绩就是，搞定了一直觉得很麻烦、很神秘的 itables: <a href="http://atjason.com/en/IT/iptables.html">http://atjason.com/en/IT/iptables.html</a></p>
+<p>另外，DigitalOcean 的文档确实不错，都比较浅显易懂，顿时对 DO 的印象好了很多，以后 VPS 考虑在 DO 上建。</p>
 
           
         
@@ -559,7 +706,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-06-18.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-07-15.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -581,8 +728,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-06-18.html" itemprop="url">
-                  0618 - 对不起眼睛
+                <a class="post-title-link" href="/daily/2016-07-15.html" itemprop="url">
+                  0715 - 被 Vultr 搞郁闷了
                 </a>
               
             
@@ -598,8 +745,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-06-18T19:52:25+08:00">
-                2016-06-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-15T19:52:25+08:00">
+                2016-07-15
               </time>
             
 
@@ -657,10 +804,10 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/9fis0.jpg" alt=""></p>
-<p>再搞不出点什么，都对不起自己的眼睛。</p>
-<p>最近又感觉视力下降。哎，这个职业啊，整天对头电脑，视力下降是必然的。</p>
-<p>拿这么宝贵的资本，如何都不换点什么，真是太不值了。</p>
+            <p><img src="https://ps.toolinbox.net/xzn5v.jpg" alt="2016-07-15_21:09:04.jpg"></p>
+<p>本来这几天搞服务器效率就不是很高，结果下午突然发现服务器连不上了。进去一看：被 Vultr 给挂了！</p>
+<p>之前，Vultr 确实给我发邮件了。不过，由于一直在忙着配置服务器，给忽略了。关键是，关服务器的理由让我难以接受：对方需要我添加新的支付方式，还要提供银行卡的拍照信息、证件照等信息。可我明明已经使用 Paypal 支付了，为什么还要验证这些信息？谁难保证我的这些敏感信息不被泄漏。</p>
+<p>被 Vultr 恶心到了，等里面的钱用完了，迁移至 DigitialOcean 或其他云服务。</p>
 
           
         
@@ -704,7 +851,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-06-17.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-07-14.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -726,8 +873,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-06-17.html" itemprop="url">
-                  0617 - 远方的宁静
+                <a class="post-title-link" href="/daily/2016-07-14.html" itemprop="url">
+                  0714 - EAWiFi 手册
                 </a>
               
             
@@ -743,8 +890,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-06-17T19:52:25+08:00">
-                2016-06-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-14T19:52:25+08:00">
+                2016-07-14
               </time>
             
 
@@ -802,156 +949,16 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/q3xu4.jpg" alt=""></p>
-<p>追梦路上，<br>是否因别的诱惑而心猿意马？<br>是否被困难阻挠而心生退意？</p>
-<p>心有远方的宁静，就不会在意路途的喧嚣</p>
-<p>即使目标变得模糊，至少还有光荣与梦想</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-06-16.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2016-06-16.html" itemprop="url">
-                  0616 - 不能做到哪算哪
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-06-16T19:52:25+08:00">
-                2016-06-16
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="https://ps.toolinbox.net/63m9j.jpg" alt=""></p>
-<p>做事，还是需要目标感、方向感。</p>
-<p>做到哪算哪，在不出问题时还好，一出问题就比较麻烦。比如，目标一拖在拖、持续工作导致低效率、等等。</p>
-<p>更严重的，一直在忙碌的状态，还会掩盖上面的问题。</p>
-<p>做事时可以有一定自由发挥空间，但不能离目标太远、太偏离方向。</p>
+            <p><img src="https://ps.toolinbox.net/sjcj9.jpg" alt=""></p>
+<p>今天效率不高，主要就是完成了 <a href="https://eawifi.net/" target="_blank" rel="external">EAWiFi 手册</a></p>
+<ul>
+<li>使用了 https，避免内容被审查</li>
+<li>图床使用七牛，支持 https</li>
+<li>使用 Hexo + Next，和已有博客系统一致</li>
+<li>通过 Coding.net 中转</li>
+<li>一键部署：同步内容至 Coding.net、从 Coding.net 下载至网站</li>
+<li>增加联系我们</li>
+</ul>
 
           
         
@@ -990,7 +997,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/404/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/404/">404</a><span class="page-number current">405</span><a class="page-number" href="/page/406/">406</a><span class="space">&hellip;</span><a class="page-number" href="/page/462/">462</a><a class="extend next" rel="next" href="/page/406/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/404/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/404/">404</a><span class="page-number current">405</span><a class="page-number" href="/page/406/">406</a><span class="space">&hellip;</span><a class="page-number" href="/page/467/">467</a><a class="extend next" rel="next" href="/page/406/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1035,7 +1042,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2306</span>
+                <span class="site-state-item-count">2334</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1158,7 +1165,7 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Jason</span>
-  <a href="http://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
+  <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备16002197号</a> 
 </div>
 
 
