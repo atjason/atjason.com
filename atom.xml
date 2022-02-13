@@ -44,7 +44,7 @@
     <link href="https://atjason.com/daily/2022-02-12.html"/>
     <id>https://atjason.com/daily/2022-02-12.html</id>
     <published>2022-02-12T14:00:00.000Z</published>
-    <updated>2022-02-13T13:26:03.141Z</updated>
+    <updated>2022-02-13T13:29:01.034Z</updated>
     
     <content type="html"><![CDATA[<p>最近，被囚禁的生八孩女子，其背后很可能在全村级别的沉默、不作为、甚至帮助。这些人有错啊？作者的观点很适合：<strong>平庸的恶</strong>。</p>
 <p>遵守上级命令，把犹太人运到集中营的纳粹运输总指挥，是否有罪？</p>
@@ -54,6 +54,7 @@
 <li>他所有的恶行均根源于没有思想、盲目服从，他是一个被极权主义体制剥夺了个性和思考能力的人；</li>
 </ul>
 <p>他所犯下的罪应当受到追究，不能以“守法行为”或“国家行为”的借口得到赦免；但是，以色列主导的这场审判并不公正，它偏离了主题，把对艾希曼的个人审判变成了全体犹太受害者对反犹太主义历史的批判运动。</p>
+<p><img src="https://ps.toolinbox.net/g5dr1.jpeg" alt=""></p>
 ]]></content>
     
     <summary type="html">
@@ -74,14 +75,16 @@
     <link href="https://atjason.com/daily/2022-02-11.html"/>
     <id>https://atjason.com/daily/2022-02-11.html</id>
     <published>2022-02-11T14:00:00.000Z</published>
-    <updated>2022-02-13T13:22:42.411Z</updated>
+    <updated>2022-02-13T13:28:54.737Z</updated>
     
     <content type="html"><![CDATA[<p>佛学的意义，是把我们从自然选择给的局限视角中解放出来，从一个更高的水平观察和体验这个世界。</p>
+<p><img src="https://ps.toolinbox.net/i4kp8.jpeg" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
       &lt;p&gt;佛学的意义，是把我们从自然选择给的局限视角中解放出来，从一个更高的水平观察和体验这个世界。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/i4kp8.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
     
     </summary>
@@ -148,7 +151,7 @@
     <link href="https://atjason.com/daily/2022-02-08.html"/>
     <id>https://atjason.com/daily/2022-02-08.html</id>
     <published>2022-02-08T14:00:00.000Z</published>
-    <updated>2022-02-13T13:19:30.868Z</updated>
+    <updated>2022-02-13T13:30:55.116Z</updated>
     
     <content type="html"><![CDATA[<p>年前暂停期货交易到现在，有半个月了。现在重新开始，有点生疏。怎么办呢？只有先一头扎进去，慢慢找回感觉。</p>
 <p>有几个可做的事：</p>
@@ -183,7 +186,7 @@
     <link href="https://atjason.com/daily/2022-02-07.html"/>
     <id>https://atjason.com/daily/2022-02-07.html</id>
     <published>2022-02-07T14:00:00.000Z</published>
-    <updated>2022-02-11T12:41:16.026Z</updated>
+    <updated>2022-02-13T13:33:31.369Z</updated>
     
     <content type="html"><![CDATA[<p>最近设计了一套指数基金定投方法，供大家参考。</p>
 <p><strong>建立基金池</strong></p>
@@ -215,7 +218,7 @@
 <p>简单的说，越便宜买的越多、越贵卖得越多。</p>
 <p>根据历史百分位的具体数值，和 30%、70% 的差额进行放大。比如，当前历史百分位是 20%，则放大为 <code>1 + (30% - 20%) ^ n</code>。如果 n 取 1，则是 110%。</p>
 <p><strong>交易细节</strong></p>
-<p>不要当天决定，而是提前一定决定买卖哪些基金、具体多少。然后，第二天收盘前，无论涨跌，直接下单。</p>
+<p>不要当天决定，而是提前一天决定买卖哪些基金、具体多少。然后，第二天收盘前，无论涨跌，直接下单。</p>
 <p>资金滚动。每次卖出的钱，也加入当期定投。</p>
 ]]></content>
     
