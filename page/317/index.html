@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-19.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-26.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-12-19.html" itemprop="url">
-                  1219 - 被病毒打败
+                <a class="post-title-link" href="/daily/2017-12-26.html" itemprop="url">
+                  1226 - 搞定 iText 连续识别
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-19T22:00:00+08:00">
-                2017-12-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-26T22:00:00+08:00">
+                2017-12-26
               </time>
             
 
@@ -366,9 +366,10 @@
       
         
           
-            <p>今天生病了。</p>
-<p>昨晚起来吐了 2 次，喝水都吐。今天一天不敢、也不想吃什么东西，没什么力气，怕冷…哎，生病真难受。</p>
-<p>晚上买了榨菜，配着粥、面条吃，感觉好些了，看来「吃盐有力气」不只是传说啊。趁着精力好些，抓紧提交了 iText 新版，希望明天能过审核，也不枉我这边执着。</p>
+            <p>先上图：</p>
+<p><img src="https://ps-hz.toolinbox.net/006tNc79gy1fmul1pbvqrg30h40c4kiy.gif" alt=""></p>
+<p>主要要解决的是此类问题：比如，有时会需要识别 PDF 这种排版复杂的「图片」，如果直接把整张图拿去识别，结果肯定会有很多杂音；手动去除这些杂音，也是挺花时间的。</p>
+<p>现阶段，更好的办法是「人机配合」；即，自己挑着选中有意义的区域进行文字识别，然后把分别得到的结果拼接出来。而为了实现这一目的，iText 的连续识别、自动拼接识别结果，就会显得很方便。</p>
 
           
         
@@ -412,7 +413,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-18.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-25.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -434,8 +435,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-12-18.html" itemprop="url">
-                  1218 - 重新开始干活
+                <a class="post-title-link" href="/daily/2017-12-25.html" itemprop="url">
+                  1225 - 被 NSTextView 坑了
                 </a>
               
             
@@ -451,8 +452,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-18T22:00:00+08:00">
-                2017-12-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-25T22:00:00+08:00">
+                2017-12-25
               </time>
             
 
@@ -510,10 +511,9 @@
       
         
           
-            <p>好像有超过 10 天没写代码了。</p>
-<p>今天重新开始干活，在出 iText 新版。毕竟手生，只做了些简单的事。另外，考虑到圣诞节审核暂停，也不敢在这个版本中做大的修改，稳定点上个版本好了。</p>
-<p>争取这周上架，然后多花点时间改进下 Klib，好像因为 iText 的半路杀出，这个产品已经挺久没更新了，可能代码都已经完全生疏了。</p>
-<p>哎，又想起这个话题：什么时候可以搞个大点的产品，可以一直做这个产品，这样就不会有手生的问题，这可以避免切换成本。</p>
+            <p>今天在做 iText 的连续识别，遇到一个问题：追加内容到 NSTextView，并不能完全显示出来。</p>
+<p>开始时，以为是追加的方式不对。后来再次确认：哪怕是直接设置字符串，如果太多，也无法显示。</p>
+<p>以目前的理解，应该是 TextView 的 Bug；明天顺势好好学习下这个控件，消除一想到它就怕的心理恐惧。</p>
 
           
         
@@ -557,7 +557,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-17.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-24.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -579,8 +579,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-12-17.html" itemprop="url">
-                  1217 - 一天都交待给娃了
+                <a class="post-title-link" href="/daily/2017-12-24.html" itemprop="url">
+                  1224 - 搞定 iText 识别文字后翻译
                 </a>
               
             
@@ -596,8 +596,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-17T22:00:00+08:00">
-                2017-12-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-24T22:00:00+08:00">
+                2017-12-24
               </time>
             
 
@@ -655,14 +655,15 @@
       
         
           
-            <p>本打算今天大干一场的，没想到娃又吐又拉。下午去了医院，排号等了将近 200 个号，吓死个人；从下午一直等到傍晚。抽血、大便结果，果然是轮状病毒感染。开药回家。</p>
-<p>真感觉去医院挺麻烦的，而且医院的作用，没想象的中的大。主要是：</p>
+            <p>本来，打算在发布 iText 再介绍。不过，有点忍不住，先放出个介绍图吧：</p>
+<p><img src="https://ps-hz.toolinbox.net/006tKfTcgy1fms96b72fog30iw0ayh4w.gif" alt=""></p>
+<p>简单说几点：</p>
 <ul>
-<li>心理安慰</li>
-<li>知道是什么病、不是什么病</li>
-<li>开药</li>
+<li>识别后自动翻译</li>
+<li>技术上，使用 Google + 百度 双引擎，无法访问 Google 时，使用百度</li>
+<li>Google 支持 100+ 种语言，百度支持 25+ 种语言</li>
 </ul>
-<p>尤其感觉，很多病都是吃药 3 天好、不吃药半周好，最终还是靠自己的抵抗力搞定问题。另外，去医院也很担心交叉感染。本来是个小毛病，传染个大毛病，就亏大了。</p>
+<p>感兴趣的，得先等等了，我尽快放出体验版。</p>
 
           
         
@@ -706,7 +707,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-16.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-23.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -728,8 +729,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-12-16.html" itemprop="url">
-                  深圳行：1216-Day 10 - 回杭
+                <a class="post-title-link" href="/daily/2017-12-23.html" itemprop="url">
+                  1223 - 换个地方，效率好高
                 </a>
               
             
@@ -745,8 +746,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-16T22:00:00+08:00">
-                2017-12-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-23T22:00:00+08:00">
+                2017-12-23
               </time>
             
 
@@ -804,10 +805,9 @@
       
         
           
-            <p>快乐的日子总是短暂的，今天回杭州了。</p>
-<p>又是折腾的一天：打车、飞机、打车，早上 7 点起床开始折腾，下午 4 点到家。</p>
-<p>杭州真是冷啊，跟深圳差了 10 几度，一下子还真不适应。慌忙穿上厚衣服、开空调，稍微找到一点深圳的感觉。</p>
-<p>不管怎么说，旅行已经结束，要开始常规生活了。已经过了一遍 iText 剩下的事情，争取圣诞节前再上一个版本。</p>
+            <p>之前一直都是在家写代码，今天去朋友公司呆了一天，效率变得好高。</p>
+<p>关键还是他的公司就他一个人…安静，还挺暖和，很适合写代码这种事。</p>
+<p>趁着这股劲，基本完成了 iText 识别文字后的翻译，只剩下一些边角的活，明天肯定能搞定。然后接着搞连续识别的事。</p>
 
           
         
@@ -851,7 +851,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-15.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-12-22.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -873,8 +873,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-12-15.html" itemprop="url">
-                  深圳行：1215-Day 9 - 闪离香港
+                <a class="post-title-link" href="/daily/2017-12-22.html" itemprop="url">
+                  1222 - iText 开始集成翻译
                 </a>
               
             
@@ -890,8 +890,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-15T22:00:00+08:00">
-                2017-12-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-12-22T22:00:00+08:00">
+                2017-12-22
               </time>
             
 
@@ -949,9 +949,10 @@
       
         
           
-            <p>今天本打算游游香港的，什么太平山啥的。可惜，娃半夜咳的厉害了。之前也咳，但总希望自己好，没想到拖得历害了。</p>
-<p>于是，早上 7 点起床、退房、赶地铁、转地铁、入关、再转地铁、狂奔，一路到了儿童医院，约 10 点。结果一挂号：397，吓死个人，前面还有 100 个号，这还是急诊。唯一的好消息是，中午不休息。就这样，下午快 2 点才开始看。还好问题不大，开点药吃着。</p>
-<p>关键，今天没带推车，都是用背带，这一路折腾着，不是亲爹，我真不带啊。完了，赶快回去休息了。到住处，本打算看电影的，结果看着看着直接睡着了…</p>
+            <p>昨天问了群友关于翻译的需求，然后我基本定了：识别文字后翻译，对于 iText 而言，只是文本后处理的一种。其地位，和英文首字母大写等操作，一样。</p>
+<p>有了这个定位，相关的交互等后续的工作就好做了。</p>
+<p>先是调查了几个候选的翻译服务：Google、Bing、百度、有道。肉眼来看，看不出区别。其实，我主打使用的是 Google，仅当无法访问时，才使用国内的服务。所以，国内的服务选哪个，也就没那么重要。拍拍脑门，选了百度。</p>
+<p>争取明天搞完这事。</p>
 
           
         
@@ -990,7 +991,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/316/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/316/">316</a><span class="page-number current">317</span><a class="page-number" href="/page/318/">318</a><span class="space">&hellip;</span><a class="page-number" href="/page/485/">485</a><a class="extend next" rel="next" href="/page/318/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/316/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/316/">316</a><span class="page-number current">317</span><a class="page-number" href="/page/318/">318</a><span class="space">&hellip;</span><a class="page-number" href="/page/487/">487</a><a class="extend next" rel="next" href="/page/318/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1035,7 +1036,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2425</span>
+                <span class="site-state-item-count">2432</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
