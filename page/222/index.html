@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-06-28.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-07-05.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-06-28.html" itemprop="url">
-                  0628 - 交易无情
+                <a class="post-title-link" href="/daily/2019-07-05.html" itemprop="url">
+                  0705 - 《Flash Boys》与 Front-Running
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-28T22:00:00+08:00">
-                2019-06-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-05T22:00:00+08:00">
+                2019-07-05
               </time>
             
 
@@ -366,10 +366,16 @@
       
         
           
-            <p>辛苦设计并实现一个策略，自以为考虑周全，结果接连损失，达到最大损失后，机器人停了。</p>
-<p>这不重要，重要的是对心情的影响很大。人就开始消极，心智开始封闭。不愿复盘，不愿思考如何改进。</p>
-<p><strong>交易无情；交易中的人，也不能有情。赢不喜，亏不悲。</strong></p>
-<p>如果做不到，也很自然。目前能想到的办法是：<strong>换脑</strong>。做完全不相关的事，比如看看电影，了解一些全新的事。用新的东西，强行挤占大脑，避免陷入到消极状态中，无法自拔。</p>
+            <p><img src="https://img3.doubanio.com/view/subject/l/public/s29543154.jpg" alt=""></p>
+<p>《<a href="https://book.douban.com/subject/25850045/" target="_blank" rel="external">Flash Boys</a>》</p>
+<p>看完这本书，最大的收获是理解了 <strong>Front-Running（提前交易）</strong></p>
+<p><strong>简单的说</strong>，比如，听说你要买很多土豆，我先去市场上把便宜卖的土豆都买下来，然后高价卖给你。</p>
+<p><strong>我怎么知道你要买土豆呢？</strong>是这样的，中国股市只有上证和深圳两家证券交易所，而每一家公司只能在一家交易所上市。也就是说，<strong>国内你要买一家公司股票，只能在一个地方买</strong>（当然，你直接面对的可能是不同的券商，但他们又都是连接到同一家交易所）。<strong>而美国则不同，比如你要买苹果公司的股票，可以在大大小小有几十家交易所购买。</strong>你在任意一家交易所下单，该交易所需要「同步」给其他所有交易所，然后以最优价格成交。<strong>问题就出在「同步」不是真的同步，而是需要时间的</strong>，比如 100ms。当你在第一家交易所成交后，高频交易者 <strong>推测</strong> 出你要买 <strong>大量</strong> 苹果股票，他们可以在 50ms 内将其他交易所的便宜股票买下来，然后在 100ms 订单到达这些交易所时，以较高的价格卖给你。当然，他们可能判断错误，你买完这一点就不再买了。只是，成功的概率更高。</p>
+<p><strong>核心在于速度</strong>：先买再卖，这两个动作发生在毫秒之间。也即，当 Front-Run 遇到了 HFT（High-Frequency Trading，高频交易），爆发出强大的威力。</p>
+<p>说得再形象些，春运买票，前一秒还是尚未开售，下一秒就已售罄，谁干的？<strong>黄牛党</strong>。他们像高频交易一样，拥有速度优势，抢占了资源，然后高价转让。道理都是一样的。</p>
+<p><strong>怎么解决这个问题呢？</strong>书中大力褒奖的是 IEX 这个新兴的交易所，他们采用这样的策略：在订单同步至其他交易所时，<strong>额外加入不同的延迟</strong>，使得订单真正的同步到达所有交易所，关掉了高频交易者的时间窗口，也就解决了这个问题。整本书故事性很强，读起来像是一帮侠义之士联合在一起，干翻了一股邪恶势力，为民除害。真相是不是这样呢？我是觉得商业的事，不会这么纯粹。</p>
+<p><strong>怎么加入延迟呢？</strong>书中有个很有意思的细节：<strong>光纤线圈</strong>。离得近的交易所，在接入光纤时，额外加一段很长很长的光纤，把这些光线绕成线圈。光多跑了这么段距离，也就增加了延迟，这样就可以和离得远的交易所用时差不多。不用写一行代码，很巧妙。</p>
+<p>PS：读的英文版，断断续续啃了 10 几个小时，感觉只读懂了一半…</p>
 
           
         
@@ -413,7 +419,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-06-27.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-07-04.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -435,8 +441,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-06-27.html" itemprop="url">
-                  0627 - 考虑风险
+                <a class="post-title-link" href="/daily/2019-07-04.html" itemprop="url">
+                  0704 - 概率思维
                 </a>
               
             
@@ -452,8 +458,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-27T22:00:00+08:00">
-                2019-06-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-04T22:00:00+08:00">
+                2019-07-04
               </time>
             
 
@@ -511,9 +517,13 @@
       
         
           
-            <p>今天手机摔地上，边框掉漆；所幸屏幕没有碎。</p>
-<p>想了想，如果屏幕碎了，我愿意承担这个损失吗？为了裸机手机，我能承担碎屏的风险吗？想了想，好像不能；于是，乖乖给手机戴套。</p>
-<p>平时习惯于面向利益行事。不过，面向风险行事，也很有必要，尤其是在交易过程中。100% 的收益固然很爽，但谁又能承担 100% 的损失即破产呢？如果潜在的收益带来的风险太大，不是好策略。</p>
+            <p>通常，我们认为，一件事如果发生了，它的概率是 100%，毕竟已经发生了。<br>通常，我们认为，过去的事已经确定，概率研究的是未来尚未发生的事。</p>
+<p>其实，不然。</p>
+<p><strong>概率思维，除了考虑已经发生的，还考虑未发生的。</strong></p>
+<p>比如，你买彩票中了大奖。那你买彩票中大奖的概率是多少？是 100% 吗？相信你也认为不是。真正的概率，是假设你重复买很多很多次之后的概率，是已经中奖这个事实，和无数其他「未发生」的结果比较的结果。</p>
+<p>那么，<strong>如果小概率事件还是真实发生了</strong>，意味着什么？<strong>幸存者偏差</strong> 喽。</p>
+<p>又那么，<strong>知道这些有什么用呢？</strong></p>
+<p>一个作用是：<strong>即使你成功了，最好保持谦虚、敬畏，因为很可能只是你运气好</strong>；并不意味着你的做法正确，并不意味可持久，并不意味着可以对别人颐指气使，等等。</p>
 
           
         
@@ -557,7 +567,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-06-26.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-07-03.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -579,8 +589,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-06-26.html" itemprop="url">
-                  0626 - 高考志愿选专业
+                <a class="post-title-link" href="/daily/2019-07-03.html" itemprop="url">
+                  0703 - 《澄明之境》
                 </a>
               
             
@@ -596,8 +606,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-26T22:00:00+08:00">
-                2019-06-26
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-03T22:00:00+08:00">
+                2019-07-03
               </time>
             
 
@@ -655,9 +665,11 @@
       
         
           
-            <p>说一个高考志愿的一个观点：如果你觉得自己很牛，可以选基础学科，将来想做什么做什么。不然，就选应用学科；把大学当成职业教育，毕业就可以工作。</p>
-<p>虽然是个高校，明面上都想办成研究型、综合型大学。但实际上，从我 YY 的国家的角度，是希望高校承担更多职业教育的责任。毕竟，这个社会不需要多少研究型合人才，技工却是缺得很。</p>
-<p>从个体的角度，如果你很牛，专业限制不了；不然，专业也帮不了。</p>
+            <p><img src="https://img1.doubanio.com/view/subject/l/public/s29363197.jpg" alt=""></p>
+<p>《<a href="https://book.douban.com/subject/26981817/" target="_blank" rel="external">澄明之境</a>》</p>
+<p>《十年一梦》作者青泽的又一本书。如果说交易有术与道之分，这本书则是在讲道、甚至是比道更高的信仰。换句话说，并没有介绍交易的具体策略，而是从哲学的角度去看待人、市场、人与市场的关系。</p>
+<p><strong>如果没有交易理念，交易和赌博无异</strong>。有了交易理念，就像有了信仰，就可以把原本在交易过程中所面临的苦闷、无奈、后悔等情绪，寄托给信仰，人就变得平静、轻松了。当然，信仰并不总是对的、也会亏。但，信仰至少意味着一致性；<strong>能做到一致性，就已经打败绝大多数玩家了</strong>。尤其，在把负面情绪寄托给信仰而得到轻松后，至少不会做些违背规则的疯狂之举。有说，<strong>交易市场，就是把钱从焦躁者的口袋中拿出来，放到平静者的口袋中。</strong></p>
+<p>如果还没有交易理念，可以先大概翻一下本书，有个大致的印象。等有了一定的交易经验、挫折之后，再来看这本书，会有不一样的收获。</p>
 
           
         
@@ -701,7 +713,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-06-25.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-07-02.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -723,8 +735,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-06-25.html" itemprop="url">
-                  0625 - 什么阶段做什么事
+                <a class="post-title-link" href="/daily/2019-07-02.html" itemprop="url">
+                  0702 - 人为市场立法
                 </a>
               
             
@@ -740,8 +752,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-25T22:00:00+08:00">
-                2019-06-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-02T22:00:00+08:00">
+                2019-07-02
               </time>
             
 
@@ -799,9 +811,9 @@
       
         
           
-            <p>刚毕业的小年轻，时间多、身体好，加个班、熬个夜，完全不在话下。脑子还好使，新东西学的快。在这些方面和他们比拼，我怕是要被碾压。</p>
-<p>比如，现在再去做小工具，就很是尴尬。我辛苦憋出个新东西，人家几天就「致敬」出来了。我卖高价，人家便宜；我卖便宜，人家免费、甚至开源。再加上普通用户基本笑贫不笑娼，谁便宜用谁，什么模仿致敬啥的，完全不关心。这样的环境，哎，算了吧。</p>
-<p>目前来看，对交易还比较感兴趣。至少这东西不是青春饭，可以做很久。且做得越久，经验和积累越多，不太会在很短时间内被取代。虽说之前做 App 积累的一些东西怕是用不上，有些可惜。不过毕竟没有完全离开代码，还是挺好的。</p>
+            <p>这两天在看《澄明之境》这本书，其中有个观点：<strong>人为市场立法</strong>。</p>
+<p>思想起源于康德的哲学思想，即 <strong>世界的本质是不可知的</strong>；甚至可以说，世界并没有本质，也就不存在可知与否。那，人们认识的世界又算怎么回事？康德的回答是：<strong>人为自然立法</strong>。说人话就是，<strong>人们觉得世界是什么样，世界就是什么样</strong>。换句话说，人们认识的世界的样子，就是人们认为的世界的样子。好像也不是人话…</p>
+<p>对应到交易市场，市场是不可知的、无规律的，那又要交易，怎么办呢？<strong>人为市场立法</strong>。即，交易员在交易前，自己预先生成一套自洽的理论、模型，然后往市场上去套。套对了、或者说遇到和模型相匹配的价格运行，赚钱；反之，赔钱。交易员的修练，就是完善自己设计的理论，识别与之相匹配的价格运行阶段、即机会，放弃不匹配、无法掌握的机会（无法掌握，自然也不能称之为机会）。</p>
 
           
         
@@ -845,7 +857,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-06-24.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-07-01.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -867,8 +879,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-06-24.html" itemprop="url">
-                  0624 - 日记不能拖
+                <a class="post-title-link" href="/daily/2019-07-01.html" itemprop="url">
+                  0701 - 用以致学
                 </a>
               
             
@@ -884,8 +896,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-06-24T22:00:00+08:00">
-                2019-06-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-01T22:00:00+08:00">
+                2019-07-01
               </time>
             
 
@@ -943,9 +955,9 @@
       
         
           
-            <p>写日记这事，还真是不能拖。有时侯，一天过完，好像确实找不到值得说的。同时，犯懒，想着今天就不写了，明天有新鲜事了再回来补。结果，明天也不知道写什么…</p>
-<p>主要是这几天做的事比较单一，就是看交易的书、想策略；又没什么突破，所以日子显得平庸了些。</p>
-<p>学英语也是，有时一天学很久，有时一天连一个单词都没认识、一篇文章也没看。不能断这事，真的很重要；哪怕只是复习下新学的单词，也不能断。</p>
+            <p>比如英语，学起来是很枯燥的；尤其现在记忆力一般，学了记不住，更加沮丧。</p>
+<p>这次又重学英语，本来是打算看量化交易相关的英文博客、论坛等内容。实践起来，却是听和背 TED，绕了个弯。离目标远了，动力就弱了。</p>
+<p>还是用以致学，找个老外的博客、播客，直接怼。</p>
 
           
         
@@ -984,7 +996,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/221/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/221/">221</a><span class="page-number current">222</span><a class="page-number" href="/page/223/">223</a><span class="space">&hellip;</span><a class="page-number" href="/page/501/">501</a><a class="extend next" rel="next" href="/page/223/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/221/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/221/">221</a><span class="page-number current">222</span><a class="page-number" href="/page/223/">223</a><span class="space">&hellip;</span><a class="page-number" href="/page/502/">502</a><a class="extend next" rel="next" href="/page/223/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1029,7 +1041,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2502</span>
+                <span class="site-state-item-count">2509</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
