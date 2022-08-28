@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2022-08-21T14:40:39.865Z</updated>
+  <updated>2022-08-28T14:11:30.597Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,90 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0824 - 智能硬件</title>
+    <link href="https://atjason.com/daily/2022-08-24.html"/>
+    <id>https://atjason.com/daily/2022-08-24.html</id>
+    <published>2022-08-24T14:00:00.000Z</published>
+    <updated>2022-08-28T14:11:30.597Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近一周，花了比较多时间，重新拾起硬件，搭建简单的电路。</p>
+<p>东西比较琐碎，只能简单记录一下：</p>
+<ul>
+<li>重新学习 Arduino 语法及编程基础；</li>
+<li>购买器件，包括蓝牙模块、霍尔传感器及干簧管、OLED 显示屏、时钟模块、EEPROM 存储模块、Fash 存储模块、扩展板等。</li>
+<li>按钮防抖动和计数；</li>
+<li>操作 LCD 屏幕；</li>
+<li>操作 OLED 屏幕；</li>
+<li>操作蓝牙模块；</li>
+<li>蓝牙和微信小程序打通；</li>
+</ul>
+<p>现在是验证技术可行性阶段，每个环节都做得比较浅，验证即停止。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近一周，花了比较多时间，重新拾起硬件，搭建简单的电路。&lt;/p&gt;
+&lt;p&gt;东西比较琐碎，只能简单记录一下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;重新学习 Arduino 语法及编程基础；&lt;/li&gt;
+&lt;li&gt;购买器件，包括蓝牙模块、霍尔传感器及干簧管、OLED 显示屏、时钟模块、EEPR
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0823 - 有攻有守</title>
+    <link href="https://atjason.com/daily/2022-08-23.html"/>
+    <id>https://atjason.com/daily/2022-08-23.html</id>
+    <published>2022-08-23T14:00:00.000Z</published>
+    <updated>2022-08-28T14:06:25.050Z</updated>
+    
+    <content type="html"><![CDATA[<p>五子棋中，有机会进攻时，要持续进攻，直到获胜或没有进攻机会，开始转为防守。</p>
+<p>沟通中，如果自己有好的想法，尽量完整的表达出来。之后，认真倾听别人的想法。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;五子棋中，有机会进攻时，要持续进攻，直到获胜或没有进攻机会，开始转为防守。&lt;/p&gt;
+&lt;p&gt;沟通中，如果自己有好的想法，尽量完整的表达出来。之后，认真倾听别人的想法。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0822 - iPaste 更新粘贴方式</title>
+    <link href="https://atjason.com/daily/2022-08-22.html"/>
+    <id>https://atjason.com/daily/2022-08-22.html</id>
+    <published>2022-08-22T14:00:00.000Z</published>
+    <updated>2022-08-28T14:05:06.491Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前，iPaste 是通过 System Events 脚本，来粘贴到目标程序，会有 0.x 秒的延迟。并且，需要一系列授权，一些用户总是遇到问题。</p>
+<p>现在，iPaste 直接模拟 Command+V 快捷键进行粘贴，不再使用脚本，速度更快，更不容易出问题。</p>
+<p>推荐更新；macOS App Store，搜索 iPaste 即可。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前，iPaste 是通过 System Events 脚本，来粘贴到目标程序，会有 0.x 秒的延迟。并且，需要一系列授权，一些用户总是遇到问题。&lt;/p&gt;
+&lt;p&gt;现在，iPaste 直接模拟 Command+V 快捷键进行粘贴，不再使用脚本，速度更快，更不容易出问题。&lt;/
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0821 - 养儿防老</title>
@@ -91,11 +175,11 @@
   </entry>
   
   <entry>
-    <title>0818 - 交易普通麻雀啄食</title>
+    <title>0818 - 交易如同麻雀啄食</title>
     <link href="https://atjason.com/daily/2022-08-18.html"/>
     <id>https://atjason.com/daily/2022-08-18.html</id>
     <published>2022-08-18T14:00:00.000Z</published>
-    <updated>2022-08-21T14:35:50.647Z</updated>
+    <updated>2022-08-21T15:22:18.156Z</updated>
     
     <content type="html"><![CDATA[<p>一种思想，不一定对。</p>
 <p>麻雀每次只叼取一点点，然后迅速飞走。就这样它们不停地飞来飞去叼取面包，而每次仅获取一点点。它们用一百次的努力去获得鸽子一次便可获得的面包，但是你很难射中它们，因为它们飞得太快。<br>‌<br>交易也是一样，不能贪图一次赚个大的，不能总想着毕其功于一役，交易是长期的事。对市场保持敬畏，贪念就会少一点。</p>
@@ -436,87 +520,6 @@
 &lt;ul&gt;
 &lt;li&gt;7 的息屏表盘的亮度跟随系统设置，总之比 Pro 亮很多。&lt;/li&gt;
 &lt;li&gt;7 不支持自动亮度，但可以设置夜间模式，指定时间降低亮度。Pro 虽说有光线传感器、支持亮度自动调节，但晚
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0804 - 不要轻易否定之前的想法</title>
-    <link href="https://atjason.com/daily/2022-08-04.html"/>
-    <id>https://atjason.com/daily/2022-08-04.html</id>
-    <published>2022-08-04T14:00:00.000Z</published>
-    <updated>2022-08-07T14:20:19.028Z</updated>
-    
-    <content type="html"><![CDATA[<p>通过看书、与人交流等方式，获取新的想法后，尤其是与自己目前的想法冲突、而自己又有醍醐灌顶的感觉时，很容易有种冲动：完全摒弃自己再有的想法，按全新的来。</p>
-<p>别这么冲动。</p>
-<ul>
-<li>一方面自己目前的想法，是当时综合所有认知做出的最佳选择，必然有一定道理。</li>
-<li>另一方面，新想法可能在自己不知道的地方，有隐藏的坑。或者说，需要额外的背景条件，不适合现在的自己。</li>
-</ul>
-<p>比较中庸的做法，是将新想法的细节，嫁接到已有想法中，做渐进式的改良。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;通过看书、与人交流等方式，获取新的想法后，尤其是与自己目前的想法冲突、而自己又有醍醐灌顶的感觉时，很容易有种冲动：完全摒弃自己再有的想法，按全新的来。&lt;/p&gt;
-&lt;p&gt;别这么冲动。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;一方面自己目前的想法，是当时综合所有认知做出的最佳选择，必然有一定道
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0803 - 不要小看小努力</title>
-    <link href="https://atjason.com/daily/2022-08-03.html"/>
-    <id>https://atjason.com/daily/2022-08-03.html</id>
-    <published>2022-08-03T14:00:00.000Z</published>
-    <updated>2022-08-07T14:19:42.837Z</updated>
-    
-    <content type="html"><![CDATA[<p>核心在于乘数或者复利效应。</p>
-<p>比如，你今天学会一个工作上的小技巧，效率提高一点点。而一旦学会，在将来每次应用时，都将效率提高一点点。这所有的一点点累加起来，就是很显著的改进。</p>
-<p>而如果你不断的小努力，不断的有小提高，这种乘数效应就会不断累积放大。</p>
-<p>常说人和人的差距，比人和狗都大，不见得是牛人做了一件多么惊天动地的大事，而是他们不断的小进步，在复利作用下，最终变得吓人。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;核心在于乘数或者复利效应。&lt;/p&gt;
-&lt;p&gt;比如，你今天学会一个工作上的小技巧，效率提高一点点。而一旦学会，在将来每次应用时，都将效率提高一点点。这所有的一点点累加起来，就是很显著的改进。&lt;/p&gt;
-&lt;p&gt;而如果你不断的小努力，不断的有小提高，这种乘数效应就会不断累积放大。&lt;/
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0802 - 保持善意，但不要好为人师</title>
-    <link href="https://atjason.com/daily/2022-08-02.html"/>
-    <id>https://atjason.com/daily/2022-08-02.html</id>
-    <published>2022-08-02T14:00:00.000Z</published>
-    <updated>2022-08-07T14:19:15.957Z</updated>
-    
-    <content type="html"><![CDATA[<p>看到别人不足或可以改进的地方，我们有心提醒，这是善意，是好的。</p>
-<p>可几乎所有人都喜欢被夸，不喜欢被指点。所以，这份善意该如何表达，是个技术活。通常，点到为止。对方如果悟不到、或不接受，不要强行灌输。</p>
-<p>进一步，不要因为看到别人某方面的不足，便产生莫名的优越感。殊不知，人家在别的方面，可能秒杀你几条街。保持谦逊，是基本的素养。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看到别人不足或可以改进的地方，我们有心提醒，这是善意，是好的。&lt;/p&gt;
-&lt;p&gt;可几乎所有人都喜欢被夸，不喜欢被指点。所以，这份善意该如何表达，是个技术活。通常，点到为止。对方如果悟不到、或不接受，不要强行灌输。&lt;/p&gt;
-&lt;p&gt;进一步，不要因为看到别人某方面的不足，便产生莫名
     
     </summary>
     
