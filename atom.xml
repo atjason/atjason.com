@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2022-08-28T14:11:30.597Z</updated>
+  <updated>2022-09-12T11:59:54.073Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,200 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0911 - 制作原型机</title>
+    <link href="https://atjason.com/daily/2022-09-11.html"/>
+    <id>https://atjason.com/daily/2022-09-11.html</id>
+    <published>2022-09-11T14:00:00.000Z</published>
+    <updated>2022-09-12T11:59:54.073Z</updated>
+    
+    <content type="html"><![CDATA[<p>在洞洞板上，布局多个元器件，考虑能塞进手边有的一个亚克力盒子里；安排布线，然后从从下午焊到半夜，终于完成。一次成功，没有冒烟，开心。</p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h642mgl4yuj20va0moq3y.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在洞洞板上，布局多个元器件，考虑能塞进手边有的一个亚克力盒子里；安排布线，然后从从下午焊到半夜，终于完成。一次成功，没有冒烟，开心。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://tva1.sinaimg.cn/large/e6c9d24ely1h642mgl4yuj2
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0910 - 人生重要的 5 件事</title>
+    <link href="https://atjason.com/daily/2022-09-10.html"/>
+    <id>https://atjason.com/daily/2022-09-10.html</id>
+    <published>2022-09-10T14:00:00.000Z</published>
+    <updated>2022-09-12T11:54:59.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>一位护士问临终的病人，他们有什么遗憾，她后来总结出了5个最常见的回答：</p>
+<ul>
+<li>不要忽视梦想；</li>
+<li>不要工作过久；</li>
+<li>说出想法；</li>
+<li>交朋友；</li>
+<li>要开心。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一位护士问临终的病人，他们有什么遗憾，她后来总结出了5个最常见的回答：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不要忽视梦想；&lt;/li&gt;
+&lt;li&gt;不要工作过久；&lt;/li&gt;
+&lt;li&gt;说出想法；&lt;/li&gt;
+&lt;li&gt;交朋友；&lt;/li&gt;
+&lt;li&gt;要开心。&lt;/li&gt;
+&lt;/ul&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0909 - STM32 开发板</title>
+    <link href="https://atjason.com/daily/2022-09-09.html"/>
+    <id>https://atjason.com/daily/2022-09-09.html</id>
+    <published>2022-09-09T14:00:00.000Z</published>
+    <updated>2022-09-12T11:53:57.892Z</updated>
+    
+    <content type="html"><![CDATA[<p>为了技术选型，又整了 STM32 开发板。性能要比一般的 Arduino 板子强很多。而且，神奇的是，价格还更便宜，啧啧。</p>
+<p>问题是，性能强的代码是功耗高。基于 STM32F103C8T6 的板子空载功耗大概 19mA，基于 ATMEGA328P 的 Arduino Pro mini 是 9mA，是后者的两倍多。休眠功耗都比较低，倒也没差这么多。</p>
+<p>不过，这样的功耗是芯片 + 开发板其他元器件合计的，比如一个 LED 灯可能就有 1mA，所以只能做大致参考。不过，这差别还是有点大的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;为了技术选型，又整了 STM32 开发板。性能要比一般的 Arduino 板子强很多。而且，神奇的是，价格还更便宜，啧啧。&lt;/p&gt;
+&lt;p&gt;问题是，性能强的代码是功耗高。基于 STM32F103C8T6 的板子空载功耗大概 19mA，基于 ATMEGA328P 的 Ardui
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0908 - 开发板低功耗模式</title>
+    <link href="https://atjason.com/daily/2022-09-08.html"/>
+    <id>https://atjason.com/daily/2022-09-08.html</id>
+    <published>2022-09-08T14:00:00.000Z</published>
+    <updated>2022-09-12T11:49:55.686Z</updated>
+    
+    <content type="html"><![CDATA[<p>低功耗时遇到一个问题：如果掉电休眠，则时间无法继续，唤醒后的时间就不对了。</p>
+<p>而我要面临的使用场景，是需要知道大致时间的。</p>
+<p>一种办法，就是引入 RTC 实时时钟模块，掉电可以使用钮扣电池供电，继续走时。可是，这种模块为了添加钮扣电池，板子都比较大。</p>
+<p>还有种办法，就是利用 WDT 看门狗定时触发的机制，累积休眠时长。等最后唤醒时，加上这个累积时长，就能换算出大致准确的时间。</p>
+<p>本来，我还想完善下细节，比如在休眠中途被其他方式唤醒时，需要进一步校正这个休眠时间。可是，太复杂了。最后，用了个简单的办法解决：累加每次开始休眠时，加半个休眠时长。这样，可以对冲中途休眠的情况，明显改善结果。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;低功耗时遇到一个问题：如果掉电休眠，则时间无法继续，唤醒后的时间就不对了。&lt;/p&gt;
+&lt;p&gt;而我要面临的使用场景，是需要知道大致时间的。&lt;/p&gt;
+&lt;p&gt;一种办法，就是引入 RTC 实时时钟模块，掉电可以使用钮扣电池供电，继续走时。可是，这种模块为了添加钮扣电池，板子都比较大。
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0907 - Arduino Pro mini</title>
+    <link href="https://atjason.com/daily/2022-09-07.html"/>
+    <id>https://atjason.com/daily/2022-09-07.html</id>
+    <published>2022-09-07T14:00:00.000Z</published>
+    <updated>2022-09-12T11:45:12.797Z</updated>
+    
+    <content type="html"><![CDATA[<p>收到 Arduino Pro mini，比想象中更小。自己焊了引脚，还改进了 usb ttl，开心。</p>
+<p>Arduino 给力。之前给 Uno 写的代码，可以直接刷到 Pro mini 板子上，接口也完全一致，开心。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;收到 Arduino Pro mini，比想象中更小。自己焊了引脚，还改进了 usb ttl，开心。&lt;/p&gt;
+&lt;p&gt;Arduino 给力。之前给 Uno 写的代码，可以直接刷到 Pro mini 板子上，接口也完全一致，开心。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0906 - 智能硬件产品盈利的几种方式</title>
+    <link href="https://atjason.com/daily/2022-09-06.html"/>
+    <id>https://atjason.com/daily/2022-09-06.html</id>
+    <published>2022-09-06T14:00:00.000Z</published>
+    <updated>2022-09-12T11:44:09.362Z</updated>
+    
+    <content type="html"><![CDATA[<p>‌</p>
+<ul>
+<li>硬件，比如 iPhone；</li>
+<li>内容，比如 Kindle 电子书；</li>
+<li>服务，比如 特斯拉自动驾驶另外收费；</li>
+<li>配件，比如 Apple Watch 表带；</li>
+<li>耗材，比如 打印机墨盒；</li>
+<li>广告，比如 电视开机广告；</li>
+<li>数据，比如 众多采集数据汇总生成大数据，进一步挖掘。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;‌&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;硬件，比如 iPhone；&lt;/li&gt;
+&lt;li&gt;内容，比如 Kindle 电子书；&lt;/li&gt;
+&lt;li&gt;服务，比如 特斯拉自动驾驶另外收费；&lt;/li&gt;
+&lt;li&gt;配件，比如 Apple Watch 表带；&lt;/li&gt;
+&lt;li&gt;耗材，比如 打印机墨盒；&lt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0905 - Arduino, Yeah!</title>
+    <link href="https://atjason.com/daily/2022-09-05.html"/>
+    <id>https://atjason.com/daily/2022-09-05.html</id>
+    <published>2022-09-05T14:00:00.000Z</published>
+    <updated>2022-09-12T11:43:40.323Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天才知道，Arduino 不只是具体的硬件，同时也是软件框架。<br>‌<br>也就是说，它把 IO 等硬件操作进行抽象和封装。配合对应的底层实现，可以用一套代码部署到不同的硬件，而不仅仅是 Arduino 官方开源的硬件。</p>
+<p>知道了这个，算是打开了一个门。从此，我能操作的开发版，从几个，扩展到 1000 多个。</p>
+<p>具体的，可以配合 PlatformIO 来实现。配合插件，就可以在 VSCode 上愉快的编码。而且，支持断点调试，Yeah.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天才知道，Arduino 不只是具体的硬件，同时也是软件框架。&lt;br&gt;‌&lt;br&gt;也就是说，它把 IO 等硬件操作进行抽象和封装。配合对应的底层实现，可以用一套代码部署到不同的硬件，而不仅仅是 Arduino 官方开源的硬件。&lt;/p&gt;
+&lt;p&gt;知道了这个，算是打开了一个门。从
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0824 - 智能硬件</title>
@@ -338,188 +532,6 @@
       &lt;p&gt;在研究交易系统时，最近在完善对应的文档时，发现文档的创建时间是半年前。&lt;/p&gt;
 &lt;p&gt;当前，花时间精力整理这样的文档，肯定是以为自己找到了解决方案。可是，多半是之后实际操作过程中遇到了问题，然后就慢慢放下了。&lt;/p&gt;
 &lt;p&gt;现在，有了新的、更深入的理解后，再回来更新文档，重
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0811 - 格言与鸡汤</title>
-    <link href="https://atjason.com/daily/2022-08-11.html"/>
-    <id>https://atjason.com/daily/2022-08-11.html</id>
-    <published>2022-08-11T14:00:00.000Z</published>
-    <updated>2022-08-14T13:19:10.790Z</updated>
-    
-    <content type="html"><![CDATA[<p>对于没有相同经历、没有共鸣的人，格言就像鸡汤，喝时爽、拉完忘，没多大用。</p>
-<p>对于作者和有共鸣的人，格言是一个标记、符号、锚点，看到了就能想到一串过往的经历，就能把这些经历快速在脑子里过一遍，强化已有认知、甚至产生新认知。</p>
-<p>总结自己的格言，聚拢有共同认知的人。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;对于没有相同经历、没有共鸣的人，格言就像鸡汤，喝时爽、拉完忘，没多大用。&lt;/p&gt;
-&lt;p&gt;对于作者和有共鸣的人，格言是一个标记、符号、锚点，看到了就能想到一串过往的经历，就能把这些经历快速在脑子里过一遍，强化已有认知、甚至产生新认知。&lt;/p&gt;
-&lt;p&gt;总结自己的格言，聚拢有共同
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0810 - 四种能力</title>
-    <link href="https://atjason.com/daily/2022-08-10.html"/>
-    <id>https://atjason.com/daily/2022-08-10.html</id>
-    <published>2022-08-10T14:00:00.000Z</published>
-    <updated>2022-08-14T13:18:40.696Z</updated>
-    
-    <content type="html"><![CDATA[<p>把东西做出来并销售出去，<br>让别人知道你的能力并信赖你。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;把东西做出来并销售出去，&lt;br&gt;让别人知道你的能力并信赖你。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0809 - 专长</title>
-    <link href="https://atjason.com/daily/2022-08-09.html"/>
-    <id>https://atjason.com/daily/2022-08-09.html</id>
-    <published>2022-08-09T14:00:00.000Z</published>
-    <updated>2022-08-14T13:18:14.206Z</updated>
-    
-    <content type="html"><![CDATA[<p>所谓专长，就是在别人看来一脸懵的事，你却很容易看懂本质，三两下就上手，很快就是专家级。</p>
-<p>可以说是天赋，也可以说是：有些人就是很擅长做某些事。</p>
-<p>既然老天爷赏饭吃，那就紧紧抓住。找到自己的专长，把长板变的更长，用相对优势碾压别人。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;所谓专长，就是在别人看来一脸懵的事，你却很容易看懂本质，三两下就上手，很快就是专家级。&lt;/p&gt;
-&lt;p&gt;可以说是天赋，也可以说是：有些人就是很擅长做某些事。&lt;/p&gt;
-&lt;p&gt;既然老天爷赏饭吃，那就紧紧抓住。找到自己的专长，把长板变的更长，用相对优势碾压别人。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0808 - 自动化不是终点</title>
-    <link href="https://atjason.com/daily/2022-08-08.html"/>
-    <id>https://atjason.com/daily/2022-08-08.html</id>
-    <published>2022-08-08T14:00:00.000Z</published>
-    <updated>2022-08-14T13:17:44.805Z</updated>
-    
-    <content type="html"><![CDATA[<p>做一件事情，找到规律和模式后，将其自动化。</p>
-<p>很多事情并没有复杂到一定要人参与，绝大多数并不值得一辈子研究。对于这些事情，程序自动化执行就是个很好的结局。</p>
-<p>自动化之后，并不是偷懒躺平，而是寻找下一件事。重复将其自动化，或者找到复杂的、值得投入更多时间精力的事情。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;做一件事情，找到规律和模式后，将其自动化。&lt;/p&gt;
-&lt;p&gt;很多事情并没有复杂到一定要人参与，绝大多数并不值得一辈子研究。对于这些事情，程序自动化执行就是个很好的结局。&lt;/p&gt;
-&lt;p&gt;自动化之后，并不是偷懒躺平，而是寻找下一件事。重复将其自动化，或者找到复杂的、值得投入更多时
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0807 - 小而具体 VS 大而抽象</title>
-    <link href="https://atjason.com/daily/2022-08-07.html"/>
-    <id>https://atjason.com/daily/2022-08-07.html</id>
-    <published>2022-08-07T14:00:00.000Z</published>
-    <updated>2022-08-07T14:22:05.871Z</updated>
-    
-    <content type="html"><![CDATA[<p>我们总是习惯于思考小而具体的事情中，比如在淘宝众多商品中，找到那个便宜一两块钱的东西。甚至，由于这样的反馈和好处是如此具体，忍不住会陷入其中。</p>
-<p>而对于大的东西，通常比较复杂比较难，我们会下意识的回避。宁愿去刷会朋友圈躲避一下，也不想去面对。</p>
-<p>一个办法，假定自己有很高的时薪，比如一个小时值 1000 元。这样的话，你还会为了省 20 元而花一个小时研究优惠券的用法吗？如果你觉得自己时间很多或者不值这么多，那就做点什么让它值这么多。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们总是习惯于思考小而具体的事情中，比如在淘宝众多商品中，找到那个便宜一两块钱的东西。甚至，由于这样的反馈和好处是如此具体，忍不住会陷入其中。&lt;/p&gt;
-&lt;p&gt;而对于大的东西，通常比较复杂比较难，我们会下意识的回避。宁愿去刷会朋友圈躲避一下，也不想去面对。&lt;/p&gt;
-&lt;p&gt;一个
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0806 - 定式</title>
-    <link href="https://atjason.com/daily/2022-08-06.html"/>
-    <id>https://atjason.com/daily/2022-08-06.html</id>
-    <published>2022-08-06T14:00:00.000Z</published>
-    <updated>2022-08-07T14:26:51.515Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，五子棋中有这样的定式：当己方已经有 3 子时，可以下第 4 子，对方必须防守，而己方还可以继续落子。</p>
-<p>交易中也可以有定式。比如，当小时级别已经盘整较长时间时，此时可以暂时忽略日线级别的方向，因为小时级别无论往哪个方向突破，都有不错的空间。</p>
-<p>一个个的定式，减少脑力思考，让事情变得简单。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，五子棋中有这样的定式：当己方已经有 3 子时，可以下第 4 子，对方必须防守，而己方还可以继续落子。&lt;/p&gt;
-&lt;p&gt;交易中也可以有定式。比如，当小时级别已经盘整较长时间时，此时可以暂时忽略日线级别的方向，因为小时级别无论往哪个方向突破，都有不错的空间。&lt;/p&gt;
-&lt;p&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0805 - 小米手环 7 与 7 Pro 比较</title>
-    <link href="https://atjason.com/daily/2022-08-05.html"/>
-    <id>https://atjason.com/daily/2022-08-05.html</id>
-    <published>2022-08-05T14:00:00.000Z</published>
-    <updated>2022-08-07T14:26:09.438Z</updated>
-    
-    <content type="html"><![CDATA[<p>同时买了小米手环 7 和 7 Pro，比较了两天，选择了 7。</p>
-<ul>
-<li>7 的息屏表盘的亮度跟随系统设置，总之比 Pro 亮很多。</li>
-<li>7 不支持自动亮度，但可以设置夜间模式，指定时间降低亮度。Pro 虽说有光线传感器、支持亮度自动调节，但晚上依然亮瞎眼。应该是传感器不灵敏、屏幕可调节亮度分级太少。</li>
-<li>Pro 支持独立 GPS，不过卫星定位慢（比如 30s），并且不运行导出位置信息，只能以图片的形式分享，可玩性大打折扣。本来我想着，去陌生地方旅游，记录一天的行程，然后在地图上回放，这个就做不到了。</li>
-<li>续航都不咋地，好像 Pro 长一些。不过跟 4 一个月一充，3 天还是 5 天一充，已经没有区别。PS：我就是 4 丢了，才要买新的。</li>
-<li>Pro 支持负一屏快捷设置，比如开启手电筒、开启勿扰模式，确实方便。只是不支持自定义开关项，有待改进。</li>
-<li>佩戴舒适度上，Pro 稍微好一点。不过，7 的表带取戴更轻量（当然也更容易丢），Pro 太正式了，不方便。</li>
-<li>二者交互都有很大的改进空间。触摸体验一般，操作不跟手、反应慢。Pro 不能指定表盘语言。</li>
-<li>Pro 几乎是 7 价格的两倍（也许这是最重要的原因…）</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;同时买了小米手环 7 和 7 Pro，比较了两天，选择了 7。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;7 的息屏表盘的亮度跟随系统设置，总之比 Pro 亮很多。&lt;/li&gt;
-&lt;li&gt;7 不支持自动亮度，但可以设置夜间模式，指定时间降低亮度。Pro 虽说有光线传感器、支持亮度自动调节，但晚
     
     </summary>
     
