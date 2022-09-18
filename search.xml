@@ -4,6 +4,133 @@
   
     
     <entry>
+      <title><![CDATA[0918 - 保存情怀]]></title>
+      <url>https://atjason.com/daily/2022-09-18.html</url>
+      <content type="html"><![CDATA[<p>之前做的第一个硬件原型机，经过迭代，其实已经用不上。尤其遇到无法刷固件的情况，花了几个小时都没折腾好。</p>
+<p>理性的讲，可以拆了，把可用的零件继续用。可毕竟是自己第一次亲手焊的原型，我还是花了一些钱，寄给一个卖家高手，让他帮我修复。</p>
+<p>修好之后，不准备再动，就这么保存着，当是种情怀。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0917 - 人到中年]]></title>
+      <url>https://atjason.com/daily/2022-09-17.html</url>
+      <content type="html"><![CDATA[<p>到了这个年纪，父母越来越老，孩子越来越大。</p>
+<p>虽说自己的能力和经验也在高位，但面临的压力同时是历史高位，并且只增不减。</p>
+<p>今天又听到一个朋友的父母病到难治的程度，花钱如流水，一个月辛苦赚的钱，不够医院几天花。他更加手不能停、不敢歇、更不敢病。</p>
+<p>保重身体，多存钱，最好能有被动收入。说到底，自己能做的，也就这几招。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0916 - 多一种能力多一扇门]]></title>
+      <url>https://atjason.com/daily/2022-09-16.html</url>
+      <content type="html"><![CDATA[<p>做软件开发时，</p>
+<ul>
+<li>不会画图，很受限制；</li>
+<li>不会服务器端开发，很受限制。</li>
+</ul>
+<p>现在做硬件，</p>
+<ul>
+<li>不会画 PCB 板，很受限制；</li>
+<li>不会 3D 打印，很受限制。</li>
+</ul>
+<p>每一个限制被打破，能力就多一个维度。</p>
+<p>不是每个环节都要自己做。但如果一个产品的每个环节自己都能做、都能掌控，感觉不是很好吗。</p>
+<p>人生百年，啥时候学都不晚，学啥都划算。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0915 - 照顾好自己，就照顾了全世界]]></title>
+      <url>https://atjason.com/daily/2022-09-15.html</url>
+      <content type="html"><![CDATA[<p>与其担心宏观经济，不如关注自己；<br>你对自己生活的影响，往往比宏观经济对你的影响大得多。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0914 - 第一次遇到硬件中的诡异问题]]></title>
+      <url>https://atjason.com/daily/2022-09-14.html</url>
+      <content type="html"><![CDATA[<p>今天遇到一个很诡异的问题，蓝牙能发送信号，不能接收信号。<br>‌<br>第一反应是误触发了休眠模式，因为休眠模式就是这个表现。于是，朝着这个方向一通研究，结果无果。</p>
+<p>期间，还有其他方向的各种尝试，花了很多时间，非常影响心情。</p>
+<p>最后，还是一位高人的指点，因为使用软串口 + 高波特率，可能会产生不稳定的问题。尝试降低波特率，果然正常了。</p>
+<p>做开发总是遇到这样的事，卡在一个地方，怎么都过不去。经常无数折腾，在即将放弃的前夕，终于柳暗花明。</p>
+<p>之前做软件，时不时来这么一下。硬件领域，这种问题估计会更多。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0913 - 自定义协议及数据校验]]></title>
+      <url>https://atjason.com/daily/2022-09-13.html</url>
+      <content type="html"><![CDATA[<p>研究了自定义协议、数据校验，结论是继续使用目前的自定义协议，加上求和校验。<br>‌<br>关于自定义协议，比如，小米在蓝牙的基础上，自定义了 MMA 协议。不过，对我来说有点过于复杂、不必要。</p>
+<p>关于校验，蓝牙本身有简单的奇偶校验，应用层多半会有自己的校验，比如 CRC。同样的，为了简单，暂时使用求和校验。不过，为了避免同时有正负偏移而和不变，加了简单的码表，也就是加额外的偏移，明显提高校验成功率。CRC 其实也是这个思路，算是借鉴了。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0912 - 鬼畜]]></title>
+      <url>https://atjason.com/daily/2022-09-12.html</url>
+      <content type="html"><![CDATA[<p>重启能解决 80% 的软件问题，<br>拍一拍能解决 80% 的硬件问题。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0911 - 制作原型机]]></title>
       <url>https://atjason.com/daily/2022-09-11.html</url>
       <content type="html"><![CDATA[<p>在洞洞板上，布局多个元器件，考虑能塞进手边有的一个亚克力盒子里；安排布线，然后从从下午焊到半夜，终于完成。一次成功，没有冒烟，开心。</p>
@@ -17535,11 +17662,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0305 - 极致收敛]]></title>
-      <url>https://atjason.com/daily/2020-03-05.html</url>
-      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
-<p>过不了这二问，不做。</p>
-<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
+      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
+      <url>https://atjason.com/daily/2020-03-04.html</url>
+      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
+<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
+<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
+<p>靠自己的实力呢？玩笑了。</p>
+<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
+<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
 ]]></content>
       
         <categories>
@@ -17552,14 +17682,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
-      <url>https://atjason.com/daily/2020-03-04.html</url>
-      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
-<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
-<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
-<p>靠自己的实力呢？玩笑了。</p>
-<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
-<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
+      <title><![CDATA[0305 - 极致收敛]]></title>
+      <url>https://atjason.com/daily/2020-03-05.html</url>
+      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
+<p>过不了这二问，不做。</p>
+<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
 ]]></content>
       
         <categories>
@@ -22582,12 +22709,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0524 - 人设崩塌]]></title>
-      <url>https://atjason.com/daily/2019-05-24.html</url>
-      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
-<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
-<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
-<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
+      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
+      <url>https://atjason.com/daily/2019-05-25.html</url>
+      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
+<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
+<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
 ]]></content>
       
         <categories>
@@ -22600,11 +22726,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
-      <url>https://atjason.com/daily/2019-05-25.html</url>
-      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
-<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
-<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
+      <title><![CDATA[0524 - 人设崩塌]]></title>
+      <url>https://atjason.com/daily/2019-05-24.html</url>
+      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
+<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
+<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
+<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
 ]]></content>
       
         <categories>
@@ -22748,10 +22875,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0516 - 多做一点点]]></title>
-      <url>https://atjason.com/daily/2019-05-16.html</url>
-      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
-<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
+      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
+      <url>https://atjason.com/daily/2019-05-15.html</url>
+      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
+<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
+<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
+<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
 ]]></content>
       
         <categories>
@@ -22764,12 +22893,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
-      <url>https://atjason.com/daily/2019-05-15.html</url>
-      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
-<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
-<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
-<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
+      <title><![CDATA[0516 - 多做一点点]]></title>
+      <url>https://atjason.com/daily/2019-05-16.html</url>
+      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
+<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
 ]]></content>
       
         <categories>
@@ -32312,22 +32439,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -32369,6 +32480,22 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -36480,6 +36607,24 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
+      <url>https://atjason.com/daily/2017-07-25.html</url>
+      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
+<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
+<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
+<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[说说我出道后的处女作：剪贴板神器 iPaste]]></title>
       <url>https://atjason.com/IndieDev/2017-07-25_iPaste_Review.html</url>
       <content type="html"><![CDATA[<p>2015 年底，我离开了这辈子最后一家公司，成为一名自由职业者。而 <strong><a href="https://toolinbox.net/iPaste/" target="_blank" rel="external">iPaste</a>，是我独立开发的第一款 macOS 产品。</strong></p>
@@ -36668,24 +36813,6 @@
         <categories>
             
             <category> IndieDev </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0725 - 移民，好像变得不那么陌生]]></title>
-      <url>https://atjason.com/daily/2017-07-25.html</url>
-      <content type="html"><![CDATA[<p>今天跟一个目前刚刚举家从伦敦搬到蒙特利尔的朋友聊天，他们租的 100m2 的房子，只要 $800 每月，而且，这 100 平是使用面积、不是国内变态的含公摊的建筑面积。比杭州便宜。</p>
-<p>另一方面，国内的网络环境越来越糟糕，且短期内还有恶化的趋势。虽然我对国内民间的力量有信心，相信并不会变成大陆局域网，但这总归不是件让人愉悦的事。</p>
-<p>还有，接连听到有朋友收到国外大公司的 Offer，甚至已经肉身出国的。</p>
-<p>所有这一切堆在一起，感觉移民变得不那么遥不可及，好像努力一把就可以的样子。虽然我有过一段时间的美国和德国生活及工作经验，对移民并不是很扔掉热衷，但如果能每年到一个国家生活工作几个月，也是不错的体验。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -39754,22 +39881,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0429 - 剑已出鞘]]></title>
-      <url>https://atjason.com/daily/2017-04-29.html</url>
-      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
-<p>接下来，靠的就是坚持了。😂</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Anki 使用小结]]></title>
       <url>https://atjason.com/IT/anki.html</url>
       <content type="html"><![CDATA[<p>最近在学习 Anki，遇到一些坑、也找了一些解决方案，这里记录下来供大家参考。</p>
@@ -39854,6 +39965,22 @@
         <categories>
             
             <category> IT </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0429 - 剑已出鞘]]></title>
+      <url>https://atjason.com/daily/2017-04-29.html</url>
+      <content type="html"><![CDATA[<p>今天，搞定了 <a href="https://atjason.com/IT/anki.html">Anki 在 Chrome、iPhone、Kindle 各平台的制作卡片</a>，算是做好了学英语的利器。</p>
+<p>接下来，靠的就是坚持了。😂</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -41363,6 +41490,41 @@
     </entry>
     
     <entry>
+      <title><![CDATA[《女孩老板》]]></title>
+      <url>https://atjason.com/book/Girlboss.html</url>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
+<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
+<ul>
+<li>一头是成名前如何放荡不羁，然后快速成长；</li>
+<li>另一头是成名后的一个想法、状态。</li>
+</ul>
+<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
+<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
+<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
+<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
+<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
+<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
+<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
+<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
+<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
+<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
+<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
+<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
+<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
+<li>生活得自由并不意味着生活得好。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 读书笔记 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[201703 - 《从零开始做运营》]]></title>
       <url>https://atjason.com/book/201703.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/z1s34.jpg" alt=""></p>
@@ -41434,41 +41596,6 @@
 <li>然后，你需要衡量微信群和QQ群的优劣。微信群现在非常倾向于熟人之间的交流，同时微信群非常不便于管理。QQ群便于管理，但QQ群的活跃度是个极大的问题。群组的差异会导致运营的不同结果，在我看来，除非到了一定阶段，否则根本没有必要建立群组。 因为群组一旦组织，群主就要对群负责。同时群组会耗费很多时间精力，因此，请慎重考虑建立群组。</li>
 <li>我一直坚持案例的意义在于如何避免失败，而非如何成功。</li>
 <li>我们看到的大多是成功者的案例，其中成功的精髓无法通过表面现象和简单的方法论获得。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 读书笔记 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[《女孩老板》]]></title>
-      <url>https://atjason.com/book/Girlboss.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
-<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
-<ul>
-<li>一头是成名前如何放荡不羁，然后快速成长；</li>
-<li>另一头是成名后的一个想法、状态。</li>
-</ul>
-<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
-<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
-<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
-<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
-<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
-<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
-<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
-<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
-<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
-<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
-<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
-<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
-<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
-<li>生活得自由并不意味着生活得好。</li>
 </ul>
 ]]></content>
       
@@ -48315,29 +48442,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
-      <url>https://atjason.com/daily/2016-05-08.html</url>
-      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
-<p>不见得。</p>
-<p>也许是劲使错地方了。</p>
-<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
-<ul>
-<li>做自己擅长的、坚持做、更擅长。</li>
-<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
-<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0509 - 选择开源软件，还是付费软件？]]></title>
       <url>https://atjason.com/daily/2016-05-09.html</url>
       <content type="html"><![CDATA[<p>各有好坏。</p>
@@ -48352,6 +48456,29 @@
 <li>选择用户多的。这通常意味着网上会有充足的教程，也会有人把自己踩过的坑记录下来。有了这些资料，会让自己遇到问题时更容易解决。</li>
 </ul>
 <p>当然，开发者也是人、也需要生存、也需要收入。鼓励大家为软件付费（不论是直接购买付费软件，还是赞助开源软件），这样才能可持续发展：开发者做出越来精品的软件、消费者为软件付费、开发者继续改进、消费者享受更加精良的软件。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
+      <url>https://atjason.com/daily/2016-05-08.html</url>
+      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
+<p>不见得。</p>
+<p>也许是劲使错地方了。</p>
+<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
+<ul>
+<li>做自己擅长的、坚持做、更擅长。</li>
+<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
+<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
+</ul>
 ]]></content>
       
         <categories>
