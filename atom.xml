@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2022-09-18T12:58:02.629Z</updated>
+  <updated>2022-09-25T14:51:27.134Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,11 +16,194 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0925 - 垫起笔记本</title>
+    <link href="https://atjason.com/daily/2022-09-25.html"/>
+    <id>https://atjason.com/daily/2022-09-25.html</id>
+    <published>2022-09-25T14:00:00.000Z</published>
+    <updated>2022-09-25T14:51:27.134Z</updated>
+    
+    <content type="html"><![CDATA[<p>受朋友启发，准备把电脑架起来。这样不用一直低头，对颈椎比较好。<br>‌<br>不过，脖子一直挺着，颈肩也容易疲劳。下一步，就是买工程学座椅了…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;受朋友启发，准备把电脑架起来。这样不用一直低头，对颈椎比较好。&lt;br&gt;‌&lt;br&gt;不过，脖子一直挺着，颈肩也容易疲劳。下一步，就是买工程学座椅了…&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0924 - 都是缘分</title>
+    <link href="https://atjason.com/daily/2022-09-24.html"/>
+    <id>https://atjason.com/daily/2022-09-24.html</id>
+    <published>2022-09-24T14:00:00.000Z</published>
+    <updated>2022-09-25T14:46:52.883Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前在群里问 USB 功率计，知道了 IoT Power，进而知道了合宙，进而知道了他们的 Air 系列芯片，正好符合项目技术选型。<br>‌<br>如果不是最开始那一问，我很可能不会选这个芯片，或者至少会多花不少时间。</p>
+<p>既然是缘分，便多结善缘。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前在群里问 USB 功率计，知道了 IoT Power，进而知道了合宙，进而知道了他们的 Air 系列芯片，正好符合项目技术选型。&lt;br&gt;‌&lt;br&gt;如果不是最开始那一问，我很可能不会选这个芯片，或者至少会多花不少时间。&lt;/p&gt;
+&lt;p&gt;既然是缘分，便多结善缘。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0923 - 咨询而不是外包</title>
+    <link href="https://atjason.com/daily/2022-09-23.html"/>
+    <id>https://atjason.com/daily/2022-09-23.html</id>
+    <published>2022-09-23T14:00:00.000Z</published>
+    <updated>2022-09-25T14:46:06.286Z</updated>
+    
+    <content type="html"><![CDATA[<p>在产品的整个周期中，外包是要慎重考虑的，有很强的两面性。<br>‌<br>从短期来看，比如在产品的早期，外包的好处是能快速出原型、出产品，快速试错，看市场反应、验证需求。如果被证明是伪需求，可以及时止损。</p>
+<p>问题是，如果被证明是真需求，接下来怎么办呢？</p>
+<p>通常，这时很可能已经对外包产生依赖。比如，如果已有产品有问题，自己去直接修改外包做出来的产品，事实上不太可能。</p>
+<p>同时，很难有决心在内部扶植力量，取代外包；这一过程，有可能需要从零开始，也有可能跟不上产品更新迭代的速度。</p>
+<p>简单的说，这一阶段很可能已经被外包绑架了。即便此时外包变得力不从心、跟不上节奏，也很难替换。</p>
+<p>所以，如果某个方向最开始就已经确定是公司的重要方向，就一定要培养自己的研发力量。哪怕前期难一点、慢一点，从长期看、从未来需求和响应速度看，都是值得的。</p>
+<p>当然，这并不是说一定要闭门造车、不引入外部力量。而是说，这一过程，技术上一定是自己主导的。外部的力量，可以用付费咨询的形式，帮我们少走弯路，但一定不是替我们走路。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在产品的整个周期中，外包是要慎重考虑的，有很强的两面性。&lt;br&gt;‌&lt;br&gt;从短期来看，比如在产品的早期，外包的好处是能快速出原型、出产品，快速试错，看市场反应、验证需求。如果被证明是伪需求，可以及时止损。&lt;/p&gt;
+&lt;p&gt;问题是，如果被证明是真需求，接下来怎么办呢？&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0922 - 硬件「惊喜」不断</title>
+    <link href="https://atjason.com/daily/2022-09-22.html"/>
+    <id>https://atjason.com/daily/2022-09-22.html</id>
+    <published>2022-09-22T14:00:00.000Z</published>
+    <updated>2022-09-25T14:44:58.670Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近调研了一些芯片，发现都有坑，不研究基本是不知道的；</p>
+<p>比如，W801 没有休眠唤醒引脚；意味着休眠后，无法通过传感器唤醒。</p>
+<p>比如，Air101 芯片，写着内置 2MB Flash，而默认用户可用空间只有 48KB。只能通过修改参数、编译固件来调整。而这个操作并不容易，也几乎没有文档。</p>
+<p>比如，一些内置 MCU 的蓝牙芯片，写着待机功耗如何如何。而关键的，MUC 和蓝牙并不能分别休眠，只能一起睡。这样就不能在蓝牙休眠时，MCU 正常工作。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近调研了一些芯片，发现都有坑，不研究基本是不知道的；&lt;/p&gt;
+&lt;p&gt;比如，W801 没有休眠唤醒引脚；意味着休眠后，无法通过传感器唤醒。&lt;/p&gt;
+&lt;p&gt;比如，Air101 芯片，写着内置 2MB Flash，而默认用户可用空间只有 48KB。只能通过修改参数、编译固件来调
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0921 - 《蝴蝶效应》</title>
+    <link href="https://atjason.com/daily/2022-09-21.html"/>
+    <id>https://atjason.com/daily/2022-09-21.html</id>
+    <published>2022-09-21T14:00:00.000Z</published>
+    <updated>2022-09-25T14:41:10.984Z</updated>
+    
+    <content type="html"><![CDATA[<p>看了《蝴蝶效应》，有点惊悚，有点深刻。</p>
+<p>我们时不时会想，如果当初我怎样怎样，现在肯定会更好。</p>
+<p>且不说我们无法改变过去；即使能改变，不一定有更好的结果。</p>
+<p>那么，还是那句老话，活在当下。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;看了《蝴蝶效应》，有点惊悚，有点深刻。&lt;/p&gt;
+&lt;p&gt;我们时不时会想，如果当初我怎样怎样，现在肯定会更好。&lt;/p&gt;
+&lt;p&gt;且不说我们无法改变过去；即使能改变，不一定有更好的结果。&lt;/p&gt;
+&lt;p&gt;那么，还是那句老话，活在当下。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0920 - 软件与硬件</title>
+    <link href="https://atjason.com/daily/2022-09-20.html"/>
+    <id>https://atjason.com/daily/2022-09-20.html</id>
+    <published>2022-09-20T14:00:00.000Z</published>
+    <updated>2022-09-25T14:39:54.946Z</updated>
+    
+    <content type="html"><![CDATA[<p>软件的 Hello World，<br>硬件的 Blink。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;软件的 Hello World，&lt;br&gt;硬件的 Blink。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0919 - 硬件与软件</title>
+    <link href="https://atjason.com/daily/2022-09-19.html"/>
+    <id>https://atjason.com/daily/2022-09-19.html</id>
+    <published>2022-09-19T14:00:00.000Z</published>
+    <updated>2022-09-25T14:39:20.553Z</updated>
+    
+    <content type="html"><![CDATA[<p>搞硬件和搞软件真的很不一样。</p>
+<ul>
+<li>少个零件，啥也干不了；</li>
+<li>一个快递，就能让整个项目卡几天。</li>
+<li>出了故障，从硬件到固件到软件，可能的链条很长。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;搞硬件和搞软件真的很不一样。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;少个零件，啥也干不了；&lt;/li&gt;
+&lt;li&gt;一个快递，就能让整个项目卡几天。&lt;/li&gt;
+&lt;li&gt;出了故障，从硬件到固件到软件，可能的链条很长。&lt;/li&gt;
+&lt;/ul&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0918 - 保存情怀</title>
     <link href="https://atjason.com/daily/2022-09-18.html"/>
     <id>https://atjason.com/daily/2022-09-18.html</id>
     <published>2022-09-18T14:00:00.000Z</published>
-    <updated>2022-09-18T12:58:02.629Z</updated>
+    <updated>2022-09-25T14:38:31.516Z</updated>
     
     <content type="html"><![CDATA[<p>之前做的第一个硬件原型机，经过迭代，其实已经用不上。尤其遇到无法刷固件的情况，花了几个小时都没折腾好。</p>
 <p>理性的讲，可以拆了，把可用的零件继续用。可毕竟是自己第一次亲手焊的原型，我还是花了一些钱，寄给一个卖家高手，让他帮我修复。</p>
@@ -364,189 +547,6 @@
 &lt;li&gt;服务，比如 特斯拉自动驾驶另外收费；&lt;/li&gt;
 &lt;li&gt;配件，比如 Apple Watch 表带；&lt;/li&gt;
 &lt;li&gt;耗材，比如 打印机墨盒；&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0905 - Arduino, Yeah!</title>
-    <link href="https://atjason.com/daily/2022-09-05.html"/>
-    <id>https://atjason.com/daily/2022-09-05.html</id>
-    <published>2022-09-05T14:00:00.000Z</published>
-    <updated>2022-09-12T11:43:40.323Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天才知道，Arduino 不只是具体的硬件，同时也是软件框架。<br>‌<br>也就是说，它把 IO 等硬件操作进行抽象和封装。配合对应的底层实现，可以用一套代码部署到不同的硬件，而不仅仅是 Arduino 官方开源的硬件。</p>
-<p>知道了这个，算是打开了一个门。从此，我能操作的开发版，从几个，扩展到 1000 多个。</p>
-<p>具体的，可以配合 PlatformIO 来实现。配合插件，就可以在 VSCode 上愉快的编码。而且，支持断点调试，Yeah.</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天才知道，Arduino 不只是具体的硬件，同时也是软件框架。&lt;br&gt;‌&lt;br&gt;也就是说，它把 IO 等硬件操作进行抽象和封装。配合对应的底层实现，可以用一套代码部署到不同的硬件，而不仅仅是 Arduino 官方开源的硬件。&lt;/p&gt;
-&lt;p&gt;知道了这个，算是打开了一个门。从
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0824 - 智能硬件</title>
-    <link href="https://atjason.com/daily/2022-08-24.html"/>
-    <id>https://atjason.com/daily/2022-08-24.html</id>
-    <published>2022-08-24T14:00:00.000Z</published>
-    <updated>2022-08-28T14:11:30.597Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近一周，花了比较多时间，重新拾起硬件，搭建简单的电路。</p>
-<p>东西比较琐碎，只能简单记录一下：</p>
-<ul>
-<li>重新学习 Arduino 语法及编程基础；</li>
-<li>购买器件，包括蓝牙模块、霍尔传感器及干簧管、OLED 显示屏、时钟模块、EEPROM 存储模块、Fash 存储模块、扩展板等。</li>
-<li>按钮防抖动和计数；</li>
-<li>操作 LCD 屏幕；</li>
-<li>操作 OLED 屏幕；</li>
-<li>操作蓝牙模块；</li>
-<li>蓝牙和微信小程序打通；</li>
-</ul>
-<p>现在是验证技术可行性阶段，每个环节都做得比较浅，验证即停止。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近一周，花了比较多时间，重新拾起硬件，搭建简单的电路。&lt;/p&gt;
-&lt;p&gt;东西比较琐碎，只能简单记录一下：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;重新学习 Arduino 语法及编程基础；&lt;/li&gt;
-&lt;li&gt;购买器件，包括蓝牙模块、霍尔传感器及干簧管、OLED 显示屏、时钟模块、EEPR
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0823 - 有攻有守</title>
-    <link href="https://atjason.com/daily/2022-08-23.html"/>
-    <id>https://atjason.com/daily/2022-08-23.html</id>
-    <published>2022-08-23T14:00:00.000Z</published>
-    <updated>2022-08-28T14:06:25.050Z</updated>
-    
-    <content type="html"><![CDATA[<p>五子棋中，有机会进攻时，要持续进攻，直到获胜或没有进攻机会，开始转为防守。</p>
-<p>沟通中，如果自己有好的想法，尽量完整的表达出来。之后，认真倾听别人的想法。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;五子棋中，有机会进攻时，要持续进攻，直到获胜或没有进攻机会，开始转为防守。&lt;/p&gt;
-&lt;p&gt;沟通中，如果自己有好的想法，尽量完整的表达出来。之后，认真倾听别人的想法。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0822 - iPaste 更新粘贴方式</title>
-    <link href="https://atjason.com/daily/2022-08-22.html"/>
-    <id>https://atjason.com/daily/2022-08-22.html</id>
-    <published>2022-08-22T14:00:00.000Z</published>
-    <updated>2022-08-28T14:05:06.491Z</updated>
-    
-    <content type="html"><![CDATA[<p>之前，iPaste 是通过 System Events 脚本，来粘贴到目标程序，会有 0.x 秒的延迟。并且，需要一系列授权，一些用户总是遇到问题。</p>
-<p>现在，iPaste 直接模拟 Command+V 快捷键进行粘贴，不再使用脚本，速度更快，更不容易出问题。</p>
-<p>推荐更新；macOS App Store，搜索 iPaste 即可。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前，iPaste 是通过 System Events 脚本，来粘贴到目标程序，会有 0.x 秒的延迟。并且，需要一系列授权，一些用户总是遇到问题。&lt;/p&gt;
-&lt;p&gt;现在，iPaste 直接模拟 Command+V 快捷键进行粘贴，不再使用脚本，速度更快，更不容易出问题。&lt;/
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0821 - 养儿防老</title>
-    <link href="https://atjason.com/daily/2022-08-21.html"/>
-    <id>https://atjason.com/daily/2022-08-21.html</id>
-    <published>2022-08-21T14:00:00.000Z</published>
-    <updated>2022-08-21T14:40:39.865Z</updated>
-    
-    <content type="html"><![CDATA[<p>电影《反贪风暴5》中有这么个情节，一个老人硬拉两个儿子，陪他在养老院和一堆同住的老人吃饭。过程中，反复强调自己有两个儿子，还当众从口袋里拿出一把现金，抽出一部分给一个儿子，并说：你给的钱太多了，我花不完。</p>
-<p>这里透露了两个情况：我有两个儿子、并且他们都管我，我钱很多花不完。</p>
-<p>养老院也是个小社会，有家人管、有钱，这是最硬的两个标志。</p>
-<p>反过来说，如果一个人非常有钱，但家人基本不管，那他很可能在养老院被欺负，因为被欺负了也不会有人帮他出头。被欺负的方式就太多了，比如护工暗地里的区别对待、甚至是虐待。</p>
-<p>想想有些悲哀阴暗。但没办法，现实就是这样。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;电影《反贪风暴5》中有这么个情节，一个老人硬拉两个儿子，陪他在养老院和一堆同住的老人吃饭。过程中，反复强调自己有两个儿子，还当众从口袋里拿出一把现金，抽出一部分给一个儿子，并说：你给的钱太多了，我花不完。&lt;/p&gt;
-&lt;p&gt;这里透露了两个情况：我有两个儿子、并且他们都管我，我钱
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0820 - 蒸汽清洗机</title>
-    <link href="https://atjason.com/daily/2022-08-20.html"/>
-    <id>https://atjason.com/daily/2022-08-20.html</id>
-    <published>2022-08-20T14:00:00.000Z</published>
-    <updated>2022-08-21T14:39:43.267Z</updated>
-    
-    <content type="html"><![CDATA[<p>家里油烟机、空调要清洗，找人上门吧，有点折腾，花钱也不会少。</p>
-<p>简单了解下，整了个蒸汽清洗机。虽说没卖家秀上那么摧枯拉朽般神奇，也确实是有用的。尤其是冬天，反差之下，高温蒸汽的清洁交易是很不错的。</p>
-<p>从纯效率上来讲，自己花很多时间动手打扫卫生，不一定划算。但家不一样，投入的时间精力，不能仅用钱、用效率来衡量。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;家里油烟机、空调要清洗，找人上门吧，有点折腾，花钱也不会少。&lt;/p&gt;
-&lt;p&gt;简单了解下，整了个蒸汽清洗机。虽说没卖家秀上那么摧枯拉朽般神奇，也确实是有用的。尤其是冬天，反差之下，高温蒸汽的清洁交易是很不错的。&lt;/p&gt;
-&lt;p&gt;从纯效率上来讲，自己花很多时间动手打扫卫生，不一定
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0819 - 拆行李箱</title>
-    <link href="https://atjason.com/daily/2022-08-19.html"/>
-    <id>https://atjason.com/daily/2022-08-19.html</id>
-    <published>2022-08-19T14:00:00.000Z</published>
-    <updated>2022-08-21T14:36:25.131Z</updated>
-    
-    <content type="html"><![CDATA[<p>行李箱拉杆坏了，拆了一下，了解了其结构，没用的知识又增加了。</p>
-<p>淘宝搜了下配件，一个小小的结构竟然要20 多元，整个拉杆换了要 40 多，有点被惊到了。可能是太小众，成本下不来。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;行李箱拉杆坏了，拆了一下，了解了其结构，没用的知识又增加了。&lt;/p&gt;
-&lt;p&gt;淘宝搜了下配件，一个小小的结构竟然要20 多元，整个拉杆换了要 40 多，有点被惊到了。可能是太小众，成本下不来。&lt;/p&gt;
-
     
     </summary>
     

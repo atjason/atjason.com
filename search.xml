@@ -4,6 +4,129 @@
   
     
     <entry>
+      <title><![CDATA[0925 - 垫起笔记本]]></title>
+      <url>https://atjason.com/daily/2022-09-25.html</url>
+      <content type="html"><![CDATA[<p>受朋友启发，准备把电脑架起来。这样不用一直低头，对颈椎比较好。<br>‌<br>不过，脖子一直挺着，颈肩也容易疲劳。下一步，就是买工程学座椅了…</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0924 - 都是缘分]]></title>
+      <url>https://atjason.com/daily/2022-09-24.html</url>
+      <content type="html"><![CDATA[<p>之前在群里问 USB 功率计，知道了 IoT Power，进而知道了合宙，进而知道了他们的 Air 系列芯片，正好符合项目技术选型。<br>‌<br>如果不是最开始那一问，我很可能不会选这个芯片，或者至少会多花不少时间。</p>
+<p>既然是缘分，便多结善缘。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0923 - 咨询而不是外包]]></title>
+      <url>https://atjason.com/daily/2022-09-23.html</url>
+      <content type="html"><![CDATA[<p>在产品的整个周期中，外包是要慎重考虑的，有很强的两面性。<br>‌<br>从短期来看，比如在产品的早期，外包的好处是能快速出原型、出产品，快速试错，看市场反应、验证需求。如果被证明是伪需求，可以及时止损。</p>
+<p>问题是，如果被证明是真需求，接下来怎么办呢？</p>
+<p>通常，这时很可能已经对外包产生依赖。比如，如果已有产品有问题，自己去直接修改外包做出来的产品，事实上不太可能。</p>
+<p>同时，很难有决心在内部扶植力量，取代外包；这一过程，有可能需要从零开始，也有可能跟不上产品更新迭代的速度。</p>
+<p>简单的说，这一阶段很可能已经被外包绑架了。即便此时外包变得力不从心、跟不上节奏，也很难替换。</p>
+<p>所以，如果某个方向最开始就已经确定是公司的重要方向，就一定要培养自己的研发力量。哪怕前期难一点、慢一点，从长期看、从未来需求和响应速度看，都是值得的。</p>
+<p>当然，这并不是说一定要闭门造车、不引入外部力量。而是说，这一过程，技术上一定是自己主导的。外部的力量，可以用付费咨询的形式，帮我们少走弯路，但一定不是替我们走路。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0922 - 硬件「惊喜」不断]]></title>
+      <url>https://atjason.com/daily/2022-09-22.html</url>
+      <content type="html"><![CDATA[<p>最近调研了一些芯片，发现都有坑，不研究基本是不知道的；</p>
+<p>比如，W801 没有休眠唤醒引脚；意味着休眠后，无法通过传感器唤醒。</p>
+<p>比如，Air101 芯片，写着内置 2MB Flash，而默认用户可用空间只有 48KB。只能通过修改参数、编译固件来调整。而这个操作并不容易，也几乎没有文档。</p>
+<p>比如，一些内置 MCU 的蓝牙芯片，写着待机功耗如何如何。而关键的，MUC 和蓝牙并不能分别休眠，只能一起睡。这样就不能在蓝牙休眠时，MCU 正常工作。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0921 - 《蝴蝶效应》]]></title>
+      <url>https://atjason.com/daily/2022-09-21.html</url>
+      <content type="html"><![CDATA[<p>看了《蝴蝶效应》，有点惊悚，有点深刻。</p>
+<p>我们时不时会想，如果当初我怎样怎样，现在肯定会更好。</p>
+<p>且不说我们无法改变过去；即使能改变，不一定有更好的结果。</p>
+<p>那么，还是那句老话，活在当下。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0920 - 软件与硬件]]></title>
+      <url>https://atjason.com/daily/2022-09-20.html</url>
+      <content type="html"><![CDATA[<p>软件的 Hello World，<br>硬件的 Blink。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0919 - 硬件与软件]]></title>
+      <url>https://atjason.com/daily/2022-09-19.html</url>
+      <content type="html"><![CDATA[<p>搞硬件和搞软件真的很不一样。</p>
+<ul>
+<li>少个零件，啥也干不了；</li>
+<li>一个快递，就能让整个项目卡几天。</li>
+<li>出了故障，从硬件到固件到软件，可能的链条很长。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0918 - 保存情怀]]></title>
       <url>https://atjason.com/daily/2022-09-18.html</url>
       <content type="html"><![CDATA[<p>之前做的第一个硬件原型机，经过迭代，其实已经用不上。尤其遇到无法刷固件的情况，花了几个小时都没折腾好。</p>
@@ -16484,15 +16607,16 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0505 - 不可细说]]></title>
-      <url>https://atjason.com/daily/2020-05-05.html</url>
-      <content type="html"><![CDATA[<p>很多东西，看起来很明确，可真往细了看，一片模糊。</p>
-<p>比如，从飞机上看，大陆和大海之间，有明显的海岸线。可真站在沙滩上，你能画出海岸线在哪吗？</p>
-<p>比如，我们总说，活在当下，意思很明确对吧？那么请问，这个当下是什么，几点几分？哪个时区的几点几分？前后持续持久？超出一秒，还算当下吗？</p>
-<p>比如，我说手、胳膊，你可以很清晰地在脑海中想到是什么对吧？那么请问，手和胳膊的分界点在哪？在哪条线的一边是手、另一边是胳膊？</p>
-<p>也许你会说，你这都是闲的，没事找事型的。好，来点实际的。</p>
-<p>比如，交易中的低买高卖、赚取差价，简洁明了对吧？那么请问，多低是低、多高是高？现在是低还是高？</p>
-<p>无限细分，事情不是变得更清晰，反而是更模糊。适当的抽象、简化，是我们认识世界，没有办法的办法。</p>
+      <title><![CDATA[0504 - 《坏血》]]></title>
+      <url>https://atjason.com/daily/2020-05-04.html</url>
+      <content type="html"><![CDATA[<p>今天看完了这本书，感觉挺一般。</p>
+<p>从一开始，我脑子里一直有这个问题：在都是人精的现代，这样的惊天骗局，是怎么一步步形成的？</p>
+<p>看完书，我也没找到满意的答案。</p>
+<p>其次的疑问，她是怎么得到巨量融资、做到天量估值。尤其，有大量钱的人，都是人精中的人精。看完书，我感觉最主要的，是大饼与吃大饼的人。</p>
+<p>首先，她画的大饼，是很多人需要的。有钱人，在我们看来，可能衣食无忧，没什么可烦的。事实上，他们的烦恼也不小，即如何保持现在的财富、地位，以及谋求更多的财富、更高的地位。要实现这样的目标，就需要新的增长点，尤其是像 iPhone 那样划时代的产品；一般的小项目，入不了他们的眼。</p>
+<p>反过来讲，他们特别特别害怕错过这样的机会。比如，当机构 A 想要投资该公司，在对公司的问题提出质疑时，他们特别担心，对公司不提出质疑的机构 B，得到了这次黄金投资机会；而自己，则被挤出未来的诱人的增加机会。于是，他们放弃的质疑，把钱打了过去。机构的判断力，就这样慢慢丧失了。而该公司，也越来越被纵容。</p>
+<p>书中还有一些有意思的点。比如，投资该公司的爸爸中，有新闻大亨默多克。爆光这一骗局的，也正是旗下《华尔街日报》的记者。期间，她试图让默多克毙掉这篇报道；毕竟，这会影响他真金白银的投资。可，后者拒绝了。</p>
+<p>让我比较佩服的一点，她聚拢的都是顶级资源，包括前国务卿、军方高层、默多克、甲骨文创始人等等。有如此能耐，如果不是骗局，真的能成大事。</p>
 ]]></content>
       
         <categories>
@@ -16505,16 +16629,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0504 - 《坏血》]]></title>
-      <url>https://atjason.com/daily/2020-05-04.html</url>
-      <content type="html"><![CDATA[<p>今天看完了这本书，感觉挺一般。</p>
-<p>从一开始，我脑子里一直有这个问题：在都是人精的现代，这样的惊天骗局，是怎么一步步形成的？</p>
-<p>看完书，我也没找到满意的答案。</p>
-<p>其次的疑问，她是怎么得到巨量融资、做到天量估值。尤其，有大量钱的人，都是人精中的人精。看完书，我感觉最主要的，是大饼与吃大饼的人。</p>
-<p>首先，她画的大饼，是很多人需要的。有钱人，在我们看来，可能衣食无忧，没什么可烦的。事实上，他们的烦恼也不小，即如何保持现在的财富、地位，以及谋求更多的财富、更高的地位。要实现这样的目标，就需要新的增长点，尤其是像 iPhone 那样划时代的产品；一般的小项目，入不了他们的眼。</p>
-<p>反过来讲，他们特别特别害怕错过这样的机会。比如，当机构 A 想要投资该公司，在对公司的问题提出质疑时，他们特别担心，对公司不提出质疑的机构 B，得到了这次黄金投资机会；而自己，则被挤出未来的诱人的增加机会。于是，他们放弃的质疑，把钱打了过去。机构的判断力，就这样慢慢丧失了。而该公司，也越来越被纵容。</p>
-<p>书中还有一些有意思的点。比如，投资该公司的爸爸中，有新闻大亨默多克。爆光这一骗局的，也正是旗下《华尔街日报》的记者。期间，她试图让默多克毙掉这篇报道；毕竟，这会影响他真金白银的投资。可，后者拒绝了。</p>
-<p>让我比较佩服的一点，她聚拢的都是顶级资源，包括前国务卿、军方高层、默多克、甲骨文创始人等等。有如此能耐，如果不是骗局，真的能成大事。</p>
+      <title><![CDATA[0505 - 不可细说]]></title>
+      <url>https://atjason.com/daily/2020-05-05.html</url>
+      <content type="html"><![CDATA[<p>很多东西，看起来很明确，可真往细了看，一片模糊。</p>
+<p>比如，从飞机上看，大陆和大海之间，有明显的海岸线。可真站在沙滩上，你能画出海岸线在哪吗？</p>
+<p>比如，我们总说，活在当下，意思很明确对吧？那么请问，这个当下是什么，几点几分？哪个时区的几点几分？前后持续持久？超出一秒，还算当下吗？</p>
+<p>比如，我说手、胳膊，你可以很清晰地在脑海中想到是什么对吧？那么请问，手和胳膊的分界点在哪？在哪条线的一边是手、另一边是胳膊？</p>
+<p>也许你会说，你这都是闲的，没事找事型的。好，来点实际的。</p>
+<p>比如，交易中的低买高卖、赚取差价，简洁明了对吧？那么请问，多低是低、多高是高？现在是低还是高？</p>
+<p>无限细分，事情不是变得更清晰，反而是更模糊。适当的抽象、简化，是我们认识世界，没有办法的办法。</p>
 ]]></content>
       
         <categories>
@@ -22875,12 +22998,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
-      <url>https://atjason.com/daily/2019-05-15.html</url>
-      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
-<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
-<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
-<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
+      <title><![CDATA[0516 - 多做一点点]]></title>
+      <url>https://atjason.com/daily/2019-05-16.html</url>
+      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
+<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
 ]]></content>
       
         <categories>
@@ -22893,10 +23014,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0516 - 多做一点点]]></title>
-      <url>https://atjason.com/daily/2019-05-16.html</url>
-      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
-<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
+      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
+      <url>https://atjason.com/daily/2019-05-15.html</url>
+      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
+<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
+<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
+<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
 ]]></content>
       
         <categories>
@@ -32439,6 +32562,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -32480,22 +32619,6 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -36531,13 +36654,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
-      <url>https://atjason.com/daily/2017-07-29.html</url>
-      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
-<p>至此，理论部分算是学完了。</p>
-<p>下一步，开始实战。</p>
-<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
-<p>明天，先从产品角度考虑，确定交互。</p>
+      <title><![CDATA[0728 - Core 了一天 Data]]></title>
+      <url>https://atjason.com/daily/2017-07-28.html</url>
+      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
+<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
+<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
+<hr>
+<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
+<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
+<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
 ]]></content>
       
         <categories>
@@ -36550,15 +36675,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0728 - Core 了一天 Data]]></title>
-      <url>https://atjason.com/daily/2017-07-28.html</url>
-      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
-<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
-<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
-<hr>
-<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
-<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
-<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
+      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
+      <url>https://atjason.com/daily/2017-07-29.html</url>
+      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
+<p>至此，理论部分算是学完了。</p>
+<p>下一步，开始实战。</p>
+<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
+<p>明天，先从产品角度考虑，确定交互。</p>
 ]]></content>
       
         <categories>
@@ -36944,6 +37067,38 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0718 - 为何要写作]]></title>
+      <url>https://atjason.com/daily/2017-07-18.html</url>
+      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
+<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
+<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
+<ul>
+<li><strong>输出倒逼输入</strong><ul>
+<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
+</ul>
+</li>
+<li><strong>个人品牌建设</strong><ul>
+<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
+</ul>
+</li>
+<li><strong>跨界寻找可能性</strong><ul>
+<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
+<li><strong>多一个维度，多一种可能性</strong></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Mac 开发的神秘面纱：后娘养的嫡长子]]></title>
       <url>https://atjason.com/IndieDev/2017-07-18.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/bx86a.png" alt=""></p>
@@ -37132,38 +37287,6 @@
         <categories>
             
             <category> IndieDev </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0718 - 为何要写作]]></title>
-      <url>https://atjason.com/daily/2017-07-18.html</url>
-      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
-<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
-<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
-<ul>
-<li><strong>输出倒逼输入</strong><ul>
-<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
-</ul>
-</li>
-<li><strong>个人品牌建设</strong><ul>
-<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
-</ul>
-</li>
-<li><strong>跨界寻找可能性</strong><ul>
-<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
-<li><strong>多一个维度，多一种可能性</strong></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -37940,6 +38063,35 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
+      <url>https://atjason.com/daily/2017-06-27.html</url>
+      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
+<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
+<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
+<ul>
+<li><strong>基于数据</strong><ul>
+<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
+</ul>
+</li>
+<li><strong>基于内容</strong><ul>
+<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
+</ul>
+</li>
+</ul>
+<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
+<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Klib 第四版：纯粹，只为悦读]]></title>
       <url>https://atjason.com/PM/2017-06-27_Klib.html</url>
       <content type="html"><![CDATA[<p>在 Kindle 上读书，可以避免纸质书的收纳问题，还能方便地标注，挺好的。不过，标注虽然方便，标注的回顾整理却并不方便。好在，<strong><a href="http://klib.me/cn/" target="_blank" rel="external">Klib</a></strong> 解决了这个问题（如何解决？请看 <a href="https://sspai.com/post/37581" target="_blank" rel="external">这里</a>、以及 <a href="https://sspai.com/post/38688" target="_blank" rel="external">这里</a>）</p>
@@ -37966,35 +38118,6 @@
         <categories>
             
             <category> PM </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0627 - 不能再靠功能取胜]]></title>
-      <url>https://atjason.com/daily/2017-06-27.html</url>
-      <content type="html"><![CDATA[<p>截止目前，我已经先后做了 6 款 mac App，也都先后到了瓶颈。怎么回事呢？</p>
-<p>总体来看，主要是 <strong>产品太过依赖功能</strong>：<strong>当功能基本完成时，就没有更多想象空间了。</strong></p>
-<p>接下来，在考虑新项目时，要注意避免功能为王。反过来，要注意这两个方向：</p>
-<ul>
-<li><strong>基于数据</strong><ul>
-<li>比如，一些 SEO/ASO 工具，本身也确实提供了一些功能，但核心的，还是其背后的数据、以及对数据的挖掘。并且，随着时间推移，数据越多，能提供的服务质量越高，竞品的壁垒也越高。</li>
-</ul>
-</li>
-<li><strong>基于内容</strong><ul>
-<li>比如，像少数派这样的媒体，本身基本没什么功能，但核心的，是其不断累积的内容。并且，随着时间推移，内容越多，其品牌、影响力越大，像搜索引擎收录、被引用这样的数据更好，能越发推动其向前发展，进入正向循环。</li>
-</ul>
-</li>
-</ul>
-<p>像这样两类产品，其发展基本不受功能限制，反而能随着时间的推移，本身越来越好。</p>
-<p>今天和 61 聊他的 <strong>Price Tag</strong>，目前可以说是基于数据，未来可以切入到面向内容。总之，都是我比较看好的。希望他早日杀出一条路，给国内的独立开发者更多信心。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
             
         </categories>
         
@@ -41490,41 +41613,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[《女孩老板》]]></title>
-      <url>https://atjason.com/book/Girlboss.html</url>
-      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
-<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
-<ul>
-<li>一头是成名前如何放荡不羁，然后快速成长；</li>
-<li>另一头是成名后的一个想法、状态。</li>
-</ul>
-<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
-<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
-<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
-<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
-<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
-<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
-<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
-<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
-<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
-<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
-<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
-<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
-<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
-<li>生活得自由并不意味着生活得好。</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 读书笔记 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[201703 - 《从零开始做运营》]]></title>
       <url>https://atjason.com/book/201703.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/z1s34.jpg" alt=""></p>
@@ -41596,6 +41684,41 @@
 <li>然后，你需要衡量微信群和QQ群的优劣。微信群现在非常倾向于熟人之间的交流，同时微信群非常不便于管理。QQ群便于管理，但QQ群的活跃度是个极大的问题。群组的差异会导致运营的不同结果，在我看来，除非到了一定阶段，否则根本没有必要建立群组。 因为群组一旦组织，群主就要对群负责。同时群组会耗费很多时间精力，因此，请慎重考虑建立群组。</li>
 <li>我一直坚持案例的意义在于如何避免失败，而非如何成功。</li>
 <li>我们看到的大多是成功者的案例，其中成功的精髓无法通过表面现象和简单的方法论获得。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 读书笔记 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[《女孩老板》]]></title>
+      <url>https://atjason.com/book/Girlboss.html</url>
+      <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/gq0am.jpg" alt=""></p>
+<p>感觉「<a href="https://www.amazon.cn/gp/product/B00XL8T18K/ref=as_li_ss_tl?ie=UTF8&amp;camp=536&amp;creative=3132&amp;creativeASIN=B00XL8T18K&amp;linkCode=as2&amp;tag=llll1-23" target="_blank" rel="external">女孩老板</a>」这本书两头笔墨比较多：</p>
+<ul>
+<li>一头是成名前如何放荡不羁，然后快速成长；</li>
+<li>另一头是成名后的一个想法、状态。</li>
+</ul>
+<h2 id="做自己擅长的事"><a href="#做自己擅长的事" class="headerlink" title="做自己擅长的事"></a>做自己擅长的事</h2><p>主人公创业的领域是古董女装，而她自己从小就非常偏爱这一块，所以才会有接下来的坚持、乃至成功。</p>
+<h2 id="过自己想要的生活"><a href="#过自己想要的生活" class="headerlink" title="过自己想要的生活"></a>过自己想要的生活</h2><p>主人公知道自己不擅长的领域，进而就规避掉。比如内向、叛逆，这样的性格不擅长交际，但对于躲在屏幕后、在 eBay 及社交媒体上工作、交流，却完全没有问题。</p>
+<h2 id="不断演进"><a href="#不断演进" class="headerlink" title="不断演进"></a>不断演进</h2><p>主人公一开始也绝对想象不到目前的成功及状态，而只是由于喜欢及选择，一步步坚持、一步步改进，慢慢变成了现在的样子。</p>
+<p>我也是个没有长远规划的人，更习惯于对当下的情况做决策，走好眼下及未来稍远一点的路。有主人公的背书，未来就继续这样吧。</p>
+<h2 id="书摘"><a href="#书摘" class="headerlink" title="书摘"></a>书摘</h2><ul>
+<li>当一个人心中只剩下终极目标时，那么他将在前进的过程中错过很多有趣的东西。更好的办法是基于实际情况而不断调整目标，然后逐渐发展。</li>
+<li>我创办Nasty Gal的部分原因是我希望得到一份能自给自足而不需要与很多人打交道的工作。</li>
+<li>将力量用在你生活中那些积极的事情上，你就会惊讶地发现那么多积极的事情正在发生。</li>
+<li>不存在什么因果法则，在其他人失败时，你的生意也未必会取得成功，所以为什么不祈求他们过得更好呢？与此同时，你的心情也会随之变好。</li>
+<li>不再把时间浪费在琢磨那些我不喜欢的事情上。你必须用力将那些消极的因子从你的脑子里剔除，就像你把不希望留在家里的废物毫不留情地踢出去一样。</li>
+<li>我真的认为正确的事情做起来应该得心应手，身心合一。</li>
+<li>当你在微不足道的事情上开始用心时，你就会惊喜地发现，那些大事情经常更容易做成。</li>
+<li>钱意味着自由。如果你学会掌控自己的财政，而不是反过来受制于钱，就不会陷入工作、地点和人际关系的窠臼，你厌恶这些的原因，只是因为你负担不起到别处去的成本。学会如何管理自己的钱财，是你在任何时候都要做的最重要的事情。经济处于良好状态，能打开多扇本来拦阻你的大门。经济陷入困境，本来敞开的大门也会在你面前合上。</li>
+<li>生活得自由并不意味着生活得好。</li>
 </ul>
 ]]></content>
       
@@ -48442,6 +48565,29 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
+      <url>https://atjason.com/daily/2016-05-08.html</url>
+      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
+<p>不见得。</p>
+<p>也许是劲使错地方了。</p>
+<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
+<ul>
+<li>做自己擅长的、坚持做、更擅长。</li>
+<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
+<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0509 - 选择开源软件，还是付费软件？]]></title>
       <url>https://atjason.com/daily/2016-05-09.html</url>
       <content type="html"><![CDATA[<p>各有好坏。</p>
@@ -48456,29 +48602,6 @@
 <li>选择用户多的。这通常意味着网上会有充足的教程，也会有人把自己踩过的坑记录下来。有了这些资料，会让自己遇到问题时更容易解决。</li>
 </ul>
 <p>当然，开发者也是人、也需要生存、也需要收入。鼓励大家为软件付费（不论是直接购买付费软件，还是赞助开源软件），这样才能可持续发展：开发者做出越来精品的软件、消费者为软件付费、开发者继续改进、消费者享受更加精良的软件。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0508 - 战术上的勤奋，不能替代战略上的懒惰]]></title>
-      <url>https://atjason.com/daily/2016-05-08.html</url>
-      <content type="html"><![CDATA[<p>看起来很忙、很勤奋，就一定好？</p>
-<p>不见得。</p>
-<p>也许是劲使错地方了。</p>
-<p>尤其是时间、精力非常有限时，做什么、不做什么，这种选择就显得很重要。</p>
-<ul>
-<li>做自己擅长的、坚持做、更擅长。</li>
-<li>对于不擅长的、不是重点的事，能外包就外包、能用钱解决就用钱解决。</li>
-<li>节省下来的时间、精力，做自己擅长的、坚持做、更擅长。</li>
-</ul>
 ]]></content>
       
         <categories>
@@ -56690,9 +56813,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 结网 </tag>
-            
             <tag> 读书笔记 </tag>
+            
+            <tag> 结网 </tag>
             
         </tags>
         
@@ -56752,9 +56875,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 结网 </tag>
-            
             <tag> 读书笔记 </tag>
+            
+            <tag> 结网 </tag>
             
         </tags>
         
