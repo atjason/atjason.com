@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2022-10-02T13:52:31.686Z</updated>
+  <updated>2022-10-09T15:05:35.089Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,59 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1004 - 电路原理图、PCB、SMT</title>
+    <link href="https://atjason.com/daily/2022-10-04.html"/>
+    <id>https://atjason.com/daily/2022-10-04.html</id>
+    <published>2022-10-04T14:00:00.000Z</published>
+    <updated>2022-10-09T15:05:35.089Z</updated>
+    
+    <content type="html"><![CDATA[<p>本周持续高强度工作，边学边用，基本完成了电路原理图、PCB，达到了可以下单制板、SMT 贴片的程度。</p>
+<p>不过，都是工作上的事，不好拿出来说；也由于这事占了几乎所有时间，没看什么书、思考什么放量，放水一周。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本周持续高强度工作，边学边用，基本完成了电路原理图、PCB，达到了可以下单制板、SMT 贴片的程度。&lt;/p&gt;
+&lt;p&gt;不过，都是工作上的事，不好拿出来说；也由于这事占了几乎所有时间，没看什么书、思考什么放量，放水一周。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1003 - 智能硬件怎么盈利</title>
+    <link href="https://atjason.com/daily/2022-10-03.html"/>
+    <id>https://atjason.com/daily/2022-10-03.html</id>
+    <published>2022-10-03T14:00:00.000Z</published>
+    <updated>2022-10-09T15:03:08.642Z</updated>
+    
+    <content type="html"><![CDATA[<p>我想了一下，<strong>如果只卖智能硬件，估计很难赚钱</strong>。</p>
+<p>这个东西比较复杂，设计、生产、使用过程中，都有可能出问题，是一个投入比较高的东西。复制成本高，卖一个就要造一个，还有售后的麻烦。</p>
+<p><strong>想要快速赚大钱，还得找复制成本低的事</strong>，比如基于智能硬件的增值云服务。多用一个 G 的云存储，成本几乎可以忽略。还可以有价格歧视，比如不同套餐价格差异大。</p>
+<p>但是，想要通过软件赚钱，前提就要有一堆智能硬件。也就是说，还是要买很多硬件出去，才有可能在这些硬件基础上盈利。</p>
+<p>这也涉及到智能硬件定价策略，是高价盈利，还是低价铺货。</p>
+<p>这就是一个<strong>思路和定位：硬件铺路、软件盈利</strong>。</p>
+<p>另外，<strong>复制成本低也是一个相对的事</strong>。就比如说出海，如果整个流程打通了，多生产和多卖一个产品的成本，相对于全链路的仓储发货流量这些成本来说，其实是很低的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我想了一下，&lt;strong&gt;如果只卖智能硬件，估计很难赚钱&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;这个东西比较复杂，设计、生产、使用过程中，都有可能出问题，是一个投入比较高的东西。复制成本高，卖一个就要造一个，还有售后的麻烦。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;想要快速赚大钱，还得
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1002 - 开始画电路原理图</title>
@@ -71,15 +124,15 @@
     <link href="https://atjason.com/daily/2022-09-30.html"/>
     <id>https://atjason.com/daily/2022-09-30.html</id>
     <published>2022-09-30T14:00:00.000Z</published>
-    <updated>2022-10-02T13:48:17.965Z</updated>
+    <updated>2022-10-02T13:57:47.655Z</updated>
     
-    <content type="html"><![CDATA[<p>我做的产品比较多，经常会受到不同的用户反馈。</p>
+    <content type="html"><![CDATA[<p>我做的产品比较多，经常会收到不同的用户反馈。</p>
 <p>如果用户客气，我会更客气；<br>如果他口吐莲花，我不会拉低我的下限去搭理他，不配。</p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;我做的产品比较多，经常会受到不同的用户反馈。&lt;/p&gt;
+      &lt;p&gt;我做的产品比较多，经常会收到不同的用户反馈。&lt;/p&gt;
 &lt;p&gt;如果用户客气，我会更客气；&lt;br&gt;如果他口吐莲花，我不会拉低我的下限去搭理他，不配。&lt;/p&gt;
 
     
@@ -144,11 +197,11 @@
   </entry>
   
   <entry>
-    <title>0927 - 数据压缩不止境</title>
+    <title>0927 - 数据压缩无止境</title>
     <link href="https://atjason.com/daily/2022-09-27.html"/>
     <id>https://atjason.com/daily/2022-09-27.html</id>
     <published>2022-09-27T14:00:00.000Z</published>
-    <updated>2022-10-02T13:44:55.136Z</updated>
+    <updated>2022-10-02T13:54:58.404Z</updated>
     
     <content type="html"><![CDATA[<p>需要存储一个时间序列，在想一个压缩方法。</p>
 <p>不太想用纯二进制的格式，感觉像个黑盒，出问题不容易发现、调试。</p>
@@ -487,56 +540,6 @@
     
       &lt;p&gt;与其担心宏观经济，不如关注自己；&lt;br&gt;你对自己生活的影响，往往比宏观经济对你的影响大得多。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0914 - 第一次遇到硬件中的诡异问题</title>
-    <link href="https://atjason.com/daily/2022-09-14.html"/>
-    <id>https://atjason.com/daily/2022-09-14.html</id>
-    <published>2022-09-14T14:00:00.000Z</published>
-    <updated>2022-09-18T12:34:18.663Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天遇到一个很诡异的问题，蓝牙能发送信号，不能接收信号。<br>‌<br>第一反应是误触发了休眠模式，因为休眠模式就是这个表现。于是，朝着这个方向一通研究，结果无果。</p>
-<p>期间，还有其他方向的各种尝试，花了很多时间，非常影响心情。</p>
-<p>最后，还是一位高人的指点，因为使用软串口 + 高波特率，可能会产生不稳定的问题。尝试降低波特率，果然正常了。</p>
-<p>做开发总是遇到这样的事，卡在一个地方，怎么都过不去。经常无数折腾，在即将放弃的前夕，终于柳暗花明。</p>
-<p>之前做软件，时不时来这么一下。硬件领域，这种问题估计会更多。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天遇到一个很诡异的问题，蓝牙能发送信号，不能接收信号。&lt;br&gt;‌&lt;br&gt;第一反应是误触发了休眠模式，因为休眠模式就是这个表现。于是，朝着这个方向一通研究，结果无果。&lt;/p&gt;
-&lt;p&gt;期间，还有其他方向的各种尝试，花了很多时间，非常影响心情。&lt;/p&gt;
-&lt;p&gt;最后，还是一位高人
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0913 - 自定义协议及数据校验</title>
-    <link href="https://atjason.com/daily/2022-09-13.html"/>
-    <id>https://atjason.com/daily/2022-09-13.html</id>
-    <published>2022-09-13T14:00:00.000Z</published>
-    <updated>2022-09-18T12:33:08.829Z</updated>
-    
-    <content type="html"><![CDATA[<p>研究了自定义协议、数据校验，结论是继续使用目前的自定义协议，加上求和校验。<br>‌<br>关于自定义协议，比如，小米在蓝牙的基础上，自定义了 MMA 协议。不过，对我来说有点过于复杂、不必要。</p>
-<p>关于校验，蓝牙本身有简单的奇偶校验，应用层多半会有自己的校验，比如 CRC。同样的，为了简单，暂时使用求和校验。不过，为了避免同时有正负偏移而和不变，加了简单的码表，也就是加额外的偏移，明显提高校验成功率。CRC 其实也是这个思路，算是借鉴了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;研究了自定义协议、数据校验，结论是继续使用目前的自定义协议，加上求和校验。&lt;br&gt;‌&lt;br&gt;关于自定义协议，比如，小米在蓝牙的基础上，自定义了 MMA 协议。不过，对我来说有点过于复杂、不必要。&lt;/p&gt;
-&lt;p&gt;关于校验，蓝牙本身有简单的奇偶校验，应用层多半会有自己的校验，比
     
     </summary>
     

@@ -65,13 +65,13 @@
 <meta name="description" content="需要存储一个时间序列，在想一个压缩方法。 不太想用纯二进制的格式，感觉像个黑盒，出问题不容易发现、调试。 直观的一个想法，第一个时间为完整的，之后为和前一个时间的差值。考虑到采样频率不高，这样会累积误差，改为和完整时间的差值。 进一步的，之前直觉的是用十进制。后来想到，用0-9a-zA-Z可以组成62进制。当然，如果用 char 可以存储 256 个字符，形成 256 进制。但这样会用到不可见字符">
 <meta name="keywords">
 <meta property="og:type" content="article">
-<meta property="og:title" content="0927 - 数据压缩不止境">
+<meta property="og:title" content="0927 - 数据压缩无止境">
 <meta property="og:url" content="https://atjason.com/daily/2022-09-27.html">
 <meta property="og:site_name" content="Jason">
 <meta property="og:description" content="需要存储一个时间序列，在想一个压缩方法。 不太想用纯二进制的格式，感觉像个黑盒，出问题不容易发现、调试。 直观的一个想法，第一个时间为完整的，之后为和前一个时间的差值。考虑到采样频率不高，这样会累积误差，改为和完整时间的差值。 进一步的，之前直觉的是用十进制。后来想到，用0-9a-zA-Z可以组成62进制。当然，如果用 char 可以存储 256 个字符，形成 256 进制。但这样会用到不可见字符">
-<meta property="og:updated_time" content="2022-10-02T13:44:55.136Z">
+<meta property="og:updated_time" content="2022-10-02T13:54:58.404Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="0927 - 数据压缩不止境">
+<meta name="twitter:title" content="0927 - 数据压缩无止境">
 <meta name="twitter:description" content="需要存储一个时间序列，在想一个压缩方法。 不太想用纯二进制的格式，感觉像个黑盒，出问题不容易发现、调试。 直观的一个想法，第一个时间为完整的，之后为和前一个时间的差值。考虑到采样频率不高，这样会累积误差，改为和完整时间的差值。 进一步的，之前直觉的是用十进制。后来想到，用0-9a-zA-Z可以组成62进制。当然，如果用 char 可以存储 256 个字符，形成 256 进制。但这样会用到不可见字符">
 
 
@@ -106,7 +106,7 @@
 
 
 
-  <title>0927 - 数据压缩不止境 | Jason</title>
+  <title>0927 - 数据压缩无止境 | Jason</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -289,7 +289,7 @@
             
             
               
-                0927 - 数据压缩不止境
+                0927 - 数据压缩无止境
               
             
           </h1>
@@ -484,7 +484,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2547</span>
+                <span class="site-state-item-count">2549</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -707,7 +707,7 @@
         var disqus_config = function () {
           this.page.url = 'https://atjason.com/daily/2022-09-27.html';
           this.page.identifier = 'daily/2022-09-27.html';
-          this.page.title = '0927 - 数据压缩不止境';
+          this.page.title = '0927 - 数据压缩无止境';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://atjason.disqus.com/embed.js';
