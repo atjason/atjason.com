@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2022-10-09T15:05:35.089Z</updated>
+  <updated>2022-10-30T15:22:36.142Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,189 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1030 - 锂电池过放保护</title>
+    <link href="https://atjason.com/daily/2022-10-30.html"/>
+    <id>https://atjason.com/daily/2022-10-30.html</id>
+    <published>2022-10-30T14:00:00.000Z</published>
+    <updated>2022-10-30T15:22:36.142Z</updated>
+    
+    <content type="html"><![CDATA[<p>锂电池供电，需要考虑电压稳定性的问题。一般电源系统有类似 LDO 的稳压系统，但关键是，发现失压后怎么办？</p>
+<p>其中一个想法时，低压休眠，且不能被唤醒。这又涉及到电压比较判断，而要实现这个判断不容易。比如，芯片的高压电可能是 2.0V，明显低于锂电池的最低电压，也即低压时也能被唤醒的。使用电阻分压，又会明显受芯片内阻影响。而且，一旦将来不同批次芯片内阻调整，代码就不能用的了。</p>
+<p>如果用其他办法，诸如低压时芯片判断电源电路，再由用户手动打开，或者由充电电路触发，其实都会明显增加项目的复杂度。</p>
+<p>最后的办法，是依赖锂电池过放保护芯片，比如低于 3V 就不放电。实际上，市面上买到的锂电池，这个电压是 2.75V；如果要 3V，需要一定量才能起订，比如 1000。我实测了下，低电压时确实会停止放电，不过在低电时，电压电流都非常不稳定，2.75V 或 3V，更多是象征意义的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;锂电池供电，需要考虑电压稳定性的问题。一般电源系统有类似 LDO 的稳压系统，但关键是，发现失压后怎么办？&lt;/p&gt;
+&lt;p&gt;其中一个想法时，低压休眠，且不能被唤醒。这又涉及到电压比较判断，而要实现这个判断不容易。比如，芯片的高压电可能是 2.0V，明显低于锂电池的最低电压，也
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1029 - 重芯再来</title>
+    <link href="https://atjason.com/daily/2022-10-29.html"/>
+    <id>https://atjason.com/daily/2022-10-29.html</id>
+    <published>2022-10-29T14:00:00.000Z</published>
+    <updated>2022-10-30T15:16:53.431Z</updated>
+    
+    <content type="html"><![CDATA[<p>板子做好了，代码写好了，发现功耗不行，要重新选芯片[裂开]</p>
+<p>其实，之前也并不是完全没考虑。最主要自然是缺乏经验；还有个原因，之前假想的是按 1000mAh 来估算待机时间，实际做下来只能塞进 500mAh 的电池，待机时间可不缩水一半。</p>
+<p>这个时候再去选芯片，确实需求更明确，也更容易等到合适的。且不说已经做的工作浪费，关键的问题在于，每个芯片各自为政，一旦选择，就被严重绑定，不得不慎重。</p>
+<p>如果选用诸如 RT-Thread 之类的芯片上的小操作系统，虽说牺牲了点空间、性能、待机时间，却换来了更高的开发效率，是划算的。关键这也限制了芯片的选择，毕竟这类系统支持的芯片是有限的。并且，也很担心不能很好地支持芯片特有的功能。</p>
+<p>还在纠结中…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;板子做好了，代码写好了，发现功耗不行，要重新选芯片[裂开]&lt;/p&gt;
+&lt;p&gt;其实，之前也并不是完全没考虑。最主要自然是缺乏经验；还有个原因，之前假想的是按 1000mAh 来估算待机时间，实际做下来只能塞进 500mAh 的电池，待机时间可不缩水一半。&lt;/p&gt;
+&lt;p&gt;这个时候
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1028 - 免费与付费</title>
+    <link href="https://atjason.com/daily/2022-10-28.html"/>
+    <id>https://atjason.com/daily/2022-10-28.html</id>
+    <published>2022-10-28T14:00:00.000Z</published>
+    <updated>2022-10-30T15:12:42.195Z</updated>
+    
+    <content type="html"><![CDATA[<p>付费，很多时候买的是一个承诺。</p>
+<p>免费服务，如果服务质量出问题了，最多损失点流量和口碑，服务提供者可能根本不在乎，很可能压根不打算修复。</p>
+<p>而付费服务出问题，损失的可能是未来的全部收入。就像是契约，违约成本越高，服务才更可靠。</p>
+<p>连爱情都有保鲜期，还能指望免费服务恒久远吗。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;付费，很多时候买的是一个承诺。&lt;/p&gt;
+&lt;p&gt;免费服务，如果服务质量出问题了，最多损失点流量和口碑，服务提供者可能根本不在乎，很可能压根不打算修复。&lt;/p&gt;
+&lt;p&gt;而付费服务出问题，损失的可能是未来的全部收入。就像是契约，违约成本越高，服务才更可靠。&lt;/p&gt;
+&lt;p&gt;连爱情都
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1027 - 问题逐个击破</title>
+    <link href="https://atjason.com/daily/2022-10-27.html"/>
+    <id>https://atjason.com/daily/2022-10-27.html</id>
+    <published>2022-10-27T14:00:00.000Z</published>
+    <updated>2022-10-30T15:11:28.048Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，一个大问题有10个环节，不可能一上来每个环节都做到最好，那不现实。</p>
+<p>可以每个环节先做到60分。等总体可用了，再一个个环节优化，做到80分。如果还有余力、还值得优化，就继续迭代。</p>
+<p>事后看显而易见，事前可能一片茫然。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，一个大问题有10个环节，不可能一上来每个环节都做到最好，那不现实。&lt;/p&gt;
+&lt;p&gt;可以每个环节先做到60分。等总体可用了，再一个个环节优化，做到80分。如果还有余力、还值得优化，就继续迭代。&lt;/p&gt;
+&lt;p&gt;事后看显而易见，事前可能一片茫然。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1026 - 通过蓝牙传输大文件</title>
+    <link href="https://atjason.com/daily/2022-10-26.html"/>
+    <id>https://atjason.com/daily/2022-10-26.html</id>
+    <published>2022-10-26T14:00:00.000Z</published>
+    <updated>2022-10-30T15:10:34.854Z</updated>
+    
+    <content type="html"><![CDATA[<p>蓝牙 MTU 只有 247 字节。去掉协议头之类的，可用字节更少。一次只能传这么小的数据，意味着传输很慢。</p>
+<p>实测通过蓝牙传输 552KB 的文件，用时 7 分钟(436s)</p>
+<p>这个主要的应用场景是：微信小程序下载新版固件，然后通过蓝牙发给芯片进行升级。</p>
+<p>实际上，如果只更新脚本，大概 20KB；如果完整更新（固件+脚本），大概 300KB。也就是说，可能需要 4 分钟进行完整更新。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;蓝牙 MTU 只有 247 字节。去掉协议头之类的，可用字节更少。一次只能传这么小的数据，意味着传输很慢。&lt;/p&gt;
+&lt;p&gt;实测通过蓝牙传输 552KB 的文件，用时 7 分钟(436s)&lt;/p&gt;
+&lt;p&gt;这个主要的应用场景是：微信小程序下载新版固件，然后通过蓝牙发给芯片进行升
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1025 - 硬件的坑</title>
+    <link href="https://atjason.com/daily/2022-10-25.html"/>
+    <id>https://atjason.com/daily/2022-10-25.html</id>
+    <published>2022-10-25T14:00:00.000Z</published>
+    <updated>2022-10-30T15:08:23.898Z</updated>
+    
+    <content type="html"><![CDATA[<p>遇到一个诡异的问题，接线完全正确，死活不干活。最后通过万用表测量才发现，其中一根面包线是坏的、不通电的，我去。</p>
+<p>还有个坑，做的充电电路，总是不能正确工作。实在搞不定，还寄给了朋友高手帮忙。朋友收到一试，正常啊。更奇怪了。</p>
+<p>经过高手指点，可能是电源不同。原来我使用的是可调电源，刚开始安全起见，限定了 100mA 电流，想着大不了用小电流充电；事实上貌似不是这样。比如，充电芯片判断这时电池电压低，要上 500mA 大电流。而由于限流，不能如期工作，就出现异常。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;遇到一个诡异的问题，接线完全正确，死活不干活。最后通过万用表测量才发现，其中一根面包线是坏的、不通电的，我去。&lt;/p&gt;
+&lt;p&gt;还有个坑，做的充电电路，总是不能正确工作。实在搞不定，还寄给了朋友高手帮忙。朋友收到一试，正常啊。更奇怪了。&lt;/p&gt;
+&lt;p&gt;经过高手指点，可能是电源
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1024 - 人性</title>
+    <link href="https://atjason.com/daily/2022-10-24.html"/>
+    <id>https://atjason.com/daily/2022-10-24.html</id>
+    <published>2022-10-24T14:00:00.000Z</published>
+    <updated>2022-10-30T15:04:56.566Z</updated>
+    
+    <content type="html"><![CDATA[<p>人都不愿被利用，但都想占便宜。</p>
+<p>比如，给你 10 块钱，让你发我的广告，你多半不愿意。</p>
+<p>可是，如果你让 2 个人买 10 块钱的东西，免费送你一个，很可能你会愿意试一下。</p>
+<p>其实是一回事。并且，后者对商家其实是按效果付费，比洒广告费转化更好。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;人都不愿被利用，但都想占便宜。&lt;/p&gt;
+&lt;p&gt;比如，给你 10 块钱，让你发我的广告，你多半不愿意。&lt;/p&gt;
+&lt;p&gt;可是，如果你让 2 个人买 10 块钱的东西，免费送你一个，很可能你会愿意试一下。&lt;/p&gt;
+&lt;p&gt;其实是一回事。并且，后者对商家其实是按效果付费，比洒广告费转
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1004 - 电路原理图、PCB、SMT</title>
@@ -343,203 +526,6 @@
       &lt;p&gt;最近调研了一些芯片，发现都有坑，不研究基本是不知道的；&lt;/p&gt;
 &lt;p&gt;比如，W801 没有休眠唤醒引脚；意味着休眠后，无法通过传感器唤醒。&lt;/p&gt;
 &lt;p&gt;比如，Air101 芯片，写着内置 2MB Flash，而默认用户可用空间只有 48KB。只能通过修改参数、编译固件来调
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0921 - 《蝴蝶效应》</title>
-    <link href="https://atjason.com/daily/2022-09-21.html"/>
-    <id>https://atjason.com/daily/2022-09-21.html</id>
-    <published>2022-09-21T14:00:00.000Z</published>
-    <updated>2022-09-25T14:41:10.984Z</updated>
-    
-    <content type="html"><![CDATA[<p>看了《蝴蝶效应》，有点惊悚，有点深刻。</p>
-<p>我们时不时会想，如果当初我怎样怎样，现在肯定会更好。</p>
-<p>且不说我们无法改变过去；即使能改变，不一定有更好的结果。</p>
-<p>那么，还是那句老话，活在当下。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看了《蝴蝶效应》，有点惊悚，有点深刻。&lt;/p&gt;
-&lt;p&gt;我们时不时会想，如果当初我怎样怎样，现在肯定会更好。&lt;/p&gt;
-&lt;p&gt;且不说我们无法改变过去；即使能改变，不一定有更好的结果。&lt;/p&gt;
-&lt;p&gt;那么，还是那句老话，活在当下。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0920 - 软件与硬件</title>
-    <link href="https://atjason.com/daily/2022-09-20.html"/>
-    <id>https://atjason.com/daily/2022-09-20.html</id>
-    <published>2022-09-20T14:00:00.000Z</published>
-    <updated>2022-09-25T14:39:54.946Z</updated>
-    
-    <content type="html"><![CDATA[<p>软件的 Hello World，<br>硬件的 Blink。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;软件的 Hello World，&lt;br&gt;硬件的 Blink。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0919 - 硬件与软件</title>
-    <link href="https://atjason.com/daily/2022-09-19.html"/>
-    <id>https://atjason.com/daily/2022-09-19.html</id>
-    <published>2022-09-19T14:00:00.000Z</published>
-    <updated>2022-09-25T14:39:20.553Z</updated>
-    
-    <content type="html"><![CDATA[<p>搞硬件和搞软件真的很不一样。</p>
-<ul>
-<li>少个零件，啥也干不了；</li>
-<li>一个快递，就能让整个项目卡几天。</li>
-<li>出了故障，从硬件到固件到软件，可能的链条很长。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;搞硬件和搞软件真的很不一样。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;少个零件，啥也干不了；&lt;/li&gt;
-&lt;li&gt;一个快递，就能让整个项目卡几天。&lt;/li&gt;
-&lt;li&gt;出了故障，从硬件到固件到软件，可能的链条很长。&lt;/li&gt;
-&lt;/ul&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0918 - 保存情怀</title>
-    <link href="https://atjason.com/daily/2022-09-18.html"/>
-    <id>https://atjason.com/daily/2022-09-18.html</id>
-    <published>2022-09-18T14:00:00.000Z</published>
-    <updated>2022-09-25T14:38:31.516Z</updated>
-    
-    <content type="html"><![CDATA[<p>之前做的第一个硬件原型机，经过迭代，其实已经用不上。尤其遇到无法刷固件的情况，花了几个小时都没折腾好。</p>
-<p>理性的讲，可以拆了，把可用的零件继续用。可毕竟是自己第一次亲手焊的原型，我还是花了一些钱，寄给一个卖家高手，让他帮我修复。</p>
-<p>修好之后，不准备再动，就这么保存着，当是种情怀。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前做的第一个硬件原型机，经过迭代，其实已经用不上。尤其遇到无法刷固件的情况，花了几个小时都没折腾好。&lt;/p&gt;
-&lt;p&gt;理性的讲，可以拆了，把可用的零件继续用。可毕竟是自己第一次亲手焊的原型，我还是花了一些钱，寄给一个卖家高手，让他帮我修复。&lt;/p&gt;
-&lt;p&gt;修好之后，不准备再
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0917 - 人到中年</title>
-    <link href="https://atjason.com/daily/2022-09-17.html"/>
-    <id>https://atjason.com/daily/2022-09-17.html</id>
-    <published>2022-09-17T14:00:00.000Z</published>
-    <updated>2022-09-18T12:54:48.820Z</updated>
-    
-    <content type="html"><![CDATA[<p>到了这个年纪，父母越来越老，孩子越来越大。</p>
-<p>虽说自己的能力和经验也在高位，但面临的压力同时是历史高位，并且只增不减。</p>
-<p>今天又听到一个朋友的父母病到难治的程度，花钱如流水，一个月辛苦赚的钱，不够医院几天花。他更加手不能停、不敢歇、更不敢病。</p>
-<p>保重身体，多存钱，最好能有被动收入。说到底，自己能做的，也就这几招。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;到了这个年纪，父母越来越老，孩子越来越大。&lt;/p&gt;
-&lt;p&gt;虽说自己的能力和经验也在高位，但面临的压力同时是历史高位，并且只增不减。&lt;/p&gt;
-&lt;p&gt;今天又听到一个朋友的父母病到难治的程度，花钱如流水，一个月辛苦赚的钱，不够医院几天花。他更加手不能停、不敢歇、更不敢病。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0916 - 多一种能力多一扇门</title>
-    <link href="https://atjason.com/daily/2022-09-16.html"/>
-    <id>https://atjason.com/daily/2022-09-16.html</id>
-    <published>2022-09-16T14:00:00.000Z</published>
-    <updated>2022-09-18T12:49:26.271Z</updated>
-    
-    <content type="html"><![CDATA[<p>做软件开发时，</p>
-<ul>
-<li>不会画图，很受限制；</li>
-<li>不会服务器端开发，很受限制。</li>
-</ul>
-<p>现在做硬件，</p>
-<ul>
-<li>不会画 PCB 板，很受限制；</li>
-<li>不会 3D 打印，很受限制。</li>
-</ul>
-<p>每一个限制被打破，能力就多一个维度。</p>
-<p>不是每个环节都要自己做。但如果一个产品的每个环节自己都能做、都能掌控，感觉不是很好吗。</p>
-<p>人生百年，啥时候学都不晚，学啥都划算。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;做软件开发时，&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不会画图，很受限制；&lt;/li&gt;
-&lt;li&gt;不会服务器端开发，很受限制。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;现在做硬件，&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不会画 PCB 板，很受限制；&lt;/li&gt;
-&lt;li&gt;不会 3D 打印，很受限制。&lt;/li&gt;
-&lt;/
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0915 - 照顾好自己，就照顾了全世界</title>
-    <link href="https://atjason.com/daily/2022-09-15.html"/>
-    <id>https://atjason.com/daily/2022-09-15.html</id>
-    <published>2022-09-15T14:00:00.000Z</published>
-    <updated>2022-09-18T12:35:01.437Z</updated>
-    
-    <content type="html"><![CDATA[<p>与其担心宏观经济，不如关注自己；<br>你对自己生活的影响，往往比宏观经济对你的影响大得多。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;与其担心宏观经济，不如关注自己；&lt;br&gt;你对自己生活的影响，往往比宏观经济对你的影响大得多。&lt;/p&gt;
-
     
     </summary>
     
