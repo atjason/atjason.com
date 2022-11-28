@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-07-28.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/Git/2.4_Undo.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-07-28.html" itemprop="url">
-                  0728 - 要被拍死的感觉
+                <a class="post-title-link" href="/Git/2.4_Undo.html" itemprop="url">
+                  Git: 撤销
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-28T19:52:25+08:00">
-                2016-07-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-08-06T09:26:58+08:00">
+                2016-08-06
               </time>
             
 
@@ -330,8 +330,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
+                  <a href="/categories/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
                   </a>
                 </span>
 
@@ -365,14 +365,18 @@
 
       
         
-          
-            <p><img src="https://ps.toolinbox.net/grnyg.jpg" alt=""></p>
-<p>今天看到别人分享的一个 App: <a href="http://www.v2ex.com/t/295433" target="_blank" rel="external">Snipaste</a>，明显有一种长江后浪拍前浪、要被拍死的感觉。</p>
-<p>人家可是一名在校大学生啊。</p>
-<p>在 V2EX 上分享一天内就有几百个回复，。软件本身异常强大，虽说已经强大到复杂的程度，但对于截图软件来说，一些少量的高级操作，还是有很强的使用场景和吸引力的。</p>
-<p>已经跟作者联系，看能不能一起合作开发 Mac 版。多和年轻人接触，也让自己变年轻。</p>
-
-          
+          <h1 id="取消提交"><a href="#取消提交" class="headerlink" title="取消提交"></a>取消提交</h1><p>如果一不小心提交了本不打算提交的内容，可使用下面的命令撤销最近一次的提交。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git reset --soft HEAD~</div></pre></td></tr></table></figure>
+<h1 id="重新提交"><a href="#重新提交" class="headerlink" title="重新提交"></a>重新提交</h1><p>有时候我们提交完了才发现漏掉了几个文件没有添加，或者提交信息写错了。 此时，可以运行带有 –amend 选项的提交命令尝试重新提交：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git commit --amend</div></pre></td></tr></table></figure>
+<p>这个命令会将暂存区中的文件提交。 如果自上次提交以来你还未做任何修改（例如，在上次提交后马上执行了此命令），那么快照会保持不变，而你所修改的只是提交信息。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/Git/2.4_Undo.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -414,7 +418,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-07-27.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/Git/2.3_CommitHistory.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -436,8 +440,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-07-27.html" itemprop="url">
-                  0727 - 提前完成任务了怎么办？
+                <a class="post-title-link" href="/Git/2.3_CommitHistory.html" itemprop="url">
+                  Git: 提交历史
                 </a>
               
             
@@ -453,8 +457,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-27T19:52:25+08:00">
-                2016-07-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-08-06T09:14:19+08:00">
+                2016-08-06
               </time>
             
 
@@ -476,8 +480,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
+                  <a href="/categories/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
                   </a>
                 </span>
 
@@ -512,453 +516,468 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/fm1wm.jpg" alt=""></p>
-<p>今天早上计划了今天要搞定的 iPic 的几件事，结果不到傍晚就搞定了。之后，就感觉没有动力、不想干活了；休息吧。</p>
-<p>今天，小米发布了笔记本。从消费者的角度，感觉是很舒服的，至少多了个选择。外观确实很精致（且不论像谁、抄谁的疸），在一堆黑塑料的笔记本们中，确实比较出众。</p>
-<p>像笔记本这么成熟、成熟到已经微利的行业，只要用心做，还是能做出精品、还是有机会的。同样，在软件领域，多的是粗糙的软件、也多的是机会，就看自己是否用心。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-07-26.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2016-07-26.html" itemprop="url">
-                  0726 - 不能写一天代码
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-26T19:52:25+08:00">
-                2016-07-26
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="https://ps.toolinbox.net/20pui.jpg" alt=""></p>
-<p>今天集中精力改进 iPic 中七牛、又拍等图床的支持。上午、下午持续代码，效率还不错。等到了晚上，明显感觉不行了。主要了是感觉到累，脑子转不动，效率自然就降低了。虽然最后通过延长时间的方式（即熬夜）把事情做完了，但感觉并不爽。</p>
-<p>以后要注意调节了。一天可分为上午、下午、晚上三大块。最好是选择其中 2 块来持续工作，另一块时间用来做别的事情，调节大脑不同区域工作，更有效率。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-07-25.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2016-07-25.html" itemprop="url">
-                  0725 - 几个星期没写代码，手生了
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-25T19:52:25+08:00">
-                2016-07-25
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="https://ps.toolinbox.net/gr2ei.jpg" alt=""></p>
-<p>iPic 上架后，花了几个星期折腾 EAWiFi. 今天重新开始改进 iPic，发现写代码时明显手生了。</p>
-<p>还是要专注，做一件事、一直做，才能成为这个领域的专家，高效地干活，做出精品。</p>
-<p>赚钱的渠道有很多，也会有很多的诱惑。要能抵制这些诱惑，坚持做自己擅长的，做出精品 Mac App</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-07-24.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2016-07-24.html" itemprop="url">
-                  0724 - Bong 3 手环初体验
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-07-24T19:52:25+08:00">
-                2016-07-24
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p><img src="https://ps.toolinbox.net/bm5iu.jpg" alt=""></p>
-<p>周四下单，周日终于寄到了，这速度，真不算快。</p>
-<p>从功能上讲，我对手环主要有两个需求：看时间、记录频数。</p>
+            <p>git log 有许多选项可以帮助你搜寻你所要找的提交， 接下来我们介绍些最常用的。</p>
 <ul>
-<li>看时间是刚需，因为毕竟已经戴手环了，基本也不会再戴手表了。所以，还是需要看时间的。</li>
-<li>步数，主要是大概记录上当天的运动量，督促自己保持运动。</li>
+<li>-p，显示每次提交的内容差异</li>
+<li>-n，仅显示最近 n 次提交</li>
+<li>–stat，显示每次提交的、简略的统计信息</li>
+<li>–oneline，<code>--pretty=oneline</code> 的简写</li>
+<li>–pretty，指定格式，有一些内建的子选项：oneline, short，full 和 fuller。但最有意思的是 format，可以定制要显示的记录格式。 </li>
+<li>–graph，添加了一些ASCII字符串来形象地展示你的分支、合并历史</li>
+<li>–grep，仅显示含指定关键字的提交，如 <code>git log --grep=&quot;test&quot;</code></li>
+<li>-S，仅显示添加或移除了某个关键字的提交，如 <code>git log -Sfunction_name</code></li>
 </ul>
-<p>目前来看，Bong 3 基本还是满足需求的。不满意的地方：</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/Git/2.2_RecordChanges.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/Git/2.2_RecordChanges.html" itemprop="url">
+                  Git: 记录每次更新到仓库
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-08-06T09:06:55+08:00">
+                2016-08-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>文件的状态：已跟踪或未跟踪。 已跟踪的状态可能处于未修改，已修改或已放入暂存区。 </p>
+<p><img src="https://ps.toolinbox.net/yfdej.jpg" alt=""></p>
+<h1 id="检查当前文件状态"><a href="#检查当前文件状态" class="headerlink" title="检查当前文件状态"></a>检查当前文件状态</h1><p>要查看哪些文件处于什么状态，可以用 git status 命令，其输出十分详细，但其用语有些繁琐。 如果你使用 git status -s 命令或 git status –short 命令，你将得到一种更为紧凑的格式输出。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">$ git status -s</div><div class="line">?? LICENSE.txt</div><div class="line">A  lib/git.rb</div><div class="line">M README</div><div class="line">MM Rakefile</div></pre></td></tr></table></figure></p>
 <ul>
-<li>翻腕看时间这个功能，有时不灵敏，即翻了手腕、时间却不出来，又不能用手点一下就出来，不舒服。而且，会等待约 1 秒后再出来，这也是比较难受的地方。</li>
-<li>测心率这个功能，本来挺好的，可以在测心率期间，手腕必须是抬着的。一旦放下，测量就停止了。或者可能还在继续测量，但毕竟屏幕暗了，也就看不到了。</li>
+<li>新添加的未跟踪文件前面有 ?? 标记</li>
+<li>新添加到暂存区中的文件前面有 A 标记</li>
+<li>修改过的文件前面有 M 标记<ul>
+<li>M 有两个可以出现的位置，出现在右边的 M 表示该文件被修改了但是还没放入暂存区，出现在靠左边的 M 表示该文件被修改了并放入了暂存区</li>
 </ul>
-<p>核心的功能做不精，其他做再精也没用，甚至会减分。目前，我打 69 分。</p>
+</li>
+</ul>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/Git/2.2_RecordChanges.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/Git/2.1_GetGit.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/Git/2.1_GetGit.html" itemprop="url">
+                  Git: 获取 Git 仓库
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-08-05T21:53:29+08:00">
+                2016-08-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Git/" itemprop="url" rel="index">
+                    <span itemprop="name">Git</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h1 id="在现有目录中初始化仓库"><a href="#在现有目录中初始化仓库" class="headerlink" title="在现有目录中初始化仓库"></a>在现有目录中初始化仓库</h1><p>进入该项目目录并输入：<code>git init</code></p>
+<p>该命令将创建一个名为 .git 的子目录，这个子目录含有你初始化的 Git 仓库中所有的必须文件，这些文件是 Git 仓库的骨干。</p>
+<p>通过 git add 命令来实现对指定文件的跟踪，然后执行 git commit 提交：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">git add *.c</div><div class="line">git add LICENSE</div><div class="line">git commit -m &apos;initial project version&apos;</div></pre></td></tr></table></figure></p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/Git/2.1_GetGit.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-08-05.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2016-08-05.html" itemprop="url">
+                  0805 - 买椟还珠
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-08-05T19:52:25+08:00">
+                2016-08-05
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://ps.toolinbox.net/e4c6g.jpg" alt=""></p>
+<p>事情是这样的：</p>
+<blockquote>
+<p>准备学 Git<br>使用 Markdown 做笔记<br>发布到 GitBook 上<br>集成到 GitHub 中</p>
+</blockquote>
+<p>已经绕了一大圈、时间也花得差不多了，发现 Git 还没学…</p>
 
           
         
@@ -997,7 +1016,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/449/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/449/">449</a><span class="page-number current">450</span><a class="page-number" href="/page/451/">451</a><span class="space">&hellip;</span><a class="page-number" href="/page/514/">514</a><a class="extend next" rel="next" href="/page/451/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/449/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/449/">449</a><span class="page-number current">450</span><a class="page-number" href="/page/451/">451</a><span class="space">&hellip;</span><a class="page-number" href="/page/517/">517</a><a class="extend next" rel="next" href="/page/451/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1042,7 +1061,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2570</span>
+                <span class="site-state-item-count">2582</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

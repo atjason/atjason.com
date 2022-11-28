@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-20.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-11-01.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-10-20.html" itemprop="url">
-                  1020 - 不知道干什么的时候，先干点什么
+                <a class="post-title-link" href="/daily/2016-11-01.html" itemprop="url">
+                  1101 - iPic 搞定上传前压缩图片
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-20T19:52:25+08:00">
-                2016-10-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-11-01T19:52:25+08:00">
+                2016-11-01
               </time>
             
 
@@ -366,9 +366,16 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/uci1z.jpg" alt=""></p>
-<p>大脑这东西，不怕忙，就怕不忙。让大脑忙起来，它就会更高效地处理事情。反而，如果一直闲着上，大脑效率就越低，越不想做什么。</p>
-<p>不知道干什么的时候，先忙起来。</p>
+            <p>iPic 现已上传前压缩图片，支持的图片格式：<code>jpg</code>、<code>png</code>、<code>gif</code>；以下是分别使用的压缩库，在此致谢！</p>
+<ul>
+<li><a href="https://github.com/tjko/jpegoptim" target="_blank" rel="external">jpegoptim</a></li>
+<li><a href="https://pngquant.org/" target="_blank" rel="external">pngquant</a></li>
+<li><a href="https://www.lcdf.org/gifsicle/" target="_blank" rel="external">gifsicle</a></li>
+</ul>
+<p>采用有损压缩，压缩后肉眼几乎无法看出区别，却可明显降低图片尺寸。使用压缩后的图片，既可以节省图片的存储空间，还可以加快图片加载速度、节省流量。</p>
+<p>原始图片：<br>384,171 bytes<br><img src="https://ps.toolinbox.net/cn03g.png" alt=""></p>
+<p>压缩后图片：<br>113,159 bytes，压缩至原尺寸的 <strong>29.5%</strong><br><img src="https://ps.toolinbox.net/j9it3.png" alt=""></p>
+<p>如果我不说，你能看出上面哪张图片是压缩过的吗？</p>
 
           
         
@@ -412,7 +419,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-19.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-31.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -434,8 +441,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-10-19.html" itemprop="url">
-                  1019 - iPic 换『芯』上架
+                <a class="post-title-link" href="/daily/2016-10-31.html" itemprop="url">
+                  1031 - 又生疏了
                 </a>
               
             
@@ -451,156 +458,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-19T19:52:25+08:00">
-                2016-10-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>如果你 <a href="https://itunes.apple.com/cn/app/id1101244278?ls=1&amp;mt=12">在 macOS App Store 下载 iPic</a>，可能会觉得和之前 iPic 并无太大不同。但其实，iPic 内在已经有了很大变化。</p>
-<h1 id="iPic-Swift-3-0"><a href="#iPic-Swift-3-0" class="headerlink" title="iPic + Swift 3.0"></a>iPic + Swift 3.0</h1><p><img src="https://ps.toolinbox.net/lvl9n.jpg" alt=""></p>
-<p>是的，第 1 个主要的变化就是，iPic 已经适配了 Swift 3.0. 说实话，这对于普通用户确实是透明、无感的。但了解 Swift 3.0 的朋友会知道，这样的适配代码会有大量的调整，<a href="https://www.v2ex.com/t/311048">还有很多隐藏的坑</a>。并且，由于代码的变化，App 每个犄角旮旯的功能都需要进行仔细的测试。</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/daily/2016-10-19.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-18.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2016-10-18.html" itemprop="url">
-                  1018 - 运营入门
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-18T19:52:25+08:00">
-                2016-10-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-31T19:52:25+08:00">
+                2016-10-31
               </time>
             
 
@@ -658,9 +517,8 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/uzv52.jpg" alt=""></p>
-<p>自己累计也做了好几款产品了，其中有几个自己还觉得拿得出手，但销量上总没什么起色，搞得自己都不知道到底是产品本身有问题、还是运营推广有问题。</p>
-<p>准备花点时间学习下产品的运营推广。正好接下来的时间中，可能很难有大块的时间来写代码、研究大的问题，那就正好用零散的时间来做运营推广吧。</p>
+            <p><img src="https://ps.toolinbox.net/0u7v6.jpg" alt=""></p>
+<p>久不写代码；本打算今天搞定 iPic 上传前压缩，却发现一个小问题都能卡住很久。这感觉，真难受。</p>
 
           
         
@@ -704,7 +562,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-17.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-30.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -726,8 +584,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-10-17.html" itemprop="url">
-                  1017 - 义乌行
+                <a class="post-title-link" href="/daily/2016-10-30.html" itemprop="url">
+                  1030 - iPic 新需求：上传前压缩
                 </a>
               
             
@@ -743,8 +601,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-17T19:52:25+08:00">
-                2016-10-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-30T19:52:25+08:00">
+                2016-10-30
               </time>
             
 
@@ -802,10 +660,8 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/l9orl.jpg" alt=""></p>
-<p>今天去义乌推广路由器，可耻得一台都没有推销出去…</p>
-<p>惆怅了，该怎么继续呢？</p>
-<p>先搁着，明天改进并提交 iPic</p>
+            <p><img src="https://ps.toolinbox.net/jgox1.jpg" alt=""></p>
+<p>恩，至少我是有需求的。现在每天的博客中都是有图的，虽然图本身已经很小了，但能更小，当然是更好的。</p>
 
           
         
@@ -849,7 +705,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-16.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-29.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -871,8 +727,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2016-10-16.html" itemprop="url">
-                  1016 - 6.6 元包邮
+                <a class="post-title-link" href="/daily/2016-10-29.html" itemprop="url">
+                  1029 - 感谢困难
                 </a>
               
             
@@ -888,8 +744,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-16T19:52:25+08:00">
-                2016-10-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-29T19:52:25+08:00">
+                2016-10-29
               </time>
             
 
@@ -947,8 +803,153 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/arsr8.jpg" alt=""></p>
-<p>今天在淘宝买点了小东西，6.6 元包邮。是电商不好做，还是我太嫩看不懂？</p>
+            <p><img src="https://ps.toolinbox.net/klboh.jpg" alt=""></p>
+<p>困难才能激发我们自己都无法相信的创造力，感谢困难。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2016-10-28.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2016-10-28.html" itemprop="url">
+                  1028 - 淡定
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-10-28T19:52:25+08:00">
+                2016-10-28
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://ps.toolinbox.net/33x8b.jpg" alt=""></p>
+<p>今天在写代码时，碰到一个极其诡异的问题。明明应该是对的，却怎么都不对。前后折腾了几个小时，都没有搞定。既浪费了时间，也消耗了精力。</p>
+<p>结果，向高手求助时，对方分分钟就解决了。</p>
+<p>问题奇不奇怪，跟自己的能力有很大关系。所以，遇到奇怪的问题，淡定一点，别急着骂问题，先反思是不是自己能力的问题。</p>
 
           
         
@@ -987,7 +988,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/428/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/428/">428</a><span class="page-number current">429</span><a class="page-number" href="/page/430/">430</a><span class="space">&hellip;</span><a class="page-number" href="/page/514/">514</a><a class="extend next" rel="next" href="/page/430/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/428/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/428/">428</a><span class="page-number current">429</span><a class="page-number" href="/page/430/">430</a><span class="space">&hellip;</span><a class="page-number" href="/page/517/">517</a><a class="extend next" rel="next" href="/page/430/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1032,7 +1033,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2570</span>
+                <span class="site-state-item-count">2582</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

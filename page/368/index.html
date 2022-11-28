@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-03.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-15.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-09-03.html" itemprop="url">
-                  0903 - Firebase Analytics PK Google Analytics
+                <a class="post-title-link" href="/daily/2017-09-15.html" itemprop="url">
+                  0915 - 宁愿写代码，不愿写文案
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-03T22:00:00+08:00">
-                2017-09-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-15T22:00:00+08:00">
+                2017-09-15
               </time>
             
 
@@ -366,191 +366,15 @@
       
         
           
-            <p>之前一直是使用 Google Analytics，无奈 Google 已经禁止移动版的 Google Analytics，全面让位于 Firebase Analytics；于是，在 iPaste for iOS 中，只能选择后者了。</p>
-<p>万万没想到，作为继任者的 Firebase Analytics，在 Event 方面远不如其父辈：</p>
-<ul>
-<li>数据更新慢，目测要 4+ 个小时。在这开始时很要命，因为第一次接触 Firebase，总要多试试才能摸清楚。可试一把就要 4+ 个小时，怒火中烧~</li>
-<li>不支持没有实时事件。虽说有开发者模式，但明显差很多。</li>
-<li>不支持 Category/Event/Label 分类，这个应该是最不方便的。<ul>
-<li>最终，我是使用 <code>AnalyticsEventSelectContent</code> 中的 <code>AnalyticsParameterContentType</code> 和 <code>AnalyticsParameterItemID</code>，够强实现了二级分类的 Event.</li>
-</ul>
-</li>
-<li>不支持页面跳转流。</li>
-<li>报表简陋。<ul>
-<li>比如不支持自定义 Dashboard.</li>
-<li>即使是内置的 Parameter，都无法完全显示在报表中；而自定义的 Parameter，则想当别想了。目测导入 BigQuery 是可以看到的，但目测麻烦、且要钱。</li>
-</ul>
-</li>
-<li>会带来网络请求。这是废话，关键的是，我想延迟网络请求直到用户手动操作，这样 iOS 弹出网络授权时，用户更不可能拒绝。稍后再想想怎么优化。</li>
-</ul>
-<p>当然，还有有些好处的：</p>
-<ul>
-<li>可以自定义用户属性。<ul>
-<li>比如，可以用于区分开发环境和生产环境、是否曾参加 TestFlight 测试。</li>
-</ul>
-</li>
-<li>生成漏斗报表更方便。比如付费转化率。</li>
-<li>Firebase 内置 Crash Report，这个有用。</li>
-<li>如果集成了 Ad 模块，可以识别出更多用户画像，比如年龄段、爱好、等等。不过，会让 AppStore 审核更严格。</li>
-</ul>
-<p>才刚刚接触 Firebase，后续还有很多要学习研究的。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-02.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-09-02.html" itemprop="url">
-                  0902 - Preferences & Permission
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-02T22:00:00+08:00">
-                2017-09-02
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>在 iPaste 的外围功能中，今天主要搞定了 Preferences &amp; Permission.</p>
-<p>Preferences 方面，由于目前主要是静态的功能，于是采用了 UITableViewController，基于 UITableView 使用 Static Cells 模式，手动添加一个个选项。其它一些细节：</p>
-<ul>
-<li>使用 <code>SFSafariViewController</code> 在应用内打开网页，不至于跳出应用。</li>
-<li>使用 <code>MFMailComposeViewController</code> 发送反馈邮件。</li>
-<li>当系统未配置邮箱时，打开网页进行反馈。</li>
-</ul>
-<p>Permission 方面，目前 iPaste 仅使用了网络权限。主要要注意的点：</p>
-<ul>
-<li>在应用启动时，避免一切网络请求。仅当用户有手动操作时，才请求网络。主要的好处是：不至于首次打开应用，就被提示要授权网络连接。</li>
-<li>封装检测当前应用是否可以访问的方法。对于重要的网络请求，先检测网络是否通畅。</li>
-<li>实际测试有些麻烦。因为 iOS 仅在用户首次运行时才弹出授权申请，要重置就要重置所有应用的权限，卸载程序都不行。感觉真的很不友好。</li>
-</ul>
+            <p>iPaste 开发的差不多了，要提交到 App Store 了。于是，迎来了一个非常头大的事：准备媒体素材，如文案、截图、演示视频、等等。</p>
+<p>其中，最最麻烦的是视频。要事先准备好视频中呈现的内容，演算好操作步骤、及各个步骤预期的结果。录制视频后，还要精确剪辑至 30s 内，且按照 App Store 的要求导出。</p>
+<p>在实际操作时，在编辑视频时，在使用 QuickTime 导出时，这货最多导出 1080p 的视频。注意，是 1920 <em> 1080，而不支持 1080 </em> 1920 分辨率。也即，对于手机竖屏录制得到的 1080 * 1920，其仅能导出至 608 × 1080 分辨率。我使用了 ffmpeg 提升分辨率，可以尝试提交至 App Store，但总是失败。折腾了几次，暂时搁置了。</p>
 <hr>
-<p>另外，我一直觉得应用应该尽量减少配置项，今天碰到法理依据了：</p>
-<p><img src="https://ps.toolinbox.net/py5z4.jpg" alt=""></p>
+<p><img src="https://ps.toolinbox.net/hnkpn.jpg" alt=""></p>
+<p>其次，最麻烦的是截图。关键的，是要构思出要展现产品的哪些方面；进而，很巧妙地将这些因素展现在最多 5 张截图中，要能在几秒内吸引用户，尤其是手机默认仅能展现前 2 张图。最后，还要根据尺寸要求进行调整，至少要制作 iPhone 和 iPad 两套图。</p>
+<hr>
+<p>文案也是讲究的；不过，相对于楼上二者，算是最简单的了。</p>
+<p>Anyway，今天终于提交发布候选版了，心里松了一口气。明天继续努力，提交 iPaste for macOS；后天，好好好好好好放松下，最近持续紧张，真是有点累了。</p>
 
           
         
@@ -594,7 +418,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-01.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-14.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -616,8 +440,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-09-01.html" itemprop="url">
-                  0901 - 虽已马不停蹄，无奈时光飞逝
+                <a class="post-title-link" href="/daily/2017-09-14.html" itemprop="url">
+                  0914 - 辛苦良久，只为这一句
                 </a>
               
             
@@ -633,8 +457,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-01T22:00:00+08:00">
-                2017-09-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-14T22:00:00+08:00">
+                2017-09-14
               </time>
             
 
@@ -692,21 +516,16 @@
       
         
           
-            <p>以下为 8 月计划：</p>
+            <p><img src="https://ps.toolinbox.net/z0jrz.PNG" alt=""></p>
+<p>经过多日的研究，经过大量的测试，终于可以放心地说这么一句：</p>
+<blockquote>
+<p>在 iPhone、iPad 和 Mac 间同步。</p>
+</blockquote>
+<p>作为基础服务，iPaste 会免费提供同步功能。同步服务使用的是 CloudKit (也即 iCloud)</p>
 <ul>
-<li>发布 iPaste for macOS 2.0</li>
-<li>发布 iPaste for iOS 1.0</li>
-<li>二者数据可以相互同步</li>
+<li>数据安全可以放心，除了你自己，任何人（包括我）都无法看到你的数据。</li>
+<li>同步速度方面，快的时候很快，基本 &lt; 3s 就可在设备间同步。但由于苹果服务器在国内的表现，大家都懂的，有概率的。</li>
 </ul>
-<p>转眼已是 9 月。</p>
-<p>回顾 8 月，虽然一直在忙碌，无奈自己太过浅薄，要学的东西太多，以至于并未完成原先看起来并不复杂的计划，一声嗟叹。</p>
-<p>无奈，将 8 月计划照搬至 9 月：</p>
-<ul>
-<li>（争取）发布 iPaste for macOS 2.0</li>
-<li>（争取）发布 iPaste for iOS 1.0</li>
-<li>已有产品适配 macOS 10.13</li>
-</ul>
-<p>但愿时光停止。</p>
 
           
         
@@ -750,7 +569,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-31.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-13.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -772,8 +591,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-08-31.html" itemprop="url">
-                  0831 - 每晚放松一刻
+                <a class="post-title-link" href="/daily/2017-09-13.html" itemprop="url">
+                  0913 - 悲伤是厚重的，幸福是欢快的
                 </a>
               
             
@@ -789,8 +608,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-31T22:00:00+08:00">
-                2017-08-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-13T22:00:00+08:00">
+                2017-09-13
               </time>
             
 
@@ -848,10 +667,7 @@
       
         
           
-            <p>最近养成了个习惯：每晚下楼，边走边听小说。</p>
-<p>借小说中描述的世界，放空大脑，缓解一天的疲惫，效果还不错。顺便还能稍微锻炼下身体，吹吹凉风，舒服。</p>
-<p>大脑这家伙，是挺奇怪的，你专门休息，它丫还是会在潜意识里思考东西，有好有坏吧。好的是，可以不经意想想出问题的答案。坏的是，你真的想休息时，它丫还在干活。没办法，只有给它点别的信息处理，它才会不得已放下先前思考的东西。</p>
-<p>最近在听的是《间客》，是之前听过的《庆余年》作者猫腻所著，其实还是能听出很多共通的东西，毕竟同一个的框架、模式、套路，总有相似的痕迹。昨天听的打斗的场景有意思的，今天的部分一般般了。</p>
+            <p>只有厚重，才能承载更多。</p>
 
           
         
@@ -895,7 +711,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-08-30.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-12.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -917,8 +733,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-08-30.html" itemprop="url">
-                  0830 - 迂回于 Swift 包管理
+                <a class="post-title-link" href="/daily/2017-09-12.html" itemprop="url">
+                  0912 - 做了一天正确、但很讨厌的事
                 </a>
               
             
@@ -934,8 +750,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-30T22:00:00+08:00">
-                2017-08-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-12T22:00:00+08:00">
+                2017-09-12
               </time>
             
 
@@ -993,55 +809,160 @@
       
         
           
-            <p>今天又折腾了下 Swift 包管理。</p>
-<p>目前是用 CocoaPods，其实也没太大问题，但总觉得 <strong>对代码的侵入太强</strong>。这不，iPaste for iOS 起了个新项目，想换个清爽点的，于是就又折腾了下。</p>
-<p>除了 Pod，主要有 2 个选择：<strong>Carthage</strong> 和 <strong>Swift Package Manager</strong>. 后者现在还太嫩，仅适合 Swift 项目，很多第三方并不支持，遂放弃。</p>
-<p>那就来到了 Carthage；其实 <strong>Carthage</strong> 并不复杂，<strong>实质是下载第三方库的源码、本地编译为 Frameworks. 剩下的事情，就要开发者自己手动操作了。</strong>其实手动也没什么，就是把 Frameworks 作为 Linked Frameworks 加入项目中，并在编译时复制入 .app. </p>
-<p><strong>为什么不用 Embeded 方式呢？</strong>因为毕竟第三方库是会变的，如果用 Embeded 相当于写死了版本，后续升级时有些麻烦。当然，也是可行的。</p>
-<p>这里就可以看出 <strong>Pod 和 Carthage 的二点不同</strong>：</p>
-<ul>
-<li><strong>Pod 实质是使用源代码集成</strong><ul>
-<li>好处：在写代码时可以方便跳转至第三方库的源码中</li>
-<li>坏处：编译速度慢，尤其是全新编译或打包时</li>
-</ul>
-</li>
-<li><strong>Carthage 实质是使用 Framework 集成</strong><ul>
-<li>好处与坏处，正好与 Pod 相反</li>
-<li>不过，在集成 dYMS 后，也可以在调试期间跳入第三方库的源码中，但依然不能在写代码时跳转</li>
-</ul>
-</li>
-</ul>
-<p>Carthage 这里有个坑：<strong>Swift 编译器版本</strong>。</p>
-<ul>
-<li>如果你电脑上仅有一个 Xcode，没什么问题。而如果你同时安装了 Xcode Beta、又恰巧要为 Xcode Beta 的项目添加依赖，就有问题了。</li>
-<li>Carthage 默认是用 <code>xcrun swift --version</code> 所得到的 Swift 版本进行编译的。而默认情况下，这个肯定是 Xcode 而非 Xcode Beta 的运行环境。再来个而，Swift 3.2 的项目，是无法引用 Swift 3.1 编译器编译出来的 Frameworks 的。</li>
-<li>解决方案也很直接，使用 Xcode Beta 中的编译器即可。只是，貌似 Carthage 并没有相关的参数方便地切换（比如，我试了 <code>TOOLCHAINS=com.apple.dt.toolchain.Swift_3_2 carthage update --platform iOS</code> 来指定 Swift 编译器版本，不过貌似并没有干活），最后比较土的先将 Swift 默认编译器改为 Xcode Beta 版本，编译后再改回来。</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo xcode-select -s /Applications/Xcode-beta.app/Contents/Developer</div><div class="line">carthage update --platform iOS</div><div class="line">sudo xcode-select -s /Applications/Xcode.app/Contents/Developer</div></pre></td></tr></table></figure>
-<p>Carthage 这么简洁美好，<strong>万万没想到，最后还是倒入了 Pod 的怀抱。</strong></p>
-<p><strong>因为 Firebase 只支持 Pod 方式集成？！</strong></p>
-<p>根本原因是，<strong>Firebase 并没有完全开源，部分代码只能用静态库的方式发布</strong>。而 Carthage 目前对静态库的支持并不好（虽然网上也有人成功了，但毕竟不是官方支持，有些麻烦，放弃了）</p>
-<p>早说嘛，我就不折腾 Carthage 了，何必呢？</p>
-<p>另外，还折腾了 <strong>iOS 与 macOS 项目间共享代码</strong>。因为我不想将二者放在一个工程里，怕同时调试时麻烦，就分为 2 个项目了。现在看来，主要有如下方式集成：</p>
-<ul>
-<li>创建本地 Pod 项目<ul>
-<li>好处是可以方便跳入源码，道理和上面介绍的一样</li>
-<li>坏处是，创建本地 Pod 项目，麻烦啊</li>
-<li><strong>最后，还是用了这个方式</strong></li>
-</ul>
-</li>
-<li>使用 Frameworks + Carthage 集成<ul>
-<li>好处是集成简单</li>
-<li>坏处也是 Carthage 本身的限制：看源码麻烦</li>
-</ul>
-</li>
-<li>共享相同的源码文件<ul>
-<li>由于我是自己写代码，不需要和别人共享，这也不失为一条路。</li>
-<li>而且，这个方式最简单。</li>
-</ul>
-</li>
-</ul>
-<p>总算，这事有了结论，明天可以静心地优化 iOS 与 macOS 间的数据同步了。</p>
+            <p><img src="https://ps.toolinbox.net/lw3qq.PNG" alt=""></p>
+<p>没错，就是内购。</p>
+<p>好端端的一个产品，非得加各种让人难受的限制，以期让用户付费升级，这真是非常低劣的玩法。</p>
+<p>不止在于表面的交互，代码里也得加各种奇怪的逻辑。写这样的代码，就感觉是在浪费生命。</p>
+<p>如果以后我足够知名、强硬了，一定会摒弃免费 + 内购这种模式，直接上付费下载，或者免费 + 捐赠，或者直接订阅。</p>
+<p>要是能把时间都花在纯粹有价值的事上，多好啊。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-11.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-09-11.html" itemprop="url">
+                  0911 - 全才才能生存的社会，不够成熟
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-11T22:00:00+08:00">
+                2017-09-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>前两天一位创业程序员，被前女友逼得跳楼的消息，火爆了网络。</p>
+<p>其中一个观察的视角是，这位程序员情商太低，不然不会走到跳楼的地步。虽然很无情，但我基本是认同这个说法的。</p>
+<p>但，我又不是很认同这种现状。也即，一位程序员，即便是位天才程序员，也需要在情商、社交等等编程之外的领域，不至于太差，才能在社会上「活」下去。这样的「活」，对人的要求未免太高了。</p>
+<p>相比之下，可能生物界的进化更充分些。比如，我问什么动物跑得最快，多数人才能回答出来是猎豹。对，猎豹正是这一招鲜，让它得以生存，且博得美名。正是因为一招鲜就可以活下去，它就可以尽可能地向这方向进化，包括身体的各个部分。反之，如果自然环境同时需要它像羚羊一样有耐力，那它一定抓不到羚羊，甚至饿死。</p>
+<p>当然，猎豹肯定不止奔跑这一项技能，还需要伪装等等技能，但这只是个例子。我相信，随着进化的加深，某些能力会进一步加强，而其它能力会进一步退化。关键的，这一进一退，能让它更从容地适应自然。</p>
+<p>对应于人类社会，我想道理是相通的。现在我们还经常听到「全栈」、「综合能力」等等词汇，但我觉得这是人类进化不够充分的体现。一方面，可能今后更多的能力会变成基本技能，就像呼吸一样不会被人提起。另一方面，一招鲜会更有市场。</p>
+<p>还有个角度，从人类整体而言，并不需要一堆能力平平的通才，而需要一个个在某方面极其突出的专才。这样，累加起来的能力总和才最大。比如，不需要一堆有爱因斯坦 99% 的能力、但又会长跑的科学家，而更需要 100%、甚至 200% 的爱因斯坦。</p>
 
           
         
@@ -1080,7 +1001,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/367/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/367/">367</a><span class="page-number current">368</span><a class="page-number" href="/page/369/">369</a><span class="space">&hellip;</span><a class="page-number" href="/page/514/">514</a><a class="extend next" rel="next" href="/page/369/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/367/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/367/">367</a><span class="page-number current">368</span><a class="page-number" href="/page/369/">369</a><span class="space">&hellip;</span><a class="page-number" href="/page/517/">517</a><a class="extend next" rel="next" href="/page/369/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1125,7 +1046,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2570</span>
+                <span class="site-state-item-count">2582</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

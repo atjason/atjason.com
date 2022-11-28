@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-18.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-29.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-09-18.html" itemprop="url">
-                  0918 - 说说 iPaste 的定价模式
+                <a class="post-title-link" href="/daily/2017-09-29.html" itemprop="url">
+                  0929 - CloudXNS 域名解析需要实名认证
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-18T22:00:00+08:00">
-                2017-09-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-29T22:00:00+08:00">
+                2017-09-29
               </time>
             
 
@@ -366,78 +366,13 @@
       
         
           
-            <p>花了这么多时间做产品，自然是想赚点生活费的（手动二哈）。那付费模式怎么定呢？这是我非常头痛的事；之前也在群里跟用户一直聊过这事，一直也没定下来。</p>
-<p>简单比较下不同的付费模式。</p>
-<ul>
-<li><strong>付费下载</strong><ul>
-<li>这个模式开发成本为 0，也即什么都不用做，只要在后台设个价格就可以了。</li>
-<li>但，却是非常危险的，因为需要付费才能下载、才能试用，这会挡住很多可能对 iPaste 感兴趣、需要先试一试才能知道自己是否需要的朋友。</li>
-<li>对于名气比较大的开发者、团队，可以采用。但对于名不见经传的自己，胆还没这么肥，只能放弃了。</li>
-</ul>
-</li>
-<li><strong>免费试用 + 过期收费</strong><ul>
-<li>软件可以免费下载，全功能使用一段时间（如 30 天）。过期后，如果不付费，则功能极度受限（几乎残废）、数据变为只读。</li>
-<li>比如，貌似 Omni Focus 就是采用这种模式，过期后只能查看任务，不能添加新任务。</li>
-<li>这种模式会让用户觉得很压力，觉得开发者很强势。</li>
-</ul>
-</li>
-<li><strong>免费 + 内购模式</strong><ul>
-<li>软件可以免费使用部分功能，内购后解锁全部功能。</li>
-<li>这一模式很常见，主要的问题是：升级之前，无法体验。</li>
-</ul>
-</li>
-<li><strong>免费 + 试用 + 内购模式</strong><ul>
-<li>在「免费 + 内购」模式的基础上，增加了试用功能。也即，可以在充分体验后，再决定是否升级。</li>
-<li>这种模式，<strong>对用户最为友好，但对开发者最不友好</strong>。因为在代码里加各种限制，还要记录用户是否选择试用，等等。就像是一件漂亮完整的衣服上，打了很多补丁。既增加了开发成本，还感觉很难受。</li>
-<li><strong>最终，我采用的是这种方式</strong>。死磕自己，愉悦大家。</li>
-</ul>
-</li>
-</ul>
-<p><strong>到底哪些功能免费、哪些收费呢？</strong>这里罗列一下：</p>
-<table>
-<thead>
-<tr>
-<th>功能点</th>
-<th>免费版</th>
-<th>高级版</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>最近历史数量</td>
-<td>3</td>
-<td>30</td>
-</tr>
-<tr>
-<td>分组数量</td>
-<td>1/0*</td>
-<td>无限</td>
-</tr>
-<tr>
-<td>分组内记录数</td>
-<td>无限</td>
-<td>无限</td>
-</tr>
-<tr>
-<td>拖拽(iPad)</td>
-<td>✖</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>同步</td>
-<td>✅</td>
-<td>✅</td>
-</tr>
-<tr>
-<td>其他</td>
-<td>✅</td>
-<td>✅</td>
-</tr>
-</tbody>
-</table>
-<ul>
-<li>免费版电脑端支持 1 个分组，手机端不支持。</li>
-</ul>
+            <p>今天突然在一个微信群里收到一则消息：CloudXNS 域名解析需要实名认证；未认证者，将在未来几个小时内停止解析。</p>
+<p>真突然。</p>
+<p>毕竟，域名服务器的切换，最长可能需要 48 小时，这样突然的变故，实在是有些突然。</p>
+<p>为什么呢？公安部门的要求。<br>那为什么这么突然呢？鬼知道。毕竟是在天朝上国，没那么多讲道理的地方。</p>
+<p>本想着一劳永逸切换到国外的 DNS 服务商，可一方面毕竟在国内解析慢，另一方面免费的 CloudFlare 并不支持线路切换，只能放弃。</p>
+<p>听了朋友的建议，最后选择了阿里云解析。免费，且支持线路切换。导入的过程不算太顺利，因为 CloudXNS 导出的格式，和阿里云导入的格式，并不完全相同，需要手动修改。并且，还需要有购买域名的地方，修改 nameserver. 总之，是个繁琐的过程。</p>
+<p>这也是个丢包袱的过程。在 CloudXNS 上有多个域名，但发现真正使用也就少数几个，甚至其中一个不到 1 个月就到期了。算了，不再续费了，维持最核心的好了，不在其它地方分散精力了。</p>
 
           
         
@@ -481,7 +416,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-17.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-28.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -503,8 +438,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-09-17.html" itemprop="url">
-                  0917 - 切换至生活模式
+                <a class="post-title-link" href="/daily/2017-09-28.html" itemprop="url">
+                  0928 - 名利之外，保有一份纯真
                 </a>
               
             
@@ -520,8 +455,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-17T22:00:00+08:00">
-                2017-09-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-28T22:00:00+08:00">
+                2017-09-28
               </time>
             
 
@@ -579,9 +514,9 @@
       
         
           
-            <p>持续忙了这么多天，真是有些累了。</p>
-<p>今天切换到生活模式，跟家人一起去了自然博物馆，然后坐船回来，难得安逸一把。</p>
-<p>不知道是抱了一天娃累的，还是精神放松下来后，更感觉到累了。晚上 8 点哄娃睡觉，结果自己也睡着了。11 点醒来洗个澡，一觉睡到早上 8 点，真是睡爽了。</p>
+            <p>马上要同学聚会了，很是期待。</p>
+<p>同学之间，没有名利，只有同学情谊；没有攀比，只有互相祝福。</p>
+<p>名利之外，保有一份纯真，存在内心最柔软的地方。</p>
 
           
         
@@ -625,7 +560,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-16.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-27.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -647,8 +582,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-09-16.html" itemprop="url">
-                  0916 - Today Widget 是个孱弱的家伙
+                <a class="post-title-link" href="/daily/2017-09-27.html" itemprop="url">
+                  0927 - 创新，外行更在行？
                 </a>
               
             
@@ -664,8 +599,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-16T22:00:00+08:00">
-                2017-09-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-27T22:00:00+08:00">
+                2017-09-27
               </time>
             
 
@@ -723,167 +658,15 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/h34q1.jpg" alt=""></p>
-<p>今天美好的大半天，都献给了上面的家伙。</p>
-<p>基本上，出现这个问题主要有 2 个原因：程序闪退、内存超限。</p>
-<p>程序闪退，看似是程序本身的问题，但实际上和 Today Widget 的生命周期有关。Today Widget 基本上是个很弱的家伙，或者说，尽量少的在 Today Widget 中做事情、尽量避免后台任务，尤其是，和 UI 相关的后台任务。因为，当后台任务终于忙完、要更新 UI 时，可能 UI 已经被系统释放了，这里自然就闪退了。</p>
-<p>内存超限方面：</p>
-<ul>
-<li>内存上限是多少呢？这个苹果并没有官方文档说明。从网上搜到的资料，多数说是总内存的 1%，比如对于 iPhone 6 是 10 MB，很小的值。仅供参考。</li>
-<li>在我这边，最直接就是 Core Data 造成的。Core Data 在内存使用方面是很慷慨乃至滥用的。只要一启动，就占用 4+ MB 内存，很大了。另外，Core Data 的内存对象释放机制也很不明确，我试了网上找的很多所谓优化，并没有很明显的下降；还有很多人通过测试验证 Core Data 有 Bug</li>
-<li>还是后台任务方面。其中我有一个操作：从 CloudKit 下载数据。这在大部分情况下都是没有问题的。但，在程序最开始运行时，会从网络下载大量数据，这时程序就崩溃了。</li>
-</ul>
-<p>关键的，一旦 Today Widget 崩溃，基本很难恢复（对于我的程序而言），基本只能靠重启手机来重置。一旦用户发生此类问题，会非常难受。折腾了很久，我也没有很好的解决这个问题，只是尽量降低出现的概率，继续观察吧。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-15.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-09-15.html" itemprop="url">
-                  0915 - 宁愿写代码，不愿写文案
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-15T22:00:00+08:00">
-                2017-09-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>iPaste 开发的差不多了，要提交到 App Store 了。于是，迎来了一个非常头大的事：准备媒体素材，如文案、截图、演示视频、等等。</p>
-<p>其中，最最麻烦的是视频。要事先准备好视频中呈现的内容，演算好操作步骤、及各个步骤预期的结果。录制视频后，还要精确剪辑至 30s 内，且按照 App Store 的要求导出。</p>
-<p>在实际操作时，在编辑视频时，在使用 QuickTime 导出时，这货最多导出 1080p 的视频。注意，是 1920 <em> 1080，而不支持 1080 </em> 1920 分辨率。也即，对于手机竖屏录制得到的 1080 * 1920，其仅能导出至 608 × 1080 分辨率。我使用了 ffmpeg 提升分辨率，可以尝试提交至 App Store，但总是失败。折腾了几次，暂时搁置了。</p>
+            <p>对一个领域越了解，越深知其中的困难和坑，也会感觉做事不易。进而，这种恐惧感，会限制想象力，限制可能的创造。</p>
+<p>而外行，则可以无视实现过程中的技术困难，真抵想要的结果，设想、或者说幻想出最终美好的结果。</p>
+<p>这样看起来，像是外行更可能有新的想法，更容易创新。</p>
 <hr>
-<p><img src="https://ps.toolinbox.net/hnkpn.jpg" alt=""></p>
-<p>其次，最麻烦的是截图。关键的，是要构思出要展现产品的哪些方面；进而，很巧妙地将这些因素展现在最多 5 张截图中，要能在几秒内吸引用户，尤其是手机默认仅能展现前 2 张图。最后，还要根据尺寸要求进行调整，至少要制作 iPhone 和 iPad 两套图。</p>
+<p>类比一下，我们都说小孩子想象力丰富，比如「如果我能飞到天上多好啊」。<strong>但这样的想象力比较肤浅，更多的是对已有认识的随意嫁接。</strong>比如，小孩子知道鸟儿会飞，所以会把「飞」这个能力嫁接到自己身上，进而会有上面的想法。</p>
+<p><strong>这种级别的想象力，难以成大事。</strong>比如，是无法构想出《三体》这种级别的科幻小说，因为后者需要的不仅仅是嫁接这种简单的能力，而是需要对世界有深刻的理解，在充分理解基础规律的前提下，才能进一步构织出看似神奇、但又貌似有些道理的复杂虚拟世界。</p>
 <hr>
-<p>文案也是讲究的；不过，相对于楼上二者，算是最简单的了。</p>
-<p>Anyway，今天终于提交发布候选版了，心里松了一口气。明天继续努力，提交 iPaste for macOS；后天，好好好好好好放松下，最近持续紧张，真是有点累了。</p>
+<p>回到文章开头的问题，目前我的理解是，外行、或者说任何人，都可以随意组合自己已有的认知，构想出新的、自己想象的东西，这当然是好的、对的。但只有 <strong>对事情有更进一步的理解，才能构想出更有意义的。理解越多，构想出的越有价值。</strong></p>
+<p>所以，<strong>外行更容易创新，内行更容易有深刻的创新。</strong></p>
 
           
         
@@ -927,7 +710,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-14.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-26.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -949,8 +732,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-09-14.html" itemprop="url">
-                  0914 - 辛苦良久，只为这一句
+                <a class="post-title-link" href="/daily/2017-09-26.html" itemprop="url">
+                  0926 - 微商的动力
                 </a>
               
             
@@ -966,8 +749,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-14T22:00:00+08:00">
-                2017-09-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-26T22:00:00+08:00">
+                2017-09-26
               </time>
             
 
@@ -1025,16 +808,172 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/z0jrz.PNG" alt=""></p>
-<p>经过多日的研究，经过大量的测试，终于可以放心地说这么一句：</p>
-<blockquote>
-<p>在 iPhone、iPad 和 Mac 间同步。</p>
-</blockquote>
-<p>作为基础服务，iPaste 会免费提供同步功能。同步服务使用的是 CloudKit (也即 iCloud)</p>
+            <p>周围认识有做微商的，那动力，啧啧，跟传销有的一拼。</p>
+<p>简单分析下为什么这么有干劲：</p>
 <ul>
-<li>数据安全可以放心，除了你自己，任何人（包括我）都无法看到你的数据。</li>
-<li>同步速度方面，快的时候很快，基本 &lt; 3s 就可在设备间同步。但由于苹果服务器在国内的表现，大家都懂的，有概率的。</li>
+<li>回报快<ul>
+<li>卖一个，就能看到钱。</li>
+<li>就跟打游戏一样，打死一个怪，立即就有金币。</li>
 </ul>
+</li>
+<li>客单价高<ul>
+<li>一旦打开一个缺口、多了一个用户，就有可能一直给这个用户卖商品（主要是快销品类的），有可能赚的钱会很多</li>
+</ul>
+</li>
+<li>指数效应<ul>
+<li>微商必然是有层次、上下线体系的。</li>
+<li>发展一个下线，躺着就能赚钱，这诱惑，太大了。</li>
+</ul>
+</li>
+</ul>
+<p>所有这个体系都是建立在商品为用户所带来的价值上，一旦这个价值的增速跟不上微商团队的增速、或者不能满足微商从业者对收入增速的预期，就会崩塌。</p>
+<p>当然，也不是说一定就会崩塌，比如安利就活得好好的。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-09-25.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-09-25.html" itemprop="url">
+                  0925 - 我们依然只能看到别人想让我们看到的
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-25T22:00:00+08:00">
+                2017-09-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天有一则新闻占据了很多人的眼球：新版微信更换了启动画面，其中背景中的地图，从 NASA 提供的图片，换成了我国自主卫星所拍摄的照片。</p>
+<p>首先，还是要肯定中国的进步。</p>
+<p>可依然，这真是个屁大点的事。可即便，这么屁大点的事，一旦和微信挂上了钩，则会被各大媒体争相报道。敢问，这世界上真的没有比这张图片更有价值的新闻值得报道吗？即便是在科技圈，也没有别的了吗？</p>
+<p>事实上，有多少新产品渴望被了解，有多少变化正在发生。可是，媒体事实上被巨头把控着，这些变化只能「悄然」发生，甚至到死都不会有多少人知道。</p>
+<p>我们依然只能看到别人想让我们看到的。</p>
 
           
         
@@ -1073,7 +1012,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/364/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/364/">364</a><span class="page-number current">365</span><a class="page-number" href="/page/366/">366</a><span class="space">&hellip;</span><a class="page-number" href="/page/514/">514</a><a class="extend next" rel="next" href="/page/366/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/364/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/364/">364</a><span class="page-number current">365</span><a class="page-number" href="/page/366/">366</a><span class="space">&hellip;</span><a class="page-number" href="/page/517/">517</a><a class="extend next" rel="next" href="/page/366/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1118,7 +1057,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2570</span>
+                <span class="site-state-item-count">2582</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
