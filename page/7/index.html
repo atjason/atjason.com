@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-10-26.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-11-02.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-10-26.html" itemprop="url">
-                  1026 - 通过蓝牙传输大文件
+                <a class="post-title-link" href="/daily/2022-11-02.html" itemprop="url">
+                  1102 - 孩子是种子
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-10-26T22:00:00+08:00">
-                2022-10-26
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-11-02T22:00:00+08:00">
+                2022-11-02
               </time>
             
 
@@ -366,10 +366,9 @@
       
         
           
-            <p>蓝牙 MTU 只有 247 字节。去掉协议头之类的，可用字节更少。一次只能传这么小的数据，意味着传输很慢。</p>
-<p>实测通过蓝牙传输 552KB 的文件，用时 7 分钟(436s)</p>
-<p>这个主要的应用场景是：微信小程序下载新版固件，然后通过蓝牙发给芯片进行升级。</p>
-<p>实际上，如果只更新脚本，大概 20KB；如果完整更新（固件+脚本），大概 300KB。也就是说，可能需要 4 分钟进行完整更新。</p>
+            <p>一颗种子，本身已经具备了发芽长大的内在因素。</p>
+<p>我们能做的，主要是除草施肥这些外在服务。</p>
+<p>至于歪了要不要扶、要不要剪枝，这种干预比较深的操作，要慎重，有时很难说是好是坏。也许，短期做好了某件事，长期削弱了他内心的强大，等等。</p>
 
           
         
@@ -413,7 +412,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-10-25.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-11-01.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -435,8 +434,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-10-25.html" itemprop="url">
-                  1025 - 硬件的坑
+                <a class="post-title-link" href="/daily/2022-11-01.html" itemprop="url">
+                  1101 - 记录一个坑
                 </a>
               
             
@@ -452,8 +451,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-10-25T22:00:00+08:00">
-                2022-10-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-11-01T22:00:00+08:00">
+                2022-11-01
               </time>
             
 
@@ -511,9 +510,9 @@
       
         
           
-            <p>遇到一个诡异的问题，接线完全正确，死活不干活。最后通过万用表测量才发现，其中一根面包线是坏的、不通电的，我去。</p>
-<p>还有个坑，做的充电电路，总是不能正确工作。实在搞不定，还寄给了朋友高手帮忙。朋友收到一试，正常啊。更奇怪了。</p>
-<p>经过高手指点，可能是电源不同。原来我使用的是可调电源，刚开始安全起见，限定了 100mA 电流，想着大不了用小电流充电；事实上貌似不是这样。比如，充电芯片判断这时电池电压低，要上 500mA 大电流。而由于限流，不能如期工作，就出现异常。</p>
+            <p>遇到一个坑，无法记录数据。</p>
+<p>查到最后发现，其实数据已经产生，是获取文件列表的接口有问题。</p>
+<p>接口设计是分批查询，一次最多 50 个。但实际上，在总数有59的情况下，第一次请求只返回 48 个，按照逻辑，没有更多文件，也就不再获取了，因而没有获取到最后的文件，也就无法展示对应的数据。</p>
 
           
         
@@ -557,7 +556,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-10-24.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-10-31.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -579,8 +578,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-10-24.html" itemprop="url">
-                  1024 - 人性
+                <a class="post-title-link" href="/daily/2022-10-31.html" itemprop="url">
+                  1031 - 出租车模式与中介模式
                 </a>
               
             
@@ -596,8 +595,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-10-24T22:00:00+08:00">
-                2022-10-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-10-31T22:00:00+08:00">
+                2022-10-31
               </time>
             
 
@@ -655,10 +654,10 @@
       
         
           
-            <p>人都不愿被利用，但都想占便宜。</p>
-<p>比如，给你 10 块钱，让你发我的广告，你多半不愿意。</p>
-<p>可是，如果你让 2 个人买 10 块钱的东西，免费送你一个，很可能你会愿意试一下。</p>
-<p>其实是一回事。并且，后者对商家其实是按效果付费，比洒广告费转化更好。</p>
+            <p>说的是需求的定义与实现。</p>
+<p>出租车模式，就是乘客明确地知道自己要去哪。司机要做的，是在需求明确的前提下，找到最佳行车跳线。</p>
+<p>中介模式，如果有过租房经历就知道，租客在最开始只有几个模糊的目标，比如几居室、价格、离地铁站近等，是说不出非常具体的需求的。在中介带着看房的过程中，不断的明确自己到底想要租什么样的房子。</p>
+<p>在实现的工作中，更多是中介模式。需要在多次问询和磨合过程中，明确需求，寻找最佳实现方法。</p>
 
           
         
@@ -702,7 +701,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-10-04.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-10-30.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -724,8 +723,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-10-04.html" itemprop="url">
-                  1004 - 电路原理图、PCB、SMT
+                <a class="post-title-link" href="/daily/2022-10-30.html" itemprop="url">
+                  1030 - 锂电池过放保护
                 </a>
               
             
@@ -741,8 +740,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-10-04T22:00:00+08:00">
-                2022-10-04
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-10-30T22:00:00+08:00">
+                2022-10-30
               </time>
             
 
@@ -800,8 +799,10 @@
       
         
           
-            <p>本周持续高强度工作，边学边用，基本完成了电路原理图、PCB，达到了可以下单制板、SMT 贴片的程度。</p>
-<p>不过，都是工作上的事，不好拿出来说；也由于这事占了几乎所有时间，没看什么书、思考什么放量，放水一周。</p>
+            <p>锂电池供电，需要考虑电压稳定性的问题。一般电源系统有类似 LDO 的稳压系统，但关键是，发现失压后怎么办？</p>
+<p>其中一个想法时，低压休眠，且不能被唤醒。这又涉及到电压比较判断，而要实现这个判断不容易。比如，芯片的高压电可能是 2.0V，明显低于锂电池的最低电压，也即低压时也能被唤醒的。使用电阻分压，又会明显受芯片内阻影响。而且，一旦将来不同批次芯片内阻调整，代码就不能用的了。</p>
+<p>如果用其他办法，诸如低压时芯片判断电源电路，再由用户手动打开，或者由充电电路触发，其实都会明显增加项目的复杂度。</p>
+<p>最后的办法，是依赖锂电池过放保护芯片，比如低于 3V 就不放电。实际上，市面上买到的锂电池，这个电压是 2.75V；如果要 3V，需要一定量才能起订，比如 1000。我实测了下，低电压时确实会停止放电，不过在低电时，电压电流都非常不稳定，2.75V 或 3V，更多是象征意义的。</p>
 
           
         
@@ -845,7 +846,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-10-03.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-10-29.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -867,8 +868,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-10-03.html" itemprop="url">
-                  1003 - 智能硬件怎么盈利
+                <a class="post-title-link" href="/daily/2022-10-29.html" itemprop="url">
+                  1029 - 重芯再来
                 </a>
               
             
@@ -884,8 +885,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-10-03T22:00:00+08:00">
-                2022-10-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-10-29T22:00:00+08:00">
+                2022-10-29
               </time>
             
 
@@ -943,13 +944,11 @@
       
         
           
-            <p>我想了一下，<strong>如果只卖智能硬件，估计很难赚钱</strong>。</p>
-<p>这个东西比较复杂，设计、生产、使用过程中，都有可能出问题，是一个投入比较高的东西。复制成本高，卖一个就要造一个，还有售后的麻烦。</p>
-<p><strong>想要快速赚大钱，还得找复制成本低的事</strong>，比如基于智能硬件的增值云服务。多用一个 G 的云存储，成本几乎可以忽略。还可以有价格歧视，比如不同套餐价格差异大。</p>
-<p>但是，想要通过软件赚钱，前提就要有一堆智能硬件。也就是说，还是要买很多硬件出去，才有可能在这些硬件基础上盈利。</p>
-<p>这也涉及到智能硬件定价策略，是高价盈利，还是低价铺货。</p>
-<p>这就是一个<strong>思路和定位：硬件铺路、软件盈利</strong>。</p>
-<p>另外，<strong>复制成本低也是一个相对的事</strong>。就比如说出海，如果整个流程打通了，多生产和多卖一个产品的成本，相对于全链路的仓储发货流量这些成本来说，其实是很低的。</p>
+            <p>板子做好了，代码写好了，发现功耗不行，要重新选芯片[裂开]</p>
+<p>其实，之前也并不是完全没考虑。最主要自然是缺乏经验；还有个原因，之前假想的是按 1000mAh 来估算待机时间，实际做下来只能塞进 500mAh 的电池，待机时间可不缩水一半。</p>
+<p>这个时候再去选芯片，确实需求更明确，也更容易等到合适的。且不说已经做的工作浪费，关键的问题在于，每个芯片各自为政，一旦选择，就被严重绑定，不得不慎重。</p>
+<p>如果选用诸如 RT-Thread 之类的芯片上的小操作系统，虽说牺牲了点空间、性能、待机时间，却换来了更高的开发效率，是划算的。关键这也限制了芯片的选择，毕竟这类系统支持的芯片是有限的。并且，也很担心不能很好地支持芯片特有的功能。</p>
+<p>还在纠结中…</p>
 
           
         
@@ -988,7 +987,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/6/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/page/517/">517</a><a class="extend next" rel="next" href="/page/8/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/6/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/6/">6</a><span class="page-number current">7</span><a class="page-number" href="/page/8/">8</a><span class="space">&hellip;</span><a class="page-number" href="/page/518/">518</a><a class="extend next" rel="next" href="/page/8/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1033,7 +1032,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2582</span>
+                <span class="site-state-item-count">2589</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
