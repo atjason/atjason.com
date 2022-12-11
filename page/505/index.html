@@ -268,7 +268,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/512.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/579.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -290,8 +290,8 @@
             
               
                 
-                <a class="post-title-link" href="/512.html" itemprop="url">
-                  路由器折腾小记
+                <a class="post-title-link" href="/579.html" itemprop="url">
+                  在Radxa上安装AMH
                 </a>
               
             
@@ -307,8 +307,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-05T13:39:36+08:00">
-                2014-07-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-20T15:37:56+08:00">
+                2014-07-20
               </time>
             
 
@@ -366,34 +366,87 @@
       
         
           
-            <p>近段时间折腾路由器，小记一下</p>
-<h1 id="为什么要折腾路由器？"><a href="#为什么要折腾路由器？" class="headerlink" title="为什么要折腾路由器？"></a>为什么要折腾路由器？</h1><pre><code>之所以要折腾，自然是现在的路由器不能满足需求。之前用的是TP LINK 54M的无线路由器，4年前买的，想想也知道淘汰得差不多了。话说路由器确实是个耐用的东西，在电子产品中能用超过4年，绝对是老年级的，也说明这是个小众市场，毕竟淘汰速度慢
+            <p># </p>
+<pre><code>写在前面
 
-到底哪些方面不给力呢？
-</code></pre><ul>
-<li><p>不稳定。尤其是无线方面，经常莫名其妙得连接不上，拔电源重启后就一切正常。估计是持续运行时间过长导致内部软件出问题</p>
-</li>
-<li><p>信号覆盖不强。主要指的就是穿墙能力了，路由器放客厅，在卧室信号就很弱，竟然还没有隔壁家无线信号强，这个太无语了，忍着别人家的辐射却上不了自家的网，想想就郁闷</p>
-</li>
-<li><p>翻墙不方便。这其实是最主要的原因。随着本界政府对大陆局域网建设步伐的加速，其行径越来越令人发指，越来越多的网站无法访问，实在忍无可忍</p>
-</li>
-</ul>
-<h1 id="软件：路由器之魂"><a href="#软件：路由器之魂" class="headerlink" title="软件：路由器之魂"></a>软件：路由器之魂</h1><pre><code>所谓折腾，其实主要是指折腾软件，毕竟折腾硬件现在还没经验。而软件，在路由器这一领域更多的称之为固件、ROM。在可折腾的固件榜单中，靠前的自然是Open WRT, DD WRT, tomato等等，其外还有华硕ROM之类的。经过简单比较后，选择了自己相对较熟悉的Open WRT 什么是Open WRT？这一点我就不再拾人牙慧，大家可以到网上简单一搜便可得知。比如[这一篇](http://baike.baidu.com/view/1671581.htm)和[这一篇](http://www.dz3w.com/mcu/linux/0075344.html)，Open WRT的由来还有一段趣闻哦，不妨一看 more
-</code></pre><h1 id="硬件：软件之基础"><a href="#硬件：软件之基础" class="headerlink" title="硬件：软件之基础"></a>硬件：软件之基础</h1><pre><code>要根据软件来选硬件（也即根据固件来选择路由器），而不是反过来，不然就是路由器折腾你、而非你折腾路由器了。Open WRT官方支持哪些路由器呢？简单，到这个网址上一看便知：[http://wiki.openwrt.org/toh/start](http://wiki.openwrt.org/toh/start)
+什么是Radxa？
 
-不过，打开网页你会发现，上面的列表长得吓人。怎么选呢？几个方面
-</code></pre><ul>
-<li><p>选能买得到的。因为一些已经不卖了，一些不在国内卖。说到这时忍不住要吐槽一些国内路由器厂商，比如TP LINK，一些性价比高的、配置说得过去的路由器竟然都不在自己母国卖，在国外的Amazon上倒是卖得挺欢。不知道原因，也不方便开骂，希望不是因为觉得国内的用户人傻钱多好骗，所以就卖些低端货</p>
-</li>
-<li><p>选配置高的。主要是ROM（也即闪存）高，这个是用来存放软件的地方。然后是RAM（也即内存）高，这个是软件运行时需要的空间。然后是CPU好（频率高、多核）。然后是一些最好支持的功能：千兆网卡、支持无线ac、支持5G无线、支持USB接口等等</p>
-</li>
-<li><p>选买得起的。或者说买预算内的，因为要烧硬件，几千元的路由器也不少</p>
-<pre><code>我选了哪款？Netgear WNDR3800，配置如下：芯片Atheros AR7161、CPU 680Mhz、闪存16M、内存128M、千兆网卡、无线支持802.11 a/b/g/n、支持5G、支持USB接口，唯一遗憾是不支持802.11 ac。之所以选这款是lifetyper君推荐的，自己也觉得不错。关于购买渠道，因为不在国内销售，只能从淘宝买国外的洋垃圾。注：Amazon原价$139.95，淘宝约200+。拿到手后就直接刷了Open WRT官方固件，目前用起来还算顺手
-</code></pre></li>
-</ul>
-<h1 id="翻墙"><a href="#翻墙" class="headerlink" title="翻墙"></a>翻墙</h1><pre><code>接下来就来到折腾的重点：翻墙。所谓墙，有很多种形式，比如DNS污染、屏蔽IP等等。相对应的，翻墙也有很多种方法。经过比较后，笔者选用的是lifetyper君所给出的[方案](https://github.com/lifetyper/FreeRouter_V2) 该方案核心思路是：在路由器使用VPN括号生成新的网关，利用Dnsmasq的ipset功能，配置哪些域名需要国外DNS服务器解析、哪些使用国内运营商的DNS服务器，哪些域名所对应的IP使用VPN网关访问、哪些使用国内的。这样的方案维护成本低，不需要客户端修改，确实很好用 这里要重点感谢下lifetyper君，他花了大量时间来解决我在折腾过程中碰到的奇奇怪怪的问题，谢谢
-</code></pre><h1 id="国内-ldquo-智能-rdquo-路由器"><a href="#国内-ldquo-智能-rdquo-路由器" class="headerlink" title="国内&ldquo;智能&rdquo;路由器"></a>国内&ldquo;智能&rdquo;路由器</h1><pre><code>这里忍不住要818国内所谓的&amp;ldquo;智能&amp;rdquo;路由器。殊不知，你经常听到的极路由、小米路由器等等，其实他们的固件都是基于Open WRT，而一般用户却可能压根不知道，为什么？因为他们从来不会在发布会、官网、广告等场合中提到这一点，反而讳莫如深，甚至威胁用户你如果刷成Open WRT官方固件，路由器就不保修（没错，说的是极路由，买了，不爽；但为了测试，忍住没退货）。明明深深依赖着开源代码，却不尊重开源、不回馈开源、甚至都不宣传开源，这样的行径实在让人不齿
-</code></pre><h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><pre><code>到目前为止，路由器的折腾告一段落。毕竟我不是这一领域的，不可能花大把的时间来折腾，满足自己的需求即可。不过，还是希望路由器的从业者，在谋求应得商业利益时，能减少用户所需要折腾的时间、精力，做出对用户来说好用、易用的产品。同时，如果你使用开源代码，一定要回馈开源社区
+它是一块ARM开发板，可以运行基于Ubuntu的Linux系统，功率低（一般状态不到3W），可以放在家里做个常开的Linux服务器。更多信息，可以看看这篇[Radxa折腾小记](http://atjason.com/519.html)，或者到其[官网](http://radxa.com/)了解
+
+什么是AMH？
+
+国内首个免费开源虚拟主机面板。更多信息，可以到其[官网](http://amysql.com/AMH.htm)了解
+</code></pre><p># </p>
+<pre><code>安装过程遇到的问题及解决办法
+
+正常运行amh.sh，得到如下错误：
+</code></pre><p>[Error] Your system is not supported install AMH</p>
+<p>more</p>
+<pre><code>编辑amh.sh，找到&amp;ldquo;Your system is not supported install AMH&amp;rdquo;，在上面添加&amp;ldquo;SysName=&amp;#39;ubuntu&amp;#39;;&amp;rdquo;（因为Radxa事实上运行的就是Linaro 13.09（基于Ubuntu 13.04），不过是ARM版的）
+</code></pre><p>egrep -i &quot;ubuntu&quot; /etc/issue &amp;&amp; SysName=&#39;ubuntu&#39;;</p>
+<p>SysName=&#39;ubuntu&#39;;</p>
+<p>[ “$SysName” == ‘’  ] &amp;&amp; echo ‘[Error] Your system is not supported install AMH&#39; &amp;&amp; exit;</p>
+<pre><code>此时amh.sh可以运行，按正常模式安装，结束后得到如下错误：
+</code></pre><p>Sorry, Failed to install AMH</p>
+<p>Please contact us: <a href="http://amysql.com" target="_blank" rel="external">http://amysql.com</a></p>
+<pre><code>查看amh.log，发现有如下关于&amp;quot;libiconv&amp;quot;的错误内容：
+</code></pre><p>./stdio.h:1010:1: error: &lsquo;gets&rsquo; undeclared here (not in a function)</p>
+<p>make[2]: <em>*</em> [progname.o] Error 1</p>
+<p>make[2]: Leaving directory `/home/amh_install/packages/untar/libiconv-1.14/srclib&#39;</p>
+<pre><code>对于这个问题，参照[这个解决方案](http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610)
+
+另外的关于&amp;quot;mysql&amp;quot;的错误：
+</code></pre><p>[ 72%] Building C object libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o</p>
+<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c: In function &lsquo;mysql_client_plugin_init&rsquo;:</p>
+<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c:252:5: error: incompatible type for argument 5 of &lsquo;add_plugin&rsquo;</p>
+<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c:120:1: note: expected &lsquo;va_list&rsquo; but argument is of type &lsquo;int&rsquo;</p>
+<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c: In function &lsquo;mysql_client_register_plugin&rsquo;:</p>
+<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c:310:5: error: incompatible type for argument 5 of &lsquo;add_plugin&rsquo;</p>
+<p>/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c:120:1: note: expected &lsquo;va_list&rsquo; but argument is of type &lsquo;int&rsquo;</p>
+<p>make[2]: <em>*</em> [libmysql/CMakeFiles/clientlib.dir/__/sql-common/client_plugin.c.o] Error 1</p>
+<p>make[1]: <em>*</em> [libmysql/CMakeFiles/clientlib.dir/all] Error 2</p>
+<p>make: <em>*</em> [all] Error 2</p>
+<pre><code>原因：其实是变量类型的问题，具体不多解释。解决办法：
+
+编辑&amp;ldquo;/home/amh_install/packages/untar/mysql-5.5.34/sql-common/client_plugin.c&amp;rdquo;，搜索&amp;ldquo;mysql_client_plugin_init()&amp;rdquo;，在｛下面添加一行：
+
+va_list dummy;
+
+向下搜索&amp;ldquo;add_plugin(&amp;amp;mysql, *builtin, 0, 0, 0)&amp;rdquo;，将其替换为&amp;ldquo;add_plugin(&amp;amp;mysql, *builtin, 0, 0, dummy)&amp;rdquo;
+
+搜索&amp;ldquo;mysql_client_register_plugin(MYSQL&amp;rdquo;，在｛下面添加一行：
+
+va_list dummy;
+
+向下搜索&amp;ldquo;plugin= add_plugin(mysql, plugin, 0, 0, 0)&amp;rdquo;，将其替换为&amp;ldquo;plugin= add_plugin(mysql, plugin, 0, 0, dummy)&amp;rdquo;
+
+完成以上的手动打补丁，修改amh.sh，注释掉mysql的下载、解压步骤：
+
+
+
+    #Downloadfile &amp;quot;${MysqlVersion}.tar.gz&amp;quot; &amp;quot;http://code.amysql.com/files/${MysqlVersion}.tar.gz&amp;quot;;
+
+    #rm -rf $AMHDir/packages/untar/$MysqlVersion;
+
+    #echo &amp;quot;tar -zxf ${MysqlVersion}.tar.gz ing...&amp;quot;;
+
+    #tar -zxf $AMHDir/packages/$MysqlVersion.tar.gz -C $AMHDir/packages/untar;
+
+另外，对于已经能成功安装的组件，可用上面类似的办法注释掉下载、解压步骤，这样下次运行安装脚本时就不需要重新下载、解压、编译，节约时间。如注释掉php相关的：
+
+
+
+    #Downloadfile &amp;quot;${PhpVersion}.tar.gz&amp;quot; &amp;quot;http://code.amysql.com/files/${PhpVersion}.tar.gz&amp;quot;;
+
+    #rm -rf $AMHDir/packages/untar/$PhpVersion;
+
+    #echo &amp;quot;tar -zxf ${PhpVersion}.tar.gz ing...&amp;quot;;
+
+    #tar -zxf $AMHDir/packages/$PhpVersion.tar.gz -C $AMHDir/packages/untar;
+
+重新运行amh.sh，一切正常。访问http://IP:8888并登陆，一切正常
+
+EndFragment
 </code></pre>
           
         
@@ -437,7 +490,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/507.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/569.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -459,8 +512,8 @@
             
               
                 
-                <a class="post-title-link" href="/507.html" itemprop="url">
-                  网站搬家小记
+                <a class="post-title-link" href="/569.html" itemprop="url">
+                  在手机上运行Axure设计的原型
                 </a>
               
             
@@ -476,8 +529,193 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-05T09:35:15+08:00">
-                2014-07-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-14T16:18:40+08:00">
+                2014-07-14
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/PM/" itemprop="url" rel="index">
+                    <span itemprop="name">PM</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>对于移动App的原型，如果能在手机上运行，像本地程度一样运行，会带来更真实的体验。本文简要记录使Axure原型能在iPhone 5s上运行</p>
+<p># </p>
+<pre><code>使用Axure设计原型并导出
+
+Axure设计时，和普通原型设计要比，要注意的地方有几点：
+
+**原型尺寸的选择**
+
+iOS的屏幕尺寸目前是有限的几种，原型尺寸要和其一致。比如320*640。不过，由于Axure导出的原型在iOS上处理status bar时有问题，需要在高度上减去status bar的高度，比如使用320*548
+
+**导出原型时的选项**
+
+在&amp;quot;Public &amp;gt; Generate HTML files &amp;gt; Mobile/Device&amp;quot;中，使用如下选项：
+
+more
+
+[![](https://ps.toolinbox.net/jii4g.png)​](https://ps.toolinbox.net/lrq4b.png)
+
+注意，为了使原型更加逼真，可以使用实际App会采用的真实图标
+</code></pre><p># </p>
+<pre><code>在iPhone 5s上测试
+
+将导出的html放在web服务器中，使其可以在其他环境中访问。比如Mac自带的Apache、自己的小网站，等等。比如，本文对应的原型可以在这访问：[http://atjason.com/Axure/iPhone_Framework/home.html](http://atjason.com/Axure/iPhone_Framework/home.html)
+
+在iPhone上使用Safari打开，然后添加至桌面：&amp;quot;Share &amp;gt; Add to Home Screen &amp;gt; Add&amp;quot;
+
+从手机桌面打开此原型，即可得到类似于原生App的使用体验
+
+注，本文以iOS、iPhone 5s为例，其实对于其他Android手机、其他分辨率，原理是相同的
+</code></pre><p>## </p>
+<pre><code>下载
+
+[iPhone Framework.rp](http://atjason.com/Axure/iPhone_Framework.rp)
+</code></pre><p>### </p>
+<pre><code>参考
+</code></pre><ul>
+<li><p><a href="http://www.axure.com/forum/mobile-prototyping/7886-viewport-sizing-problems.html" target="_blank" rel="external">http://www.axure.com/forum/mobile-prototyping/7886-viewport-sizing-problems.html</a></p>
+</li>
+<li><p><a href="http://www.smashingmagazine.com/2012/08/17/mobile-prototyping-axure-rp/" target="_blank" rel="external">http://www.smashingmagazine.com/2012/08/17/mobile-prototyping-axure-rp/</a></p>
+</li>
+<li><p><a href="http://cdc.tencent.com/?p=7246" target="_blank" rel="external">http://cdc.tencent.com/?p=7246</a></p>
+<p>EndFragment</p>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/564.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/564.html" itemprop="url">
+                  使用UnixBench为Linux跑分
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-13T12:46:35+08:00">
+                2014-07-13
               </time>
             
 
@@ -535,467 +773,425 @@
       
         
           
-            <p>不知不觉间，这两天网站已经搬了再次家了，可谓飘洋过海、翻山越岭，这里小记下</p>
-<h1 id="AWS"><a href="#AWS" class="headerlink" title="AWS"></a>AWS</h1><p>之前网站是搭建上AWS上。提起Amazon AWS这个占据一半以上服务器市场的老大，圈内人士应该无人不知。当时选择AWS的原因很简单：免费。财大气粗的Amazon为了吸引更多的人使用AWS，允许新用户免费使用一年。目前这个活动依然继续：<a href="http://aws.amazon.com/free/" target="_blank" rel="external">http://aws.amazon.com/free/</a></p>
-<p>就我的使用体验来说，AWS最大的好处就是稳定，没有碰到过网站不能访问的时候。最大的问题就是慢，一是后台管理页面打开比较慢，基本要翻墙速度才快；二是网站在国内访问速度一般（我的是在日本，据说新加坡的节点会快些），每次进入后台写点什么都要等上半天，可能不同地区的国内用户打开时速度也不见得快</p>
-<p>这不，免费的AWS要到期了，是时候考虑换一个快点的主机</p>
-<p>more</p>
-<h1 id="国内云主机"><a href="#国内云主机" class="headerlink" title="国内云主机"></a>国内云主机</h1><p>为了速度，首先把目光移到国内云主机。经过简单的比较，选择了阿里云主机。我承认，一定程度上是被“阿里”这个牌子给吸引过去的，虽然这是一家什么业务都涉足、经常不务正业的公司</p>
-<h1 id="阿里云"><a href="#阿里云" class="headerlink" title="阿里云"></a>阿里云</h1><p>阿里云为了吸引用户，也有5天的试用机会，不过还要申请，真是小家子气。申请也就罢了，竟然默认是在青岛、而不给用户选择机会；估计是为了给青岛的节点增加人气、降低成本。可是，这也太粗暴了，他也不想想，一旦用得爽了、在服务器上花了大把时间配置后，又需要在杭州等其他节点创建服务器时怎么办？</p>
-<p>在一边骂这个脑残、或者说为了商业利益不惜伤害用户利益的做法，一边花钱买了一个月的杭州主机，省得以后真的使用时浪费之前的时间。这里有个插曲，阿里云为了吸引用户，新注册用户在回答几个白痴问题后就可以得到20元代金券。好吧，为了这点钱，我还是屁颠屁颠得回答了问题，35元买了一个月乞丐版。创建主机后第一次访问、配置什么的没什么可说的，一切顺利</p>
-<h1 id="备案"><a href="#备案" class="headerlink" title="备案"></a>备案</h1><p>接下来便是万恶的备案。什么是备案？简单得说，政府默认你开网站一定是要干坏事的，那么要开网站首先你要到政府那登记，把你的包括身份证在内的一切信息登记在册，之后一旦你干坏事，很容易就可以把你抓走。什么？执政为民？为人民服务？为人民谋福利？我绝逼不信备案这事给站长带来了什么福利</p>
-<p>备案之烦琐简直令人发指，即使是阿里云这种可以代备案的，依然有超过18页的帮助文档：<a href="http://help.aliyun.com/view/13445871.html" target="_blank" rel="external">http://help.aliyun.com/view/13445871.html</a>。好吧，硬着头皮我就上了。其间复杂就不提了，就提个网站名称这一点，其中一条规则是“网站名称不能以纯数字或纯英文命名”。首先不说这句话的漏洞，我纯外星语行吗？好吧，既然咱生活在汉语国家，这条我认。想了半天给自己原来叫“Jason”的名称改为“Jason的果园”，带上其他亲笔签名等信息我就提交了</p>
-<p>一天后，阿里云初审没过，理由如下：</p>
-<p>“您好，备案信息中网站名称“IT顾问 Jason的果园”填写不正确，个人性质的网站名称不能涉及企业、行业信息，不能以域名命名，不能涉及地名，请您修改。 2：根据工信部规定未备案成功的网站域名禁止进行绑定访问，网站域名：“atjason.com”未备案成功，现却能访问网站，请您在未备案成功暂停域名解析绑定，以方便为您处理，谢谢您的配合。”</p>
-<p>看完气不打一处来。经过深深的忧虑之后我毅然决定不再继续献媚政府，凭什么我自己的东西取名还要你同意？我自己的网站能不能访问还要你批准？批你妹，哥不跟你玩了</p>
-<h1 id="国外云主机"><a href="#国外云主机" class="headerlink" title="国外云主机"></a>国外云主机</h1><p>接下来自然转回不需要备案的国外云主机。期间阿里云的客服提过，他们在香港也有主机，而且强调不需要备案哦，可惜价格有些高。我之前一直有印象的就是Linode，在网上一番搜索、比较后，还是决定用Linode</p>
-<h1 id="Linode"><a href="#Linode" class="headerlink" title="Linode"></a>Linode</h1><p>乞丐版价格比阿里云稍贵，不过配置要比其强很多：内存是其一倍、网速是其N倍、硬盘速度是其N倍。有个插曲是，Linode促销搞充5美元送50美元的活动，就在我注册的前一天结束，心中为50美元默哀5分钟……</p>
-<p>Linode一直是主机类中的高大上，价格高、服务好。这次能把价格降到$10每月、还搞大力度的促销，着实不易。除了性能，Linode在主机后台服务上做得也很好。具体不多说，只说一点：备份。Linode可以很容易得给主机备份、不需要关机，简直是无痛。而在阿里云上我压根就没看到备份这俩字。当然，AWS也是支持镜像</p>
-<h1 id="AMH"><a href="#AMH" class="headerlink" title="AMH"></a>AMH</h1><p>在网站搬家中，其实功劳最大的是AMH。什么是AMH？简单得说，“国内首个免费开源虚拟主机面板。”更多的，到其官网去了解吧：<a href="http://www.amysql.com/AMH.htm" target="_blank" rel="external">http://www.amysql.com/AMH.htm</a></p>
-<p>之前在AWS上的多个网站是通过AWS搭建的，这次搬到Linode后，安装好AMH，只需要一个命令，之前所有的东西就全回来了，注意，是全回来了，包括数据库、虚拟网站、各种配置……太方便了，我忍不住去给他们捐点小钱，却发现现在通道关闭了，以后还是会捐的</p>
-<p>据说现在在开发更好用的新版本，期待中</p>
-<h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>好了，说了这么多，其实最想说的是，做网站最重要的是内容。站长大多在后台技术上不那么专业，花在这些外围事情上的时间应当越少越好（花点钱也是应该的），这样才能更专注得做好内容。</p>
+            <p>跑分软件感觉是被Android玩烂了，突然也想测试下手上的Radxa和Linode VPS的性能怎样</p>
+<p># </p>
+<pre><code>UnixBench介绍
 
-          
-        
-      
-    </div>
+简单搜索了下，找到了Linux下较常用的UnixBench，是linux、unix测试系统基准性能的经典工具，UnixBench测试包含了系统调用、读写、进程、2D、3D、管道、运算、C库等系统基准性能，它的优点在于提供了对系统性能的一种评价体系，为系统评分，如此方便对系统作对比测试；但UnixBench在网络性能测试欠缺
 
-    <div>
-      
-    </div>
+UnixBench的使用方法如下：
+</code></pre><h1 id="Download-the-latest-version"><a href="#Download-the-latest-version" class="headerlink" title="Download the latest version"></a>Download the latest version</h1><p>wget <a href="https://byte-unixbench.googlecode.com/files/UnixBench5.1.3.tgz" target="_blank" rel="external">https://byte-unixbench.googlecode.com/files/UnixBench5.1.3.tgz</a>;</p>
+<p>tar xzf UnixBench-5.1.3.tar.gz;</p>
+<p>cd UnixBench;</p>
+<h1 id="Disable-graphic-test-as-no-desktop-for-Linux-installed"><a href="#Disable-graphic-test-as-no-desktop-for-Linux-installed" class="headerlink" title="Disable graphic test as no desktop for Linux installed"></a>Disable graphic test as no desktop for Linux installed</h1><p>sed -i &quot;s/GRAPHIC_TESTS = defined/#GRAPHIC_TESTS = defined/g&quot; ./Makefile</p>
+<p>make;</p>
+<p>./Run;</p>
+<pre><code>执行后就耐心等待结果就行，依据机器性能不同，大概需要10分钟
+</code></pre><p># </p>
+<pre><code>UnixBench测试结果
 
-    <div>
-      
-    </div>
+Radxa的执行结果：
 
-    <div>
-      
-    </div>
+more
 
-    <footer class="post-footer">
-      
+========================================================================
 
-      
+ BYTE UNIX Benchmarks (Version 5.1.3)
 
-      
+ System: radxa: GNU/Linux
 
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
+ OS: GNU/Linux -- 3.0.36+ -- #2 SMP PREEMPT Sat Mar 15 11:18:05 CST 2014
+
+ Machine: armv7l (armv7l)
+
+ Language: en_US.utf8 (charmap=&amp;quot;ANSI_X3.4-1968&amp;quot;, collate=&amp;quot;ANSI_X3.4-1968&amp;quot;)
+
+ 11:50:03 up 12 days, 14:42, 4 users, load average: 0.54, 0.31, 0.58; runlevel 2
+
+------------------------------------------------------------------------
+
+Benchmark Run: Sun Jul 13 2014 11:50:03 - 12:18:17
+
+0 CPUs in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables    6077940.3 lps  (10.0 s, 7 samples)
+
+Double-Precision Whetstone           995.3 MWIPS (9.9 s, 7 samples)
+
+Execl Throughput                294.0 lps  (29.5 s, 2 samples)
+
+File Copy 1024 bufsize 2000 maxblocks    129538.0 KBps (30.0 s, 2 samples)
+
+File Copy 256 bufsize 500 maxblocks      40792.2 KBps (30.0 s, 2 samples)
+
+File Copy 4096 bufsize 8000 maxblocks    325214.2 KBps (30.0 s, 2 samples)
+
+Pipe Throughput               271265.0 lps  (10.0 s, 7 samples)
+
+Pipe-based Context Switching         64658.0 lps  (10.0 s, 7 samples)
+
+Process Creation                831.6 lps  (30.0 s, 2 samples)
+
+Shell Scripts (1 concurrent)          1785.6 lpm  (60.0 s, 2 samples)
+
+Shell Scripts (8 concurrent)          370.0 lpm  (60.1 s, 2 samples)
+
+System Call Overhead            1007757.5 lps  (10.0 s, 7 samples)
+
+System Benchmarks Index Values        BASELINE    RESULT  INDEX
+
+Dhrystone 2 using register variables     116700.0  6077940.3  520.8
+
+Double-Precision Whetstone            55.0    995.3  181.0
+
+Execl Throughput                 43.0    294.0   68.4
+
+File Copy 1024 bufsize 2000 maxblocks     3960.0   129538.0  327.1
+
+File Copy 256 bufsize 500 maxblocks      1655.0   40792.2  246.5
+
+File Copy 4096 bufsize 8000 maxblocks     5800.0   325214.2  560.7
+
+Pipe Throughput                12440.0   271265.0  218.1
+
+Pipe-based Context Switching          4000.0   64658.0  161.6
+
+Process Creation                126.0    831.6   66.0
+
+Shell Scripts (1 concurrent)           42.4    1785.6  421.1
+
+Shell Scripts (8 concurrent)           6.0    370.0  616.6
+
+System Call Overhead             15000.0  1007757.5  671.8
+
+                                 ========
+
+System Benchmarks Index Score                     264.7
+
+Linode 1GB的执行结果：
+
+========================================================================
+
+ BYTE UNIX Benchmarks (Version 5.1.3)
+
+ System: li715-76: GNU/Linux
+
+ OS: GNU/Linux -- 3.15.3-x86_64-linode44 -- #1 SMP Tue Jul 1 15:51:04 EDT 2014
+
+ Machine: x86_64 (x86_64)
+
+ Language: en_US.utf8 (charmap=&amp;quot;UTF-8&amp;quot;, collate=&amp;quot;UTF-8&amp;quot;)
+
+ CPU 0: Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz (5602.5 bogomips)
+
+     Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+
+ 11:50:02 up 8 days, 19:34, 1 user, load average: 0.08, 0.09, 0.51; runlevel 2
+
+------------------------------------------------------------------------
+
+Benchmark Run: Sun Jul 13 2014 11:50:02 - 12:18:09
+
+1 CPU in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables    29753198.8 lps  (10.0 s, 7 samples)
+
+Double-Precision Whetstone           3944.6 MWIPS (9.9 s, 7 samples)
+
+Execl Throughput                1619.4 lps  (30.0 s, 2 samples)
+
+File Copy 1024 bufsize 2000 maxblocks    319724.7 KBps (30.0 s, 2 samples)
+
+File Copy 256 bufsize 500 maxblocks      82858.8 KBps (30.0 s, 2 samples)
+
+File Copy 4096 bufsize 8000 maxblocks    957790.3 KBps (30.0 s, 2 samples)
+
+Pipe Throughput               458770.0 lps  (10.0 s, 7 samples)
+
+Pipe-based Context Switching         74230.2 lps  (10.0 s, 7 samples)
+
+Process Creation                2963.8 lps  (30.0 s, 2 samples)
+
+Shell Scripts (1 concurrent)          3719.2 lpm  (60.0 s, 2 samples)
+
+Shell Scripts (8 concurrent)          494.0 lpm  (60.1 s, 2 samples)
+
+System Call Overhead             474360.8 lps  (10.0 s, 7 samples)
+
+System Benchmarks Index Values        BASELINE    RESULT  INDEX
+
+Dhrystone 2 using register variables     116700.0  29753198.8  2549.5
+
+Double-Precision Whetstone            55.0    3944.6  717.2
+
+Execl Throughput                 43.0    1619.4  376.6
+
+File Copy 1024 bufsize 2000 maxblocks     3960.0   319724.7  807.4
+
+File Copy 256 bufsize 500 maxblocks      1655.0   82858.8  500.7
+
+File Copy 4096 bufsize 8000 maxblocks     5800.0   957790.3  1651.4
+
+Pipe Throughput                12440.0   458770.0  368.8
+
+Pipe-based Context Switching          4000.0   74230.2  185.6
+
+Process Creation                126.0    2963.8  235.2
+
+Shell Scripts (1 concurrent)           42.4    3719.2  877.2
+
+Shell Scripts (8 concurrent)           6.0    494.0  823.3
+
+System Call Overhead             15000.0   474360.8  316.2
+
+                                 ========
+
+System Benchmarks Index Score                     587.5
+
+Radxa基本参数：
 
 
-    
-      
 
-  
 
-  
-  
-  
 
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/501.html">
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
 
-    
-      <header class="post-header">
 
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/501.html" itemprop="url">
-                  尝试、沉淀、思考
-                </a>
-              
-            
-          </h1>
-        
 
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-06-29T10:22:20+08:00">
-                2014-06-29
-              </time>
-            
 
-            
+                    System
 
-            
-          </span>
 
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/北冥/" itemprop="url" rel="index">
-                    <span itemprop="name">北冥</span>
-                  </a>
-                </span>
 
-                
-                
-              
-            </span>
-          
 
-          
-            
-          
 
-          
-          
 
-          
 
-          
 
-          
 
-        </div>
-      </header>
-    
 
-    <div class="post-body" itemprop="articleBody">
 
-      
-      
 
-      
-        
-          
-            <p>我们时常迷茫，不知道自己该做什么。其实，很少有人在很小的时候就能规划很久以后的路该怎么走；即便有，也略显单调。更多的是在不断试错中摸索</p>
-<h1 id="尝试"><a href="#尝试" class="headerlink" title="尝试"></a>尝试</h1><p>尝试，关键就是接触新的东西。总在自己的圈子里转，慢慢的也就禁锢其中，失去了解新东西的机会和能力。不断尝试，可以拓展自己的知识面和见识，开拓思路</p>
-<p>对内，尝试可以让自己更深刻得了解自己。我们对自己的认识，其实是在对外的沟通、碰撞中进行的。反过来说，我们周围的环境就决定了自己对自己的认识（别说你是先知）。比如，一个人的身体素质可以让他成为足球天才。可如果他从小都没有接触过足球，如何能成？当他接触足球的那一刹那、当他开始与新世界碰撞时，他就发现了另一面的自己</p>
-<h1 id="沉淀"><a href="#沉淀" class="headerlink" title="沉淀"></a>沉淀</h1><p>不知道你有没有这样的经历，东做一件事、西做一件事，时间长了很容易消耗自己的心力，让自己变得浮躁；而且反过来觉得自己什么都不擅长，影响积极性，不愿意再尝试，或者也只是浅尝辄止</p>
-<p>尝试，要有积累、沉淀的过程，要把尝试后学到的东西，纳入自己的知识体系，真正变成自己的东西；不然它就会像无根的浮萍一样，终会飘走</p>
-<p>比如学做菜，今天学一道、明天再学一道，一个月过去，看似学了30多道菜，可是半年、一年以后，可能一个都做不好。如果再次从网上查食谱来做，当时的尝试不就白做了吗？</p>
-<p>相反，记下自己做的菜谱（可以在电脑上、手机上、笔记本上，但最好不要只是在大脑中，因为除非你经常操练，不然肯定会忘），不管过去多久，只是看下自己记录的菜谱，就能很快做出来。要知道，看自己记录的东西，和看从网上查到的东西，效果完全是不一样的</p>
-<p>而且，在不断的尝试中，不断更新自己的菜谱，才能真正做成自己的私房菜more</p>
-<p>另外，当自己在这一领域沉淀到一定程度时，就更容易学到更多东西。就像是学走路很慢，可一旦学会走路、再学跑步，就相对容易了（忽略你是先会跑、再会走的情况）。进而，就会有越做越好、越好就越有信心、越有信心就越做越好…这样的正向循环</p>
-<h1 id="思考"><a href="#思考" class="headerlink" title="思考"></a>思考</h1><p>我们的精力毕竟有限，因此必须有所取舍、学会聚集。尝试并沉淀后，要记得思考，比如：</p>
-<ul>
-<li><p>这个新的领域是自己感兴趣的吗</p>
+
+                    CPU
+
+
+
+
+
+                    ARM Cortex-A9 quad core @ 1.6Ghz
+
+
+
+
+
+
+
+
+
+                    Memory
+
+
+
+
+
+                    2GB DDR3 @ 800Mhz
+
+
+
+
+
+
+
+
+
+                    Storage
+
+
+
+
+
+                    8GB Nand Flash
+
+
+
+
+
+
+
+
+
+
+
+Linode 1GB基本参数：
+
+
+
+
+
+
+
+
+
+                System
+
+
+
+
+
+
+
+
+
+
+
+
+
+                CPU
+
+
+
+
+
+                单核Intel(R) Xeon(R) CPU E5-2680 v2 @ 2.80GHz
+
+
+
+
+
+
+
+
+
+                Memory
+
+
+
+
+
+                1GB
+
+
+
+
+
+
+
+
+
+                Storage
+
+
+
+
+
+                24GB SSD Storage
+
+
+
+
+
+
+
+
+
+可以看出，表面参数占优的ARM板子Radxa还是输给了Linode的VPS。不过，需要说明的是，VPS都是多个共用一个服务器资源，所以，测试结果并不代表可以使用到这么多资源
+</code></pre><p># </p>
+<pre><code>UnixBench测试结果的解释
+
+1. ***********************
+
+Dhrystone 2 using register variables 1 2 3 4 5 6 7 8 9 10
+
+此项产生于 1984，测试 string handling，因为没有浮点操作，所以深受软件和硬件设计（hardware and software design）、编译和链接（compiler and linker options）、代码优化（code optimazaton）、对内存的cache（cache memory）、等待状态（wait states）、整数数据类型（integer data types）的影响
+
+2. ********************
+
+Double-Precision Whetstone 1 2 3 4 5 6 7 8 9 10
+
+这一项测试浮点数操作的速度和效率。这一测试包括几个模块，每个模块都包括一组用于科学计算的操作。覆盖面很广的一系列 c 函数：sin，cos，sqrt，exp，log 被用于整数和浮点数的数学运算、数组访问、条件分支（conditional branch）和程序调用。此测试同时测试了整数和浮点数算术运算。
+
+3. **************
+
+System Call Overhead 1 2 3 4 5 6 7 8 9 10
+
+测试进入和离开操作系统内核的代价，即一次系统调用的代价。它利用一个反复地调用 getpid 函数的小程序达到此目的。
+
+4. ***************
+
+Pipe Throughput 1 2 3 4 5 6 7 8 9 10
+
+管道（pipe）是进程间交流的最简单方式，这里的 Pipe throughtput 指的是一秒钟内一个进程可以向一个管道写 512 字节数据然后再读回的次数。需要注意的是，pipe throughtput 在实际编程中没有对应的真实存在。
+
+5. *************
+
+Pipe-based Context Switching 1 2 3 4 5 6 7 8 9 10
+
+这个测试两个进程（每秒钟）通过一个管道交换一个不断增长的整数的次数。这一点很向现实编程中的一些应用，这个测试程序首先创建一个子进程，再和这个子进程进行双向的管道传输。
+
+6. ************
+
+Process Creation 1 2 3
+
+测试每秒钟一个进程可以创建子进程然后收回子进程的次数（子进程一定立即退出）。process creation 的关注点是新进程进程控制块（process control block）的创建和内存分配，即一针见血地关注内存带宽。一般说来，这个测试被用于对操作系统进程创建这一系统调用的不同实现的比较。
+
+7. ***********
+
+Execl Throughput 1 2 3
+
+此测试考察每秒钟可以执行的 execl 系统调用的次数。 execl 系统调用是 exec 函数族的一员。它和其他一些与之相似的命令一样是 execve（） 函数的前端。
+
+8. ***********
+
+File copy
+
+测试从一个文件向另外一个文件传输数据的速率。每次测试使用不同大小的缓冲区。这一针对文件 read、write、copy 操作的测试统计规定时间（默认是 10s）内的文件 read、write、copy 操作次数。
+
+9. **********
+
+Shell Scripts
+
+测试一秒钟内一个进程可以并发地开始一个 shell 脚本的 n 个拷贝的次数，n 一般取值 1，2，4，8.（我的系统上取 1， 8， 16）。这个脚本对一个数据文件进行一系列的变形操作（transformation）
+
+10. *********
+
+Arithmetic Test
+
+11. *************
+
+Arithoh 1 2 3
+
+12. *************
+
+C Compiler Throughput 1 2 3
+
+13. *************
+
+Dc: sqrt(2) to 99 decimal places 1 2 3
+
+sqrt（2） 到 99 位小数
+
+14. *************
+
+Recursion Test--Tower of Hanoi 1 2 3
+
+15. *************
+
+join: file 2 is not in sorted order
+
+join: file 1 is not in sorted order
+</code></pre><p>### </p>
+<pre><code>参考
+</code></pre><ul>
+<li><p><a href="https://code.google.com/p/byte-unixbench/" target="_blank" rel="external">https://code.google.com/p/byte-unixbench/</a></p>
 </li>
-<li><p>自己的能力模型擅长这个吗</p>
+<li><p><a href="http://www.ddhow.com/blog/unixbench.html" target="_blank" rel="external">http://www.ddhow.com/blog/unixbench.html</a></p>
 </li>
-<li><p>这和自己之前为自己设定的长期规划矛盾吗</p>
+<li><p><a href="http://www.cnblogs.com/share-everything-i-do/articles/3179213.html" target="_blank" rel="external">http://www.cnblogs.com/share-everything-i-do/articles/3179213.html</a></p>
 </li>
-<li><p>自己的长期规划是要为之调整，还是尝试到此为止</p>
-</li>
-<li><p>等等</p>
-</li>
-</ul>
-<p>道理不辩不明，东西一比较就知道差距。不断的将自己已有的东西和新东西进行比较、思考，就能不断明确什么是自己想要的，不断调整航向，找到越来越适合自己的路</p>
-<h1 id="号外：工作与兴趣"><a href="#号外：工作与兴趣" class="headerlink" title="号外：工作与兴趣"></a>号外：工作与兴趣</h1><p>工作之外，最好有自己另外的兴趣，而且最好和工作相差较大。因为总做一件事，时间长了，兴趣肯定会下降、效率变低。这时，除了睡觉这种休息方式外，更积极的休息就是做些其他领域的、自己感兴趣的事，既放松了大脑，也可能会有其他的意外收获。更关键的，这让你的生活有更多的着力点、更容易平衡，而不会因为工作等一方面的挫折就让情绪、生活大起大落</p>
-<h2 id="最佳实践"><a href="#最佳实践" class="headerlink" title="最佳实践"></a>最佳实践</h2><p>朋友，如果你眼下正在迷茫，不知道要做什么，不妨尝试下“尝试 -&gt; 沉淀 -&gt; 思考”这三步，即使不能让你一下子看透未来，也能让眼下的生活更加充实</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/489.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/489.html" itemprop="url">
-                  蘑菇街分析
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-06-21T21:34:51+08:00">
-                2014-06-21
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/PM/" itemprop="url" rel="index">
-                    <span itemprop="name">PM</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="创始团队及公司"><a href="#创始团队及公司" class="headerlink" title="创始团队及公司"></a>创始团队及公司</h1><p>创始团队多数是从淘宝离职创业的</p>
-<p>CEO：陈琪（花名修罗），联合创始人</p>
-<ul>
-<li><p>2004年浙江大学毕业，陈琪就进入了淘宝，是淘宝UED（用户体验设计）的开创者，后作为产品经理负责多条淘宝核心产品线，并负责淘宝物流等多个新业务的拓</p>
-</li>
-<li><p>2010年，跟浙大的同窗魏一搏在家里开始创业，先后创办卷豆网和蘑菇街。为了创办蘑菇街，陈琪的代价是放弃了在淘宝的千万期权，然后跟魏一搏各自卖掉一套房子凑齐150万元，作为创业的启动资金</p>
-</li>
-</ul>
-<p>COO：魏一搏，联合创始人</p>
-<ul>
-<li>与CEO陈琪是大学同学，之前在中兴通讯就职</li>
-</ul>
-<p>CTO：岳旭强（花名孤独），联合创始人，商家平台负责人</p>
-<ul>
-<li>曾经是淘宝的首席架构师，超过7年的互联网及电商经验，是陈琪在淘宝相处6年以上的同事</li>
-</ul>
-<p>CMO：李研珠（花名腓腓）</p>
-<ul>
-<li><p>营销领域颇有名气的“胖胡斐”，也是陈琪在淘宝相处6年以上的同</p>
-</li>
-<li><p>2014年6月初因身体健康原因离职</p>
-</li>
-</ul>
-<p>产品经理：志平</p>
-<ul>
-<li>08年研究生毕业，曾在网易杭州研究院任职高级开发工程师，11年加入蘑菇街</li>
-</ul>
-<p>公关经理：徐达</p>
-<ul>
-<li>做过网站运营，曾在天下网商负责BD业务</li>
-</ul>
-<p>杭州卷瓜网络有限公司</p>
-<ul>
-<li><p>总部地点：杭州市西湖区天目山路135号玉泉大厦8</p>
-</li>
-<li><p>成立时间：2010年4月13</p>
-</li>
-<li><p>员工数：300人左右</p>
-</li>
-</ul>
-<p>经营逻辑：重科技，轻时尚</p>
-<p>团队由50%的工程师、30%的运营人员、20%的市场营销、行政、财务人员构成。表面上时尚前卫，骨子里是一家科技型公司，对科技迷恋。超过半数都是技术型人才，是一家依靠科技推动的企业。蘑菇街公关经理徐达用了一句话来概括蘑菇街运营的内在逻辑：“消费者有需求，需求必然产生可执行点，蘑菇街要做的就是在执行点上做出产品，用产品服务用户。”</p>
-<p>more</p>
-<h1 id="痛点：用户需求与现状"><a href="#痛点：用户需求与现状" class="headerlink" title="痛点：用户需求与现状"></a>痛点：用户需求与现状</h1><p>用户有两类：买家与卖家（文中意同商家）。在商品、在线商城越来越多的情况下，买家更难找到合适的商品，卖家更难将自己的商品呈现给买家，这就是日益严重的痛点，反过来讲，就是越来越突出的需求</p>
-<h1 id="产品与方案"><a href="#产品与方案" class="headerlink" title="产品与方案"></a>产品与方案</h1><p>蘑菇街的定位是女性购物入口，专注于时尚女性消费者。它集成SNS的社会化特征，让女性在分享的同时完成购物。公司的核心宗旨就是购物与社区的相互结合，为更多消费者提供更有效的购物决策建议</p>
-<p>现在商品与买家对接的方式主要还是搜索，但当商品数量确实很大时，这种获取商品的方式就不见得有效。类似的，Google对信息的搜索能力无可比拟，可是对好友的信息、明星的八卦这样的信息，Facebook、Twitter等其它的平台有合适的呈现与获取方式。因为，需要换种思路来考虑商品与买家的对接方式</p>
-<p>开始时，创始人极端地认为，所有的事情都是可以靠机器解决的，人的特征可以完全数据化。所以蘑菇街最初的模式就是通过复杂的算法来向女孩子推荐热门的品类，事实也证明了这套模式的有用性</p>
-<p>但后来遇到瓶颈。我们曾希望通过运算给这些姑娘的风格做个分类，可是女孩子变化很快，数据告诉你这个女孩子是职业女性，之前都是买套装，可是突然有一天她可能在哪里看到另一个女生穿着休闲也很漂亮，就会推翻之前的购买习惯，去买些休闲的衣服了。而且仅靠机器可以判断出过去流行的东西，却没有前瞻性。结论是人的干预还是有点用的，因此始引入买手做些推荐</p>
-<p>现在，蘑菇街把两者结合起来，用机器去放大人的作用。计划招募大量的买手，给予他们大数据的支持，然后按照数据表现自然上浮或者下沉</p>
-<p>另外的就是达人模式。比如，看比较会进行服饰搭配的如何穿衣服，从她们身上获得灵感，进而搜索同类产品，或者干脆在导购页面购买同款</p>
-<p>笔者：顾问模式</p>
-<p>依然以服饰为例，如果我不太懂得服装搭配，又想找到适合自己的衣服，怎么办呢？直接在商城里搜索恐怕不是好的办法，模仿达人又需要花大量时间。可以考虑的一种思路是，我请一位专门的穿衣顾问，他根据我的身材、对颜色款式的偏好、穿衣的场合等因素为我量身打造穿衣建议，甚至直接推荐购买链接。</p>
-<p>注意，这里有个核心是，顾问最重要的价值是提供专业性的建议，最好不要和他推荐的商家有利益上的分配。如果有，也可以，但也应该让买家得到实惠而实现多赢，比如，可以以更低的价格从顾问合作的商家买到商品</p>
-<p>题外话：顾问模式在国内并不流行，有多方面的因素，比如缺乏信用体系，用户首先担心的便是顾问和商家联合起来骗钱；再者，国人特有的“关系”思维，凡事找关系，碰到自己不擅长的首先想到的也是找关系，而不是想着花钱请专业的人来帮忙</p>
-<h1 id="产品简史"><a href="#产品简史" class="headerlink" title="产品简史"></a>产品简史</h1><ul>
-<li><p>2011年2月14日，蘑菇街网站于情人节上</p>
-</li>
-<li><p>2011年7月和8月，分别推出移动端iPhone版本和Android版</p>
-</li>
-<li><p>2011年年底，获得了贝塔斯曼、肇信资本、启明创投的两轮逾千万美元投</p>
-</li>
-<li><p>2012年2月，在一年时间内，注册用户达到600万，日均活跃人数超过160万，日均PV在7000万以</p>
-</li>
-<li><p>2012年4月，发布ipad版本、WinPhone版</p>
-</li>
-<li><p>2012年10月，完成C融资，总估值超过2亿美</p>
-</li>
-<li><p>2012年底，美妆频道上</p>
-</li>
-<li><p>2013年8月，海外代购平台上线，第一站是韩国代</p>
-</li>
-<li><p>2013年9月，正式上线开放平台，面向外部商家提供联合登录、商品推送、API调用等功</p>
-</li>
-<li><p>2014年6月，获D轮超过2亿美元的融资，投后估值10亿美元</p>
-</li>
-</ul>
-<h1 id="市场环境与竞争对手"><a href="#市场环境与竞争对手" class="headerlink" title="市场环境与竞争对手"></a>市场环境与竞争对手</h1><p>起家：蘑菇街最初一个背靠所有交易平台的导购平台，淘宝、当当、拍拍，京东都是它的靠山。从微博手里获得流量，从淘宝手里赚得佣金。</p>
-<p>当蘑菇街们的流量大到一定程度时（据说达到淘宝总流量的十分之一），最致命的就是影响到淘宝对商家的广告收入。商家总是趋利的，当他们发现淘宝之外有广告投放价格更低、转化率更高的平台时，自然会减少对淘宝本身平台的广告投放，这就触碰到淘宝的底线，进而招来从导入到支付的全线封杀</p>
-<p>对此，蘑菇街们的应付方式也非常一致：自建商城（当然，蘑菇街们官方声明都类似于出于自身发展的长期考虑而转型、升级）。但这就意味着要自建一切商城所必需的基础设施，比如更复杂的资金流管理、更多的买家投诉、更大的运营风险、等等。另一方面，也更重要的是，自建商城就意味着要与淘宝、天猫、京东等已有的在线商城直接竞争，如何找出差异化竞争优势，就是蘑菇街们必要要慎重考虑的事</p>
-<p>那蘑菇街们的优势在哪里？</p>
-<p>起初，蘑菇街仅仅是导购网站，典型的直接竞争对手是美丽说（蘑菇街和美丽说简单是异卵双生的双胞胎）</p>
-<p>后来，自建商城。从引流到淘宝等商城获取分成，到引流到自家商城的商家，蘑菇街及同类产品最核心的竞争力依然是导购，而不是更低的价格、更高的品质、更快的物流、更方便的退换货等等其他方面。蘑菇街们有自己不同的商品呈现方式，进而培养出一批高粘性的用户，这是他们面对已有的在线商城竞争时最重要的底牌</p>
-<h1 id="赢利模式"><a href="#赢利模式" class="headerlink" title="赢利模式"></a>赢利模式</h1><p>稍微发散点讲，现在虽然有各式各样的互联网公司，可是主要赢利模式也就那么几种</p>
-<ul>
-<li><p>广告：如在新浪门户看到的各类广告、百度的竞价排名</p>
-</li>
-<li><p>虚拟销售：如腾讯的Q币、盛大的游戏点卡、APP Store手机应用收入</p>
-</li>
-<li><p>实体电子商务：淘宝、京东等网上商城、各类团购网站的实体商品、服务销售</p>
-</li>
-</ul>
-<p>而其中最重要的是广告，主要以如下模式：</p>
-<p>CPM (Cost Per 1,000 Impressions)</p>
-<ul>
-<li><p>按照千人浏览成本付费，假设1000个用户浏览广告，广告主需付出的成本为1元，按照淘宝首页日均6000万的UV，则每天广告成本6万</p>
-</li>
-<li><p>典型代表：新浪、网易门户广告、QQ面板广告</p>
-</li>
-<li><p>CPM的广告往往不精准，用户是否有效浏览以及用户是否感兴趣都无法统计，传统的电视广告、媒体广告、户外广告也都是CPM的模式：所以才有一句经典的名言：“99%的广告成本都是被浪费的”</p>
-</li>
-</ul>
-<p>CPC (Cost Per Click)</p>
-<ul>
-<li><p>按用户的点击次数付费，广告展示不用付费，只有用户对广告感兴趣产生了点击，商户才会承担成</p>
-</li>
-<li><p>典型代表：淘宝直通车、百度的关键词搜索列表、Google的AdSense等</p>
-</li>
-</ul>
-<p>CPS (Cost Per Sale)</p>
-<ul>
-<li><p>按成交订单付费，用户看到了、点击了商品，广告主都不用付费，只有产生了实际的订单商户才会承担广告成本，按效果付费，这是商户最愿意接受的模</p>
-</li>
-<li><p>典型代表：QQ返利、易购、淘宝客等，蘑菇街们等导购网站也是CPS模式</p>
-</li>
-</ul>
-<p>蘑菇街开始时将自己定位为一家导购网站。陈琪给自己员工设定的KPI考核中，最重要的考核指标就是转化率，一是每100个人中有多少人找到了对应的商品，二是每100个人中有多少人达成了交易。战略大方向上将是促成交易、收取佣金。</p>
-<p>目前的定位：蘑菇街不是目的地，而是出发地。希望姑娘们闲着没事干，就可以上来刷刷图，了解当下流行元素，学学衣服搭配。不一定要买什么，但把蘑菇街当出发地，就有很多可能性和机会</p>
-<h1 id="运维与推广"><a href="#运维与推广" class="headerlink" title="运维与推广"></a>运维与推广</h1><p>目前的成绩单：2011年2月14日蘑菇街上线，截至2014年5月，发展三年半的时间内，蘑菇街已经拥有了超过6900万的注册会员，每天为超过550万的女性消费者提供购物决策建议</p>
-<p>蘑菇街用户99%集中在20～26岁的一二线城市女性，客单价120元左右，退货率不到5%，复购率超过50%。</p>
-<p>蘑菇街从导购平台转型为社会化电商平台后，2013年11月开始，仅仅两个月，就交出了单月1.2亿元的成绩单，2014年将冲击30亿元的年度目标</p>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ul>
-<li><p>[<a href="http://www.mogujie.com/](http://www.mogujie.com/" target="_blank" rel="external">http://www.mogujie.com/](http://www.mogujie.com/</a></p>
-</li>
-<li><p>[<a href="http://itjuzi.com/company/2](http://itjuzi.com/company/2" target="_blank" rel="external">http://itjuzi.com/company/2](http://itjuzi.com/company/2</a></p>
-</li>
-<li><p>[<a href="http://tech.sina.com.cn/i/2014-06-09/02149424695.shtml](http://tech.sina.com.cn/i/2014-06-09/02149424695.shtml" target="_blank" rel="external">http://tech.sina.com.cn/i/2014-06-09/02149424695.shtml](http://tech.sina.com.cn/i/2014-06-09/02149424695.shtml</a></p>
-</li>
-<li><p>[<a href="http://zixun.3158.cn/20120330/n506333680139090.html](http://zixun.3158.cn/20120330/n506333680139090.html" target="_blank" rel="external">http://zixun.3158.cn/20120330/n506333680139090.html](http://zixun.3158.cn/20120330/n506333680139090.html</a></p>
-</li>
-<li><p>[<a href="http://baike.baidu.com/view/5255837.htm](http://baike.baidu.com/view/5255837.htm" target="_blank" rel="external">http://baike.baidu.com/view/5255837.htm](http://baike.baidu.com/view/5255837.htm</a></p>
-</li>
-<li><p>[<a href="http://www.zhihu.com/question/19567268](http://www.zhihu.com/question/19567268" target="_blank" rel="external">http://www.zhihu.com/question/19567268](http://www.zhihu.com/question/19567268</a></p>
-</li>
-<li><p><a href="http://www.woshipm.com/discuss/40805.html" target="_blank" rel="external">http://www.woshipm.com/discuss/40805.html</a></p>
+<li><p><a href="http://lbs.sourceforge.net/" target="_blank" rel="external">http://lbs.sourceforge.net/</a></p>
+<p>EndFragment</p>
 </li>
 </ul>
 
@@ -1041,7 +1237,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/484.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/559.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -1063,8 +1259,8 @@
             
               
                 
-                <a class="post-title-link" href="/484.html" itemprop="url">
-                  产品之快
+                <a class="post-title-link" href="/559.html" itemprop="url">
+                  Origami初入门
                 </a>
               
             
@@ -1080,8 +1276,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-06-21T13:05:38+08:00">
-                2014-06-21
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-09T15:25:50+08:00">
+                2014-07-09
               </time>
             
 
@@ -1139,25 +1335,239 @@
       
         
           
-            <p>经常听到做产品要快、要卡位、快鱼吃慢鱼，可真的要做到快，并非易事</p>
-<h2 id="感受需求变化要快"><a href="#感受需求变化要快" class="headerlink" title="感受需求变化要快"></a>感受需求变化要快</h2><p>用户的需求是在不断演化的，也会有突发的、阶跃的需求，要能及时感知需求的变化、以及新的需求</p>
-<p>怎么做到呢？一方面是要离用户近，经常听他们抱怨、想要的改进，听他们说最近圈子里开始流行的新东西，听他们说他们的客户的抱怨与新鲜事，总会有坐在办公室里意想不到的收获</p>
-<p>另一方面就是要对数据与信息保持敏感，运营监测的数据有哪些和历史数量些微的不匹配，政府开始对政策的变动吹风，最近微博上关于某个话题的讨论开始变多，等等。这些可能都意味着一些变化要发生、或已经发生</p>
-<p>比如对于打车软件，最近是不是打车的人变少了？是不是因为最近拼车的人变多了？如果确实捕捉到了拼车有开始成为趋势的苗头，及时在这一点上做好准备、甚至是将重心向其迁移，就不至于在未来的竞争中处于被动</p>
-<p>more</p>
-<h2 id="内部决策要快"><a href="#内部决策要快" class="headerlink" title="内部决策要快"></a>内部决策要快</h2><p>如果公司内部有复杂的Report Line，要反复开会讨论，每个人都要撇清风险，有关系、没关系的人都要签字决策才能通过，等决策出来，黄花菜都凉了</p>
-<p>因而，越是大公司越强调所谓的扁平化，重要的部门、业务干脆独立出来，直接向CEO汇报，当年微信的孵化便是如此。华为更是强调让听得到炮声的人做决策</p>
-<h2 id="原型设计要快"><a href="#原型设计要快" class="headerlink" title="原型设计要快"></a>原型设计要快</h2><p>需求明确、决策通过，产品经理就要能快速设计原型，最好在这个阶段就能抓个典型用户过来验证，避免因为图快而走弯路，后期再改成本可就高了</p>
-<h2 id="开发迭代要快"><a href="#开发迭代要快" class="headerlink" title="开发迭代要快"></a>开发迭代要快</h2><p>这里的开发不仅指写代码，所有从原型至产品的环节都可涵盖其中，包括界面设计、字符串本地化、甚至是法务部门更新用户许可协议等</p>
-<p>不过，软件开发依然是核心，一个很重要的点就是，现有的代码框架要足够好、足够灵活，这样能有好的扩展性，很容易得接入新功能。这就需要长久的积累，不是突击加班就能搞定的</p>
-<h2 id="测试验证要快"><a href="#测试验证要快" class="headerlink" title="测试验证要快"></a>测试验证要快</h2><p>自动化测试总是要的吧，不然频繁的版本递交会让质量保证团队疲于奔命。据说，淘宝网站的发布计划在非常时期频繁到秒，这对测试就是非常大的挑战</p>
-<p>反之，如果上线上个有漏洞的版本，被用户或竞争对手发现，进而大肆宣传，对产品的品牌形象、用户之间的口碑影响可就大了</p>
-<h2 id="上线运维要快"><a href="#上线运维要快" class="headerlink" title="上线运维要快"></a>上线运维要快</h2><p>比如Apple的AppStore，有奇葩的审批制度，提交的时候就要很小心了，如果被打回来修改，耽误的时间就很多了。尤其是产品上线需要多个步骤、要在多个渠道上线，就要有相应的流程，有条不紊，避免在紧张中犯低级错误</p>
-<p>运维部门在新功能上线后就要密切关注其影响，比如正面的是不是在线用户数量变多了、在线时长变长了，或者反面的这一时间的卸载量是不是不正常得增加、用户的抱怨突然多起来、等等。到产品稳定运行之前，这样的关注要非常密切</p>
-<h2 id="应变要快"><a href="#应变要快" class="headerlink" title="应变要快"></a>应变要快</h2><p>我们并不能总是对未来的事情有充分的预判，事情也并不问题按之前的预期发展，出现意料之外的情况，要能启动相应的预案，或者临时起义来应对</p>
-<p>比如，对于跨国公司来讲，如果对手已经突然发起攻击，这边因为时差的原因决策者还在睡觉，那可真是没开打就落后一大截。再比如，突然就爆发了Open SSL的漏洞，产品就要在第一时间打补丁，并通过市场宣传来稳定用户，如果能把坏事变成好事就更好了（比如给Open SSL捐点钱）</p>
-<h2 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h2><p>快，不只是突然爆发、不只是随机应变，更是平时积累沉淀的检验。扎扎实实做好基本功，才能以不变应万变</p>
+            <p>最近粗粗得了解了Origami，这里简要记录过程及对Origami的理解</p>
+<p># </p>
+<pre><code>Origami是什么
 
+一句话，Origami是一款用来设计高保真、可交互产品原型的工具
+
+XCode是Mac进行开发的工具，Quartz Composer（以下简称QC）是基于XCode进行UI开发、原型设计的工具，Origami是Facebook对QC封装后得到的Patch库，降低了QC的使用门槛，使QC的界面变得更加友好，更加适合进行移动App的界面设计
+</code></pre><p># </p>
+<pre><code>Paper来背书
+
+2014年初，Facebook重磅推出一款拥有超华丽界面的新闻聚合应用：Paper，它有许多复杂的动画：在一个屏幕内翻页和切换主题，滑动移动版块提取新闻，灵活的互动让用户仿佛感觉不到屏幕上玻璃的存在，富有诗情画意的3D效果更是给App增加了无限立体感。而这些交互都是使用Origami进行原型设计，足见其强大
+
+more
+</code></pre><p># </p>
+<pre><code>Origami的优缺点
+
+优点
+</code></pre><ul>
+<li><p>交互设计功能强大</p>
+</li>
+<li><p>基础操作简便，拖放即可</p>
+</li>
+<li><p>适合进行移动App原型设计</p>
+<p>缺点</p>
+</li>
+<li><p>学习门槛高</p>
+</li>
+<li><p>只能在Mac上进行设计</p>
+</li>
+<li><p>设计出的原型只能在Mac上体验，而不能在手机等目标设备上运行，这一点个人觉得效果大大折扣</p>
+</li>
+</ul>
+<p># </p>
+<pre><code>Origami的学习渠道
+</code></pre><ul>
+<li><p>Origami官方<a href="http://facebook.github.io/origami/examples/" target="_blank" rel="external">Examples</a>:</p>
+</li>
+<li><p>Facebook上<a href="https://www.facebook.com/groups/origami.community/" target="_blank" rel="external">Origami群组</a>：</p>
+</li>
+<li><p>网上其它人发布的教程，如<a href="http://www.pasanpremaratne.com/2014/03/15/UI-Prototyping-with-Quartz-Composer-and-Origami/" target="_blank" rel="external">这篇</a></p>
+</li>
+<li><p>网上高手发布的例子，如<a href="https://dribbble.com/search?q=origami+quartz" target="_blank" rel="external">这篇</a></p>
+</li>
+</ul>
+<p>### </p>
+<pre><code>引用
+</code></pre><ul>
+<li><p><a href="http://facebook.github.io/origami/" target="_blank" rel="external">http://facebook.github.io/origami/</a></p>
+</li>
+<li><p><a href="https://github.com/facebook/origami" target="_blank" rel="external">https://github.com/facebook/origami</a></p>
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/545.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/545.html" itemprop="url">
+                  在Linode Ubuntu 14.04 64位系统中安装AMH碰到的问题及解决办法
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-07T08:44:16+08:00">
+                2014-07-07
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>刚买了个Linode的VPS，尝试安装AMH，碰到以下两个问题导致安装失败：</p>
+<pre><code>1，
+</code></pre><p>gcc -DHAVE_CONFIG_H -DEXEEXT=\&quot;\&quot; -I. -I.. -I../lib  -I../intl -DDEPENDS_ON_LIBICONV=1 -DDEPENDS_ON_LIBINTL=1   -g -O2 -c progname.c</p>
+<p>In file included from progname.c:26:0:</p>
+<p>./stdio.h:1010:1: error: &acirc;&euro;&tilde;gets&acirc;&euro;&trade; undeclared here (not in a function)</p>
+<p>_GL_WARN_ON_USE (gets, &quot;gets is a security hole - use fgets instead&quot;);</p>
+<p>^</p>
+<p>make[2]: <em>*</em> [progname.o] Error 1</p>
+<p>make[2]: Leaving directory `/home/amh_install/packages/untar/libiconv-1.14/srclib&#39;</p>
+<pre><code>这个问题已经有解决办法；[http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610](http://amysql.com/bbs/forum.php?mod=viewthread&amp;amp;tid=2610)
+
+more
+
+2，
+</code></pre><p>checking for png_write_image in -lpng… yes</p>
+<p>If configure fails try –with-xpm-dir=&lt;DIR&gt;</p>
+<p>configure: error: freetype.h not found.</p>
+<p>make: <em>*</em> No targets specified and no makefile found.  Stop.</p>
+<p>make: <em>*</em> No rule to make target `install&#39;.  Stop.</p>
+<p>cp: cannot create regular file &acirc;&euro;&tilde;/usr/local/php/etc/php-fpm.conf&acirc;&euro;&trade;: No such file or directory</p>
+<p>cp: cannot create regular file &acirc;&euro;&tilde;/usr/local/php/etc/php-fpm-template.conf&acirc;&euro;&trade;: No such file or diorytt</p>
+<p>mkdir: cannot create directory &acirc;&euro;&tilde;/usr/local/php/etc/fpm&acirc;&euro;&trade;: No such file or directory</p>
+<p>mkdir: cannot create directory &acirc;&euro;&tilde;/usr/local/php/var/run/pid&acirc;&euro;&trade;: No such file or directory</p>
+<p>touch: cannot touch &acirc;&euro;&tilde;/usr/local/php/etc/fpm/amh.conf&acirc;&euro;&trade;: No such file or directory</p>
+<p>./amh.sh: line 371: /usr/local/php/sbin/php-fpm: No such file or directory</p>
+<p>[OK] php-5.3.27 install completed.</p>
+<pre><code>查看vi php-5.3.27/configure
+</code></pre><p>for i in $PHP_FREETYPE_DIR /usr/local /usr; do</p>
+<pre><code>if test -f &amp;quot;$i/include/freetype2/freetype/freetype.h&amp;quot;; then
+
+  FREETYPE2_DIR=$i
+
+  FREETYPE2_INC_DIR=$i/include/freetype2
+
+  break
+
+fi
+</code></pre><p>done</p>
+<pre><code>可以看到脚本假定freetype的相对路径为&amp;ldquo;/include/freetype2/freetype/freetype.h&amp;rdquo;，但实际上系统路径为&amp;ldquo;/include/freetype2/freetype.h&amp;rdquo;。可以相应的修改脚本，去除一层&amp;quot;freetype&amp;quot;，或者在系统路径下临时多生成一层路径，并将相应的文件复制过去
+</code></pre>
           
         
       
@@ -1195,7 +1605,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/504/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/504/">504</a><span class="page-number current">505</span><a class="page-number" href="/page/506/">506</a><span class="space">&hellip;</span><a class="page-number" href="/page/518/">518</a><a class="extend next" rel="next" href="/page/506/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/504/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/504/">504</a><span class="page-number current">505</span><a class="page-number" href="/page/506/">506</a><span class="space">&hellip;</span><a class="page-number" href="/page/520/">520</a><a class="extend next" rel="next" href="/page/506/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1240,7 +1650,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2589</span>
+                <span class="site-state-item-count">2596</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
