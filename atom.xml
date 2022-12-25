@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2022-12-18T12:56:55.825Z</updated>
+  <updated>2022-12-25T14:18:36.789Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1220 - 阳了</title>
+    <link href="https://atjason.com/daily/2022-12-20.html"/>
+    <id>https://atjason.com/daily/2022-12-20.html</id>
+    <published>2022-12-20T14:00:00.000Z</published>
+    <updated>2022-12-25T14:18:36.789Z</updated>
+    
+    <content type="html"><![CDATA[<p>阳了，开趴…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;阳了，开趴…&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1219 - iPic 支持上传图片或文件至 Backblaze B2 云存储</title>
+    <link href="https://atjason.com/daily/2022-12-19.html"/>
+    <id>https://atjason.com/daily/2022-12-19.html</id>
+    <published>2022-12-19T14:00:00.000Z</published>
+    <updated>2022-12-25T14:18:25.621Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong><a href="https://www.backblaze.com/zh_CN/cloud-storage.html" target="_blank" rel="external">Backblaze B2</a></strong> 可能是 <strong>最便宜的云存储</strong>：</p>
+<p><img src="https://tva1.sinaimg.cn/large/008vxvgGly1h9764a8v1pj30go07iaa7.jpg" alt=""></p>
+<p>并且，<strong>有 10G 免费空间、每天 1G 免费下载流量</strong>，作为个人图床基本是够用了。</p>
+<p>而且，<strong>配合 Cloudflare CDN，回源流量免费，全程薅羊毛</strong>。</p>
+<hr>
+<p>配合图床神器 <strong>iPic</strong>，可以通过拖拽等方式，一键上传图片至 Backblaze B2：</p>
+<p><img src="https://tva1.sinaimg.cn/large/006tKfTcgy1fewqw208xmg30j60aske8.gif" alt=""></p>
+<p>具体配置过程，请参考 <a href="https://toolinbox.net/iPic/AddB2.html" target="_blank" rel="external">教程: https://toolinbox.net/iPic/AddB2.html</a></p>
+<hr>
+<p><strong>iPic</strong> 是 macOS 平台的图片和文件上传工具，可一键上传至微博、七牛云 、又拍云、阿里云 OSS 、腾讯云 COS 、Imgur 、Flickr 、Amazon S3、Backblaze B2 等图床，生成 <strong>Markdown</strong> 链接，对于在博客、公众号文章中插图，很是方便。</p>
+<p><img src="https://tva1.sinaimg.cn/large/008vxvgGly1h97631bb9uj308c081wej.jpg" alt=""></p>
+<p>感兴趣的，欢迎在 Mac App Store 搜索 <strong>iPic</strong> 并下载试用。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.backblaze.com/zh_CN/cloud-storage.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Backblaze B2&lt;/a&gt;&lt;/strong&gt; 可能是 &lt;strong
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1218 - 焊瞎了</title>
@@ -473,55 +527,6 @@
     
       &lt;p&gt;比如穷，明显是约束。很多人都说，我要是有钱，肯定不上班，做自己想做的事。&lt;/p&gt;
 &lt;p&gt;但事实上，假设他一瞬间有钱了，并不一定会做之前预想的事。即使做了，可能也很难吃过程中的苦。因为不缺钱，反而少了动力，少了坚持下去的必要性。而不吃苦，就做不出成绩，就得不到成就感，这件事可
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1130 - 制造爽点，解决痛点</title>
-    <link href="https://atjason.com/daily/2022-11-30.html"/>
-    <id>https://atjason.com/daily/2022-11-30.html</id>
-    <published>2022-11-30T14:00:00.000Z</published>
-    <updated>2022-12-04T12:59:57.948Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如养猫，逗猫棒就是制造爽点，自动喂水喂食上厕所的机器，就是让麻烦的事不那么麻烦。</p>
-<p>从这个角度讲，对于仓鼠用品，我们能让用户爽的地方太少了。最爽的应该是造景、拍照、分享，然后被点赞。</p>
-<p>有些过比较绕，比如跑轮可以让仓鼠运动而不焦虑，进而不啃咬之类的，这对小主的感知太弱了。加个屏幕、显示运动状态，就是个爽点。要拿出手机同步后才能看到结果，就有点绕了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如养猫，逗猫棒就是制造爽点，自动喂水喂食上厕所的机器，就是让麻烦的事不那么麻烦。&lt;/p&gt;
-&lt;p&gt;从这个角度讲，对于仓鼠用品，我们能让用户爽的地方太少了。最爽的应该是造景、拍照、分享，然后被点赞。&lt;/p&gt;
-&lt;p&gt;有些过比较绕，比如跑轮可以让仓鼠运动而不焦虑，进而不啃咬之类的
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1129 - 利益驱动</title>
-    <link href="https://atjason.com/daily/2022-11-29.html"/>
-    <id>https://atjason.com/daily/2022-11-29.html</id>
-    <published>2022-11-29T14:00:00.000Z</published>
-    <updated>2022-12-04T12:59:14.263Z</updated>
-    
-    <content type="html"><![CDATA[<p>个人可以情怀驱动，公司只能利益驱动。</p>
-<p>本质还是成本和弹性不同。个人可以一两个月没有收入；公司要是一两个月不发工资，估计人就走差不多了，至少人心走了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;个人可以情怀驱动，公司只能利益驱动。&lt;/p&gt;
-&lt;p&gt;本质还是成本和弹性不同。个人可以一两个月没有收入；公司要是一两个月不发工资，估计人就走差不多了，至少人心走了。&lt;/p&gt;
-
     
     </summary>
     

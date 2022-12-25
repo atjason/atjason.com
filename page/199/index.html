@@ -268,6 +268,302 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-11.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2020-02-11.html" itemprop="url">
+                  0211 - 邮件发送
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-11T22:00:00+08:00">
+                2020-02-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>项目中，经常需要使用邮件来发送一些信息，比如重要错误、自己关心的信息等等。</p>
+<p>市面上有很多类似的消息推送服务，比如 <a href="http://sc.ftqq.com/3.version" target="_blank" rel="external">Server酱</a>、<a href="https://pushbear.ftqq.com/admin/#/" target="_blank" rel="external">PushBear</a>，接口也很简单。只是我目前还是习惯于用邮件来管理这些信息。每个项目重复一个邮件模块挺烦的，而且像小程序这样的环境，又不支持发邮件。于是自己做了一个：</p>
+<p><a href="https://github.com/atjason/email_message" target="_blank" rel="external">https://github.com/atjason/email_message</a></p>
+<p>首先，你需要更新项目中的配置文件 <code>config.js</code>，完成邮件账户、服务器端口等信息的配置。</p>
+<p>然后，你需要有服务器、域名，然后把以上服务配置到服务器中，使用 <code>nginx</code> 等服务器应用完成网络转发。</p>
+<p>这些完了之后，客户端请求就很容易了。假设部署的域名是 <code>https://example.com</code>，只需要发一个网络请求，如 <code>https://example.com/?s=SECRET&amp;t=title</code>，就会发一封邮件标题为 <code>title</code>、正文为空的邮件。其中 <code>SECRET</code> 用于阻止非法访问，达到一定程度的安全性。更多参数，可在项目中查看，或者自己设置。</p>
+<p>一些信息：我后台是使用 <code>Gmail</code> 来发送邮件。可以先注册一个小号，专门用于发邮件。然后允许其在非安全环境登录。如果首次在一个 IP 等环境使用该账户发邮件时，会因安全提示而阻止。此时，只需在浏览器中访问提示中的网址，进行安全验证即可。我的服务器部署在国外，因此没有那个神奇问题的干扰。</p>
+<p>当然，你也可以使用其他邮件服务。另外，一般的云服务也提供邮件服务，每天也有大约 200 的免费发送量，对个人基本也是够的。不过，以我测试的经验，触达率不好说。即使是把发送方加入收件人的联系人或白名单，也会出现发送成功、但收不到、垃圾邮箱里也没有的情况。而 <code>Gmail</code> 是我测试下来最让人放心的。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-10.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2020-02-10.html" itemprop="url">
+                  0210 - 「视字」集成百度
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-10T22:00:00+08:00">
+                2020-02-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong>百度语音转写</strong>，目前还在公测期，需要申请。之前申请，今天终于过了；估计主要是受疫情影响，审核比较慢。</p>
+<p>迫不及待拿来一试。集成还挺简单的，一个请求创建任务，指定音频的 url 及其他参数；之后便是轮询，查询转写是否完成。当然，也支持作为完成后回调，只是一般客户端调用，自然是无法接受回调的。</p>
+<p>需要关心的主要是两点：<strong>识别质量</strong> 和 <strong>识别速度</strong>。</p>
+<p><strong>识别质量</strong> 方面，感觉略微比较搜狗知音差一点，不过整体还是达到商用级别的。尤其，每天还有 5 万次的免费额度，对「视字」这种级别的小程序，自然是够用了。</p>
+<p><strong>识别速度</strong> 方面，感觉不太稳定。快的时候很快，基本 10s+ 就有结果。慢的时候很慢，甚至 3 分钟的音频，要几十分钟、上小时才完成。我猜还是服务器资源有限，碰到请求比较多时，识别时间就会拉长。</p>
+<p>不过，最后我还是 <strong>没有在「视字」中使用百度</strong>，主要是因为上面两点：识别质量畋差于搜狗，识别速度不够稳定。不过，还是继续观察，相信百度还是会快速进化的，毕竟语音是未来交互的重要途径之一，而百度明显在语音转写方面起步晚了。要追上，就得快跑了。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-09.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -701,300 +997,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-06.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2020-02-06.html" itemprop="url">
-                  0206 - 有一点代码洁癖
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-06T22:00:00+08:00">
-                2020-02-06
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天在写小程序云函数，为了不依赖第三方库，自动手动实现鉴权，并找单独的 base64/md5/hmac/post 等单文件实现的版本。最后，终于还是实现功能了，可惜花的时间太多了。本打算今天放出体验版的，结果还是做不到。</p>
-<p>好处是，有些工作只用做一次，下次直接复制这些代码即可。不过，如无必要，还是直接依赖第三方库算了。人生苦短，还是少重复造轮子的好。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-05.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2020-02-05.html" itemprop="url">
-                  0205 - 「视字」小程序继续踩坑
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-05T22:00:00+08:00">
-                2020-02-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天早上把「<strong>视字</strong>」小程序的 <strong>体验版</strong> 做出来了，也发给了几个人试用，暴露出了很多问题。最关键的是，<strong>太太慢了</strong>。</p>
-<p>首先，我使用了 <a href="https://file.io" target="_blank" rel="external">https://file.io</a> 进行 <strong>文件中转</strong>。这个是国外的服务，之前一直开代理没感觉；在普通网络下，上传很慢，甚至可能会有超时之类的错误。</p>
-<p>然后，发现正在使用的、免费的 <strong>在线格式转换服务</strong>，其中限制了每天 30 分钟额度。哎，大意了。之前其实我是看了价格的，没注意到。并且，这个也是国外的服务，也有慢的问题。</p>
-<p>由于这两个问题，现在的方案必须得有大的调整。现在可行的方案是：<strong>使用国内的云存储，上传视频后自动转码</strong>。本以为这是很成熟的服务了，没想到还是有很多坑。</p>
-<p>首先，我试用了 <strong>阿里云和腾讯云</strong> 的相关服务，发现有个致命的问题：<strong>音频的最低采样率大于 16k Hz</strong>。而 <strong>搜狗的音频识别必须使用 16k 的采样率</strong>。发工单问了客服，告知确实不行。哎，没办法，只能放弃这两家。</p>
-<p>然后去看了 <strong>七牛</strong>。恩，看起来老实厚道七牛是没问题的，可真的一试，又发现一个坑：<strong>音频转码时不支持设置 bit per sample</strong>（中文是分辨率？位深？）。这也麻烦了，因为 <strong>搜狗的音频识别必须使用 8 bit 或 16 bit 的分辨率</strong>。理论上，可以通过设置码率（因为码率 = 采样率 <em> 位深 </em> 声道数）来倒过来设置位深，而实际测试并不工作。发工单给七牛，无奈这有点专业，售后解决不了，得等他们技术来支持。<strong>现在，这事卡在这了</strong>，除非我再去找一家云服务。</p>
-<p>同时，我又去了解了下 <strong><a href="https://ai.qq.com/doc/wxasrlong.shtml" target="_blank" rel="external">腾讯 AI 长语音识别</a></strong>，哎，也有坑。比如，服务器时不时返回 502（可以看出，给其配备的服务器资源并不充足）；很多时候创建任务成功，却永远收不到回调。从偶尔成功时返回的结果来看，<strong>文字识别结果并不如讯飞或搜狗</strong>，包括文字不准确、大段文字而没有标点等。</p>
-<p>我感觉，腾讯 AI 还是试验性阶段，各种不靠谱。可能腾讯云是商务的，应该靠谱些。其实我也不明白，腾讯云和腾讯 AI 是什么关系，不会像 QQ 和微信的关系吧。</p>
-<p>除此之外，<strong>百度</strong> 也提供了长音频提取文字，不过刚刚开始公测。我已经申请了，在等结果。现在是疫情时期，估计会很慢。下午错过了一个百度的电话，可能跟这事有关，有点后悔没接到电话，耽误事了。</p>
-<p>哎，这么个小程序、小项目，没想到会遇到这么多坑。有时，<strong>你看到一个产品很简洁，殊不知，在走到最后简洁这一步之前，已经踩过多少坑</strong>。再一个感叹便是，<strong>国内的这些云服务，看起来大而全，真往细了用时，问题很多</strong>。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1044,7 +1046,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2603</span>
+                <span class="site-state-item-count">2605</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
