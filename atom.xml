@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-01-22T11:43:31.328Z</updated>
+  <updated>2023-01-29T14:41:54.003Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,193 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0129 - 尖峰电流</title>
+    <link href="https://atjason.com/daily/2023-01-29.html"/>
+    <id>https://atjason.com/daily/2023-01-29.html</id>
+    <published>2023-01-29T14:00:00.000Z</published>
+    <updated>2023-01-29T14:41:54.003Z</updated>
+    
+    <content type="html"><![CDATA[<p>现在遇到一个诡异的问题：电路休眠时，隔几秒会有一个 10mA 以上的尖峰电流，平均下来就有 200uA ~ 400uA 的电流消耗。</p>
+<p>刚开始怀疑是蓝牙芯片广播引起的。单独做了蓝牙的测试电路，发现休眠后并没有尖峰电流。</p>
+<p>一个个排查，怀疑到了钰泰 ETA6093 充电芯片。也单独做了测试电路，连接电池，什么也不做，就会有很多尖峰电流，分钟平均有 120uA。虽然不是全部电流消耗，但规律非常吻合。原理上，因为 ETA6093 是输入输出同口的，在放电空载时输出端会周期性有一个台阶，应该就是这个电流。事实上，这颗芯片也不是低功耗的。</p>
+<p>哎，硬件的坑，种类真是丰富啊 😂</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;现在遇到一个诡异的问题：电路休眠时，隔几秒会有一个 10mA 以上的尖峰电流，平均下来就有 200uA ~ 400uA 的电流消耗。&lt;/p&gt;
+&lt;p&gt;刚开始怀疑是蓝牙芯片广播引起的。单独做了蓝牙的测试电路，发现休眠后并没有尖峰电流。&lt;/p&gt;
+&lt;p&gt;一个个排查，怀疑到了钰泰 E
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0128 - 平等看待小孩</title>
+    <link href="https://atjason.com/daily/2023-01-28.html"/>
+    <id>https://atjason.com/daily/2023-01-28.html</id>
+    <published>2023-01-28T14:00:00.000Z</published>
+    <updated>2023-01-29T14:37:27.065Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果你和朋友吃饭，他说我今天不太饿、不想吃太多，结果饭没吃完，你会觉得很正常，不会去干预。<br>如果你和娃吃饭，他说我今天不太饿、不想吃太多，结果饭没吃完，你会觉得很正常吗？不会去干预吗？</p>
+<p>除了关系不同，很大原因是，我们觉得大人有能力为自己的事负责，而小孩不行。</p>
+<p>可是，吃东西、避免饥饿，这不是人的本能吗，为什么会觉得小孩不行呢？</p>
+<p>也许，只是我们希望他们按自己的理解和意愿做事，包括吃饭。<br>也许，是小孩吃饭拖拉、非吃饭时间吃零食时，我们没有处理好。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果你和朋友吃饭，他说我今天不太饿、不想吃太多，结果饭没吃完，你会觉得很正常，不会去干预。&lt;br&gt;如果你和娃吃饭，他说我今天不太饿、不想吃太多，结果饭没吃完，你会觉得很正常吗？不会去干预吗？&lt;/p&gt;
+&lt;p&gt;除了关系不同，很大原因是，我们觉得大人有能力为自己的事负责，而小孩不
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0127 - 售后很重要</title>
+    <link href="https://atjason.com/daily/2023-01-27.html"/>
+    <id>https://atjason.com/daily/2023-01-27.html</id>
+    <published>2023-01-27T14:00:00.000Z</published>
+    <updated>2023-01-29T14:36:40.491Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如一个产品有缺陷，打个比方，就是桌子不稳，但也能用。</p>
+<p>这时怎么办呢？产品下架销毁，损失太大，尤其有大库存的时候；迭代改进，需要比如2万、3个月。</p>
+<p>从生意的角度，在改进的同时，继续降价销售，大部分用户可能会沉默，因为毕竟便宜，桌脚垫点东西继续用。少数会抱怨、差评，那就是怎么应对这部分用户。</p>
+<p>如果售后做的好，或给礼物、返现、退货等，再加上照顾情感，这其中的大部分人也能满意而归。消费消费，除了买到具体的东西，好的体验、过程满意，也是很重要的。一通操作下来，可能只花200块。</p>
+<p>具体到电商这门生意，运营、售后，有的阶段比产品还重要。毕竟，产品的迭代周期长、投入大，而用户的问题此时此地就要解决。</p>
+<p>另外，无论我们再怎么追求完美，产品总是有缺陷的。更何况，受限于现实，也不可能追求完美。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如一个产品有缺陷，打个比方，就是桌子不稳，但也能用。&lt;/p&gt;
+&lt;p&gt;这时怎么办呢？产品下架销毁，损失太大，尤其有大库存的时候；迭代改进，需要比如2万、3个月。&lt;/p&gt;
+&lt;p&gt;从生意的角度，在改进的同时，继续降价销售，大部分用户可能会沉默，因为毕竟便宜，桌脚垫点东西继续用。
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0126 - 该干啥干啥</title>
+    <link href="https://atjason.com/daily/2023-01-26.html"/>
+    <id>https://atjason.com/daily/2023-01-26.html</id>
+    <published>2023-01-26T14:00:00.000Z</published>
+    <updated>2023-01-29T14:36:14.740Z</updated>
+    
+    <content type="html"><![CDATA[<p>吃饭别想睡觉的事；<br>睡觉别想吃饭的事</p>
+<p>别让未来的事烦自己；<br>别为过去的事烦心。</p>
+<p>不在彼时彼处，<br>关照此时此地的内心。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;吃饭别想睡觉的事；&lt;br&gt;睡觉别想吃饭的事&lt;/p&gt;
+&lt;p&gt;别让未来的事烦自己；&lt;br&gt;别为过去的事烦心。&lt;/p&gt;
+&lt;p&gt;不在彼时彼处，&lt;br&gt;关照此时此地的内心。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0125 - 定义边界，全力以赴</title>
+    <link href="https://atjason.com/daily/2023-01-25.html"/>
+    <id>https://atjason.com/daily/2023-01-25.html</id>
+    <published>2023-01-25T14:00:00.000Z</published>
+    <updated>2023-01-29T14:35:32.378Z</updated>
+    
+    <content type="html"><![CDATA[<p>工作、兴趣、生活，都很重要，要做的事很多。</p>
+<p>工作是最容易付出最多时间精力的，因为有多方面的外因催促自己。</p>
+<p>而除此以外的事，很容易被压缩。</p>
+<p>定义好每件事的边界，定义各自的目标，在每个边界内全力以赴。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;工作、兴趣、生活，都很重要，要做的事很多。&lt;/p&gt;
+&lt;p&gt;工作是最容易付出最多时间精力的，因为有多方面的外因催促自己。&lt;/p&gt;
+&lt;p&gt;而除此以外的事，很容易被压缩。&lt;/p&gt;
+&lt;p&gt;定义好每件事的边界，定义各自的目标，在每个边界内全力以赴。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0124 - 阿里云盘</title>
+    <link href="https://atjason.com/daily/2023-01-24.html"/>
+    <id>https://atjason.com/daily/2023-01-24.html</id>
+    <published>2023-01-24T14:00:00.000Z</published>
+    <updated>2023-01-29T14:35:05.275Z</updated>
+    
+    <content type="html"><![CDATA[<p>不限速的阿里云盘，<br>有了点互联网应有的样子。</p>
+<p>配合 TV 版，<br>下载、投影无缝衔接。</p>
+<p>再加上在线下载，<br>就齐活了。</p>
+<p>本打算给小 NAS 加硬盘，<br>这下不用了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;不限速的阿里云盘，&lt;br&gt;有了点互联网应有的样子。&lt;/p&gt;
+&lt;p&gt;配合 TV 版，&lt;br&gt;下载、投影无缝衔接。&lt;/p&gt;
+&lt;p&gt;再加上在线下载，&lt;br&gt;就齐活了。&lt;/p&gt;
+&lt;p&gt;本打算给小 NAS 加硬盘，&lt;br&gt;这下不用了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0123 - 不要太过依赖外在</title>
+    <link href="https://atjason.com/daily/2023-01-23.html"/>
+    <id>https://atjason.com/daily/2023-01-23.html</id>
+    <published>2023-01-23T14:00:00.000Z</published>
+    <updated>2023-01-29T14:34:34.077Z</updated>
+    
+    <content type="html"><![CDATA[<p>除夕夜看春晚，看了一会，觉得不好看。其实，我当时想看的，是《去有风的地方》，就是追剧。可是，貌似当天没有更新，等等着第二天看。</p>
+<p>可到了初一晚上，好像还没更新。后来才注意到，其实已经全放出来了，只是要另外花钱才能全部看…</p>
+<p>看到 12 点，感觉也就那样；可能是自己期望值太高了。</p>
+<p>回头来看，自己当时的快感，全都寄托在外在的电视剧，在别人编织的情节。这感觉太差了，应该是我的快乐我做主。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;除夕夜看春晚，看了一会，觉得不好看。其实，我当时想看的，是《去有风的地方》，就是追剧。可是，貌似当天没有更新，等等着第二天看。&lt;/p&gt;
+&lt;p&gt;可到了初一晚上，好像还没更新。后来才注意到，其实已经全放出来了，只是要另外花钱才能全部看…&lt;/p&gt;
+&lt;p&gt;看到 12 点，感觉也就那
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0122 - 兔年初一</title>
@@ -343,206 +530,6 @@
       &lt;p&gt;比如，去公司的路上，有一段路设计的不合理，要绕路走，于是很多人踩草坪过去。我不想踩，只是好绕路，却也觉得不爽。&lt;/p&gt;
 &lt;p&gt;后来，物业在人们踩出的路上，铺了石板。于是，我可以很开心的抄近路。&lt;/p&gt;
 &lt;p&gt;我也希望自己做的事，能给身边人、周围人，带去一点点这样的美好。&lt;/
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0109 - RGB LED 灯</title>
-    <link href="https://atjason.com/daily/2023-01-09.html"/>
-    <id>https://atjason.com/daily/2023-01-09.html</id>
-    <published>2023-01-09T14:00:00.000Z</published>
-    <updated>2023-01-15T12:30:00.036Z</updated>
-    
-    <content type="html"><![CDATA[<p>测试了几个 RGB/RGY 三色 LED，发现一个很有意思的现象：<strong>不同颜色 LED 的功耗差异非常大</strong>。</p>
-<p>单从电流上看，R/G/B 三者的电流大概是：1.5mA/1mA/0.8mA。但事实上，在此电流下，三者亮度大概是 G &gt;&gt;&gt; B &gt; R。如果考虑相同亮度，绿色是绝对省电的颜色。</p>
-<p>同时，普通RGB二极管的管压降：红2.1v，绿2.8v，蓝2.8v。</p>
-<p>最后选择了最开始打算放弃的型号。打算放弃是因为它太小，担心贴片容易出问题；选择是因为它周围有黑色封装、不漏光，更亮、效果更好。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;测试了几个 RGB/RGY 三色 LED，发现一个很有意思的现象：&lt;strong&gt;不同颜色 LED 的功耗差异非常大&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;单从电流上看，R/G/B 三者的电流大概是：1.5mA/1mA/0.8mA。但事实上，在此电流下，三者亮度大概是 G &amp;g
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0108 - 车流与经济</title>
-    <link href="https://atjason.com/daily/2023-01-08.html"/>
-    <id>https://atjason.com/daily/2023-01-08.html</id>
-    <published>2023-01-08T14:00:00.000Z</published>
-    <updated>2023-01-08T12:18:43.079Z</updated>
-    
-    <content type="html"><![CDATA[<p>高架上行车，</p>
-<ul>
-<li>如果前面的车比后面的车快，哪怕只快一丢丢，就会越来越通畅。</li>
-<li>如果前面的车比后面的车慢，哪怕只怕一丢丢，也会越来越拥堵。</li>
-<li>如果前面的车突然刹车大减速，后面的车会接连撞上去，引发连环车祸。</li>
-</ul>
-<p>这个车流，可以对比理解经济。</p>
-<ul>
-<li>如果经济在增长，你好我好喜欢大家好；</li>
-<li>如果经济慢慢减速、软着陆，大家开始难受，但还可以忍受；</li>
-<li>如果大减速、硬着陆，那就会引发一系列严重后果，甚至崩溃。</li>
-</ul>
-<p>并且，经济一旦失速，再想起来，就不只是踩油门这么简单。有可能，已经出现连环车祸。车都损坏了，还怎么踩油门。等拖车处理事故现场，也要好一会。第一车加速之后，要等很久，最后一辆车的速度才能提起来。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;高架上行车，&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果前面的车比后面的车快，哪怕只快一丢丢，就会越来越通畅。&lt;/li&gt;
-&lt;li&gt;如果前面的车比后面的车慢，哪怕只怕一丢丢，也会越来越拥堵。&lt;/li&gt;
-&lt;li&gt;如果前面的车突然刹车大减速，后面的车会接连撞上去，引发连环车祸。&lt;/li&gt;
-&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0107 - 佛并不能把痛苦从你身上拿走</title>
-    <link href="https://atjason.com/daily/2023-01-07.html"/>
-    <id>https://atjason.com/daily/2023-01-07.html</id>
-    <published>2023-01-07T14:00:00.000Z</published>
-    <updated>2023-01-08T12:17:53.030Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，你在昏暗的房间，看到一根麻绳，以为是蛇，吓得半死。</p>
-<p>这时，一个人走进房间并打开灯。有了亮光，你清楚的看到那是麻绳而非蛇，于是不再害怕。</p>
-<p>这个人并没有把蛇拿走，因为它并存在。</p>
-<p>同样，佛并不能把痛苦从你身上拿走，因为它不存在。佛只能告诉你，痛苦并不是真实存在的，而只是你自己的理解、甚至是幻象。要从痛苦中走出来，只能靠自己。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，你在昏暗的房间，看到一根麻绳，以为是蛇，吓得半死。&lt;/p&gt;
-&lt;p&gt;这时，一个人走进房间并打开灯。有了亮光，你清楚的看到那是麻绳而非蛇，于是不再害怕。&lt;/p&gt;
-&lt;p&gt;这个人并没有把蛇拿走，因为它并存在。&lt;/p&gt;
-&lt;p&gt;同样，佛并不能把痛苦从你身上拿走，因为它不存在。佛只
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0106 - 团队与个人</title>
-    <link href="https://atjason.com/daily/2023-01-06.html"/>
-    <id>https://atjason.com/daily/2023-01-06.html</id>
-    <published>2023-01-06T14:00:00.000Z</published>
-    <updated>2023-01-08T12:17:29.812Z</updated>
-    
-    <content type="html"><![CDATA[<p>一个 10 人的团队中，其中一个人病倒了，剩下的并不是简单的发挥 90% 的战力。</p>
-<p>事实上，可能只有 60%，因为依赖这个人的事会全部卡住。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一个 10 人的团队中，其中一个人病倒了，剩下的并不是简单的发挥 90% 的战力。&lt;/p&gt;
-&lt;p&gt;事实上，可能只有 60%，因为依赖这个人的事会全部卡住。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0105 - 敢于认输</title>
-    <link href="https://atjason.com/daily/2023-01-05.html"/>
-    <id>https://atjason.com/daily/2023-01-05.html</id>
-    <published>2023-01-05T14:00:00.000Z</published>
-    <updated>2023-01-08T12:14:42.572Z</updated>
-    
-    <content type="html"><![CDATA[<p>小孩子下棋，有个很好的品性，就是敢于认输，而不是一输就开始耍赖。承认自己输，也才能认识到自己哪里做得对，也才能改进。</p>
-<p>大人也是一样。什么是坚持不懈，什么是敢于认输；什么时候迎难而上，什么时候知难而退，要分得清。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;小孩子下棋，有个很好的品性，就是敢于认输，而不是一输就开始耍赖。承认自己输，也才能认识到自己哪里做得对，也才能改进。&lt;/p&gt;
-&lt;p&gt;大人也是一样。什么是坚持不懈，什么是敢于认输；什么时候迎难而上，什么时候知难而退，要分得清。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0104 - AirPods Pro 2 配对不灵</title>
-    <link href="https://atjason.com/daily/2023-01-04.html"/>
-    <id>https://atjason.com/daily/2023-01-04.html</id>
-    <published>2023-01-04T14:00:00.000Z</published>
-    <updated>2023-01-08T12:12:38.812Z</updated>
-    
-    <content type="html"><![CDATA[<p>AirPods Pro 2 配对不灵，尤其是在多设备切换时。比如：</p>
-<ul>
-<li>先连接手机</li>
-<li>再连接 iPad</li>
-<li>想再连回手机，不行。</li>
-<li>主动从 iPad 断开、甚至关闭蓝牙，再连手机，不行。</li>
-</ul>
-<p>另外，连接手机时微信语音，没声音。微信提示变为外放，但实际上也没声音。</p>
-<p>这个状态很久了，实在不想忍，到 Apple 店，送工厂维修。等了几天回来，结果还是一样。</p>
-<p>差评，垃圾。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;AirPods Pro 2 配对不灵，尤其是在多设备切换时。比如：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;先连接手机&lt;/li&gt;
-&lt;li&gt;再连接 iPad&lt;/li&gt;
-&lt;li&gt;想再连回手机，不行。&lt;/li&gt;
-&lt;li&gt;主动从 iPad 断开、甚至关闭蓝牙，再连手机，不行。&lt;/li&gt;
-&lt;/ul
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0103 - 困难还在，我们不同</title>
-    <link href="https://atjason.com/daily/2023-01-03.html"/>
-    <id>https://atjason.com/daily/2023-01-03.html</id>
-    <published>2023-01-03T14:00:00.000Z</published>
-    <updated>2023-01-08T12:09:18.112Z</updated>
-    
-    <content type="html"><![CDATA[<p>今年遇到的困难，明年还会遇到。比如，供应商的不配合、竞品变得更强、用户变得更挑剔。</p>
-<p>甚至，今年的困难，会继续拖到明年，使得我们并不能轻装前行。</p>
-<p>但是，我们变得不一样了。一些困难我们见过了，再见时，心里就不慌了。甚至，一些困难我们解决过，再遇到时，心里就有底了。</p>
-<p>我们怀揣着对未来美好的想象，就是做出更好的产品、卖更多的钱，我们一点点展开想象，用一件件事、一个个动作，逐渐描绘想象的样子，最终把事情做成、让想象成真。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今年遇到的困难，明年还会遇到。比如，供应商的不配合、竞品变得更强、用户变得更挑剔。&lt;/p&gt;
-&lt;p&gt;甚至，今年的困难，会继续拖到明年，使得我们并不能轻装前行。&lt;/p&gt;
-&lt;p&gt;但是，我们变得不一样了。一些困难我们见过了，再见时，心里就不慌了。甚至，一些困难我们解决过，再遇到时，
     
     </summary>
     
