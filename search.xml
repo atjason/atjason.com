@@ -4,6 +4,127 @@
   
     
     <entry>
+      <title><![CDATA[0205 - 升级 Google Analytics 4]]></title>
+      <url>https://atjason.com/daily/2023-02-05.html</url>
+      <content type="html"><![CDATA[<p>终于干完这件事，了去一桩心事。</p>
+<p>Universal Analytics 升级到 Google Analytics 4，还是比较复杂的，因为变化很大。</p>
+<p>我用的最重的，还是 App 内借助 Universal Analytics 的 Events，对 App 的行为进行分析。而在 Google Analytics 4，Events 有很大的变化，或者至少对我来说是很大的退步，因为无法查看 Events 的历史变化。</p>
+<p>所幸，之前所有 App 都是集中到一个网页进行数据统计的。所以，弄清楚之后，只要改动一个页面也就可以了。</p>
+<p>剩下的，就是更改之前几个网站的设置，改用新配置即可。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0204 - 《曹操穿越武大郎》]]></title>
+      <url>https://atjason.com/daily/2023-02-04.html</url>
+      <content type="html"><![CDATA[<p>《曹操穿越武大郎》，和《佛陀传》有的一拼：</p>
+<p>莫不是武孟德？于是放下刀枪，赶紧归顺；<br>原来是佛陀？于是坏人不再作恶，立马拜服。</p>
+<p>前面有多嚣张，归顺后就有多死心，对比就有多强烈，看多了就有多没劲。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0203 - 硕士有必要吗]]></title>
+      <url>https://atjason.com/daily/2023-02-03.html</url>
+      <content type="html"><![CDATA[<p>一方面，低生育率叠加老龄化，劳动力不足；</p>
+<p>另一方面，几百万正好可以工作的年轻人，为了缓解就业压力，选择考研、推迟就业。</p>
+<p>社会需要更多的，不是研究生，是研究生娃和打工人。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0202 - 房价 PK 人口]]></title>
+      <url>https://atjason.com/daily/2023-02-02.html</url>
+      <content type="html"><![CDATA[<p>用房价托住经济，<br>还是用人口推动经济。</p>
+<p>没人了，谁来买房；<br>买了房，谁来造人。</p>
+<p>一边首付一降再降，<br>一边生娃无需结婚，<br>各种神仙政策。</p>
+<p>话说回来，非婚允许生娃，这政策出现在劳务输出大省，让人感到费解：年轻时到外地打工、给别人创造 GDP，老了回老家拿养老金、吃财政。为他人做嫁衣，这操作多亏啊。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0201 - 成功的负累]]></title>
+      <url>https://atjason.com/daily/2023-02-01.html</url>
+      <content type="html"><![CDATA[<p>比如一名演员，很成功的刻画了一个角色，给观众留下很深的印象，这是成功、是好事。</p>
+<p>可是，当他之后再饰演其它角色时，观众很容易联想到之前的角色而出戏，又或者期望过高而失望，这便是成功的负累。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0131 - 对比出来的幸福]]></title>
+      <url>https://atjason.com/daily/2023-01-31.html</url>
+      <content type="html"><![CDATA[<p>去医院急诊呆一天，或者 ICU，就会明白，自己有手有脚、神智清醒，是件多么幸运、幸福的事。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0130 - 市场的不确定性]]></title>
+      <url>https://atjason.com/daily/2023-01-30.html</url>
+      <content type="html"><![CDATA[<p>春节后首个交易日，A股大涨。</p>
+<p>节前清仓的小伙伴，作何感想？</p>
+<p>反过来说，如果节前未清仓、节后大跌，又该作何感想？</p>
+<p>既然都是概率（好吧，就是瞎猜），那多一事不如少一事，该咋咋地。</p>
+<p>后记：上午写下这些字，下午收盘时，大盘已经回落，整个高开低走。还能说什么呢？市场就是这样任性，市场永远是对的，我们只能随波逐流。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0129 - 尖峰电流]]></title>
       <url>https://atjason.com/daily/2023-01-29.html</url>
       <content type="html"><![CDATA[<p>现在遇到一个诡异的问题：电路休眠时，隔几秒会有一个 10mA 以上的尖峰电流，平均下来就有 200uA ~ 400uA 的电流消耗。</p>
@@ -19519,11 +19640,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0305 - 极致收敛]]></title>
-      <url>https://atjason.com/daily/2020-03-05.html</url>
-      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
-<p>过不了这二问，不做。</p>
-<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
+      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
+      <url>https://atjason.com/daily/2020-03-04.html</url>
+      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
+<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
+<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
+<p>靠自己的实力呢？玩笑了。</p>
+<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
+<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
 ]]></content>
       
         <categories>
@@ -19536,14 +19660,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
-      <url>https://atjason.com/daily/2020-03-04.html</url>
-      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
-<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
-<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
-<p>靠自己的实力呢？玩笑了。</p>
-<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
-<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
+      <title><![CDATA[0305 - 极致收敛]]></title>
+      <url>https://atjason.com/daily/2020-03-05.html</url>
+      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
+<p>过不了这二问，不做。</p>
+<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
 ]]></content>
       
         <categories>
@@ -50469,7 +50590,7 @@
 <h1 id="配置-ssh-的-config"><a href="#配置-ssh-的-config" class="headerlink" title="配置 ssh 的 config"></a>配置 ssh 的 config</h1><p>编辑 ~/.ssh/config，添加类似下面的内容：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># user1</div><div class="line">Host github.com</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa</div><div class="line"></div><div class="line"># user2</div><div class="line">Host github.cn</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa2</div></pre></td></tr></table></figure>
 <p>编辑后，测试连接是否成功。如果成功，会有类似下面的提示：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> ssh -T git@github.com</div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$ ssh -T git@github.cn</div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh -T git@github.com</span></div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$<span class="bash"> ssh -T git@github.cn</span></div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
 <p>核心原理就是，当 ssh 尝试访问某域名时，会尝试和 config 中 <code>Host</code> 对应的记录匹配。如果匹配成功，就会使用该记录中 <code>HostName</code> 的值作为真正的域名、以及使用 <code>IdentityFile</code> 对应的私钥进行配对。这样，既可以实现把 <code>github.cn</code> 当作 <code>github.com</code> 访问、又可以匹配到正常的私钥。 </p>
 <p>这里，<code>github.cn</code> 只是个代号，你可以使用任何其它你喜欢的域名。</p>
 <h1 id="对-git-项目使用适当的-ssh-连接"><a href="#对-git-项目使用适当的-ssh-连接" class="headerlink" title="对 git 项目使用适当的 ssh 连接"></a>对 git 项目使用适当的 ssh 连接</h1><p>前面提到，假定 user1@gmail.com 是更经常使用的账户，这样我们可以设置该账户为全局默认的 git 账户。通常，你已经这么设置了。不过，如果可以通过下面的命令再次设置以确认。</p>
@@ -58547,9 +58668,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
@@ -58609,9 +58730,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
