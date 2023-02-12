@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-21.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-28.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-12-21.html" itemprop="url">
-                  1221 - 交易和生活，仿佛两个世界
+                <a class="post-title-link" href="/daily/2020-12-28.html" itemprop="url">
+                  1228 - 过了当时便不再
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-21T22:00:00+08:00">
-                2020-12-21
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-28T22:00:00+08:00">
+                2020-12-28
               </time>
             
 
@@ -365,12 +365,9 @@
       
         
           
-            <p>打开电脑，看着交易界面，开仓平仓、下单撤单，一切好像游戏一样，并不真实，却又真实的影响的账户里的余额。</p>
-<p>离开电脑，看着家和家人，一下子很难切换过来，现实也好像虚幻起来。</p>
-<p><strong>交易和生活，仿佛两个世界，却只差一个转身</strong>。</p>
-<p>尤其，在交易大赚或大亏时，这种虚实的割裂感会更强。</p>
-<p>交易世界里，不管盈利还是亏损，平仓了，就可以重新来过。<br>现实里，发生了就是发生了，事情的影响会持续很久。</p>
-<p>交易中，需要耐心等待机会。<br>生活中，需要更加耐心的对待家人；因为，无法重新来过。</p>
+            <p>今天有用户在群里又发了我当时写的文章：<a href="https://mp.weixin.qq.com/s/XVzlWFKTeZAqwjC421KQzw" target="_blank" rel="external">我是如何把 Klib 带到这个世界的</a>。看完后我的想法是：恐怕我再难写出这样的文章了。</p>
+<p>过了当时当地，已没有了当时的心境、状态、时间等因素，便再也不会去研究这样的产品，也就不会写这样的文章了。</p>
+<p>在当下，就把当下的事做好。一辈子虽然长，可依然你很可能再也不会做同样的事了。</p>
 
           
         
@@ -414,7 +411,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-20.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-27.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -436,8 +433,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-12-20.html" itemprop="url">
-                  1220 - Kindle 成表
+                <a class="post-title-link" href="/daily/2020-12-27.html" itemprop="url">
+                  1227 - 重新来过
                 </a>
               
             
@@ -453,8 +450,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-20T22:00:00+08:00">
-                2020-12-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-27T22:00:00+08:00">
+                2020-12-27
               </time>
             
 
@@ -512,17 +509,9 @@
       
         
           
-            <p>盯盘时，电脑是全屏状态，看不到时间。于是，需要另外一个能显示秒的表。可，市面上想找到一个只显示时分秒、长得又简洁的表，并不容易。再说，我也不想为此在家里再增加个东西。</p>
-<p>突然又想到了 Kindle；之前，我其实试过一次在 Kindle 上显示时间，不过并没有真的长期用，毕竟当时需求不强。这次，我又把之前的代码拿出来改进下，做成了下面的样子。</p>
-<p><img src="https://ps.toolinbox.net/4k04k.JPG" alt=""></p>
-<p>有几个细节说一下：</p>
-<ul>
-<li>关于时间准确度。由于 Kindle 本地时间不一定准确，设置又不支持设置秒。于是，这次网页加载时，会先从网络获取准确时间，计算和本地的时间差，以校正时间。</li>
-<li>为了减少不必要的刷新次数，可以点击时间，切换为只显示时分，这样可以每 1 分才刷新一次。另外，即使是显示秒，也只是偶数秒时刷新。这样既是为了省电，也是为了降低刷新时的页面残影。</li>
-</ul>
-<p>其实，哪怕是这么个极小的项目，要做得好，要打磨的地方还是有很多。比如，为了保护 Kindle 的屏幕，最好隔一段时间做一次全黑全白的切换，延长屏幕寿命。</p>
-<p>现在，可用性方面，最大的问题还是续航。很老的 Kindle 4，目前估计充满电最多撑两天。关键是它不支持打开浏览器后，开启飞行模式。用 Kindle PaperWhite 3，在开户飞行模式和关闭屏幕灯时，估计能用好几天，差不多是能用了。</p>
-<p>项目的代码，我放 GitHub 上了：<a href="http://github.com/atjason/kindle-clock" target="_blank" rel="external">http://github.com/atjason/kindle-clock</a>。另外，网页我也放这了：<a href="http://k.ilib.io/i/k4.html" target="_blank" rel="external">http://k.ilib.io/i/k4.html</a>。注意，这个页面只针对 Kindle 4 横屏进行优化，可能并不适合你的使用场景，你可以针对性优化下。</p>
+            <p>过去两个月的交易，交易方法上，大概换了两种；结果方面，也亏了一些。当然，交易经验倒是增加了一些。</p>
+<p>接下来一个月，我准备重新来过，重点学习和实践双突破交易法。理论重新学习一遍，再结合大量复盘和实盘交易，重点操作一个品种，最多两个。</p>
+<p>感觉之前一直在铺垫，一直在门口晃荡，是时候进去看看了。</p>
 
           
         
@@ -566,7 +555,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-19.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-26.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -588,8 +577,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-12-19.html" itemprop="url">
-                  1219 - 财富与年龄
+                <a class="post-title-link" href="/daily/2020-12-26.html" itemprop="url">
+                  1226 - 臣服市场
                 </a>
               
             
@@ -605,8 +594,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-19T22:00:00+08:00">
-                2020-12-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-26T22:00:00+08:00">
+                2020-12-26
               </time>
             
 
@@ -664,11 +653,10 @@
       
         
           
-            <p>财富面前，人人平等，但又不平等。</p>
-<p>比如，不同年龄的不平等。年纪大的人，通常拥有相对更多的财富，则更可能追求收益率更高的增长机会。年轻人，则在财富总量和可把握的机会上，处于劣势。</p>
-<p>说人话，举个例子。五年前，买得起房的人中，肯定年纪大的比年轻人更买得起房。对于房价增速来说，买得起就相当于卡位成功。五年后的今天，当年的没买房年轻人，更加比不过当年买了房的中年油腻大叔，虽然他本身也长成了大叔。</p>
-<p>这其实会引发深层次的问题，毕竟年轻人是社会的活力和动力。所以，才会有限购等一系列行政干预，为年轻人留一条缝、开一扇窗。</p>
-<p>财富的加速集聚效应，注定是不平等的。有钱人越来越有钱，财富阶级越来越固化。</p>
+            <p>开仓，然后双手合十，期待价格朝自己想要的方向运动，这不是交易，这是赌博。</p>
+<p>市场永远是对的，不和 K 线争辩。</p>
+<p>在交易中，不要把自己当成聪明人。不要想着，根据自己的经验和判断，当前的价格走势会是怎样的。还是笨一点好，只有当市场走势明朗时，再跟着喝口汤；而不是预测价格即将反转，然后从头吃到尾。</p>
+<p>市场说啥就是啥。市场愿意赏口饭吃，那最好；如果市场不给，认赔止损。</p>
 
           
         
@@ -712,7 +700,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-18.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-25.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -734,8 +722,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-12-18.html" itemprop="url">
-                  1218 - 交易与乐高
+                <a class="post-title-link" href="/daily/2020-12-25.html" itemprop="url">
+                  1225 - 《血疫：埃博拉的故事》
                 </a>
               
             
@@ -751,8 +739,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-18T22:00:00+08:00">
-                2020-12-18
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-25T22:00:00+08:00">
+                2020-12-25
               </time>
             
 
@@ -810,9 +798,14 @@
       
         
           
-            <p>交易与乐高很像：<strong>事情简单化、简单的事情重复做</strong>。</p>
-<p>复杂世界，被乐高抽象得很简单，都是一个个小颗粒。可这一个个小颗粒，重复的拼，又能还原出复杂的世界。</p>
-<p>交易也是类似。交易本身是复杂的、混沌的，应该先进行简单化。具体的，可以只做自己熟悉的品种、擅长的价格形态。然后，重复做，重复得用这种方式，把市场的钱装自己口袋里。</p>
+            <p>在新冠疫情的当下，看这本书，算是很应景的。</p>
+<p>快速看完书，印象比较深的有几点。</p>
+<p>一是被病毒攻击过的生命体（人、或灵长类的猴子等），身体内的血肉器官，会变成血水、液体；进而，会从七窍、肛门等地方喷出。比如肠子，当生命体倒下时，如果当时剥开肚子，发发现里面的肠子，就好像已经坏死了好多天一样，像一团浆糊。</p>
+<p>是不是觉得很恶心反胃？是的，我当时也是这种感觉。</p>
+<p>还有个印象深的，病毒是种「<strong>非生非死</strong>」的状态。在脱离生命体时，它们就像是「死」了一样，没有任何生命一样。而一旦找到了宿主，立马又有了「生」的迹象。你很难说，它们到底死了没有。</p>
+<p>再有，病毒对人类而言，是如此的小，小到我们其实并不能真正的消灭它们。怎么才算消灭呢？你用什么方法才能消灭病毒曾经出现过的地方呢？很难很难。况且，为了研究等目的，我们其实会保留病毒样本。而，如何既能保证这些病毒不会永久死掉，又保证它们不会死灰复燃？</p>
+<p>在面对新冠这样的疫情，想想人类还有各种推诿，国与国之间还有各种指责，说病毒是谁谁谁产生的的，真是幼稚可笑。就算是 A 国产生的，B 国指责 A 国有什么意义吗？除了短期政治上的可笑利益。</p>
+<p>再说，「幸灾乐祸」也是很可笑的想法，你比对方多活几天，有意义吗？可能只是将恐惧延续几天而已，「人类共同体」了解一下。</p>
 
           
         
@@ -856,7 +849,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-17.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-12-24.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -878,8 +871,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2020-12-17.html" itemprop="url">
-                  1217 - 训练生产两张皮
+                <a class="post-title-link" href="/daily/2020-12-24.html" itemprop="url">
+                  1224 - 知行合一
                 </a>
               
             
@@ -895,8 +888,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-17T22:00:00+08:00">
-                2020-12-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-12-24T22:00:00+08:00">
+                2020-12-24
               </time>
             
 
@@ -954,12 +947,12 @@
       
         
           
-            <p>是不是经常有这种感觉：<strong>一看就会、一上手全不会</strong>。</p>
-<p>比如，学车时，在场地内开车还好，一上路，遇到行人、电动车、夹塞、雨雾天，完全蒙了，和原来练习好像根本不是一回事。</p>
-<p>比如，用模拟盘交易，或者用小仓位交易，感觉还好。可一旦用大仓位，遇到波动剧烈的行情，就开始乱来了。尤其是不设止损，想博一把大的，结果却变成了亏损，抗成了爆仓。</p>
-<p>比如，打乒乓球时练习拉球还挺像样，真碰到打球时各种旋转、角度、远近，就开始胡打，完全忘了训练时的步伐、动作、击球点位。</p>
-<p>简单的说，是训练模式过于抽象、简单，只应对某一种情况时还好，一旦遇到真实的、复杂的情况，就应对不过来了。好像也没什么好的办法，只能是 <strong>训练和生产之间不断切换</strong>；训练时只专注某一种技能，生产时则想尽办法达成目标。尤其，<strong>要在生产过程中发现薄弱环节，训练时针对性的进行刻意练习</strong>。</p>
-<p>还有一点，<strong>高手往往看起来很自然，好像事情本该如此</strong>。事实上，对比一下就会发现，菜鸟的菜在局外人看来，是很明显的。你必须非常努力，才能看起来毫不费力。有时，<strong>高手和菜鸟之间，往往只是一系列看越来很小的差异</strong>。单看某一个动作，好像差别不大；可这些小小的差异累积越来，便是云泥之别了。</p>
+            <p>最近做交易，很强烈的有这种感觉：看起来都会了，一上手各种乱来。说了每单要止损，可还是会亏损抗单。说白了，还是做不到知行合一。</p>
+<p>这种状态下看到这段话，感觉很认同：</p>
+<blockquote>
+<p>阅读各种资料、书籍、文章，只是让你懂得更多，并不会让你提高技能。只有通过练习（practice）才能提高技能。如果你想变得更好，那就去动手做。</p>
+<p>– Jason Fried（Basecamp 的创始人）</p>
+</blockquote>
 
           
         
@@ -998,7 +991,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/143/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/143/">143</a><span class="page-number current">144</span><a class="page-number" href="/page/145/">145</a><span class="space">&hellip;</span><a class="page-number" href="/page/529/">529</a><a class="extend next" rel="next" href="/page/145/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/143/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/143/">143</a><span class="page-number current">144</span><a class="page-number" href="/page/145/">145</a><span class="space">&hellip;</span><a class="page-number" href="/page/531/">531</a><a class="extend next" rel="next" href="/page/145/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1043,7 +1036,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2644</span>
+                <span class="site-state-item-count">2651</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
