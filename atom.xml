@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-02-12T14:11:15.995Z</updated>
+  <updated>2023-02-19T12:31:44.150Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,162 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0218 - 人生苦短</title>
+    <link href="https://atjason.com/daily/2023-02-18.html"/>
+    <id>https://atjason.com/daily/2023-02-18.html</id>
+    <published>2023-02-18T14:00:00.000Z</published>
+    <updated>2023-02-19T12:31:44.150Z</updated>
+    
+    <content type="html"><![CDATA[<p>好想只做感兴趣的事。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好想只做感兴趣的事。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0217 - 新玩具</title>
+    <link href="https://atjason.com/daily/2023-02-17.html"/>
+    <id>https://atjason.com/daily/2023-02-17.html</id>
+    <published>2023-02-17T14:00:00.000Z</published>
+    <updated>2023-02-19T12:28:51.950Z</updated>
+    
+    <content type="html"><![CDATA[<p>下单了语音控制模块和 WS2812B 灯带，又有新玩具可以玩了。</p>
+<p>可以语音控制，比如：开灯、关灯、亮一点、呼吸灯。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下单了语音控制模块和 WS2812B 灯带，又有新玩具可以玩了。&lt;/p&gt;
+&lt;p&gt;可以语音控制，比如：开灯、关灯、亮一点、呼吸灯。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0216 - 微信小程序生成图片</title>
+    <link href="https://atjason.com/daily/2023-02-16.html"/>
+    <id>https://atjason.com/daily/2023-02-16.html</id>
+    <published>2023-02-16T14:00:00.000Z</published>
+    <updated>2023-02-19T12:27:18.382Z</updated>
+    
+    <content type="html"><![CDATA[<p>微信小程序生成图片，是件比较麻烦的事。但因为需求确实存在，比如生成分享图，所以即使麻烦，还是挡不住大家研究的动力。</p>
+<p>大概有几种思路：</p>
+<p><strong>一、直接在小程序的 Canvas 中绘图</strong></p>
+<p>这又细分为几种。</p>
+<p>一是调用绘图函数，直接在 Canvas 中绘制文字、几何形状。但明显，这种方法过程机械、且支持的样式非常有限。一旦图的样式发生变化，就要重写代码，很麻烦。</p>
+<p>一是类似 waml2canvas 之类的工具，遍历 dom 中的元素，自动将元素转换为 Canvas 支持的样式，然后更新。这个方案是很优雅的。遗憾的是，这个方案相当于重写一遍 html2canvas，工作量很大；现在只支持很少的特性，且有 Bug，处于不可用状态。</p>
+<p><strong>二、通过 web-view + html2canvas 生成图片</strong></p>
+<p>html2canvas 是比较成熟的工具，将 html 中某个 dom 绘制到 canvas。</p>
+<p>微信小程序 web-view 可以展示网页，然后在网页中使用 weixin-js 与小程序通信。</p>
+<p>不过，这个方案的问题是，将一件事分到几个地方执行，有点割裂；需要一个备案域名 + 云存储/服务器 来放这个页面；web-view 与小程序的通信并不是实时的，而只是比如 web-view 返回时才能通信；如果生成图片需要提示比较多的内容，比如自定义头像，就需要先将图片存储到网页可以访问的地方，是个麻烦事。</p>
+<p><strong>三、通过 puppeteer 生成图片</strong></p>
+<p>puppeteer 是个无头浏览器，可以实现非常多事情，比如完整呈现页面，然后用截图的方式保存图片。</p>
+<p>这个方案的问题是，需要配合服务器或云函数，但在调用时又涉及鉴权，多增加了一件麻烦事。好在，微信云函数也可以做这件事，且无需鉴权。问题在于，要花钱 😂</p>
+<p>还有其他的问题，比如上传下载图片，这依赖于网络稳定性和网速。</p>
+<p>这几种方案，我都实际测试过，都是可选的。目前，倾向于第 3 种方案。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;微信小程序生成图片，是件比较麻烦的事。但因为需求确实存在，比如生成分享图，所以即使麻烦，还是挡不住大家研究的动力。&lt;/p&gt;
+&lt;p&gt;大概有几种思路：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;一、直接在小程序的 Canvas 中绘图&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这又细分为几种。&lt;/p
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0215 - 投入的乐趣</title>
+    <link href="https://atjason.com/daily/2023-02-15.html"/>
+    <id>https://atjason.com/daily/2023-02-15.html</id>
+    <published>2023-02-15T14:00:00.000Z</published>
+    <updated>2023-02-19T12:26:17.101Z</updated>
+    
+    <content type="html"><![CDATA[<p>当你全身心地做一件事情，哪怕认真地投入你的呼吸，你也能感到无限的乐趣，这就是瑜伽。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;当你全身心地做一件事情，哪怕认真地投入你的呼吸，你也能感到无限的乐趣，这就是瑜伽。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0214 - 训化</title>
+    <link href="https://atjason.com/daily/2023-02-14.html"/>
+    <id>https://atjason.com/daily/2023-02-14.html</id>
+    <published>2023-02-14T14:00:00.000Z</published>
+    <updated>2023-02-19T12:25:51.560Z</updated>
+    
+    <content type="html"><![CDATA[<p>人是很容易被训化的。</p>
+<p>一些看似不重要的约束，却像枝枝蔓蔓一样，彻底缠住一个人。</p>
+<p>要手起刀落，斩断生活中各种牵绊，不容易。</p>
+<p>可想一想，人也就活几十年，这些牵绊当真放不下吗？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;人是很容易被训化的。&lt;/p&gt;
+&lt;p&gt;一些看似不重要的约束，却像枝枝蔓蔓一样，彻底缠住一个人。&lt;/p&gt;
+&lt;p&gt;要手起刀落，斩断生活中各种牵绊，不容易。&lt;/p&gt;
+&lt;p&gt;可想一想，人也就活几十年，这些牵绊当真放不下吗？&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0213 - 父母</title>
+    <link href="https://atjason.com/daily/2023-02-13.html"/>
+    <id>https://atjason.com/daily/2023-02-13.html</id>
+    <published>2023-02-13T14:00:00.000Z</published>
+    <updated>2023-02-19T12:25:20.374Z</updated>
+    
+    <content type="html"><![CDATA[<p>父母在，人生尚有来处；<br>父母去，人生只剩下归途。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;父母在，人生尚有来处；&lt;br&gt;父母去，人生只剩下归途。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0212 - 自知之明</title>
@@ -360,167 +516,6 @@
 &lt;p&gt;反过来说，如果节前未清仓、节后大跌，又该作何感想？&lt;/p&gt;
 &lt;p&gt;既然都是概率（好吧，就是瞎猜），那多一事不如少一事，该咋咋地。&lt;/p&gt;
 &lt;p&gt;后记：上午写下这些字，下午收盘时，大盘已经
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0129 - 尖峰电流</title>
-    <link href="https://atjason.com/daily/2023-01-29.html"/>
-    <id>https://atjason.com/daily/2023-01-29.html</id>
-    <published>2023-01-29T14:00:00.000Z</published>
-    <updated>2023-01-29T14:41:54.003Z</updated>
-    
-    <content type="html"><![CDATA[<p>现在遇到一个诡异的问题：电路休眠时，隔几秒会有一个 10mA 以上的尖峰电流，平均下来就有 200uA ~ 400uA 的电流消耗。</p>
-<p>刚开始怀疑是蓝牙芯片广播引起的。单独做了蓝牙的测试电路，发现休眠后并没有尖峰电流。</p>
-<p>一个个排查，怀疑到了钰泰 ETA6093 充电芯片。也单独做了测试电路，连接电池，什么也不做，就会有很多尖峰电流，分钟平均有 120uA。虽然不是全部电流消耗，但规律非常吻合。原理上，因为 ETA6093 是输入输出同口的，在放电空载时输出端会周期性有一个台阶，应该就是这个电流。事实上，这颗芯片也不是低功耗的。</p>
-<p>哎，硬件的坑，种类真是丰富啊 😂</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;现在遇到一个诡异的问题：电路休眠时，隔几秒会有一个 10mA 以上的尖峰电流，平均下来就有 200uA ~ 400uA 的电流消耗。&lt;/p&gt;
-&lt;p&gt;刚开始怀疑是蓝牙芯片广播引起的。单独做了蓝牙的测试电路，发现休眠后并没有尖峰电流。&lt;/p&gt;
-&lt;p&gt;一个个排查，怀疑到了钰泰 E
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0128 - 平等看待小孩</title>
-    <link href="https://atjason.com/daily/2023-01-28.html"/>
-    <id>https://atjason.com/daily/2023-01-28.html</id>
-    <published>2023-01-28T14:00:00.000Z</published>
-    <updated>2023-01-29T14:37:27.065Z</updated>
-    
-    <content type="html"><![CDATA[<p>如果你和朋友吃饭，他说我今天不太饿、不想吃太多，结果饭没吃完，你会觉得很正常，不会去干预。<br>如果你和娃吃饭，他说我今天不太饿、不想吃太多，结果饭没吃完，你会觉得很正常吗？不会去干预吗？</p>
-<p>除了关系不同，很大原因是，我们觉得大人有能力为自己的事负责，而小孩不行。</p>
-<p>可是，吃东西、避免饥饿，这不是人的本能吗，为什么会觉得小孩不行呢？</p>
-<p>也许，只是我们希望他们按自己的理解和意愿做事，包括吃饭。<br>也许，是小孩吃饭拖拉、非吃饭时间吃零食时，我们没有处理好。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;如果你和朋友吃饭，他说我今天不太饿、不想吃太多，结果饭没吃完，你会觉得很正常，不会去干预。&lt;br&gt;如果你和娃吃饭，他说我今天不太饿、不想吃太多，结果饭没吃完，你会觉得很正常吗？不会去干预吗？&lt;/p&gt;
-&lt;p&gt;除了关系不同，很大原因是，我们觉得大人有能力为自己的事负责，而小孩不
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0127 - 售后很重要</title>
-    <link href="https://atjason.com/daily/2023-01-27.html"/>
-    <id>https://atjason.com/daily/2023-01-27.html</id>
-    <published>2023-01-27T14:00:00.000Z</published>
-    <updated>2023-01-29T14:36:40.491Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如一个产品有缺陷，打个比方，就是桌子不稳，但也能用。</p>
-<p>这时怎么办呢？产品下架销毁，损失太大，尤其有大库存的时候；迭代改进，需要比如2万、3个月。</p>
-<p>从生意的角度，在改进的同时，继续降价销售，大部分用户可能会沉默，因为毕竟便宜，桌脚垫点东西继续用。少数会抱怨、差评，那就是怎么应对这部分用户。</p>
-<p>如果售后做的好，或给礼物、返现、退货等，再加上照顾情感，这其中的大部分人也能满意而归。消费消费，除了买到具体的东西，好的体验、过程满意，也是很重要的。一通操作下来，可能只花200块。</p>
-<p>具体到电商这门生意，运营、售后，有的阶段比产品还重要。毕竟，产品的迭代周期长、投入大，而用户的问题此时此地就要解决。</p>
-<p>另外，无论我们再怎么追求完美，产品总是有缺陷的。更何况，受限于现实，也不可能追求完美。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如一个产品有缺陷，打个比方，就是桌子不稳，但也能用。&lt;/p&gt;
-&lt;p&gt;这时怎么办呢？产品下架销毁，损失太大，尤其有大库存的时候；迭代改进，需要比如2万、3个月。&lt;/p&gt;
-&lt;p&gt;从生意的角度，在改进的同时，继续降价销售，大部分用户可能会沉默，因为毕竟便宜，桌脚垫点东西继续用。
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0126 - 该干啥干啥</title>
-    <link href="https://atjason.com/daily/2023-01-26.html"/>
-    <id>https://atjason.com/daily/2023-01-26.html</id>
-    <published>2023-01-26T14:00:00.000Z</published>
-    <updated>2023-01-29T14:36:14.740Z</updated>
-    
-    <content type="html"><![CDATA[<p>吃饭别想睡觉的事；<br>睡觉别想吃饭的事</p>
-<p>别让未来的事烦自己；<br>别为过去的事烦心。</p>
-<p>不在彼时彼处，<br>关照此时此地的内心。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;吃饭别想睡觉的事；&lt;br&gt;睡觉别想吃饭的事&lt;/p&gt;
-&lt;p&gt;别让未来的事烦自己；&lt;br&gt;别为过去的事烦心。&lt;/p&gt;
-&lt;p&gt;不在彼时彼处，&lt;br&gt;关照此时此地的内心。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0125 - 定义边界，全力以赴</title>
-    <link href="https://atjason.com/daily/2023-01-25.html"/>
-    <id>https://atjason.com/daily/2023-01-25.html</id>
-    <published>2023-01-25T14:00:00.000Z</published>
-    <updated>2023-01-29T14:35:32.378Z</updated>
-    
-    <content type="html"><![CDATA[<p>工作、兴趣、生活，都很重要，要做的事很多。</p>
-<p>工作是最容易付出最多时间精力的，因为有多方面的外因催促自己。</p>
-<p>而除此以外的事，很容易被压缩。</p>
-<p>定义好每件事的边界，定义各自的目标，在每个边界内全力以赴。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;工作、兴趣、生活，都很重要，要做的事很多。&lt;/p&gt;
-&lt;p&gt;工作是最容易付出最多时间精力的，因为有多方面的外因催促自己。&lt;/p&gt;
-&lt;p&gt;而除此以外的事，很容易被压缩。&lt;/p&gt;
-&lt;p&gt;定义好每件事的边界，定义各自的目标，在每个边界内全力以赴。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0124 - 阿里云盘</title>
-    <link href="https://atjason.com/daily/2023-01-24.html"/>
-    <id>https://atjason.com/daily/2023-01-24.html</id>
-    <published>2023-01-24T14:00:00.000Z</published>
-    <updated>2023-01-29T14:35:05.275Z</updated>
-    
-    <content type="html"><![CDATA[<p>不限速的阿里云盘，<br>有了点互联网应有的样子。</p>
-<p>配合 TV 版，<br>下载、投影无缝衔接。</p>
-<p>再加上在线下载，<br>就齐活了。</p>
-<p>本打算给小 NAS 加硬盘，<br>这下不用了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;不限速的阿里云盘，&lt;br&gt;有了点互联网应有的样子。&lt;/p&gt;
-&lt;p&gt;配合 TV 版，&lt;br&gt;下载、投影无缝衔接。&lt;/p&gt;
-&lt;p&gt;再加上在线下载，&lt;br&gt;就齐活了。&lt;/p&gt;
-&lt;p&gt;本打算给小 NAS 加硬盘，&lt;br&gt;这下不用了。&lt;/p&gt;
-
     
     </summary>
     
