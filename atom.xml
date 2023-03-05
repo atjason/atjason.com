@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-02-26T14:25:03.378Z</updated>
+  <updated>2023-03-05T13:47:23.687Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,183 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0305 - 千头万绪，抓住重点</title>
+    <link href="https://atjason.com/daily/2023-03-05.html"/>
+    <id>https://atjason.com/daily/2023-03-05.html</id>
+    <published>2023-03-05T14:00:00.000Z</published>
+    <updated>2023-03-05T13:47:23.687Z</updated>
+    
+    <content type="html"><![CDATA[<p>智能跑轮的项目，到了推进生产、启动运营推广的阶段，各种采购备料、电路板和外壳配合、包装与说明书、文案及配图、宣传视频、确定颜色与备货、等等，一大堆的事，想想都头疼。</p>
+<p>其实，也是第一次应对这种情况。不过，事情也都是相同的。</p>
+<p>一方面，抓住重点。比如，现阶段生产就是最重要的。确定大概可行的内测公测时间，然后全力去推，遇到问题解决问题。</p>
+<p>另一方面，不同的事，重要性是不同的，所花费的时间精力也是不同的。极端点说，有的点不做其实也没关系，而有的点不做则会卡其他所有事。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;智能跑轮的项目，到了推进生产、启动运营推广的阶段，各种采购备料、电路板和外壳配合、包装与说明书、文案及配图、宣传视频、确定颜色与备货、等等，一大堆的事，想想都头疼。&lt;/p&gt;
+&lt;p&gt;其实，也是第一次应对这种情况。不过，事情也都是相同的。&lt;/p&gt;
+&lt;p&gt;一方面，抓住重点。比如，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0304 - 巧妙的方法</title>
+    <link href="https://atjason.com/daily/2023-03-04.html"/>
+    <id>https://atjason.com/daily/2023-03-04.html</id>
+    <published>2023-03-04T14:00:00.000Z</published>
+    <updated>2023-03-05T13:41:21.143Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在研究智能升降桌的语音识别方案升级。</p>
+<p>最根本的方案，是电机电路和语音电路解耦，中间以接口 + 数据协议的方式耦合。可这涉及到不同公司之间的协调，难度和周期可想而知。</p>
+<p>后来想到一个好办法：这个桌子有个按键控制板，是通过串口通信的。可以开发单独的语音控制板，通过按键的接口控制电机，就能以最低的改动（也就是没有改动），调试语音模块。</p>
+<p>甚至，如果不考虑按键控制和语音控制之间并发的问题，把接口一拖二，就可以直接达到最终的效果。</p>
+<p>很开心想到这个方法，可以节约大量时间，一下子把这个项目变得可行。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近在研究智能升降桌的语音识别方案升级。&lt;/p&gt;
+&lt;p&gt;最根本的方案，是电机电路和语音电路解耦，中间以接口 + 数据协议的方式耦合。可这涉及到不同公司之间的协调，难度和周期可想而知。&lt;/p&gt;
+&lt;p&gt;后来想到一个好办法：这个桌子有个按键控制板，是通过串口通信的。可以开发单独的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0303 - 视角</title>
+    <link href="https://atjason.com/daily/2023-03-03.html"/>
+    <id>https://atjason.com/daily/2023-03-03.html</id>
+    <published>2023-03-03T14:00:00.000Z</published>
+    <updated>2023-03-05T13:37:15.435Z</updated>
+    
+    <content type="html"><![CDATA[<p>我做过 70 多个创业项目，只有 4 个成功。总体来看，我的成功率只有 5% 左右，我做的事情 95% 是要失败的。</p>
+<p>所以…… 我就要去做更多的项目啊。</p>
+<p>哈哈哈。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我做过 70 多个创业项目，只有 4 个成功。总体来看，我的成功率只有 5% 左右，我做的事情 95% 是要失败的。&lt;/p&gt;
+&lt;p&gt;所以…… 我就要去做更多的项目啊。&lt;/p&gt;
+&lt;p&gt;哈哈哈。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0302 - 道德与道德的成本</title>
+    <link href="https://atjason.com/daily/2023-03-02.html"/>
+    <id>https://atjason.com/daily/2023-03-02.html</id>
+    <published>2023-03-02T14:00:00.000Z</published>
+    <updated>2023-03-05T13:36:24.843Z</updated>
+    
+    <content type="html"><![CDATA[<p>哈佛的第一堂课给我印象很深，已经二十多年了我还记得很清楚，不是别的，就是“道德”。</p>
+<p>老师讲了两点，</p>
+<p>第一，做违反自己良心道德的事，就好像面对涂满了肥皂的滑梯，你一踏出去，就会顺着滑梯一滑到底，回不了头的；</p>
+<p>第二，不要让自己的生活过度奢华，要存一笔钱叫做Walk Away Money，走人钱，让你能随时拍拍屁股走人。</p>
+<p>当你的上司、政府、客户要求你做超出道德良心底线的事，你要有能力说“不”，然后离开。但是如果你花费高，没有存钱，没有准备，到时候就会非常被动，你有房屋贷款，要负担小孩子的学费、家庭的生活费，你就会被迫走下这个涂了肥皂的滑梯。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;哈佛的第一堂课给我印象很深，已经二十多年了我还记得很清楚，不是别的，就是“道德”。&lt;/p&gt;
+&lt;p&gt;老师讲了两点，&lt;/p&gt;
+&lt;p&gt;第一，做违反自己良心道德的事，就好像面对涂满了肥皂的滑梯，你一踏出去，就会顺着滑梯一滑到底，回不了头的；&lt;/p&gt;
+&lt;p&gt;第二，不要让自己的生活过度
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0301 - 学习 Rhino</title>
+    <link href="https://atjason.com/daily/2023-03-01.html"/>
+    <id>https://atjason.com/daily/2023-03-01.html</id>
+    <published>2023-03-01T14:00:00.000Z</published>
+    <updated>2023-03-05T13:35:19.023Z</updated>
+    
+    <content type="html"><![CDATA[<p>近期的学习目标：学会使用 Rhino 建模，3D 打印一个有实际用处的小东西。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;近期的学习目标：学会使用 Rhino 建模，3D 打印一个有实际用处的小东西。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0228 - 自我意识</title>
+    <link href="https://atjason.com/daily/2023-02-28.html"/>
+    <id>https://atjason.com/daily/2023-02-28.html</id>
+    <published>2023-02-28T14:00:00.000Z</published>
+    <updated>2023-03-05T13:34:47.014Z</updated>
+    
+    <content type="html"><![CDATA[<p>自我意识（Self-awareness）的能力：思考自己的思维过程的能力。</p>
+<p>人类独有的自我意识，发掘了人性最根本的原则，即在刺激与回应之间，人有选择的自由。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自我意识（Self-awareness）的能力：思考自己的思维过程的能力。&lt;/p&gt;
+&lt;p&gt;人类独有的自我意识，发掘了人性最根本的原则，即在刺激与回应之间，人有选择的自由。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0227 - 价格歧视</title>
+    <link href="https://atjason.com/daily/2023-02-27.html"/>
+    <id>https://atjason.com/daily/2023-02-27.html</id>
+    <published>2023-02-27T14:00:00.000Z</published>
+    <updated>2023-03-05T13:34:02.584Z</updated>
+    
+    <content type="html"><![CDATA[<p>通过对价格的设计，让产品找到核心客户，筛掉非核心客户。</p>
+<p>你看到的，是客户在那挑选 LV 包包。你没看到的，是新换上的价格标签，在筛选客户。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;通过对价格的设计，让产品找到核心客户，筛掉非核心客户。&lt;/p&gt;
+&lt;p&gt;你看到的，是客户在那挑选 LV 包包。你没看到的，是新换上的价格标签，在筛选客户。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0226 - 小程序对个人越来越不友好</title>
@@ -359,174 +536,6 @@
 &lt;p&gt;一些看似不重要的约束，却像枝枝蔓蔓一样，彻底缠住一个人。&lt;/p&gt;
 &lt;p&gt;要手起刀落，斩断生活中各种牵绊，不容易。&lt;/p&gt;
 &lt;p&gt;可想一想，人也就活几十年，这些牵绊当真放不下吗？&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0213 - 父母</title>
-    <link href="https://atjason.com/daily/2023-02-13.html"/>
-    <id>https://atjason.com/daily/2023-02-13.html</id>
-    <published>2023-02-13T14:00:00.000Z</published>
-    <updated>2023-02-19T12:25:20.374Z</updated>
-    
-    <content type="html"><![CDATA[<p>父母在，人生尚有来处；<br>父母去，人生只剩下归途。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;父母在，人生尚有来处；&lt;br&gt;父母去，人生只剩下归途。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0212 - 自知之明</title>
-    <link href="https://atjason.com/daily/2023-02-12.html"/>
-    <id>https://atjason.com/daily/2023-02-12.html</id>
-    <published>2023-02-12T14:00:00.000Z</published>
-    <updated>2023-02-12T14:11:15.995Z</updated>
-    
-    <content type="html"><![CDATA[<p>因为要遏制中国发展的原因，美国开始搞所谓的制造业去中国化，制裁中国高科技企业，让中高端产业回流美国，同时将低端产业链逐渐迁往印度、越南等国家。</p>
-<p>别总听说我们是制造业大国，拥有越大规模制造能力，就以为离开我们，东西就造不出来；缺少了 Made in China，欧美都要过苦日子。最典型的，以富士康为代表的苹果生态链，不就真真实实的离开了吗。</p>
-<p>实际上，人家离开我们能不能过得好，我不知道；但我们离开他们，会有大麻烦。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;因为要遏制中国发展的原因，美国开始搞所谓的制造业去中国化，制裁中国高科技企业，让中高端产业回流美国，同时将低端产业链逐渐迁往印度、越南等国家。&lt;/p&gt;
-&lt;p&gt;别总听说我们是制造业大国，拥有越大规模制造能力，就以为离开我们，东西就造不出来；缺少了 Made in China，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0211 - 蛋糕</title>
-    <link href="https://atjason.com/daily/2023-02-11.html"/>
-    <id>https://atjason.com/daily/2023-02-11.html</id>
-    <published>2023-02-11T14:00:00.000Z</published>
-    <updated>2023-02-12T14:06:49.581Z</updated>
-    
-    <content type="html"><![CDATA[<p>一个社会只需要解决两个问题，第一个，做大蛋糕，第二个，分好蛋糕。公司也是。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一个社会只需要解决两个问题，第一个，做大蛋糕，第二个，分好蛋糕。公司也是。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0210 - 痛苦与野心</title>
-    <link href="https://atjason.com/daily/2023-02-10.html"/>
-    <id>https://atjason.com/daily/2023-02-10.html</id>
-    <published>2023-02-10T14:00:00.000Z</published>
-    <updated>2023-02-12T14:06:18.333Z</updated>
-    
-    <content type="html"><![CDATA[<p>驱使人类尝试新东西的力量，一个是痛苦，一个是野心，每个社会都不缺这两种东西。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;驱使人类尝试新东西的力量，一个是痛苦，一个是野心，每个社会都不缺这两种东西。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0209 - 多数人的胁迫</title>
-    <link href="https://atjason.com/daily/2023-02-09.html"/>
-    <id>https://atjason.com/daily/2023-02-09.html</id>
-    <published>2023-02-09T14:00:00.000Z</published>
-    <updated>2023-02-12T14:05:31.993Z</updated>
-    
-    <content type="html"><![CDATA[<p>卡辛斯基说过一个道理，“多数人的胁迫”：当大部分人使用一项科技时，剩下的人就失去了不使用它的权力。</p>
-<p>当大部分都开车，道路和城市就是为开车的人设计的，不开车就很难生活。<br>当大部分都用手机支付，还拿着纸币上街，就发现没有店铺有零钱找给你了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;卡辛斯基说过一个道理，“多数人的胁迫”：当大部分人使用一项科技时，剩下的人就失去了不使用它的权力。&lt;/p&gt;
-&lt;p&gt;当大部分都开车，道路和城市就是为开车的人设计的，不开车就很难生活。&lt;br&gt;当大部分都用手机支付，还拿着纸币上街，就发现没有店铺有零钱找给你了。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0208 - 工具加速分化</title>
-    <link href="https://atjason.com/daily/2023-02-08.html"/>
-    <id>https://atjason.com/daily/2023-02-08.html</id>
-    <published>2023-02-08T14:00:00.000Z</published>
-    <updated>2023-02-12T14:05:02.569Z</updated>
-    
-    <content type="html"><![CDATA[<p>工具是技术的载体。会用不同的工具，意味着掌控了不同的技术。</p>
-<p>接下来，可不就是差距越来越大。试问，拿木棍的，能和拿机枪的比吗。</p>
-<p>之前，是工具获取的门槛高，拉开了差距。互联网极大降低了这个门槛。于是变成了，谁能更好的学习和掌握工具。</p>
-<p>ChatGPT 最近很热，也一定会很有用。且不说目前国内无法使用，即使开放了，每天刷几百个短视频的人，会有几个在上面搜索哪怕一个问题？而善用这一利器的人，是不是和他们的差距越来越大？</p>
-<p>技术越进步，分层越惊心。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;工具是技术的载体。会用不同的工具，意味着掌控了不同的技术。&lt;/p&gt;
-&lt;p&gt;接下来，可不就是差距越来越大。试问，拿木棍的，能和拿机枪的比吗。&lt;/p&gt;
-&lt;p&gt;之前，是工具获取的门槛高，拉开了差距。互联网极大降低了这个门槛。于是变成了，谁能更好的学习和掌握工具。&lt;/p&gt;
-&lt;p&gt;C
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0207 - 镜子</title>
-    <link href="https://atjason.com/daily/2023-02-07.html"/>
-    <id>https://atjason.com/daily/2023-02-07.html</id>
-    <published>2023-02-07T14:00:00.000Z</published>
-    <updated>2023-02-12T14:04:42.260Z</updated>
-    
-    <content type="html"><![CDATA[<p>每个人的心中，都既有魔鬼的一面，也有天使的一面。</p>
-<p>如果假定他人都是魔鬼，自己就会展现出魔鬼的一面；<br>假定他人是天使，自己就会尽力展现天使的一面。</p>
-<p>我们与人相处，还是应该尽量激发他的天使，抑制他的魔鬼。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;每个人的心中，都既有魔鬼的一面，也有天使的一面。&lt;/p&gt;
-&lt;p&gt;如果假定他人都是魔鬼，自己就会展现出魔鬼的一面；&lt;br&gt;假定他人是天使，自己就会尽力展现天使的一面。&lt;/p&gt;
-&lt;p&gt;我们与人相处，还是应该尽量激发他的天使，抑制他的魔鬼。&lt;/p&gt;
 
     
     </summary>

@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-21.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-28.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-11-21.html" itemprop="url">
-                  1121 - 从 API 的素质可以看出公司的气质
+                <a class="post-title-link" href="/daily/2017-11-28.html" itemprop="url">
+                  1128 - 再次纠结付费模式，这次是 iText
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-21T22:00:00+08:00">
-                2017-11-21
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-28T22:00:00+08:00">
+                2017-11-28
               </time>
             
 
@@ -365,512 +365,40 @@
       
         
           
-            <p>今天在改进 iText 上传前压缩大图的功能。</p>
-<p>其中，百度、腾讯、Google 等各家 OCR 服务对上传的图片尺寸都有要求、也都要求对图片进行 base64 压缩。<strong>可这要求跟要求可就不同了。</strong></p>
-<table>
-<thead>
-<tr>
-<th>服务</th>
-<th>简易理解图片大小</th>
-<th>实际可用大小</th>
-<th>计算方式</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>百度</td>
-<td>4 MB</td>
-<td>1.5 MB</td>
-<td>4 / 2 / 1.3 = 1.5 MB</td>
-</tr>
-<tr>
-<td>腾讯</td>
-<td>1 MB</td>
-<td>0.5 MB</td>
-<td>1 / 2 = 0.5 MB</td>
-</tr>
-<tr>
-<td>Google</td>
-<td>4 MB</td>
-<td>4 MB</td>
-<td>4 = 4 M</td>
-</tr>
-</tbody>
-</table>
-<p><strong>为什么实际大小与简易理解大小不一致呢？</strong></p>
+            <p>首先，<a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 一定是款需要付费才能使用的产品：</p>
 <ul>
-<li>首先，base64 压缩后，得到的大小会增加约 1/3</li>
-<li>进一步，base64 是使用字符串表示的。那么，一个字符串如 ‘a’ 占几个字节呢？看起来百度是使用 2，腾讯是使用 1</li>
-<li>综合起来，就是上面看到的缩水版大小</li>
-<li>另外，百度要求图片最大分辨率为 4096 * 4096；而其他 2 家则无此要求</li>
-</ul>
-<p><strong>既然 base64 会带来计算上的麻烦，为什么不直接使用解压后的图片大小呢？没错，Google 就是这么干的。</strong>你无需考虑 base64 带来的尺寸增加，也无需考虑一个字符串到底占几个字节，只要原图是 4 MB 以下即可</p>
-<p>从这一点上看，<strong>服务接口的素质（公司的节操）顺序为：</strong></p>
-<p><code>Google</code> &gt; <code>腾讯</code> &gt; <code>百度</code></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-20.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-11-20.html" itemprop="url">
-                  1120 - 我也试试内容付费
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-20T22:00:00+08:00">
-                2017-11-20
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>我自己有写文章的习惯；尤其，发布一款产品后，我会写些长文，记录产品诞生的整个过程。例如，我之前写的：</p>
-<ul>
-<li><a href="https://mp.weixin.qq.com/s/2XIjC_QWPgpxcmztLaYodw" target="_blank" rel="external">《Mac 开发的神秘面纱》</a></li>
-<li><a href="https://sspai.com/post/39855" target="_blank" rel="external">《Klib 到底赚了多少钱？》</a></li>
-<li><a href="https://atjason.com/daily/2017-07-11.html">《在 iPic 周岁时，说说这款让我骄傲的产品》</a></li>
-</ul>
-<p>这次，有朋友提：干嘛不在 GitChat 等类似的平台，开个 Live 或者文章付费阅读？我想想也是，既能带来点收入，还能增加点曝光，对自己的品牌建设也有一定的好处。</p>
-<p>于是，就有了<a href="http://gitbook.cn/gitchat/activity/5a119ad7c2d502358d73c009" target="_blank" rel="external">《如何独立开发一款 macOS 应用：从概念到上线》</a></p>
-<p><img src="https://ps.toolinbox.net/006tNc79gy1floy3lvg0qj308c0etaag.jpg" alt=""></p>
-<p>在这场 Chat 中，我将详细为你介绍：</p>
-<ul>
-<li>这个点子是如何诞生的？</li>
-<li>如何验证这个点子是否为真实需求？</li>
-<li>如何获取第一批用户？</li>
-<li>国内、国外的 OCR 服务各有何特色？</li>
-<li>识别后的文本，应如何优化排版？</li>
-<li>形成产品时，如何取名、如何设计 Logo？</li>
-<li>截图应用要上架 Mac App Store，有哪些限制？</li>
-<li>产品发布后，如何进行宣传？</li>
-<li>…</li>
-</ul>
-<p><strong>第一手、最新鲜的细节，仅此一家；</strong><br>别的产品，你绝对无法了解这样的细节。</p>
-<p>等你来。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-19.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-11-19.html" itemprop="url">
-                  1119 - 「盒马生鲜」的流量真大
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-19T22:00:00+08:00">
-                2017-11-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>听「盒马生鲜」已经很多次了，今天终于去了一次。</p>
-<p>其中的环境是不错，但也没到非常棒的程度，可能是人多使得体验下降。东西怎么样我还真不敢说，因为要去别的地方，并没有在那里吃或者买。</p>
-<p>关键，我最大的感触是，有了「马云开的」这个头衔，就使得这家店有了至高的信任背书、让人无比羡慕的流量，进而有无数的多的口口相传。</p>
-<p>有品牌，之后的事就好做很多。可，品牌并不好做。不过，还是要做品牌，越难，才越能突显出价值。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-18.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2017-11-18.html" itemprop="url">
-                  1118 - 向开源致敬
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-18T22:00:00+08:00">
-                2017-11-18
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>今天，找了一天如何优化 iText 识别文本的排版。其中，在 GitHub 上找到 2 个很有用的东西：</p>
-<ul>
-<li><a href="https://github.com/xitu/gold-miner/wiki/%E8%AF%91%E6%96%87%E6%8E%92%E7%89%88%E8%A7%84%E5%88%99%E6%8C%87%E5%8C%97" target="_blank" rel="external">译文排版规则指北</a><ul>
-<li>这是稀土所翻译的文章排版的规则，比如「中英文之间需要增加空格」，方便自己知道，正确的排版应该是什么样。</li>
+<li><strong>在线 OCR 服务是需要付费的</strong>，通常是按次收费<ul>
+<li>注：腾讯 OCR 服务目前在内测期，免费；不过收费只是时间问题</li>
 </ul>
 </li>
-<li><a href="https://github.com/martinwu42/typeset" target="_blank" rel="external">typeset</a><ul>
-<li>一个基于 Python 的开源项目，自动修正中文、英文、代码混合排版中的全半角、空格等问题。</li>
+<li>我需要为花费的时间买单，并支撑自己继续做独立开发者</li>
+</ul>
+<p>接下来的问题，便是如何确定收费模式。有这几种可考虑：</p>
+<ul>
+<li><strong>买断式</strong><ul>
+<li>也即，你付一次钱，就可终身使用</li>
+<li>考虑到 OCR 服务的按次收费，个人觉得这并不科学，至少不具可持续性</li>
+</ul>
+</li>
+<li><strong>流量包式</strong><ul>
+<li>比如，￥12 元买 250 次识别次数</li>
+<li>对用户而言，这种方式 <strong>对于低频使用的用户很友好，但对于高频使用的用户，可能不太划算</strong></li>
+<li>另外，最关键的是，这种方式会给使用上 <strong>带来很大的心理压力</strong>。比如，我在截图时不小心区域没选对，结果白白浪费了一次识别次数，这会让我在每次截图时都会有不小的心理压力，生怕截错了。虽然，从理性的角度，一次真没多少钱。但没办法，这种心里上的事情是很难用理性压制的。</li>
+</ul>
+</li>
+<li><strong>包月式</strong><ul>
+<li>也即订阅式，即一个月出固定费用，即可不限次识别</li>
+<li>对用户而言，优缺点几乎和流量包式相反：<strong>对低频用户不友好、对高频用户友好</strong></li>
+<li><strong>最终，我选择的是这种模式：</strong>每月可免费识别 20 次，充分体验 iText 的功能；订阅高级版即可不限次识别</li>
 </ul>
 </li>
 </ul>
-<p>这两个分享，一个告诉我应该做成什么样，一个告诉我该怎么做。特此感谢。</p>
-<p>正是这样的分享，让我们可以不再重复花时间研究别人已经研究过的东西，更快地做出更好的东西。特此致敬。</p>
-<p>我也会在合适的时候，开源自己的产品、或者产品中的模块，比如我之前开源的 <a href="https://github.com/atjason/IAPHelper" target="_blank" rel="external">IAPHelper</a></p>
+<p>其实，这跟手机流量非常像：</p>
+<ul>
+<li>如果你用量很少，1 MB 流量 0.1 元的方式就很适合你</li>
+<li>如果你用是很大、或者就想用得爽，包月得到固定流量、甚至是不限量的套餐，更适合你</li>
+<li>不过，我还没见过付一次钱，就可终身不限量使用的套餐</li>
+</ul>
 
           
         
@@ -914,7 +442,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-17.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-27.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -936,8 +464,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-11-17.html" itemprop="url">
-                  1117 - 段落识别无止境啊
+                <a class="post-title-link" href="/daily/2017-11-27.html" itemprop="url">
+                  1127 - 今天做了并不太喜欢的事：写文案
                 </a>
               
             
@@ -953,8 +481,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-17T22:00:00+08:00">
-                2017-11-17
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-27T22:00:00+08:00">
+                2017-11-27
               </time>
             
 
@@ -1012,10 +540,453 @@
       
         
           
-            <p>昨天，大体完成了 iText 识别文本后的段落识别。今天，本打算再稍微改进一下。没想到，又折腾了一天。</p>
-<p>并且，还有不少已知的问题。哎，不打算改了，因为永远也改不完，还是先做其他事情的吧。</p>
-<p>其中有一点，如果先写好单元测试的机制和案例，能省不少时间。</p>
-<p>另外，今天还尝试着把应用提交到 App Store 了，主要是想验证下，当前截图的方式能否上架 App Store，先祝自己好运。</p>
+            <p>虽说，<strong>好的产品自己会说话、简洁的程序不应该有说明书</strong>。可无奈，<strong>酒香也怕巷子深</strong>，大家在真正使用产品之前，总需要一些方式来了解到产品。而在目前的传播方式中，文案则是必须的了。</p>
+<p>这里说的文案，包括：</p>
+<ul>
+<li>产品本身的说明书、教程</li>
+<li>发布在媒体上的文章</li>
+<li>发布在朋友圈等 SNS 上的信息</li>
+<li>以及其他所有对外爆光的东西</li>
+<li>除了中文，还有英文…</li>
+</ul>
+<p>当然，除了文字，也包括配图、甚至是视频。而这两者，通常比文字更花时间。</p>
+<p><img src="https://ps-hz.toolinbox.net/006tKfTcgy1flx120m504g30la09qkin.gif" alt=""></p>
+<p>比如，在做上面的图时，首先要明确表达什么、构思如何表达、确定涉及到的素材、录屏、制作 GIF，整个过程流程很多，非常耗时。且一旦需要修改，几乎是全部重来的成本。</p>
+<p>苦闷的是，好像才写了不知道几分之一；每次发布前，一想到要写这些文案，心理压力好大啊…</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-26.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-11-26.html" itemprop="url">
+                  1126 - iText 已提交上架 Mac App Store
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-26T22:00:00+08:00">
+                2017-11-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><img src="https://ps.toolinbox.net/006tNc79gy1flvwm48hqlj30740740tj.jpg" alt=""></p>
+<p>双 11 写下第一行代码，到今天（26 号）刚好半个月，终于把 iText 提交上架 Mac App Store 了。个中滋味，自己体会。</p>
+<p>双手合十，期待审核顺利。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-25.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-11-25.html" itemprop="url">
+                  1125 - 发布未遂
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-25T22:00:00+08:00">
+                2017-11-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>本打算今天提交 iText 的，虽然已经比原计划晚了一天，可依然没搞定。</p>
+<p>每个环节都有拖延，比如 Logo 的更新、不同 macOS 版本的测试、等等。最后还是合在了 10.10 的兼容上。想着还有截图、方案等一堆事，一口气松下来，整个人就松下来了，放弃提交的计划，再次推迟到明天。</p>
+<p>希望还能赶上下周二上架的计划。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-11-24.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2017-11-24.html" itemprop="url">
+                  1124 - 等我发了，一起吃饭
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-24T22:00:00+08:00">
+                2017-11-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>估计，也只有程序员才能理解，这句话的意思是：</p>
+<p>「等我把这个版本发了，一起去吃饭」</p>
+<hr>
+<p>今天，依然在赶 iText 开发的进度；其中，大部分时间都花在和功能无关的功能上：新用户引导、免费+内购模式。其实，我挺不愿意把时间花在这些地方。无奈，这些也都是一个成熟产品必备的功能。</p>
+<p>明天，如果能有 10 小时完整的时间可以工作，应该就可以提交 iText 到 Mac App Store；够呛，争取吧。</p>
 
           
         
@@ -1054,7 +1025,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/370/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/370/">370</a><span class="page-number current">371</span><a class="page-number" href="/page/372/">372</a><span class="space">&hellip;</span><a class="page-number" href="/page/533/">533</a><a class="extend next" rel="next" href="/page/372/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/370/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/370/">370</a><span class="page-number current">371</span><a class="page-number" href="/page/372/">372</a><span class="space">&hellip;</span><a class="page-number" href="/page/535/">535</a><a class="extend next" rel="next" href="/page/372/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1099,7 +1070,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2665</span>
+                <span class="site-state-item-count">2672</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
