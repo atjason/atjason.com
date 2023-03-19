@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-03-12T13:20:37.127Z</updated>
+  <updated>2023-03-19T12:19:44.315Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,201 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0319 - 小程序中实现 ChatGPT 的流式响应</title>
+    <link href="https://atjason.com/daily/2023-03-19.html"/>
+    <id>https://atjason.com/daily/2023-03-19.html</id>
+    <published>2023-03-19T14:00:00.000Z</published>
+    <updated>2023-03-19T12:19:44.315Z</updated>
+    
+    <content type="html"><![CDATA[<p>要在小程序中实现 ChatGPT 的流式响应，还挺麻烦，涉及的环节比较多：</p>
+<ul>
+<li><p>小程序 wx.request 中开启 <code>enableChunked</code>;</p>
+</li>
+<li><p>请求 OpenAI 接口时，开启 <code>stream</code>;</p>
+</li>
+<li><p>Axios 指定返回类型为 <code>stream</code>;</p>
+</li>
+<li><p>nginx 服务器配置中，开启 <code>chunked_transfer_encoding</code>，关闭 <code>proxy_buffering</code></p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;要在小程序中实现 ChatGPT 的流式响应，还挺麻烦，涉及的环节比较多：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;小程序 wx.request 中开启 &lt;code&gt;enableChunked&lt;/code&gt;;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;请求 OpenAI 接口时，开启 &lt;c
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0318 - 每周 10 公里跑步计划</title>
+    <link href="https://atjason.com/daily/2023-03-18.html"/>
+    <id>https://atjason.com/daily/2023-03-18.html</id>
+    <published>2023-03-18T14:00:00.000Z</published>
+    <updated>2023-03-19T12:18:32.392Z</updated>
+    
+    <content type="html"><![CDATA[<p>每周 10 公里跑步计划。</p>
+<ul>
+<li><p>时间：早晨</p>
+</li>
+<li><p>场地：家附近河边</p>
+</li>
+<li><p>计数：运动手环</p>
+</li>
+<li><p>监督：他励，每周碎碎念上放数据图</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;每周 10 公里跑步计划。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;时间：早晨&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;场地：家附近河边&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;计数：运动手环&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;监督：他励，每周碎碎念上放数据图&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0317 - 根和翅膀</title>
+    <link href="https://atjason.com/daily/2023-03-17.html"/>
+    <id>https://atjason.com/daily/2023-03-17.html</id>
+    <published>2023-03-17T14:00:00.000Z</published>
+    <updated>2023-03-19T12:17:54.198Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们能赠予子孙的永存遗产只有两种：根和翅膀。</p>
+<p>家是孩子的避风港，家给予孩子出发的力量。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们能赠予子孙的永存遗产只有两种：根和翅膀。&lt;/p&gt;
+&lt;p&gt;家是孩子的避风港，家给予孩子出发的力量。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0316 - 良知</title>
+    <link href="https://atjason.com/daily/2023-03-16.html"/>
+    <id>https://atjason.com/daily/2023-03-16.html</id>
+    <published>2023-03-16T14:00:00.000Z</published>
+    <updated>2023-03-19T12:16:57.417Z</updated>
+    
+    <content type="html"><![CDATA[<p>良知的声音如此微弱，可以被轻而易举地淹没；</p>
+<p>但又如此清晰，不可能被误解。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;良知的声音如此微弱，可以被轻而易举地淹没；&lt;/p&gt;
+&lt;p&gt;但又如此清晰，不可能被误解。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0315 - 加速度比速度重要</title>
+    <link href="https://atjason.com/daily/2023-03-15.html"/>
+    <id>https://atjason.com/daily/2023-03-15.html</id>
+    <published>2023-03-15T14:00:00.000Z</published>
+    <updated>2023-03-19T12:16:31.209Z</updated>
+    
+    <content type="html"><![CDATA[<p>工作本身并不能带来经济上的安全感，具备良好的思考、学习、创造与适应能力，才能立于不败之地。</p>
+<p>拥有财富，并不代表经济独立，拥有创造财富的能力才真正可靠。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;工作本身并不能带来经济上的安全感，具备良好的思考、学习、创造与适应能力，才能立于不败之地。&lt;/p&gt;
+&lt;p&gt;拥有财富，并不代表经济独立，拥有创造财富的能力才真正可靠。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0314 - 细节影响体验</title>
+    <link href="https://atjason.com/daily/2023-03-14.html"/>
+    <id>https://atjason.com/daily/2023-03-14.html</id>
+    <published>2023-03-14T14:00:00.000Z</published>
+    <updated>2023-03-19T12:16:08.079Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近开了两辆车，都有倒车影像。其中一辆的倒车影像中，两侧有两条黄线，指示车未来的位置，就会让倒车变得容易很多。</p>
+<p>回到了自己熟悉的战场：用软件改善体验。有时，一点点小的改变，就能让产品用起来舒服很多。这样的一点点累加起来，就能成为优秀的产品。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近开了两辆车，都有倒车影像。其中一辆的倒车影像中，两侧有两条黄线，指示车未来的位置，就会让倒车变得容易很多。&lt;/p&gt;
+&lt;p&gt;回到了自己熟悉的战场：用软件改善体验。有时，一点点小的改变，就能让产品用起来舒服很多。这样的一点点累加起来，就能成为优秀的产品。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0313 - 钱多不是好事</title>
+    <link href="https://atjason.com/daily/2023-03-13.html"/>
+    <id>https://atjason.com/daily/2023-03-13.html</id>
+    <published>2023-03-13T14:00:00.000Z</published>
+    <updated>2023-03-19T12:15:34.031Z</updated>
+    
+    <content type="html"><![CDATA[<p>钱多不是好事，因为挣钱是一个很大的乐趣，钱多你就失去了一个很重要的乐趣。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;钱多不是好事，因为挣钱是一个很大的乐趣，钱多你就失去了一个很重要的乐趣。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0312 - 造富神话</title>
@@ -353,196 +548,6 @@
       &lt;p&gt;自我意识（Self-awareness）的能力：思考自己的思维过程的能力。&lt;/p&gt;
 &lt;p&gt;人类独有的自我意识，发掘了人性最根本的原则，即在刺激与回应之间，人有选择的自由。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0227 - 价格歧视</title>
-    <link href="https://atjason.com/daily/2023-02-27.html"/>
-    <id>https://atjason.com/daily/2023-02-27.html</id>
-    <published>2023-02-27T14:00:00.000Z</published>
-    <updated>2023-03-05T13:34:02.584Z</updated>
-    
-    <content type="html"><![CDATA[<p>通过对价格的设计，让产品找到核心客户，筛掉非核心客户。</p>
-<p>你看到的，是客户在那挑选 LV 包包。你没看到的，是新换上的价格标签，在筛选客户。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;通过对价格的设计，让产品找到核心客户，筛掉非核心客户。&lt;/p&gt;
-&lt;p&gt;你看到的，是客户在那挑选 LV 包包。你没看到的，是新换上的价格标签，在筛选客户。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0226 - 小程序对个人越来越不友好</title>
-    <link href="https://atjason.com/daily/2023-02-26.html"/>
-    <id>https://atjason.com/daily/2023-02-26.html</id>
-    <published>2023-02-26T14:00:00.000Z</published>
-    <updated>2023-02-26T14:25:03.378Z</updated>
-    
-    <content type="html"><![CDATA[<p>监控越来越严，小程序对个人越来越不友好了。</p>
-<p>小程序生态，我打 59 分。最缺的，是没有广告之外的盈利模式。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;监控越来越严，小程序对个人越来越不友好了。&lt;/p&gt;
-&lt;p&gt;小程序生态，我打 59 分。最缺的，是没有广告之外的盈利模式。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0225 - 自我救赎</title>
-    <link href="https://atjason.com/daily/2023-02-25.html"/>
-    <id>https://atjason.com/daily/2023-02-25.html</id>
-    <published>2023-02-25T14:00:00.000Z</published>
-    <updated>2023-02-26T14:22:22.855Z</updated>
-    
-    <content type="html"><![CDATA[<p>医生不能让你健康。</p>
-<p>营养学家不能让你苗条。</p>
-<p>老师不能让你变聪明。</p>
-<p>禅师不能让你冷静。</p>
-<p>智者不能让你富有。</p>
-<p>教练不能让你健壮。</p>
-<p>最终，你必须自己负起责任。</p>
-<p>救赎靠自己。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;医生不能让你健康。&lt;/p&gt;
-&lt;p&gt;营养学家不能让你苗条。&lt;/p&gt;
-&lt;p&gt;老师不能让你变聪明。&lt;/p&gt;
-&lt;p&gt;禅师不能让你冷静。&lt;/p&gt;
-&lt;p&gt;智者不能让你富有。&lt;/p&gt;
-&lt;p&gt;教练不能让你健壮。&lt;/p&gt;
-&lt;p&gt;最终，你必须自己负起责任。&lt;/p&gt;
-&lt;p&gt;救赎靠自己。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0224 - 嘘</title>
-    <link href="https://atjason.com/daily/2023-02-24.html"/>
-    <id>https://atjason.com/daily/2023-02-24.html</id>
-    <published>2023-02-24T14:00:00.000Z</published>
-    <updated>2023-02-26T14:21:55.981Z</updated>
-    
-    <content type="html"><![CDATA[<p>当一位语言工作者因言获罪，他还能干什么。</p>
-<p>从事的就是语言工作，聊的就是社会话题，常在河边走，早晚因言获罪。</p>
-<p>这不就是宿命吗。</p>
-<p>除了风花雪月，还能说什么？</p>
-<p>只可惜，没那么多风花雪月。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;当一位语言工作者因言获罪，他还能干什么。&lt;/p&gt;
-&lt;p&gt;从事的就是语言工作，聊的就是社会话题，常在河边走，早晚因言获罪。&lt;/p&gt;
-&lt;p&gt;这不就是宿命吗。&lt;/p&gt;
-&lt;p&gt;除了风花雪月，还能说什么？&lt;/p&gt;
-&lt;p&gt;只可惜，没那么多风花雪月。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0223 - 人生的一种模式</title>
-    <link href="https://atjason.com/daily/2023-02-23.html"/>
-    <id>https://atjason.com/daily/2023-02-23.html</id>
-    <published>2023-02-23T14:00:00.000Z</published>
-    <updated>2023-02-26T14:21:34.530Z</updated>
-    
-    <content type="html"><![CDATA[<p>热爱一个事物，那就追随本心，努力找到利用它满足社会真实需求的切入点，利用杠杆效应扩大规模，以个人名义担起责任。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;热爱一个事物，那就追随本心，努力找到利用它满足社会真实需求的切入点，利用杠杆效应扩大规模，以个人名义担起责任。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0222 - 珍惜当下</title>
-    <link href="https://atjason.com/daily/2023-02-22.html"/>
-    <id>https://atjason.com/daily/2023-02-22.html</id>
-    <published>2023-02-22T14:00:00.000Z</published>
-    <updated>2023-02-26T14:21:00.584Z</updated>
-    
-    <content type="html"><![CDATA[<p>往后余生，</p>
-<p>此刻是最年轻、最好的时刻，</p>
-<p>弥足珍贵，何不珍惜。</p>
-<p>既指父母，也说自己。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;往后余生，&lt;/p&gt;
-&lt;p&gt;此刻是最年轻、最好的时刻，&lt;/p&gt;
-&lt;p&gt;弥足珍贵，何不珍惜。&lt;/p&gt;
-&lt;p&gt;既指父母，也说自己。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0221 - ChatGPT + 远程桌面</title>
-    <link href="https://atjason.com/daily/2023-02-21.html"/>
-    <id>https://atjason.com/daily/2023-02-21.html</id>
-    <published>2023-02-21T14:00:00.000Z</published>
-    <updated>2023-02-26T14:19:22.380Z</updated>
-    
-    <content type="html"><![CDATA[<p>让一些不便翻墙的电脑顺利访问 ChatGPT 的方式有哪些呢？</p>
-<p>我目前想到的最佳办法，是在国外开个服务器，然后远程桌面连接。</p>
-<p>腾讯云轻量服务器，最便宜的 54 每月。节点选新加坡，实测稳定好用，Windows Server 版默认支持两个用户同时登陆（付费可以更多），能满足大部分需求了。</p>
-<p>相比之下，自己的电脑，我用了科学上网，可 Chrome 怎么都不行，Safari 可以，很迷。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;让一些不便翻墙的电脑顺利访问 ChatGPT 的方式有哪些呢？&lt;/p&gt;
-&lt;p&gt;我目前想到的最佳办法，是在国外开个服务器，然后远程桌面连接。&lt;/p&gt;
-&lt;p&gt;腾讯云轻量服务器，最便宜的 54 每月。节点选新加坡，实测稳定好用，Windows Server 版默认支持两个用户同时
     
     </summary>
     
