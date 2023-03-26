@@ -69,7 +69,7 @@
 <meta property="og:url" content="https://atjason.com/daily/2023-02-16.html">
 <meta property="og:site_name" content="Jason">
 <meta property="og:description" content="微信小程序生成图片，是件比较麻烦的事。但因为需求确实存在，比如生成分享图，所以即使麻烦，还是挡不住大家研究的动力。 大概有几种思路： 一、直接在小程序的 Canvas 中绘图 这又细分为几种。 一是调用绘图函数，直接在 Canvas 中绘制文字、几何形状。但明显，这种方法过程机械、且支持的样式非常有限。一旦图的样式发生变化，就要重写代码，很麻烦。 一是类似 waml2canvas 之类的工具，遍历">
-<meta property="og:updated_time" content="2023-02-19T12:27:18.382Z">
+<meta property="og:updated_time" content="2023-03-21T22:51:39.528Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="0216 - 微信小程序生成图片">
 <meta name="twitter:description" content="微信小程序生成图片，是件比较麻烦的事。但因为需求确实存在，比如生成分享图，所以即使麻烦，还是挡不住大家研究的动力。 大概有几种思路： 一、直接在小程序的 Canvas 中绘图 这又细分为几种。 一是调用绘图函数，直接在 Canvas 中绘制文字、几何形状。但明显，这种方法过程机械、且支持的样式非常有限。一旦图的样式发生变化，就要重写代码，很麻烦。 一是类似 waml2canvas 之类的工具，遍历">
@@ -365,7 +365,7 @@
 <p><strong>一、直接在小程序的 Canvas 中绘图</strong></p>
 <p>这又细分为几种。</p>
 <p>一是调用绘图函数，直接在 Canvas 中绘制文字、几何形状。但明显，这种方法过程机械、且支持的样式非常有限。一旦图的样式发生变化，就要重写代码，很麻烦。</p>
-<p>一是类似 waml2canvas 之类的工具，遍历 dom 中的元素，自动将元素转换为 Canvas 支持的样式，然后更新。这个方案是很优雅的。遗憾的是，这个方案相当于重写一遍 html2canvas，工作量很大；现在只支持很少的特性，且有 Bug，处于不可用状态。</p>
+<p>一是类似 <a href="https://github.com/gy134340/wxml2canvas" target="_blank" rel="external">waml2canvas</a> 之类的工具，遍历 dom 中的元素，自动将元素转换为 Canvas 支持的样式，然后更新。这个方案是很优雅的。遗憾的是，这个方案相当于重写一遍 html2canvas，工作量很大；现在只支持很少的特性，且有 Bug，处于不可用状态。</p>
 <p><strong>二、通过 web-view + html2canvas 生成图片</strong></p>
 <p>html2canvas 是比较成熟的工具，将 html 中某个 dom 绘制到 canvas。</p>
 <p>微信小程序 web-view 可以展示网页，然后在网页中使用 weixin-js 与小程序通信。</p>
@@ -493,7 +493,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2686</span>
+                <span class="site-state-item-count">2693</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
