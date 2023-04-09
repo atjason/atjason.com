@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-04-02T14:39:03.210Z</updated>
+  <updated>2023-04-09T11:43:06.552Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,191 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0409 - 想用 ChatGPT 不容易</title>
+    <link href="https://atjason.com/daily/2023-04-09.html"/>
+    <id>https://atjason.com/daily/2023-04-09.html</id>
+    <published>2023-04-09T14:00:00.000Z</published>
+    <updated>2023-04-09T11:43:06.552Z</updated>
+    
+    <content type="html"><![CDATA[<p>真不容易。</p>
+<p>注册麻烦，不说梯子，要用接码平台。</p>
+<p>然后，最近爆出账号被封。</p>
+<p>使用 API 时，周五突然开始限制，一个问题 10 几秒。按说是限制了不绑卡的免费用户，可找来绑卡的账户，还是慢。</p>
+<p>说到绑卡，也是不容易，还得找虚拟信用卡。且不说虚拟卡容易被拒，找 depay 注册虚拟卡，需要 kyc 认证，而 kyc 服务又不可用，只能额外付 $10 开通贵的卡，免 kyc 认证。</p>
+<p>想用微软的 Azure OpenAI，要申请。申请还得是公司，得有公司邮箱，还得等 10 个工作日。</p>
+<p>哎，要在国外用上 ChatGPT，真真是太不容易了。</p>
+<p>目前，我做的 ChatGPT 网站还是可用的，欢迎一试：</p>
+<p><a href="https://chat.1g1.top/" target="_blank" rel="external">https://chat.1g1.top/</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;真不容易。&lt;/p&gt;
+&lt;p&gt;注册麻烦，不说梯子，要用接码平台。&lt;/p&gt;
+&lt;p&gt;然后，最近爆出账号被封。&lt;/p&gt;
+&lt;p&gt;使用 API 时，周五突然开始限制，一个问题 10 几秒。按说是限制了不绑卡的免费用户，可找来绑卡的账户，还是慢。&lt;/p&gt;
+&lt;p&gt;说到绑卡，也是不容易，还得找
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0408 - 电动车防盗器</title>
+    <link href="https://atjason.com/daily/2023-04-08.html"/>
+    <id>https://atjason.com/daily/2023-04-08.html</id>
+    <published>2023-04-08T14:00:00.000Z</published>
+    <updated>2023-04-09T11:38:07.194Z</updated>
+    
+    <content type="html"><![CDATA[<p>妈的电动车买来是没有防盗器的，而门口修车的说可以装，但要 70 元。觉得太贵，就自己动手。</p>
+<p>拆开研究了下，发现并没有防盗器预留的接口。没办法，不能简单的买来配件插上即可，得想办法。</p>
+<p>意外发现，竟然连接了一个 4G 的定位器。是直接连接到电池上供电的。这样，可以实时知道车的位置。不过，要插手机卡，还要给定位平台交钱。考虑到不太需要这个功能，就没折腾这个。</p>
+<p>好处是，不用折腾线，就有了一个一定有电的插头，这事就简单了。买来防盗器，只接电源，这样可以实现震动报警。但不接电机，这样报警时有声音，但并没有锁电机，还是能推走的。考虑到防君子不防小人，这基本也够用了。</p>
+<p>不过，中间还是中了意外，在量电压时，手抖导致短路。一阵电火花之后，保险丝烧了。万能淘宝再买保险丝，替换后搞定了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;妈的电动车买来是没有防盗器的，而门口修车的说可以装，但要 70 元。觉得太贵，就自己动手。&lt;/p&gt;
+&lt;p&gt;拆开研究了下，发现并没有防盗器预留的接口。没办法，不能简单的买来配件插上即可，得想办法。&lt;/p&gt;
+&lt;p&gt;意外发现，竟然连接了一个 4G 的定位器。是直接连接到电池上供电
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0407 - 焊武帝</title>
+    <link href="https://atjason.com/daily/2023-04-07.html"/>
+    <id>https://atjason.com/daily/2023-04-07.html</id>
+    <published>2023-04-07T14:00:00.000Z</published>
+    <updated>2023-04-09T11:32:56.091Z</updated>
+    
+    <content type="html"><![CDATA[<p>做了个小 PCB 板，验证了 3.3v 控制 12v 的开关电路，配合测温，可以实现低温加热、高温停止加热，将温度控制在一个较窄的幅度内。</p>
+<p>不过，由于加热时的电流较大，使得板子的发热比较大。尤其是 12v 转 3.3v 的 LDO 性能损耗大，得考虑新 DCDC 方案。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;做了个小 PCB 板，验证了 3.3v 控制 12v 的开关电路，配合测温，可以实现低温加热、高温停止加热，将温度控制在一个较窄的幅度内。&lt;/p&gt;
+&lt;p&gt;不过，由于加热时的电流较大，使得板子的发热比较大。尤其是 12v 转 3.3v 的 LDO 性能损耗大，得考虑新 DCD
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0406 - ChatGPT &amp; 智能音箱</title>
+    <link href="https://atjason.com/daily/2023-04-06.html"/>
+    <id>https://atjason.com/daily/2023-04-06.html</id>
+    <published>2023-04-06T14:00:00.000Z</published>
+    <updated>2023-04-09T11:30:52.521Z</updated>
+    
+    <content type="html"><![CDATA[<p>准备买个智障音箱，用 ChatGPT 改造成智能的，用来回答娃的十万个为什么。</p>
+<p>简单研究了下，发现现有的智能音箱，都不支持二次开发。讯飞曾出过支持的，可惜已经停产了。</p>
+<p>如果用树莓派等开发板，配合麦克风和喇叭，原理是够了，能跑通。就是一堆零件，想找合适的外壳装起来不容易。再者，多颗麦克风拾音、调校好的喇叭，都不是随便买零件能做好的。</p>
+<p>再加上现在 ChatGPT 的 API 速度突然变慢了，再考虑到流式响应不太容易应用到流式响应，问答的等待时间会比较长。等 Azure 的 OpenAI 服务审核通过了再考虑吧。</p>
+<p>综合考虑，暂时搁置这个想法，再观察观察。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;准备买个智障音箱，用 ChatGPT 改造成智能的，用来回答娃的十万个为什么。&lt;/p&gt;
+&lt;p&gt;简单研究了下，发现现有的智能音箱，都不支持二次开发。讯飞曾出过支持的，可惜已经停产了。&lt;/p&gt;
+&lt;p&gt;如果用树莓派等开发板，配合麦克风和喇叭，原理是够了，能跑通。就是一堆零件，想找
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0405 - 先有树、后有草</title>
+    <link href="https://atjason.com/daily/2023-04-05.html"/>
+    <id>https://atjason.com/daily/2023-04-05.html</id>
+    <published>2023-04-05T14:00:00.000Z</published>
+    <updated>2023-04-09T11:26:47.883Z</updated>
+    
+    <content type="html"><![CDATA[<p>进化史上，先有树、后有草。</p>
+<p>这多少让人有些惊讶，毕竟草看起来更低级，应该先出来才对。</p>
+<p>想起来了苹果生态，先有 iPhone 之类的大树级产品，然后有小到 AirTag 这样配件产品。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;进化史上，先有树、后有草。&lt;/p&gt;
+&lt;p&gt;这多少让人有些惊讶，毕竟草看起来更低级，应该先出来才对。&lt;/p&gt;
+&lt;p&gt;想起来了苹果生态，先有 iPhone 之类的大树级产品，然后有小到 AirTag 这样配件产品。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0404 - 被驯化</title>
+    <link href="https://atjason.com/daily/2023-04-04.html"/>
+    <id>https://atjason.com/daily/2023-04-04.html</id>
+    <published>2023-04-04T14:00:00.000Z</published>
+    <updated>2023-04-09T11:26:27.192Z</updated>
+    
+    <content type="html"><![CDATA[<p>你忍不住会主小贩讲价钱，却不会和自动售卖机讨价还价。</p>
+<p>默默的，慢慢的，变了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;你忍不住会主小贩讲价钱，却不会和自动售卖机讨价还价。&lt;/p&gt;
+&lt;p&gt;默默的，慢慢的，变了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0403 - 观点影响记忆</title>
+    <link href="https://atjason.com/daily/2023-04-03.html"/>
+    <id>https://atjason.com/daily/2023-04-03.html</id>
+    <published>2023-04-03T14:00:00.000Z</published>
+    <updated>2023-04-09T11:25:54.767Z</updated>
+    
+    <content type="html"><![CDATA[<p>人类大脑的常规局限，使它没有足够的能力重构过去的知识结构或信念。</p>
+<p>一旦接受了一种新的世界观（或对世界某一方面的看法发生了变化），你就会立即丧失很大一部分回忆能力，无法回想起自己观点改变之前的那些想法了。</p>
+<p>换句话说，你会无意识地强化符合现在观点的记忆，淡化与观点不符的记忆。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;人类大脑的常规局限，使它没有足够的能力重构过去的知识结构或信念。&lt;/p&gt;
+&lt;p&gt;一旦接受了一种新的世界观（或对世界某一方面的看法发生了变化），你就会立即丧失很大一部分回忆能力，无法回想起自己观点改变之前的那些想法了。&lt;/p&gt;
+&lt;p&gt;换句话说，你会无意识地强化符合现在观点的记
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0331 - 学习上偷懒</title>
@@ -378,190 +563,6 @@
 &lt;li&gt;&lt;p&gt;小程序 wx.request 中开启 &lt;code&gt;enableChunked&lt;/code&gt;;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;请求 OpenAI 接口时，开启 &lt;c
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0318 - 每周 10 公里跑步计划</title>
-    <link href="https://atjason.com/daily/2023-03-18.html"/>
-    <id>https://atjason.com/daily/2023-03-18.html</id>
-    <published>2023-03-18T14:00:00.000Z</published>
-    <updated>2023-03-19T12:18:32.392Z</updated>
-    
-    <content type="html"><![CDATA[<p>每周 10 公里跑步计划。</p>
-<ul>
-<li><p>时间：早晨</p>
-</li>
-<li><p>场地：家附近河边</p>
-</li>
-<li><p>计数：运动手环</p>
-</li>
-<li><p>监督：他励，每周碎碎念上放数据图</p>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;每周 10 公里跑步计划。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;时间：早晨&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;场地：家附近河边&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;计数：运动手环&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;监督：他励，每周碎碎念上放数据图&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0317 - 根和翅膀</title>
-    <link href="https://atjason.com/daily/2023-03-17.html"/>
-    <id>https://atjason.com/daily/2023-03-17.html</id>
-    <published>2023-03-17T14:00:00.000Z</published>
-    <updated>2023-03-19T12:17:54.198Z</updated>
-    
-    <content type="html"><![CDATA[<p>我们能赠予子孙的永存遗产只有两种：根和翅膀。</p>
-<p>家是孩子的避风港，家给予孩子出发的力量。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们能赠予子孙的永存遗产只有两种：根和翅膀。&lt;/p&gt;
-&lt;p&gt;家是孩子的避风港，家给予孩子出发的力量。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0316 - 良知</title>
-    <link href="https://atjason.com/daily/2023-03-16.html"/>
-    <id>https://atjason.com/daily/2023-03-16.html</id>
-    <published>2023-03-16T14:00:00.000Z</published>
-    <updated>2023-03-19T12:16:57.417Z</updated>
-    
-    <content type="html"><![CDATA[<p>良知的声音如此微弱，可以被轻而易举地淹没；</p>
-<p>但又如此清晰，不可能被误解。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;良知的声音如此微弱，可以被轻而易举地淹没；&lt;/p&gt;
-&lt;p&gt;但又如此清晰，不可能被误解。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0315 - 加速度比速度重要</title>
-    <link href="https://atjason.com/daily/2023-03-15.html"/>
-    <id>https://atjason.com/daily/2023-03-15.html</id>
-    <published>2023-03-15T14:00:00.000Z</published>
-    <updated>2023-03-19T12:16:31.209Z</updated>
-    
-    <content type="html"><![CDATA[<p>工作本身并不能带来经济上的安全感，具备良好的思考、学习、创造与适应能力，才能立于不败之地。</p>
-<p>拥有财富，并不代表经济独立，拥有创造财富的能力才真正可靠。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;工作本身并不能带来经济上的安全感，具备良好的思考、学习、创造与适应能力，才能立于不败之地。&lt;/p&gt;
-&lt;p&gt;拥有财富，并不代表经济独立，拥有创造财富的能力才真正可靠。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0314 - 细节影响体验</title>
-    <link href="https://atjason.com/daily/2023-03-14.html"/>
-    <id>https://atjason.com/daily/2023-03-14.html</id>
-    <published>2023-03-14T14:00:00.000Z</published>
-    <updated>2023-03-19T12:16:08.079Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近开了两辆车，都有倒车影像。其中一辆的倒车影像中，两侧有两条黄线，指示车未来的位置，就会让倒车变得容易很多。</p>
-<p>回到了自己熟悉的战场：用软件改善体验。有时，一点点小的改变，就能让产品用起来舒服很多。这样的一点点累加起来，就能成为优秀的产品。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近开了两辆车，都有倒车影像。其中一辆的倒车影像中，两侧有两条黄线，指示车未来的位置，就会让倒车变得容易很多。&lt;/p&gt;
-&lt;p&gt;回到了自己熟悉的战场：用软件改善体验。有时，一点点小的改变，就能让产品用起来舒服很多。这样的一点点累加起来，就能成为优秀的产品。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0313 - 钱多不是好事</title>
-    <link href="https://atjason.com/daily/2023-03-13.html"/>
-    <id>https://atjason.com/daily/2023-03-13.html</id>
-    <published>2023-03-13T14:00:00.000Z</published>
-    <updated>2023-03-19T12:15:34.031Z</updated>
-    
-    <content type="html"><![CDATA[<p>钱多不是好事，因为挣钱是一个很大的乐趣，钱多你就失去了一个很重要的乐趣。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;钱多不是好事，因为挣钱是一个很大的乐趣，钱多你就失去了一个很重要的乐趣。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0312 - 造富神话</title>
-    <link href="https://atjason.com/daily/2023-03-12.html"/>
-    <id>https://atjason.com/daily/2023-03-12.html</id>
-    <published>2023-03-12T14:00:00.000Z</published>
-    <updated>2023-03-12T13:20:37.127Z</updated>
-    
-    <content type="html"><![CDATA[<p>如果身边一起玩的朋友，突然完成了阶级跨越，比如成了亿万富翁，你还能保证淡定的心态吗。</p>
-<p>比如，疫情开始时，口罩相关的生意人，暴富了一大批。如果之前混得不如你的人，3 个月赚了 2 个亿，你还能安心做自己的小生意吗。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;如果身边一起玩的朋友，突然完成了阶级跨越，比如成了亿万富翁，你还能保证淡定的心态吗。&lt;/p&gt;
-&lt;p&gt;比如，疫情开始时，口罩相关的生意人，暴富了一大批。如果之前混得不如你的人，3 个月赚了 2 个亿，你还能安心做自己的小生意吗。&lt;/p&gt;
-
     
     </summary>
     

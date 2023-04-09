@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-09-08.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-09-15.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-09-08.html" itemprop="url">
-                  0908 - 开发板低功耗模式
+                <a class="post-title-link" href="/daily/2022-09-15.html" itemprop="url">
+                  0915 - 照顾好自己，就照顾了全世界
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-08T22:00:00+08:00">
-                2022-09-08
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-15T22:00:00+08:00">
+                2022-09-15
               </time>
             
 
@@ -365,11 +365,7 @@
       
         
           
-            <p>低功耗时遇到一个问题：如果掉电休眠，则时间无法继续，唤醒后的时间就不对了。</p>
-<p>而我要面临的使用场景，是需要知道大致时间的。</p>
-<p>一种办法，就是引入 RTC 实时时钟模块，掉电可以使用钮扣电池供电，继续走时。可是，这种模块为了添加钮扣电池，板子都比较大。</p>
-<p>还有种办法，就是利用 WDT 看门狗定时触发的机制，累积休眠时长。等最后唤醒时，加上这个累积时长，就能换算出大致准确的时间。</p>
-<p>本来，我还想完善下细节，比如在休眠中途被其他方式唤醒时，需要进一步校正这个休眠时间。可是，太复杂了。最后，用了个简单的办法解决：累加每次开始休眠时，加半个休眠时长。这样，可以对冲中途休眠的情况，明显改善结果。</p>
+            <p>与其担心宏观经济，不如关注自己；<br>你对自己生活的影响，往往比宏观经济对你的影响大得多。</p>
 
           
         
@@ -413,7 +409,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-09-07.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-09-14.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -435,8 +431,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-09-07.html" itemprop="url">
-                  0907 - Arduino Pro mini
+                <a class="post-title-link" href="/daily/2022-09-14.html" itemprop="url">
+                  0914 - 第一次遇到硬件中的诡异问题
                 </a>
               
             
@@ -452,8 +448,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-07T22:00:00+08:00">
-                2022-09-07
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-14T22:00:00+08:00">
+                2022-09-14
               </time>
             
 
@@ -511,8 +507,11 @@
       
         
           
-            <p>收到 Arduino Pro mini，比想象中更小。自己焊了引脚，还改进了 usb ttl，开心。</p>
-<p>Arduino 给力。之前给 Uno 写的代码，可以直接刷到 Pro mini 板子上，接口也完全一致，开心。</p>
+            <p>今天遇到一个很诡异的问题，蓝牙能发送信号，不能接收信号。<br>‌<br>第一反应是误触发了休眠模式，因为休眠模式就是这个表现。于是，朝着这个方向一通研究，结果无果。</p>
+<p>期间，还有其他方向的各种尝试，花了很多时间，非常影响心情。</p>
+<p>最后，还是一位高人的指点，因为使用软串口 + 高波特率，可能会产生不稳定的问题。尝试降低波特率，果然正常了。</p>
+<p>做开发总是遇到这样的事，卡在一个地方，怎么都过不去。经常无数折腾，在即将放弃的前夕，终于柳暗花明。</p>
+<p>之前做软件，时不时来这么一下。硬件领域，这种问题估计会更多。</p>
 
           
         
@@ -556,7 +555,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-09-06.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-09-13.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -578,8 +577,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-09-06.html" itemprop="url">
-                  0906 - 智能硬件产品盈利的几种方式
+                <a class="post-title-link" href="/daily/2022-09-13.html" itemprop="url">
+                  0913 - 自定义协议及数据校验
                 </a>
               
             
@@ -595,8 +594,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-06T22:00:00+08:00">
-                2022-09-06
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-13T22:00:00+08:00">
+                2022-09-13
               </time>
             
 
@@ -654,16 +653,8 @@
       
         
           
-            <p>‌</p>
-<ul>
-<li>硬件，比如 iPhone；</li>
-<li>内容，比如 Kindle 电子书；</li>
-<li>服务，比如 特斯拉自动驾驶另外收费；</li>
-<li>配件，比如 Apple Watch 表带；</li>
-<li>耗材，比如 打印机墨盒；</li>
-<li>广告，比如 电视开机广告；</li>
-<li>数据，比如 众多采集数据汇总生成大数据，进一步挖掘。</li>
-</ul>
+            <p>研究了自定义协议、数据校验，结论是继续使用目前的自定义协议，加上求和校验。<br>‌<br>关于自定义协议，比如，小米在蓝牙的基础上，自定义了 MMA 协议。不过，对我来说有点过于复杂、不必要。</p>
+<p>关于校验，蓝牙本身有简单的奇偶校验，应用层多半会有自己的校验，比如 CRC。同样的，为了简单，暂时使用求和校验。不过，为了避免同时有正负偏移而和不变，加了简单的码表，也就是加额外的偏移，明显提高校验成功率。CRC 其实也是这个思路，算是借鉴了。</p>
 
           
         
@@ -707,7 +698,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-09-05.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-09-12.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -729,8 +720,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-09-05.html" itemprop="url">
-                  0905 - Arduino, Yeah!
+                <a class="post-title-link" href="/daily/2022-09-12.html" itemprop="url">
+                  0912 - 鬼畜
                 </a>
               
             
@@ -746,8 +737,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-05T22:00:00+08:00">
-                2022-09-05
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-12T22:00:00+08:00">
+                2022-09-12
               </time>
             
 
@@ -805,9 +796,7 @@
       
         
           
-            <p>今天才知道，Arduino 不只是具体的硬件，同时也是软件框架。<br>‌<br>也就是说，它把 IO 等硬件操作进行抽象和封装。配合对应的底层实现，可以用一套代码部署到不同的硬件，而不仅仅是 Arduino 官方开源的硬件。</p>
-<p>知道了这个，算是打开了一个门。从此，我能操作的开发版，从几个，扩展到 1000 多个。</p>
-<p>具体的，可以配合 PlatformIO 来实现。配合插件，就可以在 VSCode 上愉快的编码。而且，支持断点调试，Yeah.</p>
+            <p>重启能解决 80% 的软件问题，<br>拍一拍能解决 80% 的硬件问题。</p>
 
           
         
@@ -851,7 +840,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-08-24.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2022-09-11.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -873,8 +862,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2022-08-24.html" itemprop="url">
-                  0824 - 智能硬件
+                <a class="post-title-link" href="/daily/2022-09-11.html" itemprop="url">
+                  0911 - 制作原型机
                 </a>
               
             
@@ -890,8 +879,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-08-24T22:00:00+08:00">
-                2022-08-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2022-09-11T22:00:00+08:00">
+                2022-09-11
               </time>
             
 
@@ -949,18 +938,8 @@
       
         
           
-            <p>最近一周，花了比较多时间，重新拾起硬件，搭建简单的电路。</p>
-<p>东西比较琐碎，只能简单记录一下：</p>
-<ul>
-<li>重新学习 Arduino 语法及编程基础；</li>
-<li>购买器件，包括蓝牙模块、霍尔传感器及干簧管、OLED 显示屏、时钟模块、EEPROM 存储模块、Fash 存储模块、扩展板等。</li>
-<li>按钮防抖动和计数；</li>
-<li>操作 LCD 屏幕；</li>
-<li>操作 OLED 屏幕；</li>
-<li>操作蓝牙模块；</li>
-<li>蓝牙和微信小程序打通；</li>
-</ul>
-<p>现在是验证技术可行性阶段，每个环节都做得比较浅，验证即停止。</p>
+            <p>在洞洞板上，布局多个元器件，考虑能塞进手边有的一个亚克力盒子里；安排布线，然后从从下午焊到半夜，终于完成。一次成功，没有冒烟，开心。</p>
+<p><img src="https://tva1.sinaimg.cn/large/e6c9d24ely1h642mgl4yuj20va0moq3y.jpg" alt=""></p>
 
           
         
@@ -999,7 +978,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/35/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/35/">35</a><span class="page-number current">36</span><a class="page-number" href="/page/37/">37</a><span class="space">&hellip;</span><a class="page-number" href="/page/540/">540</a><a class="extend next" rel="next" href="/page/37/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/35/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/35/">35</a><span class="page-number current">36</span><a class="page-number" href="/page/37/">37</a><span class="space">&hellip;</span><a class="page-number" href="/page/541/">541</a><a class="extend next" rel="next" href="/page/37/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1044,7 +1023,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2698</span>
+                <span class="site-state-item-count">2705</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
