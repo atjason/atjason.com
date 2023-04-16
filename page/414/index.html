@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-03.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-10.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-06-03.html" itemprop="url">
-                  0603 - 近视，是种残疾
+                <a class="post-title-link" href="/daily/2017-06-10.html" itemprop="url">
+                  0610 - AES256CBC, my first wheel for Python
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-03T22:00:00+08:00">
-                2017-06-03
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-10T22:00:00+08:00">
+                2017-06-10
               </time>
             
 
@@ -365,11 +365,18 @@
       
         
           
-            <p>这两天新配了眼镜。</p>
-<p>其实，我是非常抵触去眼镜店的。</p>
-<p>一方面，总感觉被宰。因为多少还是知道一点眼镜行业的暴利，于是，他们服务的越周道、热烈，我越发觉得被宰得厉害、就更不舒服了。哎，一个行业能做成这种状态，也是悲哀。</p>
-<p>另一方面，更重要的是：怕面对近视度数又加深的事实，有点讳疾忌医的感觉。作为每天至少面对电脑 8 个小时、外加不知道多少小时手机的我，近视加深几乎是必然的；但又必然是不想加深的。这种矛盾与无能为力，真让人难受。</p>
-<p>近视，是种残疾，让人想想就难受的病。</p>
+            <h1 id="AES256CBC"><a href="#AES256CBC" class="headerlink" title="AES256CBC"></a>AES256CBC</h1><p>Wrapper for AES 256 CBC using Python.</p>
+<p><a href="https://github.com/atjason/AES256CBC_python" target="_blank" rel="external">Get from GitHub</a></p>
+<h1 id="Dependency"><a href="#Dependency" class="headerlink" title="Dependency"></a>Dependency</h1><p>Depends on <a href="https://github.com/pyca/cryptography/" target="_blank" rel="external">cryptography</a></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ pip install cryptography</div></pre></td></tr></table></figure>
+<p>Note: also refers to Swift version: <a href="https://github.com/atjason/AES256CBC" target="_blank" rel="external">AES256CBC</a></p>
+<h1 id="Usage"><a href="#Usage" class="headerlink" title="Usage"></a>Usage</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">txt = <span class="string">"Hello World."</span></div><div class="line">password = AES256CBC.generate_password()</div><div class="line"></div><div class="line">encrypted = AES256CBC.encrypt(txt, password)</div><div class="line">decrypted = AES256CBC.decrypt(encrypted, password)</div><div class="line"></div><div class="line"><span class="keyword">assert</span> decrypted == txt</div></pre></td></tr></table></figure>
+<p>Note:</p>
+<ul>
+<li>The password must be exactly 32 chars long for AES-256.</li>
+<li>IV of AES is the first 16 chars of encrypted strings.</li>
+<li>The encrypted strings are base 64 encoded.</li>
+</ul>
 
           
         
@@ -413,7 +420,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-02.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-09.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -435,8 +442,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-06-02.html" itemprop="url">
-                  0602 - 共享工具？
+                <a class="post-title-link" href="/daily/2017-06-09.html" itemprop="url">
+                  0609 - 我好像总抓不住热点
                 </a>
               
             
@@ -452,8 +459,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-02T22:00:00+08:00">
-                2017-06-02
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-09T22:00:00+08:00">
+                2017-06-09
               </time>
             
 
@@ -511,9 +518,28 @@
       
         
           
-            <p>最近共享概念还挺热，比如共享雨伞、共享篮球、等等。像这样的东西都可以共享了，还有什么不能共享？</p>
-<p>其实，我倒是挺希望有 <strong>共享工具</strong> 的。比如，前段时间家里需要钻个孔，我到楼下做铝合金窗户的店铺里借电钻，结果去了 3 次，人家以各种理由推脱，就是没借到。最后，我自己在淘宝买了一个。用完之后，就一直闲置在家里。</p>
-<p>如果当时有共享这个电动工具的，我就是挺愿意一用。而目前我有了之后，我也愿意租给别人用，但并不愿意为此花时间、精力。共享电动工具这事，问题还挺多，比如如何取、送、保护隐私、等等。</p>
+            <p>就在我刚刚开通微信公众号、并正式更名为「<strong>自在开发</strong>」时，微信突然关闭一批有千万粉丝的大号，这个…</p>
+<p>时下，小密圈还算热门，可我总觉得自己再有所沉淀后，会更合适。可那时，小密圈可还热门？</p>
+<p><strong>我好像总抓不住热点。</strong></p>
+<p>不管了，还是先从公众号做起吧，声明及暂定一些规则：</p>
+<ul>
+<li>名字：「自在开发」<ul>
+<li>作「<strong>自由</strong>」自在开发</li>
+<li>也作「<strong>独</strong>」自在开发</li>
+</ul>
+</li>
+<li>目的<ul>
+<li><strong>用输出的方式，倒逼自己输入</strong>；顺便学习内容、社区运营。</li>
+</ul>
+</li>
+<li><strong>每周至少一篇有深度的文章，周二早上 8 点前发</strong>；如果还可以有更多，周四早上 8 点前发。<ul>
+<li><strong>主题：产品思考、运营推广、独立开发、自由职业等方面的小结或感悟</strong></li>
+</ul>
+</li>
+</ul>
+<p>已发文章：「<strong>坚果 Pro 的红与黑</strong>」</p>
+<p>下周一主题：「<strong>实用主义者的 Python 入门</strong>」如果感兴趣，不然先扫码占坑、坐等下周一推送。</p>
+<p><img src="https://ps.toolinbox.net/nckv0.jpg" alt=""></p>
 
           
         
@@ -557,7 +583,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-01.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-08.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -579,8 +605,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-06-01.html" itemprop="url">
-                  0601 - 管理期望值
+                <a class="post-title-link" href="/daily/2017-06-08.html" itemprop="url">
+                  0608 - Flask 学的有点感觉了
                 </a>
               
             
@@ -596,8 +622,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-01T22:00:00+08:00">
-                2017-06-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-08T22:00:00+08:00">
+                2017-06-08
               </time>
             
 
@@ -655,11 +681,19 @@
       
         
           
-            <p>东西贵不贵、好不好，是相对的；相对于什么呢？相对于用户的期望值、心理预期。</p>
-<p>要「管理」用户的期望。</p>
-<p>比如，软件的免费 + 内购模式。起初，用户看到内购价格时，可能会觉得贵。但看的多了，慢慢就不觉得贵了。某一天需要的时候，可能就入手了。</p>
-<p>比如，坚果 Pro 发布会上将产品吹的天上手、地下无的，可当拿到手，看到背板不平这样低级的质量问题，还是会有种吃苍蝇的感觉；心理落差大。</p>
-<p>好坏无绝对，只能相对满意。</p>
+            <p>首先，感谢 <a href="https://flaskbook.com/" target="_blank" rel="external">Flask Web Development</a> 这本书，由浅入深、又在工程角度上全面地介绍的 Flask，是本好书，推荐。</p>
+<p>然后，更关键的，针对 Klib 接下来的开发需要，<strong>面向项目进行学习</strong>，既可以用成就感避免学习过程的枯燥、疲倦，还可以在学习结束后，生成一个可以用于实际生产的项目。</p>
+<p>一些学习的步骤，记下来，也供自己以后学习新语言时参考：</p>
+<ul>
+<li><strong>先概览性地学习，把框架搭起来</strong>，然后总共要学哪些方面的知识，并有基本的了解。</li>
+<li>开发一个小项目，解决一个小需求，把兴趣调动起来。</li>
+<li><strong>优化项目的目录结构</strong>，这是 <strong>把上面提到的框架落实下来</strong>。比如这个过程这我知道要注意整体工作流程、不同环境切换、测试、日志、等等，<strong>之后就可以慢慢填坑</strong>。</li>
+<li>增加一个小功能，尽可能地优化。<strong>在优化过程中，会发现很多不足、自己不会的东西</strong>。在优化的契机，学习、巩固这些点。</li>
+<li>继续增加一个小功能，继续优化。</li>
+<li><strong>如此反复</strong>，直至功能基本完整、也没什么迫切需要学习的点。</li>
+<li><strong>进入实战项目</strong>。</li>
+</ul>
+<p>争取早日使用 Flask 完成 Klib 的后端功能。</p>
 
           
         
@@ -703,7 +737,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-05-31.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-07.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -725,8 +759,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-05-31.html" itemprop="url">
-                  0531 - 两眼论
+                <a class="post-title-link" href="/daily/2017-06-07.html" itemprop="url">
+                  0607 - 坚果 Pro 使用体验
                 </a>
               
             
@@ -742,8 +776,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-31T22:00:00+08:00">
-                2017-05-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-07T22:00:00+08:00">
+                2017-06-07
               </time>
             
 
@@ -800,63 +834,44 @@
 
       
         
-          
-            <p>围棋中有「两眼即活」理论，可以简单理解为：多一条路，就不会死。</p>
-<p>对应到自己的生活中，发现可以找到很多映射：</p>
-<table>
-<thead>
-<tr>
-<th>领域</th>
-<th>A</th>
-<th>B</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>操作系统</td>
-<td>macOS</td>
-<td>Windows</td>
-</tr>
-<tr>
-<td>编程语言</td>
-<td>Swift</td>
-<td>Python</td>
-</tr>
-<tr>
-<td>Python 虚拟环境</td>
-<td>pyenv</td>
-<td>virtualenv</td>
-</tr>
-<tr>
-<td>手机</td>
-<td>iPhone</td>
-<td>锤子</td>
-</tr>
-<tr>
-<td>服务器</td>
-<td>阿里云</td>
-<td>Vultr</td>
-</tr>
-<tr>
-<td>CDN</td>
-<td>七牛</td>
-<td>CloudFlare</td>
-</tr>
-<tr>
-<td>通讯</td>
-<td>微信</td>
-<td>Telegram</td>
-</tr>
-<tr>
-<td>…</td>
-<td>…</td>
-<td>…</td>
-</tr>
-</tbody>
-</table>
-<p>换个角度讲，不在一颗树上吊死。多了解一个领域、多一个选择、多一种跨界，就多一种活下去的方式，就更不容易死掉。</p>
-
-          
+          <p><img src="https://ps.toolinbox.net/rtod1.jpg" alt=""></p>
+<p>锤子的坚果 Pro 用了一周了，来说说使用感受吧。</p>
+<p>购买经历：</p>
+<ul>
+<li>5.28 官网下单，本来提示 10 天内发货，结果第 2 天就发货了，比想象的快。</li>
+</ul>
+<p>不好的地方：</p>
+<ul>
+<li>手感确实不好，不硌手，割手。买了官方的红套套，不割手了，但手机明显大了一圈。对于习惯 iPhone 6 的手感，这样 Size 确实需要适应一段时间。</li>
+<li>做工是千元机级别。比如，后背板玻璃在和塑料贴片衔接的地方，明显不平。</li>
+<li>屏幕<ul>
+<li>亮度低，白天太阳下吃力。</li>
+<li>亮度自动调节，垃圾，跟没有一样。</li>
+<li>不光滑，比如快速滑动界面时，阻力很大，不顺滑。</li>
+</ul>
+</li>
+<li>摄像头<ul>
+<li>如果你也习惯了 iPhone 的拍照，你基本懒得用坚果来拍照。</li>
+<li>前置摄像头在微信视频时，手稍微一动，白平衡剧变，难受。</li>
+<li>双摄？我基本无视。还不如没有，平白多开了个孔。</li>
+</ul>
+</li>
+<li>应用权限控制<ul>
+<li>Android 系统的权限管理是我很头痛的地方。安装应用后，并没有默认禁用权限、使用时确认后激活，而基本是默认全开启。自己一个个去禁用，很浪费时间。</li>
+<li>即使我在系统中禁用了某应用（如百度地图）的电话、短信权限，在登录时百度地图依然能读取本机号码、短信中的验证码。感觉非常可怕。</li>
+</ul>
+</li>
+<li>播放音乐、第三方应用播放音频时，不能快速暂停、快进，一定要去通知栏点开通知后操作，明显不如 iPhone 的播放控制方便。</li>
+<li>电源键接近机身中间，很容易误触。</li>
+</ul>
+<p>说不上好坏：</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/daily/2017-06-07.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -898,7 +913,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-05-30.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2017-06-06.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -920,8 +935,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2017-05-30.html" itemprop="url">
-                  0530 - Radxa 又复活了
+                <a class="post-title-link" href="/daily/2017-06-06.html" itemprop="url">
+                  0606 - WWDC 之夜
                 </a>
               
             
@@ -937,8 +952,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-30T22:00:00+08:00">
-                2017-05-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-06T22:00:00+08:00">
+                2017-06-06
               </time>
             
 
@@ -996,11 +1011,13 @@
       
         
           
-            <p><img src="https://ps.toolinbox.net/xp8v3.JPG" alt=""></p>
-<p>最近，项目上需要一个能 24 小时运行的桌面版操作系统，像 Raspberry Pi、Radxa 这样的板子，简单是太适合了。于是，拿出吃灰已久的 Radxa，重新刷新了 Ubuntu Desktop，配置了一下环境，完美运行所需要的小程序，爽！</p>
-<hr>
-<p>平时积累的素材、能力，总会有需要的时候。当然，如果能和大方向关联，就更实在了。比如，Facebook 创始人扎克伯格每年的习惯：学中文、每天写代码、每天打领带、每天认识一个公司以外的人…都是和公司战略想契合的：连接地球上每一个人。</p>
-<p><strong>提前布局，坚持在各个点上做准备，终会连点成线、结线成面，形成战略优势。</strong></p>
+            <p>好久没有通宵了，今天和 40 余位小伙伴在杭州 123 茶楼，共同观看 WWDC 2017.</p>
+<p>WWDC Keynote 本身，说实话没太多的惊喜。我近段时间倒是对家庭语音助手挺感兴趣，苹果也如爆料中一样，发布了垃圾桶音箱 HomePod（虽然这名字像是实习生取的），不过，我对其售价和年底才发货保留意见。</p>
+<ul>
+<li>对于价格，Google Home 和 Amazon Echo 都在 $200 以下，苹果的可以买人家 2 个还剩 $40 元</li>
+<li>关键的，这入口抢得太不积极了。比如，Google IO 2017 提到，Google 要从 Mobile First 转向 AI First，而除了手机，家庭语音助手是重要的 AI 入口。有了这一入口，才有更多的数据；有了数据，才能喂养出人工智能怪兽，Siri 才不会是现在的半残状态。</li>
+</ul>
+<p>期间见识了不少达人（比如国内某知名 VPN 服务的 CEO），也没想到杭州隐藏着这么多高手，以后要多多交流。</p>
 
           
         
@@ -1039,7 +1056,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/413/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/413/">413</a><span class="page-number current">414</span><a class="page-number" href="/page/415/">415</a><span class="space">&hellip;</span><a class="page-number" href="/page/541/">541</a><a class="extend next" rel="next" href="/page/415/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/413/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/413/">413</a><span class="page-number current">414</span><a class="page-number" href="/page/415/">415</a><span class="space">&hellip;</span><a class="page-number" href="/page/543/">543</a><a class="extend next" rel="next" href="/page/415/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1084,7 +1101,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2705</span>
+                <span class="site-state-item-count">2712</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
