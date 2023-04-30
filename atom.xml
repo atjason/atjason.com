@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-04-23T15:00:42.201Z</updated>
+  <updated>2023-04-30T15:33:16.958Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,190 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0430 - 火山引擎文字识别</title>
+    <link href="https://atjason.com/daily/2023-04-30.html"/>
+    <id>https://atjason.com/daily/2023-04-30.html</id>
+    <published>2023-04-30T14:00:00.000Z</published>
+    <updated>2023-04-30T15:33:16.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>又一次听说火山引擎文字识别。</p>
+<p>简单试了下，结果还行。<br>认真和百度 OCR 比较下价格，是它的几分之一。</p>
+<p>哎，可惜是在刚刚加购百度 OCR 次包时，才注意到这个事。</p>
+<p>不说了，开始接入。</p>
+<p>研究了半天，终于把身份验证给跑通了。</p>
+<p>接下来，就是对应 API 了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;又一次听说火山引擎文字识别。&lt;/p&gt;
+&lt;p&gt;简单试了下，结果还行。&lt;br&gt;认真和百度 OCR 比较下价格，是它的几分之一。&lt;/p&gt;
+&lt;p&gt;哎，可惜是在刚刚加购百度 OCR 次包时，才注意到这个事。&lt;/p&gt;
+&lt;p&gt;不说了，开始接入。&lt;/p&gt;
+&lt;p&gt;研究了半天，终于把身份验证给
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0429 - 创业与人才培养</title>
+    <link href="https://atjason.com/daily/2023-04-29.html"/>
+    <id>https://atjason.com/daily/2023-04-29.html</id>
+    <published>2023-04-29T14:00:00.000Z</published>
+    <updated>2023-04-30T15:31:47.011Z</updated>
+    
+    <content type="html"><![CDATA[<p>创业做公司，一定要记住，人才只筛选不教育，只选择不改变。</p>
+<p>改变自己是神，改变他人是神经病。</p>
+<p>不过，也是悖论。大牛不肯了；把新人带出来了，他却要走了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;创业做公司，一定要记住，人才只筛选不教育，只选择不改变。&lt;/p&gt;
+&lt;p&gt;改变自己是神，改变他人是神经病。&lt;/p&gt;
+&lt;p&gt;不过，也是悖论。大牛不肯了；把新人带出来了，他却要走了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0428 - 代工厂的问题</title>
+    <link href="https://atjason.com/daily/2023-04-28.html"/>
+    <id>https://atjason.com/daily/2023-04-28.html</id>
+    <published>2023-04-28T14:00:00.000Z</published>
+    <updated>2023-04-30T15:30:28.188Z</updated>
+    
+    <content type="html"><![CDATA[<p>我们找的这么多家代工厂，开始都是没问题，我们都能做。</p>
+<p>最后都是：这不是问题，你们接受就行了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我们找的这么多家代工厂，开始都是没问题，我们都能做。&lt;/p&gt;
+&lt;p&gt;最后都是：这不是问题，你们接受就行了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0427 - 无线充电</title>
+    <link href="https://atjason.com/daily/2023-04-27.html"/>
+    <id>https://atjason.com/daily/2023-04-27.html</id>
+    <published>2023-04-27T14:00:00.000Z</published>
+    <updated>2023-04-30T15:29:50.988Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一次焊接无线发射和接收，失败，发射端没振起来。</p>
+<p>仔细对比了数据手册，发现有两处隐藏的连线。在 PCB 上用飞线连接后，成功。</p>
+<p>既解锁了新技能，又消除了项目的一个重要不确定性，开心。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;第一次焊接无线发射和接收，失败，发射端没振起来。&lt;/p&gt;
+&lt;p&gt;仔细对比了数据手册，发现有两处隐藏的连线。在 PCB 上用飞线连接后，成功。&lt;/p&gt;
+&lt;p&gt;既解锁了新技能，又消除了项目的一个重要不确定性，开心。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0426 - 穷人沉迷多巴胺，富人追求内啡肽</title>
+    <link href="https://atjason.com/daily/2023-04-26.html"/>
+    <id>https://atjason.com/daily/2023-04-26.html</id>
+    <published>2023-04-26T14:00:00.000Z</published>
+    <updated>2023-04-30T15:29:23.712Z</updated>
+    
+    <content type="html"><![CDATA[<p>最残忍的社会现实：穷人沉迷多巴胺，富人追求内啡肽。</p>
+<p>21世纪最值钱的是什么？<br>是时间。</p>
+<p>谁能赚到别人的时间，谁就能赚到别人的钱。<br>谁的时间被浪费，谁就注定沦落贫穷。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最残忍的社会现实：穷人沉迷多巴胺，富人追求内啡肽。&lt;/p&gt;
+&lt;p&gt;21世纪最值钱的是什么？&lt;br&gt;是时间。&lt;/p&gt;
+&lt;p&gt;谁能赚到别人的时间，谁就能赚到别人的钱。&lt;br&gt;谁的时间被浪费，谁就注定沦落贫穷。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0425 - 用户与产品</title>
+    <link href="https://atjason.com/daily/2023-04-25.html"/>
+    <id>https://atjason.com/daily/2023-04-25.html</id>
+    <published>2023-04-25T14:00:00.000Z</published>
+    <updated>2023-04-30T15:28:58.115Z</updated>
+    
+    <content type="html"><![CDATA[<ol>
+<li>只收获用户价值的利息，这样的商业才能成为常青树。</li>
+<li>做产品一定要具备和用户在一起的能力，这个过程不要在乎自己是谁。</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;只收获用户价值的利息，这样的商业才能成为常青树。&lt;/li&gt;
+&lt;li&gt;做产品一定要具备和用户在一起的能力，这个过程不要在乎自己是谁。&lt;/li&gt;
+&lt;/ol&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0424 - 抓出淘宝的高清大图</title>
+    <link href="https://atjason.com/daily/2023-04-24.html"/>
+    <id>https://atjason.com/daily/2023-04-24.html</id>
+    <published>2023-04-24T14:00:00.000Z</published>
+    <updated>2023-04-30T15:28:18.364Z</updated>
+    
+    <content type="html"><![CDATA[<p>学会了通过浏览器，抓出淘宝的高清大图。</p>
+<p>一个小技能，偶尔有点用。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学会了通过浏览器，抓出淘宝的高清大图。&lt;/p&gt;
+&lt;p&gt;一个小技能，偶尔有点用。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0423 - ChatGPT 小网站支持代码高亮显示</title>
@@ -341,194 +525,6 @@
       &lt;p&gt;之前做低功耗，想方设法减小电流，斤斤计较。&lt;/p&gt;
 &lt;p&gt;现在不做低功耗了，本以为少了个束缚，结果又遇到散热的问题。&lt;/p&gt;
 &lt;p&gt;果然，甘蔗没有两头甜。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0410 - 渐功顿悟</title>
-    <link href="https://atjason.com/daily/2023-04-10.html"/>
-    <id>https://atjason.com/daily/2023-04-10.html</id>
-    <published>2023-04-10T14:00:00.000Z</published>
-    <updated>2023-04-16T12:20:03.740Z</updated>
-    
-    <content type="html"><![CDATA[<p>习武需“渐功顿悟”。</p>
-<p>“渐功”如绳锯木断、水滴石穿；<br>“顿悟”是由量变到质变，心念一悟，万事通明。</p>
-<p>渐功耗时，顿悟需有灵性。</p>
-<p>可惜，世间多的是自恃萤火之明之人，记下几句话头，便想走捷径。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;习武需“渐功顿悟”。&lt;/p&gt;
-&lt;p&gt;“渐功”如绳锯木断、水滴石穿；&lt;br&gt;“顿悟”是由量变到质变，心念一悟，万事通明。&lt;/p&gt;
-&lt;p&gt;渐功耗时，顿悟需有灵性。&lt;/p&gt;
-&lt;p&gt;可惜，世间多的是自恃萤火之明之人，记下几句话头，便想走捷径。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0409 - 想用 ChatGPT 不容易</title>
-    <link href="https://atjason.com/daily/2023-04-09.html"/>
-    <id>https://atjason.com/daily/2023-04-09.html</id>
-    <published>2023-04-09T14:00:00.000Z</published>
-    <updated>2023-04-09T11:43:06.552Z</updated>
-    
-    <content type="html"><![CDATA[<p>真不容易。</p>
-<p>注册麻烦，不说梯子，要用接码平台。</p>
-<p>然后，最近爆出账号被封。</p>
-<p>使用 API 时，周五突然开始限制，一个问题 10 几秒。按说是限制了不绑卡的免费用户，可找来绑卡的账户，还是慢。</p>
-<p>说到绑卡，也是不容易，还得找虚拟信用卡。且不说虚拟卡容易被拒，找 depay 注册虚拟卡，需要 kyc 认证，而 kyc 服务又不可用，只能额外付 $10 开通贵的卡，免 kyc 认证。</p>
-<p>想用微软的 Azure OpenAI，要申请。申请还得是公司，得有公司邮箱，还得等 10 个工作日。</p>
-<p>哎，要在国外用上 ChatGPT，真真是太不容易了。</p>
-<p>目前，我做的 ChatGPT 网站还是可用的，欢迎一试：</p>
-<p><a href="https://chat.1g1.top/" target="_blank" rel="external">https://chat.1g1.top/</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;真不容易。&lt;/p&gt;
-&lt;p&gt;注册麻烦，不说梯子，要用接码平台。&lt;/p&gt;
-&lt;p&gt;然后，最近爆出账号被封。&lt;/p&gt;
-&lt;p&gt;使用 API 时，周五突然开始限制，一个问题 10 几秒。按说是限制了不绑卡的免费用户，可找来绑卡的账户，还是慢。&lt;/p&gt;
-&lt;p&gt;说到绑卡，也是不容易，还得找
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0408 - 电动车防盗器</title>
-    <link href="https://atjason.com/daily/2023-04-08.html"/>
-    <id>https://atjason.com/daily/2023-04-08.html</id>
-    <published>2023-04-08T14:00:00.000Z</published>
-    <updated>2023-04-09T11:38:07.194Z</updated>
-    
-    <content type="html"><![CDATA[<p>妈的电动车买来是没有防盗器的，而门口修车的说可以装，但要 70 元。觉得太贵，就自己动手。</p>
-<p>拆开研究了下，发现并没有防盗器预留的接口。没办法，不能简单的买来配件插上即可，得想办法。</p>
-<p>意外发现，竟然连接了一个 4G 的定位器。是直接连接到电池上供电的。这样，可以实时知道车的位置。不过，要插手机卡，还要给定位平台交钱。考虑到不太需要这个功能，就没折腾这个。</p>
-<p>好处是，不用折腾线，就有了一个一定有电的插头，这事就简单了。买来防盗器，只接电源，这样可以实现震动报警。但不接电机，这样报警时有声音，但并没有锁电机，还是能推走的。考虑到防君子不防小人，这基本也够用了。</p>
-<p>不过，中间还是中了意外，在量电压时，手抖导致短路。一阵电火花之后，保险丝烧了。万能淘宝再买保险丝，替换后搞定了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;妈的电动车买来是没有防盗器的，而门口修车的说可以装，但要 70 元。觉得太贵，就自己动手。&lt;/p&gt;
-&lt;p&gt;拆开研究了下，发现并没有防盗器预留的接口。没办法，不能简单的买来配件插上即可，得想办法。&lt;/p&gt;
-&lt;p&gt;意外发现，竟然连接了一个 4G 的定位器。是直接连接到电池上供电
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0407 - 焊武帝</title>
-    <link href="https://atjason.com/daily/2023-04-07.html"/>
-    <id>https://atjason.com/daily/2023-04-07.html</id>
-    <published>2023-04-07T14:00:00.000Z</published>
-    <updated>2023-04-09T11:32:56.091Z</updated>
-    
-    <content type="html"><![CDATA[<p>做了个小 PCB 板，验证了 3.3v 控制 12v 的开关电路，配合测温，可以实现低温加热、高温停止加热，将温度控制在一个较窄的幅度内。</p>
-<p>不过，由于加热时的电流较大，使得板子的发热比较大。尤其是 12v 转 3.3v 的 LDO 性能损耗大，得考虑新 DCDC 方案。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;做了个小 PCB 板，验证了 3.3v 控制 12v 的开关电路，配合测温，可以实现低温加热、高温停止加热，将温度控制在一个较窄的幅度内。&lt;/p&gt;
-&lt;p&gt;不过，由于加热时的电流较大，使得板子的发热比较大。尤其是 12v 转 3.3v 的 LDO 性能损耗大，得考虑新 DCD
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0406 - ChatGPT &amp; 智能音箱</title>
-    <link href="https://atjason.com/daily/2023-04-06.html"/>
-    <id>https://atjason.com/daily/2023-04-06.html</id>
-    <published>2023-04-06T14:00:00.000Z</published>
-    <updated>2023-04-09T11:30:52.521Z</updated>
-    
-    <content type="html"><![CDATA[<p>准备买个智障音箱，用 ChatGPT 改造成智能的，用来回答娃的十万个为什么。</p>
-<p>简单研究了下，发现现有的智能音箱，都不支持二次开发。讯飞曾出过支持的，可惜已经停产了。</p>
-<p>如果用树莓派等开发板，配合麦克风和喇叭，原理是够了，能跑通。就是一堆零件，想找合适的外壳装起来不容易。再者，多颗麦克风拾音、调校好的喇叭，都不是随便买零件能做好的。</p>
-<p>再加上现在 ChatGPT 的 API 速度突然变慢了，再考虑到流式响应不太容易应用到流式响应，问答的等待时间会比较长。等 Azure 的 OpenAI 服务审核通过了再考虑吧。</p>
-<p>综合考虑，暂时搁置这个想法，再观察观察。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;准备买个智障音箱，用 ChatGPT 改造成智能的，用来回答娃的十万个为什么。&lt;/p&gt;
-&lt;p&gt;简单研究了下，发现现有的智能音箱，都不支持二次开发。讯飞曾出过支持的，可惜已经停产了。&lt;/p&gt;
-&lt;p&gt;如果用树莓派等开发板，配合麦克风和喇叭，原理是够了，能跑通。就是一堆零件，想找
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0405 - 先有树、后有草</title>
-    <link href="https://atjason.com/daily/2023-04-05.html"/>
-    <id>https://atjason.com/daily/2023-04-05.html</id>
-    <published>2023-04-05T14:00:00.000Z</published>
-    <updated>2023-04-09T11:47:35.836Z</updated>
-    
-    <content type="html"><![CDATA[<p>进化史上，先有树、后有草。</p>
-<p>这多少让人有些惊讶，毕竟草看起来更低级，应该先出来才对。</p>
-<p>想起了苹果生态，先有 iPhone 之类的大树级产品，然后有小到 AirTag 这样配件产品。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;进化史上，先有树、后有草。&lt;/p&gt;
-&lt;p&gt;这多少让人有些惊讶，毕竟草看起来更低级，应该先出来才对。&lt;/p&gt;
-&lt;p&gt;想起了苹果生态，先有 iPhone 之类的大树级产品，然后有小到 AirTag 这样配件产品。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0404 - 被驯化</title>
-    <link href="https://atjason.com/daily/2023-04-04.html"/>
-    <id>https://atjason.com/daily/2023-04-04.html</id>
-    <published>2023-04-04T14:00:00.000Z</published>
-    <updated>2023-04-09T11:47:27.769Z</updated>
-    
-    <content type="html"><![CDATA[<p>你忍不住会和小贩讲价钱，却不会和自动售卖机讨价还价。</p>
-<p>默默的，慢慢的，变了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;你忍不住会和小贩讲价钱，却不会和自动售卖机讨价还价。&lt;/p&gt;
-&lt;p&gt;默默的，慢慢的，变了。&lt;/p&gt;
 
     
     </summary>
