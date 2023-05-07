@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-04-30T15:33:16.958Z</updated>
+  <updated>2023-05-07T13:01:16.109Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,18 +16,204 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0507 - 看淡结果</title>
+    <link href="https://atjason.com/daily/2023-05-07.html"/>
+    <id>https://atjason.com/daily/2023-05-07.html</id>
+    <published>2023-05-07T14:00:00.000Z</published>
+    <updated>2023-05-07T13:01:16.109Z</updated>
+    
+    <content type="html"><![CDATA[<p>做好自己该做的；至于结果，随它去。</p>
+<p>人到中年，能力进入瓶颈期，要操心的事却越来越多。</p>
+<p>是的，做事是要拿到结果。可事事都拿到结果，不现实。尤其，有些事不是自己能控制的，是需要别人去落实的。用别人做不到而产生的结果，影响自己，不划算、不必要。</p>
+<p>别用不好的结果吓自己；放过别人，才能放过自己。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;做好自己该做的；至于结果，随它去。&lt;/p&gt;
+&lt;p&gt;人到中年，能力进入瓶颈期，要操心的事却越来越多。&lt;/p&gt;
+&lt;p&gt;是的，做事是要拿到结果。可事事都拿到结果，不现实。尤其，有些事不是自己能控制的，是需要别人去落实的。用别人做不到而产生的结果，影响自己，不划算、不必要。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0506 - 与高手为伍</title>
+    <link href="https://atjason.com/daily/2023-05-06.html"/>
+    <id>https://atjason.com/daily/2023-05-06.html</id>
+    <published>2023-05-06T14:00:00.000Z</published>
+    <updated>2023-05-07T12:56:43.688Z</updated>
+    
+    <content type="html"><![CDATA[<p>不喜欢和低手一起做事。无法理解的想法做法，让人瞬间无语。</p>
+<p>如果感觉自己比周围的人厉害，我会感觉很恐惧、很凄凉。既少了向上的抓手，又可能在潜移默化中被拉下去。</p>
+<p>我不允许这样的状态持续太久。如果不能改变环境，就换个环境。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;不喜欢和低手一起做事。无法理解的想法做法，让人瞬间无语。&lt;/p&gt;
+&lt;p&gt;如果感觉自己比周围的人厉害，我会感觉很恐惧、很凄凉。既少了向上的抓手，又可能在潜移默化中被拉下去。&lt;/p&gt;
+&lt;p&gt;我不允许这样的状态持续太久。如果不能改变环境，就换个环境。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0505 - 第 N 次研究 ECB02C-OC</title>
+    <link href="https://atjason.com/daily/2023-05-05.html"/>
+    <id>https://atjason.com/daily/2023-05-05.html</id>
+    <published>2023-05-05T14:00:00.000Z</published>
+    <updated>2023-05-07T12:53:20.847Z</updated>
+    
+    <content type="html"><![CDATA[<p>其实，之前就研究过。考虑到是 C 语言、编译环境必须是 Windows、上传固件及调试不便，几度放弃。</p>
+<p>现在新项目芯片选型，就冲它价格最低，不得不再次拿起来研究。</p>
+<p>哪怕最后不用，这次也要研究到可用的程度，至少作为一个候选项。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;其实，之前就研究过。考虑到是 C 语言、编译环境必须是 Windows、上传固件及调试不便，几度放弃。&lt;/p&gt;
+&lt;p&gt;现在新项目芯片选型，就冲它价格最低，不得不再次拿起来研究。&lt;/p&gt;
+&lt;p&gt;哪怕最后不用，这次也要研究到可用的程度，至少作为一个候选项。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0504 - Google reCAPTCHA</title>
+    <link href="https://atjason.com/daily/2023-05-04.html"/>
+    <id>https://atjason.com/daily/2023-05-04.html</id>
+    <published>2023-05-04T14:00:00.000Z</published>
+    <updated>2023-05-07T12:51:31.910Z</updated>
+    
+    <content type="html"><![CDATA[<p>简单了解了 Google reCAPTCHA，看起来比较容易集成。如果只是用基本的功能，差不多个把小时就集成了，能防一般的机器人攻击。</p>
+<p>因为用户盗用我的后端接口，才逼迫我去接入防机器人验证服务。</p>
+<p>感谢对手。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;简单了解了 Google reCAPTCHA，看起来比较容易集成。如果只是用基本的功能，差不多个把小时就集成了，能防一般的机器人攻击。&lt;/p&gt;
+&lt;p&gt;因为用户盗用我的后端接口，才逼迫我去接入防机器人验证服务。&lt;/p&gt;
+&lt;p&gt;感谢对手。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0503 - 欧洲的管制与机会</title>
+    <link href="https://atjason.com/daily/2023-05-03.html"/>
+    <id>https://atjason.com/daily/2023-05-03.html</id>
+    <published>2023-05-03T14:00:00.000Z</published>
+    <updated>2023-05-07T12:50:11.374Z</updated>
+    
+    <content type="html"><![CDATA[<p>欧洲的问题是，没有将互联网视为可利用的经济机会，而是看成需要监管的对象。</p>
+<p>再想想，欧洲那位出名的环保女孩，恨不得大家都退回到农耕社会。</p>
+<p>与美国的奔放与欧洲的保守相比，感觉咱们的中庸更好。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;欧洲的问题是，没有将互联网视为可利用的经济机会，而是看成需要监管的对象。&lt;/p&gt;
+&lt;p&gt;再想想，欧洲那位出名的环保女孩，恨不得大家都退回到农耕社会。&lt;/p&gt;
+&lt;p&gt;与美国的奔放与欧洲的保守相比，感觉咱们的中庸更好。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0502 - 对父母多些包容，对孩子多些理解</title>
+    <link href="https://atjason.com/daily/2023-05-02.html"/>
+    <id>https://atjason.com/daily/2023-05-02.html</id>
+    <published>2023-05-02T14:00:00.000Z</published>
+    <updated>2023-05-07T12:48:44.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>举个例子，对于不喜欢的同事乃至陌生人，由于社会规则的约束，我们尚且能礼貌应对。</p>
+<p>而到了家里，没了这种约束，就开始有放纵的倾向。</p>
+<p>比如，你会用吵孩子的音量和同事争吵吗？基本不会。</p>
+<p>想一想，哪个更重要？这不是本末倒置吗？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;举个例子，对于不喜欢的同事乃至陌生人，由于社会规则的约束，我们尚且能礼貌应对。&lt;/p&gt;
+&lt;p&gt;而到了家里，没了这种约束，就开始有放纵的倾向。&lt;/p&gt;
+&lt;p&gt;比如，你会用吵孩子的音量和同事争吵吗？基本不会。&lt;/p&gt;
+&lt;p&gt;想一想，哪个更重要？这不是本末倒置吗？&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0501 - 珍惜眼前娃</title>
+    <link href="https://atjason.com/daily/2023-05-01.html"/>
+    <id>https://atjason.com/daily/2023-05-01.html</id>
+    <published>2023-05-01T14:00:00.000Z</published>
+    <updated>2023-05-07T12:48:05.515Z</updated>
+    
+    <content type="html"><![CDATA[<p>假期走亲戚，看到之前很小的娃，现在都比我还高；一点都不可爱，还到了叛逆期，不能说。</p>
+<p>再看看自己的娃，好小好可爱啊！</p>
+<p>瞬间觉得，一定要加倍珍惜现在。现在肯定有让自己生气不爽的事。但一跟青春期的黑化相比，简直不算事、简直是天使啊。</p>
+<p>心态一变，立马觉得幸福很多。</p>
+<p>之前，娃让我抱，我还觉得这么大了，不抱了。现在看，等长大了，你想抱人家还嫌弃呢。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;假期走亲戚，看到之前很小的娃，现在都比我还高；一点都不可爱，还到了叛逆期，不能说。&lt;/p&gt;
+&lt;p&gt;再看看自己的娃，好小好可爱啊！&lt;/p&gt;
+&lt;p&gt;瞬间觉得，一定要加倍珍惜现在。现在肯定有让自己生气不爽的事。但一跟青春期的黑化相比，简直不算事、简直是天使啊。&lt;/p&gt;
+&lt;p&gt;心态
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0430 - 火山引擎文字识别</title>
     <link href="https://atjason.com/daily/2023-04-30.html"/>
     <id>https://atjason.com/daily/2023-04-30.html</id>
     <published>2023-04-30T14:00:00.000Z</published>
-    <updated>2023-04-30T15:33:16.958Z</updated>
+    <updated>2023-04-30T15:34:37.183Z</updated>
     
     <content type="html"><![CDATA[<p>又一次听说火山引擎文字识别。</p>
 <p>简单试了下，结果还行。<br>认真和百度 OCR 比较下价格，是它的几分之一。</p>
 <p>哎，可惜是在刚刚加购百度 OCR 次包时，才注意到这个事。</p>
 <p>不说了，开始接入。</p>
 <p>研究了半天，终于把身份验证给跑通了。</p>
-<p>接下来，就是对应 API 了。</p>
+<p>接下来，就是对接 API 了。</p>
 ]]></content>
     
     <summary type="html">
@@ -339,193 +525,6 @@
       &lt;p&gt;终于还是买了示波器，正点原子手持的 DS100。&lt;/p&gt;
 &lt;p&gt;目前来说，最主要的功能是测试电源的纹波。电路涉及到锂电池充放电、LDO 降压、三极管低压驱动高压、无线充电等电源相关部分，合理的纹波，可避免电路出现异常结果。&lt;/p&gt;
 &lt;p&gt;再有就是测试开关时的脉冲电压。这个目
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0417 - 面对抄袭竞争的几条路</title>
-    <link href="https://atjason.com/daily/2023-04-17.html"/>
-    <id>https://atjason.com/daily/2023-04-17.html</id>
-    <published>2023-04-17T14:00:00.000Z</published>
-    <updated>2023-04-23T14:51:56.758Z</updated>
-    
-    <content type="html"><![CDATA[<ul>
-<li>持续创新改进</li>
-<li>抓住新机会和迭代的速度</li>
-<li>提高复杂度和门槛</li>
-<li>提高审美</li>
-<li>品牌保护</li>
-<li>用户对品牌的认可</li>
-<li>粉丝级用户群体</li>
-<li>…</li>
-</ul>
-<p>软件就这几条路，别的应该也一样。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;持续创新改进&lt;/li&gt;
-&lt;li&gt;抓住新机会和迭代的速度&lt;/li&gt;
-&lt;li&gt;提高复杂度和门槛&lt;/li&gt;
-&lt;li&gt;提高审美&lt;/li&gt;
-&lt;li&gt;品牌保护&lt;/li&gt;
-&lt;li&gt;用户对品牌的认可&lt;/li&gt;
-&lt;li&gt;粉丝级用户群体&lt;/li&gt;
-&lt;li&gt;…&lt;/li&gt;
-&lt;/ul&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0416 - OpenAI 顺利绑卡</title>
-    <link href="https://atjason.com/daily/2023-04-16.html"/>
-    <id>https://atjason.com/daily/2023-04-16.html</id>
-    <published>2023-04-16T14:00:00.000Z</published>
-    <updated>2023-04-16T12:23:52.542Z</updated>
-    
-    <content type="html"><![CDATA[<p>使用 depay、新加坡远程桌面、新加坡地址。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;使用 depay、新加坡远程桌面、新加坡地址。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0415 - 通缩</title>
-    <link href="https://atjason.com/daily/2023-04-15.html"/>
-    <id>https://atjason.com/daily/2023-04-15.html</id>
-    <published>2023-04-15T14:00:00.000Z</published>
-    <updated>2023-04-16T12:23:31.550Z</updated>
-    
-    <content type="html"><![CDATA[<p>耐用品价格快速下跌，<br>必需品价格慢速下跌。</p>
-<p>现在，汽车房子成交量下降了，有点危险。政府也有举动，比如重启购车补贴。</p>
-<p>前两天还看到，政府查处蔚来车主伪造地区信息骗补贴，这不是胡闹台嘛，能把车卖出去才是正事，别的是末节。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;耐用品价格快速下跌，&lt;br&gt;必需品价格慢速下跌。&lt;/p&gt;
-&lt;p&gt;现在，汽车房子成交量下降了，有点危险。政府也有举动，比如重启购车补贴。&lt;/p&gt;
-&lt;p&gt;前两天还看到，政府查处蔚来车主伪造地区信息骗补贴，这不是胡闹台嘛，能把车卖出去才是正事，别的是末节。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0414 - 过往的成功</title>
-    <link href="https://atjason.com/daily/2023-04-14.html"/>
-    <id>https://atjason.com/daily/2023-04-14.html</id>
-    <published>2023-04-14T14:00:00.000Z</published>
-    <updated>2023-04-16T12:23:02.355Z</updated>
-    
-    <content type="html"><![CDATA[<p>企业家谈成功经验，就好像在说：“我曾经用这些号码，赢得过彩票。”</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;企业家谈成功经验，就好像在说：“我曾经用这些号码，赢得过彩票。”&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0413 - 越来越抽象</title>
-    <link href="https://atjason.com/daily/2023-04-13.html"/>
-    <id>https://atjason.com/daily/2023-04-13.html</id>
-    <published>2023-04-13T14:00:00.000Z</published>
-    <updated>2023-04-16T12:22:38.205Z</updated>
-    
-    <content type="html"><![CDATA[<p>一开始，程序直接在硬件上运行；</p>
-<p>后来，程序在操作系统上运行；</p>
-<p>现在，程序自带一个浏览器底层（Electron），在浏览器上运行。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一开始，程序直接在硬件上运行；&lt;/p&gt;
-&lt;p&gt;后来，程序在操作系统上运行；&lt;/p&gt;
-&lt;p&gt;现在，程序自带一个浏览器底层（Electron），在浏览器上运行。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0412 - LDO 与 DCDC 电路</title>
-    <link href="https://atjason.com/daily/2023-04-12.html"/>
-    <id>https://atjason.com/daily/2023-04-12.html</id>
-    <published>2023-04-12T14:00:00.000Z</published>
-    <updated>2023-04-16T12:22:10.601Z</updated>
-    
-    <content type="html"><![CDATA[<p>LDO 是输入多少电流、输出多少电流的，多余的电压烧掉。结构简单，纹波小，效率低。</p>
-<p>开关降压芯片是输入电流小，输出电流大。要多少能量取多少能量、效率高，结构略复杂，纹波复杂。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;LDO 是输入多少电流、输出多少电流的，多余的电压烧掉。结构简单，纹波小，效率低。&lt;/p&gt;
-&lt;p&gt;开关降压芯片是输入电流小，输出电流大。要多少能量取多少能量、效率高，结构略复杂，纹波复杂。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0411 - 低功耗与散热</title>
-    <link href="https://atjason.com/daily/2023-04-11.html"/>
-    <id>https://atjason.com/daily/2023-04-11.html</id>
-    <published>2023-04-11T14:00:00.000Z</published>
-    <updated>2023-04-16T12:21:19.832Z</updated>
-    
-    <content type="html"><![CDATA[<p>之前做低功耗，想方设法减小电流，斤斤计较。</p>
-<p>现在不做低功耗了，本以为少了个束缚，结果又遇到散热的问题。</p>
-<p>果然，甘蔗没有两头甜。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前做低功耗，想方设法减小电流，斤斤计较。&lt;/p&gt;
-&lt;p&gt;现在不做低功耗了，本以为少了个束缚，结果又遇到散热的问题。&lt;/p&gt;
-&lt;p&gt;果然，甘蔗没有两头甜。&lt;/p&gt;
-
     
     </summary>
     
