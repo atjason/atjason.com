@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-05-14T12:05:33.031Z</updated>
+  <updated>2023-05-21T13:51:18.468Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,205 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0521 - 大部分问题终会解决</title>
+    <link href="https://atjason.com/daily/2023-05-21.html"/>
+    <id>https://atjason.com/daily/2023-05-21.html</id>
+    <published>2023-05-21T14:00:00.000Z</published>
+    <updated>2023-05-21T13:51:18.468Z</updated>
+    
+    <content type="html"><![CDATA[<p>公司不同的产品，总会遇到各种问题。回过头来看，大部分问题都会得到解决。只是，通常解决得比较慢、比较晚，影响产品的发布和运营节奏。</p>
+<p>既然问题终将得到解决，所以其实我们不是在解决问题，而是在安排事情的节奏。</p>
+<p>一个应对的办法，就是多并行几个产品。即使所有产品都拖，最终总能依次发布，无非是整体向后移。</p>
+<p>工作方式和心态，也得跟着调整。不能像之前那样，把一件事彻底解决后，再全身心投入到下一件事。客观条件决定了这样的方式行不通，那就主动应对变化，提高多进程能力吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;公司不同的产品，总会遇到各种问题。回过头来看，大部分问题都会得到解决。只是，通常解决得比较慢、比较晚，影响产品的发布和运营节奏。&lt;/p&gt;
+&lt;p&gt;既然问题终将得到解决，所以其实我们不是在解决问题，而是在安排事情的节奏。&lt;/p&gt;
+&lt;p&gt;一个应对的办法，就是多并行几个产品。即使所
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0520 - 手机失而复得</title>
+    <link href="https://atjason.com/daily/2023-05-20.html"/>
+    <id>https://atjason.com/daily/2023-05-20.html</id>
+    <published>2023-05-20T14:00:00.000Z</published>
+    <updated>2023-05-21T13:46:29.741Z</updated>
+    
+    <content type="html"><![CDATA[<p>妈的手机丢了，到去过的地方也没找到。还好我之前在手机上登录了账户，可以在云端查看手机定位，最后找到了是在菜场。卖菜的老板娘也比较熟，就这样找到了手机。</p>
+<p>还好有手机定位，不然这事多麻烦、多闹心。</p>
+<p>想起来，好像近几年比较少听说丢手机，估计一个可能是，像 iPhone 这样的手机丢了，由于有系统软件锁的存在，基本只能拆开了当配件卖，收益低、风险大，所以慢慢就少了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;妈的手机丢了，到去过的地方也没找到。还好我之前在手机上登录了账户，可以在云端查看手机定位，最后找到了是在菜场。卖菜的老板娘也比较熟，就这样找到了手机。&lt;/p&gt;
+&lt;p&gt;还好有手机定位，不然这事多麻烦、多闹心。&lt;/p&gt;
+&lt;p&gt;想起来，好像近几年比较少听说丢手机，估计一个可能是，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0519 - 图示三极管</title>
+    <link href="https://atjason.com/daily/2023-05-19.html"/>
+    <id>https://atjason.com/daily/2023-05-19.html</id>
+    <published>2023-05-19T14:00:00.000Z</published>
+    <updated>2023-05-21T13:42:48.381Z</updated>
+    
+    <content type="html"><![CDATA[<p>三极管的放大作用可以理解为一个水闸。</p>
+<p>水闸上方储存有水，存在水压，相当于集电极上的电压。水闸侧面流入的水流称为基极电流Ib。</p>
+<p>当Ib有水流流过，冲击闸门时，闸门便会开启，这样水闸侧面很小的水流流量（相当于电流Ib）与水闸上方的大水流流量（相当于电流Ic）就汇集到一起流下（相当于发射极e的电流Ie），发射极便产生放大的电流。这就相当于三极管的放大作用。</p>
+<p>简单明了的解释。</p>
+<p><img src="https://p.nuli.life/blog/lyatyq.jpeg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;三极管的放大作用可以理解为一个水闸。&lt;/p&gt;
+&lt;p&gt;水闸上方储存有水，存在水压，相当于集电极上的电压。水闸侧面流入的水流称为基极电流Ib。&lt;/p&gt;
+&lt;p&gt;当Ib有水流流过，冲击闸门时，闸门便会开启，这样水闸侧面很小的水流流量（相当于电流Ib）与水闸上方的大水流流量（相当于电
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0518 - 最大可行性产品</title>
+    <link href="https://atjason.com/daily/2023-05-18.html"/>
+    <id>https://atjason.com/daily/2023-05-18.html</id>
+    <published>2023-05-18T14:00:00.000Z</published>
+    <updated>2023-05-21T13:41:28.244Z</updated>
+    
+    <content type="html"><![CDATA[<p>创业公司有一个准则，叫做“最小可行产品”，意思是产品只要做到最简单的可运行程度，就可以发布，让市场来检验是否可行。</p>
+<p>我想提一个相反的概念，叫做“最大可行产品”，意思是产品的主要功能完备以后，就到此为止了，不再添加新功能。我见过太多的优秀软件不断膨胀，功能越来越多，直到变得无比难用。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;创业公司有一个准则，叫做“最小可行产品”，意思是产品只要做到最简单的可运行程度，就可以发布，让市场来检验是否可行。&lt;/p&gt;
+&lt;p&gt;我想提一个相反的概念，叫做“最大可行产品”，意思是产品的主要功能完备以后，就到此为止了，不再添加新功能。我见过太多的优秀软件不断膨胀，功能越来越
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0517 - 基本素质</title>
+    <link href="https://atjason.com/daily/2023-05-17.html"/>
+    <id>https://atjason.com/daily/2023-05-17.html</id>
+    <published>2023-05-17T14:00:00.000Z</published>
+    <updated>2023-05-21T13:41:05.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>私德之前，先有公德；<br>在别人看不见的地方，把事情做好；</p>
+<p>什么时候，<br>这么基础的东西，<br>变成了高标准。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;私德之前，先有公德；&lt;br&gt;在别人看不见的地方，把事情做好；&lt;/p&gt;
+&lt;p&gt;什么时候，&lt;br&gt;这么基础的东西，&lt;br&gt;变成了高标准。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0516 - 新闻还有多大意义</title>
+    <link href="https://atjason.com/daily/2023-05-16.html"/>
+    <id>https://atjason.com/daily/2023-05-16.html</id>
+    <published>2023-05-16T14:00:00.000Z</published>
+    <updated>2023-05-21T13:40:36.707Z</updated>
+    
+    <content type="html"><![CDATA[<p>但凡有个新闻，都会被各种自媒体，从各个角度分析。</p>
+<p>噢，不对，是花边新闻才这样。像挖这样的新闻，你就是挖到姥姥家，对上面也没什么影响。</p>
+<p>真正的大事，一定是全体噤声。</p>
+<p>比如，20%慢就业，能看到几篇文章？</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;但凡有个新闻，都会被各种自媒体，从各个角度分析。&lt;/p&gt;
+&lt;p&gt;噢，不对，是花边新闻才这样。像挖这样的新闻，你就是挖到姥姥家，对上面也没什么影响。&lt;/p&gt;
+&lt;p&gt;真正的大事，一定是全体噤声。&lt;/p&gt;
+&lt;p&gt;比如，20%慢就业，能看到几篇文章？&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0515 - 没有门槛的事，往往门槛最高</title>
+    <link href="https://atjason.com/daily/2023-05-15.html"/>
+    <id>https://atjason.com/daily/2023-05-15.html</id>
+    <published>2023-05-15T14:00:00.000Z</published>
+    <updated>2023-05-21T13:40:03.038Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如投资，开餐饮，卖奶茶等等。都是门槛极低，可是想做起来却非常非常难，竞争太激烈了，最后谁也赚不到钱。</p>
+<p>比如交易，就是买入卖出，不能更简单了。但要盈利，却是另外一回事了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如投资，开餐饮，卖奶茶等等。都是门槛极低，可是想做起来却非常非常难，竞争太激烈了，最后谁也赚不到钱。&lt;/p&gt;
+&lt;p&gt;比如交易，就是买入卖出，不能更简单了。但要盈利，却是另外一回事了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0514 - 人口负增长</title>
+    <link href="https://atjason.com/daily/2023-05-14.html"/>
+    <id>https://atjason.com/daily/2023-05-14.html</id>
+    <published>2023-05-14T14:00:00.000Z</published>
+    <updated>2023-05-21T13:39:40.402Z</updated>
+    
+    <content type="html"><![CDATA[<p>老家去年一个小孩没添，还有人去世了，妥妥的人口负增长。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;老家去年一个小孩没添，还有人去世了，妥妥的人口负增长。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0513 - 租车之特斯拉 Model 3</title>
@@ -330,218 +529,6 @@
 &lt;p&gt;而到了家里，没了这种约束，就开始有放纵的倾向。&lt;/p&gt;
 &lt;p&gt;比如，你会用吵孩子的音量和同事争吵吗？基本不会。&lt;/p&gt;
 &lt;p&gt;想一想，哪个更重要？这不是本末倒置吗？&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0501 - 珍惜眼前娃</title>
-    <link href="https://atjason.com/daily/2023-05-01.html"/>
-    <id>https://atjason.com/daily/2023-05-01.html</id>
-    <published>2023-05-01T14:00:00.000Z</published>
-    <updated>2023-05-07T12:48:05.515Z</updated>
-    
-    <content type="html"><![CDATA[<p>假期走亲戚，看到之前很小的娃，现在都比我还高；一点都不可爱，还到了叛逆期，不能说。</p>
-<p>再看看自己的娃，好小好可爱啊！</p>
-<p>瞬间觉得，一定要加倍珍惜现在。现在肯定有让自己生气不爽的事。但一跟青春期的黑化相比，简直不算事、简直是天使啊。</p>
-<p>心态一变，立马觉得幸福很多。</p>
-<p>之前，娃让我抱，我还觉得这么大了，不抱了。现在看，等长大了，你想抱人家还嫌弃呢。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;假期走亲戚，看到之前很小的娃，现在都比我还高；一点都不可爱，还到了叛逆期，不能说。&lt;/p&gt;
-&lt;p&gt;再看看自己的娃，好小好可爱啊！&lt;/p&gt;
-&lt;p&gt;瞬间觉得，一定要加倍珍惜现在。现在肯定有让自己生气不爽的事。但一跟青春期的黑化相比，简直不算事、简直是天使啊。&lt;/p&gt;
-&lt;p&gt;心态
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0430 - 火山引擎文字识别</title>
-    <link href="https://atjason.com/daily/2023-04-30.html"/>
-    <id>https://atjason.com/daily/2023-04-30.html</id>
-    <published>2023-04-30T14:00:00.000Z</published>
-    <updated>2023-04-30T15:34:37.183Z</updated>
-    
-    <content type="html"><![CDATA[<p>又一次听说火山引擎文字识别。</p>
-<p>简单试了下，结果还行。<br>认真和百度 OCR 比较下价格，是它的几分之一。</p>
-<p>哎，可惜是在刚刚加购百度 OCR 次包时，才注意到这个事。</p>
-<p>不说了，开始接入。</p>
-<p>研究了半天，终于把身份验证给跑通了。</p>
-<p>接下来，就是对接 API 了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;又一次听说火山引擎文字识别。&lt;/p&gt;
-&lt;p&gt;简单试了下，结果还行。&lt;br&gt;认真和百度 OCR 比较下价格，是它的几分之一。&lt;/p&gt;
-&lt;p&gt;哎，可惜是在刚刚加购百度 OCR 次包时，才注意到这个事。&lt;/p&gt;
-&lt;p&gt;不说了，开始接入。&lt;/p&gt;
-&lt;p&gt;研究了半天，终于把身份验证给
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0429 - 创业与人才培养</title>
-    <link href="https://atjason.com/daily/2023-04-29.html"/>
-    <id>https://atjason.com/daily/2023-04-29.html</id>
-    <published>2023-04-29T14:00:00.000Z</published>
-    <updated>2023-04-30T15:31:47.011Z</updated>
-    
-    <content type="html"><![CDATA[<p>创业做公司，一定要记住，人才只筛选不教育，只选择不改变。</p>
-<p>改变自己是神，改变他人是神经病。</p>
-<p>不过，也是悖论。大牛不肯了；把新人带出来了，他却要走了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;创业做公司，一定要记住，人才只筛选不教育，只选择不改变。&lt;/p&gt;
-&lt;p&gt;改变自己是神，改变他人是神经病。&lt;/p&gt;
-&lt;p&gt;不过，也是悖论。大牛不肯了；把新人带出来了，他却要走了。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0428 - 代工厂的问题</title>
-    <link href="https://atjason.com/daily/2023-04-28.html"/>
-    <id>https://atjason.com/daily/2023-04-28.html</id>
-    <published>2023-04-28T14:00:00.000Z</published>
-    <updated>2023-04-30T15:30:28.188Z</updated>
-    
-    <content type="html"><![CDATA[<p>我们找的这么多家代工厂，开始都是没问题，我们都能做。</p>
-<p>最后都是：这不是问题，你们接受就行了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们找的这么多家代工厂，开始都是没问题，我们都能做。&lt;/p&gt;
-&lt;p&gt;最后都是：这不是问题，你们接受就行了。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0427 - 无线充电</title>
-    <link href="https://atjason.com/daily/2023-04-27.html"/>
-    <id>https://atjason.com/daily/2023-04-27.html</id>
-    <published>2023-04-27T14:00:00.000Z</published>
-    <updated>2023-04-30T15:29:50.988Z</updated>
-    
-    <content type="html"><![CDATA[<p>第一次焊接无线发射和接收，失败，发射端没振起来。</p>
-<p>仔细对比了数据手册，发现有两处隐藏的连线。在 PCB 上用飞线连接后，成功。</p>
-<p>既解锁了新技能，又消除了项目的一个重要不确定性，开心。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;第一次焊接无线发射和接收，失败，发射端没振起来。&lt;/p&gt;
-&lt;p&gt;仔细对比了数据手册，发现有两处隐藏的连线。在 PCB 上用飞线连接后，成功。&lt;/p&gt;
-&lt;p&gt;既解锁了新技能，又消除了项目的一个重要不确定性，开心。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0426 - 穷人沉迷多巴胺，富人追求内啡肽</title>
-    <link href="https://atjason.com/daily/2023-04-26.html"/>
-    <id>https://atjason.com/daily/2023-04-26.html</id>
-    <published>2023-04-26T14:00:00.000Z</published>
-    <updated>2023-04-30T15:29:23.712Z</updated>
-    
-    <content type="html"><![CDATA[<p>最残忍的社会现实：穷人沉迷多巴胺，富人追求内啡肽。</p>
-<p>21世纪最值钱的是什么？<br>是时间。</p>
-<p>谁能赚到别人的时间，谁就能赚到别人的钱。<br>谁的时间被浪费，谁就注定沦落贫穷。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最残忍的社会现实：穷人沉迷多巴胺，富人追求内啡肽。&lt;/p&gt;
-&lt;p&gt;21世纪最值钱的是什么？&lt;br&gt;是时间。&lt;/p&gt;
-&lt;p&gt;谁能赚到别人的时间，谁就能赚到别人的钱。&lt;br&gt;谁的时间被浪费，谁就注定沦落贫穷。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0425 - 用户与产品</title>
-    <link href="https://atjason.com/daily/2023-04-25.html"/>
-    <id>https://atjason.com/daily/2023-04-25.html</id>
-    <published>2023-04-25T14:00:00.000Z</published>
-    <updated>2023-04-30T15:28:58.115Z</updated>
-    
-    <content type="html"><![CDATA[<ol>
-<li>只收获用户价值的利息，这样的商业才能成为常青树。</li>
-<li>做产品一定要具备和用户在一起的能力，这个过程不要在乎自己是谁。</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ol&gt;
-&lt;li&gt;只收获用户价值的利息，这样的商业才能成为常青树。&lt;/li&gt;
-&lt;li&gt;做产品一定要具备和用户在一起的能力，这个过程不要在乎自己是谁。&lt;/li&gt;
-&lt;/ol&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0424 - 抓出淘宝的高清大图</title>
-    <link href="https://atjason.com/daily/2023-04-24.html"/>
-    <id>https://atjason.com/daily/2023-04-24.html</id>
-    <published>2023-04-24T14:00:00.000Z</published>
-    <updated>2023-04-30T15:28:18.364Z</updated>
-    
-    <content type="html"><![CDATA[<p>学会了通过浏览器，抓出淘宝的高清大图。</p>
-<p>一个小技能，偶尔有点用。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;学会了通过浏览器，抓出淘宝的高清大图。&lt;/p&gt;
-&lt;p&gt;一个小技能，偶尔有点用。&lt;/p&gt;
 
     
     </summary>
