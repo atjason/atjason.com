@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-16.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-23.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-01-16.html" itemprop="url">
-                  0116 - 「最右神回复」新增投稿功能
+                <a class="post-title-link" href="/daily/2019-01-23.html" itemprop="url">
+                  0123 - 用户系统是核心资产
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-16T22:00:00+08:00">
-                2019-01-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-23T22:00:00+08:00">
+                2019-01-23
               </time>
             
 
@@ -365,9 +365,12 @@
       
         
           
-            <p>经历昨天被小程序坑了一把后，今天终于把投稿功能上线了。</p>
-<p>之前，小程序是事先收集好内容，然后一条条供用户赏析。现在，用户遇到好的段子，也可以投稿到小程序中，并借由小程序分享给好友、朋友圈，让众人会心一笑。</p>
-<p><img src="https://ps.toolinbox.net/qh6fg.jpg" alt=""></p>
+            <p>今天出个事：之前，用户可以使用微信登录头条；今天，突然不行了。</p>
+<p>我自己测试，是新用户无法通过微信登录；之前已经用过微信登录头条的老用户，依然是可以登录了。可以说，微信还不至于那么黑。</p>
+<p>万一微信连老用户也禁止了，对头条意味着什么呢？很简单：之前通过微信登录的用户，全部没有了；用户根本没有机会找回自己的账户。虽然，这些账户和数据都在头条数据库中，但头条根本没有办法将海量账户与真实用户对应起来。</p>
+<p>对于微信，这绝对是有失商业道德的做法。今后，还有谁敢用微信作为登录账户呢？</p>
+<p>对于头条及其他平台，敲响了严重的警钟：用户系统是核心资产，绝对承担不起风险，绝对不能纯粹依赖第三方，哪怕这个第三方声称自己多么可依赖。</p>
+<p>我也开始真正理解，为什么几乎所有网站在使用微信、微博等第三方账户登录后，还是要绑定手机、邮箱。除了留下钩子方便日后骚扰用户，原来更怕的是被第三方掐断喉咙。</p>
 
           
         
@@ -411,7 +414,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-15.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-22.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -433,8 +436,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-01-15.html" itemprop="url">
-                  0115 - 被小程序坑了一下
+                <a class="post-title-link" href="/daily/2019-01-22.html" itemprop="url">
+                  0122 - 纯学习还是不行
                 </a>
               
             
@@ -450,8 +453,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-15T22:00:00+08:00">
-                2019-01-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-22T22:00:00+08:00">
+                2019-01-22
               </time>
             
 
@@ -509,12 +512,9 @@
       
         
           
-            <p>夜深人静、很想睡觉时，依然被一个问题绊着。各种试，最后才发现，小程序云函数中，服务器端的 collection.where 和客户端不能，必须使用 await/promise 机制调用，而不能使用普通的回调机制。</p>
-<ul>
-<li><a href="https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-client-api/database/collection.where.html" target="_blank" rel="external">客户端文档</a></li>
-<li><a href="https://developers.weixin.qq.com/miniprogram/dev/wxcloud/reference-server-api/database/collection.where.html" target="_blank" rel="external">服务器文档</a></li>
-</ul>
-<p>丫竟然不一致，还如此隐蔽。大喊一声：苍天啊、你妹啊。然后睡觉。</p>
+            <p>这两天在纯学习 ES6，教材是阮一峰写的<a href="http://es6.ruanyifeng.com" target="_blank" rel="external">《ECMAScript 6 入门》</a></p>
+<p>收获自然是有的，只是感觉纯学习的时间长了，效率自然低，经常书看的头昏脑胀，有些艰涩的部分有意无意就跳过了。明天把剩下的看完，还是再来一波实战吧。</p>
+<p>实践和学习，还是得交替进行。做项目时，可以不管用什么方法，能出结果就行。而项目告一段落，就要正规化项目中非正规化的实现。这样，在实践中刻意练习，在学习时思考之前的实现是否可以优化，不断的在学习和实践中交替，更容易精进。</p>
 
           
         
@@ -558,7 +558,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-14.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-21.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -580,8 +580,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-01-14.html" itemprop="url">
-                  0114 - 通过满足人们的低级趣味来赚钱
+                <a class="post-title-link" href="/daily/2019-01-21.html" itemprop="url">
+                  0121 - 每天听本书
                 </a>
               
             
@@ -597,8 +597,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-14T22:00:00+08:00">
-                2019-01-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-21T22:00:00+08:00">
+                2019-01-21
               </time>
             
 
@@ -656,8 +656,10 @@
       
         
           
-            <p>今天俞敏洪在演讲中表达了类似的意思：国内科技企业都是通过满足人们的「低级趣味」来赚钱，却鲜有做出改变世界的产品。</p>
-<p>改变世界，要求可能高了些。至少，如果没有了生存压力，就不应该只做为了生存而不得不做的事。</p>
+            <p>最近，在得到听了好多本书。为什么？因为要喂娃喂奶，喂完后还要拍嗝，这期间没法看书、操作电脑，手持手机也不方便。时间上，差不多 20 分钟。于是，非常适合听书：不用碰手机，时间也差不多刚刚好。</p>
+<p>虽然，直接看干货，会消化不良。可以，消化不良总比营养不良好吧；没深入理解，也比不知道的好。而且，如果确实对某本书比较感兴趣，在听完后，也可以再找书来看。</p>
+<p>记得有人问薛兆丰，在听完你的《北大经济学》课后，是不是要找曼昆之类的经济学书，完整系统地学习一遍。薛兆丰就问：曼昆的书，你看完了吗？那人挠了挠头，说只看了前几章，就没再坚持下去。这就很明显了，不管书再如何成体系、再如何完整，看不完，也是白搭。看书和听书也是一样道理，看书再好，没时间看，也是白搭。</p>
+<p>小插曲：目前是手机 + 有线耳机在听。也有想买个无线耳机，可 AirPods 据说很快就要出二代，于是买个便宜的华为荣耀 FlyPods 青春版过渡一下。结果，这耳机在配合 iPhone 时，即使手机交易量调最小，耳机音量也依然巨大；配合 Android 手机则没有问题。算了，先有线耳机吧，毕竟自带的耳机戴着还舒服。不过度纠结外在，不买椟还珠；把主要的心思和精力，花在主要的事上。</p>
 
           
         
@@ -701,7 +703,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-13.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-20.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -723,8 +725,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-01-13.html" itemprop="url">
-                  0113 - 用百万富翁的思维做事
+                <a class="post-title-link" href="/daily/2019-01-20.html" itemprop="url">
+                  0120 - 卖课
                 </a>
               
             
@@ -740,8 +742,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-13T22:00:00+08:00">
-                2019-01-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-20T22:00:00+08:00">
+                2019-01-20
               </time>
             
 
@@ -799,10 +801,11 @@
       
         
           
-            <p>结果我破产了…</p>
-<p>这还真不是段子，一个朋友说的。</p>
-<p>尤其，创业伊始，到底是应该大开大合、高举高打，还是精益创业、一分钱掰两瓣花？到底是大开大合死得更快，还是精益创业没大前途？也许，都能找开成功案例。</p>
-<p>当然，这些都是抽象的说法，也可以说是没有意义的，要具体问题具体分析，也要结合每个人的实际情况。具体到我，估计还是居家经济适用男形象。</p>
+            <p>最近看朋友圈，有人买了极客时间的一门前端课程：重学前端，正好最近想学下前端，于是就习了。买完后，App 会生成一张分享图片，我也就分享到朋友圈了。</p>
+<p>其实，我也知道如果别人通过我的分享买课，我会有提成。可我没想到，提成着实不低。原价 98，活动期间我是 68 买的。分成是 24，按原价算也是 20%，着实不低，这是让我吃惊的。号外：通过我的分享买的朋友，我也一一发了红包。</p>
+<p>舍不得孩子套不着狼。只有舍得让利，别人才愿意牺牲或者说消耗自己的信誉，去帮你推广。确实，有位朋友就说，就是看我推荐才买的。虽然我根本谈不上推荐，只是说了下我买了。</p>
+<p>最后，我也顺便在这里也放个码吧：</p>
+<p><img src="https://ps.toolinbox.net/8jym2.jpg" alt=""></p>
 
           
         
@@ -846,7 +849,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-12.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-01-19.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -868,8 +871,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2019-01-12.html" itemprop="url">
-                  0112 - 不能一直低效重复
+                <a class="post-title-link" href="/daily/2019-01-19.html" itemprop="url">
+                  0119 - 不要过于期待某件事情、某样东西
                 </a>
               
             
@@ -885,8 +888,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-12T22:00:00+08:00">
-                2019-01-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-01-19T22:00:00+08:00">
+                2019-01-19
               </time>
             
 
@@ -944,8 +947,10 @@
       
         
           
-            <p>今天在改进「最右神回复」小程序，其中需要对界面进行改动；而我本身对前端不擅长，改起来就很累，很依赖 Google。虽然堆砌时间之后，还是差不多把产品做出来了，但这明显太低效了。</p>
-<p>今年有计划较系统地学习下前端基础知识，这样再做类似前端任务时，就可以在已有基础上不断增加，而不只是孤零零地、重复地解决一些初级问题。</p>
+            <p>当即将得到一个好的东西，就会不自觉地期待。这个期待的过程，会使得我们不自觉地夸大它的好处、压抑它的坏处。一旦得到之后，却可能因为期望值与现实间的差距而心生不满，至少是满足感降低。</p>
+<p>除了东西，事情也是一样。</p>
+<p>从另一个角度，我们期待新的东西，是因为已有的东西有些地方让我们不满意，我们迫切希望好的东西来改变这一局面。不过，事实上，任何事都有两面，好的东西也是有隐性的坏处，或者至少是有代价的。d而目前的东西，可能也没那么不堪。稍加优化，还是能有很大改善，幸福指数大增。</p>
+<p>再跳出来，我们总是需要不断地通过新的、好的东西来帮助我们改善生活。不过，要清楚，这些外在的东西，只是「帮助」我们。真正是好是坏，还是要看我们自己的内心。不要因为这些具体的东西，模糊了虚无的内在。</p>
 
           
         
@@ -984,7 +989,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/307/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/307/">307</a><span class="page-number current">308</span><a class="page-number" href="/page/309/">309</a><span class="space">&hellip;</span><a class="page-number" href="/page/554/">554</a><a class="extend next" rel="next" href="/page/309/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/307/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/307/">307</a><span class="page-number current">308</span><a class="page-number" href="/page/309/">309</a><span class="space">&hellip;</span><a class="page-number" href="/page/555/">555</a><a class="extend next" rel="next" href="/page/309/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1029,7 +1034,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2767</span>
+                <span class="site-state-item-count">2774</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
