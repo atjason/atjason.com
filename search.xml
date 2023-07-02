@@ -4,6 +4,121 @@
   
     
     <entry>
+      <title><![CDATA[0702 - 做了产品的手版]]></title>
+      <url>https://atjason.com/daily/2023-07-02.html</url>
+      <content type="html"><![CDATA[<p>电路板、固件、3D 外壳、配件、组装测试，全部都自己完成，做成了产品的手版，基本可用。</p>
+<p>可惜，考虑到保密，不能公开出来。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0701 - 反对数字游民的声音]]></title>
+      <url>https://atjason.com/daily/2023-07-01.html</url>
+      <content type="html"><![CDATA[<p>“1个数字游民=许多被迫游民！”</p>
+<p>大意是，数字游民就像没有天敌、高高在上的外来物种，破坏了当地的社会生态。</p>
+<p>单独从某个个体看，无伤大雅、掀不起多大风浪。但数量多了之后，就引发质变。</p>
+<p>第一次看到这种观点。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0630 - 选择权]]></title>
+      <url>https://atjason.com/daily/2023-06-30.html</url>
+      <content type="html"><![CDATA[<p>对于这个世界上的很多人来说，多一个选择就意味着多一分幸福。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0629 - 点亮芯片]]></title>
+      <url>https://atjason.com/daily/2023-06-29.html</url>
+      <content type="html"><![CDATA[<p>上午点了一颗芯片，起火冒烟😂</p>
+<p>应该是 12v 转 3.3v LDO 出了问题，而 TVS 没焊，导致 12v 直接灌入芯片导致的。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0628 - 烟草税]]></title>
+      <url>https://atjason.com/daily/2023-06-28.html</url>
+      <content type="html"><![CDATA[<p>2022年，</p>
+<p>全国一般公共预算收入20.37万亿元，</p>
+<p>烟草纳税1.2万亿，占比5.9%，</p>
+<p>国防支出预算1.48亿元。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0627 - 取代战争]]></title>
+      <url>https://atjason.com/daily/2023-06-27.html</url>
+      <content type="html"><![CDATA[<p>里约大冒险里，鹦鹉用空中足球比赛，取代战争；<br>大刘的《光荣与梦想》里，用体育比赛取代战争；<br>复活节岛的部落，用鸟人（勇士的行为）取代战争。</p>
+<p>战争，是力量和意志的对抗，不一定要传统的形式。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0626 - 韩国房价]]></title>
+      <url>https://atjason.com/daily/2023-06-26.html</url>
+      <content type="html"><![CDATA[<p>跟韩国客户吃饭，他说首尔的房子很贵，不在市中心的，也要7亿韩元一套。</p>
+<p>换算了下，人民币 384 万，这在国内一线城市也买不到啊😅</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0623 - 3D 打印新技能]]></title>
       <url>https://atjason.com/daily/2023-06-23.html</url>
       <content type="html"><![CDATA[<p>今天学会在立创 EDA 里给硬件做壳，感觉很开心，因为又多了一种能力，能做的事又多了。</p>
@@ -488,7 +603,7 @@
     
     <entry>
       <title><![CDATA[0528 - 纠结]]></title>
-      <url>https://atjason.com/daily/2023-05-28.html</url>
+      <url>https://atjason.com/daily/0428%20-%20%E5%81%9C%E4%B8%8B%E6%9D%A5%E6%97%B6%EF%BC%8C%E4%B8%8D%E7%9F%A5%E6%89%80%E6%8E%AA.html</url>
       <content type="html"><![CDATA[<p>工厂呆这几天，一个很大的感受是：纠结。</p>
 <p>比如，一个产品有划痕，影响颜值和外观，是否要正常包装发货，还是挑出来当次品？</p>
 <p>从产品和销售的角度，当然希望挑出来。既可以保持产品好的印象，还能减少售后。</p>
@@ -508,7 +623,7 @@
     
     <entry>
       <title><![CDATA[0528 - 纠结]]></title>
-      <url>https://atjason.com/daily/0428%20-%20%E5%81%9C%E4%B8%8B%E6%9D%A5%E6%97%B6%EF%BC%8C%E4%B8%8D%E7%9F%A5%E6%89%80%E6%8E%AA.html</url>
+      <url>https://atjason.com/daily/2023-05-28.html</url>
       <content type="html"><![CDATA[<p>工厂呆这几天，一个很大的感受是：纠结。</p>
 <p>比如，一个产品有划痕，影响颜值和外观，是否要正常包装发货，还是挑出来当次品？</p>
 <p>从产品和销售的角度，当然希望挑出来。既可以保持产品好的印象，还能减少售后。</p>
@@ -20925,16 +21040,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0504 - 《坏血》]]></title>
-      <url>https://atjason.com/daily/2020-05-04.html</url>
-      <content type="html"><![CDATA[<p>今天看完了这本书，感觉挺一般。</p>
-<p>从一开始，我脑子里一直有这个问题：在都是人精的现代，这样的惊天骗局，是怎么一步步形成的？</p>
-<p>看完书，我也没找到满意的答案。</p>
-<p>其次的疑问，她是怎么得到巨量融资、做到天量估值。尤其，有大量钱的人，都是人精中的人精。看完书，我感觉最主要的，是大饼与吃大饼的人。</p>
-<p>首先，她画的大饼，是很多人需要的。有钱人，在我们看来，可能衣食无忧，没什么可烦的。事实上，他们的烦恼也不小，即如何保持现在的财富、地位，以及谋求更多的财富、更高的地位。要实现这样的目标，就需要新的增长点，尤其是像 iPhone 那样划时代的产品；一般的小项目，入不了他们的眼。</p>
-<p>反过来讲，他们特别特别害怕错过这样的机会。比如，当机构 A 想要投资该公司，在对公司的问题提出质疑时，他们特别担心，对公司不提出质疑的机构 B，得到了这次黄金投资机会；而自己，则被挤出未来的诱人的增加机会。于是，他们放弃的质疑，把钱打了过去。机构的判断力，就这样慢慢丧失了。而该公司，也越来越被纵容。</p>
-<p>书中还有一些有意思的点。比如，投资该公司的爸爸中，有新闻大亨默多克。爆光这一骗局的，也正是旗下《华尔街日报》的记者。期间，她试图让默多克毙掉这篇报道；毕竟，这会影响他真金白银的投资。可，后者拒绝了。</p>
-<p>让我比较佩服的一点，她聚拢的都是顶级资源，包括前国务卿、军方高层、默多克、甲骨文创始人等等。有如此能耐，如果不是骗局，真的能成大事。</p>
+      <title><![CDATA[0505 - 不可细说]]></title>
+      <url>https://atjason.com/daily/2020-05-05.html</url>
+      <content type="html"><![CDATA[<p>很多东西，看起来很明确，可真往细了看，一片模糊。</p>
+<p>比如，从飞机上看，大陆和大海之间，有明显的海岸线。可真站在沙滩上，你能画出海岸线在哪吗？</p>
+<p>比如，我们总说，活在当下，意思很明确对吧？那么请问，这个当下是什么，几点几分？哪个时区的几点几分？前后持续持久？超出一秒，还算当下吗？</p>
+<p>比如，我说手、胳膊，你可以很清晰地在脑海中想到是什么对吧？那么请问，手和胳膊的分界点在哪？在哪条线的一边是手、另一边是胳膊？</p>
+<p>也许你会说，你这都是闲的，没事找事型的。好，来点实际的。</p>
+<p>比如，交易中的低买高卖、赚取差价，简洁明了对吧？那么请问，多低是低、多高是高？现在是低还是高？</p>
+<p>无限细分，事情不是变得更清晰，反而是更模糊。适当的抽象、简化，是我们认识世界，没有办法的办法。</p>
 ]]></content>
       
         <categories>
@@ -20947,15 +21061,16 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0505 - 不可细说]]></title>
-      <url>https://atjason.com/daily/2020-05-05.html</url>
-      <content type="html"><![CDATA[<p>很多东西，看起来很明确，可真往细了看，一片模糊。</p>
-<p>比如，从飞机上看，大陆和大海之间，有明显的海岸线。可真站在沙滩上，你能画出海岸线在哪吗？</p>
-<p>比如，我们总说，活在当下，意思很明确对吧？那么请问，这个当下是什么，几点几分？哪个时区的几点几分？前后持续持久？超出一秒，还算当下吗？</p>
-<p>比如，我说手、胳膊，你可以很清晰地在脑海中想到是什么对吧？那么请问，手和胳膊的分界点在哪？在哪条线的一边是手、另一边是胳膊？</p>
-<p>也许你会说，你这都是闲的，没事找事型的。好，来点实际的。</p>
-<p>比如，交易中的低买高卖、赚取差价，简洁明了对吧？那么请问，多低是低、多高是高？现在是低还是高？</p>
-<p>无限细分，事情不是变得更清晰，反而是更模糊。适当的抽象、简化，是我们认识世界，没有办法的办法。</p>
+      <title><![CDATA[0504 - 《坏血》]]></title>
+      <url>https://atjason.com/daily/2020-05-04.html</url>
+      <content type="html"><![CDATA[<p>今天看完了这本书，感觉挺一般。</p>
+<p>从一开始，我脑子里一直有这个问题：在都是人精的现代，这样的惊天骗局，是怎么一步步形成的？</p>
+<p>看完书，我也没找到满意的答案。</p>
+<p>其次的疑问，她是怎么得到巨量融资、做到天量估值。尤其，有大量钱的人，都是人精中的人精。看完书，我感觉最主要的，是大饼与吃大饼的人。</p>
+<p>首先，她画的大饼，是很多人需要的。有钱人，在我们看来，可能衣食无忧，没什么可烦的。事实上，他们的烦恼也不小，即如何保持现在的财富、地位，以及谋求更多的财富、更高的地位。要实现这样的目标，就需要新的增长点，尤其是像 iPhone 那样划时代的产品；一般的小项目，入不了他们的眼。</p>
+<p>反过来讲，他们特别特别害怕错过这样的机会。比如，当机构 A 想要投资该公司，在对公司的问题提出质疑时，他们特别担心，对公司不提出质疑的机构 B，得到了这次黄金投资机会；而自己，则被挤出未来的诱人的增加机会。于是，他们放弃的质疑，把钱打了过去。机构的判断力，就这样慢慢丧失了。而该公司，也越来越被纵容。</p>
+<p>书中还有一些有意思的点。比如，投资该公司的爸爸中，有新闻大亨默多克。爆光这一骗局的，也正是旗下《华尔街日报》的记者。期间，她试图让默多克毙掉这篇报道；毕竟，这会影响他真金白银的投资。可，后者拒绝了。</p>
+<p>让我比较佩服的一点，她聚拢的都是顶级资源，包括前国务卿、军方高层、默多克、甲骨文创始人等等。有如此能耐，如果不是骗局，真的能成大事。</p>
 ]]></content>
       
         <categories>
@@ -27150,12 +27265,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0524 - 人设崩塌]]></title>
-      <url>https://atjason.com/daily/2019-05-24.html</url>
-      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
-<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
-<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
-<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
+      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
+      <url>https://atjason.com/daily/2019-05-25.html</url>
+      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
+<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
+<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
 ]]></content>
       
         <categories>
@@ -27168,11 +27282,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
-      <url>https://atjason.com/daily/2019-05-25.html</url>
-      <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
-<p>好像，我从来没有意识地教他这样。可能是他看我是这样做的，就学了去。</p>
-<p>孩子是大人的镜子；孩子的行为，很大程度都是对父母的模仿，毕竟父母陪伴的时间最长。感觉更有压力了，毕竟要以身作则，要更好的规范自己的言行，争取晚一点听到孩子骂脏话或其他不好的行为。</p>
+      <title><![CDATA[0524 - 人设崩塌]]></title>
+      <url>https://atjason.com/daily/2019-05-24.html</url>
+      <content type="html"><![CDATA[<p>人设，基本都是会崩塌的；越鲜明，越如此。</p>
+<p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
+<p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
+<p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
 ]]></content>
       
         <categories>
@@ -40972,15 +41087,13 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0728 - Core 了一天 Data]]></title>
-      <url>https://atjason.com/daily/2017-07-28.html</url>
-      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
-<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
-<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
-<hr>
-<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
-<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
-<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
+      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
+      <url>https://atjason.com/daily/2017-07-29.html</url>
+      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
+<p>至此，理论部分算是学完了。</p>
+<p>下一步，开始实战。</p>
+<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
+<p>明天，先从产品角度考虑，确定交互。</p>
 ]]></content>
       
         <categories>
@@ -40993,13 +41106,15 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0729 - Mark: iOS 理论学完，开始实战]]></title>
-      <url>https://atjason.com/daily/2017-07-29.html</url>
-      <content type="html"><![CDATA[<p>今天看完了《<a href="https://www.bignerdranch.com/books/ios-programming/" target="_blank" rel="external">iOS Programming: The Big Nerd Ranch Guide (6th Edition)</a>》这要本书，也输入了书中的每行代码，完成每个示例；同时，也同步到 <a href="https://github.com/atjason/iOSProgramming" target="_blank" rel="external">GitHub</a> 中。</p>
-<p>至此，理论部分算是学完了。</p>
-<p>下一步，开始实战。</p>
-<p>计划先拿 iPaste 开刀，整个 iPaste for iOS；同时，可以和 iPaste for macOS 同步数据。时间下，看下周此时能否搞定。</p>
-<p>明天，先从产品角度考虑，确定交互。</p>
+      <title><![CDATA[0728 - Core 了一天 Data]]></title>
+      <url>https://atjason.com/daily/2017-07-28.html</url>
+      <content type="html"><![CDATA[<p>今天，基本学完了 iOS 中的 Core Data，跟着教程走了一遍，最后也完成了案例。</p>
+<p>Core Data 用好了，确实还是挺方便的，至少能省不少代码。</p>
+<p>以目前对 CloudKit 的理解，它和 Core Data 在很多概念是类似的，较好奇他们之间的历史渊源是什么。接下来几周会系统学习 CloudKit，到时就见分晓了。</p>
+<hr>
+<p>今天，Amazon 又改他们的网页版了。好在，我在上个版本的 Klib 中增加了远程更新的功能：不需要发布新版本，只需要在服务器端更新解析器，客户端来取即可。目前，是使用轮询的方式，即每次客户端启动都却服务器端取。这当然并不是好的设计。不过，简单呀，不需要引入推送通知这么复杂的东东。另外，考虑到 Klib 目前的用户量（呵呵），这个设计也没太大问题。</p>
+<p>不过，Klib 解析网页的弹性还不太够，抽空还要改进这部分。不然，总是跟在 Amazon 屁股后面改，也不是什么好玩的事。话说，他们貌似变勤快了嘛。之前旧的版本，6 年没更新。现在，第个月都更新嘛。</p>
+<p>另外，还得想办法建议起监控 Amazon 网页版变更的功能。不然总要用户报 Bug 后再改，就不好了。</p>
 ]]></content>
       
         <categories>
@@ -41385,38 +41500,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0718 - 为何要写作]]></title>
-      <url>https://atjason.com/daily/2017-07-18.html</url>
-      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
-<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
-<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
-<ul>
-<li><strong>输出倒逼输入</strong><ul>
-<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
-</ul>
-</li>
-<li><strong>个人品牌建设</strong><ul>
-<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
-</ul>
-</li>
-<li><strong>跨界寻找可能性</strong><ul>
-<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
-<li><strong>多一个维度，多一种可能性</strong></li>
-</ul>
-</li>
-</ul>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[Mac 开发的神秘面纱：后娘养的嫡长子]]></title>
       <url>https://atjason.com/IndieDev/2017-07-18.html</url>
       <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/bx86a.png" alt=""></p>
@@ -41605,6 +41688,38 @@
         <categories>
             
             <category> IndieDev </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0718 - 为何要写作]]></title>
+      <url>https://atjason.com/daily/2017-07-18.html</url>
+      <content type="html"><![CDATA[<p>今天发布的 <a href="https://mp.weixin.qq.com/s?__biz=MzI2NTY1ODQ0NQ==&amp;mid=2247483735&amp;idx=1&amp;sn=37f42988d6b0643a6afcbd9bfb2e77cc&amp;chksm=ea9b4875ddecc163239782b07c87d500dc70cd6a016c75807b6ba836b30bf77496539193e307#rd" target="_blank" rel="external">Mac 开发的神秘面纱：后娘养的嫡长子</a> 这篇文章，入选少数派 Matrix 精选，上了简书头条，V2EX 10 大热议帖子，掘金被推荐…</p>
+<p>感觉，并不是因为我多牛、写得有多好，而是 <strong>现在的人们太浮躁，很少有人能静下心来写些有深度的内容</strong>。尤其，写技术文章，对技术的要求还是很高的。<strong>而有能力的大牛，都忙着赚钱</strong>，没时间做这些教会徒弟、饿死师傅的事。</p>
+<p><strong>那我为什么要写呢？</strong>应该说是多方面原因吧。</p>
+<ul>
+<li><strong>输出倒逼输入</strong><ul>
+<li>能系统性地输出、写长文，证明自己真的掌握了这部分知识</li>
+</ul>
+</li>
+<li><strong>个人品牌建设</strong><ul>
+<li>对于我这样一个名不见经传的开发者，既要用产品来增加名气，又要用名气来为产品背书。需要找到一个产品之外的方式，来增加自己的知名度、信誉</li>
+</ul>
+</li>
+<li><strong>跨界寻找可能性</strong><ul>
+<li>纯技术，我干不过 99% 的开发者；写文章，我干不过 99% 的作者。可，会写作的开发者，可能我就可以干过 99% 的同行。会写代码、会写文章、能做产品、能做运营…这样的人呢？可能能干过 99.99% 的同行</li>
+<li><strong>多一个维度，多一种可能性</strong></li>
+</ul>
+</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
             
         </categories>
         
@@ -53053,7 +53168,7 @@
 <h1 id="配置-ssh-的-config"><a href="#配置-ssh-的-config" class="headerlink" title="配置 ssh 的 config"></a>配置 ssh 的 config</h1><p>编辑 ~/.ssh/config，添加类似下面的内容：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"># user1</div><div class="line">Host github.com</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa</div><div class="line"></div><div class="line"># user2</div><div class="line">Host github.cn</div><div class="line"> HostName github.com</div><div class="line"> User git</div><div class="line"> IdentityFile ~/.ssh/id_rsa2</div></pre></td></tr></table></figure>
 <p>编辑后，测试连接是否成功。如果成功，会有类似下面的提示：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> ssh -T git@github.com</div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$ ssh -T git@github.cn</div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span><span class="bash"> ssh -T git@github.com</span></div><div class="line">Hi user1! You've successfully authenticated, but GitHub does not provide shell access.</div><div class="line"><span class="meta"></span></div><div class="line">$<span class="bash"> ssh -T git@github.cn</span></div><div class="line">Hi user2! You've successfully authenticated, but GitHub does not provide shell access.</div></pre></td></tr></table></figure>
 <p>核心原理就是，当 ssh 尝试访问某域名时，会尝试和 config 中 <code>Host</code> 对应的记录匹配。如果匹配成功，就会使用该记录中 <code>HostName</code> 的值作为真正的域名、以及使用 <code>IdentityFile</code> 对应的私钥进行配对。这样，既可以实现把 <code>github.cn</code> 当作 <code>github.com</code> 访问、又可以匹配到正常的私钥。 </p>
 <p>这里，<code>github.cn</code> 只是个代号，你可以使用任何其它你喜欢的域名。</p>
 <h1 id="对-git-项目使用适当的-ssh-连接"><a href="#对-git-项目使用适当的-ssh-连接" class="headerlink" title="对 git 项目使用适当的 ssh 连接"></a>对 git 项目使用适当的 ssh 连接</h1><p>前面提到，假定 user1@gmail.com 是更经常使用的账户，这样我们可以设置该账户为全局默认的 git 账户。通常，你已经这么设置了。不过，如果可以通过下面的命令再次设置以确认。</p>

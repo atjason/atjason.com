@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-06-25T13:45:48.780Z</updated>
+  <updated>2023-07-02T11:39:27.820Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,180 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0702 - 做了产品的手版</title>
+    <link href="https://atjason.com/daily/2023-07-02.html"/>
+    <id>https://atjason.com/daily/2023-07-02.html</id>
+    <published>2023-07-02T14:00:00.000Z</published>
+    <updated>2023-07-02T11:39:27.820Z</updated>
+    
+    <content type="html"><![CDATA[<p>电路板、固件、3D 外壳、配件、组装测试，全部都自己完成，做成了产品的手版，基本可用。</p>
+<p>可惜，考虑到保密，不能公开出来。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;电路板、固件、3D 外壳、配件、组装测试，全部都自己完成，做成了产品的手版，基本可用。&lt;/p&gt;
+&lt;p&gt;可惜，考虑到保密，不能公开出来。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0701 - 反对数字游民的声音</title>
+    <link href="https://atjason.com/daily/2023-07-01.html"/>
+    <id>https://atjason.com/daily/2023-07-01.html</id>
+    <published>2023-07-01T14:00:00.000Z</published>
+    <updated>2023-07-02T11:34:08.473Z</updated>
+    
+    <content type="html"><![CDATA[<p>“1个数字游民=许多被迫游民！”</p>
+<p>大意是，数字游民就像没有天敌、高高在上的外来物种，破坏了当地的社会生态。</p>
+<p>单独从某个个体看，无伤大雅、掀不起多大风浪。但数量多了之后，就引发质变。</p>
+<p>第一次看到这种观点。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;“1个数字游民=许多被迫游民！”&lt;/p&gt;
+&lt;p&gt;大意是，数字游民就像没有天敌、高高在上的外来物种，破坏了当地的社会生态。&lt;/p&gt;
+&lt;p&gt;单独从某个个体看，无伤大雅、掀不起多大风浪。但数量多了之后，就引发质变。&lt;/p&gt;
+&lt;p&gt;第一次看到这种观点。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0630 - 选择权</title>
+    <link href="https://atjason.com/daily/2023-06-30.html"/>
+    <id>https://atjason.com/daily/2023-06-30.html</id>
+    <published>2023-06-30T14:00:00.000Z</published>
+    <updated>2023-07-02T11:33:23.765Z</updated>
+    
+    <content type="html"><![CDATA[<p>对于这个世界上的很多人来说，多一个选择就意味着多一分幸福。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;对于这个世界上的很多人来说，多一个选择就意味着多一分幸福。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0629 - 点亮芯片</title>
+    <link href="https://atjason.com/daily/2023-06-29.html"/>
+    <id>https://atjason.com/daily/2023-06-29.html</id>
+    <published>2023-06-29T14:00:00.000Z</published>
+    <updated>2023-07-02T11:32:51.003Z</updated>
+    
+    <content type="html"><![CDATA[<p>上午点了一颗芯片，起火冒烟😂</p>
+<p>应该是 12v 转 3.3v LDO 出了问题，而 TVS 没焊，导致 12v 直接灌入芯片导致的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;上午点了一颗芯片，起火冒烟😂&lt;/p&gt;
+&lt;p&gt;应该是 12v 转 3.3v LDO 出了问题，而 TVS 没焊，导致 12v 直接灌入芯片导致的。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0628 - 烟草税</title>
+    <link href="https://atjason.com/daily/2023-06-28.html"/>
+    <id>https://atjason.com/daily/2023-06-28.html</id>
+    <published>2023-06-28T14:00:00.000Z</published>
+    <updated>2023-07-02T11:32:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>2022年，</p>
+<p>全国一般公共预算收入20.37万亿元，</p>
+<p>烟草纳税1.2万亿，占比5.9%，</p>
+<p>国防支出预算1.48亿元。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2022年，&lt;/p&gt;
+&lt;p&gt;全国一般公共预算收入20.37万亿元，&lt;/p&gt;
+&lt;p&gt;烟草纳税1.2万亿，占比5.9%，&lt;/p&gt;
+&lt;p&gt;国防支出预算1.48亿元。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0627 - 取代战争</title>
+    <link href="https://atjason.com/daily/2023-06-27.html"/>
+    <id>https://atjason.com/daily/2023-06-27.html</id>
+    <published>2023-06-27T14:00:00.000Z</published>
+    <updated>2023-07-02T11:31:39.075Z</updated>
+    
+    <content type="html"><![CDATA[<p>里约大冒险里，鹦鹉用空中足球比赛，取代战争；<br>大刘的《光荣与梦想》里，用体育比赛取代战争；<br>复活节岛的部落，用鸟人（勇士的行为）取代战争。</p>
+<p>战争，是力量和意志的对抗，不一定要传统的形式。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;里约大冒险里，鹦鹉用空中足球比赛，取代战争；&lt;br&gt;大刘的《光荣与梦想》里，用体育比赛取代战争；&lt;br&gt;复活节岛的部落，用鸟人（勇士的行为）取代战争。&lt;/p&gt;
+&lt;p&gt;战争，是力量和意志的对抗，不一定要传统的形式。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0626 - 韩国房价</title>
+    <link href="https://atjason.com/daily/2023-06-26.html"/>
+    <id>https://atjason.com/daily/2023-06-26.html</id>
+    <published>2023-06-26T14:00:00.000Z</published>
+    <updated>2023-07-02T11:31:00.169Z</updated>
+    
+    <content type="html"><![CDATA[<p>跟韩国客户吃饭，他说首尔的房子很贵，不在市中心的，也要7亿韩元一套。</p>
+<p>换算了下，人民币 384 万，这在国内一线城市也买不到啊😅</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;跟韩国客户吃饭，他说首尔的房子很贵，不在市中心的，也要7亿韩元一套。&lt;/p&gt;
+&lt;p&gt;换算了下，人民币 384 万，这在国内一线城市也买不到啊😅&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0623 - 3D 打印新技能</title>
@@ -388,205 +562,6 @@
 &lt;li&gt;如果让用户先把有问题的退回来，修复之后再寄回去，用户觉得耽误时间，也担心我们收到后处理不及时、甚至不寄回去。&lt;/li&gt;
 &lt;li&gt;如果我们先把好的寄过去，用户有可能收到后不寄回有问题的。&lt;/li&gt;
 &lt;/ul
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0610 - 重新开始考虑美股交易</title>
-    <link href="https://atjason.com/daily/2023-06-10.html"/>
-    <id>https://atjason.com/daily/2023-06-10.html</id>
-    <published>2023-06-10T14:00:00.000Z</published>
-    <updated>2023-06-11T13:53:17.744Z</updated>
-    
-    <content type="html"><![CDATA[<p>暂定的计划是：</p>
-<ul>
-<li>在各大指数选择靠前的股票形成股票池</li>
-<li>粗筛一遍，去掉明显下跌、涨跌幅度很小的</li>
-<li>每周选出大概的股票，主要是首次突破回调，大幅上涨后回调形成小形态</li>
-<li>每周过一遍周选股票池。如果有机会，人工加条件单，之后考虑加入机器人</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;暂定的计划是：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;在各大指数选择靠前的股票形成股票池&lt;/li&gt;
-&lt;li&gt;粗筛一遍，去掉明显下跌、涨跌幅度很小的&lt;/li&gt;
-&lt;li&gt;每周选出大概的股票，主要是首次突破回调，大幅上涨后回调形成小形态&lt;/li&gt;
-&lt;li&gt;每周过一遍周选股票池。如果有机会，人
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0609 - 美股几只股票</title>
-    <link href="https://atjason.com/daily/2023-06-09.html"/>
-    <id>https://atjason.com/daily/2023-06-09.html</id>
-    <published>2023-06-09T14:00:00.000Z</published>
-    <updated>2023-06-11T13:52:29.942Z</updated>
-    
-    <content type="html"><![CDATA[<p>云聪介绍、巴菲特持股，可能大涨的股票：</p>
-<ul>
-<li>STNE</li>
-<li>VTS</li>
-<li>NU</li>
-<li>PARA</li>
-<li>LSXMA</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;云聪介绍、巴菲特持股，可能大涨的股票：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;STNE&lt;/li&gt;
-&lt;li&gt;VTS&lt;/li&gt;
-&lt;li&gt;NU&lt;/li&gt;
-&lt;li&gt;PARA&lt;/li&gt;
-&lt;li&gt;LSXMA&lt;/li&gt;
-&lt;/ul&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0608 - 平凡的幸福</title>
-    <link href="https://atjason.com/daily/2023-06-08.html"/>
-    <id>https://atjason.com/daily/2023-06-08.html</id>
-    <published>2023-06-08T14:00:00.000Z</published>
-    <updated>2023-06-11T13:51:25.179Z</updated>
-    
-    <content type="html"><![CDATA[<p>娃咳嗽住院，在医院陪床几天。</p>
-<p>去了医院才发现，安安静静在办公室工作，是件幸福的事。</p>
-<p>在医院睡一夜才发现，原来家里的床多软、多舒服。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;娃咳嗽住院，在医院陪床几天。&lt;/p&gt;
-&lt;p&gt;去了医院才发现，安安静静在办公室工作，是件幸福的事。&lt;/p&gt;
-&lt;p&gt;在医院睡一夜才发现，原来家里的床多软、多舒服。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0607 - 蓝牙连接问题</title>
-    <link href="https://atjason.com/daily/2023-06-07.html"/>
-    <id>https://atjason.com/daily/2023-06-07.html</id>
-    <published>2023-06-07T14:00:00.000Z</published>
-    <updated>2023-06-11T13:50:46.831Z</updated>
-    
-    <content type="html"><![CDATA[<p>智能产品发布后，遇到了多种蓝牙连接问题。</p>
-<p>比如，用户手机开启了蓝牙，却没有允许微信使用蓝牙，导致无法连接；</p>
-<p>比如，安卓需要开启定位，才能使用蓝牙。理由是蓝牙可能间接定位；</p>
-<p>并且，硬件问题，不只是软件设置就能解决。即使是软件问题，用户对手机的熟悉程度不同，定位和解决问题的难易程度也不同。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;智能产品发布后，遇到了多种蓝牙连接问题。&lt;/p&gt;
-&lt;p&gt;比如，用户手机开启了蓝牙，却没有允许微信使用蓝牙，导致无法连接；&lt;/p&gt;
-&lt;p&gt;比如，安卓需要开启定位，才能使用蓝牙。理由是蓝牙可能间接定位；&lt;/p&gt;
-&lt;p&gt;并且，硬件问题，不只是软件设置就能解决。即使是软件问题，用户
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0606 - 做硬件真难</title>
-    <link href="https://atjason.com/daily/2023-06-06.html"/>
-    <id>https://atjason.com/daily/2023-06-06.html</id>
-    <published>2023-06-06T14:00:00.000Z</published>
-    <updated>2023-06-11T13:47:35.127Z</updated>
-    
-    <content type="html"><![CDATA[<p>一边生产各种问题，</p>
-<p>一边用户拿着放大镜找问题，</p>
-<p>不好伺候啊😅</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一边生产各种问题，&lt;/p&gt;
-&lt;p&gt;一边用户拿着放大镜找问题，&lt;/p&gt;
-&lt;p&gt;不好伺候啊😅&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0605 - 驱动数码管</title>
-    <link href="https://atjason.com/daily/2023-06-05.html"/>
-    <id>https://atjason.com/daily/2023-06-05.html</id>
-    <published>2023-06-05T14:00:00.000Z</published>
-    <updated>2023-06-11T13:46:54.582Z</updated>
-    
-    <content type="html"><![CDATA[<p>使用单片机 IO 驱动 5 脚 188 数码管，折腾了很久，都有闪烁的问题。</p>
-<p>今天又研究了一遍，使用定时器的方法，差不多解决了。</p>
-<p>不过，在使用 adc.get 定时采集时，又出来了闪烁的问题。咨询了官方，原来是 adc.get 相当于阻塞式的请求，需要大概 20ms，这个时间就影响到数码管的扫描式显示了。</p>
-<p>暂时无解，先这样了。给官方提交了 issue，希望 adc.get 可以异步返回。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;使用单片机 IO 驱动 5 脚 188 数码管，折腾了很久，都有闪烁的问题。&lt;/p&gt;
-&lt;p&gt;今天又研究了一遍，使用定时器的方法，差不多解决了。&lt;/p&gt;
-&lt;p&gt;不过，在使用 adc.get 定时采集时，又出来了闪烁的问题。咨询了官方，原来是 adc.get 相当于阻塞式的请求
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0603 - 身体省着点用</title>
-    <link href="https://atjason.com/daily/2023-06-03.html"/>
-    <id>https://atjason.com/daily/2023-06-03.html</id>
-    <published>2023-06-03T14:00:00.000Z</published>
-    <updated>2023-06-04T12:31:15.661Z</updated>
-    
-    <content type="html"><![CDATA[<p>昨天晚上看电影时，吃了冰西瓜、喝了啤酒，到 12 点才睡。</p>
-<p>结果，今天起床，感到头很晕、想吐。又睡到 10 点钟，起来后才感觉好很多。</p>
-<p>哎，年纪大了，身体真是折腾不起了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;昨天晚上看电影时，吃了冰西瓜、喝了啤酒，到 12 点才睡。&lt;/p&gt;
-&lt;p&gt;结果，今天起床，感到头很晕、想吐。又睡到 10 点钟，起来后才感觉好很多。&lt;/p&gt;
-&lt;p&gt;哎，年纪大了，身体真是折腾不起了。&lt;/p&gt;
-
     
     </summary>
     
