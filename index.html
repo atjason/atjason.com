@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-16.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-23.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-07-16.html" itemprop="url">
-                  0716 - 平衡与稳定
+                <a class="post-title-link" href="/daily/2023-07-23.html" itemprop="url">
+                  0723 - 折腾智能音箱
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-16T22:00:00+08:00">
-                2023-07-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-23T22:00:00+08:00">
+                2023-07-23
               </time>
             
 
@@ -365,157 +365,19 @@
       
         
           
-            <p>人生就像骑自行车，别追求稳定，而要追求平衡。要想平衡，就要向前走。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-15.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2023-07-15.html" itemprop="url">
-                  0715 - 北上广深有多少人？
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-15T22:00:00+08:00">
-                2023-07-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>截止 2022 年底：</p>
+            <p>一直对智能音箱有兴趣，周末再次折腾了一把。</p>
+<p>简单调研了下，现有的智能音箱都非常封闭，开放能力非常有限。想在已有音箱上二次开发，达不到自己想要的效果。</p>
+<p>如果从 0 开始做，又太花时间精力。</p>
+<p>折衷的办法，就是找成型的技术方案，在此基础上进行修改和适配，以符合自己的需求。</p>
+<p>又简单调研了下，选择了 <a href="https://wukong.hahack.com/" target="_blank" rel="external">https://wukong.hahack.com/</a> 这个开源项目（简单了解了作者，可能跟自己差不多年纪，惭愧啊）。简单在 macOS 系统上安装运行环境，基本跑通了：支持自定义唤醒词、识别语音转文字、向 OpenAI 请求并得到回答、将文字转换为语音并播放。</p>
+<p>下一步，就是把这套系统搬到小的开发板上，然后封装到音箱中。我手上有个吃灰的 Radxa Rock，拿出来把灰尘吹掉，通电，倒是能启动。尝试安装，遇到各种问题，直到几乎解决不了。核心是，这硬件太老，几乎是 10 年前的，软件系统太旧，不容易升级到最新的；而 wukong 这套软件，又需要比较新的运行环境。二者对不上，于是运行不了。</p>
+<p>都想着再花钱，买个能运行最新版 Ubuntu 的开发板。这就有两个选择：</p>
 <ul>
-<li>北京：2184 万</li>
-<li>上海：2475 万</li>
-<li>广州：1873 万</li>
-<li>深圳：1766 万</li>
+<li>树莓派。好处是软件生态齐全；缺点是现在价格偏高。</li>
+<li>其他派。和树莓派几乎相反：硬件参数上没输过，软件生态上没盈过。</li>
 </ul>
-<p>合计约 8298万。</p>
-<p>再加上个大城市，就一个亿，比绝大多数国家人都多。</p>
+<p>考虑到 Radxa Rock 就是个小众的开发板，光是装软件就花不少时间。吃了亏，这次就只考虑树莓派了。正好朋友手上有个吃灰的 3B，准备拿过来先研究下。</p>
+<p>现在最大的不确定性，还是麦克风和音箱。初步打算，买个二手的音箱，只用其外壳、喇叭和麦克风；内部拆掉，替换成树莓派及相关配件。争取这一两周能做个原型出来。</p>
 
           
         
@@ -559,7 +421,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-14.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-22.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -581,8 +443,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-07-14.html" itemprop="url">
-                  0714 - Azure 的 ChatGPT 不稳定
+                <a class="post-title-link" href="/daily/2023-07-22.html" itemprop="url">
+                  0722 - 为什么北京故宫的排水系统为何能抗住暴雨？
                 </a>
               
             
@@ -598,8 +460,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-14T22:00:00+08:00">
-                2023-07-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-22T22:00:00+08:00">
+                2023-07-22
               </time>
             
 
@@ -657,13 +519,7 @@
       
         
           
-            <p>Azure 的 ChatGPT 总是出现下面的错误：</p>
-<ul>
-<li>400，model_error</li>
-<li>408，timeout</li>
-</ul>
-<p>第一个问题，无解，就是其自身有缺陷。</p>
-<p>第二个问题，目前是部署在美东，网络延迟比较大，ping 时延 260ms。又创建账户，部署到法国、英国，ping 时延 150ms，体验可能会好一点点。关注未来开放在 Japan 的服务，到时再切换。</p>
+            <p>因为那时候工匠造豆腐渣工程会被诛九族，而现在施工队造豆腐渣工程可以大富大贵。</p>
 
           
         
@@ -707,7 +563,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-13.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-21.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -729,8 +585,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-07-13.html" itemprop="url">
-                  0713 - 厉害不等于必胜
+                <a class="post-title-link" href="/daily/2023-07-21.html" itemprop="url">
+                  0721 - 互联网从不免费
                 </a>
               
             
@@ -746,8 +602,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-13T22:00:00+08:00">
-                2023-07-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-21T22:00:00+08:00">
+                2023-07-21
               </time>
             
 
@@ -805,9 +661,8 @@
       
         
           
-            <p>狮子大多数的捕食行动都以失败告终。即便是草原之王，失败了也要饿肚子。</p>
-<p>我们总有一个错觉：厉害的人做什么都能成功。其实不然。</p>
-<p>更何况，我们觉得有些人厉害，可能是他们做成了某些事。而这件事中，可能运气和时运的比重比较大，个人能力可能并不是决定性因素。</p>
+            <p>阿里云盘从发布时的【永不限速】，到现在开始变成自己讨厌的样子，用了多久呢？</p>
+<p>互联网从不免费，只是价格标在你看不到的地方。</p>
 
           
         
@@ -851,7 +706,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-12.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-20.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -873,8 +728,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-07-12.html" itemprop="url">
-                  0712 - 系统的确定性
+                <a class="post-title-link" href="/daily/2023-07-20.html" itemprop="url">
+                  0720 - 娃的成长与远去
                 </a>
               
             
@@ -890,8 +745,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-12T22:00:00+08:00">
-                2023-07-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-20T22:00:00+08:00">
+                2023-07-20
               </time>
             
 
@@ -949,11 +804,154 @@
       
         
           
-            <p>在不改变系统的情况下，单次结果改变，基本不会影响大局。</p>
-<p>比如，一个穷人中大奖，再过一段时间，基本会回到原来的水平。</p>
-<p>比如，一个不懂交易的人，在一次交易赚了大钱，重复很多次交易之后，这钱大概率会吐回去，甚至倒亏更多。</p>
-<p>反过来说，后悔当初如果如何如何，我现在就会如何如何。大概率即使当初如何如何，现在该啥样还是啥样。看似当初只差一步，实际差得很远。</p>
-<p>当然，不排除有人抓住机会，上了一个台阶，不再下来。要让自己成为这样的人、有能力抓住机会；或者说，让自己配得上这种机会。</p>
+            <p>陪乐乐游泳，我在岸边，看着他越游越远，突然有种伤感：他不断成长，终会离我远去。我能做的，就是在此之前好好陪伴他；或者说，让他陪伴我。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-07-19.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2023-07-19.html" itemprop="url">
+                  0719 - 鹤立鸡群，谁比较难受？
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-07-19T22:00:00+08:00">
+                2023-07-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>把一个人向上拉容易，还是把一个人向下拽容易？</p>
+<p>只要你不尴尬，尴尬的就是别人。</p>
+<p>圈子是有同化作用的，但很多人往往忽略了这一点。</p>
+<p>向下社交，或许能得到短暂的优越感，却也意味着永远停留在鸡群。</p>
+<p>选择与高人为伍，或许一开始会面临痛苦打击，最终受益的一定是自己。</p>
+<p>就如犹太圣典《塔木德》中的那句话：穷，也要站在富人堆里。</p>
 
           
         
@@ -992,7 +990,7 @@
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/560/">560</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/562/">562</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1037,7 +1035,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2800</span>
+                <span class="site-state-item-count">2807</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

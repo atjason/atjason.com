@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-07-16T14:52:25.379Z</updated>
+  <updated>2023-07-23T14:04:54.784Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,187 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0723 - 折腾智能音箱</title>
+    <link href="https://atjason.com/daily/2023-07-23.html"/>
+    <id>https://atjason.com/daily/2023-07-23.html</id>
+    <published>2023-07-23T14:00:00.000Z</published>
+    <updated>2023-07-23T14:04:54.784Z</updated>
+    
+    <content type="html"><![CDATA[<p>一直对智能音箱有兴趣，周末再次折腾了一把。</p>
+<p>简单调研了下，现有的智能音箱都非常封闭，开放能力非常有限。想在已有音箱上二次开发，达不到自己想要的效果。</p>
+<p>如果从 0 开始做，又太花时间精力。</p>
+<p>折衷的办法，就是找成型的技术方案，在此基础上进行修改和适配，以符合自己的需求。</p>
+<p>又简单调研了下，选择了 <a href="https://wukong.hahack.com/" target="_blank" rel="external">https://wukong.hahack.com/</a> 这个开源项目（简单了解了作者，可能跟自己差不多年纪，惭愧啊）。简单在 macOS 系统上安装运行环境，基本跑通了：支持自定义唤醒词、识别语音转文字、向 OpenAI 请求并得到回答、将文字转换为语音并播放。</p>
+<p>下一步，就是把这套系统搬到小的开发板上，然后封装到音箱中。我手上有个吃灰的 Radxa Rock，拿出来把灰尘吹掉，通电，倒是能启动。尝试安装，遇到各种问题，直到几乎解决不了。核心是，这硬件太老，几乎是 10 年前的，软件系统太旧，不容易升级到最新的；而 wukong 这套软件，又需要比较新的运行环境。二者对不上，于是运行不了。</p>
+<p>都想着再花钱，买个能运行最新版 Ubuntu 的开发板。这就有两个选择：</p>
+<ul>
+<li>树莓派。好处是软件生态齐全；缺点是现在价格偏高。</li>
+<li>其他派。和树莓派几乎相反：硬件参数上没输过，软件生态上没盈过。</li>
+</ul>
+<p>考虑到 Radxa Rock 就是个小众的开发板，光是装软件就花不少时间。吃了亏，这次就只考虑树莓派了。正好朋友手上有个吃灰的 3B，准备拿过来先研究下。</p>
+<p>现在最大的不确定性，还是麦克风和音箱。初步打算，买个二手的音箱，只用其外壳、喇叭和麦克风；内部拆掉，替换成树莓派及相关配件。争取这一两周能做个原型出来。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一直对智能音箱有兴趣，周末再次折腾了一把。&lt;/p&gt;
+&lt;p&gt;简单调研了下，现有的智能音箱都非常封闭，开放能力非常有限。想在已有音箱上二次开发，达不到自己想要的效果。&lt;/p&gt;
+&lt;p&gt;如果从 0 开始做，又太花时间精力。&lt;/p&gt;
+&lt;p&gt;折衷的办法，就是找成型的技术方案，在此基础上
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0722 - 为什么北京故宫的排水系统为何能抗住暴雨？</title>
+    <link href="https://atjason.com/daily/2023-07-22.html"/>
+    <id>https://atjason.com/daily/2023-07-22.html</id>
+    <published>2023-07-22T14:00:00.000Z</published>
+    <updated>2023-07-23T13:54:31.075Z</updated>
+    
+    <content type="html"><![CDATA[<p>因为那时候工匠造豆腐渣工程会被诛九族，而现在施工队造豆腐渣工程可以大富大贵。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;因为那时候工匠造豆腐渣工程会被诛九族，而现在施工队造豆腐渣工程可以大富大贵。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0721 - 互联网从不免费</title>
+    <link href="https://atjason.com/daily/2023-07-21.html"/>
+    <id>https://atjason.com/daily/2023-07-21.html</id>
+    <published>2023-07-21T14:00:00.000Z</published>
+    <updated>2023-07-23T13:54:00.557Z</updated>
+    
+    <content type="html"><![CDATA[<p>阿里云盘从发布时的【永不限速】，到现在开始变成自己讨厌的样子，用了多久呢？</p>
+<p>互联网从不免费，只是价格标在你看不到的地方。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;阿里云盘从发布时的【永不限速】，到现在开始变成自己讨厌的样子，用了多久呢？&lt;/p&gt;
+&lt;p&gt;互联网从不免费，只是价格标在你看不到的地方。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0720 - 娃的成长与远去</title>
+    <link href="https://atjason.com/daily/2023-07-20.html"/>
+    <id>https://atjason.com/daily/2023-07-20.html</id>
+    <published>2023-07-20T14:00:00.000Z</published>
+    <updated>2023-07-23T13:50:21.544Z</updated>
+    
+    <content type="html"><![CDATA[<p>陪乐乐游泳，我在岸边，看着他越游越远，突然有种伤感：他不断成长，终会离我远去。我能做的，就是在此之前好好陪伴他；或者说，让他陪伴我。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;陪乐乐游泳，我在岸边，看着他越游越远，突然有种伤感：他不断成长，终会离我远去。我能做的，就是在此之前好好陪伴他；或者说，让他陪伴我。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0719 - 鹤立鸡群，谁比较难受？</title>
+    <link href="https://atjason.com/daily/2023-07-19.html"/>
+    <id>https://atjason.com/daily/2023-07-19.html</id>
+    <published>2023-07-19T14:00:00.000Z</published>
+    <updated>2023-07-23T13:49:31.200Z</updated>
+    
+    <content type="html"><![CDATA[<p>把一个人向上拉容易，还是把一个人向下拽容易？</p>
+<p>只要你不尴尬，尴尬的就是别人。</p>
+<p>圈子是有同化作用的，但很多人往往忽略了这一点。</p>
+<p>向下社交，或许能得到短暂的优越感，却也意味着永远停留在鸡群。</p>
+<p>选择与高人为伍，或许一开始会面临痛苦打击，最终受益的一定是自己。</p>
+<p>就如犹太圣典《塔木德》中的那句话：穷，也要站在富人堆里。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;把一个人向上拉容易，还是把一个人向下拽容易？&lt;/p&gt;
+&lt;p&gt;只要你不尴尬，尴尬的就是别人。&lt;/p&gt;
+&lt;p&gt;圈子是有同化作用的，但很多人往往忽略了这一点。&lt;/p&gt;
+&lt;p&gt;向下社交，或许能得到短暂的优越感，却也意味着永远停留在鸡群。&lt;/p&gt;
+&lt;p&gt;选择与高人为伍，或许一开始会面
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0718 - 成绩与兴趣</title>
+    <link href="https://atjason.com/daily/2023-07-18.html"/>
+    <id>https://atjason.com/daily/2023-07-18.html</id>
+    <published>2023-07-18T14:00:00.000Z</published>
+    <updated>2023-07-23T13:49:03.284Z</updated>
+    
+    <content type="html"><![CDATA[<p>娃学游泳，有很大的进步：蛙泳可以手脚配合了。他非常开心😃</p>
+<p>当时他自己有兴趣，一直在池里练习，下课半天，我叫了好几次都不走。还要叫妈妈妹妹过来看他的表演。问我今天是几号（7.18晚上），要记住今天，因为是他学会游泳的日子。我拍了视频，他回家看得很开心。</p>
+<p>兴趣和成就感是学习的动力。每当他取得这样的进步时，一定要想方设法增强和延续这种感觉。这样才能积蓄兴趣和信心，以应对之后的学习。</p>
+<p>反过来，在这个时侯急于纠结他的动作，告诉他怎么怎么做更好，这些都是不对的。不是不能说，而是不要在他还在兴头上时说。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;娃学游泳，有很大的进步：蛙泳可以手脚配合了。他非常开心😃&lt;/p&gt;
+&lt;p&gt;当时他自己有兴趣，一直在池里练习，下课半天，我叫了好几次都不走。还要叫妈妈妹妹过来看他的表演。问我今天是几号（7.18晚上），要记住今天，因为是他学会游泳的日子。我拍了视频，他回家看得很开心。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0717 - 什么是专家</title>
+    <link href="https://atjason.com/daily/2023-07-17.html"/>
+    <id>https://atjason.com/daily/2023-07-17.html</id>
+    <published>2023-07-17T14:00:00.000Z</published>
+    <updated>2023-07-23T13:48:14.340Z</updated>
+    
+    <content type="html"><![CDATA[<p>物理学家玻尔：“专家就是这样一个人，他在一个非常狭窄的领域内犯过所有可能犯的错误。”</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;物理学家玻尔：“专家就是这样一个人，他在一个非常狭窄的领域内犯过所有可能犯的错误。”&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0716 - 平衡与稳定</title>
@@ -368,191 +549,6 @@
     
       &lt;p&gt;成年人的世界里，疏远足矣，不必有敌意。&lt;/p&gt;
 &lt;p&gt;不喜欢一个人，不跟他一起玩就好了，不必成为敌人。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0703 - 选择的能力与资本</title>
-    <link href="https://atjason.com/daily/2023-07-03.html"/>
-    <id>https://atjason.com/daily/2023-07-03.html</id>
-    <published>2023-07-03T14:00:00.000Z</published>
-    <updated>2023-07-09T14:08:27.420Z</updated>
-    
-    <content type="html"><![CDATA[<p>假设有两个选择：</p>
-<ul>
-<li>100%得到 100 万；</li>
-<li>50% 得到 1 亿。</li>
-</ul>
-<p>如果我是穷光蛋，我会选 1；如果我有 1 亿、哪怕 100 万，选 2。</p>
-<p>注意，更高一层在于，让自己有 100 万甚至更多，然后从别人手里以 100万+ 的价格，买下这种机会。</p>
-<p>先完成财富积累，再寻找投资机会。</p>
-<p>在贫富差距的关键决策点上，穷人打折甩卖自己的概率权，而富人则利用人生算法低价购买概率权。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;假设有两个选择：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;100%得到 100 万；&lt;/li&gt;
-&lt;li&gt;50% 得到 1 亿。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;如果我是穷光蛋，我会选 1；如果我有 1 亿、哪怕 100 万，选 2。&lt;/p&gt;
-&lt;p&gt;注意，更高一层在于，让自己有 100 万甚至
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0702 - 做了产品的手版</title>
-    <link href="https://atjason.com/daily/2023-07-02.html"/>
-    <id>https://atjason.com/daily/2023-07-02.html</id>
-    <published>2023-07-02T14:00:00.000Z</published>
-    <updated>2023-07-02T11:39:27.820Z</updated>
-    
-    <content type="html"><![CDATA[<p>电路板、固件、3D 外壳、配件、组装测试，全部都自己完成，做成了产品的手版，基本可用。</p>
-<p>可惜，考虑到保密，不能公开出来。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;电路板、固件、3D 外壳、配件、组装测试，全部都自己完成，做成了产品的手版，基本可用。&lt;/p&gt;
-&lt;p&gt;可惜，考虑到保密，不能公开出来。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0701 - 反对数字游民的声音</title>
-    <link href="https://atjason.com/daily/2023-07-01.html"/>
-    <id>https://atjason.com/daily/2023-07-01.html</id>
-    <published>2023-07-01T14:00:00.000Z</published>
-    <updated>2023-07-02T11:34:08.473Z</updated>
-    
-    <content type="html"><![CDATA[<p>“1个数字游民=许多被迫游民！”</p>
-<p>大意是，数字游民就像没有天敌、高高在上的外来物种，破坏了当地的社会生态。</p>
-<p>单独从某个个体看，无伤大雅、掀不起多大风浪。但数量多了之后，就引发质变。</p>
-<p>第一次看到这种观点。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;“1个数字游民=许多被迫游民！”&lt;/p&gt;
-&lt;p&gt;大意是，数字游民就像没有天敌、高高在上的外来物种，破坏了当地的社会生态。&lt;/p&gt;
-&lt;p&gt;单独从某个个体看，无伤大雅、掀不起多大风浪。但数量多了之后，就引发质变。&lt;/p&gt;
-&lt;p&gt;第一次看到这种观点。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0630 - 选择权</title>
-    <link href="https://atjason.com/daily/2023-06-30.html"/>
-    <id>https://atjason.com/daily/2023-06-30.html</id>
-    <published>2023-06-30T14:00:00.000Z</published>
-    <updated>2023-07-02T11:33:23.765Z</updated>
-    
-    <content type="html"><![CDATA[<p>对于这个世界上的很多人来说，多一个选择就意味着多一分幸福。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;对于这个世界上的很多人来说，多一个选择就意味着多一分幸福。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0629 - 点亮芯片</title>
-    <link href="https://atjason.com/daily/2023-06-29.html"/>
-    <id>https://atjason.com/daily/2023-06-29.html</id>
-    <published>2023-06-29T14:00:00.000Z</published>
-    <updated>2023-07-02T11:32:51.003Z</updated>
-    
-    <content type="html"><![CDATA[<p>上午点了一颗芯片，起火冒烟😂</p>
-<p>应该是 12v 转 3.3v LDO 出了问题，而 TVS 没焊，导致 12v 直接灌入芯片导致的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;上午点了一颗芯片，起火冒烟😂&lt;/p&gt;
-&lt;p&gt;应该是 12v 转 3.3v LDO 出了问题，而 TVS 没焊，导致 12v 直接灌入芯片导致的。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0628 - 烟草税</title>
-    <link href="https://atjason.com/daily/2023-06-28.html"/>
-    <id>https://atjason.com/daily/2023-06-28.html</id>
-    <published>2023-06-28T14:00:00.000Z</published>
-    <updated>2023-07-02T11:32:15.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>2022年，</p>
-<p>全国一般公共预算收入20.37万亿元，</p>
-<p>烟草纳税1.2万亿，占比5.9%，</p>
-<p>国防支出预算1.48亿元。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;2022年，&lt;/p&gt;
-&lt;p&gt;全国一般公共预算收入20.37万亿元，&lt;/p&gt;
-&lt;p&gt;烟草纳税1.2万亿，占比5.9%，&lt;/p&gt;
-&lt;p&gt;国防支出预算1.48亿元。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0627 - 取代战争</title>
-    <link href="https://atjason.com/daily/2023-06-27.html"/>
-    <id>https://atjason.com/daily/2023-06-27.html</id>
-    <published>2023-06-27T14:00:00.000Z</published>
-    <updated>2023-07-02T11:31:39.075Z</updated>
-    
-    <content type="html"><![CDATA[<p>里约大冒险里，鹦鹉用空中足球比赛，取代战争；<br>大刘的《光荣与梦想》里，用体育比赛取代战争；<br>复活节岛的部落，用鸟人（勇士的行为）取代战争。</p>
-<p>战争，是力量和意志的对抗，不一定要传统的形式。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;里约大冒险里，鹦鹉用空中足球比赛，取代战争；&lt;br&gt;大刘的《光荣与梦想》里，用体育比赛取代战争；&lt;br&gt;复活节岛的部落，用鸟人（勇士的行为）取代战争。&lt;/p&gt;
-&lt;p&gt;战争，是力量和意志的对抗，不一定要传统的形式。&lt;/p&gt;
 
     
     </summary>
