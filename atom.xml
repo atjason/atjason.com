@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-07-23T14:04:54.784Z</updated>
+  <updated>2023-07-30T15:22:05.889Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,110 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0730 - 杭州十里龙脊</title>
+    <link href="https://atjason.com/daily/2023-07-30.html"/>
+    <id>https://atjason.com/daily/2023-07-30.html</id>
+    <published>2023-07-30T14:00:00.000Z</published>
+    <updated>2023-07-30T15:22:05.889Z</updated>
+    
+    <content type="html"><![CDATA[<p>好久没爬山了，今天挑战了下杭州十里龙脊。就是从老和山上，从桃桂山下。</p>
+<p><img src="https://p.nuli.life/blog/sqrspj.jpeg" alt=""></p>
+<p>实测有 18 公里（走了点回头路拿东西），喝了6瓶水。</p>
+<p>下山后腿有点累，好在没抖。期间左膝盖有点不舒服的感觉，放慢节奏，就好些了。</p>
+<p>小米手环没有爬山模式，用户外跑步替代，勉强记录了里程和时长。据说，这条线累计爬升有 4000 米。</p>
+<p><img src="https://p.nuli.life/blog/gz2bit.jpg" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好久没爬山了，今天挑战了下杭州十里龙脊。就是从老和山上，从桃桂山下。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/sqrspj.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;实测有 18 公里（走了点回头路拿东西），喝了6瓶水。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0726 - 中等认知陷阱</title>
+    <link href="https://atjason.com/daily/2023-07-26.html"/>
+    <id>https://atjason.com/daily/2023-07-26.html</id>
+    <published>2023-07-26T14:00:00.000Z</published>
+    <updated>2023-07-30T15:16:42.763Z</updated>
+    
+    <content type="html"><![CDATA[<p>有这么个实验，将蜜蜂和苍蝇装在玻璃瓶内，瓶底一侧打光。结果，蜜蜂朝光亮的地方飞，撞在瓶底，始终飞不出去，最终被困死。而苍蝇胡乱的飞，却全部飞出了瓶子。</p>
+<p>蜜蜂是比苍蝇聪明，却输在了自己的聪明上。</p>
+<p>要么，退回到苍蝇模式，强调执行；</p>
+<p>要么，超越蜜蜂。比如，拥有多元思维，交叉验证。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有这么个实验，将蜜蜂和苍蝇装在玻璃瓶内，瓶底一侧打光。结果，蜜蜂朝光亮的地方飞，撞在瓶底，始终飞不出去，最终被困死。而苍蝇胡乱的飞，却全部飞出了瓶子。&lt;/p&gt;
+&lt;p&gt;蜜蜂是比苍蝇聪明，却输在了自己的聪明上。&lt;/p&gt;
+&lt;p&gt;要么，退回到苍蝇模式，强调执行；&lt;/p&gt;
+&lt;p&gt;要么
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0725 - 还是树莓派的资源多</title>
+    <link href="https://atjason.com/daily/2023-07-25.html"/>
+    <id>https://atjason.com/daily/2023-07-25.html</id>
+    <published>2023-07-25T14:00:00.000Z</published>
+    <updated>2023-07-30T15:16:15.188Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，要刷机，官方直接提供多平台的刷机工具，点几个按键即可。不用找镜像文件、格式化 SD 卡、写入镜像文件等等，很方便。</p>
+<p>比如，遇到个问题，很容易通过搜索得到答案。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，要刷机，官方直接提供多平台的刷机工具，点几个按键即可。不用找镜像文件、格式化 SD 卡、写入镜像文件等等，很方便。&lt;/p&gt;
+&lt;p&gt;比如，遇到个问题，很容易通过搜索得到答案。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0724 - Pi 3B 智能音箱</title>
+    <link href="https://atjason.com/daily/2023-07-24.html"/>
+    <id>https://atjason.com/daily/2023-07-24.html</id>
+    <published>2023-07-24T14:00:00.000Z</published>
+    <updated>2023-07-30T15:15:46.923Z</updated>
+    
+    <content type="html"><![CDATA[<p>基本使用 Pi 3B 运行起来 wukong 智能音箱。</p>
+<p>不过，发现个问题：这家伙功率挺大。运行 wukong 时，基本功率要 2.5W。这意味着很难用电池供电了。比如，2500mAh 的电池，也就够运行 1 小时。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;基本使用 Pi 3B 运行起来 wukong 智能音箱。&lt;/p&gt;
+&lt;p&gt;不过，发现个问题：这家伙功率挺大。运行 wukong 时，基本功率要 2.5W。这意味着很难用电池供电了。比如，2500mAh 的电池，也就够运行 1 小时。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0723 - 折腾智能音箱</title>
@@ -447,108 +551,6 @@
     
       &lt;p&gt;回顾历次生产力变革，让机器干活、人去享受生活的美梦，却越来越远。&lt;/p&gt;
 &lt;p&gt;所以，AI 的普及，短期可能造成就业波动，长期不会没事做，只会更忙。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0707 - 延迟满足，时间贴现</title>
-    <link href="https://atjason.com/daily/2023-07-07.html"/>
-    <id>https://atjason.com/daily/2023-07-07.html</id>
-    <published>2023-07-07T14:00:00.000Z</published>
-    <updated>2023-07-09T14:10:36.357Z</updated>
-    
-    <content type="html"><![CDATA[<p>为什么有些人厉害，有些人平庸？因为”时间贴现”的人在补贴”延迟满足”的人。</p>
-<p>前者打折出售自己未来可能性，被后者饶有兴趣地收集起来。</p>
-<p>日积月累，高下立现。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;为什么有些人厉害，有些人平庸？因为”时间贴现”的人在补贴”延迟满足”的人。&lt;/p&gt;
-&lt;p&gt;前者打折出售自己未来可能性，被后者饶有兴趣地收集起来。&lt;/p&gt;
-&lt;p&gt;日积月累，高下立现。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0706 - 垄断</title>
-    <link href="https://atjason.com/daily/2023-07-06.html"/>
-    <id>https://atjason.com/daily/2023-07-06.html</id>
-    <published>2023-07-06T14:00:00.000Z</published>
-    <updated>2023-07-09T14:10:05.325Z</updated>
-    
-    <content type="html"><![CDATA[<p>别人做某件事需要帮忙，第一个想到你，你就是在这个领域垄断（占领）了他的心智。</p>
-<p>一块土地上只能建一座房，房子就垄断（占据）了土地增值的红利。</p>
-<p>垄断、占据、卡位，在上述语境下，这些词貌似可以通用、互换。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;别人做某件事需要帮忙，第一个想到你，你就是在这个领域垄断（占领）了他的心智。&lt;/p&gt;
-&lt;p&gt;一块土地上只能建一座房，房子就垄断（占据）了土地增值的红利。&lt;/p&gt;
-&lt;p&gt;垄断、占据、卡位，在上述语境下，这些词貌似可以通用、互换。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0705 - 投入</title>
-    <link href="https://atjason.com/daily/2023-07-05.html"/>
-    <id>https://atjason.com/daily/2023-07-05.html</id>
-    <published>2023-07-05T14:00:00.000Z</published>
-    <updated>2023-07-09T14:09:25.232Z</updated>
-    
-    <content type="html"><![CDATA[<p>跟科学家谈论 8 小时工作制，是没有意义的。</p>
-<p>区别只是，是在实验室搞科研，是在走路时想问题，是在吃饭时思考，是在做梦时灵光一现，还是别的什么。</p>
-<p>但凡全身心投入一件事，莫不如是。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;跟科学家谈论 8 小时工作制，是没有意义的。&lt;/p&gt;
-&lt;p&gt;区别只是，是在实验室搞科研，是在走路时想问题，是在吃饭时思考，是在做梦时灵光一现，还是别的什么。&lt;/p&gt;
-&lt;p&gt;但凡全身心投入一件事，莫不如是。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0704 - 疏远</title>
-    <link href="https://atjason.com/daily/2023-07-04.html"/>
-    <id>https://atjason.com/daily/2023-07-04.html</id>
-    <published>2023-07-04T14:00:00.000Z</published>
-    <updated>2023-07-09T14:08:54.195Z</updated>
-    
-    <content type="html"><![CDATA[<p>成年人的世界里，疏远足矣，不必有敌意。</p>
-<p>不喜欢一个人，不跟他一起玩就好了，不必成为敌人。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;成年人的世界里，疏远足矣，不必有敌意。&lt;/p&gt;
-&lt;p&gt;不喜欢一个人，不跟他一起玩就好了，不必成为敌人。&lt;/p&gt;
 
     
     </summary>
