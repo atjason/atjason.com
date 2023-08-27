@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-08-27T13:39:44.540Z</updated>
+  <updated>2023-08-27T13:43:40.531Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="https://atjason.com/daily/2023-08-23.html"/>
     <id>https://atjason.com/daily/2023-08-23.html</id>
     <published>2023-08-23T14:00:00.000Z</published>
-    <updated>2023-08-27T13:39:44.540Z</updated>
+    <updated>2023-08-27T13:43:40.531Z</updated>
     
     <content type="html"><![CDATA[<p>使用树莓派 4B + wukong 模块 + OpenAI，做了个智能音箱，简单记录下关键节点。</p>
+<p><img src="https://p.nuli.life/blog/hmwwe6.jpg" alt=""></p>
 <p>智能音箱的大概流程是这样的：</p>
 <ul>
 <li>关键词唤醒</li>
@@ -49,6 +50,7 @@
 <p>关于语音全成，默认是 Edge 接口，合成的效果不错。不过，实际有时会慢，比如一句短语可能要 2s 以上，这就比较影响体验，最后选了腾讯语音。</p>
 <p>关于麦克风和扬声器，考虑最后的外观，选择了一个 USB 一体的、方形的设备。这样，可以比较容易和树莓派一起放到一个壳子里。</p>
 <p>说到壳子，自己设计了简单的外壳，正在 3D 打印，收到后再验证。多半，还会再做几版。</p>
+<p><img src="https://p.nuli.life/blog/4kxyb5.jpg" alt=""></p>
 <p>还有其它一些优化，比如：</p>
 <ul>
 <li><code>wukong-robot</code> 在识别出命令后，会先调用百度 Unit 进行第一遍处理，目的是识别出一些预定义的功能，比如「大点声」这类的。问题是，这个操作会增加 3s 的延时。显然，为了低频的预处理，给所有请求都加上延时，是不划算的，于是我去掉了。</li>
@@ -64,11 +66,9 @@
     <summary type="html">
     
       &lt;p&gt;使用树莓派 4B + wukong 模块 + OpenAI，做了个智能音箱，简单记录下关键节点。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/hmwwe6.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 &lt;p&gt;智能音箱的大概流程是这样的：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;关键词唤醒&lt;/li&gt;
-&lt;li&gt;听用户说什么并转换为文字&lt;/li&gt;
-&lt;li&gt;识别文字中的命令并得到答案&lt;/l
+
     
     </summary>
     
