@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-08-20T13:43:05.488Z</updated>
+  <updated>2023-08-27T13:39:44.540Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,113 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0826 - 制作智能音箱</title>
+    <link href="https://atjason.com/daily/2023-08-23.html"/>
+    <id>https://atjason.com/daily/2023-08-23.html</id>
+    <published>2023-08-23T14:00:00.000Z</published>
+    <updated>2023-08-27T13:39:44.540Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用树莓派 4B + wukong 模块 + OpenAI，做了个智能音箱，简单记录下关键节点。</p>
+<p>智能音箱的大概流程是这样的：</p>
+<ul>
+<li>关键词唤醒</li>
+<li>听用户说什么并转换为文字</li>
+<li>识别文字中的命令并得到答案</li>
+<li>将文字转换为音频并播放</li>
+<li>将上述流程串起来</li>
+</ul>
+<p>上面是从技术的角度分析。从产品的角度，还要考虑很多事情</p>
+<ul>
+<li>产品外观及工业设计</li>
+<li>响应速度与使用感受</li>
+<li>稳定性</li>
+<li>电池、功耗、散热等</li>
+</ul>
+<p>从实现的角度，各个模块都有对应的选择，每个模块取最优解，然后组合出产品，是可以的。只是，这会比较耗时。经过简单的比较，选择 <code>wukong-robot</code> 这一成套解决方案。</p>
+<p>关于硬件的选型。先是用我手上吃灰的 Radxa 安装。不过，由于这个硬件比较老了，官方的 Ubuntu 系统很久远，在安装 <code>wukong-robot</code> 时，遇到一系列兼容性问题。花了很多时间后，决定放弃。</p>
+<p>找朋友借来了树莓派 3B。果然，树莓派生态很好。就拿安装系统来说，官方出了多平台的工具，很容易安装指定系统。并且，树莓派的系统是安装在 SD 卡上的。这样，更换 SD 卡就可以更换系统，很方便。</p>
+<p>安装 <code>wukong-robot</code> 后，又遇到问题：这块板的 USB 有故障，识别不了 USB 设备。这就难办了，因为麦克风、扬声器是需要 USB 接口的。没办法，又买了树莓派 4B。</p>
+<p>在新的硬件上，基本跑通了默认系统后，还要有一系列的配置和优化。</p>
+<p>关于后端引擎，最想用的自然是 ChatGPT/OpenAI。不过，这个东西在国内是无法访问的。试了在板子上搭建梯子，可遇到 SSL 的问题，花了很长时间没解决，并且也不是必现的，只是高概率。</p>
+<p>后来想的办法，就使用 Azure 的 ChatGPT 接口。具体的，使用日本的节点，会相对快点。好处是不用梯子，但总的响应速度，还是不如梯子 + OpenAI  接口。先这样用段时间，再考虑优化速度吧。</p>
+<p>关于语音识别，简单比较几个，感觉区别不是太大，最后选了腾讯语音。</p>
+<p>关于语音全成，默认是 Edge 接口，合成的效果不错。不过，实际有时会慢，比如一句短语可能要 2s 以上，这就比较影响体验，最后选了腾讯语音。</p>
+<p>关于麦克风和扬声器，考虑最后的外观，选择了一个 USB 一体的、方形的设备。这样，可以比较容易和树莓派一起放到一个壳子里。</p>
+<p>说到壳子，自己设计了简单的外壳，正在 3D 打印，收到后再验证。多半，还会再做几版。</p>
+<p>还有其它一些优化，比如：</p>
+<ul>
+<li><code>wukong-robot</code> 在识别出命令后，会先调用百度 Unit 进行第一遍处理，目的是识别出一些预定义的功能，比如「大点声」这类的。问题是，这个操作会增加 3s 的延时。显然，为了低频的预处理，给所有请求都加上延时，是不划算的，于是我去掉了。</li>
+<li>但调音量的需求确实存在，于是在发送到 OpenAI 进行识别之前，硬编码对命令进行预识别和处理。这是本地的，不消耗时间。<code>wukong-robot</code> 内置的调音量，是硬编码设置默认设备的，这点改成了可以调节指定设备的。</li>
+<li>替换录音开始、结束的提示音，减缓大延时带来的差体验。</li>
+</ul>
+<p>最终产品，主要是给娃用的，回答他的十万个为什么。从初步使用体验上看，还是满意的。最大的不足是唤醒不灵敏、可能误唤醒。这点之后考虑用麦克风阵列，取代现在的单麦克风。未来，还会根据实际使用来不断改进。</p>
+<p>后记：其实这件事，我几个月前就想做了，拖拖拉拉做到现在。</p>
+<p>最开始，我是想基于现有的智能音箱做二次开发。最后发现，我还是太年轻。但凡厂商，几乎没有真正开放的。如果很容易让别人二次开发，岂不是给别人嫁衣。</p>
+<p>如果自己完整做一个，需要大块的时间，一直没这个勇气，直到最近才下决心。比如，看到人家稚晖君，半年时间就做出那么高级的机器人，自己半年组装不出一个音箱，真是太汗颜了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用树莓派 4B + wukong 模块 + OpenAI，做了个智能音箱，简单记录下关键节点。&lt;/p&gt;
+&lt;p&gt;智能音箱的大概流程是这样的：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;关键词唤醒&lt;/li&gt;
+&lt;li&gt;听用户说什么并转换为文字&lt;/li&gt;
+&lt;li&gt;识别文字中的命令并得到答案&lt;/l
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0822 - 凡是治愈，都是自愈</title>
+    <link href="https://atjason.com/daily/2023-08-22.html"/>
+    <id>https://atjason.com/daily/2023-08-22.html</id>
+    <published>2023-08-22T14:00:00.000Z</published>
+    <updated>2023-08-27T13:03:46.305Z</updated>
+    
+    <content type="html"><![CDATA[<p>凡是治愈，都是自愈。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;凡是治愈，都是自愈。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0821 - 被 Air101 &amp; LuatOS 坑了</title>
+    <link href="https://atjason.com/daily/2023-08-21.html"/>
+    <id>https://atjason.com/daily/2023-08-21.html</id>
+    <published>2023-08-21T14:00:00.000Z</published>
+    <updated>2023-08-27T13:03:19.645Z</updated>
+    
+    <content type="html"><![CDATA[<p>被 Air101 &amp; LuatOS 坑了：升级完固件要重启，而重启时，一定概率会死掉，不响应作何中断，除非断电重插。</p>
+<p>最后发现，是芯片降频至 2MHz 时，就无法执行 reboot 命令、执行就死机。哎，虽然是底层固件的大 Bug，但好歹找到问题，就能规避或解决了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;被 Air101 &amp;amp; LuatOS 坑了：升级完固件要重启，而重启时，一定概率会死掉，不响应作何中断，除非断电重插。&lt;/p&gt;
+&lt;p&gt;最后发现，是芯片降频至 2MHz 时，就无法执行 reboot 命令、执行就死机。哎，虽然是底层固件的大 Bug，但好歹找到问题，就能
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0819 - 食材变了</title>
@@ -430,88 +537,6 @@
     
       &lt;p&gt;比如，要刷机，官方直接提供多平台的刷机工具，点几个按键即可。不用找镜像文件、格式化 SD 卡、写入镜像文件等等，很方便。&lt;/p&gt;
 &lt;p&gt;比如，遇到个问题，很容易通过搜索得到答案。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0724 - Pi 3B 智能音箱</title>
-    <link href="https://atjason.com/daily/2023-07-24.html"/>
-    <id>https://atjason.com/daily/2023-07-24.html</id>
-    <published>2023-07-24T14:00:00.000Z</published>
-    <updated>2023-07-30T15:15:46.923Z</updated>
-    
-    <content type="html"><![CDATA[<p>基本使用 Pi 3B 运行起来 wukong 智能音箱。</p>
-<p>不过，发现个问题：这家伙功率挺大。运行 wukong 时，基本功率要 2.5W。这意味着很难用电池供电了。比如，2500mAh 的电池，也就够运行 1 小时。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;基本使用 Pi 3B 运行起来 wukong 智能音箱。&lt;/p&gt;
-&lt;p&gt;不过，发现个问题：这家伙功率挺大。运行 wukong 时，基本功率要 2.5W。这意味着很难用电池供电了。比如，2500mAh 的电池，也就够运行 1 小时。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0723 - 折腾智能音箱</title>
-    <link href="https://atjason.com/daily/2023-07-23.html"/>
-    <id>https://atjason.com/daily/2023-07-23.html</id>
-    <published>2023-07-23T14:00:00.000Z</published>
-    <updated>2023-07-23T14:04:54.784Z</updated>
-    
-    <content type="html"><![CDATA[<p>一直对智能音箱有兴趣，周末再次折腾了一把。</p>
-<p>简单调研了下，现有的智能音箱都非常封闭，开放能力非常有限。想在已有音箱上二次开发，达不到自己想要的效果。</p>
-<p>如果从 0 开始做，又太花时间精力。</p>
-<p>折衷的办法，就是找成型的技术方案，在此基础上进行修改和适配，以符合自己的需求。</p>
-<p>又简单调研了下，选择了 <a href="https://wukong.hahack.com/" target="_blank" rel="external">https://wukong.hahack.com/</a> 这个开源项目（简单了解了作者，可能跟自己差不多年纪，惭愧啊）。简单在 macOS 系统上安装运行环境，基本跑通了：支持自定义唤醒词、识别语音转文字、向 OpenAI 请求并得到回答、将文字转换为语音并播放。</p>
-<p>下一步，就是把这套系统搬到小的开发板上，然后封装到音箱中。我手上有个吃灰的 Radxa Rock，拿出来把灰尘吹掉，通电，倒是能启动。尝试安装，遇到各种问题，直到几乎解决不了。核心是，这硬件太老，几乎是 10 年前的，软件系统太旧，不容易升级到最新的；而 wukong 这套软件，又需要比较新的运行环境。二者对不上，于是运行不了。</p>
-<p>都想着再花钱，买个能运行最新版 Ubuntu 的开发板。这就有两个选择：</p>
-<ul>
-<li>树莓派。好处是软件生态齐全；缺点是现在价格偏高。</li>
-<li>其他派。和树莓派几乎相反：硬件参数上没输过，软件生态上没盈过。</li>
-</ul>
-<p>考虑到 Radxa Rock 就是个小众的开发板，光是装软件就花不少时间。吃了亏，这次就只考虑树莓派了。正好朋友手上有个吃灰的 3B，准备拿过来先研究下。</p>
-<p>现在最大的不确定性，还是麦克风和音箱。初步打算，买个二手的音箱，只用其外壳、喇叭和麦克风；内部拆掉，替换成树莓派及相关配件。争取这一两周能做个原型出来。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一直对智能音箱有兴趣，周末再次折腾了一把。&lt;/p&gt;
-&lt;p&gt;简单调研了下，现有的智能音箱都非常封闭，开放能力非常有限。想在已有音箱上二次开发，达不到自己想要的效果。&lt;/p&gt;
-&lt;p&gt;如果从 0 开始做，又太花时间精力。&lt;/p&gt;
-&lt;p&gt;折衷的办法，就是找成型的技术方案，在此基础上
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0722 - 为什么北京故宫的排水系统为何能抗住暴雨？</title>
-    <link href="https://atjason.com/daily/2023-07-22.html"/>
-    <id>https://atjason.com/daily/2023-07-22.html</id>
-    <published>2023-07-22T14:00:00.000Z</published>
-    <updated>2023-07-23T13:54:31.075Z</updated>
-    
-    <content type="html"><![CDATA[<p>因为那时候工匠造豆腐渣工程会被诛九族，而现在施工队造豆腐渣工程可以大富大贵。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;因为那时候工匠造豆腐渣工程会被诛九族，而现在施工队造豆腐渣工程可以大富大贵。&lt;/p&gt;
 
     
     </summary>
