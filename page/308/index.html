@@ -267,6 +267,610 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-22.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2019-03-22.html" itemprop="url">
+                  0322 - 响应 GitHub Webhooks 实现自动部署的 Web 服务
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-22T22:00:00+08:00">
+                2019-03-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天研究并实现一个响应 GitHub Webhooks 实现自动部署的 Web 服务。简单收拾了下代码和文档，<a href="https://github.com/atjason/deploy" target="_blank" rel="external">开源至此</a></p>
+<h2 id="前提条件"><a href="#前提条件" class="headerlink" title="前提条件"></a>前提条件</h2><p>这并不是一个 Hello Word 教学示例，而是我自己在用的实际项目。假设你已经知道下列技术或满足其条件：</p>
+<ul>
+<li>有一台自己的服务器</li>
+<li>会配置域名</li>
+<li>会配置 nginx 或者其他 Web 服务器，实现 Web 服务至 node 服务的转发</li>
+<li>了解 node、koa</li>
+<li>了解 Webhooks</li>
+<li>了解 SMTP</li>
+<li>会编辑 shell 脚本</li>
+</ul>
+<h2 id="主要功能"><a href="#主要功能" class="headerlink" title="主要功能"></a>主要功能</h2><ul>
+<li><code>node lib/index.js</code> 运行后，在 <code>3030</code> 端口提供可响应 GitHub Webhook 的服务</li>
+<li>内部通过 <code>exec</code> 来调用实际工作的 shell 脚本（需要自己编写）</li>
+<li>发邮件告知运行结果</li>
+</ul>
+<h2 id="主要配置"><a href="#主要配置" class="headerlink" title="主要配置"></a>主要配置</h2><p>均位于 <code>config</code> 目录，参照 <code>*_demo.json</code>，添加没有 <code>_demo</code> 的版本</p>
+<h3 id="config-json"><a href="#config-json" class="headerlink" title="config.json"></a>config.json</h3><p>可为每个仓库、分支创建对应的配置：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="string">"webhook-test_master"</span>: &#123; <span class="comment">// RepositoryName_BranchName</span></div><div class="line">    <span class="string">"secret"</span>: <span class="string">"GitHub_Webhook_secret"</span>,</div><div class="line">    <span class="string">"cwd"</span>: <span class="string">"/home/jason/testapi/"</span>, <span class="comment">// 脚本执行目录</span></div><div class="line">    <span class="string">"command"</span>: <span class="string">"/bin/bash ./deploy.sh"</span>, <span class="comment">// 真正工作的 shell 脚本</span></div><div class="line">    <span class="string">"env"</span>: &#123; <span class="comment">// 一些环境变量</span></div><div class="line">      <span class="string">"DEBUG"</span>: <span class="string">"s:*"</span></div><div class="line">    &#125;</div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="security-json"><a href="#security-json" class="headerlink" title="security.json"></a>security.json</h3><p>目前主要存储了 SMTP 配置信息，用于发告知邮件：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line">&#123;</div><div class="line">  <span class="string">"mailConfig"</span>: &#123;</div><div class="line">    <span class="string">"host"</span>: <span class="string">"email-smtp.us-west-2.amazonaws.com"</span>,</div><div class="line">    <span class="string">"port"</span>: <span class="string">"465"</span>,</div><div class="line">    <span class="string">"user"</span>: <span class="string">"user123"</span>,</div><div class="line">    <span class="string">"password"</span>: <span class="string">"password123"</span>,</div><div class="line">    <span class="string">"from"</span>: <span class="string">"from@gmail.com"</span>,</div><div class="line">    <span class="string">"to"</span>: <span class="string">"to@gmail.com"</span></div><div class="line">  &#125;  </div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="琐碎的"><a href="#琐碎的" class="headerlink" title="琐碎的"></a>琐碎的</h2><p>关于 GitHub Webhook，记得生成密码、选择 <code>json</code> 格式。</p>
+<p>关于 shell 脚本，可以通过 <code>2&gt;&amp;1</code> 将其中不重要的 warn/error，从 stderr 转到 stdout 中。</p>
+<p>关于邮件服务，我开始时用的是阿里云，但出现了提示发送成功、但实际不破功的情况，垃圾箱也没有。后来试了 Amazon SES，目前一切顺利；每天 200 封免费邮件额度。</p>
+<p>使用 VSCode 编写调试，<code>.vscode</code> 配置本身也包含在项目中了。</p>
+<p>如果你遇到了问题，多问问 Google 和自己；我这边是顺畅运行的。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-21.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2019-03-21.html" itemprop="url">
+                  0321 - 简单折腾了 Docker
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-21T22:00:00+08:00">
+                2019-03-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>本来要做微信登录，一直被微信审核给卡着，烦；就折腾了 Docker.</p>
+<p>目前来看，我对 Docker 的使用还在 Container 级别。比如，需要使用 mongodb；本来是全局安装，测试和生产环境使用相同的 mongo、不同的 db. 有了 Docker 之后，可以运行不同的 mongodb Container，分隔的更彻底些，理论上扩展性也更好些。再加上结果 Docker Volume，可以更好地备份恢复数据。</p>
+<p>顺带着还有个好处：临时学习某技术时，不用全局安装其运行环境，而是安装一个 Docker 镜像，在这个沙盒里随意折腾，而不用担心污染电脑主环境。试用后发现不需要，直接删除 images 即可；需要时，才考虑在电脑主环境安装。</p>
+<p>进阶的，还没有用于 Images/Stack/Swarm 级别；不过还是跟着官方介绍跑了一遍，大致知道是怎么回事。等将来用的时候，再细细口味。</p>
+<p>比如，明天准备搭个 webhook 的响应服务，就可以用上 Docker 来开发和部署。虽然我还是觉得有点不适应，平白多了一些步骤，不过还是硬着头皮上吧，逼自己适应 Docker 的套路。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-20.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2019-03-20.html" itemprop="url">
+                  0320 - 学习的两个阶段
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-20T22:00:00+08:00">
+                2019-03-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="一、野蛮学习阶段"><a href="#一、野蛮学习阶段" class="headerlink" title="一、野蛮学习阶段"></a>一、野蛮学习阶段</h2><p>学新东西时，先不要太过在意能否应用到生产中、怎么用。<strong>先把自己完全沉浸到新东西中，用新东西的视角和思维模式来理解一切。</strong><br>打个比方，自己之前擅长用螺丝刀解决一切问题。现在开始学锤子，先不着急和螺丝刀比较，而是认真学习锤子的使用方式，把全世界看成钉子。</p>
+<h2 id="二、为我所用阶段"><a href="#二、为我所用阶段" class="headerlink" title="二、为我所用阶段"></a>二、为我所用阶段</h2><p>等到了一定程度，再跳出来，和已有的东西交融。</p>
+<p>比如，和螺丝刀相比，锤子在哪些方面更好使；又有哪些局限，还是有螺丝刀更顺手；<br>比如，我目前正在使用的技术和方式，有哪些不足；和新东西相比，互相有哪些优缺点。</p>
+<p>既不盲目崇拜新东西、把已有的拍死，也不要过早因为新东西的局限而下结论。</p>
+<p><strong>更关键的</strong>，是已经会的、和新学的东西之间，如何交融，如何发挥双方的特长，<strong>如何更新自己的技术树</strong>。该用锤子用锤子，该用螺丝刀则继续使用螺丝刀。</p>
+<p><strong>吸星大法</strong>，你怕不怕？</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-19.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2019-03-19.html" itemprop="url">
+                  0319 - 被微信审核搞得有点烦
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-19T22:00:00+08:00">
+                2019-03-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>这周本来有几项关键词改进的功能，这些功能都或多或少依赖微信登录。可，在微信开放平台创建应用需要审核。审核也就罢了，等了 2 天，竟然审核没通过，说是提供的材料缺少盖章。</p>
+<p>哎，能不能专业点，我用的是个体户资质，本来就没公章，去淘宝买个萝卜章给你盖上啊？被拒后，连个申诉的入口都没有，发邮件也没任何反应，真是相当糟糕的体验。</p>
+<p>既影响进度、又影响心情，干脆不搞了，去学 Docker，换个心情。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-18.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -402,599 +1006,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-17.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2019-03-17.html" itemprop="url">
-                  0317 - 与头部合作
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-17T22:00:00+08:00">
-                2019-03-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>「<strong>关键词排名监控</strong>」这个项目，需要引入 <strong>账户系统</strong>，用于在不同设备间同步数据，以及将来可能的付费账户体系。</p>
-<p>首先，<strong>放弃使用邮箱、手机号等方式自建账户体系</strong>。因为坑太多、成本太高。比如什么被批量注册、修改密码、复杂的找回密码机制、甚至是貌似简单的登出机制、发短信要钱、等等，都是额外的工作量和成本。</p>
-<p><strong>对于小项目，还是使用微信、QQ、微博等平台开放的账户体系比较快捷</strong>，省去上面说的诸多麻烦。<strong>对用户也方便</strong>，不用再记一个密码。但有一点一定要注意：<strong>更改账户麻烦</strong>。比如是给公司用的账户，如果用的是员工个人的微信，那员工离职时账户的交接，就是比较麻烦的事。</p>
-<p>说个插曲，<strong>如果你业务比较大，大到威胁到这个平台本身的利益，那就一定要自建账户体系了</strong>；比如刚刚发生不久的微信停止支持登录抖音。<strong>一旦涉及到商业利益，什么开放、合作、诚信、包容，统统扯淡</strong>。</p>
-<p>绕了一圈，说回标题（不是标题党）；在这些平台提供的账户体系中，<strong>最好是使用微信</strong>，因为用户使用方便，比如在微信中几乎可以无缝登录。<strong>但</strong>，这有个很麻烦的前提：<strong>需要认证微信开放平台</strong>。而这个「开放」平台，<strong>并不对个人开放</strong>，需要用到企业资质，同时网站也必须备案。我觉得麻烦，但想退而求其次，使用 QQ 登录，结果发现也是个坑。</p>
-<p>「QQ 登录」，只是我们的说法，真实的情况是，分了「腾讯开放平台」和「QQ 互联」2 个东西。以我目前的理解，其内部账户又是半互通。这也就算了，关键官网各种低级问题，开发者资料根本无法提交，更别说审核通过了；其文档也极其陈旧，官方的 js sdk 「最新版」是 2012 年的，可谓史前级了。客服入口很隐蔽，找到了也根本联系不上。</p>
-<p>总之，各种难受之后，本着珍惜生命的原则，我还是 <strong>弃坑 QQ 登录了</strong>。目光重新移回微信登录，意外发现，<strong>个体户也可以认证微信开放平台</strong>。于是屁颠屁颠地填表、签字并上传、交 300 元认证费用。第三方认证倒是很快，10 分钟就打电话，几小时便认证成功了。</p>
-<p>当然，后续还是有坑的，比如创建应用又要审核…（微信应该是是靠审核发家致富的无疑…）Anyway，和 QQ 登录相比，也是云泥有别了。至少，遇到问题相信找官方支持，也更容易些。</p>
-<p>经过这次，我更加感觉，<strong>在选择合作伙伴时，一定要选好的、最好是最好的</strong>。表面上前期成本会高些，但长期看，绝对能值回票价。不要在这点上将就，切记。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-16.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2019-03-16.html" itemprop="url">
-                  0316 - 不负春光
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-16T22:00:00+08:00">
-                2019-03-16
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>最近这天气真是舒服啊，暖阳轻风，不冷不热，惬意~</p>
-<p>这两天又看到一些优秀还比自己年轻的经历，各种角度受打击。通常，这种时候我都会想，如果当初我怎样怎样，结果肯定要比现在好很多。</p>
-<p>努力，最好的时间是昨天，其次是现在；不负春光。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-15.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2019-03-15.html" itemprop="url">
-                  0315 - 每天预留自由时间
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-15T22:00:00+08:00">
-                2019-03-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>结论：每天晚上 11 点之后，不再做业务相关的事情，只用来思考、学习、或发呆。</p>
-<p>忙了一天，需要一个调整切换的时期：</p>
-<ul>
-<li>比如，在赶业务时暂时搁置的不熟悉的部分，学习之；</li>
-<li>比如，思考今天的技术方案，有没有更好的实现方式；</li>
-<li>比如，跳出具体的事情，从更多的角度审视项目所处的状态，确定明天最应该做什么；</li>
-<li>比如，就是休息一下，放空大脑；</li>
-</ul>
-<p>做完这一切，正好是新的一天的形女以；从睡觉回血开始，开启美妙的一天。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2019-03-14.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2019-03-14.html" itemprop="url">
-                  0314 - 所有好的，都值得大力称赞
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-03-14T22:00:00+08:00">
-                2019-03-14
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>比如机动车在斑马线上让行人。我们先不考虑效率等因素，先假定这是好的行为。那么，不论让行人的动机，是司机主动礼让，还是不想被拍照扣分，都应该大力称赞这种行为。</p>
-<p>核心的一点是，不能因为动机是怕被拍照扣分，就认为这么行为不值得表扬，更不能觉得「本该如此」人们本该善良、本该助人这样的人设，并不出现在现实中，可能童话或动画片里会有。</p>
-<p>如果愿意用一分来唾弃不好的，就要用十分来称赞好的；别因动机而吝啬你的表扬。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/307/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/307/">307</a><span class="page-number current">308</span><a class="page-number" href="/page/309/">309</a><span class="space">&hellip;</span><a class="page-number" href="/page/566/">566</a><a class="extend next" rel="next" href="/page/309/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/307/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/307/">307</a><span class="page-number current">308</span><a class="page-number" href="/page/309/">309</a><span class="space">&hellip;</span><a class="page-number" href="/page/567/">567</a><a class="extend next" rel="next" href="/page/309/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1039,7 +1055,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2828</span>
+                <span class="site-state-item-count">2832</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

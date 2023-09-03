@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-08-27T13:43:40.531Z</updated>
+  <updated>2023-09-03T13:43:38.023Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,100 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0831 - 距离带来的不可思议</title>
+    <link href="https://atjason.com/daily/2023-08-31.html"/>
+    <id>https://atjason.com/daily/2023-08-31.html</id>
+    <published>2023-08-31T14:00:00.000Z</published>
+    <updated>2023-09-03T13:43:38.023Z</updated>
+    
+    <content type="html"><![CDATA[<p>有一个很有意思的说法，如果你站在2000多光年外，拿着一个足够牛的望远镜，那么你就可以看见秦始皇。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有一个很有意思的说法，如果你站在2000多光年外，拿着一个足够牛的望远镜，那么你就可以看见秦始皇。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0830 - 天才与自闭症</title>
+    <link href="https://atjason.com/daily/2023-08-30.html"/>
+    <id>https://atjason.com/daily/2023-08-30.html</id>
+    <published>2023-08-30T14:00:00.000Z</published>
+    <updated>2023-09-03T13:42:35.114Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多天才有自闭症，这个病并不会导致天才，但却可以排除外界干扰，专心做某件事，重复的次数多了自然有效果。</p>
+<p>如果说这个时代有啥明显的好处，就是对自闭症患者极度友好，完全可以把自己封闭起来，钻进自己的小世界里，集中注意力干点自己的事，说不定也能取得很高的成就。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很多天才有自闭症，这个病并不会导致天才，但却可以排除外界干扰，专心做某件事，重复的次数多了自然有效果。&lt;/p&gt;
+&lt;p&gt;如果说这个时代有啥明显的好处，就是对自闭症患者极度友好，完全可以把自己封闭起来，钻进自己的小世界里，集中注意力干点自己的事，说不定也能取得很高的成就。&lt;/p
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0829 - 特斯拉单踏板模式</title>
+    <link href="https://atjason.com/daily/2023-08-29.html"/>
+    <id>https://atjason.com/daily/2023-08-29.html</id>
+    <published>2023-08-29T14:00:00.000Z</published>
+    <updated>2023-09-03T13:42:00.783Z</updated>
+    
+    <content type="html"><![CDATA[<p>一个观点：特斯拉单踏板模式，作者说无论如何不要完全使用单踏板模式（特斯拉有刹车板，而且也可以两个一起用），一定要不断地用刹车。</p>
+<p>关键的时候那救命的极限一脚，可能需要平时踩一万次才能练成不经大脑的肌肉记忆，让你在0.1秒内做出生死攸关的决责。</p>
+<p>而如果是单踏板模式，几乎放弃了对刹车的训练，真到了紧急时，下意识抬脚，肯定不如用力踩下刹车可靠。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个观点：特斯拉单踏板模式，作者说无论如何不要完全使用单踏板模式（特斯拉有刹车板，而且也可以两个一起用），一定要不断地用刹车。&lt;/p&gt;
+&lt;p&gt;关键的时候那救命的极限一脚，可能需要平时踩一万次才能练成不经大脑的肌肉记忆，让你在0.1秒内做出生死攸关的决责。&lt;/p&gt;
+&lt;p&gt;而如
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0828 - Air101 和 LuatOS 的一个坑</title>
+    <link href="https://atjason.com/daily/2023-08-28.html"/>
+    <id>https://atjason.com/daily/2023-08-28.html</id>
+    <published>2023-08-28T14:00:00.000Z</published>
+    <updated>2023-09-03T13:39:48.391Z</updated>
+    
+    <content type="html"><![CDATA[<p>LuatOS 内部是以32位存储秒级时间戳。这倒也没什么，可它是将1970年作为默认时间。考虑到32位数字容量，2036年就到期了。</p>
+<p>当我还在担心之后怎么办时，它又在某次更新中，悄悄将默认时间改为1971年。一方面，这种级别的改动，有点随意了。且不说，1971和常用的1970比，还是随意了。</p>
+<p>还是年轻，之前是和常量1970比较，判断系统是否初始化。还好及时发现这个变化，干脆改成和2000年比较了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;LuatOS 内部是以32位存储秒级时间戳。这倒也没什么，可它是将1970年作为默认时间。考虑到32位数字容量，2036年就到期了。&lt;/p&gt;
+&lt;p&gt;当我还在担心之后怎么办时，它又在某次更新中，悄悄将默认时间改为1971年。一方面，这种级别的改动，有点随意了。且不说，1971
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0826 - 制作智能音箱</title>
@@ -432,111 +526,6 @@
     <summary type="html">
     
       &lt;p&gt;谁有权力决定，泄洪淹一个地方，以保另外一个地方？有效地提前打招呼了吗？&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0801 - 老大与老二必有一战</title>
-    <link href="https://atjason.com/daily/2023-08-01.html"/>
-    <id>https://atjason.com/daily/2023-08-01.html</id>
-    <published>2023-08-01T14:00:00.000Z</published>
-    <updated>2023-08-06T14:25:45.397Z</updated>
-    
-    <content type="html"><![CDATA[<p>修昔底德陷阱，老大跟上升的老二必有一战。</p>
-<p>其实这个世界的格局里，老大就是平台，老二就是商家。老大建立体系，并花成本维持秩序，当然有收税的权利。老二在这个体系里长起来的，享受了秩序的红利，也一直进贡。</p>
-<p>但当老二长到接近老大的时候，碰到天花板了，老大用金融战、科技战、贸易战，把你挤出这个体系。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;修昔底德陷阱，老大跟上升的老二必有一战。&lt;/p&gt;
-&lt;p&gt;其实这个世界的格局里，老大就是平台，老二就是商家。老大建立体系，并花成本维持秩序，当然有收税的权利。老二在这个体系里长起来的，享受了秩序的红利，也一直进贡。&lt;/p&gt;
-&lt;p&gt;但当老二长到接近老大的时候，碰到天花板了，老大
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0730 - 杭州十里龙脊</title>
-    <link href="https://atjason.com/daily/2023-07-30.html"/>
-    <id>https://atjason.com/daily/2023-07-30.html</id>
-    <published>2023-07-30T14:00:00.000Z</published>
-    <updated>2023-07-30T15:22:05.889Z</updated>
-    
-    <content type="html"><![CDATA[<p>好久没爬山了，今天挑战了下杭州十里龙脊。就是从老和山上，从桃桂山下。</p>
-<p><img src="https://p.nuli.life/blog/sqrspj.jpeg" alt=""></p>
-<p>实测有 18 公里（走了点回头路拿东西），喝了6瓶水。</p>
-<p>下山后腿有点累，好在没抖。期间左膝盖有点不舒服的感觉，放慢节奏，就好些了。</p>
-<p>小米手环没有爬山模式，用户外跑步替代，勉强记录了里程和时长。据说，这条线累计爬升有 4000 米。</p>
-<p><img src="https://p.nuli.life/blog/gz2bit.jpg" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;好久没爬山了，今天挑战了下杭州十里龙脊。就是从老和山上，从桃桂山下。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/sqrspj.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;实测有 18 公里（走了点回头路拿东西），喝了6瓶水。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0726 - 中等认知陷阱</title>
-    <link href="https://atjason.com/daily/2023-07-26.html"/>
-    <id>https://atjason.com/daily/2023-07-26.html</id>
-    <published>2023-07-26T14:00:00.000Z</published>
-    <updated>2023-07-30T15:16:42.763Z</updated>
-    
-    <content type="html"><![CDATA[<p>有这么个实验，将蜜蜂和苍蝇装在玻璃瓶内，瓶底一侧打光。结果，蜜蜂朝光亮的地方飞，撞在瓶底，始终飞不出去，最终被困死。而苍蝇胡乱的飞，却全部飞出了瓶子。</p>
-<p>蜜蜂是比苍蝇聪明，却输在了自己的聪明上。</p>
-<p>要么，退回到苍蝇模式，强调执行；</p>
-<p>要么，超越蜜蜂。比如，拥有多元思维，交叉验证。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有这么个实验，将蜜蜂和苍蝇装在玻璃瓶内，瓶底一侧打光。结果，蜜蜂朝光亮的地方飞，撞在瓶底，始终飞不出去，最终被困死。而苍蝇胡乱的飞，却全部飞出了瓶子。&lt;/p&gt;
-&lt;p&gt;蜜蜂是比苍蝇聪明，却输在了自己的聪明上。&lt;/p&gt;
-&lt;p&gt;要么，退回到苍蝇模式，强调执行；&lt;/p&gt;
-&lt;p&gt;要么
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0725 - 还是树莓派的资源多</title>
-    <link href="https://atjason.com/daily/2023-07-25.html"/>
-    <id>https://atjason.com/daily/2023-07-25.html</id>
-    <published>2023-07-25T14:00:00.000Z</published>
-    <updated>2023-07-30T15:16:15.188Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，要刷机，官方直接提供多平台的刷机工具，点几个按键即可。不用找镜像文件、格式化 SD 卡、写入镜像文件等等，很方便。</p>
-<p>比如，遇到个问题，很容易通过搜索得到答案。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，要刷机，官方直接提供多平台的刷机工具，点几个按键即可。不用找镜像文件、格式化 SD 卡、写入镜像文件等等，很方便。&lt;/p&gt;
-&lt;p&gt;比如，遇到个问题，很容易通过搜索得到答案。&lt;/p&gt;
 
     
     </summary>
