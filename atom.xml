@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-09-17T12:46:23.446Z</updated>
+  <updated>2023-09-24T15:58:10.058Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,187 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0923 - 幼小脱节</title>
+    <link href="https://atjason.com/daily/2023-09-23.html"/>
+    <id>https://atjason.com/daily/2023-09-23.html</id>
+    <published>2023-09-23T14:00:00.000Z</published>
+    <updated>2023-09-24T15:58:10.058Z</updated>
+    
+    <content type="html"><![CDATA[<p>幼儿园不让教拼音、不学认识；小学默认你全都会。</p>
+<p>就跟上大学不让你谈恋爱，毕业立马催你结婚一样。</p>
+<p>如果没有家长全程陪同，小一是不可能完全作业的。这意味着必然有一位家长，牺牲自己的事业，投入大量的时间精力到小孩的学业上。如果是二孩，就是两位家长。三孩呢？</p>
+<p>总是喊减负，正说明了负担很重。不是不敢生，而是不敢想要陪读十几年。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;幼儿园不让教拼音、不学认识；小学默认你全都会。&lt;/p&gt;
+&lt;p&gt;就跟上大学不让你谈恋爱，毕业立马催你结婚一样。&lt;/p&gt;
+&lt;p&gt;如果没有家长全程陪同，小一是不可能完全作业的。这意味着必然有一位家长，牺牲自己的事业，投入大量的时间精力到小孩的学业上。如果是二孩，就是两位家长。三孩
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0922 - 年纪大了</title>
+    <link href="https://atjason.com/daily/2023-09-22.html"/>
+    <id>https://atjason.com/daily/2023-09-22.html</id>
+    <published>2023-09-22T14:00:00.000Z</published>
+    <updated>2023-09-24T09:11:04.392Z</updated>
+    
+    <content type="html"><![CDATA[<p>年纪大了；看比赛，之前的运动员现在都成教练了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;年纪大了；看比赛，之前的运动员现在都成教练了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0921 - TF 卡坏了</title>
+    <link href="https://atjason.com/daily/2023-09-21.html"/>
+    <id>https://atjason.com/daily/2023-09-21.html</id>
+    <published>2023-09-21T14:00:00.000Z</published>
+    <updated>2023-09-24T09:10:22.110Z</updated>
+    
+    <content type="html"><![CDATA[<p>好不容易有时间折腾树莓派，结果发现 TF 卡坏了，郁闷。卡不值钱，可配置卡所花费的时间值钱啊。</p>
+<p>了解了一下，买了 SanDisk Max Endurance；号称是专为监控之类的设备使用的，高耐用，号称能工作 15000 小时，也就是差不多 2 年，希望能抗造吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好不容易有时间折腾树莓派，结果发现 TF 卡坏了，郁闷。卡不值钱，可配置卡所花费的时间值钱啊。&lt;/p&gt;
+&lt;p&gt;了解了一下，买了 SanDisk Max Endurance；号称是专为监控之类的设备使用的，高耐用，号称能工作 15000 小时，也就是差不多 2 年，希望能抗造
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0920 - 智能模块加个物理 Reset 开关</title>
+    <link href="https://atjason.com/daily/2023-09-20.html"/>
+    <id>https://atjason.com/daily/2023-09-20.html</id>
+    <published>2023-09-20T14:00:00.000Z</published>
+    <updated>2023-09-24T09:10:03.228Z</updated>
+    
+    <content type="html"><![CDATA[<p>准备给智能模块加个物理 Reset 开关。</p>
+<p>其实，很多硬件设备上都有此类开关，比如路由器就比较常见。</p>
+<p>本来想，硬件做得优雅，就不需要物理开关。现在看，意外情况总是有，还是要考虑售后的问题。认怂。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;准备给智能模块加个物理 Reset 开关。&lt;/p&gt;
+&lt;p&gt;其实，很多硬件设备上都有此类开关，比如路由器就比较常见。&lt;/p&gt;
+&lt;p&gt;本来想，硬件做得优雅，就不需要物理开关。现在看，意外情况总是有，还是要考虑售后的问题。认怂。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0919 - 智能音箱按键开关</title>
+    <link href="https://atjason.com/daily/2023-09-19.html"/>
+    <id>https://atjason.com/daily/2023-09-19.html</id>
+    <published>2023-09-19T14:00:00.000Z</published>
+    <updated>2023-09-24T09:09:14.997Z</updated>
+    
+    <content type="html"><![CDATA[<p>智能音箱的语音识别不好用：</p>
+<ul>
+<li>开机启动总是失败</li>
+<li>唤醒不灵敏</li>
+<li>播放语音时容易被误唤醒</li>
+</ul>
+<p>准备改成按键式。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;智能音箱的语音识别不好用：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开机启动总是失败&lt;/li&gt;
+&lt;li&gt;唤醒不灵敏&lt;/li&gt;
+&lt;li&gt;播放语音时容易被误唤醒&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;准备改成按键式。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0918 - 九一八事变</title>
+    <link href="https://atjason.com/daily/2023-09-18.html"/>
+    <id>https://atjason.com/daily/2023-09-18.html</id>
+    <published>2023-09-18T14:00:00.000Z</published>
+    <updated>2023-09-24T09:08:42.522Z</updated>
+    
+    <content type="html"><![CDATA[<p>918和亚运会，哪个更重要？</p>
+<p>没响的防守警报，是杭州政府的回答。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;918和亚运会，哪个更重要？&lt;/p&gt;
+&lt;p&gt;没响的防守警报，是杭州政府的回答。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0917 - 制冷系统</title>
+    <link href="https://atjason.com/daily/2023-09-17.html"/>
+    <id>https://atjason.com/daily/2023-09-17.html</id>
+    <published>2023-09-17T14:00:00.000Z</published>
+    <updated>2023-09-24T09:08:02.389Z</updated>
+    
+    <content type="html"><![CDATA[<p>制冷系统，消耗了全球17%的能量。预计到2050年，还会涨至6倍。</p>
+<p>而因此产生的全球变暖，占9%。</p>
+<p>而越暖，越需要制冷，明显的恶性循环。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;制冷系统，消耗了全球17%的能量。预计到2050年，还会涨至6倍。&lt;/p&gt;
+&lt;p&gt;而因此产生的全球变暖，占9%。&lt;/p&gt;
+&lt;p&gt;而越暖，越需要制冷，明显的恶性循环。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0916 - 专注、全力以赴</title>
@@ -325,207 +506,6 @@
 &lt;p&gt;据统计，2016年2月，维基百科97%的文章都是如此。&lt;/p&gt;
 &lt;p&gt;对任何问题进行解释，不断深入，最终一定会变成哲学问题。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0831 - 距离带来的不可思议</title>
-    <link href="https://atjason.com/daily/2023-08-31.html"/>
-    <id>https://atjason.com/daily/2023-08-31.html</id>
-    <published>2023-08-31T14:00:00.000Z</published>
-    <updated>2023-09-03T13:43:38.023Z</updated>
-    
-    <content type="html"><![CDATA[<p>有一个很有意思的说法，如果你站在2000多光年外，拿着一个足够牛的望远镜，那么你就可以看见秦始皇。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有一个很有意思的说法，如果你站在2000多光年外，拿着一个足够牛的望远镜，那么你就可以看见秦始皇。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0830 - 天才与自闭症</title>
-    <link href="https://atjason.com/daily/2023-08-30.html"/>
-    <id>https://atjason.com/daily/2023-08-30.html</id>
-    <published>2023-08-30T14:00:00.000Z</published>
-    <updated>2023-09-03T13:42:35.114Z</updated>
-    
-    <content type="html"><![CDATA[<p>很多天才有自闭症，这个病并不会导致天才，但却可以排除外界干扰，专心做某件事，重复的次数多了自然有效果。</p>
-<p>如果说这个时代有啥明显的好处，就是对自闭症患者极度友好，完全可以把自己封闭起来，钻进自己的小世界里，集中注意力干点自己的事，说不定也能取得很高的成就。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;很多天才有自闭症，这个病并不会导致天才，但却可以排除外界干扰，专心做某件事，重复的次数多了自然有效果。&lt;/p&gt;
-&lt;p&gt;如果说这个时代有啥明显的好处，就是对自闭症患者极度友好，完全可以把自己封闭起来，钻进自己的小世界里，集中注意力干点自己的事，说不定也能取得很高的成就。&lt;/p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0829 - 特斯拉单踏板模式</title>
-    <link href="https://atjason.com/daily/2023-08-29.html"/>
-    <id>https://atjason.com/daily/2023-08-29.html</id>
-    <published>2023-08-29T14:00:00.000Z</published>
-    <updated>2023-09-03T13:42:00.783Z</updated>
-    
-    <content type="html"><![CDATA[<p>一个观点：特斯拉单踏板模式，作者说无论如何不要完全使用单踏板模式（特斯拉有刹车板，而且也可以两个一起用），一定要不断地用刹车。</p>
-<p>关键的时候那救命的极限一脚，可能需要平时踩一万次才能练成不经大脑的肌肉记忆，让你在0.1秒内做出生死攸关的决责。</p>
-<p>而如果是单踏板模式，几乎放弃了对刹车的训练，真到了紧急时，下意识抬脚，肯定不如用力踩下刹车可靠。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一个观点：特斯拉单踏板模式，作者说无论如何不要完全使用单踏板模式（特斯拉有刹车板，而且也可以两个一起用），一定要不断地用刹车。&lt;/p&gt;
-&lt;p&gt;关键的时候那救命的极限一脚，可能需要平时踩一万次才能练成不经大脑的肌肉记忆，让你在0.1秒内做出生死攸关的决责。&lt;/p&gt;
-&lt;p&gt;而如
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0828 - Air101 和 LuatOS 的一个坑</title>
-    <link href="https://atjason.com/daily/2023-08-28.html"/>
-    <id>https://atjason.com/daily/2023-08-28.html</id>
-    <published>2023-08-28T14:00:00.000Z</published>
-    <updated>2023-09-03T13:39:48.391Z</updated>
-    
-    <content type="html"><![CDATA[<p>LuatOS 内部是以32位存储秒级时间戳。这倒也没什么，可它是将1970年作为默认时间。考虑到32位数字容量，2036年就到期了。</p>
-<p>当我还在担心之后怎么办时，它又在某次更新中，悄悄将默认时间改为1971年。一方面，这种级别的改动，有点随意了。且不说，1971和常用的1970比，还是随意了。</p>
-<p>还是年轻，之前是和常量1970比较，判断系统是否初始化。还好及时发现这个变化，干脆改成和2000年比较了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;LuatOS 内部是以32位存储秒级时间戳。这倒也没什么，可它是将1970年作为默认时间。考虑到32位数字容量，2036年就到期了。&lt;/p&gt;
-&lt;p&gt;当我还在担心之后怎么办时，它又在某次更新中，悄悄将默认时间改为1971年。一方面，这种级别的改动，有点随意了。且不说，1971
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0826 - 制作智能音箱</title>
-    <link href="https://atjason.com/daily/2023-08-23.html"/>
-    <id>https://atjason.com/daily/2023-08-23.html</id>
-    <published>2023-08-23T14:00:00.000Z</published>
-    <updated>2023-08-27T13:43:40.531Z</updated>
-    
-    <content type="html"><![CDATA[<p>使用树莓派 4B + wukong 模块 + OpenAI，做了个智能音箱，简单记录下关键节点。</p>
-<p><img src="https://p.nuli.life/blog/hmwwe6.jpg" alt=""></p>
-<p>智能音箱的大概流程是这样的：</p>
-<ul>
-<li>关键词唤醒</li>
-<li>听用户说什么并转换为文字</li>
-<li>识别文字中的命令并得到答案</li>
-<li>将文字转换为音频并播放</li>
-<li>将上述流程串起来</li>
-</ul>
-<p>上面是从技术的角度分析。从产品的角度，还要考虑很多事情</p>
-<ul>
-<li>产品外观及工业设计</li>
-<li>响应速度与使用感受</li>
-<li>稳定性</li>
-<li>电池、功耗、散热等</li>
-</ul>
-<p>从实现的角度，各个模块都有对应的选择，每个模块取最优解，然后组合出产品，是可以的。只是，这会比较耗时。经过简单的比较，选择 <code>wukong-robot</code> 这一成套解决方案。</p>
-<p>关于硬件的选型。先是用我手上吃灰的 Radxa 安装。不过，由于这个硬件比较老了，官方的 Ubuntu 系统很久远，在安装 <code>wukong-robot</code> 时，遇到一系列兼容性问题。花了很多时间后，决定放弃。</p>
-<p>找朋友借来了树莓派 3B。果然，树莓派生态很好。就拿安装系统来说，官方出了多平台的工具，很容易安装指定系统。并且，树莓派的系统是安装在 SD 卡上的。这样，更换 SD 卡就可以更换系统，很方便。</p>
-<p>安装 <code>wukong-robot</code> 后，又遇到问题：这块板的 USB 有故障，识别不了 USB 设备。这就难办了，因为麦克风、扬声器是需要 USB 接口的。没办法，又买了树莓派 4B。</p>
-<p>在新的硬件上，基本跑通了默认系统后，还要有一系列的配置和优化。</p>
-<p>关于后端引擎，最想用的自然是 ChatGPT/OpenAI。不过，这个东西在国内是无法访问的。试了在板子上搭建梯子，可遇到 SSL 的问题，花了很长时间没解决，并且也不是必现的，只是高概率。</p>
-<p>后来想的办法，就使用 Azure 的 ChatGPT 接口。具体的，使用日本的节点，会相对快点。好处是不用梯子，但总的响应速度，还是不如梯子 + OpenAI  接口。先这样用段时间，再考虑优化速度吧。</p>
-<p>关于语音识别，简单比较几个，感觉区别不是太大，最后选了腾讯语音。</p>
-<p>关于语音全成，默认是 Edge 接口，合成的效果不错。不过，实际有时会慢，比如一句短语可能要 2s 以上，这就比较影响体验，最后选了腾讯语音。</p>
-<p>关于麦克风和扬声器，考虑最后的外观，选择了一个 USB 一体的、方形的设备。这样，可以比较容易和树莓派一起放到一个壳子里。</p>
-<p>说到壳子，自己设计了简单的外壳，正在 3D 打印，收到后再验证。多半，还会再做几版。</p>
-<p><img src="https://p.nuli.life/blog/4kxyb5.jpg" alt=""></p>
-<p>还有其它一些优化，比如：</p>
-<ul>
-<li><code>wukong-robot</code> 在识别出命令后，会先调用百度 Unit 进行第一遍处理，目的是识别出一些预定义的功能，比如「大点声」这类的。问题是，这个操作会增加 3s 的延时。显然，为了低频的预处理，给所有请求都加上延时，是不划算的，于是我去掉了。</li>
-<li>但调音量的需求确实存在，于是在发送到 OpenAI 进行识别之前，硬编码对命令进行预识别和处理。这是本地的，不消耗时间。<code>wukong-robot</code> 内置的调音量，是硬编码设置默认设备的，这点改成了可以调节指定设备的。</li>
-<li>替换录音开始、结束的提示音，减缓大延时带来的差体验。</li>
-</ul>
-<p>最终产品，主要是给娃用的，回答他的十万个为什么。从初步使用体验上看，还是满意的。最大的不足是唤醒不灵敏、可能误唤醒。这点之后考虑用麦克风阵列，取代现在的单麦克风。未来，还会根据实际使用来不断改进。</p>
-<p>后记：其实这件事，我几个月前就想做了，拖拖拉拉做到现在。</p>
-<p>最开始，我是想基于现有的智能音箱做二次开发。最后发现，我还是太年轻。但凡厂商，几乎没有真正开放的。如果很容易让别人二次开发，岂不是给别人嫁衣。</p>
-<p>如果自己完整做一个，需要大块的时间，一直没这个勇气，直到最近才下决心。比如，看到人家稚晖君，半年时间就做出那么高级的机器人，自己半年组装不出一个音箱，真是太汗颜了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;使用树莓派 4B + wukong 模块 + OpenAI，做了个智能音箱，简单记录下关键节点。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/hmwwe6.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;智能音箱的大概流程是这样的：&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0822 - 凡是治愈，都是自愈</title>
-    <link href="https://atjason.com/daily/2023-08-22.html"/>
-    <id>https://atjason.com/daily/2023-08-22.html</id>
-    <published>2023-08-22T14:00:00.000Z</published>
-    <updated>2023-08-27T13:03:46.305Z</updated>
-    
-    <content type="html"><![CDATA[<p>凡是治愈，都是自愈。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;凡是治愈，都是自愈。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0821 - 被 Air101 &amp; LuatOS 坑了</title>
-    <link href="https://atjason.com/daily/2023-08-21.html"/>
-    <id>https://atjason.com/daily/2023-08-21.html</id>
-    <published>2023-08-21T14:00:00.000Z</published>
-    <updated>2023-08-27T13:03:19.645Z</updated>
-    
-    <content type="html"><![CDATA[<p>被 Air101 &amp; LuatOS 坑了：升级完固件要重启，而重启时，一定概率会死掉，不响应作何中断，除非断电重插。</p>
-<p>最后发现，是芯片降频至 2MHz 时，就无法执行 reboot 命令、执行就死机。哎，虽然是底层固件的大 Bug，但好歹找到问题，就能规避或解决了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;被 Air101 &amp;amp; LuatOS 坑了：升级完固件要重启，而重启时，一定概率会死掉，不响应作何中断，除非断电重插。&lt;/p&gt;
-&lt;p&gt;最后发现，是芯片降频至 2MHz 时，就无法执行 reboot 命令、执行就死机。哎，虽然是底层固件的大 Bug，但好歹找到问题，就能
     
     </summary>
     
