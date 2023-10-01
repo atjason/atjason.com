@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-09-24T15:58:10.058Z</updated>
+  <updated>2023-10-01T23:32:02.145Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,199 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1001 - 乒乓球输了</title>
+    <link href="https://atjason.com/daily/2023-10-01.html"/>
+    <id>https://atjason.com/daily/2023-10-01.html</id>
+    <published>2023-10-01T14:00:00.000Z</published>
+    <updated>2023-10-01T23:32:02.145Z</updated>
+    
+    <content type="html"><![CDATA[<p>没有什么是应该的、必然的。</p>
+<p>道理都懂。只是长期沉浸在某种环境、气氛中，周围人的反应，好像也印证了某一点。久而久之，人就失去了判断力。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;没有什么是应该的、必然的。&lt;/p&gt;
+&lt;p&gt;道理都懂。只是长期沉浸在某种环境、气氛中，周围人的反应，好像也印证了某一点。久而久之，人就失去了判断力。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0930 - 放松，是自由的做喜欢的事</title>
+    <link href="https://atjason.com/daily/2023-09-30.html"/>
+    <id>https://atjason.com/daily/2023-09-30.html</id>
+    <published>2023-09-30T14:00:00.000Z</published>
+    <updated>2023-10-01T23:30:05.712Z</updated>
+    
+    <content type="html"><![CDATA[<p>放松，不是躺平、什么都不做，而是可以自由地做想做的事。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;放松，不是躺平、什么都不做，而是可以自由地做想做的事。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0929 - 日内开盘跳空怎么处理</title>
+    <link href="https://atjason.com/daily/2023-09-29.html"/>
+    <id>https://atjason.com/daily/2023-09-29.html</id>
+    <published>2023-09-29T14:00:00.000Z</published>
+    <updated>2023-10-01T23:28:51.760Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天大跌，开盘没做，也没盯盘反弹空，错过今天最顺畅的下跌，可惜。</p>
+<p>下次，对于可能的大区间，开盘一定要顺势多空。</p>
+<ul>
+<li>如果反向到开盘价，止损。期权几乎也清零了，可以交易期货或 ETF</li>
+<li>如果又出开仓信号，加仓，并按一般的开平仓信号做。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天大跌，开盘没做，也没盯盘反弹空，错过今天最顺畅的下跌，可惜。&lt;/p&gt;
+&lt;p&gt;下次，对于可能的大区间，开盘一定要顺势多空。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果反向到开盘价，止损。期权几乎也清零了，可以交易期货或 ETF&lt;/li&gt;
+&lt;li&gt;如果又出开仓信号，加仓，并按一般的开平
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0928 - 方便回顾 QQQ 分钟线小网站</title>
+    <link href="https://atjason.com/daily/2023-09-28.html"/>
+    <id>https://atjason.com/daily/2023-09-28.html</id>
+    <published>2023-09-28T14:00:00.000Z</published>
+    <updated>2023-10-01T23:27:32.762Z</updated>
+    
+    <content type="html"><![CDATA[<p>做了个方便回顾 QQQ 分钟线小网站：</p>
+<ul>
+<li><p>同时显示日线和分钟线；</p>
+</li>
+<li><p>日期、方向图标、Command|Alt + 方向键快速切换日期；</p>
+</li>
+<li><p>可切换不同周期；</p>
+</li>
+<li><p>日线、控制区可拖动，不遮挡 K 线图；</p>
+</li>
+<li><p>其他细节：标示当天开始 K 线；显示昨天和明天部分 K 线；显示价格；</p>
+</li>
+</ul>
+<p>推荐在电脑上使用：</p>
+<p><a href="https://t.1g1.top" target="_blank" rel="external">https://t.1g1.top</a></p>
+<p>虽然我想做的筛选还没做，但先放出来给用户使用，多提意见，也看看大家是否真的需要这个工具，避免闭门造车。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;做了个方便回顾 QQQ 分钟线小网站：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;同时显示日线和分钟线；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;日期、方向图标、Command|Alt + 方向键快速切换日期；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;可切换不同周期；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0927 - 日内交易，点位很重要</title>
+    <link href="https://atjason.com/daily/2023-09-27.html"/>
+    <id>https://atjason.com/daily/2023-09-27.html</id>
+    <published>2023-09-27T14:00:00.000Z</published>
+    <updated>2023-10-01T23:26:37.965Z</updated>
+    
+    <content type="html"><![CDATA[<p>尤其，自己之前做较大的周期，习惯于 K 线形态。比如，要等头肩底走出来再做多。</p>
+<p>可对于日内，一旦到了点位，可能直接就反弹上去，并不会走形态。并且，反过来说，走形态虽然稳，却也意味着行情不强，胜率也就低。</p>
+<p><img src="https://p.nuli.life/blog/md89ho.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;尤其，自己之前做较大的周期，习惯于 K 线形态。比如，要等头肩底走出来再做多。&lt;/p&gt;
+&lt;p&gt;可对于日内，一旦到了点位，可能直接就反弹上去，并不会走形态。并且，反过来说，走形态虽然稳，却也意味着行情不强，胜率也就低。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://p.n
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0926 - Air001 的 ADC 精度</title>
+    <link href="https://atjason.com/daily/2023-09-26.html"/>
+    <id>https://atjason.com/daily/2023-09-26.html</id>
+    <published>2023-09-26T14:00:00.000Z</published>
+    <updated>2023-10-01T23:25:19.559Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用 Air001 做了 6 个开发板，相同测试条件，测试 ADC 分压，和万用表结果相比，大概范围在 -0.1% ~ 1.76%</p>
+<p>相对于 NTF 动辄 10% 的精度，是可用的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用 Air001 做了 6 个开发板，相同测试条件，测试 ADC 分压，和万用表结果相比，大概范围在 -0.1% ~ 1.76%&lt;/p&gt;
+&lt;p&gt;相对于 NTF 动辄 10% 的精度，是可用的。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0925 - 测量上电时序</title>
+    <link href="https://atjason.com/daily/2023-09-25.html"/>
+    <id>https://atjason.com/daily/2023-09-25.html</id>
+    <published>2023-09-25T14:00:00.000Z</published>
+    <updated>2023-10-01T23:24:55.323Z</updated>
+    
+    <content type="html"><![CDATA[<p>新技能：测量上电时序。</p>
+<p><img src="https://p.nuli.life/blog/inzqfu.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;新技能：测量上电时序。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/inzqfu.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0923 - 幼小脱节</title>
@@ -327,184 +520,6 @@
     <summary type="html">
     
       &lt;p&gt;做了一封小巧的定温开关，可以完美地塞进外壳中，自己很满意。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0910 - 奥本海默就是项目经理</title>
-    <link href="https://atjason.com/daily/2023-09-10.html"/>
-    <id>https://atjason.com/daily/2023-09-10.html</id>
-    <published>2023-09-10T14:00:00.000Z</published>
-    <updated>2023-09-10T14:39:22.178Z</updated>
-    
-    <content type="html"><![CDATA[<p>看之前以为奥本海默是著名的科学家，看完才意识到他其实是一位情绪稳定的项目经理！</p>
-<p>懂得懂啊，戳到了😅</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看之前以为奥本海默是著名的科学家，看完才意识到他其实是一位情绪稳定的项目经理！&lt;/p&gt;
-&lt;p&gt;懂得懂啊，戳到了😅&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0909 - 卷不卷？</title>
-    <link href="https://atjason.com/daily/2023-09-09.html"/>
-    <id>https://atjason.com/daily/2023-09-09.html</id>
-    <published>2023-09-09T14:00:00.000Z</published>
-    <updated>2023-09-10T14:38:46.796Z</updated>
-    
-    <content type="html"><![CDATA[<p>一边是高考指挥棒、中考分流，一边不让大家卷。逗着玩呢？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一边是高考指挥棒、中考分流，一边不让大家卷。逗着玩呢？&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0908 - 增长的边界</title>
-    <link href="https://atjason.com/daily/2023-09-08.html"/>
-    <id>https://atjason.com/daily/2023-09-08.html</id>
-    <published>2023-09-08T14:00:00.000Z</published>
-    <updated>2023-09-10T14:38:15.128Z</updated>
-    
-    <content type="html"><![CDATA[<p>如果在我们身体里，有个东西一直在增长，不顾其他的增长，我们一定很恐惧，因为它叫癌。</p>
-<p>如果在我们生活里，有个东西一直在增长，不顾其他的增长，我们一定很开心，因为它叫钱、叫经济。</p>
-<p>前期是现实，后者是理想；如果边界条件不变的话，就是幻想。</p>
-<p>所谓的边界条件，比如掌控更高效清洁的能源、殖民火星以获取地球外的资源、改造身体以更高效地使用能源。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;如果在我们身体里，有个东西一直在增长，不顾其他的增长，我们一定很恐惧，因为它叫癌。&lt;/p&gt;
-&lt;p&gt;如果在我们生活里，有个东西一直在增长，不顾其他的增长，我们一定很开心，因为它叫钱、叫经济。&lt;/p&gt;
-&lt;p&gt;前期是现实，后者是理想；如果边界条件不变的话，就是幻想。&lt;/p&gt;
-&lt;p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0907 - 欧洲付费厕所</title>
-    <link href="https://atjason.com/daily/2023-09-07.html"/>
-    <id>https://atjason.com/daily/2023-09-07.html</id>
-    <published>2023-09-07T14:00:00.000Z</published>
-    <updated>2023-09-10T14:37:43.226Z</updated>
-    
-    <content type="html"><![CDATA[<p>欧洲很多公共场合，上厕所要投币，甚至你去快餐厅吃饭，用他们的厕所也要投币。这对于习惯于免费公厕的我们，有点不可思议。</p>
-<p>反过来说，所有事情都是有成本的。我们免费用，就得有人付费去打扫。只是，我们的付费，是政府行为，一般人看不见。可政府的钱，还是我们的钱，只是政府替我们花了。投币上厕所的现象，要分清楚，是政府不作为，还是民众没有投票让政府这么做。</p>
-<p>我当然赞成免费公厕。但也要注意，像拉美一些国家，政府动摇国本提供免费服务，讨好选民以获选票，就走了另一个极端。</p>
-<p>这中间，就需要一个度，一个政府和民众部的平衡，考验执政能力。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;欧洲很多公共场合，上厕所要投币，甚至你去快餐厅吃饭，用他们的厕所也要投币。这对于习惯于免费公厕的我们，有点不可思议。&lt;/p&gt;
-&lt;p&gt;反过来说，所有事情都是有成本的。我们免费用，就得有人付费去打扫。只是，我们的付费，是政府行为，一般人看不见。可政府的钱，还是我们的钱，只是政府
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0906 - 努力与幸福</title>
-    <link href="https://atjason.com/daily/2023-09-06.html"/>
-    <id>https://atjason.com/daily/2023-09-06.html</id>
-    <published>2023-09-06T14:00:00.000Z</published>
-    <updated>2023-09-10T14:37:01.079Z</updated>
-    
-    <content type="html"><![CDATA[<p>是努力工作带来幸福，还是幸福促进高效工作。</p>
-<p>很多人都在这个状态：背负生活压力，被迫努力工作，以缓解生活压力，却很难走出泥潭。</p>
-<p>少数幸运的人：生活压力很小，按自己的兴趣工作，有不错的产出，不知不觉上了一个台阶。</p>
-<p>也许是同样优秀、同样努力的人，只是初始条件不同。</p>
-<p>可，生命只有一次，且是自己的。与其嗟叹命运不公，不如好好梳理自己手上的牌。没有大自在，总有小确幸。总有一些事、一些方法，让当下的自己更开心一些。然后，用这种开心，面对一切。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;是努力工作带来幸福，还是幸福促进高效工作。&lt;/p&gt;
-&lt;p&gt;很多人都在这个状态：背负生活压力，被迫努力工作，以缓解生活压力，却很难走出泥潭。&lt;/p&gt;
-&lt;p&gt;少数幸运的人：生活压力很小，按自己的兴趣工作，有不错的产出，不知不觉上了一个台阶。&lt;/p&gt;
-&lt;p&gt;也许是同样优秀、同样努
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0905 - 一个洞见</title>
-    <link href="https://atjason.com/daily/2023-09-05.html"/>
-    <id>https://atjason.com/daily/2023-09-05.html</id>
-    <published>2023-09-05T14:00:00.000Z</published>
-    <updated>2023-09-10T14:35:55.613Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://ps.toolinbox.net/wms2b0.png" alt=""></p>
-<p>当系统中出现一个异常值，不是简单的把它删除，而是把平均线上移至那个点。</p>
-<p>不是让优秀人才流失，而是让整个组织配得上优秀的人才。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://ps.toolinbox.net/wms2b0.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;当系统中出现一个异常值，不是简单的把它删除，而是把平均线上移至那个点。&lt;/p&gt;
-&lt;p&gt;不是让优秀人才流失，而是让整个组织配得上优秀的人才。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0904 - 哲学</title>
-    <link href="https://atjason.com/daily/2023-09-04.html"/>
-    <id>https://atjason.com/daily/2023-09-04.html</id>
-    <published>2023-09-04T14:00:00.000Z</published>
-    <updated>2023-09-10T14:34:07.927Z</updated>
-    
-    <content type="html"><![CDATA[<p>点击维基百科条目的第一个链接，不断重复该过程，最终几乎一定会点击到“哲学”条目。</p>
-<p>据统计，2016年2月，维基百科97%的文章都是如此。</p>
-<p>对任何问题进行解释，不断深入，最终一定会变成哲学问题。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;点击维基百科条目的第一个链接，不断重复该过程，最终几乎一定会点击到“哲学”条目。&lt;/p&gt;
-&lt;p&gt;据统计，2016年2月，维基百科97%的文章都是如此。&lt;/p&gt;
-&lt;p&gt;对任何问题进行解释，不断深入，最终一定会变成哲学问题。&lt;/p&gt;
 
     
     </summary>
