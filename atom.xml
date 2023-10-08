@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-10-01T23:32:02.145Z</updated>
+  <updated>2023-10-08T15:13:53.172Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,11 +16,92 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>1004 - 娃生病</title>
+    <link href="https://atjason.com/daily/2023-10-04.html"/>
+    <id>https://atjason.com/daily/2023-10-04.html</id>
+    <published>2023-10-04T14:00:00.000Z</published>
+    <updated>2023-10-08T15:13:53.172Z</updated>
+    
+    <content type="html"><![CDATA[<p>这周假期，再加上娃生病住院，去老家来回路上耽误的时间，基本是放羊了…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这周假期，再加上娃生病住院，去老家来回路上耽误的时间，基本是放羊了…&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1003 - 美股复盘工具改进</title>
+    <link href="https://atjason.com/daily/2023-10-03.html"/>
+    <id>https://atjason.com/daily/2023-10-03.html</id>
+    <published>2023-10-03T14:00:00.000Z</published>
+    <updated>2023-10-08T15:12:54.319Z</updated>
+    
+    <content type="html"><![CDATA[<p>复盘小工具，更新了筛选功能：</p>
+<ul>
+<li><p>支持开盘价、振幅、日内最高价与开盘价、最低价与开盘价的比例筛选</p>
+</li>
+<li><p>结果显示天数、占比</p>
+</li>
+</ul>
+<p>另外，加了 SPY 的历史数据复盘。</p>
+<p>工具网站： <a href="https://t.1g1.top" target="_blank" rel="external">https://t.1g1.top</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;复盘小工具，更新了筛选功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;支持开盘价、振幅、日内最高价与开盘价、最低价与开盘价的比例筛选&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;结果显示天数、占比&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;另外，加了 SPY 的历史数据复盘。&lt;/p&gt;
+&lt;p&gt;工具
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1002 - 大主播的分裂</title>
+    <link href="https://atjason.com/daily/2023-10-02.html"/>
+    <id>https://atjason.com/daily/2023-10-02.html</id>
+    <published>2023-10-02T14:00:00.000Z</published>
+    <updated>2023-10-08T15:11:06.978Z</updated>
+    
+    <content type="html"><![CDATA[<p>身家过十亿的大佬，苦口婆心劝一帮穷鬼，买几十块的东西，这得多分裂。时间长了，肯定绷不住。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;身家过十亿的大佬，苦口婆心劝一帮穷鬼，买几十块的东西，这得多分裂。时间长了，肯定绷不住。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>1001 - 乒乓球输了</title>
     <link href="https://atjason.com/daily/2023-10-01.html"/>
     <id>https://atjason.com/daily/2023-10-01.html</id>
     <published>2023-10-01T14:00:00.000Z</published>
-    <updated>2023-10-01T23:32:02.145Z</updated>
+    <updated>2023-10-08T15:10:36.528Z</updated>
     
     <content type="html"><![CDATA[<p>没有什么是应该的、必然的。</p>
 <p>道理都懂。只是长期沉浸在某种环境、气氛中，周围人的反应，好像也印证了某一点。久而久之，人就失去了判断力。</p>
@@ -450,76 +531,6 @@
     
       &lt;p&gt;看了苹果发布会录播的录播，印象最深的是双指双击。换句话说，其他都 so so&lt;/p&gt;
 &lt;p&gt;没有观众互动的录播会，少了很多味道。当然，也没有值得全场起立鼓掌的东西。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0913 - 短线做长</title>
-    <link href="https://atjason.com/daily/2023-09-13.html"/>
-    <id>https://atjason.com/daily/2023-09-13.html</id>
-    <published>2023-09-13T14:00:00.000Z</published>
-    <updated>2023-09-17T12:43:58.602Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，以1分钟进场，如果价格快速脱离成本区，像走台阶一样比较健康，可以往长周期做。</p>
-<p>具体的，比如先切换到 3 分钟，用 3 分钟高低点止损。随着时间的推移，可以再切换到 5 分钟。</p>
-<p>这里涉及盯盘时间和精力的问题。周期越大，越不需要盯盘面，偶尔看一下，调整止盈止损即可。但总的时间会变长。对于美股，这意味着要到深夜，是个比较大的问题。</p>
-<p>具体到我现在的阶段，还比较早，需要一些小盈利来打平止损，积累信心。因此，暂时不拿大盈利，还是在 1 分钟内止损。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，以1分钟进场，如果价格快速脱离成本区，像走台阶一样比较健康，可以往长周期做。&lt;/p&gt;
-&lt;p&gt;具体的，比如先切换到 3 分钟，用 3 分钟高低点止损。随着时间的推移，可以再切换到 5 分钟。&lt;/p&gt;
-&lt;p&gt;这里涉及盯盘时间和精力的问题。周期越大，越不需要盯盘面，偶尔看一
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0912 - 个性与合群</title>
-    <link href="https://atjason.com/daily/2023-09-12.html"/>
-    <id>https://atjason.com/daily/2023-09-12.html</id>
-    <published>2023-09-12T14:00:00.000Z</published>
-    <updated>2023-09-17T12:43:41.048Z</updated>
-    
-    <content type="html"><![CDATA[<p>你我真的就像那一颗颗形状不同的俄罗斯方块，融入的那天，也就是消失的那天。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;你我真的就像那一颗颗形状不同的俄罗斯方块，融入的那天，也就是消失的那天。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0911 - 定温开关</title>
-    <link href="https://atjason.com/daily/2023-09-11.html"/>
-    <id>https://atjason.com/daily/2023-09-11.html</id>
-    <published>2023-09-11T14:00:00.000Z</published>
-    <updated>2023-09-17T12:42:58.762Z</updated>
-    
-    <content type="html"><![CDATA[<p>做了一封小巧的定温开关，可以完美地塞进外壳中，自己很满意。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;做了一封小巧的定温开关，可以完美地塞进外壳中，自己很满意。&lt;/p&gt;
 
     
     </summary>
