@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-10-15T12:55:44.344Z</updated>
+  <updated>2023-10-22T13:20:02.401Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,80 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1022 - 忙 &amp; 虚</title>
+    <link href="https://atjason.com/daily/2023-10-22.html"/>
+    <id>https://atjason.com/daily/2023-10-22.html</id>
+    <published>2023-10-22T14:00:00.000Z</published>
+    <updated>2023-10-22T13:20:02.401Z</updated>
+    
+    <content type="html"><![CDATA[<p>这周其实做了很多事，也取得了进展。</p>
+<p>只是，通常具体的事做的多，思考就会少。</p>
+<p>最近娃生病，感觉今天我终于被放倒：身体发冷、小疼、没力气、不想动…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这周其实做了很多事，也取得了进展。&lt;/p&gt;
+&lt;p&gt;只是，通常具体的事做的多，思考就会少。&lt;/p&gt;
+&lt;p&gt;最近娃生病，感觉今天我终于被放倒：身体发冷、小疼、没力气、不想动…&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1017 - 更换手机电池</title>
+    <link href="https://atjason.com/daily/2023-10-17.html"/>
+    <id>https://atjason.com/daily/2023-10-17.html</id>
+    <published>2023-10-17T14:00:00.000Z</published>
+    <updated>2023-10-22T13:18:10.774Z</updated>
+    
+    <content type="html"><![CDATA[<p>给手机换了电池，明显感觉不怎么杀进程了，开心。</p>
+<p>只是，店铺换电池150，买电池50，不如自己换…主要是屏幕碎了，以为不换屏幕不能换电池。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;给手机换了电池，明显感觉不怎么杀进程了，开心。&lt;/p&gt;
+&lt;p&gt;只是，店铺换电池150，买电池50，不如自己换…主要是屏幕碎了，以为不换屏幕不能换电池。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1016 - 被生活耍了一把</title>
+    <link href="https://atjason.com/daily/2023-10-16.html"/>
+    <id>https://atjason.com/daily/2023-10-16.html</id>
+    <published>2023-10-16T14:00:00.000Z</published>
+    <updated>2023-10-22T13:16:49.541Z</updated>
+    
+    <content type="html"><![CDATA[<p>妈电动车钥匙丢了，怎么找都没找到。不得已，去修车点换锁。换好回家，找到钥匙了…</p>
+<p>哎，生活啊，这么的任性。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;妈电动车钥匙丢了，怎么找都没找到。不得已，去修车点换锁。换好回家，找到钥匙了…&lt;/p&gt;
+&lt;p&gt;哎，生活啊，这么的任性。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1011 - 纠结</title>
@@ -456,90 +530,6 @@
       &lt;p&gt;准备给智能模块加个物理 Reset 开关。&lt;/p&gt;
 &lt;p&gt;其实，很多硬件设备上都有此类开关，比如路由器就比较常见。&lt;/p&gt;
 &lt;p&gt;本来想，硬件做得优雅，就不需要物理开关。现在看，意外情况总是有，还是要考虑售后的问题。认怂。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0919 - 智能音箱按键开关</title>
-    <link href="https://atjason.com/daily/2023-09-19.html"/>
-    <id>https://atjason.com/daily/2023-09-19.html</id>
-    <published>2023-09-19T14:00:00.000Z</published>
-    <updated>2023-09-24T09:09:14.997Z</updated>
-    
-    <content type="html"><![CDATA[<p>智能音箱的语音识别不好用：</p>
-<ul>
-<li>开机启动总是失败</li>
-<li>唤醒不灵敏</li>
-<li>播放语音时容易被误唤醒</li>
-</ul>
-<p>准备改成按键式。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;智能音箱的语音识别不好用：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;开机启动总是失败&lt;/li&gt;
-&lt;li&gt;唤醒不灵敏&lt;/li&gt;
-&lt;li&gt;播放语音时容易被误唤醒&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;准备改成按键式。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0918 - 九一八事变</title>
-    <link href="https://atjason.com/daily/2023-09-18.html"/>
-    <id>https://atjason.com/daily/2023-09-18.html</id>
-    <published>2023-09-18T14:00:00.000Z</published>
-    <updated>2023-09-24T09:08:42.522Z</updated>
-    
-    <content type="html"><![CDATA[<p>918和亚运会，哪个更重要？</p>
-<p>没响的防守警报，是杭州政府的回答。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;918和亚运会，哪个更重要？&lt;/p&gt;
-&lt;p&gt;没响的防守警报，是杭州政府的回答。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0917 - 制冷系统</title>
-    <link href="https://atjason.com/daily/2023-09-17.html"/>
-    <id>https://atjason.com/daily/2023-09-17.html</id>
-    <published>2023-09-17T14:00:00.000Z</published>
-    <updated>2023-09-24T09:08:02.389Z</updated>
-    
-    <content type="html"><![CDATA[<p>制冷系统，消耗了全球17%的能量。预计到2050年，还会涨至6倍。</p>
-<p>而因此产生的全球变暖，占9%。</p>
-<p>而越暖，越需要制冷，明显的恶性循环。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;制冷系统，消耗了全球17%的能量。预计到2050年，还会涨至6倍。&lt;/p&gt;
-&lt;p&gt;而因此产生的全球变暖，占9%。&lt;/p&gt;
-&lt;p&gt;而越暖，越需要制冷，明显的恶性循环。&lt;/p&gt;
 
     
     </summary>
