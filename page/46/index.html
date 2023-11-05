@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-12.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-17.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-02-12.html" itemprop="url">
-                  0212 - 自知之明
+                <a class="post-title-link" href="/daily/2023-02-17.html" itemprop="url">
+                  0217 - 新玩具
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-12T22:00:00+08:00">
-                2023-02-12
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-17T22:00:00+08:00">
+                2023-02-17
               </time>
             
 
@@ -365,9 +365,8 @@
       
         
           
-            <p>因为要遏制中国发展的原因，美国开始搞所谓的制造业去中国化，制裁中国高科技企业，让中高端产业回流美国，同时将低端产业链逐渐迁往印度、越南等国家。</p>
-<p>别总听说我们是制造业大国，拥有越大规模制造能力，就以为离开我们，东西就造不出来；缺少了 Made in China，欧美都要过苦日子。最典型的，以富士康为代表的苹果生态链，不就真真实实的离开了吗。</p>
-<p>实际上，人家离开我们能不能过得好，我不知道；但我们离开他们，会有大麻烦。</p>
+            <p>下单了语音控制模块和 WS2812B 灯带，又有新玩具可以玩了。</p>
+<p>可以语音控制，比如：开灯、关灯、亮一点、呼吸灯。</p>
 
           
         
@@ -411,7 +410,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-11.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-16.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -433,8 +432,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-02-11.html" itemprop="url">
-                  0211 - 蛋糕
+                <a class="post-title-link" href="/daily/2023-02-16.html" itemprop="url">
+                  0216 - 微信小程序生成图片
                 </a>
               
             
@@ -450,8 +449,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-11T22:00:00+08:00">
-                2023-02-11
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-16T22:00:00+08:00">
+                2023-02-16
               </time>
             
 
@@ -509,7 +508,21 @@
       
         
           
-            <p>一个社会只需要解决两个问题，第一个，做大蛋糕，第二个，分好蛋糕。公司也是。</p>
+            <p>微信小程序生成图片，是件比较麻烦的事。但因为需求确实存在，比如生成分享图，所以即使麻烦，还是挡不住大家研究的动力。</p>
+<p>大概有几种思路：</p>
+<p><strong>一、直接在小程序的 Canvas 中绘图</strong></p>
+<p>这又细分为几种。</p>
+<p>一是调用绘图函数，直接在 Canvas 中绘制文字、几何形状。但明显，这种方法过程机械、且支持的样式非常有限。一旦图的样式发生变化，就要重写代码，很麻烦。</p>
+<p>一是类似 <a href="https://github.com/gy134340/wxml2canvas" target="_blank" rel="external">waml2canvas</a> 之类的工具，遍历 dom 中的元素，自动将元素转换为 Canvas 支持的样式，然后更新。这个方案是很优雅的。遗憾的是，这个方案相当于重写一遍 html2canvas，工作量很大；现在只支持很少的特性，且有 Bug，处于不可用状态。</p>
+<p><strong>二、通过 web-view + html2canvas 生成图片</strong></p>
+<p>html2canvas 是比较成熟的工具，将 html 中某个 dom 绘制到 canvas。</p>
+<p>微信小程序 web-view 可以展示网页，然后在网页中使用 weixin-js 与小程序通信。</p>
+<p>不过，这个方案的问题是，将一件事分到几个地方执行，有点割裂；需要一个备案域名 + 云存储/服务器 来放这个页面；web-view 与小程序的通信并不是实时的，而只是比如 web-view 返回时才能通信；如果生成图片需要提示比较多的内容，比如自定义头像，就需要先将图片存储到网页可以访问的地方，是个麻烦事。</p>
+<p><strong>三、通过 puppeteer 生成图片</strong></p>
+<p>puppeteer 是个无头浏览器，可以实现非常多事情，比如完整呈现页面，然后用截图的方式保存图片。</p>
+<p>这个方案的问题是，需要配合服务器或云函数，但在调用时又涉及鉴权，多增加了一件麻烦事。好在，微信云函数也可以做这件事，且无需鉴权。问题在于，要花钱 😂</p>
+<p>还有其他的问题，比如上传下载图片，这依赖于网络稳定性和网速。</p>
+<p>这几种方案，我都实际测试过，都是可选的。目前，倾向于第 3 种方案。</p>
 
           
         
@@ -553,7 +566,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-10.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-15.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -575,8 +588,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-02-10.html" itemprop="url">
-                  0210 - 痛苦与野心
+                <a class="post-title-link" href="/daily/2023-02-15.html" itemprop="url">
+                  0215 - 投入的乐趣
                 </a>
               
             
@@ -592,8 +605,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-10T22:00:00+08:00">
-                2023-02-10
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-15T22:00:00+08:00">
+                2023-02-15
               </time>
             
 
@@ -651,7 +664,7 @@
       
         
           
-            <p>驱使人类尝试新东西的力量，一个是痛苦，一个是野心，每个社会都不缺这两种东西。</p>
+            <p>当你全身心地做一件事情，哪怕认真地投入你的呼吸，你也能感到无限的乐趣，这就是瑜伽。</p>
 
           
         
@@ -695,7 +708,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-09.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-14.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -717,8 +730,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-02-09.html" itemprop="url">
-                  0209 - 多数人的胁迫
+                <a class="post-title-link" href="/daily/2023-02-14.html" itemprop="url">
+                  0214 - 驯化
                 </a>
               
             
@@ -734,8 +747,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-09T22:00:00+08:00">
-                2023-02-09
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-14T22:00:00+08:00">
+                2023-02-14
               </time>
             
 
@@ -793,8 +806,10 @@
       
         
           
-            <p>卡辛斯基说过一个道理，“多数人的胁迫”：当大部分人使用一项科技时，剩下的人就失去了不使用它的权力。</p>
-<p>当大部分都开车，道路和城市就是为开车的人设计的，不开车就很难生活。<br>当大部分都用手机支付，还拿着纸币上街，就发现没有店铺有零钱找给你了。</p>
+            <p>人是很容易被驯化的。</p>
+<p>一些看似不重要的约束，却像枝枝蔓蔓一样，彻底缠住一个人。</p>
+<p>要手起刀落，斩断生活中各种牵绊，不容易。</p>
+<p>可想一想，人也就活几十年，这些牵绊当真放不下吗？</p>
 
           
         
@@ -838,7 +853,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-08.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-02-13.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -860,8 +875,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-02-08.html" itemprop="url">
-                  0208 - 工具加速分化
+                <a class="post-title-link" href="/daily/2023-02-13.html" itemprop="url">
+                  0213 - 父母
                 </a>
               
             
@@ -877,8 +892,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-08T22:00:00+08:00">
-                2023-02-08
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-02-13T22:00:00+08:00">
+                2023-02-13
               </time>
             
 
@@ -936,11 +951,7 @@
       
         
           
-            <p>工具是技术的载体。会用不同的工具，意味着掌控了不同的技术。</p>
-<p>接下来，可不就是差距越来越大。试问，拿木棍的，能和拿机枪的比吗。</p>
-<p>之前，是工具获取的门槛高，拉开了差距。互联网极大降低了这个门槛。于是变成了，谁能更好的学习和掌握工具。</p>
-<p>ChatGPT 最近很热，也一定会很有用。且不说目前国内无法使用，即使开放了，每天刷几百个短视频的人，会有几个在上面搜索哪怕一个问题？而善用这一利器的人，是不是和他们的差距越来越大？</p>
-<p>技术越进步，分层越惊心。</p>
+            <p>父母在，人生尚有来处；<br>父母去，人生只剩下归途。</p>
 
           
         
@@ -979,7 +990,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/45/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/45/">45</a><span class="page-number current">46</span><a class="page-number" href="/page/47/">47</a><span class="space">&hellip;</span><a class="page-number" href="/page/575/">575</a><a class="extend next" rel="next" href="/page/47/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/45/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/45/">45</a><span class="page-number current">46</span><a class="page-number" href="/page/47/">47</a><span class="space">&hellip;</span><a class="page-number" href="/page/576/">576</a><a class="extend next" rel="next" href="/page/47/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1024,7 +1035,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2875</span>
+                <span class="site-state-item-count">2880</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
