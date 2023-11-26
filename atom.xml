@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-11-19T13:37:45.459Z</updated>
+  <updated>2023-11-26T13:40:13.721Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,195 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1126 - 高性能小主机</title>
+    <link href="https://atjason.com/daily/2023-11-26.html"/>
+    <id>https://atjason.com/daily/2023-11-26.html</id>
+    <published>2023-11-26T14:00:00.000Z</published>
+    <updated>2023-11-26T13:40:13.721Z</updated>
+    
+    <content type="html"><![CDATA[<p>准备送自己一个礼物：高性能小主机。</p>
+<p>现在，家里其实放了个性能孱弱的小主机。主要就两个功能：跑量化交易程序、使用 SMB 当 NAS。</p>
+<p>其实也勉强够用。但最近想折腾，就打算买个性能还可以的小主机。比较吸引我的，是可以安装底层虚拟机，然后再安装 Windows、NAS 系统之类的。</p>
+<p>虽然，现在看起来有点多余、费钱，但未来应该会有好玩的东西出来，虽然现在我不知道是什么。只有先有了，才有玩法；没有的时候，是想不出来的。</p>
+<p>记得特斯拉刚火时，就有个小特叔叔的，买了一辆，产出相关内容，狠狠赚了一波流量。</p>
+<p>另外，这个东西也是个抓手。因为要买，我得去了解市面上的小主机，了解当下的内存硬盘，了解虚拟机技术，思考如何构建系统，等等。所有这一切，都是因为有了这个念头。这个念头，就像个抓手，抓住一堆节点。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;准备送自己一个礼物：高性能小主机。&lt;/p&gt;
+&lt;p&gt;现在，家里其实放了个性能孱弱的小主机。主要就两个功能：跑量化交易程序、使用 SMB 当 NAS。&lt;/p&gt;
+&lt;p&gt;其实也勉强够用。但最近想折腾，就打算买个性能还可以的小主机。比较吸引我的，是可以安装底层虚拟机，然后再安装 Wi
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1125 - 站在目的地，回望现在</title>
+    <link href="https://atjason.com/daily/2023-11-25.html"/>
+    <id>https://atjason.com/daily/2023-11-25.html</id>
+    <published>2023-11-25T14:00:00.000Z</published>
+    <updated>2023-11-26T13:34:13.650Z</updated>
+    
+    <content type="html"><![CDATA[<p>想变成什么样子，就装成什么样子。装久了，愿望就实现了。</p>
+<p>不是努力得到什么，而是努力让自己配得上要得到的东西。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;想变成什么样子，就装成什么样子。装久了，愿望就实现了。&lt;/p&gt;
+&lt;p&gt;不是努力得到什么，而是努力让自己配得上要得到的东西。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1124 - 修了燃气热水器</title>
+    <link href="https://atjason.com/daily/2023-11-24.html"/>
+    <id>https://atjason.com/daily/2023-11-24.html</id>
+    <published>2023-11-24T14:00:00.000Z</published>
+    <updated>2023-11-26T13:33:32.280Z</updated>
+    
+    <content type="html"><![CDATA[<p>燃气热水器，时不时出现 E5 错误，表示风机故障。</p>
+<p>网上搜了下，有可能是风压开关坏了，于是淘宝买了个。</p>
+<p>可是，换上去还是不行。折腾了下，最后诊断的原因，应该是风机导风管装的方向不合理，导致风压小，不能触发风压开关。</p>
+<p>虽然，这么折腾，可能还不如找师傅上门来修。可技能这种东西，学一次肯定是不能回本，之后多用几次，就很划算了。</p>
+<p>并且，对我来说，学到新东西，是很让人开心兴奋的。这种快感，比刷短视频还要持久。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;燃气热水器，时不时出现 E5 错误，表示风机故障。&lt;/p&gt;
+&lt;p&gt;网上搜了下，有可能是风压开关坏了，于是淘宝买了个。&lt;/p&gt;
+&lt;p&gt;可是，换上去还是不行。折腾了下，最后诊断的原因，应该是风机导风管装的方向不合理，导致风压小，不能触发风压开关。&lt;/p&gt;
+&lt;p&gt;虽然，这么折腾，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1123 - 时机</title>
+    <link href="https://atjason.com/daily/2023-11-23.html"/>
+    <id>https://atjason.com/daily/2023-11-23.html</id>
+    <published>2023-11-23T14:00:00.000Z</published>
+    <updated>2023-11-26T13:29:42.319Z</updated>
+    
+    <content type="html"><![CDATA[<p>当你向别人提要求时，趁他心情好时。</p>
+<p>当想从市场赚钱时，趁它行情好时。</p>
+<p>否则，就要触霉头了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;当你向别人提要求时，趁他心情好时。&lt;/p&gt;
+&lt;p&gt;当想从市场赚钱时，趁它行情好时。&lt;/p&gt;
+&lt;p&gt;否则，就要触霉头了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1122 - 网页工具型产品</title>
+    <link href="https://atjason.com/daily/2023-11-22.html"/>
+    <id>https://atjason.com/daily/2023-11-22.html</id>
+    <published>2023-11-22T14:00:00.000Z</published>
+    <updated>2023-11-26T13:28:32.737Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天尝试将为视频生成字幕，发现了 zimujiang.com</p>
+<p>关键是，这样的产品形态，非常适合我：短小、精干、简洁。一下子有点兴奋，找到了自己擅长的东西。</p>
+<p>还是要多深入生活，了解现在中存在的需求，才能制作出对应的产品。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天尝试将为视频生成字幕，发现了 zimujiang.com&lt;/p&gt;
+&lt;p&gt;关键是，这样的产品形态，非常适合我：短小、精干、简洁。一下子有点兴奋，找到了自己擅长的东西。&lt;/p&gt;
+&lt;p&gt;还是要多深入生活，了解现在中存在的需求，才能制作出对应的产品。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1121 - 南墙</title>
+    <link href="https://atjason.com/daily/2023-11-21.html"/>
+    <id>https://atjason.com/daily/2023-11-21.html</id>
+    <published>2023-11-21T14:00:00.000Z</published>
+    <updated>2023-11-26T13:27:56.813Z</updated>
+    
+    <content type="html"><![CDATA[<p>能说服某些人的，只能南墙。</p>
+<ul>
+<li>撞南墙前的道理——废话学；</li>
+<li>撞南墙后的道理——可真香。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;能说服某些人的，只能南墙。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;撞南墙前的道理——废话学；&lt;/li&gt;
+&lt;li&gt;撞南墙后的道理——可真香。&lt;/li&gt;
+&lt;/ul&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1120 - 一些鸡汤</title>
+    <link href="https://atjason.com/daily/2023-11-20.html"/>
+    <id>https://atjason.com/daily/2023-11-20.html</id>
+    <published>2023-11-20T14:00:00.000Z</published>
+    <updated>2023-11-26T13:27:32.514Z</updated>
+    
+    <content type="html"><![CDATA[<p>焦虑的反义词是具体；没有真正的困难，只是还未具体的解决方案。</p>
+<p>本就一无所有，阳光、微风，皆是收获；又何所畏惧。</p>
+<p>你以为你无法挪动双脚。但低头一看，会发现脚下空无一物。所有的枷锁，都只是恐惧的想象。</p>
+<p>每个人花期不同，不必焦虑别人比你提前拥有。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;焦虑的反义词是具体；没有真正的困难，只是还未具体的解决方案。&lt;/p&gt;
+&lt;p&gt;本就一无所有，阳光、微风，皆是收获；又何所畏惧。&lt;/p&gt;
+&lt;p&gt;你以为你无法挪动双脚。但低头一看，会发现脚下空无一物。所有的枷锁，都只是恐惧的想象。&lt;/p&gt;
+&lt;p&gt;每个人花期不同，不必焦虑别人比你提
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1115 - 晚睡</title>
@@ -337,201 +526,6 @@
       &lt;p&gt;看过莱芬创始人的采访视频，对其在硬件上敢超求精的精神所折服。尤其当我自己也做硬件后，就更加有点自己人的感觉。&lt;/p&gt;
 &lt;p&gt;虽然没机会买其吹风机，可当知道他们新推出了扫震电动牙刷后，在看更多介绍之前，心里就已经决定要买了。&lt;/p&gt;
 &lt;p&gt;又补看了其发布会，苹果味很足；又或者
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1027 - 交易进化三角</title>
-    <link href="https://atjason.com/daily/2023-10-27.html"/>
-    <id>https://atjason.com/daily/2023-10-27.html</id>
-    <published>2023-10-27T14:00:00.000Z</published>
-    <updated>2023-10-29T13:46:53.745Z</updated>
-    
-    <content type="html"><![CDATA[<ul>
-<li>交易</li>
-<li>复盘</li>
-<li>学习</li>
-</ul>
-<p>不知道什么时候开仓最好，就多开几次；</p>
-<p>不知道什么时候平仓最好，就多拿一会儿。</p>
-<p>眼下也只能用钱和时间，来积累经验。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;ul&gt;
-&lt;li&gt;交易&lt;/li&gt;
-&lt;li&gt;复盘&lt;/li&gt;
-&lt;li&gt;学习&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;不知道什么时候开仓最好，就多开几次；&lt;/p&gt;
-&lt;p&gt;不知道什么时候平仓最好，就多拿一会儿。&lt;/p&gt;
-&lt;p&gt;眼下也只能用钱和时间，来积累经验。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1026 - 交易的几个阶段</title>
-    <link href="https://atjason.com/daily/2023-10-26.html"/>
-    <id>https://atjason.com/daily/2023-10-26.html</id>
-    <published>2023-10-26T14:00:00.000Z</published>
-    <updated>2023-10-29T13:38:12.955Z</updated>
-    
-    <content type="html"><![CDATA[<p>交易的几个阶段：</p>
-<ul>
-<li>赚小钱</li>
-<li>亏小钱</li>
-<li>赚大钱</li>
-<li>爆仓</li>
-</ul>
-<p>一个朋友爆仓了。我比他厉害吗？我能在这条路上走多远？</p>
-<p>既然做交易，肯定是想着，之后上重仓、赚大钱，不然总是一手，有什么意思？</p>
-<p>可是，一旦重仓，到时候的交易状态，跟现在一手练单，完全不是一个概念，大概率过不去。</p>
-<p>既然过不去，为什么现在要一手练单…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;交易的几个阶段：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;赚小钱&lt;/li&gt;
-&lt;li&gt;亏小钱&lt;/li&gt;
-&lt;li&gt;赚大钱&lt;/li&gt;
-&lt;li&gt;爆仓&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;一个朋友爆仓了。我比他厉害吗？我能在这条路上走多远？&lt;/p&gt;
-&lt;p&gt;既然做交易，肯定是想着，之后上重仓、赚大钱，不然总
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1025 - 复制粘贴代码</title>
-    <link href="https://atjason.com/daily/2023-10-25.html"/>
-    <id>https://atjason.com/daily/2023-10-25.html</id>
-    <published>2023-10-25T14:00:00.000Z</published>
-    <updated>2023-10-29T13:37:10.172Z</updated>
-    
-    <content type="html"><![CDATA[<p>修复了一个 Bug，原因是复制粘贴后，一个变量名没改…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;修复了一个 Bug，原因是复制粘贴后，一个变量名没改…&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1024 - 人权 &gt; 狗权</title>
-    <link href="https://atjason.com/daily/2023-10-24.html"/>
-    <id>https://atjason.com/daily/2023-10-24.html</id>
-    <published>2023-10-24T14:00:00.000Z</published>
-    <updated>2023-10-29T13:36:22.012Z</updated>
-    
-    <content type="html"><![CDATA[<p>只能说这么多了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;只能说这么多了。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1023 - ABS 与教育娃</title>
-    <link href="https://atjason.com/daily/2023-10-23.html"/>
-    <id>https://atjason.com/daily/2023-10-23.html</id>
-    <published>2023-10-23T14:00:00.000Z</published>
-    <updated>2023-10-29T13:35:58.198Z</updated>
-    
-    <content type="html"><![CDATA[<p>刹车时，太轻了，不起作用；太重了，轮胎抱死，制动效果大打折扣。于是，有了 ABS 防抱死系统，取中间平衡。</p>
-<p>教育娃，太轻了，不起作用；太重了，娃有脾气了、有情绪了，不接受，甚至反向输出。于是，也要在中间取平衡。</p>
-<p>不容易啊[捂脸]</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;刹车时，太轻了，不起作用；太重了，轮胎抱死，制动效果大打折扣。于是，有了 ABS 防抱死系统，取中间平衡。&lt;/p&gt;
-&lt;p&gt;教育娃，太轻了，不起作用；太重了，娃有脾气了、有情绪了，不接受，甚至反向输出。于是，也要在中间取平衡。&lt;/p&gt;
-&lt;p&gt;不容易啊[捂脸]&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1022 - 忙 &amp; 虚</title>
-    <link href="https://atjason.com/daily/2023-10-22.html"/>
-    <id>https://atjason.com/daily/2023-10-22.html</id>
-    <published>2023-10-22T14:00:00.000Z</published>
-    <updated>2023-10-22T13:20:02.401Z</updated>
-    
-    <content type="html"><![CDATA[<p>这周其实做了很多事，也取得了进展。</p>
-<p>只是，通常具体的事做的多，思考就会少。</p>
-<p>最近娃生病，感觉今天我终于被放倒：身体发冷、小疼、没力气、不想动…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这周其实做了很多事，也取得了进展。&lt;/p&gt;
-&lt;p&gt;只是，通常具体的事做的多，思考就会少。&lt;/p&gt;
-&lt;p&gt;最近娃生病，感觉今天我终于被放倒：身体发冷、小疼、没力气、不想动…&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1017 - 更换手机电池</title>
-    <link href="https://atjason.com/daily/2023-10-17.html"/>
-    <id>https://atjason.com/daily/2023-10-17.html</id>
-    <published>2023-10-17T14:00:00.000Z</published>
-    <updated>2023-10-22T13:18:10.774Z</updated>
-    
-    <content type="html"><![CDATA[<p>给手机换了电池，明显感觉不怎么杀进程了，开心。</p>
-<p>只是，店铺换电池150，买电池50，不如自己换…主要是屏幕碎了，以为不换屏幕不能换电池。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;给手机换了电池，明显感觉不怎么杀进程了，开心。&lt;/p&gt;
-&lt;p&gt;只是，店铺换电池150，买电池50，不如自己换…主要是屏幕碎了，以为不换屏幕不能换电池。&lt;/p&gt;
-
     
     </summary>
     
