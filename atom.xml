@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-11-26T13:40:13.721Z</updated>
+  <updated>2023-12-03T15:02:15.563Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,193 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1202 - Google Universal Analytics 替代</title>
+    <link href="https://atjason.com/daily/2023-12-02.html"/>
+    <id>https://atjason.com/daily/2023-12-02.html</id>
+    <published>2023-12-02T14:00:00.000Z</published>
+    <updated>2023-12-03T15:02:15.563Z</updated>
+    
+    <content type="html"><![CDATA[<p>Google Universal Analytics 被 Google Analytics（分析）4 取代后，对我影响比较大的，是我之前一直用前者来收集 Events，进行 App 的分析。而后者的 Events，少了数据随时间的变化曲线，用起来不方便。</p>
+<p>找过同类，试了类似 mixpanel 的服务，但用惯了免费又强大的 Google Universal Analytics，再来看这些不那么强大又不免费的服务，有点接受困难 😂</p>
+<p>想着造个轮子试试，花了点时间，做了个后端存储 Events 服务，用 sqlite 存储，先跑起来。</p>
+<p>之后，再去研究时序数据库，找到适合的存储方案。</p>
+<p>然后，再做个简洁的前端，用合适的方式，展示自己关心的数据。</p>
+<p>自己用一段时间，如果觉得好用，就打包成服务，做成一款产品。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Google Universal Analytics 被 Google Analytics（分析）4 取代后，对我影响比较大的，是我之前一直用前者来收集 Events，进行 App 的分析。而后者的 Events，少了数据随时间的变化曲线，用起来不方便。&lt;/p&gt;
+&lt;p&gt;找过
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1201 - 存亡危机</title>
+    <link href="https://atjason.com/daily/2023-12-01.html"/>
+    <id>https://atjason.com/daily/2023-12-01.html</id>
+    <published>2023-12-01T14:00:00.000Z</published>
+    <updated>2023-12-03T14:54:48.486Z</updated>
+    
+    <content type="html"><![CDATA[<p>08年，特斯拉和 SpaceX 同时迎来存亡危机。</p>
+<p>没有过濒死体验，</p>
+<p>没用尽最后一丝力气，</p>
+<p>就不会有泼天的成就。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;08年，特斯拉和 SpaceX 同时迎来存亡危机。&lt;/p&gt;
+&lt;p&gt;没有过濒死体验，&lt;/p&gt;
+&lt;p&gt;没用尽最后一丝力气，&lt;/p&gt;
+&lt;p&gt;就不会有泼天的成就。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1130 - docker &amp; nignix</title>
+    <link href="https://atjason.com/daily/2023-11-30.html"/>
+    <id>https://atjason.com/daily/2023-11-30.html</id>
+    <published>2023-11-30T14:00:00.000Z</published>
+    <updated>2023-12-03T14:54:05.727Z</updated>
+    
+    <content type="html"><![CDATA[<p>又屯了台服务器，又要使用 nginx 搭建网站系统。为了以后屯更多服务器时方便配置，折腾了通过 docker 运行 nginx，使用 Let’s Encrypt 更新 https/ssl。</p>
+<p>整理了一下，传到 GitHub 了：</p>
+<p><img src="https://github.com/atjason/docker-nginx" alt="https://github.com/atjason/docker-nginx"></p>
+<p>另外，把这个开源出去，并在开发者群和 V2EX 介绍时，收到了大家同类的介绍，知道了很多更优秀工具的存在，开心。</p>
+<hr>
+<h1 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h1><ul>
+<li>克隆本项目。</li>
+<li>使用 <code>./vhost.sh add your_domain.com</code> 添加站点。 <ul>
+<li>提前设置好域名的 DNS，指定当前服务器 IP</li>
+</ul>
+</li>
+<li>将站点文件添加至：<code>./www/your_domain.com/public</code></li>
+<li>更新站点配置文件：<code>./nginx/conf.d/your_domain.com.conf</code></li>
+<li>启动 docker：<code>./start.sh</code></li>
+<li>修改站点配置文件后，重载 nginx：<code>./reload-nginx.sh</code></li>
+<li>使用 <code>crontab</code> 定期更新 ssl：<code>./renew-ssl.sh</code></li>
+</ul>
+<h1 id="介绍本项目"><a href="#介绍本项目" class="headerlink" title="介绍本项目"></a>介绍本项目</h1><p>各文件夹及文件：</p>
+<ul>
+<li><code>nginx</code>: nginx 配置文件</li>
+<li><code>www</code>: 站点数据文件，每个域名一个子文件夹，日志位于 <code>www/log</code></li>
+<li><code>ssl</code>: ssl 配置文件，使用 Let’s Encrypt 生成及更新</li>
+<li><code>vhost.sh</code>: 添加、删除站点</li>
+<li><code>compose.yaml</code>: docker compose 配置文件</li>
+<li><code>start.sh</code>: 使用 <code>docker compose up</code> 启动</li>
+<li><code>reload-nginx.sh</code>:  修改站点配置文件后，重载 nginx</li>
+<li><code>renew-ssl.sh</code>: 使用 Let’s Encrypt 更新 ssl</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;又屯了台服务器，又要使用 nginx 搭建网站系统。为了以后屯更多服务器时方便配置，折腾了通过 docker 运行 nginx，使用 Let’s Encrypt 更新 https/ssl。&lt;/p&gt;
+&lt;p&gt;整理了一下，传到 GitHub 了：&lt;/p&gt;
+&lt;p&gt;&lt;img src=
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1129 - Samba VS WebDAV</title>
+    <link href="https://atjason.com/daily/2023-11-29.html"/>
+    <id>https://atjason.com/daily/2023-11-29.html</id>
+    <published>2023-11-29T14:00:00.000Z</published>
+    <updated>2023-12-03T14:52:19.517Z</updated>
+    
+    <content type="html"><![CDATA[<p>折腾了 NAS，奇怪的是，Samba 非常慢，只有几 MB。意外试了下 WebDAV，发现速度正常，能有 70MB。不去研究为什么了，先用着再说。</p>
+<p>硬件用的是天钡 R1，CPU Intel N100，空跑 Windows，CPU 占用明显。不适合做桌面 CPU，也就做做 NAS 软路由这些活。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;折腾了 NAS，奇怪的是，Samba 非常慢，只有几 MB。意外试了下 WebDAV，发现速度正常，能有 70MB。不去研究为什么了，先用着再说。&lt;/p&gt;
+&lt;p&gt;硬件用的是天钡 R1，CPU Intel N100，空跑 Windows，CPU 占用明显。不适合做桌面 CPU
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1128 - 最该做什么</title>
+    <link href="https://atjason.com/daily/2023-11-28.html"/>
+    <id>https://atjason.com/daily/2023-11-28.html</id>
+    <published>2023-11-28T14:00:00.000Z</published>
+    <updated>2023-12-03T14:51:42.250Z</updated>
+    
+    <content type="html"><![CDATA[<p>适合一个人长期发展的坐标，就是做：</p>
+<ul>
+<li>自己喜欢的</li>
+<li>擅长的</li>
+<li>有市场的（满足特定人群刚需）</li>
+<li>有技能长期性的（这个本事不会因为年龄变大身体变差而贬值）</li>
+</ul>
+<p>这 4 个条件的交集，做这件事。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;适合一个人长期发展的坐标，就是做：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自己喜欢的&lt;/li&gt;
+&lt;li&gt;擅长的&lt;/li&gt;
+&lt;li&gt;有市场的（满足特定人群刚需）&lt;/li&gt;
+&lt;li&gt;有技能长期性的（这个本事不会因为年龄变大身体变差而贬值）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这 4 个条件的交集，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1127 - 没有神兵利器</title>
+    <link href="https://atjason.com/daily/2023-11-27.html"/>
+    <id>https://atjason.com/daily/2023-11-27.html</id>
+    <published>2023-11-27T14:00:00.000Z</published>
+    <updated>2023-12-03T14:50:11.340Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，在做技术选型时，没有完美的选项；每种技术，都有其特长，也有为此付出的代价。</p>
+<p>选个差不多的就可以，不必过分执念。把能找到的用好、优化好，就是很不错的结果了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，在做技术选型时，没有完美的选项；每种技术，都有其特长，也有为此付出的代价。&lt;/p&gt;
+&lt;p&gt;选个差不多的就可以，不必过分执念。把能找到的用好、优化好，就是很不错的结果了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1126 - 高性能小主机</title>
@@ -370,162 +557,6 @@
 &lt;p&gt;小学生同时学ABCD、阿波次得，还是挺分裂的。&lt;/p&gt;
 &lt;p&gt;中国有很多人，是不会说普通话、不会念 ABC 的。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1102 - 寂寞</title>
-    <link href="https://atjason.com/daily/2023-11-02.html"/>
-    <id>https://atjason.com/daily/2023-11-02.html</id>
-    <published>2023-11-02T14:00:00.000Z</published>
-    <updated>2023-11-05T13:26:12.498Z</updated>
-    
-    <content type="html"><![CDATA[<p>梁晓声说：想做事而无事可做，想说话而无人与说，想改变自身所处的这一种境况而又改变不了。以上基本就是寂寞的定义了。</p>
-<p>寂寞还有更深层的定义。那就是——从早到晚所做之事，并非自己最有兴趣的事；从早到晚总在说些什么，但没几句是自己最想说的话；即使改变了这一种境况，另一种新的境况也还是如此，自己又比任何别人更清楚这一点。</p>
-<p>人到中年，有没有共鸣？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;梁晓声说：想做事而无事可做，想说话而无人与说，想改变自身所处的这一种境况而又改变不了。以上基本就是寂寞的定义了。&lt;/p&gt;
-&lt;p&gt;寂寞还有更深层的定义。那就是——从早到晚所做之事，并非自己最有兴趣的事；从早到晚总在说些什么，但没几句是自己最想说的话；即使改变了这一种境况，另一
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1101 - 下一个功能谬误</title>
-    <link href="https://atjason.com/daily/2023-11-01.html"/>
-    <id>https://atjason.com/daily/2023-11-01.html</id>
-    <published>2023-11-01T14:00:00.000Z</published>
-    <updated>2023-11-05T13:25:02.299Z</updated>
-    
-    <content type="html"><![CDATA[<p>创业者有一个谬误，叫做“下一个功能谬误”，指的是一种错误想法，认为自家产品的下一个新功能，会突然让人们使用该产品。</p>
-<p>事实上，产品的成功与否，是个系统性的问题；功能的问题，只能通常暴露在最表面的。</p>
-<p>功能的添加与改进，通常是锦上添花，很难起死回生。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;创业者有一个谬误，叫做“下一个功能谬误”，指的是一种错误想法，认为自家产品的下一个新功能，会突然让人们使用该产品。&lt;/p&gt;
-&lt;p&gt;事实上，产品的成功与否，是个系统性的问题；功能的问题，只能通常暴露在最表面的。&lt;/p&gt;
-&lt;p&gt;功能的添加与改进，通常是锦上添花，很难起死回生。&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1031 - 商场分层</title>
-    <link href="https://atjason.com/daily/2023-10-31.html"/>
-    <id>https://atjason.com/daily/2023-10-31.html</id>
-    <published>2023-10-31T14:00:00.000Z</published>
-    <updated>2023-11-05T13:23:37.427Z</updated>
-    
-    <content type="html"><![CDATA[<p>逛商场的年轻人，只去B1；B1 还有的就是大超市。</p>
-<p>楼上卖大牌的楼层，冷冷清清；</p>
-<p>再往上，就是餐饮、教辅、影院。</p>
-<p>附近的几个商场，基本都是这种布局。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;逛商场的年轻人，只去B1；B1 还有的就是大超市。&lt;/p&gt;
-&lt;p&gt;楼上卖大牌的楼层，冷冷清清；&lt;/p&gt;
-&lt;p&gt;再往上，就是餐饮、教辅、影院。&lt;/p&gt;
-&lt;p&gt;附近的几个商场，基本都是这种布局。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1030 - 分久必合</title>
-    <link href="https://atjason.com/daily/2023-10-30.html"/>
-    <id>https://atjason.com/daily/2023-10-30.html</id>
-    <published>2023-10-30T14:00:00.000Z</published>
-    <updated>2023-11-05T13:20:41.024Z</updated>
-    
-    <content type="html"><![CDATA[<p>老家的承包地，变成了村里收上来后，统一承包给某个人，然后把承包费分给各家。</p>
-<p>起因自然是年轻功力流失，或进城，或有别的赚钱能力，种地的人越来越少，土地的收益占比越来越小。</p>
-<p>当年小岗一声吼，包产到户，解放个人劳动力，解除封印。</p>
-<p>如今，个人劳动力效率天花板抬高；原来的释放，反倒成了浪费、不能充分发挥。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;老家的承包地，变成了村里收上来后，统一承包给某个人，然后把承包费分给各家。&lt;/p&gt;
-&lt;p&gt;起因自然是年轻功力流失，或进城，或有别的赚钱能力，种地的人越来越少，土地的收益占比越来越小。&lt;/p&gt;
-&lt;p&gt;当年小岗一声吼，包产到户，解放个人劳动力，解除封印。&lt;/p&gt;
-&lt;p&gt;如今，个
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1029 - 小米发布澎湃操作系统</title>
-    <link href="https://atjason.com/daily/2023-10-29.html"/>
-    <id>https://atjason.com/daily/2023-10-29.html</id>
-    <published>2023-10-29T14:00:00.000Z</published>
-    <updated>2023-10-29T13:46:27.373Z</updated>
-    
-    <content type="html"><![CDATA[<p>看小米发布会，比看苹果发布会，还要兴奋。</p>
-<p>虽然，澎湃操作系统的很多东西，看起来是重复造轮子，是苹果、华为玩剩下的。但，苹果是别人家的；就算华为有，多个参与者，总归是好事。</p>
-<p>苹果一个巨大的领先优势，是建议了多平台系统，并且有大量的优秀开发者，开发了海量的优秀应用。要在热带雨林之下，再长出一片树林，谈何容易。可现在的 ZZ 环境，又使得这成为必选项。</p>
-<p>虽然，这场发布会来得太晚了。要飞得高，最好是在有风的时候飞。而现在没什么明显的风，需要消耗家底，才能支持庞大的基础建设。建立生态，必然需要很长的时间。</p>
-<p>有生态才有参与者，有参与者才有生态。在这个鸡生蛋、蛋生鸡的困局中，且看小米如何破局。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看小米发布会，比看苹果发布会，还要兴奋。&lt;/p&gt;
-&lt;p&gt;虽然，澎湃操作系统的很多东西，看起来是重复造轮子，是苹果、华为玩剩下的。但，苹果是别人家的；就算华为有，多个参与者，总归是好事。&lt;/p&gt;
-&lt;p&gt;苹果一个巨大的领先优势，是建议了多平台系统，并且有大量的优秀开发者，开发了
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1028 - 买了莱芬电动牙刷</title>
-    <link href="https://atjason.com/daily/2023-10-28.html"/>
-    <id>https://atjason.com/daily/2023-10-28.html</id>
-    <published>2023-10-28T14:00:00.000Z</published>
-    <updated>2023-10-29T13:50:45.196Z</updated>
-    
-    <content type="html"><![CDATA[<p>看过莱芬创始人的采访视频，对其在硬件上敢超求精的精神所折服。尤其当我自己也做硬件后，就更加有点自己人的感觉。</p>
-<p>虽然没机会买其吹风机，可当知道他们新推出了扫震电动牙刷后，在看更多介绍之前，心里就已经决定要买了。</p>
-<p>又补看了其发布会，苹果味很足；又或者说，对自己的技术、产品，很有偏心。同时，价格很普惠。对电动牙刷感兴趣的朋友，可以去了解下。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看过莱芬创始人的采访视频，对其在硬件上敢超求精的精神所折服。尤其当我自己也做硬件后，就更加有点自己人的感觉。&lt;/p&gt;
-&lt;p&gt;虽然没机会买其吹风机，可当知道他们新推出了扫震电动牙刷后，在看更多介绍之前，心里就已经决定要买了。&lt;/p&gt;
-&lt;p&gt;又补看了其发布会，苹果味很足；又或者
     
     </summary>
     
