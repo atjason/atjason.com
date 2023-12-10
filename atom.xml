@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-12-03T15:02:15.563Z</updated>
+  <updated>2023-12-10T14:30:02.248Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,111 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1207 - 搭建自己发卡系统</title>
+    <link href="https://atjason.com/daily/2023-12-07.html"/>
+    <id>https://atjason.com/daily/2023-12-07.html</id>
+    <published>2023-12-07T14:00:00.000Z</published>
+    <updated>2023-12-10T14:30:02.248Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前 ChatGPT 的激活码，是用朋友的自动发卡系统，一直运行得挺好的。</p>
+<p>可前些天，他的系统被黑了，也就不能用了。</p>
+<p>之前用朋友的系统，是想快速上线。后来跑起来还可以，就不想自己折腾了。</p>
+<p>现在没办法，只能折腾了。</p>
+<p>用的是 <a href="https://github.com/assimon/dujiaoka" target="_blank" rel="external">独角数卡</a> 的开源系统，收款用的是支付宝对面付，手续费 0.6%。</p>
+<p>虽然，有人整理了 docker 来安装，但实际上，还是有点折腾的。主要是域名、反代、各种配置、监控、备份等等，事情比较杂。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前 ChatGPT 的激活码，是用朋友的自动发卡系统，一直运行得挺好的。&lt;/p&gt;
+&lt;p&gt;可前些天，他的系统被黑了，也就不能用了。&lt;/p&gt;
+&lt;p&gt;之前用朋友的系统，是想快速上线。后来跑起来还可以，就不想自己折腾了。&lt;/p&gt;
+&lt;p&gt;现在没办法，只能折腾了。&lt;/p&gt;
+&lt;p&gt;用的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1206 - 配置 WSL</title>
+    <link href="https://atjason.com/daily/2023-12-06.html"/>
+    <id>https://atjason.com/daily/2023-12-06.html</id>
+    <published>2023-12-06T14:00:00.000Z</published>
+    <updated>2023-12-10T14:24:53.936Z</updated>
+    
+    <content type="html"><![CDATA[<p>不是有这么句话：最好的 Linux 发行版，是 Windows。</p>
+<p>主要是，近年来 Windows 推出了 WSL，可以简洁高效地运行 Linux；考虑到 Linux 下不方便运行 Windows，那 Windows 可不完胜。</p>
+<p>这两天配置好了 WSL，开机自启动，自动转发 SSH 端口，能直接远程登录，开心。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;不是有这么句话：最好的 Linux 发行版，是 Windows。&lt;/p&gt;
+&lt;p&gt;主要是，近年来 Windows 推出了 WSL，可以简洁高效地运行 Linux；考虑到 Linux 下不方便运行 Windows，那 Windows 可不完胜。&lt;/p&gt;
+&lt;p&gt;这两天配置好了 W
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1205 - Caddy 服务器</title>
+    <link href="https://atjason.com/daily/2023-12-05.html"/>
+    <id>https://atjason.com/daily/2023-12-05.html</id>
+    <published>2023-12-05T14:00:00.000Z</published>
+    <updated>2023-12-10T14:22:20.538Z</updated>
+    
+    <content type="html"><![CDATA[<p>上周研究了 docker &amp; nginx，替代之前使用的 lnmp，已经感觉比较简单的，还开源了代码，并在 V2EX 分享。</p>
+<p>结果，V2EX 的帖子上，有几个人提到了 Caddy。我去研究了一下，哇，果然很简洁哎。</p>
+<p>又花了些时间，将 docker &amp; nginx 换成了 Caddy；又学到了新技能，开心。</p>
+<p>还是要多分享、多交流、多碰撞，比自己闷头搞强多了。自己抛砖引玉，通常是好的交流的开始。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;上周研究了 docker &amp;amp; nginx，替代之前使用的 lnmp，已经感觉比较简单的，还开源了代码，并在 V2EX 分享。&lt;/p&gt;
+&lt;p&gt;结果，V2EX 的帖子上，有几个人提到了 Caddy。我去研究了一下，哇，果然很简洁哎。&lt;/p&gt;
+&lt;p&gt;又花了些时间，将 do
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1204 - 虚拟机串口不稳定</title>
+    <link href="https://atjason.com/daily/2023-12-04.html"/>
+    <id>https://atjason.com/daily/2023-12-04.html</id>
+    <published>2023-12-04T14:00:00.000Z</published>
+    <updated>2023-12-10T14:19:35.235Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前通过 macOS 下 PD Windows 虚拟机，使用串口给智能模块刷固件，总是不稳定；有时好有时坏。</p>
+<p>今天试了下纯 Windows 的小电脑，发现很稳定，刷机速度明显加快，节省不少时间，开心。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前通过 macOS 下 PD Windows 虚拟机，使用串口给智能模块刷固件，总是不稳定；有时好有时坏。&lt;/p&gt;
+&lt;p&gt;今天试了下纯 Windows 的小电脑，发现很稳定，刷机速度明显加快，节省不少时间，开心。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1202 - Google Universal Analytics 替代</title>
@@ -456,106 +561,6 @@
     
       &lt;p&gt;战报可以说谎，但战线不会。&lt;/p&gt;
 &lt;p&gt;过程可以偷懒，但结果不会说谎。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1108 - 实力决定下限</title>
-    <link href="https://atjason.com/daily/2023-11-08.html"/>
-    <id>https://atjason.com/daily/2023-11-08.html</id>
-    <published>2023-11-08T14:00:00.000Z</published>
-    <updated>2023-11-12T13:44:31.039Z</updated>
-    
-    <content type="html"><![CDATA[<p>运气决定上限。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;运气决定上限。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1107 - 主观与客观交易</title>
-    <link href="https://atjason.com/daily/2023-11-07.html"/>
-    <id>https://atjason.com/daily/2023-11-07.html</id>
-    <published>2023-11-07T14:00:00.000Z</published>
-    <updated>2023-11-12T13:43:56.954Z</updated>
-    
-    <content type="html"><![CDATA[<p>我们做盘前计划都是有自己的观点的，比如涨得差不多了，该跌了；跌的差不多了，该涨了。</p>
-<p>我们做这样的判断，有情绪在，也有自己的经验在，就是发生这种情况的概率大。但市场的走法，可能完全是另外的。</p>
-<p>要么，不断积累经验、提高概率，继续这么干。要么，完全没有情绪，机械式跟着市场走。比如，向上突破就做多，不论当前已经多高。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;我们做盘前计划都是有自己的观点的，比如涨得差不多了，该跌了；跌的差不多了，该涨了。&lt;/p&gt;
-&lt;p&gt;我们做这样的判断，有情绪在，也有自己的经验在，就是发生这种情况的概率大。但市场的走法，可能完全是另外的。&lt;/p&gt;
-&lt;p&gt;要么，不断积累经验、提高概率，继续这么干。要么，完全没有
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1106 - 成败萧何</title>
-    <link href="https://atjason.com/daily/2023-11-06.html"/>
-    <id>https://atjason.com/daily/2023-11-06.html</id>
-    <published>2023-11-06T14:00:00.000Z</published>
-    <updated>2023-11-12T13:43:11.590Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，罗胖 60秒，是得到前身，是早期口碑和招牌。</p>
-<p>可是，再想想，得到并没有在短视频领域有亮眼的表现，或者说没抓住风口，会不会和过于坚持这个60秒语音，甚至有点画地为牢，限制了思维和行动呢？</p>
-<p>坚持的同时，要看看大环境有没有变，有没有更好的形式，用户有没有新的期待。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，罗胖 60秒，是得到前身，是早期口碑和招牌。&lt;/p&gt;
-&lt;p&gt;可是，再想想，得到并没有在短视频领域有亮眼的表现，或者说没抓住风口，会不会和过于坚持这个60秒语音，甚至有点画地为牢，限制了思维和行动呢？&lt;/p&gt;
-&lt;p&gt;坚持的同时，要看看大环境有没有变，有没有更好的形式，用
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1103 - 地铁口的标号</title>
-    <link href="https://atjason.com/daily/2023-11-03.html"/>
-    <id>https://atjason.com/daily/2023-11-03.html</id>
-    <published>2023-11-03T14:00:00.000Z</published>
-    <updated>2023-11-05T13:27:49.966Z</updated>
-    
-    <content type="html"><![CDATA[<p>为什么地铁口要用 ABCD 而不是 1234？</p>
-<p>为什么不念阿波次得？</p>
-<p>小学生同时学ABCD、阿波次得，还是挺分裂的。</p>
-<p>中国有很多人，是不会说普通话、不会念 ABC 的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;为什么地铁口要用 ABCD 而不是 1234？&lt;/p&gt;
-&lt;p&gt;为什么不念阿波次得？&lt;/p&gt;
-&lt;p&gt;小学生同时学ABCD、阿波次得，还是挺分裂的。&lt;/p&gt;
-&lt;p&gt;中国有很多人，是不会说普通话、不会念 ABC 的。&lt;/p&gt;
 
     
     </summary>
