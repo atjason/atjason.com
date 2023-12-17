@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-12-10T14:30:02.248Z</updated>
+  <updated>2023-12-17T13:20:49.427Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,197 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1217 - 少年宫报名小工具</title>
+    <link href="https://atjason.com/daily/2023-12-17.html"/>
+    <id>https://atjason.com/daily/2023-12-17.html</id>
+    <published>2023-12-17T14:00:00.000Z</published>
+    <updated>2023-12-17T13:20:49.427Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天编写的软件，今天捡漏成功，能娃报了少年宫的课，开心。</p>
+<p>扩展一点，很多时候跟别人的竞争，可能根本不在一个维度。比如，不考虑内部放票的情况，只是正常捡漏的话，人工刷绝对刷不过机器。</p>
+<p>同样，有时我们看似在和别人「公平」竞争，可实际上对方可能有我们根本想象不到的 Buff，根本没有胜算。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨天编写的软件，今天捡漏成功，能娃报了少年宫的课，开心。&lt;/p&gt;
+&lt;p&gt;扩展一点，很多时候跟别人的竞争，可能根本不在一个维度。比如，不考虑内部放票的情况，只是正常捡漏的话，人工刷绝对刷不过机器。&lt;/p&gt;
+&lt;p&gt;同样，有时我们看似在和别人「公平」竞争，可实际上对方可能有我们根
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1216 - docker ip</title>
+    <link href="https://atjason.com/daily/2023-12-16.html"/>
+    <id>https://atjason.com/daily/2023-12-16.html</id>
+    <published>2023-12-16T14:00:00.000Z</published>
+    <updated>2023-12-17T13:18:29.995Z</updated>
+    
+    <content type="html"><![CDATA[<p>又学到一点。</p>
+<p>Grafana 中连接本地的 postgres 数据库，不能直接使用 localhost 或 127.0.0.1，而要使用 docker 的本地 ip 地址。</p>
+<p>具体的，可使用 <code>ip add | grep docker0</code> 这一命令，结果中类似 <code>inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0</code> 中的 <code>172.17.0.1</code>，即是 docker 的本地 ip 地址。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;又学到一点。&lt;/p&gt;
+&lt;p&gt;Grafana 中连接本地的 postgres 数据库，不能直接使用 localhost 或 127.0.0.1，而要使用 docker 的本地 ip 地址。&lt;/p&gt;
+&lt;p&gt;具体的，可使用 &lt;code&gt;ip add | grep docker0&lt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1215 - Caddy VS Nginx</title>
+    <link href="https://atjason.com/daily/2023-12-15.html"/>
+    <id>https://atjason.com/daily/2023-12-15.html</id>
+    <published>2023-12-15T14:00:00.000Z</published>
+    <updated>2023-12-17T13:17:27.274Z</updated>
+    
+    <content type="html"><![CDATA[<p>用 Caddy 一段时间，发现简洁是简洁，但果然还是不够成熟，生态跟 nginx 相比，有明显差距。</p>
+<p>比如，nginx 可以反代 tcp，而 Caddy 只是 http 代理。要支持 tcp 代理，得用第三方插件。而这个插件，居然不支持 Caddyfile 配置。卡在这了。</p>
+<p>比如，一些第三方会，把在官方文档中，列出如果结合 Nginx 使用，而 Caddy 则没这种待遇。</p>
+<p>有点后悔使用 Caddy，想切换回 nginx 了…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;用 Caddy 一段时间，发现简洁是简洁，但果然还是不够成熟，生态跟 nginx 相比，有明显差距。&lt;/p&gt;
+&lt;p&gt;比如，nginx 可以反代 tcp，而 Caddy 只是 http 代理。要支持 tcp 代理，得用第三方插件。而这个插件，居然不支持 Caddyfile 配
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1214 - 替代 Google Events 的服务</title>
+    <link href="https://atjason.com/daily/2023-12-14.html"/>
+    <id>https://atjason.com/daily/2023-12-14.html</id>
+    <published>2023-12-14T14:00:00.000Z</published>
+    <updated>2023-12-17T13:15:58.561Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前非常依赖 Google Analysis 中的 Events，记录 App 中的典型行为。而 Google Analysis 升级后，Events 变得不好用了，就打算自己做一下。</p>
+<p>经过比较和朋友推荐，数据库选择 Timescale DB，也就是在 PostgreSQL 基础上，加插件实现的时序数据库，特点时查询速度快。</p>
+<ul>
+<li>在 Docker 中运行 TimescaleDB</li>
+<li>按照官方文档，把简单用法跑一遍</li>
+<li>结合 Node.js，实现数据库的插入</li>
+<li>使用 Caddy，实现插入服务的反代</li>
+<li>使用 Cloudflare，实现 CDN 访问</li>
+<li>使用 Grafana，实现数据的可视化</li>
+</ul>
+<p>要跑通这么个小产品，用到的东西真不少。</p>
+<p>目前已经记录几十万的 Events，目测正常。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前非常依赖 Google Analysis 中的 Events，记录 App 中的典型行为。而 Google Analysis 升级后，Events 变得不好用了，就打算自己做一下。&lt;/p&gt;
+&lt;p&gt;经过比较和朋友推荐，数据库选择 Timescale DB，也就是在 Pos
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1213 - 痛苦与希望</title>
+    <link href="https://atjason.com/daily/2023-12-13.html"/>
+    <id>https://atjason.com/daily/2023-12-13.html</id>
+    <published>2023-12-13T14:00:00.000Z</published>
+    <updated>2023-12-17T13:10:18.022Z</updated>
+    
+    <content type="html"><![CDATA[<p>让我们刻骨铭心的，往往是两件事，一个是痛苦，一个是希望。</p>
+<p>而很多时候，痛苦和希望又是一回事。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;让我们刻骨铭心的，往往是两件事，一个是痛苦，一个是希望。&lt;/p&gt;
+&lt;p&gt;而很多时候，痛苦和希望又是一回事。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1212 - 飞轮理论</title>
+    <link href="https://atjason.com/daily/2023-12-12.html"/>
+    <id>https://atjason.com/daily/2023-12-12.html</id>
+    <published>2023-12-12T14:00:00.000Z</published>
+    <updated>2023-12-17T13:08:13.446Z</updated>
+    
+    <content type="html"><![CDATA[<p>看最近的程前朋友圈，嘉宾关于飞轮的介绍，非常简洁清晰。比如，</p>
+<ul>
+<li>好的产品，带来好的口碑；</li>
+<li>好的口碑，带来好的品牌；</li>
+<li>好的品牌，带来好的流量；</li>
+<li>好的流量，带来好的资源；</li>
+<li>好的资源，带来好的产品；</li>
+<li>轮子就转起来了。</li>
+</ul>
+<p>转起来，还有另外一重意思：有惯性、容错高。就像骑自行车，哪怕一会不骑，哪怕松手，车还是能在一定时间内，继续朝原来的方向走。事业中，一时的偷懒，一时的犯错，不至于一下子死掉，还有缓冲。</p>
+<p>还有一重意思：时间拉长，一时一地的得失，就不那么重要。比如，小学时的第一名，在高考时，啥也不是。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;看最近的程前朋友圈，嘉宾关于飞轮的介绍，非常简洁清晰。比如，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;好的产品，带来好的口碑；&lt;/li&gt;
+&lt;li&gt;好的口碑，带来好的品牌；&lt;/li&gt;
+&lt;li&gt;好的品牌，带来好的流量；&lt;/li&gt;
+&lt;li&gt;好的流量，带来好的资源；&lt;/li&gt;
+&lt;li&gt;好的资源，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1211 - 短视频出海</title>
+    <link href="https://atjason.com/daily/2023-12-11.html"/>
+    <id>https://atjason.com/daily/2023-12-11.html</id>
+    <published>2023-12-11T14:00:00.000Z</published>
+    <updated>2023-12-17T13:06:35.008Z</updated>
+    
+    <content type="html"><![CDATA[<p>挑选国内热门短视频，然后 AI 换脸、翻译、换语音，短剧出海，厉害啊。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;挑选国内热门短视频，然后 AI 换脸、翻译、换语音，短剧出海，厉害啊。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1207 - 搭建自己发卡系统</title>
@@ -379,189 +570,6 @@
 &lt;p&gt;网上搜了下，有可能是风压开关坏了，于是淘宝买了个。&lt;/p&gt;
 &lt;p&gt;可是，换上去还是不行。折腾了下，最后诊断的原因，应该是风机导风管装的方向不合理，导致风压小，不能触发风压开关。&lt;/p&gt;
 &lt;p&gt;虽然，这么折腾，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1123 - 时机</title>
-    <link href="https://atjason.com/daily/2023-11-23.html"/>
-    <id>https://atjason.com/daily/2023-11-23.html</id>
-    <published>2023-11-23T14:00:00.000Z</published>
-    <updated>2023-11-26T13:29:42.319Z</updated>
-    
-    <content type="html"><![CDATA[<p>当你向别人提要求时，趁他心情好时。</p>
-<p>当想从市场赚钱时，趁它行情好时。</p>
-<p>否则，就要触霉头了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;当你向别人提要求时，趁他心情好时。&lt;/p&gt;
-&lt;p&gt;当想从市场赚钱时，趁它行情好时。&lt;/p&gt;
-&lt;p&gt;否则，就要触霉头了。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1122 - 网页工具型产品</title>
-    <link href="https://atjason.com/daily/2023-11-22.html"/>
-    <id>https://atjason.com/daily/2023-11-22.html</id>
-    <published>2023-11-22T14:00:00.000Z</published>
-    <updated>2023-11-26T13:28:32.737Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天尝试将为视频生成字幕，发现了 zimujiang.com</p>
-<p>关键是，这样的产品形态，非常适合我：短小、精干、简洁。一下子有点兴奋，找到了自己擅长的东西。</p>
-<p>还是要多深入生活，了解现在中存在的需求，才能制作出对应的产品。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天尝试将为视频生成字幕，发现了 zimujiang.com&lt;/p&gt;
-&lt;p&gt;关键是，这样的产品形态，非常适合我：短小、精干、简洁。一下子有点兴奋，找到了自己擅长的东西。&lt;/p&gt;
-&lt;p&gt;还是要多深入生活，了解现在中存在的需求，才能制作出对应的产品。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1121 - 南墙</title>
-    <link href="https://atjason.com/daily/2023-11-21.html"/>
-    <id>https://atjason.com/daily/2023-11-21.html</id>
-    <published>2023-11-21T14:00:00.000Z</published>
-    <updated>2023-11-26T13:27:56.813Z</updated>
-    
-    <content type="html"><![CDATA[<p>能说服某些人的，只能南墙。</p>
-<ul>
-<li>撞南墙前的道理——废话学；</li>
-<li>撞南墙后的道理——可真香。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;能说服某些人的，只能南墙。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;撞南墙前的道理——废话学；&lt;/li&gt;
-&lt;li&gt;撞南墙后的道理——可真香。&lt;/li&gt;
-&lt;/ul&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1120 - 一些鸡汤</title>
-    <link href="https://atjason.com/daily/2023-11-20.html"/>
-    <id>https://atjason.com/daily/2023-11-20.html</id>
-    <published>2023-11-20T14:00:00.000Z</published>
-    <updated>2023-11-26T13:27:32.514Z</updated>
-    
-    <content type="html"><![CDATA[<p>焦虑的反义词是具体；没有真正的困难，只是还未具体的解决方案。</p>
-<p>本就一无所有，阳光、微风，皆是收获；又何所畏惧。</p>
-<p>你以为你无法挪动双脚。但低头一看，会发现脚下空无一物。所有的枷锁，都只是恐惧的想象。</p>
-<p>每个人花期不同，不必焦虑别人比你提前拥有。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;焦虑的反义词是具体；没有真正的困难，只是还未具体的解决方案。&lt;/p&gt;
-&lt;p&gt;本就一无所有，阳光、微风，皆是收获；又何所畏惧。&lt;/p&gt;
-&lt;p&gt;你以为你无法挪动双脚。但低头一看，会发现脚下空无一物。所有的枷锁，都只是恐惧的想象。&lt;/p&gt;
-&lt;p&gt;每个人花期不同，不必焦虑别人比你提
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1115 - 晚睡</title>
-    <link href="https://atjason.com/daily/2023-11-15.html"/>
-    <id>https://atjason.com/daily/2023-11-15.html</id>
-    <published>2023-11-15T14:00:00.000Z</published>
-    <updated>2023-11-19T13:37:45.459Z</updated>
-    
-    <content type="html"><![CDATA[<p>晚睡，不是不困，只是贪恋那份自由。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;晚睡，不是不困，只是贪恋那份自由。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1114 - 教育与交易</title>
-    <link href="https://atjason.com/daily/2023-11-14.html"/>
-    <id>https://atjason.com/daily/2023-11-14.html</id>
-    <published>2023-11-14T14:00:00.000Z</published>
-    <updated>2023-11-19T13:30:37.466Z</updated>
-    
-    <content type="html"><![CDATA[<p>教育，三分教、七分等。</p>
-<p>你可以教娃怎么做，甚至答案写出来让他抄，但至少也得等他抄完。</p>
-<p>交易，三分做、七分等。</p>
-<p>有行情了再做。没行情，再好的技术，也雕不出花来。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;教育，三分教、七分等。&lt;/p&gt;
-&lt;p&gt;你可以教娃怎么做，甚至答案写出来让他抄，但至少也得等他抄完。&lt;/p&gt;
-&lt;p&gt;交易，三分做、七分等。&lt;/p&gt;
-&lt;p&gt;有行情了再做。没行情，再好的技术，也雕不出花来。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1113 - 战报可以说谎</title>
-    <link href="https://atjason.com/daily/2023-11-13.html"/>
-    <id>https://atjason.com/daily/2023-11-13.html</id>
-    <published>2023-11-13T14:00:00.000Z</published>
-    <updated>2023-11-19T13:28:44.128Z</updated>
-    
-    <content type="html"><![CDATA[<p>战报可以说谎，但战线不会。</p>
-<p>过程可以偷懒，但结果不会说谎。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;战报可以说谎，但战线不会。&lt;/p&gt;
-&lt;p&gt;过程可以偷懒，但结果不会说谎。&lt;/p&gt;
-
     
     </summary>
     
