@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2023-12-24T12:36:40.484Z</updated>
+  <updated>2023-12-31T12:48:18.067Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,134 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1231 - 2023，硬气了一把</title>
+    <link href="https://atjason.com/daily/2023-12-31.html"/>
+    <id>https://atjason.com/daily/2023-12-31.html</id>
+    <published>2023-12-31T14:00:00.000Z</published>
+    <updated>2023-12-31T12:48:18.067Z</updated>
+    
+    <content type="html"><![CDATA[<p>2023 年，<strong>作为软件开发出身的我，做了两款智能硬件产品，注册了两个专利</strong>，「硬」气了一把。</p>
+<p><a href="https://mp.weixin.qq.com/s/FFtgswdjZ1zuHerD7K-4-w" target="_blank" rel="external">文章比较长，单独写了一篇</a>。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2023 年，&lt;strong&gt;作为软件开发出身的我，做了两款智能硬件产品，注册了两个专利&lt;/strong&gt;，「硬」气了一把。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/FFtgswdjZ1zuHerD7K-4-w&quot; target=
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1228 - 闪电有多少能量？</title>
+    <link href="https://atjason.com/daily/2023-12-28.html"/>
+    <id>https://atjason.com/daily/2023-12-28.html</id>
+    <published>2023-12-28T14:00:00.000Z</published>
+    <updated>2023-12-31T12:46:24.723Z</updated>
+    
+    <content type="html"><![CDATA[<p>一道闪电含有大约 0.25 千瓦时的能量，换算成电费，只有 1 毛多钱的人民币。</p>
+<p>闪电的能量虽然不是非常大，但是持续时间只有几微秒，电压高达数百万伏，所以才会如此危险。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一道闪电含有大约 0.25 千瓦时的能量，换算成电费，只有 1 毛多钱的人民币。&lt;/p&gt;
+&lt;p&gt;闪电的能量虽然不是非常大，但是持续时间只有几微秒，电压高达数百万伏，所以才会如此危险。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1227 - 重新学习 Swift &amp; SwiftUI</title>
+    <link href="https://atjason.com/daily/2023-12-27.html"/>
+    <id>https://atjason.com/daily/2023-12-27.html</id>
+    <published>2023-12-27T14:00:00.000Z</published>
+    <updated>2023-12-31T12:45:26.378Z</updated>
+    
+    <content type="html"><![CDATA[<p>准备做一款 Todo App。</p>
+<p>这是我高频使用的 App；按自己的使用习惯，打造一款趁手的工具。</p>
+<p>于是乎，重新学习 Swift &amp; SwiftUI。</p>
+<p>照着官方例子练习，能快速形成正常的习惯，因为官方一定是最佳实践；模仿是学习的第一步。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;准备做一款 Todo App。&lt;/p&gt;
+&lt;p&gt;这是我高频使用的 App；按自己的使用习惯，打造一款趁手的工具。&lt;/p&gt;
+&lt;p&gt;于是乎，重新学习 Swift &amp;amp; SwiftUI。&lt;/p&gt;
+&lt;p&gt;照着官方例子练习，能快速形成正常的习惯，因为官方一定是最佳实践；模仿是学习
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1226 - 小米手环丢了</title>
+    <link href="https://atjason.com/daily/2023-12-26.html"/>
+    <id>https://atjason.com/daily/2023-12-26.html</id>
+    <published>2023-12-26T14:00:00.000Z</published>
+    <updated>2023-12-31T12:42:44.147Z</updated>
+    
+    <content type="html"><![CDATA[<p>小米手环丢了，可能是脱落了。</p>
+<p>还挺不习惯了，主要是用来看时间、设置闹钟、晚上照明，偶尔记录跑步数据。</p>
+<p>不过也挺开心，这下可以再买新的了。</p>
+<p>结果，很快又找到了 😂</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;小米手环丢了，可能是脱落了。&lt;/p&gt;
+&lt;p&gt;还挺不习惯了，主要是用来看时间、设置闹钟、晚上照明，偶尔记录跑步数据。&lt;/p&gt;
+&lt;p&gt;不过也挺开心，这下可以再买新的了。&lt;/p&gt;
+&lt;p&gt;结果，很快又找到了 😂&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1225 - 谁是楼市问题的始作俑者</title>
+    <link href="https://atjason.com/daily/2023-12-25.html"/>
+    <id>https://atjason.com/daily/2023-12-25.html</id>
+    <published>2023-12-25T14:00:00.000Z</published>
+    <updated>2023-12-31T12:41:31.871Z</updated>
+    
+    <content type="html"><![CDATA[<p>1 万 9 的楼面价，2 万 8 的限价；</p>
+<p>不尊重市场，誓把开发商逼成慈善家；</p>
+<p>不帮扶弱者，解决不了问题，又解决不了有问题的人，一地鸡毛。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;1 万 9 的楼面价，2 万 8 的限价；&lt;/p&gt;
+&lt;p&gt;不尊重市场，誓把开发商逼成慈善家；&lt;/p&gt;
+&lt;p&gt;不帮扶弱者，解决不了问题，又解决不了有问题的人，一地鸡毛。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1222 - 二刷《遥远的救世主》</title>
@@ -431,158 +559,6 @@
       &lt;p&gt;上周研究了 docker &amp;amp; nginx，替代之前使用的 lnmp，已经感觉比较简单的，还开源了代码，并在 V2EX 分享。&lt;/p&gt;
 &lt;p&gt;结果，V2EX 的帖子上，有几个人提到了 Caddy。我去研究了一下，哇，果然很简洁哎。&lt;/p&gt;
 &lt;p&gt;又花了些时间，将 do
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1204 - 虚拟机串口不稳定</title>
-    <link href="https://atjason.com/daily/2023-12-04.html"/>
-    <id>https://atjason.com/daily/2023-12-04.html</id>
-    <published>2023-12-04T14:00:00.000Z</published>
-    <updated>2023-12-10T14:19:35.235Z</updated>
-    
-    <content type="html"><![CDATA[<p>之前通过 macOS 下 PD Windows 虚拟机，使用串口给智能模块刷固件，总是不稳定；有时好有时坏。</p>
-<p>今天试了下纯 Windows 的小电脑，发现很稳定，刷机速度明显加快，节省不少时间，开心。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前通过 macOS 下 PD Windows 虚拟机，使用串口给智能模块刷固件，总是不稳定；有时好有时坏。&lt;/p&gt;
-&lt;p&gt;今天试了下纯 Windows 的小电脑，发现很稳定，刷机速度明显加快，节省不少时间，开心。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1202 - Google Universal Analytics 替代</title>
-    <link href="https://atjason.com/daily/2023-12-02.html"/>
-    <id>https://atjason.com/daily/2023-12-02.html</id>
-    <published>2023-12-02T14:00:00.000Z</published>
-    <updated>2023-12-03T15:02:15.563Z</updated>
-    
-    <content type="html"><![CDATA[<p>Google Universal Analytics 被 Google Analytics（分析）4 取代后，对我影响比较大的，是我之前一直用前者来收集 Events，进行 App 的分析。而后者的 Events，少了数据随时间的变化曲线，用起来不方便。</p>
-<p>找过同类，试了类似 mixpanel 的服务，但用惯了免费又强大的 Google Universal Analytics，再来看这些不那么强大又不免费的服务，有点接受困难 😂</p>
-<p>想着造个轮子试试，花了点时间，做了个后端存储 Events 服务，用 sqlite 存储，先跑起来。</p>
-<p>之后，再去研究时序数据库，找到适合的存储方案。</p>
-<p>然后，再做个简洁的前端，用合适的方式，展示自己关心的数据。</p>
-<p>自己用一段时间，如果觉得好用，就打包成服务，做成一款产品。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Google Universal Analytics 被 Google Analytics（分析）4 取代后，对我影响比较大的，是我之前一直用前者来收集 Events，进行 App 的分析。而后者的 Events，少了数据随时间的变化曲线，用起来不方便。&lt;/p&gt;
-&lt;p&gt;找过
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1201 - 存亡危机</title>
-    <link href="https://atjason.com/daily/2023-12-01.html"/>
-    <id>https://atjason.com/daily/2023-12-01.html</id>
-    <published>2023-12-01T14:00:00.000Z</published>
-    <updated>2023-12-03T14:54:48.486Z</updated>
-    
-    <content type="html"><![CDATA[<p>08年，特斯拉和 SpaceX 同时迎来存亡危机。</p>
-<p>没有过濒死体验，</p>
-<p>没用尽最后一丝力气，</p>
-<p>就不会有泼天的成就。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;08年，特斯拉和 SpaceX 同时迎来存亡危机。&lt;/p&gt;
-&lt;p&gt;没有过濒死体验，&lt;/p&gt;
-&lt;p&gt;没用尽最后一丝力气，&lt;/p&gt;
-&lt;p&gt;就不会有泼天的成就。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1130 - docker &amp; nignix</title>
-    <link href="https://atjason.com/daily/2023-11-30.html"/>
-    <id>https://atjason.com/daily/2023-11-30.html</id>
-    <published>2023-11-30T14:00:00.000Z</published>
-    <updated>2023-12-03T14:54:05.727Z</updated>
-    
-    <content type="html"><![CDATA[<p>又屯了台服务器，又要使用 nginx 搭建网站系统。为了以后屯更多服务器时方便配置，折腾了通过 docker 运行 nginx，使用 Let’s Encrypt 更新 https/ssl。</p>
-<p>整理了一下，传到 GitHub 了：</p>
-<p><img src="https://github.com/atjason/docker-nginx" alt="https://github.com/atjason/docker-nginx"></p>
-<p>另外，把这个开源出去，并在开发者群和 V2EX 介绍时，收到了大家同类的介绍，知道了很多更优秀工具的存在，开心。</p>
-<hr>
-<h1 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h1><ul>
-<li>克隆本项目。</li>
-<li>使用 <code>./vhost.sh add your_domain.com</code> 添加站点。 <ul>
-<li>提前设置好域名的 DNS，指定当前服务器 IP</li>
-</ul>
-</li>
-<li>将站点文件添加至：<code>./www/your_domain.com/public</code></li>
-<li>更新站点配置文件：<code>./nginx/conf.d/your_domain.com.conf</code></li>
-<li>启动 docker：<code>./start.sh</code></li>
-<li>修改站点配置文件后，重载 nginx：<code>./reload-nginx.sh</code></li>
-<li>使用 <code>crontab</code> 定期更新 ssl：<code>./renew-ssl.sh</code></li>
-</ul>
-<h1 id="介绍本项目"><a href="#介绍本项目" class="headerlink" title="介绍本项目"></a>介绍本项目</h1><p>各文件夹及文件：</p>
-<ul>
-<li><code>nginx</code>: nginx 配置文件</li>
-<li><code>www</code>: 站点数据文件，每个域名一个子文件夹，日志位于 <code>www/log</code></li>
-<li><code>ssl</code>: ssl 配置文件，使用 Let’s Encrypt 生成及更新</li>
-<li><code>vhost.sh</code>: 添加、删除站点</li>
-<li><code>compose.yaml</code>: docker compose 配置文件</li>
-<li><code>start.sh</code>: 使用 <code>docker compose up</code> 启动</li>
-<li><code>reload-nginx.sh</code>:  修改站点配置文件后，重载 nginx</li>
-<li><code>renew-ssl.sh</code>: 使用 Let’s Encrypt 更新 ssl</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;又屯了台服务器，又要使用 nginx 搭建网站系统。为了以后屯更多服务器时方便配置，折腾了通过 docker 运行 nginx，使用 Let’s Encrypt 更新 https/ssl。&lt;/p&gt;
-&lt;p&gt;整理了一下，传到 GitHub 了：&lt;/p&gt;
-&lt;p&gt;&lt;img src=
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1129 - Samba VS WebDAV</title>
-    <link href="https://atjason.com/daily/2023-11-29.html"/>
-    <id>https://atjason.com/daily/2023-11-29.html</id>
-    <published>2023-11-29T14:00:00.000Z</published>
-    <updated>2023-12-03T14:52:19.517Z</updated>
-    
-    <content type="html"><![CDATA[<p>折腾了 NAS，奇怪的是，Samba 非常慢，只有几 MB。意外试了下 WebDAV，发现速度正常，能有 70MB。不去研究为什么了，先用着再说。</p>
-<p>硬件用的是天钡 R1，CPU Intel N100，空跑 Windows，CPU 占用明显。不适合做桌面 CPU，也就做做 NAS 软路由这些活。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;折腾了 NAS，奇怪的是，Samba 非常慢，只有几 MB。意外试了下 WebDAV，发现速度正常，能有 70MB。不去研究为什么了，先用着再说。&lt;/p&gt;
-&lt;p&gt;硬件用的是天钡 R1，CPU Intel N100，空跑 Windows，CPU 占用明显。不适合做桌面 CPU
     
     </summary>
     
