@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-01-07T12:08:57.568Z</updated>
+  <updated>2024-01-14T13:01:22.718Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,209 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0114 - iDone</title>
+    <link href="https://atjason.com/daily/2024-01-14.html"/>
+    <id>https://atjason.com/daily/2024-01-14.html</id>
+    <published>2024-01-14T14:00:00.000Z</published>
+    <updated>2024-01-14T13:01:22.718Z</updated>
+    
+    <content type="html"><![CDATA[<p>学习最好结合实践。这次学 SwiftUI &amp; SwiftData，打算做个人 Todo 应用。</p>
+<p>这是我高频使用的应用，目前使用的是 Focus，挺满意的，除了同步不太靠谱。 最重要的一个特性，是无极子任务，对我很方便。</p>
+<p>打算做个简化版的 Focus；从另一个角度讲，接触系统的 Reminders，但增加无极子任务功能。</p>
+<p>搞事情，从注册域名开始 😂</p>
+<p><a href="https://iDone.app" target="_blank" rel="external">https://iDone.app</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;学习最好结合实践。这次学 SwiftUI &amp;amp; SwiftData，打算做个人 Todo 应用。&lt;/p&gt;
+&lt;p&gt;这是我高频使用的应用，目前使用的是 Focus，挺满意的，除了同步不太靠谱。 最重要的一个特性，是无极子任务，对我很方便。&lt;/p&gt;
+&lt;p&gt;打算做个简化版的 
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0113 - 学习 SwiftUI &amp; SwiftData</title>
+    <link href="https://atjason.com/daily/2024-01-13.html"/>
+    <id>https://atjason.com/daily/2024-01-13.html</id>
+    <published>2024-01-13T14:00:00.000Z</published>
+    <updated>2024-01-14T12:58:35.075Z</updated>
+    
+    <content type="html"><![CDATA[<p>只是学习，很容易产生虚假的满足和时不时的空虚和焦虑。</p>
+<p>虚假的满足，是指看似学到了很多东西这，尤其感觉能组合出很多新东西。再学习的劳累，容易产生付出后的满足。</p>
+<p>时不时的空虚焦虑：我学这有用吗？别人都是专家了、我还在学 ABC 啊？这么大把年纪还在学这么基础的东西，就出去多丢人啊？</p>
+<p>创造、尽快卖钱。</p>
+<p>能卖钱的硬东西，才能打碎这些情绪。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;只是学习，很容易产生虚假的满足和时不时的空虚和焦虑。&lt;/p&gt;
+&lt;p&gt;虚假的满足，是指看似学到了很多东西这，尤其感觉能组合出很多新东西。再学习的劳累，容易产生付出后的满足。&lt;/p&gt;
+&lt;p&gt;时不时的空虚焦虑：我学这有用吗？别人都是专家了、我还在学 ABC 啊？这么大把年纪还在学
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0112 - 交易没有「本该」</title>
+    <link href="https://atjason.com/daily/2024-01-12.html"/>
+    <id>https://atjason.com/daily/2024-01-12.html</id>
+    <published>2024-01-12T14:00:00.000Z</published>
+    <updated>2024-01-14T12:57:39.458Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近这一笔量化交易，程序执行几乎没有问题，最后也盈利了。</p>
+<p>本来应该是很开心的事，但因为感觉行情捉弄、平仓后价格大幅反弹、由跌转涨，本来还还能继续赚钱的，结果却被甩下车。算了下，感觉少赚了不少，难受。</p>
+<p>心理这一关，才是交易中最难过的。这还是本单是盈利的。如果本该赚钱，却是亏损，就更难受了。</p>
+<p><strong>问题就出在「本该」两个字</strong>。本该盈利、本该赚更多，哪来的什么本该？！</p>
+<p>市场先生好心发两个铜板，自己得寸进尺，想要元宝；得不到，就开始难受、抱怨市场，这不是泼妇行为吗？</p>
+<p>还是要 <strong>端正自己的心态：乞食</strong>。端好钵、摆好姿势、做好交易动作。至于得到食物还是被打一顿、得多得少，全靠施主，不是乞讨者能决定的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近这一笔量化交易，程序执行几乎没有问题，最后也盈利了。&lt;/p&gt;
+&lt;p&gt;本来应该是很开心的事，但因为感觉行情捉弄、平仓后价格大幅反弹、由跌转涨，本来还还能继续赚钱的，结果却被甩下车。算了下，感觉少赚了不少，难受。&lt;/p&gt;
+&lt;p&gt;心理这一关，才是交易中最难过的。这还是本单是盈
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0111 - 尝试对冲</title>
+    <link href="https://atjason.com/daily/2024-01-11.html"/>
+    <id>https://atjason.com/daily/2024-01-11.html</id>
+    <published>2024-01-11T14:00:00.000Z</published>
+    <updated>2024-01-14T12:57:33.005Z</updated>
+    
+    <content type="html"><![CDATA[<p>QQQ 来到前高附近，有回撤的风险。但我肯定会按规则执行，不会主动平仓。</p>
+<p>该怎么降低回撤风险、平滑资金曲线呢？这次，我尝试买入看跌期权进行对冲。</p>
+<ul>
+<li>如果指数继续涨，买入期权的费用就归零了，相当于少赚 点。</li>
+<li>如果指数下跌，则期权高杠杆带来的收益，能减少资金回撤。</li>
+<li>如果指数横盘，考虑到时间损耗，买入期权的费用就算亏损了。</li>
+</ul>
+<p>由于是首次尝试，期权注意以下几点：</p>
+<ul>
+<li>在 QQQ/SPY/IWM 中选了最弱的 IWM 进行空；</li>
+<li>选了 3 天后到期的期权；</li>
+<li>只买了一点点进行尝试；</li>
+</ul>
+<p>万没想到，行情是先跌后涨。先把 TQQQ 平仓、浮亏变实亏；再反弹，IWM 的做空期权也变亏损。本来是想对冲，现在两头亏。</p>
+<p>如果说如何改进，就是对冲的两个品种，同时平仓，这是最简单的。更高级的，就是对冲的品种，再选择更合适的时机解锁，这就是单边单次的止盈了，也不那么容易。</p>
+<p>要么，就不要搞这么高级的操作，止损就止损，简单直接粗暴。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;QQQ 来到前高附近，有回撤的风险。但我肯定会按规则执行，不会主动平仓。&lt;/p&gt;
+&lt;p&gt;该怎么降低回撤风险、平滑资金曲线呢？这次，我尝试买入看跌期权进行对冲。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果指数继续涨，买入期权的费用就归零了，相当于少赚 点。&lt;/li&gt;
+&lt;li&gt;如果指数下跌
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0110 - 如何对待盈利</title>
+    <link href="https://atjason.com/daily/2024-01-10.html"/>
+    <id>https://atjason.com/daily/2024-01-10.html</id>
+    <published>2024-01-10T14:00:00.000Z</published>
+    <updated>2024-01-14T12:53:41.426Z</updated>
+    
+    <content type="html"><![CDATA[<p>交易过程中对盈利的心态，比如：</p>
+<ul>
+<li>持仓过程中，最多浮盈利 10000；</li>
+<li>最终平仓，能保住 5000 就不错了；</li>
+<li>之后资金回撤，能保住 2500 就不错了；</li>
+</ul>
+<p>这样想，心理就会好过很多。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;交易过程中对盈利的心态，比如：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;持仓过程中，最多浮盈利 10000；&lt;/li&gt;
+&lt;li&gt;最终平仓，能保住 5000 就不错了；&lt;/li&gt;
+&lt;li&gt;之后资金回撤，能保住 2500 就不错了；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样想，心理就会好过很多。&lt;/
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0109 - 交易要淡定</title>
+    <link href="https://atjason.com/daily/2024-01-09.html"/>
+    <id>https://atjason.com/daily/2024-01-09.html</id>
+    <published>2024-01-09T14:00:00.000Z</published>
+    <updated>2024-01-14T12:52:38.541Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨天交易盈利，比较兴奋，半夜醒来看了次盘，早上也看了好多次。</p>
+<p>代价就是，早上很困，很难集中精力学习；更何况，第二天就大跌，盈利大半回吐了…</p>
+<p>交易中，还是要学会放下得失心。该做什么操作，就做什么操作；不要因为盈亏，就对操作产生怀疑，或者过份关注操作的结果。</p>
+<p>以及，作何事都是有代价的，trade-off。虽然盈利了，看起来很好，代价是牺牲了精神，牺牲了做其他事的急迫性和动力。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨天交易盈利，比较兴奋，半夜醒来看了次盘，早上也看了好多次。&lt;/p&gt;
+&lt;p&gt;代价就是，早上很困，很难集中精力学习；更何况，第二天就大跌，盈利大半回吐了…&lt;/p&gt;
+&lt;p&gt;交易中，还是要学会放下得失心。该做什么操作，就做什么操作；不要因为盈亏，就对操作产生怀疑，或者过份关注操作
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0108 - 绝对力量与相对优势</title>
+    <link href="https://atjason.com/daily/2024-01-08.html"/>
+    <id>https://atjason.com/daily/2024-01-08.html</id>
+    <published>2024-01-08T14:00:00.000Z</published>
+    <updated>2024-01-14T12:50:16.167Z</updated>
+    
+    <content type="html"><![CDATA[<p>知识就是力量，而别人的无知同样是你的力量。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;知识就是力量，而别人的无知同样是你的力量。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0105 - 继续学习 SwiftUI</title>
@@ -352,194 +555,6 @@
 &lt;p&gt;毕竟，期货可以做两个方向、交易是在白天、资金进入无障碍，是比较合适的标的。&lt;/p&gt;
 &lt;p&gt;注意到螺纹钢有信号，准备交易的。可是由于账户太久没用，刚从休眠状态激活，当天不能交易，所以没开仓，错过了一波。&lt;/p&gt;
 &lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1219 - 美股货币基金</title>
-    <link href="https://atjason.com/daily/2023-12-19.html"/>
-    <id>https://atjason.com/daily/2023-12-19.html</id>
-    <published>2023-12-19T14:00:00.000Z</published>
-    <updated>2023-12-24T12:23:34.215Z</updated>
-    
-    <content type="html"><![CDATA[<p>空仓的时候，钱放着也是放着，考虑买些货币基金，赚点零花钱。说是零花钱，考虑到今天通胀等因素，一年也有 6% 的收益。</p>
-<p>一些在美股市场中受欢迎的货币市场基金（MMF）：</p>
-<ul>
-<li><strong>MINT</strong>: 由太平洋投资管理公司管理的主动型管理货基，主要投资于1年以下投资级别的全球企业债。它是规模最大、流动性最高的场内货基，过去12个月的分红率达到1.41%，并且致力于将久期控制在一年以内​​。</li>
-<li><strong>SHV</strong>: 安信（iShare）出品的被动型跟踪货基，专注于1年以下的美国国债。它跟踪ICE美国短期国债指数，提供较低的费率，虽然回报率不及一些主动管理的基金​​。</li>
-<li><strong>NEAR</strong>: 同样是安信出品的主动型管理货基，与MINT直接竞争。这只基金投资于到期期限为3年以内的投资级别全球企业债，同时致力于将久期控制在一年以内​​。</li>
-<li><strong>BIL</strong>: SPDR出品的被动型货基，投资于1到3个月期限的美国0息国库券。这个基金主要持有短期国债，因此回报率较低​​。</li>
-<li><strong>GSY</strong>: Guggenheim管理的主动型货基，专注于全球各类短期债务。这只基金的过去3年总回报率超过了MINT，同时它持有大量的商业票据和机构逆回购，以及一部分现金​​。</li>
-<li><strong>RAVI</strong>: 一只主动管理的货基，专注于超短期全球投资级别的公开与非公开债券​​。</li>
-<li><strong>PVI</strong>: PowerShares出品的被动型货基，专门投资于浮动利率的美国市政债。它持有的市政债主要是超长期的，但由于利率浮动，有效久期仅为一周​​。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;空仓的时候，钱放着也是放着，考虑买些货币基金，赚点零花钱。说是零花钱，考虑到今天通胀等因素，一年也有 6% 的收益。&lt;/p&gt;
-&lt;p&gt;一些在美股市场中受欢迎的货币市场基金（MMF）：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;MINT&lt;/strong&gt;: 由太平洋投资管理公司
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1218 - 回报不是线性的</title>
-    <link href="https://atjason.com/daily/2023-12-18.html"/>
-    <id>https://atjason.com/daily/2023-12-18.html</id>
-    <published>2023-12-18T14:00:00.000Z</published>
-    <updated>2023-12-24T12:21:51.040Z</updated>
-    
-    <content type="html"><![CDATA[<p>不要不满现在，成就往往就在一瞬间。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;不要不满现在，成就往往就在一瞬间。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1217 - 少年宫报名小工具</title>
-    <link href="https://atjason.com/daily/2023-12-17.html"/>
-    <id>https://atjason.com/daily/2023-12-17.html</id>
-    <published>2023-12-17T14:00:00.000Z</published>
-    <updated>2023-12-17T13:20:49.427Z</updated>
-    
-    <content type="html"><![CDATA[<p>昨天编写的软件，今天捡漏成功，能娃报了少年宫的课，开心。</p>
-<p>扩展一点，很多时候跟别人的竞争，可能根本不在一个维度。比如，不考虑内部放票的情况，只是正常捡漏的话，人工刷绝对刷不过机器。</p>
-<p>同样，有时我们看似在和别人「公平」竞争，可实际上对方可能有我们根本想象不到的 Buff，根本没有胜算。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;昨天编写的软件，今天捡漏成功，能娃报了少年宫的课，开心。&lt;/p&gt;
-&lt;p&gt;扩展一点，很多时候跟别人的竞争，可能根本不在一个维度。比如，不考虑内部放票的情况，只是正常捡漏的话，人工刷绝对刷不过机器。&lt;/p&gt;
-&lt;p&gt;同样，有时我们看似在和别人「公平」竞争，可实际上对方可能有我们根
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1216 - docker ip</title>
-    <link href="https://atjason.com/daily/2023-12-16.html"/>
-    <id>https://atjason.com/daily/2023-12-16.html</id>
-    <published>2023-12-16T14:00:00.000Z</published>
-    <updated>2023-12-17T13:18:29.995Z</updated>
-    
-    <content type="html"><![CDATA[<p>又学到一点。</p>
-<p>Grafana 中连接本地的 postgres 数据库，不能直接使用 localhost 或 127.0.0.1，而要使用 docker 的本地 ip 地址。</p>
-<p>具体的，可使用 <code>ip add | grep docker0</code> 这一命令，结果中类似 <code>inet 172.17.0.1/16 brd 172.17.255.255 scope global docker0</code> 中的 <code>172.17.0.1</code>，即是 docker 的本地 ip 地址。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;又学到一点。&lt;/p&gt;
-&lt;p&gt;Grafana 中连接本地的 postgres 数据库，不能直接使用 localhost 或 127.0.0.1，而要使用 docker 的本地 ip 地址。&lt;/p&gt;
-&lt;p&gt;具体的，可使用 &lt;code&gt;ip add | grep docker0&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1215 - Caddy VS Nginx</title>
-    <link href="https://atjason.com/daily/2023-12-15.html"/>
-    <id>https://atjason.com/daily/2023-12-15.html</id>
-    <published>2023-12-15T14:00:00.000Z</published>
-    <updated>2023-12-17T13:17:27.274Z</updated>
-    
-    <content type="html"><![CDATA[<p>用 Caddy 一段时间，发现简洁是简洁，但果然还是不够成熟，生态跟 nginx 相比，有明显差距。</p>
-<p>比如，nginx 可以反代 tcp，而 Caddy 只是 http 代理。要支持 tcp 代理，得用第三方插件。而这个插件，居然不支持 Caddyfile 配置。卡在这了。</p>
-<p>比如，一些第三方会，把在官方文档中，列出如果结合 Nginx 使用，而 Caddy 则没这种待遇。</p>
-<p>有点后悔使用 Caddy，想切换回 nginx 了…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;用 Caddy 一段时间，发现简洁是简洁，但果然还是不够成熟，生态跟 nginx 相比，有明显差距。&lt;/p&gt;
-&lt;p&gt;比如，nginx 可以反代 tcp，而 Caddy 只是 http 代理。要支持 tcp 代理，得用第三方插件。而这个插件，居然不支持 Caddyfile 配
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1214 - 替代 Google Events 的服务</title>
-    <link href="https://atjason.com/daily/2023-12-14.html"/>
-    <id>https://atjason.com/daily/2023-12-14.html</id>
-    <published>2023-12-14T14:00:00.000Z</published>
-    <updated>2023-12-17T13:15:58.561Z</updated>
-    
-    <content type="html"><![CDATA[<p>之前非常依赖 Google Analysis 中的 Events，记录 App 中的典型行为。而 Google Analysis 升级后，Events 变得不好用了，就打算自己做一下。</p>
-<p>经过比较和朋友推荐，数据库选择 Timescale DB，也就是在 PostgreSQL 基础上，加插件实现的时序数据库，特点时查询速度快。</p>
-<ul>
-<li>在 Docker 中运行 TimescaleDB</li>
-<li>按照官方文档，把简单用法跑一遍</li>
-<li>结合 Node.js，实现数据库的插入</li>
-<li>使用 Caddy，实现插入服务的反代</li>
-<li>使用 Cloudflare，实现 CDN 访问</li>
-<li>使用 Grafana，实现数据的可视化</li>
-</ul>
-<p>要跑通这么个小产品，用到的东西真不少。</p>
-<p>目前已经记录几十万的 Events，目测正常。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前非常依赖 Google Analysis 中的 Events，记录 App 中的典型行为。而 Google Analysis 升级后，Events 变得不好用了，就打算自己做一下。&lt;/p&gt;
-&lt;p&gt;经过比较和朋友推荐，数据库选择 Timescale DB，也就是在 Pos
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1213 - 痛苦与希望</title>
-    <link href="https://atjason.com/daily/2023-12-13.html"/>
-    <id>https://atjason.com/daily/2023-12-13.html</id>
-    <published>2023-12-13T14:00:00.000Z</published>
-    <updated>2023-12-17T13:10:18.022Z</updated>
-    
-    <content type="html"><![CDATA[<p>让我们刻骨铭心的，往往是两件事，一个是痛苦，一个是希望。</p>
-<p>而很多时候，痛苦和希望又是一回事。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;让我们刻骨铭心的，往往是两件事，一个是痛苦，一个是希望。&lt;/p&gt;
-&lt;p&gt;而很多时候，痛苦和希望又是一回事。&lt;/p&gt;
-
     
     </summary>
     
