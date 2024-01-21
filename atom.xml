@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-01-14T13:01:22.718Z</updated>
+  <updated>2024-01-21T12:47:35.723Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -16,11 +16,113 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>0120 - 养育的起点是什么？</title>
+    <link href="https://atjason.com/daily/2024-01-20.html"/>
+    <id>https://atjason.com/daily/2024-01-20.html</id>
+    <published>2024-01-20T14:00:00.000Z</published>
+    <updated>2024-01-21T12:47:35.723Z</updated>
+    
+    <content type="html"><![CDATA[<p>多数父母一定会说是“爱”，然而每个人对“爱”的理解是不同的。有些父母认为爱是接纳、尊重、理解和信任，也有很多父母把对孩子的羞辱、打骂和控制视为一种爱。我们可以看看身边发生的或媒体报道的父母对孩子的种种伤害，哪一件不是打着“爱”和“为你好”的旗号呢？</p>
+<p>我一直以为，养育的起点是了解、是理解。如同我们养一株花、种一棵树，先要知道播下的是什么种子、有什么习性和需求、生长的节奏和规律如何，才可能找到最适合它生长的方式去培育。养育孩子亦是如此，理解是爱的前提，唯有了解和尊重孩子身心和大脑发育的基本规律，才能更好地帮助孩子健康成长。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;多数父母一定会说是“爱”，然而每个人对“爱”的理解是不同的。有些父母认为爱是接纳、尊重、理解和信任，也有很多父母把对孩子的羞辱、打骂和控制视为一种爱。我们可以看看身边发生的或媒体报道的父母对孩子的种种伤害，哪一件不是打着“爱”和“为你好”的旗号呢？&lt;/p&gt;
+&lt;p&gt;我一直以为
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0119 - 拥抱趋势</title>
+    <link href="https://atjason.com/daily/2024-01-19.html"/>
+    <id>https://atjason.com/daily/2024-01-19.html</id>
+    <published>2024-01-19T14:00:00.000Z</published>
+    <updated>2024-01-21T12:50:02.244Z</updated>
+    
+    <content type="html"><![CDATA[<p>美股创新高，我的净值也创新高。</p>
+<p>拥抱趋势，做趋势的跟随者。</p>
+<p>当然，好处有，代价也有。有趋势时吃鱼身，震荡时两边挨巴掌。</p>
+<p>对比大 A，会发现：交易第一步，选择好的标的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;美股创新高，我的净值也创新高。&lt;/p&gt;
+&lt;p&gt;拥抱趋势，做趋势的跟随者。&lt;/p&gt;
+&lt;p&gt;当然，好处有，代价也有。有趋势时吃鱼身，震荡时两边挨巴掌。&lt;/p&gt;
+&lt;p&gt;对比大 A，会发现：交易第一步，选择好的标的。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0121 - 折腾 SwiftData</title>
+    <link href="https://atjason.com/daily/2024-01-16.html"/>
+    <id>https://atjason.com/daily/2024-01-16.html</id>
+    <published>2024-01-16T14:00:00.000Z</published>
+    <updated>2024-01-21T12:41:53.384Z</updated>
+    
+    <content type="html"><![CDATA[<p>这周花了比较多的时间，折腾 iDone；包括定义数据结构、研究树形数据的显示、Undo/Redo。</p>
+<p>很遗憾，这几件事有进展，但都没完全搞定。</p>
+<p>多方面原因吧。自己手生，SwiftUI &amp; SwiftData &amp; CloudKit 本身繁杂，SwiftData 有 Bug，等等。</p>
+<p>希望下周把这这些部分搞定，iDone 就有基本的框架了。之后，慢慢填充 UI、优化体验细节。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这周花了比较多的时间，折腾 iDone；包括定义数据结构、研究树形数据的显示、Undo/Redo。&lt;/p&gt;
+&lt;p&gt;很遗憾，这几件事有进展，但都没完全搞定。&lt;/p&gt;
+&lt;p&gt;多方面原因吧。自己手生，SwiftUI &amp;amp; SwiftData &amp;amp; CloudKit 本
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0115 - 老了做什么？</title>
+    <link href="https://atjason.com/daily/2024-01-15.html"/>
+    <id>https://atjason.com/daily/2024-01-15.html</id>
+    <published>2024-01-15T14:00:00.000Z</published>
+    <updated>2024-01-21T12:37:39.466Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在学 SwiftData，刷到一个视频，觉得讲得不错。定睛一看，是位须发皆白的老爷爷，目测七十有余。</p>
+<p>我之前时不时焦虑，我这把年纪，去学新技术，和小伙子拼，想想都难受…现在来看，老爷爷给我这中年人上课，惭愧啊。</p>
+<p>不焦虑了。人生是场长跑，不必太过在意一时一地的得失。努力活成老爷爷，耳聪目明，能学新技术，给年轻人当讲师。💪</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近在学 SwiftData，刷到一个视频，觉得讲得不错。定睛一看，是位须发皆白的老爷爷，目测七十有余。&lt;/p&gt;
+&lt;p&gt;我之前时不时焦虑，我这把年纪，去学新技术，和小伙子拼，想想都难受…现在来看，老爷爷给我这中年人上课，惭愧啊。&lt;/p&gt;
+&lt;p&gt;不焦虑了。人生是场长跑，不必太
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>0114 - iDone</title>
     <link href="https://atjason.com/daily/2024-01-14.html"/>
     <id>https://atjason.com/daily/2024-01-14.html</id>
     <published>2024-01-14T14:00:00.000Z</published>
-    <updated>2024-01-14T13:01:22.718Z</updated>
+    <updated>2024-01-14T13:04:25.834Z</updated>
     
     <content type="html"><![CDATA[<p>学习最好结合实践。这次学 SwiftUI &amp; SwiftData，打算做个人 Todo 应用。</p>
 <p>这是我高频使用的应用，目前使用的是 Focus，挺满意的，除了同步不太靠谱。 最重要的一个特性，是无极子任务，对我很方便。</p>
@@ -47,20 +149,20 @@
     <link href="https://atjason.com/daily/2024-01-13.html"/>
     <id>https://atjason.com/daily/2024-01-13.html</id>
     <published>2024-01-13T14:00:00.000Z</published>
-    <updated>2024-01-14T12:58:35.075Z</updated>
+    <updated>2024-01-14T13:04:14.646Z</updated>
     
-    <content type="html"><![CDATA[<p>只是学习，很容易产生虚假的满足和时不时的空虚和焦虑。</p>
+    <content type="html"><![CDATA[<p><strong>只是学习，很容易产生虚假的满足、时不时的空虚和焦虑</strong>。</p>
 <p>虚假的满足，是指看似学到了很多东西这，尤其感觉能组合出很多新东西。再学习的劳累，容易产生付出后的满足。</p>
 <p>时不时的空虚焦虑：我学这有用吗？别人都是专家了、我还在学 ABC 啊？这么大把年纪还在学这么基础的东西，就出去多丢人啊？</p>
 <p>创造、尽快卖钱。</p>
-<p>能卖钱的硬东西，才能打碎这些情绪。</p>
+<p><strong>能卖钱的硬东西，才能打碎这些情绪。</strong></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;只是学习，很容易产生虚假的满足和时不时的空虚和焦虑。&lt;/p&gt;
+      &lt;p&gt;&lt;strong&gt;只是学习，很容易产生虚假的满足、时不时的空虚和焦虑&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;虚假的满足，是指看似学到了很多东西这，尤其感觉能组合出很多新东西。再学习的劳累，容易产生付出后的满足。&lt;/p&gt;
-&lt;p&gt;时不时的空虚焦虑：我学这有用吗？别人都是专家了、我还在学 ABC 啊？这么大把年纪还在学
+&lt;p&gt;时不时的空虚焦虑：我学这有用吗？别人都是专家了、我还在
     
     </summary>
     
@@ -74,7 +176,7 @@
     <link href="https://atjason.com/daily/2024-01-12.html"/>
     <id>https://atjason.com/daily/2024-01-12.html</id>
     <published>2024-01-12T14:00:00.000Z</published>
-    <updated>2024-01-14T12:57:39.458Z</updated>
+    <updated>2024-01-14T13:03:38.234Z</updated>
     
     <content type="html"><![CDATA[<p>最近这一笔量化交易，程序执行几乎没有问题，最后也盈利了。</p>
 <p>本来应该是很开心的事，但因为感觉行情捉弄、平仓后价格大幅反弹、由跌转涨，本来还还能继续赚钱的，结果却被甩下车。算了下，感觉少赚了不少，难受。</p>
@@ -102,7 +204,7 @@
     <link href="https://atjason.com/daily/2024-01-11.html"/>
     <id>https://atjason.com/daily/2024-01-11.html</id>
     <published>2024-01-11T14:00:00.000Z</published>
-    <updated>2024-01-14T12:57:33.005Z</updated>
+    <updated>2024-01-14T13:02:58.867Z</updated>
     
     <content type="html"><![CDATA[<p>QQQ 来到前高附近，有回撤的风险。但我肯定会按规则执行，不会主动平仓。</p>
 <p>该怎么降低回撤风险、平滑资金曲线呢？这次，我尝试买入看跌期权进行对冲。</p>
@@ -117,7 +219,7 @@
 <li>选了 3 天后到期的期权；</li>
 <li>只买了一点点进行尝试；</li>
 </ul>
-<p>万没想到，行情是先跌后涨。先把 TQQQ 平仓、浮亏变实亏；再反弹，IWM 的做空期权也变亏损。本来是想对冲，现在两头亏。</p>
+<p>万没想到，行情是先跌后涨。先把 TQQQ 平仓、浮亏变实亏；再反弹，IWM 的做空期权也变亏损。<strong>本来是想对冲，现在两头亏。真应了那句话：无论什么策略，市场都有让你亏光的走法。</strong></p>
 <p>如果说如何改进，就是对冲的两个品种，同时平仓，这是最简单的。更高级的，就是对冲的品种，再选择更合适的时机解锁，这就是单边单次的止盈了，也不那么容易。</p>
 <p>要么，就不要搞这么高级的操作，止损就止损，简单直接粗暴。</p>
 ]]></content>
@@ -175,12 +277,12 @@
     <link href="https://atjason.com/daily/2024-01-09.html"/>
     <id>https://atjason.com/daily/2024-01-09.html</id>
     <published>2024-01-09T14:00:00.000Z</published>
-    <updated>2024-01-14T12:52:38.541Z</updated>
+    <updated>2024-01-14T13:03:20.335Z</updated>
     
     <content type="html"><![CDATA[<p>昨天交易盈利，比较兴奋，半夜醒来看了次盘，早上也看了好多次。</p>
 <p>代价就是，早上很困，很难集中精力学习；更何况，第二天就大跌，盈利大半回吐了…</p>
 <p>交易中，还是要学会放下得失心。该做什么操作，就做什么操作；不要因为盈亏，就对操作产生怀疑，或者过份关注操作的结果。</p>
-<p>以及，作何事都是有代价的，trade-off。虽然盈利了，看起来很好，代价是牺牲了精神，牺牲了做其他事的急迫性和动力。</p>
+<p>以及，<strong>作何事都是有代价的</strong>，trade-off。虽然盈利了，看起来很好，代价是牺牲了精神，牺牲了做其他事的急迫性和动力。</p>
 ]]></content>
     
     <summary type="html">
@@ -433,128 +535,6 @@
 &lt;p&gt;不过也挺开心，这下可以再买新的了。&lt;/p&gt;
 &lt;p&gt;结果，很快又找到了 😂&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1225 - 谁是楼市问题的始作俑者</title>
-    <link href="https://atjason.com/daily/2023-12-25.html"/>
-    <id>https://atjason.com/daily/2023-12-25.html</id>
-    <published>2023-12-25T14:00:00.000Z</published>
-    <updated>2023-12-31T12:41:31.871Z</updated>
-    
-    <content type="html"><![CDATA[<p>1 万 9 的楼面价，2 万 8 的限价；</p>
-<p>不尊重市场，誓把开发商逼成慈善家；</p>
-<p>不帮扶弱者，解决不了问题，又解决不了有问题的人，一地鸡毛。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;1 万 9 的楼面价，2 万 8 的限价；&lt;/p&gt;
-&lt;p&gt;不尊重市场，誓把开发商逼成慈善家；&lt;/p&gt;
-&lt;p&gt;不帮扶弱者，解决不了问题，又解决不了有问题的人，一地鸡毛。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1222 - 二刷《遥远的救世主》</title>
-    <link href="https://atjason.com/daily/2023-12-22.html"/>
-    <id>https://atjason.com/daily/2023-12-22.html</id>
-    <published>2023-12-22T14:00:00.000Z</published>
-    <updated>2023-12-24T12:36:40.484Z</updated>
-    
-    <content type="html"><![CDATA[<p>这一次刷，主要有几个比较深的感受。</p>
-<p>1、丁的每一步，都是很简单、很直白的，并没有什么神来之笔。可一步步累加起来，却成了无可抵挡的必然。</p>
-<p>换个说法，可以说是阳谋。即使你事先知道我要出什么牌、即使打明牌，依然打不过。</p>
-<p>2、另一个感受，这种做法，只有王庙村是赢家。或者说，蛋糕并没有做大，只是把别人辛苦打下的江山，放到王庙村的口袋里。</p>
-<p>在当时的环境下，对外人家说我们卖恶意低价、反倾销惩罚，对内我们依然用小农经济的思维，无限向下卷。从中国整体来考虑，确实是坏事。</p>
-<p>3、芮的洒脱，尤其是最后的自戕，让人在精神上无比羡慕。当生则生、当死则死，还能更纯粹、更自在吗。</p>
-<p>至于为什么这本书及改编的电视《天道》被半下架，可能因为这种深层次意识形态的探讨，容易擦枪走火，触碰到了敏感的神经。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这一次刷，主要有几个比较深的感受。&lt;/p&gt;
-&lt;p&gt;1、丁的每一步，都是很简单、很直白的，并没有什么神来之笔。可一步步累加起来，却成了无可抵挡的必然。&lt;/p&gt;
-&lt;p&gt;换个说法，可以说是阳谋。即使你事先知道我要出什么牌、即使打明牌，依然打不过。&lt;/p&gt;
-&lt;p&gt;2、另一个感受，这
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1221 - 商业模式</title>
-    <link href="https://atjason.com/daily/2023-12-21.html"/>
-    <id>https://atjason.com/daily/2023-12-21.html</id>
-    <published>2023-12-21T14:00:00.000Z</published>
-    <updated>2023-12-24T12:26:37.213Z</updated>
-    
-    <content type="html"><![CDATA[<p>商业模式实际是一个链状的体系，一个好的商业模式创新，至少要想明白如下 5 个核心问题：</p>
-<ol>
-<li><p>你准备提供的产品（或者服务），解决什么需求？<br>换而言之，你的目标用户群体是谁？刚需，还是改善性的？高频需求，还是低频？</p>
-</li>
-<li><p>这个需求的市场是否足够大？<br>如果是个小市场，那就不是创业，是糊口；</p>
-</li>
-<li><p>你的模式，会动谁的奶酪？<br>换句话说，你的潜在敌人，块头有多大？这决定了你创业的摩擦系数与阻力，也决定了你最终能走多远；</p>
-</li>
-<li><p>你的模式，是否不容易被复制，被抄袭？</p>
-</li>
-<li><p>盈利模式——这是最、最、最重要的。<br>简单说，你的商业模式，怎么赚到钱？任何不考虑赚钱的商业模式，都是耍流氓。但如果你耍流氓（当然吧，不能违法）就能解决赚钱问题，我不会在意你是流氓还是君子。</p>
-</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;商业模式实际是一个链状的体系，一个好的商业模式创新，至少要想明白如下 5 个核心问题：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;你准备提供的产品（或者服务），解决什么需求？&lt;br&gt;换而言之，你的目标用户群体是谁？刚需，还是改善性的？高频需求，还是低频？&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1220 - 国内期货</title>
-    <link href="https://atjason.com/daily/2023-12-20.html"/>
-    <id>https://atjason.com/daily/2023-12-20.html</id>
-    <published>2023-12-20T14:00:00.000Z</published>
-    <updated>2023-12-24T12:24:55.918Z</updated>
-    
-    <content type="html"><![CDATA[<p>准备再把国内期货再捡起来，用钱、时间换取经验。</p>
-<p>毕竟，期货可以做两个方向、交易是在白天、资金进入无障碍，是比较合适的标的。</p>
-<p>注意到螺纹钢有信号，准备交易的。可是由于账户太久没用，刚从休眠状态激活，当天不能交易，所以没开仓，错过了一波。</p>
-<p>第二天做了豆一，目前盈利 10 个点；持仓过周末，看看市场会给一巴掌还是一颗糖。</p>
-<p>不过，给什么也没关系了，不以结果论英雄，不以盈亏论好坏。只要坚持期望值为正的一致性交易策略，根据实际交易经验，在有必要时调整优化策略，也就可以了。</p>
-<p>真正的困难，不是交易策略，而是交易过程中的心理活动，想大赚、怕错过、怕卖飞、想死抗、受不了浮盈的大幅波动、等等。这些才是接下来交易中的真正考验。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;准备再把国内期货再捡起来，用钱、时间换取经验。&lt;/p&gt;
-&lt;p&gt;毕竟，期货可以做两个方向、交易是在白天、资金进入无障碍，是比较合适的标的。&lt;/p&gt;
-&lt;p&gt;注意到螺纹钢有信号，准备交易的。可是由于账户太久没用，刚从休眠状态激活，当天不能交易，所以没开仓，错过了一波。&lt;/p&gt;
-&lt;
     
     </summary>
     
