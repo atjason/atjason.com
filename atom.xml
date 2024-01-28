@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-01-21T12:47:35.723Z</updated>
+  <updated>2024-01-28T13:55:19.673Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,207 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0128 - iDone 初步完成页面框架</title>
+    <link href="https://atjason.com/daily/2024-01-28.html"/>
+    <id>https://atjason.com/daily/2024-01-28.html</id>
+    <published>2024-01-28T14:00:00.000Z</published>
+    <updated>2024-01-28T13:55:19.673Z</updated>
+    
+    <content type="html"><![CDATA[<p>基本实现 Project、Tag、Filter 的无限层级显示，形成基本的页面框架。</p>
+<p>不过，问题还是很多。比如，可能是数据绑定使用不当，即使数量量不大时，页面切换比较弱卡顿，导致添加后的任务显示不出来、删除任务后也不能正确切换到相邻的任务。</p>
+<p>并且，还没搞定页面的事件处理，网上搜索也没找到合适的答案。目前，暂用隐藏 Button 的方式实现。NavigationView 多页面的 Life cycle，比预想的要复杂。多页面切换时，多个页面是同时保活的，但页面自己并不知道，当前是否在最前。</p>
+<p>总之，问题还挺多。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;基本实现 Project、Tag、Filter 的无限层级显示，形成基本的页面框架。&lt;/p&gt;
+&lt;p&gt;不过，问题还是很多。比如，可能是数据绑定使用不当，即使数量量不大时，页面切换比较弱卡顿，导致添加后的任务显示不出来、删除任务后也不能正确切换到相邻的任务。&lt;/p&gt;
+&lt;p&gt;并且
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0127 - 重拾 App 开发</title>
+    <link href="https://atjason.com/daily/2024-01-27.html"/>
+    <id>https://atjason.com/daily/2024-01-27.html</id>
+    <published>2024-01-27T14:00:00.000Z</published>
+    <updated>2024-01-28T13:51:38.798Z</updated>
+    
+    <content type="html"><![CDATA[<p>好久没做 App 开发，拾起来有点难。</p>
+<p>这次拾起来，一段时间不准备放下了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好久没做 App 开发，拾起来有点难。&lt;/p&gt;
+&lt;p&gt;这次拾起来，一段时间不准备放下了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0126 - SwiftData 中的一个坑</title>
+    <link href="https://atjason.com/daily/2024-01-26.html"/>
+    <id>https://atjason.com/daily/2024-01-26.html</id>
+    <published>2024-01-26T14:00:00.000Z</published>
+    <updated>2024-01-28T13:50:35.435Z</updated>
+    
+    <content type="html"><![CDATA[<p>被 SwiftData 一个小问题搞了。</p>
+<p>我在 @Model 中定义了 isDeleted 属性，调试发现死活更新不了。</p>
+<p>折腾了半天，偶然发现原来 PersistentModel 本身就 isDeleted 属性，被官方占用了。而我自己定义相同名字的属性，编译、运行啥的，什么错也没有。但实际上，完全不是自己预想的那么回事。</p>
+<p>得，又踩一坑。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;被 SwiftData 一个小问题搞了。&lt;/p&gt;
+&lt;p&gt;我在 @Model 中定义了 isDeleted 属性，调试发现死活更新不了。&lt;/p&gt;
+&lt;p&gt;折腾了半天，偶然发现原来 PersistentModel 本身就 isDeleted 属性，被官方占用了。而我自己定义相同名
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0125 - App 出海宣传渠道</title>
+    <link href="https://atjason.com/daily/2024-01-25.html"/>
+    <id>https://atjason.com/daily/2024-01-25.html</id>
+    <published>2024-01-25T14:00:00.000Z</published>
+    <updated>2024-01-28T13:47:15.283Z</updated>
+    
+    <content type="html"><![CDATA[<p>App 出海，可以考虑这些宣传渠道：</p>
+<ul>
+<li>Product hunt</li>
+<li>TikTok</li>
+<li>Hacker News</li>
+<li>Reddit</li>
+<li>Twitter</li>
+<li>Instagram</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;App 出海，可以考虑这些宣传渠道：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Product hunt&lt;/li&gt;
+&lt;li&gt;TikTok&lt;/li&gt;
+&lt;li&gt;Hacker News&lt;/li&gt;
+&lt;li&gt;Reddit&lt;/li&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;li&gt;Instagram&lt;/li
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0124 - 《Thinking in SwiftUI》</title>
+    <link href="https://atjason.com/daily/2024-01-24.html"/>
+    <id>https://atjason.com/daily/2024-01-24.html</id>
+    <published>2024-01-24T14:00:00.000Z</published>
+    <updated>2024-01-28T13:45:59.189Z</updated>
+    
+    <content type="html"><![CDATA[<p>其实，SwiftUI 优秀、全面的教程，并不多。官方的示例，可以用来入门，了解而大致的工作原理。而想要全面学习、某些点深入了解，其实并不容易，关键是缺少合适的学习资料。</p>
+<p>在东坡肘子大佬的介绍下，买了《Thinking in SwiftUI》来看。相对来说，对原理的介绍还是比较深入的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;其实，SwiftUI 优秀、全面的教程，并不多。官方的示例，可以用来入门，了解而大致的工作原理。而想要全面学习、某些点深入了解，其实并不容易，关键是缺少合适的学习资料。&lt;/p&gt;
+&lt;p&gt;在东坡肘子大佬的介绍下，买了《Thinking in SwiftUI》来看。相对来说，对原
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0123 - SwiftUI 中 List 的一个 Bug</title>
+    <link href="https://atjason.com/daily/2024-01-23.html"/>
+    <id>https://atjason.com/daily/2024-01-23.html</id>
+    <published>2024-01-23T14:00:00.000Z</published>
+    <updated>2024-01-28T13:43:19.181Z</updated>
+    
+    <content type="html"><![CDATA[<p>SwiftUI 遇到 Bug，在 List &gt; ForEach 中，</p>
+<ul>
+<li><p>如果没有子节点，使用普通的 Text；</p>
+</li>
+<li><p>如果有子节点，使用 DisclosureGroup 进行嵌套。</p>
+</li>
+</ul>
+<p>在这种情况下：</p>
+<ul>
+<li><p>如果第一个节点有子节点，一切正常；</p>
+</li>
+<li><p>如要第一个节点没有子节点，则 List 所有的项都平铺在一起；</p>
+</li>
+</ul>
+<p>代码全部一样，只改一行代码，这个问题就出现了。</p>
+<p>貌似只在 macOS 平台能复现，iOS 平台是正常的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;SwiftUI 遇到 Bug，在 List &amp;gt; ForEach 中，&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;如果没有子节点，使用普通的 Text；&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;如果有子节点，使用 DisclosureGroup 进行嵌套。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0122 - 报复性熬夜</title>
+    <link href="https://atjason.com/daily/2024-01-22.html"/>
+    <id>https://atjason.com/daily/2024-01-22.html</id>
+    <published>2024-01-22T14:00:00.000Z</published>
+    <updated>2024-01-28T13:42:28.272Z</updated>
+    
+    <content type="html"><![CDATA[<p>有一个名词叫做“报复性熬夜”，指的是有些人明明在白天疲劳不堪，晚上却不愿意早睡，宁愿在床上玩手机。</p>
+<p>这是因为他们控制不了自己的生活，通过在晚上推迟睡觉，获得一点自己掌控时间的自由感。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;有一个名词叫做“报复性熬夜”，指的是有些人明明在白天疲劳不堪，晚上却不愿意早睡，宁愿在床上玩手机。&lt;/p&gt;
+&lt;p&gt;这是因为他们控制不了自己的生活，通过在晚上推迟睡觉，获得一点自己掌控时间的自由感。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0120 - 养育的起点是什么？</title>
@@ -359,181 +560,6 @@
     
       &lt;p&gt;今天去参加了良渚周四线下开发者活动。烧脑一下午，认识了不同的人，在做不同的事情。有 AI 教育、Web 3、PaaS、线下展会、高中生等等。&lt;/p&gt;
 &lt;p&gt;时不时来刺激下，挺好。还是要做好自己的事，有拿得出手的产品，才有的聊。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0103 - 图文问诊</title>
-    <link href="https://atjason.com/daily/2024-01-03.html"/>
-    <id>https://atjason.com/daily/2024-01-03.html</id>
-    <published>2024-01-03T14:00:00.000Z</published>
-    <updated>2024-01-07T12:06:30.517Z</updated>
-    
-    <content type="html"><![CDATA[<p>AI 创业的一个细分领域：图文问诊</p>
-<p>问题边界清晰，用户基数无比庞大，且付费习惯已经形成，做出来就是捡钱。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;AI 创业的一个细分领域：图文问诊&lt;/p&gt;
-&lt;p&gt;问题边界清晰，用户基数无比庞大，且付费习惯已经形成，做出来就是捡钱。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0102 - 意外收到稿酬</title>
-    <link href="https://atjason.com/daily/2024-01-02.html"/>
-    <id>https://atjason.com/daily/2024-01-02.html</id>
-    <published>2024-01-02T14:00:00.000Z</published>
-    <updated>2024-01-07T12:05:53.142Z</updated>
-    
-    <content type="html"><![CDATA[<p>把硬件总结的文章，投入到少数派，上了首页。没想到，竟然有稿酬，还是 500 多（估计是 1 个字 0.1 元），确实有点意外。</p>
-<p>感兴趣可以去看看，支持下这家给稿费的网站：</p>
-<p><a href="">https://sspai.com/post/85507</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;把硬件总结的文章，投入到少数派，上了首页。没想到，竟然有稿酬，还是 500 多（估计是 1 个字 0.1 元），确实有点意外。&lt;/p&gt;
-&lt;p&gt;感兴趣可以去看看，支持下这家给稿费的网站：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;&quot;&gt;https://sspai.com/post/855
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0101 - 2024，向前进</title>
-    <link href="https://atjason.com/daily/2024-01-01.html"/>
-    <id>https://atjason.com/daily/2024-01-01.html</id>
-    <published>2024-01-01T14:00:00.000Z</published>
-    <updated>2024-01-07T12:03:07.871Z</updated>
-    
-    <content type="html"><![CDATA[<p>只干，别多想。</p>
-<p>目标倒是其次，重要的是向前进。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;只干，别多想。&lt;/p&gt;
-&lt;p&gt;目标倒是其次，重要的是向前进。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1231 - 2023，硬气了一把</title>
-    <link href="https://atjason.com/daily/2023-12-31.html"/>
-    <id>https://atjason.com/daily/2023-12-31.html</id>
-    <published>2023-12-31T14:00:00.000Z</published>
-    <updated>2023-12-31T12:48:18.067Z</updated>
-    
-    <content type="html"><![CDATA[<p>2023 年，<strong>作为软件开发出身的我，做了两款智能硬件产品，注册了两个专利</strong>，「硬」气了一把。</p>
-<p><a href="https://mp.weixin.qq.com/s/FFtgswdjZ1zuHerD7K-4-w" target="_blank" rel="external">文章比较长，单独写了一篇</a>。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;2023 年，&lt;strong&gt;作为软件开发出身的我，做了两款智能硬件产品，注册了两个专利&lt;/strong&gt;，「硬」气了一把。&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mp.weixin.qq.com/s/FFtgswdjZ1zuHerD7K-4-w&quot; target=
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1228 - 闪电有多少能量？</title>
-    <link href="https://atjason.com/daily/2023-12-28.html"/>
-    <id>https://atjason.com/daily/2023-12-28.html</id>
-    <published>2023-12-28T14:00:00.000Z</published>
-    <updated>2023-12-31T12:46:24.723Z</updated>
-    
-    <content type="html"><![CDATA[<p>一道闪电含有大约 0.25 千瓦时的能量，换算成电费，只有 1 毛多钱的人民币。</p>
-<p>闪电的能量虽然不是非常大，但是持续时间只有几微秒，电压高达数百万伏，所以才会如此危险。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一道闪电含有大约 0.25 千瓦时的能量，换算成电费，只有 1 毛多钱的人民币。&lt;/p&gt;
-&lt;p&gt;闪电的能量虽然不是非常大，但是持续时间只有几微秒，电压高达数百万伏，所以才会如此危险。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1227 - 重新学习 Swift &amp; SwiftUI</title>
-    <link href="https://atjason.com/daily/2023-12-27.html"/>
-    <id>https://atjason.com/daily/2023-12-27.html</id>
-    <published>2023-12-27T14:00:00.000Z</published>
-    <updated>2023-12-31T12:45:26.378Z</updated>
-    
-    <content type="html"><![CDATA[<p>准备做一款 Todo App。</p>
-<p>这是我高频使用的 App；按自己的使用习惯，打造一款趁手的工具。</p>
-<p>于是乎，重新学习 Swift &amp; SwiftUI。</p>
-<p>照着官方例子练习，能快速形成正常的习惯，因为官方一定是最佳实践；模仿是学习的第一步。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;准备做一款 Todo App。&lt;/p&gt;
-&lt;p&gt;这是我高频使用的 App；按自己的使用习惯，打造一款趁手的工具。&lt;/p&gt;
-&lt;p&gt;于是乎，重新学习 Swift &amp;amp; SwiftUI。&lt;/p&gt;
-&lt;p&gt;照着官方例子练习，能快速形成正常的习惯，因为官方一定是最佳实践；模仿是学习
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1226 - 小米手环丢了</title>
-    <link href="https://atjason.com/daily/2023-12-26.html"/>
-    <id>https://atjason.com/daily/2023-12-26.html</id>
-    <published>2023-12-26T14:00:00.000Z</published>
-    <updated>2023-12-31T12:42:44.147Z</updated>
-    
-    <content type="html"><![CDATA[<p>小米手环丢了，可能是脱落了。</p>
-<p>还挺不习惯了，主要是用来看时间、设置闹钟、晚上照明，偶尔记录跑步数据。</p>
-<p>不过也挺开心，这下可以再买新的了。</p>
-<p>结果，很快又找到了 😂</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;小米手环丢了，可能是脱落了。&lt;/p&gt;
-&lt;p&gt;还挺不习惯了，主要是用来看时间、设置闹钟、晚上照明，偶尔记录跑步数据。&lt;/p&gt;
-&lt;p&gt;不过也挺开心，这下可以再买新的了。&lt;/p&gt;
-&lt;p&gt;结果，很快又找到了 😂&lt;/p&gt;
 
     
     </summary>
