@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-01-28T13:55:19.673Z</updated>
+  <updated>2024-02-04T14:06:18.561Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,121 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0201 - SwiftUI 树型控件</title>
+    <link href="https://atjason.com/daily/2024-02-01.html"/>
+    <id>https://atjason.com/daily/2024-02-01.html</id>
+    <published>2024-02-01T14:00:00.000Z</published>
+    <updated>2024-02-04T14:06:18.561Z</updated>
+    
+    <content type="html"><![CDATA[<p>先后尝试了几条路，都不完美。</p>
+<p>官方出的 OulineGroup，像个玩具，完全不成熟。比如，不能记录节点展开状态。</p>
+<p>自己组合 DisclosureGroup，也有别的问题，比如不同级别之间的拖拽。</p>
+<p>想自己封装 NSOutlineView，发现只是 macOS 平台，不支持 iOS 等系统。</p>
+<p>最后还是将就着用 DisclosureGroup，自己通过拖拽的方式支持 Move 操作。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;先后尝试了几条路，都不完美。&lt;/p&gt;
+&lt;p&gt;官方出的 OulineGroup，像个玩具，完全不成熟。比如，不能记录节点展开状态。&lt;/p&gt;
+&lt;p&gt;自己组合 DisclosureGroup，也有别的问题，比如不同级别之间的拖拽。&lt;/p&gt;
+&lt;p&gt;想自己封装 NSOutlineVi
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0131 - SwiftUI Drap &amp; Drop</title>
+    <link href="https://atjason.com/daily/2024-01-31.html"/>
+    <id>https://atjason.com/daily/2024-01-31.html</id>
+    <published>2024-01-31T14:00:00.000Z</published>
+    <updated>2024-02-04T14:02:46.514Z</updated>
+    
+    <content type="html"><![CDATA[<p>看一遍接口文档：</p>
+<ul>
+<li><a href="https://developer.apple.com/documentation/swiftui/drag-and-drop" target="_blank" rel="external">https://developer.apple.com/documentation/swiftui/drag-and-drop</a></li>
+<li><a href="https://developer.apple.com/design/human-interface-guidelines/patterns/drag-and-drop" target="_blank" rel="external">Drag and drop in the Human Interface Guidelines</a></li>
+</ul>
+<p>尝试让 SwiftData @Model 支持 Codable、Transferable，但遇到很诡异的问题：在 encode 时，读取 Model 的属性时，直接卡死，无任何异常。</p>
+<p>换了种方式，拖拽时传递的不是 Model，而是 PersistentIdentifier。接收方通过 ModelContext，使用这一 ID 拿到 Model。多了一个取的过程，也许会增加开销，但至少工作了。并且，Model 不需要做任何修改。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;看一遍接口文档：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://developer.apple.com/documentation/swiftui/drag-and-drop&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://de
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0130 - 消耗是经济的动力</title>
+    <link href="https://atjason.com/daily/2024-01-30.html"/>
+    <id>https://atjason.com/daily/2024-01-30.html</id>
+    <published>2024-01-30T14:00:00.000Z</published>
+    <updated>2024-02-04T14:00:15.462Z</updated>
+    
+    <content type="html"><![CDATA[<p>曾经鄙视 M 国寅吃卯粮、提前消费，现在鼓励百姓有钱要花。</p>
+<p>当初踩得有多狠，现在拉起来就有多难。</p>
+<p>谁都不傻，没有绝对正确，只是当时当地的最佳选择，批评容易暴露浅薄。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;曾经鄙视 M 国寅吃卯粮、提前消费，现在鼓励百姓有钱要花。&lt;/p&gt;
+&lt;p&gt;当初踩得有多狠，现在拉起来就有多难。&lt;/p&gt;
+&lt;p&gt;谁都不傻，没有绝对正确，只是当时当地的最佳选择，批评容易暴露浅薄。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0129 - SwiftUI for macOS 监听键盘整件的几种方式</title>
+    <link href="https://atjason.com/daily/2024-01-29.html"/>
+    <id>https://atjason.com/daily/2024-01-29.html</id>
+    <published>2024-01-29T14:00:00.000Z</published>
+    <updated>2024-02-04T13:59:37.372Z</updated>
+    
+    <content type="html"><![CDATA[<ol>
+<li><p><code>View.onKeyPress</code>. 理论上，这是最合适的。但实际用下来，发现并不能识别比如 upArrow/downArrow 这些特殊的 Key. 虽然看起来可以在代码中指定这些 KeyEquivalent，但实际上并不工作。</p>
+</li>
+<li><p><code>View.onAppear { NSEvent.addLocalMonitorForEvents }</code>. 这个方法的问题是，如果多个 View 同时保活，则会被调用多次。如果使用类似单例的方式，又会丢失唤醒整件的上下文信息。</p>
+</li>
+<li><p><code>Button.keyboardShortcut</code>. 创建一个 Button 并隐藏起来，同时支持快捷键唤醒。目前来看，这是最能支持 View 级快捷键的方式。但使用隐藏 View 的方式不优雅。且如果是 List 中每个 View 都增加一堆 Button 来实现一系列快捷键，想想也是很浪费资源的做法。并且，隐藏后 .delete 就不能响应了，目前不知道其他快捷键是否有类似的问题。</p>
+</li>
+<li><p>通过 <code>Commands menu</code> 中的快捷键，本质还是 Button 的快捷键。但这失去了上下文关联，需要再通过 Context 之类的方法中转信息。</p>
+</li>
+</ol>
+<p>哎，目前还没找到最合适的方式。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;View.onKeyPress&lt;/code&gt;. 理论上，这是最合适的。但实际用下来，发现并不能识别比如 upArrow/downArrow 这些特殊的 Key. 虽然看起来可以在代码中指定这些 KeyEquivalent，但实际上并不工作。&lt;/
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0128 - iDone 初步完成页面框架</title>
@@ -465,102 +580,6 @@
 &lt;li&gt;之后资金回撤，能保住 2500 就不错了；&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这样想，心理就会好过很多。&lt;/
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0109 - 交易要淡定</title>
-    <link href="https://atjason.com/daily/2024-01-09.html"/>
-    <id>https://atjason.com/daily/2024-01-09.html</id>
-    <published>2024-01-09T14:00:00.000Z</published>
-    <updated>2024-01-14T13:03:20.335Z</updated>
-    
-    <content type="html"><![CDATA[<p>昨天交易盈利，比较兴奋，半夜醒来看了次盘，早上也看了好多次。</p>
-<p>代价就是，早上很困，很难集中精力学习；更何况，第二天就大跌，盈利大半回吐了…</p>
-<p>交易中，还是要学会放下得失心。该做什么操作，就做什么操作；不要因为盈亏，就对操作产生怀疑，或者过份关注操作的结果。</p>
-<p>以及，<strong>作何事都是有代价的</strong>，trade-off。虽然盈利了，看起来很好，代价是牺牲了精神，牺牲了做其他事的急迫性和动力。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;昨天交易盈利，比较兴奋，半夜醒来看了次盘，早上也看了好多次。&lt;/p&gt;
-&lt;p&gt;代价就是，早上很困，很难集中精力学习；更何况，第二天就大跌，盈利大半回吐了…&lt;/p&gt;
-&lt;p&gt;交易中，还是要学会放下得失心。该做什么操作，就做什么操作；不要因为盈亏，就对操作产生怀疑，或者过份关注操作
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0108 - 绝对力量与相对优势</title>
-    <link href="https://atjason.com/daily/2024-01-08.html"/>
-    <id>https://atjason.com/daily/2024-01-08.html</id>
-    <published>2024-01-08T14:00:00.000Z</published>
-    <updated>2024-01-14T12:50:16.167Z</updated>
-    
-    <content type="html"><![CDATA[<p>知识就是力量，而别人的无知同样是你的力量。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;知识就是力量，而别人的无知同样是你的力量。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0105 - 继续学习 SwiftUI</title>
-    <link href="https://atjason.com/daily/2024-01-05.html"/>
-    <id>https://atjason.com/daily/2024-01-05.html</id>
-    <published>2024-01-05T14:00:00.000Z</published>
-    <updated>2024-01-07T12:08:57.568Z</updated>
-    
-    <content type="html"><![CDATA[<p>本周继续学习 SwiftUI，主要是看官方教程、Youtube 上优质教程。</p>
-<p>现在基本明确，争取本月能出个简单的 Todo，达到够自己用的程度。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本周继续学习 SwiftUI，主要是看官方教程、Youtube 上优质教程。&lt;/p&gt;
-&lt;p&gt;现在基本明确，争取本月能出个简单的 Todo，达到够自己用的程度。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0104 - 良渚周四线下开发者活动</title>
-    <link href="https://atjason.com/daily/2024-01-04.html"/>
-    <id>https://atjason.com/daily/2024-01-04.html</id>
-    <published>2024-01-04T14:00:00.000Z</published>
-    <updated>2024-01-07T12:07:37.244Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天去参加了良渚周四线下开发者活动。烧脑一下午，认识了不同的人，在做不同的事情。有 AI 教育、Web 3、PaaS、线下展会、高中生等等。</p>
-<p>时不时来刺激下，挺好。还是要做好自己的事，有拿得出手的产品，才有的聊。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天去参加了良渚周四线下开发者活动。烧脑一下午，认识了不同的人，在做不同的事情。有 AI 教育、Web 3、PaaS、线下展会、高中生等等。&lt;/p&gt;
-&lt;p&gt;时不时来刺激下，挺好。还是要做好自己的事，有拿得出手的产品，才有的聊。&lt;/p&gt;
-
     
     </summary>
     
