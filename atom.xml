@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-02-04T14:06:18.561Z</updated>
+  <updated>2024-02-11T12:34:34.261Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,82 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0211 - 过年休息</title>
+    <link href="https://atjason.com/daily/2024-02-11.html"/>
+    <id>https://atjason.com/daily/2024-02-11.html</id>
+    <published>2024-02-11T14:00:00.000Z</published>
+    <updated>2024-02-11T12:34:34.261Z</updated>
+    
+    <content type="html"><![CDATA[<p>过年没干什么活，就是交易了美股，看了点书，照着这里 <a href="https://www.hackingwithswift.com/books/ios-swiftui" target="_blank" rel="external">https://www.hackingwithswift.com/books/ios-swiftui</a> 学了点 SwiftUI。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;过年没干什么活，就是交易了美股，看了点书，照着这里 &lt;a href=&quot;https://www.hackingwithswift.com/books/ios-swiftui&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://www.hacking
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0210 - 过年见闻</title>
+    <link href="https://atjason.com/daily/2024-02-06.html"/>
+    <id>https://atjason.com/daily/2024-02-06.html</id>
+    <published>2024-02-10T14:00:00.000Z</published>
+    <updated>2024-02-11T12:33:27.053Z</updated>
+    
+    <content type="html"><![CDATA[<p>一放鞭炮，娃们清一色举起一只手，用手表拍视频。那场面，跟大人拿手机拍，别无二致。</p>
+<p>第一次见识到，在电视上刷短视频：遥控器上下键切换视频。问题是，习惯于这种短平快的刺激，就无法欣赏需要投入大量精力、感情的内容。比如，小朋友为了看短视频，连动画片都看不下去了：节奏太慢、没意思。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一放鞭炮，娃们清一色举起一只手，用手表拍视频。那场面，跟大人拿手机拍，别无二致。&lt;/p&gt;
+&lt;p&gt;第一次见识到，在电视上刷短视频：遥控器上下键切换视频。问题是，习惯于这种短平快的刺激，就无法欣赏需要投入大量精力、感情的内容。比如，小朋友为了看短视频，连动画片都看不下去了：节奏
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0205 - 右下角买入</title>
+    <link href="https://atjason.com/daily/2024-02-05.html"/>
+    <id>https://atjason.com/daily/2024-02-05.html</id>
+    <published>2024-02-05T14:00:00.000Z</published>
+    <updated>2024-02-11T12:28:43.987Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://p.nuli.life/blog/4ug0i9.png" alt=""></p>
+<ul>
+<li>红的是左下角</li>
+<li>绿的是右下角</li>
+<li>黄的是右上角</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/4ug0i9.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;红的是左下角&lt;/li&gt;
+&lt;li&gt;绿的是右下角&lt;/li&gt;
+&lt;li&gt;黄的是右上角&lt;/li&gt;
+&lt;/ul&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0201 - SwiftUI 树型控件</title>
@@ -479,107 +555,6 @@
       &lt;p&gt;&lt;strong&gt;只是学习，很容易产生虚假的满足、时不时的空虚和焦虑&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;虚假的满足，是指看似学到了很多东西这，尤其感觉能组合出很多新东西。再学习的劳累，容易产生付出后的满足。&lt;/p&gt;
 &lt;p&gt;时不时的空虚焦虑：我学这有用吗？别人都是专家了、我还在
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0112 - 交易没有「本该」</title>
-    <link href="https://atjason.com/daily/2024-01-12.html"/>
-    <id>https://atjason.com/daily/2024-01-12.html</id>
-    <published>2024-01-12T14:00:00.000Z</published>
-    <updated>2024-01-14T13:03:38.234Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近这一笔量化交易，程序执行几乎没有问题，最后也盈利了。</p>
-<p>本来应该是很开心的事，但因为感觉行情捉弄、平仓后价格大幅反弹、由跌转涨，本来还还能继续赚钱的，结果却被甩下车。算了下，感觉少赚了不少，难受。</p>
-<p>心理这一关，才是交易中最难过的。这还是本单是盈利的。如果本该赚钱，却是亏损，就更难受了。</p>
-<p><strong>问题就出在「本该」两个字</strong>。本该盈利、本该赚更多，哪来的什么本该？！</p>
-<p>市场先生好心发两个铜板，自己得寸进尺，想要元宝；得不到，就开始难受、抱怨市场，这不是泼妇行为吗？</p>
-<p>还是要 <strong>端正自己的心态：乞食</strong>。端好钵、摆好姿势、做好交易动作。至于得到食物还是被打一顿、得多得少，全靠施主，不是乞讨者能决定的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近这一笔量化交易，程序执行几乎没有问题，最后也盈利了。&lt;/p&gt;
-&lt;p&gt;本来应该是很开心的事，但因为感觉行情捉弄、平仓后价格大幅反弹、由跌转涨，本来还还能继续赚钱的，结果却被甩下车。算了下，感觉少赚了不少，难受。&lt;/p&gt;
-&lt;p&gt;心理这一关，才是交易中最难过的。这还是本单是盈
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0111 - 尝试对冲</title>
-    <link href="https://atjason.com/daily/2024-01-11.html"/>
-    <id>https://atjason.com/daily/2024-01-11.html</id>
-    <published>2024-01-11T14:00:00.000Z</published>
-    <updated>2024-01-14T13:02:58.867Z</updated>
-    
-    <content type="html"><![CDATA[<p>QQQ 来到前高附近，有回撤的风险。但我肯定会按规则执行，不会主动平仓。</p>
-<p>该怎么降低回撤风险、平滑资金曲线呢？这次，我尝试买入看跌期权进行对冲。</p>
-<ul>
-<li>如果指数继续涨，买入期权的费用就归零了，相当于少赚 点。</li>
-<li>如果指数下跌，则期权高杠杆带来的收益，能减少资金回撤。</li>
-<li>如果指数横盘，考虑到时间损耗，买入期权的费用就算亏损了。</li>
-</ul>
-<p>由于是首次尝试，期权注意以下几点：</p>
-<ul>
-<li>在 QQQ/SPY/IWM 中选了最弱的 IWM 进行空；</li>
-<li>选了 3 天后到期的期权；</li>
-<li>只买了一点点进行尝试；</li>
-</ul>
-<p>万没想到，行情是先跌后涨。先把 TQQQ 平仓、浮亏变实亏；再反弹，IWM 的做空期权也变亏损。<strong>本来是想对冲，现在两头亏。真应了那句话：无论什么策略，市场都有让你亏光的走法。</strong></p>
-<p>如果说如何改进，就是对冲的两个品种，同时平仓，这是最简单的。更高级的，就是对冲的品种，再选择更合适的时机解锁，这就是单边单次的止盈了，也不那么容易。</p>
-<p>要么，就不要搞这么高级的操作，止损就止损，简单直接粗暴。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;QQQ 来到前高附近，有回撤的风险。但我肯定会按规则执行，不会主动平仓。&lt;/p&gt;
-&lt;p&gt;该怎么降低回撤风险、平滑资金曲线呢？这次，我尝试买入看跌期权进行对冲。&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;如果指数继续涨，买入期权的费用就归零了，相当于少赚 点。&lt;/li&gt;
-&lt;li&gt;如果指数下跌
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0110 - 如何对待盈利</title>
-    <link href="https://atjason.com/daily/2024-01-10.html"/>
-    <id>https://atjason.com/daily/2024-01-10.html</id>
-    <published>2024-01-10T14:00:00.000Z</published>
-    <updated>2024-01-14T12:53:41.426Z</updated>
-    
-    <content type="html"><![CDATA[<p>交易过程中对盈利的心态，比如：</p>
-<ul>
-<li>持仓过程中，最多浮盈利 10000；</li>
-<li>最终平仓，能保住 5000 就不错了；</li>
-<li>之后资金回撤，能保住 2500 就不错了；</li>
-</ul>
-<p>这样想，心理就会好过很多。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;交易过程中对盈利的心态，比如：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;持仓过程中，最多浮盈利 10000；&lt;/li&gt;
-&lt;li&gt;最终平仓，能保住 5000 就不错了；&lt;/li&gt;
-&lt;li&gt;之后资金回撤，能保住 2500 就不错了；&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这样想，心理就会好过很多。&lt;/
     
     </summary>
     
