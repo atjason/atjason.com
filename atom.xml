@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-02-11T12:34:34.261Z</updated>
+  <updated>2024-03-03T13:54:26.823Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,225 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0303 - 财富自由七步骤</title>
+    <link href="https://atjason.com/daily/2024-03-03.html"/>
+    <id>https://atjason.com/daily/2024-03-03.html</id>
+    <published>2024-03-03T14:00:00.000Z</published>
+    <updated>2024-03-03T13:54:26.823Z</updated>
+    
+    <content type="html"><![CDATA[<p>财富自由七步骤（转）</p>
+<ol>
+<li><p>寻找富爸爸</p>
+</li>
+<li><p>找一个热爱的工作，（热爱，擅长，有意义，有趋势，）</p>
+</li>
+<li><p>控制现金流，强制储蓄，延迟享受</p>
+</li>
+<li><p>开始创业</p>
+</li>
+<li><p>学习创业课程</p>
+</li>
+<li><p>资产配置（被动收入大于主动收入，建立国际，国内建设财富管道）</p>
+</li>
+<li><p>享受生活也做慈善回馈社会</p>
+</li>
+</ol>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;财富自由七步骤（转）&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;寻找富爸爸&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;找一个热爱的工作，（热爱，擅长，有意义，有趋势，）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;控制现金流，强制储蓄，延迟享受&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;开始创业&lt;/p&gt;
+&lt;/
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0302 - 家用摄像头</title>
+    <link href="https://atjason.com/daily/2024-03-02.html"/>
+    <id>https://atjason.com/daily/2024-03-02.html</id>
+    <published>2024-03-02T14:00:00.000Z</published>
+    <updated>2024-03-03T13:53:47.079Z</updated>
+    
+    <content type="html"><![CDATA[<p>买了个家用摄像头，主要是想解决这几个问题：</p>
+<ul>
+<li>小孩放学后，看娃在家干什么</li>
+<li>有时老人独自在家，偶尔看看有没有异常</li>
+</ul>
+<p>简单比较后，选择了小米摄像头 3 云台版。</p>
+<p>配对什么的比较简单，很容易就用起来了。远程查看视频、对讲，不在话下。清晰度方面，1 米远能看清贴在墙上 5mm 的字，可以了。</p>
+<p>目前来看，主要缺的是这个功能：家里人对着摄像头说：给儿子打电话。另外，这款的外放效果非常差，基本不可用；可能是为了配合视频采样率，导致音频采样率也很低。</p>
+<p>录像方面，可以只记录有人、或运动画面，既节约存储空单，也减轻回放时工作量，很实用。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;买了个家用摄像头，主要是想解决这几个问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;小孩放学后，看娃在家干什么&lt;/li&gt;
+&lt;li&gt;有时老人独自在家，偶尔看看有没有异常&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;简单比较后，选择了小米摄像头 3 云台版。&lt;/p&gt;
+&lt;p&gt;配对什么的比较简单，很容易就用起来
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0301 - 尝到了期货的甜头</title>
+    <link href="https://atjason.com/daily/2024-03-01.html"/>
+    <id>https://atjason.com/daily/2024-03-01.html</id>
+    <published>2024-03-01T14:00:00.000Z</published>
+    <updated>2024-03-03T13:51:30.991Z</updated>
+    
+    <content type="html"><![CDATA[<p>TLT 做底，有做多迹像，考虑期权做多。</p>
+<p>时间和空间上，选择了上一个高点，距今约一个月。于是，选择一个月后到期的前高点价格，买入 Call. 心理预期涨 5 倍，赚 4 倍。运气不错，当天浮盈 0.5 倍。</p>
+<p><img src="https://p.nuli.life/blog/act6s6.jpeg" alt=""></p>
+<p>关键，这是一个月后到期的，心里一点都不慌，也不着急抛。下次试试再久一点的。</p>
+<p>并且，这个标的是 20 年债。除非发生大的政治经济变动，一般不会像个股一样，上窜下跳，意外事件少，心里出不慌。</p>
+<p>另外，选择前高的价格点，是比较激进的。买入价格低、潜在收益高，但风险也很大。先试试吧，慢慢积累经验。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;TLT 做底，有做多迹像，考虑期权做多。&lt;/p&gt;
+&lt;p&gt;时间和空间上，选择了上一个高点，距今约一个月。于是，选择一个月后到期的前高点价格，买入 Call. 心理预期涨 5 倍，赚 4 倍。运气不错，当天浮盈 0.5 倍。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://p
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0229 - 最近美指没做好</title>
+    <link href="https://atjason.com/daily/2024-02-29.html"/>
+    <id>https://atjason.com/daily/2024-02-29.html</id>
+    <published>2024-02-29T14:00:00.000Z</published>
+    <updated>2024-03-03T13:51:22.950Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近美指没做好</p>
+<ul>
+<li>高位震荡期间，空了两次，均被止损；</li>
+<li>等行情突破向上时，我却压根没想开仓，只是挂了两个回调限价单，结果踏空。</li>
+</ul>
+<p><img src="https://p.nuli.life/blog/b7e36v.jpeg" alt=""></p>
+<p>不过，还是收获了几个经验：</p>
+<ul>
+<li>震荡期间，只做一个方向。可能错过突破方向，但避免了更可能的两面亏；</li>
+<li>对于美股，如果不确定做哪个方向，做多；</li>
+<li>涨不动，并不意味着要跌，而可能是盘整；下跌相同。</li>
+<li>突破时，坚决追。哪怕被多次打脸，再次突破时，依旧；就像主动把脸伸过去挨打一样。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近美指没做好&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;高位震荡期间，空了两次，均被止损；&lt;/li&gt;
+&lt;li&gt;等行情突破向上时，我却压根没想开仓，只是挂了两个回调限价单，结果踏空。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/b7e3
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0228 - 情绪暗能量</title>
+    <link href="https://atjason.com/daily/2024-02-28.html"/>
+    <id>https://atjason.com/daily/2024-02-28.html</id>
+    <published>2024-02-28T14:00:00.000Z</published>
+    <updated>2024-03-03T13:47:19.505Z</updated>
+    
+    <content type="html"><![CDATA[<p>一个人在生活中做出的重大决定，往往是基于个人情绪；只有一小部分是基于理性考虑。甚至是先用情绪下结论，再用理性找理由支撑。</p>
+<p>从这个意义上讲，情绪就像是宇宙中的暗物质：它们往往不能被看到，却几乎占据了宇宙质量的70％。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个人在生活中做出的重大决定，往往是基于个人情绪；只有一小部分是基于理性考虑。甚至是先用情绪下结论，再用理性找理由支撑。&lt;/p&gt;
+&lt;p&gt;从这个意义上讲，情绪就像是宇宙中的暗物质：它们往往不能被看到，却几乎占据了宇宙质量的70％。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0227 - 引导而非教导</title>
+    <link href="https://atjason.com/daily/2024-02-27.html"/>
+    <id>https://atjason.com/daily/2024-02-27.html</id>
+    <published>2024-02-27T14:00:00.000Z</published>
+    <updated>2024-03-03T13:45:48.322Z</updated>
+    
+    <content type="html"><![CDATA[<p>孩子放学后，我们希望知道孩子今天发生了。除了询问和汇报的方式（孩子可能已经厌烦了），可以用交流的方式。</p>
+<p>比如说：我今天上班路上，遇到这么大一条狗。孩子听到后，也会被激发起分享的欲望。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;孩子放学后，我们希望知道孩子今天发生了。除了询问和汇报的方式（孩子可能已经厌烦了），可以用交流的方式。&lt;/p&gt;
+&lt;p&gt;比如说：我今天上班路上，遇到这么大一条狗。孩子听到后，也会被激发起分享的欲望。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0226 - 把思考和决策过程告诉娃</title>
+    <link href="https://atjason.com/daily/2024-02-26.html"/>
+    <id>https://atjason.com/daily/2024-02-26.html</id>
+    <published>2024-02-26T14:00:00.000Z</published>
+    <updated>2024-03-03T13:44:40.874Z</updated>
+    
+    <content type="html"><![CDATA[<p>比如，开学前，我让他把自己的名字再练习下，写得好看点。因为学校刚发新书，每本书上要贴姓名贴，而这个姓名贴要长久地伴随着他，因此需要写得好看点。</p>
+<p>让他知道为什么这么做，他就相对更容易做下去。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;比如，开学前，我让他把自己的名字再练习下，写得好看点。因为学校刚发新书，每本书上要贴姓名贴，而这个姓名贴要长久地伴随着他，因此需要写得好看点。&lt;/p&gt;
+&lt;p&gt;让他知道为什么这么做，他就相对更容易做下去。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0211 - 过年休息</title>
@@ -375,186 +594,6 @@
 &lt;li&gt;&lt;p&gt;如果有子节点，使用 DisclosureGroup 进行嵌套。&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0122 - 报复性熬夜</title>
-    <link href="https://atjason.com/daily/2024-01-22.html"/>
-    <id>https://atjason.com/daily/2024-01-22.html</id>
-    <published>2024-01-22T14:00:00.000Z</published>
-    <updated>2024-01-28T13:42:28.272Z</updated>
-    
-    <content type="html"><![CDATA[<p>有一个名词叫做“报复性熬夜”，指的是有些人明明在白天疲劳不堪，晚上却不愿意早睡，宁愿在床上玩手机。</p>
-<p>这是因为他们控制不了自己的生活，通过在晚上推迟睡觉，获得一点自己掌控时间的自由感。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;有一个名词叫做“报复性熬夜”，指的是有些人明明在白天疲劳不堪，晚上却不愿意早睡，宁愿在床上玩手机。&lt;/p&gt;
-&lt;p&gt;这是因为他们控制不了自己的生活，通过在晚上推迟睡觉，获得一点自己掌控时间的自由感。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0120 - 养育的起点是什么？</title>
-    <link href="https://atjason.com/daily/2024-01-20.html"/>
-    <id>https://atjason.com/daily/2024-01-20.html</id>
-    <published>2024-01-20T14:00:00.000Z</published>
-    <updated>2024-01-21T12:47:35.723Z</updated>
-    
-    <content type="html"><![CDATA[<p>多数父母一定会说是“爱”，然而每个人对“爱”的理解是不同的。有些父母认为爱是接纳、尊重、理解和信任，也有很多父母把对孩子的羞辱、打骂和控制视为一种爱。我们可以看看身边发生的或媒体报道的父母对孩子的种种伤害，哪一件不是打着“爱”和“为你好”的旗号呢？</p>
-<p>我一直以为，养育的起点是了解、是理解。如同我们养一株花、种一棵树，先要知道播下的是什么种子、有什么习性和需求、生长的节奏和规律如何，才可能找到最适合它生长的方式去培育。养育孩子亦是如此，理解是爱的前提，唯有了解和尊重孩子身心和大脑发育的基本规律，才能更好地帮助孩子健康成长。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;多数父母一定会说是“爱”，然而每个人对“爱”的理解是不同的。有些父母认为爱是接纳、尊重、理解和信任，也有很多父母把对孩子的羞辱、打骂和控制视为一种爱。我们可以看看身边发生的或媒体报道的父母对孩子的种种伤害，哪一件不是打着“爱”和“为你好”的旗号呢？&lt;/p&gt;
-&lt;p&gt;我一直以为
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0119 - 拥抱趋势</title>
-    <link href="https://atjason.com/daily/2024-01-19.html"/>
-    <id>https://atjason.com/daily/2024-01-19.html</id>
-    <published>2024-01-19T14:00:00.000Z</published>
-    <updated>2024-01-21T12:50:02.244Z</updated>
-    
-    <content type="html"><![CDATA[<p>美股创新高，我的净值也创新高。</p>
-<p>拥抱趋势，做趋势的跟随者。</p>
-<p>当然，好处有，代价也有。有趋势时吃鱼身，震荡时两边挨巴掌。</p>
-<p>对比大 A，会发现：交易第一步，选择好的标的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;美股创新高，我的净值也创新高。&lt;/p&gt;
-&lt;p&gt;拥抱趋势，做趋势的跟随者。&lt;/p&gt;
-&lt;p&gt;当然，好处有，代价也有。有趋势时吃鱼身，震荡时两边挨巴掌。&lt;/p&gt;
-&lt;p&gt;对比大 A，会发现：交易第一步，选择好的标的。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0121 - 折腾 SwiftData</title>
-    <link href="https://atjason.com/daily/2024-01-16.html"/>
-    <id>https://atjason.com/daily/2024-01-16.html</id>
-    <published>2024-01-16T14:00:00.000Z</published>
-    <updated>2024-01-21T12:41:53.384Z</updated>
-    
-    <content type="html"><![CDATA[<p>这周花了比较多的时间，折腾 iDone；包括定义数据结构、研究树形数据的显示、Undo/Redo。</p>
-<p>很遗憾，这几件事有进展，但都没完全搞定。</p>
-<p>多方面原因吧。自己手生，SwiftUI &amp; SwiftData &amp; CloudKit 本身繁杂，SwiftData 有 Bug，等等。</p>
-<p>希望下周把这这些部分搞定，iDone 就有基本的框架了。之后，慢慢填充 UI、优化体验细节。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这周花了比较多的时间，折腾 iDone；包括定义数据结构、研究树形数据的显示、Undo/Redo。&lt;/p&gt;
-&lt;p&gt;很遗憾，这几件事有进展，但都没完全搞定。&lt;/p&gt;
-&lt;p&gt;多方面原因吧。自己手生，SwiftUI &amp;amp; SwiftData &amp;amp; CloudKit 本
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0115 - 老了做什么？</title>
-    <link href="https://atjason.com/daily/2024-01-15.html"/>
-    <id>https://atjason.com/daily/2024-01-15.html</id>
-    <published>2024-01-15T14:00:00.000Z</published>
-    <updated>2024-01-21T12:37:39.466Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近在学 SwiftData，刷到一个视频，觉得讲得不错。定睛一看，是位须发皆白的老爷爷，目测七十有余。</p>
-<p>我之前时不时焦虑，我这把年纪，去学新技术，和小伙子拼，想想都难受…现在来看，老爷爷给我这中年人上课，惭愧啊。</p>
-<p>不焦虑了。人生是场长跑，不必太过在意一时一地的得失。努力活成老爷爷，耳聪目明，能学新技术，给年轻人当讲师。💪</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近在学 SwiftData，刷到一个视频，觉得讲得不错。定睛一看，是位须发皆白的老爷爷，目测七十有余。&lt;/p&gt;
-&lt;p&gt;我之前时不时焦虑，我这把年纪，去学新技术，和小伙子拼，想想都难受…现在来看，老爷爷给我这中年人上课，惭愧啊。&lt;/p&gt;
-&lt;p&gt;不焦虑了。人生是场长跑，不必太
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0114 - iDone</title>
-    <link href="https://atjason.com/daily/2024-01-14.html"/>
-    <id>https://atjason.com/daily/2024-01-14.html</id>
-    <published>2024-01-14T14:00:00.000Z</published>
-    <updated>2024-01-14T13:04:25.834Z</updated>
-    
-    <content type="html"><![CDATA[<p>学习最好结合实践。这次学 SwiftUI &amp; SwiftData，打算做个人 Todo 应用。</p>
-<p>这是我高频使用的应用，目前使用的是 Focus，挺满意的，除了同步不太靠谱。 最重要的一个特性，是无极子任务，对我很方便。</p>
-<p>打算做个简化版的 Focus；从另一个角度讲，接触系统的 Reminders，但增加无极子任务功能。</p>
-<p>搞事情，从注册域名开始 😂</p>
-<p><a href="https://iDone.app" target="_blank" rel="external">https://iDone.app</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;学习最好结合实践。这次学 SwiftUI &amp;amp; SwiftData，打算做个人 Todo 应用。&lt;/p&gt;
-&lt;p&gt;这是我高频使用的应用，目前使用的是 Focus，挺满意的，除了同步不太靠谱。 最重要的一个特性，是无极子任务，对我很方便。&lt;/p&gt;
-&lt;p&gt;打算做个简化版的 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0113 - 学习 SwiftUI &amp; SwiftData</title>
-    <link href="https://atjason.com/daily/2024-01-13.html"/>
-    <id>https://atjason.com/daily/2024-01-13.html</id>
-    <published>2024-01-13T14:00:00.000Z</published>
-    <updated>2024-01-14T13:04:14.646Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>只是学习，很容易产生虚假的满足、时不时的空虚和焦虑</strong>。</p>
-<p>虚假的满足，是指看似学到了很多东西这，尤其感觉能组合出很多新东西。再学习的劳累，容易产生付出后的满足。</p>
-<p>时不时的空虚焦虑：我学这有用吗？别人都是专家了、我还在学 ABC 啊？这么大把年纪还在学这么基础的东西，就出去多丢人啊？</p>
-<p>创造、尽快卖钱。</p>
-<p><strong>能卖钱的硬东西，才能打碎这些情绪。</strong></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;strong&gt;只是学习，很容易产生虚假的满足、时不时的空虚和焦虑&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;虚假的满足，是指看似学到了很多东西这，尤其感觉能组合出很多新东西。再学习的劳累，容易产生付出后的满足。&lt;/p&gt;
-&lt;p&gt;时不时的空虚焦虑：我学这有用吗？别人都是专家了、我还在
     
     </summary>
     
