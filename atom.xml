@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-03-17T12:55:58.061Z</updated>
+  <updated>2024-03-24T11:59:49.722Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,96 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0320 - Klib 新版</title>
+    <link href="https://atjason.com/daily/2024-03-20.html"/>
+    <id>https://atjason.com/daily/2024-03-20.html</id>
+    <published>2024-03-20T14:00:00.000Z</published>
+    <updated>2024-03-24T11:59:49.722Z</updated>
+    
+    <content type="html"><![CDATA[<p>Klib 新版发布：</p>
+<ul>
+<li>可以显示导入来源，比如微信读书、Kindle、多看等。</li>
+<li>使用 Kindle/Apple Books 打开时，隐藏不支持的书。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Klib 新版发布：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可以显示导入来源，比如微信读书、Kindle、多看等。&lt;/li&gt;
+&lt;li&gt;使用 Kindle/Apple Books 打开时，隐藏不支持的书。&lt;/li&gt;
+&lt;/ul&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0319 - 新版 iPic 支持上传图片、文件至 Cloudflare R2 云存储</title>
+    <link href="https://atjason.com/daily/2024-03-19.html"/>
+    <id>https://atjason.com/daily/2024-03-19.html</id>
+    <published>2024-03-19T14:00:00.000Z</published>
+    <updated>2024-03-24T11:55:54.341Z</updated>
+    
+    <content type="html"><![CDATA[<p>Cloudflare，堪称业界良心（各种羊毛…）</p>
+<p>Cloudflare R2 云存储，可以无缝和其 CDN、Worker 等服务集成，很是方便。而且，有免费额度，价格也便宜。</p>
+<p>这不，应用户要求，iPic 新版支持上传图片、文件至 Cloudflare R2 云存储。</p>
+<p><img src="https://p.ipic.vip/6umy0k.png" alt=""></p>
+<p>目前，iPic 已支持上传至七牛、又拍、阿里云、腾讯云、Amazon S3、Cloudflare R2、Backblaze B2、Imgur、Flckr 等众多云存储。支持拖拽、快捷键等方式上传，自动生成 Markdown 链接，对于在博客、公众号文章中插图等场景，很是方便。</p>
+<p><img src="https://p.ipic.vip/t702pg.gif" alt=""></p>
+<ul>
+<li><a href="https://toolinbox.net/iPic/" target="_blank" rel="external">了解更多: https://toolinbox.net/iPic/</a></li>
+<li><a href="https://itunes.apple.com/cn/app/id1101244278?ls=1&amp;mt=12" target="_blank" rel="external">去 Mac App Store 下载 iPic</a></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Cloudflare，堪称业界良心（各种羊毛…）&lt;/p&gt;
+&lt;p&gt;Cloudflare R2 云存储，可以无缝和其 CDN、Worker 等服务集成，很是方便。而且，有免费额度，价格也便宜。&lt;/p&gt;
+&lt;p&gt;这不，应用户要求，iPic 新版支持上传图片、文件至 Cloudfla
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0318 - 越涨越涨</title>
+    <link href="https://atjason.com/daily/2024-03-18.html"/>
+    <id>https://atjason.com/daily/2024-03-18.html</id>
+    <published>2024-03-18T14:00:00.000Z</published>
+    <updated>2024-03-24T12:00:15.697Z</updated>
+    
+    <content type="html"><![CDATA[<p>这两天的中航西飞，让我感觉到：越涨越涨。</p>
+<p>其实，前两天就选出这只票，但感觉和低空飞行结合得不是特别紧密，且已经连续涨了几波，就没买。</p>
+<p>结果，这两天持续地上涨。</p>
+<p>看来，A 股是情绪性市场，更加适合买涨。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这两天的中航西飞，让我感觉到：越涨越涨。&lt;/p&gt;
+&lt;p&gt;其实，前两天就选出这只票，但感觉和低空飞行结合得不是特别紧密，且已经连续涨了几波，就没买。&lt;/p&gt;
+&lt;p&gt;结果，这两天持续地上涨。&lt;/p&gt;
+&lt;p&gt;看来，A 股是情绪性市场，更加适合买涨。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0316 - 重启期货量化</title>
@@ -500,78 +590,6 @@
 &lt;li&gt;等行情突破向上时，我却压根没想开仓，只是挂了两个回调限价单，结果踏空。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/b7e3
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0228 - 情绪暗能量</title>
-    <link href="https://atjason.com/daily/2024-02-28.html"/>
-    <id>https://atjason.com/daily/2024-02-28.html</id>
-    <published>2024-02-28T14:00:00.000Z</published>
-    <updated>2024-03-03T13:47:19.505Z</updated>
-    
-    <content type="html"><![CDATA[<p>一个人在生活中做出的重大决定，往往是基于个人情绪；只有一小部分是基于理性考虑。甚至是先用情绪下结论，再用理性找理由支撑。</p>
-<p>从这个意义上讲，情绪就像是宇宙中的暗物质：它们往往不能被看到，却几乎占据了宇宙质量的70％。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;一个人在生活中做出的重大决定，往往是基于个人情绪；只有一小部分是基于理性考虑。甚至是先用情绪下结论，再用理性找理由支撑。&lt;/p&gt;
-&lt;p&gt;从这个意义上讲，情绪就像是宇宙中的暗物质：它们往往不能被看到，却几乎占据了宇宙质量的70％。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0227 - 引导而非教导</title>
-    <link href="https://atjason.com/daily/2024-02-27.html"/>
-    <id>https://atjason.com/daily/2024-02-27.html</id>
-    <published>2024-02-27T14:00:00.000Z</published>
-    <updated>2024-03-03T13:45:48.322Z</updated>
-    
-    <content type="html"><![CDATA[<p>孩子放学后，我们希望知道孩子今天发生了。除了询问和汇报的方式（孩子可能已经厌烦了），可以用交流的方式。</p>
-<p>比如说：我今天上班路上，遇到这么大一条狗。孩子听到后，也会被激发起分享的欲望。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;孩子放学后，我们希望知道孩子今天发生了。除了询问和汇报的方式（孩子可能已经厌烦了），可以用交流的方式。&lt;/p&gt;
-&lt;p&gt;比如说：我今天上班路上，遇到这么大一条狗。孩子听到后，也会被激发起分享的欲望。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0226 - 把思考和决策过程告诉娃</title>
-    <link href="https://atjason.com/daily/2024-02-26.html"/>
-    <id>https://atjason.com/daily/2024-02-26.html</id>
-    <published>2024-02-26T14:00:00.000Z</published>
-    <updated>2024-03-03T13:44:40.874Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，开学前，我让他把自己的名字再练习下，写得好看点。因为学校刚发新书，每本书上要贴姓名贴，而这个姓名贴要长久地伴随着他，因此需要写得好看点。</p>
-<p>让他知道为什么这么做，他就相对更容易做下去。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，开学前，我让他把自己的名字再练习下，写得好看点。因为学校刚发新书，每本书上要贴姓名贴，而这个姓名贴要长久地伴随着他，因此需要写得好看点。&lt;/p&gt;
-&lt;p&gt;让他知道为什么这么做，他就相对更容易做下去。&lt;/p&gt;
-
     
     </summary>
     

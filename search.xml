@@ -4,6 +4,67 @@
   
     
     <entry>
+      <title><![CDATA[0320 - Klib 新版]]></title>
+      <url>https://atjason.com/daily/2024-03-20.html</url>
+      <content type="html"><![CDATA[<p>Klib 新版发布：</p>
+<ul>
+<li>可以显示导入来源，比如微信读书、Kindle、多看等。</li>
+<li>使用 Kindle/Apple Books 打开时，隐藏不支持的书。</li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0319 - 新版 iPic 支持上传图片、文件至 Cloudflare R2 云存储]]></title>
+      <url>https://atjason.com/daily/2024-03-19.html</url>
+      <content type="html"><![CDATA[<p>Cloudflare，堪称业界良心（各种羊毛…）</p>
+<p>Cloudflare R2 云存储，可以无缝和其 CDN、Worker 等服务集成，很是方便。而且，有免费额度，价格也便宜。</p>
+<p>这不，应用户要求，iPic 新版支持上传图片、文件至 Cloudflare R2 云存储。</p>
+<p><img src="https://p.ipic.vip/6umy0k.png" alt=""></p>
+<p>目前，iPic 已支持上传至七牛、又拍、阿里云、腾讯云、Amazon S3、Cloudflare R2、Backblaze B2、Imgur、Flckr 等众多云存储。支持拖拽、快捷键等方式上传，自动生成 Markdown 链接，对于在博客、公众号文章中插图等场景，很是方便。</p>
+<p><img src="https://p.ipic.vip/t702pg.gif" alt=""></p>
+<ul>
+<li><a href="https://toolinbox.net/iPic/" target="_blank" rel="external">了解更多: https://toolinbox.net/iPic/</a></li>
+<li><a href="https://itunes.apple.com/cn/app/id1101244278?ls=1&amp;mt=12" target="_blank" rel="external">去 Mac App Store 下载 iPic</a></li>
+</ul>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0318 - 越涨越涨]]></title>
+      <url>https://atjason.com/daily/2024-03-18.html</url>
+      <content type="html"><![CDATA[<p>这两天的中航西飞，让我感觉到：越涨越涨。</p>
+<p>其实，前两天就选出这只票，但感觉和低空飞行结合得不是特别紧密，且已经连续涨了几波，就没买。</p>
+<p>结果，这两天持续地上涨。</p>
+<p>看来，A 股是情绪性市场，更加适合买涨。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[0316 - 重启期货量化]]></title>
       <url>https://atjason.com/daily/2024-03-16.html</url>
       <content type="html"><![CDATA[<p>重新看了一遍当初看天启量化视频时做的笔记。</p>
@@ -7295,10 +7356,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[1111 - 懒人与非理性的人]]></title>
-      <url>https://atjason.com/daily/2022-11-11.html</url>
-      <content type="html"><![CDATA[<p>一观点，懒人想偷懒，所以发明各种东西以偷懒，所以，世界是由懒人推动。</p>
-<p>文学家萧伯纳的话：所有的进步都来自于不理性的人。理性的人会改变自己以适应世界，但不理性的人却会设法让世界变得适合他。</p>
+      <title><![CDATA[1114 - 平台价值]]></title>
+      <url>https://atjason.com/daily/2022-11-14.html</url>
+      <content type="html"><![CDATA[<p>对平台而言，最大的护城河是，能够看到生态系统内各个参与者的核心诉求，并针对核心诉求为他们持续提供价值。</p>
+<p>来自“371｜游戏平台怎样构筑护城河？ | 得到头条”</p>
 ]]></content>
       
         <categories>
@@ -7311,10 +7372,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[1114 - 平台价值]]></title>
-      <url>https://atjason.com/daily/2022-11-14.html</url>
-      <content type="html"><![CDATA[<p>对平台而言，最大的护城河是，能够看到生态系统内各个参与者的核心诉求，并针对核心诉求为他们持续提供价值。</p>
-<p>来自“371｜游戏平台怎样构筑护城河？ | 得到头条”</p>
+      <title><![CDATA[1111 - 懒人与非理性的人]]></title>
+      <url>https://atjason.com/daily/2022-11-11.html</url>
+      <content type="html"><![CDATA[<p>一观点，懒人想偷懒，所以发明各种东西以偷懒，所以，世界是由懒人推动。</p>
+<p>文学家萧伯纳的话：所有的进步都来自于不理性的人。理性的人会改变自己以适应世界，但不理性的人却会设法让世界变得适合他。</p>
 ]]></content>
       
         <categories>
@@ -25594,11 +25655,14 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0305 - 极致收敛]]></title>
-      <url>https://atjason.com/daily/2020-03-05.html</url>
-      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
-<p>过不了这二问，不做。</p>
-<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
+      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
+      <url>https://atjason.com/daily/2020-03-04.html</url>
+      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
+<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
+<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
+<p>靠自己的实力呢？玩笑了。</p>
+<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
+<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
 ]]></content>
       
         <categories>
@@ -25611,14 +25675,11 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0304 - 靠什么，怕什么]]></title>
-      <url>https://atjason.com/daily/2020-03-04.html</url>
-      <content type="html"><![CDATA[<p>靠运气赚来的钱，最怕哪天运气不好而亏钱。</p>
-<p>靠流量火起来的明星，最怕失去流量而变成流星。</p>
-<p>靠情怀带来的销量，最怕情怀不在时，销量亦不再。</p>
-<p>靠自己的实力呢？玩笑了。</p>
-<p>实力，很多时候只是运气。<br>做对了事，很多时候，只是做的事恰巧对了。</p>
-<p><strong>没什么是靠得住的，只能不断寻找新的依靠。</strong></p>
+      <title><![CDATA[0305 - 极致收敛]]></title>
+      <url>https://atjason.com/daily/2020-03-05.html</url>
+      <content type="html"><![CDATA[<p>凡事先问：这事能不能不做？<br>然后再问：有没有更重要的事？</p>
+<p>过不了这二问，不做。</p>
+<p>时间越来越少，精力越来越有限，只能越来越收敛，把能力集中在更小的点，断其一指。</p>
 ]]></content>
       
         <categories>
@@ -30641,23 +30702,6 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0523 - 闲庭信步]]></title>
-      <url>https://atjason.com/daily/2019-05-23.html</url>
-      <content type="html"><![CDATA[<p>真正的效率，不是马不停蹄，而是闲庭信步。</p>
-<p>形象的说，有点像 996 与 Google 号称员工有 20% 的自由时间。高强度工作，确实可能更快地完成既定的任务。可，问题在于，任务并不一定是既定的，把已知的事全部做完、做好，并不一定能带来最好的结果。因为，与已知相比，未知是更加不确定、影响更大的。过度关注已知，未知就被忽视了。</p>
-<p>至少，80% 精力用来处理已知事务，20% 用来思考可能性。</p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
       <title><![CDATA[0525 - 孩子是大人的镜子]]></title>
       <url>https://atjason.com/daily/2019-05-25.html</url>
       <content type="html"><![CDATA[<p>今天发现娃咳嗽时，会弯腰、低头、手捂嘴巴，而不是直接对着人。</p>
@@ -30681,6 +30725,23 @@
 <p>比如，给刚生下的小 Baby 起名甜馨，多好。可，人是会长大的；你脑补下叫一个奶奶辈的人甜馨，是个什么感觉。</p>
 <p>比如，TFBoys，人设是长不大的邻居男孩。可，人是会长大的；慢慢的，会抽烟、喝酒、爆粗口，甚至甚至与当初人设更违合的行为出现。怎么办？多半会脱粉。</p>
 <p>人设，既可能是快速楔入人心的楔子，也可能成为枷锁。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[0523 - 闲庭信步]]></title>
+      <url>https://atjason.com/daily/2019-05-23.html</url>
+      <content type="html"><![CDATA[<p>真正的效率，不是马不停蹄，而是闲庭信步。</p>
+<p>形象的说，有点像 996 与 Google 号称员工有 20% 的自由时间。高强度工作，确实可能更快地完成既定的任务。可，问题在于，任务并不一定是既定的，把已知的事全部做完、做好，并不一定能带来最好的结果。因为，与已知相比，未知是更加不确定、影响更大的。过度关注已知，未知就被忽视了。</p>
+<p>至少，80% 精力用来处理已知事务，20% 用来思考可能性。</p>
 ]]></content>
       
         <categories>
@@ -30807,10 +30868,12 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0516 - 多做一点点]]></title>
-      <url>https://atjason.com/daily/2019-05-16.html</url>
-      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
-<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
+      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
+      <url>https://atjason.com/daily/2019-05-15.html</url>
+      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
+<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
+<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
+<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
 ]]></content>
       
         <categories>
@@ -30823,12 +30886,10 @@
     </entry>
     
     <entry>
-      <title><![CDATA[0515 - 解决网速慢的问题]]></title>
-      <url>https://atjason.com/daily/2019-05-15.html</url>
-      <content type="html"><![CDATA[<p>这次回来，明显感觉出国的网速慢了，影响到效率和心情了。</p>
-<p>宽带方面，目前用的是移动，感觉要换回电信了；目前可以先保留移动，两个同时开通试试。</p>
-<p>神学上网方面，可能得再找更快的了。考虑到自己对安全性有一定的要求，可能不会考虑成型的服务，而是自购主机独享。</p>
-<p>关键一点：不能在这件事上省钱，重要的是解决问题。</p>
+      <title><![CDATA[0516 - 多做一点点]]></title>
+      <url>https://atjason.com/daily/2019-05-16.html</url>
+      <content type="html"><![CDATA[<p>今天我去给小孩办医保，窗口工作人员随口提醒一句：要不要给他办市民卡？多亏了她这一句，我少跑了一趟；感激。</p>
+<p>多做一点点，对自己是举手之劳，对别人可能就会有很大的帮助。</p>
 ]]></content>
       
         <categories>
@@ -40371,6 +40432,22 @@
     </entry>
     
     <entry>
+      <title><![CDATA[0101 - 2018，你好]]></title>
+      <url>https://atjason.com/daily/2018-01-01.html</url>
+      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
+<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
+]]></content>
+      
+        <categories>
+            
+            <category> 每天写一点 </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[iText 新年新版：截图后不仅能识别文字，还能翻译为 100+ 种语言]]></title>
       <url>https://atjason.com/daily/2018-01-02.html</url>
       <content type="html"><![CDATA[<p><a href="https://toolinbox.net/iText/" target="_blank" rel="external">iText</a> 是一款从图片中识别文字的工具，解决了诸如扫描版 PDF 无法复制等问题。<strong>在保持简洁的同时</strong>，我也在不断 <strong>改进 iText 的功能和便利性</strong>。新年第一版，来看看有哪些变化吧。</p>
@@ -40412,22 +40489,6 @@
 <li>微信扫码入群：</li>
 </ul>
 <p><img src="https://toolinbox.net/html/iPic/iPicGroup.jpg" alt=""></p>
-]]></content>
-      
-        <categories>
-            
-            <category> 每天写一点 </category>
-            
-        </categories>
-        
-        
-    </entry>
-    
-    <entry>
-      <title><![CDATA[0101 - 2018，你好]]></title>
-      <url>https://atjason.com/daily/2018-01-01.html</url>
-      <content type="html"><![CDATA[<p><strong>2018，目标是：1·5·30</strong></p>
-<p>至于是什么意思，待到年底、目标达成时，再来告诉大家。</p>
 ]]></content>
       
         <categories>
@@ -64605,9 +64666,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
@@ -64667,9 +64728,9 @@ fi
             
             <tag> PM </tag>
             
-            <tag> 读书笔记 </tag>
-            
             <tag> 结网 </tag>
+            
+            <tag> 读书笔记 </tag>
             
         </tags>
         
