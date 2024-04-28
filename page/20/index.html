@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-11-30.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-12-11.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-11-30.html" itemprop="url">
-                  1130 - docker & nignix
+                <a class="post-title-link" href="/daily/2023-12-11.html" itemprop="url">
+                  1211 - 短视频出海
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-11-30T22:00:00+08:00">
-                2023-11-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-12-11T22:00:00+08:00">
+                2023-12-11
               </time>
             
 
@@ -365,34 +365,7 @@
       
         
           
-            <p>又屯了台服务器，又要使用 nginx 搭建网站系统。为了以后屯更多服务器时方便配置，折腾了通过 docker 运行 nginx，使用 Let’s Encrypt 更新 https/ssl。</p>
-<p>整理了一下，传到 GitHub 了：</p>
-<p><img src="https://github.com/atjason/docker-nginx" alt="https://github.com/atjason/docker-nginx"></p>
-<p>另外，把这个开源出去，并在开发者群和 V2EX 介绍时，收到了大家同类的介绍，知道了很多更优秀工具的存在，开心。</p>
-<hr>
-<h1 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h1><ul>
-<li>克隆本项目。</li>
-<li>使用 <code>./vhost.sh add your_domain.com</code> 添加站点。 <ul>
-<li>提前设置好域名的 DNS，指定当前服务器 IP</li>
-</ul>
-</li>
-<li>将站点文件添加至：<code>./www/your_domain.com/public</code></li>
-<li>更新站点配置文件：<code>./nginx/conf.d/your_domain.com.conf</code></li>
-<li>启动 docker：<code>./start.sh</code></li>
-<li>修改站点配置文件后，重载 nginx：<code>./reload-nginx.sh</code></li>
-<li>使用 <code>crontab</code> 定期更新 ssl：<code>./renew-ssl.sh</code></li>
-</ul>
-<h1 id="介绍本项目"><a href="#介绍本项目" class="headerlink" title="介绍本项目"></a>介绍本项目</h1><p>各文件夹及文件：</p>
-<ul>
-<li><code>nginx</code>: nginx 配置文件</li>
-<li><code>www</code>: 站点数据文件，每个域名一个子文件夹，日志位于 <code>www/log</code></li>
-<li><code>ssl</code>: ssl 配置文件，使用 Let’s Encrypt 生成及更新</li>
-<li><code>vhost.sh</code>: 添加、删除站点</li>
-<li><code>compose.yaml</code>: docker compose 配置文件</li>
-<li><code>start.sh</code>: 使用 <code>docker compose up</code> 启动</li>
-<li><code>reload-nginx.sh</code>:  修改站点配置文件后，重载 nginx</li>
-<li><code>renew-ssl.sh</code>: 使用 Let’s Encrypt 更新 ssl</li>
-</ul>
+            <p>挑选国内热门短视频，然后 AI 换脸、翻译、换语音，短剧出海，厉害啊。</p>
 
           
         
@@ -436,7 +409,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-11-29.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-12-07.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -458,8 +431,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-11-29.html" itemprop="url">
-                  1129 - Samba VS WebDAV
+                <a class="post-title-link" href="/daily/2023-12-07.html" itemprop="url">
+                  1207 - 搭建自己发卡系统
                 </a>
               
             
@@ -475,8 +448,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-11-29T22:00:00+08:00">
-                2023-11-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-12-07T22:00:00+08:00">
+                2023-12-07
               </time>
             
 
@@ -534,8 +507,12 @@
       
         
           
-            <p>折腾了 NAS，奇怪的是，Samba 非常慢，只有几 MB。意外试了下 WebDAV，发现速度正常，能有 70MB。不去研究为什么了，先用着再说。</p>
-<p>硬件用的是天钡 R1，CPU Intel N100，空跑 Windows，CPU 占用明显。不适合做桌面 CPU，也就做做 NAS 软路由这些活。</p>
+            <p>之前 ChatGPT 的激活码，是用朋友的自动发卡系统，一直运行得挺好的。</p>
+<p>可前些天，他的系统被黑了，也就不能用了。</p>
+<p>之前用朋友的系统，是想快速上线。后来跑起来还可以，就不想自己折腾了。</p>
+<p>现在没办法，只能折腾了。</p>
+<p>用的是 <a href="https://github.com/assimon/dujiaoka" target="_blank" rel="external">独角数卡</a> 的开源系统，收款用的是支付宝对面付，手续费 0.6%。</p>
+<p>虽然，有人整理了 docker 来安装，但实际上，还是有点折腾的。主要是域名、反代、各种配置、监控、备份等等，事情比较杂。</p>
 
           
         
@@ -579,7 +556,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-11-28.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-12-06.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -601,8 +578,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-11-28.html" itemprop="url">
-                  1128 - 最该做什么
+                <a class="post-title-link" href="/daily/2023-12-06.html" itemprop="url">
+                  1206 - 配置 WSL
                 </a>
               
             
@@ -618,8 +595,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-11-28T22:00:00+08:00">
-                2023-11-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-12-06T22:00:00+08:00">
+                2023-12-06
               </time>
             
 
@@ -677,14 +654,9 @@
       
         
           
-            <p>适合一个人长期发展的坐标，就是做：</p>
-<ul>
-<li>自己喜欢的</li>
-<li>擅长的</li>
-<li>有市场的（满足特定人群刚需）</li>
-<li>有技能长期性的（这个本事不会因为年龄变大身体变差而贬值）</li>
-</ul>
-<p>这 4 个条件的交集，做这件事。</p>
+            <p>不是有这么句话：最好的 Linux 发行版，是 Windows。</p>
+<p>主要是，近年来 Windows 推出了 WSL，可以简洁高效地运行 Linux；考虑到 Linux 下不方便运行 Windows，那 Windows 可不完胜。</p>
+<p>这两天配置好了 WSL，开机自启动，自动转发 SSH 端口，能直接远程登录，开心。</p>
 
           
         
@@ -728,7 +700,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-11-27.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-12-05.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -750,8 +722,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-11-27.html" itemprop="url">
-                  1127 - 没有神兵利器
+                <a class="post-title-link" href="/daily/2023-12-05.html" itemprop="url">
+                  1205 - Caddy 服务器
                 </a>
               
             
@@ -767,8 +739,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-11-27T22:00:00+08:00">
-                2023-11-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-12-05T22:00:00+08:00">
+                2023-12-05
               </time>
             
 
@@ -826,8 +798,10 @@
       
         
           
-            <p>比如，在做技术选型时，没有完美的选项；每种技术，都有其特长，也有为此付出的代价。</p>
-<p>选个差不多的就可以，不必过分执念。把能找到的用好、优化好，就是很不错的结果了。</p>
+            <p>上周研究了 docker &amp; nginx，替代之前使用的 lnmp，已经感觉比较简单的，还开源了代码，并在 V2EX 分享。</p>
+<p>结果，V2EX 的帖子上，有几个人提到了 Caddy。我去研究了一下，哇，果然很简洁哎。</p>
+<p>又花了些时间，将 docker &amp; nginx 换成了 Caddy；又学到了新技能，开心。</p>
+<p>还是要多分享、多交流、多碰撞，比自己闷头搞强多了。自己抛砖引玉，通常是好的交流的开始。</p>
 
           
         
@@ -871,7 +845,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-11-26.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2023-12-04.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -893,8 +867,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2023-11-26.html" itemprop="url">
-                  1126 - 高性能小主机
+                <a class="post-title-link" href="/daily/2023-12-04.html" itemprop="url">
+                  1204 - 虚拟机串口不稳定
                 </a>
               
             
@@ -910,8 +884,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-11-26T22:00:00+08:00">
-                2023-11-26
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2023-12-04T22:00:00+08:00">
+                2023-12-04
               </time>
             
 
@@ -969,12 +943,8 @@
       
         
           
-            <p>准备送自己一个礼物：高性能小主机。</p>
-<p>现在，家里其实放了个性能孱弱的小主机。主要就两个功能：跑量化交易程序、使用 SMB 当 NAS。</p>
-<p>其实也勉强够用。但最近想折腾，就打算买个性能还可以的小主机。比较吸引我的，是可以安装底层虚拟机，然后再安装 Windows、NAS 系统之类的。</p>
-<p>虽然，现在看起来有点多余、费钱，但未来应该会有好玩的东西出来，虽然现在我不知道是什么。只有先有了，才有玩法；没有的时候，是想不出来的。</p>
-<p>记得特斯拉刚火时，就有个小特叔叔的，买了一辆，产出相关内容，狠狠赚了一波流量。</p>
-<p>另外，这个东西也是个抓手。因为要买，我得去了解市面上的小主机，了解当下的内存硬盘，了解虚拟机技术，思考如何构建系统，等等。所有这一切，都是因为有了这个念头。这个念头，就像个抓手，抓住一堆节点。</p>
+            <p>之前通过 macOS 下 PD Windows 虚拟机，使用串口给智能模块刷固件，总是不稳定；有时好有时坏。</p>
+<p>今天试了下纯 Windows 的小电脑，发现很稳定，刷机速度明显加快，节省不少时间，开心。</p>
 
           
         
@@ -1013,7 +983,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/19/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><span class="page-number current">20</span><a class="page-number" href="/page/21/">21</a><span class="space">&hellip;</span><a class="page-number" href="/page/599/">599</a><a class="extend next" rel="next" href="/page/21/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/19/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/19/">19</a><span class="page-number current">20</span><a class="page-number" href="/page/21/">21</a><span class="space">&hellip;</span><a class="page-number" href="/page/600/">600</a><a class="extend next" rel="next" href="/page/21/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1058,7 +1028,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">2992</span>
+                <span class="site-state-item-count">2999</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
