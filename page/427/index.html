@@ -267,6 +267,682 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-22.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2018-01-22.html" itemprop="url">
+                  0122 - EOS 编程学习日志（1）
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-22T22:00:00+08:00">
+                2018-01-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><strong>EOS 编程到底是什么呢、学什么呢？</strong></p>
+<p>抱歉，我现在也不无法回答。不过，我可以告诉你我做了哪些尝试、目前的理解，以及下一步还要做什么。</p>
+<p>首先，<strong>EOS 开发最重要的文档自然是在 GitHub</strong>: <a href="https://github.com/EOSIO/eos" target="_blank" rel="external">https://github.com/EOSIO/eos</a>，比如：</p>
+<ul>
+<li>介绍了如何在本机编译、运行 EOS</li>
+<li>其中的 contracts 目录，提供了一些智能合约的范例。</li>
+</ul>
+<p>其中 <strong>一些基础概念</strong>：</p>
+<ul>
+<li><code>eosd</code> - server-side blockchain node component<ul>
+<li>可理解为运行在本机的 EOS Daemon/服务器</li>
+</ul>
+</li>
+<li><code>eosc</code> - command line interface to interact with the blockchain<ul>
+<li>可理解为方便与 EOS 服务器进行交互的命令行工具，不用写代码就可以通过这个工具执行命令，进行一些测试</li>
+</ul>
+</li>
+<li><code>eos-walletd</code> - EOS wallet<ul>
+<li>可以理解为 EOS 钱包的命令行工具</li>
+</ul>
+</li>
+</ul>
+<p>然后，<strong>主要开发文档在此</strong>：<a href="https://eosio.github.io/eos/" target="_blank" rel="external">https://eosio.github.io/eos/</a>，主要分为 2 种形式的接口及文档：</p>
+<ol>
+<li><strong>REST RPC 接口</strong><ul>
+<li>也即，不是直接使用 C/C++/WebAssembly 编写代码，而且封装为 REST RPC 接口。<strong>有了这个接口，对编程语言就没有限制了，你可以用任何你喜欢的语言</strong>，比如 Swift/Python/etc</li>
+<li>不过，<strong>可惜的是，目前已经封装的接口并不多，你并不能通过 REST RPC 干所有事情</strong>。希望 EOS 能尽快完善 REST RPC 接口，这是目前我最期待的</li>
+<li>我把其中的接口都测试了一遍，可惜就是太少了</li>
+</ul>
+</li>
+<li><strong>C/C++/WebAssembly 源码</strong><ul>
+<li><strong>EOS 本身就是基于 C/C++/WebAssembly 编写的</strong>，基于这些语言的文档自然最全。</li>
+<li>自然的，<strong>目前如果你想充分基于 EOS 开发，只能使用 C/C++/WebAssembly</strong>；如果不会，要么学习，要么等 REST RPC 接口早日完善</li>
+</ul>
+</li>
+</ol>
+<p>你可能知道，EOS 在 17 年 12 月 4 日发布了 pre-release 2.0，同时也发布了 <strong>公测版的 EOS 区块链网络</strong>（不是主链，主链预计 18 年 6 月发布），以下是这部分的介绍：</p>
+<ul>
+<li><a href="https://github.com/EOSIO/eos/wiki/Testnet:-Public#public-testnet-endpoints" target="_blank" rel="external">Testnet: Public</a><ul>
+<li>这个就是关于此次公测链的根文档</li>
+</ul>
+</li>
+<li>你需要先在 <a href="https://docs.google.com/forms/d/e/1FAIpQLSel3HVFb22zYaAJfUtu_IzFgIJ4OATb0jQ3H2FV-HbwnJ090g/viewform" target="_blank" rel="external">这里</a> 申请测试账户</li>
+<li>测试链的 <a href="https://t1api.eos.io/v1/docs/" target="_blank" rel="external">REST API 接口文档</a><ul>
+<li>包含了认证、区块、交易(Transaction)、账户等部分的介绍</li>
+<li>我简单试了一遍，貌似 <code>v1/blocks</code> 接口有问题，其它正常</li>
+</ul>
+</li>
+</ul>
+<p><strong>下一步怎么学呢？</strong>其实我也还不清楚，有这么几个可选项：</p>
+<ul>
+<li><strong>学习 Docker</strong><ul>
+<li>为什么呢？因为我暂时不想在 macOS 主系统中编译 EOS 项目，目前是在虚拟机中编译的，但多少有些方便</li>
+<li>EOS 支持在 Docker 中运行，这样既不会把我的主系统搞乱，也不必忍受虚拟机的性能和麻烦</li>
+</ul>
+</li>
+<li><strong>学习 C/C++/WebAssembly</strong><ul>
+<li>只有这样，才能在 EOS 目前的状态下，深入的测试、学习</li>
+<li>这其实是成本、风险非常高的选择，我非常犹豫；我会再去了解下 EOS 团队有没有关于 REST 接口开发计划</li>
+</ul>
+</li>
+<li><strong>学习区块链通用开发技术</strong><ul>
+<li>EOS 只是区块链的一种形态，而区块链本身还有很多通用型的开发技术，这个也要先行了解</li>
+</ul>
+</li>
+</ul>
+<p>你也对 EOS 感兴趣吗？希望这篇文章能帮你揭开 EOS 开发的神秘面纱，也欢迎一起啃这块骨头。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-21.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2018-01-21.html" itemprop="url">
+                  0121 - 开始学习 EOS 编程
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-21T22:00:00+08:00">
+                2018-01-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>首先，这里不是讨论 EOS 币的买卖，而是 EOS 编程、基于 EOS 的应用。</p>
+<p>今天从 GitHub 上下载了 EOS 的应用，也花了半天编译了，按照操作演示创建了钱包、进行了交易。但，依然是云里雾里。</p>
+<p>EOS 编程方面的资料确实太少了，只能一点点摸过。编程语言上，看起来是 C/C++/JS 栈的，也有些吃力。不过，看起来是有 REST 接口的，比如首个公开测试网络就有 REST 接口的文档：<a href="https://t1api.eos.io/v1/docs/" target="_blank" rel="external">https://t1api.eos.io/v1/docs/</a></p>
+<p>另外，一个人学习，确实很吃力，遇到问题也没人讨论。我拉了个 Telegram 群，不过暂时不打算公开。如果你感兴趣，可以留言或其他方式告诉我你的 Telegram 账户。强调：这里只讨论 EOS 编程，不讨论币价、买卖。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-20.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2018-01-20.html" itemprop="url">
+                  0120 - Kindle 导出标注时，如何破除 <您已达到本内容的剪贴上限> 这一限制？
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-20T22:00:00+08:00">
+                2018-01-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>使用 Kindle 的重度用户会知道，在 Kindle 上读书时可以任性标注，但在导出标注时则有限制：<strong>Kindle 限制能导出的标注的文字总数</strong>。这个比例没有明文规定，各本书也有不同，通常理解是一本书所有内容的 10%；一旦超出这一限制，导出时则会看到恼人的 <code>&lt;您已达到本内容的剪贴上限&gt;</code>。</p>
+<p><img src="https://ps.toolinbox.net/r0f3c.png" alt=""></p>
+<p>如果大家遇到这个问题，又实在想导出所有的标注，<strong>怎么办呢？可以这样操作</strong>：</p>
+<ul>
+<li>先使用 <a href="https://toolinbox.net/Klib/" target="_blank" rel="external">Klib</a> 导入 Kindle 中的标注。</li>
+<li>使用 Kindle for macOS 继续下面的操作（因为效率高）<ul>
+<li><a href="https://www.amazon.cn/kindleformac" target="_blank" rel="external">点击这里，从亚马逊下载最新版 Kindle for macOS</a></li>
+</ul>
+</li>
+<li>在 Kindle for macOS 中删除已经导入的标注。<ul>
+<li>可以在 Klib 中查看最后一条标注的内容，在 Kindle for macOS 中搜索这条标注，然后删除这条标注前面所有的标注。</li>
+<li>同时，在 Klib 中多选 <code>&lt;您已达到本内容的剪贴上限&gt;</code> 对应的标注，右击并删除。</li>
+</ul>
+</li>
+<li>将剩下的标注导出为 html 文件，操作示意：<ul>
+<li><img src="https://ps.toolinbox.net/vo0ua.jpg" alt=""></li>
+</ul>
+</li>
+<li>使用 Klib 导入 html 文件<ul>
+<li>点击 Klib <code>文件</code> 菜单，选择 <code>从 Kindle 导入…</code>，然后选择刚才导出的 html 文件。</li>
+</ul>
+</li>
+<li>如果 Klib 依然有 <code>&lt;您已达到本内容的剪贴上限&gt;</code>，重复上面的步骤：删除已导入的、重新导出、然后导入。</li>
+</ul>
+<p>我测试过，这个办法是有效的。技术上，是 Kindle 在导出标注时，会机械地判断导出的内容是否过多。而一旦删除已经导入的标注，自然能向后延伸，导出后面更多的标注。</p>
+<p>这个方法有 2 个潜在的问题需要注意：</p>
+<ol>
+<li>标注一旦导出，就无法在 Kindle 中展现了。</li>
+<li>一旦删除，Amazon 是不会替你恢复的。<ul>
+<li>你要自己保存标注（比如使用 Klib 管理，并定期备份）</li>
+</ul>
+</li>
+</ol>
+<p>这 2 点请大家知会。如果理解了，就可以放心地使用上述方法，<strong>完整导出你自己花时间做出的读书笔记</strong>。</p>
+<p>祝，阅读愉快。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-19.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2018-01-19.html" itemprop="url">
+                  0119 - 别拿假设当事实
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-19T22:00:00+08:00">
+                2018-01-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>你有没有类似的感觉：</p>
+<ul>
+<li>比如，年会没中奖，感觉就像别人把自己的奖品抢走了，就好像这奖品本来就是自己的一样。</li>
+<li>比如，没在比特币价格很低时抄底，感觉错过了几个亿，就好像自己事先就有能力判断出比特币的底一样。</li>
+</ul>
+<p><strong>把假设、推论当事实</strong>，进而推断出让自己郁闷的结论、做出错误的决策，是在外人看来浅显易懂，而当局者却浑然不觉的问题。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-18.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -403,619 +1079,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-17.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2018-01-17.html" itemprop="url">
-                  0117 - 深耕 iBooks 标注导入
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-17T22:00:00+08:00">
-                2018-01-17
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Klib 已经可以从 iBooks 中导入标注和笔记了，不过还有一些进阶的工作可以做：</p>
-<ul>
-<li>解析 ePub 数据结构，识别页码，使得排序准确。</li>
-<li>iBooks 会将大段标注拆分存储，目前 Klib 导入时也是拆分着导入。计划将相关的标注合并起来导入，还得适配已经导入的标注，有点麻烦。</li>
-<li>在 iBooks 中打开原文、跳转至原来的位置。</li>
-</ul>
-<p>今天已经开始了，看本周能否再提交个版本。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-16.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2018-01-16.html" itemprop="url">
-                  Klib 新版炫技来袭：从多看导入读书笔记、在笔记中插入图片
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-16T22:00:00+08:00">
-                2018-01-16
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <p>时间真快，距离 <a href="https://toolinbox.net/Klib/">Klib</a> 上次发布已经快半年了。这段时间忙着 <a href="https://toolinbox.net/iPaste/">iPaste</a>、<a href="https://toolinbox.net/iText/">iText</a> 等其他产品，倒是把 Klib 给耽搁了，抱歉抱歉。</p>
-<p>不过，<strong>好饭不怕晚</strong>；<br>这不，<strong>新版 Klib 来啦</strong> 😀</p>
-<h2 id="Klib-学了新本领：从「多看」导入笔记"><a href="#Klib-学了新本领：从「多看」导入笔记" class="headerlink" title="Klib 学了新本领：从「多看」导入笔记"></a>Klib 学了新本领：从「多看」导入笔记</h2><p>这位说：<strong>咦，之前 Klib 不就可以从多看导入了吗？</strong>别急，此「多看」非彼「多看」</p>
-<p>之前，Klib 支持从「刷了多看系统的 Kindle」中导入笔记，这一方式有诸多限制，比如新款的 Kindle 已经不支持刷多看系统了。</p>
-<p>而今，<strong>Klib 直接从「多看服务器」导入笔记</strong>，就打破了之前 Kindle 设备的限制。<strong>比如，你在多看手机客户端上阅读时所作的标注，现在也可以使用 Klib 导入。</strong></p>
-<p><img src="https://ps-hz.toolinbox.net/006tKfTcgy1flhesb2n59g30e60em7gg.gif" alt=""></p>
-<p>导入过程非常简单，无需连接手机或其他任何设备，只需在 Klib 中选择菜单 <code>文件 &gt; 从多看导入…</code> 即可。首次导入时，需要使用多看（也即小米）账户进行授权。</p>
-<p>将笔记导入 Klib 后，便可以轻松地以 Markdown 格式复制笔记，以网页形式预览，或者导出至印象笔记。<strong>自己辛辛苦苦做的读书笔记，再也不用眼巴巴地看着，却无法导出、更无法使用了。</strong></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/daily/2018-01-16.html#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-15.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2018-01-15.html" itemprop="url">
-                  0115 - 币圈装逼小程序
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-15T22:00:00+08:00">
-                2018-01-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>自动生成手机钱包截图，方便在朋友圈、币圈分享。</p>
-<ul>
-<li>比如，可以手动输入哪些币种、数量</li>
-<li>可以伪装自己在多早、多低的价格入手了多少，现在涨了多少倍</li>
-<li>可以伪装自己恰巧买了今天涨幅最高的山寨币，涨的好爽</li>
-<li>当然，除了显示涨，也可以自黑：跌得从会所到吃土</li>
-</ul>
-<p>除了晒，还有哪些动力呢？</p>
-<ul>
-<li>比如，截图使用某钱包的样式、带 Logo，可以给该手机钱包带来流量</li>
-<li>比如，截图显示某山寨币的惊人涨幅，借截图来营销，可以带来更多韭菜，圈更多钱</li>
-</ul>
-<p>你，意下如何？</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2018-01-14.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2018-01-14.html" itemprop="url">
-                  0114 - 投资一点时间去投资
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-01-14T22:00:00+08:00">
-                2018-01-14
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>说人话就是，花点时间，研究下投资领域的东西。</p>
-<p><strong>如果不投资会怎样？</strong></p>
-<ul>
-<li>我们确实是可以在自己的领域不断积累、成长。</li>
-<li>但事实上，通常情况下，我们的努力，只能让我们得到线性的增长。</li>
-<li>如果我们有幸处于一个行业的上升期，那这种增长短期甚至是指数级的。</li>
-<li>如果我们不幸处于一个行业的衰退期，那即便我们很努力，也无法摆脱规律的宿命。</li>
-<li>现在行业的周期，相比于之前，已经大大缩短了。比如当年热门的互联网，现在已被称为「传统互联网」，也就不过十年。而我们风华正茂的时间，可能也就十年。<strong>十年一过，行业衰退了，我们的能力也衰退了，怎么办？</strong></li>
-</ul>
-<p><strong>投资，可以让我们跳出自己所处行业的宿命。</strong></p>
-<p>也许我们处于一个衰退的行业，但投资（比如股票），可以享受处于上升期行业的红利，以对冲自己行业的衰退。这种做法，有占尽优势的嫌疑、有自负轻狂的成分，但这社会，本就不公。已经拥有的，给你更多。</p>
-<p>以上思考，启发于亦仁线下活动另一位 Jason 大牛的分享。</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/426/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/426/">426</a><span class="page-number current">427</span><a class="page-number" href="/page/428/">428</a><span class="space">&hellip;</span><a class="page-number" href="/page/601/">601</a><a class="extend next" rel="next" href="/page/428/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/426/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/426/">426</a><span class="page-number current">427</span><a class="page-number" href="/page/428/">428</a><span class="space">&hellip;</span><a class="page-number" href="/page/602/">602</a><a class="extend next" rel="next" href="/page/428/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1060,7 +1128,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">3004</span>
+                <span class="site-state-item-count">3008</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
