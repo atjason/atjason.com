@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-05-19T12:58:37.805Z</updated>
+  <updated>2024-05-26T14:06:04.758Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,79 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0521 - 学习 Al Brooks</title>
+    <link href="https://atjason.com/daily/2024-05-21.html"/>
+    <id>https://atjason.com/daily/2024-05-21.html</id>
+    <published>2024-05-21T14:00:00.000Z</published>
+    <updated>2024-05-26T14:06:04.758Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近在学 Al Brooks；每次看视频，都会在细节处有收获，真开心。</p>
+<p>因为 Al Brooks 是实战派，而他说的很多细节，和自己交易过程很相似，能解决自己在细节处的一些困或，带来大的喜悦。</p>
+<p>比如今天有两个点：</p>
+<ul>
+<li>Bull Trend 中的 Reversal 不一定是 Bull Bar，有长下影线的 Bear Bar 也是可以的。</li>
+<li>甚至，哪怕没有下影线，如果能反向突破，也能构成一次反转。</li>
+</ul>
+<p><img src="https://p.nuli.life/blog/pp6z5n.png" alt=""><br><img src="https://p.nuli.life/blog/1hvyh3.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近在学 Al Brooks；每次看视频，都会在细节处有收获，真开心。&lt;/p&gt;
+&lt;p&gt;因为 Al Brooks 是实战派，而他说的很多细节，和自己交易过程很相似，能解决自己在细节处的一些困或，带来大的喜悦。&lt;/p&gt;
+&lt;p&gt;比如今天有两个点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bul
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0520 - 交易就是：该干啥干啥</title>
+    <link href="https://atjason.com/daily/2024-05-20.html"/>
+    <id>https://atjason.com/daily/2024-05-20.html</id>
+    <published>2024-05-20T14:00:00.000Z</published>
+    <updated>2024-05-26T14:04:03.968Z</updated>
+    
+    <content type="html"><![CDATA[<p>很简单：</p>
+<ul>
+<li>没信号时，等信号</li>
+<li>信号来了，按规则操作</li>
+</ul>
+<p>反过来</p>
+<ul>
+<li>还没自己的规则、偏好的信号？去学习练习</li>
+<li>没信号时，不要自己编理由硬上</li>
+<li>持仓不要瞎操作；管不住手，就用条件单代替盯盘</li>
+<li>不要那么多感情，什么赢了怎么花、不敢开仓、不想止损…别给自己加那么多戏，你丫就一龙套，别拿自己当角</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;很简单：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;没信号时，等信号&lt;/li&gt;
+&lt;li&gt;信号来了，按规则操作&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;反过来&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;还没自己的规则、偏好的信号？去学习练习&lt;/li&gt;
+&lt;li&gt;没信号时，不要自己编理由硬上&lt;/li&gt;
+&lt;li&gt;持仓不要瞎操
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0516 - 水为什么便宜</title>
@@ -525,56 +598,6 @@
       &lt;p&gt;现在的学校，是补短板教育。典型的，就是【错题集】。啥意思，错题就是你的短板；不能有短板，你得把错题学会。&lt;/p&gt;
 &lt;p&gt;换个角度看，那些做对的题，孩子是怎么做出来的，有没有用什么巧妙的思维，并没有被关注到（昨天娃做题的一个思路，惊到我了）。&lt;/p&gt;
 &lt;p&gt;到底是发挥特长，把
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0419 - 又踩了 Air101 的一个坑</title>
-    <link href="https://atjason.com/daily/2024-04-19.html"/>
-    <id>https://atjason.com/daily/2024-04-19.html</id>
-    <published>2024-04-19T14:00:00.000Z</published>
-    <updated>2024-04-21T13:09:03.435Z</updated>
-    
-    <content type="html"><![CDATA[<p>Air101，休眠唤醒后，会丢失时区信息，垃圾。反馈给官方后，对方不觉得是问题，无语。</p>
-<p>好在，目前可以软件绕过去：主动存储时区；每次开机后，再设置一次时区。</p>
-<p>国产芯片，底层基本功，还差得挺多。看着只是一个点，反映的是一个面。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Air101，休眠唤醒后，会丢失时区信息，垃圾。反馈给官方后，对方不觉得是问题，无语。&lt;/p&gt;
-&lt;p&gt;好在，目前可以软件绕过去：主动存储时区；每次开机后，再设置一次时区。&lt;/p&gt;
-&lt;p&gt;国产芯片，底层基本功，还差得挺多。看着只是一个点，反映的是一个面。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0418 - 看纸书</title>
-    <link href="https://atjason.com/daily/2024-04-18.html"/>
-    <id>https://atjason.com/daily/2024-04-18.html</id>
-    <published>2024-04-18T14:00:00.000Z</published>
-    <updated>2024-04-21T13:08:01.266Z</updated>
-    
-    <content type="html"><![CDATA[<p>突然发现，看了一天电子屏幕，晚上睡觉前，读点纸质书，是很舒服的事。</p>
-<p>按摩眼睛、学点东西，还避免了看手机到很晚影响休息。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;突然发现，看了一天电子屏幕，晚上睡觉前，读点纸质书，是很舒服的事。&lt;/p&gt;
-&lt;p&gt;按摩眼睛、学点东西，还避免了看手机到很晚影响休息。&lt;/p&gt;
-
     
     </summary>
     
