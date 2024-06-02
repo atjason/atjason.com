@@ -267,6 +267,169 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/524.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/524.html" itemprop="url">
+                  Netgear WNDR3800 WPS按钮切换LED灯
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-07-06T15:44:46+08:00">
+                2014-07-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/IT/" itemprop="url" rel="index">
+                    <span itemprop="name">IT</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Netgear WNDR3800前面板的灯看起来还是挺上档次的，不过放在客厅一直闪，总觉得晃眼，故而准备使用前面板的WPS按钮来控制LED灯的亮灭。</p>
+<h1 id="Shell脚本"><a href="#Shell脚本" class="headerlink" title="Shell脚本"></a>Shell脚本</h1><p>创建/root/led.sh脚本，内容如下：</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="comment"># const</span></div><div class="line">ENABLE=<span class="string">"enable"</span></div><div class="line">DISABLE=<span class="string">"disable"</span></div><div class="line">TOGGLE=<span class="string">"toggle"</span></div><div class="line"></div><div class="line"><span class="comment"># read parameter</span></div><div class="line">ope=</div><div class="line"><span class="keyword">while</span> <span class="built_in">getopts</span> <span class="string">"edt"</span> arg</div><div class="line"><span class="keyword">do</span></div><div class="line">        <span class="keyword">case</span> <span class="variable">$arg</span> <span class="keyword">in</span></div><div class="line">             e)</div><div class="line">                ope=<span class="variable">$ENABLE</span></div><div class="line">		;;</div><div class="line">             d)</div><div class="line">                ope=<span class="variable">$DISABLE</span></div><div class="line">                ;;</div><div class="line">             t)</div><div class="line">                ope=<span class="variable">$TOGGLE</span></div><div class="line">		;;</div><div class="line">             ?)</div><div class="line">            	<span class="built_in">echo</span> <span class="string">"unknown argument"</span></div><div class="line">        	<span class="built_in">exit</span> 1</div><div class="line">        	;;</div><div class="line">        <span class="keyword">esac</span></div><div class="line"><span class="keyword">done</span></div><div class="line"></div><div class="line"><span class="comment"># check operator</span></div><div class="line"><span class="keyword">if</span> [[ -z <span class="variable">$ope</span> ]]; <span class="keyword">then</span></div><div class="line">        <span class="built_in">echo</span> <span class="string">"Miss operator!"</span></div><div class="line">	<span class="built_in">exit</span> 1</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$TOGGLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># read current led status</span></div><div class="line">        cur_state=`swconfig dev rtl8366s port 1 get led`</div><div class="line">	</div><div class="line">	<span class="keyword">if</span> [ <span class="string">"<span class="variable">$cur_state</span>"</span> == <span class="string">"0"</span> ]; <span class="keyword">then</span></div><div class="line">		ope=<span class="variable">$ENABLE</span></div><div class="line">	<span class="keyword">else</span></div><div class="line">		ope=<span class="variable">$DISABLE</span></div><div class="line">	<span class="keyword">fi</span></div><div class="line"><span class="keyword">fi</span> </div><div class="line"></div><div class="line"></div><div class="line"><span class="comment"># check command</span></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$DISABLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># turn on power green led                                           </span></div><div class="line">        <span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:green\:power/brightness         </div><div class="line">        <span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:orange\:power/brightness	</div><div class="line"></div><div class="line">	<span class="comment"># turn off all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	swconfig dev rtl8366s port 1 <span class="built_in">set</span> led 0</div><div class="line">	swconfig dev rtl8366s port 2 <span class="built_in">set</span> led 0</div><div class="line">	</div><div class="line">	<span class="comment"># USB</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:green\:usb/brightness</div><div class="line"></div><div class="line">	<span class="comment"># 2.4GHz</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/ath9k-phy0/brightness</div><div class="line">	<span class="comment"># 5GHz</span></div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/ath9k-phy1/brightness</div><div class="line"><span class="keyword">fi</span></div><div class="line"></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$ope</span>"</span> == <span class="string">"<span class="variable">$ENABLE</span>"</span> ]; <span class="keyword">then</span></div><div class="line">	<span class="comment"># turn on power green led</span></div><div class="line">	<span class="built_in">echo</span> 128 &gt; /sys/class/leds/netgear\:green\:power/brightness</div><div class="line">	<span class="built_in">echo</span> 0 &gt; /sys/class/leds/netgear\:orange\:power/brightness</div><div class="line"></div><div class="line">	<span class="comment"># turn off all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	<span class="comment"># turn on all group 1 (i.e., green) and group 2 (i.e., orange) leds</span></div><div class="line">	swconfig dev rtl8366s port 1 <span class="built_in">set</span> led 6</div><div class="line">	swconfig dev rtl8366s port 2 <span class="built_in">set</span> led 9</div><div class="line">                      </div><div class="line">        <span class="comment"># USB                                            </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/netgear\:green\:usb/brightness  </div><div class="line">                                 </div><div class="line">        <span class="comment"># 2.4GHz                                                   </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/ath9k-phy0/brightness             </div><div class="line">        <span class="comment"># 5GHz                                                    </span></div><div class="line">        <span class="built_in">echo</span> 128 &gt; /sys/class/leds/ath9k-phy1/brightness </div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure>
+<p>目前这一脚本中控制全部LED灯：电源、2.4GHz、5GHz、USB、WAN、LAN</p>
+<p>测试脚本是否正常工作</p>
+<ul>
+<li>点亮LED灯 <code>/root/led.sh -e</code></li>
+<li>熄灭LED灯 <code>/root/led.sh -d</code></li>
+<li>切换LED灯 <code>/root/led.sh -t</code></li>
+</ul>
+<h1 id="接入按钮事件"><a href="#接入按钮事件" class="headerlink" title="接入按钮事件"></a>接入按钮事件</h1><p>在/etc/hotplug.d位置创建一个目录，名为button，然后在/etc/hotplug.d/button下创建名为01-radio-toggle的文件</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="meta">#!/bin/sh</span></div><div class="line"><span class="keyword">if</span> [ <span class="string">"<span class="variable">$BUTTON</span>"</span> = <span class="string">"wps"</span> ] &amp;&amp; [ <span class="string">"<span class="variable">$ACTION</span>"</span> = <span class="string">"pressed"</span> ]; <span class="keyword">then</span></div><div class="line">        ( sleep 1; /root/led.sh -t ) &amp;</div><div class="line"><span class="keyword">fi</span></div></pre></td></tr></table></figure>
+<p>测试：按下WPS按钮就可以切换前面板中的部分LED灯了</p>
+<h1 id="开机设置默认值"><a href="#开机设置默认值" class="headerlink" title="开机设置默认值"></a>开机设置默认值</h1><p>如果开机就希望LED灯熄灭，可以使用crontab：#crontab -e</p>
+<p>添加如下命令</p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># turn off led</span></div><div class="line">@reboot /root/led.sh <span class="_">-d</span></div></pre></td></tr></table></figure>
+<p>参考</p>
+<ul>
+<li><a href="http://wiki.openwrt.org/toh/netgear/wndr3700" target="_blank" rel="external">http://wiki.openwrt.org/toh/netgear/wndr3700</a></li>
+<li><a href="http://wiki.openwrt.org/doc/uci/system" target="_blank" rel="external">http://wiki.openwrt.org/doc/uci/system</a></li>
+<li><a href="http://blog.xieyc.com/how-to-setup-after-upgrading-netgear-wndr3700-to-openwrt/" target="_blank" rel="external">http://blog.xieyc.com/how-to-setup-after-upgrading-netgear-wndr3700-to-openwrt/</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/519.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -997,288 +1160,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/489.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/489.html" itemprop="url">
-                  蘑菇街分析
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2014-06-21T21:34:51+08:00">
-                2014-06-21
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/PM/" itemprop="url" rel="index">
-                    <span itemprop="name">PM</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="创始团队及公司"><a href="#创始团队及公司" class="headerlink" title="创始团队及公司"></a>创始团队及公司</h1><p>创始团队多数是从淘宝离职创业的</p>
-<p>CEO：陈琪（花名修罗），联合创始人</p>
-<ul>
-<li><p>2004年浙江大学毕业，陈琪就进入了淘宝，是淘宝UED（用户体验设计）的开创者，后作为产品经理负责多条淘宝核心产品线，并负责淘宝物流等多个新业务的拓</p>
-</li>
-<li><p>2010年，跟浙大的同窗魏一搏在家里开始创业，先后创办卷豆网和蘑菇街。为了创办蘑菇街，陈琪的代价是放弃了在淘宝的千万期权，然后跟魏一搏各自卖掉一套房子凑齐150万元，作为创业的启动资金</p>
-</li>
-</ul>
-<p>COO：魏一搏，联合创始人</p>
-<ul>
-<li>与CEO陈琪是大学同学，之前在中兴通讯就职</li>
-</ul>
-<p>CTO：岳旭强（花名孤独），联合创始人，商家平台负责人</p>
-<ul>
-<li>曾经是淘宝的首席架构师，超过7年的互联网及电商经验，是陈琪在淘宝相处6年以上的同事</li>
-</ul>
-<p>CMO：李研珠（花名腓腓）</p>
-<ul>
-<li><p>营销领域颇有名气的“胖胡斐”，也是陈琪在淘宝相处6年以上的同</p>
-</li>
-<li><p>2014年6月初因身体健康原因离职</p>
-</li>
-</ul>
-<p>产品经理：志平</p>
-<ul>
-<li>08年研究生毕业，曾在网易杭州研究院任职高级开发工程师，11年加入蘑菇街</li>
-</ul>
-<p>公关经理：徐达</p>
-<ul>
-<li>做过网站运营，曾在天下网商负责BD业务</li>
-</ul>
-<p>杭州卷瓜网络有限公司</p>
-<ul>
-<li><p>总部地点：杭州市西湖区天目山路135号玉泉大厦8</p>
-</li>
-<li><p>成立时间：2010年4月13</p>
-</li>
-<li><p>员工数：300人左右</p>
-</li>
-</ul>
-<p>经营逻辑：重科技，轻时尚</p>
-<p>团队由50%的工程师、30%的运营人员、20%的市场营销、行政、财务人员构成。表面上时尚前卫，骨子里是一家科技型公司，对科技迷恋。超过半数都是技术型人才，是一家依靠科技推动的企业。蘑菇街公关经理徐达用了一句话来概括蘑菇街运营的内在逻辑：“消费者有需求，需求必然产生可执行点，蘑菇街要做的就是在执行点上做出产品，用产品服务用户。”</p>
-<p>more</p>
-<h1 id="痛点：用户需求与现状"><a href="#痛点：用户需求与现状" class="headerlink" title="痛点：用户需求与现状"></a>痛点：用户需求与现状</h1><p>用户有两类：买家与卖家（文中意同商家）。在商品、在线商城越来越多的情况下，买家更难找到合适的商品，卖家更难将自己的商品呈现给买家，这就是日益严重的痛点，反过来讲，就是越来越突出的需求</p>
-<h1 id="产品与方案"><a href="#产品与方案" class="headerlink" title="产品与方案"></a>产品与方案</h1><p>蘑菇街的定位是女性购物入口，专注于时尚女性消费者。它集成SNS的社会化特征，让女性在分享的同时完成购物。公司的核心宗旨就是购物与社区的相互结合，为更多消费者提供更有效的购物决策建议</p>
-<p>现在商品与买家对接的方式主要还是搜索，但当商品数量确实很大时，这种获取商品的方式就不见得有效。类似的，Google对信息的搜索能力无可比拟，可是对好友的信息、明星的八卦这样的信息，Facebook、Twitter等其它的平台有合适的呈现与获取方式。因为，需要换种思路来考虑商品与买家的对接方式</p>
-<p>开始时，创始人极端地认为，所有的事情都是可以靠机器解决的，人的特征可以完全数据化。所以蘑菇街最初的模式就是通过复杂的算法来向女孩子推荐热门的品类，事实也证明了这套模式的有用性</p>
-<p>但后来遇到瓶颈。我们曾希望通过运算给这些姑娘的风格做个分类，可是女孩子变化很快，数据告诉你这个女孩子是职业女性，之前都是买套装，可是突然有一天她可能在哪里看到另一个女生穿着休闲也很漂亮，就会推翻之前的购买习惯，去买些休闲的衣服了。而且仅靠机器可以判断出过去流行的东西，却没有前瞻性。结论是人的干预还是有点用的，因此始引入买手做些推荐</p>
-<p>现在，蘑菇街把两者结合起来，用机器去放大人的作用。计划招募大量的买手，给予他们大数据的支持，然后按照数据表现自然上浮或者下沉</p>
-<p>另外的就是达人模式。比如，看比较会进行服饰搭配的如何穿衣服，从她们身上获得灵感，进而搜索同类产品，或者干脆在导购页面购买同款</p>
-<p>笔者：顾问模式</p>
-<p>依然以服饰为例，如果我不太懂得服装搭配，又想找到适合自己的衣服，怎么办呢？直接在商城里搜索恐怕不是好的办法，模仿达人又需要花大量时间。可以考虑的一种思路是，我请一位专门的穿衣顾问，他根据我的身材、对颜色款式的偏好、穿衣的场合等因素为我量身打造穿衣建议，甚至直接推荐购买链接。</p>
-<p>注意，这里有个核心是，顾问最重要的价值是提供专业性的建议，最好不要和他推荐的商家有利益上的分配。如果有，也可以，但也应该让买家得到实惠而实现多赢，比如，可以以更低的价格从顾问合作的商家买到商品</p>
-<p>题外话：顾问模式在国内并不流行，有多方面的因素，比如缺乏信用体系，用户首先担心的便是顾问和商家联合起来骗钱；再者，国人特有的“关系”思维，凡事找关系，碰到自己不擅长的首先想到的也是找关系，而不是想着花钱请专业的人来帮忙</p>
-<h1 id="产品简史"><a href="#产品简史" class="headerlink" title="产品简史"></a>产品简史</h1><ul>
-<li><p>2011年2月14日，蘑菇街网站于情人节上</p>
-</li>
-<li><p>2011年7月和8月，分别推出移动端iPhone版本和Android版</p>
-</li>
-<li><p>2011年年底，获得了贝塔斯曼、肇信资本、启明创投的两轮逾千万美元投</p>
-</li>
-<li><p>2012年2月，在一年时间内，注册用户达到600万，日均活跃人数超过160万，日均PV在7000万以</p>
-</li>
-<li><p>2012年4月，发布ipad版本、WinPhone版</p>
-</li>
-<li><p>2012年10月，完成C融资，总估值超过2亿美</p>
-</li>
-<li><p>2012年底，美妆频道上</p>
-</li>
-<li><p>2013年8月，海外代购平台上线，第一站是韩国代</p>
-</li>
-<li><p>2013年9月，正式上线开放平台，面向外部商家提供联合登录、商品推送、API调用等功</p>
-</li>
-<li><p>2014年6月，获D轮超过2亿美元的融资，投后估值10亿美元</p>
-</li>
-</ul>
-<h1 id="市场环境与竞争对手"><a href="#市场环境与竞争对手" class="headerlink" title="市场环境与竞争对手"></a>市场环境与竞争对手</h1><p>起家：蘑菇街最初一个背靠所有交易平台的导购平台，淘宝、当当、拍拍，京东都是它的靠山。从微博手里获得流量，从淘宝手里赚得佣金。</p>
-<p>当蘑菇街们的流量大到一定程度时（据说达到淘宝总流量的十分之一），最致命的就是影响到淘宝对商家的广告收入。商家总是趋利的，当他们发现淘宝之外有广告投放价格更低、转化率更高的平台时，自然会减少对淘宝本身平台的广告投放，这就触碰到淘宝的底线，进而招来从导入到支付的全线封杀</p>
-<p>对此，蘑菇街们的应付方式也非常一致：自建商城（当然，蘑菇街们官方声明都类似于出于自身发展的长期考虑而转型、升级）。但这就意味着要自建一切商城所必需的基础设施，比如更复杂的资金流管理、更多的买家投诉、更大的运营风险、等等。另一方面，也更重要的是，自建商城就意味着要与淘宝、天猫、京东等已有的在线商城直接竞争，如何找出差异化竞争优势，就是蘑菇街们必要要慎重考虑的事</p>
-<p>那蘑菇街们的优势在哪里？</p>
-<p>起初，蘑菇街仅仅是导购网站，典型的直接竞争对手是美丽说（蘑菇街和美丽说简单是异卵双生的双胞胎）</p>
-<p>后来，自建商城。从引流到淘宝等商城获取分成，到引流到自家商城的商家，蘑菇街及同类产品最核心的竞争力依然是导购，而不是更低的价格、更高的品质、更快的物流、更方便的退换货等等其他方面。蘑菇街们有自己不同的商品呈现方式，进而培养出一批高粘性的用户，这是他们面对已有的在线商城竞争时最重要的底牌</p>
-<h1 id="赢利模式"><a href="#赢利模式" class="headerlink" title="赢利模式"></a>赢利模式</h1><p>稍微发散点讲，现在虽然有各式各样的互联网公司，可是主要赢利模式也就那么几种</p>
-<ul>
-<li><p>广告：如在新浪门户看到的各类广告、百度的竞价排名</p>
-</li>
-<li><p>虚拟销售：如腾讯的Q币、盛大的游戏点卡、APP Store手机应用收入</p>
-</li>
-<li><p>实体电子商务：淘宝、京东等网上商城、各类团购网站的实体商品、服务销售</p>
-</li>
-</ul>
-<p>而其中最重要的是广告，主要以如下模式：</p>
-<p>CPM (Cost Per 1,000 Impressions)</p>
-<ul>
-<li><p>按照千人浏览成本付费，假设1000个用户浏览广告，广告主需付出的成本为1元，按照淘宝首页日均6000万的UV，则每天广告成本6万</p>
-</li>
-<li><p>典型代表：新浪、网易门户广告、QQ面板广告</p>
-</li>
-<li><p>CPM的广告往往不精准，用户是否有效浏览以及用户是否感兴趣都无法统计，传统的电视广告、媒体广告、户外广告也都是CPM的模式：所以才有一句经典的名言：“99%的广告成本都是被浪费的”</p>
-</li>
-</ul>
-<p>CPC (Cost Per Click)</p>
-<ul>
-<li><p>按用户的点击次数付费，广告展示不用付费，只有用户对广告感兴趣产生了点击，商户才会承担成</p>
-</li>
-<li><p>典型代表：淘宝直通车、百度的关键词搜索列表、Google的AdSense等</p>
-</li>
-</ul>
-<p>CPS (Cost Per Sale)</p>
-<ul>
-<li><p>按成交订单付费，用户看到了、点击了商品，广告主都不用付费，只有产生了实际的订单商户才会承担广告成本，按效果付费，这是商户最愿意接受的模</p>
-</li>
-<li><p>典型代表：QQ返利、易购、淘宝客等，蘑菇街们等导购网站也是CPS模式</p>
-</li>
-</ul>
-<p>蘑菇街开始时将自己定位为一家导购网站。陈琪给自己员工设定的KPI考核中，最重要的考核指标就是转化率，一是每100个人中有多少人找到了对应的商品，二是每100个人中有多少人达成了交易。战略大方向上将是促成交易、收取佣金。</p>
-<p>目前的定位：蘑菇街不是目的地，而是出发地。希望姑娘们闲着没事干，就可以上来刷刷图，了解当下流行元素，学学衣服搭配。不一定要买什么，但把蘑菇街当出发地，就有很多可能性和机会</p>
-<h1 id="运维与推广"><a href="#运维与推广" class="headerlink" title="运维与推广"></a>运维与推广</h1><p>目前的成绩单：2011年2月14日蘑菇街上线，截至2014年5月，发展三年半的时间内，蘑菇街已经拥有了超过6900万的注册会员，每天为超过550万的女性消费者提供购物决策建议</p>
-<p>蘑菇街用户99%集中在20～26岁的一二线城市女性，客单价120元左右，退货率不到5%，复购率超过50%。</p>
-<p>蘑菇街从导购平台转型为社会化电商平台后，2013年11月开始，仅仅两个月，就交出了单月1.2亿元的成绩单，2014年将冲击30亿元的年度目标</p>
-<h1 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h1><ul>
-<li><p>[<a href="http://www.mogujie.com/](http://www.mogujie.com/" target="_blank" rel="external">http://www.mogujie.com/](http://www.mogujie.com/</a></p>
-</li>
-<li><p>[<a href="http://itjuzi.com/company/2](http://itjuzi.com/company/2" target="_blank" rel="external">http://itjuzi.com/company/2](http://itjuzi.com/company/2</a></p>
-</li>
-<li><p>[<a href="http://tech.sina.com.cn/i/2014-06-09/02149424695.shtml](http://tech.sina.com.cn/i/2014-06-09/02149424695.shtml" target="_blank" rel="external">http://tech.sina.com.cn/i/2014-06-09/02149424695.shtml](http://tech.sina.com.cn/i/2014-06-09/02149424695.shtml</a></p>
-</li>
-<li><p>[<a href="http://zixun.3158.cn/20120330/n506333680139090.html](http://zixun.3158.cn/20120330/n506333680139090.html" target="_blank" rel="external">http://zixun.3158.cn/20120330/n506333680139090.html](http://zixun.3158.cn/20120330/n506333680139090.html</a></p>
-</li>
-<li><p>[<a href="http://baike.baidu.com/view/5255837.htm](http://baike.baidu.com/view/5255837.htm" target="_blank" rel="external">http://baike.baidu.com/view/5255837.htm](http://baike.baidu.com/view/5255837.htm</a></p>
-</li>
-<li><p>[<a href="http://www.zhihu.com/question/19567268](http://www.zhihu.com/question/19567268" target="_blank" rel="external">http://www.zhihu.com/question/19567268](http://www.zhihu.com/question/19567268</a></p>
-</li>
-<li><p><a href="http://www.woshipm.com/discuss/40805.html" target="_blank" rel="external">http://www.woshipm.com/discuss/40805.html</a></p>
-</li>
-</ul>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/588/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/588/">588</a><span class="page-number current">589</span><a class="page-number" href="/page/590/">590</a><span class="space">&hellip;</span><a class="page-number" href="/page/602/">602</a><a class="extend next" rel="next" href="/page/590/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/588/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/588/">588</a><span class="page-number current">589</span><a class="page-number" href="/page/590/">590</a><span class="space">&hellip;</span><a class="page-number" href="/page/603/">603</a><a class="extend next" rel="next" href="/page/590/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1323,7 +1209,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">3010</span>
+                <span class="site-state-item-count">3011</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

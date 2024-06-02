@@ -267,6 +267,156 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-13.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jason">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jason">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/daily/2020-02-13.html" itemprop="url">
+                  0213 - 「说字」小程序
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-13T22:00:00+08:00">
+                2020-02-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
+                    <span itemprop="name">每天写一点</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>今天没忍住，准备接着「视字」，再搞一个「说字」小程序。</p>
+<p>所谓「说字」，就是边说话、边识别文字，就和微信里的按住说话一样。说实话，这东西有什么商用价值呢？不是有很多类似的产品了吗？恩，是这样的，不过我还是没忍住不是。今天是周四，计划 3 天、也即周日前完成发布上线，下周一推广一天，完事。</p>
+<p>首先，自然是技术可行性研究。</p>
+<p>先看微信小程序接口方面，提供了边录音边提供音频数据的能力，基本可行。</p>
+<p>然后就是研究提供实时语音识别的服务。先是看了搜狗，因为「视字」里就是用的搜狗，且搜狗的语音识别使用的是 WebSocket 技术，看起来很厉害的样子。实际测试下来，感觉不管我怎么修改参数，长时间的音频，只能返回第一次发送的数据。最后发现是数据分割出了问题。证明可行。<br>不过有个限制，一次最多一分钟，还不确定能不能通过多次请求了来实现长时间的识别。<br>另外还有个可能的问题，就是是否兼容微信录音产生的音频格式，有待验证。</p>
+<p>然后看了讯飞的接口，恩，太贵了…</p>
+<p>然后看了腾讯 AI 的语音识别，基本已经完成集成，目测中间结果、最终识别结果略优于搜狗，单次最长 90s，看起来是比较好的选择。不过，也有坑，就是腾讯 AI 服务器很频繁地出现 502 错误，应该是服务器资源不足。这对于实时性要求很高的即时翻译，是比较要命。而且，微信小程序对于网络请求的频率，估计也是有限制的。</p>
+<p>另外，百度的语音识别需要申请。已经申请了，等待结果。</p>
+<p>目前还没有非常适合的服务，明天再想想，再看看阿里云的情况。</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-12.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -848,158 +998,11 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2020-02-08.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Jason">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://ps.toolinbox.net/ezw8l.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Jason">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/daily/2020-02-08.html" itemprop="url">
-                  0208 - 「视字」上线
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-02-08T22:00:00+08:00">
-                2020-02-08
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/每天写一点/" itemprop="url" rel="index">
-                    <span itemprop="name">每天写一点</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>折腾了差不多一周，「<strong>视字</strong>」小程序上线了。</p>
-<p><img src="https://ps.toolinbox.net/2m0o8.png" width="200px"></p>
-<p>用法很简单：选择视频，等待，即可识别出视频中的文字。</p>
-<p><img src="https://tva1.sinaimg.cn/large/0082zybply1gbpf7wv843g30880hshdu.gif" alt=""></p>
-<p>欢迎扫码一试，也请帮忙介绍给周围需要的朋友。</p>
-<p>使用过程中遇到任何问题，可以点击应用底部的「反馈」，我这个小客服会很负责的哦~</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/279/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/279/">279</a><span class="page-number current">280</span><a class="page-number" href="/page/281/">281</a><span class="space">&hellip;</span><a class="page-number" href="/page/602/">602</a><a class="extend next" rel="next" href="/page/281/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/279/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/279/">279</a><span class="page-number current">280</span><a class="page-number" href="/page/281/">281</a><span class="space">&hellip;</span><a class="page-number" href="/page/603/">603</a><a class="extend next" rel="next" href="/page/281/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1044,7 +1047,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">3010</span>
+                <span class="site-state-item-count">3011</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>

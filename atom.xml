@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-05-26T14:06:04.758Z</updated>
+  <updated>2024-06-02T13:27:46.845Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0601 - 几个东亚的指数期货</title>
+    <link href="https://atjason.com/daily/2024-06-01.html"/>
+    <id>https://atjason.com/daily/2024-06-01.html</id>
+    <published>2024-06-01T14:00:00.000Z</published>
+    <updated>2024-06-02T13:27:46.845Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前交易美指期货，最大的问题是时差。尤其冬天，晚上 10:30 才开盘，着实抗不住。</p>
+<p>于是，想找几个东西的股指期货试试，时区友好。</p>
+<ul>
+<li><p>小型恒生指数期货 MSI</p>
+<ul>
+<li>保证金约 $2000，实际杠杆约 11 倍，买卖佣金各 17HKD</li>
+</ul>
+</li>
+<li><p>日经225，NKD，芝加哥，美元计价</p>
+<ul>
+<li>保证金约 $15000，实际杠杆约 13 倍，买卖佣金各 3.02美元</li>
+</ul>
+</li>
+<li><p>日经225，SGXNK，新加坡，日元计价</p>
+<ul>
+<li>保证金约 $6600，实际杠杆约 18 倍，买卖佣金各 225JPY</li>
+</ul>
+</li>
+<li><p>日经225迷你合约，N225M，东京日元计价</p>
+<ul>
+<li>保证金约 $1730，实际杠杆约 14 倍；买卖佣金各 40JPY</li>
+</ul>
+</li>
+</ul>
+<p>目前来看，最后一个 N225M 合约，适合作为新手练习。</p>
+<p>主要的问题是，是以日元计价，而日元贬值太快，今年日元对美元已经贬值 12%了。可能一年到头，赚的还没贬值的多…只有 NKD 是以美元计价，只是合约价值较大，不适合新手练习。另外，日元换美元，也有汇率损失和手续费。</p>
+<p>先试一段时间再说吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前交易美指期货，最大的问题是时差。尤其冬天，晚上 10:30 才开盘，着实抗不住。&lt;/p&gt;
+&lt;p&gt;于是，想找几个东西的股指期货试试，时区友好。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;小型恒生指数期货 MSI&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;保证金约 $2000，实际杠杆约 11 倍，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0521 - 学习 Al Brooks</title>
@@ -52,7 +104,7 @@
     <link href="https://atjason.com/daily/2024-05-20.html"/>
     <id>https://atjason.com/daily/2024-05-20.html</id>
     <published>2024-05-20T14:00:00.000Z</published>
-    <updated>2024-05-26T14:04:03.968Z</updated>
+    <updated>2024-05-26T14:07:43.669Z</updated>
     
     <content type="html"><![CDATA[<p>很简单：</p>
 <ul>
@@ -569,35 +621,6 @@
 &lt;p&gt;这很好，这才是好的教育。&lt;/p&gt;
 &lt;p&gt;如果孩子眼里没有光，那就让他有。&lt;/p&gt;
 &lt;p&gt;如果做不到，就先提高
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0420 - 反思补短板教育</title>
-    <link href="https://atjason.com/daily/2024-04-20.html"/>
-    <id>https://atjason.com/daily/2024-04-20.html</id>
-    <published>2024-04-20T14:00:00.000Z</published>
-    <updated>2024-04-21T13:09:46.557Z</updated>
-    
-    <content type="html"><![CDATA[<p>现在的学校，是补短板教育。典型的，就是【错题集】。啥意思，错题就是你的短板；不能有短板，你得把错题学会。</p>
-<p>换个角度看，那些做对的题，孩子是怎么做出来的，有没有用什么巧妙的思维，并没有被关注到（昨天娃做题的一个思路，惊到我了）。</p>
-<p>到底是发挥特长，把某方面的能力锻炼到极致；还是木桶教育，各方面都均衡，难有定论。</p>
-<p>学校是集体教育、通识教育，一定是木桶教学。要不要强化特长，就要靠家长和孩子自己了。</p>
-<p>并且，不同阶段侧重不同。小的时候，还是要注重通识教育，不能有明显短板。慢慢的，涌现出特长，再针对性训练。</p>
-<p>特别是，AI 已来。基础的知识、分析、预测，越来越不需要人做。而人要做的，是发现并提出问题、审视 AI 给出的方案并决策。在这个大背景下，教育也要相应调整。</p>
-<p>你的娃接触 AI 了吗？甚至，你会用 AI 了吗？</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;现在的学校，是补短板教育。典型的，就是【错题集】。啥意思，错题就是你的短板；不能有短板，你得把错题学会。&lt;/p&gt;
-&lt;p&gt;换个角度看，那些做对的题，孩子是怎么做出来的，有没有用什么巧妙的思维，并没有被关注到（昨天娃做题的一个思路，惊到我了）。&lt;/p&gt;
-&lt;p&gt;到底是发挥特长，把
     
     </summary>
     
