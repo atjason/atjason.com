@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-07-21T14:56:14.468Z</updated>
+  <updated>2024-07-28T14:27:12.004Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,88 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0724 - 交易并不是线性的</title>
+    <link href="https://atjason.com/daily/2024-07-24.html"/>
+    <id>https://atjason.com/daily/2024-07-24.html</id>
+    <published>2024-07-24T14:00:00.000Z</published>
+    <updated>2024-07-28T14:27:12.004Z</updated>
+    
+    <content type="html"><![CDATA[<p>交易并不是线性的，而是一波一波的。一旦一波没抓住，对盈亏结果影响很大。</p>
+<p>日常交易是平淡的；在长期平淡的交易中，能保证最终盈利，并不容易。</p>
+<p>而一旦能抓住大的波动，收益巨大。日常平淡的交易中，可以少交易，甚至不交易也可以，还能节约、释放时间。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;交易并不是线性的，而是一波一波的。一旦一波没抓住，对盈亏结果影响很大。&lt;/p&gt;
+&lt;p&gt;日常交易是平淡的；在长期平淡的交易中，能保证最终盈利，并不容易。&lt;/p&gt;
+&lt;p&gt;而一旦能抓住大的波动，收益巨大。日常平淡的交易中，可以少交易，甚至不交易也可以，还能节约、释放时间。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0723 - 开发小米手环 App</title>
+    <link href="https://atjason.com/daily/2024-07-23.html"/>
+    <id>https://atjason.com/daily/2024-07-23.html</id>
+    <published>2024-07-23T14:00:00.000Z</published>
+    <updated>2024-07-28T14:26:52.302Z</updated>
+    
+    <content type="html"><![CDATA[<p>花了点时间，研究开发小米手环 App，主要还是因为自己一个需求。</p>
+<p>发现小米手环 7，用的是华米的 Zepp OS；后来小米和华米崩了之后，从 8 开始，用的是 Vela 系统。</p>
+<p>我先是研究了 Vela 系统，感觉开发还挺便利。发现不同后，由于我的手环是 7，就又研究了 Zepp OS，发现它的开发明显不如 Vela 友好，我甚至折腾半天都无法运行模拟器。再加上华米的发展不顺利，会直接影响在开发上的投入，比如开发文档已经快一年没更新了，模拟器无法运行问题，估计也没什么资源投入去修复。</p>
+<p>算了，不想在这上面太花时间，还是拥抱更容易开发、且后续发展有保障的 Vela 吧，就下单了刚发布的小米手环 9…主要是正好现在的 7 有莫名其妙的问题，比如倒计时中途停止、早上闹钟不响，待机时间也明显变短。</p>
+<p>收到小米手环 9 后，折腾了一下，可以安装程序到手环，这感觉很棒！</p>
+<p>可惜，手机息屏后，倒计时就不工作了，再研究下。</p>
+<p>研究后发现，即使使用 Vela 的后台功能，也不能保证运行。倒是可以使屏幕常亮来保持小程序运行，但手盖在屏幕上就息屏了，不可靠。</p>
+<p>回过头来看，Zepp OS 倒是支持无 UI 模式运行，并支持以通知的形式提醒，伴随震动。这倒是符合要求。但是，貌似并不支持小米手环 7。哎，二等公民。</p>
+<p>算了，先不折腾了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;花了点时间，研究开发小米手环 App，主要还是因为自己一个需求。&lt;/p&gt;
+&lt;p&gt;发现小米手环 7，用的是华米的 Zepp OS；后来小米和华米崩了之后，从 8 开始，用的是 Vela 系统。&lt;/p&gt;
+&lt;p&gt;我先是研究了 Vela 系统，感觉开发还挺便利。发现不同后，由于我的
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0722 - 延迟退休</title>
+    <link href="https://atjason.com/daily/2024-07-22.html"/>
+    <id>https://atjason.com/daily/2024-07-22.html</id>
+    <published>2024-07-22T14:00:00.000Z</published>
+    <updated>2024-07-28T14:24:34.533Z</updated>
+    
+    <content type="html"><![CDATA[<p>延迟退休，并不是工作到 65（到时哪有单位要这么大的工人；50 岁，保安、保姆都当不上），而是延迟到 65 才开始领退休金。</p>
+<p>一边是失业潮，一边强制让上班；年轻人没工作、不交保险，拿什么钱给老人发呢。</p>
+<p>所以，事实上是，年纪大的、工资高的，慢慢被辞退，没工作、还不到领钱的年纪；同时，工作机会让给便宜的年轻人。</p>
+<p>经济未来相当长时间都不会太好，做好心理和实际准备吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;延迟退休，并不是工作到 65（到时哪有单位要这么大的工人；50 岁，保安、保姆都当不上），而是延迟到 65 才开始领退休金。&lt;/p&gt;
+&lt;p&gt;一边是失业潮，一边强制让上班；年轻人没工作、不交保险，拿什么钱给老人发呢。&lt;/p&gt;
+&lt;p&gt;所以，事实上是，年纪大的、工资高的，慢慢被辞
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0720 - 雷军 2024 发布会</title>
@@ -495,105 +577,6 @@
 &lt;li&gt;&lt;p&gt;小型恒生指数期货 MSI&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;保证金约 $2000，实际杠杆约 11 倍，
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0521 - 学习 Al Brooks</title>
-    <link href="https://atjason.com/daily/2024-05-21.html"/>
-    <id>https://atjason.com/daily/2024-05-21.html</id>
-    <published>2024-05-21T14:00:00.000Z</published>
-    <updated>2024-05-26T14:06:04.758Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近在学 Al Brooks；每次看视频，都会在细节处有收获，真开心。</p>
-<p>因为 Al Brooks 是实战派，而他说的很多细节，和自己交易过程很相似，能解决自己在细节处的一些困或，带来大的喜悦。</p>
-<p>比如今天有两个点：</p>
-<ul>
-<li>Bull Trend 中的 Reversal 不一定是 Bull Bar，有长下影线的 Bear Bar 也是可以的。</li>
-<li>甚至，哪怕没有下影线，如果能反向突破，也能构成一次反转。</li>
-</ul>
-<p><img src="https://p.nuli.life/blog/pp6z5n.png" alt=""><br><img src="https://p.nuli.life/blog/1hvyh3.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近在学 Al Brooks；每次看视频，都会在细节处有收获，真开心。&lt;/p&gt;
-&lt;p&gt;因为 Al Brooks 是实战派，而他说的很多细节，和自己交易过程很相似，能解决自己在细节处的一些困或，带来大的喜悦。&lt;/p&gt;
-&lt;p&gt;比如今天有两个点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Bul
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0520 - 交易就是：该干啥干啥</title>
-    <link href="https://atjason.com/daily/2024-05-20.html"/>
-    <id>https://atjason.com/daily/2024-05-20.html</id>
-    <published>2024-05-20T14:00:00.000Z</published>
-    <updated>2024-05-26T14:07:43.669Z</updated>
-    
-    <content type="html"><![CDATA[<p>很简单：</p>
-<ul>
-<li>没信号时，等信号</li>
-<li>信号来了，按规则操作</li>
-</ul>
-<p>反过来</p>
-<ul>
-<li>还没自己的规则、偏好的信号？去学习练习</li>
-<li>没信号时，不要自己编理由硬上</li>
-<li>持仓不要瞎操作；管不住手，就用条件单代替盯盘</li>
-<li>不要那么多感情，什么赢了怎么花、不敢开仓、不想止损…别给自己加那么多戏，你丫就一龙套，别拿自己当角</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;很简单：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;没信号时，等信号&lt;/li&gt;
-&lt;li&gt;信号来了，按规则操作&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;反过来&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;还没自己的规则、偏好的信号？去学习练习&lt;/li&gt;
-&lt;li&gt;没信号时，不要自己编理由硬上&lt;/li&gt;
-&lt;li&gt;持仓不要瞎操
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0516 - 水为什么便宜</title>
-    <link href="https://atjason.com/daily/2024-05-16.html"/>
-    <id>https://atjason.com/daily/2024-05-16.html</id>
-    <published>2024-05-16T14:00:00.000Z</published>
-    <updated>2024-05-19T12:58:37.805Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天娃问了一个非常高级的问题：为什么水对人那么重要，却那么便宜，而房子相对没那么重要，却那么贵？</p>
-<p>真的是非常好的问题，我对此感到很惊喜。</p>
-<p>我让他自己说话问 OpenAI 4o，对方语音回答了这个问题。当然，他表达得不够清晰，最后是我替他提问的。</p>
-<p>好的问题，再加上好的老师，真棒。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天娃问了一个非常高级的问题：为什么水对人那么重要，却那么便宜，而房子相对没那么重要，却那么贵？&lt;/p&gt;
-&lt;p&gt;真的是非常好的问题，我对此感到很惊喜。&lt;/p&gt;
-&lt;p&gt;我让他自己说话问 OpenAI 4o，对方语音回答了这个问题。当然，他表达得不够清晰，最后是我替他提问的。&lt;
     
     </summary>
     
