@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-08-04T13:53:15.992Z</updated>
+  <updated>2024-08-11T12:24:58.398Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0805 - iText 小优化</title>
+    <link href="https://atjason.com/daily/2024-08-05.html"/>
+    <id>https://atjason.com/daily/2024-08-05.html</id>
+    <published>2024-08-05T14:00:00.000Z</published>
+    <updated>2024-08-11T12:24:58.398Z</updated>
+    
+    <content type="html"><![CDATA[<p>一大早更新了 iText，一个小改动：自动排版时，替换中文右引号”。</p>
+<p>其实，是之前没做好。至于说什么这么明显的问题没做好，就有点奇怪了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一大早更新了 iText，一个小改动：自动排版时，替换中文右引号”。&lt;/p&gt;
+&lt;p&gt;其实，是之前没做好。至于说什么这么明显的问题没做好，就有点奇怪了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0802 - 坚决</title>
@@ -519,40 +543,6 @@
       &lt;p&gt;老人越来越多，生娃越来越少。&lt;/p&gt;
 &lt;p&gt;那把幼儿园改成养老院吧，一举两得。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0702 - 运动员只做五件事</title>
-    <link href="https://atjason.com/daily/2024-07-02.html"/>
-    <id>https://atjason.com/daily/2024-07-02.html</id>
-    <published>2024-07-02T14:00:00.000Z</published>
-    <updated>2024-07-07T13:01:11.579Z</updated>
-    
-    <content type="html"><![CDATA[<p>运动员只做五件事</p>
-<ol>
-<li>了解自己，包括自己的天赋、身体素质和在专业领域所处的位置。</li>
-<li>一定要找到一个好的教练、榜样、指导者。</li>
-<li>都有艰苦卓绝的训练计划。</li>
-<li>永远对标对手，观察对手，寻求超越。</li>
-<li>永远筹备下一次比赛，永远争取下一个赛点。</li>
-</ol>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;运动员只做五件事&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;了解自己，包括自己的天赋、身体素质和在专业领域所处的位置。&lt;/li&gt;
-&lt;li&gt;一定要找到一个好的教练、榜样、指导者。&lt;/li&gt;
-&lt;li&gt;都有艰苦卓绝的训练计划。&lt;/li&gt;
-&lt;li&gt;永远对标对手，观察对手，寻求超越。&lt;/li&gt;
-&lt;l
     
     </summary>
     
