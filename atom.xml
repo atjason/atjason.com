@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-10-27T13:14:29.947Z</updated>
+  <updated>2024-11-03T15:04:00.601Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,113 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1031 - 两个娃的不同</title>
+    <link href="https://atjason.com/daily/2024-10-31.html"/>
+    <id>https://atjason.com/daily/2024-10-31.html</id>
+    <published>2024-10-31T14:00:00.000Z</published>
+    <updated>2024-11-03T15:04:00.601Z</updated>
+    
+    <content type="html"><![CDATA[<p>养着养着，会发现两个娃有挺大的不同。</p>
+<p>比如，现在用代币来激励他们正向行为，比如跳绳 180 一个币。用币可以兑换，比如去海边玩。对于辛辛苦苦得到的币，大的就比较守财、舍不得花，小的就比较大方，有的花就花。</p>
+<p>写到这里，去看了下，他们头挨着头睡，还挺温馨的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;养着养着，会发现两个娃有挺大的不同。&lt;/p&gt;
+&lt;p&gt;比如，现在用代币来激励他们正向行为，比如跳绳 180 一个币。用币可以兑换，比如去海边玩。对于辛辛苦苦得到的币，大的就比较守财、舍不得花，小的就比较大方，有的花就花。&lt;/p&gt;
+&lt;p&gt;写到这里，去看了下，他们头挨着头睡，还挺
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1030 - 重启「图床神器」小程序</title>
+    <link href="https://atjason.com/daily/2024-10-30.html"/>
+    <id>https://atjason.com/daily/2024-10-30.html</id>
+    <published>2024-10-30T14:00:00.000Z</published>
+    <updated>2024-11-03T15:02:31.013Z</updated>
+    
+    <content type="html"><![CDATA[<p>「图床神器」之前使用的是微博图床。之前微博限制后，我也没再修复，就那么坏的放着。</p>
+<p>最近又看了下，发现已经流失了 20 万用户，真是可惜啊。</p>
+<p>打算重启这个小程序。买了个图床，接入图床神器小程序。折腾了半天，发布了好几版。当天就上传了上百张图片，开心。</p>
+<p>果然，软件还是能让我兴奋，我还是喜欢做工具软件。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;「图床神器」之前使用的是微博图床。之前微博限制后，我也没再修复，就那么坏的放着。&lt;/p&gt;
+&lt;p&gt;最近又看了下，发现已经流失了 20 万用户，真是可惜啊。&lt;/p&gt;
+&lt;p&gt;打算重启这个小程序。买了个图床，接入图床神器小程序。折腾了半天，发布了好几版。当天就上传了上百张图片，开心
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1029 - 互联网免费不再</title>
+    <link href="https://atjason.com/daily/2024-10-29.html"/>
+    <id>https://atjason.com/daily/2024-10-29.html</id>
+    <published>2024-10-29T14:00:00.000Z</published>
+    <updated>2024-11-03T14:59:24.500Z</updated>
+    
+    <content type="html"><![CDATA[<p>之前做了在 Kindle 上显示时间，其中调用一个 API 获取准确的时间戳。最近发现，之前的 API 死掉了。</p>
+<p>在网上一通找，发现竟然找不到免费的获取时间的 API，这可把我惊讶坏了。虽然有淘宝等非公开的 API，但有 origin 等限制。</p>
+<p>这可只是获取时间戳这样一个简单的服务，之前肯定是有的。</p>
+<p>哎，曾经那种朝气蓬勃时代，一去不复返了。</p>
+<p>一怒之下，用 Cloudflare Workers 自己创建了一个: <a href="https://tool.1g1.top/timestamp" target="_blank" rel="external">https://tool.1g1.top/timestamp</a></p>
+<p>Cloudflare 真是赛博菩萨啊。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前做了在 Kindle 上显示时间，其中调用一个 API 获取准确的时间戳。最近发现，之前的 API 死掉了。&lt;/p&gt;
+&lt;p&gt;在网上一通找，发现竟然找不到免费的获取时间的 API，这可把我惊讶坏了。虽然有淘宝等非公开的 API，但有 origin 等限制。&lt;/p&gt;
+&lt;p&gt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1028 - 短剧收入和电影票房差不多</title>
+    <link href="https://atjason.com/daily/2024-10-28.html"/>
+    <id>https://atjason.com/daily/2024-10-28.html</id>
+    <published>2024-10-28T14:00:00.000Z</published>
+    <updated>2024-11-03T14:58:21.549Z</updated>
+    
+    <content type="html"><![CDATA[<p>预计，2024年短剧市场规模将超 500亿。</p>
+<p>2023年，中国电影票房总收入 500亿。</p>
+<p>或许，未来走红毯的，不是一线，是网大。</p>
+<p>想想挺吓人的。短剧用这么短的时间，就追上了百年电影。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;预计，2024年短剧市场规模将超 500亿。&lt;/p&gt;
+&lt;p&gt;2023年，中国电影票房总收入 500亿。&lt;/p&gt;
+&lt;p&gt;或许，未来走红毯的，不是一线，是网大。&lt;/p&gt;
+&lt;p&gt;想想挺吓人的。短剧用这么短的时间，就追上了百年电影。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title></title>
@@ -451,118 +558,6 @@
 &lt;li&gt;如果种地能赚钱，农民将无地可种。&lt;/li&gt;
 &lt;/ul&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1003 - 积分币激励</title>
-    <link href="https://atjason.com/daily/2024-10-03.html"/>
-    <id>https://atjason.com/daily/2024-10-03.html</id>
-    <published>2024-10-03T14:00:00.000Z</published>
-    <updated>2024-10-06T13:37:43.299Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近尝试使用积分币激励孩子。</p>
-<p>比如，跳绳 180 以上一个币、每天练字一个币。</p>
-<p>有了币，可以用来兑换，比如 5 个币买一本他喜欢的书、气枪打气球。</p>
-<p>孩子们很积极，至少眼下多做了很多事。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近尝试使用积分币激励孩子。&lt;/p&gt;
-&lt;p&gt;比如，跳绳 180 以上一个币、每天练字一个币。&lt;/p&gt;
-&lt;p&gt;有了币，可以用来兑换，比如 5 个币买一本他喜欢的书、气枪打气球。&lt;/p&gt;
-&lt;p&gt;孩子们很积极，至少眼下多做了很多事。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1002 - 商场经济不太行</title>
-    <link href="https://atjason.com/daily/2024-10-02.html"/>
-    <id>https://atjason.com/daily/2024-10-02.html</id>
-    <published>2024-10-02T14:00:00.000Z</published>
-    <updated>2024-10-06T13:36:17.965Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天去杭州的一个地方，看到地铁上有个商场，想进去上个厕所，发现商场已经关门了…这可是地铁口上…</p>
-<p>上个月去临安，中午打车去万达吃饭，到了发现：商场倒闭关门…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天去杭州的一个地方，看到地铁上有个商场，想进去上个厕所，发现商场已经关门了…这可是地铁口上…&lt;/p&gt;
-&lt;p&gt;上个月去临安，中午打车去万达吃饭，到了发现：商场倒闭关门…&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1001 - 优化 K 线回测工具</title>
-    <link href="https://atjason.com/daily/2024-10-01.html"/>
-    <id>https://atjason.com/daily/2024-10-01.html</id>
-    <published>2024-10-01T14:00:00.000Z</published>
-    <updated>2024-10-06T13:35:45.914Z</updated>
-    
-    <content type="html"><![CDATA[<p>优化 K 线回测工具，增加了几个小功能：</p>
-<p><img src="https://p.nuli.life/blog/tg02wh.webp" alt=""></p>
-<ul>
-<li>K 线下方加编号</li>
-<li>回顾模式下，切换天时，保持回顾模式</li>
-</ul>
-<p><a href="https://t.1g1.top/" target="_blank" rel="external">https://t.1g1.top/</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;优化 K 线回测工具，增加了几个小功能：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/tg02wh.webp&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;K 线下方加编号&lt;/li&gt;
-&lt;li&gt;回顾模式下，切换天时，保持回顾模式&lt;/li&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0930 - Type C 插头问题</title>
-    <link href="https://atjason.com/daily/2024-09-30.html"/>
-    <id>https://atjason.com/daily/2024-09-30.html</id>
-    <published>2024-09-30T14:00:00.000Z</published>
-    <updated>2024-10-06T13:32:23.817Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天遇到问题：电路一段时间后不工作。</p>
-<p>开始时，以为是电路待机电流小，导致充电头不放电。类似于充电宝的保护电路。可是，按道理插头连着市电，不需要担心小电流持续放电问题。</p>
-<p>排查过程发现，Type C 插头很烫，这才发现问题。</p>
-<p>分析原因，可能是使用了便宜的 Type C 母座及电源线，接触不良、接触电阻大，使得在长时间、大电流工作时，接头部分产生大量的热量，进而导致元件受热变形、不接触，最终断电。</p>
-<p>出现这种问题时，插拔一下电源就又能工作了。这个原因，也符合这一现象。</p>
-<p>解决办法：换好的接插件；降低功耗及电流。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天遇到问题：电路一段时间后不工作。&lt;/p&gt;
-&lt;p&gt;开始时，以为是电路待机电流小，导致充电头不放电。类似于充电宝的保护电路。可是，按道理插头连着市电，不需要担心小电流持续放电问题。&lt;/p&gt;
-&lt;p&gt;排查过程发现，Type C 插头很烫，这才发现问题。&lt;/p&gt;
-&lt;p&gt;分析原因，
     
     </summary>
     
