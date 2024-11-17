@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-11-10T14:30:08.036Z</updated>
+  <updated>2024-11-17T15:12:50.640Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,158 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1116 - Flashcard 记忆卡片</title>
+    <link href="https://atjason.com/daily/2024-11-16.html"/>
+    <id>https://atjason.com/daily/2024-11-16.html</id>
+    <published>2024-11-16T14:00:00.000Z</published>
+    <updated>2024-11-17T15:12:50.640Z</updated>
+    
+    <content type="html"><![CDATA[<p>辅导娃学习时，有这么个痛点：对于易错字、拼音，该怎么复习呢？</p>
+<p>如果每次都写一遍，肯定没这个时间；也不划算，因为有些已经慢慢变熟了。</p>
+<p>可怎么记录哪些还不熟悉、下次什么时候复习呢？</p>
+<p>市面上结合记忆曲线的，应该有很多同类软件。但我估计针对低年级学生的，尤其是字词及拼音的，不见得有。</p>
+<p>手痒，自己造了一个；结合 Cursor，几小时就出了原型。不过，在用的过程中，发现挺多要改进的地方。等慢慢完善了，再放出来给大家用吧。</p>
+<p><img src="https://p.nuli.life/blog/p291ts.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;辅导娃学习时，有这么个痛点：对于易错字、拼音，该怎么复习呢？&lt;/p&gt;
+&lt;p&gt;如果每次都写一遍，肯定没这个时间；也不划算，因为有些已经慢慢变熟了。&lt;/p&gt;
+&lt;p&gt;可怎么记录哪些还不熟悉、下次什么时候复习呢？&lt;/p&gt;
+&lt;p&gt;市面上结合记忆曲线的，应该有很多同类软件。但我估计针对
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1115 - 快速实现原型</title>
+    <link href="https://atjason.com/daily/2024-11-15.html"/>
+    <id>https://atjason.com/daily/2024-11-15.html</id>
+    <published>2024-11-15T14:00:00.000Z</published>
+    <updated>2024-11-17T15:07:39.718Z</updated>
+    
+    <content type="html"><![CDATA[<p>昨晚想到一个加热产品的点子，兴奋得睡不着，想各种细节：组件选型、尺寸匹配、组装、造型、成本及定价、开发成本及周期、等等。</p>
+<p>今天连续干了几个小时，确定了几个核心元件，制作了电源电路板，画了 3D 外壳。该采购的采购、该下单的下单，就等下周一收到后组装。</p>
+<p>从想法到设计出原型，不到 20 小时，酣畅淋漓，爽。</p>
+<p>涉及的商业，就不放图了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨晚想到一个加热产品的点子，兴奋得睡不着，想各种细节：组件选型、尺寸匹配、组装、造型、成本及定价、开发成本及周期、等等。&lt;/p&gt;
+&lt;p&gt;今天连续干了几个小时，确定了几个核心元件，制作了电源电路板，画了 3D 外壳。该采购的采购、该下单的下单，就等下周一收到后组装。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1114 - Klib 支持导入 KOReader 的标注</title>
+    <link href="https://atjason.com/daily/2024-11-14.html"/>
+    <id>https://atjason.com/daily/2024-11-14.html</id>
+    <published>2024-11-14T14:00:00.000Z</published>
+    <updated>2024-11-17T15:07:00.936Z</updated>
+    
+    <content type="html"><![CDATA[<p>结合 Cursor 的帮助，快速帮用户把  KOReader 导出的标注，转换成 Kindle 格式的 My Clippings.txt。甚至还做了个网页，方便用户自己转换。</p>
+<p><a href="https://en.toolinbox.net/html/KOReaderToKlib.html" target="_blank" rel="external">https://en.toolinbox.net/html/KOReaderToKlib.html</a> </p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;结合 Cursor 的帮助，快速帮用户把  KOReader 导出的标注，转换成 Kindle 格式的 My Clippings.txt。甚至还做了个网页，方便用户自己转换。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.toolinbox.net/html/KOR
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1113 - 推荐发邮件服务 brevo.com</title>
+    <link href="https://atjason.com/daily/2024-11-13.html"/>
+    <id>https://atjason.com/daily/2024-11-13.html</id>
+    <published>2024-11-13T14:00:00.000Z</published>
+    <updated>2024-11-17T15:06:01.614Z</updated>
+    
+    <content type="html"><![CDATA[<p>原来阿里云发邮件的免费额度是总计 2000 封，我还以为是每月送，白扣了这么久的钱。</p>
+<p>一怒之下，找了个每天 300 封、每月免费 9000 封的服务，支持 API 发送，挺好用的：brevo.com</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原来阿里云发邮件的免费额度是总计 2000 封，我还以为是每月送，白扣了这么久的钱。&lt;/p&gt;
+&lt;p&gt;一怒之下，找了个每天 300 封、每月免费 9000 封的服务，支持 API 发送，挺好用的：brevo.com&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1112 - PCDN 家庭 CDN</title>
+    <link href="https://atjason.com/daily/2024-11-12.html"/>
+    <id>https://atjason.com/daily/2024-11-12.html</id>
+    <published>2024-11-12T14:00:00.000Z</published>
+    <updated>2024-11-17T15:05:12.503Z</updated>
+    
+    <content type="html"><![CDATA[<p>测试了开放家里电脑给公网访问，发现各地的实际下载速度 &lt; 100KB/s，是电信网络。</p>
+<p>不过，可能是并发的原因。如果同时只下载一个文件，就有 6MB/s 这样的速度。</p>
+<p>另外，用量太大时，会被宽带运营商给封了。</p>
+<p>同时，也测试了 Cloudflare Tunnel、Original Rule，那就更慢了，有的节点干脆无法访问。不过，不考虑速度的话，是挺好的方案。</p>
+<p>只是简单做了个测试，家用宽带还是不适合商用的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;测试了开放家里电脑给公网访问，发现各地的实际下载速度 &amp;lt; 100KB/s，是电信网络。&lt;/p&gt;
+&lt;p&gt;不过，可能是并发的原因。如果同时只下载一个文件，就有 6MB/s 这样的速度。&lt;/p&gt;
+&lt;p&gt;另外，用量太大时，会被宽带运营商给封了。&lt;/p&gt;
+&lt;p&gt;同时，也测试了 
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1111 - 卷娃的兴趣点</title>
+    <link href="https://atjason.com/daily/2024-11-11.html"/>
+    <id>https://atjason.com/daily/2024-11-11.html</id>
+    <published>2024-11-11T14:00:00.000Z</published>
+    <updated>2024-11-17T15:03:47.208Z</updated>
+    
+    <content type="html"><![CDATA[<p>211 毕业也是送外卖，上学的性价比越来越低了，还是在娃有兴趣的地方卷吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;211 毕业也是送外卖，上学的性价比越来越低了，还是在娃有兴趣的地方卷吧。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1107 - 老板与团队</title>
@@ -422,152 +574,6 @@
     
       &lt;p&gt;傅盛说：“我曾寄希望于360的执行不如我们快，所以不停地创新。可是，我们推出新服务两周后，360就出了一样的服务，&lt;strong&gt;我实际上成了360的产品经理&lt;/strong&gt;。”&lt;/p&gt;
 &lt;p&gt;最后一句好有感触，好的产品经理，是可以引领行业的，是整个行业的产品经理。&lt;/p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1018 - frp 远程桌面很便捷</title>
-    <link href="https://atjason.com/daily/2024-10-18.html"/>
-    <id>https://atjason.com/daily/2024-10-18.html</id>
-    <published>2024-10-18T14:00:00.000Z</published>
-    <updated>2024-10-20T13:42:03.267Z</updated>
-    
-    <content type="html"><![CDATA[<p>测试了 frp 进行远程桌面连接，挺简单的，很方便。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;测试了 frp 进行远程桌面连接，挺简单的，很方便。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1017 - 神奇的概率</title>
-    <link href="https://atjason.com/daily/2024-10-17.html"/>
-    <id>https://atjason.com/daily/2024-10-17.html</id>
-    <published>2024-10-17T14:00:00.000Z</published>
-    <updated>2024-10-20T13:41:22.680Z</updated>
-    
-    <content type="html"><![CDATA[<p>盯盘不一定有机会，不盯盘大概率有机会，额…</p>
-<p>就像观察流星。抬头看，不一定有；低头玩手机，大概率有…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;盯盘不一定有机会，不盯盘大概率有机会，额…&lt;/p&gt;
-&lt;p&gt;就像观察流星。抬头看，不一定有；低头玩手机，大概率有…&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1016 - 努力而不自知</title>
-    <link href="https://atjason.com/daily/2024-10-16.html"/>
-    <id>https://atjason.com/daily/2024-10-16.html</id>
-    <published>2024-10-16T14:00:00.000Z</published>
-    <updated>2024-10-20T13:40:14.121Z</updated>
-    
-    <content type="html"><![CDATA[<p>当你很努力时，你可能都感觉不到自己正在努力。你看到的，只是目的，你心里想的，只是怎么尽快达到它。也许这就是心流状态。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;当你很努力时，你可能都感觉不到自己正在努力。你看到的，只是目的，你心里想的，只是怎么尽快达到它。也许这就是心流状态。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1015 - 国内免费 CDN 不可靠</title>
-    <link href="https://atjason.com/daily/2024-10-15.html"/>
-    <id>https://atjason.com/daily/2024-10-15.html</id>
-    <published>2024-10-15T14:00:00.000Z</published>
-    <updated>2024-10-20T13:39:41.563Z</updated>
-    
-    <content type="html"><![CDATA[<p>之前用 js/css 的国内 CDN，结果用一家倒一家。而 jsdelivr 之类的，国内不仅慢、很多地区还无法访问。</p>
-<p>算了，为了避免再次更换 CDN 链接，还是全下载下来放本地吧。</p>
-<p>简单了解了下像 jsdelivr 的盈利模式，包括企业赞助、社区支持、附加服务等。单纯勉强、靠爱发电，是不可持续的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前用 js/css 的国内 CDN，结果用一家倒一家。而 jsdelivr 之类的，国内不仅慢、很多地区还无法访问。&lt;/p&gt;
-&lt;p&gt;算了，为了避免再次更换 CDN 链接，还是全下载下来放本地吧。&lt;/p&gt;
-&lt;p&gt;简单了解了下像 jsdelivr 的盈利模式，包括企业赞助、社
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1014 - 可回收火箭意味着什么？</title>
-    <link href="https://atjason.com/daily/2024-10-14.html"/>
-    <id>https://atjason.com/daily/2024-10-14.html</id>
-    <published>2024-10-14T14:00:00.000Z</published>
-    <updated>2024-10-20T13:36:37.484Z</updated>
-    
-    <content type="html"><![CDATA[<p>比如，之前你开车到附近城市，这车是一次性的、开到就报废，一趟花费十几万；</p>
-<p>现在，坐高铁去，量大、且能重复利用，一趟花费十几块。</p>
-<p>可回收，就意味着这 10000 倍的成本差距。</p>
-<p>当然，具体数字可能不对，但意思是这么个意思。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;比如，之前你开车到附近城市，这车是一次性的、开到就报废，一趟花费十几万；&lt;/p&gt;
-&lt;p&gt;现在，坐高铁去，量大、且能重复利用，一趟花费十几块。&lt;/p&gt;
-&lt;p&gt;可回收，就意味着这 10000 倍的成本差距。&lt;/p&gt;
-&lt;p&gt;当然，具体数字可能不对，但意思是这么个意思。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1011 - 经济刺激政策与感冒药</title>
-    <link href="https://atjason.com/daily/2024-10-11.html"/>
-    <id>https://atjason.com/daily/2024-10-11.html</id>
-    <published>2024-10-11T14:00:00.000Z</published>
-    <updated>2024-10-13T14:11:33.050Z</updated>
-    
-    <content type="html"><![CDATA[<p>治疗感冒的药物，主要是缓解症状（比如，缓解发热或鼻塞，让人更舒服、至少不那么难受），而不是直接杀死病毒。比如，经典的广告语是「抗病毒」，而不是「杀病毒」。最终，病毒依赖自身免疫系统来清除。</p>
-<p>经济刺激政策，和感冒药很像。它能刺激、盘活经济，提供好的营商环境、货币政策，让参与者能更舒服地发展。但是，具体到经济本身，还是要靠技术进步、参与者的创造性来推动。经济政策，并不能直接拉动经济。</p>
-<p>这波股市大涨，就是政策刺激的结果。如果真能盘活经济，药效过后经济能发展起来，那固然好。可如果只是少数人获利，套现政策，把红利放自己口袋，那只是财富转移；通过放水的方式，把大部分人口袋里的钱，转移至少部分人手中。这样，不仅对经济不利，还扩大了贫富差距，起到了反效果。</p>
-<p>拭目以待吧。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;治疗感冒的药物，主要是缓解症状（比如，缓解发热或鼻塞，让人更舒服、至少不那么难受），而不是直接杀死病毒。比如，经典的广告语是「抗病毒」，而不是「杀病毒」。最终，病毒依赖自身免疫系统来清除。&lt;/p&gt;
-&lt;p&gt;经济刺激政策，和感冒药很像。它能刺激、盘活经济，提供好的营商环境、货币
     
     </summary>
     
