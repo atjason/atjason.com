@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-11-17T15:12:50.640Z</updated>
+  <updated>2024-11-24T14:44:59.875Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,109 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1121 - Tauri 跨平台开发</title>
+    <link href="https://atjason.com/daily/2024-11-21.html"/>
+    <id>https://atjason.com/daily/2024-11-21.html</id>
+    <published>2024-11-21T14:00:00.000Z</published>
+    <updated>2024-11-24T14:44:59.875Z</updated>
+    
+    <content type="html"><![CDATA[<p>想开发桌面端应用，发现 Swift 一段时间不用又双叕生疏了。</p>
+<p>想用 Electron 开发，却实在不太能接受其内存占用；</p>
+<p>想试试使用系统 WebView 内核的 Tauri，发现又要学前端框架。</p>
+<p>绕了一大圈，累了，干不动了，还不如回去用 Swift…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;想开发桌面端应用，发现 Swift 一段时间不用又双叕生疏了。&lt;/p&gt;
+&lt;p&gt;想用 Electron 开发，却实在不太能接受其内存占用；&lt;/p&gt;
+&lt;p&gt;想试试使用系统 WebView 内核的 Tauri，发现又要学前端框架。&lt;/p&gt;
+&lt;p&gt;绕了一大圈，累了，干不动了，还不如
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1120 - 集中力量办大事</title>
+    <link href="https://atjason.com/daily/2024-11-20.html"/>
+    <id>https://atjason.com/daily/2024-11-20.html</id>
+    <published>2024-11-20T14:00:00.000Z</published>
+    <updated>2024-11-24T14:44:20.410Z</updated>
+    
+    <content type="html"><![CDATA[<p>感觉现在做的东西太碎了，东做一点、西做一点，很难有大的成绩。如果 10 年前是这么干，倒也没什么，甚至算挺好。但放到现在，就觉得不合适了。</p>
+<p>不过，好在是一直在做、多少都有收获。早点找到有兴趣、勉强能驾驭的大事，然后做好、做出成绩。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;感觉现在做的东西太碎了，东做一点、西做一点，很难有大的成绩。如果 10 年前是这么干，倒也没什么，甚至算挺好。但放到现在，就觉得不合适了。&lt;/p&gt;
+&lt;p&gt;不过，好在是一直在做、多少都有收获。早点找到有兴趣、勉强能驾驭的大事，然后做好、做出成绩。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1119 - 国补</title>
+    <link href="https://atjason.com/daily/2024-11-19.html"/>
+    <id>https://atjason.com/daily/2024-11-19.html</id>
+    <published>2024-11-19T14:00:00.000Z</published>
+    <updated>2024-11-24T14:43:41.518Z</updated>
+    
+    <content type="html"><![CDATA[<p>为什么有国补，因为要刺激消费。用 100 的补贴，翘动 1000 的消费，让经济动起来。可买可不买、犹豫要不要买的，都买起来。</p>
+<p>这 100 从哪里来？印钱，从你我口袋里来，不管你是否知道、是否同意。</p>
+<p>如果确实需要这个东西、原本就打算买，那确实是占便宜了。占了谁的便宜？没用补贴人的便宜。</p>
+<p>GDP 数据那么好，为啥还要刺激，不怕过热吗？这个矛盾，只可意会。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;为什么有国补，因为要刺激消费。用 100 的补贴，翘动 1000 的消费，让经济动起来。可买可不买、犹豫要不要买的，都买起来。&lt;/p&gt;
+&lt;p&gt;这 100 从哪里来？印钱，从你我口袋里来，不管你是否知道、是否同意。&lt;/p&gt;
+&lt;p&gt;如果确实需要这个东西、原本就打算买，那确实是占
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1118 - QQ 小程序</title>
+    <link href="https://atjason.com/daily/2024-11-18.html"/>
+    <id>https://atjason.com/daily/2024-11-18.html</id>
+    <published>2024-11-18T14:00:00.000Z</published>
+    <updated>2024-11-24T14:42:22.997Z</updated>
+    
+    <content type="html"><![CDATA[<p>才注意到原来 QQ 也有小程序…</p>
+<p>简单试了之后发现，原来 QQ 小程序开发工具，可以直接打开微信小程序的工程，额…</p>
+<p>只做些简单的 QQ 还是微信小程序的判断，分别显示和处理，就可以出 QQ 小程序第一版了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;才注意到原来 QQ 也有小程序…&lt;/p&gt;
+&lt;p&gt;简单试了之后发现，原来 QQ 小程序开发工具，可以直接打开微信小程序的工程，额…&lt;/p&gt;
+&lt;p&gt;只做些简单的 QQ 还是微信小程序的判断，分别显示和处理，就可以出 QQ 小程序第一版了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1116 - Flashcard 记忆卡片</title>
@@ -473,107 +576,6 @@
     
       &lt;p&gt;给老款 Mac mini 升级内存、替换 SSD 硬盘、越级升级 macOS 11；给 MacBook Pro 更换电池、解控板排线、重装系统。硬件佬的一天…&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1022 - 需求变化</title>
-    <link href="https://atjason.com/daily/2024-10-22.html"/>
-    <id>https://atjason.com/daily/2024-10-22.html</id>
-    <published>2024-10-22T14:00:00.000Z</published>
-    <updated>2024-10-27T13:10:01.166Z</updated>
-    
-    <content type="html"><![CDATA[<p>匮乏时代，缺什么补什么。</p>
-<p>过剩时代，有什么还要什么。</p>
-<p>比如，一个用户画像：这个人家里没电视。以前，可能意味着这是潜在用户、他可能会买电视。现在，可能意味着他根本就不需要电视，其他娱乐方式就够了。</p>
-<p>比如，钓鱼佬已经有了鱼杆，并不意味着他不再需要买新的。恰恰相反，他大概率还需要买其他型号的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;匮乏时代，缺什么补什么。&lt;/p&gt;
-&lt;p&gt;过剩时代，有什么还要什么。&lt;/p&gt;
-&lt;p&gt;比如，一个用户画像：这个人家里没电视。以前，可能意味着这是潜在用户、他可能会买电视。现在，可能意味着他根本就不需要电视，其他娱乐方式就够了。&lt;/p&gt;
-&lt;p&gt;比如，钓鱼佬已经有了鱼杆，并不意味着
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1021 - 环境、行为、想法</title>
-    <link href="https://atjason.com/daily/2024-10-21.html"/>
-    <id>https://atjason.com/daily/2024-10-21.html</id>
-    <published>2024-10-21T14:00:00.000Z</published>
-    <updated>2024-10-27T13:09:30.633Z</updated>
-    
-    <content type="html"><![CDATA[<p>想法无法改变，环境和行为可以影响想法。</p>
-<p>让人处于某个环境，他会被环境影响，比如同辈压力。</p>
-<p>让他做某件事，他会不知不觉间，继续做类似的事，以证明自己上次做的事是正确的、有道理的。就像借过你钱的人，比没借过的，更容易再借给你。一通行为下来，思想因行为而改变了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;想法无法改变，环境和行为可以影响想法。&lt;/p&gt;
-&lt;p&gt;让人处于某个环境，他会被环境影响，比如同辈压力。&lt;/p&gt;
-&lt;p&gt;让他做某件事，他会不知不觉间，继续做类似的事，以证明自己上次做的事是正确的、有道理的。就像借过你钱的人，比没借过的，更容易再借给你。一通行为下来，思想因行为
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1020 - 交易对脑子的损害</title>
-    <link href="https://atjason.com/daily/2024-10-20.html"/>
-    <id>https://atjason.com/daily/2024-10-20.html</id>
-    <published>2024-10-20T14:00:00.000Z</published>
-    <updated>2024-10-20T13:43:42.995Z</updated>
-    
-    <content type="html"><![CDATA[<p>交易，不论盈亏，反馈很快、立杆见影、简单直接明了。有点像短视频，迫不及待端出爽点。</p>
-<p>但的复杂的知识，不是这样的。需要长时间深入研究，短期不仅不会有什么成果，还会面临层出不穷的困难和挑战。一旦习惯了短平快的多巴胺刺激，就享受不到内啡肽的美好；做事提不起兴趣，遇到挫折很容易放弃。</p>
-<p>确实，人不是机器，是会累的、需要放松。短平快的多马胺，确实能快速让人愉悦，并不一定完全放弃。但其对大脑模式的损害，要有清醒的认识。学习与进步，不一定是苦的，但一定是难的。窝在沙发里刷抖音，是刷不出真火箭的。</p>
-<p>趁着还不算老、脑子还能动动，就多用用吧。多创造点东西，老了不会觉得空虚，至少降低老年痴呆风险。</p>
-<p>最简单的，少看短视频、多看长视频，少看公众号、多看看书。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;交易，不论盈亏，反馈很快、立杆见影、简单直接明了。有点像短视频，迫不及待端出爽点。&lt;/p&gt;
-&lt;p&gt;但的复杂的知识，不是这样的。需要长时间深入研究，短期不仅不会有什么成果，还会面临层出不穷的困难和挑战。一旦习惯了短平快的多巴胺刺激，就享受不到内啡肽的美好；做事提不起兴趣，遇到
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1019 - 行业的产品经理</title>
-    <link href="https://atjason.com/daily/2024-10-19.html"/>
-    <id>https://atjason.com/daily/2024-10-19.html</id>
-    <published>2024-10-19T14:00:00.000Z</published>
-    <updated>2024-10-20T13:42:59.998Z</updated>
-    
-    <content type="html"><![CDATA[<p>傅盛说：“我曾寄希望于360的执行不如我们快，所以不停地创新。可是，我们推出新服务两周后，360就出了一样的服务，<strong>我实际上成了360的产品经理</strong>。”</p>
-<p>最后一句好有感触，好的产品经理，是可以引领行业的，是整个行业的产品经理。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;傅盛说：“我曾寄希望于360的执行不如我们快，所以不停地创新。可是，我们推出新服务两周后，360就出了一样的服务，&lt;strong&gt;我实际上成了360的产品经理&lt;/strong&gt;。”&lt;/p&gt;
-&lt;p&gt;最后一句好有感触，好的产品经理，是可以引领行业的，是整个行业的产品经理。&lt;/p
     
     </summary>
     
