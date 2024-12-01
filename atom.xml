@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-11-24T14:44:59.875Z</updated>
+  <updated>2024-12-01T15:00:51.917Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,103 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1128 - 重启 iDone 开发</title>
+    <link href="https://atjason.com/daily/2024-11-28.html"/>
+    <id>https://atjason.com/daily/2024-11-28.html</id>
+    <published>2024-11-28T14:00:00.000Z</published>
+    <updated>2024-12-01T15:00:51.917Z</updated>
+    
+    <content type="html"><![CDATA[<p>又续费了 iDone.app 域名…准备重启这个 Todo App 的开发，做自己用的软件。</p>
+<p>这几天试用了 Godspeed，感觉挺好的，这要是我开发的多好…甚至感到沮丧；它做了太多我想做的东西，我还要继续做 iDone 吗？做成什么样子呢？</p>
+<p>不管了，先动起来，做个样子再说，边用边想。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;又续费了 iDone.app 域名…准备重启这个 Todo App 的开发，做自己用的软件。&lt;/p&gt;
+&lt;p&gt;这几天试用了 Godspeed，感觉挺好的，这要是我开发的多好…甚至感到沮丧；它做了太多我想做的东西，我还要继续做 iDone 吗？做成什么样子呢？&lt;/p&gt;
+&lt;p&gt;不
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1127 - 更换 iText 图标</title>
+    <link href="https://atjason.com/daily/2024-11-27.html"/>
+    <id>https://atjason.com/daily/2024-11-27.html</id>
+    <published>2024-11-27T14:00:00.000Z</published>
+    <updated>2024-12-01T14:58:51.305Z</updated>
+    
+    <content type="html"><![CDATA[<p>准备给 iText 更新图标，尝试设计了一下，好丑；试了几个 AI 生成 Logo 的，基本都不行。</p>
+<p>哎，不管了，先换成圆角矩形的，把切换 Icon 的功能先做出来再说。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;准备给 iText 更新图标，尝试设计了一下，好丑；试了几个 AI 生成 Logo 的，基本都不行。&lt;/p&gt;
+&lt;p&gt;哎，不管了，先换成圆角矩形的，把切换 Icon 的功能先做出来再说。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1126 - 横店变竖店</title>
+    <link href="https://atjason.com/daily/2024-11-26.html"/>
+    <id>https://atjason.com/daily/2024-11-26.html</id>
+    <published>2024-11-26T14:00:00.000Z</published>
+    <updated>2024-12-01T14:58:05.765Z</updated>
+    
+    <content type="html"><![CDATA[<p>横店变竖店。说的是，现在横店很多拍短剧的，而短剧基本是竖屏的。</p>
+<p>哈哈，好巧妙，有意思。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;横店变竖店。说的是，现在横店很多拍短剧的，而短剧基本是竖屏的。&lt;/p&gt;
+&lt;p&gt;哈哈，好巧妙，有意思。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1125 - 线电阻检测工具</title>
+    <link href="https://atjason.com/daily/2024-11-25.html"/>
+    <id>https://atjason.com/daily/2024-11-25.html</id>
+    <published>2024-11-25T14:00:00.000Z</published>
+    <updated>2024-12-01T14:56:38.951Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近产品遇到问题，Type C 电源线接触电阻过大。在解决货源问题之前，做了一个小工具，检测线电阻是否过大。连接电源线两头，如果线电阻及接触电阻正常，则绿灯亮。</p>
+<p><img src="https://p.nuli.life/blog/iwt2z3.png" alt=""></p>
+<p><img src="https://p.nuli.life/blog/38hi7k.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近产品遇到问题，Type C 电源线接触电阻过大。在解决货源问题之前，做了一个小工具，检测线电阻是否过大。连接电源线两头，如果线电阻及接触电阻正常，则绿灯亮。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/iwt2z3.png&quot; al
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1121 - Tauri 跨平台开发</title>
@@ -435,147 +532,6 @@
       &lt;p&gt;「图床神器」之前使用的是微博图床。之前微博限制后，我也没再修复，就那么坏的放着。&lt;/p&gt;
 &lt;p&gt;最近又看了下，发现已经流失了 20 万用户，真是可惜啊。&lt;/p&gt;
 &lt;p&gt;打算重启这个小程序。买了个图床，接入图床神器小程序。折腾了半天，发布了好几版。当天就上传了上百张图片，开心
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1029 - 互联网免费不再</title>
-    <link href="https://atjason.com/daily/2024-10-29.html"/>
-    <id>https://atjason.com/daily/2024-10-29.html</id>
-    <published>2024-10-29T14:00:00.000Z</published>
-    <updated>2024-11-03T14:59:24.500Z</updated>
-    
-    <content type="html"><![CDATA[<p>之前做了在 Kindle 上显示时间，其中调用一个 API 获取准确的时间戳。最近发现，之前的 API 死掉了。</p>
-<p>在网上一通找，发现竟然找不到免费的获取时间的 API，这可把我惊讶坏了。虽然有淘宝等非公开的 API，但有 origin 等限制。</p>
-<p>这可只是获取时间戳这样一个简单的服务，之前肯定是有的。</p>
-<p>哎，曾经那种朝气蓬勃时代，一去不复返了。</p>
-<p>一怒之下，用 Cloudflare Workers 自己创建了一个: <a href="https://tool.1g1.top/timestamp" target="_blank" rel="external">https://tool.1g1.top/timestamp</a></p>
-<p>Cloudflare 真是赛博菩萨啊。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;之前做了在 Kindle 上显示时间，其中调用一个 API 获取准确的时间戳。最近发现，之前的 API 死掉了。&lt;/p&gt;
-&lt;p&gt;在网上一通找，发现竟然找不到免费的获取时间的 API，这可把我惊讶坏了。虽然有淘宝等非公开的 API，但有 origin 等限制。&lt;/p&gt;
-&lt;p&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1028 - 短剧收入和电影票房差不多</title>
-    <link href="https://atjason.com/daily/2024-10-28.html"/>
-    <id>https://atjason.com/daily/2024-10-28.html</id>
-    <published>2024-10-28T14:00:00.000Z</published>
-    <updated>2024-11-03T14:58:21.549Z</updated>
-    
-    <content type="html"><![CDATA[<p>预计，2024年短剧市场规模将超 500亿。</p>
-<p>2023年，中国电影票房总收入 500亿。</p>
-<p>或许，未来走红毯的，不是一线，是网大。</p>
-<p>想想挺吓人的。短剧用这么短的时间，就追上了百年电影。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;预计，2024年短剧市场规模将超 500亿。&lt;/p&gt;
-&lt;p&gt;2023年，中国电影票房总收入 500亿。&lt;/p&gt;
-&lt;p&gt;或许，未来走红毯的，不是一线，是网大。&lt;/p&gt;
-&lt;p&gt;想想挺吓人的。短剧用这么短的时间，就追上了百年电影。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title></title>
-    <link href="https://atjason.com/daily/2024-10-24.html"/>
-    <id>https://atjason.com/daily/2024-10-24.html</id>
-    <published>2024-10-27T13:12:05.551Z</published>
-    <updated>2024-10-27T13:14:29.947Z</updated>
-    
-    <content type="html"><![CDATA[<p>title: ‘1023 - 《了不起的我》’<br>categories: 每天写一点</p>
-<h2 id="date-2024-10-23-22-00-00"><a href="#date-2024-10-23-22-00-00" class="headerlink" title="date: 2024-10-23 22:00:00"></a>date: 2024-10-23 22:00:00</h2><p>看了陈海贤的《了不起的我》，感觉不错，一些标注：</p>
-<h2 id="发刊词丨实现人生突破的系统方法"><a href="#发刊词丨实现人生突破的系统方法" class="headerlink" title="发刊词丨实现人生突破的系统方法"></a>发刊词丨实现人生突破的系统方法</h2><ul>
-<li>改变非常难，其实难在你心里。 你的心理系统就像一个鱼缸，而你就像鱼缸里的那条鱼，你在里面游看起来很自由，其实，你是被限制住了。</li>
-</ul>
-<h2 id="01丨导论：关于改变，你一直都有选择"><a href="#01丨导论：关于改变，你一直都有选择" class="headerlink" title="01丨导论：关于改变，你一直都有选择"></a>01丨导论：关于改变，你一直都有选择</h2><ul>
-<li>选择改变不是一件容易的事，它很难，需要勇气。可是，没有什么比走一条很难的路更能促进人的自我发展了。</li>
-</ul>
-<h2 id="02丨改变本质：如何创造新经验？"><a href="#02丨改变本质：如何创造新经验？" class="headerlink" title="02丨改变本质：如何创造新经验？"></a>02丨改变本质：如何创造新经验？</h2><ul>
-<li>改变的本质是什么呢？其实就是创造新经验，用新经验来代替旧经验的过程。 创造新经验需要通过新的行为，获得新的反馈，新的强化，并亲身感受到它。亲身感受到的经验，这跟你听来的道理很不一样。</li>
-</ul>
-<h2 id="03丨心理舒适区：-如何识别改变的障碍？"><a href="#03丨心理舒适区：-如何识别改变的障碍？" class="headerlink" title="03丨心理舒适区： 如何识别改变的障碍？"></a>03丨心理舒适区： 如何识别改变的障碍？</h2><ul>
-<li>真正的心理舒适区，说的不是熟悉的环境，而是我们熟悉的应对环境的方式。走出心理舒适区，说的不是我们走出熟悉的环境，而是改变我们的应对方式。</li>
-</ul>
-<h2 id="05丨检验人生假设：如何看清限制自己的规则？"><a href="#05丨检验人生假设：如何看清限制自己的规则？" class="headerlink" title="05丨检验人生假设：如何看清限制自己的规则？"></a>05丨检验人生假设：如何看清限制自己的规则？</h2><ul>
-<li>如果你觉得重要的东西，你就要去争取，而不是背后抱怨。</li>
-</ul>
-<h2 id="09丨第二序列改变：如何区分有效与无效的改变？"><a href="#09丨第二序列改变：如何区分有效与无效的改变？" class="headerlink" title="09丨第二序列改变：如何区分有效与无效的改变？"></a>09丨第二序列改变：如何区分有效与无效的改变？</h2><ul>
-<li>不要纠结于你自己的问题，把它当做你生存的常态，而去专注于你真正想做的事情。这才是自我接纳的真谛。</li>
-</ul>
-<h2 id="13丨对世界的应该思维：为什么我总看不清现实？"><a href="#13丨对世界的应该思维：为什么我总看不清现实？" class="headerlink" title="13丨对世界的应该思维：为什么我总看不清现实？"></a>13丨对世界的应该思维：为什么我总看不清现实？</h2><ul>
-<li>我的一个心理咨询师朋友，在回答别人的问题时，经常说：“没什么大不了，反正又不会死。” 有一天，一个人问他：“那万一真死了怎么办？” 他说：“没什么大不了，反正人都会死。”</li>
-</ul>
-<h2 id="14丨对自己的应该思维：为什么我无法接纳自己的情绪？"><a href="#14丨对自己的应该思维：为什么我无法接纳自己的情绪？" class="headerlink" title="14丨对自己的应该思维：为什么我无法接纳自己的情绪？"></a>14丨对自己的应该思维：为什么我无法接纳自己的情绪？</h2><ul>
-<li>应该思维其实就是用别人的标准来代替自发行动的思维方式。</li>
-</ul>
-<h2 id="17丨创造性思维：行动的张力从哪里来？"><a href="#17丨创造性思维：行动的张力从哪里来？" class="headerlink" title="17丨创造性思维：行动的张力从哪里来？"></a>17丨创造性思维：行动的张力从哪里来？</h2><ul>
-<li>创造一个东西就像生一个孩子。生孩子的过程，并不需要你强迫自己努力，你只需要爱这个孩子就可以了。</li>
-</ul>
-<h2 id="33丨通向新关系：关系是如何进化的？"><a href="#33丨通向新关系：关系是如何进化的？" class="headerlink" title="33丨通向新关系：关系是如何进化的？"></a>33丨通向新关系：关系是如何进化的？</h2><ul>
-<li>只有在关系中独立了，你才能真正自主地，以一种成熟的姿态投入到一段关系中。</li>
-</ul>
-<h2 id="40丨转折期选择：依据经济模型，还是心理模型？"><a href="#40丨转折期选择：依据经济模型，还是心理模型？" class="headerlink" title="40丨转折期选择：依据经济模型，还是心理模型？"></a>40丨转折期选择：依据经济模型，还是心理模型？</h2><ul>
-<li><p>我觉得在这个时候，他不应该把这种犹豫当做选择的契机，而应该把它当做自我探索的契机。在这个时候，他最应该问的问题，并不是当前决策的各种利弊，而是我想要成为一个什么样的人。</p>
-</li>
-<li><p>自我的形成不是一个发现的过程，而是一个创造的过程。</p>
-</li>
-</ul>
-<h2 id="41丨创伤后成长：如何重建意义感？"><a href="#41丨创伤后成长：如何重建意义感？" class="headerlink" title="41丨创伤后成长：如何重建意义感？"></a>41丨创伤后成长：如何重建意义感？</h2><ul>
-<li>在创伤中，关于世界的一些天真的信念坍塌了。可是，就像一所不牢靠的房子，它坍塌了以后，建造房子的砖头却还在，我们就用这些砖头，建起了新的，更牢固的房子。</li>
-</ul>
-<h2 id="50丨自我发展：一条不断延伸的路"><a href="#50丨自我发展：一条不断延伸的路" class="headerlink" title="50丨自我发展：一条不断延伸的路"></a>50丨自我发展：一条不断延伸的路</h2><ul>
-<li>你走的路，比地图重要。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;title: ‘1023 - 《了不起的我》’&lt;br&gt;categories: 每天写一点&lt;/p&gt;
-&lt;h2 id=&quot;date-2024-10-23-22-00-00&quot;&gt;&lt;a href=&quot;#date-2024-10-23-22-00-00&quot; class=&quot;headerlink&quot;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1023 - 硬件佬</title>
-    <link href="https://atjason.com/daily/2024-10-23.html"/>
-    <id>https://atjason.com/daily/2024-10-23.html</id>
-    <published>2024-10-23T14:00:00.000Z</published>
-    <updated>2024-10-27T13:12:03.607Z</updated>
-    
-    <content type="html"><![CDATA[<p>给老款 Mac mini 升级内存、替换 SSD 硬盘、越级升级 macOS 11；给 MacBook Pro 更换电池、解控板排线、重装系统。硬件佬的一天…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;给老款 Mac mini 升级内存、替换 SSD 硬盘、越级升级 macOS 11；给 MacBook Pro 更换电池、解控板排线、重装系统。硬件佬的一天…&lt;/p&gt;
-
     
     </summary>
     
