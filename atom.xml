@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-12-01T15:00:51.917Z</updated>
+  <updated>2024-12-08T14:10:47.115Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,108 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1205 - 能力连输</title>
+    <link href="https://atjason.com/daily/2024-12-05.html"/>
+    <id>https://atjason.com/daily/2024-12-05.html</id>
+    <published>2024-12-05T14:00:00.000Z</published>
+    <updated>2024-12-08T14:10:47.115Z</updated>
+    
+    <content type="html"><![CDATA[<p>跟朋友聊了他的想法和项目，更加明确了自己的能力边界，继续在自己的领域里努力吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;跟朋友聊了他的想法和项目，更加明确了自己的能力边界，继续在自己的领域里努力吧。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1204 - 踩坑星坤 TypeC 母座</title>
+    <link href="https://atjason.com/daily/2024-12-04.html"/>
+    <id>https://atjason.com/daily/2024-12-04.html</id>
+    <published>2024-12-04T14:00:00.000Z</published>
+    <updated>2024-12-08T14:10:20.766Z</updated>
+    
+    <content type="html"><![CDATA[<p>星坤的 Type C 母座并不是对称设计的，只在一边有地线，导致插头晃动时，接触不良、电阻大。</p>
+<p><img src="https://p.nuli.life/blog/a25mxw.png" alt=""></p>
+<p>跟立创商城的数据手册对比，发现货不对板：图上是一边各 3 个触点。并且，引脚还标错了…</p>
+<p>跟原厂交涉过程，他们说，他们之前就是不对称的，现在只是升级了。但是，我现在在立创商城买的插头，是24的。而立创商城手册是对称的，同样货不对板。</p>
+<p>对比友商，不仅是对称的，弹片的设计也更合理，不容易因为插拔次数多、或温度长高而导致接触不良。</p>
+<p><img src="https://p.nuli.life/blog/hfzxnw.png" alt=""></p>
+<p>哎，不说了，换。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;星坤的 Type C 母座并不是对称设计的，只在一边有地线，导致插头晃动时，接触不良、电阻大。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/a25mxw.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;跟立创商城的数据手册对比，发现货不对板：
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1203 - 静待花开？</title>
+    <link href="https://atjason.com/daily/2024-12-03.html"/>
+    <id>https://atjason.com/daily/2024-12-03.html</id>
+    <published>2024-12-03T14:00:00.000Z</published>
+    <updated>2024-12-08T14:08:56.087Z</updated>
+    
+    <content type="html"><![CDATA[<p>村上春树 1979年 写了《且听风吟》。书中说：静待花开。</p>
+<p>自写出这句话后的 44 年，写了 44 本书。</p>
+<p>哪有什么静待花开，只有持续不断的努力。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;村上春树 1979年 写了《且听风吟》。书中说：静待花开。&lt;/p&gt;
+&lt;p&gt;自写出这句话后的 44 年，写了 44 本书。&lt;/p&gt;
+&lt;p&gt;哪有什么静待花开，只有持续不断的努力。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1202 - 修改 macOS 的程序图标</title>
+    <link href="https://atjason.com/daily/2024-12-02.html"/>
+    <id>https://atjason.com/daily/2024-12-02.html</id>
+    <published>2024-12-02T14:00:00.000Z</published>
+    <updated>2024-12-08T14:01:24.170Z</updated>
+    
+    <content type="html"><![CDATA[<p>使用 NSDockTile，可以在运行时修改 Dock 栏图标；硬盘中 App 的图标并未修改，程序退出后，Dock 栏图标回退。Electron 中修改图标，就是这么做的。</p>
+<p>使用 NSDockTilePlugin，可以几乎完美修改 Dock 图标，程序退出也显示修改后的。但其实是创建 Dock 的 Plugin，会弹系统通知。</p>
+<p>相比于 iOS 很自由地修改图标，macOS 不如狗啊…</p>
+<p>开源示例项目： <a href="https://github.com/dagronf/DSFDockTile" target="_blank" rel="external">https://github.com/dagronf/DSFDockTile</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;使用 NSDockTile，可以在运行时修改 Dock 栏图标；硬盘中 App 的图标并未修改，程序退出后，Dock 栏图标回退。Electron 中修改图标，就是这么做的。&lt;/p&gt;
+&lt;p&gt;使用 NSDockTilePlugin，可以几乎完美修改 Dock 图标，程序退出也
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1128 - 重启 iDone 开发</title>
@@ -425,113 +527,6 @@
 &lt;p&gt;判断一个决策是不是好决策，就问自己这 7 个问题：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;第一问：我知道自己到底想要什么吗？&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;人会不知道自己想要什么？很多时候还真是。我们做某个决策，很可能是为了达到别
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1105 - 随机性</title>
-    <link href="https://atjason.com/daily/2024-11-05.html"/>
-    <id>https://atjason.com/daily/2024-11-05.html</id>
-    <published>2024-11-05T14:00:00.000Z</published>
-    <updated>2024-11-10T14:27:40.932Z</updated>
-    
-    <content type="html"><![CDATA[<p>随机性，是宇宙中最大的公平。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;随机性，是宇宙中最大的公平。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1104 - 服务器上运行 shadowsocks 客户端</title>
-    <link href="https://atjason.com/daily/2024-11-04.html"/>
-    <id>https://atjason.com/daily/2024-11-04.html</id>
-    <published>2024-11-04T14:00:00.000Z</published>
-    <updated>2024-11-10T14:27:12.375Z</updated>
-    
-    <content type="html"><![CDATA[<p>又到了 11.11 屯服务器的时间了…</p>
-<p>国内服务器便宜，可网络堪忧，梯子成为必需。搭建了一遍，整理了一下，供之后参考：</p>
-<p>下载编译好的 <code>shadowsocks-rust</code><br><a href="https://github.com/shadowsocks/shadowsocks-rust/releases" target="_blank" rel="external">https://github.com/shadowsocks/shadowsocks-rust/releases</a></p>
-<p>解压缩，主要是使用 <code>sslocal</code>，其余可以删除。</p>
-<p>使用命令行或配置文件启动，配合 <code>screen</code> 保持后台运行：</p>
-<p><code>screen -dmS ss ./sslocal -b &quot;127.0.0.1:3128&quot; --protocol http -s &quot;SERVER:PORT&quot; -m &quot;PROTOCAL&quot; -k &quot;PASSWORD&quot;</code></p>
-<p>测试：<br><code>curl -x 127.0.0.1:3128 https://x.com</code></p>
-<p>git 设置全局代理：</p>
-<ul>
-<li><code>git config --global http.proxy http://127.0.0.1:3128</code></li>
-<li><code>git config --global https.proxy https://127.0.0.1:3128</code></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;又到了 11.11 屯服务器的时间了…&lt;/p&gt;
-&lt;p&gt;国内服务器便宜，可网络堪忧，梯子成为必需。搭建了一遍，整理了一下，供之后参考：&lt;/p&gt;
-&lt;p&gt;下载编译好的 &lt;code&gt;shadowsocks-rust&lt;/code&gt;&lt;br&gt;&lt;a href=&quot;https://github
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1031 - 两个娃的不同</title>
-    <link href="https://atjason.com/daily/2024-10-31.html"/>
-    <id>https://atjason.com/daily/2024-10-31.html</id>
-    <published>2024-10-31T14:00:00.000Z</published>
-    <updated>2024-11-03T15:04:00.601Z</updated>
-    
-    <content type="html"><![CDATA[<p>养着养着，会发现两个娃有挺大的不同。</p>
-<p>比如，现在用代币来激励他们正向行为，比如跳绳 180 一个币。用币可以兑换，比如去海边玩。对于辛辛苦苦得到的币，大的就比较守财、舍不得花，小的就比较大方，有的花就花。</p>
-<p>写到这里，去看了下，他们头挨着头睡，还挺温馨的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;养着养着，会发现两个娃有挺大的不同。&lt;/p&gt;
-&lt;p&gt;比如，现在用代币来激励他们正向行为，比如跳绳 180 一个币。用币可以兑换，比如去海边玩。对于辛辛苦苦得到的币，大的就比较守财、舍不得花，小的就比较大方，有的花就花。&lt;/p&gt;
-&lt;p&gt;写到这里，去看了下，他们头挨着头睡，还挺
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1030 - 重启「图床神器」小程序</title>
-    <link href="https://atjason.com/daily/2024-10-30.html"/>
-    <id>https://atjason.com/daily/2024-10-30.html</id>
-    <published>2024-10-30T14:00:00.000Z</published>
-    <updated>2024-11-03T15:02:31.013Z</updated>
-    
-    <content type="html"><![CDATA[<p>「图床神器」之前使用的是微博图床。之前微博限制后，我也没再修复，就那么坏的放着。</p>
-<p>最近又看了下，发现已经流失了 20 万用户，真是可惜啊。</p>
-<p>打算重启这个小程序。买了个图床，接入图床神器小程序。折腾了半天，发布了好几版。当天就上传了上百张图片，开心。</p>
-<p>果然，软件还是能让我兴奋，我还是喜欢做工具软件。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;「图床神器」之前使用的是微博图床。之前微博限制后，我也没再修复，就那么坏的放着。&lt;/p&gt;
-&lt;p&gt;最近又看了下，发现已经流失了 20 万用户，真是可惜啊。&lt;/p&gt;
-&lt;p&gt;打算重启这个小程序。买了个图床，接入图床神器小程序。折腾了半天，发布了好几版。当天就上传了上百张图片，开心
     
     </summary>
     
