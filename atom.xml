@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-12-08T14:12:30.670Z</updated>
+  <updated>2024-12-15T15:23:32.115Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,100 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1212 - Next.js</title>
+    <link href="https://atjason.com/daily/2024-12-12.html"/>
+    <id>https://atjason.com/daily/2024-12-12.html</id>
+    <published>2024-12-12T14:00:00.000Z</published>
+    <updated>2024-12-15T15:23:32.115Z</updated>
+    
+    <content type="html"><![CDATA[<p>看完了 Next.js learn，使用 Next.js 实现一个发票系统。</p>
+<p>坦白讲，对 Next.js 不是很舒服、没有被吸引。干活是能干活的，但需要理解和记忆的东西很多。时间长了，肯定会忘记的，又要重新学习。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;看完了 Next.js learn，使用 Next.js 实现一个发票系统。&lt;/p&gt;
+&lt;p&gt;坦白讲，对 Next.js 不是很舒服、没有被吸引。干活是能干活的，但需要理解和记忆的东西很多。时间长了，肯定会忘记的，又要重新学习。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1211 - 技术落地</title>
+    <link href="https://atjason.com/daily/2024-12-11.html"/>
+    <id>https://atjason.com/daily/2024-12-11.html</id>
+    <published>2024-12-11T14:00:00.000Z</published>
+    <updated>2024-12-15T15:22:29.454Z</updated>
+    
+    <content type="html"><![CDATA[<p>给新公司装了网络，AC + AP 模式，实测角落里宽带下载也是满速。</p>
+<p>设备全放一起，接线是简单的。但要公布各个房间，单是测网络通断，都要跑来跑去。最麻烦的是装吸顶 AP，要把石膏板拆下来，打孔安装底座，再装回去，接线装 AP，上下梯子、石膏板落灰，就够呛了。</p>
+<p>一个产品，核心技术就是只占一部分，外围配套也很重要。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;给新公司装了网络，AC + AP 模式，实测角落里宽带下载也是满速。&lt;/p&gt;
+&lt;p&gt;设备全放一起，接线是简单的。但要公布各个房间，单是测网络通断，都要跑来跑去。最麻烦的是装吸顶 AP，要把石膏板拆下来，打孔安装底座，再装回去，接线装 AP，上下梯子、石膏板落灰，就够呛了。&lt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1210 - 一币两面</title>
+    <link href="https://atjason.com/daily/2024-12-10.html"/>
+    <id>https://atjason.com/daily/2024-12-10.html</id>
+    <published>2024-12-10T14:00:00.000Z</published>
+    <updated>2024-12-15T15:21:33.363Z</updated>
+    
+    <content type="html"><![CDATA[<p>没有抖音短剧游戏，广大灵活就业、充满荷尔蒙的年轻人，会干些什么呢？夜骑开封，还算是良性事件。夜走长安大道呢？</p>
+<p>单从稳定而言，这两样东西堪称百万雄兵。只是，一定标好了价格。当你希望年轻人奋进、创新、有活力时，他们依然稳定着。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;没有抖音短剧游戏，广大灵活就业、充满荷尔蒙的年轻人，会干些什么呢？夜骑开封，还算是良性事件。夜走长安大道呢？&lt;/p&gt;
+&lt;p&gt;单从稳定而言，这两样东西堪称百万雄兵。只是，一定标好了价格。当你希望年轻人奋进、创新、有活力时，他们依然稳定着。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1209 - 真正的爱好</title>
+    <link href="https://atjason.com/daily/2024-12-09.html"/>
+    <id>https://atjason.com/daily/2024-12-09.html</id>
+    <published>2024-12-09T14:00:00.000Z</published>
+    <updated>2024-12-15T15:21:04.016Z</updated>
+    
+    <content type="html"><![CDATA[<p>历史作家郭建龙：真正的爱好，真正喜欢一个东西，是你愿意承担失败后的代价，而不是说只考虑到成功之后的喜悦。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;历史作家郭建龙：真正的爱好，真正喜欢一个东西，是你愿意承担失败后的代价，而不是说只考虑到成功之后的喜悦。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1205 - 能力边界</title>
@@ -411,122 +505,6 @@
       &lt;p&gt;原来阿里云发邮件的免费额度是总计 2000 封，我还以为是每月送，白扣了这么久的钱。&lt;/p&gt;
 &lt;p&gt;一怒之下，找了个每天 300 封、每月免费 9000 封的服务，支持 API 发送，挺好用的：brevo.com&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1112 - PCDN 家庭 CDN</title>
-    <link href="https://atjason.com/daily/2024-11-12.html"/>
-    <id>https://atjason.com/daily/2024-11-12.html</id>
-    <published>2024-11-12T14:00:00.000Z</published>
-    <updated>2024-11-17T15:05:12.503Z</updated>
-    
-    <content type="html"><![CDATA[<p>测试了开放家里电脑给公网访问，发现各地的实际下载速度 &lt; 100KB/s，是电信网络。</p>
-<p>不过，可能是并发的原因。如果同时只下载一个文件，就有 6MB/s 这样的速度。</p>
-<p>另外，用量太大时，会被宽带运营商给封了。</p>
-<p>同时，也测试了 Cloudflare Tunnel、Original Rule，那就更慢了，有的节点干脆无法访问。不过，不考虑速度的话，是挺好的方案。</p>
-<p>只是简单做了个测试，家用宽带还是不适合商用的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;测试了开放家里电脑给公网访问，发现各地的实际下载速度 &amp;lt; 100KB/s，是电信网络。&lt;/p&gt;
-&lt;p&gt;不过，可能是并发的原因。如果同时只下载一个文件，就有 6MB/s 这样的速度。&lt;/p&gt;
-&lt;p&gt;另外，用量太大时，会被宽带运营商给封了。&lt;/p&gt;
-&lt;p&gt;同时，也测试了 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1111 - 卷娃的兴趣点</title>
-    <link href="https://atjason.com/daily/2024-11-11.html"/>
-    <id>https://atjason.com/daily/2024-11-11.html</id>
-    <published>2024-11-11T14:00:00.000Z</published>
-    <updated>2024-11-17T15:03:47.208Z</updated>
-    
-    <content type="html"><![CDATA[<p>211 毕业也是送外卖，上学的性价比越来越低了，还是在娃有兴趣的地方卷吧。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;211 毕业也是送外卖，上学的性价比越来越低了，还是在娃有兴趣的地方卷吧。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1107 - 老板与团队</title>
-    <link href="https://atjason.com/daily/2024-11-07.html"/>
-    <id>https://atjason.com/daily/2024-11-07.html</id>
-    <published>2024-11-07T14:00:00.000Z</published>
-    <updated>2024-11-10T14:30:08.036Z</updated>
-    
-    <content type="html"><![CDATA[<p>老板给团队战略上的安全感；<br>团队给老板战术上的安全感。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;老板给团队战略上的安全感；&lt;br&gt;团队给老板战术上的安全感。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1106 - 连环 7 问</title>
-    <link href="https://atjason.com/daily/2024-11-06.html"/>
-    <id>https://atjason.com/daily/2024-11-06.html</id>
-    <published>2024-11-06T14:00:00.000Z</published>
-    <updated>2024-11-10T14:29:37.125Z</updated>
-    
-    <content type="html"><![CDATA[<p>转自《老喻：决策算法 100 讲》</p>
-<p>判断一个决策是不是好决策，就问自己这 7 个问题：</p>
-<p><strong>第一问：我知道自己到底想要什么吗？</strong></p>
-<p>人会不知道自己想要什么？很多时候还真是。我们做某个决策，很可能是为了达到别人预期，或者去扮演某种人设，而不是真正追求自己想要的东西。这样的决策，出发点就是扭曲的，更别提成为一个好决策。</p>
-<p>你必须对自己诚实，才能回答出第一个问题。</p>
-<p><strong>第二问：我是在打自己最有希望打赢的仗吗？</strong></p>
-<p>去大概率蓬勃发展的地方，做成功概率相对大的事情。</p>
-<p>好的决策要做的不是在悬崖上攀岩，而是找到一个快速向上的电梯，然后坐上去。</p>
-<p><strong>第三问：我愿意为这个决策投入稀缺的筹码吗？</strong></p>
-<p>决策要投入你的人生资源，不止是金钱，还有时间、精力、专注。投入也还意味着机会成本，这次的投入是不是好的决策，你需要追问自己，你愿意失去别的选项吗？</p>
-<p><strong>第四问：我知道自己不能失去什么吗？</strong></p>
-<p>决策意味着不确定性，哪怕糟糕的可能性出现的概率并不高，你也要能够承受万一发生了的后果。</p>
-<p>做决策时永远记住，不要为了那些你未必非要不可的东西，失去你人生当中不能失去的东西。</p>
-<p><strong>第五问：我有“撤退路线图”吗？</strong></p>
-<p>对于那些重大的决策，你要思考退出机制，总是要有Plan B，任何时候都不要让自己失去选择权。</p>
-<p><strong>第六问：我如何在一个动态的过程中不断优化决策？</strong></p>
-<p>好的决策不是一蹴而就的，而是一步步优化、逐渐逼近的。如果一个决策不能持续优化，那大概它就没你想象中那么好。</p>
-<p><strong>第七问：我的这个决策会让我变成一个更好的人吗？</strong></p>
-<p>好的人做出好决策，而好决策塑造好的人。</p>
-<p>意识到这一点，能够让你拥有一个更加稳定的内核，而这是好决策变成现实的关键所在。</p>
-<p>如果你的决策符合以上“连环7问”，那么恭喜你，你大概率在做一个好决策。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;转自《老喻：决策算法 100 讲》&lt;/p&gt;
-&lt;p&gt;判断一个决策是不是好决策，就问自己这 7 个问题：&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;第一问：我知道自己到底想要什么吗？&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;人会不知道自己想要什么？很多时候还真是。我们做某个决策，很可能是为了达到别
     
     </summary>
     
