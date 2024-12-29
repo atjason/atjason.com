@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-12-22T14:06:46.296Z</updated>
+  <updated>2024-12-29T14:35:17.335Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,82 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1229 - 体验很重要</title>
+    <link href="https://atjason.com/daily/2024-12-29.html"/>
+    <id>https://atjason.com/daily/2024-12-29.html</id>
+    <published>2024-12-29T14:00:00.000Z</published>
+    <updated>2024-12-29T14:35:17.335Z</updated>
+    
+    <content type="html"><![CDATA[<p>只看、凭想是不够的，体验非常重要。使用过程中，会有自己真正的感受和感悟。只有通过体验，才能变成认知和能力。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;只看、凭想是不够的，体验非常重要。使用过程中，会有自己真正的感受和感悟。只有通过体验，才能变成认知和能力。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1224 - 沁恒 CHX035 MCU</title>
+    <link href="https://atjason.com/daily/2024-12-24.html"/>
+    <id>https://atjason.com/daily/2024-12-24.html</id>
+    <published>2024-12-24T14:00:00.000Z</published>
+    <updated>2024-12-29T14:34:39.301Z</updated>
+    
+    <content type="html"><![CDATA[<p>经过沁恒销售的推荐，发现 CH32X035 这颗芯片。既有足够的内存 Flash，还同时支持 PD 诱骗，引脚还比较多，非常适合现在的需求。</p>
+<p>这周主要跑通了芯片的 GPIO、ADC、TIM 定时器、中断、PWM 等功能，算了入了一半的门。</p>
+<p>接下来要搞定的环节还有挺多，比如驱动数码管、PD 诱骗、风扇 PWM 测速及驱动等。</p>
+<p><img src="https://p.nuli.life/blog/we2wqz.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;经过沁恒销售的推荐，发现 CH32X035 这颗芯片。既有足够的内存 Flash，还同时支持 PD 诱骗，引脚还比较多，非常适合现在的需求。&lt;/p&gt;
+&lt;p&gt;这周主要跑通了芯片的 GPIO、ADC、TIM 定时器、中断、PWM 等功能，算了入了一半的门。&lt;/p&gt;
+&lt;p&gt;接下来
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1223 - 循序渐进还是一步到位？</title>
+    <link href="https://atjason.com/daily/2024-12-23.html"/>
+    <id>https://atjason.com/daily/2024-12-23.html</id>
+    <published>2024-12-23T14:00:00.000Z</published>
+    <updated>2024-12-29T14:31:37.794Z</updated>
+    
+    <content type="html"><![CDATA[<p>最开始做硬件时，因为不熟悉、图方便，就用了 Arduino 进行开发。确实，相对简单、容易上手。</p>
+<p>可是，当要继续深入时，发现 Arduino 不太够用了。并且，MCU 厂商普遍把 Arduino 当玩具，基本不会提供基于此的技术支持。</p>
+<p>因此，当对芯片的使用变得深入时，就越来越遇到困难。特别是从 Air001 这颗支持 Arduino 开发的 MUC，切换到其他不支持 Arduino 的 MCU 时，还是要学习 STM32 HAL 那一套开发模式。之前想省事而学的 Arduino，反而成了沉没成本。</p>
+<p>这就是个选择：当学习一门新东西时，是先学习简单容易上手的，然后再过渡到专业且难的实现，还是直接学习后者？前者容易入门，后者总体成本低。</p>
+<p>号外：有了先驱，后来模仿者会容易很多。比如，STM32 是业界标杆，后来都在硬件和软件接口上，全面模仿，省了大量为什么、怎么做的研发阶段，直接上是什么的实现。而由于硬件引脚、软件接口都是兼容的、甚至是一致的，使用者也更容易进行替换。</p>
+<p>当然，这并不意味着一切都是容易的。相同的引脚和接口背后，是复杂未可知的实现。我觉得硬件有着反 28 定律：80% 的精力，都在补 20% corner case 的洞。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最开始做硬件时，因为不熟悉、图方便，就用了 Arduino 进行开发。确实，相对简单、容易上手。&lt;/p&gt;
+&lt;p&gt;可是，当要继续深入时，发现 Arduino 不太够用了。并且，MCU 厂商普遍把 Arduino 当玩具，基本不会提供基于此的技术支持。&lt;/p&gt;
+&lt;p&gt;因此，当对
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1218 - 产品获奖</title>
@@ -427,87 +503,6 @@
       &lt;p&gt;感觉现在做的东西太碎了，东做一点、西做一点，很难有大的成绩。如果 10 年前是这么干，倒也没什么，甚至算挺好。但放到现在，就觉得不合适了。&lt;/p&gt;
 &lt;p&gt;不过，好在是一直在做、多少都有收获。早点找到有兴趣、勉强能驾驭的大事，然后做好、做出成绩。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1119 - 国补</title>
-    <link href="https://atjason.com/daily/2024-11-19.html"/>
-    <id>https://atjason.com/daily/2024-11-19.html</id>
-    <published>2024-11-19T14:00:00.000Z</published>
-    <updated>2024-11-24T14:43:41.518Z</updated>
-    
-    <content type="html"><![CDATA[<p>为什么有国补，因为要刺激消费。用 100 的补贴，翘动 1000 的消费，让经济动起来。可买可不买、犹豫要不要买的，都买起来。</p>
-<p>这 100 从哪里来？印钱，从你我口袋里来，不管你是否知道、是否同意。</p>
-<p>如果确实需要这个东西、原本就打算买，那确实是占便宜了。占了谁的便宜？没用补贴人的便宜。</p>
-<p>GDP 数据那么好，为啥还要刺激，不怕过热吗？这个矛盾，只可意会。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;为什么有国补，因为要刺激消费。用 100 的补贴，翘动 1000 的消费，让经济动起来。可买可不买、犹豫要不要买的，都买起来。&lt;/p&gt;
-&lt;p&gt;这 100 从哪里来？印钱，从你我口袋里来，不管你是否知道、是否同意。&lt;/p&gt;
-&lt;p&gt;如果确实需要这个东西、原本就打算买，那确实是占
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1118 - QQ 小程序</title>
-    <link href="https://atjason.com/daily/2024-11-18.html"/>
-    <id>https://atjason.com/daily/2024-11-18.html</id>
-    <published>2024-11-18T14:00:00.000Z</published>
-    <updated>2024-11-24T14:42:22.997Z</updated>
-    
-    <content type="html"><![CDATA[<p>才注意到原来 QQ 也有小程序…</p>
-<p>简单试了之后发现，原来 QQ 小程序开发工具，可以直接打开微信小程序的工程，额…</p>
-<p>只做些简单的 QQ 还是微信小程序的判断，分别显示和处理，就可以出 QQ 小程序第一版了。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;才注意到原来 QQ 也有小程序…&lt;/p&gt;
-&lt;p&gt;简单试了之后发现，原来 QQ 小程序开发工具，可以直接打开微信小程序的工程，额…&lt;/p&gt;
-&lt;p&gt;只做些简单的 QQ 还是微信小程序的判断，分别显示和处理，就可以出 QQ 小程序第一版了。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1116 - Flashcard 记忆卡片</title>
-    <link href="https://atjason.com/daily/2024-11-16.html"/>
-    <id>https://atjason.com/daily/2024-11-16.html</id>
-    <published>2024-11-16T14:00:00.000Z</published>
-    <updated>2024-11-17T15:12:50.640Z</updated>
-    
-    <content type="html"><![CDATA[<p>辅导娃学习时，有这么个痛点：对于易错字、拼音，该怎么复习呢？</p>
-<p>如果每次都写一遍，肯定没这个时间；也不划算，因为有些已经慢慢变熟了。</p>
-<p>可怎么记录哪些还不熟悉、下次什么时候复习呢？</p>
-<p>市面上结合记忆曲线的，应该有很多同类软件。但我估计针对低年级学生的，尤其是字词及拼音的，不见得有。</p>
-<p>手痒，自己造了一个；结合 Cursor，几小时就出了原型。不过，在用的过程中，发现挺多要改进的地方。等慢慢完善了，再放出来给大家用吧。</p>
-<p><img src="https://p.nuli.life/blog/p291ts.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;辅导娃学习时，有这么个痛点：对于易错字、拼音，该怎么复习呢？&lt;/p&gt;
-&lt;p&gt;如果每次都写一遍，肯定没这个时间；也不划算，因为有些已经慢慢变熟了。&lt;/p&gt;
-&lt;p&gt;可怎么记录哪些还不熟悉、下次什么时候复习呢？&lt;/p&gt;
-&lt;p&gt;市面上结合记忆曲线的，应该有很多同类软件。但我估计针对
     
     </summary>
     
