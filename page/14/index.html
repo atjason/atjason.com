@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-07-24.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-10-01.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-07-24.html" itemprop="url">
-                  0724 - 交易并不是线性的
+                <a class="post-title-link" href="/daily/2024-10-01.html" itemprop="url">
+                  1001 - 优化 K 线回测工具
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-07-24T22:00:00+08:00">
-                2024-07-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-10-01T22:00:00+08:00">
+                2024-10-01
               </time>
             
 
@@ -365,9 +365,13 @@
       
         
           
-            <p>交易并不是线性的，而是一波一波的。一旦一波没抓住，对盈亏结果影响很大。</p>
-<p>日常交易是平淡的；在长期平淡的交易中，能保证最终盈利，并不容易。</p>
-<p>而一旦能抓住大的波动，收益巨大。日常平淡的交易中，可以少交易，甚至不交易也可以，还能节约、释放时间。</p>
+            <p>优化 K 线回测工具，增加了几个小功能：</p>
+<p><img src="https://p.nuli.life/blog/tg02wh.webp" alt=""></p>
+<ul>
+<li>K 线下方加编号</li>
+<li>回顾模式下，切换天时，保持回顾模式</li>
+</ul>
+<p><a href="https://t.1g1.top/" target="_blank" rel="external">https://t.1g1.top/</a></p>
 
           
         
@@ -411,7 +415,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-07-23.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-09-30.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -433,8 +437,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-07-23.html" itemprop="url">
-                  0723 - 开发小米手环 App
+                <a class="post-title-link" href="/daily/2024-09-30.html" itemprop="url">
+                  0930 - Type C 插头问题
                 </a>
               
             
@@ -450,8 +454,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-07-23T22:00:00+08:00">
-                2024-07-23
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-09-30T22:00:00+08:00">
+                2024-09-30
               </time>
             
 
@@ -509,15 +513,12 @@
       
         
           
-            <p>花了点时间，研究开发小米手环 App，主要还是因为自己一个需求。</p>
-<p>发现小米手环 7，用的是华米的 Zepp OS；后来小米和华米崩了之后，从 8 开始，用的是 Vela 系统。</p>
-<p>我先是研究了 Vela 系统，感觉开发还挺便利。发现不同后，由于我的手环是 7，就又研究了 Zepp OS，发现它的开发明显不如 Vela 友好，我甚至折腾半天都无法运行模拟器。再加上华米的发展不顺利，会直接影响在开发上的投入，比如开发文档已经快一年没更新了，模拟器无法运行问题，估计也没什么资源投入去修复。</p>
-<p>算了，不想在这上面太花时间，还是拥抱更容易开发、且后续发展有保障的 Vela 吧，就下单了刚发布的小米手环 9…主要是正好现在的 7 有莫名其妙的问题，比如倒计时中途停止、早上闹钟不响，待机时间也明显变短。</p>
-<p>收到小米手环 9 后，折腾了一下，可以安装程序到手环，这感觉很棒！</p>
-<p>可惜，手机息屏后，倒计时就不工作了，再研究下。</p>
-<p>研究后发现，即使使用 Vela 的后台功能，也不能保证运行。倒是可以使屏幕常亮来保持小程序运行，但手盖在屏幕上就息屏了，不可靠。</p>
-<p>回过头来看，Zepp OS 倒是支持无 UI 模式运行，并支持以通知的形式提醒，伴随震动。这倒是符合要求。但是，貌似并不支持小米手环 7。哎，二等公民。</p>
-<p>算了，先不折腾了。</p>
+            <p>今天遇到问题：电路一段时间后不工作。</p>
+<p>开始时，以为是电路待机电流小，导致充电头不放电。类似于充电宝的保护电路。可是，按道理插头连着市电，不需要担心小电流持续放电问题。</p>
+<p>排查过程发现，Type C 插头很烫，这才发现问题。</p>
+<p>分析原因，可能是使用了便宜的 Type C 母座及电源线，接触不良、接触电阻大，使得在长时间、大电流工作时，接头部分产生大量的热量，进而导致元件受热变形、不接触，最终断电。</p>
+<p>出现这种问题时，插拔一下电源就又能工作了。这个原因，也符合这一现象。</p>
+<p>解决办法：换好的接插件；降低功耗及电流。</p>
 
           
         
@@ -561,7 +562,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-07-22.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-09-26.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -583,8 +584,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-07-22.html" itemprop="url">
-                  0722 - 延迟退休
+                <a class="post-title-link" href="/daily/2024-09-26.html" itemprop="url">
+                  0926 - AirPods Pro 耳机丢了
                 </a>
               
             
@@ -600,8 +601,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-07-22T22:00:00+08:00">
-                2024-07-22
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-09-26T22:00:00+08:00">
+                2024-09-26
               </time>
             
 
@@ -659,10 +660,15 @@
       
         
           
-            <p>延迟退休，并不是工作到 65（到时哪有单位要这么大的工人；50 岁，保安、保姆都当不上），而是延迟到 65 才开始领退休金。</p>
-<p>一边是失业潮，一边强制让上班；年轻人没工作、不交保险，拿什么钱给老人发呢。</p>
-<p>所以，事实上是，年纪大的、工资高的，慢慢被辞退，没工作、还不到领钱的年纪；同时，工作机会让给便宜的年轻人。</p>
-<p>经济未来相当长时间都不会太好，做好心理和实际准备吧。</p>
+            <p>记录一下这件事吧。</p>
+<p>上午 9 点左右，在公司楼下丢了耳机。11 点左右发现，去楼下已经找不到了。问了保洁、工作人员，也都说没找到、找到了联系我。</p>
+<p>下午 3 点左右，苹果 Find My 提醒，耳机在 12 公里外上线。具体的，能定位到某个小区、几号楼、几单元。这时，基本可以确定，是被人捡走不还了。</p>
+<p>第二天去物业查监控，找到了捡耳机的人。也报警了，警察说，如果有清晰的人脸，有可能找到人。可惜监控不清晰…</p>
+<p><strong>这里补充个细节，我打 110 之后，大概 1~2 分钟，警察就出现在我面前了，给这个速度点赞。</strong></p>
+<p>理论上讲，有大致清晰的人脸，肯定是能找到人的。即使不清晰，顺藤摸瓜，总是能找到的。只是，金额太小，不够立案，警察明显不上心。如果我是国际友人，可能已经拿到耳机了…</p>
+<p>明天打算去耳机定位的单元贴张纸条，看捡到的人是否愿意归还。如果对方不还，到此为止，认倒霉。</p>
+<p>另外，不要轻易干坏事，现在的监控、人脸识别这么厉害，要定位到人太容易了，只是愿不愿意、成本的问题。</p>
+<p>再介绍下定位的细节。耳机本身是没办法上传位置的，应该是通过耳机周围的苹果设备上传的。而如果耳机未被使用、或耳机没电，自然无法上传位置。至于耳机能否被重置，我还不太了解。</p>
 
           
         
@@ -706,7 +712,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-07-20.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-09-24.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -728,8 +734,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-07-20.html" itemprop="url">
-                  0720 - 雷军 2024 发布会
+                <a class="post-title-link" href="/daily/2024-09-24.html" itemprop="url">
+                  0924 - 打车软件的鸡贼
                 </a>
               
             
@@ -745,8 +751,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-07-20T22:00:00+08:00">
-                2024-07-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-09-24T22:00:00+08:00">
+                2024-09-24
               </time>
             
 
@@ -804,11 +810,9 @@
       
         
           
-            <p>这两天看了雷军 2024 发布会，还是挺燃的。</p>
-<p>尤其有一点，人到中年、功成名就，还有勇气赌上所有，进入汽车这一全新、更高难度的领域，并且首战告捷，真心佩服（当然，毕竟精力有限，他在介绍汽车之外的产品时，明显不给力、力不从心）。</p>
-<p>再想想不被招聘市场欢迎的 35 岁以上的中年人，更有感触。</p>
-<p>努力，永远不会晚；但越晚起步，越难、容错空间越小。</p>
-<p>人生能有几回搏。抓住中年的尾巴，再博一把。</p>
+            <p>Uber 打车的一个算法是，如果你的手机快没电了，它就会显示更高的价格。</p>
+<p>想想很有道理：手机快没电了，你肯定很着急，也就愿意出更高价格。</p>
+<p>这只是一个方面，类似的因素应该还有很多。</p>
 
           
         
@@ -852,7 +856,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-07-19.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-09-23.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -874,8 +878,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-07-19.html" itemprop="url">
-                  0719 - 这周的交易，不如预期
+                <a class="post-title-link" href="/daily/2024-09-23.html" itemprop="url">
+                  0923 - 选择后的努力
                 </a>
               
             
@@ -891,8 +895,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-07-19T22:00:00+08:00">
-                2024-07-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-09-23T22:00:00+08:00">
+                2024-09-23
               </time>
             
 
@@ -950,10 +954,10 @@
       
         
           
-            <p>不过，我很平静，并不觉得沮丧。</p>
-<p>我认真记录每笔交易，交易的理由是什么、持仓时的心态如何、最后为什么平仓。</p>
-<p>对比当天的实盘和复盘，差异巨大。眼到手不到，这是目前主要的问题。</p>
-<p>没关系，认识到问题就好。这东西就是磨，多练就好。既然打算交易做一辈子，花上一两年、甚至十年来学习，都是值得的。</p>
+            <p>选择（或放弃）决定了做对的事情，努力决定了把事情做对。</p>
+<p>选择比努力更重要。但是选择之后还是要努力。</p>
+<p>对的选择之后的努力，因为比较无聊，比较隐形，很多时候反而更难。</p>
+<p>比方说，不少人要去跑戈壁，各种悲壮和感动，但却无法坚持每天晚上在小区里跑两圈。</p>
 
           
         
@@ -992,7 +996,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/13/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><span class="page-number current">14</span><a class="page-number" href="/page/15/">15</a><span class="space">&hellip;</span><a class="page-number" href="/page/619/">619</a><a class="extend next" rel="next" href="/page/15/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/13/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><span class="page-number current">14</span><a class="page-number" href="/page/15/">15</a><span class="space">&hellip;</span><a class="page-number" href="/page/622/">622</a><a class="extend next" rel="next" href="/page/15/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1037,7 +1041,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">3095</span>
+                <span class="site-state-item-count">3106</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1151,7 +1155,7 @@
         <div class="copyright" >
   
   &copy;  2011 - 
-  <span itemprop="copyrightYear">2024</span>
+  <span itemprop="copyrightYear">2025</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>

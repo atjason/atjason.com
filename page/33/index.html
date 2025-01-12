@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-19.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-31.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-19.html" itemprop="url">
-                  0119 - 拥抱趋势
+                <a class="post-title-link" href="/daily/2024-01-31.html" itemprop="url">
+                  0131 - SwiftUI Drap & Drop
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-19T22:00:00+08:00">
-                2024-01-19
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-31T22:00:00+08:00">
+                2024-01-31
               </time>
             
 
@@ -365,10 +365,13 @@
       
         
           
-            <p>美股创新高，我的净值也创新高。</p>
-<p>拥抱趋势，做趋势的跟随者。</p>
-<p>当然，好处有，代价也有。有趋势时吃鱼身，震荡时两边挨巴掌。</p>
-<p>对比大 A，会发现：交易第一步，选择好的标的。</p>
+            <p>看一遍接口文档：</p>
+<ul>
+<li><a href="https://developer.apple.com/documentation/swiftui/drag-and-drop" target="_blank" rel="external">https://developer.apple.com/documentation/swiftui/drag-and-drop</a></li>
+<li><a href="https://developer.apple.com/design/human-interface-guidelines/patterns/drag-and-drop" target="_blank" rel="external">Drag and drop in the Human Interface Guidelines</a></li>
+</ul>
+<p>尝试让 SwiftData @Model 支持 Codable、Transferable，但遇到很诡异的问题：在 encode 时，读取 Model 的属性时，直接卡死，无任何异常。</p>
+<p>换了种方式，拖拽时传递的不是 Model，而是 PersistentIdentifier。接收方通过 ModelContext，使用这一 ID 拿到 Model。多了一个取的过程，也许会增加开销，但至少工作了。并且，Model 不需要做任何修改。</p>
 
           
         
@@ -412,7 +415,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-16.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-30.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -434,8 +437,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-16.html" itemprop="url">
-                  0121 - 折腾 SwiftData
+                <a class="post-title-link" href="/daily/2024-01-30.html" itemprop="url">
+                  0130 - 消费是经济的动力
                 </a>
               
             
@@ -451,8 +454,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-16T22:00:00+08:00">
-                2024-01-16
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-30T22:00:00+08:00">
+                2024-01-30
               </time>
             
 
@@ -510,10 +513,9 @@
       
         
           
-            <p>这周花了比较多的时间，折腾 iDone；包括定义数据结构、研究树形数据的显示、Undo/Redo。</p>
-<p>很遗憾，这几件事有进展，但都没完全搞定。</p>
-<p>多方面原因吧。自己手生，SwiftUI &amp; SwiftData &amp; CloudKit 本身繁杂，SwiftData 有 Bug，等等。</p>
-<p>希望下周把这这些部分搞定，iDone 就有基本的框架了。之后，慢慢填充 UI、优化体验细节。</p>
+            <p>曾经鄙视 M 国寅吃卯粮、提前消费，现在鼓励百姓有钱要花。</p>
+<p>当初踩得有多狠，现在拉起来就有多难。</p>
+<p>谁都不傻，没有绝对正确，只是当时当地的最佳选择，批评容易暴露浅薄。</p>
 
           
         
@@ -557,7 +559,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-15.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-29.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -579,8 +581,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-15.html" itemprop="url">
-                  0115 - 老了做什么？
+                <a class="post-title-link" href="/daily/2024-01-29.html" itemprop="url">
+                  0129 - SwiftUI for macOS 监听键盘整件的几种方式
                 </a>
               
             
@@ -596,8 +598,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-15T22:00:00+08:00">
-                2024-01-15
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-29T22:00:00+08:00">
+                2024-01-29
               </time>
             
 
@@ -655,9 +657,17 @@
       
         
           
-            <p>最近在学 SwiftData，刷到一个视频，觉得讲得不错。定睛一看，是位须发皆白的老爷爷，目测七十有余。</p>
-<p>我之前时不时焦虑，我这把年纪，去学新技术，和小伙子拼，想想都难受…现在来看，老爷爷给我这中年人上课，惭愧啊。</p>
-<p>不焦虑了。人生是场长跑，不必太过在意一时一地的得失。努力活成老爷爷，耳聪目明，能学新技术，给年轻人当讲师。💪</p>
+            <ol>
+<li><p><code>View.onKeyPress</code>. 理论上，这是最合适的。但实际用下来，发现并不能识别比如 upArrow/downArrow 这些特殊的 Key. 虽然看起来可以在代码中指定这些 KeyEquivalent，但实际上并不工作。</p>
+</li>
+<li><p><code>View.onAppear { NSEvent.addLocalMonitorForEvents }</code>. 这个方法的问题是，如果多个 View 同时保活，则会被调用多次。如果使用类似单例的方式，又会丢失唤醒整件的上下文信息。</p>
+</li>
+<li><p><code>Button.keyboardShortcut</code>. 创建一个 Button 并隐藏起来，同时支持快捷键唤醒。目前来看，这是最能支持 View 级快捷键的方式。但使用隐藏 View 的方式不优雅。且如果是 List 中每个 View 都增加一堆 Button 来实现一系列快捷键，想想也是很浪费资源的做法。并且，隐藏后 .delete 就不能响应了，目前不知道其他快捷键是否有类似的问题。</p>
+</li>
+<li><p>通过 <code>Commands menu</code> 中的快捷键，本质还是 Button 的快捷键。但这失去了上下文关联，需要再通过 Context 之类的方法中转信息。</p>
+</li>
+</ol>
+<p>哎，目前还没找到最合适的方式。</p>
 
           
         
@@ -701,7 +711,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-14.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-28.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -723,8 +733,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-14.html" itemprop="url">
-                  0114 - iDone
+                <a class="post-title-link" href="/daily/2024-01-28.html" itemprop="url">
+                  0128 - iDone 初步完成页面框架
                 </a>
               
             
@@ -740,8 +750,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-14T22:00:00+08:00">
-                2024-01-14
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-28T22:00:00+08:00">
+                2024-01-28
               </time>
             
 
@@ -799,11 +809,10 @@
       
         
           
-            <p>学习最好结合实践。这次学 SwiftUI &amp; SwiftData，打算做个人 Todo 应用。</p>
-<p>这是我高频使用的应用，目前使用的是 Focus，挺满意的，除了同步不太靠谱。 最重要的一个特性，是无极子任务，对我很方便。</p>
-<p>打算做个简化版的 Focus；从另一个角度讲，接触系统的 Reminders，但增加无极子任务功能。</p>
-<p>搞事情，从注册域名开始 😂</p>
-<p><a href="https://iDone.app" target="_blank" rel="external">https://iDone.app</a></p>
+            <p>基本实现 Project、Tag、Filter 的无限层级显示，形成基本的页面框架。</p>
+<p>不过，问题还是很多。比如，可能是数据绑定使用不当，即使数量量不大时，页面切换比较弱卡顿，导致添加后的任务显示不出来、删除任务后也不能正确切换到相邻的任务。</p>
+<p>并且，还没搞定页面的事件处理，网上搜索也没找到合适的答案。目前，暂用隐藏 Button 的方式实现。NavigationView 多页面的 Life cycle，比预想的要复杂。多页面切换时，多个页面是同时保活的，但页面自己并不知道，当前是否在最前。</p>
+<p>总之，问题还挺多。</p>
 
           
         
@@ -847,7 +856,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-13.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-27.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -869,8 +878,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-13.html" itemprop="url">
-                  0113 - 学习 SwiftUI & SwiftData
+                <a class="post-title-link" href="/daily/2024-01-27.html" itemprop="url">
+                  0127 - 重拾 App 开发
                 </a>
               
             
@@ -886,8 +895,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-13T22:00:00+08:00">
-                2024-01-13
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-27T22:00:00+08:00">
+                2024-01-27
               </time>
             
 
@@ -945,11 +954,8 @@
       
         
           
-            <p><strong>只是学习，很容易产生虚假的满足、时不时的空虚和焦虑</strong>。</p>
-<p>虚假的满足，是指看似学到了很多东西这，尤其感觉能组合出很多新东西。再学习的劳累，容易产生付出后的满足。</p>
-<p>时不时的空虚焦虑：我学这有用吗？别人都是专家了、我还在学 ABC 啊？这么大把年纪还在学这么基础的东西，就出去多丢人啊？</p>
-<p>创造、尽快卖钱。</p>
-<p><strong>能卖钱的硬东西，才能打碎这些情绪。</strong></p>
+            <p>好久没做 App 开发，拾起来有点难。</p>
+<p>这次拾起来，一段时间不准备放下了。</p>
 
           
         
@@ -988,7 +994,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/32/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/32/">32</a><span class="page-number current">33</span><a class="page-number" href="/page/34/">34</a><span class="space">&hellip;</span><a class="page-number" href="/page/619/">619</a><a class="extend next" rel="next" href="/page/34/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/32/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/32/">32</a><span class="page-number current">33</span><a class="page-number" href="/page/34/">34</a><span class="space">&hellip;</span><a class="page-number" href="/page/622/">622</a><a class="extend next" rel="next" href="/page/34/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1033,7 +1039,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">3095</span>
+                <span class="site-state-item-count">3106</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1147,7 +1153,7 @@
         <div class="copyright" >
   
   &copy;  2011 - 
-  <span itemprop="copyrightYear">2024</span>
+  <span itemprop="copyrightYear">2025</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>

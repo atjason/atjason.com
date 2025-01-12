@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2024-12-29T14:35:17.335Z</updated>
+  <updated>2025-01-12T14:17:27.161Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,293 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0112 - 加热模块</title>
+    <link href="https://atjason.com/daily/2025-01-12.html"/>
+    <id>https://atjason.com/daily/2025-01-12.html</id>
+    <published>2025-01-12T14:00:00.000Z</published>
+    <updated>2025-01-12T14:17:27.161Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i0.wp.com/pic1.imgdb.cn/item/6783cecdd0e0a243d4f3b12f.png" alt=""></p>
+<p>做了加热控制器及外壳，可以形成一个模块。进而，可以方便地在不同地方进行原型测试，比如放在一个箱子顶上。</p>
+<p>实际，淘宝上的差不多功能的 PID 控制器，卖 200 多…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i0.wp.com/pic1.imgdb.cn/item/6783cecdd0e0a243d4f3b12f.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;做了加热控制器及外壳，可以形成一个模块。进而，可以方便地在不同地方进行原型测试，比如放在一
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0111 - GD32E230C8T6 MCU</title>
+    <link href="https://atjason.com/daily/2025-01-11.html"/>
+    <id>https://atjason.com/daily/2025-01-11.html</id>
+    <published>2025-01-11T14:00:00.000Z</published>
+    <updated>2025-01-12T14:16:05.450Z</updated>
+    
+    <content type="html"><![CDATA[<p>经销售推荐，了解到 GD32E230C8T6 这款芯片，好像出货量很大，比较稳定可靠，价格也不高，在 1.5~2 元左右。不过，考虑到引脚多，焊点费要再加 0.5。</p>
+<p>基本跑通了 GD32E230 的 macOS + VSCode 开发环境。通过导出再导入，可以将项目导入至 EIDE 中，又回来了自己较为熟悉的开发流程。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;经销售推荐，了解到 GD32E230C8T6 这款芯片，好像出货量很大，比较稳定可靠，价格也不高，在 1.5~2 元左右。不过，考虑到引脚多，焊点费要再加 0.5。&lt;/p&gt;
+&lt;p&gt;基本跑通了 GD32E230 的 macOS + VSCode 开发环境。通过导出再导入，可以
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0110 - PCB 布线的教学视频</title>
+    <link href="https://atjason.com/daily/2025-01-10.html"/>
+    <id>https://atjason.com/daily/2025-01-10.html</id>
+    <published>2025-01-10T14:00:00.000Z</published>
+    <updated>2025-01-12T14:15:14.494Z</updated>
+    
+    <content type="html"><![CDATA[<p>看了些 PCB 布线的教学视频，还是学到了点东西，比如快捷键、一些小规则等等。</p>
+<p>开心，进一寸有一寸的欢喜。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;看了些 PCB 布线的教学视频，还是学到了点东西，比如快捷键、一些小规则等等。&lt;/p&gt;
+&lt;p&gt;开心，进一寸有一寸的欢喜。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0109 - 芯片的 Flash 读写</title>
+    <link href="https://atjason.com/daily/2025-01-09.html"/>
+    <id>https://atjason.com/daily/2025-01-09.html</id>
+    <published>2025-01-09T14:00:00.000Z</published>
+    <updated>2025-01-12T14:14:38.227Z</updated>
+    
+    <content type="html"><![CDATA[<p>原来，Flash 并不是刷完固件后就不能写，代码也是可以写、可以用这部分空间的。</p>
+<p>只是，Flash 前面的部分存储的是运行代码。作为配置的数据，得存储在接近末尾的地方，以避免被覆盖。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;原来，Flash 并不是刷完固件后就不能写，代码也是可以写、可以用这部分空间的。&lt;/p&gt;
+&lt;p&gt;只是，Flash 前面的部分存储的是运行代码。作为配置的数据，得存储在接近末尾的地方，以避免被覆盖。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0108 - 无线调试器</title>
+    <link href="https://atjason.com/daily/2025-01-08.html"/>
+    <id>https://atjason.com/daily/2025-01-08.html</id>
+    <published>2025-01-08T14:00:00.000Z</published>
+    <updated>2025-01-12T14:13:53.203Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://i2.wp.com/pic1.imgdb.cn/item/6783ce0fd0e0a243d4f3b0f8.png" alt=""></p>
+<p>发现无线调试器这个好东西，好处多多：</p>
+<ul>
+<li>不用线，可以一定距离内远程下载固件、查看串口输出。</li>
+<li>隔离设备电源和电脑 USB，避免意外高电压风险。同时，避免不同电源带来的问题。</li>
+<li>调试多个设备时，不用来回接线。</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;https://i2.wp.com/pic1.imgdb.cn/item/6783ce0fd0e0a243d4f3b0f8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;发现无线调试器这个好东西，好处多多：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;不用线，可以一定距离内远程
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0107 - 大量持有货币资产的认知基础</title>
+    <link href="https://atjason.com/daily/2025-01-07.html"/>
+    <id>https://atjason.com/daily/2025-01-07.html</id>
+    <published>2025-01-07T14:00:00.000Z</published>
+    <updated>2025-01-12T14:12:43.453Z</updated>
+    
+    <content type="html"><![CDATA[<p>大量持有货币资产的认知基础：</p>
+<p>全世界都在放水扩债，资产一定会贬值，也就是价格上涨、通货膨胀。只能跟着一起膨胀、甚至上杠杆。否则，不是受益者，就是买单者。</p>
+<p>就像国补消费，补贴从哪来、谁在买单？没用国补买东西的人。这是被裹挟、不得不参与的游戏。</p>
+<p>就像之前房价上涨，对，确实是泡沫、确实不正常、确实道德不正确。可如果不买，买房的人享受到的资产增值，就是从没买房人的口袋里掏的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大量持有货币资产的认知基础：&lt;/p&gt;
+&lt;p&gt;全世界都在放水扩债，资产一定会贬值，也就是价格上涨、通货膨胀。只能跟着一起膨胀、甚至上杠杆。否则，不是受益者，就是买单者。&lt;/p&gt;
+&lt;p&gt;就像国补消费，补贴从哪来、谁在买单？没用国补买东西的人。这是被裹挟、不得不参与的游戏。&lt;/p
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0106 - 焊接 QFN28 封装</title>
+    <link href="https://atjason.com/daily/2025-01-06.html"/>
+    <id>https://atjason.com/daily/2025-01-06.html</id>
+    <published>2025-01-06T14:00:00.000Z</published>
+    <updated>2025-01-12T14:11:53.606Z</updated>
+    
+    <content type="html"><![CDATA[<p>第一次焊接 QFN28 封装，芯片是 CH32X035G8U6，折腾了 3 次，最后成功。</p>
+<p><img src="https://i1.wp.com/pic1.imgdb.cn/item/6783cd92d0e0a243d4f3b0d3.png" alt=""></p>
+<ul>
+<li><p>先涂上焬膏，用电烙铁过一遍，给引脚涂上锡。</p>
+<ul>
+<li>注意不要在中间的地区域涂过多的焬，不然会把芯片顶起来。</li>
+</ul>
+</li>
+<li><p>放上芯片，热风枪加热。可以用镊子轻轻压一压芯片。</p>
+</li>
+<li><p>最后，保险一点，可以用电烙铁过一圈四周引脚。</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;第一次焊接 QFN28 封装，芯片是 CH32X035G8U6，折腾了 3 次，最后成功。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i1.wp.com/pic1.imgdb.cn/item/6783cd92d0e0a243d4f3b0d3.png&quot; alt=&quot;&quot;&gt;
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0102 - 捷配免费打板 PCB</title>
+    <link href="https://atjason.com/daily/2025-01-02.html"/>
+    <id>https://atjason.com/daily/2025-01-02.html</id>
+    <published>2025-01-02T14:00:00.000Z</published>
+    <updated>2025-01-05T14:04:30.007Z</updated>
+    
+    <content type="html"><![CDATA[<p>首次在捷配免费打板 PCB。</p>
+<p>因为嘉立创只支持立创 EDA 生成资料的免费打板，不得已试了下捷配；多个朋友多条路 😂</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;首次在捷配免费打板 PCB。&lt;/p&gt;
+&lt;p&gt;因为嘉立创只支持立创 EDA 生成资料的免费打板，不得已试了下捷配；多个朋友多条路 😂&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0101 - 2025</title>
+    <link href="https://atjason.com/daily/2025-01-01.html"/>
+    <id>https://atjason.com/daily/2025-01-01.html</id>
+    <published>2025-01-01T14:00:00.000Z</published>
+    <updated>2025-01-05T14:03:40.453Z</updated>
+    
+    <content type="html"><![CDATA[<p>更加珍惜自己的时间精力；</p>
+<p>做更少的事，做得更好。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;更加珍惜自己的时间精力；&lt;/p&gt;
+&lt;p&gt;做更少的事，做得更好。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1231 - PD 诱骗</title>
+    <link href="https://atjason.com/daily/2024-12-31.html"/>
+    <id>https://atjason.com/daily/2024-12-31.html</id>
+    <published>2024-12-31T14:00:00.000Z</published>
+    <updated>2025-01-05T14:10:06.024Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天折腾了 PD 诱骗。</p>
+<p>先是使用 CHX035 芯片，使用示例代码，实现协议握手，进而诱骗取电。可实际测试发现，有比较大的兼容性问题。有的充电头能取电成功，有的则不行。</p>
+<p>考虑到实现协议的代码量、测试设备的覆盖，放弃这条路。</p>
+<p>沁恒有封装好的取电芯片，比如 CH224，无奈价格太高，要 1.3 每片，使用也不是非常方便。</p>
+<p>又在网上找了一圈，目前发现 FS312B 这颗料比较符合：无需芯片参与，一颗电阻，自动取最大的电压，很是方便，价格也不高，0.45。</p>
+<p>找原厂拿到测试样板，把公司所有 C 口充电头测试一遍，都能诱骗成功，好用。</p>
+<p>只是，高功率的 C 口电源太贵了…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天折腾了 PD 诱骗。&lt;/p&gt;
+&lt;p&gt;先是使用 CHX035 芯片，使用示例代码，实现协议握手，进而诱骗取电。可实际测试发现，有比较大的兼容性问题。有的充电头能取电成功，有的则不行。&lt;/p&gt;
+&lt;p&gt;考虑到实现协议的代码量、测试设备的覆盖，放弃这条路。&lt;/p&gt;
+&lt;p&gt;沁恒有
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>1230 - 硬件小工具</title>
+    <link href="https://atjason.com/daily/2024-12-30.html"/>
+    <id>https://atjason.com/daily/2024-12-30.html</id>
+    <published>2024-12-30T14:00:00.000Z</published>
+    <updated>2025-01-05T14:09:09.607Z</updated>
+    
+    <content type="html"><![CDATA[<p>做了两个工具小板，可以直插到面包板上。分别是 3.3V/5V LDO、三极管/NMOS/PMOS 开关。</p>
+<p><img src="http://oss.suning.com/mbap/mbapbk/881ab4f49f0acc5513d9d324244ddab1.png" alt=""></p>
+<p><img src="http://oss.suning.com/mbap/mbapbk/c5e6da6a7280e473ac91675260199310.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;做了两个工具小板，可以直插到面包板上。分别是 3.3V/5V LDO、三极管/NMOS/PMOS 开关。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://oss.suning.com/mbap/mbapbk/881ab4f49f0acc5513d9d324244ddab1.
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>1229 - 体验很重要</title>
@@ -230,278 +517,6 @@
     
       &lt;p&gt;没有抖音短剧游戏，广大灵活就业、充满荷尔蒙的年轻人，会干些什么呢？夜骑开封，还算是良性事件。夜走长安大道呢？&lt;/p&gt;
 &lt;p&gt;单从稳定而言，这两样东西堪称百万雄兵。只是，一定标好了价格。当你希望年轻人奋进、创新、有活力时，他们依然稳定着。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1209 - 真正的爱好</title>
-    <link href="https://atjason.com/daily/2024-12-09.html"/>
-    <id>https://atjason.com/daily/2024-12-09.html</id>
-    <published>2024-12-09T14:00:00.000Z</published>
-    <updated>2024-12-15T15:21:04.016Z</updated>
-    
-    <content type="html"><![CDATA[<p>历史作家郭建龙：真正的爱好，真正喜欢一个东西，是你愿意承担失败后的代价，而不是说只考虑到成功之后的喜悦。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;历史作家郭建龙：真正的爱好，真正喜欢一个东西，是你愿意承担失败后的代价，而不是说只考虑到成功之后的喜悦。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1205 - 能力边界</title>
-    <link href="https://atjason.com/daily/2024-12-05.html"/>
-    <id>https://atjason.com/daily/2024-12-05.html</id>
-    <published>2024-12-05T14:00:00.000Z</published>
-    <updated>2024-12-08T14:12:30.670Z</updated>
-    
-    <content type="html"><![CDATA[<p>跟朋友聊了他的想法和项目，更加明确了自己的能力边界，继续在自己的领域里努力吧。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;跟朋友聊了他的想法和项目，更加明确了自己的能力边界，继续在自己的领域里努力吧。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1204 - 踩坑星坤 TypeC 母座</title>
-    <link href="https://atjason.com/daily/2024-12-04.html"/>
-    <id>https://atjason.com/daily/2024-12-04.html</id>
-    <published>2024-12-04T14:00:00.000Z</published>
-    <updated>2024-12-08T14:10:20.766Z</updated>
-    
-    <content type="html"><![CDATA[<p>星坤的 Type C 母座并不是对称设计的，只在一边有地线，导致插头晃动时，接触不良、电阻大。</p>
-<p><img src="https://p.nuli.life/blog/a25mxw.png" alt=""></p>
-<p>跟立创商城的数据手册对比，发现货不对板：图上是一边各 3 个触点。并且，引脚还标错了…</p>
-<p>跟原厂交涉过程，他们说，他们之前就是不对称的，现在只是升级了。但是，我现在在立创商城买的插头，是24的。而立创商城手册是对称的，同样货不对板。</p>
-<p>对比友商，不仅是对称的，弹片的设计也更合理，不容易因为插拔次数多、或温度长高而导致接触不良。</p>
-<p><img src="https://p.nuli.life/blog/hfzxnw.png" alt=""></p>
-<p>哎，不说了，换。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;星坤的 Type C 母座并不是对称设计的，只在一边有地线，导致插头晃动时，接触不良、电阻大。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/a25mxw.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;跟立创商城的数据手册对比，发现货不对板：
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1203 - 静待花开？</title>
-    <link href="https://atjason.com/daily/2024-12-03.html"/>
-    <id>https://atjason.com/daily/2024-12-03.html</id>
-    <published>2024-12-03T14:00:00.000Z</published>
-    <updated>2024-12-08T14:08:56.087Z</updated>
-    
-    <content type="html"><![CDATA[<p>村上春树 1979年 写了《且听风吟》。书中说：静待花开。</p>
-<p>自写出这句话后的 44 年，写了 44 本书。</p>
-<p>哪有什么静待花开，只有持续不断的努力。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;村上春树 1979年 写了《且听风吟》。书中说：静待花开。&lt;/p&gt;
-&lt;p&gt;自写出这句话后的 44 年，写了 44 本书。&lt;/p&gt;
-&lt;p&gt;哪有什么静待花开，只有持续不断的努力。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1202 - 修改 macOS 的程序图标</title>
-    <link href="https://atjason.com/daily/2024-12-02.html"/>
-    <id>https://atjason.com/daily/2024-12-02.html</id>
-    <published>2024-12-02T14:00:00.000Z</published>
-    <updated>2024-12-08T14:01:24.170Z</updated>
-    
-    <content type="html"><![CDATA[<p>使用 NSDockTile，可以在运行时修改 Dock 栏图标；硬盘中 App 的图标并未修改，程序退出后，Dock 栏图标回退。Electron 中修改图标，就是这么做的。</p>
-<p>使用 NSDockTilePlugin，可以几乎完美修改 Dock 图标，程序退出也显示修改后的。但其实是创建 Dock 的 Plugin，会弹系统通知。</p>
-<p>相比于 iOS 很自由地修改图标，macOS 不如狗啊…</p>
-<p>开源示例项目： <a href="https://github.com/dagronf/DSFDockTile" target="_blank" rel="external">https://github.com/dagronf/DSFDockTile</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;使用 NSDockTile，可以在运行时修改 Dock 栏图标；硬盘中 App 的图标并未修改，程序退出后，Dock 栏图标回退。Electron 中修改图标，就是这么做的。&lt;/p&gt;
-&lt;p&gt;使用 NSDockTilePlugin，可以几乎完美修改 Dock 图标，程序退出也
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1128 - 重启 iDone 开发</title>
-    <link href="https://atjason.com/daily/2024-11-28.html"/>
-    <id>https://atjason.com/daily/2024-11-28.html</id>
-    <published>2024-11-28T14:00:00.000Z</published>
-    <updated>2024-12-01T15:00:51.917Z</updated>
-    
-    <content type="html"><![CDATA[<p>又续费了 iDone.app 域名…准备重启这个 Todo App 的开发，做自己用的软件。</p>
-<p>这几天试用了 Godspeed，感觉挺好的，这要是我开发的多好…甚至感到沮丧；它做了太多我想做的东西，我还要继续做 iDone 吗？做成什么样子呢？</p>
-<p>不管了，先动起来，做个样子再说，边用边想。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;又续费了 iDone.app 域名…准备重启这个 Todo App 的开发，做自己用的软件。&lt;/p&gt;
-&lt;p&gt;这几天试用了 Godspeed，感觉挺好的，这要是我开发的多好…甚至感到沮丧；它做了太多我想做的东西，我还要继续做 iDone 吗？做成什么样子呢？&lt;/p&gt;
-&lt;p&gt;不
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1127 - 更换 iText 图标</title>
-    <link href="https://atjason.com/daily/2024-11-27.html"/>
-    <id>https://atjason.com/daily/2024-11-27.html</id>
-    <published>2024-11-27T14:00:00.000Z</published>
-    <updated>2024-12-01T14:58:51.305Z</updated>
-    
-    <content type="html"><![CDATA[<p>准备给 iText 更新图标，尝试设计了一下，好丑；试了几个 AI 生成 Logo 的，基本都不行。</p>
-<p>哎，不管了，先换成圆角矩形的，把切换 Icon 的功能先做出来再说。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;准备给 iText 更新图标，尝试设计了一下，好丑；试了几个 AI 生成 Logo 的，基本都不行。&lt;/p&gt;
-&lt;p&gt;哎，不管了，先换成圆角矩形的，把切换 Icon 的功能先做出来再说。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1126 - 横店变竖店</title>
-    <link href="https://atjason.com/daily/2024-11-26.html"/>
-    <id>https://atjason.com/daily/2024-11-26.html</id>
-    <published>2024-11-26T14:00:00.000Z</published>
-    <updated>2024-12-01T14:58:05.765Z</updated>
-    
-    <content type="html"><![CDATA[<p>横店变竖店。说的是，现在横店很多拍短剧的，而短剧基本是竖屏的。</p>
-<p>哈哈，好巧妙，有意思。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;横店变竖店。说的是，现在横店很多拍短剧的，而短剧基本是竖屏的。&lt;/p&gt;
-&lt;p&gt;哈哈，好巧妙，有意思。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1125 - 线电阻检测工具</title>
-    <link href="https://atjason.com/daily/2024-11-25.html"/>
-    <id>https://atjason.com/daily/2024-11-25.html</id>
-    <published>2024-11-25T14:00:00.000Z</published>
-    <updated>2024-12-01T14:56:38.951Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近产品遇到问题，Type C 电源线接触电阻过大。在解决货源问题之前，做了一个小工具，检测线电阻是否过大。连接电源线两头，如果线电阻及接触电阻正常，则绿灯亮。</p>
-<p><img src="https://p.nuli.life/blog/iwt2z3.png" alt=""></p>
-<p><img src="https://p.nuli.life/blog/38hi7k.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;最近产品遇到问题，Type C 电源线接触电阻过大。在解决货源问题之前，做了一个小工具，检测线电阻是否过大。连接电源线两头，如果线电阻及接触电阻正常，则绿灯亮。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://p.nuli.life/blog/iwt2z3.png&quot; al
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1121 - Tauri 跨平台开发</title>
-    <link href="https://atjason.com/daily/2024-11-21.html"/>
-    <id>https://atjason.com/daily/2024-11-21.html</id>
-    <published>2024-11-21T14:00:00.000Z</published>
-    <updated>2024-11-24T14:44:59.875Z</updated>
-    
-    <content type="html"><![CDATA[<p>想开发桌面端应用，发现 Swift 一段时间不用又双叕生疏了。</p>
-<p>想用 Electron 开发，却实在不太能接受其内存占用；</p>
-<p>想试试使用系统 WebView 内核的 Tauri，发现又要学前端框架。</p>
-<p>绕了一大圈，累了，干不动了，还不如回去用 Swift…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;想开发桌面端应用，发现 Swift 一段时间不用又双叕生疏了。&lt;/p&gt;
-&lt;p&gt;想用 Electron 开发，却实在不太能接受其内存占用；&lt;/p&gt;
-&lt;p&gt;想试试使用系统 WebView 内核的 Tauri，发现又要学前端框架。&lt;/p&gt;
-&lt;p&gt;绕了一大圈，累了，干不动了，还不如
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1120 - 集中力量办大事</title>
-    <link href="https://atjason.com/daily/2024-11-20.html"/>
-    <id>https://atjason.com/daily/2024-11-20.html</id>
-    <published>2024-11-20T14:00:00.000Z</published>
-    <updated>2024-11-24T14:44:20.410Z</updated>
-    
-    <content type="html"><![CDATA[<p>感觉现在做的东西太碎了，东做一点、西做一点，很难有大的成绩。如果 10 年前是这么干，倒也没什么，甚至算挺好。但放到现在，就觉得不合适了。</p>
-<p>不过，好在是一直在做、多少都有收获。早点找到有兴趣、勉强能驾驭的大事，然后做好、做出成绩。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;感觉现在做的东西太碎了，东做一点、西做一点，很难有大的成绩。如果 10 年前是这么干，倒也没什么，甚至算挺好。但放到现在，就觉得不合适了。&lt;/p&gt;
-&lt;p&gt;不过，好在是一直在做、多少都有收获。早点找到有兴趣、勉强能驾驭的大事，然后做好、做出成绩。&lt;/p&gt;
 
     
     </summary>

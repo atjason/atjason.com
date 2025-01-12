@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-30.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-03-02.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-30.html" itemprop="url">
-                  0130 - 消费是经济的动力
+                <a class="post-title-link" href="/daily/2024-03-02.html" itemprop="url">
+                  0302 - 家用摄像头
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-30T22:00:00+08:00">
-                2024-01-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-03-02T22:00:00+08:00">
+                2024-03-02
               </time>
             
 
@@ -365,9 +365,15 @@
       
         
           
-            <p>曾经鄙视 M 国寅吃卯粮、提前消费，现在鼓励百姓有钱要花。</p>
-<p>当初踩得有多狠，现在拉起来就有多难。</p>
-<p>谁都不傻，没有绝对正确，只是当时当地的最佳选择，批评容易暴露浅薄。</p>
+            <p>买了个家用摄像头，主要是想解决这几个问题：</p>
+<ul>
+<li>小孩放学后，看娃在家干什么</li>
+<li>有时老人独自在家，偶尔看看有没有异常</li>
+</ul>
+<p>简单比较后，选择了小米摄像头 3 云台版。</p>
+<p>配对什么的比较简单，很容易就用起来了。远程查看视频、对讲，不在话下。清晰度方面，1 米远能看清贴在墙上 5mm 的字，可以了。</p>
+<p>目前来看，主要缺的是这个功能：家里人对着摄像头说：给儿子打电话。另外，这款的外放效果非常差，基本不可用；可能是为了配合视频采样率，导致音频采样率也很低。</p>
+<p>录像方面，可以只记录有人、或运动画面，既节约存储空单，也减轻回放时工作量，很实用。</p>
 
           
         
@@ -411,7 +417,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-29.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-03-01.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -433,8 +439,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-29.html" itemprop="url">
-                  0129 - SwiftUI for macOS 监听键盘整件的几种方式
+                <a class="post-title-link" href="/daily/2024-03-01.html" itemprop="url">
+                  0301 - 尝到了期货的甜头
                 </a>
               
             
@@ -450,8 +456,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-29T22:00:00+08:00">
-                2024-01-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-03-01T22:00:00+08:00">
+                2024-03-01
               </time>
             
 
@@ -509,17 +515,12 @@
       
         
           
-            <ol>
-<li><p><code>View.onKeyPress</code>. 理论上，这是最合适的。但实际用下来，发现并不能识别比如 upArrow/downArrow 这些特殊的 Key. 虽然看起来可以在代码中指定这些 KeyEquivalent，但实际上并不工作。</p>
-</li>
-<li><p><code>View.onAppear { NSEvent.addLocalMonitorForEvents }</code>. 这个方法的问题是，如果多个 View 同时保活，则会被调用多次。如果使用类似单例的方式，又会丢失唤醒整件的上下文信息。</p>
-</li>
-<li><p><code>Button.keyboardShortcut</code>. 创建一个 Button 并隐藏起来，同时支持快捷键唤醒。目前来看，这是最能支持 View 级快捷键的方式。但使用隐藏 View 的方式不优雅。且如果是 List 中每个 View 都增加一堆 Button 来实现一系列快捷键，想想也是很浪费资源的做法。并且，隐藏后 .delete 就不能响应了，目前不知道其他快捷键是否有类似的问题。</p>
-</li>
-<li><p>通过 <code>Commands menu</code> 中的快捷键，本质还是 Button 的快捷键。但这失去了上下文关联，需要再通过 Context 之类的方法中转信息。</p>
-</li>
-</ol>
-<p>哎，目前还没找到最合适的方式。</p>
+            <p>TLT 做底，有做多迹像，考虑期权做多。</p>
+<p>时间和空间上，选择了上一个高点，距今约一个月。于是，选择一个月后到期的前高点价格，买入 Call. 心理预期涨 5 倍，赚 4 倍。运气不错，当天浮盈 0.5 倍。</p>
+<p><img src="https://p.nuli.life/blog/act6s6.jpeg" alt=""></p>
+<p>关键，这是一个月后到期的，心里一点都不慌，也不着急抛。下次试试再久一点的。</p>
+<p>并且，这个标的是 20 年债。除非发生大的政治经济变动，一般不会像个股一样，上窜下跳，意外事件少，心里出不慌。</p>
+<p>另外，选择前高的价格点，是比较激进的。买入价格低、潜在收益高，但风险也很大。先试试吧，慢慢积累经验。</p>
 
           
         
@@ -563,7 +564,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-28.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-02-29.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -585,8 +586,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-28.html" itemprop="url">
-                  0128 - iDone 初步完成页面框架
+                <a class="post-title-link" href="/daily/2024-02-29.html" itemprop="url">
+                  0229 - 最近美指没做好
                 </a>
               
             
@@ -602,8 +603,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-28T22:00:00+08:00">
-                2024-01-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-02-29T22:00:00+08:00">
+                2024-02-29
               </time>
             
 
@@ -661,10 +662,19 @@
       
         
           
-            <p>基本实现 Project、Tag、Filter 的无限层级显示，形成基本的页面框架。</p>
-<p>不过，问题还是很多。比如，可能是数据绑定使用不当，即使数量量不大时，页面切换比较弱卡顿，导致添加后的任务显示不出来、删除任务后也不能正确切换到相邻的任务。</p>
-<p>并且，还没搞定页面的事件处理，网上搜索也没找到合适的答案。目前，暂用隐藏 Button 的方式实现。NavigationView 多页面的 Life cycle，比预想的要复杂。多页面切换时，多个页面是同时保活的，但页面自己并不知道，当前是否在最前。</p>
-<p>总之，问题还挺多。</p>
+            <p>最近美指没做好</p>
+<ul>
+<li>高位震荡期间，空了两次，均被止损；</li>
+<li>等行情突破向上时，我却压根没想开仓，只是挂了两个回调限价单，结果踏空。</li>
+</ul>
+<p><img src="https://p.nuli.life/blog/b7e36v.jpeg" alt=""></p>
+<p>不过，还是收获了几个经验：</p>
+<ul>
+<li>震荡期间，只做一个方向。可能错过突破方向，但避免了更可能的两面亏；</li>
+<li>对于美股，如果不确定做哪个方向，做多；</li>
+<li>涨不动，并不意味着要跌，而可能是盘整；下跌相同。</li>
+<li>突破时，坚决追。哪怕被多次打脸，再次突破时，依旧；就像主动把脸伸过去挨打一样。</li>
+</ul>
 
           
         
@@ -708,7 +718,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-27.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-02-28.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -730,8 +740,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-27.html" itemprop="url">
-                  0127 - 重拾 App 开发
+                <a class="post-title-link" href="/daily/2024-02-28.html" itemprop="url">
+                  0228 - 情绪暗能量
                 </a>
               
             
@@ -747,8 +757,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-27T22:00:00+08:00">
-                2024-01-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-02-28T22:00:00+08:00">
+                2024-02-28
               </time>
             
 
@@ -806,8 +816,8 @@
       
         
           
-            <p>好久没做 App 开发，拾起来有点难。</p>
-<p>这次拾起来，一段时间不准备放下了。</p>
+            <p>一个人在生活中做出的重大决定，往往是基于个人情绪；只有一小部分是基于理性考虑。甚至是先用情绪下结论，再用理性找理由支撑。</p>
+<p>从这个意义上讲，情绪就像是宇宙中的暗物质：它们往往不能被看到，却几乎占据了宇宙质量的70％。</p>
 
           
         
@@ -851,7 +861,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-01-26.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-02-27.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -873,8 +883,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-01-26.html" itemprop="url">
-                  0126 - SwiftData 中的一个坑
+                <a class="post-title-link" href="/daily/2024-02-27.html" itemprop="url">
+                  0227 - 引导而非教导
                 </a>
               
             
@@ -890,8 +900,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-01-26T22:00:00+08:00">
-                2024-01-26
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-02-27T22:00:00+08:00">
+                2024-02-27
               </time>
             
 
@@ -949,10 +959,8 @@
       
         
           
-            <p>被 SwiftData 一个小问题搞了。</p>
-<p>我在 @Model 中定义了 isDeleted 属性，调试发现死活更新不了。</p>
-<p>折腾了半天，偶然发现原来 PersistentModel 本身就 isDeleted 属性，被官方占用了。而我自己定义相同名字的属性，编译、运行啥的，什么错也没有。但实际上，完全不是自己预想的那么回事。</p>
-<p>得，又踩一坑。</p>
+            <p>孩子放学后，我们希望知道孩子今天发生了。除了询问和汇报的方式（孩子可能已经厌烦了），可以用交流的方式。</p>
+<p>比如说：我今天上班路上，遇到这么大一条狗。孩子听到后，也会被激发起分享的欲望。</p>
 
           
         
@@ -991,7 +999,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/30/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/30/">30</a><span class="page-number current">31</span><a class="page-number" href="/page/32/">32</a><span class="space">&hellip;</span><a class="page-number" href="/page/619/">619</a><a class="extend next" rel="next" href="/page/32/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/30/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/30/">30</a><span class="page-number current">31</span><a class="page-number" href="/page/32/">32</a><span class="space">&hellip;</span><a class="page-number" href="/page/622/">622</a><a class="extend next" rel="next" href="/page/32/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1036,7 +1044,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">3095</span>
+                <span class="site-state-item-count">3106</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1150,7 +1158,7 @@
         <div class="copyright" >
   
   &copy;  2011 - 
-  <span itemprop="copyrightYear">2024</span>
+  <span itemprop="copyrightYear">2025</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
