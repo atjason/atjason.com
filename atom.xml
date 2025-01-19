@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2025-01-12T14:17:27.161Z</updated>
+  <updated>2025-01-19T13:17:13.623Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,114 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0116 - 小说套路</title>
+    <link href="https://atjason.com/daily/2025-01-16.html"/>
+    <id>https://atjason.com/daily/2025-01-16.html</id>
+    <published>2025-01-16T14:00:00.000Z</published>
+    <updated>2025-01-19T13:17:13.623Z</updated>
+    
+    <content type="html"><![CDATA[<p>好像很多小说、剧都是这种模式：</p>
+<p>女主高开平走，<br>男主低开高走；<br>开始是男主高攀，<br>最后是不忘初心。</p>
+<p>以及，万事万物皆可谈情说爱。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;好像很多小说、剧都是这种模式：&lt;/p&gt;
+&lt;p&gt;女主高开平走，&lt;br&gt;男主低开高走；&lt;br&gt;开始是男主高攀，&lt;br&gt;最后是不忘初心。&lt;/p&gt;
+&lt;p&gt;以及，万事万物皆可谈情说爱。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0115 - 电源电路</title>
+    <link href="https://atjason.com/daily/2025-01-15.html"/>
+    <id>https://atjason.com/daily/2025-01-15.html</id>
+    <published>2025-01-15T14:00:00.000Z</published>
+    <updated>2025-01-19T13:15:50.175Z</updated>
+    
+    <content type="html"><![CDATA[<p>这两天很是研究了一下电源电路。</p>
+<p>需求是输入 24V、输出 12V/100mA 及 5V/30mA。</p>
+<p>最基础的，是使用分压型降压，不论是 LDO，还是什么稳压二极管、TL431、LM317，本质上都是一样的：在输入的能量中，除了负载使用的，全部自己消耗掉，也就是产生废热，需要耗散掉。</p>
+<p>按上面的需求来计算，耗散功率为：<code>(24V-12V)*100mA + (24V-5V)*30mA = 1.2W + 0.57W = 1.77W</code>。这个耗散功率有点高。</p>
+<p>一方面，对低功耗设备是不可接受了；另一方面，即使不考虑功耗，长时间工作在高温甚至极限条件下，明显也是不好的。再有，如果板子上有温湿度传感器，高温也是有影响的。</p>
+<p>再一种，就是 DCDC，它的原理不一样：相当于给一个大水管加个水龙头，需要多大水量，水龙头拧多大就行。当然，它也会有损耗，相当于水龙头漏水。总的来说，在工作到在它的最佳条件时，转换效率能达到 95% 甚至更高（也就是只浪费 5% 的能量）。但是，如果不是最佳工作条件，效率会降低，甚至低到 50%，跟 LDO 一样。</p>
+<p>看起来挺好，也是有代价的：成本高、电路略复杂。一方面，DCDC Buck 芯片本身价格高，是 LDO 的几倍到 N 倍；另一方面，它还需要配合电容电感电阻等外部元件，进一步增加成本。</p>
+<p>用 DCDC，还有个纠结的点：以 LV2841/2 这颗芯片来看，输入 18V、 输出 12V 100mA 时，它的转换效率竟然只有 50%~60%。费这么大劲，效率几乎没提高。</p>
+<p>感觉我这个大压差、较小电流的需求，比较尴尬，两边不靠…</p>
+<p>到底是省成本、还是花小钱办大事，这两天脑子里反复摇摆…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这两天很是研究了一下电源电路。&lt;/p&gt;
+&lt;p&gt;需求是输入 24V、输出 12V/100mA 及 5V/30mA。&lt;/p&gt;
+&lt;p&gt;最基础的，是使用分压型降压，不论是 LDO，还是什么稳压二极管、TL431、LM317，本质上都是一样的：在输入的能量中，除了负载使用的，全部自己
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0114 - 搞不定 QFN</title>
+    <link href="https://atjason.com/daily/2025-01-14.html"/>
+    <id>https://atjason.com/daily/2025-01-14.html</id>
+    <published>2025-01-14T14:00:00.000Z</published>
+    <updated>2025-01-19T13:16:29.703Z</updated>
+    
+    <content type="html"><![CDATA[<p>QFN 太难焊了。现在换芯片又得重新来。准备做小板、焊排针。开发板是排母，插上去。重新打板，不用每次都焊，节约时间、提高效率。</p>
+<p>我这次真是长教训了，下次出新项目选芯片，一定先选好焊的、引脚多的，等项目定型了，再根据需要的引脚选合适的型号。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;QFN 太难焊了。现在换芯片又得重新来。准备做小板、焊排针。开发板是排母，插上去。重新打板，不用每次都焊，节约时间、提高效率。&lt;/p&gt;
+&lt;p&gt;我这次真是长教训了，下次出新项目选芯片，一定先选好焊的、引脚多的，等项目定型了，再根据需要的引脚选合适的型号。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0113 - 焊错封装…</title>
+    <link href="https://atjason.com/daily/2025-01-13.html"/>
+    <id>https://atjason.com/daily/2025-01-13.html</id>
+    <published>2025-01-13T14:00:00.000Z</published>
+    <updated>2025-01-19T13:13:34.047Z</updated>
+    
+    <content type="html"><![CDATA[<p>早上焊了半天 CH32V006K8U6，总是无法刷固件。</p>
+<p>下午检查电路图时，发现焊错板子了！</p>
+<p>为了赶进度，我几乎同时做了 CHV035 和 CHV006 的板子。结果，我判断错了、拿错板子了，尝试把 CHV006 焊到 CHV035 的板子上。而前者是 QFN32 封装，后者是 QFN28 封装，能刷固件才怪。</p>
+<p>换正确的板子后，一把成功，还是加热台好使。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;早上焊了半天 CH32V006K8U6，总是无法刷固件。&lt;/p&gt;
+&lt;p&gt;下午检查电路图时，发现焊错板子了！&lt;/p&gt;
+&lt;p&gt;为了赶进度，我几乎同时做了 CHV035 和 CHV006 的板子。结果，我判断错了、拿错板子了，尝试把 CHV006 焊到 CHV035 的板子上。而
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0112 - 加热模块</title>
@@ -420,104 +528,6 @@
     
       &lt;p&gt;挣扎了一天，在 macOS Eclipse 中使用 gdb 调试，都失败了。&lt;/p&gt;
 &lt;p&gt;riscv-none-embed-gdb，同样的命令，在系统 Terminal 中能正常运行，在 Eclipse 的 Terminal 中，就会 hangs up/CPU 100%&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1216 - 谨慎选择小厂 MCU</title>
-    <link href="https://atjason.com/daily/2024-12-16.html"/>
-    <id>https://atjason.com/daily/2024-12-16.html</id>
-    <published>2024-12-16T14:00:00.000Z</published>
-    <updated>2024-12-22T14:04:29.318Z</updated>
-    
-    <content type="html"><![CDATA[<p>谨慎选择小厂 MCU，可能会慢慢断货。比如合宙，目前重心转向 4G，之前生产的 MCU，慢慢就不再出片了。</p>
-<p>1，Air001 目前是中止推广状态<br>2，Air001 目前只整盘出售<br>3，新项目不再推广和建议使用<br>4，Air001 没有技术支持<br>5，建议客户切换或适当囤货</p>
-<p>那选什么呢？</p>
-<p>国内最大的是兆易，可惜太贵，入门 MCU 要 4 元多。</p>
-<p>选了一圈，最后暂定沁恒的 CH32V 系列，入门大概 0.76 元。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;谨慎选择小厂 MCU，可能会慢慢断货。比如合宙，目前重心转向 4G，之前生产的 MCU，慢慢就不再出片了。&lt;/p&gt;
-&lt;p&gt;1，Air001 目前是中止推广状态&lt;br&gt;2，Air001 目前只整盘出售&lt;br&gt;3，新项目不再推广和建议使用&lt;br&gt;4，Air001 没有技术支持&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1212 - Next.js</title>
-    <link href="https://atjason.com/daily/2024-12-12.html"/>
-    <id>https://atjason.com/daily/2024-12-12.html</id>
-    <published>2024-12-12T14:00:00.000Z</published>
-    <updated>2024-12-15T15:23:32.115Z</updated>
-    
-    <content type="html"><![CDATA[<p>看完了 Next.js learn，使用 Next.js 实现一个发票系统。</p>
-<p>坦白讲，对 Next.js 不是很舒服、没有被吸引。干活是能干活的，但需要理解和记忆的东西很多。时间长了，肯定会忘记的，又要重新学习。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看完了 Next.js learn，使用 Next.js 实现一个发票系统。&lt;/p&gt;
-&lt;p&gt;坦白讲，对 Next.js 不是很舒服、没有被吸引。干活是能干活的，但需要理解和记忆的东西很多。时间长了，肯定会忘记的，又要重新学习。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1211 - 技术落地</title>
-    <link href="https://atjason.com/daily/2024-12-11.html"/>
-    <id>https://atjason.com/daily/2024-12-11.html</id>
-    <published>2024-12-11T14:00:00.000Z</published>
-    <updated>2024-12-15T15:22:29.454Z</updated>
-    
-    <content type="html"><![CDATA[<p>给新公司装了网络，AC + AP 模式，实测角落里宽带下载也是满速。</p>
-<p>设备全放一起，接线是简单的。但要公布各个房间，单是测网络通断，都要跑来跑去。最麻烦的是装吸顶 AP，要把石膏板拆下来，打孔安装底座，再装回去，接线装 AP，上下梯子、石膏板落灰，就够呛了。</p>
-<p>一个产品，核心技术就是只占一部分，外围配套也很重要。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;给新公司装了网络，AC + AP 模式，实测角落里宽带下载也是满速。&lt;/p&gt;
-&lt;p&gt;设备全放一起，接线是简单的。但要公布各个房间，单是测网络通断，都要跑来跑去。最麻烦的是装吸顶 AP，要把石膏板拆下来，打孔安装底座，再装回去，接线装 AP，上下梯子、石膏板落灰，就够呛了。&lt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1210 - 一币两面</title>
-    <link href="https://atjason.com/daily/2024-12-10.html"/>
-    <id>https://atjason.com/daily/2024-12-10.html</id>
-    <published>2024-12-10T14:00:00.000Z</published>
-    <updated>2024-12-15T15:21:33.363Z</updated>
-    
-    <content type="html"><![CDATA[<p>没有抖音短剧游戏，广大灵活就业、充满荷尔蒙的年轻人，会干些什么呢？夜骑开封，还算是良性事件。夜走长安大道呢？</p>
-<p>单从稳定而言，这两样东西堪称百万雄兵。只是，一定标好了价格。当你希望年轻人奋进、创新、有活力时，他们依然稳定着。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;没有抖音短剧游戏，广大灵活就业、充满荷尔蒙的年轻人，会干些什么呢？夜骑开封，还算是良性事件。夜走长安大道呢？&lt;/p&gt;
-&lt;p&gt;单从稳定而言，这两样东西堪称百万雄兵。只是，一定标好了价格。当你希望年轻人奋进、创新、有活力时，他们依然稳定着。&lt;/p&gt;
-
     
     </summary>
     
