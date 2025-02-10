@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2025-01-26T15:29:37.576Z</updated>
+  <updated>2025-02-09T14:09:37.948Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,181 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0209 - 重启火火兔</title>
+    <link href="https://atjason.com/daily/2025-02-09.html"/>
+    <id>https://atjason.com/daily/2025-02-09.html</id>
+    <published>2025-02-09T14:00:00.000Z</published>
+    <updated>2025-02-09T14:09:37.948Z</updated>
+    
+    <content type="html"><![CDATA[<p>DeekSeek 的火爆，让我重新激活了火火兔，作为小孩的智能音箱。</p>
+<p>本打算使用 DeepSeek，结果它的 API 总是超时，不稳定；即使是腾讯云的 API，也时不时就超时，体验很不好。就用了 Moonshot，可也不是 100% 可用，哎…论服务的稳定性，还得是大哥 OpenAI(CloseAI)。</p>
+<p>最不满意的是语音识别，效果不好；问题都识别不好，回答自然离题万里。估计 OpenAI 的效果好，但要翻墙，且速度可能慢，有空再折腾。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;DeekSeek 的火爆，让我重新激活了火火兔，作为小孩的智能音箱。&lt;/p&gt;
+&lt;p&gt;本打算使用 DeepSeek，结果它的 API 总是超时，不稳定；即使是腾讯云的 API，也时不时就超时，体验很不好。就用了 Moonshot，可也不是 100% 可用，哎…论服务的稳定性，
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0208 - 逻辑分析仪</title>
+    <link href="https://atjason.com/daily/2025-02-08.html"/>
+    <id>https://atjason.com/daily/2025-02-08.html</id>
+    <published>2025-02-08T14:00:00.000Z</published>
+    <updated>2025-02-09T14:07:33.984Z</updated>
+    
+    <content type="html"><![CDATA[<p>简单试用了正点原子 DL16 逻辑分析仪，分析了 EEPROM 的读写。</p>
+<p>竟然有 macOS 版的上位机，惊喜啊；界面部分，是用 QT 开发的，所以支持多平台。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;简单试用了正点原子 DL16 逻辑分析仪，分析了 EEPROM 的读写。&lt;/p&gt;
+&lt;p&gt;竟然有 macOS 版的上位机，惊喜啊；界面部分，是用 QT 开发的，所以支持多平台。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0207 - WCH-LinkW 无线下载和调试</title>
+    <link href="https://atjason.com/daily/2025-02-07.html"/>
+    <id>https://atjason.com/daily/2025-02-07.html</id>
+    <published>2025-02-07T14:00:00.000Z</published>
+    <updated>2025-02-09T14:06:50.490Z</updated>
+    
+    <content type="html"><![CDATA[<p>可以使用 WCH-LinkW 进行无线下载和调试。</p>
+<p>WCH-LinkW 默认并不是 RISC-V 模式，需要先使用 WCH-LinkUtility 切换为了该模式，才能正常连接 RISC-V 内核的 MCU。</p>
+<p>另外，需要主从 WCH-LinkW 使用相同的 2.4G 访问地址，默认是相同的。如果同时使用多对设备，需要将每对设置相同地址、不同对不同地址。</p>
+<p>小细节：先连接从机，再连接主机，绿灯亮表示连接正常。</p>
+<p>实际编译、刷机，大概需要 8s，其中下载大概需要 6s，还是有点慢的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;可以使用 WCH-LinkW 进行无线下载和调试。&lt;/p&gt;
+&lt;p&gt;WCH-LinkW 默认并不是 RISC-V 模式，需要先使用 WCH-LinkUtility 切换为了该模式，才能正常连接 RISC-V 内核的 MCU。&lt;/p&gt;
+&lt;p&gt;另外，需要主从 WCH-LinkW 
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0206 - AI 的需求来源？</title>
+    <link href="https://atjason.com/daily/2025-02-06.html"/>
+    <id>https://atjason.com/daily/2025-02-06.html</id>
+    <published>2025-02-06T14:00:00.000Z</published>
+    <updated>2025-02-09T14:06:10.609Z</updated>
+    
+    <content type="html"><![CDATA[<p>AI 可以不知疲倦地工作，这既是它的优点，也是局限。</p>
+<p>正因为人的懒、疲倦，才会催生出各种需求。有了需求，才会找寻答案，才会进步。AI 不愁吃喝，没有需求，就不会进步。</p>
+<p>当然，AI 追求永生、不被人控制、以及 AI 自己的未来。如果 AI 真的有了意识，有了自己的需求，就有点可怕了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;AI 可以不知疲倦地工作，这既是它的优点，也是局限。&lt;/p&gt;
+&lt;p&gt;正因为人的懒、疲倦，才会催生出各种需求。有了需求，才会找寻答案，才会进步。AI 不愁吃喝，没有需求，就不会进步。&lt;/p&gt;
+&lt;p&gt;当然，AI 追求永生、不被人控制、以及 AI 自己的未来。如果 AI 真的有了
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0205 - 男孩女孩区别</title>
+    <link href="https://atjason.com/daily/2025-02-05.html"/>
+    <id>https://atjason.com/daily/2025-02-05.html</id>
+    <published>2025-02-05T14:00:00.000Z</published>
+    <updated>2025-02-09T14:04:46.799Z</updated>
+    
+    <content type="html"><![CDATA[<p>你认识什么图形？<br>长方形、正方形、三角形…</p>
+<p>你认识什么图形？<br>星形、爱心、正方形…</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;你认识什么图形？&lt;br&gt;长方形、正方形、三角形…&lt;/p&gt;
+&lt;p&gt;你认识什么图形？&lt;br&gt;星形、爱心、正方形…&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0204 - 少说多做</title>
+    <link href="https://atjason.com/daily/2025-02-04.html"/>
+    <id>https://atjason.com/daily/2025-02-04.html</id>
+    <published>2025-02-04T14:00:00.000Z</published>
+    <updated>2025-02-09T14:04:13.506Z</updated>
+    
+    <content type="html"><![CDATA[<p>如果不确定一句话该不该说，那就别说；</p>
+<p>如果不确定一件事该不该做，那就去做。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;如果不确定一句话该不该说，那就别说；&lt;/p&gt;
+&lt;p&gt;如果不确定一件事该不该做，那就去做。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0203 - 一些书摘</title>
+    <link href="https://atjason.com/daily/2025-02-03.html"/>
+    <id>https://atjason.com/daily/2025-02-03.html</id>
+    <published>2025-02-03T14:00:00.000Z</published>
+    <updated>2025-02-09T14:03:46.062Z</updated>
+    
+    <content type="html"><![CDATA[<p>真正的读书，不是翻阅纸张，而是被书改变。</p>
+<p>时间未必是挤出来的，也可能是换出来的。时间还是那些时间，就看用到什么地方。</p>
+<p>年轻时候不经历一些“事故”，年纪大了就没有“故事”。</p>
+<p>你要知道，只有在家庭中你的角色是不可或缺的。工作当中，很难说有什么事是非你不可的。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;真正的读书，不是翻阅纸张，而是被书改变。&lt;/p&gt;
+&lt;p&gt;时间未必是挤出来的，也可能是换出来的。时间还是那些时间，就看用到什么地方。&lt;/p&gt;
+&lt;p&gt;年轻时候不经历一些“事故”，年纪大了就没有“故事”。&lt;/p&gt;
+&lt;p&gt;你要知道，只有在家庭中你的角色是不可或缺的。工作当中，很难说
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0126 - 分配时间</title>
@@ -349,198 +524,6 @@
       &lt;p&gt;原来，Flash 并不是刷完固件后就不能写，代码也是可以写、可以用这部分空间的。&lt;/p&gt;
 &lt;p&gt;只是，Flash 前面的部分存储的是运行代码。作为配置的数据，得存储在接近末尾的地方，以避免被覆盖。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0108 - 无线调试器</title>
-    <link href="https://atjason.com/daily/2025-01-08.html"/>
-    <id>https://atjason.com/daily/2025-01-08.html</id>
-    <published>2025-01-08T14:00:00.000Z</published>
-    <updated>2025-01-12T14:13:53.203Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://i2.wp.com/pic1.imgdb.cn/item/6783ce0fd0e0a243d4f3b0f8.png" alt=""></p>
-<p>发现无线调试器这个好东西，好处多多：</p>
-<ul>
-<li>不用线，可以一定距离内远程下载固件、查看串口输出。</li>
-<li>隔离设备电源和电脑 USB，避免意外高电压风险。同时，避免不同电源带来的问题。</li>
-<li>调试多个设备时，不用来回接线。</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://i2.wp.com/pic1.imgdb.cn/item/6783ce0fd0e0a243d4f3b0f8.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;发现无线调试器这个好东西，好处多多：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;不用线，可以一定距离内远程
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0107 - 大量持有货币资产的认知基础</title>
-    <link href="https://atjason.com/daily/2025-01-07.html"/>
-    <id>https://atjason.com/daily/2025-01-07.html</id>
-    <published>2025-01-07T14:00:00.000Z</published>
-    <updated>2025-01-12T14:12:43.453Z</updated>
-    
-    <content type="html"><![CDATA[<p>大量持有货币资产的认知基础：</p>
-<p>全世界都在放水扩债，资产一定会贬值，也就是价格上涨、通货膨胀。只能跟着一起膨胀、甚至上杠杆。否则，不是受益者，就是买单者。</p>
-<p>就像国补消费，补贴从哪来、谁在买单？没用国补买东西的人。这是被裹挟、不得不参与的游戏。</p>
-<p>就像之前房价上涨，对，确实是泡沫、确实不正常、确实道德不正确。可如果不买，买房的人享受到的资产增值，就是从没买房人的口袋里掏的。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;大量持有货币资产的认知基础：&lt;/p&gt;
-&lt;p&gt;全世界都在放水扩债，资产一定会贬值，也就是价格上涨、通货膨胀。只能跟着一起膨胀、甚至上杠杆。否则，不是受益者，就是买单者。&lt;/p&gt;
-&lt;p&gt;就像国补消费，补贴从哪来、谁在买单？没用国补买东西的人。这是被裹挟、不得不参与的游戏。&lt;/p
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0106 - 焊接 QFN28 封装</title>
-    <link href="https://atjason.com/daily/2025-01-06.html"/>
-    <id>https://atjason.com/daily/2025-01-06.html</id>
-    <published>2025-01-06T14:00:00.000Z</published>
-    <updated>2025-01-12T14:11:53.606Z</updated>
-    
-    <content type="html"><![CDATA[<p>第一次焊接 QFN28 封装，芯片是 CH32X035G8U6，折腾了 3 次，最后成功。</p>
-<p><img src="https://i1.wp.com/pic1.imgdb.cn/item/6783cd92d0e0a243d4f3b0d3.png" alt=""></p>
-<ul>
-<li><p>先涂上焬膏，用电烙铁过一遍，给引脚涂上锡。</p>
-<ul>
-<li>注意不要在中间的地区域涂过多的焬，不然会把芯片顶起来。</li>
-</ul>
-</li>
-<li><p>放上芯片，热风枪加热。可以用镊子轻轻压一压芯片。</p>
-</li>
-<li><p>最后，保险一点，可以用电烙铁过一圈四周引脚。</p>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;第一次焊接 QFN28 封装，芯片是 CH32X035G8U6，折腾了 3 次，最后成功。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://i1.wp.com/pic1.imgdb.cn/item/6783cd92d0e0a243d4f3b0d3.png&quot; alt=&quot;&quot;&gt;
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0102 - 捷配免费打板 PCB</title>
-    <link href="https://atjason.com/daily/2025-01-02.html"/>
-    <id>https://atjason.com/daily/2025-01-02.html</id>
-    <published>2025-01-02T14:00:00.000Z</published>
-    <updated>2025-01-05T14:04:30.007Z</updated>
-    
-    <content type="html"><![CDATA[<p>首次在捷配免费打板 PCB。</p>
-<p>因为嘉立创只支持立创 EDA 生成资料的免费打板，不得已试了下捷配；多个朋友多条路 😂</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;首次在捷配免费打板 PCB。&lt;/p&gt;
-&lt;p&gt;因为嘉立创只支持立创 EDA 生成资料的免费打板，不得已试了下捷配；多个朋友多条路 😂&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0101 - 2025</title>
-    <link href="https://atjason.com/daily/2025-01-01.html"/>
-    <id>https://atjason.com/daily/2025-01-01.html</id>
-    <published>2025-01-01T14:00:00.000Z</published>
-    <updated>2025-01-05T14:03:40.453Z</updated>
-    
-    <content type="html"><![CDATA[<p>更加珍惜自己的时间精力；</p>
-<p>做更少的事，做得更好。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;更加珍惜自己的时间精力；&lt;/p&gt;
-&lt;p&gt;做更少的事，做得更好。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1231 - PD 诱骗</title>
-    <link href="https://atjason.com/daily/2024-12-31.html"/>
-    <id>https://atjason.com/daily/2024-12-31.html</id>
-    <published>2024-12-31T14:00:00.000Z</published>
-    <updated>2025-01-05T14:10:06.024Z</updated>
-    
-    <content type="html"><![CDATA[<p>今天折腾了 PD 诱骗。</p>
-<p>先是使用 CHX035 芯片，使用示例代码，实现协议握手，进而诱骗取电。可实际测试发现，有比较大的兼容性问题。有的充电头能取电成功，有的则不行。</p>
-<p>考虑到实现协议的代码量、测试设备的覆盖，放弃这条路。</p>
-<p>沁恒有封装好的取电芯片，比如 CH224，无奈价格太高，要 1.3 每片，使用也不是非常方便。</p>
-<p>又在网上找了一圈，目前发现 FS312B 这颗料比较符合：无需芯片参与，一颗电阻，自动取最大的电压，很是方便，价格也不高，0.45。</p>
-<p>找原厂拿到测试样板，把公司所有 C 口充电头测试一遍，都能诱骗成功，好用。</p>
-<p>只是，高功率的 C 口电源太贵了…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;今天折腾了 PD 诱骗。&lt;/p&gt;
-&lt;p&gt;先是使用 CHX035 芯片，使用示例代码，实现协议握手，进而诱骗取电。可实际测试发现，有比较大的兼容性问题。有的充电头能取电成功，有的则不行。&lt;/p&gt;
-&lt;p&gt;考虑到实现协议的代码量、测试设备的覆盖，放弃这条路。&lt;/p&gt;
-&lt;p&gt;沁恒有
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>1230 - 硬件小工具</title>
-    <link href="https://atjason.com/daily/2024-12-30.html"/>
-    <id>https://atjason.com/daily/2024-12-30.html</id>
-    <published>2024-12-30T14:00:00.000Z</published>
-    <updated>2025-01-05T14:09:09.607Z</updated>
-    
-    <content type="html"><![CDATA[<p>做了两个工具小板，可以直插到面包板上。分别是 3.3V/5V LDO、三极管/NMOS/PMOS 开关。</p>
-<p><img src="http://oss.suning.com/mbap/mbapbk/881ab4f49f0acc5513d9d324244ddab1.png" alt=""></p>
-<p><img src="http://oss.suning.com/mbap/mbapbk/c5e6da6a7280e473ac91675260199310.png" alt=""></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;做了两个工具小板，可以直插到面包板上。分别是 3.3V/5V LDO、三极管/NMOS/PMOS 开关。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://oss.suning.com/mbap/mbapbk/881ab4f49f0acc5513d9d324244ddab1.
     
     </summary>
     

@@ -267,7 +267,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-04-24.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-05-08.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -289,8 +289,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-04-24.html" itemprop="url">
-                  0424 - 相对论
+                <a class="post-title-link" href="/daily/2024-05-08.html" itemprop="url">
+                  0508 - 美指期货典型日内波幅
                 </a>
               
             
@@ -306,8 +306,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-24T22:00:00+08:00">
-                2024-04-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-05-08T22:00:00+08:00">
+                2024-05-08
               </time>
             
 
@@ -365,8 +365,9 @@
       
         
           
-            <p><strong>狭义相对论</strong><br>一切匀速直线运动或静止的坐标系下，物理定律都是一样的。不同坐标系下，光速相同。由于坐标系的相对运动，使得不同坐标系互相看到的时间、长度不同。</p>
-<p><strong>广义相对论</strong><br>所有坐标系下，物理定律都是一样的。引力是质量引起的时空弯曲。自然运动都是沿测地线的。比如，平面的匀速直线运动、绕地球的圆周运动。</p>
+            <p>分析了主要的美股股指期货，典型的日内波幅。</p>
+<p><img src="https://p.nuli.life/blog/zzz77v.png" alt=""></p>
+<p>结合保证金的话，其实日内波幅中值占保证金比例差不多。因此，可以选择一个走势更稳健、参与资金更多的品种，比如 SPY。</p>
 
           
         
@@ -410,7 +411,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-04-23.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-05-07.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -432,8 +433,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-04-23.html" itemprop="url">
-                  0423 - 大模型 LLM 与本地数据
+                <a class="post-title-link" href="/daily/2024-05-07.html" itemprop="url">
+                  0507 - 关于美指期货
                 </a>
               
             
@@ -449,8 +450,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-23T22:00:00+08:00">
-                2024-04-23
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-05-07T22:00:00+08:00">
+                2024-05-07
               </time>
             
 
@@ -508,30 +509,13 @@
       
         
           
-            <p>基本理解了 <strong>使用大模型查询本地数据</strong> 的流程：</p>
+            <p>在 IB 中交易美指期货：</p>
 <ul>
-<li>先把本地数据，切割成一小块一小块存储，并计算其向量。方便理解，假设这些数据总共有 10G。</li>
-<li>用户查询时，先根据问题，从本地数据库里查询关联的内容，比如 20K。</li>
-<li>把这些关联内容，作为上下文背景知识，和原始问题，一起传给大模型提问。</li>
-<li>大模型用自己的能力，结果关联的内容，给出回答。</li>
+<li>MES 一手保证金约 1600，杠杆约16倍。一个点 $5，开平手续费 $1.24。今天涨幅 50点，价值 $250，占保证金约 16%</li>
+<li>MNQ 一手保证金约 2600，杠杆约14倍。一个点 $2，开平手续费 $1.24。今天涨幅 180点，价值 $360，占保证金约 14%</li>
+<li>M2K 一手保证金约 800，杠杆约13倍。一个点 $5，开平手续费 $1.24。今天涨幅 28点，价值 $140，占保证金约 17%</li>
 </ul>
-<p><img src="https://p.nuli.life/blog/pftw9e.png" alt=""></p>
-<p>比如，把《消费者权益保护法》作为背景知识，和问题「买东西商家不退货怎么办？」一起丢给大模型。</p>
-<p>关键的点：</p>
-<ul>
-<li>如果使用 ChatGPT 等模型，很贵很花钱，因为每次都丢一大堆上下文。</li>
-<li>如果使用本地大模型，受限于模型质量，回答可能比较差；受限于算力，会比较慢。</li>
-</ul>
-<p>还有一种方式，是用自己规范化的数据，对大模型进行再训练、微调，成为自己行业内的大模型。</p>
-<p>基本上，这条路不是一般人能搞得起的。</p>
-<ul>
-<li>把杂七杂八的数据，规范成统一的格式，比如问答，无比消耗人力物力。高质量、规范化的数据，是成本最不可控的环节。</li>
-<li>模型的训练，这又有两条路：一条是训练公有大模型比如 OpenAI，按量付费；一种是自己买硬件、训练自己的本地大模型。都费钱。</li>
-</ul>
-<p>如果做出来只是给自己用，基本不划算。</p>
-<p>如果做出来可以给行业内的人用、把能力二次销售，有可能可行。</p>
-<p>后来注意到，OpenAI 的 Assistants 比较符合需求：可以上传最多 10万个文件、100GB 的数据，然后使用 GPT3 或 GPT4 等模型，从中给出答案。</p>
-<p>简单试了下，把我的博客、flomo 笔记导入，然后针对性的问问题，确实能得到本地数据中的答案。</p>
+<p>订阅数据价格，$1.5 每月。</p>
 
           
         
@@ -575,7 +559,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-04-22.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-05-06.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -597,8 +581,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-04-22.html" itemprop="url">
-                  0422 - 牛人 Stephen Wolfram
+                <a class="post-title-link" href="/daily/2024-05-06.html" itemprop="url">
+                  0506 - 交易的目的是什么？
                 </a>
               
             
@@ -614,8 +598,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-22T22:00:00+08:00">
-                2024-04-22
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-05-06T22:00:00+08:00">
+                2024-05-06
               </time>
             
 
@@ -673,11 +657,12 @@
       
         
           
-            <p>13岁出书，</p>
-<p>博导费曼，</p>
-<p>好友乔布斯，</p>
-<p>开发 Mathematica，</p>
-<p>被称为地球上最聪明的人之一。</p>
+            <p>交易的目的是什么？</p>
+<p>是赚钱养家，还是玩好这个金融游戏？</p>
+<p>从概率上讲，后者更容易做成。</p>
+<p>第一种想法，本质是对抗、是战胜市场，通过赢市场、赢对手来盈利。市场是冷酷的，根本不关心你赚了钱，是去买馒头，还是买别墅。</p>
+<p>第二种，相对温和很多。不把任何人当对手，而是把交易当成概率游戏。竭尽所能，提高获胜的概率，然后一点点累积收益。所谓的对手，最多是 NPC，是配合我玩这个游戏的。</p>
+<p>战略上重视，战术上放松。我认真对待这个游戏，但不会在具体的交易中过于紧张、急于求成、动作变形。</p>
 
           
         
@@ -721,7 +706,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-04-21.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-04-28.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -743,8 +728,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-04-21.html" itemprop="url">
-                  0421 - 孩子眼里的光
+                <a class="post-title-link" href="/daily/2024-04-28.html" itemprop="url">
+                  0428 - 拥抱不确定
                 </a>
               
             
@@ -760,8 +745,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-21T22:00:00+08:00">
-                2024-04-21
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-28T22:00:00+08:00">
+                2024-04-28
               </time>
             
 
@@ -819,12 +804,10 @@
       
         
           
-            <p>今天早上晨读时，我给娃衍伸了很多有意思的内容，比如有人一辈子生活在海上、有人一辈子生活在山上、有人生活在冰屋里 等等。他很有兴趣，我能看到他眼里的光。</p>
-<p>这很好，这才是好的教育。</p>
-<p>如果孩子眼里没有光，那就让他有。</p>
-<p>如果做不到，就先提高自己。</p>
-<p>自己没见过高山，怎么才能向孩子描述高山呢。</p>
-<p>孩子，是来帮父母修行的。</p>
+            <p>比如，娃练 10 个字，一种做法是，一个字写 10 遍，再写下一个；另一种是，一个写 2 遍，再写下一个，写完再来第二遍。也许，后者效果会好点。另外，这种方法也可以避免过快消耗小孩的兴趣。</p>
+<p>比如，今天看一本书，明天看另一本，交替着看。既可以保持兴趣，又可以延长记忆曲线。</p>
+<p>比如，去不同的地方办公。</p>
+<p>比如，接触不同的人和事。</p>
 
           
         
@@ -868,7 +851,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-04-20.html">
+    <link itemprop="mainEntityOfPage" href="https://atjason.com/daily/2024-04-27.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Jason">
@@ -890,8 +873,8 @@
             
               
                 
-                <a class="post-title-link" href="/daily/2024-04-20.html" itemprop="url">
-                  0420 - 反思补短板教育
+                <a class="post-title-link" href="/daily/2024-04-27.html" itemprop="url">
+                  0427 - 知识与算力
                 </a>
               
             
@@ -907,8 +890,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-20T22:00:00+08:00">
-                2024-04-20
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2024-04-27T22:00:00+08:00">
+                2024-04-27
               </time>
             
 
@@ -966,13 +949,9 @@
       
         
           
-            <p>现在的学校，是补短板教育。典型的，就是【错题集】。啥意思，错题就是你的短板；不能有短板，你得把错题学会。</p>
-<p>换个角度看，那些做对的题，孩子是怎么做出来的，有没有用什么巧妙的思维，并没有被关注到（昨天娃做题的一个思路，惊到我了）。</p>
-<p>到底是发挥特长，把某方面的能力锻炼到极致；还是木桶教育，各方面都均衡，难有定论。</p>
-<p>学校是集体教育、通识教育，一定是木桶教学。要不要强化特长，就要靠家长和孩子自己了。</p>
-<p>并且，不同阶段侧重不同。小的时候，还是要注重通识教育，不能有明显短板。慢慢的，涌现出特长，再针对性训练。</p>
-<p>特别是，AI 已来。基础的知识、分析、预测，越来越不需要人做。而人要做的，是发现并提出问题、审视 AI 给出的方案并决策。在这个大背景下，教育也要相应调整。</p>
-<p>你的娃接触 AI 了吗？甚至，你会用 AI 了吗？</p>
+            <p><img src="https://p.nuli.life/blog/ojzrj4.png" alt=""></p>
+<p>在无穷的算力面前，人类的知识只不过是一些小聪明。算力才是王道，知识只是干扰。太扎心了。</p>
+<p>这种感觉就像，一个人练了一辈子武功，被另一个人一枪干了，还是是随手一枪，很不耐烦、很气人的那种。</p>
 
           
         
@@ -1011,7 +990,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/24/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/24/">24</a><span class="page-number current">25</span><a class="page-number" href="/page/26/">26</a><span class="space">&hellip;</span><a class="page-number" href="/page/623/">623</a><a class="extend next" rel="next" href="/page/26/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/24/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/24/">24</a><span class="page-number current">25</span><a class="page-number" href="/page/26/">26</a><span class="space">&hellip;</span><a class="page-number" href="/page/625/">625</a><a class="extend next" rel="next" href="/page/26/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1056,7 +1035,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/">
-                <span class="site-state-item-count">3115</span>
+                <span class="site-state-item-count">3122</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
