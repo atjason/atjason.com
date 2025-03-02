@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2025-02-09T14:09:37.948Z</updated>
+  <updated>2025-03-02T14:23:40.249Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,152 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0301 - 加湿器</title>
+    <link href="https://atjason.com/daily/2025-03-01.html"/>
+    <id>https://atjason.com/daily/2025-03-01.html</id>
+    <published>2025-03-01T14:00:00.000Z</published>
+    <updated>2025-03-02T14:23:40.249Z</updated>
+    
+    <content type="html"><![CDATA[<p>做了一个小加湿器。</p>
+<p><img src="https://i2.wp.com/pic1.imgdb.cn/item/67c469e1d0e0a243d40a2e69.png" alt=""></p>
+<p>从不懂而 AI 搜索，到最后出原型，连续干了 6 个小时，喜欢这种心流的感觉。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;做了一个小加湿器。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://i2.wp.com/pic1.imgdb.cn/item/67c469e1d0e0a243d40a2e69.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;从不懂而 AI 搜索，到最后出原型，连续干了 6 个小时
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0228 - 焊接 QFN32 芯片</title>
+    <link href="https://atjason.com/daily/2025-02-28.html"/>
+    <id>https://atjason.com/daily/2025-02-28.html</id>
+    <published>2025-02-28T14:00:00.000Z</published>
+    <updated>2025-03-02T14:22:46.289Z</updated>
+    
+    <content type="html"><![CDATA[<p>曾经很惧怕的 QFN32 芯片的焊接，今天一次成功 5 片，还都是拆机料。</p>
+<p>进步真是让人喜悦。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;曾经很惧怕的 QFN32 芯片的焊接，今天一次成功 5 片，还都是拆机料。&lt;/p&gt;
+&lt;p&gt;进步真是让人喜悦。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0227 - VSCode 远程开发调试</title>
+    <link href="https://atjason.com/daily/2025-02-27.html"/>
+    <id>https://atjason.com/daily/2025-02-27.html</id>
+    <published>2025-02-27T14:00:00.000Z</published>
+    <updated>2025-03-02T14:22:04.958Z</updated>
+    
+    <content type="html"><![CDATA[<p>VSCode 可以通过 SSH 远程编辑服务器上的代码，还能借助 X 转发来运行服务器上的 GUI，远程开发调试 ROS2 可太方便了。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;VSCode 可以通过 SSH 远程编辑服务器上的代码，还能借助 X 转发来运行服务器上的 GUI，远程开发调试 ROS2 可太方便了。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0226 - 相对幸福</title>
+    <link href="https://atjason.com/daily/2025-02-26.html"/>
+    <id>https://atjason.com/daily/2025-02-26.html</id>
+    <published>2025-02-26T14:00:00.000Z</published>
+    <updated>2025-03-02T14:21:29.903Z</updated>
+    
+    <content type="html"><![CDATA[<p>大部分人追求的并不是金钱或者物质，而是自己在人口序列中的排位。</p>
+<p>换句话说，不是绝对的物质或精神，而比别人更多的物质或精神。</p>
+<p>大部分人拥有比古代帝王好得多的物质条件，却明显没有帝王过得爽。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大部分人追求的并不是金钱或者物质，而是自己在人口序列中的排位。&lt;/p&gt;
+&lt;p&gt;换句话说，不是绝对的物质或精神，而比别人更多的物质或精神。&lt;/p&gt;
+&lt;p&gt;大部分人拥有比古代帝王好得多的物质条件，却明显没有帝王过得爽。&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0225 - 比较了 4 款 DCDC 芯片</title>
+    <link href="https://atjason.com/daily/2025-02-25.html"/>
+    <id>https://atjason.com/daily/2025-02-25.html</id>
+    <published>2025-02-25T14:00:00.000Z</published>
+    <updated>2025-03-02T14:20:59.203Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="" alt="https://i2.wp.com/pic1.imgdb.cn/item/67c46940d0e0a243d40a2e31.png"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;https://i2.wp.com/pic1.imgdb.cn/item/67c46940d0e0a243d40a2e31.png&quot;&gt;&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>0224 - 虚拟机的远程桌面</title>
+    <link href="https://atjason.com/daily/2025-02-24.html"/>
+    <id>https://atjason.com/daily/2025-02-24.html</id>
+    <published>2025-02-24T14:00:00.000Z</published>
+    <updated>2025-03-02T14:19:25.322Z</updated>
+    
+    <content type="html"><![CDATA[<p>终于搞定了虚拟机的远程桌面。</p>
+<p>路由器将端口转发至 PC 主机，比如 63389 至 63389</p>
+<p>vmware 或其他虚拟机中，将 PC 主机的 63389 转发至虚拟机的 3389 端口。注意：这里要允许 0.0.0.0 即所有来源转发，而不仅仅是 localhost</p>
+<p>Ubuntu Desktop 中，在系统设置中，开发 Desktop Sharing，默认端口是 3389</p>
+<p>Windows RDP 连接中，要忽略认证信息，因为是虚拟机自验证的，没有公网证书。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;终于搞定了虚拟机的远程桌面。&lt;/p&gt;
+&lt;p&gt;路由器将端口转发至 PC 主机，比如 63389 至 63389&lt;/p&gt;
+&lt;p&gt;vmware 或其他虚拟机中，将 PC 主机的 63389 转发至虚拟机的 3389 端口。注意：这里要允许 0.0.0.0 即所有来源转发，而不仅仅
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0209 - 重启火火兔</title>
@@ -379,151 +525,6 @@
       &lt;p&gt;这两天很是研究了一下电源电路。&lt;/p&gt;
 &lt;p&gt;需求是输入 24V、输出 12V/100mA 及 5V/30mA。&lt;/p&gt;
 &lt;p&gt;最基础的，是使用分压型降压，不论是 LDO，还是什么稳压二极管、TL431、LM317，本质上都是一样的：在输入的能量中，除了负载使用的，全部自己
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0114 - 搞不定 QFN</title>
-    <link href="https://atjason.com/daily/2025-01-14.html"/>
-    <id>https://atjason.com/daily/2025-01-14.html</id>
-    <published>2025-01-14T14:00:00.000Z</published>
-    <updated>2025-01-19T13:16:29.703Z</updated>
-    
-    <content type="html"><![CDATA[<p>QFN 太难焊了。现在换芯片又得重新来。准备做小板、焊排针。开发板是排母，插上去。重新打板，不用每次都焊，节约时间、提高效率。</p>
-<p>我这次真是长教训了，下次出新项目选芯片，一定先选好焊的、引脚多的，等项目定型了，再根据需要的引脚选合适的型号。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;QFN 太难焊了。现在换芯片又得重新来。准备做小板、焊排针。开发板是排母，插上去。重新打板，不用每次都焊，节约时间、提高效率。&lt;/p&gt;
-&lt;p&gt;我这次真是长教训了，下次出新项目选芯片，一定先选好焊的、引脚多的，等项目定型了，再根据需要的引脚选合适的型号。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0113 - 焊错封装…</title>
-    <link href="https://atjason.com/daily/2025-01-13.html"/>
-    <id>https://atjason.com/daily/2025-01-13.html</id>
-    <published>2025-01-13T14:00:00.000Z</published>
-    <updated>2025-01-19T13:13:34.047Z</updated>
-    
-    <content type="html"><![CDATA[<p>早上焊了半天 CH32V006K8U6，总是无法刷固件。</p>
-<p>下午检查电路图时，发现焊错板子了！</p>
-<p>为了赶进度，我几乎同时做了 CHV035 和 CHV006 的板子。结果，我判断错了、拿错板子了，尝试把 CHV006 焊到 CHV035 的板子上。而前者是 QFN32 封装，后者是 QFN28 封装，能刷固件才怪。</p>
-<p>换正确的板子后，一把成功，还是加热台好使。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;早上焊了半天 CH32V006K8U6，总是无法刷固件。&lt;/p&gt;
-&lt;p&gt;下午检查电路图时，发现焊错板子了！&lt;/p&gt;
-&lt;p&gt;为了赶进度，我几乎同时做了 CHV035 和 CHV006 的板子。结果，我判断错了、拿错板子了，尝试把 CHV006 焊到 CHV035 的板子上。而
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0112 - 加热模块</title>
-    <link href="https://atjason.com/daily/2025-01-12.html"/>
-    <id>https://atjason.com/daily/2025-01-12.html</id>
-    <published>2025-01-12T14:00:00.000Z</published>
-    <updated>2025-01-12T14:17:27.161Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://i0.wp.com/pic1.imgdb.cn/item/6783cecdd0e0a243d4f3b12f.png" alt=""></p>
-<p>做了加热控制器及外壳，可以形成一个模块。进而，可以方便地在不同地方进行原型测试，比如放在一个箱子顶上。</p>
-<p>实际，淘宝上的差不多功能的 PID 控制器，卖 200 多…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;img src=&quot;https://i0.wp.com/pic1.imgdb.cn/item/6783cecdd0e0a243d4f3b12f.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;做了加热控制器及外壳，可以形成一个模块。进而，可以方便地在不同地方进行原型测试，比如放在一
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0111 - GD32E230C8T6 MCU</title>
-    <link href="https://atjason.com/daily/2025-01-11.html"/>
-    <id>https://atjason.com/daily/2025-01-11.html</id>
-    <published>2025-01-11T14:00:00.000Z</published>
-    <updated>2025-01-12T14:16:05.450Z</updated>
-    
-    <content type="html"><![CDATA[<p>经销售推荐，了解到 GD32E230C8T6 这款芯片，好像出货量很大，比较稳定可靠，价格也不高，在 1.5~2 元左右。不过，考虑到引脚多，焊点费要再加 0.5。</p>
-<p>基本跑通了 GD32E230 的 macOS + VSCode 开发环境。通过导出再导入，可以将项目导入至 EIDE 中，又回来了自己较为熟悉的开发流程。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;经销售推荐，了解到 GD32E230C8T6 这款芯片，好像出货量很大，比较稳定可靠，价格也不高，在 1.5~2 元左右。不过，考虑到引脚多，焊点费要再加 0.5。&lt;/p&gt;
-&lt;p&gt;基本跑通了 GD32E230 的 macOS + VSCode 开发环境。通过导出再导入，可以
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0110 - PCB 布线的教学视频</title>
-    <link href="https://atjason.com/daily/2025-01-10.html"/>
-    <id>https://atjason.com/daily/2025-01-10.html</id>
-    <published>2025-01-10T14:00:00.000Z</published>
-    <updated>2025-01-12T14:15:14.494Z</updated>
-    
-    <content type="html"><![CDATA[<p>看了些 PCB 布线的教学视频，还是学到了点东西，比如快捷键、一些小规则等等。</p>
-<p>开心，进一寸有一寸的欢喜。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;看了些 PCB 布线的教学视频，还是学到了点东西，比如快捷键、一些小规则等等。&lt;/p&gt;
-&lt;p&gt;开心，进一寸有一寸的欢喜。&lt;/p&gt;
-
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0109 - 芯片的 Flash 读写</title>
-    <link href="https://atjason.com/daily/2025-01-09.html"/>
-    <id>https://atjason.com/daily/2025-01-09.html</id>
-    <published>2025-01-09T14:00:00.000Z</published>
-    <updated>2025-01-12T14:14:38.227Z</updated>
-    
-    <content type="html"><![CDATA[<p>原来，Flash 并不是刷完固件后就不能写，代码也是可以写、可以用这部分空间的。</p>
-<p>只是，Flash 前面的部分存储的是运行代码。作为配置的数据，得存储在接近末尾的地方，以避免被覆盖。</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;原来，Flash 并不是刷完固件后就不能写，代码也是可以写、可以用这部分空间的。&lt;/p&gt;
-&lt;p&gt;只是，Flash 前面的部分存储的是运行代码。作为配置的数据，得存储在接近末尾的地方，以避免被覆盖。&lt;/p&gt;
-
     
     </summary>
     
