@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://atjason.com/"/>
-  <updated>2025-03-02T14:23:40.249Z</updated>
+  <updated>2025-03-09T14:09:50.326Z</updated>
   <id>https://atjason.com/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0303 - 一些琐碎的想法</title>
+    <link href="https://atjason.com/daily/2025-03-03.html"/>
+    <id>https://atjason.com/daily/2025-03-03.html</id>
+    <published>2025-03-03T14:00:00.000Z</published>
+    <updated>2025-03-09T14:09:50.326Z</updated>
+    
+    <content type="html"><![CDATA[<p>陪伴孩子，不见得花很多很多时间。把一部分时间用来提升自己的眼界、认知、格局，潜移默化中影响孩子，关键时刻能指点一下，可能是对他更大的帮助。</p>
+<p>人不管怎么委屈自己，都不可能让所有周围人满意。那么，至少让自己满意。</p>
+<p>自己过得舒畅，才能有更好的心态教育孩子。</p>
+<p>培养孩子独立、自主的能力，可能比具体的知识更重要。</p>
+<p>「我只希望他们快乐。我知道亚洲的父母很希望孩子有所成就，但我希望他们想做什么就做什么，我只管做好我自己，我相信我的孩子，他的人品和能力。我做好自己，他们就会做好他们。」</p>
+<p>此刻、当下，让身边的家人过得开心、舒心。什么我为了你以后好、所以让你现在难受，大多时候是扯淡。</p>
+<p>把家庭责任当成理由，但某种程度只是自己的借口。</p>
+<p>做你热爱的事，money follows.</p>
+<p>阶层跨越几乎不可能，人的运势可能生下来就决定了。我们努力能影响的，可能只是运势的幅度。既然如此，和自己和解，心态放松些。</p>
+<p>抓住大势，比自己闷头努力强得多。</p>
+<p>AI 时代的超级个体，打磨令人愉悦的产品。</p>
+<p>人的精神总在两种状态下摇摆：未实现理想的痛苦，和实现理想后的空虚。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;陪伴孩子，不见得花很多很多时间。把一部分时间用来提升自己的眼界、认知、格局，潜移默化中影响孩子，关键时刻能指点一下，可能是对他更大的帮助。&lt;/p&gt;
+&lt;p&gt;人不管怎么委屈自己，都不可能让所有周围人满意。那么，至少让自己满意。&lt;/p&gt;
+&lt;p&gt;自己过得舒畅，才能有更好的心态教育孩
+    
+    </summary>
+    
+      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>0301 - 加湿器</title>
@@ -117,14 +151,14 @@
     <link href="https://atjason.com/daily/2025-02-25.html"/>
     <id>https://atjason.com/daily/2025-02-25.html</id>
     <published>2025-02-25T14:00:00.000Z</published>
-    <updated>2025-03-02T14:20:59.203Z</updated>
+    <updated>2025-03-02T14:24:59.119Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="" alt="https://i2.wp.com/pic1.imgdb.cn/item/67c46940d0e0a243d40a2e31.png"></p>
+    <content type="html"><![CDATA[<p><img src="https://i2.wp.com/pic1.imgdb.cn/item/67c46940d0e0a243d40a2e31.png" alt=""></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;https://i2.wp.com/pic1.imgdb.cn/item/67c46940d0e0a243d40a2e31.png&quot;&gt;&lt;/p&gt;
+      &lt;p&gt;&lt;img src=&quot;https://i2.wp.com/pic1.imgdb.cn/item/67c46940d0e0a243d40a2e31.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 
     
     </summary>
@@ -493,38 +527,6 @@
 &lt;p&gt;女主高开平走，&lt;br&gt;男主低开高走；&lt;br&gt;开始是男主高攀，&lt;br&gt;最后是不忘初心。&lt;/p&gt;
 &lt;p&gt;以及，万事万物皆可谈情说爱。&lt;/p&gt;
 
-    
-    </summary>
-    
-      <category term="每天写一点" scheme="https://atjason.com/categories/%E6%AF%8F%E5%A4%A9%E5%86%99%E4%B8%80%E7%82%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>0115 - 电源电路</title>
-    <link href="https://atjason.com/daily/2025-01-15.html"/>
-    <id>https://atjason.com/daily/2025-01-15.html</id>
-    <published>2025-01-15T14:00:00.000Z</published>
-    <updated>2025-01-19T13:15:50.175Z</updated>
-    
-    <content type="html"><![CDATA[<p>这两天很是研究了一下电源电路。</p>
-<p>需求是输入 24V、输出 12V/100mA 及 5V/30mA。</p>
-<p>最基础的，是使用分压型降压，不论是 LDO，还是什么稳压二极管、TL431、LM317，本质上都是一样的：在输入的能量中，除了负载使用的，全部自己消耗掉，也就是产生废热，需要耗散掉。</p>
-<p>按上面的需求来计算，耗散功率为：<code>(24V-12V)*100mA + (24V-5V)*30mA = 1.2W + 0.57W = 1.77W</code>。这个耗散功率有点高。</p>
-<p>一方面，对低功耗设备是不可接受了；另一方面，即使不考虑功耗，长时间工作在高温甚至极限条件下，明显也是不好的。再有，如果板子上有温湿度传感器，高温也是有影响的。</p>
-<p>再一种，就是 DCDC，它的原理不一样：相当于给一个大水管加个水龙头，需要多大水量，水龙头拧多大就行。当然，它也会有损耗，相当于水龙头漏水。总的来说，在工作到在它的最佳条件时，转换效率能达到 95% 甚至更高（也就是只浪费 5% 的能量）。但是，如果不是最佳工作条件，效率会降低，甚至低到 50%，跟 LDO 一样。</p>
-<p>看起来挺好，也是有代价的：成本高、电路略复杂。一方面，DCDC Buck 芯片本身价格高，是 LDO 的几倍到 N 倍；另一方面，它还需要配合电容电感电阻等外部元件，进一步增加成本。</p>
-<p>用 DCDC，还有个纠结的点：以 LV2841/2 这颗芯片来看，输入 18V、 输出 12V 100mA 时，它的转换效率竟然只有 50%~60%。费这么大劲，效率几乎没提高。</p>
-<p>感觉我这个大压差、较小电流的需求，比较尴尬，两边不靠…</p>
-<p>到底是省成本、还是花小钱办大事，这两天脑子里反复摇摆…</p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这两天很是研究了一下电源电路。&lt;/p&gt;
-&lt;p&gt;需求是输入 24V、输出 12V/100mA 及 5V/30mA。&lt;/p&gt;
-&lt;p&gt;最基础的，是使用分压型降压，不论是 LDO，还是什么稳压二极管、TL431、LM317，本质上都是一样的：在输入的能量中，除了负载使用的，全部自己
     
     </summary>
     
